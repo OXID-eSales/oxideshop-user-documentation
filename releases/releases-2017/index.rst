@@ -1,4 +1,4 @@
 ﻿Releases 2017
 *************
 
-31.01.2017 - OXID eShop 4.10.3/5.3.3 <oxid-eshop-4103533.rst>
+xx.xx.2017 - OXID eShop 6.0.0 <oxid-eshop-600.rst>
