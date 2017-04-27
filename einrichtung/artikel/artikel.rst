@@ -20,24 +20,24 @@ Wird ein Artikel aus der Artikelliste gewählt, werden dessen Informationen in d
 -----------------------------------------------------------------------------------------
 
 .. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
+.. |br| raw:: html
 
    <br />
 
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Artikel, Titel, Artikelnummer, EAN, MPN, Kurz- und Langbeschreibung, Suchbegriffe und Stichworte, Lieferant und Hersteller, Preis und alternativer Preis, spezielle MwSt. |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+`Artikel lesen <registerkarte-stamm>`__ |link|
 
 Registerkarte Erweitert
 +++++++++++++++++++++++
 **Inhalte**: Gewicht, Maße, Menge, Grundpreis, externe URL, Einkaufspreis, UVP, alternatives Template, suchbar und individualisierbar, immaterieller Artikel (Dienstleistung), versandkostenfrei, europäische Verbraucherrechterichtlinie 2013, Wegfall des Widerrufsrechts für immaterielle und Download-Artikel, kostenloser Artikel dazu, Kategorien zuordnen, Mediendateien als URL oder zum Download, Preise aktualisieren |br| 
-`Artikel lesen <registerkarte-erweitert.html>`_ |link|
+`Artikel lesen <registerkarte-erweitert>`__ |link|
 
 Registerkarte Lager
 +++++++++++++++++++
 **Inhalte**: Lagerbestand, Fremdlager, Artikel ausverkauft, offline oder nicht bestellbar, Lieferzeit, Artikel wieder lieferbar, Artikel auf Lager, Artikel nicht auf Lager, E-Mail zum Lagerbestand, Meldungen zum Lagerbestand, Staffelpreise, Menge, Mengenrabatt |br|
-`Artikel lesen <registerkarte-lager.html>`_ |link|
+`Artikel lesen <registerkarte-lager>`__ |link|
 
 Registerkarte Mall
 ++++++++++++++++++

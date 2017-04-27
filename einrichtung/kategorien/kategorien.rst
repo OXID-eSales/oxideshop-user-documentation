@@ -25,17 +25,17 @@ In der Fußzeile finden Sie\die Funktionen: :guilabel:`Neue Kategorie anlegen`, 
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Kategorie, Titel, Kurzbeschreibung, Haupt- und Unterkategorien, Kategoriestruktur, Kategoriebilder, externer Link, alternatives Template, Schnellsortierung der Artikel, spezielle Mehrwertsteuer, negative Nachlässe |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+`Artikel lesen <registerkarte-stamm>`__ |link|
 
 Registerkarte Langtext
 ++++++++++++++++++++++
 **Inhalte**: Beschreibung der Kategorie, Editor, WYSIWYG, HTML-Tags, SelfHTML, OXID eXchange |br|
-`Artikel lesen <registerkarte-langtext.html>`_ |link|
+`Artikel lesen <registerkarte-langtext>`__ |link|
 
 Registerkarte Bilder
 ++++++++++++++++++++
 **Inhalte**: Kategoriebilder, Bild, Thumbnail, Icon, Vorschau |br|
-`Artikel lesen <registerkarte-bilder.html>`_ |link|
+`Artikel lesen <registerkarte-bilder>`__ |link|
 
 Registerkarte Sortierung
 ++++++++++++++++++++++++
