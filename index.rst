@@ -1,14 +1,15 @@
-OXID eShop
-==========
+Anwenderdokumentation
+=====================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Anwenderhandbuch
+   :caption: OXID eShop
    
-   Willkommen <willkommen/index.rst>
-   Installation <installation/index.rst>
-   Konfiguration <konfiguration/index.rst>
-   Einrichtung <einrichtung/index.rst>
-   Betrieb <betrieb/index.rst>
-   Enterprise Edition <enterprise-edition/index.rst>
-   Releases <releases/index.rst>
+   Willkommen <willkommen/index>
+   Installation <installation/index>
+   Konfiguration <konfiguration/index>
+   Einrichtung <einrichtung/index>
+   Betrieb <betrieb/index>
+   Enterprise Edition <enterprise-edition/index>
+   Releases <releases/index>
+
