@@ -43,7 +43,7 @@ Download der Konfigurationsdateien
 ++++++++++++++++++++++++++++++++++
 Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können hier heruntergeladen werden. Markieren Sie dafür den Link mit der rechten Maustaste und speichern Sie die Datei lokal. Ein Klick mit der linken Maustaste öffnet die Konfigurationsdatei im Browser.
 
-*  :download:`default.vcl <https://support.oxid-esales.com/downloads/varnish/6.0.0/default.vcl>_` für Enterprise Edition ab 6.0.0 und Varnish ab 4.0.3
+* `default.vcl <http://support.oxid-esales.com/downloads/varnish/6.0.0/default.vcl>`_ für Enterprise Edition ab 6.0.0 und Varnish ab 4.0.3
 
 Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese Dateien in Ihrem System bereits angepasst, müssen Sie die Inhalte der Dateien manuell zusammenführen. Starten Sie danach Apache und Varnish neu.
 
