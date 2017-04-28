@@ -5,5 +5,5 @@
 .. toctree::
    :maxdepth: 1
    
-   rechte-und-rollen.rst
+   rechte-und-rollen
    

@@ -4,12 +4,12 @@ Rabatte
 .. toctree::
    :maxdepth: 1
       
-   rabatte.rst
-   registerkarte-stamm.rst
-   registerkarte-artikel.rst
-   registerkarte-benutzer.rst			
-   registerkarte-mall.rst				
-   zeitlich-begrenzte-rabatte.rst   
-   rabatte-auf-ausgewaehlte-artikel.rst	
-   rabatte-fuer-bestimmte-benutzer.rst	
-   artikel-als-zugabe.rst
+   rabatte
+   registerkarte-stamm
+   registerkarte-artikel
+   registerkarte-benutzer
+   registerkarte-mall
+   zeitlich-begrenzte-rabatte
+   rabatte-auf-ausgewaehlte-artikel
+   rabatte-fuer-bestimmte-benutzer
+   artikel-als-zugabe

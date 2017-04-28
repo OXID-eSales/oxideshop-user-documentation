@@ -4,10 +4,10 @@ Benutzer
 .. toctree::
    :maxdepth: 1
       
-   benutzer.rst
-   registerkarte-stamm.rst   
-   registerkarte-erweitert.rst
-   registerkarte-artikel.rst
-   registerkarte-historie.rst
-   registerkarte-adressen.rst
-   registerkarte-zahlung.rst
+   benutzer
+   registerkarte-stamm
+   registerkarte-erweitert
+   registerkarte-artikel
+   registerkarte-historie
+   registerkarte-adressen
+   registerkarte-zahlung

@@ -5,8 +5,8 @@
 .. toctree::
    :maxdepth: 1
    
-   vererbung.rst
-   vererbbare-elemente.rst
-   nicht-vererbbare-elemente.rst
-   geteilte-elemente.rst
-   individualisierung.rst
+   vererbung
+   vererbbare-elemente
+   nicht-vererbbare-elemente
+   geteilte-elemente
+   individualisierung

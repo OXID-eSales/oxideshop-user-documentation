@@ -5,7 +5,7 @@
 .. toctree::
    :maxdepth: 1
    
-   mall-funktion.rst
-   hauptshop-elternshops.rst
-   subshops-supershops-multishops.rst
-   Vererbung <vererbung/index.rst>
+   mall-funktion
+   hauptshop-elternshops
+   subshops-supershops-multishops
+   Vererbung <vererbung/index>
