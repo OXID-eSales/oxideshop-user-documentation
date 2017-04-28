@@ -9,9 +9,9 @@ Rabatte lassen sich für einen bestimmten Zeitraum oder gar länderspezifisch de
    :height: 503
    :width: 650
 
-Mengennachlass oder Staffelrabatt können mit Staffelpreisen bei den Artikeln umgesetzt werden. Damit kann definiert werden, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird. Siehe: `Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager.html>`_
+Mengennachlass oder Staffelrabatt können mit Staffelpreisen bei den Artikeln umgesetzt werden. Damit kann definiert werden, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird. Siehe: :doc:`Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`
 
-Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: `Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm.html>`_
+Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`
 
 Im OXID eShop können natürlich verschiedene Rabatte aktiv sein, so dass unter bestimmten Bedingungen mehrere Rabatte beim Einkauf berücksichtigt und im Warenkorb ausgewiesen werden. Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht. Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt.
 
@@ -40,20 +40,20 @@ Wird ein Rabatt aus der Liste der Rabatte gewählt, werden dessen Informationen 
 Registerkarte Stamm 
 +++++++++++++++++++ 
 **Inhalte**: aktiver Rabatt, immer aktiv, aktiv für Zeitraum, Einkaufsmenge, Einkaufswert, absoluter Rabatt, prozentualer Rabatt, Dreingabe, Zugabe, kostenfreier Artikel |br|
-Artikel lesen <registerkarte-stamm.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Artikel
 +++++++++++++++++++++
 **Inhalte**: Artikel und Kategorien zuordnen |br|
-Artikel lesen <registerkarte-artikel.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-artikel>` |link|
 
 Registerkarte Benutzer
 ++++++++++++++++++++++
 **Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-Artikel lesen <registerkarte-benutzer.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-benutzer>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Rabatte vererben, Rabatte verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
-Artikel lesen <registerkarte-mall.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|

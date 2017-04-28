@@ -13,4 +13,4 @@ Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster, in 
 
 Mit der Sortierung kann beeinflusst werden, in welcher Reihenfolge die auf den Attributen und ihren Werten basierenden Filter in der Kategorieübersicht angeordnet sind. Die im Zuordnungsfenster festgelegte Reihenfolge der Attribute überschreibt die bei den Attributen definierte Sortierung.
 
-.. seealso:: `Kategorien <../kategorien/kategorien.html>`_ | `Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln.html>`_
+.. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`

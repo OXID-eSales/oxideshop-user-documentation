@@ -43,25 +43,7 @@ Download der Konfigurationsdateien
 ++++++++++++++++++++++++++++++++++
 Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können hier heruntergeladen werden. Markieren Sie dafür den Link mit der rechten Maustaste und speichern Sie die Datei lokal. Ein Klick mit der linken Maustaste öffnet die Konfigurationsdatei im Browser.
 
-*  `default.vcl <https://support.oxid-esales.com/downloads/varnish/5.2.5/default.vcl>`_ 
-* für Enterprise Edition ab 5.2.5 und Varnish ab 4.0.3
-  Die Datei wurde am 26.01.2016 aktualisiert. Grund: kleine Korrekturen im Cookie-Handling.
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.2.0/default.vcl>`_ 
-* für Enterprise Edition ab 5.2.0
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.1.0/default.vcl>`_ 
-* für Enterprise Edition ab 5.1.0
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.9/default.vcl>`_ 
-* für Enterprise Edition ab 5.0.9
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.2/default.vcl>`_ 
-* für Enterprise Edition 5.0.2 - 5.0.8
-* .. note:: Bitte beachten Sie die Release-Informationen zu
-*  `OXID eShop 4.7.2/5.0.2 <de/support-services/dokumentation-und-hilfe/oxid-eshop/releases/releases-2012/oxid-eshop-472502.html>`_ 
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.0/default.vcl>`_ 
-* für Enterprise Edition 5.0.0 - 5.0.1
-*  `servers_conf.vcl <http://support.oxid-esales.com/downloads/varnish/5.2.5/servers_conf.vcl>`_ 
-* für Enterprise Edition ab 5.2.5 und Varnish ab 4.0.3
-*  `servers_conf.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.0/servers_conf.vcl>`_ 
-* für Enterprise Edition ab 5.0.0
+*  :download:`default.vcl <https://support.oxid-esales.com/downloads/varnish/6.0.0/default.vcl>_` für Enterprise Edition ab 6.0.0 und Varnish ab 4.0.3
 
 Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese Dateien in Ihrem System bereits angepasst, müssen Sie die Inhalte der Dateien manuell zusammenführen. Starten Sie danach Apache und Varnish neu.
 

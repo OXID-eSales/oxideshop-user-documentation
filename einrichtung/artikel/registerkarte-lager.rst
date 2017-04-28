@@ -7,7 +7,7 @@ Eine in den OXID eShop integrierte Lagerverwaltung zeigt den Kunden die Verfügb
    :height: 329
    :width: 650
 
-Um die `Lagerverwaltung <../../konfiguration/lagerverwaltung.html>`_ nutzen zu können, muss diese in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Lager` aktiviert und konfiguriert werden.
+Um die :doc:`Lagerverwaltung <../../konfiguration/lagerverwaltung>` nutzen zu können, muss diese in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Lager` aktiviert und konfiguriert werden.
 
 :guilabel:`Lagerbestand`
 
@@ -67,4 +67,4 @@ Geben Sie die Artikelmenge für einen Mengenbereich ein.
 
 Geben Sie den Artikelpreis für eine Mengeneinheit ein. Dieser kann ein absoluter Preis oder ein Preis in Prozent sein.
 
-.. seealso:: `Staffelpreise <../artikel-und-kategorien/staffelpreise.html>`_
+.. seealso:: :doc:`Staffelpreise <../artikel-und-kategorien/staffelpreise>`

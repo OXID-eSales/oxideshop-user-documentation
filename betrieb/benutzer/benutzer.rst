@@ -2,7 +2,7 @@
 ********
 Jeder Kunde, der das erste Mal im Shop mit oder ohne Registrierung einkauft, wird als Benutzer erfasst. Auch wenn ein Kunde sich anmeldet, um ein Kundenkonto zu erstellen, oder den Newsletter abonniert, erstellt der Shop einen neuen Benutzer oder aktualisiert einen bereits vorhandenen.
 
-Eine besondere Form des Benutzers ist der mit Administratorrechten. Im Gegensatz zu den Benutzern, die ausschließlich mit dem Frontend des Shops interagieren, hat der Administrator auch die Möglichkeit, die Konfiguration des Shops anzupassen, Artikel und Kategorien zu bearbeiten, also den Administrationsbereich des Shops zu nutzen. Der erste Administrator wird während der Installation des Shops angelegt. Im Schritt 5 beim `Setup ausführen <../../installation/neu-installation/setup-ausfuehren.html>`_ mussten Sie die E-Mail-Adresse und das Passwort dieses Administrators eingeben und konnten sich nach abgeschlossenem Setup direkt im Administrationsbereich anmelden.
+Eine besondere Form des Benutzers ist der mit Administratorrechten. Im Gegensatz zu den Benutzern, die ausschließlich mit dem Frontend des Shops interagieren, hat der Administrator auch die Möglichkeit, die Konfiguration des Shops anzupassen, Artikel und Kategorien zu bearbeiten, also den Administrationsbereich des Shops zu nutzen. Der erste Administrator wird während der Installation des Shops angelegt. Im Schritt 5 beim :doc:`Setup ausführen <../../installation/neu-installation/setup-ausfuehren>` mussten Sie die E-Mail-Adresse und das Passwort dieses Administrators eingeben und konnten sich nach abgeschlossenem Setup direkt im Administrationsbereich anmelden.
 
 In der Enterprise Edition gibt es Administratoren, die mit allen Shops arbeiten können, und solche, die nur Zugriff auf einen bestimmten Shop haben. Der bei der Installation erstellte Benutzer mit Administratorrechten kann auf alle Shops zugreifen und im Administrationsbereich zwischen den einzelnen Shops wechseln.
 
@@ -34,31 +34,31 @@ Unter :menuselection:`Benutzer verwalten --> Benutzerliste` werden ebenfalls all
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Benutzer, Rechte des Benutzers, Kunde, Admin, Administrator, Benutzerdaten, Name, Anschrift, Rechnungsadresse, E-Mail, Telefon, Kundennummer, Passwort, Benutzergruppen zuordnen |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Erweitert
 +++++++++++++++++++++++
 **Inhalte**: Zusatzinformationen zum Benutzer, Telefonnummer, Handynummer, Mobilfunknummer, Newsletter, Double-Opt-in, ungültige E-Mail-Adresse, Bonität, Kreditwürdigkeit, zugelassene Zahlungsarten, URL, Bonuspunkte, Freunde einladen, Kunden werben, Zuordnung zu Benutzergruppen, keine automatische Zuordnung |br|
-`Artikel lesen <registerkarte-erweitert.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-erweitert>` |link|
 
 Registerkarte Artikel
 +++++++++++++++++++++
 **Inhalte**: Gekaufte Artikel des Benutzers, Übersicht, Anzahl, Artikelnummer, Titel, Typ, Variantenauswahl, Kurzbeschreibung |br|
-`Artikel lesen <registerkarte-artikel.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-artikel>` |link|
 
 Registerkarte Historie
 ++++++++++++++++++++++
 **Inhalte**: Notiz, Protokoll, Kundenaktionen, Kundeninformationen |br|
-`Artikel lesen <registerkarte-historie.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-historie>` |link|
 
 Registerkarte Adressen
 ++++++++++++++++++++++
 **Inhalte**: neue Adresse, Lieferadresse, Rechnungsadresse, Bestellung, Konto, Rechnungs- und Liefereinstellungen |br|
-`Artikel lesen <registerkarte-adressen.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-adressen>` |link|
 
 Registerkarte Zahlung
 +++++++++++++++++++++
 **Inhalte**: bisher verwendete Zahlungsarten, Nachnahme, Kreditkarte, Bankeinzug/Lastschrift, Vorauskasse, Rechnung, Empty, gespeicherte Bankverbindung |br|
-`Artikel lesen <registerkarte-zahlung.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-zahlung>` |link|
 
-.. seealso:: `Benutzergruppen <../benutzergruppen/benutzergruppen.html>`_ | `Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten.html>`_ | `Versandarten <../../einrichtung/versandarten/versandarten.html>`_ | `Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln.html>`_
+.. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`

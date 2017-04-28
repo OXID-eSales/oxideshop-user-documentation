@@ -2,9 +2,7 @@
 *******************
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zur Aktion vorgenommen. Erstellen oder bearbeiten Sie hier die Aktion. Beim Anlegen einer Aktion muss deren Typ festgelegt werden. Je nachdem, ob Aktion, Promotion oder Banner ausgewählt wurde, unterscheiden sich die Einstellungen auf der Registerkarte mehr oder weniger voneinander.
 
-
-
-Bitte beachten Sie, dass das Theme \"Azure\" den Typ Promotion und einige Möglichkeiten vom Typ Aktion nicht auf der Startseite anzeigt. Siehe: `Aktionen und Startseite <aktionen-und-startseite.html>`_
+Bitte beachten Sie, dass das Theme \"Azure\" den Typ Promotion und einige Möglichkeiten vom Typ Aktion nicht auf der Startseite anzeigt. Siehe: :doc:`Aktionen und Startseite <aktionen-und-startseite>`
 
 Typ Aktion
 ----------
@@ -89,4 +87,4 @@ Der Aktion kann ein Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Prod
 
 Mit der Schaltfläche :guilabel:`Produkt zuordnen` wird das Banner mit dem in der Liste markierten Artikel verbunden. Mit der Schaltfläche :guilabel:`Produktzuordnung löschen` wird eine bestehende Verbindung zwischen Banner und Artikel getrennt.
 
-.. seealso:: `Aktionen <aktionen.html>`_ | `Aktionen und Startseite <aktionen-und-startseite.html>`_ | `Aktion für Newsletter <aktion-fuer-newsletter.html>`_
+.. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktionen und Startseite <aktionen-und-startseite>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>`

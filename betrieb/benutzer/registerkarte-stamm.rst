@@ -89,4 +89,4 @@ Benutzer können verschiedenen Benutzergruppen angehören. Die Zusammenfassung v
 
 Die Schaltfläche :guilabel:`Benutzergruppen zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Benutzergruppen angezeigt. Diese können per Drag \& Drop in die rechte Liste verschoben werden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Damit ist die Zuordnung abgeschlossen.
 
-.. seealso:: `Benutzergruppen <../benutzergruppen/benutzergruppen.html>`_
+.. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`

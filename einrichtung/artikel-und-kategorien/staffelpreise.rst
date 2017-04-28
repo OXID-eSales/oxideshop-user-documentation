@@ -20,4 +20,4 @@ Der Staffelpreis wird in der Artikelverwaltung festgelegt.
 
 .. hint:: Bitte beachten Sie, dass bei der Staffel mit der größten Artikelanzahl immer eine ausreichend große Menge im Feld :guilabel:`bis` steht, beispielsweise 999999. Anderenfalls würde bei der Überschreitung der obersten Staffelmenge wieder der Originalpreis des Artikels gelten.
 
-.. seealso:: `Artikel - Registerkarte Lager <../artikel/registerkarte-lager.html>`_
+.. seealso:: :doc:`Artikel - Registerkarte Lager <../artikel/registerkarte-lager>`

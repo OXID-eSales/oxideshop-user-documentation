@@ -25,18 +25,18 @@ Wird ein Lieferant aus der Lieferantenliste gewählt, werden dessen Informatione
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Lieferant, Titel, Kurzbeschreibung, Icon, Lieferantenlogo, Hochladen, Upload auf Webserver, automatisch generiert, Artikel zuordnen |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 
 **Inhalte**: Lieferanten vererben, Lieferanten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-`Artikel lesen <registerkarte-mall.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|
 
 Registerkarte SEO
 +++++++++++++++++
 **Inhalte**: Suchmaschinenoptimierung, SEO, SEO URL, Titel Suffix, URL fixieren, Meta-Tags, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\" |br|
-`Artikel lesen <registerkarte-seo.html>`_ |link| 
+:doc:`Artikel lesen <registerkarte-seo>` |link|
 
-.. seealso:: `Artikel <../artikel/artikel.html>`_ | `Hersteller <../hersteller/hersteller.html>`_
+.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Hersteller <../hersteller/hersteller>`

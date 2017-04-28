@@ -7,7 +7,7 @@ Wurden für die Kategorie ein Bild und/oder ein Icon hochgeladen, werden die Bil
    :height: 333
    :width: 650
 
-Als :guilabel:`Thumbnail `ist dabei das Bild zu sehen, welches in der Kategorieansicht als Banner angezeigt wird, sobald die Kategorie im Shop aufgerufen wird. Das :guilabel:`Icon` stellt eine Unterkategorie in der Kategorieansicht dar.
+Als :guilabel:`Thumbnail` ist dabei das Bild zu sehen, welches in der Kategorieansicht als Banner angezeigt wird, sobald die Kategorie im Shop aufgerufen wird. Das :guilabel:`Icon` stellt eine Unterkategorie in der Kategorieansicht dar.
 
 .. image:: ../../media/screenshots-de/oxbabm02.png
    :alt: Kategorieansicht

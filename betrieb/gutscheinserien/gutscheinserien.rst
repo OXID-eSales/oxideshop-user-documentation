@@ -40,15 +40,15 @@ Wird eine Gutscheinserie aus der Liste der Gutscheinserien gewählt, werden dere
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: Gültige Gutscheinserie, gültig im Zeitraum, gültig mit gleicher Serie, gültig mit anderer Serie, Gutscheinwert, Rabatt, absolut und prozentual, Gutscheine gerieren und exportieren, Zufallsnummern, Gutscheinnummer, Gutscheincode |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Benutzergruppen \& Artikel
 ++++++++++++++++++++++++++++++++++++++++
 **Inhalte**: Gutscheine für Benutzergruppen, Benutzergruppen zuordnen, Gutscheine für Kategorien, Kategorien zuordnen, Gutscheine für Artikel, Artikel zuordnen |br|
-`Artikel lesen <registerkarte-benutzergruppen-artikel.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-benutzergruppen-artikel>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Gutscheinserien vererben, Gutscheinserien verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
-`Artikel lesen <registerkarte-mall.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|

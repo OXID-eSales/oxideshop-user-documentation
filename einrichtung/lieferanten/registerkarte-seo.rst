@@ -15,7 +15,7 @@ Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Inf
 
 :guilabel:`Titel Suffix in Kategorie anzeigen`
 
-Diese Einstellung bestimmt, ob das Titel-Suffix im Seitentitel angezeigt wird. Würde die Übersicht aller Artikel dieses Lieferanten über die URL aufgerufen, enthielte der Seitentitel auch den Titel-Suffix, der unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel Suffix` definiert wurde.\Beispiel Demoshop:\<title\>OXID Surf- und Kiteshop | www.lonasport.com | online kaufen\</title\>. Mehr Informationen dazu finden Sie unter\ `SEO-Einstellungen <../../konfiguration/seo-einstellungen.html>`_ .
+Diese Einstellung bestimmt, ob das Titel-Suffix im Seitentitel angezeigt wird. Würde die Übersicht aller Artikel dieses Lieferanten über die URL aufgerufen, enthielte der Seitentitel auch den Titel-Suffix, der unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel Suffix` definiert wurde.\Beispiel Demoshop:\<title\>OXID Surf- und Kiteshop | www.lonasport.com | online kaufen\</title\>. Mehr Informationen dazu finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
 
 Im Frontend gibt es standardmäßig keinen Aufruf der Übersicht aller Artikel eines Lieferanten.
 

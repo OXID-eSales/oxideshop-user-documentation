@@ -2,11 +2,11 @@
 **********************************
 Beim Anlegen eines Shops wird definiert, zu welchem Shoptyp der neue Shop gehört und ob er Artikel, Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten und weitere Elemente von einem Elternshop erben soll. Shoptypen sind Subshop, Supershop und Multishop.
 
-Der *Subshop*  ist ein Shop ohne spezielle Eigenschaften. Er kann die Artikel und Einstellungen von einem Elternshop erben und diese an neue Shops vererben. Artikel, Attribute, Auswahllisten und andere Elemente können nur mit Subshops verknüpft werden, für die der Shop Elternshop ist.
+Der *Subshop* ist ein Shop ohne spezielle Eigenschaften. Er kann die Artikel und Einstellungen von einem Elternshop erben und diese an neue Shops vererben. Artikel, Attribute, Auswahllisten und andere Elemente können nur mit Subshops verknüpft werden, für die der Shop Elternshop ist.
 
-Der *Supershop*  kann ebenfalls Artikel und Einstellungen von einem Elternshop erben und sie an neue Shops weitergeben. In einem Supershop besteht darüber hinaus die Möglichkeit, Artikel, Attribute, Auswahllisten u.a. mit jedem Shop zu verknüpfen. Das gilt auch für den Hauptshop und für Subshops, für den der Supershop nicht Elternshop ist.
+Der *Supershop* kann ebenfalls Artikel und Einstellungen von einem Elternshop erben und sie an neue Shops weitergeben. In einem Supershop besteht darüber hinaus die Möglichkeit, Artikel, Attribute, Auswahllisten u.a. mit jedem Shop zu verknüpfen. Das gilt auch für den Hauptshop und für Subshops, für den der Supershop nicht Elternshop ist.
 
-Der *Multishop*  kommt ohne Vererbung aus, denn er zeigt alle Artikel, Hersteller und Lieferanten aus allen Shops an. Als einziger Shoptyp kann er alle Kategorien aus anderen Shops übernehmen.
+Der *Multishop* kommt ohne Vererbung aus, denn er zeigt alle Artikel, Hersteller und Lieferanten aus allen Shops an. Als einziger Shoptyp kann er alle Kategorien aus anderen Shops übernehmen.
 
 .. image:: ../../media/screenshots-de/oxbagn01.png
    :alt: Neuen Shop anlegen

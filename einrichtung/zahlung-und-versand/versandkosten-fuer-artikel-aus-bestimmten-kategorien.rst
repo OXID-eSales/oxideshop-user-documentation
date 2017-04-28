@@ -54,4 +54,4 @@ Wird zusätzlich ein Trapez in den Warenkorb gelegt, ist auch die zweite Versand
 
 7,49 € kostet auch der Versand eines einzelnen Trapezes, da beide Versandkostenregeln zutreffen. Die erste Versandkostenregel gilt für alle Artikel und die zweite Versandkostenregel schließt nur die Artikel aus dem Kiteboarding-Zubehör aus.
 
-.. seealso:: `Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel.html>`_ | `Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm.html>`_
+.. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`

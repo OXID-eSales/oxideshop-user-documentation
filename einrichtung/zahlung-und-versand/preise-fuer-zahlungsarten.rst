@@ -23,4 +23,4 @@ Preisauf- und abschläge werden bei der jeweiligen Zahlungsart festgelegt.
 * Die ausgewählten Kosten gelten nur bei einem prozentualen Preisauf- und -abschlag.
 * Speichern Sie die Änderungen.
 
-.. seealso:: `Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm.html>`_
+.. seealso:: :doc:`Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>`

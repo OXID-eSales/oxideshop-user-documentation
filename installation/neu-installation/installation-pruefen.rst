@@ -14,6 +14,6 @@ Prüfscript oxchkversion.php
 +++++++++++++++++++++++++++
 :file:`Oxchkversion.php` ist ein Script zum Überprüfen der Konsistenz Ihres OXID eShop. Es hilft Ihnen zu erkennen, ob alle Shopdateien mit dem FTP-Programm korrekt auf den Webserver kopiert wurden. Das Prüfscript kann im OXID eXchange kostenfrei heruntergeladen werden.
 
-`Oxchkversion für Enterprise und Professional Edition <http://exchange.oxid-esales.com/de/en/OXID-Produkte/Weitere-OXID-Extensions/Oxchkversion-3-2-1-Stable-EE-PE-4-0-x-4-9-x-5-2-x.html>`_ \
+`Oxchkversion für Enterprise und Professional Edition <http://exchange.oxid-esales.com/de/en/OXID-Produkte/Weitere-OXID-Extensions/Oxchkversion-3-2-1-Stable-EE-PE-4-0-x-4-9-x-5-2-x.html>`_
 
-`Oxchkversion für Community Edition <http://exchange.oxid-esales.com/de/en/OXID-Produkte/Weitere-OXID-Extensions/Oxchkversion-CE-3-2-1-Stable-CE-4-7-x-4-9-x.html>`_ \
+`Oxchkversion für Community Edition <http://exchange.oxid-esales.com/de/en/OXID-Produkte/Weitere-OXID-Extensions/Oxchkversion-CE-3-2-1-Stable-CE-4-7-x-4-9-x.html>`_

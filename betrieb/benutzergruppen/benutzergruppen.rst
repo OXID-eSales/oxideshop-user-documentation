@@ -47,11 +47,11 @@ Benutzer, die sich in Ihrem Shop registriert ohne bestellt zu haben, kommen in d
 
 Newsletter-Abonnenten
 +++++++++++++++++++++
-Wird bei einer Bestellung oder Registrierung das Kontrollkästchen :guilabel:`Newsletter abonnieren` angehakt, ist der Benutzer als Newsletter-Abonnent vorgemerkt. Bestätigt der Benutzer einen speziellen Link, den er per E-Mail erhalten hat, wird er für den Newsletter freigeschaltet und in diese Benutzergruppe übernommen. Diese explizite Bestätigung wird auch Double-Opt-in genannt. Meldet sich ein Benutzer später vom Newsletter ab, bleibt er in dieser Benutzergruppe. Der eigentliche Versand des Newsletters wird beim Benutzer auf der `Registerkarte Erweitert <../benutzer/registerkarte-erweitert.html>`_ deaktiviert.
+Wird bei einer Bestellung oder Registrierung das Kontrollkästchen :guilabel:`Newsletter abonnieren` angehakt, ist der Benutzer als Newsletter-Abonnent vorgemerkt. Bestätigt der Benutzer einen speziellen Link, den er per E-Mail erhalten hat, wird er für den Newsletter freigeschaltet und in diese Benutzergruppe übernommen. Diese explizite Bestätigung wird auch Double-Opt-in genannt. Meldet sich ein Benutzer später vom Newsletter ab, bleibt er in dieser Benutzergruppe. Der eigentliche Versand des Newsletters wird beim Benutzer auf der :doc:`Registerkarte Erweitert <../benutzer/registerkarte-erweitert>` deaktiviert.
 
 Preis A/Preis B/Preis C
 +++++++++++++++++++++++
-Diese Benutzergruppen ermöglichen es, ihren Benutzern besondere Artikelpreise anzuzeigen. Die Benutzer müssen der jeweiligen Benutzergruppe manuell zugeordnet werden. Bei den Artikeln können auf der `Registerkarte Stamm <../../einrichtung/artikel/registerkarte-stamm.html>`_ alternative Preise definiert werden (A, B und/oder C), welche die Benutzer der jeweiligen Benutzergruppe (Preis A/Preis B oder Preis C) anstelle des regulären Preises nach Anmeldung im Shop sehen.
+Diese Benutzergruppen ermöglichen es, ihren Benutzern besondere Artikelpreise anzuzeigen. Die Benutzer müssen der jeweiligen Benutzergruppe manuell zugeordnet werden. Bei den Artikeln können auf der :doc:`Registerkarte Stamm <../../einrichtung/artikel/registerkarte-stamm>` alternative Preise definiert werden (A, B und/oder C), welche die Benutzer der jeweiligen Benutzergruppe (Preis A/Preis B oder Preis C) anstelle des regulären Preises nach Anmeldung im Shop sehen.
 
 .. hint::Es kann zu Problemen bei solchen Artikeln kommen, für die keine alternativen Preise definiert wurden. Benutzer aus einer der Benutzergruppen mit den alternativen Preisen bekämen dann 0,00 € angezeigt. Um dies zu vermeiden, aktivieren Sie die Einstellung :guilabel:`Den normalen Artikelpreis verwenden, wenn keine A, B, C Preise vorhanden sind` im Abschnitt :guilabel:`Artikel` unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.`
 
@@ -77,6 +77,6 @@ Benutzern, die Sie dieser Benutzergruppe zugewiesen haben, wird der Zugang zum S
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Benutzergruppe, Name der Benutzergruppe, Sprache, Benutzer zuordnen |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
-.. seealso:: `Benutzer <../benutzer/benutzer.html>`_ | `Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten.html>`_ | `Versandarten <../../einrichtung/versandarten/versandarten.html>`_ | `Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln.html>`_
+.. seealso:: :doc:`Benutzer <../benutzer/benutzer>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`

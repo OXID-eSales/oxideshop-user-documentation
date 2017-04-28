@@ -8,7 +8,7 @@ Die aktuelle Version der `Professional Edition <#todo#http://exchange.oxid-esale
 
 Für die Community Edition sollten Sie sich vor dem Download registrieren. Dadurch erhalten Sie Zugang zum Community Forum, in dem Sie sich mit anderen Shopbetreibern, Agenturen und Entwicklern austauschen können. Die helfen Ihnen gern bei den ersten Schritten mit dem OXID eShop weiter. Das Community Forum steht natürlich auch allen Shopbetreibern mit einer Enterprise oder Professional Edition zum Erfahrungsaustausch offen.
 
-`Community Edition, aktuelle Version <https://www.oxid-esales.com/de/community/oxid-eshop-herunterladen.html>`_ \\
+`Community Edition, aktuelle Version <https://www.oxid-esales.com/de/community/oxid-eshop-herunterladen.html>`_
 
 `Community Edition, alle Installationspakete <https://oxidforge.org/en/downloads-en>`_
 

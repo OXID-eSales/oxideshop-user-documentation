@@ -15,9 +15,9 @@ Mehr Informationen finden Sie im `Informationsbereich zur OXID Community <https:
 
 Direkte Links zur OXIDforge:
 
-* deutschsprachige Tutorials
+* `deutschsprachige Tutorials <https://oxidforge.org/de/shop/tutorial-de>`_
 * englischsprachige Tutorials
-*  `Quellcode-Dokumentation <http://oxidforge.org/en/source-code-documentation-overview>`_ 
+*  `Quellcode-Dokumentation <https://oxidforge.org/en/source-code-documentation-overview>`_
 *  `Datenbank-Schema <http://docu.oxid-esales.com/CE/dbdocumentation/>`_ 
 
 Archiv OXID eShop

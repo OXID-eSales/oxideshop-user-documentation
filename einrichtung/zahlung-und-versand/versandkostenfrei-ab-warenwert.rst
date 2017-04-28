@@ -55,4 +55,4 @@ Wurden Artikel eingekauft, deren Einkaufswert 80 € ist oder darüberliegt, gil
    :height: 262
    :width: 500
 
-.. seealso:: `Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm.html>`_ | `Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm.html>`_ | `Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm.html>`_
+.. seealso:: :doc:`Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`

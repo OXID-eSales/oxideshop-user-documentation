@@ -13,4 +13,4 @@ Zeitlich begrenzte Rabatte werden in der Rabattverwaltung bearbeitet.
 
 Der Rabatt gilt nun für den eingetragenen Zeitraum und die angebenen Konditionen. Ohne Zuordnung von Benutzern oder Benutzergruppen ist der Rabatt für alle Kunden Ihres Online-Shops gültig. Werden darüber hinaus weder Artikel, noch Kategorien zugewiesen, wird der Rabatt auf das komplette Warensortiment gewährt.
 
-.. seealso:: `Rabatte - Registerkarte Stamm <registerkarte-stamm.html>`_
+.. seealso:: :doc:`Rabatte - Registerkarte Stamm <registerkarte-stamm>`

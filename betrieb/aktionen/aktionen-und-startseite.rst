@@ -53,4 +53,4 @@ Eine Box rechts auf der Startseite zeigt dem Kunden die meistverkauften Artikel 
 
 Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` bestimmt die Anzeige der Artikelpreise für diese und eine weitere Aktion.
 
-.. seealso:: `Aktionen <aktionen.html>`_ | `Aktion für Newsletter <aktion-fuer-newsletter.html>`_ | `Registerkarte Stamm <registerkarte-stamm.html>`_
+.. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>` | :doc:`Registerkarte Stamm <registerkarte-stamm>`

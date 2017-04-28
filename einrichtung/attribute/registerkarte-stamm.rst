@@ -31,6 +31,4 @@ Das Attribut lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten.
 
 Dem Attribut können Artikel zugeordnet werden. Wird ein neues Attribut angelegt, ist die Zuordnung von Artikeln erst möglich, nachdem das Attribut gespeichert wurde. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit dem Attribut zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
-Beim Artikel muss für das zugewiesene Attribut noch ein Wert gesetzt werden.
-
-Siehe: `Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl.html>`_
+Beim Artikel muss für das zugewiesene Attribut noch ein Wert gesetzt werden. Siehe: :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`

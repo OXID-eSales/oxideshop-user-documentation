@@ -21,8 +21,6 @@ Die Angabe von Menge und Mengeneinheit wird für Artikel benötigt, für welche 
 
 Der Grundpreis wird in der Detailansicht des Artikels angezeigt.
 
-
-
 Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen Sie 1,5 bei Menge ein und wählen :guilabel:`kg` als Mengeneinheit. Angenommen, der Artikel hat einen Preis von 3 €, wäre der Grundpreis 2 €/kg.
 
 :guilabel:`Externe URL`
@@ -140,4 +138,4 @@ Tragen Sie die Preise ein, welche die bisher festgelegten Preise ersetzen sollen
 
 Legen Sie hier den Zeitpunkt der Preisaktualisierung fest.
 
-.. seealso:: `Kategorien <../kategorien/kategorien.html>`_ | `Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien.html>`_ | `Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels.html>`_ | `Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis.html>`_ | `Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe.html>`_
+.. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`

@@ -10,5 +10,4 @@ Im Abschnitt \"Installation\" erfahren Sie, wie Sie den OXID eShop neu installie
 OXID eShop neu installieren
 +++++++++++++++++++++++++++
 **Inhalte**: Server, Systemvoraussetzungen, Shopdateien binär kopieren, Datenbank erstellen, Setup ausführen, Installation prüfen, Prüfscript oxchkversion.php |br|
-
-`Artikel lesen <neu-installation/server-und-systemvoraussetzungen.html>`_ |link|
+:doc:`Artikel lesen <neu-installation/server-und-systemvoraussetzungen>` |link|

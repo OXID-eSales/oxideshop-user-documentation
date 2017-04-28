@@ -13,7 +13,7 @@ Alle Einstellungen und Zuordnungen werden im Administrationsbereich unter :menus
 
 Unter der Liste befindet sich der Eingabebereich für die Versandkostenregel. Wird eine Versandkostenregel aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Versandkostenregel klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Versandkostenregel anlegen`.
 
-Der OXID eShop wird mit den vorbereiteten Versandkostenregeln\"Versandkosten für Standard: Versandkostenfrei ab 80,-\",\"Versandkosten für Standard: 3,90 Euro innerhalb Deutschland\"und\"Versandkosten für Standard: 6,90 Rest EU\"ausgeliefert. Hinzu kommen zwei weitere Versandkostenregeln als Beispiel für den normalen und den Express-Versand mit UPS. Die Versandkostenregeln können verwendet werden, nachdem sie individuell angepasst wurden. Sie dienen auch als Vorlage für neu zu definierende Versandkostenregeln.
+Der OXID eShop wird mit den vorbereiteten Versandkostenregeln \"Versandkosten für Standard: Versandkostenfrei ab 80,-\", \"Versandkosten für Standard: 3,90 Euro innerhalb Deutschland\" und \"Versandkosten für Standard: 6,90 Rest EU\" ausgeliefert. Hinzu kommen zwei weitere Versandkostenregeln als Beispiel für den normalen und den Express-Versand mit UPS. Die Versandkostenregeln können verwendet werden, nachdem sie individuell angepasst wurden. Sie dienen auch als Vorlage für neu zu definierende Versandkostenregeln.
 
 .. hint:: Länder können, aber müssen nicht zugewiesen sein. Damit die Definition von Versand und Zahlung stringent ist, sollte die Länderzuordnung mit der in der zugehörigen Zahlungsart und der Versandart übereinstimmen. Wurde kein Land zugewiesen, gilt die Versandkostenregel für alle Länder. Bitte beachten Sie, dass in früheren Shopversionen (vor OXID eShop 4.6.0) einer Versandkostenregel mindestens ein Land zugewiesen sein musste.
 
@@ -29,22 +29,22 @@ Mit der Versandkostenregel muss eine gültige Bedingung formuliert worden sein. 
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Versandkostenregel, aktiver Zeitraum, Bedingung der Versandkostenregel, Menge, Größe, Gewicht, Preis, Versandkosten, Preisaufschlag, Preisabschlag, absolut, prozentual, Zeitrabatt, Mengenrabatt, Berechnung des Warenkorbs, Reihenfolge der Versandkosten, Reihenfolge der Berechnung, Berechnung stoppen, keine weitere Regel, Länder zuordnen |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Artikel
 +++++++++++++++++++++
 **Inhalte**: Kategorien und Artikel zuordnen |br|
-`Artikel lesen <registerkarte-artikel.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-artikel>` |link|
 
 Registerkarte Benutzer
 ++++++++++++++++++++++
 **Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-`Artikel lesen <registerkarte-benutzer.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-benutzer>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Versandkostenregeln vererben, Versandkostenregeln verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-`Artikel lesen <registerkarte-mall.html>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|
 
-.. seealso:: `Zahlungsarten <../zahlungsarten/zahlungsarten.html>`_ | `Versandarten <../versandarten/versandarten.html>`_ | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand.html>`_
+.. seealso:: :doc:`Zahlungsarten <../zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
