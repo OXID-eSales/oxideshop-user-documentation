@@ -7,3 +7,4 @@ Installation
    
    installation.rst
    Neu-Installation <neu-installation/index.rst>
+   Update-Installation <update/index.rst>
