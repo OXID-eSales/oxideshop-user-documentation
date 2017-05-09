@@ -2,7 +2,7 @@ Benutzer
 ========
 
 .. toctree::
-:maxdepth: 1
+   :maxdepth: 1
 
-       benutzergruppen.rst
-       registerkarte-stamm.rst
+   benutzergruppen
+   registerkarte-stamm

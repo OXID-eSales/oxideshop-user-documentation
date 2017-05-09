@@ -2,11 +2,11 @@ Betrieb
 =======
 
 .. toctree::
-:maxdepth: 1
+   :maxdepth: 1
 
-       Benutzer <benutzer/index.rst>
-       Benutzergruppen <benutzergruppen/index.rst>
-       Bestellungen <bestellungen/index.rst>
-       Aktionen <aktionen/index.rst>
-       Rabatte <rabatte/index.rst>
-       Gutscheine <gutscheinserien/index.rst>
+   Benutzer <benutzer/index>
+   Benutzergruppen <benutzergruppen/index>
+   Bestellungen <bestellungen/index>
+   Aktionen <aktionen/index>
+   Rabatte <rabatte/index>
+   Gutscheine <gutscheinserien/index>

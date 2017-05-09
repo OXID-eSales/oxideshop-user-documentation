@@ -5,6 +5,6 @@ Installation
 .. toctree::
    :maxdepth: 1
    
-   installation.rst
-   Neu-Installation <neu-installation/index.rst>
-   Update-Installation <update/index.rst>
+   installation
+   Neu-Installation <neu-installation/index>
+   Update-Installation <update/index>

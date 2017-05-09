@@ -5,4 +5,4 @@
 .. toctree::
    :maxdepth: 1
    
-   master-slave.rst
+   master-slave

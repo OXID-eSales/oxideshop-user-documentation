@@ -4,11 +4,11 @@ Kategorien
 .. toctree::
    :maxdepth: 1
       
-   kategorien.rst
-   registerkarte-stamm.rst
-   registerkarte-langtext.rst
-   registerkarte-bilder.rst
-   registerkarte-sortierung.rst
-   registerkarte-mall.rst
-   registerkarte-rechte.rst
-   registerkarte-seo.rst
+   kategorien
+   registerkarte-stamm
+   registerkarte-langtext
+   registerkarte-bilder
+   registerkarte-sortierung
+   registerkarte-mall
+   registerkarte-rechte
+   registerkarte-seo

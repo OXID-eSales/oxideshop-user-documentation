@@ -4,7 +4,7 @@ Attribute
 .. toctree::
    :maxdepth: 1
       
-   attribute.rst
-   registerkarte-stamm.rst
-   registerkarte-kategorien.rst
-   registerkarte-mall.rst
+   attribute
+   registerkarte-stamm
+   registerkarte-kategorien
+   registerkarte-mall

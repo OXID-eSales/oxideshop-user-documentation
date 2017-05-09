@@ -2,12 +2,12 @@ Bestellungen
 ============
 
 .. toctree::
-:maxdepth: 1
+   :maxdepth: 1
 
-       bestellungen.rst
-       registerkarte-uebersicht.rst
-       registerkarte-stamm.rst
-       registerkarte-adressen.rst
-       registerkarte-artikel.rst
-       registerkarte-historie.rst
-       registerkarte-downloads.rst
+   bestellungen
+   registerkarte-uebersicht
+   registerkarte-stamm
+   registerkarte-adressen
+   registerkarte-artikel
+   registerkarte-historie
+   registerkarte-downloads

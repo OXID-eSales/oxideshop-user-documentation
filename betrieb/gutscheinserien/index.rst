@@ -2,9 +2,9 @@ Gutscheinserien
 ===============
 
 .. toctree::
-:maxdepth: 1
+   :maxdepth: 1
 
-       gutscheinserien.rst
-       registerkarte-stamm.rst
-       registerkarte-benutzergruppen-artikel.rst
-       registerkarte-mall.rst
+   gutscheinserien
+   registerkarte-stamm
+   registerkarte-benutzergruppen-artikel
+   registerkarte-mall
