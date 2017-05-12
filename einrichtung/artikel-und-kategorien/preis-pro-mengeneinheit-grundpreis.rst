@@ -19,6 +19,4 @@ Beispiel: Bei einem Artikel, der in einer 500 g-Packung angeboten wird, tragen S
 
 Die Mengeneinheiten kg, g, l, ml, cm, mm, m, m², m³, Stück und Teil sind in der Sprachdatei :file:`lang.php` im Verzeichnis :file:`/application/translations/de` hinterlegt.
 
-.. seealso:: `Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert.html>`_
-
- `Hinweisblatt zur Angabe von Grundpreisen im Online-Shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)
+.. seealso:: `Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>`_ | `Hinweisblatt zur Angabe von Grundpreisen im Online-Shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)

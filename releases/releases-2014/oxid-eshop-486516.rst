@@ -32,7 +32,7 @@ Die Tabelle *oxarticles*  erhielt das neue Datenbankfeld *OXSHOWCUSTOMAGREEMENT*
 
 Änderungen in Templates
 +++++++++++++++++++++++
-Es gab Änderungen in Templates des Themes \"Azure\" und des Administrationsbereiches sowie im Stylesheet :file:`oxid.css`. Sie wurden notwendig durch die Umsetzung der Verbraucherrechterichtlinie. Eine Übersicht aller Änderungen finden Sie in der Template-Dokumentation:file:` /templ_docu_admin/index.html` und :file:`/templ_docu_azure/index.html` des Installationspaketes.
+Es gab Änderungen in Templates des Themes \"Azure\" und des Administrationsbereiches sowie im Stylesheet :file:`oxid.css`. Sie wurden notwendig durch die Umsetzung der Verbraucherrechterichtlinie. Eine Übersicht aller Änderungen finden Sie in der Template-Dokumentation :file:`/templ_docu_admin/index.html` und :file:`/templ_docu_azure/index.html` des Installationspaketes.
 
 Änderungen in .php-Dateien
 ++++++++++++++++++++++++++

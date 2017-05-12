@@ -75,4 +75,4 @@ Die Benutzergruppen \"Inland\" und \"Ausland\" sind so etwas wie die Basis für 
 
 Geben Sie ein paar Informationen zur Zahlungsart ein. Diese werden angezeigt, sobald der Kunde diese Zahlungsart im Bestellprozess auswählt.
 
-.. seealso:: `Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert.html>`_ | `Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten.html>`_ | `Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer.html>`_
+.. seealso:: `Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>`_ | `Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten>`_ | `Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`_

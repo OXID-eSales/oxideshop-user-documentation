@@ -64,4 +64,4 @@ Lagerbestand der Variante. In der daneben stehenden Liste kann das Verhalten aus
 
 Listenauswahl stellt die schnelle Bearbeitung von Varianten auf eine andere aktive Sprache des Shops um.
 
-.. seealso:: Siehe auch: `Auswahllisten <../auswahllisten/auswahllisten.html>`_
+.. seealso:: Siehe auch: `Auswahllisten <../auswahllisten/auswahllisten>`_

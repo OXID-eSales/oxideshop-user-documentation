@@ -53,4 +53,4 @@ Top of the Shop
 
 Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` bestimmt die Anzeige der Artikelpreise für diese und eine weitere Aktion.
 
-.. seealso:: `Aktionen <aktionen.html>`_ | `Aktion für Newsletter <aktion-fuer-newsletter.html>`_ | `Registerkarte Stamm <registerkarte-stamm.html>`_
+.. seealso:: `Aktionen <aktionen>`_ | `Aktion für Newsletter <aktion-fuer-newsletter>`_ | `Registerkarte Stamm <registerkarte-stamm>`_

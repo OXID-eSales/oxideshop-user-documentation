@@ -41,4 +41,4 @@ Benutzer werden auf Grund von Bedingungen automatisch bestimmten Benutzergruppen
 
 Soll keine automatische Zuordnung des Benutzers zu Benutzergruppen erfolgen, deaktivieren Sie diese Funktion hier.
 
-.. seealso:: `Benutzergruppen <../benutzergruppen/benutzergruppen.html>`_
+.. seealso:: `Benutzergruppen <../benutzergruppen/benutzergruppen>`_

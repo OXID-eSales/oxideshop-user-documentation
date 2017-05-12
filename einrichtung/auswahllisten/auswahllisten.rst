@@ -33,12 +33,12 @@ Wird eine Auswahlliste gewählt, werden deren Informationen in den Eingabebereic
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: Auswahlliste eines Artikels, Feld, Ausführung eines Artikels, Preisänderungen durch Auswahllisten unterstützen, Sortierung der Auswahllisten, Artikel zuordnen |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+`Artikel lesen <registerkarte-stamm>`_ |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Auswahllisten vererben, Auswahllisten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-`Artikel lesen <registerkarte-mall.html>`_ |link|
+`Artikel lesen <registerkarte-mall>`_ |link|
 
-.. seealso:: `Artikel <../artikel/artikel.html>`_ | `Artikel - Registerkarten Auswahl <../artikel/registerkarte-auswahl.html>`_ | `Artikel - Registerkarte Varianten <../artikel/registerkarte-varianten.html>`_
+.. seealso:: `Artikel <../artikel/artikel>`_ | `Artikel - Registerkarten Auswahl <../artikel/registerkarte-auswahl>`_ | `Artikel - Registerkarte Varianten <../artikel/registerkarte-varianten>`_

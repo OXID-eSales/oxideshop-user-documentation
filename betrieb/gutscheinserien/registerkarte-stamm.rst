@@ -7,7 +7,7 @@ Gutscheinserien fassen eine Anzahl von Gutscheinen zusammen und werden auf der R
    :height: 314
        :width: 650
 
-    Die Zuordnung von Benutzergruppen, Kategorien und/oder Artikeln erfolgt auf einer weiteren Registerkarte.
+Die Zuordnung von Benutzergruppen, Kategorien und/oder Artikeln erfolgt auf einer weiteren Registerkarte.
 
 :guilabel:`Name`
 

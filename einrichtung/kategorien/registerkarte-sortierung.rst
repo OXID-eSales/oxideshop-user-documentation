@@ -18,4 +18,4 @@ Die Artikel können per Drag \& Drop in die rechte Liste verschoben und dabei in
 
 Ist bei der Sortierung einmal ein Fehler aufgetreten, lässt diese sich einfach löschen. Sind alle Artikel in der gewünschten Reihenfolge, wird diese über die Schaltfläche :guilabel:`:guilabel:`Neue Sortierung` speichern` in die Datenbank geschrieben. Wenn Sie das Fenster schließen und erneut öffnen, wird in der linken Liste die nun aktuelle Sortierung angezeigt. Die Artikel haben in der Positionsspalte aufsteigende Zahlenwerte.
 
-.. seealso:: `Artikel <../artikel/artikel.html>`_ | `Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln.html>`_
+.. seealso:: `Artikel <../artikel/artikel>`_ | `Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`_

@@ -29,27 +29,27 @@ Benutzer und Benutzergruppen können, müssen aber nicht zugeordnet sein. Fehlt 
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Versandart, aktiver Zeitraum, Sortierung, Versandkostenregeln und Länder zuordnen |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+`Artikel lesen <registerkarte-stamm>`_ |link|
 
 Registerkarte Zahlungsarten ** 
 +++++++++++++++++++++++++++++++
 **Inhalte**: Zahlungsarten zuordnen |br|
-`Artikel lesen <registerkarte-zahlungsarten.html>`_ |link|
+`Artikel lesen <registerkarte-zahlungsarten>`_ |link|
 
 Registerkarte Benutzer
 ++++++++++++++++++++++
 **Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-`Artikel lesen <registerkarte-benutzer.html>`_ |link|
+`Artikel lesen <registerkarte-benutzer>`_ |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Versandarten vererben, Versandarten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-`Artikel lesen <registerkarte-mall.html>`_ |link|
+`Artikel lesen <registerkarte-mall>`_ |link|
 
 Registerkarte RDFa
 ++++++++++++++++++
 **Inhalte**: RDFa, Resource Description Framework, GoodReleations, Vokabular für E-Commerce, allgemeine Versandarten und Paketdienste, Rich Snippets |br|
-`Artikel lesen <registerkarte-rdfa.html>`_ |link|
+`Artikel lesen <registerkarte-rdfa>`_ |link|
 
-.. seealso:: `Zahlungsarten <../zahlungsarten/zahlungsarten.html>`_ | `Versandkostenregeln <../versandkostenregeln/versandkostenregeln.html>`_ | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand.html>`_
+.. seealso:: `Zahlungsarten <../zahlungsarten/zahlungsarten>`_ | `Versandkostenregeln <../versandkostenregeln/versandkostenregeln>`_ | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`_

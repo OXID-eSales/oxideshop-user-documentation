@@ -44,4 +44,4 @@ Die Felder, nach denen Artikel sortiert werden können, entsprechen den Datenban
 
 Der Screenshot zeigt als Beispiel, dass Artikel außer nach Name und Preis auch nach der Artikelnummer sortiert werden können. Dafür wurde in den Stammdaten den standardmäßig eingetragenen Feldern *oxtitle*  und *oxvarprice*  das Feld *oxartnum*  hinzugefügt.
 
-.. seealso:: `Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm.html>`_ | `Kategorien - Registerkarte Sortierung <../kategorien/registerkarte-sortierung.html>`_
+.. seealso:: `Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm>`_ | `Kategorien - Registerkarte Sortierung <../kategorien/registerkarte-sortierung>`_

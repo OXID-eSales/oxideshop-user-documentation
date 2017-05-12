@@ -13,4 +13,4 @@ Die CMS-Seiten sind ebenso wie die Aktionen nicht vererbbare Elemente. Sie werde
 
 Wenn ein Kunde in einem Subhop, Supershop oder Multishop bestellt, wird die Bestellung nur im jeweiligen Shop erstellt und kann nur dort bearbeitet werden. Die vergebene Bestellnummer ist davon abhängig, ob für den Shop separate Bestellnummern erlaubt sind. Die Einstellungen ist auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` zu finden.
 
-.. seealso:: `Konfiguration <../../../konfiguration/konfiguration.html>`_ | `Bestellungen <../../../betrieb/bestellungen/bestellungen.html>`_
+.. seealso:: `Konfiguration <../../../konfiguration/konfiguration>`_ | `Bestellungen <../../../betrieb/bestellungen/bestellungen>`_

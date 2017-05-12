@@ -35,16 +35,16 @@ Bitte beachten Sie, dass in früheren Shopversionen einer Zahlungsart mindestens
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Zahlungsart, Preisaufschlag, Preisabschlag, Skonto, Bonität, Bonitätsindex, Einkaufswert, Zusatzfelder, DynValue-Felder, Zahlungsart und Benutzergruppen |br| 
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+`Artikel lesen <registerkarte-stamm>`_ |link|
 
 Registerkarte Länder
 ++++++++++++++++++++
 **Inhalte**: Zahlungsarten für Länder, Länder zuordnen |br|
-`Artikel lesen <registerkarte-laender.html>`_ |link|
+`Artikel lesen <registerkarte-laender>`_ |link|
 
 Registerkarte RDFa
 ++++++++++++++++++
 **Inhalte**: RDFa, Resource Description Framework, GoodReleations, Vokabular für E-Commerce, Zahlungsarten und Kreditkartenzahlung, Rich Snippets |br| 
-`Artikel lesen <registerkarte-rdfa.html>`_ |link|
+`Artikel lesen <registerkarte-rdfa>`_ |link|
 
-.. seealso:: `Versandarten <../versandarten/versandarten.html>`_ | `Versandkostenregeln <../versandkostenregeln/versandkostenregeln.html>`_ | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand.html>`_
+.. seealso:: `Versandarten <../versandarten/versandarten>`_ | `Versandkostenregeln <../versandkostenregeln/versandkostenregeln>`_ | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`_

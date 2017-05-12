@@ -16,7 +16,7 @@ Verbesserungen und Anpassungen
 +++++++++++++++++++++++
 In der Version 4.8.5/5.1.5 wurden einige kleine Änderungen in den Sprachdateien des Administrationsbereiches vorgenommen. Für den OXID eShop Professional und Enterprise Edition wurde zusätzlich das Template :file:`login.tpl` erweitert.
 
-Eine Übersicht aller Änderungen finden Sie in\:file:`/templ_docu_admin/index.html`.
+Eine Übersicht aller Änderungen finden Sie in :file:`/templ_docu_admin/index.html`.
 
 Weitere Änderungen
 ++++++++++++++++++

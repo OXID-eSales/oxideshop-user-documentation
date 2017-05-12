@@ -8,9 +8,7 @@ Hinweis: Um das Update nach dieser Anleitung ausführen zu können, müssen OXID
 
 
 
-Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Shop und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden. Alternativ können Sie das Update auch im Live-System erneut ausführen. Kopieren Sie während des Updates im Live-System eineindex.htmlin das Hauptverzeichnis des Shops, in der Sie auf aktuelle Wartungsarbeiten hinweisen. Sie können den Shop auch deaktivieren und die Dateioffline.htmlzur Informationen Ihrer Kunden nutzen.
-
-
+Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Shop und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden. Alternativ können Sie das Update auch im Live-System erneut ausführen. Kopieren Sie während des Updates im Live-System eine index.html in das Hauptverzeichnis des Shops, in der Sie auf aktuelle Wartungsarbeiten hinweisen. Sie können den Shop auch deaktivieren und die Datei offline.html zur Informationen Ihrer Kunden nutzen.
 
 Das Update kann unter Verwendung der Anwendung *updateApp*  ausgeführt werden. Dabei wird die Datenbank aktualisiert und es werden ein eigenes Theme und/oder installierte Module in den neuen Shop verschoben. Wenn Sie einen stark angepassten Shop haben und Theme und/oder Module selbst kopieren oder verschieben wollen, lesen Sie bitte den Abschnitt `Manuelles Update <#c13391>`_ .
 

@@ -51,4 +51,4 @@ Es wird angezeigt, wie oft die Informationen zu den Downloads zurückgesetzt wur
 
 Der Shopbetreiber hat die Möglichkeit, bereits erfolgte Downloads zurückzusetzen, solange sie gültig sind. Durch Drücken der Schaltfläche werden der Zeitpunkt des ersten und letzten Downloads sowie die Anzahl der Downloads zurückgesetzt. Auch die die Gültigkeit der Downloads wird ensprechend ihrer Definition neu berechnet.
 
-.. seealso:: `Registerkarten Downloads <../../einrichtung/artikel/registerkarte-downloads.html>`_
+.. seealso:: `Registerkarten Downloads <../../einrichtung/artikel/registerkarte-downloads>`_

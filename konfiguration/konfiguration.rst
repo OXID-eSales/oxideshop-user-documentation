@@ -12,44 +12,44 @@ Die Einstellungen werden im Administrationsbereich vorgenommen. Rufen Sie den Ad
 Firmendaten
 +++++++++++
 **Inhalte**: Firmenname, Anschrift der Firma, Bankverbindung, rechtlich und steuerlich relevante Angaben, Name des Shops |br|
-`Artikel lesen <firmendaten.html>`_ |link|
+`Artikel lesen <firmendaten>`_ |link|
 
 E-Mails
 +++++++
 **Inhalte**: SMTP-Daten, E-Mail-Adressen, Betreffzeilen für E-Mails, die der Shop verschickt |br|
-`Artikel lesen <e-mails.html>`_ |link|
+`Artikel lesen <e-mails>`_ |link|
 
 Kundeninformationen
 +++++++++++++++++++
 **Inhalte**: Impressum, AGB, Datenschutz, Kosten für Zahlung und Versand, Widerrufsrecht, CMS, rechtssicherer Onlineshop, Trusted Shops |br|
-`Artikel lesen <kundeninformationen.html>`_ |link|
+`Artikel lesen <kundeninformationen>`_ |link|
 
 SEO-Einstellungen
 +++++++++++++++++
 **Inhalt**: Suchmaschinenoptimierung, SEO, Seitentitel, Titel Präfix, Titel Suffix, Seitentitel Startseite, sprechende URLs, SEO Trennzeichen, SEO Suffix, -oxid, Sonderzeichen, reservierte Wörter, statische URLs, Metadaten, Meta-Tags, meta name=\"description\", meta name=\"keywords\" |br|
-`Artikel lesen <seo-einstellungen.html>`_ |link|
+`Artikel lesen <seo-einstellungen>`_ |link|
 
 Mehrwertsteuer
 ++++++++++++++
 **Inhalte**: Standard-Mehrwertsteuersatz, Nettopreise eingeben (Artikel, Versandkosten, Zahlungsarten, Geschenkverpackungen), Nettopreise und Mehrwertsteuer im Warenkorb und in der Rechnung (Artikel, Versandkosten, Zahlungsarten, Geschenkverpackungen), Mehrwertsteuer und Lieferadresse |br|
-`Artikel lesen <mehrwertsteuer.html>`_ |link|
+`Artikel lesen <mehrwertsteuer>`_ |link|
 
 Länder
 ++++++
 **Inhalte**: Hauptlieferland, Land aktivieren, Länderübersicht, Land suchen |br|
-`Artikel lesen <laender.html>`_ |link|
+`Artikel lesen <laender>`_ |link|
 
 Bestellprozess
 ++++++++++++++
 **Inhalte**: nicht ganzzahlige Artikelmengen, Mindestbestellwert, zwei Bestell-Button anzeigen, Button-Lösung, AGB bestätigen |br|
-`Artikel lesen <bestellprozess.html>`_ |link|
+`Artikel lesen <bestellprozess>`_ |link|
 
 Lagerverwaltung
 +++++++++++++++
 **Inhalte**: Lagerverwaltung aktivieren, Anzeige Lieferbarkeit eines Artikels, Stückzahl für geringen Lagerbestand, Standardmeldungen für Artikel auf Lager oder für nicht lieferbare Artikel |br|
-`Artikel lesen <lagerverwaltung.html>`_ |link|
+`Artikel lesen <lagerverwaltung>`_ |link|
 
 Bilder
 ++++++
 **Inhalte**: Bildgenerierung und -qualität, Bildqualität und Dateigröße, Bildgrößen für Artikelbilder, Zoom-Bilder, Thumbails, Icons, Kategoriebilder und Hersteller-/Markenlogos, Standardgrößen in Pixeln (Breite*Höhe) |br|
-`Artikel lesen <bilder.html>`_ |link|
+`Artikel lesen <bilder>`_ |link|

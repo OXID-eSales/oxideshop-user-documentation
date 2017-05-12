@@ -92,4 +92,4 @@ Der Kategorie können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Ar
 
 In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Kategorie zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
-.. seealso:: `Artikel <../artikel/artikel.html>`_ | `Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien.html>`_ | `Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln.html>`_
+.. seealso:: `Artikel <../artikel/artikel>`_ | `Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>`_ | `Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`_

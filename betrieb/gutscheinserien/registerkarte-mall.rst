@@ -11,7 +11,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen einer Gutschein
    :height: 313
        :width: 650
 
-    Es ist möglich, die Vererbung aller Gutscheinserien für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.
+Es ist möglich, die Vererbung aller Gutscheinserien für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.
 
 :guilabel:`Verknüpft mit folg. Subshops`
 

@@ -9,4 +9,4 @@ Geteilte Elemente sind Zahlungsarten, Länder, Benutzer, Benutzergruppen und Bew
 
 Benutzer werden nur mit allen Shops geteilt, wenn im Hauptshop die Option :guilabel:`Benutzer können sich in allen Shops einloggen` aktiviert ist. Ist diese Einstellung auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` nicht aktiv, verwaltet jeder Shop seine eigenen Benutzer.
 
-.. seealso:: `Konfiguration <../../../konfiguration/konfiguration.html>`_ | `Zahlungsarten <../../../einrichtung/zahlungsarten/zahlungsarten.html>`_ | `Benutzer <../../../betrieb/benutzer/benutzer.html>`_ | `Benutzergruppen <../../../betrieb/benutzergruppen/benutzergruppen.html>`_
+.. seealso:: `Konfiguration <../../../konfiguration/konfiguration>`_ | `Zahlungsarten <../../../einrichtung/zahlungsarten/zahlungsarten>`_ | `Benutzer <../../../betrieb/benutzer/benutzer>`_ | `Benutzergruppen <../../../betrieb/benutzergruppen/benutzergruppen>`_

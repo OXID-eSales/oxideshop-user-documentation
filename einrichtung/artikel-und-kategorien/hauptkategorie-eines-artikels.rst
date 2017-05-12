@@ -25,6 +25,4 @@ Die Hauptkategorie eines Artikels wird festgelegt.
    :height: 314
    :width: 400
 
-.. seealso:: `Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert.html>`_
-
-`Canonical Link <http://de.wikipedia.org/wiki/Canonical_Link>`_ (Wikipedia)
+.. seealso:: `Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>`_ | `Canonical Link <http://de.wikipedia.org/wiki/Canonical_Link>`_ (Wikipedia)

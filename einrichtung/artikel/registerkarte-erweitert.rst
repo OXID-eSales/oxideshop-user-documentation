@@ -140,4 +140,4 @@ Tragen Sie die Preise ein, welche die bisher festgelegten Preise ersetzen sollen
 
 Legen Sie hier den Zeitpunkt der Preisaktualisierung fest.
 
-.. seealso:: `Kategorien <../kategorien/kategorien.html>`_ | `Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien.html>`_ | `Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels.html>`_ | `Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis.html>`_ | `Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe.html>`_
+.. seealso:: `Kategorien <../kategorien/kategorien>`_ | `Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>`_ | `Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>`_ | `Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>`_ | `Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`_

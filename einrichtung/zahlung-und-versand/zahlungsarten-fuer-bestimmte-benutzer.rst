@@ -28,4 +28,4 @@ Benutzergruppen werden einer Zahlungsart zugeordnet.
 * Verschieben Sie die Benutzergruppe per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
 * Schließen Sie das Zuordnungsfenster.
 
-.. seealso:: `Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm.html>`_ | `Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert.html>`_
+.. seealso:: `Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>`_ | `Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>`_

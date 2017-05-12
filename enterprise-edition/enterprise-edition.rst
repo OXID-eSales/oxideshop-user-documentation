@@ -12,7 +12,7 @@ Nach der Installation hat der OXID eShop Enterprise Edition einen einzigen Shop,
 
 Die Flexibilität beim Anlegen von Shops in der Enterprise Edition erlaubt die Umsetzung unterschiedlicher Szenarien für das Betreiben mehrerer Onlineshops. Das wird noch ergänzt durch die bestehenden Anpassungsmöglichkeiten in jedem einzelnen Shop. Das beginnt beim individuellen Layout, geht über die Darstellung in verschiedenen Sprachen und schließt die Feinjustierung bei den vererbten Eigenschaften, wie einen generellen Aufschlag auf Artikelpreise, das individuelle Anpassen von Preisen oder anderer Artikelmerkmale ein. Es ist auch möglich, dass die einzelnen Shops separate Bestellnummern generieren oder dass sich Benutzer an alle Shops anmelden dürfen.
 
-Alle Details zum Hauptshop, zu Elternshops, Subshops, Supershops und Multishops finden Sie im Abschnitt `Mall-Funktion <mall-funktion/mall-funktion.html>`_ .
+Alle Details zum Hauptshop, zu Elternshops, Subshops, Supershops und Multishops finden Sie im Abschnitt `Mall-Funktion <mall-funktion/mall-funktion>`_ .
 
 Rechte und Rollen
 +++++++++++++++++
@@ -22,16 +22,16 @@ Die Berechtigungen können sich auf den Shop selbst, also das Frontend, beziehen
 
 Für den Administrationsbereich des Shops können ebenfalls Rollen definiert werden. Die Rollen bilden verschiedene Aufgabenbereiche bei der Administration des OXID eShop ab. Sie erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Navigation und auch auf einzelne Registerkarten des Eingabebereiches. Darüber hinaus können für Artikel und Kategorien Rechte sehr differenziert definiert werden. Diese regeln beispielsweise das Anlegen, Ändern und Löschen von Artikeln und Kategorien insgesamt und wenn nötig den Zugriff auf jedes einzelne Steuerelement (Feld, Kontrollkästchen oder Option) des jeweiligen Eingabebereiches.
 
-Eine Übersicht über die Rechte- und Rollenverwaltung finden Sie im Dokument `Rechte und Rollen <rechte-und-rollen/rechte-und-rollen.html>`_ .
+Eine Übersicht über die Rechte- und Rollenverwaltung finden Sie im Dokument `Rechte und Rollen <rechte-und-rollen/rechte-und-rollen>`_ .
 
 Caching
 +++++++
 Das Caching-System der Enterprise Edition wird durch drei Hauptkomponenten umgesetzt: durch den in den OXID eShop integrierten Cache Manager, unterstützt durch den Reverse Proxy Varnish und/oder durch Memcached. Das Zusammenwirken der Komponenten bewirkt, dass – wenn immer möglich – zwischengespeicherte Inhalte genutzt und an die anfragenden Web-Clients geschickt werden. Damit werden die Datenbankzugriffe reduziert und die Antwortzeiten des OXID eShop verkürzt.
 
-In `Caching <caching/caching.html>`_ finden Sie eine Anleitung zur Konfiguration von Varnish inklusive der Möglichkeit zum Download der Konfigurationsdateien. Ebenso werden die Konfiguration von Memcached und die Einstellungen für das Caching beschrieben.
+In `Caching <caching/caching>`_ finden Sie eine Anleitung zur Konfiguration von Varnish inklusive der Möglichkeit zum Download der Konfigurationsdateien. Ebenso werden die Konfiguration von Memcached und die Einstellungen für das Caching beschrieben.
 
 Master/Slave
 ++++++++++++
 Die Enterprise Edition kann bei aktiviertem Master/Slave mit mehreren Datenbanken betrieben werden. Dabei ist eine Datenbank die Master-Datenbank, die hauptsächlich Schreibzugriffe verarbeitet. Die Slave-Datenbanken enthalten gespiegelte Daten und bedienen die Lesezugriffe. Ein Load-Balancer verteilt die Datenbankzugriffe nach dieser grundsätzlichen Unterscheidung auf die Master-Datenbank und auf die Slave-Datenbanken.
 
-Eine Anleitung zur Konfiguration finden Sie im Dokument `Master/Slave <master-slave/master-slave.html>`_ .
+Eine Anleitung zur Konfiguration finden Sie im Dokument `Master/Slave <master-slave/master-slave>`_ .

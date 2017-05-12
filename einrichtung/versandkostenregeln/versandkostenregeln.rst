@@ -29,22 +29,22 @@ Mit der Versandkostenregel muss eine gültige Bedingung formuliert worden sein. 
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Versandkostenregel, aktiver Zeitraum, Bedingung der Versandkostenregel, Menge, Größe, Gewicht, Preis, Versandkosten, Preisaufschlag, Preisabschlag, absolut, prozentual, Zeitrabatt, Mengenrabatt, Berechnung des Warenkorbs, Reihenfolge der Versandkosten, Reihenfolge der Berechnung, Berechnung stoppen, keine weitere Regel, Länder zuordnen |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+`Artikel lesen <registerkarte-stamm>`_ |link|
 
 Registerkarte Artikel
 +++++++++++++++++++++
 **Inhalte**: Kategorien und Artikel zuordnen |br|
-`Artikel lesen <registerkarte-artikel.html>`_ |link|
+`Artikel lesen <registerkarte-artikel>`_ |link|
 
 Registerkarte Benutzer
 ++++++++++++++++++++++
 **Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-`Artikel lesen <registerkarte-benutzer.html>`_ |link|
+`Artikel lesen <registerkarte-benutzer>`_ |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Versandkostenregeln vererben, Versandkostenregeln verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-`Artikel lesen <registerkarte-mall.html>`_ |link|
+`Artikel lesen <registerkarte-mall>`_ |link|
 
-.. seealso:: `Zahlungsarten <../zahlungsarten/zahlungsarten.html>`_ | `Versandarten <../versandarten/versandarten.html>`_ | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand.html>`_
+.. seealso:: `Zahlungsarten <../zahlungsarten/zahlungsarten>`_ | `Versandarten <../versandarten/versandarten>`_ | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`_

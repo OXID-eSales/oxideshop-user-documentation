@@ -7,4 +7,4 @@ Für den in der Community und Professional Edition implementierten Versand von N
    :height: 323
        :width: 650
 
-.. seealso:: `Aktionen <aktionen.html>`_ | `Aktionen und Startseite <aktionen-und-startseite.html>`_ | `Registerkarte Stamm <registerkarte-stamm.html>`_
+.. seealso:: `Aktionen <aktionen>`_ | `Aktionen und Startseite <aktionen-und-startseite>`_ | `Registerkarte Stamm <registerkarte-stamm>`_

@@ -33,4 +33,4 @@ Dem Attribut können Artikel zugeordnet werden. Wird ein neues Attribut angelegt
 
 Beim Artikel muss für das zugewiesene Attribut noch ein Wert gesetzt werden.
 
-Siehe: `Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl.html>`_
+Siehe: `Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`_

@@ -34,31 +34,31 @@ Wird ein Benutzer aus der Benutzerliste gewählt, werden dessen Informationen in
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Benutzer, Rechte des Benutzers, Kunde, Admin, Administrator, Benutzerdaten, Name, Anschrift, Rechnungsadresse, E-Mail, Telefon, Kundennummer, Passwort, Benutzergruppen zuordnen |br|
-`Artikel lesen <registerkarte-stamm.html>`_ |link|
+`Artikel lesen <registerkarte-stamm>`_ |link|
 
 Registerkarte Erweitert
 +++++++++++++++++++++++
 **Inhalte**: Zusatzinformationen zum Benutzer, Telefonnummer, Handynummer, Mobilfunknummer, Newsletter, Double-Opt-in, ungültige E-Mail-Adresse, Bonität, Kreditwürdigkeit, zugelassene Zahlungsarten, URL, Bonuspunkte, Freunde einladen, Kunden werben, Zuordnung zu Benutzergruppen, keine automatische Zuordnung |br|
-`Artikel lesen <registerkarte-erweitert.html>`_ |link|
+`Artikel lesen <registerkarte-erweitert>`_ |link|
 
 Registerkarte Artikel
 +++++++++++++++++++++
 **Inhalte**: Gekaufte Artikel des Benutzers, Übersicht, Anzahl, Artikelnummer, Titel, Typ, Variantenauswahl, Kurzbeschreibung |br|
-`Artikel lesen <registerkarte-artikel.html>`_ |link|
+`Artikel lesen <registerkarte-artikel>`_ |link|
 
 Registerkarte Historie
 ++++++++++++++++++++++
 **Inhalte**: Notiz, Protokoll, Kundenaktionen, Kundeninformationen |br|
-`Artikel lesen <registerkarte-historie.html>`_ |link|
+`Artikel lesen <registerkarte-historie>`_ |link|
 
 Registerkarte Adressen
 ++++++++++++++++++++++
 **Inhalte**: neue Adresse, Lieferadresse, Rechnungsadresse, Bestellung, Konto, Rechnungs- und Liefereinstellungen |br|
-`Artikel lesen <registerkarte-adressen.html>`_ |link|
+`Artikel lesen <registerkarte-adressen>`_ |link|
 
 Registerkarte Zahlung
 +++++++++++++++++++++
 **Inhalte**: bisher verwendete Zahlungsarten, Nachnahme, Kreditkarte, Bankeinzug/Lastschrift, Vorauskasse, Rechnung, Empty, gespeicherte Bankverbindung |br|
-`Artikel lesen <registerkarte-zahlung.html>`_ |link|
+`Artikel lesen <registerkarte-zahlung>`_ |link|
 
-.. seealso:: `Benutzergruppen <../benutzergruppen/benutzergruppen.html>`_ | `Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten.html>`_ | `Versandarten <../../einrichtung/versandarten/versandarten.html>`_ | `Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln.html>`_
+.. seealso:: `Benutzergruppen <../benutzergruppen/benutzergruppen>`_ | `Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>`_ | `Versandarten <../../einrichtung/versandarten/versandarten>`_ | `Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`_

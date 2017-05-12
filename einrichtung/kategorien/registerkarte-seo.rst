@@ -15,7 +15,7 @@ Es kann eine feste, sich nicht ändernde URL für die Kategorie definiert werden
 
 :guilabel:`Titel Suffix in Kategorie anzeigen`
 
-Bei aktiviertem Kontrollkästchen wird das Titel Suffix im Seitentitel angezeigt. Das Titel Suffix wird unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO` definiert. Mehr Informationen dazu finden Sie unter `SEO-Einstellungen <../../konfiguration/seo-einstellungen.html>`_ .
+Bei aktiviertem Kontrollkästchen wird das Titel Suffix im Seitentitel angezeigt. Das Titel Suffix wird unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO` definiert. Mehr Informationen dazu finden Sie unter `SEO-Einstellungen <../../konfiguration/seo-einstellungen>`_ .
 
 :guilabel:`SEO URL`
 

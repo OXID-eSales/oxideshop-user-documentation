@@ -3,11 +3,11 @@
 Auf der Registerkarte :guilabel:`Stamm` werden die wichtigen Einstellungen für Rabatte vorgenommen. Erstellen oder bearbeiten Sie hier den Rabatt. Die Zuordnung zu Artikeln, Kategorien, Benutzern und Benutzergruppen erfolgt auf zwei weiteren Registerkarten.
 
 .. image:: ../../media/screenshots-de/oxbahi01.png
-:alt: Rabatte - Registerkarte Stamm
+   :alt: Rabatte - Registerkarte Stamm
    :height: 315
-       :width: 650
+   :width: 650
 
-    Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lässt sich der Name des Rabattes auch direkt in einer weiteren Sprache bearbeiten. Bitte beachten Sie, dass die Einstellungen und die Sprachumstellung erst nach Anlegen des Rabattes verfügbar sind.
+Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lässt sich der Name des Rabattes auch direkt in einer weiteren Sprache bearbeiten. Bitte beachten Sie, dass die Einstellungen und die Sprachumstellung erst nach Anlegen des Rabattes verfügbar sind.
 
 :guilabel:`Name`
 
@@ -32,9 +32,9 @@ Geben Sie hier eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt
 .. hint:: Dem Wert im Eingabefeld :guilabel:`Einkaufsmenge von` und :guilabel:`Einkaufsfeld (€) von` kommt eine spezielle Bedeutung bei der Anzeige der Rabatte zu. Steht in beiden Feldern 0, werden alle Artikel, für die dieser Rabatt gilt, im Shop direkt mit dem rabattierten Preis angezeigt. Beginnt die Einkaufsmenge und/oder der Einkaufswert mit 1, wird der Rabatt erst im Warenkorb ausgewiesen. Das ist auch für die Zugabe wichtig, damit diese Art des Rabattes im Warenkorb angezeigt wird.
 
 .. image:: ../../media/screenshots-de/oxbahi02.png
-:alt: Rabattierter Artikel im Warenkorb
+   :alt: Rabattierter Artikel im Warenkorb
    :height: 236
-       :width: 650
+   :width: 650
 
 :guilabel:`Rabatt`
 
@@ -55,9 +55,9 @@ Die Schaltfläche wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel is
 Das Eingabefeld wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist. Geben Sie hier an, in welcher Menge der kostenlose Artikel als Rabatt gewährt wird. Wird beispielsweise 2 als Menge eingetragen, werden insgesamt zwei kostenlose Artikel in den Warenkorb gelegt, unabhängig davon, wie viele Artikel gekauft wurden.
 
 .. image:: ../../media/screenshots-de/oxbahi03.png
-:alt: Artikel mit Dreingabe im Warenkorb
+   :alt: Artikel mit Dreingabe im Warenkorb
    :height: 284
-       :width: 650
+   :width: 650
 
 :guilabel:`Drein/Zugabe` - :guilabel:`Multiplizieren`
 
@@ -81,4 +81,4 @@ Rabatte können auch länderspezifisch gelten. Ordnen Sie mit der Schaltfläche 
 
 Es öffnet sich ein Zuordnungsfenster, in dem Sie Länder aus der Liste :guilabel:`Alle Länder` auswählen können. Länder lassen sich nach Namen und/oder der Länderabkürzung sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
-.. seealso:: `Zeitlich begrenzte Rabatte <zeitlich-begrenzte-rabatte.html>`_
+.. seealso:: `Zeitlich begrenzte Rabatte <zeitlich-begrenzte-rabatte>`_

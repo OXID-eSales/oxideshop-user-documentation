@@ -7,11 +7,11 @@ Rabatte können beim Erstellen von Shops an diese vererbt werden. Wird diese Opt
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Rabattes zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Rabatte aus allen Shops übernehmen und anzeigen.
 
 .. image:: ../../media/screenshots-de/oxbahl01.png
-:alt: Rabatte - Registerkarte Mall
+   :alt: Rabatte - Registerkarte Mall
    :height: 307
-       :width: 650
+   :width: 650
 
-    Es ist möglich, die Vererbung aller Rabatte für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.\
+Es ist möglich, die Vererbung aller Rabatte für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.\
 
 :guilabel:`Verknüpft mit folg. Subshops`
 

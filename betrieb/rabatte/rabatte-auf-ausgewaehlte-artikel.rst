@@ -24,4 +24,4 @@ Der Rabatt wird Kategorien zugeordnet.
 
 Der Rabatt gilt für zugeordnete Artikel und/oder Kategorien. Ohne Zuordnung von Benutzern oder Benutzergruppen ist der Rabatt für alle Kunden Ihres Online-Shops gültig.
 
-.. seealso:: `Rabatte - Registerkarte Artikel <registerkarte-artikel.html>`_ | `Artikel <../../einrichtung/artikel/artikel.html>`_ | `Kategorien <../../einrichtung/kategorien/kategorien.html>`_
+.. seealso:: `Rabatte - Registerkarte Artikel <registerkarte-artikel>`_ | `Artikel <../../einrichtung/artikel/artikel>`_ | `Kategorien <../../einrichtung/kategorien/kategorien>`_

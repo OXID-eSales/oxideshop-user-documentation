@@ -25,4 +25,4 @@ Ein weiteres Zuordnungsfenster wird mit der Schaltfläche :guilabel:`Auswahllist
    :height: 320
    :width: 400
 
-.. seealso:: `Attribute <../attribute/attribute.html>`_ | `Auswahllisten <../auswahllisten/auswahllisten.html>`_ | `Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln.html>`_
+.. seealso:: `Attribute <../attribute/attribute>`_ | `Auswahllisten <../auswahllisten/auswahllisten>`_ | `Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`_

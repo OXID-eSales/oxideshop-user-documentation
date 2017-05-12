@@ -83,4 +83,4 @@ Auf der rechten Seite der Registerkarte :guilabel:`Stamm` geben Sie die Langbesc
 
 Der Langtext wird im Shop in der Detailansicht des Artikels als Beschreibung angezeigt.
 
-.. seealso:: `Alternative Preise für Benutzergruppen <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen.html>`_ | `Hersteller <../hersteller/hersteller.html>`_ | `Lieferanten <../lieferanten/lieferanten.html>`_
+.. seealso:: `Alternative Preise für Benutzergruppen <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen>`_ | `Hersteller <../hersteller/hersteller>`_ | `Lieferanten <../lieferanten/lieferanten>`_

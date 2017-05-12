@@ -7,7 +7,7 @@ Die Vererbung ist ein wichtiger Bestandteil der Mall-Funktion. Sie erfolgt beim 
    :height: 315
    :width: 650
 
-Die Vererbung kann nach dem Anlegen eines Shops noch geändert werden. Die Änderungen können shopweit in den Vererbungseinstellungen vorgenommen werden oder sich auf einzelne Artikel, Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten usw. beziehen. Details dazu finden Sie im Dokument `Individualisierung <individualisierung.html>`_ .
+Die Vererbung kann nach dem Anlegen eines Shops noch geändert werden. Die Änderungen können shopweit in den Vererbungseinstellungen vorgenommen werden oder sich auf einzelne Artikel, Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten usw. beziehen. Details dazu finden Sie im Dokument `Individualisierung <individualisierung>`_ .
 
 Ein Subshop kann seine Artikel und Einstellungen an einen weiteren Subshop vererben. Es ist nur möglich, einzelne Artikel und andere Elemente zu dem Subshop zu verknüpfen oder die Verknüpfung dorthin zu lösen, für den er Elternshop ist. Ein Supershop hingegen, kann an Supershops und Subshops vererben. Verknüpfungen einzelner Artikel und anderer Elemente können zu allen anderen Shops hergestellt und wieder gelöst werden. Das gilt auch für den Hauptshop und für Subshops, für den der Supershop nicht Elternshop ist. Multishops müssen keine Artikel und Einstellungen erben, denn sie zeigen beispielsweise alle Artikel, Hersteller und Lieferanten aus allen Shops an. Optional können sie aber alle Kategorien aus allen Shops erben.
 
@@ -21,24 +21,24 @@ Vererbbare Elemente
 +++++++++++++++++++
 **Inhalte**: Mall, Enterprise Edition, Vererbung, Vererbungseinstellungen, Verknüpfungen, vererbbare Elemente, Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten, Links
 
-`Artikel lesen <vererbbare-elemente.html>`_ |link|
+`Artikel lesen <vererbbare-elemente>`_ |link|
 
 Nicht vererbbare Elemente
 +++++++++++++++++++++++++
 **Inhalte**: Mall, Enterprise Edition, Vererbung, nicht vererbbare Elemente, Shopkonfiguration, Zuordnung zu Aktionen, CMS-Seiten, Bestellungen
 
-`Artikel lesen <nicht-vererbbare-elemente.html>`_ |link|
+`Artikel lesen <nicht-vererbbare-elemente>`_ |link|
 
 Geteilte Elemente
 +++++++++++++++++
 **Inhalte**: Mall, Enterprise Edition, Vererbung, geteilte Elemente, Zahlungsarten, Länder, Sprachen, Benutzer, Benutzergruppen, Bewertungen
 
-`Artikel lesen <geteilte-elemente.html>`_ |link|
+`Artikel lesen <geteilte-elemente>`_ |link|
 
 Individualisierung
 ++++++++++++++++++
 **Inhalte**: Mall, Enterprise Edition, Vererbung, Individualisierung, Vererbungseinstellungen, Artikelpreis, alternative Preise, Staffelpreise, Rechte und Rollen, SEO, config.inc.php, aMultishopArticleFields, oxfield2shops
 
-`Artikel lesen <individualisierung.html>`_ |link|
+`Artikel lesen <individualisierung>`_ |link|
 
-.. seealso:: `Benutzer <../../../betrieb/benutzer/benutzer.html>`_
+.. seealso:: `Benutzer <../../../betrieb/benutzer/benutzer>`_

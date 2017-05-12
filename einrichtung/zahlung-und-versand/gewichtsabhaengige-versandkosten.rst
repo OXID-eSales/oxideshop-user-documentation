@@ -62,4 +62,4 @@ Sind zwei oder mehrere Artikel mit einem Gewicht von jeweils 2 Kilogramm im Ware
    :height: 262
    :width: 500
 
-.. seealso:: `Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert.html>`_ | `Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm.html>`_ | `Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm.html>`_
+.. seealso:: `Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>`_ | `Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>`_ | `Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`_
