@@ -7,10 +7,10 @@ Auf der Registerkarte :guilabel:`Adressen` wird die Rechnungsadresse und - wenn 
 Eine geänderte Rechnungsadresse oder die Lieferadresse, die nachträglich erfasst wird, gilt nur für die jeweilige Bestellung. Die Eingaben werden nicht in die Benutzerverwaltung übernommen und dauerhaft gespeichert. Möchte der Kunde beispielsweise die Lieferadresse auch bei der nächsten Bestellung verwenden, muss sie auf der Registerkarte :guilabel:`Adressen` unter :menuselection:`Benutzer verwalten --> Benutzer` eingetragen werden. Alternativ kann der Kunde selbst eine oder mehrere Lieferadressen in den Rechnungs- und Liefereinstellungen seines Kontos hinterlegen.
 
 .. image:: ../../media/screenshots-de/oxbaee01.png
-:alt: Bestellungen - Registerkarte Adressen
+   :alt: Bestellungen - Registerkarte Adressen
    :height: 329
-       :width: 650
+   :width: 650
 
-    Die Adressdaten enthalten den Namen und die Anschrift des Kunden, sowie einige zusätzliche Eingabefelder für einen Firmennamen, eine Zusatzinformation, die Telefon- und Faxnummer. Abhängig vom Land, welches aus einer Dropdown-Liste ausgewählt werden kann, lässt sich unter Bundesland beispielsweise für die Vereinigten Staaten von Amerika der jeweilige Bundesstaat hinzufügen.
+Die Adressdaten enthalten den Namen und die Anschrift des Kunden, sowie einige zusätzliche Eingabefelder für einen Firmennamen, eine Zusatzinformation, die Telefon- und Faxnummer. Abhängig vom Land, welches aus einer Dropdown-Liste ausgewählt werden kann, lässt sich unter Bundesland beispielsweise für die Vereinigten Staaten von Amerika der jeweilige Bundesstaat hinzufügen.
 
-.. seealso:: `Registerkarte Adressen <../benutzer/registerkarte-adressen>`_
+.. seealso:: :doc:`Registerkarte Adressen <../benutzer/registerkarte-adressen>`

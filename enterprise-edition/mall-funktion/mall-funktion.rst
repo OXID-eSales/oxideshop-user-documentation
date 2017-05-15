@@ -27,16 +27,16 @@ Wird ein Shop aus der Shopliste gewählt, werden dessen Informationen in den Ein
 Hauptshop \& Elternshops
 ++++++++++++++++++++++++
 **Inhalte**: Mall, Enterprise Edition, Hauptshop, Elternshops, Startseiten-Typ, separate Bestellnummern, Preisaufschlag prozentual oder absolut, individuelle Preise, Benutzer für alle Shops, Shoptypen |br|
-`Artikel lesen <hauptshop-elternshops>`_ |link|
+:doc:`Artikel lesen <hauptshop-elternshops>` |link|
 
 Subshops, Supershops\&Multishops
 ++++++++++++++++++++++++++++++++
 **Inhalte**: Mall, Enterprise Edition, Shoptypen, Subshop, Supershop, Multishop, Neuen Shop anlegen, URL, SSL-URL, Top-Level-Domain, Second-Level-Domain, Subdomain, Verzeichnis /out, separate Bestellnummern, Preisaufschlag prozentual oder absolut, individuelle Preise |br|
-`Artikel lesen <subshops-supershops-multishops>`_ |link|
+:doc:`Artikel lesen <subshops-supershops-multishops>` |link|
 
 Vererbung
 +++++++++
 **Inhalte**: Mall, Enterprise Edition, Vererbung, vererbbare Elemente, nicht vererbbare Elemente, geteilte Elemente, Vererbungseinstellungen, Verknüpfungen, Individualisierung, Artikelpreise, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
-`Artikel lesen <vererbung/vererbung>`_ |link|
+:doc:`Artikel lesen <vererbung/vererbung>` |link|
 
-.. seealso:: `Konfiguration <../../konfiguration/konfiguration>`_
+.. seealso:: :doc:`Konfiguration <../../konfiguration/konfiguration>`

@@ -25,38 +25,38 @@ In der Fußzeile finden Sie\die Funktionen: :guilabel:`Neue Kategorie anlegen`, 
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Kategorie, Titel, Kurzbeschreibung, Haupt- und Unterkategorien, Kategoriestruktur, Kategoriebilder, externer Link, alternatives Template, Schnellsortierung der Artikel, spezielle Mehrwertsteuer, negative Nachlässe |br|
-`Artikel lesen <registerkarte-stamm>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Langtext
 ++++++++++++++++++++++
 **Inhalte**: Beschreibung der Kategorie, Editor, WYSIWYG, HTML-Tags, SelfHTML, OXID eXchange |br|
-`Artikel lesen <registerkarte-langtext>`_ |link|
+:doc:`Artikel lesen <registerkarte-langtext>` |link|
 
 Registerkarte Bilder
 ++++++++++++++++++++
 **Inhalte**: Kategoriebilder, Bild, Thumbnail, Icon, Vorschau |br|
-`Artikel lesen <registerkarte-bilder>`_ |link|
+:doc:`Artikel lesen <registerkarte-bilder>` |link|
 
 Registerkarte Sortierung
 ++++++++++++++++++++++++
 **Inhalte**: Artikel sortieren, manuelle Sortierung, Reihenfolge der Artikel in Kategorie, neue Sortierung |br|
-`Artikel lesen <registerkarte-sortierung>`_ |link|
+:doc:`Artikel lesen <registerkarte-sortierung>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Kategorien verknüpfen, Elternshop, Subshop, Supershop, Multishop, Kategorien aller Shops, Mall |br|
-`Artikel lesen <registerkarte-mall>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|
 
 Registerkarte Rechte
 ++++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Kategorie sichtbar, Artikel der Kategorie kaufbar, Benutzergruppen zuordnen, ausschließliches Recht, Rechte und Rollen, Berechtigung für Shop (Frontend) |br|
-`Artikel lesen <registerkarte-rechte>`_ |link|
+:doc:`Artikel lesen <registerkarte-rechte>` |link|
 
 Registerkarte SEO
 +++++++++++++++++
-**Inhalte**: Suchmaschinenoptimierung, SEO, URL fixieren, SEO URL, Seitentitel, Titel Suffix, Metadaten, Meta-Tags, meta name=\"description\", meta name=\"keywords\" |br| 
-`Artikel lesen <registerkarte-seo>`_ |link|
+**Inhalte**: Suchmaschinenoptimierung, SEO, URL fixieren, SEO URL, Seitentitel, Titel Suffix, Metadaten, Meta-Tags, meta name=\"description\", meta name=\"keywords\" |br|
+:doc:`Artikel lesen <registerkarte-seo>` |link|
 
-.. seealso:: `Artikel <../artikel/artikel>`_ | `Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>`_
+.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>`

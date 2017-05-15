@@ -25,10 +25,10 @@ Die Anleitung `Auf 4.7.0/5.0.0 aktualisieren <de/support-services/dokumentation-
 Hinweis: Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 
 Neue Funktionen
------------------
+---------------
 
 Caching (nur Enterprise Edition)
-++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++
 Für die Enterprise Edition wurde ein neues Caching-System implementiert. Es wird durch drei Hauptkomponenten umgesetzt: durch den in den OXID eShop integrierten Cache Manager, unterstützt durch den Reverse Proxy Varnish und/oder durch Memcached. Das Zusammenwirken der Komponenten bewirkt, dass – wenn immer möglich – zwischengespeicherte Inhalte genutzt und an die anfragenden Web-Clients geschickt werden. Damit werden die Datenbankzugriffe reduziert und die Antwortzeiten des OXID eShop verkürzt.
 
 Anleitung zur Konfiguration von Varnish und Memcached sowie zu den Einstellungen für das Caching finden Kunden mit einer Enterprise Edition und ausgewählte Partner im Abschnitt `Enterprise Edition <de/support-services/dokumentation-und-hilfe/oxid-eshop/enterprise-edition.html>`_ unserer Online-Dokumentation. Dieser Abschnitt der Online-Dokumentation ist passwortgeschützt. Über ein bereitgestelltes Formular können Sie Zugangsdaten anfordern.
@@ -58,7 +58,7 @@ Datenbanktabellen mit Zeitstempel
 Alle Datenbanktabellen erhielten ein zusätzliches Datenbankfeld \"oxtimestamp\". Beim Erstellen und Ändern von Datensätzen wird die jeweilige Zeit in das Datenbankfeld eingetragen. Damit sind vor kurzem erstellte und geänderte Datensätze schnell zu finden, was die Synchronisation von Daten mit angeschlossenen Systemen erleichtert.
 
 Verbesserungen und Anpassungen
---------------------------------
+------------------------------
 Überarbeiteter Bootstrap-Prozess
 ++++++++++++++++++++++++++++++++
 Um den OXID eShop noch schneller zu machen, wurde der Bootstrap-Prozess überarbeitet. Der sogenannte Bootstrap-Prozess ist ein Script, welches alle Methoden inkludiert, definiert und initialisiert, damit das Framework des OXID eShop korrekt arbeitet. Das Framework startet nun in einer effizienteren Weise, indem ausschließlich dessen unmittelbar benötigte Teile geladen werden.
@@ -178,7 +178,7 @@ Nicht mehr unterstützt
 * Die Zend Platform wird nicht länger unterstützt, da dieses Produkt von Zend eingestellt wurde. Die Unterstützung für den Zend Server bleibt bestehen.
 
 Korrekturen
--------------
+-----------
 Korrekturen 4.7.0/5.0.0 Final: `https://bugs.oxid-esales.com/changelog_page.php?version_id=164 <https://bugs.oxid-esales.com/changelog_page.php?version_id=164>`_ 
 
 Korrekturen 4.7.0/5.0.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=162 <https://bugs.oxid-esales.com/changelog_page.php?version_id=162>`_ 

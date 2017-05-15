@@ -3,11 +3,11 @@
 Alle zu einer Bestellung gehörenden Downloads werden auf der gleichnamigen Registerkarte aufgelistet. Für jeden Download gibt es eine Zeile, die neben der Artikelnummer, dem Artikeltitel und dem Namen der herunterladbaren Datei auch Informationen enthält, die durch den eigentlichen Download aktualisiert werden.
 
 .. image:: ../../media/screenshots-de/oxbaeh01.png
-:alt: Bestellungen - Registerkarte Downloads
+   :alt: Bestellungen - Registerkarte Downloads
    :height: 329
-       :width: 650
+   :width: 650
 
-    Nach der Bestellung finden sich die Downloadlinks unter :guilabel:`Konto --> Meine Downloads`. Die Dateien können heruntergeladen werden, sobald die Zahlung erfolgt ist. Wurde die Bestellung noch nicht als bezahlt markiert, weist eine entsprechende Meldung darauf hin. Werden beispielsweise Lastschrift oder Kreditkartenzahlung als Zahlungsart verwendet, ist das Herunterladen sofort möglich. Die E-Mail, welche die Bestellung bestätigt, enthält ebenfalls die Downloadlinks zu den bestellten Dateien, wenn die Bezahlung abgeschlossen ist.
+Nach der Bestellung finden sich die Downloadlinks unter :guilabel:`Konto --> Meine Downloads`. Die Dateien können heruntergeladen werden, sobald die Zahlung erfolgt ist. Wurde die Bestellung noch nicht als bezahlt markiert, weist eine entsprechende Meldung darauf hin. Werden beispielsweise Lastschrift oder Kreditkartenzahlung als Zahlungsart verwendet, ist das Herunterladen sofort möglich. Die E-Mail, welche die Bestellung bestätigt, enthält ebenfalls die Downloadlinks zu den bestellten Dateien, wenn die Bezahlung abgeschlossen ist.
 
 Eine Tabelle enthält alle zu einer Bestellung gehörenden Downloads.
 
@@ -51,4 +51,4 @@ Es wird angezeigt, wie oft die Informationen zu den Downloads zurückgesetzt wur
 
 Der Shopbetreiber hat die Möglichkeit, bereits erfolgte Downloads zurückzusetzen, solange sie gültig sind. Durch Drücken der Schaltfläche werden der Zeitpunkt des ersten und letzten Downloads sowie die Anzahl der Downloads zurückgesetzt. Auch die die Gültigkeit der Downloads wird ensprechend ihrer Definition neu berechnet.
 
-.. seealso:: `Registerkarten Downloads <../../einrichtung/artikel/registerkarte-downloads>`_
+.. seealso:: :doc:`Registerkarten Downloads <../../einrichtung/artikel/registerkarte-downloads>`

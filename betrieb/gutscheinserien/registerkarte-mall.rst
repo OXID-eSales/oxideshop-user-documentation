@@ -7,9 +7,9 @@ Gutscheinserien können beim Erstellen von Shops an diese vererbt werden. Wird d
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen einer Gutscheinserie zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Gutscheinserien aus allen Shops übernehmen und anzeigen.
 
 .. image:: ../../media/screenshots-de/oxbahu01.png
-:alt: Gutscheinserien - Registerkarte Mall
+   :alt: Gutscheinserien - Registerkarte Mall
    :height: 313
-       :width: 650
+   :width: 650
 
 Es ist möglich, die Vererbung aller Gutscheinserien für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.
 

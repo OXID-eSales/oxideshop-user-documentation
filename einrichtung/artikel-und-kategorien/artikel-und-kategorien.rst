@@ -14,17 +14,17 @@ Besondere Artikelpreise
 Alternative Preise für Benutzergruppen
 ++++++++++++++++++++++++++++++++++++++
 **Inhalte**: Preis, alternativer Preis, Artikel, Benutzer, Benutzergruppe, Preis A, Preis B, Preis C |br|
-`Artikel lesen <alternative-preise-fuer-benutzergruppen>`_ |link|
+:doc:`Artikel lesen <alternative-preise-fuer-benutzergruppen>` |link|
 
 Preis pro Mengeneinheit (Grundpreis)
 ++++++++++++++++++++++++++++++++++++
 **Inhalte**: Preis, Grundpreisangabe, Detailseite des Artikels, Preis je Mengeneinheit, Gewicht, Volumen, Länge, Fläche, kg, g, l, ml, cm, mm, m, m², m³, Stück und Teil, Preisangabeverordnung |br|
-`Artikel lesen <preis-pro-mengeneinheit-grundpreis>`_ |link|
+:doc:`Artikel lesen <preis-pro-mengeneinheit-grundpreis>` |link|
 
 Staffelpreise
 +++++++++++++
 **Inhalte**: Preis, Staffelpreis, absolut, prozentual, Mengenrabatt, Detailseite des Artikels, Warenkorb |br|
-`Artikel lesen <staffelpreise>`_ |link|
+:doc:`Artikel lesen <staffelpreise>` |link|
 
 ----------------------------------------------------------------------------------------- 
  
@@ -33,19 +33,19 @@ Warenkatalog - Zuordnung, Sortierung und Filter
 Zuordnung von Artikeln zu Kategorien
 ++++++++++++++++++++++++++++++++++++
 **Inhalte**: Warenkatalog, Zuordnung von Artikeln zu Kategorien, Kategorien zuordnen, Artikel zuordnen, Schnellzuordnung einer Kategorie, Zuordnungsfenster |br|
-`Artikel lesen <zuordnung-von-artikeln-zu-kategorien>`_ |link|
+:doc:`Artikel lesen <zuordnung-von-artikeln-zu-kategorien>` |link|
 
 Hauptkategorie eines Artikels
 +++++++++++++++++++++++++++++
 **Inhalte**: Warenkatalog, Kategorien, Hauptkategorie festlegen, Duplicated Content, Canonical Tag, Canonical Link, rel=\"canonical\" |br|
-`Artikel lesen <hauptkategorie-eines-artikels>`_ |link|
+:doc:`Artikel lesen <hauptkategorie-eines-artikels>` |link|
 
 Sortierung von Artikeln
 +++++++++++++++++++++++
 **Inhalte**: Warenkatalog, Artikel einer Kategorie sortieren, Schnellsortierung, Sortierung nach Artikelmerkmal, manuelle Sortierung, Felder für Sortierung, aufsteigend, asc, absteigend, desc, Benutzer können Artikellisten sortieren |br|
-`Artikel lesen <sortierung-von-artikeln>`_ |link|
+:doc:`Artikel lesen <sortierung-von-artikeln>` |link|
 
 Filtern von Artikeln
 ++++++++++++++++++++
 **Inhalte**: Warenkatalog, Kategorien, Artikel filtern, Attributfilter, Attribute, Kategorien zuordnen, Artikel, Attribute zuordnen |br|
-`Artikel lesen <filtern-von-artikeln>`_ |link|
+:doc:`Artikel lesen <filtern-von-artikeln>` |link|

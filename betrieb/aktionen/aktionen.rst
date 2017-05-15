@@ -27,14 +27,14 @@ Wird eine Aktion gewählt, werden deren Informationen in den Eingabebereich gela
 Aktionen und Startseite
 +++++++++++++++++++++++
 **Inhalte**: Startseite, Theme \"Azure\", Typ Aktion, Typ Banner, Banner, Angebot der Woche, Kategorie-Topangebot, Frisch eingetroffen!, Top of the Shop, Performanceeinstellungen, Aktionen laden, Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\" |br|
-`Artikel lesen <aktionen-und-startseite>`_ |link|
+:doc:`Artikel lesen <aktionen-und-startseite>` |link|
 
 Aktion für Newsletter
 +++++++++++++++++++++
 **Inhalte**: Newsletter, Anzeige ausgesuchter Artikel, Aktion \"Newsletter\" |br|
-`Artikel lesen <aktion-fuer-newsletter>`_ |link|
+:doc:`Artikel lesen <aktion-fuer-newsletter>` |link|
 
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Aktion, Typ Aktion, Typ Banner, Typ Promotion, Name, Artikel zuordnen, Bannerbilder, Sortierung, Slideshow, Link für Bannerbild, Benutzergruppen zuordnen, Produkte zuordnen |br|
-`Artikel lesen <registerkarte-stamm>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|

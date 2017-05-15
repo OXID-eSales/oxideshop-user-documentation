@@ -5,20 +5,20 @@ Rabattangebote sind neben Gutscheinserien, Newslettern oder Aktionen ein wichtig
 Rabatte lassen sich für einen bestimmten Zeitraum oder gar länderspezifisch definieren. Sie können so eingestellt werden, dass das Angebot direkt mit den ermäßigten Preisen angezeigt wird. Es ist aber auch möglich, dass der Rabatt erst im Warenkorb berechnet und ausgewiesen wird. Rabatte können prozentual oder absolut zum Artikelpreis vergeben werden. Neben der Ermäßigung des Artikelpreises gibt es auch die Möglichkeit, bei jedem Kauf, der den Rabattkriterien entspricht, einen Gratisartikel in den Warenkorb zu legen.
 
 .. image:: ../../media/screenshots-de/oxbahh01.png
-:alt: Rabatte
+   :alt: Rabatte
    :height: 503
-       :width: 650
+   :width: 650
 
-    Mengennachlass oder Staffelrabatt können mit Staffelpreisen bei den Artikeln umgesetzt werden. Damit kann definiert werden, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird. Siehe: `Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`_
+Mengennachlass oder Staffelrabatt können mit Staffelpreisen bei den Artikeln umgesetzt werden. Damit kann definiert werden, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird. Siehe: :doc:`Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`
 
-Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: `Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`_
+Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`
 
 Im OXID eShop können natürlich verschiedene Rabatte aktiv sein, so dass unter bestimmten Bedingungen mehrere Rabatte beim Einkauf berücksichtigt und im Warenkorb ausgewiesen werden. Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht. Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt.
 
 .. image:: ../../media/screenshots-de/oxbahh02.png
-:alt: Kite mit 2 Rabatten im Warenkorb
+   :alt: Kite mit 2 Rabatten im Warenkorb
    :height: 263
-       :width: 650
+   :width: 650
 
 Der Abschnitt \"Rabatte\" informiert Sie darüber, wie Rabatte erstellt und mit welchen Einstellungen sie individualisiert und für bestimmte Kundengruppen genutzt werden können. In ihm werden auch einige typische Beispiele für Rabatte aufgezeigt.
 
@@ -37,23 +37,23 @@ Wird ein Rabatt aus der Liste der Rabatte gewählt, werden dessen Informationen 
 
    <br />
 
-Registerkarte Stamm 
-+++++++++++++++++++ 
+Registerkarte Stamm
++++++++++++++++++++
 **Inhalte**: aktiver Rabatt, immer aktiv, aktiv für Zeitraum, Einkaufsmenge, Einkaufswert, absoluter Rabatt, prozentualer Rabatt, Dreingabe, Zugabe, kostenfreier Artikel |br|
-`Artikel lesen <registerkarte-stamm>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Artikel
 +++++++++++++++++++++
 **Inhalte**: Artikel und Kategorien zuordnen |br|
-`Artikel lesen <registerkarte-artikel>`_ |link|
+:doc:`Artikel lesen <registerkarte-artikel>` |link|
 
 Registerkarte Benutzer
 ++++++++++++++++++++++
 **Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-`Artikel lesen <registerkarte-benutzer>`_ |link|
+:doc:`Artikel lesen <registerkarte-benutzer>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Rabatte vererben, Rabatte verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
-`Artikel lesen <registerkarte-mall>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|

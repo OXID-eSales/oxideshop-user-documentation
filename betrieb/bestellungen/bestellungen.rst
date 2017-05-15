@@ -45,29 +45,29 @@ Für die noch nicht versendeten Artikel kann eine Packliste unter :menuselection
 Registerkarte Übersicht
 +++++++++++++++++++++++
 **Inhalte**: Bestellübersicht, Rechnungsadresse, Lieferadresse, bestellte Artikel, Gesamtpreis mit einzelnen Positionen, Zahlungsart, Versandart, Mitteilung zur Bestellung, Bestellnummer, Kundennummer, Ordner für Bestellungen, Neu, Bearbeitet, Probleme, Bestellungen des aktuellen Tages, Bestellungen total, Bestellung versenden, Versandbestätigung, XML Export, Rechnung und Lieferschein als PDF |br|
-`Artikel lesen <registerkarte-uebersicht>`_ |link|
+:doc:`Artikel lesen <registerkarte-uebersicht>` |link|
 
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: IP-Adresse und Bestellung, Trusted Shops, Bestellnummer, Rechnungsnummer, Rabatt, Bezahlinformationen, Bezahldatum, Zahlungsart, Versandinformationen, Versandart, Versandkosten, Bestellung versenden, Versandbestätigung, Links zu Download-Artikeln |br|
-`Artikel lesen <registerkarte-stamm>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Adressen
 ++++++++++++++++++++++
 **Inhalte**: Rechnungsadresse, Lieferadresse, Benutzer, Konto, Rechnungs- und Liefereinstellungen |br|
-`Artikel lesen <registerkarte-adressen>`_ |link|
+:doc:`Artikel lesen <registerkarte-adressen>` |link|
 
 Registerkarte Artikel
 +++++++++++++++++++++
 **Inhalte**: Artikel einer Bestellung, Anzahl der Artikel ändern, bestellte Artikel stornieren, Artikel aus Bestellung löschen, Artikel suchen, Artikel zur Bestellung hinzufügen, Gesamtpreis mit einzelnen Positionen |br|
-`Artikel lesen <registerkarte-artikel>`_ |link|
+:doc:`Artikel lesen <registerkarte-artikel>` |link|
 
 Registerkarte Historie
 ++++++++++++++++++++++
 **Inhalte**: Notiz, Protokoll, Kundenaktionen, Kundeninformationen |br|
-`Artikel lesen <registerkarte-historie>`_ |link|
+:doc:`Artikel lesen <registerkarte-historie>` |link|
 
 Registerkarte Downloads
 +++++++++++++++++++++++
 **Inhalte**: Download-Artikel einer Bestellung, herunterladbare Dateien, erster und letzter Download, Anzahl erfolgter Downloads, maximal mögliche Downloads, Gültigkeit der Download-Links, Reset, Downloads zurücksetzen |br|
-`Artikel lesen <registerkarte-downloads>`_ |link|
+:doc:`Artikel lesen <registerkarte-downloads>` |link|

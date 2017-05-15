@@ -34,17 +34,17 @@ Bitte beachten Sie, dass in früheren Shopversionen einer Zahlungsart mindestens
 
 Registerkarte Stamm
 +++++++++++++++++++
-**Inhalte**: aktive Zahlungsart, Preisaufschlag, Preisabschlag, Skonto, Bonität, Bonitätsindex, Einkaufswert, Zusatzfelder, DynValue-Felder, Zahlungsart und Benutzergruppen |br| 
-`Artikel lesen <registerkarte-stamm>`_ |link|
+**Inhalte**: aktive Zahlungsart, Preisaufschlag, Preisabschlag, Skonto, Bonität, Bonitätsindex, Einkaufswert, Zusatzfelder, DynValue-Felder, Zahlungsart und Benutzergruppen |br|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Länder
 ++++++++++++++++++++
 **Inhalte**: Zahlungsarten für Länder, Länder zuordnen |br|
-`Artikel lesen <registerkarte-laender>`_ |link|
+:doc:`Artikel lesen <registerkarte-laender>` |link|
 
 Registerkarte RDFa
 ++++++++++++++++++
-**Inhalte**: RDFa, Resource Description Framework, GoodReleations, Vokabular für E-Commerce, Zahlungsarten und Kreditkartenzahlung, Rich Snippets |br| 
-`Artikel lesen <registerkarte-rdfa>`_ |link|
+**Inhalte**: RDFa, Resource Description Framework, GoodReleations, Vokabular für E-Commerce, Zahlungsarten und Kreditkartenzahlung, Rich Snippets |br|
+:doc:`Artikel lesen <registerkarte-rdfa>` |link|
 
-.. seealso:: `Versandarten <../versandarten/versandarten>`_ | `Versandkostenregeln <../versandkostenregeln/versandkostenregeln>`_ | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`_
+.. seealso:: :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Versandkostenregeln <../versandkostenregeln/versandkostenregeln>` | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`

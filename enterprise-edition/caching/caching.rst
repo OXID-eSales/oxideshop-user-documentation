@@ -26,16 +26,16 @@ Der *Reverse Proxy Varnish*  ist ein Webbeschleuniger. Das System verarbeitet no
 Reverse Proxy Varnish
 +++++++++++++++++++++
 **Inhalte**: Varnish, Funktionsweise, Hinweise zur Installation, Konfiguration, default.vcl, servers_conf.vcl, HTTP, HTTPS, SSL |br|
-`Artikel lesen <reverse-proxy-varnish>`_ |link|
+:doc:`Artikel lesen <reverse-proxy-varnish>` |link|
 
 Memcached
 +++++++++
 **Inhalte**: Memcached, Hinweise zur Installation, Konfiguration |br|
-`Artikel lesen <memcached>`_ |link|
+:doc:`Artikel lesen <memcached>` |link|
 
 Caching-Einstellungen
 +++++++++++++++++++++
 **Inhalte**: Default Cache Backend, Cache Lebensdauer (TTL), Cache Connector, Dateisystem, Cache-Verzeichnis, Memcached, Memcached Server, Reverse Proxy, cachebare Seiten, Dynamic Content Caching, cachebare Klassen |br|
-`Artikel lesen <caching-einstellungen>`_ |link|
+:doc:`Artikel lesen <caching-einstellungen>` |link|
 
 .. note:: Weiterführende Links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Web Application Server: `http://www.zend.com/de/products/server <http://www.zend.com/de/products/server>`_ | Varnish: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ | Memcached: `http://memcached.org <http://memcached.org/>`_

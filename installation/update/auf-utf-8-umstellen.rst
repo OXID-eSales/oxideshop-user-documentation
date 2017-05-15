@@ -90,12 +90,13 @@ Community Edition
 
 
 .. image:: ../../media/screenshots-de/oxaafc01.jpg
-:alt: Systemvoraussetzungen UTF-8
+   :alt: Systemvoraussetzungen UTF-8
    :height: 262
-       :width: 435
+   :width: 435
 
-    ------------------------------------------------------------------------------------------------------------------------
-    Achtung: Die Umstellung auf UTF-8 funktioniert nur, wenn die oben genannten Systemvoraussetzungen erfüllt sind. Trifft dies nicht zu, kann das Update Ihren eShop beschädigen!
+------------------------------------------------------------------------------------------------------------------------
+
+Achtung: Die Umstellung auf UTF-8 funktioniert nur, wenn die oben genannten Systemvoraussetzungen erfüllt sind. Trifft dies nicht zu, kann das Update Ihren eShop beschädigen!
 
 2) eShop temporär offline setzen
 ++++++++++++++++++++++++++++++++

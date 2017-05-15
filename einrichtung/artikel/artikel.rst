@@ -27,68 +27,68 @@ Wird ein Artikel aus der Artikelliste gewählt, werden dessen Informationen in d
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Artikel, Titel, Artikelnummer, EAN, MPN, Kurz- und Langbeschreibung, Suchbegriffe und Stichworte, Lieferant und Hersteller, Preis und alternativer Preis, spezielle MwSt. |br|
-`Artikel lesen <registerkarte-stamm>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Erweitert
 +++++++++++++++++++++++
-**Inhalte**: Gewicht, Maße, Menge, Grundpreis, externe URL, Einkaufspreis, UVP, alternatives Template, suchbar und individualisierbar, immaterieller Artikel (Dienstleistung), versandkostenfrei, europäische Verbraucherrechterichtlinie 2013, Wegfall des Widerrufsrechts für immaterielle und Download-Artikel, kostenloser Artikel dazu, Kategorien zuordnen, Mediendateien als URL oder zum Download, Preise aktualisieren |br| 
-`Artikel lesen <registerkarte-erweitert>`_ |link|
+**Inhalte**: Gewicht, Maße, Menge, Grundpreis, externe URL, Einkaufspreis, UVP, alternatives Template, suchbar und individualisierbar, immaterieller Artikel (Dienstleistung), versandkostenfrei, europäische Verbraucherrechterichtlinie 2013, Wegfall des Widerrufsrechts für immaterielle und Download-Artikel, kostenloser Artikel dazu, Kategorien zuordnen, Mediendateien als URL oder zum Download, Preise aktualisieren |br|
+:doc:`Artikel lesen <registerkarte-erweitert>` |link|
 
 Registerkarte Lager
 +++++++++++++++++++
 **Inhalte**: Lagerbestand, Fremdlager, Artikel ausverkauft, offline oder nicht bestellbar, Lieferzeit, Artikel wieder lieferbar, Artikel auf Lager, Artikel nicht auf Lager, E-Mail zum Lagerbestand, Meldungen zum Lagerbestand, Staffelpreise, Menge, Mengenrabatt |br|
-`Artikel lesen <registerkarte-lager>`_ |link|
+:doc:`Artikel lesen <registerkarte-lager>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Artikel vererben, Artikel verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
-`Artikel lesen <registerkarte-mall>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|
 
 Registerkarte Auswahl
 +++++++++++++++++++++
 **Inhalte**: Attribute zuordnen, spezifische Eigenschaften, Auswahllisten zuordnen, typische Ausführungen, wiederverwendbar bei vielen Artikeln |br|
-`Artikel lesen <registerkarte-auswahl>`_ |link|
+:doc:`Artikel lesen <registerkarte-auswahl>` |link|
 
 Registerkarte Crosssell.
 ++++++++++++++++++++++++
 **Inhalte**: Cross-Selling, Crossselling, Schon gesehen?, bidirektionales Cross-Selling, Zubehör |br|
-`Artikel lesen <registerkarte-crosssell>`_ |link|
+:doc:`Artikel lesen <registerkarte-crosssell>` |link|
 
 Registerkarte Varianten
 +++++++++++++++++++++++
 **Inhalte**: Varianten, multidimensionale Varianten, Ausführungen eines Artikels, Vaterartikel, kaufbar, Vererbung, Name und Wert der Auswahl, Varianten aus Auswahllisten |br|
-`Artikel lesen <registerkarte-varianten>`_ |link|
+:doc:`Artikel lesen <registerkarte-varianten>` |link|
 
 Registerkarte Bilder
 ++++++++++++++++++++
 **Inhalte**: Artikelbilder, Thumbnail, Icon, Zoombild, Hochladen, Upload auf Webserver, automatisch generiert |br|
-`Artikel lesen  <registerkarte-bilder>`_ |link|
+:doc:`Artikel lesen  <registerkarte-bilder>` |link|
 
 Registerkarte Downloads
 +++++++++++++++++++++++
 **Inhalte**: Download-Artikel, Downloadlinks, Meine Downloads, Anzahl der Downloads, Verfallszeit der Downloadlinks, hochgeladene Dateien |br|
-`Artikel lesen <registerkarte-downloads>`_ |link|
+:doc:`Artikel lesen <registerkarte-downloads>` |link|
 
 Registerkarte Bewertung
 +++++++++++++++++++++++
 **Inhalte**: Artikel-Bewertung, Sterne und Kommentare, Moderieren der Artikel-Bewertungen |br|
-`Artikel lesen <registerkarte-bewertung>`_ |link|
+:doc:`Artikel lesen <registerkarte-bewertung>` |link|
 
 Registerkarte Statistik
 +++++++++++++++++++++++
 **Inhalte**: Erstellungsdatum, Änderungsdatum, Verkaufsrang, Bestellungen, Verkäufe, Stornierungen |br|
-`Artikel lesen <registerkarte-statistik>`_ |link|
+:doc:`Artikel lesen <registerkarte-statistik>` |link|
 
 Registerkarte Rechte
 ++++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Artikel sichtbar, Artikel kaufbar, Benutzergruppen zuordnen, ausschließliches Recht, Rechte und Rollen, Berechtigung für Shop (Frontend) |br|
-`Artikel lesen  <registerkarte-rechte>`_ |link|
+:doc:`Artikel lesen  <registerkarte-rechte>` |link|
 
 Registerkarte SEO
 +++++++++++++++++
 **Inhalte** : Suchmaschinenoptimierung, SEO, URL auswählen, URL fixieren, SEO URL, Meta-Tags, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\" |br|
-`Artikel lesen <registerkarte-seo>`_ |link|
+:doc:`Artikel lesen <registerkarte-seo>` |link|
 
-.. seealso:: `Attribute <../attribute/attribute>`_ | `Auswahllisten <../auswahllisten/auswahllisten>`_ | `Kategorien <../kategorien/kategorien>`_ | `Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>`_ | `Hersteller <../hersteller/hersteller>`_ | `Lieferanten <../lieferanten/lieferanten>`_
+.. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`

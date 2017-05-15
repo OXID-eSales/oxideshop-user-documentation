@@ -34,17 +34,17 @@ Wird ein Hersteller aus der Liste gewählt, werden dessen Informationen in den E
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Hersteller, Marke, Titel, Kurzbeschreibung, Icon, Herstellerlogo, Hochladen, Upload auf Webserver, automatisch generiert, Artikel zuordnen |br|
-`Artikel lesen <registerkarte-stamm>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Hersteller vererben, Hersteller verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-`Artikel lesen <registerkarte-mall>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|
 
 Registerkarte SEO
 +++++++++++++++++
 **Inhalte**: Suchmaschinenoptimierung, SEO, SEO URL, Titel Suffix, URL fixieren, Meta-Tags, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\"\ |br|
-`Artikel lesen <registerkarte-seo>`_ |link|
+:doc:`Artikel lesen <registerkarte-seo>` |link|
 
-.. seealso:: `Artikel <../artikel/artikel>`_ | `Lieferanten <../lieferanten/lieferanten>`_
+.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Lieferanten <../lieferanten/lieferanten>`

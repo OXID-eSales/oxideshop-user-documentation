@@ -31,17 +31,17 @@ Wird ein Attribut aus der Attributliste gewählt, werden dessen Informationen in
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: Attribut eines Artikels, Sortierung der Attribute, Attribut im Bestellprozess, kaufrelevante Informationen, Button-Lösung, Attribut zu Artikeln zuordnen, ähnliche Artikel |br|
-`Artikel lesen <registerkarte-stamm>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Kategorien
 ++++++++++++++++++++++++
 **Inhalte**: Attribut zu Kategorien zuordnen, Kategorien nach Attributen filtern, Sortierung der Attribute |br|
-`Artikel lesen <registerkarte-kategorien>`_ |link|
+:doc:`Artikel lesen <registerkarte-kategorien>` |link|
 
 Registerkarte Mall
 ++++++++++++++++++
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Attribute vererben, Attribute verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-`Artikel lesen <registerkarte-mall>`_ |link|
+:doc:`Artikel lesen <registerkarte-mall>` |link|
 
-.. seealso:: `Artikel <../artikel/artikel>`_ | `Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`_
+.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`

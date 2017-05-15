@@ -77,6 +77,6 @@ Benutzern, die Sie dieser Benutzergruppe zugewiesen haben, wird der Zugang zum S
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Benutzergruppe, Name der Benutzergruppe, Sprache, Benutzer zuordnen |br|
-`Artikel lesen <registerkarte-stamm>`_ |link|
+:doc:`Artikel lesen <registerkarte-stamm>` |link|
 
-.. seealso:: `Benutzer <../benutzer/benutzer>`_ | `Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>`_ | `Versandarten <../../einrichtung/versandarten/versandarten>`_ | `Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`_
+.. seealso:: :doc:`Benutzer <../benutzer/benutzer>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`
