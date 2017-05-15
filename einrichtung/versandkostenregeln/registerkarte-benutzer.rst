@@ -2,7 +2,7 @@
 **********************
 Versandkostenregeln können für bestimmte Benutzergruppen und/oder Benutzer gelten. Diese Einschränkung kann auf der Registerkarte :guilabel:`Benutzer` vorgenommen werden. Ohne Zuweisung von Benutzergruppen und/oder Benutzer gilt die Versandkostenregeln für alle.
 
-.. image:: ../../media/screenshots-de/oxbadm01.png
+.. image:: ../../media/screenshots-de/oxaadm01.png
    :alt: Versandkostenregeln - Registerkarte Benutzer
    :height: 325
    :width: 650

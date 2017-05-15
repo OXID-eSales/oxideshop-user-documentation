@@ -2,8 +2,8 @@
 ***********************
 Auf der Registerkarte :guilabel:`Erweitert` können ergänzende Informationen zum Benutzer gespeichert werden. Zusätzlich wird die Rechnungsanschrift des Benutzers angezeigt. Diese kann nur auf der Registerkarte Stamm geändert werden.
 
-.. image:: ../../media/screenshots-de/oxbads01.png
-:alt:
+.. image:: ../../media/screenshots-de/oxaads01.png
+   :alt:
    :height: 325
    :width: 650
 
@@ -41,4 +41,4 @@ Benutzer werden auf Grund von Bedingungen automatisch bestimmten Benutzergruppen
 
 Soll keine automatische Zuordnung des Benutzers zu Benutzergruppen erfolgen, deaktivieren Sie diese Funktion hier.
 
-.. seealso:: `Benutzergruppen <../benutzergruppen/benutzergruppen>`_
+.. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`

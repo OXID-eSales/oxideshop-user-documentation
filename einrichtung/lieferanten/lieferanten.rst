@@ -2,7 +2,7 @@
 ***********
 Der OXID eShop bietet die Möglichkeit, Lieferanten zu verwalten. Artikel können diesen Lieferanten zugeordnet werden, um die Bezugsquellen der Waren zu dokumentieren. Im Administrationsbereich lassen sich Artikel nach der Lieferanten-ID filtern und anzeigen. Im Frontend des Shops gibt es keine Verwendung für die Lieferanten, denn Shopbetreiber sind mit Sicherheit nicht daran interessiert, diese Information öffentlich zu machen. In frühen Shopversionen gab es noch keine Hersteller, sondern diese wurden - nicht ganz korrekt - als Lieferanten geführt. Mit OXID eShop 4.0.1 wurde die Unterscheidung von Lieferanten und Hersteller umgesetzt.
 
-.. image:: ../../media/screenshots-de/oxbage01.png
+.. image:: ../../media/screenshots-de/oxaage01.png
    :alt: Lieferanten
    :height: 503
    :width: 650

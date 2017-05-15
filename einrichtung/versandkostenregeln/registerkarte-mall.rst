@@ -6,7 +6,7 @@ Versandkostenregeln können beim Erstellen von Shops an diese vererbt werden. Wi
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Versandkostenregel zu Subshops und Supershops verwaltet. Multishops übernehmen keine Versandkostenregeln aus anderen Shops.
 
-.. image:: ../../media/screenshots-de/oxbadn01.png
+.. image:: ../../media/screenshots-de/oxaadn01.png
    :alt: Versandkostenregeln - Registerkarte Mall
    :height: 306
    :width: 650

@@ -2,7 +2,7 @@
 ***********************
 Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigenschaften von Artikeln festzulegen und ihnen Informationsquellen, wie beispielsweise Dokumente, Videos oder Audiodateien hinzuzufügen.
 
-.. image:: ../../media/screenshots-de/oxbacj01.png
+.. image:: ../../media/screenshots-de/oxaacj01.png
    :alt: Artikel - Registerkarte Erweitert
    :height: 315
    :width: 650
@@ -20,8 +20,6 @@ Geben Sie Länge, Breite und Höhe des Artikels in Metern an, wenn die Versandko
 Die Angabe von Menge und Mengeneinheit wird für Artikel benötigt, für welche ein Grundpreis angegeben werden muss. Der Grundpreis ist der Preis bezogen auf eine bestimmte Mengeneinheit wie Kilogramm oder Liter. Hinterlegen Sie hier die Menge des Artikels je Mengeneinheit. Wählen Sie eine Mengeneinheit aus der Liste oder tragen Sie eine Mengeneinheit ein, die nicht in der Liste zu finden ist.
 
 Der Grundpreis wird in der Detailansicht des Artikels angezeigt.
-
-
 
 Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen Sie 1,5 bei Menge ein und wählen :guilabel:`kg` als Mengeneinheit. Angenommen, der Artikel hat einen Preis von 3 €, wäre der Grundpreis 2 €/kg.
 
@@ -105,7 +103,7 @@ Der Artikel lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. 
 
 Ein Artikel kann zu einer oder zu mehreren Kategorien gehören. Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots-de/oxbacj02.png
+.. image:: ../../media/screenshots-de/oxaacj02.png
    :alt: Kategorien zuordnen
    :height: 314
    :width: 400
@@ -140,4 +138,4 @@ Tragen Sie die Preise ein, welche die bisher festgelegten Preise ersetzen sollen
 
 Legen Sie hier den Zeitpunkt der Preisaktualisierung fest.
 
-.. seealso:: `Kategorien <../kategorien/kategorien>`_ | `Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>`_ | `Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>`_ | `Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>`_ | `Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`_
+.. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`

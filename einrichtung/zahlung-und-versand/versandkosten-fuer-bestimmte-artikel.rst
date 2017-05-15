@@ -31,7 +31,7 @@ Im Beispiel werden zwei Versandkostenregeln verwendet, um höhere Versandkosten 
 
 Die erste Versandkostenregel mit 5,99 € Versandkosten gilt für alle Artikel, die zweite mit einem Preisaufschlag von 22,50 € für alle Wakeboards, die aufgrund ihrer Länge als Sperrgut verschickt werden müssen.
 
-.. image:: ../../media/screenshots-de/oxbafy01.png
+.. image:: ../../media/screenshots-de/oxaafy01.png
    :alt: Versandkosten DHL-Sperrgut: +22,50 Euro
    :height: 315
    :width: 650
@@ -40,18 +40,18 @@ Der im Screenshot gezeigten Versandkostenregel wurden drei Wakeboards zugeordnet
 
 Liegt ein Artikel im Warenkorb, der kein Wakeboard ist, greift die erste Versandkostenregel. Der Versand kostet 5,99 €.
 
-.. image:: ../../media/screenshots-de/oxbafy02.png
+.. image:: ../../media/screenshots-de/oxaafy02.png
    :alt: Warenkorb mit einer Wakeboard-Bindung
    :height: 262
    :width: 500
 
 Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 28,49 €.
 
-.. image:: ../../media/screenshots-de/oxbafy03.png
+.. image:: ../../media/screenshots-de/oxaafy03.png
    :alt: Warenkorb mit Wakeboard und Bindung
    :height: 318
    :width: 500
 
 28,49 € kostet auch der Versand eines einzelnen Wakeboards, da beide Versandkostenregeln - die für alle Artikel und die für die Wakeboards - zutreffen.
 
-.. seealso:: `Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>`_ | `Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`_
+.. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`

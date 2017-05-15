@@ -2,7 +2,7 @@
 *********
 Die Vererbung ist ein wichtiger Bestandteil der Mall-Funktion. Sie erfolgt beim Anlegen eines neuen Shops, wenn das Kontrollkästchen :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` aktiviert wurde. Außer den Artikeln werden auch Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten und weitere Elemente an den neuen Shop weitergegeben. Eine Vererbung von Kategorien erfolgt nicht.
 
-.. image:: ../../../media/screenshots-de/oxbago01.png
+.. image:: ../../../media/screenshots-de/oxaago01.png
    :alt: Neuen Shop anlegen mit Vererbung
    :height: 315
    :width: 650

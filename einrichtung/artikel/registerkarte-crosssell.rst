@@ -6,7 +6,7 @@ Beim Cross-Selling (Quer- oder Kreuzverkauf) geht es darum, Artikel, die zueinan
 
 Die Anzahl der in der Produktbox angezeigten Artikel wird in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Artikel` festgelegt. Sie gilt auch für das Zubehör. Sollen die zugewiesenen Artikel in ihrer Detailansicht auch den Artikel anzeigen, dem sie zugewiesen wurden, muss das bidirektionale Cross-Selling aktiviert werden. Sie finden diese Einstellung in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen`.
 
-.. image:: ../../media/screenshots-de/oxbacn01.png
+.. image:: ../../media/screenshots-de/oxaacn01.png
    :alt: Artikel - Registerkarte Crosssel.
    :height: 329
    :width: 650
@@ -17,7 +17,7 @@ Auf eine etwas weniger flexiblere Art verknüpfen Sie Artikel als Zubehör. Der 
 
 Um Artikel für das Cross-Selling zu verbinden, betätigen Sie die Schaltfläche :guilabel:`Crosssellings zuordnen`. Es öffnet sich ein Zuordnungsfenster, in dem Sie Artikel aus der Liste :guilabel:`Alle verfügbaren Artikel` auswählen können. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Liste ausgewählt wird. Artikel lassen sich auch nach Artikelnummer, Titel und/oder EAN filtern. Ziehen Sie die gewünschten Artikel mit der Maus in die rechte Liste. Das Cross-Selling ist damit fertig eingerichtet.
 
-.. image:: ../../media/screenshots-de/oxbacn02.png
+.. image:: ../../media/screenshots-de/oxaacn02.png
    :alt: Crosssellings zuordnen
    :height: 325
    :width: 400

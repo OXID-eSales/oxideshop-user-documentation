@@ -2,7 +2,7 @@
 *****************
 Die Registerkarte :guilabel:`SEO` des Artikels beinhaltet Informationen und\Einstellungen, die für Suchmaschinen relevant sind.
 
-.. image:: ../../media/screenshots-de/oxbacu01.png
+.. image:: ../../media/screenshots-de/oxaacu01.png
    :alt: Artikel - Registerkarte SEO
    :height: 329
    :width: 650

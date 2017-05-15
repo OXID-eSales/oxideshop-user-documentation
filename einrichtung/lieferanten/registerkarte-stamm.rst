@@ -2,7 +2,7 @@
 *******************
 Die Registerkarte :guilabel:`Stamm` enthält die knappen Informationen und Einstellungen zum Lieferanten. Erstellen oder bearbeiten Sie hier den Lieferanten.
 
-.. image:: ../../media/screenshots-de/oxbagf01.png
+.. image:: ../../media/screenshots-de/oxaagf01.png
    :alt: Lieferanten - Registerkarte Stamm
    :height: 315
    :width: 650
@@ -37,7 +37,7 @@ Der Lieferant lässt sich in weiteren aktiven Sprachen des Shops bearbeiten. Wä
 
 Dem Lieferanten können Artikel zugeordnet werden. Die Schaltfläche Artikel zuordnen öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots-de/oxbagf02.png
+.. image:: ../../media/screenshots-de/oxaagf02.png
    :alt: Artikel zuordnen
    :height: 295
    :width: 400

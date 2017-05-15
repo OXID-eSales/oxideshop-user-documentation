@@ -12,7 +12,7 @@ Ein bestehendes Attribut wird einer Kategorie zugeordnet.
 * Wiederholen Sie dies ggf. für weitere Kategorien.
 * Schließen Sie das Zuordnungsfenster.
 
-.. image:: ../../media/screenshots-de/oxbafr01.png
+.. image:: ../../media/screenshots-de/oxaafr01.png
    :alt: Attributfilter in der Kategorieansicht
    :height: 330
    :width: 400
@@ -32,11 +32,11 @@ Ein Attribut wird einem Artikel zugeordnet.
 
 Die einzelnen Werte, die bei den Artikeln für dieses Attribut vergeben werden, stellen die Filtermöglichkeiten in der Kategorieansicht dar. Wenn Artikel das Attribut nicht verwenden, dann werden sie immer angezeigt, auch wenn nach dem Attribut gefiltert wird. Zusätzlich wird auf der Detailseite des Artikels eine neue Registerkarte :guilabel:`SPEZIFIKATION` mit seinen Attributen und deren Werten eingeblendet.
 
-.. image:: ../../media/screenshots-de/oxbafr02.png
+.. image:: ../../media/screenshots-de/oxaafr02.png
    :alt: Attributfilter in der Kategorieansicht
    :height: 161
    :width: 400
 
 Im Screenshot wird als Beispiel gezeigt, dass die Kategorie mit den Shirts nach dem Material der Artikel sortiert werden kann. Baumwolle und Stretch-Jersey sind die möglichen Filter, um die gezeigten Artikel einschränken zu können.
 
-.. seealso:: Siehe auch: `Attribute - Registerkarte Kategorien <../attribute/registerkarte-kategorien>`_ | `Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`_
+.. seealso:: :doc:`Attribute - Registerkarte Kategorien <../attribute/registerkarte-kategorien>` | :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`

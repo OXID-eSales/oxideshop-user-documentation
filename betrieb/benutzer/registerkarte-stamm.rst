@@ -4,8 +4,8 @@ Die Registerkarte :guilabel:`Stamm` enthält die wichtigsten Informationen zum B
 
 Benutzer können auch mit der Funktion :guilabel:`Neuer Benutzer` angelegt werden. Dabei werden auf der Registerkarte :guilabel:`Stamm` alle relevanten Daten des Benutzers eingetragen. Ohne E-Mail-Adresse können die Benutzerdaten nicht gespeichert werden.
 
-.. image:: ../../media/screenshots-de/oxbadr01.png
-:alt:
+.. image:: ../../media/screenshots-de/oxaadr01.png
+   :alt:
    :height: 325
    :width: 650
 
@@ -89,4 +89,4 @@ Benutzer können verschiedenen Benutzergruppen angehören. Die Zusammenfassung v
 
 Die Schaltfläche :guilabel:`Benutzergruppen zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Benutzergruppen angezeigt. Diese können per Drag \& Drop in die rechte Liste verschoben werden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Damit ist die Zuordnung abgeschlossen.
 
-.. seealso:: `Benutzergruppen <../benutzergruppen/benutzergruppen>`_
+.. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`

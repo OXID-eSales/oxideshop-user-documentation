@@ -2,12 +2,12 @@
 ********
 Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop. Dafür stehen drei Aktionstypen zur Verfügung, mit denen hauptsächlich das Aussehen der Startseite des Shops gestaltet und aktualisiert werden kann: Aktion, Banner und Promotion. Das Theme \"Azure\" unterstützt Aktion und Banner. Promotion und einige Möglichkeiten vom Typ Aktion funktionieren nur mit dem Theme \"Basic\", welches seit der Shopversion 4.5.0 nicht mehr ausgeliefert wird. Die Aktionen sind im Administrationsbereich aus Kompatibilitätsgründen nach wie vor vorhanden und könnten bei Bedarf in ein auf \"Azure\" basierendes Theme integriert werden.
 
-.. image:: ../../media/screenshots-de/oxbagv01.png
-:alt: Aktionen
+.. image:: ../../media/screenshots-de/oxaagv01.png
+   :alt: Aktionen
    :height: 504
-       :width: 650
+   :width: 650
 
-    Aktionen können unter :menuselection:`Kundeninformationen --> Aktionen verwalten` bearbeitet werden. Es gibt eine Liste der Aktionen und darunter den Eingabebereich für die Aktionen. Dieser unterscheidet sich für den Typ Banner von Aktion und Promotion, indem es die Möglichkeit gibt, ein Foto für das Banner hochzuladen und zu verlinken.
+Aktionen können unter :menuselection:`Kundeninformationen --> Aktionen verwalten` bearbeitet werden. Es gibt eine Liste der Aktionen und darunter den Eingabebereich für die Aktionen. Dieser unterscheidet sich für den Typ Banner von Aktion und Promotion, indem es die Möglichkeit gibt, ein Foto für das Banner hochzuladen und zu verlinken.
 
 Alle Aktionen werden in alphabetischer Reihenfolge angezeigt. Nach Aktionen kann gesucht werden, indem das Suchfeld für deren Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"ba\" ein, würden Ihnen die vier Banner der Startseite angezeigt.
 

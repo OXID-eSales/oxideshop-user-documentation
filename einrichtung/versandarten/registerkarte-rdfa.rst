@@ -4,7 +4,7 @@ Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale 
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Versandart mit den in GoodReleations vordefinierten Werten für den Versand hergestellt.
 
-.. image:: ../../media/screenshots-de/oxbadi01.png
+.. image:: ../../media/screenshots-de/oxaadi01.png
    :alt: Versandarten - Registerkarte RDFa
    :height: 325
    :width: 650

@@ -2,7 +2,7 @@
 *****************
 Die Registerkarte :guilabel:`SEO` des Herstellers beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
 
-.. image:: ../../media/screenshots-de/oxbagd01.png
+.. image:: ../../media/screenshots-de/oxaagd01.png
    :alt: Hersteller - Registerkarte SEO
    :height: 312
    :width: 650
@@ -15,7 +15,7 @@ Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Inf
 
 :guilabel:`Titel Suffix in Kategorie anzeigen`
 
-Aktivieren Sie diese Einstellung, um das Titel-Suffix im Seitentitel anzuzeigen. Wird die Übersicht aller Artikel dieser Marke aufgerufen, enthält der Seitentitel auch den Titel-Suffix, der unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel Suffix` definiert wurde. Beispiel Demoshop:\<title\>OXID Surf- und Kiteshop | www.true-fashion.com | online kaufen\</title\>. Mehr Informationen dazu finden Sie unter\ `SEO-Einstellungen <../../konfiguration/seo-einstellungen.rst>`_ .
+Aktivieren Sie diese Einstellung, um das Titel-Suffix im Seitentitel anzuzeigen. Wird die Übersicht aller Artikel dieser Marke aufgerufen, enthält der Seitentitel auch den Titel-Suffix, der unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel Suffix` definiert wurde. Beispiel Demoshop:\<title\>OXID Surf- und Kiteshop | www.true-fashion.com | online kaufen\</title\>. Mehr Informationen dazu finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
 
 :guilabel:`SEO URL`
 

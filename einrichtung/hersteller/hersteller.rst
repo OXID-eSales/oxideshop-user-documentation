@@ -2,7 +2,7 @@
 **********
 Im OXID eShop lassen sich Hersteller verwalten, denen Artikel zugeordnet werden können. Auf diese Weise lassen sich Artikel unabhängig von den Kategorien im Shop unter dem Aspekt der Markenzugehörigkeit zusammenfassen. Im Administrationsbereich können Artikel nach der Hersteller-ID gefiltert und angezeigt werden. Im Frontend werden alle Marken im Fußbereich aufgelistet.
 
-.. image:: ../../media/screenshots-de/oxbagb01.png
+.. image:: ../../media/screenshots-de/oxaagb01.png
    :alt: Nach Hersteller | Alle Marken
    :height: 564
    :width: 650
@@ -11,7 +11,7 @@ Darüber kann eine Übersicht aller Marken oder eine Übersicht aller Artikel ei
 
 Um Hersteller zu erstellen oder zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Stammdaten --> Hersteller`.
 
-.. image:: ../../media/screenshots-de/oxbagb02.png
+.. image:: ../../media/screenshots-de/oxaagb02.png
    :alt: Hersteller
    :height: 505
    :width: 650

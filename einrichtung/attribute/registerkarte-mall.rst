@@ -6,7 +6,7 @@ Attribute können beim Erstellen von Shops an diese vererbt werden. Wird die Opt
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen des Attributes zu Subshops und Supershops verwaltet. Multishops übernehmen keine Attribute aus anderen Shops.
 
-.. image:: ../../media/screenshots-de/oxbagi01.png
+.. image:: ../../media/screenshots-de/oxaagi01.png
    :alt: Attribute - Registerkarte Mall
    :height: 306
    :width: 650

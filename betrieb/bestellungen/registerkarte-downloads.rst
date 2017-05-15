@@ -2,7 +2,7 @@
 ***********************
 Alle zu einer Bestellung gehörenden Downloads werden auf der gleichnamigen Registerkarte aufgelistet. Für jeden Download gibt es eine Zeile, die neben der Artikelnummer, dem Artikeltitel und dem Namen der herunterladbaren Datei auch Informationen enthält, die durch den eigentlichen Download aktualisiert werden.
 
-.. image:: ../../media/screenshots-de/oxbaeh01.png
+.. image:: ../../media/screenshots-de/oxaaeh01.png
    :alt: Bestellungen - Registerkarte Downloads
    :height: 329
    :width: 650

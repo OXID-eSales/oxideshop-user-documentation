@@ -2,7 +2,7 @@
 *******************
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Informationen zum Hersteller hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie hier den Hersteller.
 
-.. image:: ../../media/screenshots-de/oxbagc01.png
+.. image:: ../../media/screenshots-de/oxaagc01.png
    :alt: Hersteller - Registerkarte Stamm
    :height: 311
    :width: 650
@@ -37,7 +37,7 @@ Der Hersteller lässt sich in weiteren aktiven Sprachen des Shops bearbeiten. W�
 
 Dem Hersteller können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots-de/oxbagc02.png
+.. image:: ../../media/screenshots-de/oxaagc02.png
    :alt: Artikel zuordnen
    :height: 325
    :width: 400

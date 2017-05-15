@@ -2,7 +2,7 @@
 ************************************
 Für Artikel, die nach Gewicht, Volumen, Länge oder Fläche angeboten werden, besteht die Verpflichtung zur Grundpreisangabe. Dies ist im Paragraph 2 der `Preisangabeverordnung <http://www.gesetze-im-internet.de/pangv/>`_ geregelt. Beim Artikel ist daher nicht nur der Endpreis, sondern auch der Preis je Mengeneinheit auszuweisen. Der Grundpreis wird berechnet und auf der Detailseite des Artikels direkt unter dem Endpreis angezeigt.
 
-.. image:: ../../media/screenshots-de/oxbafl01.png
+.. image:: ../../media/screenshots-de/oxaafl01.png
    :alt: Grundpreis, Detailseite des Artikels
    :height: 290
    :width: 350
@@ -19,4 +19,4 @@ Beispiel: Bei einem Artikel, der in einer 500 g-Packung angeboten wird, tragen S
 
 Die Mengeneinheiten kg, g, l, ml, cm, mm, m, m², m³, Stück und Teil sind in der Sprachdatei :file:`lang.php` im Verzeichnis :file:`/application/translations/de` hinterlegt.
 
-.. seealso:: `Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>`_ | `Hinweisblatt zur Angabe von Grundpreisen im Online-Shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)
+.. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | `Hinweisblatt zur Angabe von Grundpreisen im Online-Shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)

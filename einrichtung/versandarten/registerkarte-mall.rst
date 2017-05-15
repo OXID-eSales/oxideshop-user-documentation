@@ -6,7 +6,7 @@ Versandarten können beim Erstellen von Shops an diese vererbt werden. Wird die 
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Versandart zu Subshops und Supershops verwaltet. Multishops übernehmen keine Versandarten aus anderen Shops.
 
-.. image:: ../../media/screenshots-de/oxbadh01.png
+.. image:: ../../media/screenshots-de/oxaadh01.png
    :alt: Versandarten - Registerkarte Mall
    :height: 306
    :width: 650

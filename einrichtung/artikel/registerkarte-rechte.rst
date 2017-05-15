@@ -4,7 +4,7 @@ Die Registerkarte :guilabel:`Rechte` bei Artikeln gibt es nur in der Enterprise 
 
 Auf der Registerkarte :guilabel:`Rechte` können einem Artikel Benutzergruppen zugeordnet werden, deren Benutzer diesen Artikel im Shop sehen dürfen und/oder kaufen können. Diese Zuordnung ist Teil der Rechte- und Rollenverwaltung der Enterprise Edition.
 
-.. image:: ../../media/screenshots-de/oxbact01.png
+.. image:: ../../media/screenshots-de/oxaact01.png
    :alt: Artikel - Registerkarte Rechte
    :height: 306
    :width: 650
@@ -13,11 +13,11 @@ Das ausschließliche Recht legt zum einen fest, dass der Artikel nur für Benutz
 
 Um einem Artikel Benutzergruppen zuzuweisen, betätigen Sie die Schaltfläche :guilabel:`Benutzergruppen zuordnen (Ausschließlich sichtbar)` bzw. :guilabel:`Benutzergruppen zuordnen (Ausschließlich kaufbar)`. Es öffnet sich jeweils ein Zuordnungsfenster, in dem Sie Artikel aus der Liste :guilabel:`Alle Benutzergruppen` auswählen können.
 
-.. image:: ../../media/screenshots-de/oxbact02.png
+.. image:: ../../media/screenshots-de/oxaact02.png
    :alt: Benutzergruppen zuordnen (Ausschließlich sichtbar)
    :height: 314
    :width: 400
 
 Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
 
-.. seealso:: `Rechte und Rollen <../../enterprise-edition/rechte-und-rollen/rechte-und-rollen>`_
+.. seealso:: :doc:`Rechte und Rollen <../../enterprise-edition/rechte-und-rollen/rechte-und-rollen>`

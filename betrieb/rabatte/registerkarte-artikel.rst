@@ -2,7 +2,7 @@
 *********************
 Rabatte können für Kategorien und/oder Artikel gelten. Auf der Registerkarte :guilabel:`Artikel` kann die dafür notwendige Zuordnung vorgenommen werden. Der Rabatt wird nur gewährt, wenn zugewiesene Artikel oder Artikel aus zugewiesenen Kategorien in den Warenkorb gelegt werden. Ohne Zuordnung von Kategorien und/oder Artikel gilt der Rabatt global für den gesamten Warenkatalog.
 
-.. image:: ../../media/screenshots-de/oxbahj01.png
+.. image:: ../../media/screenshots-de/oxaahj01.png
    :alt: Rabatte - Registerkarte Artikel
    :height: 315
    :width: 650

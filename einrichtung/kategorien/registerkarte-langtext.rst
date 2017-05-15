@@ -2,7 +2,7 @@
 **********************
 Die Kategorie wird hier im Detail beschrieben.
 
-.. image:: ../../media/screenshots-de/oxbabl01.png
+.. image:: ../../media/screenshots-de/oxaabl01.png
    :alt: Kategorien - Registerkarte Langtext
    :height: 333
    :width: 650

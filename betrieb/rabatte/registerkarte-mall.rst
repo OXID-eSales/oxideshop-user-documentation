@@ -6,7 +6,7 @@ Rabatte können beim Erstellen von Shops an diese vererbt werden. Wird diese Opt
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Rabattes zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Rabatte aus allen Shops übernehmen und anzeigen.
 
-.. image:: ../../media/screenshots-de/oxbahl01.png
+.. image:: ../../media/screenshots-de/oxaahl01.png
    :alt: Rabatte - Registerkarte Mall
    :height: 307
    :width: 650

@@ -4,7 +4,7 @@ Auf der Registerkarte :guilabel:`Kategorien` kann ein Attribut einer oder mehrer
 
 Durch die Zuordnung können Kategorien nach Attributen gefiltert werden. In der Kategorieübersicht des Shops wird eine Dropdown-Liste mit allen Werten des Attributes eingeblendet. Bei Auswahl eines Wertes aus dieser Liste wird der Filter angewendet und die in der Kategorie angezeigten Artikel werden aktualisiert.
 
-.. image:: ../../media/screenshots-de/oxbafh01.png
+.. image:: ../../media/screenshots-de/oxaafh01.png
    :alt: Attribute - Registerkarte Kategorien
    :height: 314
    :width: 650
@@ -13,4 +13,4 @@ Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster, in 
 
 Mit der Sortierung kann beeinflusst werden, in welcher Reihenfolge die auf den Attributen und ihren Werten basierenden Filter in der Kategorieübersicht angeordnet sind. Die im Zuordnungsfenster festgelegte Reihenfolge der Attribute überschreibt die bei den Attributen definierte Sortierung.
 
-.. seealso:: `Kategorien <../kategorien/kategorien>`_ | `Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`_
+.. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`

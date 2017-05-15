@@ -2,7 +2,7 @@
 *******************
 Die Registerkarte :guilabel:`Stamm` stellt verschiedene Einstellungen zur Verfügung, um die Zahlungsart individuell konfigurieren zu können. Die Zahlungsart kann hier beschrieben werden. Über einen Dialog erfolgt die Zuordnung der Benutzergruppen zur Zahlungsart.
 
-.. image:: ../../media/screenshots-de/oxbada01.png
+.. image:: ../../media/screenshots-de/oxaada01.png
    :alt: Zahlungsarten - Registerkarte Stamm
    :height: 329
    :width: 650
@@ -75,4 +75,4 @@ Die Benutzergruppen \"Inland\" und \"Ausland\" sind so etwas wie die Basis für 
 
 Geben Sie ein paar Informationen zur Zahlungsart ein. Diese werden angezeigt, sobald der Kunde diese Zahlungsart im Bestellprozess auswählt.
 
-.. seealso:: `Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>`_ | `Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten>`_ | `Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`_
+.. seealso:: :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>` | :doc:`Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten>` | :doc:`Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`

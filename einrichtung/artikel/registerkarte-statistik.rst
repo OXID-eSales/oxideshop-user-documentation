@@ -2,7 +2,7 @@
 ***********************
 Auf der Registerkarte :guilabel:`Statistik` werden einige verkaufsrelevante Informationen zum Artikel, beispielsweise zur Anzahl der Verkäufe, zum Verkaufsrang oder zum Status von Bestellungen, bereitgestellt.
 
-.. image:: ../../media/screenshots-de/oxbacs01.png
+.. image:: ../../media/screenshots-de/oxaacs01.png
    :alt: Artikel - Registerkarte Statistik
    :height: 329
    :width: 650

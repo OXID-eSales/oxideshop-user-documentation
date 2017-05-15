@@ -2,7 +2,7 @@
 *******************
 Bedingungen und Konditionen für die Berechnung der Versandkosten werden auf der Registerkarte :guilabel:`Stamm` der Versandkostenregeln definiert. Über einen Dialog erfolgt die Zuordnung der Länder zur Versandkostenregel. Mindestens ein Land muss zugewiesen sein.
 
-.. image:: ../../media/screenshots-de/oxbadk01.png
+.. image:: ../../media/screenshots-de/oxaadk01.png
    :alt: Versandkostenregeln - Registerkarte Stamm
    :height: 325
    :width: 650
@@ -67,4 +67,4 @@ Nehmen Sie diese Zuordnung vor, indem Sie auf die Schaltfläche :guilabel:`Länd
 
 .. hint:: Der Versand in In- und Ausland sollte immer über Versandkostenregeln gesteuert werden. Verwenden Sie dafür nicht die Versandarten. Es könnten dadurch Probleme auftreten, wenn bei einer Bestellung Rechnungsadresse und Lieferadresse in verschiedenen Ländern liegen.
 
-.. seealso:: `Gewichtsabhängige Versandkosten <../zahlung-und-versand/gewichtsabhaengige-versandkosten>`_ | `Versandkostenfrei ab Warenwert <../zahlung-und-versand/versandkostenfrei-ab-warenwert>`_ | `Versandkosten für In- und Ausland <../zahlung-und-versand/versandkosten-fuer-in-und-ausland>`_
+.. seealso:: :doc:`Gewichtsabhängige Versandkosten <../zahlung-und-versand/gewichtsabhaengige-versandkosten>` | :doc:`Versandkostenfrei ab Warenwert <../zahlung-und-versand/versandkostenfrei-ab-warenwert>` | :doc:`Versandkosten für In- und Ausland <../zahlung-und-versand/versandkosten-fuer-in-und-ausland>`

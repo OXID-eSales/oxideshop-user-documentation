@@ -4,7 +4,7 @@ Versand und Zahlung sind wichtige Funktionen in einem Online-Shop. Sie werden du
 
 Haben Kunden im dritten Schritt des Bestellprozesses eine Versandart ausgewählt, werden die Versandkosten berechnet. Alle Versandkostenregeln, die der Versandart zugeordnet sind, werden nacheinander auf ihre Gültigkeit geprüft. Diese hängt davon ab, ob bestimmte Einkaufswerte, Gesamtgewichte, Bestellmengen oder Maße zutreffen. Es müssen auch die zugewiesenen Länder, Benutzergruppen, Benutzer, Kategorien und Artikel stimmen. Nur wenn alle Bedingungen erfüllt sind, ist die Versandkostenregel gültig. Die Versandkosten werden aus allen gültigen Versandkostenregeln berechnet. Bei mehreren gültigen Versandkostenregeln addieren sich die Versandkosten.
 
-.. image:: ../../media/screenshots-de/oxbadj01.png
+.. image:: ../../media/screenshots-de/oxaadj01.png
    :alt: Versandkostenregeln
    :height: 525
    :width: 650

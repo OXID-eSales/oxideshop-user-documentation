@@ -27,7 +27,7 @@ Das Archiv enthält Artikel aus den früheren Online-Handbüchern. Mit dem Aufba
 Das Buch für Shopbetreiber: Online-Shops mit OXID eShop, 2. Auflage
 -------------------------------------------------------------------
 
-.. image:: ../media/screenshots-de/oxbaaa03.jpg
+.. image:: ../media/screenshots-de/oxaaaa03.jpg
    :alt: Online-Shops mit OXID eShop
    :height: 196
    :width: 150
@@ -39,7 +39,7 @@ Mehr Informationen unter `http://www.oreilly.de/buecher/120054/9783955617769-onl
 Das Buch für Entwickler: OXID eShop Kochbuch
 --------------------------------------------
 
-.. image:: ../media/screenshots-de/oxbaaa02.jpg
+.. image:: ../media/screenshots-de/oxaaaa02.jpg
    :alt: 
    :height: 196
    :width: 150
@@ -51,7 +51,7 @@ Mehr Informationen unter `http://www.oreilly.de/buecher/120106/9783955610432-oxi
 Das Buch für Anwender: Online-Shops mit OXID eShop
 --------------------------------------------------
 
-.. image:: ../media/screenshots-de/oxbaaa01.jpg
+.. image:: ../media/screenshots-de/oxaaaa01.jpg
    :alt: 
    :height: 196
    :width: 150

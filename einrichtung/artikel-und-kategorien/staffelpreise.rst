@@ -4,7 +4,7 @@ Mit den Staffelpreisen kann für ausgesuchte Artikel ein Mengenrabatt gewährt w
 
 Im OXID eShop werden die Staffelpreise auf der Detailseite des Artikels angezeigt, sobald der Kunde auf die Minischaltfläche mit einem weißen Pfeil direkt neben dem Artikelpreis klickt. Abhängig von der beim Kauf angegebenen Menge wird der dafür vorgesehene Staffelpreis im Warenkorb verwendet und angezeigt.
 
-.. image:: ../../media/screenshots-de/oxbafm01.png
+.. image:: ../../media/screenshots-de/oxaafm01.png
    :alt: Staffelpreise, Detailseite des Artikels
    :height: 158
    :width: 300
@@ -20,4 +20,4 @@ Der Staffelpreis wird in der Artikelverwaltung festgelegt.
 
 .. hint:: Bitte beachten Sie, dass bei der Staffel mit der größten Artikelanzahl immer eine ausreichend große Menge im Feld :guilabel:`bis` steht, beispielsweise 999999. Anderenfalls würde bei der Überschreitung der obersten Staffelmenge wieder der Originalpreis des Artikels gelten.
 
-.. seealso:: `Artikel - Registerkarte Lager <../artikel/registerkarte-lager>`_
+.. seealso:: :doc:`Artikel - Registerkarte Lager <../artikel/registerkarte-lager>`

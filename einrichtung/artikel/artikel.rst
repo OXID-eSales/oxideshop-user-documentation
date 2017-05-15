@@ -2,7 +2,7 @@
 *******
 Artikel sind neben den Kategorien die eigentliche Basis des Warenkatalogs. Schließlich geht es in einem Onlineshop darum, Artikel gut zu präsentieren und zu verkaufen. Titel, Kurz- und Langbeschreibung sind die wichtigsten Artikeleigenschaften, aber es gibt viele weitere, mit denen sich Artikel detailliert beschreiben lassen. Dazu kommen Artikelbilder, welche den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen sollten. Hochwertige Fotos sind wichtig, um den Artikel optimal zu präsentieren, und können kaufentscheidend sein.
 
-.. image:: ../../media/screenshots-de/oxbach01.png
+.. image:: ../../media/screenshots-de/oxaach01.png
    :alt: Artikel
    :height: 531
    :width: 650

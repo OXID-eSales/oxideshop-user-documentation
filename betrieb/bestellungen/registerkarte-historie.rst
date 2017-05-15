@@ -2,7 +2,7 @@
 **********************
 Alle Bestellungen eines Kunden werden auf der Registerkarte :guilabel:`Historie` protokolliert. Darüber hinaus gibt es Einträge zur erfolgreichen Registrierung, zu versandten Newslettern und verschickten E-Mails. Jeder Eintrag wird mit einem Zeitstempel und einem Kürzel in eckigen Klammern gespeichert. Das Kürzel \"Best.\" steht dabei für Bestellung und \"Bem.\" für Bemerkung. Markiert man einen Eintrag in der linken Spalte per Mausklick, wird dessen Inhalt im großen Eingabefeld auf der rechten Seite angezeigt.
 
-.. image:: ../../media/screenshots-de/oxbaeg01.png
+.. image:: ../../media/screenshots-de/oxaaeg01.png
    :alt: Bestellungen - Registerkarte Historie
    :height: 329
    :width: 650

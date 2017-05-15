@@ -6,7 +6,7 @@ Auswahllisten können beim Erstellen von Shops an diese vererbt werden. Wird die
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Auswahlliste zu Subshops und Supershops verwaltet. Multishops übernehmen keine Auswahllisten aus anderen Shops.
 
-.. image:: ../../media/screenshots-de/oxbagj01.png
+.. image:: ../../media/screenshots-de/oxaagj01.png
    :alt: Auswahllisten - Registerkarte Mall
    :height: 306
    :width: 650

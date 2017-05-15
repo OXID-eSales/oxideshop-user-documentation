@@ -22,7 +22,7 @@ Mit der manuellen Sortierung können die Artikel einer Kategorie in eine ganz be
 
 In der linken Liste wird die nun aktuelle Sortierung angezeigt. Die Artikel haben in der Positionsspalte die für die Sortierung zuständigen Werte.
 
-.. image:: ../../media/screenshots-de/oxbafq01.png
+.. image:: ../../media/screenshots-de/oxaafq01.png
    :alt: Artikel sortieren
    :height: 313
    :width: 400
@@ -37,11 +37,11 @@ Mit einer Einstellung in den Stammdaten können Sie festlegen, ob und wonach Ihr
 
 Die Felder, nach denen Artikel sortiert werden können, entsprechen den Datenbankfeldern der Tabelle *oxarticles* . Jedes Feld muss in einer Zeile stehen.
 
-.. image:: ../../media/screenshots-de/oxbafq02.png
+.. image:: ../../media/screenshots-de/oxaafq02.png
    :alt: Sortierungsmöglichkeiten
    :height: 144
    :width: 400
 
 Der Screenshot zeigt als Beispiel, dass Artikel außer nach Name und Preis auch nach der Artikelnummer sortiert werden können. Dafür wurde in den Stammdaten den standardmäßig eingetragenen Feldern *oxtitle*  und *oxvarprice*  das Feld *oxartnum*  hinzugefügt.
 
-.. seealso:: `Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm>`_ | `Kategorien - Registerkarte Sortierung <../kategorien/registerkarte-sortierung>`_
+.. seealso:: :doc:`Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm>` | :doc:`Kategorien - Registerkarte Sortierung <../kategorien/registerkarte-sortierung>`

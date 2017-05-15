@@ -4,7 +4,7 @@ Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale 
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlungsart mit den in GoodReleations vordefinierten Werten für Zahlung hergestellt.
 
-.. image:: ../../media/screenshots-de/oxbadc01.png
+.. image:: ../../media/screenshots-de/oxaadc01.png
    :alt: Zahlungsarten - Registerkarte RDFa
    :height: 329
    :width: 650

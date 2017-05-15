@@ -2,7 +2,7 @@
 **********
 Kategorien dienen dazu, Kunden des Onlineshops intuitiv zum gewünschten Artikel zu führen. Kategorien fassen Artikel zu Produktgruppen zusammen, präsentieren Artikel einer bestimmten Rubrik oder offerieren Sonderangebote. Kategorien stellen durch ihre Struktur auch das Navigationsmenü im Shop dar.
 
-.. image:: ../../media/screenshots-de/oxbabj01.png
+.. image:: ../../media/screenshots-de/oxaabj01.png
    :alt: Kategorien
    :height: 531
    :width: 650

@@ -6,7 +6,7 @@ Varnish ist ein Reverse Proxy, der vor dem eigentlichen Webserver eingehende Anf
 
 Die Verarbeitung durch Varnish basiert auf der Aufteilung der einzelnen Seiten des OXID eShop in kleine Teilbereiche, so genannte Widgets. Für Varnish werden diese Widgets als ESI-Tags gekennzeichnet. Dadurch kann Varnish dynamische Seitenbereiche, wie beispielsweise Warenkorb oder Login, separat abfragen und aktualisieren. Darüber hinaus werden Grafiken, Artikel- und Kategoriebilder, Stylesheet- und JavaScript-Dateien immer zwischengespeichert.
 
-.. image:: ../../media/screenshots-de/oxbacb01.png
+.. image:: ../../media/screenshots-de/oxaacb01.png
    :alt: Web-Clients, Varnish und Server mit OXID eShop
    :height: 204
    :width: 650

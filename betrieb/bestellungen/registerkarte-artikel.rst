@@ -8,7 +8,7 @@ Artikel einer Bestellung lassen sich stornieren oder gar komplett löschen. Dazu
 
 Eine Funktion erlaubt Ihnen allerdings auch, neue Artikel in die Bestellung aufzunehmen. Unter Angabe der Artikelnummer kann nach einem bestimmten Artikel gesucht werden. Legen Sie die Menge für den gefundenen Artikel fest und betätigen Sie die Schaltfläche :guilabel:`Artikel hinzufügen`. Der Artikel wird in der eingetragenen Menge zu einer neuen Bestellposition.
 
-.. image:: ../../media/screenshots-de/oxbaef01.png
+.. image:: ../../media/screenshots-de/oxaaef01.png
    :alt: Bestellungen - Registerkarte Artikel
    :height: 328
    :width: 650

@@ -2,10 +2,10 @@
 ************
 Schließt der Kunde seinen Einkauf im Online-Shop ab, indem er zahlungspflichtig bestellt, wird eine Bestellung angelegt. Auf einer Seite wird dem Kunden für dessen Einkauf gedankt und er wird sogleich über die Bestellnummer informiert. Gleichzeitig verschickt der Shop eine Bestellbestätigung per E-Mail, die alle wichtigen Informationen, wie beispielsweise eine Liste der bestellten Artikel, den Gesamtpreis mit allen Einzelpositionen, die gewählte Zahlungsart, die Rechnungsadresse und die Versandart beinhaltet. Auch der Shopbetreiber wird per E-Mail über die neue Bestellung benachrichtigt.
 
-.. image:: ../../media/screenshots-de/oxbaeb01.png
-:alt: Bestellungen
+.. image:: ../../media/screenshots-de/oxaaeb01.png
+   :alt: Bestellungen
    :height: 513
-       :width: 650
+   :width: 650
 
 Im Abschnitt \"Bestellungen\" erfahren Sie alles über die Bearbeitung von Bestellungen. Die beim Einkauf im Online-Shop erstellte Bestellung kann nachträglich geändert werden, um beispielsweise eine andere Zahlungs- oder Versandart zuzuweisen. Der Zahlungseingang kann ebenso dokumentiert werden, wie der Versand der Artikel. Rechnung und Lieferschein lassen sich aus der Bestellung heraus erstellen. Um Bestellungen zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Bestellungen verwalten --> Bestellungen`. Es werden eine Liste der Bestellungen und darunter der Eingabebereich für die Bestellung angezeigt.
 
@@ -21,21 +21,21 @@ Bestellübersicht
 ----------------
 Unter :menuselection:`Bestellungen verwalten --> Bestellübersicht` werden alle bestellten Artikel angezeigt. Wurden bei einem Einkauf mehrere Artikel in den Warenkorb gelegt, gibt es für jeden einzelnen Artikel eine separate Zeile in der Bestellübersicht. Es kann nach Datum, Artikelnummer und Artikeltitel gesucht werden. Der Klick auf ein beliebiges Feld in der Liste öffnet die dazugehörige Bestellung zur Bearbeitung.
 
-.. image:: ../../media/screenshots-de/oxbaeb02.png
-:alt: Bestellübersicht
+.. image:: ../../media/screenshots-de/oxaaeb02.png
+   :alt: Bestellübersicht
    :height: 288
-       :width: 650
+   :width: 650
 
 Packliste
 ---------
 Für die noch nicht versendeten Artikel kann eine Packliste unter :menuselection:`Bestellungen verwalten --> Packliste` aufgerufen und ausgedruckt werden. Sie listet die einzelnen Bestellungen mit Rechnungs- und Lieferanschrift auf und enthält auch eine Zusammenstellung der jeweils bestellten Artikel. Wurden diese verpackt, können sie auf der Packliste abgehakt werden.
 
-.. image:: ../../media/screenshots-de/oxbaeb03.png
-:alt: Packliste
+.. image:: ../../media/screenshots-de/oxaaeb03.png
+   :alt: Packliste
    :height: 288
-       :width: 650
+   :width: 650
 
-    -----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 
 .. |link| image:: ../../media/icons-de/link.png
 .. |br| raw:: html 

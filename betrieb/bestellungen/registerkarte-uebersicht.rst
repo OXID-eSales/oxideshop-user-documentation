@@ -4,7 +4,7 @@ Die Registerkarte :guilabel:`Übersicht` zeigt alle wichtigen Informationen eine
 
 Darüber hinaus wird eine kurze Zusammenfassung der Bestellungen des Tages und aller Bestellungen im Shop ausgegeben. Für die Bestellung kann eine Rechnung oder ein Lieferschein im PDF-Format generiert werden. Bestellungen lassen sich zur weiteren Verarbeitung in anderen Systemen im XML-Format exportieren.
 
-.. image:: ../../media/screenshots-de/oxbaec01.png
+.. image:: ../../media/screenshots-de/oxaaec01.png
    :alt: Bestellungen - Registerkarte Übersicht
    :height: 329
    :width: 650

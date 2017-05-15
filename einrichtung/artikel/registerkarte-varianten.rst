@@ -2,7 +2,7 @@
 ***********************
 Mit Varianten können verschiedene Ausführungen ein und desselben Artikels umgesetzt werden. Typische Ausführungen sind beispielsweise die unterschiedlichen Größen bei Kleidungsstücken oder mehrere Farben, in denen ein Artikel angeboten wird.
 
-.. image:: ../../media/screenshots-de/oxbaco01.png
+.. image:: ../../media/screenshots-de/oxaaco01.png
    :alt: Artikel - Registerkarte Varianten
    :height: 329
    :width: 650
@@ -15,7 +15,7 @@ Auf der Registerkarte :guilabel:`Varianten` werden die Varianten des Artikels er
 
 Multidimensionale Varianten stellen eine Mehrfachauswahl von charakteristischen Eigenschaften eines Artikels zur Verfügung. In der Detailansicht eines Artikels gibt es dadurch mehrere Dropdownlisten zur Auswahl, beispielsweise \"Größe\" und \"Farbe\". Die Mehrfachauswahl wird durch eine besondere Syntax in den Feldern :guilabel:`Name der Auswahl` und :guilabel:`Auswahl` umgesetzt. Das Pipezeichen (|) trennt jeweils die verschiedenen Eigenschaften und deren Werte.
 
-.. image:: ../../media/screenshots-de/oxbaco02.png
+.. image:: ../../media/screenshots-de/oxaaco02.png
    :alt: Artikel - Registerkarte Varianten
    :height: 329
    :width: 650
@@ -64,4 +64,4 @@ Lagerbestand der Variante. In der daneben stehenden Liste kann das Verhalten aus
 
 Listenauswahl stellt die schnelle Bearbeitung von Varianten auf eine andere aktive Sprache des Shops um.
 
-.. seealso:: Siehe auch: `Auswahllisten <../auswahllisten/auswahllisten>`_
+.. seealso:: :doc:`Auswahllisten <../auswahllisten/auswahllisten>`

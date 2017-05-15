@@ -4,14 +4,14 @@ Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zur Akt
 
 
 
-Bitte beachten Sie, dass das Theme \"Azure\" den Typ Promotion und einige Möglichkeiten vom Typ Aktion nicht auf der Startseite anzeigt. Siehe: `Aktionen und Startseite <aktionen-und-startseite.html>`_
+Bitte beachten Sie, dass das Theme \"Azure\" den Typ Promotion und einige Möglichkeiten vom Typ Aktion nicht auf der Startseite anzeigt. Siehe: :doc:`Aktionen und Startseite <aktionen-und-startseite>`
 
 Typ Aktion
 ----------
-.. image:: ../../media/screenshots-de/oxbagy01.png
-:alt: Aktionen - Registerkarte Stamm, Typ Aktion
+.. image:: ../../media/screenshots-de/oxaagy01.png
+   :alt: Aktionen - Registerkarte Stamm, Typ Aktion
    :height: 317
-       :width: 650
+   :width: 650
 
 :guilabel:`Name`
 
@@ -35,10 +35,10 @@ Der Aktion kann ein Artikel, wie beispielsweise bei der Aktion \"Angebot der Woc
 
 Typ Banner
 ----------
-.. image:: ../../media/screenshots-de/oxbagy02.png
-:alt: Aktionen - Registerkarte Stamm, Typ Banner
+.. image:: ../../media/screenshots-de/oxaagy02.png
+   :alt: Aktionen - Registerkarte Stamm, Typ Banner
    :height: 315
-       :width: 650
+   :width: 650
 
 :guilabel:`Name`
 
@@ -82,11 +82,11 @@ Zeigt Artikelnummer und Titel eines Artikels an, der dem Banner zugeordnet wurde
 
 Der Aktion kann ein Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Produkt zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in einer Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden.
 
-.. image:: ../../media/screenshots-de/oxbagy03.png
-:alt: Produkt zuordnen
+.. image:: ../../media/screenshots-de/oxaagy03.png
+   :alt: Produkt zuordnen
    :height: 340
-       :width: 400
+   :width: 400
 
-    Mit der Schaltfläche :guilabel:`Produkt zuordnen` wird das Banner mit dem in der Liste markierten Artikel verbunden. Mit der Schaltfläche :guilabel:`Produktzuordnung löschen` wird eine bestehende Verbindung zwischen Banner und Artikel getrennt.
+Mit der Schaltfläche :guilabel:`Produkt zuordnen` wird das Banner mit dem in der Liste markierten Artikel verbunden. Mit der Schaltfläche :guilabel:`Produktzuordnung löschen` wird eine bestehende Verbindung zwischen Banner und Artikel getrennt.
 
-.. seealso:: `Aktionen <aktionen>`_ | `Aktionen und Startseite <aktionen-und-startseite>`_ | `Aktion für Newsletter <aktion-fuer-newsletter>`_
+.. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktionen und Startseite <aktionen-und-startseite>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>`

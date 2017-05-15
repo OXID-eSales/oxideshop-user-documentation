@@ -2,7 +2,7 @@
 ****************************************
 Gutscheinserien können für Benutzergruppen, Kategorien oder einzelne Artikel gelten. Auch eine beliebige Kombination daraus ist möglich. Auf der Registerkarte :guilabel:`Benutzergruppen \& Artikel` können der Gutscheinserie Benutzergruppen, Kategorien und/oder Artikel zugeordnet werden. Ohne eine solche Zuordnung sind die Gutscheine einer Serie für alle Benutzer und den kompletten Warenkatalog gültig.
 
-.. image:: ../../media/screenshots-de/oxbaht01.png
+.. image:: ../../media/screenshots-de/oxaaht01.png
    :alt: Gutscheinserien - Registerkarte Benutzergruppen &amp; Artikel
    :height: 313
    :width: 650

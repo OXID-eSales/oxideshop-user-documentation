@@ -6,7 +6,7 @@ Beim Erstellen neuer Shops werden die Kategorien eines Elternshops nicht vererbt
 
 Für Multishops gibt es die Möglichkeit, dass sie alle Kategorien von allen Shops erben können. Diese Funktion befindet sich auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` des Multishops.
 
-.. image:: ../../media/screenshots-de/oxbacf01.png
+.. image:: ../../media/screenshots-de/oxaacf01.png
    :alt: Kategorien - Registerkarte Mall
    :height: 306
    :width: 650

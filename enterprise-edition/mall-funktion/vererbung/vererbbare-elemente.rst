@@ -2,7 +2,7 @@
 *******************
 Vererbbare Elemente werden einem Shop von einem anderen Shop zugewiesen. Beim Erstellen eines Shops können folgende Elemente vererbt werden: Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten und Links. Die vererbten Elemente sind, von einigen Ausnahmen abgesehen, im neuen Shop inhaltlich nicht änderbar.
 
-.. image:: ../../../media/screenshots-de/oxbagp01.png
+.. image:: ../../../media/screenshots-de/oxaagp01.png
    :alt: Vererbungseinstellungen
    :height: 315
    :width: 650
@@ -13,4 +13,4 @@ Beim Elternshop kann auch auf der Ebene einzelner Artikel, Attribute, Auswahllis
 
 Im Subshop kann eine Verknüpfung nur gelöst werden, indem beispielsweise der Artikel, die Versandkosten oder eine Versandkostenregel gelöscht werden. Das Erstellen einer neuen Verknüpfung zu einzelnen Artikeln und Einstellungen des Elternshops ist nicht möglich.
 
-.. seealso:: `Artikel <../../../einrichtung/artikel/artikel>`_ | `Attribute <../../../einrichtung/attribute/attribute>`_ | `Auswahllisten <../../../einrichtung/auswahllisten/auswahllisten>`_ | `Versandarten <../../../einrichtung/versandarten/versandarten>`_ | `Versandkostenregeln <../../../einrichtung/versandkostenregeln/versandkostenregeln>`_ | `Hersteller <../../../einrichtung/hersteller/hersteller>`_ | `Lieferanten <../../../einrichtung/lieferanten/lieferanten>`_ | `Kategorien <../../../einrichtung/kategorien/kategorien>`_
+.. seealso:: :doc:`Artikel <../../../einrichtung/artikel/artikel>` | :doc:`Attribute <../../../einrichtung/attribute/attribute>` | :doc:`Auswahllisten <../../../einrichtung/auswahllisten/auswahllisten>` | :doc:`Versandarten <../../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../../einrichtung/versandkostenregeln/versandkostenregeln>` | :doc:`Hersteller <../../../einrichtung/hersteller/hersteller>` | :doc:`Lieferanten <../../../einrichtung/lieferanten/lieferanten>` | :doc:`Kategorien <../../../einrichtung/kategorien/kategorien>`

@@ -2,7 +2,7 @@
 ***********************
 Kunden können die Artikel Ihres Shops bewerten. Dies sorgt für Transparenz und Vertrauen. In der Detailansicht eines Artikels können angemeldete Kunden bis zu fünf Sterne vergeben und einen Kommentar abgeben. Die Bewertungen und die durchschnittlich vergebenen Sterne werden am unteren Ende der Detailansicht angezeigt.
 
-.. image:: ../../media/screenshots-de/oxbacr01.png
+.. image:: ../../media/screenshots-de/oxaacr01.png
    :alt: Artikel - Registerkarten Bewertung
    :height: 329
    :width: 650
@@ -11,7 +11,7 @@ Auf dieser Registerkarte können die Bewertungen zu einem Artikel eingesehen, kl
 
 Alle Bewertungen sind unter :menuselection:`Artikel verwalten --> Artikel --> Alle Bewertungen` aufgelistet und führen über einen Link direkt zum Artikel.
 
-.. image:: ../../media/screenshots-de/oxbacr02.png
+.. image:: ../../media/screenshots-de/oxaacr02.png
    :alt: Alle Bewertungen
    :height: 87
    :width: 650

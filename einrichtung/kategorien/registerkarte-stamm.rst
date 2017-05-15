@@ -2,7 +2,7 @@
 *******************
 Auf der Registerkarte :guilabel:`Stamm` werden wichtige Informationen zur Kategorie hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie eine Kategorie. Sie können hier auch der Kategorie deren Artikel zuweisen. Es lassen sich dabei viele Artikel auf einmal mit der Kategorie verbinden.
 
-.. image:: ../../media/screenshots-de/oxbabk01.png
+.. image:: ../../media/screenshots-de/oxaabk01.png
    :alt: Kategorien - Registerkarte Stamm
    :height: 332
    :width: 650
@@ -85,11 +85,11 @@ Die Kategorie lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten
 
 Der Kategorie können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots-de/oxbabk02.png
+.. image:: ../../media/screenshots-de/oxaabk02.png
    :alt: Artikel zuordnen
    :height: 325
    :width: 400
 
 In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Kategorie zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
-.. seealso:: `Artikel <../artikel/artikel>`_ | `Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>`_ | `Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`_
+.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`

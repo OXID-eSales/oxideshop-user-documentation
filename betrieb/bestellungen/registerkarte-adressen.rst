@@ -6,7 +6,7 @@ Auf der Registerkarte :guilabel:`Adressen` wird die Rechnungsadresse und - wenn 
 
 Eine geänderte Rechnungsadresse oder die Lieferadresse, die nachträglich erfasst wird, gilt nur für die jeweilige Bestellung. Die Eingaben werden nicht in die Benutzerverwaltung übernommen und dauerhaft gespeichert. Möchte der Kunde beispielsweise die Lieferadresse auch bei der nächsten Bestellung verwenden, muss sie auf der Registerkarte :guilabel:`Adressen` unter :menuselection:`Benutzer verwalten --> Benutzer` eingetragen werden. Alternativ kann der Kunde selbst eine oder mehrere Lieferadressen in den Rechnungs- und Liefereinstellungen seines Kontos hinterlegen.
 
-.. image:: ../../media/screenshots-de/oxbaee01.png
+.. image:: ../../media/screenshots-de/oxaaee01.png
    :alt: Bestellungen - Registerkarte Adressen
    :height: 329
    :width: 650

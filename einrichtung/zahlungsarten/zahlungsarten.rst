@@ -8,7 +8,7 @@ Alle erforderlichen Einstellungen können im Administrationsbereich unter :menus
 
 Wird eine Zahlungsart aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Zahlungsart klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Zahlungsart anlegen`.
 
-.. image:: ../../media/screenshots-de/oxbacz01.png
+.. image:: ../../media/screenshots-de/oxaacz01.png
    :alt: Zahlungsarten
    :height: 525
    :width: 650

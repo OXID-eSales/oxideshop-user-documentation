@@ -2,7 +2,7 @@
 *******************
 Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versandart zur Verfügung. Es können Versandkostenregeln und Länder zugewiesen werden.
 
-.. image:: ../../media/screenshots-de/oxbade01.png
+.. image:: ../../media/screenshots-de/oxaade01.png
    :alt: Versandarten - Registerkarte Stamm
    :height: 325
    :width: 650
