@@ -19,11 +19,6 @@ Wird ein Artikel aus der Artikelliste gewählt, werden dessen Informationen in d
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Artikel, Titel, Artikelnummer, EAN, MPN, Kurz- und Langbeschreibung, Suchbegriffe und Stichworte, Lieferant und Hersteller, Preis und alternativer Preis, spezielle MwSt. |br|

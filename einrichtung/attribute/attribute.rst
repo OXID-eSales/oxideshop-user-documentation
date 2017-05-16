@@ -23,11 +23,6 @@ Wird ein Attribut aus der Attributliste gewählt, werden dessen Informationen in
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: Attribut eines Artikels, Sortierung der Attribute, Attribut im Bestellprozess, kaufrelevante Informationen, Button-Lösung, Attribut zu Artikeln zuordnen, ähnliche Artikel |br|

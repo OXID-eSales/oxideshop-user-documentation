@@ -26,11 +26,6 @@ Wird ein Hersteller aus der Liste gewählt, werden dessen Informationen in den E
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Hersteller, Marke, Titel, Kurzbeschreibung, Icon, Herstellerlogo, Hochladen, Upload auf Webserver, automatisch generiert, Artikel zuordnen |br|

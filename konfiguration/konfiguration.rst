@@ -4,11 +4,6 @@ Im Abschnitt \"Konfiguration\" werden die wichtigsten Einstellungen vorgestellt,
 
 Die Einstellungen werden im Administrationsbereich vorgenommen. Rufen Sie den Administrationsbereich Ihres OXID eShop unter ``www.ihreshopurl.de/admin`` auf. Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL Ihres Shops. Die Login-Seite des Administrationsbereichs wird geöffnet. Melden Sie sich mit den Zugangsdaten an, die Sie bei der Installation des Shops vergeben haben. Bei der Anmeldung können Sie entscheiden, in welcher Sprache der Administrationsbereich angezeigt werden soll. Es stehen auch mehrere Profile zur Auswahl, die den Administrationsbereich für verschiedene Monitorauflösungen darstellen.
 
-.. |link| image:: ../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Firmendaten
 +++++++++++
 **Inhalte**: Firmenname, Anschrift der Firma, Bankverbindung, rechtlich und steuerlich relevante Angaben, Name des Shops |br|

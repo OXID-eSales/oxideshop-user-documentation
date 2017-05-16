@@ -18,11 +18,6 @@ Der *Reverse Proxy Varnish*  ist ein Webbeschleuniger. Das System verarbeitet no
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Reverse Proxy Varnish
 +++++++++++++++++++++
 **Inhalte**: Varnish, Funktionsweise, Hinweise zur Installation, Konfiguration, default.vcl, servers_conf.vcl, HTTP, HTTPS, SSL |br|

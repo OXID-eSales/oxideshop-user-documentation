@@ -1,13 +1,8 @@
 ﻿Artikel und Kategorien
 **********************
-In \"Artikel und Kategorien\" werden einzelne Themen vertieft, die Sie bereits in den Abschnitten `Artikel <../artikel/artikel>`_ und `Kategorien <../kategorien/kategorien>`_ kennengelernt haben. Während dort hauptsächlich die Einstellungen und Eingabemöglichkeiten auf den Registerkarten besprochen werden, die der Erstellung des Warenkataloges dienen, werden in diesem Abschnitt einige Aspekte aufgegriffen und als kurze Anleitungen bereitgestellt.
+In \"Artikel und Kategorien\" werden einzelne Themen vertieft, die Sie bereits in den Abschnitten :doc:`Artikel <../artikel/artikel>` und :doc:`Kategorien <../kategorien/kategorien>` kennengelernt haben. Während dort hauptsächlich die Einstellungen und Eingabemöglichkeiten auf den Registerkarten besprochen werden, die der Erstellung des Warenkataloges dienen, werden in diesem Abschnitt einige Aspekte aufgegriffen und als kurze Anleitungen bereitgestellt.
 
 -----------------------------------------------------------------------------------------
-
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
 
 Besondere Artikelpreise
 -----------------------

@@ -19,11 +19,6 @@ Wird ein Shop aus der Shopliste gewählt, werden dessen Informationen in den Ein
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Hauptshop \& Elternshops
 ++++++++++++++++++++++++
 **Inhalte**: Mall, Enterprise Edition, Hauptshop, Elternshops, Startseiten-Typ, separate Bestellnummern, Preisaufschlag prozentual oder absolut, individuelle Preise, Benutzer für alle Shops, Shoptypen |br|

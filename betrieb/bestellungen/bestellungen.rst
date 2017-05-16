@@ -37,11 +37,6 @@ Für die noch nicht versendeten Artikel kann eine Packliste unter :menuselection
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-   
 Registerkarte Übersicht
 +++++++++++++++++++++++
 **Inhalte**: Bestellübersicht, Rechnungsadresse, Lieferadresse, bestellte Artikel, Gesamtpreis mit einzelnen Positionen, Zahlungsart, Versandart, Mitteilung zur Bestellung, Bestellnummer, Kundennummer, Ordner für Bestellungen, Neu, Bearbeitet, Probleme, Bestellungen des aktuellen Tages, Bestellungen total, Bestellung versenden, Versandbestätigung, XML Export, Rechnung und Lieferschein als PDF |br|

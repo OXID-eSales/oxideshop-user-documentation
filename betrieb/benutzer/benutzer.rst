@@ -26,11 +26,6 @@ Unter :menuselection:`Benutzer verwalten --> Benutzerliste` werden ebenfalls all
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktiver Benutzer, Rechte des Benutzers, Kunde, Admin, Administrator, Benutzerdaten, Name, Anschrift, Rechnungsadresse, E-Mail, Telefon, Kundennummer, Passwort, Benutzergruppen zuordnen |br|

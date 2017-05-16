@@ -32,11 +32,6 @@ Wird eine Gutscheinserie aus der Liste der Gutscheinserien gewählt, werden dere
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: Gültige Gutscheinserie, gültig im Zeitraum, gültig mit gleicher Serie, gültig mit anderer Serie, Gutscheinwert, Rabatt, absolut und prozentual, Gutscheine gerieren und exportieren, Zufallsnummern, Gutscheinnummer, Gutscheincode |br|

@@ -17,11 +17,6 @@ In der Fußzeile finden Sie\die Funktionen: :guilabel:`Neue Kategorie anlegen`, 
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Kategorie, Titel, Kurzbeschreibung, Haupt- und Unterkategorien, Kategoriestruktur, Kategoriebilder, externer Link, alternatives Template, Schnellsortierung der Artikel, spezielle Mehrwertsteuer, negative Nachlässe |br|

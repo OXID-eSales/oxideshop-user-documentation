@@ -4,11 +4,6 @@ Zahlung und Versand sind wichtige Funktionen im Online-Shop und ermöglichen dem
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Zahlungsarten
 -------------
 Preise für Zahlungsarten
