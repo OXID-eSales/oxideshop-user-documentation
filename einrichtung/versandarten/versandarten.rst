@@ -21,11 +21,6 @@ Benutzer und Benutzergruppen können, müssen aber nicht zugeordnet sein. Fehlt 
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Versandart, aktiver Zeitraum, Sortierung, Versandkostenregeln und Länder zuordnen |br|

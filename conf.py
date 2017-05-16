@@ -248,6 +248,14 @@ html_show_sourcelink = False
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'OXIDeShop6doc'
 
+# A string of reStructuredText that will be included at the beginning of every source file that is read.
+rst_epilog = """
+.. |link| image:: \media\icons-de\link.png
+.. |br| raw:: html
+
+   <br />
+"""
+
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {

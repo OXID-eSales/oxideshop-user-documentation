@@ -21,11 +21,6 @@ Mit der Versandkostenregel muss eine gültige Bedingung formuliert worden sein. 
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Versandkostenregel, aktiver Zeitraum, Bedingung der Versandkostenregel, Menge, Größe, Gewicht, Preis, Versandkosten, Preisaufschlag, Preisabschlag, absolut, prozentual, Zeitrabatt, Mengenrabatt, Berechnung des Warenkorbs, Reihenfolge der Versandkosten, Reihenfolge der Berechnung, Berechnung stoppen, keine weitere Regel, Länder zuordnen |br|

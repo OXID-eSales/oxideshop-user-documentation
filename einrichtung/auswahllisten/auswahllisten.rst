@@ -25,11 +25,6 @@ Wird eine Auswahlliste gewählt, werden deren Informationen in den Eingabebereic
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: Auswahlliste eines Artikels, Feld, Ausführung eines Artikels, Preisänderungen durch Auswahllisten unterstützen, Sortierung der Auswahllisten, Artikel zuordnen |br|

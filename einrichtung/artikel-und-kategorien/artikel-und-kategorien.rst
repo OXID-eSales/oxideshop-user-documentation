@@ -4,11 +4,6 @@ In \"Artikel und Kategorien\" werden einzelne Themen vertieft, die Sie bereits i
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Besondere Artikelpreise
 -----------------------
 Alternative Preise für Benutzergruppen

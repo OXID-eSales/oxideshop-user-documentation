@@ -32,12 +32,7 @@ Wird ein Rabatt aus der Liste der Rabatte gewählt, werden dessen Informationen 
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
-Registerkarte Stamm 
+Registerkarte Stamm
 +++++++++++++++++++ 
 **Inhalte**: aktiver Rabatt, immer aktiv, aktiv für Zeitraum, Einkaufsmenge, Einkaufswert, absoluter Rabatt, prozentualer Rabatt, Dreingabe, Zugabe, kostenfreier Artikel |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|

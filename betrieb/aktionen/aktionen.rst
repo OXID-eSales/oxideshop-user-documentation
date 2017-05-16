@@ -19,11 +19,6 @@ Wird eine Aktion gewählt, werden deren Informationen in den Eingabebereich gela
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Aktionen und Startseite
 +++++++++++++++++++++++
 **Inhalte**: Startseite, Theme \"Azure\", Typ Aktion, Typ Banner, Banner, Angebot der Woche, Kategorie-Topangebot, Frisch eingetroffen!, Top of the Shop, Performanceeinstellungen, Aktionen laden, Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\" |br|

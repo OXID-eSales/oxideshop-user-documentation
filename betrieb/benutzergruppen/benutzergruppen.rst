@@ -69,11 +69,6 @@ Benutzern, die Sie dieser Benutzergruppe zugewiesen haben, wird der Zugang zum S
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../media/icons-de/link.png
-.. |br| raw:: html 
-
-   <br />
-
 Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Benutzergruppe, Name der Benutzergruppe, Sprache, Benutzer zuordnen |br|

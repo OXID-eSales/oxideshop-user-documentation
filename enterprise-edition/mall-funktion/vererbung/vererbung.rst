@@ -15,11 +15,6 @@ Die in den weiteren Dokumenten beschriebenen Details zur Vererbung sind auch dav
 
 -----------------------------------------------------------------------------------------
 
-.. |link| image:: ../../../media/icons-de/link.png
-.. |br| raw:: html
-
-   <br />
-
 Vererbbare Elemente
 +++++++++++++++++++
 **Inhalte**: Mall, Enterprise Edition, Vererbung, Vererbungseinstellungen, Verknüpfungen, vererbbare Elemente, Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten, Links |br|
