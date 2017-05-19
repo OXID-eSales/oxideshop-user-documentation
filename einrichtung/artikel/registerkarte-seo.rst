@@ -32,3 +32,5 @@ Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebund
 :guilabel:`In Sprache`
 
 Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
+
+.. Intern: oxbacu, Status:, F1: article_seo.html

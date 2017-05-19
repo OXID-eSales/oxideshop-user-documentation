@@ -14,3 +14,5 @@ Beim Elternshop kann auch auf der Ebene einzelner Artikel, Attribute, Auswahllis
 Im Subshop kann eine Verknüpfung nur gelöst werden, indem beispielsweise der Artikel, die Versandkosten oder eine Versandkostenregel gelöscht werden. Das Erstellen einer neuen Verknüpfung zu einzelnen Artikeln und Einstellungen des Elternshops ist nicht möglich.
 
 .. seealso:: :doc:`Artikel <../../../einrichtung/artikel/artikel>` | :doc:`Attribute <../../../einrichtung/attribute/attribute>` | :doc:`Auswahllisten <../../../einrichtung/auswahllisten/auswahllisten>` | :doc:`Versandarten <../../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../../einrichtung/versandkostenregeln/versandkostenregeln>` | :doc:`Hersteller <../../../einrichtung/hersteller/hersteller>` | :doc:`Lieferanten <../../../einrichtung/lieferanten/lieferanten>` | :doc:`Kategorien <../../../einrichtung/kategorien/kategorien>`
+
+.. Intern: oxbagp, Status:

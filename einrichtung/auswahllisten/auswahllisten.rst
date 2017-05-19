@@ -37,3 +37,5 @@ Nur in der Enterprise Edition vorhanden |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel - Registerkarten Auswahl <../artikel/registerkarte-auswahl>` | :doc:`Artikel - Registerkarte Varianten <../artikel/registerkarte-varianten>`
+
+.. Intern: oxbafi, Status:

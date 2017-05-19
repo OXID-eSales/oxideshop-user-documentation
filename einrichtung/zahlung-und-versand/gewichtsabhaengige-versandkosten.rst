@@ -63,3 +63,5 @@ Sind zwei oder mehrere Artikel mit einem Gewicht von jeweils 2 Kilogramm im Ware
    :width: 500
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+
+.. Intern: oxbafv, Status:

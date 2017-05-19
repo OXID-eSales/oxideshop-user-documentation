@@ -65,3 +65,5 @@ Lagerbestand der Variante. In der daneben stehenden Liste kann das Verhalten aus
 Listenauswahl stellt die schnelle Bearbeitung von Varianten auf eine andere aktive Sprache des Shops um.
 
 .. seealso:: :doc:`Auswahllisten <../auswahllisten/auswahllisten>`
+
+.. Intern: oxbaco, Status:, F1: article_variant.html

@@ -16,3 +16,4 @@ Im OXID eShop sind die wichtigsten Seiten zur Kundeninformation bereits vorberei
 
 Sobald Sie Ihre Einträge gespeichert haben, ist der neue Inhalt im Shop aufrufbar.
 
+.. Intern: oxbabh, Status:

@@ -33,3 +33,5 @@ Registerkarte Stamm
 +++++++++++++++++++
 **Inhalte**: aktive Aktion, Typ Aktion, Typ Banner, Typ Promotion, Name, Artikel zuordnen, Bannerbilder, Sortierung, Slideshow, Link für Bannerbild, Benutzergruppen zuordnen, Produkte zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
+
+.. Intern: oxbagv, Status:

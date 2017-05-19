@@ -35,3 +35,4 @@ Diese Zahl informiert darüber, wie oft der Artikel bisher storniert wurde.
 
 Diese Zahl gibt an, wie viele Bestellungen für den Artikel noch offen und zu bearbeiten sind.
 
+.. Intern: oxbacs, Status:, F1: article_overview.html

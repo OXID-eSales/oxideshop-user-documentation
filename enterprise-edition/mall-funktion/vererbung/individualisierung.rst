@@ -23,3 +23,5 @@ Eintrag in der Konfigurationsdatei:
 In der Datenbanktabelle oxfield2shops muss für OXSHORTDESC ein Eintrag erstellt werden.
 
 ``ALTER TABLE oxfield2shop ADD OXSHORTDESC VARCHAR(255) NOT NULL DEFAULT '' COMMENT 'Kurzbeschreibung';``
+
+.. Intern: oxbags, Status:

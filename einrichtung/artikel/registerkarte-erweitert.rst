@@ -139,3 +139,5 @@ Tragen Sie die Preise ein, welche die bisher festgelegten Preise ersetzen sollen
 Legen Sie hier den Zeitpunkt der Preisaktualisierung fest.
 
 .. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`
+
+.. Intern: oxbacj, Status:, F1: article_extend.html

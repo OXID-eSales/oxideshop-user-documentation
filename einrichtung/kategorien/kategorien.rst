@@ -55,3 +55,5 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>`
+
+.. Intern: oxbabj, Status:

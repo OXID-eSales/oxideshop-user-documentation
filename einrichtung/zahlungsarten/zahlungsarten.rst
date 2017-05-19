@@ -43,3 +43,5 @@ Registerkarte RDFa
 :doc:`Artikel lesen <registerkarte-rdfa>` |link|
 
 .. seealso:: :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Versandkostenregeln <../versandkostenregeln/versandkostenregeln>` | `Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
+
+.. Intern: oxbacz, Status:

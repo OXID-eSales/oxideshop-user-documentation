@@ -26,3 +26,5 @@ Das Betätigen der Schaltfläche macht die Benutzergruppe für eine weitere Spra
 :guilabel:`Benutzer zuordnen`
 
 Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzer` und :guilabel:`Mitglieder der Benutzergruppe`. Die Benutzergruppen lassen sich nach E-Mail/Login filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+
+.. Intern: oxbaea, Status:, F1: usergroup_main.html

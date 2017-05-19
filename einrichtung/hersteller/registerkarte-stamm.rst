@@ -43,3 +43,5 @@ Dem Hersteller können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`A
    :width: 400
 
 In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit dem Hersteller zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+
+.. Intern: oxbagc, Status:, F1: manufacturer_main.html

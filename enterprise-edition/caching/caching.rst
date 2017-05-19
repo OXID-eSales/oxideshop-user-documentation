@@ -34,3 +34,5 @@ Caching-Einstellungen
 :doc:`Artikel lesen <caching-einstellungen>` |link|
 
 .. note:: Weiterführende Links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Web Application Server: `http://www.zend.com/de/products/server <http://www.zend.com/de/products/server>`_ | Varnish: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ | Memcached: `http://memcached.org <http://memcached.org/>`_
+
+.. Intern: oxbabz, Status:

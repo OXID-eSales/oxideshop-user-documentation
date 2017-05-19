@@ -16,3 +16,5 @@ Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt d
 Um einzelne Benutzer für den Rabatt festzulegen, betätigen Sie die Schaltfläche :guilabel:`Benutzer zuordnen`. Im Zuordnungsfenster, welches sich öffnet, werden die beiden Listen :guilabel:`Alle Benutzer` und :guilabel:`Zugeordnete Benutzer` angezeigt. In der linken Liste kann die Anzeige auf alle Benutzer einer Benutzergruppe eingeschränkt werden, indem eine Benutzergruppe aus der Dropdown-Liste ausgewählt wird. In beiden Listen können Benutzer nach Login (E-Mail des Benutzers) gefiltert und/oder sortiert werden.
 
 Auch in diesem Zuordnungsfenster ist eine Mehrfachauswahl möglich. Die gewünschten Benutzer werden per Drag \& Drop in die rechte Liste verschoben. Die Zuordnung ist abgeschlossen.
+
+.. Intern: oxbahk, Status:, F1: discount_users.html

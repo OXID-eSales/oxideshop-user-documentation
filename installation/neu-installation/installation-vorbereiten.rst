@@ -15,3 +15,5 @@ Für die Community Edition sollten Sie sich vor dem Download registrieren. Dadur
 Alle Dateien für den OXID eShop sind in einem .zip-Archiv enthalten. Entpacken Sie das Installationspaket lokal. Meist ist dazu kein zusätzliches Programm notwendig, denn bei aktuellen Betriebssystemen gehört diese Funktion zu den Bordmitteln.
 
 Kopieren Sie anschließend die Shopdateien mit einem FTP-Programm in ein per Browser erreichbares Verzeichnis Ihres Webservers. Die Zugangsdaten zum Server erhalten Sie von Ihrem OXID Hosting Partner oder Internet Service Provider (ISP). Achten Sie darauf, dass die Dateien vom FTP-Programm im Binärmodus übertragen und dass auch versteckte Dateien, wie die :file:`.htaccess`, berücksichtigt werden.
+
+.. Intern: oxbaad, Status:

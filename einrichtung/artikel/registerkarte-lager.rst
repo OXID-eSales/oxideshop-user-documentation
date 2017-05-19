@@ -68,3 +68,5 @@ Geben Sie die Artikelmenge für einen Mengenbereich ein.
 Geben Sie den Artikelpreis für eine Mengeneinheit ein. Dieser kann ein absoluter Preis oder ein Preis in Prozent sein.
 
 .. seealso:: :doc:`Staffelpreise <../artikel-und-kategorien/staffelpreise>`
+
+.. Intern: oxback, Status:, F1: article_stock.html

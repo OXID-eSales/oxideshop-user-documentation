@@ -42,3 +42,5 @@ Benutzer werden auf Grund von Bedingungen automatisch bestimmten Benutzergruppen
 Soll keine automatische Zuordnung des Benutzers zu Benutzergruppen erfolgen, deaktivieren Sie diese Funktion hier.
 
 .. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`
+
+.. Intern: oxbads, Status:, F1: user_extend.html

@@ -74,3 +74,5 @@ Dauer in Sekunden, nach denen der Cache gelöscht wird. Der Standardwert ist 3.6
 :guilabel:`Cachebare Klassen`
 
 Liste der Klassen, die gecached werden, standardmäßig info, start, details, alist und vendorlist.
+
+.. Intern: oxbacd, Status:

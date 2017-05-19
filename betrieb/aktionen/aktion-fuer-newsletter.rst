@@ -8,3 +8,5 @@ Für den in der Community und Professional Edition implementierten Versand von N
    :width: 650
 
 .. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktionen und Startseite <aktionen-und-startseite>` | :doc:`Registerkarte Stamm <registerkarte-stamm>`
+
+.. Intern: oxbagx, Status:

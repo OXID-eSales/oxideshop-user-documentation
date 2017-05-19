@@ -57,3 +57,5 @@ Dateien dieses Artikels können heruntergeladen werden, wenn das Kontrollkästch
 :guilabel:`Hochgeladene Dateien`
 
 Dieser Bereich wird erst angezeigt, nachdem die erste Datei hochgeladen wurde. Er listet alle hochgeladenen Dateien mit ihrem Dateinamen auf. Ein Klick darauf zeigt die Einstellungen für den Download der Datei, die jederzeit geändert werden können. Dateien können hier auch durch einen Klick auf das kleine Kreuz am Ende der Zeile gelöscht werden, nachdem eine Sicherheitsabfrage bestätigt wurde.
+
+.. Intern: oxbacq, Status:, F1: article_files.html

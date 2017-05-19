@@ -92,3 +92,5 @@ Shopbetreiber mit einer Enterprise oder Professional Edition tragen hier den Liz
 7. Fertigstellen
 ++++++++++++++++
 Das Setup ist nun erfolgreich abgeschlossen. Über den Link :guilabel:`Zum Shop` gelangen Sie zur Startseite Ihres Shops. Der Link :guilabel:`Zur Shop Administration` führt Sie direkt zum Administrationsbereich.
+
+.. Intern: oxbaaf, Status:

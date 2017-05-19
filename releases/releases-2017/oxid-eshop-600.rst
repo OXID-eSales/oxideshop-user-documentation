@@ -63,7 +63,7 @@ Sicherheitsverbesserungen
 Text
 
 Korrekturen
--------------
+-----------
 Korrekturen 6.0.0: `http://bugs.oxid-esales.com/changelog_page.php?version_id=265 <http://bugs.oxid-esales.com/changelog_page.php?version_id=xxx>`_
 
 Korrekturen 6.0.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=264 <https://bugs.oxid-esales.com/changelog_page.php?version_id=xxx>`_
@@ -73,3 +73,5 @@ Korrekturen 6.0.0 RC 1: `https://bugs.oxid-esales.com/changelog_page.php?version
 Korrekturen 6.0.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=228 <https://bugs.oxid-esales.com/changelog_page.php?version_id=xxx>`_
 
 Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-6-0-0.html>`_ .
+
+.. Intern: N/A, Status:

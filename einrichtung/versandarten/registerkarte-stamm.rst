@@ -42,3 +42,5 @@ Der Versandart sollten Länder zugeordnet werden, um eindeutige Zahlungs- und Ve
 Ohne Länderzuordnung gilt die Versandart für alle Länder.
 
 Mit der Schaltfläche :guilabel:`Länder zuordnen` wird ein neues Fenster geöffnet, in dem in dessen linker Liste alle aktiven Länder angezeigt werden. Länder lassen sich nach Titel und/oder der Länderabkürzung (ISO Alpha 2) sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung zur Versandart ist damit abgeschlossen.
+
+.. Intern: oxbade, Status:, F1: deliveryset_main.html

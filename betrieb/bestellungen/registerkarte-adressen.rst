@@ -14,3 +14,5 @@ Eine geänderte Rechnungsadresse oder die Lieferadresse, die nachträglich erfas
 Die Adressdaten enthalten den Namen und die Anschrift des Kunden, sowie einige zusätzliche Eingabefelder für einen Firmennamen, eine Zusatzinformation, die Telefon- und Faxnummer. Abhängig vom Land, welches aus einer Dropdown-Liste ausgewählt werden kann, lässt sich unter Bundesland beispielsweise für die Vereinigten Staaten von Amerika der jeweilige Bundesstaat hinzufügen.
 
 .. seealso:: :doc:`Registerkarte Adressen <../benutzer/registerkarte-adressen>`
+
+.. Intern: oxbaee, Status:, F1: order_address.html

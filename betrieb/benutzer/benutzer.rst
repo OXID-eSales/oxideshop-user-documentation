@@ -57,3 +57,5 @@ Registerkarte Zahlung
 :doc:`Artikel lesen <registerkarte-zahlung>` |link|
 
 .. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`
+
+.. Intern: oxbadq, Status:

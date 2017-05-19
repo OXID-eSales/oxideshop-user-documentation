@@ -68,3 +68,5 @@ Nehmen Sie diese Zuordnung vor, indem Sie auf die Schaltfläche :guilabel:`Länd
 .. hint:: Der Versand in In- und Ausland sollte immer über Versandkostenregeln gesteuert werden. Verwenden Sie dafür nicht die Versandarten. Es könnten dadurch Probleme auftreten, wenn bei einer Bestellung Rechnungsadresse und Lieferadresse in verschiedenen Ländern liegen.
 
 .. seealso:: :doc:`Gewichtsabhängige Versandkosten <../zahlung-und-versand/gewichtsabhaengige-versandkosten>` | :doc:`Versandkostenfrei ab Warenwert <../zahlung-und-versand/versandkostenfrei-ab-warenwert>` | :doc:`Versandkosten für In- und Ausland <../zahlung-und-versand/versandkosten-fuer-in-und-ausland>`
+
+.. Intern: oxbadk, Status:, F1: delivery_main.html

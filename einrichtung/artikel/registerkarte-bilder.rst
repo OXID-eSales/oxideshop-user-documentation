@@ -30,3 +30,5 @@ Wenn Sie ein anderes, als das beim Hochladen des ersten Artikelbildes generierte
 :guilabel:`Icon (max. 2 MB, max. 1500*1500 px)`
 
 Möchten Sie ein spezielles Artikelbild als Icon verwenden, kann es hier hochgeladen werden. Es wird dabei das automatisch erzeugte Icon überschrieben. Eine Vorschau zeigt das neue Icon auf der linken Seite der Registerkarte.
+
+.. Intern: oxbacp, Status:, F1: article_pictures.html

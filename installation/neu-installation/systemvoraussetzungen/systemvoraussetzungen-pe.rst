@@ -82,3 +82,5 @@ PHP
 * Der Besucherstrom verteilt sich auf über 14 Std. pro Tag durchschnittlich
 * Die Artikelanzahl beinhaltet auch mögliche Artikelvarianten
 * Dennoch kann es bei manchen lastintensiven Tätigkeiten (z. B. Exporte) zu eingeschränkter Funktionalität kommen – dies ist abhängig von Ihrem Provider (Stichworte PHP max_execution_time und memory_limit)
+
+.. Intern: ---, Status:

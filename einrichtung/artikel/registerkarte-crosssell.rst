@@ -23,3 +23,5 @@ Um Artikel für das Cross-Selling zu verbinden, betätigen Sie die Schaltfläche
    :width: 400
 
 Ein zweites Zuordnungsfenster wird mit der Schaltfläche :guilabel:`Zubehör zuordnen` geöffnet. Auch hier werden in der linken Liste alle Artikel angezeigt und lassen sich wie beschrieben filtern. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit als Zubehör zugewiesen. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+
+.. Intern: oxbacn, Status:, F1: article_crossselling.html

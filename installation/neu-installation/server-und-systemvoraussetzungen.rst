@@ -11,3 +11,5 @@ Für den Betrieb des OXID eShop müssen eine Reihe von Systemvoraussetzungen erf
 :doc:`Systemvoraussetzungen OXID eShop Community Edition <systemvoraussetzungen/systemvoraussetzungen-ce>`
 
 Bitte beachten Sie auch die Installationshinweise und weiterführende Links auf der OXIDforge. Siehe `http://oxidforge.org/en/system-requirements <http://oxidforge.org/en/system-requirements>`_
+
+.. Intern: oxbaac, Status:

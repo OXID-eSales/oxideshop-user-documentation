@@ -64,4 +64,6 @@ Fragen, Hinweise, Anregungen
 .. image:: ../media/icons-de/brief.png
    :alt: 
    
-`Feedback senden <https://www.oxid-esales.com/de/kontakt/anfrage.html>`_ 
+`Feedback senden <https://www.oxid-esales.com/de/kontakt/anfrage.html>`_
+
+.. Intern: oxbaaa, Status: updated

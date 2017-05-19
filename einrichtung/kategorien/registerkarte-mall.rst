@@ -16,3 +16,5 @@ Für Multishops gibt es die Möglichkeit, dass sie alle Kategorien von allen Sho
 Eine Verknüpfung der Kategorie mit Subshops und Supershops kann hinzugefügt oder entfernt werden, indem das entsprechende Kontrollkästchen angehakt wird oder nicht. Bei nicht aktiviertem Kontrollkästchen ist die Kategorie im Elternshop vorhanden, nicht aber im jeweiligen Subshop oder Supershop.
 
 Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
+
+.. Intern: oxbacf, Status:, F1: category_mall.html

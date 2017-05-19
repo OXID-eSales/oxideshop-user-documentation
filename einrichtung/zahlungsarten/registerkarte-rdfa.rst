@@ -33,3 +33,5 @@ Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschrei
 | JCB
 | MasterCard
 | VISA`
+
+.. Intern: oxbadc, Status:, F1: payment_rdfa.html
