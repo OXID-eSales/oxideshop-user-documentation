@@ -19,3 +19,5 @@ Eine Übersicht aller Änderungen finden Sie in :file:`/templ_docu_admin/index.h
 Korrekturen
 -----------
 Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=185 <https://bugs.oxid-esales.com/changelog_page.php?version_id=185>`_ .
+
+.. Intern: oxaacz (doppelt), Status:

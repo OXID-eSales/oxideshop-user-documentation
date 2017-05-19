@@ -84,3 +84,5 @@ Für das Erzeugen der Rechnung und des Lieferscheins ist die Datei :guilabel:`my
 Darüber hinaus konnten in der Community und der Professional Edition Bestellungen mit der Zahlungsart \"Bankeinzug/Lastschrift\" für eine Verarbeitung bei Banken und Geldinstituten exportiert werden. Mit OXID eShop 4.9.0 wurde diese Möglichkeit zum Erstellen von Lastschrifteinzugssätzen für die elektronische Verarbeitung im Datenträgeraustauschverfahren (DTAUS) entfernt. Dieses Verfahren wird seit August 2014 von den Banken nicht mehr unterstützt.
 
 .. seealso:: :doc:`Registerkarte Stamm <../benutzer/registerkarte-stamm>` | `Hexadezimale Farbdefinition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Farben definieren in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_ | `Extensible Markup Language, XML (Wikipedia) <http://de.wikipedia.org/wiki/Extensible_Markup_Language>`_ | `Portable Document Format, PDF (Wikipedia) <http://de.wikipedia.org/wiki/PDF>`_
+
+.. Intern: oxaaec, Status:, F1: order_overwiew.html

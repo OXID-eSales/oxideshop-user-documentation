@@ -87,3 +87,5 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
+
+.. Intern: oxaach, Status:

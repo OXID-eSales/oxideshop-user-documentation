@@ -25,3 +25,5 @@ Die Anzahl der kostenfreien Zugaben wird im Warenkorb berechnet. Dabei wird die 
 Beispiel: Wurden 10 Artikel gekauft, auf die der Rabatt gewährt wird, die Mindesteinkaufsmenge ist 3 und die Menge der Zugabe 1, wird die Zugabe (10/3)*1 = 3 mal in den Warenkorb gelegt. Ist die Menge der Zugabe 2, erhöht sich die Anzahl der Zugaben auf 6.
 
 .. seealso:: :doc:`Rabatte - Registerkarte Stamm <registerkarte-stamm>`
+
+.. Intern: oxaahq, Status:

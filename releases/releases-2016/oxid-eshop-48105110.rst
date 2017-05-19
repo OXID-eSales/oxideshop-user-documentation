@@ -19,3 +19,5 @@ Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet
 Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-8-10-ce-pe-5-1-10-ee.html>`_ .
 
 Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.8.9...v4.8.10>`_ eingesehen werden.
+
+.. Intern: oxaaha, Status:

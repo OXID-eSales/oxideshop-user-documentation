@@ -22,3 +22,5 @@ Setzen Sie ein Häkchen bei allen Angaben, welche die Versandart exakt beschreib
 :guilabel:`Download   Fracht   Briefpost   Eigener Fuhrpark   Selbstabholung`
 
 :guilabel:`Paketdienst   DHL   FedEx   UPS`
+
+.. Intern: oxaadi, Status:, F1: deliveryset_rdfa.html

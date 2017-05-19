@@ -78,8 +78,10 @@ Beispiel aus dem Demoshop:
 
 Startseite
 ++++++++++
-Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS` eingetragen werden. Die CMS-Seite\"META Description Startseite\"nimmt dabei die Beschreibung des Shops, die CMS-Seite\"META Keywords Startseite\"die Keywörter auf.
+Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS` eingetragen werden. Die CMS-Seite \"META Description Startseite\" nimmt dabei die Beschreibung des Shops, die CMS-Seite \"META Keywords Startseite\" die Keywörter auf.
 
 Kategorien und Artikel
 ++++++++++++++++++++++
 Die Metadaten für Kategorien und Artikel werden automatisch aus deren Beschreibung generiert. Sie können durch selbst formulierte Bescheibungen und Schlüsselworte für jede einzelne Kategorie oder jeden einzelnen Artikel überschrieben werden. Die Metadaten werden auf der Registerkarte :guilabel:`SEO` bei der Kategorie oder beim Artikel eingetragen.
+
+.. Intern: oxaabi, Status:

@@ -15,3 +15,5 @@ Eine Liste aller mit diesem Patch behobenen Bugs finden Sie unserem Bugtrack-Sys
 `https://bugs.oxid-esales.com/changelog_page.php?version_id=154 <https://bugs.oxid-esales.com/changelog_page.php?version_id=154>`_
 
 Zusätzlich wurden zwei Bugs behoben, die im Bugtrack-System für Patch 4.5 als gelöst markiert wurden: `Bug# 4452 <https://bugs.oxid-esales.com/view.php?id=4452>`_ und `Bug# 4543 <https://bugs.oxid-esales.com/view.php?id=4543>`_ .
+
+.. Intern: oxaabv, Status:

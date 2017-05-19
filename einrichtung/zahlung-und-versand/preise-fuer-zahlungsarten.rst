@@ -24,3 +24,5 @@ Preisauf- und abschläge werden bei der jeweiligen Zahlungsart festgelegt.
 * Speichern Sie die Änderungen.
 
 .. seealso:: :doc:`Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>`
+
+.. Intern: oxaaft, Status:

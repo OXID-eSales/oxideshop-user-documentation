@@ -50,3 +50,5 @@ Wurden Artikel eingekauft, die nach Österreich geliefert werden, gilt die zweit
    :width: 500
 
 .. seealso:: :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+
+.. Intern: oxaafx, Status:

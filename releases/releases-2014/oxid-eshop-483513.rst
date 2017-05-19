@@ -54,3 +54,5 @@ Hinweise für Entwickler: Folgende Funktionen wurden als veraltet markiert:
 
 `oxSepaValidator::getIBANRegistry`
 
+.. Intern: oxaaer (doppelt), Status:
+

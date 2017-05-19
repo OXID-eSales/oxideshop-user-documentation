@@ -35,3 +35,5 @@ Vererbung
 :doc:`Artikel lesen <vererbung/vererbung>` |link|
 
 .. seealso:: :doc:`Konfiguration <../../konfiguration/konfiguration>`
+
+.. Intern: oxaaeu, Status:

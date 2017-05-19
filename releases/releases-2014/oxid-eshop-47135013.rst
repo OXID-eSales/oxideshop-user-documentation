@@ -28,4 +28,6 @@ Korrekturen
 -----------
 Mit diesem Patch wurde folgender Bug behoben:
 
-`https://bugs.oxid-esales.com/view.php?id=5814 <https://bugs.oxid-esales.com/view.php?id=5814>`_ 
+`https://bugs.oxid-esales.com/view.php?id=5814 <https://bugs.oxid-esales.com/view.php?id=5814>`_
+
+.. Intern: oxaaet, Status:

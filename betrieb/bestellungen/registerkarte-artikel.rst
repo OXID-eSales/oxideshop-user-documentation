@@ -62,3 +62,5 @@ Unter :guilabel:`Gesamt` findet sich der Gesamtpreis der Bestellung mit seinen e
 Artikelnummer, nach der gesucht werden soll.
 
 Das Drücken der Schaltfläche :guilabel:`Suchen` startet die Suche nach einem Artikel mit der eingetragenen Artikelnummer. Wird dieser gefunden, erscheint dessen Kurzbezeichnung in einer Dropdown-Liste und ein Eingabefeld für die Artikelanzahl. Mit der Schaltfläche :guilabel:`Artikel hinzufügen` wird der Artikel der Bestellung hinzugefügt.
+
+.. Intern: oxaaef, Status:, F1: order_article.html

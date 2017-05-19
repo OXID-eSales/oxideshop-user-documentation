@@ -35,3 +35,5 @@ Vorname und Name des Kunden, der die Bewertung abgegeben hat.
 :guilabel:`Text`
 
 Text der abgegebenen Bewertung, der editiert werden kann. Änderungen müssen mit der Schaltfläche :guilabel:`Speichern` in die Datenbank geschrieben werden.
+
+.. Intern: oxaacr, Status:, F1: article_review.html

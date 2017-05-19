@@ -17,3 +17,5 @@ In der Version 4.7.9/5.0.9 wurden keine Templates geändert.
 Korrekturen
 -----------
 Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=217 <https://bugs.oxid-esales.com/changelog_page.php?version_id=217>`_ .
+
+.. Intern: oxaael, Status:

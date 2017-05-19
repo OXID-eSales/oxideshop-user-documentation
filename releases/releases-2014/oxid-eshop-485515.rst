@@ -25,3 +25,5 @@ Treten bei einem OXID eShop Professional oder Enterprise Edition unerwartet Prob
 Korrekturen
 -----------
 Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=253 <https://bugs.oxid-esales.com/changelog_page.php?version_id=253>`_
+
+.. Intern: oxaaeu, Status:

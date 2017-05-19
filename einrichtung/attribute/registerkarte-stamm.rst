@@ -34,3 +34,5 @@ Dem Attribut können Artikel zugeordnet werden. Wird ein neues Attribut angelegt
 Beim Artikel muss für das zugewiesene Attribut noch ein Wert gesetzt werden.
 
 Siehe: :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
+
+.. Intern: oxaafg, Status:, F1: attribute_main.html

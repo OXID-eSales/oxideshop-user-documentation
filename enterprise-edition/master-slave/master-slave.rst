@@ -39,3 +39,5 @@ $oDb--> getOne(\"select oxid from oxcountry\");
 // from master
 
 $oDb--> getOne(\"select oxid from oxcountry\", false, false );
+
+.. Intern: oxaaca, Status:

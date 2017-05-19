@@ -194,3 +194,5 @@ Korrekturen 4.7.0/5.0.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php
  <https://bugs.oxid-esales.com/changelog_page.php?version_id=132>`_
 
 Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-7-0-ce-pe-5-0-0-ee.html>`_ .
+
+.. Intern: oxaabg, Status:

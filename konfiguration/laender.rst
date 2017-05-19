@@ -18,3 +18,5 @@ Für die Suche gibt es Eingabefelder über den Tabellenspalten.
 * Mit dem Feld über :guilabel:`ISO 3` können Sie nach der dreistelligen ISO-Bezeichung für das Land suchen, zum Beispiel DEU für Deutschland.
 
 Haben Sie ein Suchkriterium eingegeben, klicken Sie auf das Lupen-Symbol rechts oben. Dadurch wird die Suche gestartet. In der Übersicht werden nur noch Länder angezeigt, auf die das Suchkriterium zutrifft. Auch eine Suche mit mehreren Suchkriterien ist möglich. Dabei müssen alle Suchkriterien erfüllt werden. Wenn Sie beispielsweise ``1`` in das Eingabefeld über :guilabel:`Aktiv` eintragen und in ``D`` in das Eingabefeld über :guilabel:`Land`, dann werden nur Länder angezeigt, die aktiv sind und deren Name ein D enthält.
+
+.. Intern: oxaaba, Status:

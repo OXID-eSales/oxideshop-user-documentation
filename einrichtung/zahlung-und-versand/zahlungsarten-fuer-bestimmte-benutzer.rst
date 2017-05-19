@@ -29,3 +29,5 @@ Benutzergruppen werden einer Zahlungsart zugeordnet.
 * Schließen Sie das Zuordnungsfenster.
 
 .. seealso:: :doc:`Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>` | :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>`
+
+.. Intern: oxaafu, Status:

@@ -13,5 +13,7 @@ Verbesserungen und Anpassungen
 In Version 4.5.12 wurden keine Templates geändert.
 
 Korrekturen
--------------
+-----------
 Eine Liste aller mit diesem Patch behobenen Bugs finden Sie in unserem Bugtrack-System: `https://bugs.oxid-esales.com/changelog_page.php?version_id=140 <https://bugs.oxid-esales.com/changelog_page.php?version_id=140>`_ .
+
+.. Intern: oxaacw, Status:

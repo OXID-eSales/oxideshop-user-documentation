@@ -8,3 +8,5 @@ Bei Bestellungen in einem Online-Shop kommt es häufig vor, dass die bestellte W
    :width: 650
 
 Um eine neue Lieferadresse hinzuzufügen, klicken Sie auf den Link :guilabel:`Neue Adresse` in der Fußzeile des Eingabebereichs. Füllen Sie die Eingabefelder aus und betätigen Sie die Schaltfläche :guilabel:`Speichern`. Die neue Lieferadresse ist nun in der Dropdown-Liste auswählbar und kann bei Bestellungen vom Kunden verwendet werden.
+
+.. Intern: oxaadv, Status:, F1: user_address.html

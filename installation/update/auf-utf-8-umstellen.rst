@@ -268,3 +268,5 @@ müssen in ISO-8859-15 kodiert sein. Ansonsten kann es zu Problemen mit Sonderze
 Das Update ist fertig
 ---------------------
 Das Update auf den UTF-8 Zeichensatz ist fertig.
+
+.. Intern: oxaafc, Status:

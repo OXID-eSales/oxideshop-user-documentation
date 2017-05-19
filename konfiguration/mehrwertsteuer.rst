@@ -15,3 +15,5 @@ Ebenso wie Artikelpreise lassen sich die Versandkosten, die Gebühren für die Z
 :guilabel:`Die Lieferadresse anstatt der Rechnungsadresse für die Mehrwertsteuerberechnung verwenden`
 
 Die Standardeinstellung nach der Installation ist, dass die Mehrwertsteuer auf Basis der Rechnungsadresse berechnet wird. Die Adresse des Rechnungsempfängers entscheidet darüber, ob Mehrwertsteuer berechnet wird oder nicht. Als Alternative kann für die Berechnung der Mehrwertsteuer die Lieferadresse als Basis dienen.
+
+.. Intern: oxaaay, Status:

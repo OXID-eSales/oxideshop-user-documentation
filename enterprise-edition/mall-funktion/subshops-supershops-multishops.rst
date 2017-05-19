@@ -71,3 +71,5 @@ Für den Shop kann generell ein absoluter oder ein prozentualer Aufschlag auf de
 :guilabel:`Indiv. Preis für vererbte Artikel erlauben`
 
 Soll dieser Shop einmal seine Artikel und Einstellungen an andere Shops vererben, welche die Artikel mit individuellen Preisen anbieten sollen, aktivieren Sie bitte dieses Kontrollkästchen. Artikel- und Staffelpreise können dann in den jeweiligen Shops angepasst werden. Alle übrigen Eigenschaften der Artikel sind nicht änderbar.
+
+.. Intern: oxaagn, Status:

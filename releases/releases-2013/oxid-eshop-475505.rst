@@ -27,3 +27,5 @@ Die Datei :file:`.htaccess` im Hauptverzeichnis des Shop wurde geändert, weil d
 Korrekturen
 -----------
 Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=192 <https://bugs.oxid-esales.com/changelog_page.php?version_id=192>`_ .
+
+.. Intern: oxaadx, Status:

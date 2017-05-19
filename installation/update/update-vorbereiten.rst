@@ -18,3 +18,4 @@ Sie benötigen für das Update das passende Installationspaket.
 
 Für die Professional und Enterprise Edition benötigen Sie ein Kennwort, um auf den Downloadbereich zugreifen zu können. Die Zugangsdaten werden Ihnen per Mail mitgeteilt, sobald eine neue Shopversion veröffentlicht wird. Haben Sie keine Mail erhalten, wenden Sie sich bitte an den Support.
 
+.. Intern: oxaaah, Status:

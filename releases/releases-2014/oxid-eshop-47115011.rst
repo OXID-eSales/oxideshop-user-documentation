@@ -33,3 +33,5 @@ Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet
 Hinweise für Entwickler
 
 Bug #5625: Die Lösung für diesen Bug (Datenbank-Handling, Views und Anzahl von Sprachen pro Shop) kann Einfluss auf Module haben, welche die MethodeoxLang::getLanguageIds` überschreiben. Bitte beachten Sie die Anmerkungen zum Bug: `https://bugs.oxid-esales.com/view.php?id=5625 <https://bugs.oxid-esales.com/view.php?id=5625>`_ .
+
+.. Intern: oxaaer, Status:

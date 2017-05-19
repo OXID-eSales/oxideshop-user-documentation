@@ -75,3 +75,5 @@ Korrekturen 4.10.0/5.3.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.ph
 Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-10-0-ce-pe-5-3-0-ee.html>`_ .
 
 Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.9.9...v4.10.0>`_ eingesehen werden.
+
+.. Intern: oxaahe, Status:

@@ -42,10 +42,8 @@ Falls Sie nicht wissen, ob die Dateien in Ihrem eShop angepasst sind, gehen Sie 
 
 * Laden Sie sich aus OXID eXchange das Prüfscript oxchkversion.php.
 
-
 *  `Oxchkversion für Enterprise und Professional Edition <http://exchange.oxid-esales.com/de/en/OXID-Produkte/Weitere-OXID-Extensions/Oxchkversion-3-2-1-Stable-EE-PE-4-0-x-4-9-x-5-2-x.html>`_
 *
-
 *  `Oxchkversion für Community Edition <http://exchange.oxid-esales.com/de/en/OXID-Produkte/Weitere-OXID-Extensions/Oxchkversion-CE-3-2-1-Stable-CE-4-7-x-4-9-x.html>`_
 * \
 * Kopieren Sie die Datei
@@ -61,5 +59,6 @@ Falls Sie nicht wissen, ob die Dateien in Ihrem eShop angepasst sind, gehen Sie 
 
 Das Prüfscript teilt Ihnen mit, ob und an welcher Stelle der Shop nicht dem Originalzustand entspricht. Löschen Sie die Datei nach abgeschlossener Prüfung.
 
-Hinweis: Seit OXID eShop 4.8.0/5.1.0 ist diese Prüfung in den Administrationsbereich des Shops integriert. Sie können es später jederzeit unterService-\>Diagnosewerkzeugaufrufen.
+Hinweis: Seit OXID eShop 4.8.0/5.1.0 ist diese Prüfung in den Administrationsbereich des Shops integriert. Sie können es später jederzeit unter Service-\>Diagnosewerkzeug aufrufen.
 
+.. Intern: oxaaaj, Status:

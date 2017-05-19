@@ -34,4 +34,6 @@ Master/Slave
 ++++++++++++
 Die Enterprise Edition kann bei aktiviertem Master/Slave mit mehreren Datenbanken betrieben werden. Dabei ist eine Datenbank die Master-Datenbank, die hauptsächlich Schreibzugriffe verarbeitet. Die Slave-Datenbanken enthalten gespiegelte Daten und bedienen die Lesezugriffe. Ein Load-Balancer verteilt die Datenbankzugriffe nach dieser grundsätzlichen Unterscheidung auf die Master-Datenbank und auf die Slave-Datenbanken.
 
-Eine Anleitung zur Konfiguration finden Sie im Dokument `Master/Slave <master-slave/master-slave>`_ .
+Eine Anleitung zur Konfiguration finden Sie im Dokument `Master/Slave <master-slave/master-slave>`_.
+
+.. Intern: oxaacy, Status:

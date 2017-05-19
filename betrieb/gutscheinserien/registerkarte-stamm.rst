@@ -90,3 +90,5 @@ Zum Erzeugen der Gutscheine betätigen Sie diese Schaltfläche. Es können bei B
 :guilabel:`Export`
 
 Die Schaltfläche ermöglicht es, die generierten Gutscheine mit den Gutscheincodes in eine Datei zu schreiben. Das wird vor allem dann notwendig, wenn Gutscheine mit zufälligen Gutscheincodes generiert wurden, da diese nicht im Administrationsbereich angezeigt werden. Die Datei listet alle, auch die bereits eingelösten Gutscheine auf. Sie wird im Verzeichnis :file:`/export` des Shops gespeichert und kann mit einem beliebigen Texteditor oder Tabellenkalkulationsprogramm geöffnet werden.
+
+.. Intern: oxaahs, Status:, F1: voucherserie_main.html

@@ -90,3 +90,5 @@ Der Aktion kann ein Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Prod
 Mit der Schaltfläche :guilabel:`Produkt zuordnen` wird das Banner mit dem in der Liste markierten Artikel verbunden. Mit der Schaltfläche :guilabel:`Produktzuordnung löschen` wird eine bestehende Verbindung zwischen Banner und Artikel getrennt.
 
 .. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktionen und Startseite <aktionen-und-startseite>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>`
+
+.. Intern: oxaagy, Status:, F1: actions_main.html

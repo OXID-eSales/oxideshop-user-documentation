@@ -17,5 +17,7 @@ In der Version 4.7.4/5.0.4 wurden einige Sprachdateien und Templates des Adminis
 Eine Übersicht aller Änderungen finden Sie in :file:`/templ_docu_admin/index.html` und :file:`/templ_docu_azure/index.html` des Installationspaketes.
 
 Korrekturen
--------------
+-----------
 Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=186 <https://bugs.oxid-esales.com/changelog_page.php?version_id=186>`_ .
+
+.. Intern: oxaadp, Status:

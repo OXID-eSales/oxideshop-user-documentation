@@ -19,3 +19,4 @@ Um einzelne Benutzer für die Versandart festzulegen, betätigen Sie die Schaltf
 
 Auch in diesem Zuordnungsfenster ist eine Mehrfachauswahl möglich. Die gewünschten Benutzer werden per Drag \& Drop in die rechte Liste verschoben. Die Zuordnung ist abgeschlossen.
 
+.. Intern: oxaadg, Status:, F1: deliveryset_users.html

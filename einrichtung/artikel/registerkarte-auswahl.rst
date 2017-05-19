@@ -26,3 +26,5 @@ Ein weiteres Zuordnungsfenster wird mit der Schaltfläche :guilabel:`Auswahllist
    :width: 400
 
 .. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`
+
+.. Intern: oxaacm, Status:, F1: article_attribute.html

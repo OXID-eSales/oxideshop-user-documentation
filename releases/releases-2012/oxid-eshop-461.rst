@@ -11,3 +11,5 @@ In Version 4.6.1 wurden ein Template für den Administrationsbereich und zwei Sp
 Korrekturen
 -----------
 Eine Liste aller mit diesem Patch behobenen Bugs finden Sie in unserem Bugtrack-System: `https://bugs.oxid-esales.com/changelog_page.php?version_id=128 <https://bugs.oxid-esales.com/changelog_page.php?version_id=128>`_ .
+
+.. Intern: oxaabb, Status:

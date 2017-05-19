@@ -36,3 +36,5 @@ Individualisierung
 :doc:`Artikel lesen <individualisierung>` |link|
 
 .. seealso:: :doc:`Benutzer <../../../betrieb/benutzer/benutzer>`
+
+.. Intern: oxaago, Status:

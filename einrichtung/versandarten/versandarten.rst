@@ -48,3 +48,5 @@ Registerkarte RDFa
 :doc:`Artikel lesen <registerkarte-rdfa>` |link|
 
 .. seealso:: :doc:`Zahlungsarten <../zahlungsarten/zahlungsarten>` | :doc:`Versandkostenregeln <../versandkostenregeln/versandkostenregeln>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
+
+.. Intern: oxaadd, Status:

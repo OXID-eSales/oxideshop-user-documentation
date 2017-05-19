@@ -5,10 +5,10 @@ Versionsbezeichnung: 4.6.0, Revision 44406
 Veröffentlichungstermin: 26.04.2012
 
 Neue Funktionen
------------------
+---------------
 
 Download-Artikel
-++++++++++++++++++
+++++++++++++++++
 Der OXID eShop 4.6.0 stellt einen neuen Artikeltyp als Standard bereit: Download-Artikel. Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien. Nach Abschluss des Bestellvorgangs finden sich alle Downloads unter :guilabel:`Konto --> Meine Downloads`.
 
 Die Verwendung von Download-Artikeln im Shop muss global aktiviert werden. Im Administrationsbereich können unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Download-Artikel` die Standardeinstellungen vorgenommen werden. Das sind - neben dem Aktivieren der Funktion - der Pfad zu den herunterladbaren Dateien und Festlegungen zur Anzahl der Downloads oder zur Verfallszeit der Links.
@@ -34,10 +34,10 @@ Zeitgesteuerte Aktualisierung von Artikelpreisen
 Preise können zu einem festgelegten Zeitpunkt geändert werden. Unter :menuselection:`Artikel verwalten` --> :menuselection:`Artikel`\> :guilabel:`Erweitert` lassen sich Datum und Zeitpunkt festlegen, ab dem die definierten Standardpreise aktualisiert werden sollen.
 
 Verbesserungen und Anpassungen
---------------------------------
+------------------------------
 
 Steigerung der Performance
-++++++++++++++++++++++++++++
+++++++++++++++++++++++++++
 Die Performance des OXID eShop in Hochlastszenarien konnte deutlich erhöht werden. Eine Performancesteigerung von bis zu 30 Prozent wurde durch die Reduzierung von SQL-Abfragen pro Seitenaufruf, Feintuning vom Caching und durch Optimierungen im PHP-Code erreicht.
 
 Für den Shopbetrieb kann jetzt unter :menuselection:`Stammdaten --> Grundeinstellungen --> Perform.` der SEO Cache aktiviert werden. SEO Abfragen werden dadurch im :file:`/tmp`-Verzeichnis zwischengespeichert. Dies verbessert die Performance, benötigt aber ausreichenden Speicherplatz.
@@ -71,3 +71,5 @@ Korrekturen 4.6.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php?versi
 Auch alle Korrekturen aus den Patches von 4.5 wurden in die Version 4.6.0 übernommen.
 
 Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-6-0.html>`_ .
+
+.. Intern: oxaaab, Status:

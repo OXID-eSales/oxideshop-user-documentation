@@ -18,3 +18,5 @@ Es ist möglich, die Vererbung aller Lieferanten für einen Shop rückgängig zu
 Die Verknüpfung eines Lieferanten mit Subshops und Supershops kann hinzugefügt oder entfernt werden, indem das entsprechende Kontrollkästchen angehakt wird oder nicht. Bei nicht aktiviertem Kontrollkästchen ist der Lieferant im Elternshop vorhanden, aber nicht im jeweiligen Subshop oder Supershop.
 
 Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
+
+.. Intern: oxaagl, Status:, F1: vendor_mall.html

@@ -25,3 +25,5 @@ Der Rabatt wird Benutzergruppen zugeordnet.
 Der Rabatt gilt für alle zugeordneten Benutzer und/oder Benutzergruppen.
 
 .. seealso:: :doc:`Rabatte - Registerkarte Benutzer <registerkarte-benutzer>` | :doc:`Benutzer <../benutzer/benutzer>` | :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`
+
+.. Intern: oxaahp, Status:

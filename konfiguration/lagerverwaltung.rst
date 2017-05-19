@@ -37,3 +37,5 @@ Ist das Kontrollkästchen aktiv, wird die Standardmeldung :guilabel:`Sofort lief
 Auch hier wird die Standardmeldung verwendet, wenn bei einem Artikel keine davon abweichende Meldung hinterlegt ist. Ist das Kontrollkästchen angehakt, wird die Standardmeldung :guilabel:`Dieser Artikel ist nicht auf Lager und muss erst nachbestellt werden` angezeigt.
 
 Speichern Sie Ihre Einstellungen.
+
+.. Intern: oxaaaw, Status:

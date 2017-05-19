@@ -47,3 +47,5 @@ Registerkarte Mall
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Gutscheinserien vererben, Gutscheinserien verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
+
+.. Intern: oxaahr, Status:

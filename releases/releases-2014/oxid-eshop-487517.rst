@@ -33,3 +33,5 @@ Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet
 `https://bugs.oxid-esales.com/view.php?id=5814 <https://bugs.oxid-esales.com/view.php?id=5814>`_ 
 
 Hinweise für Entwickler: Der Klasse `oxConfig` wurden die beiden Funktionen `getShopUrlByLanguage` und `getMallShopUrl` hinzugefügt.
+
+.. Intern: oxaaew, Status:

@@ -40,3 +40,5 @@ Die einzelnen Werte, die bei den Artikeln für dieses Attribut vergeben werden, 
 Im Screenshot wird als Beispiel gezeigt, dass die Kategorie mit den Shirts nach dem Material der Artikel sortiert werden kann. Baumwolle und Stretch-Jersey sind die möglichen Filter, um die gezeigten Artikel einschränken zu können.
 
 .. seealso:: :doc:`Attribute - Registerkarte Kategorien <../attribute/registerkarte-kategorien>` | :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
+
+.. Intern: oxaafr, Status:

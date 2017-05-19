@@ -26,3 +26,5 @@ Die Hauptkategorie eines Artikels wird festgelegt.
    :width: 400
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | `Canonical Link <http://de.wikipedia.org/wiki/Canonical_Link>`_ (Wikipedia)
+
+.. Intern: oxaafp, Status:,

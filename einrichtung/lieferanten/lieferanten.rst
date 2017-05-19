@@ -35,3 +35,5 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Hersteller <../hersteller/hersteller>`
+
+.. Intern: oxaage, Status:

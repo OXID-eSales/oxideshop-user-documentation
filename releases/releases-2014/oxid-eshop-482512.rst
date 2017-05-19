@@ -39,3 +39,5 @@ oxSepaValidator::isValidIBANRegistry
 oxSepaValidator::setIBANRegistry
 
 oxSepaValidator::getIBANRegistry
+
+.. Intern: oxaaeq, Status:

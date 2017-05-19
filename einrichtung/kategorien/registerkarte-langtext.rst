@@ -14,3 +14,5 @@ In der Community Edition kann standardmäßig nur Text in ein großes Eingabefel
 Eine weitere Alternative wäre, den OXID eShop durch ein Modul zu erweitern, welches die praktischen Editierfunktionen bereitstellt. Im `OXID eXchange <http://exchange.oxid-esales.com/startseite>`_ , der zentralen Plattform für Erweiterungen des OXID eShop, finden Sie nicht nur einen passenden Editor. Hier gibt es Erweiterungen zu allen Bereichen des Onlineshops, von Bezahlung und Logistik, Artikeldarstellung und -suche, bis zu Themes und Templates.
 
 Der Langtext wird im Shop in der Kategorieansicht angezeigt.
+
+.. Intern: oxaabl, Status:, F1: category_text.html

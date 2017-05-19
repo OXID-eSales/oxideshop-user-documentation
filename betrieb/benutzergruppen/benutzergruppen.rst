@@ -75,3 +75,5 @@ Registerkarte Stamm
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 .. seealso:: :doc:`Benutzer <../benutzer/benutzer>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`
+
+.. Intern: oxaadz, Status:

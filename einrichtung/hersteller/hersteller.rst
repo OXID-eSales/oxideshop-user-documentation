@@ -43,3 +43,5 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
+
+.. Intern: oxaagb, Status:

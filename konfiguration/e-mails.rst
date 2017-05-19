@@ -39,3 +39,5 @@ Hat der Kunde sein Passwort vergessen, kann er sich mit der Funktion \"Passwort 
 Sobald die Ware an den Kunden verschickt wird, kann die Bestellung im Administrationsbereich als versendet markiert werden. Optional kann der Kunde darüber per E-Mail informiert werden. Die Betreffzeile für diese E-Mail wird hier definiert.
 
 Klicken Sie auf :guilabel:`Speichern`. Die E-Mails werden jetzt mit einer individuellen Betreffzeile, aber einem Standardtext verschickt. Wie der Standardtext dieser E-Mails angepasst wird, erfahren Sie im Abschnitt \"CMS\".
+
+.. Intern: oxaaav, Status:

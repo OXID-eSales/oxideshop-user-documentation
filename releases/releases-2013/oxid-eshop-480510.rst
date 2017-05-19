@@ -53,7 +53,7 @@ Der OXID eShop 4.7.0/5.0.0 führte Widgets als einen neuen Komponententyp für d
 Mit diesem Shop-Release ergänzen 'oxwArticleBox', 'oxwArticleDetails', 'oxwRating' und 'oxwReview' die bereits vorhandenen Widgets. Weitere Informationen finden Sie im Tutorial Widgets from 4.8 5.1 in der `OXIDforge <http://oxidforge.org/en/widgets-from-4-8-5-1.html>`_ .
 
 Verbesserungen und Anpassungen
---------------------------------
+------------------------------
 Änderungen in Templates
 +++++++++++++++++++++++
 Es gab Änderungen in Templates und Sprachdateien des Administrationsbereiches und des Themes \"Azure\". Die bereits erwähnten Widgets, das Diagnosewerkzeug oder die Verwendung von Argumenten in Sprachkonstanten hatten beispielsweise neue, umgestellte oder erweiterte Templates zur Folge.
@@ -109,3 +109,5 @@ Korrekturen 4.8.0/5.1.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php
 <https://bugs.oxid-esales.com/changelog_page.php?version_id=132>`_
 
 Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-8-0-ce-pe-5-1-0-ee.html>`_ .
+
+.. Intern: oxaaej, Status:

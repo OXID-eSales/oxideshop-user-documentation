@@ -8,3 +8,5 @@ Aktionen des Kunden im OXID eShop und die Informationen an ihn werden auf der Re
    :width: 650
 
 Neben den vom Shop automatisch generierten Einträgen lassen sich auch eigene anlegen, um beispielsweise individuelle Absprachen mit dem Kunden zu dokumentieren. Klicken Sie dazu auf den Link :guilabel:`Notiz anfügen` in der Fußzeile des Eingabebereichs. Schreiben Sie die gewünschten Informationen in das Eingabefeld und drücken Sie die Schaltfläche :guilabel:`Speichern`. Der Eintrag wird zusammen mit Datum und sekundengenauer Zeitangabe gespeichert. Bestehende Einträge können später geändert, ergänzt und sogar gelöscht werden. Verwenden Sie die Löschfunktion mit Bedacht, damit die Historie zum Kunden möglichst lückenlos bleibt.
+
+.. Intern: oxaadu, Status:, F1: user_remark.html

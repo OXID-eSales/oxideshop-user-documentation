@@ -17,5 +17,7 @@ In der Version 4.7.6/5.0.6 wurden minimale Änderungen in den Sprachdateien, in 
 Eine Übersicht aller Änderungen finden Sie in :file:`/templ_docu_admin/index.html` und :file:`/templ_docu_azure/index.html` des Installationspaketes.
 
 Korrekturen
--------------
+-----------
 Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=200 <https://bugs.oxid-esales.com/changelog_page.php?version_id=200>`_ .
+
+.. Intern: oxaady, Status:

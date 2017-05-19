@@ -82,3 +82,5 @@ Rabatte können auch länderspezifisch gelten. Ordnen Sie mit der Schaltfläche 
 Es öffnet sich ein Zuordnungsfenster, in dem Sie Länder aus der Liste :guilabel:`Alle Länder` auswählen können. Länder lassen sich nach Namen und/oder der Länderabkürzung sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
 .. seealso:: :doc:`Zeitlich begrenzte Rabatte <zeitlich-begrenzte-rabatte>`
+
+.. Intern: oxaahi, Status:, F1: discount_main.html

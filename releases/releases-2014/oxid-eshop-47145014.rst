@@ -29,4 +29,6 @@ Detaillierte Informationen entnehmen Sie bitte den Informationen für Entwickler
 
 Korrekturen
 -----------
-Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=260 <https://bugs.oxid-esales.com/changelog_page.php?version_id=260>`_ .`Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-7-14-ce-pe-5-0-14-ee.html>`_ .
+Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=260 <https://bugs.oxid-esales.com/changelog_page.php?version_id=260>`_ .`Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-7-14-ce-pe-5-0-14-ee.html>`_.
+
+.. Intern: oxaaez, Status:

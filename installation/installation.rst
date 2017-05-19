@@ -12,3 +12,5 @@ OXID eShop aktualisieren
 **Inhalte** : Vorbereitung des Updates, Sicherung Shopdateien und Datenbank, Installationspakete, Installation prüfen, Prüfscript oxchkversion.php, Update ausführen |br|
 
 :doc:`Artikel lesen <update/update-vorbereiten>` |link|
+
+.. Intern: oxaaar, Status:

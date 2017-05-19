@@ -55,3 +55,5 @@ Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Vers
 28,49 € kostet auch der Versand eines einzelnen Wakeboards, da beide Versandkostenregeln - die für alle Artikel und die für die Wakeboards - zutreffen.
 
 .. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+
+.. Intern: oxaafy, Status:

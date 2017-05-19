@@ -52,3 +52,5 @@ Registerkarte Mall
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Rabatte vererben, Rabatte verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
+
+.. Intern: oxaahh, Status:

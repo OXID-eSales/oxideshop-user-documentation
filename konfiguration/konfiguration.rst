@@ -48,3 +48,5 @@ Bilder
 ++++++
 **Inhalte**: Bildgenerierung und -qualität, Bildqualität und Dateigröße, Bildgrößen für Artikelbilder, Zoom-Bilder, Thumbails, Icons, Kategoriebilder und Hersteller-/Markenlogos, Standardgrößen in Pixeln (Breite*Höhe) |br|
 :doc:`Artikel lesen <bilder>` |link|
+
+.. Intern: oxaaas, Status:

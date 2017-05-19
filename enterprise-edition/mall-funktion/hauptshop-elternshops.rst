@@ -40,3 +40,5 @@ Elternshops
 Zum Elternshop wird ein Shop beim Erstellen eines neuen Shops, wenn letzterer alle Artikel und Einstellungen erbt. Der Shop, der Artikel, Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten und weitere Elemente an den neuen Shop weitergibt, ist dessen Elternshop. Vom Hauptshop aus können darüber hinaus einzelne Artikel mit jedem beliebigen anderen Shop verknüpft werden. Diese Eigenschaft macht den Hauptshop auch zu einem Supershop. Lesen Sie mehr über weitere Shoptypen im Artikel `Subshops, Supershops \& Multishops <subshops-supershops-multishops>`_ .
 
 .. seealso:: :doc:`Vererbung <vererbung/vererbung>`
+
+.. Intern: oxaagm, Status:

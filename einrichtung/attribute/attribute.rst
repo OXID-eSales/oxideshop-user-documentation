@@ -40,3 +40,5 @@ Nur in der Enterprise Edition vorhanden |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
+
+.. Intern: oxaaff, Status:

@@ -15,3 +15,5 @@ Als :guilabel:`Thumbnail` ist dabei das Bild zu sehen, welches in der Kategoriea
    :width: 450
 
 Im Screenshot wird die Kategorie \"Kiteboarding\" mit einem Bild/Thumbnail dargestellt, für die Unterkategorien \"Kites\", \"Kiteboards\", \"Trapeze\" und \"Zubehör\" wird deren Icon angezeigt.
+
+.. Intern: oxaabm, Status:, F1: category_pictures.html

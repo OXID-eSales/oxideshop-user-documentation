@@ -59,3 +59,5 @@ Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet
 Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://wiki.oxidforge.org/Downloads/4.8.6_5.1.6>`_ .
 
 Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.8.5...v4.8.6>`_ eingesehen werden.
+
+.. Intern: oxaaet, Status:

@@ -29,3 +29,5 @@ Die mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet:
 Keine wichtigen Informationen für Entwickler zu diesem Release.
 
 Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.9.8...v4.9.9>`_ eingesehen werden.
+
+.. Intern: oxaahg, Status:

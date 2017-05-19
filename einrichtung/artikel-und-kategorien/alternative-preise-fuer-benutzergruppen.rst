@@ -32,3 +32,5 @@ Mehrere Benutzer werden einer Benutzergruppe zugeordnet.
 Gehören Benutzer den Benutzergruppen \"Preis A\", \"Preis B\" oder \"Preis C\" an, müssen für alle Artikel auch alternative Preise eingepflegt sein. Ist das nicht der Fall, werden stattdessen 0,00 € angezeigt. Eine globale Einstellung stellt sicher, dass der normale Preis angezeigt wird, falls alternative Preise bei einem Artikel nicht vorhanden sind. Gehen Sie dazu zu :menuselection:`Stammdaten -->  Grundeinstellungen -->  Einstell.` und öffnen Sie den Abschnitt :guilabel:`Artikel`. Setzen Sie ein Häkchen bei :guilabel:`Den normalen Artikelpreis verwenden, wenn keine A, B, C Preise vorhanden sind` und klicken Sie auf :guilabel:`Speichern`.
 
 .. seealso:: :doc:`Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm>` | :doc:`Benutzer - Registerkarte Stamm <../../betrieb/benutzer/registerkarte-stamm>` | :doc:`Benutzergruppen - Registerkarte Stamm <../../betrieb/benutzergruppen/registerkarte-stamm>`
+
+.. Intern: oxaafk, Status:,

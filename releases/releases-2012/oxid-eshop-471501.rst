@@ -17,3 +17,5 @@ In Version 4.7.1/5.0.1 gab es kleinere Änderungen in einigen Templates und Spra
 Korrekturen
 -----------
 Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=180 <https://bugs.oxid-esales.com/changelog_page.php?version_id=180>`_ .
+
+.. Intern: oxaacv, Status:

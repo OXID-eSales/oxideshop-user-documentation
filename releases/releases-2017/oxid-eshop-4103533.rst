@@ -33,3 +33,5 @@ Mit diesem Patch wurde ein Bug im Modul PAYONE behoben.
 Keine wichtigen Informationen für Entwickler zu diesem Release.
 
 Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.10.2...v4.10.3>`_ eingesehen werden.
+
+.. Intern: oxaahw, Status:

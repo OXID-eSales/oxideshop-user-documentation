@@ -16,3 +16,5 @@ In Version 4.6.6 gab es kleinere Änderungen in einigen Templates und Sprachdate
 Korrekturen
 -----------
 Eine Liste aller mit diesem Patch behobenen 81 Bugs finden Sie in unserem Bugtrack-System: `https://bugs.oxid-esales.com/changelog_page.php?version_id=158 <https://bugs.oxid-esales.com/changelog_page.php?version_id=158>`_ .
+
+.. Intern: oxaacz, Status:

@@ -11,3 +11,5 @@ In Version 4.6.4 wurden zwei Templates des Themes \"Azure\" geändert: :file:`fu
 Korrekturen
 -----------
 Eine Liste aller mit diesem Patch behobenen Bugs finden Sie in unserem Bugtrack-System: `https://bugs.oxid-esales.com/changelog_page.php?version_id=144 <https://bugs.oxid-esales.com/changelog_page.php?version_id=144>`_ .
+
+.. Intern: oxaabp, Status:

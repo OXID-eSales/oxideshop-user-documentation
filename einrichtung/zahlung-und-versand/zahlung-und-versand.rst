@@ -46,3 +46,5 @@ Versandkosten für Artikel aus bestimmten Kategorien
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 **Inhalte**: Versand, Versandkosten, Versandkostenregel, Kategorien zuordnen, Preisaufschlag, Bestellprozess, Berechnung der Versandkosten |br|
 :doc:`Artikel lesen <versandkosten-fuer-artikel-aus-bestimmten-kategorien>` |link|
+
+.. Intern: oxaafs, Status:

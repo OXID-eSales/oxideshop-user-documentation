@@ -2,7 +2,7 @@
 *******************
 Shopbetreiber tragen dafür Sorge, dass ihre Kunden über den Anbieter, über die Bedingungen für Zahlung und Versand, über den Datenschutz, über das Widerrufsrecht informiert werden, um nur einige Stichworte zum rechtssicheren Onlineshop zu nennen. Die Texte, mit denen der Kunde informiert wird, müssen sorgfältig erstellt und regelmäßig auf Aktualität geprüft werden, um rechtliche Fallstricke und in Folge dessen Abmahnungen zu vermeiden.
 
-Für korrekte Inhalte von Impressum, AGB, Datenschutz, Versand und Kosten, Widerrufsrecht\&Co. sollten sich Shopbetreiber Unterstützung suchen. In Deutschland und einer Reihe anderer Länder bietet beispielsweise Trusted Shops entsprechendes Knowhow und zertifiziert Onlineshops. Das dabei vergebene Gütesiegel bescheinigt den Shops die Einhaltung von Standards, wie Seriosität, Datenschutz und Liefersicherheit.
+Für korrekte Inhalte von Impressum, AGB, Datenschutz, Versand und Kosten, Widerrufsrecht \&Co. sollten sich Shopbetreiber Unterstützung suchen. In Deutschland und einer Reihe anderer Länder bietet beispielsweise Trusted Shops entsprechendes Knowhow und zertifiziert Onlineshops. Das dabei vergebene Gütesiegel bescheinigt den Shops die Einhaltung von Standards, wie Seriosität, Datenschutz und Liefersicherheit.
 
 Links zum Thema rechtssicherer Onlineshop
 -----------------------------------------
@@ -16,3 +16,4 @@ Im OXID eShop sind die wichtigsten Seiten zur Kundeninformation bereits vorberei
 
 Sobald Sie Ihre Einträge gespeichert haben, ist der neue Inhalt im Shop aufrufbar.
 
+.. Intern: oxaabh, Status:

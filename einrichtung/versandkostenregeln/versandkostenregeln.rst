@@ -43,3 +43,5 @@ Nur in der Enterprise Edition vorhanden |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
 .. seealso:: :doc:`Zahlungsarten <../zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
+
+.. Intern: oxaadj, Status:

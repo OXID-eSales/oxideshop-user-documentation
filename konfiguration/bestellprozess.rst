@@ -27,3 +27,5 @@ Weitere Einstellungen zum Bestellprozess sind abhängig vom Design des Shops. Di
 Hier können Sie festlegen, ob der Bestellprozess mit einer Bestellbestätigung abgeschlossen werden soll. In dieser Bestellbestätigung wird die Bestellnummer mitgeteilt. Links führen zur Startseite und zur Bestellhistorie des Kunden.
 
 Aus einer Liste kann ausgewählt werden, welche Aktion ausgeführt werden soll, wenn ein Artikel in den Warenkorb gelegt wird. Es kann eine Meldung unmittelbar neben dem Warenkorb angezeigt werden. Zwei weitere Möglichkeiten sind das Öffnen eines separaten Fensters oder die Anzeige des Warenkorbs selbst.
+
+.. Intern: oxaaax, Status:

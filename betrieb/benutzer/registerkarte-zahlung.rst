@@ -8,3 +8,5 @@ Alle Zahlungsarten, die der Kunde bei seinen bisherigen Bestellungen benutzte, k
    :width: 650
 
 Es ist auch möglich neue Zahlungsarten für den Kunden zu erstellen oder bestehende zu löschen. Alle auf der Registerkarte anzeigbaren Zahlungsarten bestimmen jedoch nicht, womit der Kunde bei einer Bestellung bezahlen kann. Das ist allein von der Definition der :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` abhängig.
+
+.. Intern: oxaadw, Status:, F1: user_payment.html

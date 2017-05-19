@@ -24,3 +24,5 @@ Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet
 Bug #5582: Die Funktion_handleDbConnectionException` wurde implementiert, um das Verhalten des OXID eShop im Produktivmodus beeinflussen zu können, wenn die Datenbank nicht erreichbar ist.
 
 Bug #5568: Für die Entwicklung von Modulen gelten strengere Vorgaben. Aus Sicherheitsgründen können nur noch öffentliche Methoden von außerhalb des Shop-Frameworks angesprochen werden. Es besteht kein Zugriff auf geschützte Funktionen mehr.
+
+.. Intern: oxaaep, Status:

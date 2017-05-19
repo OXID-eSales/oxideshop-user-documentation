@@ -35,3 +35,5 @@ Eine Liste aller mit diesem Patch behobenen Bugs finden Sie in unserem Bugtrack-
 `https://bugs.oxid-esales.com/view.php?id=5420 <https://bugs.oxid-esales.com/view.php?id=5420>`_
 
 `https://bugs.oxid-esales.com/view.php?id=5465 <https://bugs.oxid-esales.com/view.php?id=5465>`_
+
+.. Intern: oxaaen, Status:

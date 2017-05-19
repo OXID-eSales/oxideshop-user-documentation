@@ -66,3 +66,5 @@ Registerkarte Downloads
 +++++++++++++++++++++++
 **Inhalte**: Download-Artikel einer Bestellung, herunterladbare Dateien, erster und letzter Download, Anzahl erfolgter Downloads, maximal mögliche Downloads, Gültigkeit der Download-Links, Reset, Downloads zurücksetzen |br|
 :doc:`Artikel lesen <registerkarte-downloads>` |link|
+
+.. Intern: oxaaeb, Status:
