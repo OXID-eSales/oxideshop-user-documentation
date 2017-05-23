@@ -1,5 +1,5 @@
 ﻿Registerkarte Benutzer
-**********************
+======================
 Versandarten können so konfiguriert werden, dass sie für bestimmte Benutzergruppen und/oder Benutzer gelten. Die Zuordnung erfolgt auf der Registerkarte :guilabel:`Benutzer`.
 
 .. image:: ../../media/screenshots-de/oxaadg01.png

@@ -1,5 +1,5 @@
 ﻿Vererbung
-*********
+=========
 Die Vererbung ist ein wichtiger Bestandteil der Mall-Funktion. Sie erfolgt beim Anlegen eines neuen Shops, wenn das Kontrollkästchen :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` aktiviert wurde. Außer den Artikeln werden auch Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten und weitere Elemente an den neuen Shop weitergegeben. Eine Vererbung von Kategorien erfolgt nicht.
 
 .. image:: ../../../media/screenshots-de/oxaago01.png
@@ -16,22 +16,22 @@ Die in den weiteren Dokumenten beschriebenen Details zur Vererbung sind auch dav
 -----------------------------------------------------------------------------------------
 
 Vererbbare Elemente
-+++++++++++++++++++
+-------------------
 **Inhalte**: Mall, Enterprise Edition, Vererbung, Vererbungseinstellungen, Verknüpfungen, vererbbare Elemente, Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten, Links |br|
 :doc:`Artikel lesen <vererbbare-elemente>` |link|
 
 Nicht vererbbare Elemente
-+++++++++++++++++++++++++
+-------------------------
 **Inhalte**: Mall, Enterprise Edition, Vererbung, nicht vererbbare Elemente, Shopkonfiguration, Zuordnung zu Aktionen, CMS-Seiten, Bestellungen |br|
 :doc:`Artikel lesen <nicht-vererbbare-elemente>` |link|
 
 Geteilte Elemente
-+++++++++++++++++
+-----------------
 **Inhalte**: Mall, Enterprise Edition, Vererbung, geteilte Elemente, Zahlungsarten, Länder, Sprachen, Benutzer, Benutzergruppen, Bewertungen |br|
 :doc:`Artikel lesen <geteilte-elemente>` |link|
 
 Individualisierung
-++++++++++++++++++
+------------------
 **Inhalte**: Mall, Enterprise Edition, Vererbung, Individualisierung, Vererbungseinstellungen, Artikelpreis, alternative Preise, Staffelpreise, Rechte und Rollen, SEO, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
 :doc:`Artikel lesen <individualisierung>` |link|
 

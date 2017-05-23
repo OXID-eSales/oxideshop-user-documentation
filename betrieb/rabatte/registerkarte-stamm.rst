@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Auf der Registerkarte :guilabel:`Stamm` werden die wichtigen Einstellungen für Rabatte vorgenommen. Erstellen oder bearbeiten Sie hier den Rabatt. Die Zuordnung zu Artikeln, Kategorien, Benutzern und Benutzergruppen erfolgt auf zwei weiteren Registerkarten.
 
 .. image:: ../../media/screenshots-de/oxaahi01.png

@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.7.2/5.0.2
-**********************
+======================
 Versionsbezeichnung: 5.0.2, Revision 53018
 
 Edition: Enterprise Edition
@@ -27,4 +27,3 @@ Korrekturen
 Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=182 <https://bugs.oxid-esales.com/changelog_page.php?version_id=182>`_ .
 
 .. Intern: oxaacx, Status:
-

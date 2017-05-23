@@ -1,5 +1,5 @@
 OXID eShop 4.10.1/5.3.1
-***********************
+=======================
 Versionsbezeichnung: 5.3.1
 
 Edition: Enterprise Edition
@@ -22,7 +22,7 @@ Verbesserungen und Anpassungen
 ------------------------------
 
 Änderungen in Templates
-+++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^
 In der Version 4.10.1/5.3.1 wurden kleine Änderungen in den Sprachdateien und in einem Template des Administrationsbereiches vorgenommen. Eine Übersicht aller Änderungen finden Sie in :file:`/templ_docu_admin/index.html` des Update-Paketes.
 
 Korrekturen

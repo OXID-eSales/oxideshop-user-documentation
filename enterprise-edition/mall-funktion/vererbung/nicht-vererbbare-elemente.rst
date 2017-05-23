@@ -1,5 +1,5 @@
 ﻿Nicht vererbbare Elemente
-*************************
+=========================
 Nicht vererbbare Elemente gehören zu jedem Subshop, Supershop und Multishop. Sie werden je Shop erstellt und können dort bearbeitet und an den jeweiligen Shop und seine Anforderungen angepasst werden. Beim Anlegen eines neuen Shops werden dessen Grundeinstellungen, Sprachen, Aktionen und die Seiten des Content Management Systems (CMS) kopiert und als Vorlagen für den neuen Shop bereitgestellt. Bestellungen gehören ebenfalls zu den nicht vererbbaren Elementen und werden je Shop verwaltet.
 
 .. image:: ../../../media/screenshots-de/oxaagq01.png

@@ -1,5 +1,5 @@
 ﻿Registerkarte Mall
-******************
+==================
 Die Registerkarte :guilabel:`Mall` ist bei Rabatten nur in der Enterprise Edition vorhanden.
 
 Rabatte können beim Erstellen von Shops an diese vererbt werden. Wird diese Option gewählt, enthält ein neuer Shop alle Rabatte des Elternshops. Die Eigenschaften dieser Rabatte sind nicht änderbar.

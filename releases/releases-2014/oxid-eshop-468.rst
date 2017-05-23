@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.6.8
-****************
+================
 Versionsbezeichnung: 4.6.8, Revision e2f1a0e0287ce7674cf00eccb02171ad67942c91
 
 Veröffentlichungstermin: 14.01.2014

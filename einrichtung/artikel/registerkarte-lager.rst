@@ -1,5 +1,5 @@
 ﻿Registerkarte Lager
-*******************
+===================
 Eine in den OXID eShop integrierte Lagerverwaltung zeigt den Kunden die Verfügbarkeit von Artikeln an und reduziert den Lagerbestand bei Bestellung. Der Shopbetreiber wird per E-Mail darüber informiert, wenn der Lagerbestand eines Artikels unter eine festgelegte Anzahl von Exemplaren sinkt.
 
 .. image:: ../../media/screenshots-de/oxaack01.png

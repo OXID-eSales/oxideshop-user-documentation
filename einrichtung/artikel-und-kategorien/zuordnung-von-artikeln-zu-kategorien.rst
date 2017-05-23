@@ -1,5 +1,5 @@
 ﻿Zuordnung von Artikeln zu Kategorien
-************************************
+====================================
 Ein wichtiger Teil beim Aufbau des Warenkataloges ist die Zusammenfassung von Artikeln, um sie in verschiedenen Kategorien präsentieren zu können. Dafür müssen die Artikel den jeweiligen Kategorien zugeordnet werden. Es gibt es zwei Möglichkeiten der Zuordnung: ausgehend vom Artikel oder ausgehend von der Kategorie. Haben Sie einen Artikel neu erstellt oder bearbeiten Sie ihn gerade, ist es sinnvoll, diesem Artikel einer oder mehrere Kategorien zuzuordnen. Bearbeiten Sie hingegen eine Kategorie, ist der beste Weg, dieser Kategorie viele Artikel auf einmal zuzweisen.
 
 Ein einzelner Artikel wird einer Kategorie zugeordnet.

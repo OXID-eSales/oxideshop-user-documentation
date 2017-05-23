@@ -1,5 +1,5 @@
 ﻿Aktionen und Startseite
-***********************
+=======================
 Damit Aktionen auf der Startseite des Shops angezeigt werden, muss das Kontrollkästchen :guilabel:`Aktionen laden` auf der Registerkarte :guilabel:`Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` angehakt sein. Die Registerkarte enthält noch andere für Aktionen wichtige Einstellungen, auf die hier eingegangen wird.
 
 Banner

@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.7.4/5.0.4
-**********************
+======================
 Versionsbezeichnung: 5.0.4, Revision 57063
 
 Edition: Enterprise Edition

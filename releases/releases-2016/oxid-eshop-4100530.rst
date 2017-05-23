@@ -1,5 +1,5 @@
 OXID eShop 4.10.0/5.3.0
-***********************
+=======================
 Versionsbezeichnung: 5.3.0
 
 Edition: Enterprise Edition
@@ -21,7 +21,7 @@ Hinweis:
 Das Theme \"Flow\", Visual CMS und das Modul PAYONE sind nicht in den kumulativen Update-Paketen, sondern nur im Installationspaket für eine Neu-Installation enthalten.
 
 Installation
-++++++++++++
+^^^^^^^^^^^^
 Für die Installation, folgen Sie bitte den Anleitungen in der Dokumentation und Hilfe:
 
 `OXID eShop neu installieren <https://www.oxid-esales.com/de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-neu-installieren/server-und-systemvoraussetzungen.html>`_ 
@@ -37,7 +37,7 @@ Haben Sie eine Enterprise Edition und MySQL 5.6 im Einsatz, beachten Sie bitte d
 Neue Funktionen
 ---------------
 Responsives Theme \"Flow\"
-++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Nach der Installation präsentiert sich der OXID eShop mit dem neuen responsiven Theme \"Flow\", sobald es unter :menuselection:`Erweiterungen --> Themes` aktiviert wurde. Es stellt mit seiner gestalterischen und technischen Umsetzung sicher, dass sich die Anzeige des Shops an die Grüße und Auflösung der Displays aller verwendeten Endgeräte, wie beispielsweise Laptops, Desktop-Computer, Tablets und Smartphones, anpasst. Das betrifft die Anordnung und Darstellung der einzelnen Seitenelemente des Frontends und auch die unterschiedliche Bedienung mit Maus oder Touchscreen. Das Theme \"Flow\" wird das bisherige Standardtheme \"Azure\" ablösen.
 
 Visual CMS
@@ -47,21 +47,21 @@ Der OXID eShop Professional und Enterprise Edition wird mit dem Visual CMS in ei
 Dem Installationspaket liegt ein Handbuch im Verzeichnis :file:`/documentation/DDOE_VISUALCMS` bei.
 
 Modul PAYONE
-++++++++++++
+^^^^^^^^^^^^
 Mit dem Modul wird die Anbindung an den Payment Service Provider PAYONE realisiert, der Zahlungsabwicklung und alle Finanzdienstleistungen aus einer Hand bietet.
 
 Verbesserungen und Anpassungen
 ------------------------------
 Administrationsbereich mit neuem Layout
-+++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Die Anzeige des Administrationsbereiches wurde überarbeitet. Änderungen in den Stylesheets können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/commit/9b8f2d3e5b346cf5b3c4ad616d20d1b22836accd>`_ eingesehen werden.
 
 Aktualisierter PHPMailer
-++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^
 Die PHP-Klasse zum Erstellen und Versenden von E-Mails wurde auf die Version 5.2.14 aktualisiert.
 
 Warenkorb wird nach Abmelden eines Benutzers geleert
-++++++++++++++++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Wenn ein Benutzer sich vom Shop abmeldete nachdem er Artikel in den Warenkorb legte, wurden diese Artikel einem sich danach anmeldenden Benutzer angezeigt, der den selben Browser verwendete. Der Warenkorb wird nun beim Abmelden eines Benutzers geleert. Siehe: `https://bugs.oxid-esales.com/view.php?id=5771 <https://bugs.oxid-esales.com/view.php?id=5771>`_ .
 
 Korrekturen

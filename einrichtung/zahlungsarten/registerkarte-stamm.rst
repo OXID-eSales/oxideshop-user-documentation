@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Die Registerkarte :guilabel:`Stamm` stellt verschiedene Einstellungen zur Verfügung, um die Zahlungsart individuell konfigurieren zu können. Die Zahlungsart kann hier beschrieben werden. Über einen Dialog erfolgt die Zuordnung der Benutzergruppen zur Zahlungsart.
 
 .. image:: ../../media/screenshots-de/oxaada01.png

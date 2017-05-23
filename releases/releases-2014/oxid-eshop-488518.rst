@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.8.8/5.1.8
-**********************
+======================
 Versionsbezeichnung: 5.1.8
 
 Edition: Enterprise Edition
@@ -11,13 +11,13 @@ Edition: Professional Edition und Community Edition
 Veröffentlichungstermin: 28.10.2014
 
 Verbesserungen und Anpassungen
-------------------------------------
+------------------------------
 Änderungen in Templates
-+++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^
 In der Version 4.8.8/5.1.8 wurden kleine Änderungen in Templates des Themes \"Azure\" vorgenommen. Eine Übersicht aller Änderungen finden Sie in :file:`/templ_docu_azure/index.html`.
 
 Sicherheitsverbesserungen
-+++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^
 Die automatische Prüfung auf einen Security Token wird nun bei angemeldeten Benutzern für alle Formulare und Aktions-URLs ausgeführt. Einzige Ausnahme ist der Aufruf *fnc=tobasket* , um auch nicht angemeldeten Benutzern über einen Link Artikel in den Warenkorb legen zu können.
 
 Passwörter wurden bisher mit der kryptographische Hashfunktion MD5 und einem zusätzlichen Salt verschlüsselt. Die Verschlüsselung wurde auf die aktuellere kryptographische Hashfunktion SHA-2 umgestellt und das Erzeugen der als Salt bezeichneten, zufällig gewählten Zeichenfolge leicht geändert. Die Kunden können sich wie gewohnt am Shop anmelden, ohne ein neues Passwort erstellen zu müssen.

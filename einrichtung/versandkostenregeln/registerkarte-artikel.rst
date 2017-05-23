@@ -1,5 +1,5 @@
 ﻿Registerkarte Artikel
-*********************
+=====================
 Versandkostenregeln können für Kategorien und/oder Artikel gelten. Auf der Registerkarte :guilabel:`Artikel` kann die dafür notwendige Zuordnung vorgenommen werden. Ohne Zuweisung von Kategorien und/oder Artikel gilt die Versandkostenregel für den gesamten Warenkatalog.
 
 .. image:: ../../media/screenshots-de/oxaadl01.png

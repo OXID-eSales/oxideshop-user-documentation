@@ -1,5 +1,5 @@
 ﻿Hauptshop & Elternshops
-***********************
+=======================
 Der Shop, der bei der Installation des OXID eShop Enterprise Edition erstellt wird, ist ein spezieller Shop. Der Hauptshop vereinigt nicht nur verschiedene Shoptypen in sich, sondern stellt auch zwei Einstellmöglichkeiten bereit, die alle Shops betreffen. Die übrigen Einstellungen hingegen finden sich auf der Registerkarte :guilabel:`Mall` jedes Shops.
 
 .. image:: ../../media/screenshots-de/oxaagm01.png
@@ -8,7 +8,7 @@ Der Shop, der bei der Installation des OXID eShop Enterprise Edition erstellt wi
    :width: 650
 
 Hauptshop
-+++++++++
+---------
 :guilabel:`Startseiten-Typ`
 
 Diese Einstellung ist nur beim Hauptshop vorhanden.
@@ -36,7 +36,7 @@ Sie legt fest, ob sich die Benutzer in allen Shops anmelden können. Wurde das K
 Ist diese Einstellung nicht aktiv oder wurde sie später deaktiviert, können sich die Benutzer nur an den Shop anmelden, für den sie sich registriert haben.
 
 Elternshops
-+++++++++++
+-----------
 Zum Elternshop wird ein Shop beim Erstellen eines neuen Shops, wenn letzterer alle Artikel und Einstellungen erbt. Der Shop, der Artikel, Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten und weitere Elemente an den neuen Shop weitergibt, ist dessen Elternshop. Vom Hauptshop aus können darüber hinaus einzelne Artikel mit jedem beliebigen anderen Shop verknüpft werden. Diese Eigenschaft macht den Hauptshop auch zu einem Supershop. Lesen Sie mehr über weitere Shoptypen im Artikel `Subshops, Supershops \& Multishops <subshops-supershops-multishops>`_ .
 
 .. seealso:: :doc:`Vererbung <vererbung/vererbung>`

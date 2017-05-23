@@ -1,5 +1,5 @@
 ﻿Registerkarte Rechte
-********************
+====================
 Auf der Registerkarte :guilabel:`Rechte` können einer Kategorie Benutzergruppen zugeordnet werden, deren Benutzer diese Kategorie mit ihren Artikeln im Shop sehen dürfen und/oder kaufen können. Diese Zuordnung ist Teil der Rechte- und Rollenverwaltung der Enterprise Edition.
 
 .. image:: ../../media/screenshots-de/oxaacg01.png

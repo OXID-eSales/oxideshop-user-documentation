@@ -1,5 +1,5 @@
 OXID eShop 4.9.7/5.2.7
-**********************
+======================
 Versionsbezeichnung: 5.2.7
 
 Edition: Enterprise Edition
@@ -13,7 +13,7 @@ Veröffentlichungstermin: 26.01.2016
 Allgemeines
 -----------
 Caching (Enterprise Edition)
-++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Für die OXID eShop Enterprise Edition 5.2.7 mit Hochlastoption wird eine aktualisierte Datei :file:`default.vcl` zur Konfiguration von Varnish ab Version 4.0.3 bereitgestellt. Sie beinhaltet kleine Korrekturen zum Cookie-Handling.
 
 Korrekturen

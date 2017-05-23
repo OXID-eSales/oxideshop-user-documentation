@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.6.7
-****************
+================
 Versionsbezeichnung: 4.6.7, Revision 347600afcbb5aef62fb22133e8645c31dccbe262
 
 Veröffentlichungstermin: 26.11.2013

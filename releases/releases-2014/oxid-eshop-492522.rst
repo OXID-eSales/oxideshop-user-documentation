@@ -1,5 +1,5 @@
 OXID eShop 4.9.2/5.2.2
-**********************
+======================
 Versionsbezeichnung: 5.2.2
 
 Edition: Enterprise Edition
@@ -25,4 +25,3 @@ Keine wichtigen Informationen für Entwickler zu diesem Release.
 Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.9.1...v4.9.2>`_ eingesehen werden.
 
 .. Intern: oxaafe, Status:
-

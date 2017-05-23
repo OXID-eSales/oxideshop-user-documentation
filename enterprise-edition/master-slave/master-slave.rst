@@ -1,5 +1,5 @@
 ﻿Master/Slave
-************
+============
 Mit der Version 5.0 wurde die Skalierbarkeit des OXID eShop Enterprise Edition vergrößert. Der Shop kann nun mit mehreren Datenbanken betrieben werden. Dabei ist eine Datenbank die Master-Datenbank, die hauptsächlich Schreibzugriffe verarbeitet. Die Slave-Datenbanken enthalten gespiegelte Daten und bedienen die Lesezugriffe. Ein Load-Balancer verteilt die Datenbankzugriffe nach dieser grundsätzlichen Unterscheidung auf die Master-Datenbank und auf die Slave-Datenbanken.
 
 Konfiguration

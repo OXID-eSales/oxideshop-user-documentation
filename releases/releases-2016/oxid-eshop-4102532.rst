@@ -1,5 +1,5 @@
 OXID eShop 4.10.2/5.3.2
-***********************
+=======================
 Versionsbezeichnung: 5.3.2
 
 Edition: Enterprise Edition
@@ -21,7 +21,7 @@ Haben Sie eine Enterprise Edition und MySQL 5.6 im Einsatz, beachten Sie bitte d
 Verbesserungen und Anpassungen
 ------------------------------
 Änderungen in Templates
-+++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^
 Im Theme \"Azure\" wurden ungenutzte Sprachkonstanten entfernt. Eine Übersicht aller Änderungen finden Sie in :file:`/templ_docu_azure/index.html` des Update-Paketes.
 
 Für den Administrationsbereich des Shops wurden kleinere Änderungen in den Sprachdateien und in drei Templates vorgenommen, die in :file:`/templ_docu_admin/index.html` des Update-Paketes dokumentiert sind.

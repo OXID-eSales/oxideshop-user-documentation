@@ -1,5 +1,5 @@
 ﻿Zahlungsarten
-*************
+=============
 Zahlung und Versand sind wichtige Funktionen in einem Online-Shop. Sie werden durch die Definition von Zahlungsarten, Versandarten und Versandkostenregeln bestimmt, die in einem wechselseitigen Zusammenhang zueinander stehen.
 
 Kunden, die in Ihrem Shop einkaufen, können im dritten Bestellschritt auswählen, wie sie zahlen wollen. Die Auswahl der Zahlungsarten hängt davon ab, ob es eine Zahlungsart für das Land gibt, aus dem ein Kunde bestellt. Er sollte auch zu einer Benutzergruppe gehören, für welche diese Zahlungsart gilt.
@@ -28,17 +28,17 @@ Bitte beachten Sie, dass in früheren Shopversionen einer Zahlungsart mindestens
 -----------------------------------------------------------------------------------------
 
 Registerkarte Stamm
-+++++++++++++++++++
+-------------------
 **Inhalte**: aktive Zahlungsart, Preisaufschlag, Preisabschlag, Skonto, Bonität, Bonitätsindex, Einkaufswert, Zusatzfelder, DynValue-Felder, Zahlungsart und Benutzergruppen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Länder
-++++++++++++++++++++
+--------------------
 **Inhalte**: Zahlungsarten für Länder, Länder zuordnen |br|
 :doc:`Artikel lesen <registerkarte-laender>` |link|
 
 Registerkarte RDFa
-++++++++++++++++++
+------------------
 **Inhalte**: RDFa, Resource Description Framework, GoodReleations, Vokabular für E-Commerce, Zahlungsarten und Kreditkartenzahlung, Rich Snippets |br|
 :doc:`Artikel lesen <registerkarte-rdfa>` |link|
 

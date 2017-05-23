@@ -1,5 +1,5 @@
 ﻿Registerkarte RDFa
-******************
+==================
 Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale und andere Systeme bereit. Diese können beispielsweise als so genannte Rich Snippets - ausführliche Informationen zu einem Suchergebnis - dargestellt werden. Die Aufbereitung der Daten erfolgt auf Basis des Resource Description Framework (RDFa) und der für den E-Commerce optimierten Beschreibungssprache GoodReleations.
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Versandart mit den in GoodReleations vordefinierten Werten für den Versand hergestellt.

@@ -1,5 +1,5 @@
 ﻿Registerkarte Erweitert
-***********************
+=======================
 Auf der Registerkarte :guilabel:`Erweitert` können ergänzende Informationen zum Benutzer gespeichert werden. Zusätzlich wird die Rechnungsanschrift des Benutzers angezeigt. Diese kann nur auf der Registerkarte Stamm geändert werden.
 
 .. image:: ../../media/screenshots-de/oxaads01.png

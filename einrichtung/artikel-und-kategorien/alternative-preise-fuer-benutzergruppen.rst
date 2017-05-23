@@ -1,5 +1,5 @@
 ﻿Alternative Preise für Benutzergruppen
-**************************************
+======================================
 Der OXID eShop bietet die Möglichkeit, alternative Preise eines Artikels für drei Benutzergruppen festzulegen. Diese Benutzergruppen sind \"Preis A\", \"Preis B\" und \"Preis C\". Meldet sich ein Kunde am Shop an, der einer solchen Benutzergruppe zugeordnet wurde, bekommt er bei den entsprechenden Artikeln den alternativen Preis angezeigt.
 
 Alternative Preise werden in der Artikelverwaltung festgelegt.

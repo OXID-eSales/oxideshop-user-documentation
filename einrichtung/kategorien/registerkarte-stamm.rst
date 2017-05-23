@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Auf der Registerkarte :guilabel:`Stamm` werden wichtige Informationen zur Kategorie hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie eine Kategorie. Sie können hier auch der Kategorie deren Artikel zuweisen. Es lassen sich dabei viele Artikel auf einmal mit der Kategorie verbinden.
 
 .. image:: ../../media/screenshots-de/oxaabk01.png

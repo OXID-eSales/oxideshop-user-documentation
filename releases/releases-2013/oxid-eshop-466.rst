@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.6.6
-****************
+================
 Versionsbezeichnung: 4.6.6, Revision 54546
 
 Veröffentlichungstermin: 07.02.2013

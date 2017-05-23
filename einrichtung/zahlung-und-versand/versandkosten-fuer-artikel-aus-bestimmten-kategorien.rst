@@ -1,5 +1,5 @@
 ﻿Versandkosten für Artikel aus bestimmten Kategorien
-***************************************************
+===================================================
 In einem Online-Shop gibt es in der Regel einen Warenkatalog aus ganz verschiedenen Artikeln. Der Versand kann so eingerichtet werden, dass Artikel aus bestimmten Kategorien günstig verschickt werden. Werden zusätzlich Artikel aus anderen Kategorien in den Warenkorb gelegt, fallen höhere Versandkosten an. Dafür werden Versandkostenregeln verwendet, die abhängig von Kategorien funktionieren.
 
 Im Bestellprozess wählt der Kunde eine Versandart. Alle zur Versandart gehörenden Versandkostenregeln werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (zugewiesene Kategorien) hinsichtlich der Artikel im Warenkorb erfüllt ist. Nur wenn eine Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
@@ -26,7 +26,7 @@ Die Versandkostenregel wird einer Versandart zugeordnet.
 .. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
 
 Beispiel
-++++++++
+--------
 Das Beispiel zeigt, wie Artikel einer bestimmten Kategorie zu günstigeren Versandkosten als alle anderen Artikel verschickt werden können. Dafür werden zwei Versandkostenregeln verwendet, deren Bedingung die Menge ist. Ein Mengenbereich von 1 bis 99999999 stellt sicher, dass diese Bedingung immer zutrifft. Die Berechnung erfolgt einmal pro Warenkorb. Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregel muss aktiv sein.
 
 Die erste Versandkostenregel wird mit einem Preis von 4,99 € angelegt. Für alle Artikel außer denen der Kategorie \"Zubehör\" gibt es eine zweite Versandkostenregel mit einem Preisaufschlag von 2,50 €.

@@ -1,5 +1,5 @@
 ﻿Registerkarte Zahlung
-*********************
+=====================
 Alle Zahlungsarten, die der Kunde bei seinen bisherigen Bestellungen benutzte, können auf der Registerkarte :guilabel:`Zahlung` angezeigt werden. Sie sind aus einer Dropdown-Liste auswählbar. Für die Zahlungsart \"Bankeinzug/Lastschrift\" kann hier die Bankverbindung eingetragen oder geändert werden, die dem Kunden im Bestellprozess angezeigt wird.
 
 .. image:: ../../media/screenshots-de/oxaadw01.png

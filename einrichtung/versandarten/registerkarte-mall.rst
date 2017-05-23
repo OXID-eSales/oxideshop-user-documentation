@@ -1,5 +1,5 @@
 ﻿Registerkarte Mall
-******************
+==================
 Die Registerkarte :guilabel:`Mall` ist bei Versandarten nur in der OXID eShop Enterprise Edition vorhanden.
 
 Versandarten können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und `:guilabel:`:guilabel:`Einstellungen `vom Elternshop` gewählt, enthält ein neuer Shop auch alle Versandarten des Elternshops. Die vererbten Versandarten sind nicht änderbar und behalten auch die ursprünglichen Verknüpfungen mit den Zahlungsarten, den Benutzergruppen oder einzelnen Benutzern bei.

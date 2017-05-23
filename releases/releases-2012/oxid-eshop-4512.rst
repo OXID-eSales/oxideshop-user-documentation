@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.5.12
-*****************
+=================
 Versionsbezeichnung: 4.5.12, Revision 52682
 
 Veröffentlichungstermin: 11.12.2012

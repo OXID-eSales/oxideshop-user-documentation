@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zum Attribut vorgenommen. Erstellen oder bearbeiten Sie hier das Attribut.
 
 .. image:: ../../media/screenshots-de/oxaafg01.png

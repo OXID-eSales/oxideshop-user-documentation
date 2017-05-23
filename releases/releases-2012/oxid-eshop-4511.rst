@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.5.11
-*****************
+=================
 Versionsbezeichnung: 4.5.11, Revision 46050
 
 Veröffentlichungstermin: 12.06.2012

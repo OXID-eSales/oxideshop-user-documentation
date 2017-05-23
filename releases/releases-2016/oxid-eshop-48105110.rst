@@ -1,5 +1,5 @@
 OXID eShop 4.8.10/5.1.10
-************************
+========================
 Versionsbezeichnung: 5.1.10
 
 Edition: Enterprise Edition

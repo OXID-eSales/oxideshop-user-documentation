@@ -1,5 +1,5 @@
 ﻿Versandkostenregeln
-*******************
+===================
 Versand und Zahlung sind wichtige Funktionen in einem Online-Shop. Sie werden durch die Definition von Versandkostenregeln, Versand- und Zahlungsarten bestimmt, die in einem wechselseitigen Zusammenhang zueinander stehen. Während für die Versandarten gilt: es ist gut, so wenige wie nötig zu haben, sind die Versandkostenregeln die Feinstellschrauben in der Konfiguration von Zahlung und Versand. Mit denen werden die Konditionen festgelegt, zu denen die Lieferung der bestellten Ware an den Kunden erfolgt. Es können Mindermengenzuschläge berechnet oder Freigrenzen für Versandkosten gesetzt werden. Es lassen sich auch unterschiedliche Versandkosten für verschiedene Länder definieren.
 
 Haben Kunden im dritten Schritt des Bestellprozesses eine Versandart ausgewählt, werden die Versandkosten berechnet. Alle Versandkostenregeln, die der Versandart zugeordnet sind, werden nacheinander auf ihre Gültigkeit geprüft. Diese hängt davon ab, ob bestimmte Einkaufswerte, Gesamtgewichte, Bestellmengen oder Maße zutreffen. Es müssen auch die zugewiesenen Länder, Benutzergruppen, Benutzer, Kategorien und Artikel stimmen. Nur wenn alle Bedingungen erfüllt sind, ist die Versandkostenregel gültig. Die Versandkosten werden aus allen gültigen Versandkostenregeln berechnet. Bei mehreren gültigen Versandkostenregeln addieren sich die Versandkosten.
@@ -22,22 +22,22 @@ Mit der Versandkostenregel muss eine gültige Bedingung formuliert worden sein. 
 -----------------------------------------------------------------------------------------
 
 Registerkarte Stamm
-+++++++++++++++++++
+-------------------
 **Inhalte**: aktive Versandkostenregel, aktiver Zeitraum, Bedingung der Versandkostenregel, Menge, Größe, Gewicht, Preis, Versandkosten, Preisaufschlag, Preisabschlag, absolut, prozentual, Zeitrabatt, Mengenrabatt, Berechnung des Warenkorbs, Reihenfolge der Versandkosten, Reihenfolge der Berechnung, Berechnung stoppen, keine weitere Regel, Länder zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Artikel
-+++++++++++++++++++++
+---------------------
 **Inhalte**: Kategorien und Artikel zuordnen |br|
 :doc:`Artikel lesen <registerkarte-artikel>` |link|
 
 Registerkarte Benutzer
-++++++++++++++++++++++
+----------------------
 **Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
 :doc:`Artikel lesen <registerkarte-benutzer>` |link|
 
 Registerkarte Mall
-++++++++++++++++++
+------------------
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Versandkostenregeln vererben, Versandkostenregeln verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|

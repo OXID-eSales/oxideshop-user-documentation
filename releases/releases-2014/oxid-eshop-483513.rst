@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.8.3/5.1.3
-**********************
+======================
 Versionsbezeichnung: 5.1.3, Revision 5738f8cf8e498c85158db18cca0d9c368376955f
 
 Edition: Enterprise Edition
@@ -15,7 +15,7 @@ Allgemeines
 Das Releases des OXID eShop 4.8.2/5.1.2 vom 28.01.2014 wurde zurückgenommen, da ein unerwartetes Verhalten des WYSIWYG-Editors auftrat. Das machte eine erneute Veröffentlichung notwendig, in der das Problem korrigiert wurde.
 
 Neue Funktionen
------------------
+---------------
 Im Administrationsbereich kann unter :menuselection:`Stammdaten --> Grundeinstellungen --> Bankdaten (SEPA)` eingestellt werden, ob im Shop ausschließlich IBAN/BIC verwendet werden soll. Ist das Kontrollkästchen aktiviert, können im Bestellprozess Kontonummer und Bankleitzahl nicht mehr alternativ angegeben werden.
 
 Verbesserungen und Anpassungen
@@ -55,4 +55,3 @@ Hinweise für Entwickler: Folgende Funktionen wurden als veraltet markiert:
 `oxSepaValidator::getIBANRegistry`
 
 .. Intern: oxaaer (doppelt), Status:
-

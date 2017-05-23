@@ -1,5 +1,5 @@
 ﻿Über Dokumentation und Hilfe
-****************************
+============================
 
 Die Dokumentation und Hilfe stellt für Shopbetreiber, Shopadministratoren, Techniker und Programmierer Informationen zum OXID eShop bereit. Diese Informationen umfassen Themen, wie Neuinstallation und Update, Einrichtung und Betrieb des OXID eShop.
 
@@ -59,7 +59,7 @@ Das Buch für Anwender: Online-Shops mit OXID eShop
 Im Januar 2012 erschien im O'Reilly Verlag das Buch \"Online-Shops mit OXID eShop\". Darin beschreibt Autor Dr. Roman Zenner unterstützt von Jürgen Busch, wie der OXID eShop installiert und mit Artikeln befüllt wird, wie Versand- und Zahlungsarten eingerichtet werden und wie der Shop an die eigenen Anforderungen angepasst werden kann. Es beleuchtet auch Aspekte, wie Marketing und Social Media, sowie die Anbindung des OXID eShop an die E-Commerce Intelligence Plattform OXID eFire.
 
 Fragen, Hinweise, Anregungen
-++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../media/icons-de/brief.png
    :alt: 

@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Die Registerkarte :guilabel:`Stamm` enthält die knappen Informationen und Einstellungen zum Lieferanten. Erstellen oder bearbeiten Sie hier den Lieferanten.
 
 .. image:: ../../media/screenshots-de/oxaagf01.png

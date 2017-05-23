@@ -1,5 +1,5 @@
 OXID eShop 4.9.1/5.2.1
-**********************
+======================
 Versionsbezeichnung: 5.2.1
 
 Edition: Enterprise Edition

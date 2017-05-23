@@ -1,5 +1,5 @@
 ﻿Registerkarte Erweitert
-***********************
+=======================
 Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigenschaften von Artikeln festzulegen und ihnen Informationsquellen, wie beispielsweise Dokumente, Videos oder Audiodateien hinzuzufügen.
 
 .. image:: ../../media/screenshots-de/oxaacj01.png

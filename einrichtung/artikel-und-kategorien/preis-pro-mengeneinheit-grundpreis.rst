@@ -1,5 +1,5 @@
 ﻿Preis pro Mengeneinheit (Grundpreis)
-************************************
+====================================
 Für Artikel, die nach Gewicht, Volumen, Länge oder Fläche angeboten werden, besteht die Verpflichtung zur Grundpreisangabe. Dies ist im Paragraph 2 der `Preisangabeverordnung <http://www.gesetze-im-internet.de/pangv/>`_ geregelt. Beim Artikel ist daher nicht nur der Endpreis, sondern auch der Preis je Mengeneinheit auszuweisen. Der Grundpreis wird berechnet und auf der Detailseite des Artikels direkt unter dem Endpreis angezeigt.
 
 .. image:: ../../media/screenshots-de/oxaafl01.png

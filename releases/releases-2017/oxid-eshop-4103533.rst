@@ -1,5 +1,5 @@
 OXID eShop 4.10.3/5.3.3
-***********************
+=======================
 Versionsbezeichnung: 5.3.3
 
 Edition: Enterprise Edition

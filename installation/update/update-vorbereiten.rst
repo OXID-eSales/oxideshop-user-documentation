@@ -1,5 +1,5 @@
 Update vorbereiten
-******************
+==================
 Wir empfehlen generell, das Update immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Shop und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann das Update auch im Live-System ausgeführt werden. Kopieren Sie während des Updates im Live-System eine index.html in das Hauptverzeichnis des Shops, in der Sie auf aktuelle Wartungsarbeiten hinweisen. Sie können den Shop auch deaktivieren und die Datei offline.html zur Informationen Ihrer Kunden nutzen.
 
 .. important:: Erstellen Sie vor jedem Update eine Sicherung der Shopdateien und der Datenbank!

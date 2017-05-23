@@ -1,5 +1,5 @@
 ﻿Mall-Funktion
-*************
+=============
 Die Mall-Funktion ist ein Feature der Enterprise Edition des OXID eShop. Die Mandantenfähigkeit erlaubt das Anlegen mehrerer Shops und den Aufbau einer Multishop-Struktur. Die Bearbeitung der Shops und deren verschiedenen Verknüpfungen untereinander erfolgt über einen Administrationsbereich. Die Verknüpfungen der Shops werden beim Anlegen definiert und können später geändert und individuell angepasst werden. Abhängig von der erworbenen Lizenz können mit der Enterprise Edition bis zu 1.500 Shops erstellt und bearbeitet werden. So lassen sich produkt-, zielgruppen- und länderspezifische Onlineshops umsetzen, die sich beispielsweise inhaltlich, sprachlich und im Design unterscheiden.
 
 .. image:: ../../media/screenshots-de/oxaaeu01.png
@@ -20,17 +20,17 @@ Wird ein Shop aus der Shopliste gewählt, werden dessen Informationen in den Ein
 -----------------------------------------------------------------------------------------
 
 Hauptshop \& Elternshops
-++++++++++++++++++++++++
+------------------------
 **Inhalte**: Mall, Enterprise Edition, Hauptshop, Elternshops, Startseiten-Typ, separate Bestellnummern, Preisaufschlag prozentual oder absolut, individuelle Preise, Benutzer für alle Shops, Shoptypen |br|
 :doc:`Artikel lesen <hauptshop-elternshops>` |link|
 
-Subshops, Supershops\&Multishops
-++++++++++++++++++++++++++++++++
+Subshops, Supershops \& Multishops
+----------------------------------
 **Inhalte**: Mall, Enterprise Edition, Shoptypen, Subshop, Supershop, Multishop, Neuen Shop anlegen, URL, SSL-URL, Top-Level-Domain, Second-Level-Domain, Subdomain, Verzeichnis /out, separate Bestellnummern, Preisaufschlag prozentual oder absolut, individuelle Preise |br|
 :doc:`Artikel lesen <subshops-supershops-multishops>` |link|
 
 Vererbung
-+++++++++
+---------
 **Inhalte**: Mall, Enterprise Edition, Vererbung, vererbbare Elemente, nicht vererbbare Elemente, geteilte Elemente, Vererbungseinstellungen, Verknüpfungen, Individualisierung, Artikelpreise, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
 :doc:`Artikel lesen <vererbung/vererbung>` |link|
 

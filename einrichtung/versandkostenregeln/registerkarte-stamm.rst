@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Bedingungen und Konditionen für die Berechnung der Versandkosten werden auf der Registerkarte :guilabel:`Stamm` der Versandkostenregeln definiert. Über einen Dialog erfolgt die Zuordnung der Länder zur Versandkostenregel. Mindestens ein Land muss zugewiesen sein.
 
 .. image:: ../../media/screenshots-de/oxaadk01.png

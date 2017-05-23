@@ -1,5 +1,5 @@
 ﻿Registerkarte Sortierung
-************************
+========================
 Im Gegensatz zur Schnellsortierung können die Artikel einer Kategorie auch manuell in eine bestimmte Reihenfolge gebracht werden.
 
 .. image:: ../../media/screenshots-de/oxaabn01.png

@@ -1,5 +1,5 @@
 ﻿OXID eShop 4.8.7/5.1.7
-**********************
+======================
 Versionsbezeichnung: 5.1.7, Revision 6202abaef06c9ee7d5c7a673992a8a62d2595fca
 
 Edition: Enterprise Edition

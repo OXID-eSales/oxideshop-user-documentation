@@ -1,5 +1,5 @@
 ﻿Registerkarte Langtext
-**********************
+======================
 Die Kategorie wird hier im Detail beschrieben.
 
 .. image:: ../../media/screenshots-de/oxaabl01.png

@@ -1,5 +1,5 @@
 ﻿Filtern von Artikeln
-********************
+====================
 Die Artikel einer Kategorie können gefiltert werden. Sie können den Besuchern Ihres Onlineshops damit die Möglichkeit geben, die Anzeige von Artikeln einer Kategorie nach speziellen Artikeleigenschaften einzuschränken. Dies wird mit Attributen umgesetzt, die einerseits der Kategorie zugeordnet werden müssen. Andererseits benötigen die Artikel der Kategorie die Zuweisung des Attributes inklusive eines Wertes. Der OXID eShop wird mit einer Reihe von Attributen, wie beispielsweise Farbe, Größe oder Material ausgeliefert. Es können neue Attribute angelegt werden, die spezielle Artikeleigenschaften abbilden.
 
 Ein bestehendes Attribut wird einer Kategorie zugeordnet.
