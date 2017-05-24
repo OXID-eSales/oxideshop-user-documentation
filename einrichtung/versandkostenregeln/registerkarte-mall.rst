@@ -1,5 +1,5 @@
 ﻿Registerkarte Mall
-******************
+==================
 Die Registerkarte :guilabel:`Mall` ist bei Versandkostenregeln nur in der OXID eShop Enterprise Edition vorhanden.
 
 Versandkostenregeln können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und `:guilabel:`:guilabel:`Einstellungen` vom Elternshop` gewählt, enthält ein neuer Shop auch alle Versandkostenregeln des Elternshops. Die vererbten Versandkostenregeln sind nicht änderbar und behalten auch die ursprünglichen Verknüpfungen mit Ländern, Kategorien, Artikeln, Benutzergruppen oder Benutzern bei.

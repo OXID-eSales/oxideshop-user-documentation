@@ -1,5 +1,5 @@
 ﻿Rabatte für bestimmte Benutzer
-******************************
+==============================
 Ein Rabatt kann für einzelne Benutzer, Benutzergruppen oder eine Kombination aus beiden gelten. Dadurch wird es beispielsweise möglich, bestimmten Kunden Ihres Online-Shops günstigere Preise anzubieten. Wurden dem Rabatt keine Benutzer oder Benutzergruppen zugeordnet, gilt er für alle Kunden. Wurden hingegen Benutzer und Benutzergruppen zugeordnet, müssen Kunden sowohl in mindestens einer der zugewiesenen Benutzergruppen, als auch unter den zugewiesenen Benutzern sein. Nur dann ist der Rabatt für sie gültig.
 
 Der Rabatt wird Benutzern zugewiesen.

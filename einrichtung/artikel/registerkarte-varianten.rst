@@ -1,5 +1,5 @@
 ﻿Registerkarte Varianten
-***********************
+=======================
 Mit Varianten können verschiedene Ausführungen ein und desselben Artikels umgesetzt werden. Typische Ausführungen sind beispielsweise die unterschiedlichen Größen bei Kleidungsstücken oder mehrere Farben, in denen ein Artikel angeboten wird.
 
 .. image:: ../../media/screenshots-de/oxbaco01.png

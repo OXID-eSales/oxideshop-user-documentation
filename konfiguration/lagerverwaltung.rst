@@ -1,17 +1,17 @@
 ﻿Lagerverwaltung
-***************
+===============
 In den OXID eShop ist eine Verwaltung der Artikelbestände integriert. Dem Kunden kann so angezeigt werden, ob ein Artikel vorrätig ist. Hinsichtlich der Lieferbarkeit eines Artikels gibt es drei verschiedene Status: es sind viele, nur wenige Stück oder keine Artikel davon auf Lager. Der Status wird durch ein farbiges Symbol und einen Hinweistext in den Artikeldetails angezeigt.
 
 Artikel mit ausreichend großer Stückzahl
-++++++++++++++++++++++++++++++++++++++++
+----------------------------------------
 Unterhalb des Preises informiert ein grünes Symbol und der Standardtext :guilabel:`Sofort lieferbar` über den ausreichenden Lagerbestand.
 
 Artikel mit geringer Stückzahl
-++++++++++++++++++++++++++++++
+------------------------------
 Das Symbol unterhalb des Artikelpreises wechselt seine Farbe auf orange. Der Standardtext :guilabel:`Wenige Exemplare auf Lager - schnell bestellen!` erscheint.
 
 Artikel nicht vorhanden
-+++++++++++++++++++++++
+-----------------------
 Ist der Artikel ausverkauft, wird dies durch ein rotes Symbol und den Hinweis :guilabel:`Dieser Artikel ist nicht auf Lager und muss erst nachbestellt werden` dargestellt.
 
 Damit Sie die Lagerverwaltung verwenden können, muss diese aktiviert sein. Gehen Sie dafür zu :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte:guilabel:` Einstell.` Klicken Sie auf :guilabel:`Lager`, um die Einstellungen anzuzeigen.

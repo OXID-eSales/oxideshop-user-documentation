@@ -1,5 +1,5 @@
 ﻿Versandarten
-************
+============
 Versand und Zahlung sind wichtige Funktionen in einem Online-Shop. Sie werden durch die Definition von Versandarten, Versandkostenregeln und Zahlungsarten bestimmt, die in einem wechselseitigen Zusammenhang zueinander stehen.
 
 Im dritten Schritt des Bestellprozesses können Kunden auswählen, wie die bestellte Ware geliefert werden soll. Der OXID eShop zeigt die gültigen Versandarten an. Ist nur eine Versandart gültig, wird diese automatisch ausgewählt. Welche Versandarten angeboten werden, hängt davon ab, aus welchem Land der Kunde bestellt. Es spielt auch eine Rolle, welche Benutzer oder Benutzergruppen eine Versandart nutzen dürfen. Den Versandarten müssen letztlich mindestens eine Zahlungsart und eine Versandkostenregel zugeordnet worden sein.
@@ -22,28 +22,28 @@ Benutzer und Benutzergruppen können, müssen aber nicht zugeordnet sein. Fehlt 
 -----------------------------------------------------------------------------------------
 
 Registerkarte Stamm
-+++++++++++++++++++
+-------------------
 **Inhalte**: aktive Versandart, aktiver Zeitraum, Sortierung, Versandkostenregeln und Länder zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Zahlungsarten
-+++++++++++++++++++++++++++
+---------------------------
 **Inhalte**: Zahlungsarten zuordnen |br|
 :doc:`Artikel lesen <registerkarte-zahlungsarten>` |link|
 
 Registerkarte Benutzer
-++++++++++++++++++++++
+----------------------
 **Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
 :doc:`Artikel lesen <registerkarte-benutzer>` |link|
 
 Registerkarte Mall
-++++++++++++++++++
+------------------
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Versandarten vererben, Versandarten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
 Registerkarte RDFa
-++++++++++++++++++
+------------------
 **Inhalte**: RDFa, Resource Description Framework, GoodReleations, Vokabular für E-Commerce, allgemeine Versandarten und Paketdienste, Rich Snippets |br|
 :doc:`Artikel lesen <registerkarte-rdfa>` |link|
 

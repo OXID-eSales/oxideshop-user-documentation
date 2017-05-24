@@ -1,9 +1,9 @@
 ﻿Enterprise Edition
-******************
+==================
 Dieser Abschnitt enthält die Dokumentation zum OXID eShop Enterprise Edition. Darin werden ausschließlich die Funktionen beschrieben, welche die Enterprise Edition von der Professional und Community Edition unterscheiden. Alle gemeinsamen Funktionen sind in der übrigen Dokumentation und Hilfe dokumentiert.
 
 Mall - Shops und Subshops
-+++++++++++++++++++++++++
+-------------------------
 In der Enterprise Edition können mehrere Shops angelegt und über einen gemeinsamen Administrationsbereich bearbeitet werden. Abhängig von der erworbenen Lizenz sind derzeit bis zu 1.500 Subshops möglich. Mit der OXID eShop Enterprise Edition Version 5.2.0 wurde dafür die Mandantenfähigkeit komplett überarbeitet. Bis dahin wurden etwa 200 Subshops unterstützt.
 
 Für die signifikante Steigerung der Anzahl von Mandanten waren Änderungen an der Kernfunktionalität, der Datenbank und der Templates notwendig. Die Präsentation des Warenkataloges in den einzelnen Subshops wird nicht mehr länger durch die Datenbankfelder OXSHOPINCL und OXSHOPEXCL gehandhabt. Alle Datenbanktabellen, die für die Abbildung von Subshops notwendig sind, erhielten sogenannte Mapping-Tabellen. *Beispiel* : Tabelle für die Artikel *oxarticles*  und deren Mapping-Tabelle *oxarticles2shop* .
@@ -15,7 +15,7 @@ Die Flexibilität beim Anlegen von Shops in der Enterprise Edition erlaubt die U
 Alle Details zum Hauptshop, zu Elternshops, Subshops, Supershops und Multishops finden Sie im Abschnitt :doc:`Mall-Funktion <mall-funktion/mall-funktion>`.
 
 Rechte und Rollen
-+++++++++++++++++
+-----------------
 Die Enterprise Edition verfügt über eine Rechte- und Rollenverwaltung, mit der Berechtigungen für Benutzer und Benutzergruppen vergeben werden können.
 
 Die Berechtigungen können sich auf den Shop selbst, also das Frontend, beziehen. Es kann beispielsweise festgelegt werden, dass Artikel und Kategorien nur für bestimmte Benutzer und Benutzergruppen angezeigt werden oder dass sie ausschließlich für einen definierten Kundenkreis kaufbar sein sollen. Darüber hinaus können einzelne Bereiche der Artikeldarstellung, wie die Beschreibung, der Preis oder die Warenkorbfunktionalität nur für bestimmte Benutzer und Benutzergruppen sichtbar sein. Die Rechte für die Anzeige von Artikeln und Kategorien werden in Rollen zusammengefasst und den jeweiligen Benutzergruppen zugeordnet.
@@ -25,13 +25,13 @@ Für den Administrationsbereich des Shops können ebenfalls Rollen definiert wer
 Eine Übersicht über die Rechte- und Rollenverwaltung finden Sie im Dokument :doc:`Rechte und Rollen <rechte-und-rollen/rechte-und-rollen>`.
 
 Caching
-+++++++
+-------
 Das Caching-System der Enterprise Edition wird durch drei Hauptkomponenten umgesetzt: durch den in den OXID eShop integrierten Cache Manager, unterstützt durch den Reverse Proxy Varnish und/oder durch Memcached. Das Zusammenwirken der Komponenten bewirkt, dass – wenn immer möglich – zwischengespeicherte Inhalte genutzt und an die anfragenden Web-Clients geschickt werden. Damit werden die Datenbankzugriffe reduziert und die Antwortzeiten des OXID eShop verkürzt.
 
 In :doc:`Caching <caching/caching>` finden Sie eine Anleitung zur Konfiguration von Varnish inklusive der Möglichkeit zum Download der Konfigurationsdateien. Ebenso werden die Konfiguration von Memcached und die Einstellungen für das Caching beschrieben.
 
 Master/Slave
-++++++++++++
+------------
 Die Enterprise Edition kann bei aktiviertem Master/Slave mit mehreren Datenbanken betrieben werden. Dabei ist eine Datenbank die Master-Datenbank, die hauptsächlich Schreibzugriffe verarbeitet. Die Slave-Datenbanken enthalten gespiegelte Daten und bedienen die Lesezugriffe. Ein Load-Balancer verteilt die Datenbankzugriffe nach dieser grundsätzlichen Unterscheidung auf die Master-Datenbank und auf die Slave-Datenbanken.
 
 Eine Anleitung zur Konfiguration finden Sie im Dokument :doc:`Master/Slave <master-slave/master-slave>`.

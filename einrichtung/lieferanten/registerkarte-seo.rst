@@ -1,5 +1,5 @@
 ﻿Registerkarte SEO
-*****************
+=================
 Die Registerkarte :guilabel:`SEO` des Lieferanten beinhaltet Informationen und\Einstellungen, die für Suchmaschinen relevant sind.
 
 .. image:: ../../media/screenshots-de/oxbagg01.png

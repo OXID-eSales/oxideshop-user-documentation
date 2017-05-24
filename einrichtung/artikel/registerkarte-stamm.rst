@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Die Registerkarte :guilabel:`Stamm` nimmt wichtige Informationen zum Artikel auf. Erstellen oder bearbeiten Sie hier einen Artikel. Wenn Sie einen Artikel neu anlegen, können Sie ihn direkt einer Kategorie zuzuordnen. Verwenden Sie dafür die Dropdown-Liste :guilabel:`In Kategorie` am unteren Ende des Eingabebereichs. Nach dem Speichern des Artikels ist die schnelle Zuordnung der Kategorie auf dieser Registerkarte nicht mehr möglich.
 
 .. image:: ../../media\screenshots-de/oxbaci01.png
@@ -78,7 +78,7 @@ Benötigen Artikel eine vom Standard im Shop abweichende Mehrwertsteuer, kann di
 Der Artikel lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
 
 Langbeschreibung des Artikels
-+++++++++++++++++++++++++++++
+-----------------------------
 Auf der rechten Seite der Registerkarte :guilabel:`Stamm` geben Sie die Langbeschreibung des Artikels ein. In der Enterprise und der Professional Edition kann die ausführliche Beschreibung des Artikels komfortabel in einen Editor eingegeben werden. Der Editor bietet die Möglichkeit der Textformatierung, des Einfügens von Bildern und von Links. In der Community Edition kann standardmäßig nur Text in ein großes Eingabefeld eingetragen werden, der sich aber mit HTML-Tags formatieren lässt. Einen guten Überblick zur Auszeichnungen von Text mit HTML-Tags erhalten Sie bei `SelfHTML <https://wiki.selfhtml.org/>`_ .
 
 Der Langtext wird im Shop in der Detailansicht des Artikels als Beschreibung angezeigt.

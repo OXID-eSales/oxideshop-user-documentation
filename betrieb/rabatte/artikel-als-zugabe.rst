@@ -1,5 +1,5 @@
 ﻿Artikel als Zugabe
-******************
+==================
 Neben dem absoluten und relativen Preisnachlass bietet der OXID eShop noch eine dritte Rabattmöglichkeit: den Gratisartikel. Bei jedem Kauf, der die Bedingungen des Rabattes erfüllt, wird ein dafür vorgesehener Artikel als kostenlose Zugabe in den Warenkorb gelegt. Damit lassen sich beispielsweise Rabattaktionen für bestimmte Einkaufswerte oder -mengen umsetzen.
 
 Der Preis des Artikels, der als Zugabe in den Warenkorb gelegt wird, wird automatisch auf Null gesetzt. Es ist nicht notwendig, dafür den bisherigen Preis in der Artikelverwaltung zu ändern.

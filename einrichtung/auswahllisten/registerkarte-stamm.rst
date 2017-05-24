@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Auf der Registerkarte :guilabel:`Stamm` lassen sich Auswahllisten erstellen, bearbeiten und den gewünschten Artikeln zuordnen.
 
 .. image:: ../../media/screenshots-de/oxbafj01.png

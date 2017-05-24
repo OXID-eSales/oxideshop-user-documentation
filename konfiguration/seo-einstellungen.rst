@@ -1,5 +1,5 @@
 ﻿SEO-Einstellungen
-*****************
+=================
 Kunden beginnen die Suche nach Artikeln sehr oft mit Anfragen bei Suchmaschinen und -portalen. Damit sie dabei genau Ihren Shop, die Artikel und speziellen Angebote finden, müssen die entsprechenden Informationen optimal aufbereitet und indiziert sein. Der OXID eShop beherrscht seit der 4er Version die Suchmaschinenoptimierung, englisch: Search Engine Optimization (SEO). Die SEO-Implementierung erzeugt automatisch sprechende URLs für Kategorien und Artikel. Dabei werden reservierte Wörter und Sonderzeichen ebenso berücksichtigt, wie unterschiedliche Sprachen des Shops.
 
 Shopbetreiber müssen lediglich einige Einstellungen vornehmen, um konkrete Inhalte für die Suchmaschinenoptimierung vorzugeben. Dabei handelt es sich um den Seitentitel, den Aufbau der URLs und die sogenannten Metadaten. Die Inhalte können in jeder Sprache des Shops definiert werden.
@@ -77,11 +77,11 @@ Beispiel aus dem Demoshop:
 ``\<meta name=\"keywords\"content=\"kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards, boards, strand, sommer, wassersport, mode, fashion, style, shirts, jeans, accessoires, angebote\"\>``
 
 Startseite
-++++++++++
+^^^^^^^^^^
 Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS` eingetragen werden. Die CMS-Seite\"META Description Startseite\"nimmt dabei die Beschreibung des Shops, die CMS-Seite\"META Keywords Startseite\"die Keywörter auf.
 
 Kategorien und Artikel
-++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^
 Die Metadaten für Kategorien und Artikel werden automatisch aus deren Beschreibung generiert. Sie können durch selbst formulierte Bescheibungen und Schlüsselworte für jede einzelne Kategorie oder jeden einzelnen Artikel überschrieben werden. Die Metadaten werden auf der Registerkarte :guilabel:`SEO` bei der Kategorie oder beim Artikel eingetragen.
 
 .. Intern: oxbabi, Status:

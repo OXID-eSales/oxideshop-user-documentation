@@ -1,5 +1,5 @@
 ﻿Registerkarte Rechte
-********************
+====================
 Die Registerkarte :guilabel:`Rechte` bei Artikeln gibt es nur in der Enterprise Edition.
 
 Auf der Registerkarte :guilabel:`Rechte` können einem Artikel Benutzergruppen zugeordnet werden, deren Benutzer diesen Artikel im Shop sehen dürfen und/oder kaufen können. Diese Zuordnung ist Teil der Rechte- und Rollenverwaltung der Enterprise Edition.

@@ -1,5 +1,5 @@
 ﻿Reverse Proxy Varnish
-*********************
+=====================
 Funktionsweise
 --------------
 Varnish ist ein Reverse Proxy, der vor dem eigentlichen Webserver eingehende Anfragen von Web-Clients verarbeitet. Die Webseiten, welche an die Web-Clients ausgeliefert werden, werden zum größten Teil aus zwischengespeicherten Inhalten zusammengestellt. Erst wenn die Lebensdauer des Caches abgelaufen ist, fragt Varnish Inhalte vom Webserver ab. Der OXID eShop muss dann die angeforderten Daten aus der Datenbank lesen und bereitstellen.\
@@ -26,7 +26,7 @@ Wir haben die Konfigurationsdatei :file:`default.vcl` für das Caching des OXID 
 Die Konfigurationsdatei :file:`servers_conf.vcl` enthält Hostnamen und IPs der beteiligten Server und muss an die reale Systemumgebung angepasst werden.
 
 Varnish ab Version 4.0.3
-++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^
 Varnish Version 3.0 wird nicht mehr länger unterstützt, da die Software bereits seit April 2015 den Status End Of Life (EOL) erreicht hat. Die jetzt ausgelieferte Datei :file:`default.vcl` enthält die Konfiguration für Varnish ab Version 4.0.3. Bitte setzen Sie nicht die Versionen 4.0.0, 4.0.1 und 4.0.2 ein, da diese Probleme in der Behandlung von Cookies hatten, die dazu führten, dass Artikel nicht in den Warenkorb gelegt und Kunden sich nicht an den Shop anmelden konnten.
 
 Wenn dieses Verhalten in Ihrem Shop auftritt und Sie nicht auf die neueste Version von Varnish aktualisieren können, versuchen Sie den folgenden Workaround. Dieser wurde nicht explizit getestet, deshalb prüfen Sie das Verhalten des Shops gründlich, bevor die Änderung in die Produktivumgebung übernommen wird.
@@ -40,7 +40,7 @@ durch diese Zeile
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@]\",\"\");``
 
 Download der Konfigurationsdateien
-++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können hier heruntergeladen werden. Markieren Sie dafür den Link mit der rechten Maustaste und speichern Sie die Datei lokal. Ein Klick mit der linken Maustaste öffnet die Konfigurationsdatei im Browser.
 
 * `default.vcl <http://support.oxid-esales.com/downloads/varnish/6.0.0/default.vcl>`_ für Enterprise Edition ab 6.0.0 und Varnish ab 4.0.3
@@ -52,7 +52,7 @@ Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese D
 | /etc/init.d/apache2 start``
 
 Anpassung der Konfiguration für OXID eShop Mobile Theme
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Wenn Sie OXID eShop Mobile Theme einsetzen, müssen Sie die Konfigurationsdatei :file:`default.vcl` des Reverse Proxy anpassen. Alle dafür notwendigen Einträge finden Sie in der Datei :file:`device.vcl`, welche dem Installationspaket beiliegt. Sie können diese Datei auch durch einen Klick mit der linken Maustaste öffnen: `device.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.0/device.vcl>`_ für Enterprise Edition 5.0.0 und höher.
 
 * Kopieren Sie den Inhalt der Datei :file:`device.vcl`.
@@ -65,7 +65,7 @@ Wenn Sie OXID eShop Mobile Theme einsetzen, müssen Sie die Konfigurationsdatei 
 * Starten Sie Varnish neu.
 
 SSL-Verschlüsselung
-+++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^
 Varnish verarbeitet Anfragen aus dem Web, die das HTTP-Protokoll verwenden. Verschlüsselte Anfragen mit HTTPS-Protokoll können durch den Reverse Proxy nicht umgesetzt werden. Da der OXID eShop auf SSL-Verschlüsselung umschalten kann, sobald Benutzerdaten übertragen werden, beispielsweise bei Registrierung, Anmeldung oder im Warenkorb, muss dafür eine separate Lösung geschaffen werden. Es gibt dafür aktuell zwei Möglichkeiten. Zum einen können Anfragen mit HTTPS-Protokoll direkt an den Server mit dem OXID eShop gesendet werden. Das muss mit Server-Tools umgesetzt werden. Zum anderen kann ein Load Balancer eingesetzt werden, welcher Anfragen über HTTP, Port 80 an Varnish und über HTTPS, Port 443 direkt zum OXID eShop leitet.
 
 .. Intern: oxbacb, Status:

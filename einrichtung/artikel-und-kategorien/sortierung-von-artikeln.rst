@@ -1,5 +1,5 @@
 ﻿Sortierung von Artikeln
-***********************
+=======================
 Die Reihenfolge, in der Artikel in einer Kategorie angezeigt werden, kann festgelegt werden. Dafür gibt es die Schnellsortierung auf Basis eines einzelnen Artikelmerkmals auf- oder absteigend und die manuelle Sortierung. Darüber hinaus können Sie den Kunden Ihres OXID eShop ermöglichen, die Artikel einer Kategorie nach vorgegebenen Kriterien zu sortieren.
 
 Die Schnellsortierung basiert auf einer Einstellung bei der Kategorie. Aus einer Dropdown-Liste kann ein Artikelmerkmal, wie beispielsweise :guilabel:`Titel`, :guilabel:`Preis` oder :guilabel:`Angelegt am` ausgewählt werden. Zusätzlich muss festgelegt werden, ob die Artikel nach diesem Artikelmerkmal auf- oder absteigend sortiert werden sollen.

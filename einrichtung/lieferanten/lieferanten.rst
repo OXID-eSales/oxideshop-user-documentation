@@ -1,5 +1,5 @@
 ﻿Lieferanten
-***********
+===========
 Der OXID eShop bietet die Möglichkeit, Lieferanten zu verwalten. Artikel können diesen Lieferanten zugeordnet werden, um die Bezugsquellen der Waren zu dokumentieren. Im Administrationsbereich lassen sich Artikel nach der Lieferanten-ID filtern und anzeigen. Im Frontend des Shops gibt es keine Verwendung für die Lieferanten, denn Shopbetreiber sind mit Sicherheit nicht daran interessiert, diese Information öffentlich zu machen. In frühen Shopversionen gab es noch keine Hersteller, sondern diese wurden - nicht ganz korrekt - als Lieferanten geführt. Mit OXID eShop 4.0.1 wurde die Unterscheidung von Lieferanten und Hersteller umgesetzt.
 
 .. image:: ../../media/screenshots-de/oxbage01.png
@@ -18,19 +18,19 @@ Wird ein Lieferant aus der Lieferantenliste gewählt, werden dessen Informatione
 -----------------------------------------------------------------------------------------
 
 Registerkarte Stamm
-+++++++++++++++++++
+-------------------
 **Inhalte**: aktiver Lieferant, Titel, Kurzbeschreibung, Icon, Lieferantenlogo, Hochladen, Upload auf Webserver, automatisch generiert, Artikel zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Mall
-++++++++++++++++++
+------------------
 Nur in der Enterprise Edition vorhanden |br|
 
 **Inhalte**: Lieferanten vererben, Lieferanten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
 Registerkarte SEO
-+++++++++++++++++
+-----------------
 **Inhalte**: Suchmaschinenoptimierung, SEO, SEO URL, Titel Suffix, URL fixieren, Meta-Tags, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\" |br|
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 

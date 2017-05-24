@@ -1,5 +1,5 @@
 ﻿Registerkarte Übersicht
-***********************
+=======================
 Die Registerkarte :guilabel:`Übersicht` zeigt alle wichtigen Informationen einer Bestellung an. Dazu gehören beispielsweise die Rechnungsadresse, eine davon abweichende Lieferadresse, die bestellten Artikel, der Gesamtpreis mit seinen einzelnen Positionen, die Zahlungsart und die Versandart. Die Bestellung erhält eine Bestellnummer, der Kunde eine Kundennummer, sofern es sich um eine Erstbestellung handelt.
 
 Darüber hinaus wird eine kurze Zusammenfassung der Bestellungen des Tages und aller Bestellungen im Shop ausgegeben. Für die Bestellung kann eine Rechnung oder ein Lieferschein im PDF-Format generiert werden. Bestellungen lassen sich zur weiteren Verarbeitung in anderen Systemen im XML-Format exportieren.

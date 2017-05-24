@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Die Registerkarte :guilabel:`Stamm` enthält die wichtigsten Informationen zum Benutzer. Sie werden gespeichert, sobald der Benutzer das erste Mal im Shop einkauft, sich im Shop registriert oder den Newsletter abonniert. Dabei müssen nicht alle Felder ausgefüllt worden sein, denn nur die E-Mail-Adresse, der Vor- und Nachname, die Anschrift und das Land sind standardmäßig Pflichtfelder bei der Registrierung. Beim Abonnieren des Newsletters ist allein die E-Mail-Adresse zwingend erforderlich.
 
 Benutzer können auch mit der Funktion :guilabel:`Neuer Benutzer` angelegt werden. Dabei werden auf der Registerkarte :guilabel:`Stamm` alle relevanten Daten des Benutzers eingetragen. Ohne E-Mail-Adresse können die Benutzerdaten nicht gespeichert werden.

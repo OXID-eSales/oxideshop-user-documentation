@@ -1,5 +1,5 @@
 ﻿OXID eShop 6.0.0
-****************
+================
 Versionsbezeichnung: 5.2.0
 
 Edition: Enterprise Edition
@@ -21,7 +21,7 @@ Allgemeines
 Der OXID eShop 4.9.0/5.2.0 wird mit der OXID eFire Extension PayPal (Standalone-Modul) in Version 3.2.0 und dem Mobile Theme Version 1.3.0 ausgeliefert. Er läuft unter PHP 5.3 und PHP 5.4. Die Shopversion enthält einige Sicherheitsverbesserungen, so dass wir ein baldmöglichstes Update empfehlen.
 
 Installation
-++++++++++++
+^^^^^^^^^^^^
 Für die Installation, folgen Sie bitte den Anleitungen in der Dokumentation und Hilfe:
 
 :doc:`OXID eShop neu installieren <../../installation/neu-installation/server-und-systemvoraussetzungen>`
@@ -32,34 +32,34 @@ Neue Funktionen
 ---------------
 
 Erste neue Funktion
-+++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^
 Text
 
 Zweite neue Funktion
-++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^
 Text
 
 Verbesserungen und Anpassungen
 ------------------------------
 
 Erste Verbesserung
-++++++++++++++++++
+^^^^^^^^^^^^^^^^^^
 Text
 
 Zweite Verbesserung
-+++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^
 Text
 
 Änderungen in Templates
-+++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^
 Es gab Änderungen in Templates und Sprachdateien ...
 
 Optimierte Performance
-++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^
 Text
 
 Sicherheitsverbesserungen
-+++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^
 Text
 
 Korrekturen

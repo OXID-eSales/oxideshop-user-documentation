@@ -1,5 +1,5 @@
 ﻿Preise für Zahlungsarten
-************************
+========================
 Für Zahlungsarten können Preisauf- und -abschläge definiert werden. So können Kosten, die für eine Zahlungsart entstehen, auf die Kunden umgelegt werden. Ein Beispiel dafür sind die Zahlungsarten Kreditkarte oder Nachnahme, bei denen Gebühren anfallen. Für Zahlungsarten, wie beispielsweise Vorauskasse, kann aber auch ein Preisnachlass gewährt werden, da die Ware erst nach Zahlungseingang geliefert wird. Eine Art Skonto, denn das Zahlungsziel wird bei Vorauskasse immer eingehalten.
 
 Der Preisaufschlag oder Preisabschlag kann absolut oder prozentual festgelegt werden. Ein absoluter Preisaufschlag ist eine Position im Warenkorb, die zum Warenwert dazugerechnet wird.

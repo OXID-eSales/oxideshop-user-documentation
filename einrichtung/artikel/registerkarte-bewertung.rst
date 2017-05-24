@@ -1,5 +1,5 @@
 ﻿Registerkarte Bewertung
-***********************
+=======================
 Kunden können die Artikel Ihres Shops bewerten. Dies sorgt für Transparenz und Vertrauen. In der Detailansicht eines Artikels können angemeldete Kunden bis zu fünf Sterne vergeben und einen Kommentar abgeben. Die Bewertungen und die durchschnittlich vergebenen Sterne werden am unteren Ende der Detailansicht angezeigt.
 
 .. image:: ../../media/screenshots-de/oxbacr01.png

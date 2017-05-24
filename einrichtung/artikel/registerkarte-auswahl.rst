@@ -1,5 +1,5 @@
 ﻿Registerkarte Auswahl
-*********************
+=====================
 Auf der Registerkarte :guilabel:`Auswahl` können einem Artikel Attribute und/oder Auswahllisten zugeordnet werden.
 
 Artikel können viele Eigenschaften haben. Für etliche Eigenschaften, wie beispielsweise Gewicht oder Abmessungen, bietet der OXID eShop Eingabe- und Einstellmöglichkeiten. Sie können sofort verwendet werden. Benötigen Sie weitere Eigenschaften, um Ihre Artikel zu charakterisieren, können Sie dafür Attribute erstellen und diese den Artikeln zuweisen. In der Detailansicht des Artikels wird eine neue Registerkarte :guilabel:`SPEZIFIKATION` eingeblendet, in der die Attribute und deren Werte angezeigt werden.

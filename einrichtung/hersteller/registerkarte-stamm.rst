@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Informationen zum Hersteller hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie hier den Hersteller.
 
 .. image:: ../../media/screenshots-de/oxbagc01.png

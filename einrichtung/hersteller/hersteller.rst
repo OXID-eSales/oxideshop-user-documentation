@@ -1,5 +1,5 @@
 ﻿Hersteller
-**********
+==========
 Im OXID eShop lassen sich Hersteller verwalten, denen Artikel zugeordnet werden können. Auf diese Weise lassen sich Artikel unabhängig von den Kategorien im Shop unter dem Aspekt der Markenzugehörigkeit zusammenfassen. Im Administrationsbereich können Artikel nach der Hersteller-ID gefiltert und angezeigt werden. Im Frontend werden alle Marken im Fußbereich aufgelistet.
 
 .. image:: ../../media/screenshots-de/oxbagb01.png
@@ -27,18 +27,18 @@ Wird ein Hersteller aus der Liste gewählt, werden dessen Informationen in den E
 -----------------------------------------------------------------------------------------
 
 Registerkarte Stamm
-+++++++++++++++++++
+-------------------
 **Inhalte**: aktiver Hersteller, Marke, Titel, Kurzbeschreibung, Icon, Herstellerlogo, Hochladen, Upload auf Webserver, automatisch generiert, Artikel zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Mall
-++++++++++++++++++
+------------------
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Hersteller vererben, Hersteller verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
 Registerkarte SEO
-+++++++++++++++++
+-----------------
 **Inhalte**: Suchmaschinenoptimierung, SEO, SEO URL, Titel Suffix, URL fixieren, Meta-Tags, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\"\ |br|
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 

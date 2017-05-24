@@ -1,5 +1,5 @@
 ﻿Registerkarte Artikel
-*********************
+=====================
 Alle Artikel, die vom Benutzer gekauft wurden, werden auf der Registerkarte :guilabel:`Artikel` aufgelistet. Es werden dabei Anzahl, Artikelnummer, Titel, Typ und Kurzbeschreibung des Artikels ausgegeben.
 
 .. image:: ../../media/screenshots-de/oxbadt01.png

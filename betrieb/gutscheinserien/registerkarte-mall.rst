@@ -1,5 +1,5 @@
 ﻿Registerkarte Mall
-******************
+==================
 Die Registerkarte :guilabel:`Mall` ist bei Gutscheinserien nur in der Enterprise Edition vorhanden.
 
 Gutscheinserien können beim Erstellen von Shops an diese vererbt werden. Wird diese Option gewählt, enthält ein neuer Shop alle Gutscheinserien des Elternshops. Die Eigenschaften dieser Gutscheinserien sind nicht änderbar.

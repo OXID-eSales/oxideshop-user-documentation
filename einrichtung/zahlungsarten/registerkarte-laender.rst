@@ -1,5 +1,5 @@
 ﻿Registerkarte Länder
-********************
+====================
 Zahlungsarten gelten für Länder. Ordnen Sie auf der Registerkarte :guilabel:`Länder` die Länder zu, aus denen Kunden ihre Bestellung mit dieser Zahlungsart begleichen können. Ohne eine solche Zuordnung ist die Zahlungsart für alle Länder gültig.
 
 .. image:: ../../media/screenshots-de/oxbadb01.png

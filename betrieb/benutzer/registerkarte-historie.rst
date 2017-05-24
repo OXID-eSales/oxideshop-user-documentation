@@ -1,5 +1,5 @@
 ﻿Registerkarte Historie
-**********************
+======================
 Aktionen des Kunden im OXID eShop und die Informationen an ihn werden auf der Registerkarte :guilabel:`Historie` protokolliert. Es gibt beispielsweise Einträge zur erfolgreichen Registrierung, zu Bestellungen, zu versandten Newslettern und verschickten E-Mails. Jeder Eintrag wird mit einem Zeitstempel und einem Kürzel in eckigen Klammern gespeichert. Das Kürzel \"Bem.\" steht dabei für Bemerkung und \"Best.\" für Bestellung. Markiert man einen Eintrag in der linken Spalte per Mausklick wird dessen Inhalt im großen Eingabefeld auf der rechten Seite angezeigt.
 
 .. image:: ../../media/screenshots-de/oxbadu01.png

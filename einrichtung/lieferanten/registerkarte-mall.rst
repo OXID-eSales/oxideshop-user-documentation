@@ -1,5 +1,5 @@
 ﻿Registerkarte Mall
-******************
+==================
 Die Registerkarte :guilabel:`Mall` ist bei Lieferanten nur in der OXID eShop Enterprise Edition vorhanden.
 
 Lieferanten können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` gewählt, enthält ein neuer Shop auch alle Lieferanten des Elternshops. Die vererbten Lieferanten sind nicht änderbar und behalten auch die ursprünglichen Verknüpfungen zu den Artikeln bei, sofern die Artikel ebenfalls vom Elternshop geerbt wurden. Die SEO-Einstellungen können für den neuen Shop angepasst werden.

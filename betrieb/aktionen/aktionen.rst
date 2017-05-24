@@ -1,5 +1,5 @@
 ﻿Aktionen
-********
+========
 Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop. Dafür stehen drei Aktionstypen zur Verfügung, mit denen hauptsächlich das Aussehen der Startseite des Shops gestaltet und aktualisiert werden kann: Aktion, Banner und Promotion. Das Theme \"Azure\" unterstützt Aktion und Banner. Promotion und einige Möglichkeiten vom Typ Aktion funktionieren nur mit dem Theme \"Basic\", welches seit der Shopversion 4.5.0 nicht mehr ausgeliefert wird. Die Aktionen sind im Administrationsbereich aus Kompatibilitätsgründen nach wie vor vorhanden und könnten bei Bedarf in ein auf \"Azure\" basierendes Theme integriert werden.
 
 .. image:: ../../media/screenshots-de/oxbagv01.png
@@ -20,17 +20,17 @@ Wird eine Aktion gewählt, werden deren Informationen in den Eingabebereich gela
 -----------------------------------------------------------------------------------------
 
 Aktionen und Startseite
-+++++++++++++++++++++++
+-----------------------
 **Inhalte**: Startseite, Theme \"Azure\", Typ Aktion, Typ Banner, Banner, Angebot der Woche, Kategorie-Topangebot, Frisch eingetroffen!, Top of the Shop, Performanceeinstellungen, Aktionen laden, Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\" |br|
 :doc:`Artikel lesen <aktionen-und-startseite>` |link|
 
 Aktion für Newsletter
-+++++++++++++++++++++
+---------------------
 **Inhalte**: Newsletter, Anzeige ausgesuchter Artikel, Aktion \"Newsletter\" |br|
 :doc:`Artikel lesen <aktion-fuer-newsletter>` |link|
 
 Registerkarte Stamm
-+++++++++++++++++++
+-------------------
 **Inhalte**: aktive Aktion, Typ Aktion, Typ Banner, Typ Promotion, Name, Artikel zuordnen, Bannerbilder, Sortierung, Slideshow, Link für Bannerbild, Benutzergruppen zuordnen, Produkte zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 

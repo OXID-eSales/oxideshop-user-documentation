@@ -1,5 +1,5 @@
 ﻿Bestellprozess
-**************
+==============
 Unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Bestellungen` können einige Einstellungen vorgenommen werden, die den Bestellprozess beeinflussen.
 
 :guilabel:`Nicht ganzzahlige Eingaben bei Artikelmengen erlauben (z.B. 1,5)`

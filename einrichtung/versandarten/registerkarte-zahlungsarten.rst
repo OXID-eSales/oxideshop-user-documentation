@@ -1,5 +1,5 @@
 ﻿Registerkarte Zahlungsarten
-***************************
+===========================
 Auf dieser Registerkarte können der Versandart die Zahlungsarten zugeordnet werden. Es ist mindestens eine Zahlungsart notwendig.
 
 .. image:: ../../media/screenshots-de/oxbadf01.png

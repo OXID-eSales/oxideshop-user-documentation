@@ -1,7 +1,7 @@
 ﻿Systemvoraussetzungen OXID eShop Professional Edition
-*****************************************************
+=====================================================
 Webserver
-+++++++++
+---------
 * Apache Version 1.3 oder höher
 * Zend Guard Loader
 * Mindestens 100 MB freier Webspace
@@ -10,7 +10,7 @@ Webserver
 * Erweiterung
 
 MySQL
-+++++
+-----
 * MySQL 5.7 - getestet
 * MySQL 5.6 - getestet
 * MySQL 5.5 - getestet und empfohlen
@@ -23,7 +23,7 @@ MySQL
 * SUPER-Privilegien für den Datenbankbenutzer während der Installation
 
 PHP
-+++
+---
 * PHP 5.3.* (5.3.25 oder höher), PHP 5.4.*, PHP 5.5.* und PHP 5.6.*
 * Das
 *  *memory_limit*  
@@ -71,12 +71,10 @@ PHP
 	*  *iconv-extension* 
 	*  *tokenizer* 
 	*  *mbstring* 
-	*  *cURL* 
-
-
+	*  *cURL*
 
 Übersicht über die möglichen Betriebsrahmenbedingungen, welche auf folgenden Annahmen basiert:
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------------------------------------------------------------------------------------------
 
 * Anzahl Kategorien 20% der Artikel z. B. 1.000 Artikel ~ 200 Kategorien
 * Der Besucherstrom verteilt sich auf über 14 Std. pro Tag durchschnittlich

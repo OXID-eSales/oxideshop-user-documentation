@@ -1,5 +1,5 @@
 ﻿Registerkarte Kategorien
-************************
+========================
 Auf der Registerkarte :guilabel:`Kategorien` kann ein Attribut einer oder mehreren Kategorien zugeordnet werden. Wurden einer Kategorie mehrere Attribute zugewiesen, lässt sich auch deren Sortierung und damit die Reihenfolge in der Anzeige ändern.
 
 Durch die Zuordnung können Kategorien nach Attributen gefiltert werden. In der Kategorieübersicht des Shops wird eine Dropdown-Liste mit allen Werten des Attributes eingeblendet. Bei Auswahl eines Wertes aus dieser Liste wird der Filter angewendet und die in der Kategorie angezeigten Artikel werden aktualisiert.

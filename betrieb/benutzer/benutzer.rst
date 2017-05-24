@@ -1,5 +1,5 @@
 ﻿Benutzer
-********
+========
 Jeder Kunde, der das erste Mal im Shop mit oder ohne Registrierung einkauft, wird als Benutzer erfasst. Auch wenn ein Kunde sich anmeldet, um ein Kundenkonto zu erstellen, oder den Newsletter abonniert, erstellt der Shop einen neuen Benutzer oder aktualisiert einen bereits vorhandenen.
 
 Eine besondere Form des Benutzers ist der mit Administratorrechten. Im Gegensatz zu den Benutzern, die ausschließlich mit dem Frontend des Shops interagieren, hat der Administrator auch die Möglichkeit, die Konfiguration des Shops anzupassen, Artikel und Kategorien zu bearbeiten, also den Administrationsbereich des Shops zu nutzen. Der erste Administrator wird während der Installation des Shops angelegt. Im Schritt 5 beim :doc:`Setup ausführen <../../installation/neu-installation/setup-ausfuehren>` mussten Sie die E-Mail-Adresse und das Passwort dieses Administrators eingeben und konnten sich nach abgeschlossenem Setup direkt im Administrationsbereich anmelden.
@@ -27,32 +27,32 @@ Unter :menuselection:`Benutzer verwalten --> Benutzerliste` werden ebenfalls all
 -----------------------------------------------------------------------------------------
 
 Registerkarte Stamm
-+++++++++++++++++++
+-------------------
 **Inhalte**: aktiver Benutzer, Rechte des Benutzers, Kunde, Admin, Administrator, Benutzerdaten, Name, Anschrift, Rechnungsadresse, E-Mail, Telefon, Kundennummer, Passwort, Benutzergruppen zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Erweitert
-+++++++++++++++++++++++
+-----------------------
 **Inhalte**: Zusatzinformationen zum Benutzer, Telefonnummer, Handynummer, Mobilfunknummer, Newsletter, Double-Opt-in, ungültige E-Mail-Adresse, Bonität, Kreditwürdigkeit, zugelassene Zahlungsarten, URL, Bonuspunkte, Freunde einladen, Kunden werben, Zuordnung zu Benutzergruppen, keine automatische Zuordnung |br|
 :doc:`Artikel lesen <registerkarte-erweitert>` |link|
 
 Registerkarte Artikel
-+++++++++++++++++++++
+---------------------
 **Inhalte**: Gekaufte Artikel des Benutzers, Übersicht, Anzahl, Artikelnummer, Titel, Typ, Variantenauswahl, Kurzbeschreibung |br|
 :doc:`Artikel lesen <registerkarte-artikel>` |link|
 
 Registerkarte Historie
-++++++++++++++++++++++
+----------------------
 **Inhalte**: Notiz, Protokoll, Kundenaktionen, Kundeninformationen |br|
 :doc:`Artikel lesen <registerkarte-historie>` |link|
 
 Registerkarte Adressen
-++++++++++++++++++++++
+----------------------
 **Inhalte**: neue Adresse, Lieferadresse, Rechnungsadresse, Bestellung, Konto, Rechnungs- und Liefereinstellungen |br|
 :doc:`Artikel lesen <registerkarte-adressen>` |link|
 
 Registerkarte Zahlung
-+++++++++++++++++++++
+---------------------
 **Inhalte**: bisher verwendete Zahlungsarten, Nachnahme, Kreditkarte, Bankeinzug/Lastschrift, Vorauskasse, Rechnung, Empty, gespeicherte Bankverbindung |br|
 :doc:`Artikel lesen <registerkarte-zahlung>` |link|
 

@@ -1,5 +1,5 @@
 ﻿Hauptkategorie eines Artikels
-*****************************
+=============================
 Ein Artikel kann beliebig vielen Kategorien zugeordnet werden. In diesem Fall muss eine Kategorie als Hauptkategorie festgelegt werden. Das ist notwendig, damit der Shop in bestimmten Situationen entscheiden kann, in welcher Kategorie der Artikel angezeigt werden soll. Ruft der Kunde beispielsweise einen Artikel über die shopeigene Suche oder über die Tags auf, wird dieser in der definierten Hauptkategorie angezeigt.
 
 Es spielt auch der sogenannte Duplicate Content eine Rolle. Ein Artikel, der in mehreren Kategorien vorkommt, hat mehrere URLs. Diese zeigen auf dessen Detailseite und würden so identischen Inhalt präsentieren. Suchmaschinen wie Google, Bing und Yahoo! wollen ihren Nutzern Suchergebnisse ohne Redundanzen auflisten. Die Lösung sind Canonical Tags oder Canonical Links, die bei inhaltlich gleichen Seiten auf die originale Seite verweisen. Im OXID eShop ist das die Detailseite des Artikels mit der Hauptkategorie in der URL.

@@ -1,5 +1,5 @@
 ﻿Firmendaten
-***********
+===========
 Unter :menuselection:`Stammdaten --> Grundeinstellungen` werden auf der Registerkarte :guilabel:`Stamm` die Firmendaten und der Shopname eingetragen. Die Firmendaten werden den Kunden im Shop beim Kontaktformular angezeigt, sind aber nicht Bestandteil des Impressums. Das Impressum wird mit dem in den Shop integrierten Content Management System (CMS) erstellt. Der Name des Shops wird im Shop und in versendeten E-Mails verwendet.
 
 Auf der linken Seite der Registerkarte können Sie folgende Daten eingeben:

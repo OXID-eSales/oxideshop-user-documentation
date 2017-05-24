@@ -1,5 +1,5 @@
 ﻿Registerkarte Stamm
-*******************
+===================
 Auf der Registerkarte :guilabel:`Stamm` können Bestellinformationen hinzugefügt oder verändert werden. Das betrifft Bestell- und Rechnungsnummern ebenso, wie Bezahl- und Versandinformationen. Handelt es sich bei den bestellten Artikeln um Download-Artikel, kann eine E-Mail mit den Downloadlinks an den Kunden verschickt werden.
 
 .. image:: ../../media/screenshots-de/oxbaed01.png

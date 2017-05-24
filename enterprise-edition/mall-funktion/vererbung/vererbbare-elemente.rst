@@ -1,5 +1,5 @@
 ﻿Vererbbare Elemente
-*******************
+===================
 Vererbbare Elemente werden einem Shop von einem anderen Shop zugewiesen. Beim Erstellen eines Shops können folgende Elemente vererbt werden: Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten und Links. Die vererbten Elemente sind, von einigen Ausnahmen abgesehen, im neuen Shop inhaltlich nicht änderbar.
 
 .. image:: ../../../media/screenshots-de/oxbagp01.png

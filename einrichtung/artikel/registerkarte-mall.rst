@@ -1,5 +1,5 @@
 ﻿Registerkarte Mall
-******************
+==================
 Die Registerkarte :guilabel:`Mall` ist bei Artikeln nur in der Enterprise Edition vorhanden.
 
 Artikel können beim Erstellen von Shops an diese vererbt werden. Wird diese Option gewählt, enthält ein neuer Shop alle Artikel des Elternshops. Die vererbten Artikel können individualisierte Preise haben, wenn dies in den Malleinstellungen des neuen Shops festgelegt wurde. Zuordnungen, wie beispielsweise Kategorien, Auswahllisten, Attribute und Cross-Selling, können shopspezifisch vorgenommen werden. Auch die SEO-Einstellungen lassen sich anpassen. Die meisten Eigenschaften von Artikeln, wie Titel, Artikelnummer, Kurzbeschreibung usw. sind nicht änderbar.

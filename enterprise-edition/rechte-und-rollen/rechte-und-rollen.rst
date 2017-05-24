@@ -1,5 +1,5 @@
 ﻿Rechte und Rollen
-*****************
+=================
 Ein Feature der Enterprise Edition ist die Rechte- und Rollenverwaltung. Mit Rechte und Rollen kann der Zugriff auf anzuzeigende Elemente und verfügbare Funktionen des OXID eShop für einzelne Benutzer und Benutzergruppen gesteuert werden.
 
 Dabei wird zwischen den Rechten und den Rollen für den eigentlichen Shop, hier auch als Frontend bezeichnet, und dem Administrationsbereich, dem so genannten Backend, unterschieden. Front- und Backend werden in diesem Dokument als Begriffe zur Verdeutlichung der verschiedenen Bereiche der Rechte- und Rollenverwaltung verwendet.
@@ -11,11 +11,11 @@ Rechte und Rollen für den Shop (Frontend)
 Für den Shop können verschiedene Berechtigungen erteilt werden. Die Definition erfolgt im Administrationsbereich in der Artikel- und Kategorienverwaltung sowie unter :menuselection:`Benutzer verwalten --> Shop Rechte`.
 
 Anzeigen von Artikeln und Kategorien
-++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Sie können festlegen, dass nur bestimmte Benutzergruppen ausgewählte Artikel und Kategorien sehen dürfen. Die Definition erfolgt auf der Registerkarte :guilabel:`Rechte` von Artikeln und Kategorien, indem eine oder mehrere Benutzergruppen zugewiesen werden. Es handelt sich dabei um ein ausschließliches Recht. Nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, sind die jeweiligen Artikel und Kategorien nach Anmeldung am Shop sichtbar. Allen übrigen Benutzern und Benutzergruppen werden diese Bestandteile des Warenkatalogs niemals angezeigt.
 
 Kaufen von Artikeln und Kategorien
-++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Für Artikel und Kategorien kann auch definiert werden, dass sie ausschließlich für bestimmte Benutzergruppen kaufbar sein sollen. Auch hier erfolgt die Definition durch Zuweisung der jeweiligen Benutzergruppen auf der Registerkarte :guilabel:`Rechte` von Artikeln oder Kategorien. Der Screenshot zeigt, dass es für nicht berechtigte Benutzer in der Artikelübersicht keine Möglichkeit gibt, zum Beispiel Kites in den Warenkorb zu legen. Mit der Schaltfläche :guilabel:`Mehr Informationen` kann lediglich die Detailseite des Artikels aufgerufen werden.
 
 .. image:: ../../media/screenshots-de/oxbaev01.png
@@ -31,7 +31,7 @@ Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb le
    :width: 300
 
 Zugriff auf Funktionen und Bereiche der Detailseite
-+++++++++++++++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Rechte und Rollen können auch auf den gesamten Warenkatalog bezogen vergeben werden. Der Shop wird mit folgenden Rechten für den Shop ausgeliefert, die zu Rollen zusammengefasst den gewünschten Benutzergruppen zugeordnet werden können:
 
 * Artikel in den Warenkorb legen (TOBASKET)
@@ -58,7 +58,7 @@ Rechte und Rollen für den Administrationsbereich (Backend)
 Für den Administrationsbereich lassen sich ebenfalls Rollen definieren, um die verschiedenen Aufgabenbereiche bei der Administration des OXID eShop abbilden zu können.
 
 Zugriff auf Menüs, Untermenüs, Registerkarten
-+++++++++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Navigation und auch auf einzelne Registerkarten des Eingabebereiches. Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich. Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Admin Rechte` definiert und den jeweiligen Benutzern zugeordnet.
 
 .. image:: ../../media/screenshots-de/oxbaev05.png
@@ -67,7 +67,7 @@ Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Nav
    :width: 650
 
 Zugriff auf Artikel und Kategorien
-++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differenziert definiert werden. Sie regeln beispielsweise das Anlegen, Ändern und Löschen von Artikeln und Kategorien insgesamt und wenn nötig den Zugriff auf jedes einzelne Steuerelement (Feld, Kontrollkästchen oder Option) des jeweiligen Eingabebereiches.
 
 .. image:: ../../media/screenshots-de/oxbaev06.png

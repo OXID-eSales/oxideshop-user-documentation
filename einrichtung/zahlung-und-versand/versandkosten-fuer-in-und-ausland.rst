@@ -1,5 +1,5 @@
 ﻿Versandkosten für In- und Ausland
-*********************************
+=================================
 Für den Versand von Waren in das Ausland fallen höhere Versandkosten, als für den Versand im Inland an. Dies lässt sich durch Versandkostenregeln abbilden, die nur für bestimmte Länder gültig sind.
 
 Der Kunde entscheidet sich beim Kauf im Online-Shop für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Land, in das versendet werden soll) erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
@@ -25,7 +25,7 @@ Die Versandkostenregel wird einer Versandart zugeordnet.
 .. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
 
 Beispiel
-++++++++
+--------
 Zwei Versandkostenregeln dienen als Beispiel für eine Lieferung mit höheren Versandkosten, wenn Artikel ins Ausland geliefert werden.
 
 Dafür werden zwei Versandkostenregeln erstellt, denen unterschiedliche Länder zugeordnet werden. Die eine ist für den Versand von Artikeln innerhalb von Deutschlands zum Preis von 3,90 €, die andere für die Lieferung nach Österreich und in die Schweiz für 6,90 €. Die Versandkostenregeln werden so definiert, dass die Berechnung nur einmal pro Warenkorb erfolgt. Länder müssen zugewiesen sein. Für die eine Versandkostenregel ist das Deutschland, für die andere sind das Österreich und die Schweiz. Die Versandkostenregeln müssen aktiv sein.

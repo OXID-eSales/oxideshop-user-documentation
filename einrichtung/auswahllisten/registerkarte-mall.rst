@@ -1,5 +1,5 @@
 ﻿Registerkarte Mall
-******************
+==================
 Die Registerkarte :guilabel:`Mall` ist bei Auswahllisten nur in der OXID eShop Enterprise Edition vorhanden.
 
 Auswahllisten können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` gewählt, enthält ein neuer Shop auch alle Auswahllisten des Elternshops. Die vererbten Auswahllisten sind nicht änderbar und behalten ihre ursprüngliche Verknüpfung mit Artikeln.

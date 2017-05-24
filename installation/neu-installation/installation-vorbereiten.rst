@@ -1,5 +1,5 @@
 ﻿Installation vorbereiten
-************************
+========================
 Sie benötigen für eine Neuinstallation das aktuelle Installationspaket.
 
 Wollen Sie Ihren Onlineshop auf Basis einer Enterprise Edition aufbauen, wenden Sie sich bitte an den Vertrieb. Sie können dafür die Formulare für `Ihre Kontaktanfrage <https://www.oxid-esales.com/de/kontakt/anfrage.html>`_ oder `Ihre Rückrufbitte <https://www.oxid-esales.com/de/kontakt/rueckruf.html>`_ verwenden.
