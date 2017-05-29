@@ -16,38 +16,30 @@ Bildgrößen
 ----------
 Die Größe der Bilder für Artikel, Kategorien und für Hersteller- und Markenlogos ist abhängig vom Design des Shops. Die Einstellungen sind daher beim aktiven Theme unter :menuselection:`Erweiterungen --> Themes` hinterlegt. Rufen Sie die Registerkarte :guilabel:`Einstell.` des Themes \"Azure\" auf und klicken Sie auf :guilabel:`Bilder`.
 
-:guilabel:`Größe des Icons in Pixeln (Breite*Höhe)`
-
+:guilabel:`Größe des Icons in Pixeln (Breite*Höhe)` |br|
 Icons sind die kleinsten Artikelbilder und werden im Warenkorb und in Produktboxen (Beispiel: Top of the Shop) verwendet. Standardgröße: 87 Pixel breit und 87 Pixel hoch.
 
-:guilabel:`Größe des Thumbnails in Pixeln (Breite*Höhe)`
-
+:guilabel:`Größe des Thumbnails in Pixeln (Breite*Höhe)` |br|
 Thumbnails sind Vorschaubilder und werden in Artikellisten, wie Kategorie-Übersichten und Suchergebnisse, und in Aktionen (Beispiel: Frisch eingetroffen!) angezeigt. Standardgröße: 185 Pixel breit und 150 Pixel hoch.
 
-:guilabel:`Größe des Kategoriebildes in Pixeln (Breite*Höhe)`
-
+:guilabel:`Größe des Kategoriebildes in Pixeln (Breite*Höhe)` |br|
 Bild für die Anzeige der Kategorie-Übersicht. Standardgröße: 784 Pixel breit und 150 Pixel hoch.
 
-:guilabel:`Größe der Zoom-Bilder (Zoom 1-4) in Pixeln (Breite*Höhe)`
-
+:guilabel:`Größe der Zoom-Bilder (Zoom 1-4) in Pixeln (Breite*Höhe)` |br|
 Vergrößerte Anzeige eines Artikelbildes, die sich auf der Detailseite aufrufen lässt. Standardgröße: 665 Pixel breit und 665 Pixel hoch.
 
-:guilabel:`Größe der Artikelbilder (Bild 1-12) in Pixeln (Breite*Höhe)`
-
+:guilabel:`Größe der Artikelbilder (Bild 1-12) in Pixeln (Breite*Höhe)` |br|
 Artikelbild, welches auf der Detailseite angezeigt wird. Die Größe von bis zu 12 Artikelbilder kann definiert werden. Dadurch sind Artikelbilder mit unterschiedlichen Größen möglich. Für jedes Artikelbild gibt es eine Zeile, an derem Anfang oxpic und eine Zahl steht. oxpic1 steht für das erste Artikelbild, oxpic2 für das zweite Artikelbild usw. Standardgröße: 380 Pixel breit und 340 Pixel hoch.
 
 .. hint::Die Möglichkeit unterschiedlicher Bildgrößen sollte nur mit Umsicht verwendet werden, denn verschieden große Artikelbilder könnten eventuell zu einer eher unprofessionellen Präsentation der Artikel beitragen.
 
-:guilabel:`Größe des Hersteller-/Markenlogos in Pixeln (Breite*Höhe)`
-
+:guilabel:`Größe des Hersteller-/Markenlogos in Pixeln (Breite*Höhe)` |br|
 Logo, das in der Marken-Übersicht auf der Startseite angezeigt wird. Standardgröße: 100 Pixel breit und 100 Pixel hoch.
 
-:guilabel:`Größe des Kategoriebildes einer Unterkategorie in Pixeln (Breite*Höhe)`
-
+:guilabel:`Größe des Kategoriebildes einer Unterkategorie in Pixeln (Breite*Höhe)` |br|
 Bild für die Anzeige von Unterkategorien in der Kategorie-Übersicht. Standardgröße: 168 Pixel breit und 100 Pixel hoch.
 
-:guilabel:`Größe des Kategoriebildes für die Startseite in Pixeln (Breite*Höhe)`
-
+:guilabel:`Größe des Kategoriebildes für die Startseite in Pixeln (Breite*Höhe)` |br|
 Bild der Kategorie, die auf der Startseite beworben wird. Standardgröße: 370 Pixel breit und 107 Pixel hoch.
 
 .. Intern: oxbaaz, Status:

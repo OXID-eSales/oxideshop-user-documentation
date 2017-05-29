@@ -11,44 +11,34 @@ Nach der Bestellung finden sich die Downloadlinks unter :guilabel:`Konto --> Mei
 
 Eine Tabelle enthält alle zu einer Bestellung gehörenden Downloads.
 
-:guilabel:`Art.-Nr.`
-
+:guilabel:`Art.-Nr.` |br|
 Eindeutige Artikelnummer des Download-Artikels.
 
-:guilabel:`Titel`
-
+:guilabel:`Titel` |br|
 Titel des Download-Artikels.
 
-:guilabel:`Herunterladbare Datei`
-
+:guilabel:`Herunterladbare Datei` |br|
 Datei, die zum Download-Artikel gehört und vom Kunden heruntergeladen werden kann. Für jede herunterladbare Datei eines Download-Artikels wird eine Tabellenzeile erstellt.
 
-:guilabel:`Erster Download`
-
+:guilabel:`Erster Download` |br|
 Datum und Uhrzeit des ersten Downloads.
 
-:guilabel:`Letzter Download`
-
+:guilabel:`Letzter Download` |br|
 Datum und Uhrzeit des letzten Downloads.
 
-:guilabel:`Anzahl der Downloads`
-
+:guilabel:`Anzahl der Downloads` |br|
 Anzahl der bisher erfolgten Downloads.
 
-:guilabel:`Max. Anzahl der Downloads`
-
+:guilabel:`Max. Anzahl der Downloads` |br|
 Anzahl der Downloads, die maximal erlaubt sind. Die Zahl Null steht für eine unbegrenzte Anzahl von Downloads. Der Wert wurde als Standardeinstellung auf der Registerkarte :guilabel:`Einstell.` unter :menuselection:`Stammdaten --> Grundeinstellungen` festgelegt oder per Definition beim jeweiligen Download-Artikel überschrieben.
 
-:guilabel:`Gültig bis`
-
+:guilabel:`Gültig bis` |br|
 Zeitpunkt, bis zu dem Dateien des Download-Artikels heruntergeladen werden können. Auch hier gelten die Standardeinstellungen oder die beim Download-Artikel definierten Werte.
 
-:guilabel:`Anzahl der Resets`
-
+:guilabel:`Anzahl der Resets` |br|
 Es wird angezeigt, wie oft die Informationen zu den Downloads zurückgesetzt wurden.
 
-:guilabel:`Reset`
-
+:guilabel:`Reset` |br|
 Der Shopbetreiber hat die Möglichkeit, bereits erfolgte Downloads zurückzusetzen, solange sie gültig sind. Durch Drücken der Schaltfläche werden der Zeitpunkt des ersten und letzten Downloads sowie die Anzahl der Downloads zurückgesetzt. Auch die die Gültigkeit der Downloads wird ensprechend ihrer Definition neu berechnet.
 
 .. seealso:: :doc:`Registerkarten Downloads <../../einrichtung/artikel/registerkarte-downloads>`

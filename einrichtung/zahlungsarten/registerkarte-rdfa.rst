@@ -12,8 +12,7 @@ Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlu
 .. hint:: Damit der Shop die RDFa-Integration verwenden kann, muss die Funktion unter :menuselection:`Stammdaten --> Grundeinstellungen --> RDFa` aktiviert werden.
 
 :guilabel:`Zahlungsart zuordnen
-| Hinweis: Bitte wählen Sie nur die in GoodRelations vordefinierten Zahlungsarten aus, die Ihrer Zahlungsart entsprechen.`
-
+| Hinweis: Bitte wählen Sie nur die in GoodRelations vordefinierten Zahlungsarten aus, die Ihrer Zahlungsart entsprechen.` |br|
 Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschreiben.
 
 :guilabel:`Allgemeine Zahlungsarten

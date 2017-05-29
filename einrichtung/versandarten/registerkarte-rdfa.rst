@@ -11,16 +11,13 @@ Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Versa
 
 .. hint:: Damit der Shop die RDFa-Integration verwenden kann, muss die Funktion unter :menuselection:`Stammdaten --> Grundeinstellungen --> RDFa` aktiviert werden.
 
-:guilabel:`Versandarten zuordnen`
-
+:guilabel:`Versandarten zuordnen` |br|
 Hinweis: Bitte wählen Sie nur die in GoodRelations vordefinierten Versandarten aus, die Ihrer Versandart entsprechen.
 
 Setzen Sie ein Häkchen bei allen Angaben, welche die Versandart exakt beschreiben.
 
-:guilabel:`Allgemeine Versandarten`
-
-:guilabel:`Download   Fracht   Briefpost   Eigener Fuhrpark   Selbstabholung`
-
+:guilabel:`Allgemeine Versandarten` |br|
+:guilabel:`Download   Fracht   Briefpost   Eigener Fuhrpark   Selbstabholung` |br|
 :guilabel:`Paketdienst   DHL   FedEx   UPS`
 
 .. Intern: oxbadi, Status:, F1: deliveryset_rdfa.html

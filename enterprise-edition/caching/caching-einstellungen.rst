@@ -13,24 +13,19 @@ In diesem Abschnitt wird das Standard-Caching aktiviert. Dadurch werden statisch
 
 Der Default Cache kann auch komplett gelöscht werden.
 
-:guilabel:`Caching aktivieren`
-
+:guilabel:`Caching aktivieren` |br|
 Setzen Sie ein Häkchen, um das Standard-Caching zu aktivieren.
 
-:guilabel:`Cache Lebensdauer (TTL)`
-
+:guilabel:`Cache Lebensdauer (TTL)` |br|
 Der Standardwert für die Cache Lebensdauer ist 3.600 Sekunden. TTL steht für Time To Live. Nach dieser Zeit wird der Cache gelöscht, auch wenn er noch nie verwendet wurde.
 
-:guilabel:`Cache Connector`
-
+:guilabel:`Cache Connector` |br|
 Wählen Sie aus der Liste den Speicherort des Caches: Dateisystem oder Memcached.
 
-:guilabel:`Cache-Verzeichnis`
-
+:guilabel:`Cache-Verzeichnis` |br|
 Geben Sie ein Verzeichnis an, welches der Cache verwenden soll. Standardmäßig ist dafür das Verzeichnis :file:`/cache` vorgesehen. Das Eingabefeld wird nur angezeigt, wenn Dateisystem als Cache Connector ausgewählt wurde.
 
-:guilabel:`Liste der Memcached Server ([host]@[port]@[weight])`
-
+:guilabel:`Liste der Memcached Server ([host]@[port]@[weight])` |br|
 Tragen Sie den oder die Memcached Server ein. Die Syntax ist ``[host]@[port]@[weight]``, wobei ``@[weight]`` optional ist. Werden mehrere Memcached Server angegeben, kann über den Wert ``@[weight]`` eine Lastverteilung definiert werden. Das Eingabefeld wird nur angezeigt, wenn Memcached als Cache Connector ausgewählt wurde.
 
 Reverse Proxy
@@ -41,20 +36,16 @@ Es wird überprüft, ob der Administrationsbereich über den Reverse Proxy aufge
 
 Der Cache des Reverse Proxys kann für alle oder bestimmte Seiten gelöscht werden.
 
-:guilabel:`Caching aktivieren`
-
+:guilabel:`Caching aktivieren` |br|
 Setzen Sie ein Häkchen, um das Caching mit dem Reverse Proxy zu aktivieren.
 
-:guilabel:`Cache Lebensdauer (TTL)`
-
+:guilabel:`Cache Lebensdauer (TTL)` |br|
 Dauer in Sekunden, nach denen der Cache gelöscht wird, auch wenn er noch nie verwendet wurde. Der Standardwert ist 3.600 Sekunden.
 
-:guilabel:`Cache leeren`
-
+:guilabel:`Cache leeren` |br|
 Der Cache des Reverse Proxys kann für alle Seiten oder separat für die Startseite, die Detailseiten der Artikel oder für Listen- und Detailseiten gelöscht werden. Wird der Eintrag Listen- und Detailseiten ausgewählt, wird der Cache für die Listen der Kategorien, Hersteller, Lieferanten und auch für jede Detailseite aus den Kategorien gelöscht.
 
-:guilabel:`Verfügbarkeit des Reverse Proxys testen`
-
+:guilabel:`Verfügbarkeit des Reverse Proxys testen` |br|
 Überprüft, ob der Reverse Proxy für das Frontend verfügbar ist. Dabei wird intern die Startseite des Shops aufgerufen und nach dem Header 'X-Varnish' gesucht, der vom Reverse Proxy Varnish geliefert wird. Das Ergebnis der Prüfung wird als Meldung ausgegeben.
 
 Dynamic Content Caching
@@ -63,16 +54,13 @@ In diesem Abschnitt finden Sie die Einstellungen zum Dynamic Content Caching, we
 
 Bitte verwenden Sie Dynamic Content Caching nicht zusammen mit Reverse Proxy, da beide Methoden im Wesentlichen Seiten und dynamische Inhalte zwischenspeichern. Das könnte die Performance negativ beeinflussen.
 
-:guilabel:`Caching aktivieren`
-
+:guilabel:`Caching aktivieren` |br|
 Wenn Sie Dynamic Content Caching verwenden wollen, aktivieren Sie bitte das Kontrollkästchen.
 
-:guilabel:`Cache Lebensdauer (TTL)`
-
+:guilabel:`Cache Lebensdauer (TTL)` |br|
 Dauer in Sekunden, nach denen der Cache gelöscht wird. Der Standardwert ist 3.600 Sekunden. Nach dieser Zeit wird das Seiten-Layout ungültig. Diese Information wird über den HTTP-Header unter Verwendung des Header-Wertes \"Age\" gesendet.
 
-:guilabel:`Cachebare Klassen`
-
+:guilabel:`Cachebare Klassen` |br|
 Liste der Klassen, die gecached werden, standardmäßig info, start, details, alist und vendorlist.
 
 .. Intern: oxbacd, Status:
