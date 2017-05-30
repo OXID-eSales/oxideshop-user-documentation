@@ -15,24 +15,19 @@ Der *Multishop*  kommt ohne Vererbung aus, denn er zeigt alle Artikel, Herstelle
 
 Ein neuer Shop kann unter :menuselection:`Stammdaten --> Grundeinstellungen` angelegt werden. Nutzen Sie dafür die Funktion am unteren Bildschirmrand.
 
-:guilabel:`Shop-ID`
-
+:guilabel:`Shop-ID` |br|
 Die Shops erhalten automatisch eine Nummer, beginnend mit der Shop-ID 1 für den Hauptshop.
 
-:guilabel:`Shopname`
-
+:guilabel:`Shopname` |br|
 Tragen Sie hier den Namen für den neuen Shop ein.
 
-:guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop.`
-
+:guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop.` |br|
 Wird dieses Kontrollkästchen aktiviert, erbt der neue Shop Artikel, Attribute, Auswahllisten sowie andere Elemente und Einstellungen von einem Elternshop. Dieser muss aus der Auswahlliste :guilabel:`Elternshop` ausgewählt werden.
 
-:guilabel:`Dieser Shop ist ein Supershop. Sie können Artikel mit anderen Shops verknüpfen.`
-
+:guilabel:`Dieser Shop ist ein Supershop. Sie können Artikel mit anderen Shops verknüpfen.` |br|
 Bei aktiviertem Kontrollkästchen wird ein Shop vom Shoptyp Supershop erstellt.
 
-:guilabel:`Dieser Shop ist ein Multishop. Er zeigt alle Artikel aus allen Shops an.`
-
+:guilabel:`Dieser Shop ist ein Multishop. Er zeigt alle Artikel aus allen Shops an.` |br|
 Bei aktiviertem Kontrollkästchen wird ein Shop vom Shoptyp Multishop erstellt.
 
 Wird beim Anlegen eines neuen Shops nicht Supershop oder Multishop als Shoptyp gewählt, entsteht ein Subshop.
@@ -44,32 +39,26 @@ Unter :menuselection:`Stammdaten --> Grundeinstellungen` können auf der Registe
    :height: 315
    :width: 650
 
-:guilabel:`URL des Shops`
-
+:guilabel:`URL des Shops` |br|
 Es kann eine Webadresse angegeben werden, über die der Shop erreichbar ist. Diese URL muss sich durch die Top-Level-Domain (TLD), die Second-Level-Domain, eine Subdomain oder durch eine beliebige Kombination daraus von den anderen Shops der Enterprise Edition unterscheiden. Das Protokoll ist mit anzugeben.
 
 Beispiele: ``http://de.exampleshop.com``, ``http://en.exampleshop.com``, ``http://www.exampleshop.de``
 
 Es ist nicht möglich, die verschiedenen Shops über Pfade in der URL zu strukturieren. Wird keine URL angegeben, wird der Shop über den URL-Parameter ``shp`` adressiert.
 
-:guilabel:`SSL-URL des Shops`
-
+:guilabel:`SSL-URL des Shops` |br|
 Webadresse für den verschlüsselten Aufruf des Shops. Es gelten die oben genannten Anmerkungen zur URL.
 
-:guilabel:`Datenverzeichnis /out aus aktivem Shop laden`
-
+:guilabel:`Datenverzeichnis /out aus aktivem Shop laden` |br|
 Aktivieren Sie dieses Kontrollkästchen, wenn beispielsweise die Artikelfotos mit der URL des aktiven Shops geladen werden sollen. Ohne diese Funktion werden die Artikelfotos und andere Ressourcen aus dem Verzeichnis :file:`/out` mit der URL des Hauptshops aufgerufen.
 
-:guilabel:`Separate Bestellnummern für diesen Shop`
-
+:guilabel:`Separate Bestellnummern für diesen Shop` |br|
 Aktivieren Sie dieses Kontrollkästchen, damit Bestellungen in diesem Shop Bestellnummern aus einem separaten Nummernkreis erhalten. Für Shops, in denen diese Einstellung nicht aktiv ist, werden die Bestellnummern shopübergreifend vergeben und hochgezählt.
 
-:guilabel:`Aufschlag auf Artikelpreise`
-
+:guilabel:`Aufschlag auf Artikelpreise` |br|
 Für den Shop kann generell ein absoluter oder ein prozentualer Aufschlag auf den Artikelpreis festgelegt werden. Geben Sie eine Prozentzahl für einen prozentualen Aufschlag ein und stellen Sie sicher, dass :guilabel:`%` in der zugehörigen Dropdown-Liste ausgewählt wurde. Soll es einen absoluten Preisaufschlag geben, wählen Sie bitte :guilabel:`EUR` aus der Liste und tragen Sie einen Betrag ein.
 
-:guilabel:`Indiv. Preis für vererbte Artikel erlauben`
-
+:guilabel:`Indiv. Preis für vererbte Artikel erlauben` |br|
 Soll dieser Shop einmal seine Artikel und Einstellungen an andere Shops vererben, welche die Artikel mit individuellen Preisen anbieten sollen, aktivieren Sie bitte dieses Kontrollkästchen. Artikel- und Staffelpreise können dann in den jeweiligen Shops angepasst werden. Alle übrigen Eigenschaften der Artikel sind nicht änderbar.
 
 .. Intern: oxaagn, Status:

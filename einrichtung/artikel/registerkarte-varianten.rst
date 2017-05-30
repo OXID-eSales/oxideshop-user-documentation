@@ -20,48 +20,38 @@ Multidimensionale Varianten stellen eine Mehrfachauswahl von charakteristischen 
    :height: 329
    :width: 650
 
-:guilabel:`Auswahllisten`
-
+:guilabel:`Auswahllisten` |br|
 Hier werden die vorhandenen Auswahllisten angezeigt. Sie können dazu verwendet werden, per Mausklick Varianten daraus zu erstellen. Haben Sie für Ihre Artikel immer wiederkehrende Ausführungen, sollten Sie entsprechende Auswahllisten als Vorlage anlegen. Nun brauchen Sie die Auswahlliste jeweils nur markieren und auf den Pfeil zu drücken, der nach rechts in Richtung Tabelle zeigt. Alle Varianten werden angelegt und können bei Bedarf weiter bearbeitet, aktiviert und gespeichert werden. Werden mehrere Auswahllisten zugewiesen, entstehen dadurch multidimensionale Varianten.
 
-:guilabel:`Name der Auswahl`
-
+:guilabel:`Name der Auswahl` |br|
 Geben Sie hier einen Begriff ein, wodurch sich die Varianten unterscheiden. Dieser wird in der Detailansicht des Artikels als Name der Dropdown-Liste für die Variantenauswahl angezeigt. Der Besucher sollte auf einen Blick erkennen, was er in der Liste auswählen kann. Der Name der Auswahl wird separat gespeichert.
 
 Beispiel für multidimensionale Varianten: Größe | Farbe
 
 Um eine Variante zu erstellen, werden die Eingabefelder in der Tabelle ausgefüllt. Die Variante muss aktiviert und gespeichert werden. Um der Tabelle eine weitere Variante hinzuzufügen, betätigen Sie die Schaltfläche :guilabel:`Neue Variante`.
 
-:guilabel:`Edit`
-
+:guilabel:`Edit` |br|
 Beim Klick auf das Symbol für das Editieren wird die Variante in der Artikelverwaltung geöffnet. Die Ansicht ist nahezu identisch wie bei einem ganz normalen Artikel. Es lassen sich alle üblichen Einstellungen vornehmen und Informationen hinterlegen. Hinzugekommen ist bei den meisten Registerkarten lediglich eine erste Zeile :guilabel:`Variante von`. Die Registerkarte :guilabel:`Stamm` hat eine zusätzliche Dropdown-Liste :guilabel:`Gehe zu`, über die direkt der Vaterartikel oder eine andere Variante angezeigt werden kann.
 
-:guilabel:`Aktiv`
-
+:guilabel:`Aktiv` |br|
 Mit einem angehakten Kontrollkästchen ist die Variante aktiv und wird beim Artikel zur Auswahl angezeigt.
 
-:guilabel:`Auswahl`
-
+:guilabel:`Auswahl` |br|
 Eintrag, den man in der Dropdown-Liste in der Detailansicht des Artikels auswählen kann. Unterscheiden sich die Varianten beispielsweise in der Farbe, muss in diesem Feld die Farbe selbst stehen.
 
-:guilabel:`Art.-Nr.`
-
+:guilabel:`Art.-Nr.` |br|
 Artikelnummer der Variante. Ohne eine Eingabe wird die Artikelnummer des Vaterartikels verwendet.
 
-:guilabel:`Preis (€)`
-
+:guilabel:`Preis (€)` |br|
 Preis der Variante. Wird kein Preis eingetragen, wird der Preis des Vaterartikels verwendet.
 
-:guilabel:`Sort.`
-
+:guilabel:`Sort.` |br|
 Tragen Sie hier eine Zahl ein, welche die Sortierung des Eintrags in der Dropdown-Liste bestimmt. Die Variante mit der kleinsten Zahl für Sortierung wird in der Auswahl an erster Stelle angezeigt.
 
-:guilabel:`Lager`
-
+:guilabel:`Lager` |br|
 Lagerbestand der Variante. In der daneben stehenden Liste kann das Verhalten ausgewählt werden, wenn die Variante nicht auf Lager ist. Siehe :guilabel:`Lieferstatus` auf der Registerkarte :guilabel:`Lager`.
 
-:guilabel:`In Sprache`
-
+:guilabel:`In Sprache` |br|
 Listenauswahl stellt die schnelle Bearbeitung von Varianten auf eine andere aktive Sprache des Shops um.
 
 .. seealso:: :doc:`Auswahllisten <../auswahllisten/auswahllisten>`

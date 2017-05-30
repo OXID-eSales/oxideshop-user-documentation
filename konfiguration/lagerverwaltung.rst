@@ -20,20 +20,16 @@ Standardmäßig ist das Kontrollkästchen :guilabel:`Lagerverwaltung aktiv` ange
 
 Für eine aktive Lagerverwaltung können Sie weitere Einstellungen vornehmen.
 
-:guilabel:`Negative Lagerbestände erlauben`
-
+:guilabel:`Negative Lagerbestände erlauben` |br|
 Diese Einstellung ist nur relevant, wenn Sie die Artikel aus einem Fremdlager beziehen. Ist die Einstellung aktiv, werden negative Lagerbestände berechnet, wenn weitere Exemplare bestellt werden. Wenn die Einstellung nicht aktiv ist, fällt der Lagerbestand eines Artikels nie unter 0. Auch dann nicht, wenn der Artikel bereits ausverkauft ist und noch weitere Exemplare bestellt werden.
 
-:guilabel:`Lagerbestand, ab dem den Benutzern angezeigt wird, dass nur noch wenige Artikel auf Lager sind`
-
+:guilabel:`Lagerbestand, ab dem den Benutzern angezeigt wird, dass nur noch wenige Artikel auf Lager sind` |br|
 Geben Sie hier eine Stückzahl ein, ab der ein geringer Lagerbestand angezeigt werden soll.
 
-:guilabel:`Die \"Auf-Lager\"-Standardmeldung nutzen`
-
+:guilabel:`Die \"Auf-Lager\"-Standardmeldung nutzen` |br|
 Ist das Kontrollkästchen aktiv, wird die Standardmeldung :guilabel:`Sofort lieferbar` verwendet. Sie wird immer dann angezeigt, wenn bei einem Artikel keine eigene Meldung für den Lagerstatus hinterlegt wurde. Für jeden Artikel kann eine von der Standardmeldung abweichende Meldung definiert werden.
 
-:guilabel:`Die \"Nicht-auf-Lager\"-Standardmeldung nutzen`
-
+:guilabel:`Die \"Nicht-auf-Lager\"-Standardmeldung nutzen` |br|
 Auch hier wird die Standardmeldung verwendet, wenn bei einem Artikel keine davon abweichende Meldung hinterlegt ist. Ist das Kontrollkästchen angehakt, wird die Standardmeldung :guilabel:`Dieser Artikel ist nicht auf Lager und muss erst nachbestellt werden` angezeigt.
 
 Speichern Sie Ihre Einstellungen.

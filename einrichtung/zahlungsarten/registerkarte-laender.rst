@@ -7,8 +7,7 @@ Zahlungsarten gelten für Länder. Ordnen Sie auf der Registerkarte :guilabel:`L
    :height: 329
    :width: 650
 
-:guilabel:`Länder zuordnen`
-
+:guilabel:`Länder zuordnen` |br|
 Um Länder einer Zahlungsart zuzuordnen, betätigen Sie die Schaltfläche :guilabel:`Länder zuordnen`. Es öffnet sich ein Zuordnungsfenster, in dem Sie Länder aus der Liste :guilabel:`Alle Länder` auswählen können. Länder lassen sich nach Namen und/oder der Länderabkürzung sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung zur Zahlungsart ist damit abgeschlossen.
 
 .. Intern: oxaadb, Status:, F1: payment_country.html
