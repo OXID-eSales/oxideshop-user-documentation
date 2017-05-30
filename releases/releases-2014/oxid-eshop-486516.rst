@@ -27,7 +27,7 @@ Im Administrationsbereich muss bei den entsprechenden Artikeln auf der Registerk
 Verbesserungen und Anpassungen
 ------------------------------
 Änderungen in der Datenbank
-+++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Die Tabelle *oxarticles*  erhielt das neue Datenbankfeld *OXSHOWCUSTOMAGREEMENT* . Die Datenbank wurde um die Konfigurationsoption *blEnableIntangibleProdAgreement*  erweitert und der Tabelle *oxContents* wurden zwei neue Datensätze hinzugefügt.
 
 Änderungen in Templates

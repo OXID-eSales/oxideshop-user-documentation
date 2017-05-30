@@ -5,4 +5,3 @@ Willkommen
    :maxdepth: 1
    
    ueber-dokumentation-und-hilfe
-   formatierung
