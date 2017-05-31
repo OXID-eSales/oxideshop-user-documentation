@@ -1,14 +1,15 @@
 ﻿OXID eShop 4.7.0/5.0.0
 ======================
-Versionsbezeichnung: 5.0.0, Revision 51243
 
+Versionsbezeichnung: 5.0.0, Revision 51243 |br|
 Edition: Enterprise Edition
 
-Versionsbezeichnung: 4.7.0, Revision 51243
-
+Versionsbezeichnung: 4.7.0, Revision 51243 |br|
 Edition: Professional Edition und Community Edition
 
 Veröffentlichungstermin: 08.11.2012
+
+----------
 
 Allgemeines
 -----------
@@ -22,7 +23,9 @@ Das Update auf OXID eShop Version 4.7.0 (Community und Professional Edition) und
 
 Die Anleitung `Auf 4.7.0/5.0.0 aktualisieren <de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-aktualisieren/auf-470500-aktualisieren.html>`_ beschreibt das Update des OXID eShop.
 
-Hinweis: Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
+.. hint:: Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
+
+----------
 
 Neue Funktionen
 ---------------
@@ -31,17 +34,17 @@ Caching (nur Enterprise Edition)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Für die Enterprise Edition wurde ein neues Caching-System implementiert. Es wird durch drei Hauptkomponenten umgesetzt: durch den in den OXID eShop integrierten Cache Manager, unterstützt durch den Reverse Proxy Varnish und/oder durch Memcached. Das Zusammenwirken der Komponenten bewirkt, dass – wenn immer möglich – zwischengespeicherte Inhalte genutzt und an die anfragenden Web-Clients geschickt werden. Damit werden die Datenbankzugriffe reduziert und die Antwortzeiten des OXID eShop verkürzt.
 
-Anleitung zur Konfiguration von Varnish und Memcached sowie zu den Einstellungen für das Caching finden Kunden mit einer Enterprise Edition und ausgewählte Partner im Abschnitt `Enterprise Edition <de/support-services/dokumentation-und-hilfe/oxid-eshop/enterprise-edition.html>`_ unserer Online-Dokumentation. Dieser Abschnitt der Online-Dokumentation ist passwortgeschützt. Über ein bereitgestelltes Formular können Sie Zugangsdaten anfordern.
+Anleitung zur Konfiguration von Varnish und Memcached sowie zu den Einstellungen für das Caching finden Kunden mit einer Enterprise Edition und ausgewählte Partner im Abschnitt :doc:`Enterprise Edition </enterprise-edition/enterprise-edition>` unserer Online-Dokumentation.
 
 Master/Slave (nur Enterprise Edition)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Die Enterprise Edition kann bei aktiviertem Master/Slave mit mehreren Datenbanken betrieben werden. Dabei ist eine Datenbank die Master-Datenbank, die hauptsächlich Schreibzugriffe verarbeitet. Die Slave-Datenbanken enthalten gespiegelte Daten und bedienen die Lesezugriffe. Ein Load-Balancer verteilt die Datenbankzugriffe nach dieser grundsätzlichen Unterscheidung auf die Master-Datenbank und auf die Slave-Datenbanken.
 
-Kunden mit einer Enterprise Edition und ausgewählte Partner finden die Anleitung zur Konfiguration von Master/Slave ebenfalls im Abschnitt `Enterprise Edition <de/support-services/dokumentation-und-hilfe/oxid-eshop/enterprise-edition.html>`_ unserer Online-Dokumentation.
+Kunden mit einer Enterprise Edition und ausgewählte Partner finden die Anleitung zur Konfiguration von Master/Slave ebenfalls im Abschnitt :doc:`Enterprise Edition </enterprise-edition/enterprise-edition>` unserer Online-Dokumentation.
 
 Widgets
 ^^^^^^^
-Mit den Widgets wurde ein neuer Komponententyp für den Seitenaufbau des OXID eShop eingeführt. Es sind logische Elemente der Benutzeroberfläche (GUI), die in jedem beliebigen Template verwendet werden können. Die Aufteilung der Seiten in kleine Einheiten ist eine wichtige Voraussetzung für das Caching. Weitere Informationen zu den Widgets finden Sie im Tutorial `Widgets in 4.7 + 5.0 <http://wiki.oxidforge.org/Tutorials/widgets_from_4.7_5.0>`_ in der OXIDforge.
+Mit den Widgets wurde ein neuer Komponententyp für den Seitenaufbau des OXID eShop eingeführt. Es sind logische Elemente der Benutzeroberfläche (GUI), die in jedem beliebigen Template verwendet werden können. Die Aufteilung der Seiten in kleine Einheiten ist eine wichtige Voraussetzung für das Caching. Weitere Informationen zu den Widgets finden Sie im Tutorial `Widgets in 4.7 + 5.0 <https://oxidforge.org/en/widgets-in-4-7-5-0.html>`_ in der OXIDforge.
 
 EU Cookie-Richtlinie
 ^^^^^^^^^^^^^^^^^^^^
@@ -57,17 +60,20 @@ Datenbanktabellen mit Zeitstempel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Alle Datenbanktabellen erhielten ein zusätzliches Datenbankfeld \"oxtimestamp\". Beim Erstellen und Ändern von Datensätzen wird die jeweilige Zeit in das Datenbankfeld eingetragen. Damit sind vor kurzem erstellte und geänderte Datensätze schnell zu finden, was die Synchronisation von Daten mit angeschlossenen Systemen erleichtert.
 
+----------
+
 Verbesserungen und Anpassungen
 ------------------------------
+
 Überarbeiteter Bootstrap-Prozess
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Um den OXID eShop noch schneller zu machen, wurde der Bootstrap-Prozess überarbeitet. Der sogenannte Bootstrap-Prozess ist ein Script, welches alle Methoden inkludiert, definiert und initialisiert, damit das Framework des OXID eShop korrekt arbeitet. Das Framework startet nun in einer effizienteren Weise, indem ausschließlich dessen unmittelbar benötigte Teile geladen werden.
 
-Detaillierte Informationen zum überarbeiteten Bootstrap-Prozess finden Sie im Tutorial `Bootstrap process refactored in 4.7 5.0 <http://wiki.oxidforge.org/Tutorials/bootstrap_process_refactored_in_4.7_5.0>`_ in der OXIDforge.
+Detaillierte Informationen zum überarbeiteten Bootstrap-Prozess finden Sie im Tutorial `Bootstrap process refactored in 4.7 5.0 <https://oxidforge.org/en/bootstrap-process-refactored-in-4-7-5-0.html>`_ in der OXIDforge.
 
 Theme \"Basic\" und Template-Änderungen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Das Theme \"Basic\" wird nicht mehr unterstützt. OXID eShop 4.7.0/5.0.0 enthält ausschließlich das Theme \"Azure\". Obwohl das Theme \"Basic\" nicht länger gewartet wird, ist dessen Funktionalität noch vorhanden und kann nach einem Update noch genutzt werden. Eine Anleitung zur Anpassung der Templates finden Sie im Tutorial `Use basic theme from version 4.7 and 5.0 on <http://wiki.oxidforge.org/Tutorials/use_basic_theme_from_version_4.7_and_5.0_on>`_ in der OXIDforge.
+Das Theme \"Basic\" wird nicht mehr unterstützt. OXID eShop 4.7.0/5.0.0 enthält ausschließlich das Theme \"Azure\". Obwohl das Theme \"Basic\" nicht länger gewartet wird, ist dessen Funktionalität noch vorhanden und kann nach einem Update noch genutzt werden. Eine Anleitung zur Anpassung der Templates finden Sie im Tutorial `Use basic theme from version 4.7 and 5.0 on <https://oxidforge.org/en/use-basic-theme-from-version-4-7-and-5-0-on.html>`_ in der OXIDforge.
 
 Templates wurden im Zusammenhang mit der sogenannten \"Button-Lösung\", die nachfolgend beschrieben ist, geändert. Das Theme \"Azure\" enthält bereits alle notwendigen Verbesserungen, damit der OXID eShop die Vorgaben des deutschen Gesetzgebers erfüllt. Es gab auch noch weitere kleinere Änderungen in den Templates. Die als \"deprecated\" gekennzeichneten Bestandteile wurden entfernt.
 
@@ -81,48 +87,35 @@ Neue Datei- und Verzeichnisstruktur
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Die Architektur des OXID eShop unterliegt ständigen Erweiterungen. Die Struktur von Verzeichnissen und Dateien wurde mit diesem Major Release geändert, um die Architektur klarer zu verdeutlichen. Es erfolgte eine generelle Trennung von Framework und System-Komponenten von der eigentlichen Anwendung. Das Verzeichnis :file:`/core` enthält die Komponenten des Frameworks für Datenbank-, Datei- und Session-Handling usw. Im Verzeichnis :file:`/application` befinden sich alle Dateien, die den OXID eShop als Anwendung repräsentieren. Das Verzeichnis für die Anwendung wurde zudem in Unterordner aufgeteilt, die das der Architektur zugrunde liegende MVC-Konzept (Model View Controller) abbilden. Darüber hinaus erhielten Komponenten und die neuen Widgets eigene Ordner.
 
-*Bisherige Verzeichnisstruktur*
+**Bisherige Verzeichnisstruktur**
 
-``/eshop
+.. code::
 
-\\/core
+  /eshop
+     /core
+     /views
+     /modules
+     /out
+     /tmp
 
-\\/views
+**Neue Verzeichnisstruktur**
 
-\\/modules
+.. code::
 
-\\/out
+  /eshop
+     /application
+        /models
+        /controllers
+        /components
+           /widgets
+        /views
+        /translations
+     /core
+     /modules
+     /out
+     /tmp
 
-\\/tmp``
-
-*Neue Verzeichnisstruktur*
-
-``/eshop
-
-\\/application
-
-\\\\\/models\\\\\\\\\
-
-\\\\\/controllers
-
-\\\\\/components
-
-\\\\\\\\/widgets
-
-\\\\\/views
-
-\\\\\/translations
-
-\\/core
-
-\\/modules
-
-\\/out
-
-\\/tmp``
-
-*Dateien und neue Speicherorte*
-
+**Dateien und neue Speicherorte**
 
 * Models: Dateien, zuständig für Business Logic, wurden vom Verzeichnis :file:`/core` nach :file:`/application/models` verschoben. Andere Dateien verblieben dort als Teil des Frameworks.
 * Controllers: Alle Dateien aus dem Verzeichnis :file:`/views` wurde nach :file:`/application/controllers` verschoben mit Ausnahme folgender Dateien: :file:`oxview.php`, :file:`oxviewconfig.php`, :file:`oxshopcontrol.php` in das Verzeichnis :file:`/core` und :file:`oxcmp_*.php` in das Verzeichnis :file:`/application/components`.
@@ -142,11 +135,11 @@ Modul-Handling
 ^^^^^^^^^^^^^^
 Beim Aktivieren und Deaktivieren von Modulen können jetzt Ereignisse ausgeführt werden. Diese sind in der Metadata-Datei zu definieren. Derzeit werden die Ereignisse \"onActivate\" und \"onDeactivate\" unterstützt. Weitere Ereignisse sind geplant.
 
-:code:`'events' =\>array(
+.. code::
 
-\\'onActivate' =\>'myModuleEvents::onActivate',
-
-\\'onDeactivate' =\>'myModuleEvents::onDeactivate' ),`
+  'events' => array(
+  'onActivate' => 'myModuleEvents::onActivate',
+  'onDeactivate' => 'myModuleEvents::onDeactivate' ),
 
 Die Klasse \"myModuleEvents\" wird ebenfalls in der Metadata-Datei, im Array \"files\" angegeben. Alle Module, die Ereignisse verwenden, müssen die Metadata-Version 1.1 haben.
 
@@ -163,36 +156,19 @@ Die Moduleinstellungen können jetzt geändert werden, ohne dass dafür das Modu
 Nicht mehr unterstützt
 ^^^^^^^^^^^^^^^^^^^^^^
 
-* Alle in vorhergehenden Shop-Versionen als
-* \"
-* deprecated
-* \"
-* gekennzeichneten Funktionen, Variablen und Codestellen wurden entfernt. Siehe dazu die Übersicht
-*  `Removed deprecated source <http://wiki.oxidforge.org/Tutorials/Removed_deprecated_source>`_ 
-* in der OXIDforge.
-* Das Theme
-* \"
-* Basic
-* \"
-* wird nicht mehr gewartet und nicht veröffentlicht.
+* Alle in vorhergehenden Shop-Versionen als \"deprecated\" gekennzeichneten Funktionen, Variablen und Codestellen wurden entfernt. Siehe dazu die Übersicht `Removed deprecated source <https://oxidforge.org/en/removed-deprecated-source.html>`_ in der OXIDforge.
+* Das Theme \"Basic\" wird nicht mehr gewartet und nicht veröffentlicht.
 * Die Zend Platform wird nicht länger unterstützt, da dieses Produkt von Zend eingestellt wurde. Die Unterstützung für den Zend Server bleibt bestehen.
 
 Korrekturen
 -----------
-Korrekturen 4.7.0/5.0.0 Final: `https://bugs.oxid-esales.com/changelog_page.php?version_id=164 <https://bugs.oxid-esales.com/changelog_page.php?version_id=164>`_ 
+Korrekturen 4.7.0/5.0.0 Final: `https://bugs.oxid-esales.com/changelog_page.php?version_id=164 <https://bugs.oxid-esales.com/changelog_page.php?version_id=164>`_ |br|
+Korrekturen 4.7.0/5.0.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=162 <https://bugs.oxid-esales.com/changelog_page.php?version_id=162>`_ |br|
+Korrekturen 4.7.0/5.0.0 RC 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=159 <https://bugs.oxid-esales.com/changelog_page.php?version_id=159>`_ |br|
+Korrekturen 4.7.0/5.0.0 Beta 3: `https://bugs.oxid-esales.com/changelog_page.php?version_id=156 <https://bugs.oxid-esales.com/changelog_page.php?version_id=156>`_ |br|
+Korrekturen 4.7.0/5.0.0 Beta 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=146 <https://bugs.oxid-esales.com/changelog_page.php?version_id=146>`_ |br|
+Korrekturen 4.7.0/5.0.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=132 <https://bugs.oxid-esales.com/changelog_page.php?version_id=132>`_
 
-Korrekturen 4.7.0/5.0.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=162 <https://bugs.oxid-esales.com/changelog_page.php?version_id=162>`_ 
-
-Korrekturen 4.7.0/5.0.0 RC 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=159 <https://bugs.oxid-esales.com/changelog_page.php?version_id=159>`_ 
-
-Korrekturen 4.7.0/5.0.0 Beta 3: `https://bugs.oxid-esales.com/changelog_page.php?version_id=156 <https://bugs.oxid-esales.com/changelog_page.php?version_id=156>`_ 
-
-Korrekturen 4.7.0/5.0.0 Beta 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=146 <https://bugs.oxid-esales.com/changelog_page.php?version_id=146>`_ 
-
-Korrekturen 4.7.0/5.0.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=132
-
- <https://bugs.oxid-esales.com/changelog_page.php?version_id=132>`_
-
-Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-7-0-ce-pe-5-0-0-ee.html>`_ .
+Weiterführende Informationen für Entwickler finden Sie auf der OXIDforge: `http://oxidforge.org/en/oxid-eshop-version-4-7-0-ce-pe-5-0-0-ee.html <http://oxidforge.org/en/oxid-eshop-version-4-7-0-ce-pe-5-0-0-ee.html>`_.
 
 .. Intern: oxaabg, Status:

@@ -1,8 +1,6 @@
 Releases
 ========
 
-Der Abschnitt \"Releases\" fasst die wichtigsten Informationen zu den veröffentlichten Versionen des OXID eShop zusammen.
-
 .. toctree::
    :maxdepth: 1
    

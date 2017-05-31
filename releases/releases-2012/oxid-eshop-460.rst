@@ -1,15 +1,17 @@
 ﻿OXID eShop 4.6.0
 ================
-Versionsbezeichnung: 4.6.0, Revision 44406
 
+Versionsbezeichnung: 4.6.0, Revision 44406 |br|
 Veröffentlichungstermin: 26.04.2012
+
+----------
 
 Neue Funktionen
 ---------------
 
 Download-Artikel
 ^^^^^^^^^^^^^^^^
-Der OXID eShop 4.6.0 stellt einen neuen Artikeltyp als Standard bereit: Download-Artikel. Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien. Nach Abschluss des Bestellvorgangs finden sich alle Downloads unter :guilabel:`Konto --> Meine Downloads`.
+Der OXID eShop 4.6.0 stellt einen neuen Artikeltyp als Standard bereit: Download-Artikel. Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien. Nach Abschluss des Bestellvorgangs finden sich alle Downloads unter :menuselection:`Konto --> Meine Downloads`.
 
 Die Verwendung von Download-Artikeln im Shop muss global aktiviert werden. Im Administrationsbereich können unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Download-Artikel` die Standardeinstellungen vorgenommen werden. Das sind - neben dem Aktivieren der Funktion - der Pfad zu den herunterladbaren Dateien und Festlegungen zur Anzahl der Downloads oder zur Verfallszeit der Links.
 
@@ -33,6 +35,8 @@ Zeitgesteuerte Aktualisierung von Artikelpreisen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Preise können zu einem festgelegten Zeitpunkt geändert werden. Unter :menuselection:`Artikel verwalten` --> :menuselection:`Artikel`\> :guilabel:`Erweitert` lassen sich Datum und Zeitpunkt festlegen, ab dem die definierten Standardpreise aktualisiert werden sollen.
 
+----------
+
 Verbesserungen und Anpassungen
 ------------------------------
 
@@ -54,22 +58,20 @@ Facebook-Funktion \"Live Stream\" entfernt
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Nach einer Umfrage im Community Forum wurde die Facebook-Funktion \"Live Stream\", mit der Besucher des Shops in Echtzeit über Produkte diskutieren sollten, entfernt. Die Funktion ist unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Facebook` nicht mehr verfügbar.
 
+----------
+
 Korrekturen
 -----------
-Korrekturen 4.6.0 Final: `https://bugs.oxid-esales.com/changelog_page.php?version_id=129 <https://bugs.oxid-esales.com/changelog_page.php?version_id=129>`_ 
 
-Korrekturen 4.6.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=126 <https://bugs.oxid-esales.com/changelog_page.php?version_id=126>`_ 
-
-Korrekturen 4.6.0 RC 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=123 <https://bugs.oxid-esales.com/changelog_page.php?version_id=123>`_ 
-
-Korrekturen 4.6.0 Beta 3: `https://bugs.oxid-esales.com/changelog_page.php?version_id=110 <https://bugs.oxid-esales.com/changelog_page.php?version_id=110>`_ 
-
-Korrekturen 4.6.0 Beta 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=95 <https://bugs.oxid-esales.com/changelog_page.php?version_id=95>`_ 
-
-Korrekturen 4.6.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=106 <https://bugs.oxid-esales.com/changelog_page.php?version_id=106>`_
+Korrekturen 4.6.0 Final: `https://bugs.oxid-esales.com/changelog_page.php?version_id=129 <https://bugs.oxid-esales.com/changelog_page.php?version_id=129>`_ |br|
+Korrekturen 4.6.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=126 <https://bugs.oxid-esales.com/changelog_page.php?version_id=126>`_ |br|
+Korrekturen 4.6.0 RC 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=123 <https://bugs.oxid-esales.com/changelog_page.php?version_id=123>`_ |br|
+Korrekturen 4.6.0 Beta 3: `https://bugs.oxid-esales.com/changelog_page.php?version_id=110 <https://bugs.oxid-esales.com/changelog_page.php?version_id=110>`_ |br|
+Korrekturen 4.6.0 Beta 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=95 <https://bugs.oxid-esales.com/changelog_page.php?version_id=95>`_ |br|
+Korrekturen 4.6.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=106 <https://bugs.oxid-esales.com/changelog_page.php?version_id=106>`_ |br|
 
 Auch alle Korrekturen aus den Patches von 4.5 wurden in die Version 4.6.0 übernommen.
 
-Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-6-0.html>`_ .
+Weiterführende Informationen für Entwickler finden Sie auf der OXIDforge: `http://oxidforge.org/en/oxid-eshop-version-4-6-0.html <http://oxidforge.org/en/oxid-eshop-version-4-6-0.html>`_.
 
 .. Intern: oxaaab, Status:

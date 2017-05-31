@@ -1,6 +1,5 @@
-﻿Releases
-========
-Der Abschnitt \"Releases\" fasst die wichtigsten Informationen zu den veröffentlichten Versionen des OXID eShop zusammen.
+﻿Übersicht aller Releases ab 2012
+================================
 
 Releases 2017
 -------------
