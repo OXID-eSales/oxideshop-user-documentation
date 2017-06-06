@@ -1,20 +1,24 @@
 OXID eShop 4.7.12/5.0.12
 ========================
-Versionsbezeichnung: 5.0.12, Revision c891d3dd247af7e711d42bbb98e23870d9c073a0
 
+Versionsbezeichnung: 5.0.12, Revision c891d3dd247af7e711d42bbb98e23870d9c073a0 |br|
 Edition: Enterprise Edition
 
-Versionsbezeichnung: 4.7.12, Revision c891d3dd247af7e711d42bbb98e23870d9c073a0
-
+Versionsbezeichnung: 4.7.12, Revision c891d3dd247af7e711d42bbb98e23870d9c073a0 |br|
 Edition: Professional Edition und Community Edition
 
 Veröffentlichungstermin: 10.06.2014
 
+----------
+
 Allgemeines
 -----------
-Seit Freitag, den 13.06.2014 gilt das Gesetz zur Umsetzung der Verbraucherrechterichtlinie, welches zahlreiche Neuerungen für den Online-Handel mit sich bringt. Die neue Verbraucherrechterichtlinie reformiert vor allem das Widerrufsrecht bei Fernabsatzverträgen sowie die Informationspflicht und verlangt somit diverse Anpassungen seitens Online-Anbietern zum Stichtag. Ausführlichere Informationen finden Sie in unserem Blogbeitrag \" `Neue Verbraucherrechterichtlinie ab 13.06.2014 <http://blog.oxid-esales.com/2014/03/neue-verbraucherrechterichtlinie-ab-13-06-2014/>`_ \".
+
+Seit Freitag, den 13.06.2014 gilt das Gesetz zur Umsetzung der Verbraucherrechterichtlinie, welches zahlreiche Neuerungen für den Online-Handel mit sich bringt. Die neue Verbraucherrechterichtlinie reformiert vor allem das Widerrufsrecht bei Fernabsatzverträgen sowie die Informationspflicht und verlangt somit diverse Anpassungen seitens Online-Anbietern zum Stichtag. Ausführlichere Informationen finden Sie in unserem Blogbeitrag `Neue Verbraucherrechterichtlinie ab 13.06.2014 <http://blog.oxid-esales.com/2014/03/neue-verbraucherrechterichtlinie-ab-13-06-2014/>`_.
 
 Für den OXID eShop 4.8.6/5.1.6 wurden in Abstimmung mit Trusted Shops alle erforderlichen Änderungen vorgenommen.
+
+----------
 
 Neue Funktionen
 ---------------
@@ -25,15 +29,18 @@ Im Bestellschritt 4 muss der Kunde beim Kauf von Dienstleistungen und Download-A
 
 Im Administrationsbereich muss bei den entsprechenden Artikeln auf der Registerkarte :guilabel:`Erweitert` das Kontrollkästchen :guilabel:`AGB bestätigen` aktiviert sein.
 
+----------
+
 Verbesserungen und Anpassungen
 ------------------------------
+
 Änderungen in der Datenbank
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die Tabelle *oxarticles*  erhielt das neue Datenbankfeld *OXSHOWCUSTOMAGREEMENT* . Die Datenbank wurde um die Konfigurationsoption *blEnableIntangibleProdAgreement*  erweitert und der Tabelle *oxContents*  wurden zwei neue Datensätze hinzugefügt.
+Die Tabelle **oxarticles** erhielt das neue Datenbankfeld **OXSHOWCUSTOMAGREEMENT**. Die Datenbank wurde um die Konfigurationsoption **blEnableIntangibleProdAgreement** erweitert und der Tabelle **oxContents** wurden zwei neue Datensätze hinzugefügt.
 
 Änderungen in Templates
 ^^^^^^^^^^^^^^^^^^^^^^^
-Es gab Änderungen in Templates des Themes \"Azure\" und des Administrationsbereiches sowie im Stylesheet :file:`oxid.css`. Sie wurden notwendig durch die Umsetzung der Verbraucherrechterichtlinie. Eine Übersicht aller Änderungen finden Sie in der Template-Dokumentation :file:` /templ_docu_admin/index.html` und :file:`/templ_docu_azure/index.html` des Installationspaketes.
+Es gab Änderungen in Templates des Themes \"Azure\" und des Administrationsbereiches sowie im Stylesheet :file:`oxid.css`. Sie wurden notwendig durch die Umsetzung der Verbraucherrechterichtlinie. Eine Übersicht aller Änderungen finden Sie in der Template-Dokumentation :file:`/templ_docu_admin/index.html` und :file:`/templ_docu_azure/index.html` des Installationspaketes.
 
 Änderungen in .php-Dateien
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,14 +58,17 @@ Mailbenachrichtigung bei Lizenzproblemen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Treten bei einem OXID eShop Professional oder Enterprise Edition unerwartet Probleme mit dem gespeicherten Lizenzkey auf, wird der Shopbetreiber per Mail informiert. Die Mail geht an die in den Grundeinstellungen unter Info E-Mail eingetragene Adresse. Es werden zwei Mails verschickt, eine mit Beginn des stillen Countdowns und eine zweite 24 Stunden bevor der Shop offline geht. Die Funktion wurde bereits mit Version 4.8.5/5.1.5 eingeführt und nun um die E-Mail-Benachrichtigung ergänzt.
 
+----------
+
 Korrekturen
 -----------
-Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet:
 
-`https://bugs.oxid-esales.com/changelog_page.php?version_id=254 <https://bugs.oxid-esales.com/changelog_page.php?version_id=254>`_
+Alle mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=254 <https://bugs.oxid-esales.com/changelog_page.php?version_id=254>`_.
 
-Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-4-7-12-ce-pe-5-0-12-ee.html>`_.
+----------
 
-Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.7.11...v4.7.12>`_ eingesehen werden.
+Weiterführende Informationen für Entwickler finden Sie auf der OXIDforge: `http://oxidforge.org/en/oxid-eshop-version-4-7-12-ce-pe-5-0-12-ee.html <http://oxidforge.org/en/oxid-eshop-version-4-7-12-ce-pe-5-0-12-ee.html>`_.
+
+Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf GitHub eingesehen werden: `https://github.com/OXID-eSales/oxideshop_ce/compare/v4.7.11...v4.7.12 <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.7.11...v4.7.12>`_.
 
 .. Intern: oxaaev, Status:
