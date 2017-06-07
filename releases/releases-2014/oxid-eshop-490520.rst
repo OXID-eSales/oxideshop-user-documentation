@@ -23,8 +23,8 @@ Installation
 ^^^^^^^^^^^^
 Für die Installation, folgen Sie bitte den Anleitungen in der Dokumentation und Hilfe:
 
-:doc:`OXID eShop neu installieren </installation/neu-installation/index>` |br|
-:doc:`OXID eShop aktualisieren </installation/update/index>`
+:doc:`Neu-Installation </installation/neu-installation/index>` |br|
+:doc:`Update-Installation </installation/update/index>`
 
 .. hint:: Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 

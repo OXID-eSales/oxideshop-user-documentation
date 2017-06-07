@@ -1,29 +1,34 @@
 OXID eShop 4.8.12/5.1.12
 ========================
-Versionsbezeichnung: 5.1.12
 
+Versionsbezeichnung: 5.1.12 |br|
 Edition: Enterprise Edition
 
-Versionsbezeichnung: 4.8.12
-
+Versionsbezeichnung: 4.8.12 |br|
 Edition: Professional Edition und Community Edition
 
 Veröffentlichungstermin: 13.07.2016
 
+----------
+
 Allgemeines
 -----------
+
 Mit dem OXID eShop 4.8.12/5.1.12 wird eine kritische Sicherheitslücke geschlossen, die vom Entwicklerteam entdeckt wurde. Sie betrifft alle Versionen und Editionen des OXID eShop und ermöglichte mit einem Angriff über das Frontend die Übernahme der Shopadministration. Eine Aktualisierung auf die vorliegende Shopversion wird dringend empfohlen.
 
 Details zur Sicherheitslücke finden Sie auf folgenden Seiten der OXIDforge (in englischer Sprache): `OXID Security Bulletin 2016-001 <http://oxidforge.org/en/security-bulletin-2016-001.html>`_ und `FAQ OXID Security Bulletin 2016-001 <http://oxidforge.org/en/faq-security-bulletin-2016-001.html>`_ .
 
+----------
+
 Korrekturen
 -----------
-Die mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet:
 
-`https://bugs.oxid-esales.com/changelog_page.php?version_id=317 <https://bugs.oxid-esales.com/changelog_page.php?version_id=317>`_
+Die mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet: `https://bugs.oxid-esales.com/changelog_page.php?version_id=317 <https://bugs.oxid-esales.com/changelog_page.php?version_id=317>`_.
+
+----------
 
 Keine wichtigen Informationen für Entwickler zu diesem Release.
 
-Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf `GitHub <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.8.11...v4.8.12>`_ eingesehen werden.
+Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf GitHub eingesehen werden: `https://github.com/OXID-eSales/oxideshop_ce/compare/v4.8.11...v4.8.12 <https://github.com/OXID-eSales/oxideshop_ce/compare/v4.8.11...v4.8.12>`_.
 
 .. Intern: oxaahf, Status:
