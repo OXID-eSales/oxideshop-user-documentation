@@ -21,7 +21,7 @@ Update-Installation
 ^^^^^^^^^^^^^^^^^^^
 Das Update auf OXID eShop Version 4.7.0 (Community und Professional Edition) und Version 5.0.0 (Enterprise Edition) unterscheidet sich grundlegend vom Standard-Update und kann nur auf einen OXID eShop Version 4.6.5 bzw. 4.6.6 angewandt werden. Haben Sie eine vorhergehende Shopversion im Einsatz, muss diese zuerst auf 4.6.5 bzw. 4.6.6 aktualisiert werden.
 
-Die Anleitung `Auf 4.7.0/5.0.0 aktualisieren <de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-aktualisieren/auf-470500-aktualisieren.html>`_ beschreibt das Update des OXID eShop.
+Die Anleitung :doc:`Auf 4.7.0/5.0.0 aktualisieren </installation/update-installation/auf-470500-aktualisieren>` beschreibt das Update des OXID eShop.
 
 .. hint:: Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 

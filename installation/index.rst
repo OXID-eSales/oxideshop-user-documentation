@@ -7,4 +7,4 @@ Installation
    
    installation
    Neu-Installation <neu-installation/index>
-   Update-Installation <update/index>
+   Update-Installation <update-installation/index>
