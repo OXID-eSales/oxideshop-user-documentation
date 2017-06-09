@@ -1,5 +1,6 @@
 Auf 4.7.0/5.0.0 aktualisieren
 =============================
+
 Diese Anleitung beschreibt das Update auf OXID eShop Version 4.7.0 (Community und Professional Edition) und Version 5.0.0 (Enterprise Edition). Es unterscheidet sich grundlegend vom Standard-Update und kann nur auf einen OXID eShop Version 4.6.5, 4.6.6, 4.6.7 oder 4.6.8 angewandt werden. Haben Sie eine vorhergehende Shopversion im Einsatz, muss diese zuerst auf eine dieser Versionen aktualisiert werden.
 
 Hinweis: Um das Update nach dieser Anleitung ausführen zu können, müssen OXID eShop 4.6.5 bis 4.6.8 und OXID eShop 4.7.0/5.0.0 auf dem gleichen Server installiert sein. Der OXID eShop 4.6.5 bis 4.6.8 ist der zu aktualisierende Shop. Beim OXID eShop 4.7.0/5.0.0 handelt es sich um eine komplette Neuinstallation.
@@ -10,6 +11,7 @@ Das Update kann unter Verwendung der Anwendung *updateApp*  ausgeführt werden. 
 
 Update per Script
 -----------------
+
 1. Sicherungskopien anfertigen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Erstellen Sie eine Sicherungskopie aller Shopdateien und der Datenbank Ihres bestehenden OXID eShop 4.6.5 bzw. 4.6.6.
@@ -50,8 +52,11 @@ Löschen Sie alle Dateien und Ordner außer der.htaccessaus dem Verzeichnis/tmpd
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Aktivieren Sie im Administrationsbereich ggf. das eigene Theme und/oder die Module.
 
+----------
+
 Manuelles Update
 ----------------
+
 1. Sicherungskopien anfertigen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Erstellen Sie eine Sicherungskopie aller Shopdateien und der Datenbank Ihres bestehenden OXID eShop 4.6.5 bzw. 4.6.6.

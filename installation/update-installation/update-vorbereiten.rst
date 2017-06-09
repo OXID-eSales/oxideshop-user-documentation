@@ -1,6 +1,7 @@
 Update vorbereiten
 ==================
-Wir empfehlen generell, das Update immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Shop und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann das Update auch im Live-System ausgeführt werden. Kopieren Sie während des Updates im Live-System eine index.html in das Hauptverzeichnis des Shops, in der Sie auf aktuelle Wartungsarbeiten hinweisen. Sie können den Shop auch deaktivieren und die Datei offline.html zur Informationen Ihrer Kunden nutzen.
+
+Wir empfehlen generell, das Update immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Shop und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann das Update auch im Live-System ausgeführt werden. Kopieren Sie während des Updates im Live-System eine :file:`index.html` in das Hauptverzeichnis des Shops, in der Sie auf aktuelle Wartungsarbeiten hinweisen. Sie können den Shop auch deaktivieren und die Datei :file:`offline.html` zur Informationen Ihrer Kunden nutzen.
 
 .. important:: Erstellen Sie vor jedem Update eine Sicherung der Shopdateien und der Datenbank!
 
@@ -10,11 +11,9 @@ Shopbetreiber mit einer Professional oder Enterprise Edition erhalten bei Veröf
 
 Sie benötigen für das Update das passende Installationspaket.
 
-`Enterprise Edition <http://support.oxid-esales.com/versions/EE>`_
-
- `Professional Edition <http://support.oxid-esales.com/versions/PE>`_
-
- `Community Edition, kumulative Update-Pakete <https://oxidforge.org/de/downloads>`_
+* `Enterprise Edition <http://support.oxid-esales.com/versions/EE>`_
+* `Professional Edition <http://support.oxid-esales.com/versions/PE>`_
+* `Community Edition, kumulative Update-Pakete <https://oxidforge.org/de/downloads>`_
 
 Für die Professional und Enterprise Edition benötigen Sie ein Kennwort, um auf den Downloadbereich zugreifen zu können. Die Zugangsdaten werden Ihnen per Mail mitgeteilt, sobald eine neue Shopversion veröffentlicht wird. Haben Sie keine Mail erhalten, wenden Sie sich bitte an den Support.
 
