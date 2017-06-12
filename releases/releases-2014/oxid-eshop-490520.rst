@@ -24,7 +24,7 @@ Installation
 Für die Installation, folgen Sie bitte den Anleitungen in der Dokumentation und Hilfe:
 
 :doc:`Neu-Installation </installation/neu-installation/index>` |br|
-:doc:`Update-Installation </installation/update/index>`
+:doc:`Update-Installation </installation/update-installation/index>`
 
 .. hint:: Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 

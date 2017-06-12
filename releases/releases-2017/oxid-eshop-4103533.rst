@@ -16,7 +16,7 @@ Allgemeines
 
 Der Shop läuft unter PHP 5.3, 5.4, 5.5 und 5.6. Er ist kompatibel mit MySQL 5.7 und für Apache 2.2 and 2.4 angepasst. Haben Sie eine Enterprise Edition und MySQL 5.6 im Einsatz, beachten Sie bitte diesen Blog-Post: `Set MySQL 5.6 optimizer setting “block_nested_loop = off” for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
 
-Eine Anleitung zum Update finden Sie unter :doc:`Update-Installation </installation/update/index>`.
+Eine Anleitung zum Update finden Sie unter :doc:`Update-Installation </installation/update-installation/index>`.
 
 ----------
 

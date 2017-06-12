@@ -24,7 +24,7 @@ Installation
 Für die Installation, folgen Sie bitte den Anleitungen in der Dokumentation und Hilfe:
 
 :doc:`Neu-Installation </installation/neu-installation/index>` |br|
-:doc:`Update-Installation </installation/update/index>`
+:doc:`Update-Installation </installation/update-installation/index>`
 
 Hinweise: Wenn Sie einen OXID eShop auf die Version 4.10.0/5.3.0 aktualisieren wollen, der bisher das Theme RoxIVE von Digidesk verwendete, muss zuvor die Datei :file:`4.10.0.sql` aus dem Verzeichnis :file:`/updateApp/updates/sql` des Update-Paketes gelöscht werden. Der Grund dafür ist, dass ansonsten während des Updates versucht wird, Theme-Einstellungen mit der selben OXID wie für RoxIVE in die Datenbank zu schreiben.
 
