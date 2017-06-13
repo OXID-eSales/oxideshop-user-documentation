@@ -1,9 +1,9 @@
-OXID eShop
-==========
+Anwenderdokumentation
+=====================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Anwender
+   :caption: OXID eShop
 
    
    Willkommen <willkommen/index.rst>
