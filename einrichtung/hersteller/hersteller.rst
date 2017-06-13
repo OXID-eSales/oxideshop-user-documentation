@@ -1,10 +1,10 @@
 ﻿Hersteller
 ==========
-Im OXID eShop lassen sich Hersteller verwalten, denen Artikel zugeordnet werden können. Auf diese Weise lassen sich Artikel unabhängig von den Kategorien im Shop unter dem Aspekt der Markenzugehörigkeit zusammenfassen. Im Administrationsbereich können Artikel nach der Hersteller-ID gefiltert und angezeigt werden. Im Frontend werden alle Marken im Fußbereich aufgelistet.
+Im OXID eShop lassen sich Hersteller verwalten, denen Artikel zugeordnet werden können. Auf diese Weise lassen sich Artikel unabhängig von den Kategorien im Shop unter dem Aspekt der Markenzugehörigkeit zusammenfassen. Im Administrationsbereich können Artikel nach der Hersteller-ID gefiltert und angezeigt werden. Im Frontend werden die Marken des Shops in einem Slider präsentiert, im Fußbereich aufgelistet und können in einer Übersicht angezeigt werden.
 
 .. image:: ../../media/screenshots-de/oxbagb01.png
    :alt: Nach Hersteller | Alle Marken
-   :height: 564
+   :height: 649
    :width: 650
 
 Darüber kann eine Übersicht aller Marken oder eine Übersicht aller Artikel einer Marke aufgerufen werden. Damit die Hersteller als Marken im Frontend angezeigt werden, muss die Funktion Herstellerliste laden und anzeigen in den Performance-Einstellungen aktiviert sein. Setzen Sie ein Häkchen in das Kontrollkästchen unter :menuselection:`Stammdaten --> Grundeinstellungen` --> Registerkarte :guilabel:`Perform.`
@@ -13,7 +13,7 @@ Um Hersteller zu erstellen oder zu bearbeiten, gehen Sie im Administrationsberei
 
 .. image:: ../../media/screenshots-de/oxbagb02.png
    :alt: Hersteller
-   :height: 505
+   :height: 649
    :width: 650
 
 Es werden eine Liste der Hersteller und darunter der Eingabebereich für den Hersteller angezeigt. Die Herstellerliste enthält Titel und Kurzbeschreibung der Hersteller. Nach Herstellern kann gesucht werden, indem die Suchfelder verwendet werden. Geben Sie beispielsweise in das Suchfeld über :guilabel:`Titel` die Zeichenfolge \"er\" ein, so bekommen Sie drei Hersteller aus den Demodaten aufgelistet, bei denen \"er\" im Titel vorkommt.
