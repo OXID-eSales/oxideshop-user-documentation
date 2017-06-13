@@ -42,15 +42,15 @@ Liegt ein Artikel im Warenkorb, der kein Wakeboard ist, greift die erste Versand
 
 .. image:: ../../media/screenshots-de/oxbafy02.png
    :alt: Warenkorb mit einer Wakeboard-Bindung
-   :height: 262
-   :width: 500
+   :height: 261
+   :width: 550
 
 Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 28,49 €.
 
 .. image:: ../../media/screenshots-de/oxbafy03.png
    :alt: Warenkorb mit Wakeboard und Bindung
-   :height: 318
-   :width: 500
+   :height: 311
+   :width: 550
 
 28,49 € kostet auch der Versand eines einzelnen Wakeboards, da beide Versandkostenregeln - die für alle Artikel und die für die Wakeboards - zutreffen.
 

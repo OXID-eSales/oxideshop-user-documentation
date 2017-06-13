@@ -52,15 +52,15 @@ Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Ver
 
 .. image:: ../../media/screenshots-de/oxbafv03.png
    :alt: Warenkorb mit 1 Artikel
-   :height: 262
-   :width: 500
+   :height: 291
+   :width: 550
 
 Sind zwei oder mehrere Artikel mit einem Gewicht von jeweils 2 Kilogramm im Warenkorb, gilt die zweite Versandkostenregel für die Berechnung der Versandkosten.
 
 .. image:: ../../media/screenshots-de/oxbafv04.png
    :alt: Warenkorb mit 2 Artikeln
-   :height: 262
-   :width: 500
+   :height: 291
+   :width: 550
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 

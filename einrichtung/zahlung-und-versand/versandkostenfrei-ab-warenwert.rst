@@ -41,19 +41,19 @@ Dafür werden zwei Versandkostenregeln erstellt, deren Bedingung der Preis ist. 
    :height: 315
    :width: 650
 
-Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Liegen Artikel mit einem Einkaufswert unter 80 € im Warenkorb, greift die erste Versandkostenregel.
+Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Liegen Artikel mit einem Einkaufswert unter 80 € im Warenkorb, greift die erste Versandkostenregel. Es werden 3,90 € Versandkosten im Warenkorb ausgewiesen.
 
 .. image:: ../../media/screenshots-de/oxbafw02.png
    :alt: Warenkorb mit Artikeln unter 80 € Warenwert
-   :height: 262
-   :width: 500
+   :height: 261
+   :width: 550
 
 Wurden Artikel eingekauft, deren Einkaufswert 80 € ist oder darüberliegt, gilt die zweite Versandkostenregel. Die Ware wird ohne Versandkosten geliefert.
 
 .. image:: ../../media/screenshots-de/oxbafw03.png
    :alt: Warenkorb mit Artikel über 80 € Warenwert
-   :height: 262
-   :width: 500
+   :height: 261
+   :width: 550
 
 .. seealso:: :doc:`Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 

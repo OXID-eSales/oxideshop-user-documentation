@@ -4,8 +4,8 @@ Für Artikel, die nach Gewicht, Volumen, Länge oder Fläche angeboten werden, b
 
 .. image:: ../../media/screenshots-de/oxbafl01.png
    :alt: Grundpreis, Detailseite des Artikels
-   :height: 290
-   :width: 350
+   :height: 260
+   :width: 500
 
 Der Grundpreis wird in der Artikelverwaltung festgelegt.
 

@@ -6,8 +6,8 @@ Der Preisaufschlag oder Preisabschlag kann absolut oder prozentual festgelegt we
 
 .. image:: ../../media/screenshots-de/oxbaft01.png
    :alt: Bestellung mit Zahlungsart Nachnahme
-   :height: 301
-   :width: 500
+   :height: 278
+   :width: 550
 
 Wurde der Preisauf- oder -abschlag in Prozent angegeben, muss dieser bei der Bestellung berechnet werden. Basis dafür ist der Warenkorb. Folgende Warenkorbpositionen können bei der Berechnung berücksichtigt werden: Warenwert aller Artikel im Warenkorb, Rabatte, Gutscheine, Versandkosten und Geschenkverpackung/Grußkarte. Die Angabe eines negativen Preises führt zu einem Preisnachlass.
 

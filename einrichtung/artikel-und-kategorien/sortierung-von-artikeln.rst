@@ -39,8 +39,8 @@ Die Felder, nach denen Artikel sortiert werden können, entsprechen den Datenban
 
 .. image:: ../../media/screenshots-de/oxbafq02.png
    :alt: Sortierungsmöglichkeiten
-   :height: 144
-   :width: 400
+   :height: 269
+   :width: 650
 
 Der Screenshot zeigt als Beispiel, dass Artikel außer nach Name und Preis auch nach der Artikelnummer sortiert werden können. Dafür wurde in den Stammdaten den standardmäßig eingetragenen Feldern *oxtitle*  und *oxvarprice*  das Feld *oxartnum*  hinzugefügt.
 

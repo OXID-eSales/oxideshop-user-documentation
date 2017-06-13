@@ -42,15 +42,15 @@ Liegt ein Artikel aus dem Kiteboarding-Zubehör im Warenkorb, greift die erste V
 
 .. image:: ../../media/screenshots-de/oxbafz02.png
    :alt: Warenkorb mit Kite-Leinen
-   :height: 262
-   :width: 500
+   :height: 261
+   :width: 550
 
 Wird zusätzlich ein Trapez in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 7,49 €.
 
 .. image:: ../../media/screenshots-de/oxbafz03.png
    :alt: Warenkorb mit Kite-Leinen und Trapez
-   :height: 315
-   :width: 500
+   :height: 310
+   :width: 550
 
 7,49 € kostet auch der Versand eines einzelnen Trapezes, da beide Versandkostenregeln zutreffen. Die erste Versandkostenregel gilt für alle Artikel und die zweite Versandkostenregel schließt nur die Artikel aus dem Kiteboarding-Zubehör aus.
 

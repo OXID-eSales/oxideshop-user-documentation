@@ -39,15 +39,15 @@ Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Ver
 
 .. image:: ../../media/screenshots-de/oxbafx02.png
    :alt: Warenkorb mit Lieferung nach Deutschland
-   :height: 262
-   :width: 500
+   :height: 261
+   :width: 550
 
 Wurden Artikel eingekauft, die nach Österreich geliefert werden, gilt die zweite Versandkostenregel.
 
 .. image:: ../../media/screenshots-de/oxbafx03.png
    :alt: Warenkorb mit Lieferung nach Österreich
-   :height: 262
-   :width: 500
+   :height: 261
+   :width: 550
 
 .. seealso:: :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 

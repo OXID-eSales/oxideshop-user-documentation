@@ -34,8 +34,8 @@ Die einzelnen Werte, die bei den Artikeln für dieses Attribut vergeben werden, 
 
 .. image:: ../../media/screenshots-de/oxbafr02.png
    :alt: Attributfilter in der Kategorieansicht
-   :height: 161
-   :width: 400
+   :height: 121
+   :width: 650
 
 Im Screenshot wird als Beispiel gezeigt, dass die Kategorie mit den Shirts nach dem Material der Artikel sortiert werden kann. Baumwolle und Stretch-Jersey sind die möglichen Filter, um die gezeigten Artikel einschränken zu können.
 

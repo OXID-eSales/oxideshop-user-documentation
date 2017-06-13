@@ -2,12 +2,12 @@
 =============
 Mit den Staffelpreisen kann für ausgesuchte Artikel ein Mengenrabatt gewährt werden. Sobald eine bestimmte Menge eines Artikels gekauft wird, wird der Artikel günstiger. Für einen bestimmten Mengenbereich wird ein absoluter Preis oder ein prozentualer Rabatt definiert. Mehrere Mengenbereiche bilden so eine Staffel mit unterschiedlichen Artikelpreisen.
 
-Im OXID eShop werden die Staffelpreise auf der Detailseite des Artikels angezeigt, sobald der Kunde auf die Minischaltfläche mit einem weißen Pfeil direkt neben dem Artikelpreis klickt. Abhängig von der beim Kauf angegebenen Menge wird der dafür vorgesehene Staffelpreis im Warenkorb verwendet und angezeigt.
+Im OXID eShop werden die Staffelpreise auf der Detailseite des Artikels angezeigt, sobald der Kunde auf die Schaltfläche :guilabel:`Mengenstaffelpreise` klickt. Abhängig von der beim Kauf angegebenen Menge wird der dafür vorgesehene Staffelpreis im Warenkorb verwendet und angezeigt.
 
 .. image:: ../../media/screenshots-de/oxbafm01.png
    :alt: Staffelpreise, Detailseite des Artikels
-   :height: 158
-   :width: 300
+   :height: 318
+   :width: 500
 
 Der Staffelpreis wird in der Artikelverwaltung festgelegt.
 
