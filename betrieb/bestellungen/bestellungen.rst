@@ -17,24 +17,6 @@ Bestellungen lassen sich stornieren und löschen. Verwenden Sie dafür die Symbo
 
 Wird eine Bestellung aus der Liste der Bestellungen gewählt, werden deren Informationen in den Eingabebereich geladen. In der Fußzeile finden Sie die Funktionen: :guilabel:`Notiz anfügen` und :guilabel:`Hilfe starten`.
 
-Bestellübersicht
-----------------
-Unter :menuselection:`Bestellungen verwalten --> Bestellübersicht` werden alle bestellten Artikel angezeigt. Wurden bei einem Einkauf mehrere Artikel in den Warenkorb gelegt, gibt es für jeden einzelnen Artikel eine separate Zeile in der Bestellübersicht. Es kann nach Datum, Artikelnummer und Artikeltitel gesucht werden. Der Klick auf ein beliebiges Feld in der Liste öffnet die dazugehörige Bestellung zur Bearbeitung.
-
-.. image:: ../../media/screenshots-de/oxbaeb02.png
-   :alt: Bestellübersicht
-   :height: 288
-   :width: 650
-
-Packliste
----------
-Für die noch nicht versendeten Artikel kann eine Packliste unter :menuselection:`Bestellungen verwalten --> Packliste` aufgerufen und ausgedruckt werden. Sie listet die einzelnen Bestellungen mit Rechnungs- und Lieferanschrift auf und enthält auch eine Zusammenstellung der jeweils bestellten Artikel. Wurden diese verpackt, können sie auf der Packliste abgehakt werden.
-
-.. image:: ../../media/screenshots-de/oxbaeb03.png
-   :alt: Packliste
-   :height: 288
-   :width: 650
-
 -----------------------------------------------------------------------------------------
 
 Registerkarte Übersicht
