@@ -17,7 +17,7 @@ Ein angegebener Gutschein kann auch wieder aus der Warenkorbübersicht entfernt 
 
 .. image:: ../../media/screenshots-de/oxbahr02.png
    :alt: Verwendung eines Gutscheins im Warenkorb
-   :height: 316
+   :height: 294
    :width: 650
 
 Im Abschnitt \"Gutscheinserien\" wird erläutert, wie Gutscheinserien erstellt und eingerichtet sowie die dazugehörigen Gutscheine generiert und exportiert werden.
