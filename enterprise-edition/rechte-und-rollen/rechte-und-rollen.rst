@@ -20,15 +20,15 @@ Für Artikel und Kategorien kann auch definiert werden, dass sie ausschließlich
 
 .. image:: ../../media/screenshots-de/oxbaev01.png
    :alt: Artikelübersicht (Rechte und Rollen)
-   :height: 244
-   :width: 300
+   :height: 360
+   :width: 650
 
 Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und der berechtigten Benutzergruppe angehört.
 
 .. image:: ../../media/screenshots-de/oxbaev02.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
-   :height: 170
-   :width: 300
+   :height: 307
+   :width: 609
 
 Zugriff auf Funktionen und Bereiche der Detailseite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -43,8 +43,8 @@ Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop
 
 .. image:: ../../media/screenshots-de/oxbaev03.png
    :alt: Rechte für Detailansicht (Rechte und Rollen)
-   :height: 139
-   :width: 290
+   :height: 310
+   :width: 612
 
 Auf der Detailseite und auch in den Artikelübersichten werden, auf dem Screenshot als Beispiel zu sehen, keine Preise für nicht berechtigte Benutzer angezeigt.
 
