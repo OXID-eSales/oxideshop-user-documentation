@@ -17,7 +17,7 @@ Im OXID eShop können natürlich verschiedene Rabatte aktiv sein, so dass unter 
 
 .. image:: ../../media/screenshots-de/oxbahh02.png
    :alt: Kite mit 2 Rabatten im Warenkorb
-   :height: 263
+   :height: 317
    :width: 650
 
 Der Abschnitt \"Rabatte\" informiert Sie darüber, wie Rabatte erstellt und mit welchen Einstellungen sie individualisiert und für bestimmte Kundengruppen genutzt werden können. In ihm werden auch einige typische Beispiele für Rabatte aufgezeigt.

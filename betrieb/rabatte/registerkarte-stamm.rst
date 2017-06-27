@@ -24,11 +24,11 @@ Soll der Rabatt nur dann gewährt werden, wenn eine bestimmte Menge von Artikeln
 :guilabel:`Einkaufswert (€) von` ... :guilabel:`bis` ... |br|
 Geben Sie hier eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt werden soll. Sind beide Werte 0, gilt der Rabatt für jeden Einkaufswert.
 
-.. hint:: Dem Wert im Eingabefeld :guilabel:`Einkaufsmenge von` und :guilabel:`Einkaufsfeld (€) von` kommt eine spezielle Bedeutung bei der Anzeige der Rabatte zu. Steht in beiden Feldern 0, werden alle Artikel, für die dieser Rabatt gilt, im Shop direkt mit dem rabattierten Preis angezeigt. Beginnt die Einkaufsmenge und/oder der Einkaufswert mit 1, wird der Rabatt erst im Warenkorb ausgewiesen. Das ist auch für die Zugabe wichtig, damit diese Art des Rabattes im Warenkorb angezeigt wird.
+.. hint:: Dem Wert im Eingabefeld :guilabel:`Einkaufsmenge von` und :guilabel:`Einkaufswert (€) von` kommt eine spezielle Bedeutung bei der Anzeige der Rabatte zu. Steht in beiden Feldern 0, werden alle Artikel, für die dieser Rabatt gilt, im Shop direkt mit dem rabattierten Preis angezeigt. Beginnt die Einkaufsmenge und/oder der Einkaufswert mit 1, wird der Rabatt erst im Warenkorb ausgewiesen. Das ist auch für die Zugabe wichtig, damit diese Art des Rabattes im Warenkorb angezeigt wird.
 
 .. image:: ../../media/screenshots-de/oxbahi02.png
    :alt: Rabattierter Artikel im Warenkorb
-   :height: 236
+   :height: 294
    :width: 650
 
 :guilabel:`Rabatt` |br|
