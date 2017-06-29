@@ -8,42 +8,42 @@ Update-Dateien
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
-5.2.0 - 5.2.x: `OXID_UTF8UPDATE_EE_5.2.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_5.2.0.zip>`_ |br|
-5.1.0 - 5.1.x: `OXID_UTF8UPDATE_EE_5.1.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_5.1.0.zip>`_ |br|
-5.0.0 - 5.0.x: `OXID_UTF8UPDATE_EE_5.0.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_5.0.0.zip>`_ |br|
-4.6.0 - 4.6.x: `OXID_UTF8UPDATE_FOR_4.6.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_FOR_4.6.0.zip>`_ |br|
-4.5.1 - 4.5.x: `OXID_UTF8UPDATE_EE_4.5.1-4.5.x.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_4.5.1-4.5.x.zip>`_ |br|
-4.5.0: `OXID_UTF8UPDATE_EE_4.5.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_4.5.0.zip>`_ |br|
-4.4.0 - 4.4.x: `OXID_UTF8UPDATE_EE_4.4.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_4.4.0.zip>`_ |br|
-4.3.0 - 4.3.2: `OXID_UTF8UPDATE_EE_4.3.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_4.3.0.zip>`_ |br|
-4.1.6 - 4.2.0: `OXID_UTF8UPDATE_EE_4.1.6-4.2.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_4.1.6-4.2.0.zip>`_ |br|
-4.1.1 - 4.1.5: `OXID_UTF8UPDATE_EE_4.1.1-4.1.5.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_EE_4.1.1-4.1.5.zip>`_
+:download:`5.2.0 - 5.2.x: OXID_UTF8UPDATE_EE_5.2.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_5.2.0.zip>` |br|
+:download:`5.1.0 - 5.1.x: OXID_UTF8UPDATE_EE_5.1.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_5.1.0.zip>` |br|
+:download:`5.0.0 - 5.0.x: OXID_UTF8UPDATE_EE_5.0.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_5.0.0.zip>` |br|
+:download:`4.6.0 - 4.6.x: OXID_UTF8UPDATE_FOR_4.6.0.zip </downloads/utf-8/OXID_UTF8UPDATE_FOR_4.6.0.zip>` |br|
+:download:`4.5.1 - 4.5.x: OXID_UTF8UPDATE_EE_4.5.1-4.5.x.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_4.5.1-4.5.x.zip>` |br|
+:download:`4.5.0: OXID_UTF8UPDATE_EE_4.5.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_4.5.0.zip>` |br|
+:download:`4.4.0 - 4.4.x: OXID_UTF8UPDATE_EE_4.4.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_4.4.0.zip>` |br|
+:download:`4.3.0 - 4.3.2: OXID_UTF8UPDATE_EE_4.3.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_4.3.0.zip>` |br|
+:download:`4.1.6 - 4.2.0: OXID_UTF8UPDATE_EE_4.1.6-4.2.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_4.1.6-4.2.0.zip>` |br|
+:download:`4.1.1 - 4.1.5: OXID_UTF8UPDATE_EE_4.1.1-4.1.5.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_4.1.1-4.1.5.zip>`
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
-4.9.0 - 4.9.x: `OXID_UTF8UPDATE_PE_4.9.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.9.0.zip>`_ |br|
-4.8.0 - 4.8.x: `OXID_UTF8UPDATE_PE_4.8.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.8.0.zip>`_ |br|
-4.7.0 - 4.7.x: `OXID_UTF8UPDATE_PE_4.7.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.7.0.zip>`_ |br|
-4.6.0 - 4.6.x: `OXID_UTF8UPDATE_FOR_4.6.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_FOR_4.6.0.zip>`_ |br|
-4.5.1 - 4.5.x: `OXID_UTF8UPDATE_PE_4.5.1-4.5.x.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.5.1-4.5.x.zip>`_ |br|
-4.5.0: `OXID_UTF8UPDATE_PE_4.5.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.5.0.zip>`_ |br|
-4.4.0 - 4.4.x: `OXID_UTF8UPDATE_PE_4.4.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.4.0.zip>`_ |br|
-4.3.0 - 4.3.2: `OXID_UTF8UPDATE_PE_4.3.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.3.0.zip>`_ |br|
-4.1.6 - 4.2.0: `OXID_UTF8UPDATE_PE_4.1.6-4.2.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.1.6-4.2.0.zip>`_ |br|
-4.1.1 - 4.1.5: `OXID_UTF8UPDATE_PE_4.1.1-4.1.5.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_PE_4.1.1-4.1.5.zip>`_
+:download:`4.9.0 - 4.9.x: OXID_UTF8UPDATE_PE_4.9.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.9.0.zip>` |br|
+:download:`4.8.0 - 4.8.x: OXID_UTF8UPDATE_PE_4.8.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.8.0.zip>` |br|
+:download:`4.7.0 - 4.7.x: OXID_UTF8UPDATE_PE_4.7.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.7.0.zip>` |br|
+:download:`4.6.0 - 4.6.x: OXID_UTF8UPDATE_FOR_4.6.0.zip </downloads/utf-8/OXID_UTF8UPDATE_FOR_4.6.0.zip>` |br|
+:download:`4.5.1 - 4.5.x: OXID_UTF8UPDATE_PE_4.5.1-4.5.x.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.5.1-4.5.x.zip>` |br|
+:download:`4.5.0: OXID_UTF8UPDATE_PE_4.5.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.5.0.zip>` |br|
+:download:`4.4.0 - 4.4.x: OXID_UTF8UPDATE_PE_4.4.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.4.0.zip>` |br|
+:download:`4.3.0 - 4.3.2: OXID_UTF8UPDATE_PE_4.3.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.3.0.zip>` |br|
+:download:`4.1.6 - 4.2.0: OXID_UTF8UPDATE_PE_4.1.6-4.2.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.1.6-4.2.0.zip>` |br|
+:download:`4.1.1 - 4.1.5: OXID_UTF8UPDATE_PE_4.1.1-4.1.5.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.1.1-4.1.5.zip>`
 
 Community Edition
 ^^^^^^^^^^^^^^^^^
-4.9.0 - 4.9.x: `OXID_UTF8UPDATE_CE_4.9.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.9.0.zip>`_ |br|
-4.8.0 - 4.8.x: `OXID_UTF8UPDATE_CE_4.8.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.8.0.zip>`_ |br|
-4.7.0 - 4.7.x: `OXID_UTF8UPDATE_CE_4.7.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.7.0.zip>`_ |br|
-4.6.0 - 4.6.x: `OXID_UTF8UPDATE_FOR_4.6.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_FOR_4.6.0.zip>`_ |br|
-4.5.1 - 4.5.x: `OXID_UTF8UPDATE_CE_4.5.1-4.5.x.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.5.1-4.5.x.zip>`_ |br|
-4.5.0: `OXID_UTF8UPDATE_CE_4.5.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.5.0.zip>`_ |br|
-4.4.0 - 4.4.x: `OXID_UTF8UPDATE_CE_4.4.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.4.0.zip>`_ |br|
-4.3.0 - 4.3.2: `OXID_UTF8UPDATE_CE_4.3.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.3.0.zip>`_ |br|
-4.1.6 - 4.2.0: `OXID_UTF8UPDATE_CE_4.1.6-4.2.0.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.1.6-4.2.0.zip>`_ |br|
-4.1.1 - 4.1.5: `OXID_UTF8UPDATE_CE_4.1.1-4.1.5.zip <http://support.oxid-esales.com/downloads/utf-8/OXID_UTF8UPDATE_CE_4.1.1-4.1.5.zip>`_
+:download:`4.9.0 - 4.9.x: OXID_UTF8UPDATE_CE_4.9.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.9.0.zip>` |br|
+:download:`4.8.0 - 4.8.x: OXID_UTF8UPDATE_CE_4.8.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.8.0.zip>` |br|
+:download:`4.7.0 - 4.7.x: OXID_UTF8UPDATE_CE_4.7.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.7.0.zip>` |br|
+:download:`4.6.0 - 4.6.x: OXID_UTF8UPDATE_FOR_4.6.0.zip </downloads/utf-8/OXID_UTF8UPDATE_FOR_4.6.0.zip>` |br|
+:download:`4.5.1 - 4.5.x: OXID_UTF8UPDATE_CE_4.5.1-4.5.x.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.5.1-4.5.x.zip>` |br|
+:download:`4.5.0: OXID_UTF8UPDATE_CE_4.5.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.5.0.zip>` |br|
+:download:`4.4.0 - 4.4.x: OXID_UTF8UPDATE_CE_4.4.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.4.0.zip>` |br|
+:download:`4.3.0 - 4.3.2: OXID_UTF8UPDATE_CE_4.3.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.3.0.zip>` |br|
+:download:`4.1.6 - 4.2.0: OXID_UTF8UPDATE_CE_4.1.6-4.2.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.1.6-4.2.0.zip>` |br|
+:download:`4.1.1 - 4.1.5: OXID_UTF8UPDATE_CE_4.1.1-4.1.5.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.1.1-4.1.5.zip>`
 
 ----------
 
