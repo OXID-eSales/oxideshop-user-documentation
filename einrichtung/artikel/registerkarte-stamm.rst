@@ -70,4 +70,4 @@ Der Langtext wird im Shop in der Detailansicht des Artikels als Beschreibung ang
 .. seealso:: :doc:`Alternative Preise für Benutzergruppen <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
 
 .. Intern: oxbaci, Status:, F1: article_main.html
-.. Sreenshot #summernote
+.. Screenshot #summernote

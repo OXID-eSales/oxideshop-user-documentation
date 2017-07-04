@@ -16,4 +16,4 @@ Eine weitere Alternative wäre, den OXID eShop durch ein Modul zu erweitern, wel
 Der Langtext wird im Shop in der Kategorieansicht angezeigt.
 
 .. Intern: oxbabl, Status:, F1: category_text.html
-.. Sreenshot #summernote
+.. Screenshot #summernote
