@@ -3,9 +3,9 @@ Neu-Installation
 
 .. toctree::
    :maxdepth: 1
-      
+
+   neu-installation
    server-und-systemvoraussetzungen
-   Systemvoraussetzungen <systemvoraussetzungen/index>
    installation-vorbereiten
    datenbank-anlegen
    setup-ausfuehren
