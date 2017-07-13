@@ -4,7 +4,7 @@ Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zum Att
 
 .. image:: ../../media/screenshots-de/oxbafg01.png
    :alt: Attribute - Registerkarte Stamm
-   :height: 314
+   :height: 342
    :width: 650
 
 Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich die Informationen und Einstellungen zum Attribut auch direkt in einer weiteren Sprache bearbeiten. Bitte beachten Sie, dass die Sprachumstellung erst nach Anlegen des Attributes möglich ist.
@@ -13,7 +13,7 @@ Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich 
 Name des Attributes, wie er im Shop auf der Detailseite eines Artikels angezeigt wird, der dieses Attribut verwendet. Dient das Attribut zur Filterung einer Kategorie, ist dessen Name auch die Bezeichnung der Filterliste.
 
 :guilabel:`Sortierung` |br|
-Die Sortierung bestimmt die Reihenfolge, in der die Attribute angezeigt werden. Sie steuert die Anzeige auf der Detailseite des Artikels und der Filter in der Kategorieübersicht. Das Attribut mit dem kleinsten Wert steht jeweils an erster Stelle.\\
+Die Sortierung bestimmt die Reihenfolge, in der die Attribute angezeigt werden. Sie steuert die Anzeige auf der Detailseite des Artikels und der Filter in der Kategorieübersicht. Das Attribut mit dem kleinsten Wert steht jeweils an erster Stelle.
 
 :guilabel:`Wert des Attributs für Artikel im Bestellprozess anzeigen` |br|
 Aktivieren Sie dieses Kontrollkästchen, damit das Attribut im Warenkorb und in der Bestellübersicht unter dem Artikeltitel angezeigt wird.

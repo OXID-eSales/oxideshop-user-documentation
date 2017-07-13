@@ -6,7 +6,7 @@ Durch die Zuordnung können Kategorien nach Attributen gefiltert werden. In der 
 
 .. image:: ../../media/screenshots-de/oxbafh01.png
    :alt: Attribute - Registerkarte Kategorien
-   :height: 314
+   :height: 342
    :width: 650
 
 Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster, in dem das Attribut Kategorien zugewiesen werden kann. Im Zuordnungsfenster werden in der linken Liste alle Kategorien angezeigt. Die gewünschten Kategorien können per Drag\&Drop in die mittlere Liste verschoben werden. Diese zeigt alle Kategorien, welche dieses Attribut verwenden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. In der rechten Liste lässt sich die Sortierung der Attribute einer Kategorie ändern, wenn es für eine Kategorie mehrere Attribute gibt. Verwenden Sie dafür die kleinen Schaltflächen mit den Pfeilsymbolen, um ein markiertes Attribut an die gewünschte Position zu verschieben.

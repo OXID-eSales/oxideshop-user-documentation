@@ -2,7 +2,7 @@
 =========
 Artikel verfügen standardmäßig über eine Reihe von Eigenschaften, mit denen sie charakterisiert werden können. Dazu gehören beispielsweise das Gewicht, die Abmessungen oder die Menge. Mit den Attributen haben Shopbetreiber eine flexible Lösung, um eigene Artikeleigenschaften zu definieren und diese dem jeweiligen Artikel mit einem entsprechenden Wert zuzuweisen.
 
-In der Detailansicht des Artikels wird dadurch eine neue Registerkarte :guilabel:`SPEZIFIKATION` mit den Attributen und deren Werten eingeblendet. Zusätzlich kann der Wert des Attributes beim Artikel im\Warenkorb und beim Bestellabschluss angezeigt werden.
+In der Detailansicht des Artikels wird dadurch eine neue Registerkarte :guilabel:`SPEZIFIKATION` mit den Attributen und deren Werten eingeblendet. Zusätzlich kann der Wert des Attributes beim Artikel im Warenkorb und beim Bestellabschluss angezeigt werden.
 
 Werden Attribute zu Kategorien zugeordnet, lassen sich die Kategorien nach diesen Attributen filtern. In der Kategorieübersicht des Shops können in einer Dropdown-Liste alle Werte des Attributes ausgewählt werden.
 
@@ -10,7 +10,7 @@ Attribute dienen auch dazu, ähnliche Artikel zu erkennen und auf der Detailseit
 
 .. image:: ../../media/screenshots-de/oxbaff01.png
    :alt: Attribute
-   :height: 502
+   :height: 530
    :width: 650
 
 Attribute können im Administrationsbereich unter :menuselection:`Artikel verwalten --> Attribute` bearbeitet werden. Es werden eine Liste der Attribute und darunter der Eingabebereich für die Attribute angezeigt.

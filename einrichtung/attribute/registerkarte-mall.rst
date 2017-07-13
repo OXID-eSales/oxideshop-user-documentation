@@ -8,7 +8,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen des Attributes 
 
 .. image:: ../../media/screenshots-de/oxbagi01.png
    :alt: Attribute - Registerkarte Mall
-   :height: 306
+   :height: 342
    :width: 650
 
 Es ist möglich, die Vererbung aller Attribute für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen bei der Vererbungseinstellung entfernt werden.
