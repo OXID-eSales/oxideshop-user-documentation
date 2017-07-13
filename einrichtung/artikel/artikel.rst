@@ -4,7 +4,7 @@ Artikel sind neben den Kategorien die eigentliche Basis des Warenkatalogs. Schli
 
 .. image:: ../../media/screenshots-de/oxbach01.png
    :alt: Artikel
-   :height: 531
+   :height: 530
    :width: 650
    
 Der Abschnitt \"Artikel\" informiert Sie über das Erstellen und Verwalten von Artikeln. Es werden alle Einstellungen erläutert, die Sie bei Artikeln vornehmen können. Der Abschnitt geht auf Attribute und Auswahllisten ebenso ein, wie auf Varianten und multidimensionale Varianten.
@@ -21,7 +21,7 @@ Wird ein Artikel aus der Artikelliste gewählt, werden dessen Informationen in d
 
 Registerkarte Stamm
 -------------------
-**Inhalte**: aktiver Artikel, Titel, Artikelnummer, EAN, MPN, Kurz- und Langbeschreibung, Suchbegriffe und Stichworte, Lieferant und Hersteller, Preis und alternativer Preis, spezielle MwSt. |br|
+**Inhalte**: aktiver Artikel, Titel, Artikelnummer, EAN, MPN, Kurz- und Langbeschreibung, Suchbegriffe, Lieferant und Hersteller, Preis und alternativer Preis, spezielle MwSt. |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Erweitert

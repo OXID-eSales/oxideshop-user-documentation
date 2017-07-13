@@ -4,7 +4,7 @@ Die Registerkarte :guilabel:`Stamm` nimmt wichtige Informationen zum Artikel auf
 
 .. image:: ../../media\screenshots-de/oxbaci01.png
    :alt: Artikel - Registerkarte Stamm
-   :height: 329
+   :height: 342
    :width: 650
 
 Mit der Sprachumstellung, die erst nach Anlegen des Artikels unten im Eingabebereich angezeigt wird, lassen sich die Informationen und Einstellungen zum Artikel direkt in einer weiteren Sprache bearbeiten.
@@ -37,9 +37,6 @@ Beschreiben Sie den Artikel mit wenigen Worten. Die Kurzbeschreibung wird in der
 
 :guilabel:`Suchbegriffe` |br|
 Geben Sie hier Begriffe ein, mit welchen der Artikel im Shop gesucht werden kann. Ergänzen Sie dabei die im Titel und in der Beschreibung eines Artikels vorkommenden Wörter und verwenden Sie Verallgemeinerungen. So finden Kunden auch Artikel im Shop, wenn sie nach einem Begriff suchen, der weder im Titel noch in der Beschreibung eines Artikels enthalten ist. Trennen Sie mehrere Suchbegriffe durch Leerzeichen oder Komma.
-
-:guilabel:`Stichworte` |br|
-Begriffe, die hier definiert wurden, werden in der Tagcloud (Stichwortwolke) des Shops als Link angezeigt. Ein Klick darauf listet dem Kunden alle Artikel auf, die dieses Stichwort gemeinsam haben. Trennen Sie einzelne Stichworte durch Komma voneinander. Angemeldete Kunden können die Liste der Stichworte/Tags direkt beim Artikel ergänzen oder angezeigte Tags hervorheben, indem sie ein kleines daneben stehendes Pluszeichen anklicken.
 
 :guilabel:`Lieferant` |br|
 Wählen Sie hier den Lieferant des Artikels aus. Lieferanten werden unter :menuselection:`Stammdaten --> Lieferanten` erstellt und bearbeitet.

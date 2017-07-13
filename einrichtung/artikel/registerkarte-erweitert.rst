@@ -4,7 +4,7 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 
 .. image:: ../../media/screenshots-de/oxbacj01.png
    :alt: Artikel - Registerkarte Erweitert
-   :height: 315
+   :height: 342
    :width: 650
 
 :guilabel:`Gewicht` |br|
@@ -54,7 +54,7 @@ Bei aktiviertem Kontrollkästchen wird ein zusätzliches Eingabefeld auf der Det
 :guilabel:`Immaterieller Artikel` |br|
 Als immateriell wird ein Artikel gekennzeichnet, der kein Gegenstand ist, der nicht verpackt und an den Kunden geschickt wird. Das können beispielsweise Seminare oder Dienstleistungen sein. Sollen für alle immateriellen Artikel keine Versandkosten berechnet werden, dann muss :guilabel:`Nicht materielle Produkte nicht in die Berechnung der Versandkosten einbeziehen` in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen` aktiviert sein.
 
-.. hint:: Wenn Sie Software anbieten wollen, verwenden Sie die Funktion \"Download-Artikel\", die mit OXID eShop 4.6.0 implementiert wurde.
+Wenn Sie Software anbieten wollen, verwenden Sie bitte die Funktion \"Download-Artikel\".
 
 :guilabel:`Versandkostenfrei` |br|
 Der Artikel wird bei der Versandkostenberechnung nicht berücksichtigt, wenn das Kontrollkästchen angehakt ist. Befindet sich dieser Artikel mit anderen Artikeln im Warenkorb, bedeutet das jedoch nicht, dass damit der gesamte Einkauf versandkostenfrei wird.
@@ -69,8 +69,6 @@ Wenn das Kontrollkästchen aktiviert ist, werden für diesen Artikel keine negat
 
 :guilabel:`AGB bestätigen` |br|
 Nach der am 13. Juni 2014 in Kraft getretenen europäischen Verbraucherrechterichtlinie muss der Benutzer bei Dienstleistungen (immaterielle Artikel) und bei Download-Artikeln dem Wegfall des Widerrufsrechts zustimmen. Dafür wird im vierten Schritt des Bestellvorgangs ein nicht vorausgewähltes Kontrollkästchen mit entsprechendem Hinweis angezeigt. Die Funktion muss generell in :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Einstell.` unter :guilabel:`Bestellungen` aktiviert sein.
-
-.. hint:: Realisierung: OXID eShop 4.8.6/5.1.6
 
 :guilabel:`Artikel dazu` |br|
 Mit dieser Schaltfläche können Sie dem Artikel einen kostenlosen Artikel zuordnen. Dieser wird beim Einkauf des Artikels mit in den Warenkorb gelegt.

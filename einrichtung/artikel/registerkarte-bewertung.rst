@@ -4,7 +4,7 @@ Kunden können die Artikel Ihres Shops bewerten. Dies sorgt für Transparenz und
 
 .. image:: ../../media/screenshots-de/oxbacr01.png
    :alt: Artikel - Registerkarten Bewertung
-   :height: 329
+   :height: 342
    :width: 650
 
 Auf dieser Registerkarte können die Bewertungen zu einem Artikel eingesehen, kleine Rechtschreibfehler korrigiert oder eine Bewertung notfalls auch gelöscht werden.

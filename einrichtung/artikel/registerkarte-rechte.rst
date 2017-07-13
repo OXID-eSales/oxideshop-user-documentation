@@ -6,7 +6,7 @@ Auf der Registerkarte :guilabel:`Rechte` können einem Artikel Benutzergruppen z
 
 .. image:: ../../media/screenshots-de/oxbact01.png
    :alt: Artikel - Registerkarte Rechte
-   :height: 306
+   :height: 342
    :width: 650
 
 Das ausschließliche Recht legt zum einen fest, dass der Artikel nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, nach Anmeldung am Shop sichtbar ist. Allen übrigen Benutzern und Benutzergruppen wird dieser Artikel niemals angezeigt. Wurden Benutzergruppen als ausschließlich kaufbar zugewiesen, gibt es zum anderen für nicht berechtigte Benutzer keine Möglichkeit, den Artikel in den Warenkorb zu legen. Mit der Schaltfläche :guilabel:`Mehr Informationen` kann lediglich die Detailseite des Artikels aus einer Artikelübersicht heraus aufgerufen werden. Auch dort fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und er der berechtigten Benutzergruppe angehört.

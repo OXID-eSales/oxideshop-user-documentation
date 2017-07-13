@@ -4,7 +4,7 @@ Mit Varianten können verschiedene Ausführungen ein und desselben Artikels umge
 
 .. image:: ../../media/screenshots-de/oxbaco01.png
    :alt: Artikel - Registerkarte Varianten
-   :height: 329
+   :height: 342
    :width: 650
 
 Das Prinzip der Varianten ist, dass zunächst ein Artikel - der so genannte Vaterartikel - erstellt wird. Er nimmt alle Basisinformationen auf, die an die Varianten vererbt werden. Die Langbeschreibung, die Sie beim Vaterartikel geschrieben haben, wird bei den Varianten angezeigt, es sei denn, eine Variante hat davon abweichend eine andere Langbeschreibung. Varianten können die Einstellungen des Vaterartikels übernehmen, oder andere Preise, separate Artikelnummern, eigene Artikelbilder, unterschiedliche Lagerbestände usw. haben.

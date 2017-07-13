@@ -8,7 +8,7 @@ Die Anzahl der in der Produktbox angezeigten Artikel wird in :menuselection:`Sta
 
 .. image:: ../../media/screenshots-de/oxbacn01.png
    :alt: Artikel - Registerkarte Crosssel.
-   :height: 329
+   :height: 342
    :width: 650
 
 Auf eine etwas weniger flexiblere Art verknüpfen Sie Artikel als Zubehör. Der zugeordnete Artikel wird in der Rubrik \"Zubehör\" auf der rechten Seite der Detailansicht vorgestellt. Für Zubehör gibt es keine bidirektionale Anzeige.

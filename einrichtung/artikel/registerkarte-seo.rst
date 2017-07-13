@@ -4,7 +4,7 @@ Die Registerkarte :guilabel:`SEO` des Artikels beinhaltet Informationen und\Eins
 
 .. image:: ../../media/screenshots-de/oxbacu01.png
    :alt: Artikel - Registerkarte SEO
-   :height: 329
+   :height: 342
    :width: 650
 
 Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Informationen und Einstellungen auch in einer weiteren aktiven Sprache bearbeiten.

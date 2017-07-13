@@ -6,7 +6,7 @@ Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --
 
 .. image:: ../../media/screenshots-de/oxbacq01.png
    :alt: Artikel - Registerkarte Downloads
-   :height: 329
+   :height: 342
    :width: 650
 
 Die Verwendung von Download-Artikeln im Shop muss global aktiviert werden. Im Administrationsbereich können in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Download-Artikel` die Standardeinstellungen vorgenommen werden. Das sind - neben dem Aktivieren der Funktion - der Pfad zu den herunterladbaren Dateien und Festlegungen zur Anzahl der Downloads oder zur Verfallszeit der Links.

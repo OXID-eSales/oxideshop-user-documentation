@@ -4,7 +4,7 @@ Auf der Registerkarte :guilabel:`Statistik` werden einige verkaufsrelevante Info
 
 .. image:: ../../media/screenshots-de/oxbacs01.png
    :alt: Artikel - Registerkarte Statistik
-   :height: 329
+   :height: 341
    :width: 650
 
 :guilabel:`Art. erstellt am` |br|

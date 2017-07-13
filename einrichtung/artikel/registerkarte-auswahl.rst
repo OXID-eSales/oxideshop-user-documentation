@@ -6,7 +6,7 @@ Artikel können viele Eigenschaften haben. Für etliche Eigenschaften, wie beisp
 
 .. image:: ../../media/screenshots-de/oxbacm01.png
    :alt: Artikel - Registerkarte Auswahl
-   :height: 329
+   :height: 342
    :width: 650
 
 In Auswahllisten werden typische Ausführungen eines Artikels, beispielsweise dessen verschiedene Farben oder Größen, definiert. Es sind Vorlagen, die bei vielen Artikeln verwendet werden können. Artikel mit einer\Auswahlliste haben in der Detailansicht eine Dropdown-Liste, aus welcher der Kunde eine Ausführung auswählen kann. Die Auswahl, beispielsweise die Farbe oder die Größe des Artikels, wird mit der Bestellung gespeichert.
