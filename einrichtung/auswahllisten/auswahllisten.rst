@@ -8,7 +8,7 @@ Auswahllisten sind nur auf der Detailseite von Artikeln sichtbar, wenn das Kontr
 
 .. image:: ../../media/screenshots-de/oxbafi01.png
    :alt: Auswahllisten
-   :height: 503
+   :height: 529
    :width: 650
 
 Mit Auswahllisten allein lassen sich lediglich unterschiedliche Preise abbilden. Ein Preisaufschlag oder Preisabschlag, absolut oder prozentual ist das, wodurch sich die einzelnen Ausführungen unterscheiden können. Wenn Sie mehr Flexibilität benötigen, sollten Sie Varianten verwenden. Bei Varianten kann alles variieren, was einen Artikel ausmacht. Varianten eines Artikels können natürlich andere Preise haben, aber beispielsweise auch separate Artikelnummern, abweichende Beschreibungen, eigene Artikelfotos, unterschiedliche Lagerbestände etc.

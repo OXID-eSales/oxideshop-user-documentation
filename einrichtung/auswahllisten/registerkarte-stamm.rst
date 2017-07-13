@@ -4,7 +4,7 @@ Auf der Registerkarte :guilabel:`Stamm` lassen sich Auswahllisten erstellen, bea
 
 .. image:: ../../media/screenshots-de/oxbafj01.png
    :alt: Auswahllisten - Registerkarte Stamm
-   :height: 375
+   :height: 342
    :width: 650
 
 Mit der Sprachumstellung im unteren Teil des Eingabebereichs können die Informationen und Einstellungen zur Auswahlliste auch direkt in einer weiteren Sprache bearbeitet werden. Bitte beachten Sie, dass die Sprachumstellung erst nach dem ersten Speichern der Auswahlliste möglich ist.

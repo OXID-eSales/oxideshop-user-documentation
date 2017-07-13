@@ -8,7 +8,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Auswahllist
 
 .. image:: ../../media/screenshots-de/oxbagj01.png
    :alt: Auswahllisten - Registerkarte Mall
-   :height: 306
+   :height: 342
    :width: 650
 
 Es ist möglich, die Vererbung aller Auswahllisten für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen bei der Vererbungseinstellung entfernt werden.
