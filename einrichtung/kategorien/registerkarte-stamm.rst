@@ -1,10 +1,11 @@
 ﻿Registerkarte Stamm
 ===================
+
 Auf der Registerkarte :guilabel:`Stamm` werden wichtige Informationen zur Kategorie hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie eine Kategorie. Sie können hier auch der Kategorie deren Artikel zuweisen. Es lassen sich dabei viele Artikel auf einmal mit der Kategorie verbinden.
 
 .. image:: ../../media/screenshots-de/oxbabk01.png
    :alt: Kategorien - Registerkarte Stamm
-   :height: 332
+   :height: 342
    :width: 650
 
 Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich die Informationen und Einstellungen zur Kategorie auch direkt in einer weiteren Sprache bearbeiten. Bitte beachten Sie, dass die Sprachumstellung erst nach Anlegen der Kategorie möglich ist.

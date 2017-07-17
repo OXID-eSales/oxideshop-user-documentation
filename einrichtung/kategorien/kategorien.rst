@@ -1,10 +1,11 @@
 ﻿Kategorien
 ==========
+
 Kategorien dienen dazu, Kunden des Onlineshops intuitiv zum gewünschten Artikel zu führen. Kategorien fassen Artikel zu Produktgruppen zusammen, präsentieren Artikel einer bestimmten Rubrik oder offerieren Sonderangebote. Kategorien stellen durch ihre Struktur auch das Navigationsmenü im Shop dar.
 
 .. image:: ../../media/screenshots-de/oxbabj01.png
    :alt: Kategorien
-   :height: 531
+   :height: 529
    :width: 650
 
 Der Abschnitt \"Kategorien\" informiert Sie über das Erstellen und Verwalten von Kategorien. Um Kategorien zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Artikel verwalten --> Kategorien`. Es werden die Kategorieliste und darunter der Eingabebereich für die Kategorie angezeigt.

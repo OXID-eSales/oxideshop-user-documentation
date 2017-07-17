@@ -1,5 +1,6 @@
 ﻿Registerkarte Mall
 ==================
+
 Die Registerkarte :guilabel:`Mall` bei Kategorien gibt es nur in der Enterprise Edition.
 
 Beim Erstellen neuer Shops werden die Kategorien eines Elternshops nicht vererbt. Es ist allerdings möglich, diese später auf den Registerkarten :guilabel:`Mall` der Kategorien des Elternshops mit Subshops und Supershops zu verknüpfen. Enthält eine Kategorie Unterkategorien, werden dabei alle zugehörigen Kategorien vererbt. Diese enthalten nur Artikel, wenn auch diese vererbt wurden. Ansonsten sind es leere Kategorien mit den jeweiligen Unterkategorien.
@@ -8,7 +9,7 @@ Für Multishops gibt es die Möglichkeit, dass sie alle Kategorien von allen Sho
 
 .. image:: ../../media/screenshots-de/oxbacf01.png
    :alt: Kategorien - Registerkarte Mall
-   :height: 306
+   :height: 342
    :width: 650
 
 :guilabel:`Verknüpft mit folg. Subshops` |br|

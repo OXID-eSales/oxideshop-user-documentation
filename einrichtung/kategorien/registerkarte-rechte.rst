@@ -1,10 +1,13 @@
 ﻿Registerkarte Rechte
 ====================
+
+Die Registerkarte :guilabel:`Rechte` bei Kategorien gibt es nur in der Enterprise Edition.
+
 Auf der Registerkarte :guilabel:`Rechte` können einer Kategorie Benutzergruppen zugeordnet werden, deren Benutzer diese Kategorie mit ihren Artikeln im Shop sehen dürfen und/oder kaufen können. Diese Zuordnung ist Teil der Rechte- und Rollenverwaltung der Enterprise Edition.
 
 .. image:: ../../media/screenshots-de/oxbacg01.png
    :alt: Kategorien - Registerkarte Rechte
-   :height: 306
+   :height: 342
    :width: 650
 
 Das ausschließliche Recht legt zum einen fest, dass die Kategorie nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, nach Anmeldung am Shop sichtbar ist. Allen übrigen Benutzern und Benutzergruppen wird diese Kategorie und deren Artikel niemals angezeigt, der Menüpunkt ausgeblendet.

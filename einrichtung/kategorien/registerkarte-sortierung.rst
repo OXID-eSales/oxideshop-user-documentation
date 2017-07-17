@@ -1,10 +1,11 @@
 ﻿Registerkarte Sortierung
 ========================
+
 Im Gegensatz zur Schnellsortierung können die Artikel einer Kategorie auch manuell in eine bestimmte Reihenfolge gebracht werden.
 
 .. image:: ../../media/screenshots-de/oxbabn01.png
    :alt: Kategorien - Registerkarte Sortierung
-   :height: 333
+   :height: 342
    :width: 650
 
 Die Schaltfläche :guilabel:`:guilabel:`Artikel` sortieren` auf der Registerkarte :guilabel:`Sortierung` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel der Kategorie angezeigt. Der Wert 0 in der Positionsspalte bei allen Artikeln zeigt an, dass es bisher keine manuelle Sortierung gibt.
