@@ -26,7 +26,7 @@ Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschrei
 :guilabel:`Bankeinzug` |br|
 :guilabel:`Google Checkout` |br|
 :guilabel:`PayPal` |br|
-:guilabel:`PaySwarm` |br|
+:guilabel:`PaySwarm`
 
 :guilabel:`Kreditkartenzahlung` |br|
 :guilabel:`American Express` |br|
@@ -34,7 +34,7 @@ Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschrei
 :guilabel:`Discover` |br|
 :guilabel:`JCB` |br|
 :guilabel:`MasterCard` |br|
-:guilabel:`VISA` |br|
+:guilabel:`VISA`
 
 .. Intern: oxbadc, Status:, F1: payment_rdfa.html
 .. ToDo Hinweiszeile ist fehlerhaft: %s und zwei Punkte

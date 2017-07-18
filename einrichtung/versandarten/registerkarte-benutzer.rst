@@ -1,10 +1,11 @@
 ﻿Registerkarte Benutzer
 ======================
+
 Versandarten können so konfiguriert werden, dass sie für bestimmte Benutzergruppen und/oder Benutzer gelten. Die Zuordnung erfolgt auf der Registerkarte :guilabel:`Benutzer`.
 
 .. image:: ../../media/screenshots-de/oxbadg01.png
    :alt: Versandarten - Registerkarte Benutzer
-   :height: 325
+   :height: 341
    :width: 650
 
 Wird keine Benutzergruppe zugewiesen, gilt die Versandart für alle Benutzergruppen. Versandarten können auch nur für einzelne Benutzer gelten. Diese Art der Zuordnung bewirkt allerdings, dass nur ausgewählte Benutzer diese Versandart verwenden können. Zugewiesene Benutzergruppen werden damit hinfällig.

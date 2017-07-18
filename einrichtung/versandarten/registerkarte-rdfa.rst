@@ -1,23 +1,33 @@
 ﻿Registerkarte RDFa
 ==================
+
 Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale und andere Systeme bereit. Diese können beispielsweise als so genannte Rich Snippets - ausführliche Informationen zu einem Suchergebnis - dargestellt werden. Die Aufbereitung der Daten erfolgt auf Basis des Resource Description Framework (RDFa) und der für den E-Commerce optimierten Beschreibungssprache GoodReleations.
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Versandart mit den in GoodReleations vordefinierten Werten für den Versand hergestellt.
 
 .. image:: ../../media/screenshots-de/oxbadi01.png
    :alt: Versandarten - Registerkarte RDFa
-   :height: 325
+   :height: 341
    :width: 650
 
 .. hint:: Damit der Shop die RDFa-Integration verwenden kann, muss die Funktion unter :menuselection:`Stammdaten --> Grundeinstellungen --> RDFa` aktiviert werden.
 
 :guilabel:`Versandarten zuordnen` |br|
-Hinweis: Bitte wählen Sie nur die in GoodRelations vordefinierten Versandarten aus, die Ihrer Versandart entsprechen.
+:guilabel:`Hinweis: Bitte wählen Sie nur die in GoodRelations vordefinierten Versandarten aus, die Ihrer Versandart entsprechen.`
 
 Setzen Sie ein Häkchen bei allen Angaben, welche die Versandart exakt beschreiben.
 
 :guilabel:`Allgemeine Versandarten` |br|
-:guilabel:`Download   Fracht   Briefpost   Eigener Fuhrpark   Selbstabholung` |br|
-:guilabel:`Paketdienst   DHL   FedEx   UPS`
+:guilabel:`Download` |br|
+:guilabel:`Fracht` |br|
+:guilabel:`Briefpost` |br|
+:guilabel:`Eigener Fuhrpark` |br|
+:guilabel:`Selbstabholung`
+
+:guilabel:`Paketdienst` |br|
+:guilabel:`DHL` |br|
+:guilabel:`FedEx` |br|
+:guilabel:`UPS`
 
 .. Intern: oxbadi, Status:, F1: deliveryset_rdfa.html
+.. ToDo Hinweiszeile ist fehlerhaft: %s
