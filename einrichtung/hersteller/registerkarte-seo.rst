@@ -1,10 +1,11 @@
 ﻿Registerkarte SEO
 =================
+
 Die Registerkarte :guilabel:`SEO` des Herstellers beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
 
 .. image:: ../../media/screenshots-de/oxbagd01.png
    :alt: Hersteller - Registerkarte SEO
-   :height: 312
+   :height: 342
    :width: 650
 
 Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Informationen und Einstellungen auch in einer weiteren aktiven Sprache bearbeiten.

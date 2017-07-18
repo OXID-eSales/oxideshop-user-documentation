@@ -1,10 +1,11 @@
 ﻿Registerkarte Stamm
 ===================
+
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Informationen zum Hersteller hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie hier den Hersteller.
 
 .. image:: ../../media/screenshots-de/oxbagc01.png
    :alt: Hersteller - Registerkarte Stamm
-   :height: 311
+   :height: 342
    :width: 650
 
 Mit der Sprachumstellung im unteren Teil des Eingabebereichs können die Informationen und Einstellungen zum Hersteller auch direkt in einer weiteren Sprache bearbeitet werden.
