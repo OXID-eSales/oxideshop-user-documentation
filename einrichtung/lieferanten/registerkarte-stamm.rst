@@ -1,10 +1,11 @@
 ﻿Registerkarte Stamm
 ===================
+
 Die Registerkarte :guilabel:`Stamm` enthält die knappen Informationen und Einstellungen zum Lieferanten. Erstellen oder bearbeiten Sie hier den Lieferanten.
 
 .. image:: ../../media/screenshots-de/oxbagf01.png
    :alt: Lieferanten - Registerkarte Stamm
-   :height: 315
+   :height: 342
    :width: 650
 
 Mit der Sprachumstellung im unteren Teil des Eingabebereichs können die Informationen und Einstellungen zum Lieferanten auch direkt in einer weiteren Sprache bearbeitet werden.
