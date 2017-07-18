@@ -1,5 +1,6 @@
 ﻿Registerkarte RDFa
 ==================
+
 Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale und andere Systeme bereit. Diese können beispielsweise als so genannte Rich Snippets - ausführliche Informationen zu einem Suchergebnis - dargestellt werden. Die Aufbereitung der Daten erfolgt auf Basis des Resource Description Framework (RDFa) und der für den E-Commerce optimierten Beschreibungssprache GoodReleations.
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlungsart mit den in GoodReleations vordefinierten Werten für Zahlung hergestellt.
@@ -16,22 +17,23 @@ Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlu
 
 Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschreiben.
 
-:guilabel:`Allgemeine Zahlungsarten
-| Vorauskasse
-| Rechnung
-| Barzahlung
-| Barscheck
-| Nachnahme
-| Bankeinzug
-| Google Checkout
-| PayPal
-| PaySwarm
-| Kreditkartenzahlung
-| American Express
-| Diners Club
-| Discover
-| JCB
-| MasterCard
-| VISA`
+:guilabel:`Allgemeine Zahlungsarten` |br|
+:guilabel:`Vorauskasse` |br|
+:guilabel:`Rechnung` |br|
+:guilabel:`Barzahlung` |br|
+:guilabel:`Barscheck` |br|
+:guilabel:`Nachnahme` |br|
+:guilabel:`Bankeinzug` |br|
+:guilabel:`Google Checkout` |br|
+:guilabel:`PayPal` |br|
+:guilabel:`PaySwarm`
+
+:guilabel:`Kreditkartenzahlung` |br|
+:guilabel:`American Express` |br|
+:guilabel:`Diners Club` |br|
+:guilabel:`Discover` |br|
+:guilabel:`JCB` |br|
+:guilabel:`MasterCard` |br|
+:guilabel:`VISA`
 
 .. Intern: oxaadc, Status:, F1: payment_rdfa.html
