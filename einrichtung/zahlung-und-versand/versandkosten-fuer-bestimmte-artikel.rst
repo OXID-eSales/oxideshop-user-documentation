@@ -1,5 +1,6 @@
 ﻿Versandkosten für bestimmte Artikel
 ===================================
+
 In einem Online-Shop gibt es in der Regel einen Warenkatalog aus ganz unterschiedlichen Artikeln. Der Versand einiger Artikel kann deutlich höhere Kosten verursachen, da diese nur zu Sonderkonditionen, wie beispielsweise als Sperrgut, verschickt werden können. Der Versand kann daher so eingerichtet werden, dass ein Zuschlag auf die sonst üblichen Versandkosten erhoben wird, sobald bestimmte Artikel in den Warenkorb gelegt werden. Dies lässt sich durch Versandkostenregeln abbilden, die sich auf bestimmte Artikel beziehen.
 
 Im Bestellprozess entscheidet sich der Kunde für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (zugewiesene Artikel) hinsichtlich der Artikel im Warenkorb erfüllt ist. Nur wenn eine Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
@@ -32,8 +33,8 @@ Im Beispiel werden zwei Versandkostenregeln verwendet, um höhere Versandkosten 
 Die erste Versandkostenregel mit 5,99 € Versandkosten gilt für alle Artikel, die zweite mit einem Preisaufschlag von 22,50 € für alle Wakeboards, die aufgrund ihrer Länge als Sperrgut verschickt werden müssen.
 
 .. image:: ../../media/screenshots-de/oxbafy01.png
-   :alt: Versandkosten DHL-Sperrgut: +22,50 Euro
-   :height: 315
+   :alt: Versandkosten DHL GoGreen, Sperrgut: +22,50 Euro
+   :height: 341
    :width: 650
 
 Der im Screenshot gezeigten Versandkostenregel wurden drei Wakeboards zugeordnet. Beide Versandkostenregeln gehören zur Versandart \"DHL GoGreen\". Wird diese Versandart beim Kauf ausgewählt, werden beide Versandkostenregeln geprüft.

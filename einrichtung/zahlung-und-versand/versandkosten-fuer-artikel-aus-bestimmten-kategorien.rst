@@ -1,5 +1,6 @@
 ﻿Versandkosten für Artikel aus bestimmten Kategorien
 ===================================================
+
 In einem Online-Shop gibt es in der Regel einen Warenkatalog aus ganz verschiedenen Artikeln. Der Versand kann so eingerichtet werden, dass Artikel aus bestimmten Kategorien günstig verschickt werden. Werden zusätzlich Artikel aus anderen Kategorien in den Warenkorb gelegt, fallen höhere Versandkosten an. Dafür werden Versandkostenregeln verwendet, die abhängig von Kategorien funktionieren.
 
 Im Bestellprozess wählt der Kunde eine Versandart. Alle zur Versandart gehörenden Versandkostenregeln werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (zugewiesene Kategorien) hinsichtlich der Artikel im Warenkorb erfüllt ist. Nur wenn eine Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
@@ -33,7 +34,7 @@ Die erste Versandkostenregel wird mit einem Preis von 4,99 € angelegt. Für al
 
 .. image:: ../../media/screenshots-de/oxbafz01.png
    :alt: Versandkosten DHL - Standardartikel: +2,50 Euro
-   :height: 315
+   :height: 342
    :width: 650
 
 Der im Screenshot gezeigten Versandkostenregel wurden alle Kategorien mit Ausnahme der Kategorie \"Zubehör\ "zugeordnet. Beide Versandkostenregeln gehören zur Versandart \"DHL GoGreen\". Wird diese Versandart beim Kauf ausgewählt, werden beide Versandkostenregeln geprüft.

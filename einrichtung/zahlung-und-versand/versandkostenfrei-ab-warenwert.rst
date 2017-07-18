@@ -1,5 +1,6 @@
 ﻿Versandkostenfrei ab Warenwert
 ==============================
+
 Bei vielen Shops basieren die Versandkosten auf dem Gesamtpreis der gekauften Waren. Ab einem bestimmten Warenwert erfolgt meistens auch eine kostenlose Lieferung.
 
 Die mit dem OXID eShop ausgelieferten Versandkostenregeln verwenden durchweg den Preis der Artikel als Bedingung. Mit einer Versandkostenregel kann auch festgelegt werden, dass die Versandkosten ab einem bestimmten Warenwert entfallen. Der Kunde entscheidet sich beim Kauf im Online-Shop für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Preis) bezogen auf den Gesamtpreis der Artikel im Warenkorb erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
@@ -38,7 +39,7 @@ Dafür werden zwei Versandkostenregeln erstellt, deren Bedingung der Preis ist. 
 
 .. image:: ../../media/screenshots-de/oxbafw01.png
    :alt: Versandkostenregel ab 80 € Warenwert
-   :height: 315
+   :height: 341
    :width: 650
 
 Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Liegen Artikel mit einem Einkaufswert unter 80 € im Warenkorb, greift die erste Versandkostenregel. Es werden 3,90 € Versandkosten im Warenkorb ausgewiesen.

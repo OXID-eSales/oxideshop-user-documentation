@@ -1,5 +1,6 @@
 ﻿Zahlung und Versand
 ===================
+
 Zahlung und Versand sind wichtige Funktionen im Online-Shop und ermöglichen dem Kunden, eine passende Bezahlmethode und die gewünschte Liefermöglichkeit auszuwählen. Im Abschnitt \"Zahlung und Versand\" werden konkrete Einstellungen bei den Zahlungsarten und Anwendungsbeispiele für Versandkostenregeln dargestellt, welche verschiedene Besonderheiten im Bestellprozess berücksichtigen.
 
 -----------------------------------------------------------------------------------------
