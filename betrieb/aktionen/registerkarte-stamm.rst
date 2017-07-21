@@ -1,21 +1,22 @@
 ﻿Registerkarte Stamm
 ===================
+
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zur Aktion vorgenommen. Erstellen oder bearbeiten Sie hier die Aktion. Beim Anlegen einer Aktion muss deren Typ festgelegt werden. Je nachdem, ob Aktion, Promotion oder Banner ausgewählt wurde, unterscheiden sich die Einstellungen auf der Registerkarte mehr oder weniger voneinander.
 
-Bitte beachten Sie, dass das Theme \"Azure\" den Typ Promotion und einige Möglichkeiten vom Typ Aktion nicht auf der Startseite anzeigt. Siehe: :doc:`Aktionen und Startseite <aktionen-und-startseite>`
+Bitte beachten Sie, dass das Theme \"Flow\" den Typ Promotion und einige Möglichkeiten vom Typ Aktion nicht auf der Startseite anzeigt. Siehe: :doc:`Aktionen und Startseite <aktionen-und-startseite>`
 
 Typ Aktion
 ----------
 .. image:: ../../media/screenshots-de/oxbagy01.png
    :alt: Aktionen - Registerkarte Stamm, Typ Aktion
-   :height: 317
+   :height: 341
    :width: 650
 
 :guilabel:`Name` |br|
-Name der Aktion, wie er im Administrationsbereich und auch teilweise auf der Startseite des Shops angezeigt wird. So trägt die Aktion \"Topseller\" auf der Startseite die Überschrift \"Top Of The Shop\" oder die Aktion \"Kategorien-Topangebot\" den Namen der beworbenen Kategorie.
+Name der Aktion, wie er im Administrationsbereich und auf der Startseite des Shops angezeigt wird.
 
 :guilabel:`Immer aktiv` |br|
-Aktivieren Sie dieses Kontrollkästchen, damit die Aktion ständig im Shop angezeigt wird. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Aktionen laden` auf der Registerkarte :guilabel:`Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` angehakt ist und achten Sie auf die Einstellung, welche die Aktionen \"Topseller\" und \"Frisch eingetroffen!\" betreffen.
+Aktivieren Sie dieses Kontrollkästchen, damit die Aktion ständig im Shop angezeigt wird. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Aktionen laden` auf der Registerkarte :guilabel:`Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` angehakt ist und achten Sie auf die Einstellung, welche die Aktionen \"Topseller\" und \"Frisch eingetroffen\" betreffen.
 
 :guilabel:`Aktiv für Zeitraum von` ... :guilabel:`bis` ... |br|
 Es kann ein Zeitraum definiert werden, in dem die Aktion aktiv ist. Dieser wird nur berücksichtigt, wenn das Kontrollkästchen :guilabel:`Immer aktiv` nicht angehakt ist.
@@ -24,13 +25,13 @@ Es kann ein Zeitraum definiert werden, in dem die Aktion aktiv ist. Dieser wird 
 Die Aktion lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
 
 :guilabel:`Artikel zuordnen` |br|
-Der Aktion kann ein Artikel, wie beispielsweise bei der Aktion \"Angebot der Woche\", oder können mehrere Artikel, wie bei den Aktionen \"Frisch eingetroffen!\" und \"Topseller\", zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Aktion zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+Der Aktion kann ein Artikel, wie beispielsweise bei der Aktion \"Angebote der Woche\", oder können mehrere Artikel, wie bei den Aktionen \"Frisch eingetroffen\" und \"Topseller\", zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Aktion zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
 Typ Banner
 ----------
 .. image:: ../../media/screenshots-de/oxbagy02.png
    :alt: Aktionen - Registerkarte Stamm, Typ Banner
-   :height: 315
+   :height: 341
    :width: 650
 
 :guilabel:`Name` |br|
@@ -57,7 +58,7 @@ Laden Sie hier das Bild für das Banner hoch. Auf der Startseite wird dieses sta
 Die Schaltfläche :guilabel:`Durchsuchen...` öffnet einen Dateidialog, in dem Sie die entsprechende Datei auf Ihrem Rechner auswählen können. Wenn Sie nun die Schaltfläche :guilabel:`Öffnen` drücken, wird der Dateinamen direkt übernommen. Speichern startet das Hochladen des Bildes. Dabei wird ein bereits vorhandenes Bild ersetzt. Ein zugeordnetes Foto kann auch gelöscht werden.
 
 :guilabel:`Link hinter Banner` |br|
-Für eine gezielte Werbung auf der Startseite kann ein Link für das Bild hinterlegt werden. Das kann eine URL in der Form ``http://www.meineurl.de`` sein oder ein relativer Pfad ausgehend von der Struktur der Kategorien. Die Aktion \"Banner 4\" verlinkt beispielsweise zu einer Kategorie \"Wakeboards\" mit dem Link Wakeboarding/Wakeboards/.
+Für eine gezielte Werbung auf der Startseite kann ein Link für das Bild hinterlegt werden. Das kann eine URL in der Form ``http://www.meineurl.de`` sein oder ein relativer Pfad ausgehend von der Struktur der Kategorien.
 
 :guilabel:`Zugeordnetes Produkt` |br|
 Zeigt Artikelnummer und Titel eines Artikels an, der dem Banner zugeordnet wurde. Auf der Startseite werden über dem Banner der Preis und der Titel eingeblendet. Ein Klick darauf öffnet die Detailseite des beworbenen Artikels.
