@@ -1,5 +1,6 @@
 ﻿Reverse Proxy Varnish
 =====================
+
 Funktionsweise
 --------------
 Varnish ist ein Reverse Proxy, der vor dem eigentlichen Webserver eingehende Anfragen von Web-Clients verarbeitet. Die Webseiten, welche an die Web-Clients ausgeliefert werden, werden zum größten Teil aus zwischengespeicherten Inhalten zusammengestellt. Erst wenn die Lebensdauer des Caches abgelaufen ist, fragt Varnish Inhalte vom Webserver ab. Der OXID eShop muss dann die angeforderten Daten aus der Datenbank lesen und bereitstellen.\
@@ -39,39 +40,19 @@ durch diese Zeile
 
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@]\",\"\");``
 
-Download der Konfigurationsdateien
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können hier heruntergeladen werden. Markieren Sie dafür den Link mit der rechten Maustaste und speichern Sie die Datei lokal. Ein Klick mit der linken Maustaste öffnet die Konfigurationsdatei im Browser.
-
-*  `default.vcl <https://support.oxid-esales.com/downloads/varnish/5.2.5/default.vcl>`_ 
-* für Enterprise Edition ab 5.2.5 und Varnish ab 4.0.3
-  Die Datei wurde am 26.01.2016 aktualisiert. Grund: kleine Korrekturen im Cookie-Handling.
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.2.0/default.vcl>`_ 
-* für Enterprise Edition ab 5.2.0
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.1.0/default.vcl>`_ 
-* für Enterprise Edition ab 5.1.0
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.9/default.vcl>`_ 
-* für Enterprise Edition ab 5.0.9
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.2/default.vcl>`_ 
-* für Enterprise Edition 5.0.2 - 5.0.8
-* .. note:: Bitte beachten Sie die Release-Informationen zu
-*  `OXID eShop 4.7.2/5.0.2 <de/support-services/dokumentation-und-hilfe/oxid-eshop/releases/releases-2012/oxid-eshop-472502.html>`_ 
-*  `default.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.0/default.vcl>`_ 
-* für Enterprise Edition 5.0.0 - 5.0.1
-*  `servers_conf.vcl <http://support.oxid-esales.com/downloads/varnish/5.2.5/servers_conf.vcl>`_ 
-* für Enterprise Edition ab 5.2.5 und Varnish ab 4.0.3
-*  `servers_conf.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.0/servers_conf.vcl>`_ 
-* für Enterprise Edition ab 5.0.0
+Konfigurationsdateien
+^^^^^^^^^^^^^^^^^^^^^
+Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können beim Technischen Support für die aktuelle Version der Enterprise Edition angefordert werden. Bitte beachten Sie entsprechende Hinweise in den Release-Informationen.
 
 Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese Dateien in Ihrem System bereits angepasst, müssen Sie die Inhalte der Dateien manuell zusammenführen. Starten Sie danach Apache und Varnish neu.
 
-``/etc/init.d/apache2 stop
-| /etc/init.d/varnish restart
-| /etc/init.d/apache2 start``
+:command:`/etc/init.d/apache2 stop` |br|
+:command:`/etc/init.d/varnish restart` |br|
+:command:`/etc/init.d/apache2 start`
 
 Anpassung der Konfiguration für OXID eShop Mobile Theme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Wenn Sie OXID eShop Mobile Theme einsetzen, müssen Sie die Konfigurationsdatei :file:`default.vcl` des Reverse Proxy anpassen. Alle dafür notwendigen Einträge finden Sie in der Datei :file:`device.vcl`, welche dem Installationspaket beiliegt. Sie können diese Datei auch durch einen Klick mit der linken Maustaste öffnen: `device.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.0/device.vcl>`_ für Enterprise Edition 5.0.0 und höher.
+Wenn Sie OXID eShop Mobile Theme einsetzen, müssen Sie die Konfigurationsdatei :file:`default.vcl` des Reverse Proxy anpassen. Alle dafür notwendigen Einträge finden Sie in der Datei :file:`device.vcl`, welche dem Installationspaket beiliegt.
 
 * Kopieren Sie den Inhalt der Datei :file:`device.vcl`.
 * Öffnen Sie Varnish's Konfigurationsdatei :file:`default.vcl`, die standardmäßig im Verzeichnis :file:`/etc/varnish` gespeichert ist.
