@@ -1,5 +1,6 @@
 ﻿Reverse Proxy Varnish
 =====================
+
 Funktionsweise
 --------------
 Varnish ist ein Reverse Proxy, der vor dem eigentlichen Webserver eingehende Anfragen von Web-Clients verarbeitet. Die Webseiten, welche an die Web-Clients ausgeliefert werden, werden zum größten Teil aus zwischengespeicherten Inhalten zusammengestellt. Erst wenn die Lebensdauer des Caches abgelaufen ist, fragt Varnish Inhalte vom Webserver ab. Der OXID eShop muss dann die angeforderten Daten aus der Datenbank lesen und bereitstellen.\
@@ -39,21 +40,19 @@ durch diese Zeile
 
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@]\",\"\");``
 
-Download der Konfigurationsdateien
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können hier heruntergeladen werden. Markieren Sie dafür den Link mit der rechten Maustaste und speichern Sie die Datei lokal. Ein Klick mit der linken Maustaste öffnet die Konfigurationsdatei im Browser.
-
-* `default.vcl <http://support.oxid-esales.com/downloads/varnish/6.0.0/default.vcl>`_ für Enterprise Edition ab 6.0.0 und Varnish ab 4.0.3
+Konfigurationsdateien
+^^^^^^^^^^^^^^^^^^^^^
+Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können mit Composer aus einem Repository auf GitHub gezogen werden. Auf dieses geschützte Repository kann mit dem Passwort zugegriffen werden, das Shopbetreiber beim Kauf der Hochlastoption erhalten haben. Sollten Probleme auftreten, wenden Sie sich bitte an den Technischen Support.
 
 Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese Dateien in Ihrem System bereits angepasst, müssen Sie die Inhalte der Dateien manuell zusammenführen. Starten Sie danach Apache und Varnish neu.
 
-``/etc/init.d/apache2 stop
-| /etc/init.d/varnish restart
-| /etc/init.d/apache2 start``
+:command:`/etc/init.d/apache2 stop` |br|
+:command:`/etc/init.d/varnish restart` |br|
+:command:`/etc/init.d/apache2 start`
 
 Anpassung der Konfiguration für OXID eShop Mobile Theme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Wenn Sie OXID eShop Mobile Theme einsetzen, müssen Sie die Konfigurationsdatei :file:`default.vcl` des Reverse Proxy anpassen. Alle dafür notwendigen Einträge finden Sie in der Datei :file:`device.vcl`, welche dem Installationspaket beiliegt. Sie können diese Datei auch durch einen Klick mit der linken Maustaste öffnen: `device.vcl <http://support.oxid-esales.com/downloads/varnish/5.0.0/device.vcl>`_ für Enterprise Edition 5.0.0 und höher.
+Wenn Sie OXID eShop Mobile Theme einsetzen, müssen Sie die Konfigurationsdatei :file:`default.vcl` des Reverse Proxy anpassen. Alle dafür notwendigen Einträge finden Sie in der Datei :file:`device.vcl`, welche dem Installationspaket beiliegt.
 
 * Kopieren Sie den Inhalt der Datei :file:`device.vcl`.
 * Öffnen Sie Varnish's Konfigurationsdatei :file:`default.vcl`, die standardmäßig im Verzeichnis :file:`/etc/varnish` gespeichert ist.
@@ -69,3 +68,4 @@ SSL-Verschlüsselung
 Varnish verarbeitet Anfragen aus dem Web, die das HTTP-Protokoll verwenden. Verschlüsselte Anfragen mit HTTPS-Protokoll können durch den Reverse Proxy nicht umgesetzt werden. Da der OXID eShop auf SSL-Verschlüsselung umschalten kann, sobald Benutzerdaten übertragen werden, beispielsweise bei Registrierung, Anmeldung oder im Warenkorb, muss dafür eine separate Lösung geschaffen werden. Es gibt dafür aktuell zwei Möglichkeiten. Zum einen können Anfragen mit HTTPS-Protokoll direkt an den Server mit dem OXID eShop gesendet werden. Das muss mit Server-Tools umgesetzt werden. Zum anderen kann ein Load Balancer eingesetzt werden, welcher Anfragen über HTTP, Port 80 an Varnish und über HTTPS, Port 443 direkt zum OXID eShop leitet.
 
 .. Intern: oxbacb, Status:
+.. ToDo: Composer-Aufruf für die Konfigurationsdateien
