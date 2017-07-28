@@ -1,4 +1,3 @@
-import sphinx_rtd_theme
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -136,6 +135,12 @@ rst_epilog = """
 #
 html_theme = 'sphinx_rtd_theme'
 
+html_context = {
+    'current_version': '5.3',
+    'versions':
+        [('5.3', 'https://docs.oxid-esales.com/5.3/'),
+         ('6.0', 'https://docs.oxid-esales.com/6.0/')]}
+
 # Eigenes Stylesheet für Theme "Read The Docs" nutzen
 # oxid.css im Verzeichnis _static/css
 # layout.html im Verzeichnis _templates
@@ -149,7 +154,7 @@ def setup(app):
 # html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = ['_themes']
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
@@ -220,7 +225,7 @@ html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #
-# html_show_sphinx = True
+html_show_sphinx = False 
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #
