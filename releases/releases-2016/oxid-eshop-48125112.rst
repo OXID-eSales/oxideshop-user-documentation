@@ -7,7 +7,7 @@ Edition: Enterprise Edition
 Versionsbezeichnung: 4.8.12 |br|
 Edition: Professional Edition und Community Edition
 
-Veröffentlichungstermin: 13.07.2016
+Veröffentlichungstermin: 13.06.2016
 
 ----------
 
