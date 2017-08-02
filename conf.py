@@ -141,12 +141,6 @@ html_context = {
         [('5.3', 'https://docs.oxid-esales.com/5.3/'),
          ('6.0', 'https://docs.oxid-esales.com/6.0/')]}
 
-# Eigenes Stylesheet für Theme "Read The Docs" nutzen
-# oxid.css im Verzeichnis _static/css
-# layout.html im Verzeichnis _templates
-def setup(app):
-  app.add_stylesheet( "css/oxid.css" )
-
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
