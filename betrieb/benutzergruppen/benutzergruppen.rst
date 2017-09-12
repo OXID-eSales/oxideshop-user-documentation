@@ -1,10 +1,11 @@
 ﻿Benutzergruppen
 ===============
+
 Benutzergruppen dienen dazu, Benutzer mit bestimmten Eigenschaften zusammenzufassen. Solche Eigenschaften können beispielsweise der Status des Benutzers, der bisherigen Umsatz im Shop, die Anmeldung für den Newsletter oder spezielle Preise für bestimmte Artikel sein. Benutzer, die einer Benutzergruppe angehören, lassen sich an anderer Stelle komfortabel zuordnen. Mit nur wenigen Mausklicks können Zahlungs- und Versandarten, Versandkostenregeln, Rabatte, Gutscheinserien etc. zugewiesen werden.
 
 .. image:: ../../media/screenshots-de/oxbadz01.png
    :alt: Benutzergruppen
-   :height: 521
+   :height: 517
    :width: 650
 
 Benutzergruppen können Sie im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzergruppen` bearbeiten. Es werden eine Liste der Benutzergruppen und darunter der Eingabebereich für die Benutzergruppe angezeigt. In der Liste kann nach dem Namen der Benutzergruppe gesucht werden. Verwenden Sie dafür das vorhandene Suchfeld. Wenn Sie beispielsweise \"a\" eingeben, werden alle Benutzergruppen angezeigt, die diesen Buchstaben in ihrem Namen haben.

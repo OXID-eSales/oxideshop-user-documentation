@@ -1,10 +1,11 @@
 ﻿Registerkarte Stamm
 ===================
+
 Auf der Registerkarte :guilabel:`Stamm` kann der Name einer Benutzergruppe angegeben bzw. geändert werden. Die Benutzergruppe lässt sich hier aktivieren oder deaktivieren. Wird eine Benutzergruppe neu angelegt, wird nach dem ersten Speichern eine zusätzliche Schaltfläche :guilabel:`Kopieren` angezeigt. Nach Auswahl der Sprache aus einer Dropdown-Liste kann die Benutzergruppe in diese Sprache des Shops kopiert und bearbeitet werden.
 
 .. image:: ../../media/screenshots-de/oxbaea01.png
    :alt: Benutzergruppen - Registerkarte Stamm
-   :height: 321
+   :height: 334
    :width: 650
 
 :guilabel:`Aktiv` |br|
