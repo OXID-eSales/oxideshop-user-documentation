@@ -1,10 +1,11 @@
 ﻿Registerkarte Benutzer
 ======================
+
 Rabatte können für bestimmte Benutzergruppen und/oder Benutzer gelten. Diese Festlegung kann auf der Registerkarte Benutzer vorgenommen werden. Ohne Zuordnung von Benutzergruppen und/oder Benutzer gilt der Rabatt für alle Kunden des Online-Shops.
 
 .. image:: ../../media/screenshots-de/oxbahk01.png
    :alt: Rabatte - Registerkarte Benutzer
-   :height: 315
+   :height: 334
    :width: 650
 
 :guilabel:`Benutzergruppen zuordnen` |br|

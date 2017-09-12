@@ -1,10 +1,11 @@
 ﻿Registerkarte Stamm
 ===================
+
 Auf der Registerkarte :guilabel:`Stamm` werden die wichtigen Einstellungen für Rabatte vorgenommen. Erstellen oder bearbeiten Sie hier den Rabatt. Die Zuordnung zu Artikeln, Kategorien, Benutzern und Benutzergruppen erfolgt auf zwei weiteren Registerkarten.
 
 .. image:: ../../media/screenshots-de/oxbahi01.png
    :alt: Rabatte - Registerkarte Stamm
-   :height: 315
+   :height: 335
    :width: 650
 
 Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lässt sich der Name des Rabattes auch direkt in einer weiteren Sprache bearbeiten. Bitte beachten Sie, dass die Einstellungen und die Sprachumstellung erst nach Anlegen des Rabattes verfügbar sind.

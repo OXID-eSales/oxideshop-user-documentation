@@ -1,5 +1,6 @@
 ﻿Registerkarte Mall
 ==================
+
 Die Registerkarte :guilabel:`Mall` ist bei Rabatten nur in der Enterprise Edition vorhanden.
 
 Rabatte können beim Erstellen von Shops an diese vererbt werden. Wird diese Option gewählt, enthält ein neuer Shop alle Rabatte des Elternshops. Die Eigenschaften dieser Rabatte sind nicht änderbar.
@@ -8,7 +9,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Rabattes 
 
 .. image:: ../../media/screenshots-de/oxbahl01.png
    :alt: Rabatte - Registerkarte Mall
-   :height: 307
+   :height: 334
    :width: 650
 
 Es ist möglich, die Vererbung aller Rabatte für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.\

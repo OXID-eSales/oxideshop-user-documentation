@@ -1,12 +1,13 @@
 ﻿Rabatte
-*******
+=======
+
 Rabattangebote sind neben Gutscheinserien, Newslettern oder Aktionen ein wichtiges Marketinginstrument in Ihrem OXID eShop. Mit einem Rabatt gewähren Sie einen Nachlass auf den sonst üblichen Preis eines Artikels, wenn bestimmte Bedingungen erfüllt sind. Günstigere Artikelpreise können für bestimmte Artikel, Kategorien, Benutzer, Benutzergruppen, Einkaufswerte oder -mengen festgelegt werden. Mit den vielfältigen Möglichkeiten der Rabatte bieten Sie Ihren Kunden Einkaufsvorteile und fördern so die Kundenbindung.
 
 Rabatte lassen sich für einen bestimmten Zeitraum oder gar länderspezifisch definieren. Sie können so eingestellt werden, dass das Angebot direkt mit den ermäßigten Preisen angezeigt wird. Es ist aber auch möglich, dass der Rabatt erst im Warenkorb berechnet und ausgewiesen wird. Rabatte können prozentual oder absolut zum Artikelpreis vergeben werden. Neben der Ermäßigung des Artikelpreises gibt es auch die Möglichkeit, bei jedem Kauf, der den Rabattkriterien entspricht, einen Gratisartikel in den Warenkorb zu legen.
 
 .. image:: ../../media/screenshots-de/oxbahh01.png
    :alt: Rabatte
-   :height: 503
+   :height: 517
    :width: 650
 
 Mengennachlass oder Staffelrabatt können mit Staffelpreisen bei den Artikeln umgesetzt werden. Damit kann definiert werden, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird. Siehe: :doc:`Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`
@@ -33,22 +34,22 @@ Wird ein Rabatt aus der Liste der Rabatte gewählt, werden dessen Informationen 
 -----------------------------------------------------------------------------------------
 
 Registerkarte Stamm
-+++++++++++++++++++ 
+-------------------
 **Inhalte**: aktiver Rabatt, immer aktiv, aktiv für Zeitraum, Einkaufsmenge, Einkaufswert, absoluter Rabatt, prozentualer Rabatt, Dreingabe, Zugabe, kostenfreier Artikel |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Artikel
-+++++++++++++++++++++
+---------------------
 **Inhalte**: Artikel und Kategorien zuordnen |br|
 :doc:`Artikel lesen <registerkarte-artikel>` |link|
 
 Registerkarte Benutzer
-++++++++++++++++++++++
+----------------------
 **Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
 :doc:`Artikel lesen <registerkarte-benutzer>` |link|
 
 Registerkarte Mall
-++++++++++++++++++
+------------------
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Rabatte vererben, Rabatte verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
