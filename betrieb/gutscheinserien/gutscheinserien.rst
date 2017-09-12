@@ -1,12 +1,13 @@
 ﻿Gutscheinserien
 ===============
+
 Gutscheinserien sind eine definierte Anzahl von Gutscheinen mit identischer Gültigkeit und den selben Bedingungen zum Einlösen. Die Gutscheine können nach dem Anlegen einer Gutscheinserie mit gleichem Gutscheincode oder individuellen Gutscheinnummern generiert werden. Nachdem die Gutscheine den Weg zum Kunden gefunden haben, beispielsweise über einen verschickten Newsletter, kann der Gutscheincode beim Onlinekauf verwendet werden. Der Kunde gibt seinen Gutscheincode im ersten Bestellschritt ein und erhält einen relativen oder absoluten Rabatt auf bestimmte Artikel oder den gesamten Warenkorb. Dabei wird der gesamte Wert des Gutscheins verbraucht. Es können nicht, wie bei Geschenkgutscheinen üblich, nur Anteile eines vorhandenen Guthabens verwendet werden.
 
 Gutscheine sind neben Aktionen, Rabatten und Newslettern ein weiteres Marketinginstrument in Ihrem OXID eShop. Sie können Gutscheine einsetzen, um Kaufanreize zu schaffen und neue Kunden zu gewinnen.
 
 .. image:: ../../media/screenshots-de/oxbahr01.png
    :alt: Gutscheinserien
-   :height: 503
+   :height: 516
    :width: 650
 
 Nachdem der Kunde Artikel in den Warenkorb gelegt und diesen angezeigt hat, kann er im ersten Bestellschritt einen Gutscheincode oder eine Gutscheinnummer in das entsprechende Feld eingeben. Je nach den Einstellungen bei der Gutscheinserie können mehrere Gutscheine für eine Bestellung oder ein Gutschein für mehrere Bestellungen verwendet werden. Sind mehrere Gutscheine für eine Bestellung möglich, werden diese nur akzeptiert, solange der Gesamtbetrag der Bestellung größer 0,00 € ist. Beim Absenden des Gutscheins überprüft der Shop dessen Gültigkeit, schreibt diesen gut oder lehnt ihn mit einem entsprechenden Hinweis ab.

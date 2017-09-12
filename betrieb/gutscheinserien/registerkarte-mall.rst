@@ -1,5 +1,6 @@
 ﻿Registerkarte Mall
 ==================
+
 Die Registerkarte :guilabel:`Mall` ist bei Gutscheinserien nur in der Enterprise Edition vorhanden.
 
 Gutscheinserien können beim Erstellen von Shops an diese vererbt werden. Wird diese Option gewählt, enthält ein neuer Shop alle Gutscheinserien des Elternshops. Die Eigenschaften dieser Gutscheinserien sind nicht änderbar.
@@ -8,7 +9,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen einer Gutschein
 
 .. image:: ../../media/screenshots-de/oxbahu01.png
    :alt: Gutscheinserien - Registerkarte Mall
-   :height: 313
+   :height: 334
    :width: 650
 
 Es ist möglich, die Vererbung aller Gutscheinserien für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.

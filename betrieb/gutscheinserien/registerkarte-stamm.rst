@@ -1,10 +1,11 @@
 ﻿Registerkarte Stamm
 ===================
+
 Gutscheinserien fassen eine Anzahl von Gutscheinen zusammen und werden auf der Registerkarte :guilabel:`Stamm` erstellt und bearbeitet. Hier wird die Gültigkeit einer Gutscheinserie festgelegt, die gleichzeitig auch die Gültigkeit der zur Serie gehörenden Gutscheine bestimmt. Ein absoluter oder relativer Rabatt stellt den eigentlichen Wert eines Gutscheins da, der im Warenkorb angerechnet wird. Die Gutscheine einer Serie können mit einem fixen oder einem zufälligen Gutscheincode generiert und als Datei im CSV-Format exportiert werden. Eine kleine Übersicht zeigt die Anzahl aller generierten, der eingelösten und noch unbenutzten Gutscheine.
 
 .. image:: ../../media/screenshots-de/oxbahs01.png
    :alt: Gutscheinserien - Registerkarte Stamm
-   :height: 314
+   :height: 334
    :width: 650
 
 Die Zuordnung von Benutzergruppen, Kategorien und/oder Artikeln erfolgt auf einer weiteren Registerkarte.
