@@ -1,10 +1,11 @@
 ﻿Bestellungen
 ============
+
 Schließt der Kunde seinen Einkauf im Online-Shop ab, indem er zahlungspflichtig bestellt, wird eine Bestellung angelegt. Auf einer Seite wird dem Kunden für dessen Einkauf gedankt und er wird sogleich über die Bestellnummer informiert. Gleichzeitig verschickt der Shop eine Bestellbestätigung per E-Mail, die alle wichtigen Informationen, wie beispielsweise eine Liste der bestellten Artikel, den Gesamtpreis mit allen Einzelpositionen, die gewählte Zahlungsart, die Rechnungsadresse und die Versandart beinhaltet. Auch der Shopbetreiber wird per E-Mail über die neue Bestellung benachrichtigt.
 
 .. image:: ../../media/screenshots-de/oxbaeb01.png
    :alt: Bestellungen
-   :height: 513
+   :height: 517
    :width: 650
 
 Im Abschnitt \"Bestellungen\" erfahren Sie alles über die Bearbeitung von Bestellungen. Die beim Einkauf im Online-Shop erstellte Bestellung kann nachträglich geändert werden, um beispielsweise eine andere Zahlungs- oder Versandart zuzuweisen. Der Zahlungseingang kann ebenso dokumentiert werden, wie der Versand der Artikel. Rechnung und Lieferschein lassen sich aus der Bestellung heraus erstellen. Um Bestellungen zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Bestellungen verwalten --> Bestellungen`. Es werden eine Liste der Bestellungen und darunter der Eingabebereich für die Bestellung angezeigt.

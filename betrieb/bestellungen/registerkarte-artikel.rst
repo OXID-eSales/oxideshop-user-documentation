@@ -1,5 +1,6 @@
 ﻿Registerkarte Artikel
 =====================
+
 Alle zu einer Bestellung gehörenden Artikel werden im Detail auf der Registerkarte :guilabel:`Artikel` aufgelistet.
 
 Die Menge der bestellten Artikel lässt sich im Nachhinein ändern und aktualisieren. Dabei wird der Gesamtpreis eines Artikels neu berechnet, aber auch die Versandkosten oder der gewährte Rabatt können sich dadurch ändern.
@@ -10,7 +11,7 @@ Eine Funktion erlaubt Ihnen allerdings auch, neue Artikel in die Bestellung aufz
 
 .. image:: ../../media/screenshots-de/oxbaef01.png
    :alt: Bestellungen - Registerkarte Artikel
-   :height: 328
+   :height: 335
    :width: 650
 
 Eine Tabelle enthält alle zu einer Bestellung gehörenden Artikel.
