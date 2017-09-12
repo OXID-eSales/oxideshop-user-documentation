@@ -4,7 +4,7 @@ Auf der Registerkarte :guilabel:`Erweitert` können ergänzende Informationen zu
 
 .. image:: ../../media/screenshots-de/oxbads01.png
    :alt: 
-   :height: 325
+   :height: 334
    :width: 650
 
 :guilabel:`Telefon privat` |br|

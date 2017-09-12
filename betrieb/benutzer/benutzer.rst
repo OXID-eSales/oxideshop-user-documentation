@@ -1,5 +1,6 @@
 ﻿Benutzer
 ========
+
 Jeder Kunde, der das erste Mal im Shop mit oder ohne Registrierung einkauft, wird als Benutzer erfasst. Auch wenn ein Kunde sich anmeldet, um ein Kundenkonto zu erstellen, oder den Newsletter abonniert, erstellt der Shop einen neuen Benutzer oder aktualisiert einen bereits vorhandenen.
 
 Eine besondere Form des Benutzers ist der mit Administratorrechten. Im Gegensatz zu den Benutzern, die ausschließlich mit dem Frontend des Shops interagieren, hat der Administrator auch die Möglichkeit, die Konfiguration des Shops anzupassen, Artikel und Kategorien zu bearbeiten, also den Administrationsbereich des Shops zu nutzen. Der erste Administrator wird während der Installation des Shops angelegt. Im Schritt 5 beim :doc:`Setup ausführen <../../installation/neu-installation/setup-ausfuehren>` mussten Sie die E-Mail-Adresse und das Passwort dieses Administrators eingeben und konnten sich nach abgeschlossenem Setup direkt im Administrationsbereich anmelden.
@@ -8,7 +9,7 @@ In der Enterprise Edition gibt es Administratoren, die mit allen Shops arbeiten 
 
 .. image:: ../../media/screenshots-de/oxbadq01.png
    :alt: Benutzer
-   :height: 513
+   :height: 517
    :width: 650
 
 Benutzer können im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzer` bearbeitet werden. Es werden die Benutzerliste und darunter der Eingabebereich für die Benutzer angezeigt. Die Benutzerliste zeigt den Namen des Benutzers, die E-Mail-Adresse, die Anschrift, die Telefonnummer und dessen Kundennummer. In der Benutzerliste kann gesucht werden. Verwenden Sie dafür die vorhandenen Suchfelder.
@@ -19,7 +20,7 @@ Wird ein Benutzer aus der Benutzerliste gewählt, werden dessen Informationen in
 
 .. image:: ../../media/screenshots-de/oxbadq02.png
    :alt: 
-   :height: 67
+   :height: 65
    :width: 650
 
 Unter :menuselection:`Benutzer verwalten --> Benutzerliste` werden ebenfalls alle Benutzer in einer Übersicht angezeigt. Dabei kann in einer Dropdown-Liste ausgewählt werden, ob 50, 100 oder 200 Benutzer in der Benutzerliste zu sehen sein sollen. Benutzer können über Vorname, Nachname, E-Mail-Adresse und Datum der Registrierung gesucht werden. Die Suche grenzt die angezeigten Benutzer in der Liste ein. Der Klick auf ein beliebiges Feld des Benutzers in der Liste öffnet diesen für die Bearbeitung.
