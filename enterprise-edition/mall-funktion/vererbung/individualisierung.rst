@@ -17,11 +17,14 @@ Beispiel: Außer den Preisen soll, wie im obigen Screenshot zu sehen, auch die K
 
 Eintrag in der Konfigurationsdatei:
 
-``$this--> aMultishopArticleFields = array(\"OXPRICE\",\"OXPRICEA\",\"OXPRICEB\",\"OXPRICEC\", \"OXUPDATEPRICE\",\"OXUPDATEPRICEA\",\"OXUPDATEPRICEB\",\"OXUPDATEPRICEC\",\"OXUPDATEPRICETIME\", 
-\"OXSHORTDESC\");``
+.. code:: php
+
+   $this--> aMultishopArticleFields = array(\"OXPRICE\",\"OXPRICEA\",\"OXPRICEB\",\"OXPRICEC\",\"OXUPDATEPRICE\",\"OXUPDATEPRICEA\",\"OXUPDATEPRICEB\",\"OXUPDATEPRICEC\",\"OXUPDATEPRICETIME\", \"OXSHORTDESC\");
 
 In der Datenbanktabelle oxfield2shops muss für OXSHORTDESC ein Eintrag erstellt werden.
 
-``ALTER TABLE oxfield2shop ADD OXSHORTDESC VARCHAR(255) NOT NULL DEFAULT '' COMMENT 'Kurzbeschreibung';``
+.. code:: mysql
+
+   ALTER TABLE oxfield2shop ADD OXSHORTDESC VARCHAR(255) NOT NULL DEFAULT '' COMMENT 'Kurzbeschreibung';
 
 .. Intern: oxaags, Status:
