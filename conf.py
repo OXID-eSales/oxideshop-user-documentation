@@ -355,3 +355,10 @@ texinfo_documents = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+from sphinx.highlighting import lexers
+from pygments.lexers.web import PhpLexer
+lexers['php'] = PhpLexer(startinline=True, linenos=1)
+lexers['php-annotations'] = PhpLexer(startinline=True, linenos=1)
+# Use PHP syntax highlighting in code examples by default
+highlight_language='php'
