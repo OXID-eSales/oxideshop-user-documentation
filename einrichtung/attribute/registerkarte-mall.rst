@@ -2,7 +2,7 @@
 ==================
 Die Registerkarte :guilabel:`Mall` ist bei Attributen nur in der OXID eShop Enterprise Edition vorhanden.
 
-Attribute können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und `:guilabel:`:guilabel:`Einstellungen `vom Elternshop` gewählt, enthält ein neuer Shop auch alle Attribute des Elternshops. Die vererbten Attribute sind nicht änderbar und behalten ihre ursprüngliche Verknüpfung mit Artikeln. Sie können aber Kategorien zugewiesen werden, damit diese sich nach Attributen filtern lassen.
+Attribute können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` gewählt, enthält ein neuer Shop auch alle Attribute des Elternshops. Die vererbten Attribute sind nicht änderbar und behalten ihre ursprüngliche Verknüpfung mit Artikeln. Sie können aber Kategorien zugewiesen werden, damit diese sich nach Attributen filtern lassen.
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen des Attributes zu Subshops und Supershops verwaltet. Multishops übernehmen keine Attribute aus anderen Shops.
 
