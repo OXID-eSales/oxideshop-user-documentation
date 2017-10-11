@@ -3,6 +3,7 @@
 
 .rst-content .guilabel, .menuselection {
 	font-weight: bold;
+    border: 0px;
 }
 
 .pre{
