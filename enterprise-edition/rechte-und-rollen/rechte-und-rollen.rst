@@ -43,15 +43,15 @@ Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop
 
 .. image:: ../../media/screenshots-de/oxbaev03.png
    :alt: Rechte für Detailansicht (Rechte und Rollen)
-   :height: 310
-   :width: 612
+   :height: 158
+   :width: 319
 
-Auf der Detailseite und auch in den Artikelübersichten werden, auf dem Screenshot als Beispiel zu sehen, keine Preise für nicht berechtigte Benutzer angezeigt.
+Auf der Detailseite, auf dem Screenshot als Beispiel zu sehen, und auch in den Artikelübersichten werden keine Preise für nicht berechtigte Benutzer angezeigt.
 
 .. image:: ../../media/screenshots-de/oxbaev04.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
-   :height: 170
-   :width: 300
+   :height: 310
+   :width: 612
 
 Rechte und Rollen für den Administrationsbereich (Backend)
 ----------------------------------------------------------
@@ -63,7 +63,7 @@ Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Nav
 
 .. image:: ../../media/screenshots-de/oxbaev05.png
    :alt: Zugriff im Administrationsbereich
-   :height: 317
+   :height: 335
    :width: 650
 
 Zugriff auf Artikel und Kategorien
@@ -72,7 +72,7 @@ Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differe
 
 .. image:: ../../media/screenshots-de/oxbaev06.png
    :alt: Zugriff im Administrationsbereich
-   :height: 317
+   :height: 335
    :width: 650
 
 Das Dokument `Rights and Roles <https://www.oxid-esales.com/fileadmin/files/TechDok/Documents/Rights_and_Roles.pdf>`_ in englischer Sprache enthält einige detailliertere Informationen aus Sicht des Administrators und des Entwicklers.

@@ -3,13 +3,13 @@
 
 Die Registerkarte :guilabel:`Mall` ist bei Versandarten nur in der OXID eShop Enterprise Edition vorhanden.
 
-Versandarten können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und :guilabel:`Einstellungen vom Elternshop` gewählt, enthält ein neuer Shop auch alle Versandarten des Elternshops. Die vererbten Versandarten sind nicht änderbar und behalten auch die ursprünglichen Verknüpfungen mit den Zahlungsarten, den Benutzergruppen oder einzelnen Benutzern bei.
+Versandarten können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` gewählt, enthält ein neuer Shop auch alle Versandarten des Elternshops. Die vererbten Versandarten sind nicht änderbar und behalten auch die ursprünglichen Verknüpfungen mit den Zahlungsarten, den Benutzergruppen oder einzelnen Benutzern bei.
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Versandart zu Subshops und Supershops verwaltet. Multishops übernehmen keine Versandarten aus anderen Shops.
 
 .. image:: ../../media/screenshots-de/oxbadh01.png
    :alt: Versandarten - Registerkarte Mall
-   :height: 341
+   :height: 334
    :width: 650
 
 Es ist möglich, die Vererbung aller Versandarten für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte Mall des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen von :guilabel:`Alle Lieferinformationen vom Elternshop erben` entfernt werden. Dadurch wird auch die Verknüpfung zu den geerbten Versandkostenregeln aufgehoben.

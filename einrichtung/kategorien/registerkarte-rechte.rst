@@ -7,7 +7,7 @@ Auf der Registerkarte :guilabel:`Rechte` können einer Kategorie Benutzergruppen
 
 .. image:: ../../media/screenshots-de/oxbacg01.png
    :alt: Kategorien - Registerkarte Rechte
-   :height: 342
+   :height: 334
    :width: 650
 
 Das ausschließliche Recht legt zum einen fest, dass die Kategorie nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, nach Anmeldung am Shop sichtbar ist. Allen übrigen Benutzern und Benutzergruppen wird diese Kategorie und deren Artikel niemals angezeigt, der Menüpunkt ausgeblendet.
