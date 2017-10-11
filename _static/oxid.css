@@ -18,6 +18,11 @@
     font-style: italic;
     font-weight: bold;
     font-size: 100%;
+    padding: 0;
+}
+
+.rst-content .docutils{
+    padding: 0;
 }
 
 .file .pre{
