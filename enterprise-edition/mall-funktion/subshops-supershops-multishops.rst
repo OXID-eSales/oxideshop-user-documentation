@@ -10,7 +10,7 @@ Der *Multishop* kommt ohne Vererbung aus, denn er zeigt alle Artikel, Hersteller
 
 .. image:: ../../media/screenshots-de/oxbagn01.png
    :alt: Neuen Shop anlegen
-   :height: 315
+   :height: 335
    :width: 650
 
 Ein neuer Shop kann unter :menuselection:`Stammdaten --> Grundeinstellungen` angelegt werden. Nutzen Sie dafür die Funktion am unteren Bildschirmrand.
@@ -36,7 +36,7 @@ Unter :menuselection:`Stammdaten --> Grundeinstellungen` können auf der Registe
 
 .. image:: ../../media/screenshots-de/oxbagn02.png
    :alt: Multishop - Registerkarte Mall
-   :height: 315
+   :height: 334
    :width: 650
 
 :guilabel:`URL des Shops` |br|
