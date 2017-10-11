@@ -9,7 +9,7 @@ Für Multishops gibt es die Möglichkeit, dass sie alle Kategorien von allen Sho
 
 .. image:: ../../media/screenshots-de/oxbacf01.png
    :alt: Kategorien - Registerkarte Mall
-   :height: 342
+   :height: 334
    :width: 650
 
 :guilabel:`Verknüpft mit folg. Subshops` |br|

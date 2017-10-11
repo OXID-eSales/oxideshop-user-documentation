@@ -8,7 +8,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Artikels 
 
 .. image:: ../../media/screenshots-de/oxbacl01.png
    :alt: Artikel - Registerkarte Mall
-   :height: 342
+   :height: 334
    :width: 650
 
 Es ist möglich, die Vererbung aller Artikel für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.
