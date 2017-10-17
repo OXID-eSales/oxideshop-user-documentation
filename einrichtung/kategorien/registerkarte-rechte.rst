@@ -25,6 +25,6 @@ Per Option kann festgelegt werden, ob die jeweilige Berechtigung ausschließlich
 
 Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
 
-.. seealso:: :doc:`Rechte und Rollen <../../enterprise-edition/rechte-und-rollen/rechte-und-rollen>`
+.. seealso:: :doc:`Rechte und Rollen <../../konfiguration/rechte-und-rollen>`
 
 .. Intern: oxbacg, Status:, F1: category_rights.html

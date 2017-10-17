@@ -10,6 +10,5 @@ Anwenderdokumentation
    Konfiguration <konfiguration/index>
    Einrichtung <einrichtung/index>
    Betrieb <betrieb/index>
-   Enterprise Edition <enterprise-edition/index>
    Releases <releases/index>
 
