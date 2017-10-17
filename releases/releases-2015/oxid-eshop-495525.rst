@@ -22,7 +22,7 @@ Varnish ab Version 4.0.3 für Caching (Enterprise Edition)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Varnish Version 3.0 wird nicht mehr länger unterstützt, da die Software bereits seit April 2015 den Status End Of Life (EOL) erreicht hat. Die jetzt ausgelieferte Datei :file:`default.vcl` enthält die Konfiguration für Varnish ab Version 4.0.3. Bitte setzen Sie nicht die Versionen 4.0.0, 4.0.1 und 4.0.2 ein, da diese Probleme in der Behandlung von Cookies hatten, die dazu führten, dass Artikel nicht in den Warenkorb gelegt und Kunden sich nicht an den Shop anmelden konnten.
 
-Wenn dieses Verhalten in Ihrem Shop auftritt und Sie nicht auf die neueste Version von Varnish aktualisieren können, verwenden Sie den im Dokument :doc:`Reverse Proxy Varnish </enterprise-edition/caching/reverse-proxy-varnish>` der Dokumentation zur Enterprise Edition beschriebenen Workaround.
+Wenn dieses Verhalten in Ihrem Shop auftritt und Sie nicht auf die neueste Version von Varnish aktualisieren können, verwenden Sie den im Dokument :doc:`Reverse Proxy Varnish </konfiguration/caching/reverse-proxy-varnish>` beschriebenen Workaround.
 
 OXID eFire Extension PayPal 3.2.2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

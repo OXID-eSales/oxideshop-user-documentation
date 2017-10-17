@@ -34,13 +34,13 @@ Caching (nur Enterprise Edition)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Für die Enterprise Edition wurde ein neues Caching-System implementiert. Es wird durch drei Hauptkomponenten umgesetzt: durch den in den OXID eShop integrierten Cache Manager, unterstützt durch den Reverse Proxy Varnish und/oder durch Memcached. Das Zusammenwirken der Komponenten bewirkt, dass – wenn immer möglich – zwischengespeicherte Inhalte genutzt und an die anfragenden Web-Clients geschickt werden. Damit werden die Datenbankzugriffe reduziert und die Antwortzeiten des OXID eShop verkürzt.
 
-Anleitung zur Konfiguration von Varnish und Memcached sowie zu den Einstellungen für das Caching finden Kunden mit einer Enterprise Edition und ausgewählte Partner im Abschnitt :doc:`Enterprise Edition </enterprise-edition/enterprise-edition>` unserer Online-Dokumentation.
+Anleitung zur Konfiguration von Varnish und Memcached sowie zu den Einstellungen für das Caching finden Sie im Abschnitt :doc:`Caching </konfiguration/caching/caching>` unserer Online-Dokumentation.
 
 Master/Slave (nur Enterprise Edition)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Die Enterprise Edition kann bei aktiviertem Master/Slave mit mehreren Datenbanken betrieben werden. Dabei ist eine Datenbank die Master-Datenbank, die hauptsächlich Schreibzugriffe verarbeitet. Die Slave-Datenbanken enthalten gespiegelte Daten und bedienen die Lesezugriffe. Ein Load-Balancer verteilt die Datenbankzugriffe nach dieser grundsätzlichen Unterscheidung auf die Master-Datenbank und auf die Slave-Datenbanken.
 
-Kunden mit einer Enterprise Edition und ausgewählte Partner finden die Anleitung zur Konfiguration von Master/Slave ebenfalls im Abschnitt :doc:`Enterprise Edition </enterprise-edition/enterprise-edition>` unserer Online-Dokumentation.
+Sie finden die Anleitung zur Konfiguration von Master/Slave im Dokument :doc:`Master/Slave </konfiguration/master-slave>` unserer Online-Dokumentation.
 
 Widgets
 ^^^^^^^
