@@ -1,5 +1,6 @@
 ﻿Mehrwertsteuer
 ==============
+
 Grundlegende Einstellungen zur Mehrwertsteuer können im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Mehrwertsteuer` vorgenommen werden. Die Standardeinstellungen nach der Installation sind für die meisten Shops geeignet, so dass hier in der Regel keine Änderungen notwendig sind. Alle aufgelisteten Optionen sind nicht aktiv und für die Mehrwehrtsteuer gilt 19 Prozent als Standard.
 
 :guilabel:`Standard-MwSt.-Satz für alle Artikel` |br|

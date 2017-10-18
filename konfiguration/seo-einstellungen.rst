@@ -1,5 +1,6 @@
 ﻿SEO-Einstellungen
 =================
+
 Kunden beginnen die Suche nach Artikeln sehr oft mit Anfragen bei Suchmaschinen und -portalen. Damit sie dabei genau Ihren Shop, die Artikel und speziellen Angebote finden, müssen die entsprechenden Informationen optimal aufbereitet und indiziert sein. Der OXID eShop beherrscht seit der 4er Version die Suchmaschinenoptimierung, englisch: Search Engine Optimization (SEO). Die SEO-Implementierung erzeugt automatisch sprechende URLs für Kategorien und Artikel. Dabei werden reservierte Wörter und Sonderzeichen ebenso berücksichtigt, wie unterschiedliche Sprachen des Shops.
 
 Shopbetreiber müssen lediglich einige Einstellungen vornehmen, um konkrete Inhalte für die Suchmaschinenoptimierung vorzugeben. Dabei handelt es sich um den Seitentitel, den Aufbau der URLs und die sogenannten Metadaten. Die Inhalte können in jeder Sprache des Shops definiert werden.

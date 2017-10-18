@@ -1,5 +1,6 @@
 ﻿Memcached
 =========
+
 Damit Memcached für das Caching des OXID eShop eingesetzt werden kann, muss das System auf einem separaten Server installiert werden. Sobald Memcached vom OXID eShop erkannt wird, kann es im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Cache` als :guilabel:`Cache Connector` ausgewählt werden.
 
 Installation

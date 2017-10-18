@@ -1,5 +1,6 @@
 ﻿Caching
-*******
+=======
+
 In allen Shop-Editionen werden standardmäßig die Tabellenstrukturen der Datenbank, die Inhalte der verwendeten Sprachdateien und die durch die Smarty Template Engine kompilierten Templates gespeichert. Auch Abfragen der Datenbanktabelle OXSEO werden, wenn in den Performance-Einstellungen aktiviert, in Dateien geschrieben, um wiederholte Datenbankzugriffe zu vermeiden. Speicherort der Dateien ist das Verzeichnis :file:`/tmp` des Shops und dessen Unterverzeichnisse, beispielsweise :file:`/tmp/smarty`. Das Zwischenspeichern bewirkt, dass – wenn immer möglich – Inhalte aus dem Cache genutzt und an die anfragenden Web-Clients geschickt werden. Damit werden die Datenbankzugriffe reduziert und die Antwortzeiten des OXID eShop signifikant verkürzt.
 
 OXID eShop Enterprise Edition bietet für das Caching weit darüber hinausgehende Möglichkeiten.
@@ -19,17 +20,17 @@ Der *Reverse Proxy Varnish* ist ein Webbeschleuniger. Das System verarbeitet noc
 -----------------------------------------------------------------------------------------
 
 Reverse Proxy Varnish
-+++++++++++++++++++++
+---------------------
 **Inhalte**: Varnish, Funktionsweise, Hinweise zur Installation, Konfiguration, default.vcl, servers_conf.vcl, HTTP, HTTPS, SSL |br|
 :doc:`Artikel lesen <reverse-proxy-varnish>` |link|
 
 Memcached
-+++++++++
+---------
 **Inhalte**: Memcached, Hinweise zur Installation, Konfiguration |br|
 :doc:`Artikel lesen <memcached>` |link|
 
 Caching-Einstellungen
-+++++++++++++++++++++
+---------------------
 **Inhalte**: Default Cache Backend, Cache Lebensdauer (TTL), Cache Connector, Dateisystem, Cache-Verzeichnis, Memcached, Memcached Server, Reverse Proxy, cachebare Seiten, Dynamic Content Caching, cachebare Klassen |br|
 :doc:`Artikel lesen <caching-einstellungen>` |link|
 

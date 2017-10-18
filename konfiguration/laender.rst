@@ -1,5 +1,6 @@
 ﻿Länder
-******
+======
+
 Die Konfiguration des OXID eShop beinhaltet auch die Ländereinstellungen. Diese werden beispielsweise zum Einrichten von Versandkosten und Zahlungsarten benötigt. Bei der Installation haben Sie im Schritt 2 ein Hauptlieferland angegeben, welches bislang das einzige aktive Land ist. Damit Sie Ihre Artikel auch an Kunden in andere Länder liefern können, müssen Sie diese weiteren Länder aktivieren.
 
 Land aktivieren
