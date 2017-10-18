@@ -1,8 +1,11 @@
 ﻿Konfiguration
 =============
+
 Im Abschnitt \"Konfiguration\" werden die wichtigsten Einstellungen vorgestellt, die für den Betrieb Ihres OXID eShop notwendig sind.
 
 Die Einstellungen werden im Administrationsbereich vorgenommen. Rufen Sie den Administrationsbereich Ihres OXID eShop unter ``www.ihreshopurl.de/admin`` auf. Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL Ihres Shops. Die Login-Seite des Administrationsbereichs wird geöffnet. Melden Sie sich mit den Zugangsdaten an, die Sie bei der Installation des Shops vergeben haben. Bei der Anmeldung können Sie entscheiden, in welcher Sprache der Administrationsbereich angezeigt werden soll. Es stehen auch mehrere Profile zur Auswahl, die den Administrationsbereich für verschiedene Monitorauflösungen darstellen.
+
+-----------------------------------------------------------------------------------------
 
 Firmendaten
 -----------
@@ -48,5 +51,31 @@ Bilder
 ------
 **Inhalte**: Bildgenerierung und -qualität, Bildqualität und Dateigröße, Bildgrößen für Artikelbilder, Zoom-Bilder, Thumbails, Icons, Kategoriebilder und Hersteller-/Markenlogos, Standardgrößen in Pixeln (Breite*Höhe) |br|
 :doc:`Artikel lesen <bilder>` |link|
+
+-----------------------------------------------------------------------------------------
+
+Mall-Funktion
+-------------
+Nur Enterprise Edition |br|
+**Inhalte**: Mall, Shoptypen, Hauptshop, Subshop, Supershop, Multishop, Vererbung, Vererbungseinstellungen, Individualisierungen |br|
+:doc:`Artikel lesen <mall-funktion/mall-funktion>` |link|
+
+Rechte und Rollen
+-----------------
+Nur Enterprise Edition |br|
+**Inhalte**: Rechte, Rollen, Rechte für Frontend, Artikel und Kategorien anzeigen, Artikel und Kategorien kaufen, Rollen für Zugriff auf Detailseite, Rechte für Administrationsbereich, Zugriff auf Menüs, Artikel und Kategorien |br|
+:doc:`Artikel lesen <rechte-und-rollen>` |link|
+
+Caching
+-------
+Nur Enterprise Edition |br|
+**Inhalte**: Caching, Reverse Proxy Varnish, Memcached, Installation und Konfiguration, Cache-Manager, Default Cache Backend, Dynamic Content Caching |br|
+:doc:`Artikel lesen <caching/caching>` |link|
+
+Master/Slave
+------------
+Nur Enterprise Edition |br|
+**Inhalte**: Master, Slave, Master-Datenbank, Schreibzugriffe, Slave-Datenbanken, Lesezugriffe, Load-Balancer |br|
+:doc:`Artikel lesen <master-slave>` |link|
 
 .. Intern: oxaaas, Status:

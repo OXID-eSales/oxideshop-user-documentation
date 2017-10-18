@@ -1,5 +1,6 @@
 ﻿Lagerverwaltung
 ===============
+
 In den OXID eShop ist eine Verwaltung der Artikelbestände integriert. Dem Kunden kann so angezeigt werden, ob ein Artikel vorrätig ist. Hinsichtlich der Lieferbarkeit eines Artikels gibt es drei verschiedene Status: es sind viele, nur wenige Stück oder keine Artikel davon auf Lager. Der Status wird durch ein farbiges Symbol und einen Hinweistext in den Artikeldetails angezeigt.
 
 Artikel mit ausreichend großer Stückzahl
