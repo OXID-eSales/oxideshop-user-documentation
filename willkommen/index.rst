@@ -4,4 +4,4 @@ Willkommen
 .. toctree::
    :maxdepth: 1
       
-   ueber-dokumentation-und-hilfe
+   ueber-die-anwenderdokumentation
