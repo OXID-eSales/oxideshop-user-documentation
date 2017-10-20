@@ -9,4 +9,4 @@ Betrieb
    Bestellungen <bestellungen/index>
    Aktionen <aktionen/index>
    Rabatte <rabatte/index>
-   Gutscheine <gutscheinserien/index>
+   Gutscheinserien <gutscheinserien/index>
