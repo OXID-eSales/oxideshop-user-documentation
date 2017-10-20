@@ -21,7 +21,7 @@ Der OXID eShop 4.10.0/5.3.0 wird mit dem responsiven Theme \"Flow\" (Beta-Versio
 
 Installation
 ^^^^^^^^^^^^
-Für die Installation, folgen Sie bitte den Anleitungen in der Dokumentation und Hilfe:
+Für die Installation, folgen Sie bitte den Anleitungen im Abschnitt "Installation":
 
 :doc:`Neu-Installation </installation/neu-installation/index>` |br|
 :doc:`Update-Installation </installation/update-installation/index>`

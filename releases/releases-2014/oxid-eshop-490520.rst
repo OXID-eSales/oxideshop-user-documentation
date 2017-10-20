@@ -21,7 +21,7 @@ Der OXID eShop 4.9.0/5.2.0 wird mit der OXID eFire Extension PayPal (Standalone-
 
 Installation
 ^^^^^^^^^^^^
-Für die Installation, folgen Sie bitte den Anleitungen in der Dokumentation und Hilfe:
+Für die Installation, folgen Sie bitte den Anleitungen im Abschnitt "Installation":
 
 :doc:`Neu-Installation </installation/neu-installation/index>` |br|
 :doc:`Update-Installation </installation/update-installation/index>`
