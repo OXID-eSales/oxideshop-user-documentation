@@ -13,6 +13,9 @@ Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lässt sich 
 :guilabel:`Name` |br|
 Name des Rabattes. Dieser wird im Warenkorb als eine Zeile in der Auflistung des Gesamtbetrages angezeigt, wenn der Rabatt global für den kompletten Warenkatalog des Shops gilt.
 
+:guilabel:`Sortierung` |br|
+Mit einem Wert kann vorgegeben werden, in welcher Reihenfolge die Rabatte auf Artikel oder den Warenkorb angewendet werden. Der Rabatt mit der kleinsten Zahl wird zuerst berücksichtigt, der mit der größten Zahl zuletzt.
+
 :guilabel:`Immer aktiv` |br|
 Aktivieren Sie dieses Kontrollkästchen, damit der Rabatt dauerhaft gewährt wird. Ist das Kontrollkästchen nicht angehakt, wird für den Rabatt ein eingetragener Zeitraum berücksichtigt.
 

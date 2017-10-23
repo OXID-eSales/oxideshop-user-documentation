@@ -12,6 +12,9 @@ Mit der Sprachumstellung, die erst nach Anlegen des Artikels unten im Eingabeber
 :guilabel:`Aktiv` |br|
 Aktivieren Sie dieses Kontrollkästchen, damit der Artikel im Shop angezeigt wird. Wenn ein Artikel nicht aktiviert wurde, ist er in der Datenbank vorhanden, erscheint jedoch nicht im Shop.
 
+:guilabel:`Versteckt` |br|
+Wenn dieses Kontrollkästchen aktiviert ist, wird der Artikel nicht im Shop-Frontend angezeigt, ist aber mit einem direkten Link aufrufbar. Dadurch kann der Artikel im Shop gefunden werden, auch wenn er momentan oder gar nicht mehr angeboten wird, der Link aber noch in den Suchmaschinen gelistet ist.
+
 :guilabel:`Oder aktiv von` ... :guilabel:`bis` ... |br|
 Es kann ein Zeitraum definiert werden, in dem ein Artikel aktiv ist. Auf diese Weise lässt sich beispielsweise ein Angebot umsetzen, das nur für eine bestimmte Zeit gültig sein soll. Anfang und Ende müssen im Format JJJJ-MM-TT HH:MM:SS angegeben werden. Datum und Zeit des Endes der Aktivierung sind nicht optional. Wollen Sie einen Artikel im Grunde nur ab einem bestimmten Datum aktiv schalten, geben Sie einfach eine weit in der Zukunft liegende Endezeit ein.
 
