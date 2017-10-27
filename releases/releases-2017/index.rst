@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 1
 
+   OXID eShop 4.10.6/5.3.6 <oxid-eshop-4106536>
    OXID eShop 4.9.11/5.2.11 <oxid-eshop-49115211>
    OXID eShop 4.10.5/5.3.5 <oxid-eshop-4105535>
    OXID eShop 4.9.10/5.2.10 <oxid-eshop-49105210>
