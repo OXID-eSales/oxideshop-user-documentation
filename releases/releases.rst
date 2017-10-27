@@ -3,6 +3,11 @@
 
 Releases 2017
 -------------
+| 02.11.2017 - `OXID eShop 4.10.4/5.3.4 <releases-2017/oxid-eshop-4104534.html>`_
+| 02.11.2017 - `OXID eShop 4.9.11/5.2.11 <releases-2017/oxid-eshop-49115211.html>`_
+| 08.08.2017 - `OXID eShop 4.10.5/5.3.5 <releases-2017/oxid-eshop-4105535.html>`_
+| 08.08.2017 - `OXID eShop 4.9.10/5.2.10 <releases-2017/oxid-eshop-49105210.html>`_
+| 25.04.2017 - `OXID eShop 4.10.4/5.3.4 <releases-2017/oxid-eshop-4104534.html>`_
 | 31.01.2017 - `OXID eShop 4.10.3/5.3.3 <releases-2017/oxid-eshop-4103533.html>`_
 |
 

@@ -7,7 +7,7 @@ Edition: Enterprise Edition
 Versionsbezeichnung: 4.9.11 |br|
 Edition: Professional Edition und Community Edition
 
-Veröffentlichungstermin: xx.11.2017
+Veröffentlichungstermin: 02.11.2017
 
 ----------
 
