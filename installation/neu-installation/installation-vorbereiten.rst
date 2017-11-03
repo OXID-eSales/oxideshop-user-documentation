@@ -1,19 +1,68 @@
 ﻿Installation vorbereiten
 ========================
-Sie benötigen für eine Neuinstallation das aktuelle Installationspaket.
 
-Wollen Sie Ihren Onlineshop auf Basis einer Enterprise Edition aufbauen, wenden Sie sich bitte an den Vertrieb. Sie können dafür die Formulare für `Ihre Kontaktanfrage <https://www.oxid-esales.com/de/kontakt/anfrage.html>`_ oder `Ihre Rückrufbitte <https://www.oxid-esales.com/de/kontakt/rueckruf.html>`_ verwenden.
+Für die Neu-Installation des OXID eShop 6 sind einige Vorbereitungen notwendig.
 
-Die aktuelle Version der `Professional Edition <#todo#http://exchange.oxid-esales.com/de/OXID/OXID-eShop-Professional-Edition/>`_ können Sie im OXID eXchange herunterladen.
+.. |schritt| image:: ../../media/icons-de/schritt.jpg
 
-Für die Community Edition sollten Sie sich vor dem Download registrieren. Dadurch erhalten Sie Zugang zum Community Forum, in dem Sie sich mit anderen Shopbetreibern, Agenturen und Entwicklern austauschen können. Die helfen Ihnen gern bei den ersten Schritten mit dem OXID eShop weiter. Das Community Forum steht natürlich auch allen Shopbetreibern mit einer Enterprise oder Professional Edition zum Erfahrungsaustausch offen.
+|schritt| Composer installieren
+-------------------------------
 
-`Community Edition, aktuelle Version <https://www.oxid-esales.com/de/community/oxid-eshop-herunterladen.html>`_
+Die Installation des OXID eShop 6 basiert nicht mehr auf gepackten und herunterladbaren Installationspaketen, sondern wird mit Hilfe von Composer ausgeführt. Composer ist ein Dependency Manager für PHP, ein Tool, welches Abhängigkeiten von Programmbestandteilen eines Projektes berücksichtigt, während es die Dateien dieses Projekts in ein definiertes Verzeichnis installiert.
 
-`Community Edition, alle Installationspakete <https://oxidforge.org/en/downloads-en>`_
+Für die Neu-Installation des OXID eShop wird Composer benötigt. Eine Anleitung zur Installation finden Sie im Abschnitt "Getting Started" der Composer-Seiten: http://getcomposer.org.
 
-Alle Dateien für den OXID eShop sind in einem .zip-Archiv enthalten. Entpacken Sie das Installationspaket lokal. Meist ist dazu kein zusätzliches Programm notwendig, denn bei aktuellen Betriebssystemen gehört diese Funktion zu den Bordmitteln.
+|schritt| Shopdateien bereitstellen
+-----------------------------------
 
-Kopieren Sie anschließend die Shopdateien mit einem FTP-Programm in ein per Browser erreichbares Verzeichnis Ihres Webservers. Die Zugangsdaten zum Server erhalten Sie von Ihrem OXID Hosting Partner oder Internet Service Provider (ISP). Achten Sie darauf, dass die Dateien vom FTP-Programm im Binärmodus übertragen und dass auch versteckte Dateien, wie die :file:`.htaccess`, berücksichtigt werden.
+Die Shopdateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edition müssen dafür unterschiedliche Kommandos in der Shell ausgeführt werden. Die Shopdateien werden in einem Unterverzeichnis gespeichert, welches im Kommando mit :command:`your_project_name` angegeben wird. Dabei wird von dem Verzeichnis ausgegangen, in dem das Kommando in der Shell abgesetzt wird.
+
+.. hint:: Für die Installation der Professional und Enterprise Edition benötigen Sie zusätzlich die Zugangsdaten, die Sie beim Erwerb der Software erhalten haben.
+
+Community Edition
+^^^^^^^^^^^^^^^^^
+
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.0-ce`
+
+Professional Edition
+^^^^^^^^^^^^^^^^^^^^
+
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.0-pe`
+
+Enterprise Edition
+^^^^^^^^^^^^^^^^^^
+
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.0-ee`
+
+Nachdem Composer seine Arbeit beendet hat, existiert das mit *your_project_name* benannte neue Verzeichnis. Dieses ist das Hauptverzeichnis (Root) des Projektes und enthält alle Dateien, die für die Installation des OXID eShop benötigt werden.
+
+|schritt| Apache konfigurieren
+------------------------------
+
+Das Hauptverzeichnis muss nun in ein Verzeichnis verschoben werden, auf das der HTTP-Server zugreifen kann. Das Document Root-Verzeichnis des Apache muss auf das Verzeichnis :file:`/source` des Hauptverzeichnisses verweisen.
+
+|schritt| Datei- und Verzeichnisrechte anpassen
+-----------------------------------------------
+
+Der HTTP-Server benötigt zur Laufzeit Schreibzugriff auf folgende Verzeichnisse und ihre Unterverzeichnisse:
+
+:file:`/source/export` |br|
+:file:`/source/log/` |br|
+:file:`/source/out/pictures/` |br|
+:file:`/source/out/media/` |br|
+:file:`/source/tmp/`
+
+Für das webbasierte Setup muss der HTTP-Server auf folgendes Verzeichnis und diese Dateien schreibend zugreifen können:
+
+:file:`/source/Setup` |br|
+:file:`/source/config.inc.php` |br|
+:file:`/source/.htaccess`
+
+|schritt| Datenbank anlegen
+---------------------------
+
+Der OXID eShop benötigt eine MySQL-Datenbank, um darin alle Artikel, Kategorien, Kunden- und Bestelldaten sowie weitere Informationen speichern zu können. Die meisten Webhoster bieten Datenbankzugriff über eine spezielle Website, wie beispielsweise phpMyAdmin an. Wenn Sie dabei Hilfe benötigen, wenden Sie sich bitte an Ihren OXID Hosting Partner oder Internet Service Provider (ISP).
+
+Legen Sie jetzt eine neue MySQL-Datenbank an. Der Name der Datenbank ist frei wählbar und könnte beispielsweise *oxid_eshop* lauten. Merken Sie sich den Namen der Datenbank und die vergebenen Zugangsdaten zur Datenbank (Benutzername und Passwort). Diese Daten werden benötigt, wenn Sie das Setup ausführen.
 
 .. Intern: oxbaad, Status:

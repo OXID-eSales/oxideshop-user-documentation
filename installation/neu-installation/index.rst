@@ -7,6 +7,5 @@ Neu-Installation
    neu-installation
    server-und-systemvoraussetzungen
    installation-vorbereiten
-   datenbank-anlegen
    setup-ausfuehren
-   installation-pruefen
+   installation-abschliessen

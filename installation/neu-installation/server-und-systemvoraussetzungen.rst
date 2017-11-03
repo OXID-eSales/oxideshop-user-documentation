@@ -60,5 +60,4 @@ Für die zu einer Compilation gehörenden Module wird OpenSSL benötigt.
 
 * *openssl* >= 1.0.1
 
-.. Bitte beachten Sie auch die Installationshinweise und weiterführende Links auf der OXIDforge. Siehe `http://oxidforge.org/en/system-requirements <http://oxidforge.org/en/system-requirements>`_
 .. Intern: oxbaac, Status:
