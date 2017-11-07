@@ -139,8 +139,8 @@ html_context = {
     'versions':
             [('5.3', 'https://docs.oxid-esales.com/eshop/de/5.3/'),
              ('6.0', 'https://docs.oxid-esales.com/eshop/de/6.0/')],
-    'css_files': [('_static/oxid.css'),
-    'theme_logo_only': True]
+    'css_files': [('_static/oxid.css')],
+    'theme_logo_only': True
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
