@@ -21,13 +21,13 @@ Dokument in der Entwicklerdokumentation:
 
 |schritt| Dateien und Ordner
 ----------------------------
-Im Dokument wird beschrieben, wie Dateien und Ordner eines OXID eShop 4 bzw. 5 angepasst werden müssen. Dazu muss ein OXID eShop 6 parallel zum bestehenden OXID eShop 4 oder 5 installiert werden. Danach sind die Anweisungen auszuführen, welche eigene Scripts, die Konfigurationsdateien, die Sprachdateien, eigene Smarty-Plugins, die Log-Dateien sowie Dateien aus den Verzeichnissen /bin, /export und /log betreffen.
+Im Dokument wird beschrieben, wie Dateien und Ordner eines OXID eShop 4 bzw. 5 angepasst werden müssen. Dazu muss ein OXID eShop 6 parallel zum bestehenden OXID eShop 4 oder 5 installiert werden. Danach sind die Anweisungen auszuführen, welche eigene Scripts, die Konfigurationsdateien, die Sprachdateien, eigene Smarty-Plugins, die Log-Dateien sowie Dateien aus den Verzeichnissen :file:`/bin`, :file:`/export` und :file:`/log` betreffen.
 
 Dokument in der Entwicklerdokumentation:
 
 |schritt| Module
 ----------------
-Wenn Sie eigene Module in Ihrem OXID eShop einsetzen, erhalten Sie in diesem Dokument, wie diese für den OXID eShop 6 portiert werden müssen. Darin wird zwischen einer minimalen und einer vollen Anpassung unterschieden. Letztere garantiert die bestmögliche Integration der Module in den neuen Shop und wird daher empfohlen.
+Wenn Sie eigene Module in Ihrem OXID eShop einsetzen, erhalten Sie in diesem Dokument eine Anleitung, wie diese für den OXID eShop 6 portiert werden müssen. Darin wird zwischen einer minimalen und einer vollen Anpassung unterschieden. Letztere garantiert die bestmögliche Integration der Module in den neuen Shop und wird daher empfohlen.
 
 Dokument in der Entwicklerdokumentation:
 
