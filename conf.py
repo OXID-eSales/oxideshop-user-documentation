@@ -62,7 +62,7 @@ author = 'OXID eSales AG'
 # built documents.
 #
 # The short X.Y version.
-version = '6'
+version = '6.0'
 # The full version, including alpha/beta/rc tags.
 release = '6'
 
@@ -131,7 +131,8 @@ html_context = {
     'versions':
         [('5.3', 'https://docs.oxid-esales.com/eshop/de/5.3/'),
          ('6.0', 'https://docs.oxid-esales.com/eshop/de/6.0/')],
-    'css_files': [('_static/oxid.css')]}
+    'css_files': [('_static/oxid.css')],
+    'theme_logo_only': True}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -154,7 +155,7 @@ html_title = 'OXID eShop 6 | Anwenderdokumentation'
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-html_logo = None
+html_logo = '_static/img/logo.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -353,7 +354,7 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+#intersphinx_mapping = {'https://docs.python.org/': None}
 
 from sphinx.highlighting import lexers
 from pygments.lexers.web import PhpLexer
