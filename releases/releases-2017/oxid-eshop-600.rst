@@ -1,24 +1,17 @@
 ﻿OXID eShop 6.0.0
 ================
-Versionsbezeichnung: 5.2.0
 
-Edition: Enterprise Edition
-
-Versionsbezeichnung: 4.9.0
-
-Edition: Professional Edition und Community Edition
-
-Veröffentlichungstermin: 30.09.2014
-
-Veröffentlichungstermin RC 2: 18.09.2014
-
-Veröffentlichungstermin RC 1: 16.09.2014
-
-Veröffentlichungstermin Beta 1: 19.08.2014\
+Veröffentlichungstermin:  |br|
+Veröffentlichungstermin RC 3: 02.11.2017 |br|
+Veröffentlichungstermin RC 2: 15.08.2017 |br|
+Veröffentlichungstermin RC 1: 07.04.2017 |br|
+Veröffentlichungstermin Beta 3: 14.03.2017 |br|
+Veröffentlichungstermin Beta 2: 13.12.2016 |br|
+Veröffentlichungstermin Beta 1: 30.11.2016
 
 Allgemeines
 -----------
-Der OXID eShop 4.9.0/5.2.0 wird mit der OXID eFire Extension PayPal (Standalone-Modul) in Version 3.2.0 und dem Mobile Theme Version 1.3.0 ausgeliefert. Er läuft unter PHP 5.3 und PHP 5.4. Die Shopversion enthält einige Sicherheitsverbesserungen, so dass wir ein baldmöglichstes Update empfehlen.
+
 
 Installation
 ^^^^^^^^^^^^
@@ -64,14 +57,25 @@ Text
 
 Korrekturen
 -----------
-Korrekturen 6.0.0: `http://bugs.oxid-esales.com/changelog_page.php?version_id=265 <http://bugs.oxid-esales.com/changelog_page.php?version_id=xxx>`_
+Korrekturen 6.0.0: `https://bugs.oxid-esales.com/changelog_page.php?version_id= <https://bugs.oxid-esales.com/changelog_page.php?version_id=xxx>`_ |br|
+Korrekturen 6.0.0 RC 3: `https://bugs.oxid-esales.com/changelog_page.php?version_id=360 <https://bugs.oxid-esales.com/changelog_page.php?version_id=360>`_ |br|
+Korrekturen 6.0.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=356 <https://bugs.oxid-esales.com/changelog_page.php?version_id=356>`_ |br|
+Korrekturen 6.0.0 RC 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=351 <https://bugs.oxid-esales.com/changelog_page.php?version_id=351>`_ |br|
+Korrekturen 6.0.0 Beta 3: `https://bugs.oxid-esales.com/changelog_page.php?version_id=325 <https://bugs.oxid-esales.com/changelog_page.php?version_id=325>`_ |br|
+Korrekturen 6.0.0 Beta 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=341 <https://bugs.oxid-esales.com/changelog_page.php?version_id=341>`_ |br|
+Korrekturen 6.0.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=266 <https://bugs.oxid-esales.com/changelog_page.php?version_id=266>`_ |br|
 
-Korrekturen 6.0.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=264 <https://bugs.oxid-esales.com/changelog_page.php?version_id=xxx>`_
+.. Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-6-0-0.html>`_ .
 
-Korrekturen 6.0.0 RC 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=262 <https://bugs.oxid-esales.com/changelog_page.php?version_id=xxx>`_
+-----------------------------------------------------------------------------------------
 
-Korrekturen 6.0.0 Beta 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=228 <https://bugs.oxid-esales.com/changelog_page.php?version_id=xxx>`_
+Änderungen gegenüber vorhergehenden Versionen können im Repository der Community Edition auf GitHub eingesehen werden:
 
-Weiterführende Informationen für Entwickler finden Sie auf der `OXIDforge <http://oxidforge.org/en/oxid-eshop-version-6-0-0.html>`_ .
+RC 3 - Final:  |br|
+RC 1 - RC 2: `https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0.0-rc.2...v6.0.0-rc.3 <https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0.0-rc.2...v6.0.0-rc.3>`_ |br|
+RC 1 - RC 2: `https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0.0-rc.1...v6.0.0-rc.2 <https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0.0-rc.1...v6.0.0-rc.2>`_ |br|
+Beta 3 - RC 1: `https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0-beta.3...v6.0.0-rc.1 <https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0-beta.3...v6.0.0-rc.1>`_ |br|
+Beta 2 - Beta 3: `https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0-beta.2...v6.0-beta.3 <https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0-beta.2...v6.0-beta.3>`_ |br|
+Beta 1 - Beta 2: `https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0-beta.1...v6.0-beta.2 <https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0-beta.1...v6.0-beta.2>`_
 
 .. Intern: N/A, Status:
