@@ -26,7 +26,8 @@ Aufbau der URLs
 ---------------
 Sogenannte sprechende URLs sind ebenfalls ein wichtiger Teil der Suchmaschinenoptimierung. Anstatt URLs mit Parametern und kryptischen Werten anzuzeigen, wird die URL umgeschrieben und zeigt stattdessen den Namen der Kategorie und des Artikels. Das ist gut für Suchmaschinen und für Besucher Ihres Onlineshops allemal.
 
-Beispiel für intern verwendete URL: ``www.ihreshopurl.de/index.php?cl=details\&anid=f4f73033cf5045525644042325355732\&cnid=fadcb6dd70b9f6248efa425bd159684e``
+Beispiel für intern verwendete URL: ``www.ihreshopurl.de/index.php?`` |br|
+``cl=details\&anid=f4f73033cf5045525644042325355732\&cnid=fadcb6dd70b9f6248efa425bd159684e``
 
 Beispiel für umgeschriebene, sprechende URL:\``www.ihreshopurl.de/Angebote/Transportcontainer-THE-BARREL.html``
 
@@ -63,9 +64,11 @@ Obwohl Metadaten nicht mehr die entscheidende Bedeutung für Suchmaschinen haben
 
 Beispiel aus dem Demoshop:
 
-``\<meta name=\"description\"content=\"Alles zum Thema Wassersport, Sportbekleidung und Mode. Umfangreiches Produktsortiment mit den neusten Trendprodukten. Blitzschneller Versand.\"\>``
+``\<meta name=\"description\"content=\"Alles zum Thema Wassersport, Sportbekleidung und Mode.`` |br|
+``Umfangreiches Produktsortiment mit den neusten Trendprodukten. Blitzschneller Versand.\"\>``
 
-``\<meta name=\"keywords\"content=\"kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards, boards, strand, sommer, wassersport, mode, fashion, style, shirts, jeans, accessoires, angebote\"\>``
+``\<meta name=\"keywords\"content=\"kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards,`` |br|
+``boards, strand, sommer, wassersport, mode, fashion, style, shirts, jeans, accessoires, angebote\"\>``
 
 Startseite
 ^^^^^^^^^^
