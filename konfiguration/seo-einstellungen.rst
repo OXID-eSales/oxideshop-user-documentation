@@ -29,7 +29,7 @@ Sogenannte sprechende URLs sind ebenfalls ein wichtiger Teil der Suchmaschinenop
 Beispiel für intern verwendete URL: ``www.ihreshopurl.de/index.php?`` |br|
 ``cl=details\&anid=f4f73033cf5045525644042325355732\&cnid=fadcb6dd70b9f6248efa425bd159684e``
 
-Beispiel für umgeschriebene, sprechende URL:\``www.ihreshopurl.de/Angebote/Transportcontainer-THE-BARREL.html``
+Beispiel für umgeschriebene, sprechende URL: ``www.ihreshopurl.de/Angebote/Transportcontainer-THE-BARREL.html``
 
 Ebenso wie die Festlegungen für den Seitentitel sind die für die URLs sprachabhängig. Achten Sie darauf, dass die gewünschte Sprache ausgewählt ist.
 
@@ -39,7 +39,7 @@ Für die hier eingestellte Standardsprache werden keine Sprachkürzel (de, en us
 :guilabel:`SEO IDs Trennzeichen (z. B.\"+\",\"-\")` |br|
 Das Trennzeichen wird verwendet, wenn Kategorie- oder Artikeltitel aus mehreren Worten bestehen. Es wird anstelle eines Leerzeichens in die URL eingefügt. Der Bindestrich ist der Standard für das Trennzeichen.
 
-Beispiel:\``www.ihreshopurl.de/Kategorie-aus-mehreren-Worten/Artikel-aus-mehreren-Worten.html``.
+Beispiel: ``www.ihreshopurl.de/Kategorie-aus-mehreren-Worten/Artikel-aus-mehreren-Worten.html``.
 
 :guilabel:`SEO Suffix um gleiche Artikel zu unterscheiden` |br|
 Wenn mehrere Artikel den gleichen Titel haben und in der gleichen Kategorie sind, würden sie die gleiche URL erhalten. Damit das nicht passiert, wird das SEO Suffix angehängt. Dadurch werden gleiche URLs vermieden. Wenn Sie kein SEO Suffix angeben, wird ``-oxid`` als Standard verwendet.
