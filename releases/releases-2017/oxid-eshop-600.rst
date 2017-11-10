@@ -1,7 +1,7 @@
 ﻿OXID eShop 6.0.0
 ================
 
-Veröffentlichungstermin:  |br|
+Veröffentlichungstermin: 14.11.2017 |br|
 Veröffentlichungstermin RC 3: 02.11.2017 |br|
 Veröffentlichungstermin RC 2: 15.08.2017 |br|
 Veröffentlichungstermin RC 1: 07.04.2017 |br|
@@ -9,51 +9,21 @@ Veröffentlichungstermin Beta 3: 14.03.2017 |br|
 Veröffentlichungstermin Beta 2: 13.12.2016 |br|
 Veröffentlichungstermin Beta 1: 30.11.2016
 
+-----------------------------------------------------------------------------------------
+
 Allgemeines
 -----------
+Die Release Notes zum OXID eShop 6.0.0 sind in Bearbeitung. Alle relevanten Informationen finden Sie bis dahin in den englischsprachigen Blogpost der OXIDforge:
 
+OXID eShop v6.0.0 Beta1: Overview of Changes `https://oxidforge.org/en/oxid-eshop-v6-0-0-beta1-overview-of-changes.html <https://oxidforge.org/en/oxid-eshop-v6-0-0-beta1-overview-of-changes.html>`_ |br|
+OXID eShop v6.0.0 Beta1 released `https://oxidforge.org/en/oxid-eshop-v6-0-0-beta1-released.html <https://oxidforge.org/en/oxid-eshop-v6-0-0-beta1-released.html>`_ |br|
+OXID eShop v6.0.0 Beta2 is published `https://oxidforge.org/en/oxid-eshop-v6-0-0-beta2-published.html <https://oxidforge.org/en/oxid-eshop-v6-0-0-beta2-published.html>`_ |br|
+OXID eShop v6.0.0 Beta3 is published `https://oxidforge.org/en/oxid-eshop-v6-0-0-beta3-released.html <https://oxidforge.org/en/oxid-eshop-v6-0-0-beta3-released.html>`_ |br|
+OXID eShop v6.0.0 RC1 (partner release) is published `https://oxidforge.org/en/oxid-eshop-v6-0-0-rc1-is-published.html <https://oxidforge.org/en/oxid-eshop-v6-0-0-rc1-is-published.html>`_ |br|
+OXID eShop v6.0.0 RC2 is published `https://oxidforge.org/en/oxid-eshop-v-6-0-0-rc2-published.html <https://oxidforge.org/en/oxid-eshop-v-6-0-0-rc2-published.html>`_ |br|
+OXID eShop v6.0.0 RC3 is published `https://oxidforge.org/en/oxid-eshop-v6-0-0-rc3-is-published.html <https://oxidforge.org/en/oxid-eshop-v6-0-0-rc3-is-published.html>`_ |br|
 
-Installation
-^^^^^^^^^^^^
-Für die Installation, folgen Sie bitte den Anleitungen in der Dokumentation und Hilfe:
-
-:doc:`OXID eShop neu installieren <../../installation/neu-installation/server-und-systemvoraussetzungen>`
-
-Hinweis: Wir empfehlen dringend, das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, auszuführen. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
-
-Neue Funktionen
----------------
-
-Erste neue Funktion
-^^^^^^^^^^^^^^^^^^^
-Text
-
-Zweite neue Funktion
-^^^^^^^^^^^^^^^^^^^^
-Text
-
-Verbesserungen und Anpassungen
-------------------------------
-
-Erste Verbesserung
-^^^^^^^^^^^^^^^^^^
-Text
-
-Zweite Verbesserung
-^^^^^^^^^^^^^^^^^^^
-Text
-
-Änderungen in Templates
-^^^^^^^^^^^^^^^^^^^^^^^
-Es gab Änderungen in Templates und Sprachdateien ...
-
-Optimierte Performance
-^^^^^^^^^^^^^^^^^^^^^^
-Text
-
-Sicherheitsverbesserungen
-^^^^^^^^^^^^^^^^^^^^^^^^^
-Text
+-----------------------------------------------------------------------------------------
 
 Korrekturen
 -----------
