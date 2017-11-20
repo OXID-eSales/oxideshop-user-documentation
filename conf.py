@@ -140,7 +140,14 @@ html_context = {
             [('5.3', 'https://docs.oxid-esales.com/eshop/de/5.3/'),
              ('6.0', 'https://docs.oxid-esales.com/eshop/de/6.0/')],
     'css_files': [('_static/oxid.css')],
-    'theme_logo_only': True
+    'theme_logo_only': True,
+    'show_sphinx': False,
+    'display_github': True,
+    # Set the following variables to generate the resulting github URL for each page.
+    # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
+    'github_user': 'OXID-eSales',
+    'github_repo': 'oxideshop-user-documentation',
+    'github_version': 'b-5.3/'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
