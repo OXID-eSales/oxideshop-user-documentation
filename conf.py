@@ -163,7 +163,7 @@ html_title = 'OXID eShop 6 | Anwenderdokumentation'
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-html_logo = '_static/img/logo.png'
+html_logo = '_themes/sphinx_rtd_theme/static/logo.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
