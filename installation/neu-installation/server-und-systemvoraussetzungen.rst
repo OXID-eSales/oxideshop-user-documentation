@@ -13,7 +13,9 @@ Webserver
 * 750 MB freier Webspace für die Enterprise Edition
 * Installierte Erweiterung *mod_rewrite*
 
-Der Zend Guard Loader wird nicht länger benötigt, da der OXID eShop 6 nicht mehr verschlüsselt ist.
+Bitte beachten Sie, dass trotz installierter Erweiterung *mod_rewrite* bei der Prüfung der Systemgesundheit die Voraussetzungen nicht erfüllt sein können. Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts. Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
+
+Der Zend Guard Loader wird nicht länger benötigt, da der OXID eShop 6 unverschlüsselt ist.
 
 MySQL
 -----
