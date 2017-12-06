@@ -17,30 +17,30 @@ Dieses Dokument beschreibt alle Änderungen im OXID eShop, welche die Datenbank 
 
 Bevor die datenbankrelevanten Schritte durchgeführt werden, müssen die Datenbanktabellen und -felder bis auf wenige Ausnahmen auf UTF-8 umgestellt worden sein.
 
-Dokument in der Entwicklerdokumentation:
+Dokument in der Entwicklerdokumentation: `https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/database.html <https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/database.html>`_
 
 |schritt| Dateien und Ordner
 ----------------------------
 Im Dokument wird beschrieben, wie Dateien und Ordner eines OXID eShop 4 bzw. 5 angepasst werden müssen. Dazu muss ein OXID eShop 6 parallel zum bestehenden OXID eShop 4 oder 5 installiert werden. Danach sind die Anweisungen auszuführen, welche eigene Scripts, die Konfigurationsdateien, die Sprachdateien, eigene Smarty-Plugins, die Log-Dateien sowie Dateien aus den Verzeichnissen :file:`/bin`, :file:`/export` und :file:`/log` betreffen.
 
-Dokument in der Entwicklerdokumentation:
+Dokument in der Entwicklerdokumentation: `https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/files.html <https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/files.html>`_
 
 |schritt| Module
 ----------------
 Wenn Sie eigene Module in Ihrem OXID eShop einsetzen, erhalten Sie in diesem Dokument eine Anleitung, wie diese für den OXID eShop 6 portiert werden müssen. Darin wird zwischen einer minimalen und einer vollen Anpassung unterschieden. Letztere garantiert die bestmögliche Integration der Module in den neuen Shop und wird daher empfohlen.
 
-Dokument in der Entwicklerdokumentation:
+Dokument in der Entwicklerdokumentation: `https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/modules.html <https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/modules.html>`_
 
 |schritt| Theme
 ---------------
 Das Dokument gibt einige Hinweise zur Umstellung eines Shops auf das neue Standard-Theme "Flow", welches das Theme "Azure" des OXID eShop 4 & 5 abgelöst hat.
 
-Dokument in der Entwicklerdokumentation:
+Dokument in der Entwicklerdokumentation: `https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/theme.html <https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/theme.html>`_
 
 |schritt| Neue und entfernte Funktionen
 ---------------------------------------
 Der Abschnitt informiert zum einen über Funktionen, die aus dem Shop in einzelne Module ausgelagert wurden. Module für die Tags, den Lexware-Export, die erweiterte Bestellverwaltung (Bestellübersicht und Packliste), die Facebook-Integration, das Captcha und das Gästebuch erhielten eigene Repositories in GitHub. Sie sind kompatibel mit OXID eShop 6. Zum anderen werden Bibliotheken benannt, die aus dem OXID eShop entfernt wurden. Das sind Bibliotheken für JpGraph, Facebook API, Smarty, PHPMailer und InvoicePDF. Weitere Änderungen betreffen das Exception Handling, den generischen Export, die sogenannten DynPages und den Editor WYSIWYG Pro.
 
-Dokument in der Entwicklerdokumentation:
+Dokumente in der Entwicklerdokumentation: `https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/features/index.html <https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/features/index.html>`_
 
 .. Intern: oxbahw, Status:
