@@ -76,6 +76,4 @@ Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differe
    :height: 317
    :width: 650
 
-Das Dokument `Rights and Roles <https://www.oxid-esales.com/fileadmin/files/TechDok/Documents/Rights_and_Roles.pdf>`_ in englischer Sprache enthält einige detailliertere Informationen aus Sicht des Administrators und des Entwicklers.
-
 .. Intern: oxaaev, Status:
