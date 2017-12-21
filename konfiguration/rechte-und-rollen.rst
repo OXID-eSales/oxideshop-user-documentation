@@ -40,7 +40,7 @@ Rechte und Rollen können auch auf den gesamten Warenkatalog bezogen vergeben we
 * Kurzbeschreibung des Artikels anzeigen (SHOWSHORTDESCRIPTION)
 * Langbeschreibung des Artikels anzeigen (SHOWLONGDESCRIPTION)
 
-Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop Rollen` definiert. Verschiedene Rechtekombinationen können in Rollen zusammengefasst und Benutzergruppen zugeordnet werden. Sobald für eine Benutzergruppe ein Recht erteilt wurde, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr. Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident lässt sich in Templates eine rechteabhängige Anzeige realisieren.
+Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop Rechte` definiert. Verschiedene Rechtekombinationen können in Rollen zusammengefasst und Benutzergruppen zugeordnet werden. Sobald für eine Benutzergruppe ein Recht erteilt wurde, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr. Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident lässt sich in Templates eine rechteabhängige Anzeige realisieren.
 
 .. image:: ../media/screenshots-de/oxaaev03.png
    :alt: Rechte für Detailansicht (Rechte und Rollen)
@@ -60,7 +60,7 @@ Für den Administrationsbereich lassen sich ebenfalls Rollen definieren, um die 
 
 Zugriff auf Menüs, Untermenüs, Registerkarten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Navigation und auch auf einzelne Registerkarten des Eingabebereiches. Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich. Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Admin Rollen` definiert und den jeweiligen Benutzern zugeordnet.
+Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Navigation und auch auf einzelne Registerkarten des Eingabebereiches. Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich. Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Admin Rechte` definiert und den jeweiligen Benutzern zugeordnet.
 
 .. image:: ../media/screenshots-de/oxaaev05.png
    :alt: Zugriff im Administrationsbereich
