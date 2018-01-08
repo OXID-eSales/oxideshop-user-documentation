@@ -4,7 +4,7 @@ Artikel sind neben den Kategorien die eigentliche Basis des Warenkatalogs. Schli
 
 .. image:: ../../media/screenshots-de/oxbach01.png
    :alt: Artikel
-   :height: 530
+   :height: 536
    :width: 650
    
 Der Abschnitt \"Artikel\" informiert Sie über das Erstellen und Verwalten von Artikeln. Es werden alle Einstellungen erläutert, die Sie bei Artikeln vornehmen können. Der Abschnitt geht auf Attribute und Auswahllisten ebenso ein, wie auf Varianten und multidimensionale Varianten.
@@ -89,4 +89,3 @@ Registerkarte SEO
 .. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
 
 .. Intern: oxbach, Status:
-.. Screenshot #summernote

@@ -4,7 +4,7 @@ Die Registerkarte :guilabel:`Stamm` nimmt wichtige Informationen zum Artikel auf
 
 .. image:: ../../media/screenshots-de/oxbaci01.png
    :alt: Artikel - Registerkarte Stamm
-   :height: 342
+   :height: 346
    :width: 650
 
 Mit der Sprachumstellung, die erst nach Anlegen des Artikels unten im Eingabebereich angezeigt wird, lassen sich die Informationen und Einstellungen zum Artikel direkt in einer weiteren Sprache bearbeiten.
@@ -70,4 +70,3 @@ Der Langtext wird im Shop in der Detailansicht des Artikels als Beschreibung ang
 .. seealso:: :doc:`Alternative Preise für Benutzergruppen <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
 
 .. Intern: oxbaci, Status:, F1: article_main.html
-.. Screenshot #summernote

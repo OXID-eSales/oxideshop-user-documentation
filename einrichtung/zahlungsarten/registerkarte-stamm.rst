@@ -5,7 +5,7 @@ Die Registerkarte :guilabel:`Stamm` stellt verschiedene Einstellungen zur Verfü
 
 .. image:: ../../media/screenshots-de/oxbada01.png
    :alt: Zahlungsarten - Registerkarte Stamm
-   :height: 341
+   :height: 346
    :width: 650
 
 :guilabel:`Aktiv` |br|
@@ -62,4 +62,3 @@ Geben Sie ein paar Informationen zur Zahlungsart ein. Diese werden angezeigt, so
 .. seealso:: :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>` | :doc:`Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten>` | :doc:`Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`
 
 .. Intern: oxbada, Status:, F1: payment_main.html
-.. Screenshot #summernote
