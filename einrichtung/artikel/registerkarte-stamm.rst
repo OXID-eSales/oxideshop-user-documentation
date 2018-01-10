@@ -63,9 +63,7 @@ Der Artikel lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. 
 
 Langbeschreibung des Artikels
 -----------------------------
-Auf der rechten Seite der Registerkarte :guilabel:`Stamm` geben Sie die Langbeschreibung des Artikels ein. In der Enterprise und der Professional Edition kann die ausführliche Beschreibung des Artikels komfortabel in einen Editor eingegeben werden. Der Editor bietet die Möglichkeit der Textformatierung, des Einfügens von Bildern und von Links. In der Community Edition kann standardmäßig nur Text in ein großes Eingabefeld eingetragen werden, der sich aber mit HTML-Tags formatieren lässt. Einen guten Überblick zur Auszeichnungen von Text mit HTML-Tags erhalten Sie bei `SelfHTML <https://wiki.selfhtml.org/>`_ .
-
-Der Langtext wird im Shop in der Detailansicht des Artikels als Beschreibung angezeigt.
+Auf der rechten Seite der Registerkarte :guilabel:`Stamm` geben Sie die Langbeschreibung des Artikels in einen Editor ein. Dieser arbeitet nach dem Prinzip WYSIWYG (What You See Is What You Get), er zeigt also den Text so an, wie er später in der Detailansicht des Artikels als Beschreibung zu sehen sein wird. Der Editor bietet die Möglichkeit der Textformatierung, des Einfügens von Links, Bildern und Videos. Für spezielle und darüber hinausgehende Anforderungen kann der HTML-Code angezeigt und bearbeitet werden.
 
 .. seealso:: :doc:`Alternative Preise für Benutzergruppen <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
 

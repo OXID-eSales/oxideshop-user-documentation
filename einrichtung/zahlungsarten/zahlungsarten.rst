@@ -11,7 +11,7 @@ Wird eine Zahlungsart aus der Liste gewählt, werden deren Informationen in den 
 
 .. image:: ../../media/screenshots-de/oxbacz01.png
    :alt: Zahlungsarten
-   :height: 537
+   :height: 536
    :width: 650
 
 Der OXID eShop wird mit den vorbereiteten Zahlungsarten \"Bankeinzug/Lastschrift\", \"Empty\", \"Kreditkarte\", \"Nachnahme\", \"Rechnung\" und \"Vorauskasse\" ausgeliefert. Sie können verwendet werden, nachdem sie individuell angepasst wurden. Nicht verwendete Zahlungsarten sollten mit Ausnahme von \"Empty\" deaktiviert werden. Diese ist eine Art Fallback-Zahlungsart, welche Kunden den Bestellprozess abschließen lässt, auch wenn die definierten Bedingungen für Zahlung und Versand für ein im Shop aktives Land nicht zutreffen. Der Kunde kann dennoch bestellen. Der Verkäufer muss im Nachhinein mit ihm die Bezahlung und den Versand klären.
