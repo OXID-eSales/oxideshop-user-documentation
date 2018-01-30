@@ -5,8 +5,8 @@ In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 6 neu installieren. Es 
 
 .. image:: ../../media/screenshots-de/oxbaae01.png
     :alt: Setup, Schritt 1
-    :height: 440
-    :width: 600
+    :height: 532
+    :width: 650
 
 Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/6.0/getting_started/eshop_installation.html>`_.
 
@@ -24,7 +24,7 @@ Installation vorbereiten
 
 Setup ausführen
 ---------------
-**Inhalte**: Webbasiertes Setup, Prüfung der Systemvoraussetzungen, Region, Hauptlieferland und Sprache des Shops wählen, Lizenzbedingungen, Datenbank, Datenbankname, Datenbankbenutzer und -passwort angeben, Demodaten, Shopverzeichnisse, Zugangsdaten für Administrationsbereich festlegen, Shop-Administrator, Lizenzschlüssel eingeben (PE und EE) |br|
+**Inhalte**: Webbasiertes Setup, Prüfung der Systemvoraussetzungen, Hauptlieferland und Sprache des Shops wählen, Lizenzbedingungen, Datenbank, Datenbankname, Datenbankbenutzer und -passwort angeben, Demodaten, Shopverzeichnisse, Zugangsdaten für Administrationsbereich festlegen, Shop-Administrator, Lizenzschlüssel eingeben (PE und EE) |br|
 :doc:`Artikel lesen <setup-ausfuehren>` |link|
 
 Installation abschließen

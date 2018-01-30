@@ -29,7 +29,7 @@ Stellen Sie sicher, dass alle Systemvoraussetzungen erfüllt sind, um den OXID e
 
 |schritt| Willkommen
 --------------------
-Region, Hauptlieferland und Sprache des Shops können im zweiten Schritt des Setups festgelegt werden. Mit Region geben Sie an, auf welche Wirtschaftsregion das Angebot des Shops ausgerichtet ist. Derzeit wird zwischen Deutschland, Österreich, Schweiz (DACH) und andere Region unterschieden. Sie können weitere Lieferländer und/oder Sprachen später jederzeit hinzufügen.
+Hauptlieferland und Sprache des Shops können im zweiten Schritt des Setups festgelegt werden. Sie können weitere Lieferländer und/oder Sprachen später jederzeit hinzufügen.
 
 Aktivieren Sie das Kontrollkästchen für die regelmäßige Prüfung auf Aktualisierungen. Bei der Installation einer Community Edition bestätigen Sie bitte auch die Verbindung zu den OXID Servern zur Verbesserung der Produktqualität. Drücken Sie die Schaltfläche :guilabel:`Shopinstallation beginnen`.
 
