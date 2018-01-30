@@ -1,6 +1,11 @@
 ﻿Übersicht aller Releases ab 2012
 ================================
 
+Releases 2018
+-------------
+| 30.01.2018 - `OXID eShop 4.10.7/5.3.7 <releases-2018/oxid-eshop-4107537.html>`_
+|
+
 Releases 2017
 -------------
 | 02.11.2017 - `OXID eShop 4.10.6/5.3.6 <releases-2017/oxid-eshop-4106536.html>`_

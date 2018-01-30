@@ -5,6 +5,7 @@ Releases
    :maxdepth: 1
    
    releases.rst
+   Releases 2018 <releases-2018/index>
    Releases 2017 <releases-2017/index>
    Releases 2016 <releases-2016/index>
    Releases 2015 <releases-2015/index>
