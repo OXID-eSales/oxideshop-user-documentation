@@ -5,4 +5,5 @@ Update-Installation
    :maxdepth: 1
 
    update-installation
-   auf-600-aktualisieren
+   ab-600-aktualisieren
+   von-4106536-auf-600-aktualisieren
