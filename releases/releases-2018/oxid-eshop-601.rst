@@ -35,7 +35,11 @@ Das Setup des OXID eShop, welches im Browser aufgerufen wird, wurde überarbeite
 
 Templates und Sprachdateien
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-In der Version 6.0.1 wurden Templates des Administrationsbereiches sowie einige Sprachdateien geändert. Die Templates für das Frontend blieben unverändert. Einen Überblick über alle geänderten Dateien können im Repository der Community Edition auf GitHub eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0.0...v6.1.0>`_. Wechseln Sie dafür zur Registerkarte :guilabel:`Files changed`.
+In der Version 6.0.1 wurden Templates des Administrationsbereiches, des Frontends und einige Sprachdateien geändert. Alle geänderten Dateien können in den Repositories auf GitHub eingesehen werden: |br|
+`<https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0.0...v6.1.0>`_ |br|
+Wechseln Sie hier zur Registerkarte :guilabel:`Files changed`. |br|
+`<https://github.com/OXID-eSales/flow_theme/compare/v2.3.1...v2.3.3>`_
+
 
 -----------------------------------------------------------------------------------------
 
@@ -49,6 +53,11 @@ Die mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet:
 
 Weiterführende Informationen für Entwickler finden Sie im Changelog der Community Edition: `<https://github.com/OXID-eSales/oxideshop_ce/blob/b-6.x/CHANGELOG.md>`_.
 
-Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf GitHub eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0.0...v6.1.0>`_
+Änderungen gegenüber den vorhergehenden Versionen finden Sie in den jeweiligen Repositories auf GitHub: |br|
+`OXID eShop 6.1.0 <https://github.com/OXID-eSales/oxideshop_ce/compare/v6.0.0...v6.1.0>`_ |br|
+`Theme Flow 2.3.3 <https://github.com/OXID-eSales/flow_theme/compare/v2.3.1...v2.3.3>`_ |br|
+`Modul PayPal 5.1.5 <https://github.com/OXID-eSales/paypal/blob/v5.1.5/CHANGELOG.md>`_ |br|
+`Modul PayOne 1.0.5 <https://github.com/PAYONE-GmbH/oxid-6/blob/1.0.5/Changelog.txt>`_ |br|
+`Modul Visual CMS 3.1.0 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.1.0/CHANGELOG.md>`_
 
 .. Intern: oxbaib, Status:
