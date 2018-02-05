@@ -19,15 +19,13 @@ In die Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befin
 
    composer update --no-plugins --no-scripts
 
-
 |schritt| Neue Compilation beziehen
 -----------------------------------
-Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue Compilation zu beziehen.
+Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue Compilation zu beziehen. Für Shopdateien, Themes und Module muss jeweils bestätigt werden, dass das Update bestehende Dateien überschreibt.
 
 .. code:: bash
 
    composer update
-
 
 |schritt| Datenbank migrieren
 -----------------------------
