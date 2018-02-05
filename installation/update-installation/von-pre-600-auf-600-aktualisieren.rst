@@ -16,7 +16,7 @@ Das in der Professional und Enterprise Edition enthaltene Modul wird durch das U
 * Löschen Sie das Modulverzeichnis :file:`/source/modules/ddoe/visualcms`.
 * Gehen Sie im Administrationsbereich zurück zur Modulverwaltung. Sie erhalten einen Hinweis, dass für ein registriertes Modul das Modulverzeichnis fehlt. Beantworten Sie die Frage, ob alle Modulinformationen entfernt werden sollen, indem Sie die Schaltfläche :guilabel:`Ja` drücken.
 
-Wenn Sie eigene Shortcode-Klassen erstellt haben, welche die Klasse ``ddvisualeditor_shortcode`` erweitern, ändern Sie bitte ``ddvisualeditor_shortcode`` in ``\OxidEsales\VisualCmsModule\Application\Model\VisualEditorShortcode``. Fügen Sie Ihren eigenen Shortcode-Klassen keinen Namespaces hinzu.
+Wenn Sie eigene Shortcode-Klassen erstellt haben, welche die Klasse ``ddvisualeditor_shortcode`` erweitern, ändern Sie bitte ``ddvisualeditor_shortcode`` in ``\OxidEsales\VisualCmsModule\Application\Model\VisualEditorShortcode``. Fügen Sie Ihre eigenen Shortcode-Klassen keinen Namespaces hinzu.
 
 .. code ::
 
