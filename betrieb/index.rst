@@ -10,3 +10,4 @@ Betrieb
    Aktionen <aktionen/index>
    Rabatte <rabatte/index>
    Gutscheinserien <gutscheinserien/index>
+   Newsletter <newsletter/index>
