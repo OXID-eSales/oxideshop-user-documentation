@@ -7,6 +7,8 @@ Für den in der Community und Professional Edition implementierten Versand von N
    :height: 323
    :width: 650
 
+Der obige Screenshot zeigt die Vorschau eines Newsletters, in dem ein Kite und diverses Zubehör aus dem Warenkatalog des Shops vorgestellt werden. Die fünf Artikel wurden zuvor der Aktion "Newsletter" zugeordnet.
+
 .. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Newsletter <../newsletter/newsletter>`
 
 .. Intern: oxaagx, Status:
