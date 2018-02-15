@@ -15,7 +15,7 @@ Allgemeines
 -----------
 Der Shop läuft unter PHP 5.3, 5.4, 5.5 und 5.6. Er ist kompatibel mit MySQL 5.7 und für Apache 2.2 and 2.4 angepasst. Haben Sie eine Enterprise Edition und MySQL 5.6 im Einsatz, beachten Sie bitte diesen Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
 
-Mit OXID eShop 4.10.7/5.3.7 wird eine Sicherheitslücke geschlossen, die mit CVSS = 4.9 eingestuft wurde und nur in der Enterprise Edition mit Hochlastoption und aktivem Varnish auftritt. Details zur Sicherheitslücke finden Sie auf folgender Seite der OXIDforge: `Security Bulletin 2018-001 <https://oxidforge.org/en/security-bulletin-2018-001.html>`_. Wir empfehlen ein schnelles Update auf diese Shopversion. Eine Anleitung dazu finden Sie unter `Update-Installation <https://docs.oxid-esales.com/eshop/de/5.3/installation/update-installation/index.html>`_.
+Mit OXID eShop 4.10.7/5.3.7 wird eine Sicherheitslücke geschlossen, die mit CVSS = 4.9 eingestuft wurde und nur in der Enterprise Edition mit Hochlastoption und aktivem Varnish auftritt. Details zur Sicherheitslücke finden Sie auf folgender Seite der OXIDforge: `Security Bulletin 2018-001 <https://oxidforge.org/en/security-bulletin-2018-001.html>`_. Wir empfehlen ein schnelles Update auf diese Shopversion. Eine Anleitung dazu finden Sie unter :doc:`Update-Installation <../../installation/update-installation/index>`.
 
 Es gab keine Änderungen in Templates für das Frontend und den Administrationsbereich sowie in den Sprachdateien.
 
