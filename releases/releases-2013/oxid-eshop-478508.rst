@@ -13,7 +13,7 @@ Veröffentlichungstermin: 24.09.2013
 
 Allgemeines
 -----------
-Mit dem Release des OXID eShop 4.7.8/5.0.8 wird eine jüngst entdeckte Sicherheitslücke geschlossen. Es wird dringend empfohlen, diesen Patch so schnell wie möglich in Ihr Live-System zu übernehmen. Details finden Sie im englischsprachigen Security Bulletin, das am 08.10.2013 veröffentlicht wurde: `http://oxidforge.org/en/security-bulletin-2013-001.html <http://oxidforge.org/en/security-bulletin-2013-001.html>`_ ` <http://wiki.oxidforge.org/Security_bulletins/2013-001>`_.
+Mit dem Release des OXID eShop 4.7.8/5.0.8 wird eine jüngst entdeckte Sicherheitslücke geschlossen. Es wird dringend empfohlen, diesen Patch so schnell wie möglich in Ihr Live-System zu übernehmen. Details finden Sie im englischsprachigen Security Bulletin, das am 08.10.2013 veröffentlicht wurde: `http://oxidforge.org/en/security-bulletin-2013-001.html <http://oxidforge.org/en/security-bulletin-2013-001.html>`_.
 
 ----------
 
