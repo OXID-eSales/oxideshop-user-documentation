@@ -8,7 +8,7 @@ In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 6 neu installieren. Es 
     :height: 532
     :width: 650
 
-Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/6.0/getting_started/eshop_installation.html>`_.
+Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/6.0/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 
