@@ -13,7 +13,7 @@ Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Inf
 Es kann eine feste, sich nicht ändernde URL für die Kategorie definiert werden. Standardmäßig ändert sich die URL, sobald sich der Titel einer Kategorie ändert oder ihre Position in der Kategoriestruktur. Ist die Einstellung aktiv, bleibt bei einer solchen Änderung die SEO URL der Kategorie unverändert.
 
 :guilabel:`Titel Suffix in Kategorie anzeigen` |br|
-Bei aktiviertem Kontrollkästchen wird das Titel Suffix im Seitentitel angezeigt. Das Titel Suffix wird unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO` definiert. Mehr Informationen dazu finden Sie unter `SEO-Einstellungen <../../konfiguration/seo-einstellungen>`_ .
+Bei aktiviertem Kontrollkästchen wird das Titel Suffix im Seitentitel angezeigt. Das Titel Suffix wird unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO` definiert. Mehr Informationen dazu finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
 
 :guilabel:`SEO URL` |br|
 Die aktuelle URL der Kategorie wird angezeigt. Sie kann geändert und auch fixiert werden.

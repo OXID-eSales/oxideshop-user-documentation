@@ -5,7 +5,7 @@ In allen Shop-Editionen werden standardmäßig die Tabellenstrukturen der Datenb
 
 OXID eShop Enterprise Edition bietet für das Caching weit darüber hinausgehende Möglichkeiten.
 
-Dynamic Content Cache war von Anfang an integraler Bestandteil der Enterprise Edition. Es ist eine Caching-Lösung, bei der die erstellten HTML-Seiten einschließlich ihrer dynamischen Inhalte zwischengespeichert werden. Dabei können die technischen Möglichkeiten eines Zend Servers genutzt werden oder einfach das Dateisystem des Servers, auf dem der Shop läuft. Wird eine Seite\vom Browser angefordert, wird zunächst geprüft, ob diese Seite im Cache und\noch gültig ist. Die Gültigkeit wird anhand der gesetzten Lebensdauer (TTL, Time To Live) bestimmt. Ist die Seite im Cache und enthält dynamischen Inhalt, wird dieser nachgeladen und anschließend wird die komplette Seite an den Browser geschickt. Befindet sich die angeforderte Seite nicht im Cache, wird sie erstellt, angezeigt und im Cache abgelegt.
+Dynamic Content Cache war von Anfang an integraler Bestandteil der Enterprise Edition. Es ist eine Caching-Lösung, bei der die erstellten HTML-Seiten einschließlich ihrer dynamischen Inhalte zwischengespeichert werden. Dabei können die technischen Möglichkeiten eines Zend Servers genutzt werden oder einfach das Dateisystem des Servers, auf dem der Shop läuft. Wird eine Seite vom Browser angefordert, wird zunächst geprüft, ob diese Seite im Cache und noch gültig ist. Die Gültigkeit wird anhand der gesetzten Lebensdauer (TTL, Time To Live) bestimmt. Ist die Seite im Cache und enthält dynamischen Inhalt, wird dieser nachgeladen und anschließend wird die komplette Seite an den Browser geschickt. Befindet sich die angeforderte Seite nicht im Cache, wird sie erstellt, angezeigt und im Cache abgelegt.
 
 Mit der Version 5.0.0 der Enterprise Edition wurde das Caching erweitert.
 
@@ -34,6 +34,6 @@ Caching-Einstellungen
 **Inhalte**: Default Cache Backend, Cache Lebensdauer (TTL), Cache Connector, Dateisystem, Cache-Verzeichnis, Memcached, Memcached Server, Reverse Proxy, cachebare Seiten, Dynamic Content Caching, cachebare Klassen |br|
 :doc:`Artikel lesen <caching-einstellungen>` |link|
 
-.. note:: Weiterführende Links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Web Application Server: `http://www.zend.com/de/products/server <http://www.zend.com/de/products/server>`_ | Varnish: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ | Memcached: `http://memcached.org <http://memcached.org/>`_
+.. note:: Weiterführende Links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Server: `http://www.zend.com/en/products/zend_server <http://www.zend.com/en/products/zend_server>`_ | Varnish: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ | Memcached: `http://memcached.org <http://memcached.org/>`_
 
 .. Intern: oxaabz, Status:
