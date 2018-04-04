@@ -1,5 +1,5 @@
-Von 4.10.6/5.3.6 und höher auf 6.0.0 aktualisieren
-========================================
+Ab 4.10.6/5.3.6 auf 6.0.0 aktualisieren
+=======================================
 
 Dieses Dokument beschreibt das Major-Update von 4.10.6/5.3.6 und höher auf OXID eShop 6.0.0. Es unterscheidet sich grundlegend von einem Standard-Update und sollte nur von einem OXID eShop Version 4.10.6/5.3.6 und höher ausgehen. Haben Sie einen Shop mit einer älteren Version im Einsatz, muss dieser zuerst auf einen Shop dieser Versionen aktualisiert werden.
 
