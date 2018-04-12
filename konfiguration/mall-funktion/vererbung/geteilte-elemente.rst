@@ -5,6 +5,7 @@ Geteilte Elemente sind Zahlungsarten, Länder, Benutzer, Benutzergruppen und Bew
 
 .. image:: ../../../media/screenshots-de/oxbagr01.png
    :alt: Länder im Subshop
+   :class: with-shadow
    :height: 335
    :width: 650
 

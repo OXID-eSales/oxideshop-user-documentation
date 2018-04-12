@@ -9,6 +9,7 @@ Die Verarbeitung durch Varnish basiert auf der Aufteilung der einzelnen Seiten d
 
 .. image:: ../../media/screenshots-de/oxbacb01.png
    :alt: Web-Clients, Varnish und Server mit OXID eShop
+   :class: with-shadow
    :height: 204
    :width: 650
 

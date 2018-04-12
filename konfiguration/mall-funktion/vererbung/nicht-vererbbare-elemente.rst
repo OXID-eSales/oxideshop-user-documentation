@@ -5,6 +5,7 @@ Nicht vererbbare Elemente gehören zu jedem Subshop, Supershop und Multishop. Si
 
 .. image:: ../../../media/screenshots-de/oxbagq01.png
    :alt: Stammdaten - Grundeinstellungen
+   :class: with-shadow
    :height: 335
    :width: 650
 

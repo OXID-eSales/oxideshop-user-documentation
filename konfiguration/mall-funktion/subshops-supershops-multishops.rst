@@ -11,6 +11,7 @@ Der *Multishop* kommt ohne Vererbung aus, denn er zeigt alle Artikel, Hersteller
 
 .. image:: ../../media/screenshots-de/oxbagn01.png
    :alt: Neuen Shop anlegen
+   :class: with-shadow
    :height: 335
    :width: 650
 
@@ -37,6 +38,7 @@ Unter :menuselection:`Stammdaten --> Grundeinstellungen` können auf der Registe
 
 .. image:: ../../media/screenshots-de/oxbagn02.png
    :alt: Multishop - Registerkarte Mall
+   :class: with-shadow
    :height: 334
    :width: 650
 

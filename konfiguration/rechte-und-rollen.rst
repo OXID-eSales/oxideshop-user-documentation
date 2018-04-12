@@ -21,6 +21,7 @@ Für Artikel und Kategorien kann auch definiert werden, dass sie ausschließlich
 
 .. image:: ../media/screenshots-de/oxbaev01.png
    :alt: Artikelübersicht (Rechte und Rollen)
+   :class: with-shadow
    :height: 360
    :width: 650
 
@@ -28,6 +29,7 @@ Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb le
 
 .. image:: ../media/screenshots-de/oxbaev02.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
+   :class: with-shadow
    :height: 307
    :width: 609
 
@@ -44,6 +46,7 @@ Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop
 
 .. image:: ../media/screenshots-de/oxbaev03.png
    :alt: Rechte für Detailansicht (Rechte und Rollen)
+   :class: with-shadow
    :height: 158
    :width: 319
 
@@ -51,6 +54,7 @@ Auf der Detailseite, auf dem Screenshot als Beispiel zu sehen, und auch in den A
 
 .. image:: ../media/screenshots-de/oxbaev04.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
+   :class: with-shadow
    :height: 310
    :width: 612
 
@@ -64,6 +68,7 @@ Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Nav
 
 .. image:: ../media/screenshots-de/oxbaev05.png
    :alt: Zugriff im Administrationsbereich
+   :class: with-shadow
    :height: 335
    :width: 650
 
@@ -73,6 +78,7 @@ Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differe
 
 .. image:: ../media/screenshots-de/oxbaev06.png
    :alt: Zugriff im Administrationsbereich
+   :class: with-shadow
    :height: 335
    :width: 650
 

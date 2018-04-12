@@ -44,3 +44,7 @@ code, .rst-content code{
     border: 0px;
     font-size: 90%;
 }
+
+.with-shadow {
+    box-shadow: 0 4px 10px #bababa;
+}
