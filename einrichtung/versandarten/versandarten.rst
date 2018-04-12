@@ -11,6 +11,7 @@ Unter der Liste befindet sich der Eingabebereich für die Versandart. Wird eine 
 
 .. image:: ../../media/screenshots-de/oxbadd01.png
    :alt: Versandarten
+   :class: with-shadow
    :height: 528
    :width: 650
 

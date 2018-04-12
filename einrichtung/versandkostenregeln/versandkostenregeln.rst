@@ -7,6 +7,7 @@ Haben Kunden im dritten Schritt des Bestellprozesses eine Versandart ausgewählt
 
 .. image:: ../../media/screenshots-de/oxbadj01.png
    :alt: Versandkostenregeln
+   :class: with-shadow
    :height: 528
    :width: 650
 

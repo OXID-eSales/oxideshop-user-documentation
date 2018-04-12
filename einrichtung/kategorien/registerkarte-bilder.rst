@@ -5,6 +5,7 @@ Wurden für die Kategorie ein Bild und/oder ein Icon hochgeladen, werden die Bil
 
 .. image:: ../../media/screenshots-de/oxbabm01.png
    :alt: Kategorien - Registerkarte Bilder
+   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -12,6 +13,7 @@ Als :guilabel:`Thumbnail` ist dabei das Bild zu sehen, welches in der Kategoriea
 
 .. image:: ../../media/screenshots-de/oxbabm02.png
    :alt: Kategorieansicht
+   :class: with-shadow
    :height: 330
    :width: 650
 

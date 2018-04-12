@@ -6,6 +6,7 @@ Auf der Registerkarte :guilabel:`Rechte` können einem Artikel Benutzergruppen z
 
 .. image:: ../../media/screenshots-de/oxbact01.png
    :alt: Artikel - Registerkarte Rechte
+   :class: with-shadow
    :height: 334
    :width: 650
 
@@ -15,6 +16,7 @@ Um einem Artikel Benutzergruppen zuzuweisen, betätigen Sie die Schaltfläche :g
 
 .. image:: ../../media/screenshots-de/oxbact02.png
    :alt: Benutzergruppen zuordnen (Ausschließlich sichtbar)
+   :class: with-shadow
    :height: 314
    :width: 400
 

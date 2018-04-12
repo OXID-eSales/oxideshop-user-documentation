@@ -4,6 +4,7 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 
 .. image:: ../../media/screenshots-de/oxbacj01.png
    :alt: Artikel - Registerkarte Erweitert
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -83,6 +84,7 @@ Ein Artikel kann zu einer oder zu mehreren Kategorien gehören. Die Schaltfläch
 
 .. image:: ../../media/screenshots-de/oxbacj02.png
    :alt: Kategorien zuordnen
+   :class: with-shadow
    :height: 314
    :width: 400
 

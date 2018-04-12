@@ -5,6 +5,7 @@ Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Informationen zum Her
 
 .. image:: ../../media/screenshots-de/oxbagc01.png
    :alt: Hersteller - Registerkarte Stamm
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -33,6 +34,7 @@ Dem Hersteller können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`A
 
 .. image:: ../../media/screenshots-de/oxbagc02.png
    :alt: Artikel zuordnen
+   :class: with-shadow
    :height: 325
    :width: 400
 

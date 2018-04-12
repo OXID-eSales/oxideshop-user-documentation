@@ -33,6 +33,7 @@ Dafür werden zwei Versandkostenregeln erstellt, denen unterschiedliche Länder 
 
 .. image:: ../../media/screenshots-de/oxbafx01.png
    :alt: Versandkostenregel für Deutschland
+   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -40,6 +41,7 @@ Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Ver
 
 .. image:: ../../media/screenshots-de/oxbafx02.png
    :alt: Warenkorb mit Lieferung nach Deutschland
+   :class: with-shadow
    :height: 261
    :width: 550
 
@@ -47,6 +49,7 @@ Wurden Artikel eingekauft, die nach Österreich geliefert werden, gilt die zweit
 
 .. image:: ../../media/screenshots-de/oxbafx03.png
    :alt: Warenkorb mit Lieferung nach Österreich
+   :class: with-shadow
    :height: 261
    :width: 550
 

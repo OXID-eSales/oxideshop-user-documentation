@@ -9,6 +9,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Versandart 
 
 .. image:: ../../media/screenshots-de/oxbadh01.png
    :alt: Versandarten - Registerkarte Mall
+   :class: with-shadow
    :height: 334
    :width: 650
 

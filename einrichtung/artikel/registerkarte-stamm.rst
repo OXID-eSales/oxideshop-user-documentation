@@ -4,6 +4,7 @@ Die Registerkarte :guilabel:`Stamm` nimmt wichtige Informationen zum Artikel auf
 
 .. image:: ../../media/screenshots-de/oxbaci01.png
    :alt: Artikel - Registerkarte Stamm
+   :class: with-shadow
    :height: 346
    :width: 650
 

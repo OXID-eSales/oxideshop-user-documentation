@@ -8,6 +8,7 @@ Die Anzahl der in der Produktbox angezeigten Artikel wird in :menuselection:`Sta
 
 .. image:: ../../media/screenshots-de/oxbacn01.png
    :alt: Artikel - Registerkarte Crosssel.
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -19,6 +20,7 @@ Um Artikel für das Cross-Selling zu verbinden, betätigen Sie die Schaltfläche
 
 .. image:: ../../media/screenshots-de/oxbacn02.png
    :alt: Crosssellings zuordnen
+   :class: with-shadow
    :height: 325
    :width: 400
 

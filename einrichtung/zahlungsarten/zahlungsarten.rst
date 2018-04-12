@@ -11,6 +11,7 @@ Wird eine Zahlungsart aus der Liste gewählt, werden deren Informationen in den 
 
 .. image:: ../../media/screenshots-de/oxbacz01.png
    :alt: Zahlungsarten
+   :class: with-shadow
    :height: 536
    :width: 650
 

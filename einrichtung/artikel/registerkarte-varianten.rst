@@ -4,6 +4,7 @@ Mit Varianten können verschiedene Ausführungen ein und desselben Artikels umge
 
 .. image:: ../../media/screenshots-de/oxbaco01.png
    :alt: Artikel - Registerkarte Varianten
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -17,6 +18,7 @@ Multidimensionale Varianten stellen eine Mehrfachauswahl von charakteristischen 
 
 .. image:: ../../media/screenshots-de/oxbaco02.png
    :alt: Artikel - Registerkarte Varianten
+   :class: with-shadow
    :height: 329
    :width: 650
 

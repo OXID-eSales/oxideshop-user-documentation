@@ -5,6 +5,7 @@ Auf dieser Registerkarte können der Versandart die Zahlungsarten zugeordnet wer
 
 .. image:: ../../media/screenshots-de/oxbadf01.png
    :alt: Versandarten - Registerkarte Zahlungsarten
+   :class: with-shadow
    :height: 341
    :width: 650
 

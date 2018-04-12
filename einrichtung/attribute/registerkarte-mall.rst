@@ -8,6 +8,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen des Attributes 
 
 .. image:: ../../media/screenshots-de/oxbagi01.png
    :alt: Attribute - Registerkarte Mall
+   :class: with-shadow
    :height: 334
    :width: 650
 

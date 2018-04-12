@@ -5,6 +5,7 @@ Die Registerkarte :guilabel:`Stamm` enthält die knappen Informationen und Einst
 
 .. image:: ../../media/screenshots-de/oxbagf01.png
    :alt: Lieferanten - Registerkarte Stamm
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -33,6 +34,7 @@ Dem Lieferanten können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`
 
 .. image:: ../../media/screenshots-de/oxbagf02.png
    :alt: Artikel zuordnen
+   :class: with-shadow
    :height: 295
    :width: 400
 

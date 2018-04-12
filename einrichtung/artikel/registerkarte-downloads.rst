@@ -6,12 +6,13 @@ Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --
 
 .. image:: ../../media/screenshots-de/oxbacq01.png
    :alt: Artikel - Registerkarte Downloads
+   :class: with-shadow
    :height: 342
    :width: 650
 
 Die Verwendung von Download-Artikeln im Shop muss global aktiviert werden. Im Administrationsbereich können in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Download-Artikel` die Standardeinstellungen vorgenommen werden. Das sind - neben dem Aktivieren der Funktion - der Pfad zu den herunterladbaren Dateien und Festlegungen zur Anzahl der Downloads oder zur Verfallszeit der Links.
 
-Die zum Artikel gehörenden Dateien werden auf der Registerkarte:guilabel:` Downloads` hochgeladen und deren spezielle Download-Einstellungen definiert. Für jeden Download-Artikel und für jede einzelne Datei können die Werte abweichend von den Standardeinstellungen festgelegt werden. Das erlaubt eine sehr filigrane Definition der Bedingungen für den Download.
+Die zum Artikel gehörenden Dateien werden auf der Registerkarte :guilabel:` Downloads` hochgeladen und deren spezielle Download-Einstellungen definiert. Für jeden Download-Artikel und für jede einzelne Datei können die Werte abweichend von den Standardeinstellungen festgelegt werden. Das erlaubt eine sehr filigrane Definition der Bedingungen für den Download.
 
 :guilabel:`Name der hochgeladenen Datei angeben ... oder Datei hochladen (max. 2 MB)` |br|
 Hier können dem Artikel Dateien hinzugefügt werden. Eine Möglichkeit ist, die Dateien per FTP auf den Webserver hochzuladen. Da der Pfad bereits in den Standardeinstellungen definiert wurde, genügt es, den Dateinamen anzugeben. Die andere Möglichkeit ist, die Dateien hier hochzuladen. Die Schaltfläche :guilabel:`Durchsuchen...` öffnet einen Dateidialog, in dem Sie die entsprechende Datei auf Ihrem Rechner auswählen können. Wenn Sie nun die Schaltfläche :guilabel:`Öffnen` drücken, werden Pfad und Dateinamen direkt übernommen.
@@ -43,10 +44,11 @@ Dateien dieses Artikels können heruntergeladen werden, wenn das Kontrollkästch
 
 .. image:: ../../media/screenshots-de/oxbacq02.png
    :alt: Artikel - Registerkarte Downloads
+   :class: with-shadow
    :height: 329
    :width: 650
 
 :guilabel:`Hochgeladene Dateien` |br|
-Dieser Bereich wird erst angezeigt, nachdem die erste Datei hochgeladen wurde. Er listet alle hochgeladenen Dateien mit ihrem Dateinamen auf. Ein Klick darauf zeigt die Einstellungen für den Download der Datei, die jederzeit geändert werden können. Dateien können hier auch durch einen Klick auf das kleine Kreuz am Ende der Zeile gelöscht werden, nachdem eine Sicherheitsabfrage bestätigt wurde.
+Dieser Bereich wird erst angezeigt, nachdem die erste Datei hochgeladen wurde. Er listet alle hochgeladenen Dateien mit ihrem Dateinamen auf. Ein Klick darauf zeigt die Einstellungen für den Download der Datei, die jederzeit geändert werden können. Dateien können hier auch durch einen Klick auf das kleine Papierkorbsymbol am Ende der Zeile gelöscht werden, nachdem eine Sicherheitsabfrage bestätigt wurde.
 
 .. Intern: oxbacq, Status:, F1: article_files.html

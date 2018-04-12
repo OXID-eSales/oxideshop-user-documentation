@@ -10,6 +10,7 @@ Attribute dienen auch dazu, ähnliche Artikel zu erkennen und auf der Detailseit
 
 .. image:: ../../media/screenshots-de/oxbaff01.png
    :alt: Attribute
+   :class: with-shadow
    :height: 530
    :width: 650
 

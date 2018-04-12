@@ -4,6 +4,7 @@ Kunden können die Artikel Ihres Shops bewerten. Dies sorgt für Transparenz und
 
 .. image:: ../../media/screenshots-de/oxbacr01.png
    :alt: Artikel - Registerkarten Bewertung
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -13,6 +14,7 @@ Alle Bewertungen sind unter :menuselection:`Artikel verwalten --> Artikel --> Al
 
 .. image:: ../../media/screenshots-de/oxbacr02.png
    :alt: Alle Bewertungen
+   :class: with-shadow
    :height: 87
    :width: 650
 

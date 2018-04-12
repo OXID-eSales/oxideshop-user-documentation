@@ -4,6 +4,7 @@ Eine in den OXID eShop integrierte Lagerverwaltung zeigt den Kunden die Verfügb
 
 .. image:: ../../media/screenshots-de/oxback01.png
    :alt: Artikel - Registerkarte Lager
+   :class: with-shadow
    :height: 342
    :width: 650
 

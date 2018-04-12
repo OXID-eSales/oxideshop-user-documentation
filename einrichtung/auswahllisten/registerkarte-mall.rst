@@ -8,6 +8,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Auswahllist
 
 .. image:: ../../media/screenshots-de/oxbagj01.png
    :alt: Auswahllisten - Registerkarte Mall
+   :class: with-shadow
    :height: 334
    :width: 650
 

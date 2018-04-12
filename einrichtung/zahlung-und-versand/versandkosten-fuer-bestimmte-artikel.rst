@@ -21,7 +21,7 @@ Die Versandkostenregel wird einer Versandart zugeordnet.
 * Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
 * Wählen Sie die Versandart aus der Liste der Versandarten.
 * Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Versandkostenregel per Drag\&Drop in die rechte Liste des Zuordnungsfensters.
+* Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
 * Schließen Sie das Zuordnungsfenster.
 
 .. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
@@ -34,6 +34,7 @@ Die erste Versandkostenregel mit 5,99 € Versandkosten gilt für alle Artikel, 
 
 .. image:: ../../media/screenshots-de/oxbafy01.png
    :alt: Versandkosten DHL GoGreen, Sperrgut: +22,50 Euro
+   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -43,6 +44,7 @@ Liegt ein Artikel im Warenkorb, der kein Wakeboard ist, greift die erste Versand
 
 .. image:: ../../media/screenshots-de/oxbafy02.png
    :alt: Warenkorb mit einer Wakeboard-Bindung
+   :class: with-shadow
    :height: 261
    :width: 550
 
@@ -50,6 +52,7 @@ Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Vers
 
 .. image:: ../../media/screenshots-de/oxbafy03.png
    :alt: Warenkorb mit Wakeboard und Bindung
+   :class: with-shadow
    :height: 311
    :width: 550
 

@@ -5,6 +5,7 @@ Im Gegensatz zur Schnellsortierung können die Artikel einer Kategorie auch manu
 
 .. image:: ../../media/screenshots-de/oxbabn01.png
    :alt: Kategorien - Registerkarte Sortierung
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -12,6 +13,7 @@ Die Schaltfläche :guilabel:`Artikel sortieren` auf der Registerkarte :guilabel:
 
 .. image:: ../../media/screenshots-de/oxbabn02.png
    :alt: Artikel sortieren
+   :class: with-shadow
    :height: 323
    :width: 400
 

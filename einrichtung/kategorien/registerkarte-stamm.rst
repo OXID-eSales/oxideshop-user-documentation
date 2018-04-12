@@ -5,6 +5,7 @@ Auf der Registerkarte :guilabel:`Stamm` werden wichtige Informationen zur Katego
 
 .. image:: ../../media/screenshots-de/oxbabk01.png
    :alt: Kategorien - Registerkarte Stamm
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -70,6 +71,7 @@ Der Kategorie können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Ar
 
 .. image:: ../../media/screenshots-de/oxbabk02.png
    :alt: Artikel zuordnen
+   :class: with-shadow
    :height: 325
    :width: 400
 

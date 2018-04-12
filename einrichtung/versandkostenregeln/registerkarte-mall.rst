@@ -9,6 +9,7 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Versandkost
 
 .. image:: ../../media/screenshots-de/oxbadn01.png
    :alt: Versandkostenregeln - Registerkarte Mall
+   :class: with-shadow
    :height: 334
    :width: 650
 

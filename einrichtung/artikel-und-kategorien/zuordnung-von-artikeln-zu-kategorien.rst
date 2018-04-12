@@ -25,10 +25,11 @@ Einer Kategorie werden mehrere Artikel zugeordnet.
 
 .. image:: ../../media/screenshots-de/oxbafo01.png
    :alt: Artikel zuordnen
+   :class: with-shadow
    :height: 325
    :width: 400
 
-Die Zuordnungsfenster, die in vielen Bereichen des Administrationsbereiches verwendet werden, funktionieren immer ähnlich. Einträge können in der Liste gesucht, ausgewählt oder gefiltert werden. Sie lassen sich per Drag\&Drop von einer Liste in die andere verschieben. Dabei ist eine Mehrfachauswahl bei gedrückter Strg-Taste möglich. Das Schließen des Zuordnungsfensters beendet die Zuordnung. Es ist kein zusätzliches Speichern notwendig.
+Die Zuordnungsfenster, die in vielen Bereichen des Administrationsbereiches verwendet werden, funktionieren immer ähnlich. Einträge können in der Liste gesucht, ausgewählt oder gefiltert werden. Sie lassen sich per Drag \& Drop von einer Liste in die andere verschieben. Dabei ist eine Mehrfachauswahl bei gedrückter Strg-Taste möglich. Das Schließen des Zuordnungsfensters beendet die Zuordnung. Es ist kein zusätzliches Speichern notwendig.
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm>`
 

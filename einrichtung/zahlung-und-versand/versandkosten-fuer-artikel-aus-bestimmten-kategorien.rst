@@ -34,6 +34,7 @@ Die erste Versandkostenregel wird mit einem Preis von 4,99 € angelegt. Für al
 
 .. image:: ../../media/screenshots-de/oxbafz01.png
    :alt: Versandkosten DHL - Standardartikel: +2,50 Euro
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -43,6 +44,7 @@ Liegt ein Artikel aus dem Kiteboarding-Zubehör im Warenkorb, greift die erste V
 
 .. image:: ../../media/screenshots-de/oxbafz02.png
    :alt: Warenkorb mit Kite-Leinen
+   :class: with-shadow
    :height: 261
    :width: 550
 
@@ -50,6 +52,7 @@ Wird zusätzlich ein Trapez in den Warenkorb gelegt, ist auch die zweite Versand
 
 .. image:: ../../media/screenshots-de/oxbafz03.png
    :alt: Warenkorb mit Kite-Leinen und Trapez
+   :class: with-shadow
    :height: 310
    :width: 550
 

@@ -5,6 +5,7 @@ Der OXID eShop bietet die Möglichkeit, Lieferanten zu verwalten. Artikel könne
 
 .. image:: ../../media/screenshots-de/oxbage01.png
    :alt: Lieferanten
+   :class: with-shadow
    :height: 530
    :width: 650
 

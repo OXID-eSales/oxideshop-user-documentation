@@ -5,6 +5,7 @@ Versandkostenregeln können für bestimmte Benutzergruppen und/oder Benutzer gel
 
 .. image:: ../../media/screenshots-de/oxbadm01.png
    :alt: Versandkostenregeln - Registerkarte Benutzer
+   :class: with-shadow
    :height: 341
    :width: 650
 

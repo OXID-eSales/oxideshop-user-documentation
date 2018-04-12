@@ -5,6 +5,7 @@ Bedingungen und Konditionen für die Berechnung der Versandkosten werden auf der
 
 .. image:: ../../media/screenshots-de/oxbadk01.png
    :alt: Versandkostenregeln - Registerkarte Stamm
+   :class: with-shadow
    :height: 342
    :width: 650
 

@@ -4,6 +4,7 @@ Auf der Registerkarte :guilabel:`Stamm` lassen sich Auswahllisten erstellen, bea
 
 .. image:: ../../media/screenshots-de/oxbafj01.png
    :alt: Auswahllisten - Registerkarte Stamm
+   :class: with-shadow
    :height: 342
    :width: 650
 

@@ -6,6 +6,7 @@ Artikel können viele Eigenschaften haben. Für etliche Eigenschaften, wie beisp
 
 .. image:: ../../media/screenshots-de/oxbacm01.png
    :alt: Artikel - Registerkarte Auswahl
+   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -15,6 +16,7 @@ Die Schaltfläche :guilabel:`Attribute zuordnen` öffnet ein neues Fenster, in d
 
 .. image:: ../../media/screenshots-de/oxbacm02.png
    :alt: Attribute zuordnen
+   :class: with-shadow
    :height: 314
    :width: 400
 
@@ -22,6 +24,7 @@ Ein weiteres Zuordnungsfenster wird mit der Schaltfläche :guilabel:`Auswahllist
 
 .. image:: ../../media/screenshots-de/oxbacm03.png
    :alt: Auswahllisten zuordnen
+   :class: with-shadow
    :height: 320
    :width: 400
 
