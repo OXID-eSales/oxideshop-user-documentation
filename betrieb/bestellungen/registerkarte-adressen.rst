@@ -9,6 +9,7 @@ Eine geänderte Rechnungsadresse oder die Lieferadresse, die nachträglich erfas
 
 .. image:: ../../media/screenshots-de/oxbaee01.png
    :alt: Bestellungen - Registerkarte Adressen
+   :class: with-shadow
    :height: 334
    :width: 650
 

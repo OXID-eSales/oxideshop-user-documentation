@@ -5,6 +5,7 @@ Alle Bestellungen eines Kunden werden auf der Registerkarte :guilabel:`Historie`
 
 .. image:: ../../media/screenshots-de/oxbaeg01.png
    :alt: Bestellungen - Registerkarte Historie
+   :class: with-shadow
    :height: 334
    :width: 650
 

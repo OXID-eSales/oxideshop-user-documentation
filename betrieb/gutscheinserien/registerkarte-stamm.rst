@@ -5,6 +5,7 @@ Gutscheinserien fassen eine Anzahl von Gutscheinen zusammen und werden auf der R
 
 .. image:: ../../media/screenshots-de/oxbahs01.png
    :alt: Gutscheinserien - Registerkarte Stamm
+   :class: with-shadow
    :height: 334
    :width: 650
 
@@ -60,7 +61,7 @@ Zu einer Gutscheinserie können beliebig viele Gutscheine erstellt werden. Es is
 Wurde diese Option aktiviert, werden Gutscheine mit einem 32-stelligen alphanumerischen Gutscheincode generiert. Beispiel für zufälligen Gutscheincode: f2119e0585d1c5514f6729c703f14bf0
 
 :guilabel:`Gutscheinnummer` |br|
-Aktivieren Sie diese Option, wenn Sie Gutscheine mit identischem Gutscheincode anlegen wollen. Alle generierten Gutscheine erhalten den Gutscheincode, den Sie hier eingetragen haben. Beispiel für gleichen Gutscheincode: SALE2016
+Aktivieren Sie diese Option, wenn Sie Gutscheine mit identischem Gutscheincode anlegen wollen. Alle generierten Gutscheine erhalten den Gutscheincode, den Sie hier eingetragen haben. Beispiel für gleichen Gutscheincode: SALE2018
 
 :guilabel:`Anzahl` |br|
 Legen Sie hier fest, wie viel Gutscheine der Gutscheinserie generiert werden sollen.

@@ -5,6 +5,7 @@ Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketi
 
 .. image:: ../../media/screenshots-de/oxbagv01.png
    :alt: Aktionen
+   :class: with-shadow
    :height: 529
    :width: 650
 

@@ -4,6 +4,7 @@ Bei Bestellungen in einem Online-Shop kommt es häufig vor, dass die bestellte W
 
 .. image:: ../../media/screenshots-de/oxbadv01.png
    :alt: 
+   :class: with-shadow
    :height: 334
    :width: 650
 

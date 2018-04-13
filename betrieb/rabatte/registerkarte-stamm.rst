@@ -5,6 +5,7 @@ Auf der Registerkarte :guilabel:`Stamm` werden die wichtigen Einstellungen für 
 
 .. image:: ../../media/screenshots-de/oxbahi01.png
    :alt: Rabatte - Registerkarte Stamm
+   :class: with-shadow
    :height: 335
    :width: 650
 
@@ -19,7 +20,7 @@ Mit einem Wert kann vorgegeben werden, in welcher Reihenfolge die Rabatte auf Ar
 :guilabel:`Immer aktiv` |br|
 Aktivieren Sie dieses Kontrollkästchen, damit der Rabatt dauerhaft gewährt wird. Ist das Kontrollkästchen nicht angehakt, wird für den Rabatt ein eingetragener Zeitraum berücksichtigt.
 
-:guilabel:`Aktiv für Zeitraum` ...:guilabel:`(von)` ...:guilabel:`(bis)` |br|
+:guilabel:`Aktiv für Zeitraum` ... :guilabel:`(von)` ... :guilabel:`(bis)` |br|
 Um Rabattaktionen vorbereiten und zeitlich steuern zu können, kann ein Zeitraum definiert werden, in dem ein Rabatt gültig ist. Anfang und Ende müssen im Format JJJJ-MM-TT HH:MM:SS angegeben werden. Datum und Zeit des Endes der Aktivierung sind nicht optional.
 
 :guilabel:`Einkaufsmenge von` ... :guilabel:`bis` ... |br|
@@ -32,6 +33,7 @@ Geben Sie hier eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt
 
 .. image:: ../../media/screenshots-de/oxbahi02.png
    :alt: Rabattierter Artikel im Warenkorb
+   :class: with-shadow
    :height: 294
    :width: 650
 
@@ -49,6 +51,7 @@ Das Eingabefeld wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist.
 
 .. image:: ../../media/screenshots-de/oxbahi03.png
    :alt: Artikel mit Dreingabe im Warenkorb
+   :class: with-shadow
    :height: 284
    :width: 650
 

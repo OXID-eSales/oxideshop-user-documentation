@@ -5,6 +5,7 @@ Benutzergruppen dienen dazu, Benutzer mit bestimmten Eigenschaften zusammenzufas
 
 .. image:: ../../media/screenshots-de/oxbadz01.png
    :alt: Benutzergruppen
+   :class: with-shadow
    :height: 517
    :width: 650
 

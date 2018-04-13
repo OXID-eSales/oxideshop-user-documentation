@@ -5,6 +5,7 @@ Auf der Registerkarte :guilabel:`Stamm` können Bestellinformationen hinzugefüg
 
 .. image:: ../../media/screenshots-de/oxbaed01.png
    :alt: Bestellungen - Registerkarte Stamm
+   :class: with-shadow
    :height: 334
    :width: 650
 
@@ -38,6 +39,6 @@ Die Schaltflächen :guilabel:`Jetzt versenden` und :guilabel:`Versanddatum zurü
 :guilabel:`Bestellte Downloadlinks` |br|
 Mit OXID eShop 4.6.0 wurde mit Download-Artikel ein neuer Artikeltyp eingeführt. Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien, die er sich im Shop herunterladen kann. Mit einem Klick auf die Schaltfläche :guilabel:`Versenden` erhält der Kunde eine E-Mail mit seinen Downloadlinks zugeschickt.
 
-.. seealso:: `Datenschutz: Dürfen Online-Händler IP-Adressen ihrer Kunden speichern? <http://shop.trustedshops.com/de/rechtstipps/datenschutz-duerfen-online-haendler-ip-adressen-ihrer-kunden-speichern>`_ (Trusted Shops)\ `Features/oxCounter implementation <http://oxidforge.org/en/oxcounter-implementation.html>`_ (OXIDforge, englischsprachig)
+.. seealso:: `Datenschutz: Dürfen Online-Händler IP-Adressen ihrer Kunden speichern? <http://shop.trustedshops.com/de/rechtstipps/datenschutz-duerfen-online-haendler-ip-adressen-ihrer-kunden-speichern>`_ (Trusted Shops) | `Features/oxCounter implementation <http://oxidforge.org/en/oxcounter-implementation.html>`_ (OXIDforge, englischsprachig)
 
 .. Intern: oxbaed, Status:, F1: order_main.html

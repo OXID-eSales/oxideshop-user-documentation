@@ -11,6 +11,7 @@ Das Banner ist ein großer Bereich, der sich oben horizontal über die Startseit
 
 .. image:: ../../media/screenshots-de/oxbagw01.png
    :alt: Banner
+   :class: with-shadow
    :height: 208
    :width: 650
 
@@ -22,6 +23,7 @@ Die Angebote der Woche werden auf der Startseite unterhalb des Banners angezeigt
 
 .. image:: ../../media/screenshots-de/oxbagw02.png
    :alt: Angebot der Woche
+   :class: with-shadow
    :height: 270
    :width: 650
 
@@ -31,6 +33,7 @@ Unsere Marken
 -------------
 .. image:: ../../media/screenshots-de/oxbagw03.png
    :alt: Unsere Marken
+   :class: with-shadow
    :height: 147
    :width: 650
 
@@ -43,6 +46,7 @@ Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge des Sh
 
 .. image:: ../../media/screenshots-de/oxbagw04.png
    :alt: Frisch eingetroffen
+   :class: with-shadow
    :height: 477
    :width: 650
 
@@ -56,6 +60,7 @@ Weiter unten auf der Startseite werden dem Kunden die meistverkauften Artikel de
 
 .. image:: ../../media/screenshots-de/oxbagw05.png
    :alt: Topseller
+   :class: with-shadow
    :height: 222
    :width: 650
 

@@ -4,6 +4,7 @@ Alle Zahlungsarten, die der Kunde bei seinen bisherigen Bestellungen benutzte, k
 
 .. image:: ../../media/screenshots-de/oxbadw01.png
    :alt: 
+   :class: with-shadow
    :height: 335
    :width: 650
 

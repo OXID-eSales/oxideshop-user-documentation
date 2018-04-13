@@ -5,13 +5,14 @@ Gutscheinserien können für Benutzergruppen, Kategorien oder einzelne Artikel g
 
 .. image:: ../../media/screenshots-de/oxbaht01.png
    :alt: Gutscheinserien - Registerkarte Benutzergruppen &amp; Artikel
+   :class: with-shadow
    :height: 334
    :width: 650
 
 Wurden Kategorien und/oder Artikel zugeordnet, ist die Option :guilabel:`Nur einmalig berechnen (gültig nur bei zugewiesenen Gutscheinen)` auf der Registerkarte :guilabel:`Stamm` relevant. Diese Einstellung steuert, ob ein Gutschein einmal oder für alle zugewiesenen Artikel im Warenkorb gilt.
 
 :guilabel:`Benutzergruppen zuordnen` |br|
-Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzergruppen` und\:guilabel:`Verfügbar für Benutzergruppen`. Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzergruppen` und :guilabel:`Verfügbar für Benutzergruppen`. Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
 
 :guilabel:`Kategorien zuordnen` |br|
 Eine Gutscheinserie kann für eine oder mehrere Kategorien gelten. Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Kategorie angezeigt. Diese lassen sich nach Titel und Beschreibung filtern und sortieren. Die Kategorien können per Drag \& Drop in die rechte Liste verschoben werden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Damit ist die Zuordnung abgeschlossen.

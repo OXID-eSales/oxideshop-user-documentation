@@ -4,6 +4,7 @@ Aktionen des Kunden im OXID eShop und die Informationen an ihn werden auf der Re
 
 .. image:: ../../media/screenshots-de/oxbadu01.png
    :alt: 
+   :class: with-shadow
    :height: 334
    :width: 650
 

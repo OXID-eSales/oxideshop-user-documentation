@@ -4,6 +4,7 @@ Auf der Registerkarte :guilabel:`Erweitert` können ergänzende Informationen zu
 
 .. image:: ../../media/screenshots-de/oxbads01.png
    :alt: 
+   :class: with-shadow
    :height: 334
    :width: 650
 

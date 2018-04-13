@@ -7,6 +7,7 @@ Zuerst werden die Benutzergruppen zugewiesen. Damit kann der Newsletter beispiel
 
 .. image:: ../../media/screenshots-de/oxbaii01.png
    :alt: Newsletter - Registerkarte Versenden
+   :class: with-shadow
    :height: 346
    :width: 650
 

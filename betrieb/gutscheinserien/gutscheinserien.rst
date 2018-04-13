@@ -7,6 +7,7 @@ Gutscheine sind neben Aktionen, Rabatten und Newslettern ein weiteres Marketingi
 
 .. image:: ../../media/screenshots-de/oxbahr01.png
    :alt: Gutscheinserien
+   :class: with-shadow
    :height: 516
    :width: 650
 
@@ -18,6 +19,7 @@ Ein angegebener Gutschein kann auch wieder aus der Warenkorbübersicht entfernt 
 
 .. image:: ../../media/screenshots-de/oxbahr02.png
    :alt: Verwendung eines Gutscheins im Warenkorb
+   :class: with-shadow
    :height: 294
    :width: 650
 

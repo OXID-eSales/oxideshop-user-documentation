@@ -7,6 +7,7 @@ Benutzer, die den Newsletter abonniert haben, werden automatisch der Benutzergru
 
 .. image:: ../../media/screenshots-de/oxbaie01.png
    :alt: Newsletter
+   :class: with-shadow
    :height: 536
    :width: 650
 

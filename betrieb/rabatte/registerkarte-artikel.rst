@@ -5,6 +5,7 @@ Rabatte können für Kategorien und/oder Artikel gelten. Auf der Registerkarte :
 
 .. image:: ../../media/screenshots-de/oxbahj01.png
    :alt: Rabatte - Registerkarte Artikel
+   :class: with-shadow
    :height: 335
    :width: 650
 

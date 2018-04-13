@@ -5,6 +5,7 @@ Auf der Registerkarte :guilabel:`Stamm` kann der Name einer Benutzergruppe angeg
 
 .. image:: ../../media/screenshots-de/oxbaea01.png
    :alt: Benutzergruppen - Registerkarte Stamm
+   :class: with-shadow
    :height: 334
    :width: 650
 
