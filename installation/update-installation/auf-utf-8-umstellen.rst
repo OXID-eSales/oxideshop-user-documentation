@@ -120,7 +120,7 @@ Wenn Sie den OXID eShop mit eigenen Dateien erweitert haben, müssen Sie den Zei
 
 * Kopieren Sie die :file:`update.php` aus dem Update-Paket ins Hauptverzeichnis Ihres Shops.
 * Rufen Sie das Update-Skript mit ihrem Browser auf (``www.ihreshop.de/update.php``).
-* Im ersten Schritt wird der derzeit verwendete Zeichensatz auotomatisch erkannt.
+* Im ersten Schritt wird der derzeit verwendete Zeichensatz automatisch erkannt.
 * Klicken Sie auf :guilabel:`Proceed`, um das Update auszuführen.
 * Auf der nächsten Seite werden die Ergebnisse des Updates angezeigt. Überprüfen Sie, ob alle Sonderzeichen korrekt gespeichert sind (besonders die Währungseinstellungen, vgl. `Bugtracker-Eintrag #579 <https://bugs.oxid-esales.com/view.php?id=579>`_). Ändern Sie eventuell falsche Sonderzeichen im Administrationsbereich, nachdem Sie das Update beendet haben.
 
