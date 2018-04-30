@@ -7,7 +7,7 @@ Dieser Abschnitt der Anwenderdokumentation informiert über das Update des OXID 
 
 Standard-Update ab 6.0.0
 ------------------------
-**Inhalte**: Patch- und Minor-Update ab Version 6.0.0, Zielversion des Updates, composer.json, Abhängigkeiten aktualisieren, composer update --no-plugins --no-scripts, neue Compilation beziehen, composer update, Datenbank migrieren |br|
+**Inhalte**: Patch- und Minor-Update ab Version 6.0.0, Zielversion des Updates, composer.json, Abhängigkeiten aktualisieren, composer update --no-plugins --no-scripts --no-dev, neue Compilation beziehen, composer update --no-dev, Datenbank migrieren |br|
 :doc:`Artikel lesen <ab-600-aktualisieren>` |link|
 
 Von 6.0.0_* auf 6.0.0 aktualisieren

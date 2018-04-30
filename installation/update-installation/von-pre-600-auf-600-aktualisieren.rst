@@ -46,11 +46,11 @@ In die Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befin
 
 |schritt| Abhängigkeiten aktualisieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Öffnen Sie eine Shell im Hauptverzeichnis des Shops und führen Sie den nachstehenden Composer-Befehl aus. Dadurch werden alle benötigten Bibliotheken aktualisiert.
+Öffnen Sie eine Shell im Hauptverzeichnis des Shops und führen Sie den nachstehenden Composer-Befehl aus. Dadurch werden alle benötigten Bibliotheken aktualisiert. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
 
 .. code:: bash
 
-   composer update --no-plugins --no-scripts
+   composer update --no-plugins --no-scripts --no-dev
 
 |schritt| Neue Compilation beziehen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue C
 
 .. code:: bash
 
-   composer update
+   composer update --no-dev
 
 |schritt| Datenbank migrieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
