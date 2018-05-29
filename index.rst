@@ -12,3 +12,5 @@ Anwenderdokumentation
    Einrichtung <einrichtung/index.rst>
    Betrieb <betrieb/index.rst>
    Releases <releases/index.rst>
+
+.. |Home| image:: media/icons-de/home.png
