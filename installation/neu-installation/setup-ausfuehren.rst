@@ -53,11 +53,6 @@ Geben Sie die Zugangsdaten zur Datenbank ein.
 :guilabel:`Demodaten` |br|
 Entscheiden Sie, ob Sie den Shop vorkonfiguriert mit Beispielartikeln installieren möchten. Demodaten sind empfehlenswert, wenn Sie sich zunächst in einer Testinstallation mit dem Shop vertraut machen möchten. Sie können die Demodaten jederzeit löschen, wenn Sie den Shop mit eigenen Artikeln befüllen wollen.
 
-Auch wenn Sie Ihren Shop ohne Demodaten installieren, müssen Sie auf Demoshops nicht verzichten. Auf unserer Website gibt es vorbereitete Demoshops zum Anschauen und Ausprobieren. Sie können die meisten Funktionen testen. Einige Funktionen sind jedoch im Demoshop-Modus aus Sicherheitsgründen eingeschränkt. Keine Sorge, dass Sie an den Demoshops etwas kaputt machen könnten. Diese werden stündlich zurückgesetzt.
-
-*  `Demoshop Professional Edition <https://demoshop.oxid-esales.com/professional-edition>`_
-*  `Demoshop Community Edition <https://demoshop.oxid-esales.com/community-edition>`_
-
 Betätigen Sie die Schaltfläche :guilabel:`Datenbank jetzt erstellen`. In einigen besonderen Konstellationen kann damit die Datenbank auch direkt erstellt werden, ohne dass sie vorher manuell angelegt werden musste. Da Ihre Datenbank bereits existiert, werden alle erforderlichen Tabellen und Daten nun in dieser Datenbank gespeichert.
 
 |schritt| Verzeichnisse \& Login
