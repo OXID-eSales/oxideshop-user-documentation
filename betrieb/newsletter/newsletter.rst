@@ -3,7 +3,7 @@ Newsletter
 
 Newsletter stellen eine unkomplizierte und schnelle Möglichkeit dar, die Kunden des Onlineshops über aktuelle Themen zu informieren, Tipps zu geben, Aktionen anzukündigen und Artikel zu bewerben. Sie dienen damit der Kundeninformation und stellen zugleich Kundenbindung her. Newsletter können in regelmäßigen oder unregelmäßigen Abständen als E-Mail an Kunden versandt werden. Diese müssen den Newsletter abonniert haben, indem sie dies beispielsweise bei der Registrierung bestätigt oder das Newsletter-Formular ausgefüllt und abgeschickt haben. Darüber hinaus müssen die Kunden dem Versand von Newslettern an die eigene E-Mail-Adresse nochmals explizit zustimmen. Dieses Verfahren wird als Double-Opt-In bezeichnet und stellt sicher, dass kein Unbefugter jemanden für den Newsletter einträgt.
 
-Benutzer, die den Newsletter abonniert haben, werden automatisch der Benutzergruppe "Newsletter-Abonnenten" zugeordnet. Sie können im Administrationsbereich unter :menuselection:`Benutzer verwalten -> Benutzergruppen` eingesehen werden. Kunden können den Newsletter abbestellen, indem sie das Newsletter-Formular ausfüllen und :guilabel:`Stornieren` wählen.
+Benutzer, die den Newsletter abonniert haben, werden automatisch der Benutzergruppe "Newsletter-Abonnenten" zugeordnet. Sie können im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzergruppen` eingesehen werden. Kunden können den Newsletter abbestellen, indem sie das Newsletter-Formular ausfüllen und :guilabel:`Stornieren` wählen.
 
 .. image:: ../../media/screenshots-de/oxbaie01.png
    :alt: Newsletter

@@ -118,8 +118,6 @@ Im Verzeichnis :file:`/modules` wurde die Datei :file:`composer.json` entfernt, 
 
 Die Möglichkeit, im Administrationsbereich unter :menuselection:`Stammdaten -> Grundeinstellungen -> RDFa` die Shop-URL an GR-Notify-Seite zu übertragen, damit sie an Suchmaschinen und Endpunkte von Linked Open Commerce & Semantic Web weitergeleitet wird, wurde entfernt. Ursache dafür ist, dass dieser Dienst eingestellt wurde.
 
-Das für den OXID eShop 4&5 verwendete Prüfscript, welches die Integrität der .php-Dateien und Templates prüfte, wird nicht mehr unterstützt. Der Aufruf aus dem Administrationsbereich heraus durch Aktivieren des Kontrollkästchens :guilabel:`Versionsprüfung ausführen und abfragen` unter :menuselection:`Service -> Diagnosewerkzeug` wurde entfernt.
-
 .. seealso:: `Changelog auf GitHub <https://github.com/OXID-eSales/oxideshop_ce/blob/master/CHANGELOG.md>`_ | `Blogbeiträge auf OXIDforge <https://oxidforge.org/en/?s=eShop+v6.0.0>`_
 
 -----------------------------------------------------------------------------------------
