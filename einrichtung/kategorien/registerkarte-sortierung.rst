@@ -3,7 +3,7 @@
 
 Im Gegensatz zur Schnellsortierung können die Artikel einer Kategorie auch manuell in eine bestimmte Reihenfolge gebracht werden.
 
-.. image:: ../../media/screenshots-de/oxbabn01.png
+.. image:: ../../media/screenshots-de/oxbajg01.png
    :alt: Kategorien - Registerkarte Sortierung
    :class: with-shadow
    :height: 342
@@ -11,7 +11,7 @@ Im Gegensatz zur Schnellsortierung können die Artikel einer Kategorie auch manu
 
 Die Schaltfläche :guilabel:`Artikel sortieren` auf der Registerkarte :guilabel:`Sortierung` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel der Kategorie angezeigt. Der Wert 0 in der Positionsspalte bei allen Artikeln zeigt an, dass es bisher keine manuelle Sortierung gibt.
 
-.. image:: ../../media/screenshots-de/oxbabn02.png
+.. image:: ../../media/screenshots-de/oxbajg02.png
    :alt: Artikel sortieren
    :class: with-shadow
    :height: 323
@@ -23,4 +23,4 @@ Ist bei der Sortierung einmal ein Fehler aufgetreten, lässt diese sich einfach 
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`
 
-.. Intern: oxbabn, Status:, F1: category_order.html
+.. Intern: oxbajg, Status:, F1: category_order.html

@@ -3,7 +3,7 @@
 
 Auf der Registerkarte :guilabel:`Stamm` können Bestellinformationen hinzugefügt oder verändert werden. Das betrifft Bestell- und Rechnungsnummern ebenso, wie Bezahl- und Versandinformationen. Handelt es sich bei den bestellten Artikeln um Download-Artikel, kann eine E-Mail mit den Downloadlinks an den Kunden verschickt werden.
 
-.. image:: ../../media/screenshots-de/oxbaed01.png
+.. image:: ../../media/screenshots-de/oxbald01.png
    :alt: Bestellungen - Registerkarte Stamm
    :class: with-shadow
    :height: 334
@@ -41,4 +41,4 @@ Mit OXID eShop 4.6.0 wurde mit Download-Artikel ein neuer Artikeltyp eingeführt
 
 .. seealso:: `Datenschutz: Dürfen Online-Händler IP-Adressen ihrer Kunden speichern? <http://shop.trustedshops.com/de/rechtstipps/datenschutz-duerfen-online-haendler-ip-adressen-ihrer-kunden-speichern>`_ (Trusted Shops) | `Features/oxCounter implementation <http://oxidforge.org/en/oxcounter-implementation.html>`_ (OXIDforge, englischsprachig)
 
-.. Intern: oxbaed, Status:, F1: order_main.html
+.. Intern: oxbald, Status:, F1: order_main.html

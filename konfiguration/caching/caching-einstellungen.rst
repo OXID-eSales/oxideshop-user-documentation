@@ -3,7 +3,7 @@
 
 Im Administrationsbereich des OXID eShop lassen sich alle Einstellungen für das Caching vornehmen. Gehen Sie zu :menuselection:`Stammdaten --> Grundeinstellungen --> Caching`. Die Registerkarte :guilabel:`Caching` ist in drei Bereiche unterteilt: :guilabel:`Default Cache Backend`, :guilabel:`Reverse Proxy` und :guilabel:`Dynamic Content Caching`. Klicken Sie jeweils auf die Überschriften, um die dazugehörigen Einstellungen anzuzeigen.
 
-.. image:: ../../media/screenshots-de/oxbacd01.png
+.. image:: ../../media/screenshots-de/oxbajm01.png
    :alt: Registerkarte Caching
    :class: with-shadow
    :height: 319
@@ -65,4 +65,4 @@ Dauer in Sekunden, nach denen der Cache gelöscht wird. Der Standardwert ist 3.6
 :guilabel:`Cachebare Klassen` |br|
 Liste der Klassen, die gecached werden, standardmäßig info, start, details, alist und vendorlist.
 
-.. Intern: oxbacd, Status:
+.. Intern: oxbajm, Status:

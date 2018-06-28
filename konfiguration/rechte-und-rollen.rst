@@ -19,7 +19,7 @@ Kaufen von Artikeln und Kategorien
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Für Artikel und Kategorien kann auch definiert werden, dass sie ausschließlich für bestimmte Benutzergruppen kaufbar sein sollen. Auch hier erfolgt die Definition durch Zuweisung der jeweiligen Benutzergruppen auf der Registerkarte :guilabel:`Rechte` von Artikeln oder Kategorien. Der Screenshot zeigt, dass es für nicht berechtigte Benutzer in der Artikelübersicht keine Möglichkeit gibt, zum Beispiel Kites in den Warenkorb zu legen. Mit der Schaltfläche :guilabel:`Mehr Informationen` kann lediglich die Detailseite des Artikels aufgerufen werden.
 
-.. image:: ../media/screenshots-de/oxbaev01.png
+.. image:: ../media/screenshots-de/oxbalj01.png
    :alt: Artikelübersicht (Rechte und Rollen)
    :class: with-shadow
    :height: 360
@@ -27,7 +27,7 @@ Für Artikel und Kategorien kann auch definiert werden, dass sie ausschließlich
 
 Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und der berechtigten Benutzergruppe angehört.
 
-.. image:: ../media/screenshots-de/oxbaev02.png
+.. image:: ../media/screenshots-de/oxbalj02.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
    :class: with-shadow
    :height: 307
@@ -44,7 +44,7 @@ Rechte und Rollen können auch auf den gesamten Warenkatalog bezogen vergeben we
 
 Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop Rollen` definiert. Verschiedene Rechtekombinationen können in Rollen zusammengefasst und Benutzergruppen zugeordnet werden. Sobald für eine Benutzergruppe ein Recht erteilt wurde, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr. Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident lässt sich in Templates eine rechteabhängige Anzeige realisieren.
 
-.. image:: ../media/screenshots-de/oxbaev03.png
+.. image:: ../media/screenshots-de/oxbalj03.png
    :alt: Rechte für Detailansicht (Rechte und Rollen)
    :class: with-shadow
    :height: 158
@@ -52,7 +52,7 @@ Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop
 
 Auf der Detailseite, auf dem Screenshot als Beispiel zu sehen, und auch in den Artikelübersichten werden keine Preise für nicht berechtigte Benutzer angezeigt.
 
-.. image:: ../media/screenshots-de/oxbaev04.png
+.. image:: ../media/screenshots-de/oxbalj04.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
    :class: with-shadow
    :height: 310
@@ -66,7 +66,7 @@ Zugriff auf Menüs, Untermenüs, Registerkarten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Navigation und auch auf einzelne Registerkarten des Eingabebereiches. Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich. Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Admin Rollen` definiert und den jeweiligen Benutzern zugeordnet.
 
-.. image:: ../media/screenshots-de/oxbaev05.png
+.. image:: ../media/screenshots-de/oxbalj05.png
    :alt: Zugriff im Administrationsbereich
    :class: with-shadow
    :height: 335
@@ -76,10 +76,10 @@ Zugriff auf Artikel und Kategorien
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differenziert definiert werden. Sie regeln beispielsweise das Anlegen, Ändern und Löschen von Artikeln und Kategorien insgesamt und wenn nötig den Zugriff auf jedes einzelne Steuerelement (Feld, Kontrollkästchen oder Option) des jeweiligen Eingabebereiches.
 
-.. image:: ../media/screenshots-de/oxbaev06.png
+.. image:: ../media/screenshots-de/oxbalj06.png
    :alt: Zugriff im Administrationsbereich
    :class: with-shadow
    :height: 335
    :width: 650
 
-.. Intern: oxbaev, Status:
+.. Intern: oxbalj, Status:

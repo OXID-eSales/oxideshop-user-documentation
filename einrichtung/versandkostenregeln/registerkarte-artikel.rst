@@ -3,7 +3,7 @@
 
 Versandkostenregeln können für Kategorien und/oder Artikel gelten. Auf der Registerkarte :guilabel:`Artikel` kann die dafür notwendige Zuordnung vorgenommen werden. Ohne Zuweisung von Kategorien und/oder Artikel gilt die Versandkostenregel für den gesamten Warenkatalog.
 
-.. image:: ../../media/screenshots-de/oxbadl01.png
+.. image:: ../../media/screenshots-de/oxbakp01.png
    :alt: Versandkostenregeln - Registerkarte Artikel
    :class: with-shadow
    :height: 342
@@ -17,4 +17,4 @@ Um einzelne Artikel für die Versandkostenregel festzulegen, betätigen Sie die 
 
 .. seealso:: :doc:`Versandkosten für bestimmte Artikel <../zahlung-und-versand/versandkosten-fuer-bestimmte-artikel>` | :doc:`Versandkosten für Artikel aus bestimmten Kategorien <../zahlung-und-versand/versandkosten-fuer-artikel-aus-bestimmten-kategorien>`
 
-.. Intern: oxbadl, Status:, F1: delivery_articles.html
+.. Intern: oxbakp, Status:, F1: delivery_articles.html

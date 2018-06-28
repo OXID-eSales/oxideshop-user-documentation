@@ -7,7 +7,7 @@ Gutscheinserien können beim Erstellen von Shops an diese vererbt werden. Wird d
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen einer Gutscheinserie zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Gutscheinserien aus allen Shops übernehmen und anzeigen.
 
-.. image:: ../../media/screenshots-de/oxbahu01.png
+.. image:: ../../media/screenshots-de/oxbanm01.png
    :alt: Gutscheinserien - Registerkarte Mall
    :class: with-shadow
    :height: 334
@@ -20,4 +20,4 @@ Die Verknüpfung einer Gutscheinserie mit Subshops und Supershops kann hinzugef�
 
 Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
 
-.. Intern: oxbahu, Status:, F1: voucherserie_mall.html
+.. Intern: oxbanm, Status:, F1: voucherserie_mall.html

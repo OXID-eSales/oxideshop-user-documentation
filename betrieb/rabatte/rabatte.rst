@@ -5,7 +5,7 @@ Rabattangebote sind neben Gutscheinserien, Newslettern oder Aktionen ein wichtig
 
 Rabatte lassen sich für einen bestimmten Zeitraum oder gar länderspezifisch definieren. Sie können so eingestellt werden, dass das Angebot direkt mit den ermäßigten Preisen angezeigt wird. Es ist aber auch möglich, dass der Rabatt erst im Warenkorb berechnet und ausgewiesen wird. Rabatte können prozentual oder absolut zum Artikelpreis vergeben werden. Neben der Ermäßigung des Artikelpreises gibt es auch die Möglichkeit, bei jedem Kauf, der den Rabattkriterien entspricht, einen Gratisartikel in den Warenkorb zu legen.
 
-.. image:: ../../media/screenshots-de/oxbahh01.png
+.. image:: ../../media/screenshots-de/oxbana01.png
    :alt: Rabatte
    :class: with-shadow
    :height: 517
@@ -17,7 +17,7 @@ Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltu
 
 Im OXID eShop können natürlich verschiedene Rabatte aktiv sein, so dass unter bestimmten Bedingungen mehrere Rabatte beim Einkauf berücksichtigt und im Warenkorb ausgewiesen werden. Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht. Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt.
 
-.. image:: ../../media/screenshots-de/oxbahh02.png
+.. image:: ../../media/screenshots-de/oxbana02.png
    :alt: Kite mit 2 Rabatten im Warenkorb
    :class: with-shadow
    :height: 317
@@ -56,4 +56,4 @@ Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Rabatte vererben, Rabatte verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
-.. Intern: oxbahh, Status:
+.. Intern: oxbana, Status:

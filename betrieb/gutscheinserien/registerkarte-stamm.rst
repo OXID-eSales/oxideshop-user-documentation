@@ -3,7 +3,7 @@
 
 Gutscheinserien fassen eine Anzahl von Gutscheinen zusammen und werden auf der Registerkarte :guilabel:`Stamm` erstellt und bearbeitet. Hier wird die Gültigkeit einer Gutscheinserie festgelegt, die gleichzeitig auch die Gültigkeit der zur Serie gehörenden Gutscheine bestimmt. Ein absoluter oder relativer Rabatt stellt den eigentlichen Wert eines Gutscheins da, der im Warenkorb angerechnet wird. Die Gutscheine einer Serie können mit einem fixen oder einem zufälligen Gutscheincode generiert und als Datei im CSV-Format exportiert werden. Eine kleine Übersicht zeigt die Anzahl aller generierten, der eingelösten und noch unbenutzten Gutscheine.
 
-.. image:: ../../media/screenshots-de/oxbahs01.png
+.. image:: ../../media/screenshots-de/oxbank01.png
    :alt: Gutscheinserien - Registerkarte Stamm
    :class: with-shadow
    :height: 334
@@ -72,4 +72,4 @@ Zum Erzeugen der Gutscheine betätigen Sie diese Schaltfläche. Es können bei B
 :guilabel:`Export` |br|
 Die Schaltfläche ermöglicht es, die generierten Gutscheine mit den Gutscheincodes in eine Datei zu schreiben. Das wird vor allem dann notwendig, wenn Gutscheine mit zufälligen Gutscheincodes generiert wurden, da diese nicht im Administrationsbereich angezeigt werden. Die Datei listet alle, auch die bereits eingelösten Gutscheine auf. Sie wird im Verzeichnis :file:`/export` des Shops gespeichert und kann mit einem beliebigen Texteditor oder Tabellenkalkulationsprogramm geöffnet werden.
 
-.. Intern: oxbahs, Status:, F1: voucherserie_main.html
+.. Intern: oxbank, Status:, F1: voucherserie_main.html

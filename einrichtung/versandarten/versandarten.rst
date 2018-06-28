@@ -9,7 +9,7 @@ Alle Einstellungen und Zuordnungen können im Administrationsbereich unter :menu
 
 Unter der Liste befindet sich der Eingabebereich für die Versandart. Wird eine Versandart aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Versandart klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Versandart anlegen`.
 
-.. image:: ../../media/screenshots-de/oxbadd01.png
+.. image:: ../../media/screenshots-de/oxbakh01.png
    :alt: Versandarten
    :class: with-shadow
    :height: 528
@@ -51,4 +51,4 @@ Registerkarte RDFa
 
 .. seealso:: :doc:`Zahlungsarten <../zahlungsarten/zahlungsarten>` | :doc:`Versandkostenregeln <../versandkostenregeln/versandkostenregeln>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
 
-.. Intern: oxbadd, Status:
+.. Intern: oxbakh, Status:

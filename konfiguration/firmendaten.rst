@@ -15,4 +15,4 @@ Geben Sie auf der rechten Seite der Registerkarte den Namen Ihres OXID eShop ein
 
 Speichern Sie Ihre Angaben.
 
-.. Intern: oxbaau, Status:
+.. Intern: oxbais, Status:

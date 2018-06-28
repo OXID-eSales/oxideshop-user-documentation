@@ -4,7 +4,7 @@ Mit OXID eShop 4.6.0 wurde ein neuer Artikeltyp eingeführt: der Download-Artike
 
 Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --> Meine Downloads`. Die Dateien können heruntergeladen werden, sobald die Zahlung erfolgt ist. Werden beispielsweise Lastschrift oder Kreditkartenzahlung als Zahlungsart verwendet, ist das Herunterladen sofort möglich. Die E-Mail, welche die Bestellung bestätigt, enthält ebenfalls die Downloadlinks zu den bestellten Dateien, wenn die Bezahlung abgeschlossen ist.
 
-.. image:: ../../media/screenshots-de/oxbacq01.png
+.. image:: ../../media/screenshots-de/oxbajy01.png
    :alt: Artikel - Registerkarte Downloads
    :class: with-shadow
    :height: 342
@@ -42,7 +42,7 @@ Geben Sie die Zeit in Stunden an, die der Downloadlink nach dem ersten Download 
 :guilabel:`Download von Dateien für diesen Artikel zulassen` |br|
 Dateien dieses Artikels können heruntergeladen werden, wenn das Kontrollkästchen angehakt ist. Ist das nicht der Fall, verhält sich der Artikel wie ein normaler Artikel. Alle hochgeladenen Dateien sind deaktiviert.
 
-.. image:: ../../media/screenshots-de/oxbacq02.png
+.. image:: ../../media/screenshots-de/oxbajy02.png
    :alt: Artikel - Registerkarte Downloads
    :class: with-shadow
    :height: 329
@@ -51,4 +51,4 @@ Dateien dieses Artikels können heruntergeladen werden, wenn das Kontrollkästch
 :guilabel:`Hochgeladene Dateien` |br|
 Dieser Bereich wird erst angezeigt, nachdem die erste Datei hochgeladen wurde. Er listet alle hochgeladenen Dateien mit ihrem Dateinamen auf. Ein Klick darauf zeigt die Einstellungen für den Download der Datei, die jederzeit geändert werden können. Dateien können hier auch durch einen Klick auf das kleine Papierkorbsymbol am Ende der Zeile gelöscht werden, nachdem eine Sicherheitsabfrage bestätigt wurde.
 
-.. Intern: oxbacq, Status:, F1: article_files.html
+.. Intern: oxbajy, Status:, F1: article_files.html

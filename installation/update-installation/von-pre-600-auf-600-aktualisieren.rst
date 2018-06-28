@@ -76,4 +76,4 @@ Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus.
 
 Damit ist das Update beendet.
 
-.. Intern: oxbaid, Status:
+.. Intern: oxbanq, Status:

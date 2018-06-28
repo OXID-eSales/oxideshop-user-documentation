@@ -37,7 +37,7 @@ Zwei Versandkostenregeln dienen als Beispiel für eine versandkostenfreie Liefer
 
 Dafür werden zwei Versandkostenregeln erstellt, deren Bedingung der Preis ist. Die eine ist für Artikel im Warenkorb mit einem Warenwert bis 79,99 €, die andere für Artikel ab 80 € Warenwert. Die Versandkostenregeln werden so definiert, dass die Berechnung nur einmal pro Warenkorb erfolgt. Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregeln müssen aktiv sein.
 
-.. image:: ../../media/screenshots-de/oxbafw01.png
+.. image:: ../../media/screenshots-de/oxbamb01.png
    :alt: Versandkostenregel ab 80 € Warenwert
    :class: with-shadow
    :height: 341
@@ -45,7 +45,7 @@ Dafür werden zwei Versandkostenregeln erstellt, deren Bedingung der Preis ist. 
 
 Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Liegen Artikel mit einem Einkaufswert unter 80 € im Warenkorb, greift die erste Versandkostenregel. Es werden 3,90 € Versandkosten im Warenkorb ausgewiesen.
 
-.. image:: ../../media/screenshots-de/oxbafw02.png
+.. image:: ../../media/screenshots-de/oxbamb02.png
    :alt: Warenkorb mit Artikeln unter 80 € Warenwert
    :class: with-shadow
    :height: 261
@@ -53,7 +53,7 @@ Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Ver
 
 Wurden Artikel eingekauft, deren Einkaufswert 80 € ist oder darüberliegt, gilt die zweite Versandkostenregel. Die Ware wird ohne Versandkosten geliefert.
 
-.. image:: ../../media/screenshots-de/oxbafw03.png
+.. image:: ../../media/screenshots-de/oxbamb03.png
    :alt: Warenkorb mit Artikel über 80 € Warenwert
    :class: with-shadow
    :height: 261
@@ -61,4 +61,4 @@ Wurden Artikel eingekauft, deren Einkaufswert 80 € ist oder darüberliegt, gil
 
 .. seealso:: :doc:`Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 
-.. Intern: oxbafw, Status:
+.. Intern: oxbamb, Status:

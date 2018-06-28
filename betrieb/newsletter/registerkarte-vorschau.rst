@@ -3,7 +3,7 @@ Registerkarte Vorschau
 
 Auf der Registerkarte :guilabel:`Vorschau` wird der Newsletter in den beiden Formaten Text und HTML angezeigt.
 
-.. image:: ../../media/screenshots-de/oxbaih01.png
+.. image:: ../../media/screenshots-de/oxbanu01.png
    :alt: Newsletter - Registerkarte Vorschau
    :class: with-shadow
    :height: 346
@@ -20,4 +20,4 @@ Im Beispiel-Newsletter wird am Ende der HTML-Mail ein Hinweis auf vollständige 
 
 Auch für die Nur-Text-Mail gibt es eine solche CMS-Seite. Sie hat den Ident "oxemailfooterplain". In beiden CMS-Seiten sollte das Impressum hinterlegt werden, so dass mit den Newslettern, aber auch anderen E-Mails, korrekte Informationen über den Onlineshop verschickt werden.
 
-.. Intern: oxbaih, Status:, F1: newsletter_preview
+.. Intern: oxbanu, Status:, F1: newsletter_preview

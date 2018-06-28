@@ -35,4 +35,4 @@ Auch hier wird die Standardmeldung verwendet, wenn bei einem Artikel keine davon
 
 Speichern Sie Ihre Einstellungen.
 
-.. Intern: oxbaaw, Status:
+.. Intern: oxbaiu, Status:

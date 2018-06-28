@@ -7,7 +7,7 @@ Varnish ist ein Reverse Proxy, der vor dem eigentlichen Webserver eingehende Anf
 
 Die Verarbeitung durch Varnish basiert auf der Aufteilung der einzelnen Seiten des OXID eShop in kleine Teilbereiche, so genannte Widgets. Für Varnish werden diese Widgets als ESI-Tags gekennzeichnet. Dadurch kann Varnish dynamische Seitenbereiche, wie beispielsweise Warenkorb oder Login, separat abfragen und aktualisieren. Darüber hinaus werden Grafiken, Artikel- und Kategoriebilder, Stylesheet- und JavaScript-Dateien immer zwischengespeichert.
 
-.. image:: ../../media/screenshots-de/oxbacb01.png
+.. image:: ../../media/screenshots-de/oxbajk01.png
    :alt: Web-Clients, Varnish und Server mit OXID eShop
    :class: with-shadow
    :height: 204
@@ -68,5 +68,5 @@ SSL-Verschlüsselung
 ^^^^^^^^^^^^^^^^^^^
 Varnish verarbeitet Anfragen aus dem Web, die das HTTP-Protokoll verwenden. Verschlüsselte Anfragen mit HTTPS-Protokoll können durch den Reverse Proxy nicht umgesetzt werden. Da der OXID eShop auf SSL-Verschlüsselung umschalten kann, sobald Benutzerdaten übertragen werden, beispielsweise bei Registrierung, Anmeldung oder im Warenkorb, muss dafür eine separate Lösung geschaffen werden. Es gibt dafür aktuell zwei Möglichkeiten. Zum einen können Anfragen mit HTTPS-Protokoll direkt an den Server mit dem OXID eShop gesendet werden. Das muss mit Server-Tools umgesetzt werden. Zum anderen kann ein Load Balancer eingesetzt werden, welcher Anfragen über HTTP, Port 80 an Varnish und über HTTPS, Port 443 direkt zum OXID eShop leitet.
 
-.. Intern: oxbacb, Status:
+.. Intern: oxbajk, Status:
 .. ToDo: Composer-Aufruf für die Konfigurationsdateien

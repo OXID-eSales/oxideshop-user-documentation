@@ -5,7 +5,7 @@ Gutscheinserien sind eine definierte Anzahl von Gutscheinen mit identischer Gül
 
 Gutscheine sind neben Aktionen, Rabatten und Newslettern ein weiteres Marketinginstrument in Ihrem OXID eShop. Sie können Gutscheine einsetzen, um Kaufanreize zu schaffen und neue Kunden zu gewinnen.
 
-.. image:: ../../media/screenshots-de/oxbahr01.png
+.. image:: ../../media/screenshots-de/oxbanj01.png
    :alt: Gutscheinserien
    :class: with-shadow
    :height: 516
@@ -17,7 +17,7 @@ Wurde der Gutscheincode vom Shop akzeptiert, wird der Gutschein in der Datenbank
 
 Ein angegebener Gutschein kann auch wieder aus der Warenkorbübersicht entfernt werden.
 
-.. image:: ../../media/screenshots-de/oxbahr02.png
+.. image:: ../../media/screenshots-de/oxbanj02.png
    :alt: Verwendung eines Gutscheins im Warenkorb
    :class: with-shadow
    :height: 294
@@ -51,4 +51,4 @@ Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Gutscheinserien vererben, Gutscheinserien verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
-.. Intern: oxbahr, Status:
+.. Intern: oxbanj, Status:

@@ -11,4 +11,4 @@ Für einen fehlerfreien Betrieb benötigt der Shop Schreibrechte für einige Ver
 
 Die Dateien :file:`.htaccess` und :file:`config.inc.php` aus dem Hauptverzeichnis müssen nach abgeschlossenem Setup schreibgeschützt sein (Dateirechte auf 444).
 
-.. Intern: oxbaag, Status:
+.. Intern: oxbaiq, Status:

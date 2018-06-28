@@ -3,7 +3,7 @@
 
 Benutzergruppen dienen dazu, Benutzer mit bestimmten Eigenschaften zusammenzufassen. Solche Eigenschaften können beispielsweise der Status des Benutzers, der bisherigen Umsatz im Shop, die Anmeldung für den Newsletter oder spezielle Preise für bestimmte Artikel sein. Benutzer, die einer Benutzergruppe angehören, lassen sich an anderer Stelle komfortabel zuordnen. Mit nur wenigen Mausklicks können Zahlungs- und Versandarten, Versandkostenregeln, Rabatte, Gutscheinserien etc. zugewiesen werden.
 
-.. image:: ../../media/screenshots-de/oxbadz01.png
+.. image:: ../../media/screenshots-de/oxbakz01.png
    :alt: Benutzergruppen
    :class: with-shadow
    :height: 517
@@ -78,4 +78,4 @@ Registerkarte Stamm
 
 .. seealso:: :doc:`Benutzer <../benutzer/benutzer>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`
 
-.. Intern: oxbadz, Status:
+.. Intern: oxbakz, Status:

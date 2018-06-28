@@ -3,7 +3,7 @@
 
 Die Registerkarte :guilabel:`SEO` des Lieferanten beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
 
-.. image:: ../../media/screenshots-de/oxbagg01.png
+.. image:: ../../media/screenshots-de/oxbamk01.png
    :alt: Lieferanten - Registerkarte SEO
    :class: with-shadow
    :height: 342
@@ -31,4 +31,4 @@ Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebund
 :guilabel:`In Sprache` |br|
 Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
 
-.. Intern: oxbagg, Status:, F1: vendor_seo.html
+.. Intern: oxbamk, Status:, F1: vendor_seo.html

@@ -78,4 +78,4 @@ Shopbetreiber mit einer Enterprise oder Professional Edition tragen hier den Liz
 -----------------------
 Das Setup ist nun erfolgreich abgeschlossen. Über den Link :guilabel:`Zum Shop` gelangen Sie zur Startseite Ihres Shops. Der Link :guilabel:`Zur Shop Administration` führt Sie direkt zum Administrationsbereich.
 
-.. Intern: oxbaaf, Status:
+.. Intern: oxbaip, Status:

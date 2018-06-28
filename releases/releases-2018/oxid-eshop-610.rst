@@ -1,7 +1,7 @@
-﻿OXID eShop 6.0.1
+﻿OXID eShop 6.1.0
 ================
 
-Veröffentlichungstermin: 30.01.2018
+Veröffentlichungstermin: xx.07.2018
 
 -----------------------------------------------------------------------------------------
 
@@ -60,4 +60,4 @@ Weiterführende Informationen für Entwickler finden Sie im Changelog der Commun
 `Modul PayPal 5.1.5 <https://github.com/OXID-eSales/paypal/blob/v5.1.5/CHANGELOG.md>`_ |br|
 `Modul PayOne 1.0.5 <https://github.com/PAYONE-GmbH/oxid-6/blob/1.0.5/Changelog.txt>`_
 
-.. Intern: oxbaib, Status:
+.. Intern: oxbanw, Status:

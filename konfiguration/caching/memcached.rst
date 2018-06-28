@@ -9,4 +9,4 @@ Installieren Sie Memcached auf einem Server. Die Software erhalten Sie auf der W
 
 Stellen Sie sicher, dass die PHP-Bibliothek \"php5-memcached\" aktiv ist.
 
-.. Intern: oxbacc, Status:
+.. Intern: oxbajl, Status:

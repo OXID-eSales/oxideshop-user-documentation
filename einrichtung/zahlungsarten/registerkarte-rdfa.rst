@@ -5,7 +5,7 @@ Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale 
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlungsart mit den in GoodReleations vordefinierten Werten für Zahlung hergestellt.
 
-.. image:: ../../media/screenshots-de/oxbadc01.png
+.. image:: ../../media/screenshots-de/oxbakg01.png
    :alt: Zahlungsarten - Registerkarte RDFa
    :class: with-shadow
    :height: 342
@@ -37,5 +37,5 @@ Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschrei
 :guilabel:`MasterCard` |br|
 :guilabel:`VISA`
 
-.. Intern: oxbadc, Status:, F1: payment_rdfa.html
+.. Intern: oxbakg, Status:, F1: payment_rdfa.html
 .. ToDo Hinweiszeile ist fehlerhaft: %s und zwei Punkte

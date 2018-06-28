@@ -3,7 +3,7 @@
 
 Die Registerkarte :guilabel:`SEO` des Herstellers beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
 
-.. image:: ../../media/screenshots-de/oxbagd01.png
+.. image:: ../../media/screenshots-de/oxbamh01.png
    :alt: Hersteller - Registerkarte SEO
    :class: with-shadow
    :height: 342
@@ -29,4 +29,4 @@ Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebund
 :guilabel:`In Sprache` |br|
 Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
 
-.. Intern: oxbagd, Status:, F1: manufacturer_seo.html
+.. Intern: oxbamh, Status:, F1: manufacturer_seo.html

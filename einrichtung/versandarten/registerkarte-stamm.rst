@@ -3,7 +3,7 @@
 
 Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versandart zur Verfügung. Es können Versandkostenregeln und Länder zugewiesen werden.
 
-.. image:: ../../media/screenshots-de/oxbade01.png
+.. image:: ../../media/screenshots-de/oxbaki01.png
    :alt: Versandarten - Registerkarte Stamm
    :class: with-shadow
    :height: 342
@@ -37,4 +37,4 @@ Ohne Länderzuordnung gilt die Versandart für alle Länder.
 
 Mit der Schaltfläche :guilabel:`Länder zuordnen` wird ein neues Fenster geöffnet, in dem in dessen linker Liste alle aktiven Länder angezeigt werden. Länder lassen sich nach Titel und/oder der Länderabkürzung (ISO Alpha 2) sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung zur Versandart ist damit abgeschlossen.
 
-.. Intern: oxbade, Status:, F1: deliveryset_main.html
+.. Intern: oxbaki, Status:, F1: deliveryset_main.html

@@ -7,7 +7,7 @@ Beim Erstellen neuer Shops werden die Kategorien eines Elternshops nicht vererbt
 
 Für Multishops gibt es die Möglichkeit, dass sie alle Kategorien von allen Shops erben können. Diese Funktion befindet sich auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` des Multishops.
 
-.. image:: ../../media/screenshots-de/oxbacf01.png
+.. image:: ../../media/screenshots-de/oxbajn01.png
    :alt: Kategorien - Registerkarte Mall
    :class: with-shadow
    :height: 334
@@ -18,4 +18,4 @@ Eine Verknüpfung der Kategorie mit Subshops und Supershops kann hinzugefügt od
 
 Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
 
-.. Intern: oxbacf, Status:, F1: category_mall.html
+.. Intern: oxbajn, Status:, F1: category_mall.html

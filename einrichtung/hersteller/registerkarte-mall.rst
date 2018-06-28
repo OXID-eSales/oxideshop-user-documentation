@@ -7,7 +7,7 @@ Hersteller können beim Erstellen von Shops an diese vererbt werden. Wird die Op
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Herstellers zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Hersteller aus allen Shops übernehmen und anzeigen.
 
-.. image:: ../../media/screenshots-de/oxbagk01.png
+.. image:: ../../media/screenshots-de/oxbamn01.png
    :alt: Hersteller - Registerkarte Mall
    :class: with-shadow
    :height: 334
@@ -20,4 +20,4 @@ Die Verknüpfung eines Herstellers mit Subshops und Supershops kann hinzugefügt
 
 Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
 
-.. Intern: oxbagk, Status:, F1: manufacturer_mall.html
+.. Intern: oxbamn, Status:, F1: manufacturer_mall.html

@@ -20,4 +20,4 @@ Ab 4.10.6/5.3.6 auf 6.0.0 aktualisieren
 **Inhalte**: Major-Update 4.10.6/5.3.6 und höher auf 6.0.0, Sicherung Shopdateien und Datenbank, Update in Testumgebung, Datenbank, Dateien und Verzeichnisse, Module, Theme, Neue und entfernte Funktionen, Funktionstest, Update Live-System |br|
 :doc:`Artikel lesen <ab-4106536-auf-600-aktualisieren>` |link|
 
-.. Intern: oxbahv, Status:
+.. Intern: oxbann, Status:

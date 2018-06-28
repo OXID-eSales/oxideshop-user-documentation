@@ -2,7 +2,7 @@
 ===================
 Auf der Registerkarte :guilabel:`Stamm` lassen sich Auswahllisten erstellen, bearbeiten und den gewünschten Artikeln zuordnen.
 
-.. image:: ../../media/screenshots-de/oxbafj01.png
+.. image:: ../../media/screenshots-de/oxbalo01.png
    :alt: Auswahllisten - Registerkarte Stamm
    :class: with-shadow
    :height: 342
@@ -40,4 +40,4 @@ Bereits angelegte Felder können gelöscht werden, nachdem sie in der Liste mark
 :guilabel:`Artikel zuordnen` |br|
 Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster, in dem die Auswahlliste Artikeln zugewiesen werden kann. Im Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die gewünschten Artikel können per Drag \& Drop in die mittlere Liste verschoben werden. Diese zeigt alle Artikel, welche diese Auswahlliste verwenden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. In der rechten Liste lässt sich die Sortierung der Auswahllisten eines Artikels ändern, wenn es für einen Artikel mehrere Auswahllisten gibt. Verwenden Sie dafür die kleinen Schaltflächen mit den Pfeilsymbolen, um eine markierte Auswahlliste an die gewünschte Position zu verschieben. Mit der Sortierung kann beeinflusst werden, in welcher Reihenfolge die Auswahllisten auf der Detailseite eines Artikels angeordnet sind.
 
-.. Intern: oxbafj, Status:, F1: selectlist_main
+.. Intern: oxbalo, Status:, F1: selectlist_main

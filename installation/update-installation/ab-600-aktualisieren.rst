@@ -37,4 +37,4 @@ Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, fa
 
 Damit ist das Update beendet.
 
-.. Intern: oxbaic, Status:
+.. Intern: oxbanp, Status:

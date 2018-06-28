@@ -15,4 +15,4 @@ Der Rabatt gilt nun für den eingetragenen Zeitraum und die angebenen Konditione
 
 .. seealso:: :doc:`Rabatte - Registerkarte Stamm <registerkarte-stamm>`
 
-.. Intern: oxbahn, Status:
+.. Intern: oxbanf, Status:

@@ -78,4 +78,4 @@ Nur Enterprise Edition |br|
 **Inhalte**: Master, Slave, Master-Datenbank, Schreibzugriffe, Slave-Datenbanken, Lesezugriffe, Load-Balancer |br|
 :doc:`Artikel lesen <master-slave>` |link|
 
-.. Intern: oxbaas, Status:
+.. Intern: oxbair, Status:

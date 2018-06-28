@@ -3,7 +3,7 @@
 
 Der Shop, der bei der Installation des OXID eShop Enterprise Edition erstellt wird, ist ein spezieller Shop. Der Hauptshop vereinigt nicht nur verschiedene Shoptypen in sich, sondern stellt auch zwei Einstellmöglichkeiten bereit, die alle Shops betreffen. Die übrigen Einstellungen hingegen finden sich auf der Registerkarte :guilabel:`Mall` jedes Shops.
 
-.. image:: ../../media/screenshots-de/oxbagm01.png
+.. image:: ../../media/screenshots-de/oxbamp01.png
    :alt: Hauptshop - Registerkarte Mall
    :class: with-shadow
    :height: 334
@@ -38,4 +38,4 @@ Zum Elternshop wird ein Shop beim Erstellen eines neuen Shops, wenn letzterer al
 
 .. seealso:: :doc:`Vererbung <vererbung/vererbung>`
 
-.. Intern: oxbagm, Status:
+.. Intern: oxbamp, Status:

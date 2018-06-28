@@ -3,7 +3,7 @@
 
 Die Registerkarte :guilabel:`SEO` der Kategorie beinhaltet Informationen und\Einstellungen, die für Suchmaschinen relevant sind.
 
-.. image:: ../../media/screenshots-de/oxbabo01.png
+.. image:: ../../media/screenshots-de/oxbajh01.png
    :alt: Kategorien - Registerkarte SEO
    :class: with-shadow
    :height: 341
@@ -29,4 +29,4 @@ Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebund
 :guilabel:`In Sprache` |br|
 Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
 
-.. Intern: oxbabo, Status:, F1: category_seo.html
+.. Intern: oxbajh, Status:, F1: category_seo.html

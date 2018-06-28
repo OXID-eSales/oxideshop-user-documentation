@@ -43,4 +43,4 @@ Der Abschnitt informiert zum einen über Funktionen, die aus dem Shop in einzeln
 
 Dokumente in der Entwicklerdokumentation: `https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/features/index.html <https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/features/index.html>`_
 
-.. Intern: oxbahw, Status:
+.. Intern: oxbano, Status:

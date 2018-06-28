@@ -3,7 +3,7 @@
 
 Der OXID eShop bietet die Möglichkeit, Lieferanten zu verwalten. Artikel können diesen Lieferanten zugeordnet werden, um die Bezugsquellen der Waren zu dokumentieren. Im Administrationsbereich lassen sich Artikel nach der Lieferanten-ID filtern und anzeigen. Im Frontend des Shops gibt es keine Verwendung für die Lieferanten, denn Shopbetreiber sind mit Sicherheit nicht daran interessiert, diese Information öffentlich zu machen.
 
-.. image:: ../../media/screenshots-de/oxbage01.png
+.. image:: ../../media/screenshots-de/oxbami01.png
    :alt: Lieferanten
    :class: with-shadow
    :height: 530
@@ -38,4 +38,4 @@ Registerkarte SEO
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Hersteller <../hersteller/hersteller>`
 
-.. Intern: oxbage, Status:
+.. Intern: oxbami, Status:

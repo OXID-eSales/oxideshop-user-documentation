@@ -3,7 +3,7 @@
 
 Auf der Registerkarte :guilabel:`Stamm` kann der Name einer Benutzergruppe angegeben bzw. geändert werden. Die Benutzergruppe lässt sich hier aktivieren oder deaktivieren. Wird eine Benutzergruppe neu angelegt, wird nach dem ersten Speichern eine zusätzliche Schaltfläche :guilabel:`Kopieren` angezeigt. Nach Auswahl der Sprache aus einer Dropdown-Liste kann die Benutzergruppe in diese Sprache des Shops kopiert und bearbeitet werden.
 
-.. image:: ../../media/screenshots-de/oxbaea01.png
+.. image:: ../../media/screenshots-de/oxbala01.png
    :alt: Benutzergruppen - Registerkarte Stamm
    :class: with-shadow
    :height: 334
@@ -24,4 +24,4 @@ Das Betätigen der Schaltfläche macht die Benutzergruppe für eine weitere Spra
 :guilabel:`Benutzer zuordnen` |br|
 Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzer` und :guilabel:`Mitglieder der Benutzergruppe`. Die Benutzergruppen lassen sich nach E-Mail/Login filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
 
-.. Intern: oxbaea, Status:, F1: usergroup_main.html
+.. Intern: oxbala, Status:, F1: usergroup_main.html

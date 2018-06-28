@@ -37,7 +37,7 @@ Beispiel
 --------
 Ein Artikel und zwei Versandkostenregeln dienen als Beispiel für gewichtsabhängige Versandkosten. Es wird ein Artikel benötigt, dem ein Gewicht von 2 kg zugewiesen wird. In der Artikelverwaltung wird beim Artikel auf der Registerkarte :guilabel:`Erweitert` ein Gewicht von 2 Kilogramm eingetragen.
 
-.. image:: ../../media/screenshots-de/oxbafv01.png
+.. image:: ../../media/screenshots-de/oxbama01.png
    :alt: Artikel mit 2 kg Gewicht
    :class: with-shadow
    :height: 341
@@ -45,7 +45,7 @@ Ein Artikel und zwei Versandkostenregeln dienen als Beispiel für gewichtsabhän
 
 Es werden zwei Versandkostenregeln erstellt, deren Bedingung das Gewicht ist. Die eine ist für Artikel im Warenkorb unter 3 Kilogramm Gesamtgewicht, die für 3,90 € verschickt werden, die andere für Artikel mit mehr Gewicht und Versandkosten in Höhe von 5,50 €. Die Versandkostenregeln werden so definiert, dass die Berechnung nur einmal pro Warenkorb erfolgt. Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregel muss aktiv sein.
 
-.. image:: ../../media/screenshots-de/oxbafv02.png
+.. image:: ../../media/screenshots-de/oxbama02.png
    :alt: Versandkostenregel ab 3 kg Gesamtgewicht
    :class: with-shadow
    :height: 341
@@ -53,7 +53,7 @@ Es werden zwei Versandkostenregeln erstellt, deren Bedingung das Gewicht ist. Di
 
 Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Liegt der Artikel mit dem Gewicht von 2 Kilogramm einmal im Warenkorb, greift die erste Versandkostenregel.
 
-.. image:: ../../media/screenshots-de/oxbafv03.png
+.. image:: ../../media/screenshots-de/oxbama03.png
    :alt: Warenkorb mit 1 Artikel
    :class: with-shadow
    :height: 291
@@ -61,7 +61,7 @@ Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Ver
 
 Sind zwei oder mehrere Artikel mit einem Gewicht von jeweils 2 Kilogramm im Warenkorb, gilt die zweite Versandkostenregel für die Berechnung der Versandkosten.
 
-.. image:: ../../media/screenshots-de/oxbafv04.png
+.. image:: ../../media/screenshots-de/oxbama04.png
    :alt: Warenkorb mit 2 Artikeln
    :class: with-shadow
    :height: 291
@@ -69,4 +69,4 @@ Sind zwei oder mehrere Artikel mit einem Gewicht von jeweils 2 Kilogramm im Ware
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 
-.. Intern: oxbafv, Status:
+.. Intern: oxbama, Status:

@@ -25,4 +25,4 @@ Hier können Sie festlegen, ob der Bestellprozess mit einer Bestellbestätigung 
 
 Aus einer Liste kann ausgewählt werden, welche Aktion ausgeführt werden soll, wenn ein Artikel in den Warenkorb gelegt wird. Es kann eine Meldung unmittelbar neben dem Warenkorb angezeigt werden. Zwei weitere Möglichkeiten sind das Öffnen eines separaten Fensters oder die Anzeige des Warenkorbs selbst.
 
-.. Intern: oxbaax, Status:
+.. Intern: oxbaiv, Status:

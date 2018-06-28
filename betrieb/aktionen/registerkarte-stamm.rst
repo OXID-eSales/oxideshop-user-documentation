@@ -7,7 +7,7 @@ Bitte beachten Sie, dass das Theme \"Flow\" den Typ Promotion und einige Möglic
 
 Typ Aktion
 ----------
-.. image:: ../../media/screenshots-de/oxbagy01.png
+.. image:: ../../media/screenshots-de/oxbamz01.png
    :alt: Aktionen - Registerkarte Stamm, Typ Aktion
    :class: with-shadow
    :height: 341
@@ -30,7 +30,7 @@ Der Aktion kann ein Artikel, wie beispielsweise bei der Aktion \"Angebote der Wo
 
 Typ Banner
 ----------
-.. image:: ../../media/screenshots-de/oxbagy02.png
+.. image:: ../../media/screenshots-de/oxbamz02.png
    :alt: Aktionen - Registerkarte Stamm, Typ Banner
    :class: with-shadow
    :height: 341
@@ -68,7 +68,7 @@ Zeigt Artikelnummer und Titel eines Artikels an, der dem Banner zugeordnet wurde
 :guilabel:`Produkt zuordnen` |br|
 Der Aktion kann ein Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Produkt zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in einer Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden.
 
-.. image:: ../../media/screenshots-de/oxbagy03.png
+.. image:: ../../media/screenshots-de/oxbamz03.png
    :alt: Produkt zuordnen
    :class: with-shadow
    :height: 340
@@ -78,4 +78,4 @@ Mit der Schaltfläche :guilabel:`Produkt zuordnen` wird das Banner mit dem in de
 
 .. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktionen und Startseite <aktionen-und-startseite>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>`
 
-.. Intern: oxbagy, Status:, F1: actions_main.html
+.. Intern: oxbamz, Status:, F1: actions_main.html

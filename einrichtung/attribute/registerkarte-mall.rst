@@ -6,7 +6,7 @@ Attribute können beim Erstellen von Shops an diese vererbt werden. Wird die Opt
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen des Attributes zu Subshops und Supershops verwaltet. Multishops übernehmen keine Attribute aus anderen Shops.
 
-.. image:: ../../media/screenshots-de/oxbagi01.png
+.. image:: ../../media/screenshots-de/oxbaml01.png
    :alt: Attribute - Registerkarte Mall
    :class: with-shadow
    :height: 334
@@ -19,4 +19,4 @@ Die Verknüpfung eines Attributes mit Subshops und Supershops kann hinzugefügt 
 
 Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
 
-.. Intern: oxbagi, Status:, F1: attribute_mall.html
+.. Intern: oxbaml, Status:, F1: attribute_mall.html

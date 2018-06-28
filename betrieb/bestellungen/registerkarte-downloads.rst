@@ -3,7 +3,7 @@
 
 Alle zu einer Bestellung gehörenden Downloads werden auf der gleichnamigen Registerkarte aufgelistet. Für jeden Download gibt es eine Zeile, die neben der Artikelnummer, dem Artikeltitel und dem Namen der herunterladbaren Datei auch Informationen enthält, die durch den eigentlichen Download aktualisiert werden.
 
-.. image:: ../../media/screenshots-de/oxbaeh01.png
+.. image:: ../../media/screenshots-de/oxbalh01.png
    :alt: Bestellungen - Registerkarte Downloads
    :class: with-shadow
    :height: 334
@@ -45,4 +45,4 @@ Der Shopbetreiber hat die Möglichkeit, bereits erfolgte Downloads zurückzusetz
 
 .. seealso:: :doc:`Registerkarten Downloads <../../einrichtung/artikel/registerkarte-downloads>`
 
-.. Intern: oxbaeh, Status:, F1: order_downloads.html
+.. Intern: oxbalh, Status:, F1: order_downloads.html

@@ -31,7 +31,7 @@ Zwei Versandkostenregeln dienen als Beispiel für eine Lieferung mit höheren Ve
 
 Dafür werden zwei Versandkostenregeln erstellt, denen unterschiedliche Länder zugeordnet werden. Die eine ist für den Versand von Artikeln innerhalb von Deutschlands zum Preis von 3,90 €, die andere für die Lieferung nach Österreich und in die Schweiz für 6,90 €. Die Versandkostenregeln werden so definiert, dass die Berechnung nur einmal pro Warenkorb erfolgt. Länder müssen zugewiesen sein. Für die eine Versandkostenregel ist das Deutschland, für die andere sind das Österreich und die Schweiz. Die Versandkostenregeln müssen aktiv sein.
 
-.. image:: ../../media/screenshots-de/oxbafx01.png
+.. image:: ../../media/screenshots-de/oxbamc01.png
    :alt: Versandkostenregel für Deutschland
    :class: with-shadow
    :height: 341
@@ -39,7 +39,7 @@ Dafür werden zwei Versandkostenregeln erstellt, denen unterschiedliche Länder 
 
 Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Sollen die Artikel nach Deutschland geliefert werden, greift die erste Versandkostenregel.
 
-.. image:: ../../media/screenshots-de/oxbafx02.png
+.. image:: ../../media/screenshots-de/oxbamc02.png
    :alt: Warenkorb mit Lieferung nach Deutschland
    :class: with-shadow
    :height: 261
@@ -47,7 +47,7 @@ Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Ver
 
 Wurden Artikel eingekauft, die nach Österreich geliefert werden, gilt die zweite Versandkostenregel.
 
-.. image:: ../../media/screenshots-de/oxbafx03.png
+.. image:: ../../media/screenshots-de/oxbamc03.png
    :alt: Warenkorb mit Lieferung nach Österreich
    :class: with-shadow
    :height: 261
@@ -55,4 +55,4 @@ Wurden Artikel eingekauft, die nach Österreich geliefert werden, gilt die zweit
 
 .. seealso:: :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 
-.. Intern: oxbafx, Status:
+.. Intern: oxbamc, Status:

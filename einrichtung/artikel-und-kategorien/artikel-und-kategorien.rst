@@ -45,4 +45,4 @@ Filtern von Artikeln
 **Inhalte**: Warenkatalog, Kategorien, Artikel filtern, Attributfilter, Attribute, Kategorien zuordnen, Artikel, Attribute zuordnen |br|
 :doc:`Artikel lesen <filtern-von-artikeln>` |link|
 
-.. Intern: oxbafn, Status:
+.. Intern: oxbals, Status:

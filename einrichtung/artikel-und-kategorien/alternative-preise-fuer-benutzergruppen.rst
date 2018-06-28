@@ -33,4 +33,4 @@ Gehören Benutzer den Benutzergruppen \"Preis A\", \"Preis B\" oder \"Preis C\" 
 
 .. seealso:: :doc:`Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm>` | :doc:`Benutzer - Registerkarte Stamm <../../betrieb/benutzer/registerkarte-stamm>` | :doc:`Benutzergruppen - Registerkarte Stamm <../../betrieb/benutzergruppen/registerkarte-stamm>`
 
-.. Intern: oxbafk, Status:
+.. Intern: oxbalp, Status:

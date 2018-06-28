@@ -23,7 +23,7 @@ Einer Kategorie werden mehrere Artikel zugeordnet.
 
 .. hint:: Beim Erstellen eines neuen Artikels ist es möglich, direkt auf der Registerkarte :guilabel:`Stamm` eine einzelne Kategorie zuzuordnen. Wählen Sie diese Kategorie aus der Dropdown-Liste, die links unten im Eingabebereich angezeigt wird. Sobald der Artikel gespeichert wurde, steht diese Schnellzuordnung nicht mehr zur Verfügung. Die Liste wird nicht mehr angezeigt.
 
-.. image:: ../../media/screenshots-de/oxbafo01.png
+.. image:: ../../media/screenshots-de/oxbalt01.png
    :alt: Artikel zuordnen
    :class: with-shadow
    :height: 325
@@ -33,4 +33,4 @@ Die Zuordnungsfenster, die in vielen Bereichen des Administrationsbereiches verw
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm>`
 
-.. Intern: oxbafo, Status:
+.. Intern: oxbalt, Status:

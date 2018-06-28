@@ -2,7 +2,7 @@
 =================
 Die Registerkarte :guilabel:`SEO` des Artikels beinhaltet Informationen und\Einstellungen, die für Suchmaschinen relevant sind.
 
-.. image:: ../../media/screenshots-de/oxbacu01.png
+.. image:: ../../media/screenshots-de/oxbakc01.png
    :alt: Artikel - Registerkarte SEO
    :class: with-shadow
    :height: 342
@@ -28,4 +28,4 @@ Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebund
 :guilabel:`In Sprache` |br|
 Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
 
-.. Intern: oxbacu, Status:, F1: article_seo.html
+.. Intern: oxbakc, Status:, F1: article_seo.html
