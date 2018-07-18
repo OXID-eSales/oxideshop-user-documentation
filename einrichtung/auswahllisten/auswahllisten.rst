@@ -21,7 +21,7 @@ Alle erstellten Auswahllisten werden in alphabetischer Reihenfolge angezeigt. Na
 
 Auswahllisten lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
 
-Wird eine Auswahlliste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Auswahlliste klicken Sie am unteren Bildschirmrand auf :guilabel:`:guilabel:`Neue Auswahlliste` anlegen`.
+Wird eine Auswahlliste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Auswahlliste klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Auswahlliste anlegen`.
 
 -----------------------------------------------------------------------------------------
 
