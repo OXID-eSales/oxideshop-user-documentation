@@ -1,7 +1,7 @@
 ﻿Installation vorbereiten
 ========================
 
-Für die Neu-Installation des OXID eShop 6 sind einige Vorbereitungen notwendig.
+Für die Neu-Installation des OXID eShop 6.0 sind einige Vorbereitungen notwendig.
 
 .. |schritt| image:: ../../media/icons-de/schritt.jpg
 
