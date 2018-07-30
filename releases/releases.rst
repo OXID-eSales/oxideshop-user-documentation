@@ -3,6 +3,7 @@
 
 Releases 2018
 -------------
+| 31.07.2018 - `OXID eShop 4.10.8/5.3.8 <releases-2018/oxid-eshop-4108538.html>`_
 | 30.01.2018 - `OXID eShop 4.10.7/5.3.7 <releases-2018/oxid-eshop-4107537.html>`_
 |
 
