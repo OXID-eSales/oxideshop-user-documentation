@@ -69,7 +69,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
 Konfigurierbares Kontaktformular
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Im Administrationsbereich kann unter :menuselection:`Grundeinstellungen --> Stammdaten`, Registerkarte :guilabel:`Einstell.` in der Sektion :guilabel:`Witere Einstellungen` eingestellt werden, welche Eingabefelder des Kontaktformulars Pflichtfelder sein sollen. Nur die aktivierten Felder werden beim Abschicken des Kontaktformulars validiert. Das Eingabefeld für die E-Mail-Adresse ist nicht konfigurierbar, da eine Kontaktanfrage ohne E-Mail-Adresse nicht beantwortet werden kann.
+Im Administrationsbereich kann unter :menuselection:`Grundeinstellungen --> Stammdaten`, Registerkarte :guilabel:`Einstell.` in der Sektion :guilabel:`Weitere Einstellungen` eingestellt werden, welche Eingabefelder des Kontaktformulars Pflichtfelder sein sollen. Nur die aktivierten Felder werden beim Abschicken des Kontaktformulars validiert. Das Eingabefeld für die E-Mail-Adresse ist nicht konfigurierbar, da eine Kontaktanfrage ohne E-Mail-Adresse nicht beantwortet werden kann.
 
 Diese Einstellungen für das Kontaktformular wurden im Zusammenhang mit der Datenschutz-Grundverordnung implementiert, um Shopbetreibern die Möglichkeit zu geben, nur die für die Bearbeitung einer Anfrage notwendigen Daten zu erheben.
 
