@@ -22,7 +22,7 @@ Der OXID eShop 6.0.3 wird als Compilation bereitgestellt. Diese enthält folgend
 
 Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.2…v6.0.3>`_.
 
-Mit OXID eShop 6.0.3 wurden zwei Sicherheitslücken geschlossen. Eine der beiden Sicherheitslücken ist nur dann relevant, wenn im Shop die Zahlungsart Paymorrow aktiv genutzt wird. Details zu beiden Sicherheitslücken finden Sie in Kürze auf folgenden Seiten der OXIDforge: Security Bulletin 2018-002 und Security Bulletin 2018-003. Wir empfehlen ein schnelles Update auf diese Shopversion (6.0.3) und auf das ausgelieferte Modul Paymorrow 2.0.1. Eine Anleitung zum Shop-Update finden Sie unter :doc:`Update-Installation <../../installation/update-installation/index>`.
+Mit OXID eShop 6.0.3 wurden zwei Sicherheitslücken geschlossen. Eine der beiden Sicherheitslücken ist nur dann relevant, wenn im Shop die Zahlungsart Paymorrow aktiv genutzt wird. Details zu beiden Sicherheitslücken finden Sie auf folgenden Seiten der OXIDforge: `Security Bulletin 2018-002 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_ und `Security Bulletin 2018-003 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_. Wir empfehlen ein schnelles Update auf diese Shopversion (6.0.3) und auf das ausgelieferte Modul Paymorrow 2.0.1. Eine Anleitung zum Shop-Update finden Sie unter :doc:`Update-Installation <../../installation/update-installation/index>`.
 
 
 Systemvoraussetzungen
