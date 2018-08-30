@@ -68,7 +68,7 @@ Der Shop muss für die Dauer des Updates offline sein. Dazu wird die :file:`inde
 
 * Machen Sie eine Sicherungskopie der :file:`index.php`, die sich im Hauptverzeichnis Ihres Shops befindet.
 * Erstellen Sie eine neue :file:`index.php` mit folgendem Inhalt: |br|
-  ``<?php echo "Der eShop ist zur Zeit offline wegen Wartungsarbeiten. Bitte versuchen Sie es später noch einmal.\";?\>``
+  ``<?php echo "Der eShop ist zur Zeit offline wegen Wartungsarbeiten. Bitte versuchen Sie es später noch einmal.\n";?>``
 * Überschreiben Sie die :file:`index.php` mit der neuen :file:`index.php`.
 
 Rufen Sie Ihren eShop im Browser auf. Die Wartungsarbeiten-Nachricht sollte erscheinen.
