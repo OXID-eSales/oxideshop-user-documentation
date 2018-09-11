@@ -64,15 +64,15 @@ Obwohl Metadaten nicht mehr die entscheidende Bedeutung für Suchmaschinen haben
 
 Beispiel aus dem Demoshop:
 
-``\<meta name=\"description\"content=\"Alles zum Thema Wassersport, Sportbekleidung und Mode.`` |br|
-``Umfangreiches Produktsortiment mit den neusten Trendprodukten. Blitzschneller Versand.\"\>``
+``<meta name="description" content="Alles zum Thema Wassersport, Sportbekleidung und Mode.`` |br|
+``Umfangreiches Produktsortiment mit den neusten Trendprodukten. Blitzschneller Versand.">``
 
-``\<meta name=\"keywords\"content=\"kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards,`` |br|
-``boards, strand, sommer, wassersport, mode, fashion, style, shirts, jeans, accessoires, angebote\"\>``
+``<meta name="keywords" content="kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards,`` |br|
+``boards, strand, sommer, wassersport, mode, fashion, style, shirts, jeans, accessoires, angebote">``
 
 Startseite
 ----------
-Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS` eingetragen werden. Die CMS-Seite \"META Description Startseite\" nimmt dabei die Beschreibung des Shops, die CMS-Seite \"META Keywords Startseite\" die Keywörter auf.
+Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS-Seiten` eingetragen werden. Die CMS-Seite "META Description Startseite" (Ident: oxstartmetakeywords) nimmt dabei die Beschreibung des Shops, die CMS-Seite "META Keywords Startseite" (Ident:oxstartmetadescription) die Keywörter auf.
 
 Kategorien und Artikel
 ----------------------
