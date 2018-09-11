@@ -45,7 +45,7 @@ Beispiel: ``www.ihreshopurl.de/Kategorie-aus-mehreren-Worten/Artikel-aus-mehrere
 Wenn mehrere Artikel den gleichen Titel haben und in der gleichen Kategorie sind, würden sie die gleiche URL erhalten. Damit das nicht passiert, wird das SEO Suffix angehängt. Dadurch werden gleiche URLs vermieden. Wenn Sie kein SEO Suffix angeben, wird ``-oxid`` als Standard verwendet.
 
 :guilabel:`Zeichen, die in SEO URLs ersetzt werden` |br|
-Bestimmte Sonderzeichen wie Umlaute (Ä, Ö, Ü) sollten in URLs nicht vorkommen, da Sie Probleme verursachen können. In dem Eingabefeld wird angegeben, mit welchen Zeichen die Sonderzeichen ersetzt werden. Die Syntax ist Sonderzeichen =\>Ersatzzeichen, zum Beispiel Ü =\>Ue. Für die deutsche Sprache sind die Ersetzungen bereits eingetragen. Falls Sie Sonderzeichen und Ersetzungen, beispielsweise für eine neue Sprache, eintragen oder ergänzen wollen, verwenden Sie dafür jeweils eine separate Zeile.
+Bestimmte Sonderzeichen wie Umlaute (Ä, Ö, Ü) sollten in URLs nicht vorkommen, da Sie Probleme verursachen können. In dem Eingabefeld wird angegeben, mit welchen Zeichen die Sonderzeichen ersetzt werden. Die Syntax ist Sonderzeichen => Ersatzzeichen, zum Beispiel Ü => Ue. Für die deutsche Sprache sind die Ersetzungen bereits eingetragen. Falls Sie Sonderzeichen und Ersetzungen, beispielsweise für eine neue Sprache, eintragen oder ergänzen wollen, verwenden Sie dafür jeweils eine separate Zeile.
 
 .. hint:: Seit der Shopversion 4.7.0/5.0.0 wird die Liste der Zeichen, die in der URL durch andere Zeichen zu ersetzen sind (Transliteration), in der Datei :file:`/application/translation/{local}/translit_lang.php` definiert. Der Eingabebereich auf der Registerkarte :guilabel:`SEO` wurde entfernt.
 
@@ -72,7 +72,7 @@ Beispiel aus dem Demoshop:
 
 Startseite
 ----------
-Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS-Seiten` eingetragen werden. Die CMS-Seite "META Description Startseite" (Ident: oxstartmetakeywords) nimmt dabei die Beschreibung des Shops, die CMS-Seite "META Keywords Startseite" (Ident:oxstartmetadescription) die Keywörter auf.
+Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS-Seiten` eingetragen werden. Die CMS-Seite "META Description Startseite" (Ident: oxstartmetakeywords) nimmt dabei die Beschreibung des Shops, die CMS-Seite "META Keywords Startseite" (Ident: oxstartmetadescription) die Keywörter auf.
 
 Kategorien und Artikel
 ----------------------
