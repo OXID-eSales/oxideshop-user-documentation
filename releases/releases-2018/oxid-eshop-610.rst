@@ -9,7 +9,9 @@ Allgemeines
 -----------
 Der OXID eShop 6.1.0 wird als Compilation bereitgestellt. Diese enthält folgende Komponenten:
 
-* OXID eShop 6.3.0
+* OXID eShop CE 6.3.0
+* OXID eShop PE 6.2.0
+* OXID eShop EE 6.2.0
 * Theme "Flow" 3.0.2
 * AmazonPay 3.1.4
 * GDPR Opt-In 2.1.1
@@ -17,7 +19,7 @@ Der OXID eShop 6.1.0 wird als Compilation bereitgestellt. Diese enthält folgend
 * Paymorrow 2.0.1
 * PAYONE 1.0.8
 * PayPal 5.2.2
-* Visual CMS 3.2.1
+* Visual CMS 3.2.1 (PE/EE)
 * WYSIWIG-Editor und die Mediathek Summernote 2.1.1
 
 Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.3...v6.1.0>`_.
@@ -59,7 +61,9 @@ Aktualisierte Komponenten der OXID eShop Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
-* OXID eShop (Update von 6.2.0 auf 6.3.0), `Changelog 6.3.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.3.0/CHANGELOG.md>`_
+* OXID eShop CE (Update von 6.2.0 auf 6.3.0), `Changelog 6.3.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.3.0/CHANGELOG.md>`_
+* OXID eShop PE (Update von 6.1.0 auf 6.2.0)
+* OXID eShop EE (Update von 6.1.1 auf 6.2.0)
 * Theme "Flow" (Update von 3.0.0 auf 3.0.2), `Changelog 3.0.2 <https://github.com/OXID-eSales/flow_theme/blob/v3.0.2/CHANGELOG.md>`_
 * AmazonPay (Update von 3.0.2 auf 3.1.4)
 * Paymorrow (Update von 2.0.0 auf 2.0.1), `Changelog 2.0.1 <https://github.com/OXID-eSales/paymorrow-module/blob/v2.0.1/CHANGELOG.md>`_
@@ -91,6 +95,6 @@ https://bugs.oxid-esales.com/changelog_page.php?version_id=433
 
 -----------------------------------------------------------------------------------------
 
-Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.2.0...v6.3.0.
+Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.2.0...v6.3.0. Wechseln Sie jeweils zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
 
-.. Intern: oxbaia, Status:
+.. Intern: oxbanw, Status:
