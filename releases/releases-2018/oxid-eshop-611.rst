@@ -66,6 +66,6 @@ https://bugs.oxid-esales.com/changelog_page.php?version_id=462
 
 -----------------------------------------------------------------------------------------
 
-Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.3.0...v6.3.1. Wechseln Sie jeweils zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
+Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.3.0...v6.3.1. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
 
 .. Intern: oxbanx, Status:
