@@ -50,8 +50,6 @@ PHP-Erweiterungen, die installiert sein müssen:
 * *SOAP*
 * *DOM*
 
-Laut PHP sind 5.6 und 7.0 die derzeit unterstützten Versionen (siehe `http://php.net/supported-versions.php <http://php.net/supported-versions.php>`_). Einige Einstellungen und Erweiterungen wurden an diese PHP-Versionen angepasst.
-
 Composer
 --------
 
