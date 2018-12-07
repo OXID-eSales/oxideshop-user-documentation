@@ -5,7 +5,7 @@ Newsletter können auf der Registerkarte :guilabel:`Versenden` an die Abonnenten
 
 Zuerst werden die Benutzergruppen zugewiesen. Damit kann der Newsletter beispielsweise zunächst an eine Testgruppe geschickt werden, bevor er später an die eigentliche Benutzergruppe "Newsletter-Abonnenten" geht. Nach der Zuordnung wird angezeigt, an wie viele Empfänger der Newsletter versendet wird. Mit einem Klick auf den Link :guilabel:`Newsletter senden` beginnt der Versand.
 
-.. image:: ../../media/screenshots-de/oxbanv01.png
+.. image:: ../../media/screenshots/oxbaii01.png
    :alt: Newsletter - Registerkarte Versenden
    :class: with-shadow
    :height: 346
@@ -17,4 +17,4 @@ Bevor Sie den finalen Newsletter verschicken, sollten Sie testen, wie dieser in 
 
 Wenn Sie Konten und Mailadressen bei diversen Webmail-Dienstleistern und verschiedene Mail-Programme installiert haben, können Sie den vorbereiteten Newsletter an die speziellen Benutzer einer Testgruppe schicken. Im Internet finden sich aber auch Lösungen, welche diese Tests erleichtern. Newletter werden dabei in vielen wichtigen Mail-Clients, wie beispielsweise Microsoft Outlook, Apple Mail, Gmail oder Thunderbird angezeigt, aber auch für die Darstellung in mobilen und Web-Clients aufbereitet.
 
-.. Intern: oxbanv, Status:, F1: newsletter_selection
+.. Intern: oxbaii, Status:, F1: newsletter_selection

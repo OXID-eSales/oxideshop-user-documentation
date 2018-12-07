@@ -2,7 +2,7 @@
 ===================
 Die Registerkarte :guilabel:`Stamm` nimmt wichtige Informationen zum Artikel auf. Erstellen oder bearbeiten Sie hier einen Artikel. Wenn Sie einen Artikel neu anlegen, können Sie ihn direkt einer Kategorie zuzuordnen. Verwenden Sie dafür die Dropdown-Liste :guilabel:`In Kategorie` am unteren Ende des Eingabebereichs. Nach dem Speichern des Artikels ist die schnelle Zuordnung der Kategorie auf dieser Registerkarte nicht mehr möglich.
 
-.. image:: ../../media/screenshots-de/oxbajq01.png
+.. image:: ../../media/screenshots/oxbaci01.png
    :alt: Artikel - Registerkarte Stamm
    :class: with-shadow
    :height: 346
@@ -68,4 +68,4 @@ Auf der rechten Seite der Registerkarte :guilabel:`Stamm` geben Sie die Langbesc
 
 .. seealso:: :doc:`Alternative Preise für Benutzergruppen <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
 
-.. Intern: oxbajq, Status:, F1: article_main.html
+.. Intern: oxbaci, Status:, F1: article_main.html

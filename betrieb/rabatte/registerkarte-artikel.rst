@@ -3,7 +3,7 @@
 
 Rabatte können für Kategorien und/oder Artikel gelten. Auf der Registerkarte :guilabel:`Artikel` kann die dafür notwendige Zuordnung vorgenommen werden. Der Rabatt wird nur gewährt, wenn zugewiesene Artikel oder Artikel aus zugewiesenen Kategorien in den Warenkorb gelegt werden. Ohne Zuordnung von Kategorien und/oder Artikel gilt der Rabatt global für den gesamten Warenkatalog.
 
-.. image:: ../../media/screenshots-de/oxbanc01.png
+.. image:: ../../media/screenshots/oxbahj01.png
    :alt: Rabatte - Registerkarte Artikel
    :class: with-shadow
    :height: 335
@@ -17,4 +17,4 @@ Um einzelne Artikel für den Rabatt festzulegen, betätigen Sie die Schaltfläch
 
 .. seealso:: :doc:`Rabatte auf ausgewählte Artikel <rabatte-auf-ausgewaehlte-artikel>`
 
-.. Intern: oxbanc, Status:, F1: discount_articles.html
+.. Intern: oxbahj, Status:, F1: discount_articles.html

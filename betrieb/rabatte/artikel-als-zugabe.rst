@@ -26,4 +26,4 @@ Beispiel: Wurden 10 Artikel gekauft, auf die der Rabatt gewährt wird, die Minde
 
 .. seealso:: :doc:`Rabatte - Registerkarte Stamm <registerkarte-stamm>`
 
-.. Intern: oxbani, Status:
+.. Intern: oxbahq, Status:

@@ -43,4 +43,4 @@ Bild für die Anzeige von Unterkategorien in der Kategorie-Übersicht. Standardg
 :guilabel:`Größe des Kategoriebildes für die Startseite in Pixeln (Breite*Höhe)` |br|
 Bild der Kategorie, die auf der Startseite beworben wird. Standardgröße: 370 Pixel breit und 107 Pixel hoch.
 
-.. Intern: oxbaix, Status:
+.. Intern: oxbaaz, Status:

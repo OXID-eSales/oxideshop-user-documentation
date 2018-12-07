@@ -3,7 +3,7 @@
 
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Informationen zum Hersteller hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie hier den Hersteller.
 
-.. image:: ../../media/screenshots-de/oxbamg01.png
+.. image:: ../../media/screenshots/oxbagc01.png
    :alt: Hersteller - Registerkarte Stamm
    :class: with-shadow
    :height: 342
@@ -32,7 +32,7 @@ Der Hersteller lässt sich in weiteren aktiven Sprachen des Shops bearbeiten. W�
 :guilabel:`Artikel zuordnen` |br|
 Dem Hersteller können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots-de/oxbamg02.png
+.. image:: ../../media/screenshots/oxbagc02.png
    :alt: Artikel zuordnen
    :class: with-shadow
    :height: 325
@@ -40,4 +40,4 @@ Dem Hersteller können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`A
 
 In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit dem Hersteller zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
-.. Intern: oxbamg, Status:, F1: manufacturer_main.html
+.. Intern: oxbagc, Status:, F1: manufacturer_main.html

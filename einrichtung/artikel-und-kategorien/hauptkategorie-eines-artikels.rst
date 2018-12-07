@@ -20,7 +20,7 @@ Die Hauptkategorie eines Artikels wird festgelegt.
 * Betätigen Sie die Schaltfläche :guilabel:`Als Hauptkat. setzen`.
 * Schließen Sie das Zuordnungsfenster.
 
-.. image:: ../../media/screenshots-de/oxbalu01.png
+.. image:: ../../media/screenshots/oxbafp01.png
    :alt: Als Hauptkategorie setzen
    :class: with-shadow
    :height: 314
@@ -28,4 +28,4 @@ Die Hauptkategorie eines Artikels wird festgelegt.
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | `Canonical Link <http://de.wikipedia.org/wiki/Canonical_Link>`_ (Wikipedia)
 
-.. Intern: oxbalu, Status:
+.. Intern: oxbafp, Status:

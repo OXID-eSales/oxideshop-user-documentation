@@ -2,7 +2,7 @@
 ===================
 Eine in den OXID eShop integrierte Lagerverwaltung zeigt den Kunden die Verfügbarkeit von Artikeln an und reduziert den Lagerbestand bei Bestellung. Der Shopbetreiber wird per E-Mail darüber informiert, wenn der Lagerbestand eines Artikels unter eine festgelegte Anzahl von Exemplaren sinkt.
 
-.. image:: ../../media/screenshots-de/oxbajs01.png
+.. image:: ../../media/screenshots/oxback01.png
    :alt: Artikel - Registerkarte Lager
    :class: with-shadow
    :height: 342
@@ -58,4 +58,4 @@ Geben Sie den Artikelpreis für eine Mengeneinheit ein. Dieser kann ein absolute
 
 .. seealso:: :doc:`Staffelpreise <../artikel-und-kategorien/staffelpreise>`
 
-.. Intern: oxbajs, Status:, F1: article_stock.html
+.. Intern: oxback, Status:, F1: article_stock.html

@@ -78,4 +78,4 @@ Kategorien und Artikel
 ^^^^^^^^^^^^^^^^^^^^^^
 Die Metadaten für Kategorien und Artikel werden automatisch aus deren Beschreibung generiert. Sie können durch selbst formulierte Bescheibungen und Schlüsselworte für jede einzelne Kategorie oder jeden einzelnen Artikel überschrieben werden. Die Metadaten werden auf der Registerkarte :guilabel:`SEO` bei der Kategorie oder beim Artikel eingetragen.
 
-.. Intern: oxbajb, Status:
+.. Intern: oxbabi, Status:

@@ -2,7 +2,7 @@
 =======
 Artikel sind neben den Kategorien die eigentliche Basis des Warenkatalogs. Schließlich geht es in einem Onlineshop darum, Artikel gut zu präsentieren und zu verkaufen. Titel, Kurz- und Langbeschreibung sind die wichtigsten Artikeleigenschaften, aber es gibt viele weitere, mit denen sich Artikel detailliert beschreiben lassen. Dazu kommen Artikelbilder, welche den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen sollten. Hochwertige Fotos sind wichtig, um den Artikel optimal zu präsentieren, und können kaufentscheidend sein.
 
-.. image:: ../../media/screenshots-de/oxbajp01.png
+.. image:: ../../media/screenshots/oxbach01.png
    :alt: Artikel
    :class: with-shadow
    :height: 536
@@ -89,4 +89,4 @@ Registerkarte SEO
 
 .. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
 
-.. Intern: oxbajp, Status:
+.. Intern: oxbach, Status:

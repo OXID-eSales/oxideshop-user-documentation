@@ -3,7 +3,7 @@
 
 Bedingungen und Konditionen für die Berechnung der Versandkosten werden auf der Registerkarte :guilabel:`Stamm` der Versandkostenregeln definiert. Über einen Dialog erfolgt die Zuordnung der Länder zur Versandkostenregel. Mindestens ein Land muss zugewiesen sein.
 
-.. image:: ../../media/screenshots-de/oxbako01.png
+.. image:: ../../media/screenshots/oxbadk01.png
    :alt: Versandkostenregeln - Registerkarte Stamm
    :class: with-shadow
    :height: 342
@@ -57,4 +57,4 @@ Nehmen Sie diese Zuordnung vor, indem Sie auf die Schaltfläche :guilabel:`Länd
 
 .. seealso:: :doc:`Gewichtsabhängige Versandkosten <../zahlung-und-versand/gewichtsabhaengige-versandkosten>` | :doc:`Versandkostenfrei ab Warenwert <../zahlung-und-versand/versandkostenfrei-ab-warenwert>` | :doc:`Versandkosten für In- und Ausland <../zahlung-und-versand/versandkosten-fuer-in-und-ausland>`
 
-.. Intern: oxbako, Status:, F1: delivery_main.html
+.. Intern: oxbadk, Status:, F1: delivery_main.html

@@ -2,7 +2,7 @@
 =======================
 Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigenschaften von Artikeln festzulegen und ihnen Informationsquellen, wie beispielsweise Dokumente, Videos oder Audiodateien hinzuzufügen.
 
-.. image:: ../../media/screenshots-de/oxbajr01.png
+.. image:: ../../media/screenshots/oxbacj01.png
    :alt: Artikel - Registerkarte Erweitert
    :class: with-shadow
    :height: 342
@@ -82,7 +82,7 @@ Der Artikel lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. 
 :guilabel:`Kategorien zuordnen` |br|
 Ein Artikel kann zu einer oder zu mehreren Kategorien gehören. Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots-de/oxbajr02.png
+.. image:: ../../media/screenshots/oxbacj02.png
    :alt: Kategorien zuordnen
    :class: with-shadow
    :height: 314
@@ -113,4 +113,4 @@ Legen Sie hier den Zeitpunkt der Preisaktualisierung fest.
 
 .. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`
 
-.. Intern: oxbajr, Status:, F1: article_extend.html
+.. Intern: oxbacj, Status:, F1: article_extend.html

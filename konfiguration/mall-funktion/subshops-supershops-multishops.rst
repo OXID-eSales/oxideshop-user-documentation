@@ -9,7 +9,7 @@ Der *Supershop* kann ebenfalls Artikel und Einstellungen von einem Elternshop er
 
 Der *Multishop* kommt ohne Vererbung aus, denn er zeigt alle Artikel, Hersteller und Lieferanten aus allen Shops an. Als einziger Shoptyp kann er alle Kategorien aus anderen Shops übernehmen.
 
-.. image:: ../../media/screenshots-de/oxbamq01.png
+.. image:: ../../media/screenshots/oxbagn01.png
    :alt: Neuen Shop anlegen
    :class: with-shadow
    :height: 335
@@ -36,7 +36,7 @@ Wird beim Anlegen eines neuen Shops nicht Supershop oder Multishop als Shoptyp g
 
 Unter :menuselection:`Stammdaten --> Grundeinstellungen` können auf der Registerkarte :guilabel:`Mall` für den Shop Einstellungen zur Mall-Funktion vorgenommen werden. Die Einstellmöglichkeiten sind für alle Shoptypen nahezu identisch. Nur für den Multishop gibt es die Möglichkeit, alle Kategorien aus allen Shops zu übernehmen. Wurden Artikel, Attribute, Auswahllisten sowie andere Elemente und Einstellungen von einem Elternshop geerbt, zeigt die Registerkarte auch die Vererbungseinstellungen an.
 
-.. image:: ../../media/screenshots-de/oxbamq02.png
+.. image:: ../../media/screenshots/oxbagn02.png
    :alt: Multishop - Registerkarte Mall
    :class: with-shadow
    :height: 334
@@ -64,4 +64,4 @@ Für den Shop kann generell ein absoluter oder ein prozentualer Aufschlag auf de
 :guilabel:`Indiv. Preis für vererbte Artikel erlauben` |br|
 Soll dieser Shop einmal seine Artikel und Einstellungen an andere Shops vererben, welche die Artikel mit individuellen Preisen anbieten sollen, aktivieren Sie bitte dieses Kontrollkästchen. Artikel- und Staffelpreise können dann in den jeweiligen Shops angepasst werden. Alle übrigen Eigenschaften der Artikel sind nicht änderbar.
 
-.. Intern: oxbamq, Status:
+.. Intern: oxbagn, Status:

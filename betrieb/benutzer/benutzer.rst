@@ -7,7 +7,7 @@ Eine besondere Form des Benutzers ist der mit Administratorrechten. Im Gegensatz
 
 In der Enterprise Edition gibt es Administratoren, die mit allen Shops arbeiten können, und solche, die nur Zugriff auf einen bestimmten Shop haben. Der bei der Installation erstellte Benutzer mit Administratorrechten kann auf alle Shops zugreifen und im Administrationsbereich zwischen den einzelnen Shops wechseln.
 
-.. image:: ../../media/screenshots-de/oxbaks01.png
+.. image:: ../../media/screenshots/oxbadq01.png
    :alt: Benutzer
    :class: with-shadow
    :height: 517
@@ -19,7 +19,7 @@ Benutzer lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile en
 
 Wird ein Benutzer aus der Benutzerliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Benutzers klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuer Benutzer`. Weitere Funktionen erlauben das Erstellen einer Notiz zum Benutzer, das Erfassen einer weiteren Lieferadresse oder den Aufruf der kontextsensitiven Hilfe.
 
-.. image:: ../../media/screenshots-de/oxbaks02.png
+.. image:: ../../media/screenshots/oxbadq02.png
    :alt: 
    :class: with-shadow
    :height: 65
@@ -61,4 +61,4 @@ Registerkarte Zahlung
 
 .. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`
 
-.. Intern: oxbaks, Status:
+.. Intern: oxbadq, Status:

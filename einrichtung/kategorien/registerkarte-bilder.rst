@@ -3,7 +3,7 @@
 
 Wurden für die Kategorie ein Bild und/oder ein Icon hochgeladen, werden die Bilder auf dieser Registerkarte in der Vorschau angezeigt.
 
-.. image:: ../../media/screenshots-de/oxbajf01.png
+.. image:: ../../media/screenshots/oxbabm01.png
    :alt: Kategorien - Registerkarte Bilder
    :class: with-shadow
    :height: 341
@@ -11,7 +11,7 @@ Wurden für die Kategorie ein Bild und/oder ein Icon hochgeladen, werden die Bil
 
 Als :guilabel:`Thumbnail` ist dabei das Bild zu sehen, welches in der Kategorieansicht als Banner angezeigt wird, sobald die Kategorie im Shop aufgerufen wird. Das :guilabel:`Icon` stellt eine Unterkategorie in der Kategorieansicht dar.
 
-.. image:: ../../media/screenshots-de/oxbajf02.png
+.. image:: ../../media/screenshots/oxbabm02.png
    :alt: Kategorieansicht
    :class: with-shadow
    :height: 330
@@ -19,4 +19,4 @@ Als :guilabel:`Thumbnail` ist dabei das Bild zu sehen, welches in der Kategoriea
 
 Im Screenshot wird die Kategorie \"Kiteboarding\" mit einem Bild/Thumbnail dargestellt, für die Unterkategorien \"Kites\", \"Kiteboards\", \"Trapeze\" und \"Zubehör\" wird deren Icon angezeigt.
 
-.. Intern: oxbajf, Status:, F1: category_pictures.html
+.. Intern: oxbabm, Status:, F1: category_pictures.html

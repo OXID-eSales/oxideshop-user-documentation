@@ -2,7 +2,7 @@
 =======================
 Auf der Registerkarte :guilabel:`Statistik` werden einige verkaufsrelevante Informationen zum Artikel, beispielsweise zur Anzahl der Verkäufe, zum Verkaufsrang oder zum Status von Bestellungen, bereitgestellt.
 
-.. image:: ../../media/screenshots-de/oxbaka01.png
+.. image:: ../../media/screenshots/oxbacs01.png
    :alt: Artikel - Registerkarte Statistik
    :class: with-shadow
    :height: 341
@@ -29,4 +29,4 @@ Diese Zahl informiert darüber, wie oft der Artikel bisher storniert wurde.
 :guilabel:`Anzahl der offenen Bestellungen` |br|
 Diese Zahl gibt an, wie viele Bestellungen für den Artikel noch offen und zu bearbeiten sind.
 
-.. Intern: oxbaka, Status:, F1: article_overview.html
+.. Intern: oxbacs, Status:, F1: article_overview.html

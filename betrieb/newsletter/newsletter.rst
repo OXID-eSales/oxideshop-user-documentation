@@ -5,7 +5,7 @@ Newsletter stellen eine unkomplizierte und schnelle Möglichkeit dar, die Kunden
 
 Benutzer, die den Newsletter abonniert haben, werden automatisch der Benutzergruppe "Newsletter-Abonnenten" zugeordnet. Sie können im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzergruppen` eingesehen werden. Kunden können den Newsletter abbestellen, indem sie das Newsletter-Formular ausfüllen und :guilabel:`Stornieren` wählen.
 
-.. image:: ../../media/screenshots-de/oxbanr01.png
+.. image:: ../../media/screenshots/oxbaie01.png
    :alt: Newsletter
    :class: with-shadow
    :height: 536
@@ -42,4 +42,4 @@ Registerkarte Versenden
 
 .. seealso:: `Tipps zum Newsletter im Shopbetreiber-Blog <http://shopbetreiber-blog.de/page/1/?s=Newsletter>`_
 
-.. Intern: oxbanr, Status:
+.. Intern: oxbaie, Status:

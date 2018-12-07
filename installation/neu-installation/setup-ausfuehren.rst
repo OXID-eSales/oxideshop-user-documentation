@@ -7,7 +7,7 @@ Das Setup startet. Es besteht aus 6 bzw. 7 Schritten. Für die Enterprise und di
 
 Während der Installation werden bestimmte Werte in die :file:`.htaccess` und die :file:`config.inc.php` geschrieben. Beide Dateien befinden sich im Hauptverzeichnis des Shops und sollten für die Dauer des Setups nicht schreibgeschützt sein.
 
-.. |schritt| image:: ../../media/icons-de/schritt.jpg
+.. |schritt| image:: ../../media/icons/schritt.jpg
 
 |schritt| Voraussetzungen
 -------------------------
@@ -15,10 +15,10 @@ Im ersten Schritt des Setups werden die Systemvoraussetzungen geprüft. Wählen 
 
 Farbige Symbole zeigen an, ob die Systemvoraussetzungen erfüllt sind:
 
-.. |install-pass| image:: ../../media/icons-de/install-pass.png
-.. |install-pmin| image:: ../../media/icons-de/install-pmin.png
-.. |install-fail| image:: ../../media/icons-de/install-fail.png
-.. |install-null| image:: ../../media/icons-de/install-null.png
+.. |install-pass| image:: ../../media/icons/install-pass.png
+.. |install-pmin| image:: ../../media/icons/install-pmin.png
+.. |install-fail| image:: ../../media/icons/install-fail.png
+.. |install-null| image:: ../../media/icons/install-null.png
 
 * |install-pass| Die Voraussetzung ist erfüllt.
 * |install-pmin| Die Voraussetzung ist nicht oder nur teilweise erfüllt. Der OXID eShop funktioniert trotzdem und kann installiert werden.
@@ -78,4 +78,4 @@ Shopbetreiber mit einer Enterprise oder Professional Edition tragen hier den Liz
 -----------------------
 Das Setup ist nun erfolgreich abgeschlossen. Über den Link :guilabel:`Zum Shop` gelangen Sie zur Startseite Ihres Shops. Der Link :guilabel:`Zur Shop Administration` führt Sie direkt zum Administrationsbereich.
 
-.. Intern: oxbaip, Status:
+.. Intern: oxbaaf, Status:

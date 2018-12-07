@@ -5,7 +5,7 @@ Die Registerkarte :guilabel:`Rechte` bei Kategorien gibt es nur in der Enterpris
 
 Auf der Registerkarte :guilabel:`Rechte` können einer Kategorie Benutzergruppen zugeordnet werden, deren Benutzer diese Kategorie mit ihren Artikeln im Shop sehen dürfen und/oder kaufen können. Diese Zuordnung ist Teil der Rechte- und Rollenverwaltung der Enterprise Edition.
 
-.. image:: ../../media/screenshots-de/oxbajo01.png
+.. image:: ../../media/screenshots/oxbacg01.png
    :alt: Kategorien - Registerkarte Rechte
    :class: with-shadow
    :height: 334
@@ -19,7 +19,7 @@ Um einer Kategorie Benutzergruppen zuzuweisen, betätigen Sie die Schaltfläche 
 
 Per Option kann festgelegt werden, ob die jeweilige Berechtigung ausschließlich für die Kategorie und ihre Artikel oder aber auch für deren Unterkategorien und Artikel gelten soll.
 
-.. image:: ../../media/screenshots-de/oxbajo02.png
+.. image:: ../../media/screenshots/oxbacg02.png
    :alt: Benutzergruppen zuordnen (Ausschließlich kaufbar)
    :class: with-shadow
    :height: 344
@@ -29,4 +29,4 @@ Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die
 
 .. seealso:: :doc:`Rechte und Rollen <../../konfiguration/rechte-und-rollen>`
 
-.. Intern: oxbajo, Status:, F1: category_rights.html
+.. Intern: oxbacg, Status:, F1: category_rights.html

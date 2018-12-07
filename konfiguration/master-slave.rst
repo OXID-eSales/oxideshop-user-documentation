@@ -17,4 +17,4 @@ In diesem Eintrag werden alle Server-Adressen der Slave-Datenbanken als Array an
 
    $this->SlaveHosts = array('slave1host', '10.2.3.12');
 
-.. Intern: oxbajj, Status:
+.. Intern: oxbaca, Status:

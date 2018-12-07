@@ -32,7 +32,7 @@ Im Beispiel werden zwei Versandkostenregeln verwendet, um höhere Versandkosten 
 
 Die erste Versandkostenregel mit 5,99 € Versandkosten gilt für alle Artikel, die zweite mit einem Preisaufschlag von 22,50 € für alle Wakeboards, die aufgrund ihrer Länge als Sperrgut verschickt werden müssen.
 
-.. image:: ../../media/screenshots-de/oxbamd01.png
+.. image:: ../../media/screenshots/oxbafy01.png
    :alt: Versandkosten DHL GoGreen, Sperrgut: +22,50 Euro
    :class: with-shadow
    :height: 341
@@ -42,7 +42,7 @@ Der im Screenshot gezeigten Versandkostenregel wurden drei Wakeboards zugeordnet
 
 Liegt ein Artikel im Warenkorb, der kein Wakeboard ist, greift die erste Versandkostenregel. Der Versand kostet 5,99 €.
 
-.. image:: ../../media/screenshots-de/oxbamd02.png
+.. image:: ../../media/screenshots/oxbafy02.png
    :alt: Warenkorb mit einer Wakeboard-Bindung
    :class: with-shadow
    :height: 261
@@ -50,7 +50,7 @@ Liegt ein Artikel im Warenkorb, der kein Wakeboard ist, greift die erste Versand
 
 Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 28,49 €.
 
-.. image:: ../../media/screenshots-de/oxbamd03.png
+.. image:: ../../media/screenshots/oxbafy03.png
    :alt: Warenkorb mit Wakeboard und Bindung
    :class: with-shadow
    :height: 311
@@ -60,4 +60,4 @@ Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Vers
 
 .. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 
-.. Intern: oxbamd, Status:
+.. Intern: oxbafy, Status:

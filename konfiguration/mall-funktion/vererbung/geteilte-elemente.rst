@@ -3,7 +3,7 @@
 
 Geteilte Elemente sind Zahlungsarten, Länder, Benutzer, Benutzergruppen und Bewertungen. Diese werden in allen Shops verwendet und nur ein Administrator mit dem Recht \"Admin\" kann diese ändern. Administratoren der Subshops, Supershops oder Multishops haben dafür keine Berechtigung.
 
-.. image:: ../../../media/screenshots-de/oxbamu01.png
+.. image:: ../../../media/screenshots/oxbagr01.png
    :alt: Länder im Subshop
    :class: with-shadow
    :height: 335
@@ -13,4 +13,4 @@ Benutzer werden nur mit allen Shops geteilt, wenn im Hauptshop die Option :guila
 
 .. seealso:: :doc:`Konfiguration <../../../konfiguration/konfiguration>` | :doc:`Zahlungsarten <../../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Benutzer <../../../betrieb/benutzer/benutzer>` | :doc:`Benutzergruppen <../../../betrieb/benutzergruppen/benutzergruppen>`
 
-.. Intern: oxbamu, Status:
+.. Intern: oxbagr, Status:

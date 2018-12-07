@@ -3,7 +3,7 @@
 
 Vererbbare Elemente werden einem Shop von einem anderen Shop zugewiesen. Beim Erstellen eines Shops können folgende Elemente vererbt werden: Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten und Links. Die vererbten Elemente sind, von einigen Ausnahmen abgesehen, im neuen Shop inhaltlich nicht änderbar.
 
-.. image:: ../../../media/screenshots-de/oxbams01.png
+.. image:: ../../../media/screenshots/oxbagp01.png
    :alt: Vererbungseinstellungen
    :class: with-shadow
    :height: 335
@@ -17,4 +17,4 @@ Im Subshop kann eine Verknüpfung nur gelöst werden, indem beispielsweise der A
 
 .. seealso:: :doc:`Artikel <../../../einrichtung/artikel/artikel>` | :doc:`Attribute <../../../einrichtung/attribute/attribute>` | :doc:`Auswahllisten <../../../einrichtung/auswahllisten/auswahllisten>` | :doc:`Versandarten <../../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../../einrichtung/versandkostenregeln/versandkostenregeln>` | :doc:`Hersteller <../../../einrichtung/hersteller/hersteller>` | :doc:`Lieferanten <../../../einrichtung/lieferanten/lieferanten>` | :doc:`Kategorien <../../../einrichtung/kategorien/kategorien>`
 
-.. Intern: oxbams, Status:
+.. Intern: oxbagp, Status:

@@ -3,7 +3,7 @@ Registerkarte HTML
 
 Der OXID eShop verschickt Newsletter immer in zwei Formaten: als HTML-Mail und als Nur-Text-Mail. Dadurch wird sichergestellt, dass der Newsletter von allen Mail-Programmen und Webmailern korrekt dargestellt wird. Auf der Registerkarte :guilabel:`HTML` wird der Newsletter im HTML-Format erstellt. Im Gegensatz zum Nur-Text-Format können hier Inhalte durch Überschriftenhierarchien, unterschiedliche Schriftfarben und -größen und andere Formatierungen hervorgehoben werden. Es lassen sich Firmenlogo, Grafiken, Links und Artikelfotos einbinden.
 
-.. image:: ../../media/screenshots-de/oxbans01.png
+.. image:: ../../media/screenshots/oxbaif01.png
    :alt: Newsletter - Registerkarte HTML
    :class: with-shadow
    :height: 346
@@ -37,4 +37,4 @@ Der Empfänger des Newsletters wird persönlich angesprochen, indem  Anrede, Vor
 
 .. seealso:: `E-Mail Standards Project <http://www.email-standards.org>`_ | `Smarty Template Engine <https://www.smarty.net>`_ | :doc:`Registerkarte Vorschau <registerkarte-vorschau>`
 
-.. Intern: oxbans, Status:, F1: newsletter_main
+.. Intern: oxbaif, Status:, F1: newsletter_main

@@ -3,7 +3,7 @@
 
 Versandarten können so konfiguriert werden, dass sie für bestimmte Benutzergruppen und/oder Benutzer gelten. Die Zuordnung erfolgt auf der Registerkarte :guilabel:`Benutzer`.
 
-.. image:: ../../media/screenshots-de/oxbakk01.png
+.. image:: ../../media/screenshots/oxbadg01.png
    :alt: Versandarten - Registerkarte Benutzer
    :class: with-shadow
    :height: 341
@@ -19,4 +19,4 @@ Um einzelne Benutzer für die Versandart festzulegen, betätigen Sie die Schaltf
 
 Auch in diesem Zuordnungsfenster ist eine Mehrfachauswahl möglich. Die gewünschten Benutzer werden per Drag \& Drop in die rechte Liste verschoben. Die Zuordnung ist abgeschlossen.
 
-.. Intern: oxbakk, Status:, F1: deliveryset_users.html
+.. Intern: oxbadg, Status:, F1: deliveryset_users.html

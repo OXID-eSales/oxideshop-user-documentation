@@ -9,7 +9,7 @@ Artikel einer Bestellung lassen sich stornieren oder gar komplett löschen. Dazu
 
 Eine Funktion erlaubt Ihnen allerdings auch, neue Artikel in die Bestellung aufzunehmen. Unter Angabe der Artikelnummer kann nach einem bestimmten Artikel gesucht werden. Legen Sie die Menge für den gefundenen Artikel fest und betätigen Sie die Schaltfläche :guilabel:`Artikel hinzufügen`. Der Artikel wird in der eingetragenen Menge zu einer neuen Bestellposition.
 
-.. image:: ../../media/screenshots-de/oxbalf01.png
+.. image:: ../../media/screenshots/oxbaef01.png
    :alt: Bestellungen - Registerkarte Artikel
    :class: with-shadow
    :height: 335
@@ -54,4 +54,4 @@ Artikelnummer, nach der gesucht werden soll.
 
 Das Drücken der Schaltfläche :guilabel:`Suchen` startet die Suche nach einem Artikel mit der eingetragenen Artikelnummer. Wird dieser gefunden, erscheint dessen Kurzbezeichnung in einer Dropdown-Liste und ein Eingabefeld für die Artikelanzahl. Mit der Schaltfläche :guilabel:`Artikel hinzufügen` wird der Artikel der Bestellung hinzugefügt.
 
-.. Intern: oxbalf, Status:, F1: order_article.html
+.. Intern: oxbaef, Status:, F1: order_article.html

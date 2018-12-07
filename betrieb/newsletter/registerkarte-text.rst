@@ -3,7 +3,7 @@ Registerkarte Text
 
 Der OXID eShop verschickt Newsletter immer in zwei Formaten: als Nur-Text-Mail und als HTML-Mail. Dadurch wird sichergestellt, dass der Newsletter von allen Mail-Programmen und Webmailern korrekt angezeigt wird. Auf der Registerkarte :guilabel:`Text` wird der Newsletter im Nur-Text-Format erstellt.
 
-.. image:: ../../media/screenshots-de/oxbant01.png
+.. image:: ../../media/screenshots/oxbaig01.png
    :alt: Newsletter - Registerkarte Text
    :class: with-shadow
    :height: 346
@@ -28,4 +28,4 @@ Zunächst wird geprüft, ob es eine Liste mit Artikeln gibt. Ist diese vorhanden
 
 .. seealso:: `Smarty Template Engine <https://www.smarty.net>`_ | :doc:`Registerkarte Vorschau <registerkarte-vorschau>` | :doc:`Aktion für Newsletter <../aktionen/aktion-fuer-newsletter>`
 
-.. Intern: oxbant, Status:, F1: newsletter_plain
+.. Intern: oxbaig, Status:, F1: newsletter_plain

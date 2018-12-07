@@ -259,7 +259,7 @@ htmlhelp_basename = 'OXIDeShop6doc'
 
 # A string of reStructuredText that will be included at the beginning of every source file that is read.
 rst_epilog = """
-.. |link| image:: /media/icons-de/link.png
+.. |link| image:: /media/icons/link.png
 .. |br| raw:: html
 
    <br />

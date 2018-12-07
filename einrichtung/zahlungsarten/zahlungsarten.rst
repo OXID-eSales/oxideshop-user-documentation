@@ -9,7 +9,7 @@ Alle erforderlichen Einstellungen können im Administrationsbereich unter :menus
 
 Wird eine Zahlungsart aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Zahlungsart klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Zahlungsart anlegen`.
 
-.. image:: ../../media/screenshots-de/oxbakd01.png
+.. image:: ../../media/screenshots/oxbacz01.png
    :alt: Zahlungsarten
    :class: with-shadow
    :height: 536
@@ -46,4 +46,4 @@ Registerkarte RDFa
 
 .. seealso:: :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Versandkostenregeln <../versandkostenregeln/versandkostenregeln>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
 
-.. Intern: oxbakd, Status:
+.. Intern: oxbacz, Status:

@@ -5,7 +5,7 @@ Für Zahlungsarten können Preisauf- und -abschläge definiert werden. So könne
 
 Der Preisaufschlag oder Preisabschlag kann absolut oder prozentual festgelegt werden. Ein absoluter Preisaufschlag ist eine Position im Warenkorb, die zum Warenwert dazugerechnet wird.
 
-.. image:: ../../media/screenshots-de/oxbaly01.png
+.. image:: ../../media/screenshots/oxbaft01.png
    :alt: Bestellung mit Zahlungsart Nachnahme
    :class: with-shadow
    :height: 278
@@ -27,4 +27,4 @@ Preisauf- und abschläge werden bei der jeweiligen Zahlungsart festgelegt.
 
 .. seealso:: :doc:`Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>`
 
-.. Intern: oxbaly, Status:
+.. Intern: oxbaft, Status:

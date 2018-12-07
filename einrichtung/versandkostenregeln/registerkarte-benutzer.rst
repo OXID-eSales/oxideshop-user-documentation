@@ -3,7 +3,7 @@
 
 Versandkostenregeln können für bestimmte Benutzergruppen und/oder Benutzer gelten. Diese Einschränkung kann auf der Registerkarte :guilabel:`Benutzer` vorgenommen werden. Ohne Zuweisung von Benutzergruppen und/oder Benutzer gilt die Versandkostenregeln für alle.
 
-.. image:: ../../media/screenshots-de/oxbakq01.png
+.. image:: ../../media/screenshots/oxbadm01.png
    :alt: Versandkostenregeln - Registerkarte Benutzer
    :class: with-shadow
    :height: 341
@@ -17,4 +17,4 @@ Um einzelne Benutzer für die Versandkostenregel festzulegen, betätigen Sie die
 
 Auch in diesem Zuordnungsfenster ist eine Mehrfachauswahl möglich. Die gewünschten Benutzer werden per Drag \& Drop in die rechte Liste verschoben. Die Zuordnung ist abgeschlossen.
 
-.. Intern: oxbakq, Status:, F1: delivery_users.html
+.. Intern: oxbadm, Status:, F1: delivery_users.html

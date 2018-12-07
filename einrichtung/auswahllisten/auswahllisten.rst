@@ -6,7 +6,7 @@ Auswahllisten können direkt Artikeln zugewiesen werden. Diese erhalten dadurch 
 
 Auswahllisten sind nur auf der Detailseite von Artikeln sichtbar, wenn das Kontrollkästchen :guilabel:`Auswahllisten laden` unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Perform.` aktiviert wurde. Damit ein Preisauf- oder abschlag beim Kauf eines Artikels berücksichtigt und im Warenkorb berechnet wird, muss zusätzlich ein Häkchen in das Kontrollkästchen :guilabel:`Preisänderungen durch Auswahllisten unterstützen` gesetzt werden. Wenn Sie möchten, dass die Auswahlliste nicht nur in der Detailansicht des Artikels angezeigt wird, aktivieren Sie :guilabel:`Auswahllisten in Artikellisten anzeigen`. Diese Einstellung bewirkt, dass die Dropdown-Liste beim Artikel auch in der Kategorieansicht oder in einem Suchergebnis zu sehen ist.
 
-.. image:: ../../media/screenshots-de/oxbaln01.png
+.. image:: ../../media/screenshots/oxbafi01.png
    :alt: Auswahllisten
    :class: with-shadow
    :height: 529
@@ -39,4 +39,4 @@ Nur in der Enterprise Edition vorhanden |br|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel - Registerkarten Auswahl <../artikel/registerkarte-auswahl>` | :doc:`Artikel - Registerkarte Varianten <../artikel/registerkarte-varianten>`
 
-.. Intern: oxbaln, Status:
+.. Intern: oxbafi, Status:

@@ -3,7 +3,7 @@
 
 Schließt der Kunde seinen Einkauf im Online-Shop ab, indem er zahlungspflichtig bestellt, wird eine Bestellung angelegt. Auf einer Seite wird dem Kunden für dessen Einkauf gedankt und er wird sogleich über die Bestellnummer informiert. Gleichzeitig verschickt der Shop eine Bestellbestätigung per E-Mail, die alle wichtigen Informationen, wie beispielsweise eine Liste der bestellten Artikel, den Gesamtpreis mit allen Einzelpositionen, die gewählte Zahlungsart, die Rechnungsadresse und die Versandart beinhaltet. Auch der Shopbetreiber wird per E-Mail über die neue Bestellung benachrichtigt.
 
-.. image:: ../../media/screenshots-de/oxbalb01.png
+.. image:: ../../media/screenshots/oxbaeb01.png
    :alt: Bestellungen
    :class: with-shadow
    :height: 517
@@ -51,4 +51,4 @@ Registerkarte Downloads
 **Inhalte**: Download-Artikel einer Bestellung, herunterladbare Dateien, erster und letzter Download, Anzahl erfolgter Downloads, maximal mögliche Downloads, Gültigkeit der Download-Links, Reset, Downloads zurücksetzen |br|
 :doc:`Artikel lesen <registerkarte-downloads>` |link|
 
-.. Intern: oxbalb, Status:
+.. Intern: oxbaeb, Status:

@@ -3,7 +3,7 @@
 
 Rabatte können für bestimmte Benutzergruppen und/oder Benutzer gelten. Diese Festlegung kann auf der Registerkarte Benutzer vorgenommen werden. Ohne Zuordnung von Benutzergruppen und/oder Benutzer gilt der Rabatt für alle Kunden des Online-Shops.
 
-.. image:: ../../media/screenshots-de/oxband01.png
+.. image:: ../../media/screenshots/oxbahk01.png
    :alt: Rabatte - Registerkarte Benutzer
    :class: with-shadow
    :height: 334
@@ -17,4 +17,4 @@ Um einzelne Benutzer für den Rabatt festzulegen, betätigen Sie die Schaltfläc
 
 Auch in diesem Zuordnungsfenster ist eine Mehrfachauswahl möglich. Die gewünschten Benutzer werden per Drag \& Drop in die rechte Liste verschoben. Die Zuordnung ist abgeschlossen.
 
-.. Intern: oxband, Status:, F1: discount_users.html
+.. Intern: oxbahk, Status:, F1: discount_users.html

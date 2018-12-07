@@ -5,7 +5,7 @@ Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale 
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Versandart mit den in GoodReleations vordefinierten Werten für den Versand hergestellt.
 
-.. image:: ../../media/screenshots-de/oxbakm01.png
+.. image:: ../../media/screenshots/oxbadi01.png
    :alt: Versandarten - Registerkarte RDFa
    :class: with-shadow
    :height: 341
@@ -30,5 +30,5 @@ Setzen Sie ein Häkchen bei allen Angaben, welche die Versandart exakt beschreib
 :guilabel:`FedEx` |br|
 :guilabel:`UPS`
 
-.. Intern: oxbakm, Status:, F1: deliveryset_rdfa.html
+.. Intern: oxbadi, Status:, F1: deliveryset_rdfa.html
 .. ToDo Hinweiszeile ist fehlerhaft: %s

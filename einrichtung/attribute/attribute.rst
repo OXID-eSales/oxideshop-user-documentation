@@ -8,7 +8,7 @@ Werden Attribute zu Kategorien zugeordnet, lassen sich die Kategorien nach diese
 
 Attribute dienen auch dazu, ähnliche Artikel zu erkennen und auf der Detailseite oder im Newsletter zu offerieren. Die Anzahl ähnlicher Artikel, die bei einem Artikel angezeigt werden, kann im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` definiert werden. Achten Sie bitte darauf, dass das Kontrollkästchen bei :guilabel:`Ähnliche Artikel laden` auf der Registerkarte :guilabel:`Perform.` gesetzt ist.
 
-.. image:: ../../media/screenshots-de/oxbalk01.png
+.. image:: ../../media/screenshots/oxbaff01.png
    :alt: Attribute
    :class: with-shadow
    :height: 530
@@ -42,4 +42,4 @@ Nur in der Enterprise Edition vorhanden |br|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
 
-.. Intern: oxbalk, Status:
+.. Intern: oxbaff, Status:

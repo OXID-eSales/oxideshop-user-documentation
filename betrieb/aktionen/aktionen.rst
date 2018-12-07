@@ -3,7 +3,7 @@
 
 Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop. Dafür stehen drei Aktionstypen zur Verfügung, mit denen hauptsächlich das Aussehen der Startseite des Shops gestaltet und aktualisiert werden kann: Aktion, Banner und Promotion. Das Theme \"Flow\" unterstützt Aktion und Banner. Promotion und einige Möglichkeiten vom Typ Aktion werden vom neuen Standard-Theme nicht verwendet. Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden, weil sie das Theme \"Azure\" nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
 
-.. image:: ../../media/screenshots-de/oxbamw01.png
+.. image:: ../../media/screenshots/oxbagv01.png
    :alt: Aktionen
    :class: with-shadow
    :height: 529
@@ -36,4 +36,4 @@ Registerkarte Stamm
 **Inhalte**: aktive Aktion, Typ Aktion, Typ Banner, Typ Promotion, Name, Artikel zuordnen, Bannerbilder, Sortierung, Slideshow, Link für Bannerbild, Benutzergruppen zuordnen, Produkte zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
-.. Intern: oxbamw, Status:
+.. Intern: oxbagv, Status:

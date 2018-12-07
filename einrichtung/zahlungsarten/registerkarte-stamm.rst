@@ -3,7 +3,7 @@
 
 Die Registerkarte :guilabel:`Stamm` stellt verschiedene Einstellungen zur Verfügung, um die Zahlungsart individuell konfigurieren zu können. Die Zahlungsart kann hier beschrieben werden. Über einen Dialog erfolgt die Zuordnung der Benutzergruppen zur Zahlungsart.
 
-.. image:: ../../media/screenshots-de/oxbake01.png
+.. image:: ../../media/screenshots/oxbada01.png
    :alt: Zahlungsarten - Registerkarte Stamm
    :class: with-shadow
    :height: 346
@@ -62,4 +62,4 @@ Geben Sie ein paar Informationen zur Zahlungsart ein. Diese werden angezeigt, so
 
 .. seealso:: :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>` | :doc:`Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten>` | :doc:`Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`
 
-.. Intern: oxbake, Status:, F1: payment_main.html
+.. Intern: oxbada, Status:, F1: payment_main.html

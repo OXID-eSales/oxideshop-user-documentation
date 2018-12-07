@@ -34,4 +34,4 @@ Sobald die Ware an den Kunden verschickt wird, kann die Bestellung im Administra
 
 Klicken Sie auf :guilabel:`Speichern`. Die E-Mails werden jetzt mit einer individuellen Betreffzeile, aber einem Standardtext verschickt. Wie der Standardtext dieser E-Mails angepasst wird, erfahren Sie im Abschnitt \"CMS\".
 
-.. Intern: oxbait, Status:
+.. Intern: oxbaav, Status:

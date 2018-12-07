@@ -3,7 +3,7 @@
 
 Die Registerkarte :guilabel:`Stamm` enthält die knappen Informationen und Einstellungen zum Lieferanten. Erstellen oder bearbeiten Sie hier den Lieferanten.
 
-.. image:: ../../media/screenshots-de/oxbamj01.png
+.. image:: ../../media/screenshots/oxbagf01.png
    :alt: Lieferanten - Registerkarte Stamm
    :class: with-shadow
    :height: 342
@@ -32,7 +32,7 @@ Der Lieferant lässt sich in weiteren aktiven Sprachen des Shops bearbeiten. Wä
 :guilabel:`Artikel zuordnen` |br|
 Dem Lieferanten können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots-de/oxbamj02.png
+.. image:: ../../media/screenshots/oxbagf02.png
    :alt: Artikel zuordnen
    :class: with-shadow
    :height: 295
@@ -40,4 +40,4 @@ Dem Lieferanten können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`
 
 In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit dem Lieferanten zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
-.. Intern: oxbamj, Status:, F1: vendor_main.html
+.. Intern: oxbagf, Status:, F1: vendor_main.html

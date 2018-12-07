@@ -31,4 +31,4 @@ Benutzergruppen werden einer Zahlungsart zugeordnet.
 
 .. seealso:: :doc:`Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>` | :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>`
 
-.. Intern: oxbalz, Status:
+.. Intern: oxbafu, Status:

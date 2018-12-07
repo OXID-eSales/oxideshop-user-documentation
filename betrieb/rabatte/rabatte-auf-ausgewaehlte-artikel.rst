@@ -26,4 +26,4 @@ Der Rabatt gilt für zugeordnete Artikel und/oder Kategorien. Ohne Zuordnung von
 
 .. seealso:: :doc:`Rabatte - Registerkarte Artikel <registerkarte-artikel>` | :doc:`Artikel <../../einrichtung/artikel/artikel>` | :doc:`Kategorien <../../einrichtung/kategorien/kategorien>`
 
-.. Intern: oxbang, Status:
+.. Intern: oxbaho, Status:

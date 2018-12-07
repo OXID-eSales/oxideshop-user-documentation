@@ -2,7 +2,7 @@
 ===================
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zum Attribut vorgenommen. Erstellen oder bearbeiten Sie hier das Attribut.
 
-.. image:: ../../media/screenshots-de/oxball01.png
+.. image:: ../../media/screenshots/oxbafg01.png
    :alt: Attribute - Registerkarte Stamm
    :class: with-shadow
    :height: 342
@@ -29,4 +29,4 @@ Dem Attribut können Artikel zugeordnet werden. Wird ein neues Attribut angelegt
 
 Beim Artikel muss für das zugewiesene Attribut noch ein Wert gesetzt werden. Siehe: :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
 
-.. Intern: oxball, Status:, F1: attribute_main.html
+.. Intern: oxbafg, Status:, F1: attribute_main.html

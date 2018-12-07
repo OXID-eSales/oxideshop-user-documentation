@@ -3,7 +3,7 @@ Neu-Installation
 
 In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 6.1 neu installieren. Es gibt dabei eine entscheidende Änderung gegenüber den Shopversionen 4 und 5: die Installation basiert nicht mehr auf Installationspaketen. Die für den Shop benötigten Dateien werden mit Hilfe von Composer, dem Dependency Manager für PHP, bereitgestellt. Danach kann wie gewohnt das webbasierte Setup ausgeführt und der Shop installiert werden.
 
-.. image:: ../../media/screenshots-de/oxbaio01.png
+.. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Schritt 1
     :height: 532
     :width: 650
@@ -32,4 +32,4 @@ Installation abschließen
 **Inhalte**: Löschen des Setup-Verzeichnisses kontrollieren, Datei- und Verzeichnisrechte setzen, Schreibrechte für /out/pictures, /out/media, /log, /export, /tmp, Schreibschutz für .htaccess, config.inc.php  |br|
 :doc:`Artikel lesen <installation-abschliessen>` |link|
 
-.. Intern: oxbaio, Status:
+.. Intern: oxbaae, Status:

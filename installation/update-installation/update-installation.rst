@@ -5,7 +5,7 @@ Dieses Dokument beschreibt Patch- und Minor-Updates ab Version 6.0.0 des OXID eS
 
 Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, ausgeführt werden. Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank. Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert. Testen Sie nach dem Update den Shop erneut und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten.
 
-.. |schritt| image:: ../../media/icons-de/schritt.jpg
+.. |schritt| image:: ../../media/icons/schritt.jpg
 
 |schritt| Update-Ziel vorgeben
 ------------------------------
@@ -38,4 +38,4 @@ Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, fa
 Damit ist das Update beendet.
 
 
-.. Intern: oxbann, Status:
+.. Intern: oxbahv, Status:

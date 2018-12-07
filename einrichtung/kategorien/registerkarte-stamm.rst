@@ -3,7 +3,7 @@
 
 Auf der Registerkarte :guilabel:`Stamm` werden wichtige Informationen zur Kategorie hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie eine Kategorie. Sie können hier auch der Kategorie deren Artikel zuweisen. Es lassen sich dabei viele Artikel auf einmal mit der Kategorie verbinden.
 
-.. image:: ../../media/screenshots-de/oxbajd01.png
+.. image:: ../../media/screenshots/oxbabk01.png
    :alt: Kategorien - Registerkarte Stamm
    :class: with-shadow
    :height: 342
@@ -69,7 +69,7 @@ Die Kategorie lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten
 :guilabel:`Artikel zuordnen` |br|
 Der Kategorie können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots-de/oxbajd02.png
+.. image:: ../../media/screenshots/oxbabk02.png
    :alt: Artikel zuordnen
    :class: with-shadow
    :height: 325
@@ -79,4 +79,4 @@ In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. D
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`
 
-.. Intern: oxbajd, Status:, F1: category_main.html
+.. Intern: oxbabk, Status:, F1: category_main.html

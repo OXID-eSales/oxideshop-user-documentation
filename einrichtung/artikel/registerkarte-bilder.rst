@@ -2,7 +2,7 @@
 ====================
 Artikel können bis zu zwölf Artikelbilder haben, die sehr wichtig für die optimale Präsentation der Artikel im Shop sind. Die Bilder sollten den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen. Artikelbilder werden in der Detailansicht des Artikels angezeigt. Hinzu kommen die Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Kleinere Artikelbilder - Thumbnails und Icons - zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Die Standardgrößen der Artikel werden in den Einstellungen des Themes festgelegt. Eine detaillierte Beschreibung dazu finden Sie in :doc:`Bilder <../../konfiguration/bilder>` im Abschnitt \"Konfiguration\".
 
-.. image:: ../../media/screenshots-de/oxbajx01.png
+.. image:: ../../media/screenshots/oxbacp01.png
    :alt: Artikel - Registerkarte Bilder
    :class: with-shadow
    :height: 342
@@ -27,4 +27,4 @@ Wenn Sie ein anderes, als das beim Hochladen des ersten Artikelbildes generierte
 :guilabel:`Icon (max. 2 MB, max. 1500*1500 px)` |br|
 Möchten Sie ein spezielles Artikelbild als Icon verwenden, kann es hier hochgeladen werden. Es wird dabei das automatisch erzeugte Icon überschrieben. Eine Vorschau zeigt das neue Icon auf der linken Seite der Registerkarte.
 
-.. Intern: oxbajx, Status:, F1: article_pictures.html
+.. Intern: oxbacp, Status:, F1: article_pictures.html

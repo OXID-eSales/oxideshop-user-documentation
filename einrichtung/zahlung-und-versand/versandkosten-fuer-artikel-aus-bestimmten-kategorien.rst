@@ -32,7 +32,7 @@ Das Beispiel zeigt, wie Artikel einer bestimmten Kategorie zu günstigeren Versa
 
 Die erste Versandkostenregel wird mit einem Preis von 4,99 € angelegt. Für alle Artikel außer denen der Kategorie \"Zubehör\" gibt es eine zweite Versandkostenregel mit einem Preisaufschlag von 2,50 €.
 
-.. image:: ../../media/screenshots-de/oxbame01.png
+.. image:: ../../media/screenshots/oxbafz01.png
    :alt: Versandkosten DHL - Standardartikel: +2,50 Euro
    :class: with-shadow
    :height: 342
@@ -42,7 +42,7 @@ Der im Screenshot gezeigten Versandkostenregel wurden alle Kategorien mit Ausnah
 
 Liegt ein Artikel aus dem Kiteboarding-Zubehör im Warenkorb, greift die erste Versandkostenregel. Der Versand kostet 4,99 €.
 
-.. image:: ../../media/screenshots-de/oxbame02.png
+.. image:: ../../media/screenshots/oxbafz02.png
    :alt: Warenkorb mit Kite-Leinen
    :class: with-shadow
    :height: 261
@@ -50,7 +50,7 @@ Liegt ein Artikel aus dem Kiteboarding-Zubehör im Warenkorb, greift die erste V
 
 Wird zusätzlich ein Trapez in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 7,49 €.
 
-.. image:: ../../media/screenshots-de/oxbame03.png
+.. image:: ../../media/screenshots/oxbafz03.png
    :alt: Warenkorb mit Kite-Leinen und Trapez
    :class: with-shadow
    :height: 310
@@ -60,4 +60,4 @@ Wird zusätzlich ein Trapez in den Warenkorb gelegt, ist auch die zweite Versand
 
 .. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 
-.. Intern: oxbame, Status:
+.. Intern: oxbafz, Status:

@@ -9,7 +9,7 @@ Banner
 ------
 Das Banner ist ein großer Bereich, der sich oben horizontal über die Startseite zieht. Darin können ein Bild oder auch mehrere Bilder angezeigt werden, die Artikel und Kategorien herausstellen.
 
-.. image:: ../../media/screenshots-de/oxbamx01.png
+.. image:: ../../media/screenshots/oxbagw01.png
    :alt: Banner
    :class: with-shadow
    :height: 208
@@ -21,7 +21,7 @@ Angebote der Woche
 ------------------
 Die Angebote der Woche werden auf der Startseite unterhalb des Banners angezeigt. Es werden Artikel mit Titel und Bild präsentiert, welche der Aktion zugewiesen wurden.
 
-.. image:: ../../media/screenshots-de/oxbamx02.png
+.. image:: ../../media/screenshots/oxbagw02.png
    :alt: Angebot der Woche
    :class: with-shadow
    :height: 270
@@ -31,7 +31,7 @@ Vom Angebot aus kann über einen Link und die Schaltfläche :guilabel:`Mehr Info
 
 Unsere Marken
 -------------
-.. image:: ../../media/screenshots-de/oxbamx03.png
+.. image:: ../../media/screenshots/oxbagw03.png
    :alt: Unsere Marken
    :class: with-shadow
    :height: 147
@@ -44,7 +44,7 @@ Frisch eingetroffen
 
 Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge des Shops präsentiert werden. Die Anzeige ist eine vierspaltige Artikelübersicht. Es werden Bild, Titel und Preis der Artikel angezeigt. Es lässt sich die Detailseite des Artikels aufrufen oder der Artikel direkt in den Warenkorb legen.
 
-.. image:: ../../media/screenshots-de/oxbamx04.png
+.. image:: ../../media/screenshots/oxbagw04.png
    :alt: Frisch eingetroffen
    :class: with-shadow
    :height: 477
@@ -58,7 +58,7 @@ Topseller
 ---------
 Weiter unten auf der Startseite werden dem Kunden die meistverkauften Artikel des Shops angezeigt. Die Anzeige ist analog der zweispaltigen Galerie einer Artikelübersicht. Es kann die Detailseite eines Artikels aufgerufen oder ein Artikel direkt in den Warenkorb gelegt werden.
 
-.. image:: ../../media/screenshots-de/oxbamx05.png
+.. image:: ../../media/screenshots/oxbagw05.png
    :alt: Topseller
    :class: with-shadow
    :height: 222
@@ -70,4 +70,4 @@ Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" 
 
 .. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>` | :doc:`Registerkarte Stamm <registerkarte-stamm>`
 
-.. Intern: oxbamx, Status:
+.. Intern: oxbagw, Status:

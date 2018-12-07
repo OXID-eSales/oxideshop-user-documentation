@@ -3,7 +3,7 @@
 
 Nicht vererbbare Elemente gehören zu jedem Subshop, Supershop und Multishop. Sie werden je Shop erstellt und können dort bearbeitet und an den jeweiligen Shop und seine Anforderungen angepasst werden. Beim Anlegen eines neuen Shops werden dessen Grundeinstellungen, Sprachen, Aktionen und die Seiten des Content Management Systems (CMS) kopiert und als Vorlagen für den neuen Shop bereitgestellt. Bestellungen gehören ebenfalls zu den nicht vererbbaren Elementen und werden je Shop verwaltet.
 
-.. image:: ../../../media/screenshots-de/oxbamt01.png
+.. image:: ../../../media/screenshots/oxbagq01.png
    :alt: Stammdaten - Grundeinstellungen
    :class: with-shadow
    :height: 335
@@ -17,4 +17,4 @@ Wenn ein Kunde in einem Subhop, Supershop oder Multishop bestellt, wird die Best
 
 .. seealso:: :doc:`Konfiguration <../../../konfiguration/konfiguration>` | :doc:`Bestellungen <../../../betrieb/bestellungen/bestellungen>`
 
-.. Intern: oxbamt, Status:
+.. Intern: oxbagq, Status:

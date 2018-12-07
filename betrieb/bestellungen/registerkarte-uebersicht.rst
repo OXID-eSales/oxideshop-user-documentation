@@ -5,7 +5,7 @@ Die Registerkarte :guilabel:`Übersicht` zeigt alle wichtigen Informationen eine
 
 Darüber hinaus wird eine kurze Zusammenfassung der Bestellungen des Tages und aller Bestellungen im Shop ausgegeben. Für die Bestellung kann eine Rechnung oder ein Lieferschein im PDF-Format generiert werden. Bestellungen lassen sich zur weiteren Verarbeitung in anderen Systemen im XML-Format exportieren.
 
-.. image:: ../../media/screenshots-de/oxbalc01.png
+.. image:: ../../media/screenshots/oxbaec01.png
    :alt: Bestellungen - Registerkarte Übersicht
    :class: with-shadow
    :height: 335
@@ -71,4 +71,4 @@ Darüber hinaus konnten in der Community und der Professional Edition Bestellung
 
 .. seealso:: :doc:`Registerkarte Stamm <../benutzer/registerkarte-stamm>` | `Hexadezimale Farbdefinition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Farben definieren in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_ | `Extensible Markup Language, XML (Wikipedia) <http://de.wikipedia.org/wiki/Extensible_Markup_Language>`_ | `Portable Document Format, PDF (Wikipedia) <http://de.wikipedia.org/wiki/PDF>`_
 
-.. Intern: oxbalc, Status:, F1: order_overwiew.html
+.. Intern: oxbaec, Status:, F1: order_overwiew.html

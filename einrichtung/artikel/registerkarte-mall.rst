@@ -6,7 +6,7 @@ Artikel können beim Erstellen von Shops an diese vererbt werden. Wird diese Opt
 
 Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Artikels zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Artikel aus allen Shops übernehmen und anzeigen.
 
-.. image:: ../../media/screenshots-de/oxbajt01.png
+.. image:: ../../media/screenshots/oxbacl01.png
    :alt: Artikel - Registerkarte Mall
    :class: with-shadow
    :height: 334
@@ -19,4 +19,4 @@ Die Verknüpfung eines Artikels mit Subshops und Supershops kann hinzugefügt od
 
 Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
 
-.. Intern: oxbajt, Status:, F1: article_mall.html
+.. Intern: oxbacl, Status:, F1: article_mall.html
