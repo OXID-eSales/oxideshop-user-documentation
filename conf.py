@@ -129,9 +129,10 @@ html_theme = 'sphinx_rtd_theme'
 html_context = {
     'current_version': '6.1',
     'versions':
-        [('5.3', 'https://docs.oxid-esales.com/eshop/de/5.3/'),
-         ('6.0', 'https://docs.oxid-esales.com/eshop/de/6.0/'),
-         ('6.1', 'https://docs.oxid-esales.com/eshop/de/6.1/')],
+         [('6.1', 'https://docs.oxid-esales.com/eshop/en/6.1/')],
+    'languages':
+         [('DE', 'https://docs.oxid-esales.com/eshop/de/6.1/'),
+          ('EN', 'https://docs.oxid-esales.com/eshop/en/6.1/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
@@ -140,7 +141,7 @@ html_context = {
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'OXID-eSales',
     'github_repo': 'oxideshop-user-documentation',
-    'github_version': 'b-6.1/'
+    'github_version': 'b-6.1-en/'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -155,7 +156,7 @@ html_theme_path = ['_themes']
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-html_title = 'OXID eShop 6.1 | Anwenderdokumentation'
+html_title = 'OXID eShop 6.1 | User documentation'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
