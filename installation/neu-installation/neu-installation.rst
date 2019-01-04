@@ -5,7 +5,7 @@ In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 6.1 neu installieren. E
 
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Schritt 1
-    :height: 532
+    :height: 562
     :width: 650
 
 Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/6.1/getting_started/installation/index.html>`_.
