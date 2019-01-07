@@ -15,7 +15,7 @@ In der Kategorieliste symbolisiert ein kleines grünes Quadrat am Anfang der Zei
 
 Wird eine Kategorie aus der Kategorieliste gewählt, werden deren Informationen in den Eingabebereich geladen. Wollen Sie eine neue Kategorie erstellen, klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Kategorie anlegen`.
 
-In der Fußzeile finden Sie\die Funktionen: :guilabel:`Neue Kategorie anlegen`, :guilabel:`Kategoriebaum neu indizieren`, :guilabel:`Artikelanzahl in den Kategorien zurücksetzen` und :guilabel:`Hilfe starten`.
+In der Fußzeile finden Sie die Funktionen: :guilabel:`Neue Kategorie anlegen`, :guilabel:`Kategoriebaum neu indizieren`, :guilabel:`Artikelanzahl in den Kategorien zurücksetzen` und :guilabel:`Hilfe starten`.
 
 -----------------------------------------------------------------------------------------
 
