@@ -1,5 +1,5 @@
-Anwenderdokumentation
-=====================
+User documentation
+==================
 
 .. toctree::
    :maxdepth: 1

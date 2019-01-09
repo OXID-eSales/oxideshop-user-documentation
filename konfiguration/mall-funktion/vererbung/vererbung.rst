@@ -6,7 +6,7 @@ Die Vererbung ist ein wichtiger Bestandteil der Mall-Funktion. Sie erfolgt beim 
 .. image:: ../../../media/screenshots/oxbago01.png
    :alt: Neuen Shop anlegen mit Vererbung
    :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 Die Vererbung kann nach dem Anlegen eines Shops noch geändert werden. Die Änderungen können shopweit in den Vererbungseinstellungen vorgenommen werden oder sich auf einzelne Artikel, Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten usw. beziehen. Details dazu finden Sie im Dokument :doc:`Individualisierung <individualisierung>`.

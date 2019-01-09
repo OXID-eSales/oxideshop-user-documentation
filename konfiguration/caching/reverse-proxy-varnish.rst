@@ -10,7 +10,7 @@ Die Verarbeitung durch Varnish basiert auf der Aufteilung der einzelnen Seiten d
 .. image:: ../../media/screenshots/oxbacb01.png
    :alt: Web-Clients, Varnish und Server mit OXID eShop
    :class: with-shadow
-   :height: 204
+   :height: 198
    :width: 650
 
 Um den Reverse Proxy Varnish für das Caching des OXID eShop nutzen zu können, muss Varnish auf einem separaten Server installiert und konfiguriert werden.

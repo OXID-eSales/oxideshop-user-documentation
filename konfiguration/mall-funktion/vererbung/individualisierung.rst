@@ -6,7 +6,7 @@ Die beim Anlegen eines neuen Shops erfolgte Vererbung kann zu einem späteren Ze
 .. image:: ../../../media/screenshots/oxbags01.png
    :alt: Vererbter Artikel
    :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 Die vererbten Artikel und Einstellungen sind zum größten Teil inhaltlich nicht änderbar. Es gibt jedoch Ausnahmen. Bei vererbten Artikeln können die Preise geändert werden, wenn beim Anlegen des neuen Shops individuelle Preise erlaubt wurden. Dadurch lassen sich der Verkaufspreis des Artikels, die alternativen Preise und die Staffelpreise anpassen. Den vererbten Artikeln und Attributen können Kategorien zugeordnet werden. So kann eine andere Struktur des Warenkatalogs als die im Elternshop umgesetzt werden.

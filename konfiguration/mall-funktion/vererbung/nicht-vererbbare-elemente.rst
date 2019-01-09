@@ -6,7 +6,7 @@ Nicht vererbbare Elemente gehören zu jedem Subshop, Supershop und Multishop. Si
 .. image:: ../../../media/screenshots/oxbagq01.png
    :alt: Stammdaten - Grundeinstellungen
    :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 Die Konfiguration eines Shops kann unter :menuselection:`Stammdaten --> Grundeinstellungen` definiert werden. Die Einstellungen lassen sich separat für jeden Shop anpassen - von den Firmendaten und E-Mail-Adressen, über die verschiedenen Systemeinstellungen bis hin zu Vorgaben für die Performance oder SEO. Lediglich die Registerkarte :guilabel:`Lizenz` nimmt shopübergreifend den Lizenzschlüssel der Enterprise Edition auf.

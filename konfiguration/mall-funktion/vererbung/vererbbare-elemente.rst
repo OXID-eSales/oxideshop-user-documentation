@@ -6,7 +6,7 @@ Vererbbare Elemente werden einem Shop von einem anderen Shop zugewiesen. Beim Er
 .. image:: ../../../media/screenshots/oxbagp01.png
    :alt: Vererbungseinstellungen
    :class: with-shadow
-   :height: 335
+   :height: 344
    :width: 650
 
 Unter :menuselection:`Stammdaten --> Grundeinstellungen` lassen sich auf der Registerkarte :guilabel:`Mall` die Vererbungseinstellungen eines neuen Shops jederzeit ändern. Wird das Häkchen beim jeweiligen Kontrollkästchen einer Vererbungseinstellung entfernt, wird die Vererbung in Echtzeit rückgängig gemacht.

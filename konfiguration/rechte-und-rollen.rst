@@ -22,7 +22,7 @@ Für Artikel und Kategorien kann auch definiert werden, dass sie ausschließlich
 .. image:: ../media/screenshots/oxbaev01.png
    :alt: Artikelübersicht (Rechte und Rollen)
    :class: with-shadow
-   :height: 360
+   :height: 363
    :width: 650
 
 Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und der berechtigten Benutzergruppe angehört.
@@ -30,8 +30,8 @@ Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb le
 .. image:: ../media/screenshots/oxbaev02.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
    :class: with-shadow
-   :height: 307
-   :width: 609
+   :height: 284
+   :width: 650
 
 Zugriff auf Funktionen und Bereiche der Detailseite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -47,16 +47,16 @@ Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop
 .. image:: ../media/screenshots/oxbaev03.png
    :alt: Rechte für Detailansicht (Rechte und Rollen)
    :class: with-shadow
-   :height: 158
-   :width: 319
+   :height: 188
+   :width: 387
 
 Auf der Detailseite, auf dem Screenshot als Beispiel zu sehen, und auch in den Artikelübersichten werden keine Preise für nicht berechtigte Benutzer angezeigt.
 
 .. image:: ../media/screenshots/oxbaev04.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
    :class: with-shadow
-   :height: 310
-   :width: 612
+   :height: 285
+   :width: 650
 
 Rechte und Rollen für den Administrationsbereich (Backend)
 ----------------------------------------------------------
@@ -69,7 +69,7 @@ Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Nav
 .. image:: ../media/screenshots/oxbaev05.png
    :alt: Zugriff im Administrationsbereich
    :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 Zugriff auf Artikel und Kategorien
@@ -79,7 +79,7 @@ Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differe
 .. image:: ../media/screenshots/oxbaev06.png
    :alt: Zugriff im Administrationsbereich
    :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 .. Intern: oxbaev, Status:

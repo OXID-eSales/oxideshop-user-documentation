@@ -6,7 +6,7 @@ Die Mall-Funktion ist ein Feature der Enterprise Edition des OXID eShop. Die Man
 .. image:: ../../media/screenshots/oxbaeu01.png
    :alt: Stammdaten - Grundeinstellungen
    :class: with-shadow
-   :height: 517
+   :height: 535
    :width: 650
 
 Shops können im Administrationsbereich bearbeitet werden. Dafür werden shopübergreifende Administratorrechte benötigt, die Benutzer durch das Recht \"Admin\" erhalten. Im Gegensatz dazu gibt es auch Administratoren, die nur Zugriff auf einen bestimmten Shop haben. Die Definition erfolgt unter :menuselection:`Benutzer -->  Benutzer verwalten` durch Zuweisung des entsprechenden Rechts.
