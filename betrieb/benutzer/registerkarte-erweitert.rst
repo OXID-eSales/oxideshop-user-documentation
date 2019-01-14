@@ -29,11 +29,4 @@ In diesem Feld kann eine Webadresse, beispielsweise die der Webseite eines Gesch
 :guilabel:`Bonuspunkte` |br|
 Dem Benutzer können Bonuspunkte gutgeschrieben werden, wenn er Kunden für den Shop geworben hat. Auch ein geworbener Kunde kann Bonuspunkte erhalten, wenn er sich im Shop registriert. Die Funktion muss in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Einladungen` aktiviert worden sein. Hier wird auch die Anzahl der Bonuspunkte für Neukunden und Registrierung festgelegt. Der Shopbetreiber bestimmt selbst, wie er die Bonuspunkte der Benutzer im Rahmen seines Geschäftsmodells einsetzt.
 
-:guilabel:`Keine automatische Benutzergruppen-Zuordnung` |br|
-Benutzer werden auf Grund von Bedingungen automatisch bestimmten Benutzergruppen zugeordnet. Abonniert ein Benutzer beispielsweise den Newsletter, wird er in die Benutzergruppe \"Newsletter-Abonnent\" aufgenommen. Beim Einkauf entscheidet das Bestellvolumen, ob der Benutzer zukünfig zur Benutzergruppe \"Kleiner Umsatz\", \"Mittlerer Umsatz\" oder \"Großer Umsatz\" gehört. Mehr Informationen dazu unter Benutzergruppen.
-
-Soll keine automatische Zuordnung des Benutzers zu Benutzergruppen erfolgen, deaktivieren Sie diese Funktion hier.
-
-.. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`
-
 .. Intern: oxbads, Status:, F1: user_extend.html
