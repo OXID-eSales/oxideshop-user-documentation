@@ -22,7 +22,7 @@ Der OXID eShop 6.1.1 wird als Compilation bereitgestellt. Diese enthält folgend
 * Visual CMS 3.2.2 (PE/EE)
 * WYSIWIG-Editor und die Mediathek Summernote 2.1.1
 
-Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.0...b-6.1>`_.
+Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.0...v6.1.1>`_.
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
@@ -48,12 +48,12 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
 * OXID eShop CE (Update von 6.3.0 auf 6.3.1), `Changelog 6.3.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.3.1/CHANGELOG.md>`_
 * OXID eShop PE (Update von 6.2.0 auf 6.2.1)
-* AmazonPay (Update von 3.1.4 auf 3.2.1)
+* AmazonPay (Update von 3.1.4 auf 3.2.1), `Changelog 3.2.1 <https://github.com/bestit/amazon-pay-oxid/blob/3.2.1/CHANGELOG.md>`_
 * GDPR Opt-In (Update von 2.1.1 auf 2.1.2), `Changelog 2.1.2 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.1.2/CHANGELOG.md>`_
-* Klarna (Update von 4.0.1 auf 4.2.0)
+* Klarna (Update von 4.0.1 auf 4.2.0), `Changelog 4.2.0 <https://github.com/topconcepts/OXID-Klarna-6/blob/master/CHANGELOG.md>`_
 * PAYONE (Update von 1.0.8 auf 1.0.10), `Changelog 1.0.10 <https://github.com/PAYONE-GmbH/oxid-6/blob/1.0.10/Changelog.txt>`_
 * PayPal (Update von 5.2.2 auf 5.2.3), `Changelog 5.2.3 <https://github.com/OXID-eSales/paypal/blob/v5.2.3/CHANGELOG.md>`_
-* Visual CMS (Update von 3.2.1 auf 3.2.2)
+* Visual CMS (PE/EE, Update von 3.2.1 auf 3.2.2)
 
 -----------------------------------------------------------------------------------------
 
