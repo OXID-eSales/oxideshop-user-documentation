@@ -3,7 +3,7 @@
 
 Releases 2019
 -------------
-29.01.2019 - :doc:`OXID eShop 6.1.2 <oxid-eshop-612>`
+29.01.2019 - :doc:`OXID eShop 6.1.2 <releases-2019/oxid-eshop-612>`
 
 Releases 2018
 -------------
