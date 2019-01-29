@@ -1,14 +1,14 @@
-Zahlung und Versand
+﻿Payment and shipping
 ===================
 
 .. toctree::
    :maxdepth: 1
       
-   zahlung-und-versand
-   preise-fuer-zahlungsarten
-   zahlungsarten-fuer-bestimmte-benutzer
-   gewichtsabhaengige-versandkosten
-   versandkostenfrei-ab-warenwert
-   versandkosten-fuer-in-und-ausland
-   versandkosten-fuer-bestimmte-artikel
-   versandkosten-fuer-artikel-aus-bestimmten-kategorien
+   payment-and-shipping
+   prices-for-payment-methods
+   payment-methods-for-specific-users
+   weight-based-shipping-costs
+   free-shipping-from-certain-product-value
+   domestic-and-foreign-shipping-costs
+   shipping-costs-for-specific-products
+   shipping-costs-for-products-from-specific-categories

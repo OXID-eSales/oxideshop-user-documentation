@@ -1,40 +1,40 @@
-Registerkarte HTML
+﻿HTML tab
 ==================
 
-Der OXID eShop verschickt Newsletter immer in zwei Formaten: als HTML-Mail und als Nur-Text-Mail. Dadurch wird sichergestellt, dass der Newsletter von allen Mail-Programmen und Webmailern korrekt dargestellt wird. Auf der Registerkarte :guilabel:`HTML` wird der Newsletter im HTML-Format erstellt. Im Gegensatz zum Nur-Text-Format können hier Inhalte durch Überschriftenhierarchien, unterschiedliche Schriftfarben und -größen und andere Formatierungen hervorgehoben werden. Es lassen sich Firmenlogo, Grafiken, Links und Artikelfotos einbinden.
+OXID eShop always sends newsletters in two formats: as an HTML email and as a plain text email. This ensures that the newsletter is displayed correctly by all mail programs and webmails. The :guilabel:`HTML` tab allows you to create the newsletter in HTML format. Unlike plain text, the content here can be emphasised by heading hierarchies, different font colours and sizes, and other formatting options. You can also integrate the company logo, graphics, links and product photos.
 
 .. image:: ../../media/screenshots/oxbaif01.png
-   :alt: Newsletter - Registerkarte HTML
+   :alt: Newsletters - HTML tab
    :class: with-shadow
    :height: 346
    :width: 650
 
-:guilabel:`Titel` |br|
-Der Newsletter wird mit diesem Titel im Administrationsbereich des Shops angezeigt und kann darüber mit der Suche gefunden werden. Der Titel wird im versendeten Newsletter nicht verwendet.
+:guilabel:`Title` |br|
+The name of the newsletter displayed in the shop’s Admin panel. It can also be used to search for the newsletter. The title is not used in the newsletter that is sent out.
 
-:guilabel:`Betreff` |br|
-Im Betreff wird der Inhalt des Newsletters zusammengefasst. Da der Betreff das Erste ist, was der Empfänger des Newsletters in seinem Posteingang sieht, sollte der Betreff eine kurze und prägnante Information zum Newsletter sein. Das entscheidet darüber, ob der Empfänger den Newsletter öffnet oder direkt in den Papierkorb verschiebt. Der Betreff gilt für beide Newsletter-Formate.
+:guilabel:`Subject line` |br|
+The subject line summarises the content of the newsletter. The subject should be brief and concise since it is the first thing the newsletter recipients see in their inbox. It determines whether they open the newsletter or move it directly to the trash. The subject line applies to both newsletter formats.
 
-:guilabel:`Vorlage` |br|
-Der Inhalt des Newsletters kann komfortabel in einen Editor eingegeben werden. Dieser arbeitet nach dem Prinzip WYSIWYG (What You See Is What You Get), er zeigt also den Text so an, wie er später im Newsletter zu sehen sein wird. Der Editor bietet die Möglichkeit der Textformatierung, des Einfügens von Bildern und von Links.
+:guilabel:`Sample` |br|
+The content of the newsletter can be easily entered in an editor. This works based on the WYSIWYG (What You See Is What You Get) principle, which means that the text is displayed the way it will be visible in the newsletter later. The editor lets you use different text formatting options and insert links and images.
 
-Für das Erstellen eines Newsletters im HTML-Format ist es wichtig zu wissen, dass die meisten Mail-Programme und Webmailer HTML darstellen können, es aber keine verlässlichen Standards gibt. Um sicher zu gehen, muss auf veraltete Techniken zurückgegriffen werden. Arbeiten Sie mit Tabellen, Font-Tags und Inline-CSS. CSS-Positionierung über floats, Videos, Audios, Formulare und Scripts sollten in Ihrem Newsletter hingegen nicht verwendet werden. Im Internet findet sich eine Vielzahl von Seiten, die Tipps zum Erstellen und Testen von HTML-Newslettern geben.
+When creating a newsletter in HTML format, it is important to know that most mail programs and webmails can render HTML, but there are no reliable standards. To be on the safe side, you should resort to the tried and tested techniques. We recommend that you work with tables, font tags, and inline CSS. However, CSS positioning via floats, videos, audios, forms and scripts should not be used in your newsletter. There are a lot of websites on the Internet that provide useful information on how to create and test HTML newsletters.
 
-Eine Besonderheit beim Erstellen des Newsletters ist, dass er Platzhalter für dynamische Inhalte enthalten kann. An dafür vorgesehenen Textstellen können Inhalte aus dem Onlineshop, wie beispielsweise die Anrede, der Vor- und Zuname eines Benutzers, die Adresse des Shops oder Informationen zu bestimmten Artikeln, ausgegeben werden.
+A special feature of creating the newsletter is that it can contain placeholders for dynamic content. Text passages provided for this purpose can display content from the online shop, such as the salutation, the first and last name of a user, the address of the shop or information about certain products.
 
-Die dynamischen Inhalte werden mit *Smarty*, einer Template-Engine für PHP, umgesetzt. Der bereitgestellte Standard wurde mit speziellen, für den Onlineshop benötigten Funktionen erweitert. Die dazugehörigen Dateien befinden sich im Ordner
+The dynamic content is implemented with *Smarty*, a template engine for PHP. The provided default version has been enhanced with special functions required for the online shop. The corresponding files are located in the folder
 :file:`/core/smarty/plugins`.
 
-Die Funktionsweise der Smarty-Anweisungen wird an einem Beispiel aus dem Beispiel-Newsletter deutlich. Beim Versenden des Newsletters werden die Smarty-Anweisungen, die wie Platzhalter fungieren, durch reale Daten aus dem Shop ersetzt.
+The way the Smarty prompts work is illustrated by an example from the sample newsletter. When the newsletter is sent, the Smarty prompts, which act as placeholders, are replaced by real data from the shop.
 
 .. code:: html
 
    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;"
-      Hallo [{ $myuser->oxuser__oxsal->value|oxmultilangsal }] [{ $myuser->oxuser__oxfname->value }] [{ $myuser->oxuser__oxlname->value }],
+      Hello [{ $myuser->oxuser__oxsal->value|oxmultilangsal }] [{ $myuser->oxuser__oxfname->value }] [{ $myuser->oxuser__oxlname->value }],
    </p>
 
-Der Empfänger des Newsletters wird persönlich angesprochen, indem  Anrede, Vorname und Nachname aus der Datenbank gelesen und ausgegeben werden. Das Ergebnis kann auf der Registerkarte :guilabel:`Vorschau` eingesehen werden.
+The recipient of the newsletter is addressed personally by reading and inserting the salutation and the first and last name from the database. The result can be viewed in the :guilabel:`Preview` tab.
 
-.. seealso:: `E-Mail Standards Project <http://www.email-standards.org>`_ | `Smarty Template Engine <https://www.smarty.net>`_ | :doc:`Registerkarte Vorschau <registerkarte-vorschau>`
+.. seealso:: `Email Standards Project <http://www.email-standards.org>`_ | `Smarty Template Engine <https://www.smarty.net>`_ | :doc:`Preview tab <registerkarte-vorschau>`
 
 .. Intern: oxbaif, Status:, F1: newsletter_main

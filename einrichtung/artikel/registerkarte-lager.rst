@@ -1,61 +1,61 @@
-﻿Registerkarte Lager
+﻿Stock tab
 ===================
-Eine in den OXID eShop integrierte Lagerverwaltung zeigt den Kunden die Verfügbarkeit von Artikeln an und reduziert den Lagerbestand bei Bestellung. Der Shopbetreiber wird per E-Mail darüber informiert, wenn der Lagerbestand eines Artikels unter eine festgelegte Anzahl von Exemplaren sinkt.
+OXID eShop has an integrated stock management system that shows the availability of products to customers and reduces stock with each order. The shop owner will be notified by email if the product’s stock falls below a specified number of items.
 
 .. image:: ../../media/screenshots/oxback01.png
-   :alt: Artikel - Registerkarte Lager
+   :alt: Products - Stock tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Um die :doc:`Lagerverwaltung <../../konfiguration/lagerverwaltung>` nutzen zu können, muss diese in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Lager` aktiviert und konfiguriert werden.
+To use :doc:`Stock Management<../../konfiguration/lagerverwaltung>`, you will need to first activate and configure this feature in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Stock`.
 
-:guilabel:`Lagerbestand` |br|
-Geben Sie beim Erstellen eines Artikels dessen Anfangsbestand ein. Der Bestand verringert sich bei jeder Bestellung. Wieviel Exemplare des Artikels aktuell auf Lager sind, wird hier angezeigt und kann bei Veränderungen des Lagerbestandes auch angepasst werden.
+:guilabel:`Stock` |br|
+When you create a product, you can enter its initial stock here. The stock decreases with each order. This field shows how many items are currently in stock and can also be adjusted if the stock changes.
 
-Der Lagerbestand wird in der Detailansicht des Artikels durch ein kleines Symbol und eine Statusmeldung veranschaulicht.
+The stock is illustrated by a small icon and a status message in the product’s detailed view.
 
-* grünes Symbol: Artikel ist in ausreichender Menge vorhanden
-* gelbes Symbol: Artikel ist nur noch in geringer Menge vorrätig
-* rotes Symbol: Artikel ist nicht auf Lager
+* green icon: sufficient quantity of product in stock
+* yellow icon: limited quantity of product in stock
+* red icon: product out of stock
 
-:guilabel:`Lieferstatus` |br|
-Ist ein Artikel ausverkauft, kann das im Shop auf verschieden Weise dargestellt werden.
+:guilabel:`Delivery Status` |br|
+If a product is sold out, this can be displayed in different ways in the shop.
 
-Wurde :guilabel:`Standard` als Lieferstatus festgelegt, kann der Artikel auch bestellt werden, wenn er ausverkauft ist. Er muss nachbestellt werden. Da bei :guilabel:`Fremdlager` der eigentliche Lagerbestand nicht bekannt ist, kann der Artikel immer bestellt werden. Er wird nicht als ausverkauft angezeigt. Mit der Auswahl :guilabel:`Wenn ausverkauft offline` legen Sie fest, dass der Artikel im Shop nicht mehr angezeigt wird, sobald er ausverkauft ist. Bei :guilabel:`Wenn Ausverkauft nicht bestellbar`, ist der Artikel im Shop sichtbar, kann aber nicht bestellt werden. Er hat keine Schaltfläche :guilabel:`In den Warenkorb`.
+If :guilabel:`Standard` has been set as delivery status, the product can still be ordered even if it is sold out. However, it has to be reordered. If :guilabel:`External Storehouse` has been selected, the product can always be ordered since the actual stock can’t be checked. The product won’t be displayed as sold out. By selecting :guilabel:`If out of Stock offline` determine that the product is no longer displayed in the shop as soon as it is sold out. If you select :guilabel:`If out of Stock, not orderable`, the customers will see the product in the shop but won’t be able to order it. The :guilabel:`To cart` button won’t be displayed.
 
-:guilabel:`Wieder lieferbar am` |br|
-Informieren Sie die Kunden, ab wann der Artikel wieder geliefert werden kann. Das Datum muss im Format JJJJ-MM-TT (Jahr vierstellig, Monat und Tag zweistellig) angegeben werden. Es wird zusammen mit dem Hinweis :guilabel:`Lieferbar ab` in der Detailansicht des Artikels angezeigt.
+:guilabel:`Available on` |br|
+Tell your customers when the product will be back in stock. The date must be specified in the YYYY-MM-DD format (year four digits, month and day two digits). It will be displayed together with the :guilabel:`Available on` note in the product’s detailed view.
 
-:guilabel:`Lieferzeit Zwischen` ... :guilabel:`und` ... |br|
-Legen Sie hier die Lieferzeit des Artikels fest. Werden beide Werte verwendet, wird die Lieferzeit in der Detailansicht des Artikels als Zeitspanne angezeigt, beispielsweise Lieferzeit: 2 - 5 Tage. Ohne den ersten Wert, wird die Lieferzeit fix angezeigt, beispielsweise Lieferzeit: 5 Tage. Die Lieferzeit kann auch in Wochen oder Monaten angegeben werden.
+:guilabel:`Delivery time From` ... :guilabel:`to` ... |br|
+Here, you can specify the product’s delivery time. If both values are used, the delivery time in the product’s detailed view will be displayed as a time span, e.g. delivery time: 2 - 5 Days. Without the first value, the delivery time will be displayed in the fixed format, e.g. delivery time: 5 Days. The delivery time can also be specified in weeks or months.
 
-:guilabel:`E-Mail schicken, falls Bestand unter folg. Wert sinkt` |br|
-Wenn Sie per E-Mail informiert werden möchten, wenn der Lagerbestand unter einen bestimmten Wert sinkt, aktivieren Sie das Kontrollkästchen und geben Sie den gewünschten Wert ein.
+:guilabel:`Send email if stock falls below the value` |br|
+Check this box and enter the desired value if you would like to be notified by email if the stock falls below a certain value.
 
-:guilabel:`Info falls Artikel auf Lager` |br|
-Für jeden Artikel kann festgelegt werden, welcher Text angezeigt wird, wenn der Artikel auf Lager ist oder nicht. Wird kein Text hinterlegt, wird eine Standardmeldung ausgegeben. Das muss in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Lager` aktiviert worden sein.
+:guilabel:`In-Stock Message` |br|
+You can specify which text is displayed if the product is in or out of stock. If no text is specified, a default message will be displayed. You will need to first activate this feature in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Stock`.
 
-:guilabel:`Info falls Artikel auf Lager` - :guilabel:`In Sprache` |br|
-Die Meldungen können für alle aktiven Sprachen des Shops definiert werden. Wählen Sie die gewünschte Sprache aus der Liste.
+:guilabel:`In-Stock Message` - :guilabel:`In Language` |br|
+The messages can be defined for all active languages of the shop. Select the desired language from the list.
 
-:guilabel:`Info falls Artikel auf Lager` |br|
-Information zu diesem Artikel, wenn dieser auf Lager ist. Ersetzt die Standardmeldung :guilabel:`Sofort lieferbar`.
+:guilabel:`In-Stock Message` |br|
+Information about the product if it is in stock. Replaces the :guilabel:`Ready for shipping` default message.
 
-:guilabel:`Info falls Artikel nicht auf Lager` |br|
-Information zu diesem Artikel, wenn dieser nicht auf Lager ist. Ersetzt die Standardmeldung :guilabel:`Dieser Artikel ist nicht auf Lager und muss erst nachbestellt werden`.
+:guilabel:`Out Of Stock Message` |br|
+Information about the product if it is out of stock. Replaces the :guilabel:`This item is not on stock and has to be re-ordered` default message.
 
-:guilabel:`Staffelpreise` |br|
-Staffelpreise sind ein Rabatt, der beim Kauf einer bestimmten Menge von Artikeln gewährt wird. Der Rabatt wird einem Mengenbereich als absoluter Preis oder prozentual zugewiesen. Mehrere Mengenbereiche bilden eine Staffel mit unterschiedlichen Artikelpreisen.
+:guilabel:`Scale Prices` |br|
+Scale prices are a discount that is granted when the customer purchases a certain quantity of products. The discount is assigned as an absolute price or as a percentage to a specific quantity range. Several quantity ranges form a scale with different product prices.
 
-:guilabel:`Staffelpreise` - :guilabel:`Menge von` ... :guilabel:`bis` ... |br|
-Geben Sie die Artikelmenge für einen Mengenbereich ein.
+:guilabel:`Scale Prices` - :guilabel:`Quantity From:` ... :guilabel:`To:` ... |br|
+Enter the product quantity for a quantity range.
 
-.. hint:: Achten Sie darauf, dass im letzten Mengenbereich eine ausreichend große Menge im Feld :guilabel:`bis` angegeben wurde, beispielsweise 99999. Ist diese Zahl zu niedrig, gilt bei Überschreitung dieser Menge wieder der Originalpreis.
+.. hint:: Make sure that you enter a sufficient quantity in the :guilabel:`To:` field, e.g., 99999. If this number is too low, the original price will apply again if this quantity is exceeded.
 
-:guilabel:`Staffelpreise` - :guilabel:`Preis (€)` |br|
-Geben Sie den Artikelpreis für eine Mengeneinheit ein. Dieser kann ein absoluter Preis oder ein Preis in Prozent sein.
+:guilabel:`Scale Prices` - :guilabel:`Price (€)` |br|
+Enter the product price for a unit of measure. This can be an absolute price or a price in percent.
 
-.. seealso:: :doc:`Staffelpreise <../artikel-und-kategorien/staffelpreise>`
+.. seealso:: :doc:`Scale Prices <../artikel-und-kategorien/staffelpreise>`
 
 .. Intern: oxback, Status:, F1: article_stock.html

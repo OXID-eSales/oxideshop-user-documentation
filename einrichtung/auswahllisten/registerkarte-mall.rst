@@ -1,22 +1,22 @@
-﻿Registerkarte Mall
+﻿Mall tab
 ==================
-Die Registerkarte :guilabel:`Mall` ist bei Auswahllisten nur in der OXID eShop Enterprise Edition vorhanden.
+The :guilabel:`Mall` tab is only available for selection lists in OXID eShop Enterprise Edition.
 
-Auswahllisten können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` gewählt, enthält ein neuer Shop auch alle Auswahllisten des Elternshops. Die vererbten Auswahllisten sind nicht änderbar und behalten ihre ursprüngliche Verknüpfung mit Artikeln.
+Selection lists can be inherited when creating shops. If the option :guilabel:`Shop inherits all inheritable items (products, discounts etc) from it's parent shop` is selected, the new shop will also contain all the selection lists of the parent shop. The inherited selection lists can’t be changed and retain their original assignment to products.
 
-Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen der Auswahlliste zu Subshops und Supershops verwaltet. Multishops übernehmen keine Auswahllisten aus anderen Shops.
+The :guilabel:`Mall` tab can be used to manage assignments of selection lists to subshops and supershops. Multishops don’t inherit selection lists from other shops.
 
 .. image:: ../../media/screenshots/oxbagj01.png
-   :alt: Auswahllisten - Registerkarte Mall
+   :alt: Selection lists - Mall tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Es ist möglich, die Vererbung aller Auswahllisten für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen bei der Vererbungseinstellung entfernt werden.
+The inheritance of all selection lists for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.
 
-:guilabel:`Verknüpft mit folg. Subshops` |br|
-Die Verknüpfung einer Auswahlliste mit Subshops und Supershops kann hinzugefügt oder entfernt werden, indem das entsprechende Kontrollkästchen angehakt wird oder nicht. Bei nicht aktiviertem Kontrollkästchen ist die Auswahlliste im Elternshop vorhanden, aber nicht im jeweiligen Subshop oder Supershop.
+:guilabel:`Assigned to following subshops` |br|
+Check or uncheck the appropriate box to assign/unassign a selection list to/from subshops and supershops. If the box is not checked, the selection list will be available in the parent shop but not in the respective subshop or supershop.
 
-Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
+Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the selection list to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 
 .. Intern: oxbagj, Status:, F1: selectlist_mall

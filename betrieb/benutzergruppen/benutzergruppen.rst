@@ -1,81 +1,81 @@
-﻿Benutzergruppen
+﻿User groups
 ===============
 
-Benutzergruppen dienen dazu, Benutzer mit bestimmten Eigenschaften zusammenzufassen. Solche Eigenschaften können beispielsweise der Status des Benutzers, der bisherigen Umsatz im Shop, die Anmeldung für den Newsletter oder spezielle Preise für bestimmte Artikel sein. Benutzer, die einer Benutzergruppe angehören, lassen sich an anderer Stelle komfortabel zuordnen. Mit nur wenigen Mausklicks können Zahlungs- und Versandarten, Versandkostenregeln, Rabatte, Gutscheinserien etc. zugewiesen werden.
+User groups are used to group users with specific characteristics. Such characteristics may include the user status, previous sales in the shop, signing up for the newsletter or special prices for specific products. Users belonging to a user group can be conveniently assigned elsewhere. You can also assign payment and shipping methods, shipping costs, discounts, coupon series, etc. to them with just a few mouse clicks.
 
 .. image:: ../../media/screenshots/oxbadz01.png
-   :alt: Benutzergruppen
+   :alt: User groups
    :class: with-shadow
    :height: 517
    :width: 650
 
-Benutzergruppen können Sie im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzergruppen` bearbeiten. Es werden eine Liste der Benutzergruppen und darunter der Eingabebereich für die Benutzergruppe angezeigt. In der Liste kann nach dem Namen der Benutzergruppe gesucht werden. Verwenden Sie dafür das vorhandene Suchfeld. Wenn Sie beispielsweise \"a\" eingeben, werden alle Benutzergruppen angezeigt, die diesen Buchstaben in ihrem Namen haben.
+User groups can be edited in the Admin panel under :menuselection:`Administer Users --> User Groups`. Here, you will see a list of the user groups and the input area right below it. You can search for the name of the user group by using the available search field. For example, typing \"a\" will display all user groups that have this letter in their name.
 
-Benutzergruppen lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Eine Ausnahme stellen die 16 vordefinierten Benutzergruppen dar, mit denen der OXID eShop ausgeliefert wird.
+User groups can be permanently removed from the database by clicking on the trash icon at the end of the line. The only exception are the 16 predefined user groups that come with OXID eShop.
 
-Wird eine Benutzergruppe aus der Benutzergruppenliste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Benutzergruppe klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Benutzergruppe anlegen.`
+When you select a user group from the list, its information will be displayed in the input area. To create a new user group, click on :guilabel:`Create New User Group` at the bottom of the screen.
 
-Vordefinierte Benutzergruppen und automatische Zuordnung
+Predefined user groups and automatic assignment
 --------------------------------------------------------
-Der OXID eShop wird mit 16 Benutzergruppen ausgeliefert. Wenn sich Kunden im Shop registrieren und einkaufen, werden sie automatisch bestimmten Benutzergruppen zugewiesen.
+OXID eShop comes with 16 user groups. When customers register and buy something in the shop, they are automatically assigned to specific user groups.
 
-Inlandskunde/Auslandskunde
+Domestic/Foreign Customer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-Benutzer werden automatisch einer dieser Benutzergruppen zugeordnet, wenn sie im Shop bestellen. Entscheidend dafür ist die angegebene Rechnungsadresse. Die beiden Benutzergruppen können beispielsweise für die Zuweisung zu unterschiedlichen Versandkosten verwendet werden.
+Users are automatically assigned to one of these user groups when placing an order in the shop. The assignment is based on the specified billing address. For example, the two user groups can be used for assigning different shipping costs.
 
-Welche der aktiven Länder des Shops als Inland gelten sollen, kann im Abschnitt :guilabel:`Global` unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` definiert werden.
+Which of the shop’s active countries should be considered domestic can be specified in section :guilabel:`Global` under :menuselection:`Master Settings --> Core Settings`, in the :guilabel:`Settings` tab.
 
-Kunde
+Customer
 ^^^^^
-In dieser Benutzergruppe finden sich alle Benutzer, die im Shop eingekauft haben. Der Shop ordnet die Benutzer automatisch zu.
+This user group contains all users who have bought something in the shop. They are automatically assigned by the system.
 
-Händler
+Retailer
 ^^^^^^^
-Diese Benutzergruppe können Sie für Ihre gewerblichen Kunden verwenden. Es erfolgt keine automatische Zuordnung.
+You can use this user group for your commercial customers. They are not assigned automatically.
 
-Geringer Umsatz/Mittlerer Umsatz/Grosser Umsatz
+Less Turnover/Medium Turnover/Huge Turnover
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Benutzer werden einer dieser umsatzbezogenen Benutzergruppen zugeordnet, wenn sie im Shop bestellen. Die automatische Zuordnung erfolgt anhand des Einkaufswertes der Bestellung. Registrierte Benutzer können mit einer neuen Bestellung in eine weitere, auch in eine weniger umsatzstarke Benutzergruppe gelangen.
+Users are assigned to one of these turnover-based user groups when placing an order in the shop. The automatic assignment is based on the order’s purchase value. Every new order can place the registered users into a different user group, even a user group with less turnover.
 
-Die für einen mittleren und großen Umsatz relevanten Einkaufswerte können unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell.` im Abschnitt :guilabel:`Bestellungen` vorgegeben werden.
+Purchase values relevant for the medium and huge turnover can be specified under :menuselection:`Master Settings --> Core Settings --> Settings` in the :guilabel:`Orders` section.
 
 Powershopper
 ^^^^^^^^^^^^
-In dieser Benutzergruppe können Sie besonders umsatzstarke Benutzer zusammenfassen. Es erfolgt keine automatische Zuordnung.
+You can use this group for users with a particularly high turnover. They are not assigned automatically.
 
-Noch nicht gekauft
+Not Yet Purchased
 ^^^^^^^^^^^^^^^^^^
-Benutzer, die sich in Ihrem Shop registriert ohne bestellt zu haben, kommen in diese Benutzergruppe. Nach der ersten Bestellung wird die Zugehörigkeit zu dieser Benutzergruppe aufgehoben. Der Shop ordnet die Benutzer automatisch zu.
+Users who register in your shop without having placed an order will be displayed in this user group. After the first order, the affiliation to this user group will be removed. They are automatically assigned by the system.
 
-Newsletter-Abonnenten
+Newsletter Recipients
 ^^^^^^^^^^^^^^^^^^^^^
-Wird bei einer Bestellung oder Registrierung das Kontrollkästchen :guilabel:`Newsletter abonnieren` angehakt, ist der Benutzer als Newsletter-Abonnent vorgemerkt. Bestätigt der Benutzer einen speziellen Link, den er per E-Mail erhalten hat, wird er für den Newsletter freigeschaltet und in diese Benutzergruppe übernommen. Diese explizite Bestätigung wird auch Double-Opt-in genannt. Meldet sich ein Benutzer später vom Newsletter ab, bleibt er in dieser Benutzergruppe. Der eigentliche Versand des Newsletters wird beim Benutzer auf der :doc:`Registerkarte Erweitert <../benutzer/registerkarte-erweitert>` deaktiviert.
+If the user checks the box :guilabel:`Subscribe to the newsletter` when placing an order or registering in the shop, he/she will be flagged as a newsletter subscriber. If the user clicks on a special confirmation link received by email, he/she will be activated for receiving the newsletter and included in this user group. Such explicit confirmation is also called double opt-in. If the user unsubscribes from the newsletter later, he/she will still remain in this user group. The actual delivery of the newsletter to the user can be disabled in the :doc:`Extended tab <../benutzer/registerkarte-erweitert>`.
 
-Preis A/Preis B/Preis C
+Price A/Price B/Price C
 ^^^^^^^^^^^^^^^^^^^^^^^
-Diese Benutzergruppen ermöglichen es, ihren Benutzern besondere Artikelpreise anzuzeigen. Die Benutzer müssen der jeweiligen Benutzergruppe manuell zugeordnet werden. Bei den Artikeln können auf der :doc:`Registerkarte Stamm <../../einrichtung/artikel/registerkarte-stamm>` alternative Preise definiert werden (A, B und/oder C), welche die Benutzer der jeweiligen Benutzergruppe (Preis A/Preis B oder Preis C) anstelle des regulären Preises nach Anmeldung im Shop sehen.
+These user groups allow you to display special product prices to the users. Users must be manually assigned to the respective group. Go to the products’ :doc:`Main tab <../../einrichtung/artikel/registerkarte-stamm>` to specify alternative prices (A, B and/or C) that the users of the respective user group (Price A/Price B or Price C) will see instead of the regular price after they register in the shop.
 
-.. hint::Es kann zu Problemen bei solchen Artikeln kommen, für die keine alternativen Preise definiert wurden. Benutzer aus einer der Benutzergruppen mit den alternativen Preisen bekämen dann 0,00 € angezeigt. Um dies zu vermeiden, aktivieren Sie die Einstellung :guilabel:`Den normalen Artikelpreis verwenden, wenn keine A, B, C Preise vorhanden sind` im Abschnitt :guilabel:`Artikel` unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.`
+.. hint::You may experience issues with products for which no alternative prices have been specified. For example, €0.00 would be displayed for users from one of the user groups with alternative prices. To avoid this, check the box :guilabel:`Use standard Product Price if no A/B/C Price is set` in section :guilabel:`Products` under :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab.
 
-Shop-Admin
+Store Administrator
 ^^^^^^^^^^
-Die Benutzergruppe nimmt die Benutzer auf, welche den Shop administrieren dürfen. Der erste Administrator wird während der Installation des Shops angelegt und gelangt damit direkt in diese Benutzergruppe. Weitere Administratoren können nur im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzer` erstellt werden. Sie werden nicht automatisch Benutzer dieser Benutzergruppe, sondern müssen manuell hinzugefügt werden.
+This user group includes the users who are allowed to administer the shop. The first administrator is created during the shop installation and goes directly to this user group. Additional administrators can only be created in the Admin panel under :menuselection:`Administer Users --> Users`. They don’t automatically become users of this user group and must be added manually.
 
 Blacklist
 ^^^^^^^^^
-Diese Benutzergruppe ist für Benutzer, mit denen Sie Probleme in irgendeiner Form haben. Die \"schwarzen Schafe\" ordnen Sie dieser Benutzergruppe zu und können so beispielsweise nur bestimmte Zahlungs- und Versandarten zulassen. Die betreffenden Benutzer erfahren von dieser Kategorisierung nichts.
+This user group is for users who have caused you any problems. You can assign the so-called \"black sheep\" to this user group and only allow them to use certain payment and shipping methods. The users in question will never know about such categorisation.
 
 BLOCKED
 ^^^^^^^
-Benutzern, die Sie dieser Benutzergruppe zugewiesen haben, wird der Zugang zum Shop verweigert. Nach der Anmeldung wird ein solcher Benutzer mit einem Stop-Schild und der Meldung \"Der Zugang wurde Ihnen verweigert!\" auf seinen Status hingewiesen.
+Users who have been assigned to this user group will be denied access to the shop. After logging in, such a user will be notified of his/her status with a stop sign and the \"Permission denied!\" message.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktive Benutzergruppe, Name der Benutzergruppe, Sprache, Benutzer zuordnen |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active user group, user group name, language, assigning users |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-.. seealso:: :doc:`Benutzer <../benutzer/benutzer>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`
+.. seealso:: :doc:`Users <../benutzer/benutzer>` | :doc:`Payment methods <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Shipping methods <../../einrichtung/versandarten/versandarten>` | :doc:`Shipping cost rules <../../einrichtung/versandkostenregeln/versandkostenregeln>`
 
 .. Intern: oxbadz, Status:

@@ -1,24 +1,24 @@
-﻿Registerkarte Benutzergruppen \& Artikel
+﻿User Groups & Products tab
 ========================================
 
-Gutscheinserien können für Benutzergruppen, Kategorien oder einzelne Artikel gelten. Auch eine beliebige Kombination daraus ist möglich. Auf der Registerkarte :guilabel:`Benutzergruppen \& Artikel` können der Gutscheinserie Benutzergruppen, Kategorien und/oder Artikel zugeordnet werden. Ohne eine solche Zuordnung sind die Gutscheine einer Serie für alle Benutzer und den kompletten Warenkatalog gültig.
+Coupon series can apply to user groups, categories or individual products, or any combination thereof. The :guilabel:`User Groups & Products` tab allows you to assign user groups, categories and/or products to the coupon series. Without such an assignment, the coupons in a series will apply to all users and the complete product catalogue.
 
 .. image:: ../../media/screenshots/oxbaht01.png
-   :alt: Gutscheinserien - Registerkarte Benutzergruppen &amp; Artikel
+   :alt: Coupon series - User Groups & Products tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Wurden Kategorien und/oder Artikel zugeordnet, ist die Option :guilabel:`Nur einmalig berechnen (gültig nur bei zugewiesenen Gutscheinen)` auf der Registerkarte :guilabel:`Stamm` relevant. Diese Einstellung steuert, ob ein Gutschein einmal oder für alle zugewiesenen Artikel im Warenkorb gilt.
+If categories and/or products have been assigned, you will need to consider the option :guilabel:`Calculate only once (valid only for assigned vouchers)` in the :guilabel:`Main` tab. This setting controls whether a coupon will be applied just once or to all assigned products in the shopping cart.
 
-:guilabel:`Benutzergruppen zuordnen` |br|
-Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzergruppen` und :guilabel:`Verfügbar für Benutzergruppen`. Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+:guilabel:`Assign User Groups` |br|
+Clicking on this button will open the assignment window which displays the two lists - :guilabel:`All User Groups` and :guilabel:`Available for User Groups`. User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
-:guilabel:`Kategorien zuordnen` |br|
-Eine Gutscheinserie kann für eine oder mehrere Kategorien gelten. Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Kategorie angezeigt. Diese lassen sich nach Titel und Beschreibung filtern und sortieren. Die Kategorien können per Drag \& Drop in die rechte Liste verschoben werden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Damit ist die Zuordnung abgeschlossen.
+:guilabel:`Assign Categories` |br|
+A coupon series can apply to one or more categories. Clicking on :guilabel:`Assign Categories` opens a new window. All available categories will be displayed in the left-hand list. Categories can be filtered and sorted by title and description. Drag and drop the desired categories into the right-hand list of the assignment window. Hold down the Ctrl key to select multiple categories. The assignment is now completed.
 
-:guilabel:`Artikel zuordnen` |br|
+:guilabel:`Assign Products` |br|
 
-Der Gutscheinserie können auch einzelne Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Kategorie zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+The coupon series can also have individual products assigned to it. Clicking on :guilabel:`Assign Products` opens a new window. All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the category. Hold down the Ctrl key to select multiple products. The assignment is now completed.
 
 .. Intern: oxbaht, Status:, F1: voucherserie_groups.html

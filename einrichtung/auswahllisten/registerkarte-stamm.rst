@@ -1,43 +1,43 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
-Auf der Registerkarte :guilabel:`Stamm` lassen sich Auswahllisten erstellen, bearbeiten und den gewünschten Artikeln zuordnen.
+The :guilabel:`Main` tab allows you to create, edit and assign selection lists to the desired products.
 
 .. image:: ../../media/screenshots/oxbafj01.png
-   :alt: Auswahllisten - Registerkarte Stamm
+   :alt: Selection lists - Main tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Mit der Sprachumstellung im unteren Teil des Eingabebereichs können die Informationen und Einstellungen zur Auswahlliste auch direkt in einer weiteren Sprache bearbeitet werden. Bitte beachten Sie, dass die Sprachumstellung erst nach dem ersten Speichern der Auswahlliste möglich ist.
+The language selection list at the bottom of the input area allows you to edit information and settings for selection lists in another language directly. Please note that you can only change the language after the selection list has been saved.
 
-:guilabel:`Titel` |br|
-Titel der Auswahlliste, wie er auf der Detailseite eines Artikels angezeigt wird, der diese Auswahlliste verwendet. Auf der Detailseite des Artikels wird über der Preisangabe eine Dropdown-Liste eingeblendet, die diesen Titel trägt. In der Auswahlliste finden sich alle, hier als Felder definierten Ausführungen.
+:guilabel:`Title` |br|
+Name of the selection list as displayed on the details page of a product using this selection list. A drop-down list with this title will be displayed above the pricing information on the product’s details page. The selection list contains all the versions defined here as fields.
 
-:guilabel:`Arbeitstitel` |br|
-Der Arbeitstitel wird nicht im Shop angezeigt, sondern dient der besseren Unterscheidung der Auswahllisten im Administrationsbereich. Haben Sie beispielsweise mehrere Auswahllisten mit dem Titel \"Größe\" erstellt, können Sie durch den Arbeitstitel deutlich machen, um welche Art von Größen es sich handelt.
+:guilabel:`Working Title` |br|
+The working title is not displayed in the shop but serves to better distinguish the selection lists in the Admin panel. For example, if you have created multiple selection lists titled \"Size\", the working title can help you understand which kind of sizes this is.
 
-:guilabel:`Felder` |br|
-Mit einem Feld wird die eigentliche Ausführung oder Auswahl angelegt, also das, was der Kunde auf der Detailseite aus der Auswahlliste wählen kann. Wird die Auswahlliste zum Erstellen von Varianten verwendet, ist der vergebene Name und ein definierter Preisaufschlag bzw. Preisabschlag die Grundlage jeweils einer Variante.
+:guilabel:`Fields` |br|
+Fields are used to create the actual version or selection, that is, what the customer can select from the selection list on the product’s details page. If the selection list is used to create variants, the assigned name and the defined surcharge or discount will be the basis of each variant.
 
 :guilabel:`Name` |br|
-Name der Auswahl, wie er in der Auswahlliste eines Artikels erscheint. Wird die Auswahlliste zum Erstellen von Varianten verwendet, wird der Name auch zur Auswahl der jeweiligen Variante.
+Name of the selection as it appears in the product’s selection list. If the selection list is used to create variants, the name will also be used to select the respective variant.
 
-:guilabel:`Preis Auf/Abschlag (€)` |br|
-Legen Sie den Auf- oder Abschlag auf den Preis für diese Ausführung fest. Der Preis kann absolut oder prozentual definiert werden. Damit der Preis je nach Auswahl auch neu berechnet und auf der Detailseite angezeigt wird, muss das Kontrollkästchen :guilabel:`Preisänderungen durch Auswahllisten unterstützen` unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Perform`:guilabel:`.` aktiviert sein.
+:guilabel:`Price Surcharge/Discount (€)` |br|
+Set the surcharge or discount on this version’s price. The price may be absolute or percentage-based. In order for the price to be recalculated depending on the selection and displayed on the details page, you will need to check the :guilabel:`Support Price Modifications by Selection Lists` box under :menuselection:`Master Settings --> Core Settings`, in the :guilabel:`Perform`:guilabel:`.` tab.
 
-:guilabel:`Sortierung` |br|
-Die Sortierung legt die Reihenfolge fest, in der die Ausführung in der Auswahlliste erscheint. Die Auswahl mit dem kleinsten Wert steht jeweils an erster Stelle. Die Sortierung beginnt mit dem Wert 1.
+:guilabel:`Sorting` |br|
+Sorting determines the order in which the version appears in the selection list. The selection with the smallest value will always come first. Sorting starts with the value 1.
 
-:guilabel:`Feld hinzufügen` |br|
-Diese Schaltfläche leert die Eingabefelder, damit ein neues Feld erstellt und der Auswahlliste hinzugefügt werden kann.
+:guilabel:`Add Field` |br|
+Press this button to clear the input fields so that a new field can be created and added to the selection list.
 
-:guilabel:`Feld speichern` |br|
-Mit der Schaltfläche können die Eingaben zu einem Feld gespeichert werden.
+:guilabel:`Save Field` |br|
+Press this button to save the field entries.
 
-:guilabel:`Markierte Felder löschen` |br|
-Bereits angelegte Felder können gelöscht werden, nachdem sie in der Liste markiert wurden. Eine Mehrfachauswahl der Felder ist bei gedrückter Strg-Taste möglich.
+:guilabel:`Delete Selected Fields` |br|
+Press this button to delete the already created fields after selecting them in the list. Hold down the Ctrl key to select multiple fields.
 
-:guilabel:`Artikel zuordnen` |br|
-Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster, in dem die Auswahlliste Artikeln zugewiesen werden kann. Im Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die gewünschten Artikel können per Drag \& Drop in die mittlere Liste verschoben werden. Diese zeigt alle Artikel, welche diese Auswahlliste verwenden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. In der rechten Liste lässt sich die Sortierung der Auswahllisten eines Artikels ändern, wenn es für einen Artikel mehrere Auswahllisten gibt. Verwenden Sie dafür die kleinen Schaltflächen mit den Pfeilsymbolen, um eine markierte Auswahlliste an die gewünschte Position zu verschieben. Mit der Sortierung kann beeinflusst werden, in welcher Reihenfolge die Auswahllisten auf der Detailseite eines Artikels angeordnet sind.
+:guilabel:`Assign Products` |br|
+Clicking on :guilabel:`Assign Products` opens a new window where you can assign selection lists to products. All available products will be displayed in the left-hand list. The desired products can be dragged and dropped into the middle list. This shows all products which use this selection list. Hold down the Ctrl key to select multiple products. The right-hand list allows you to change the sorting of selection lists for a product if there are multiple selection lists for this product. Use the small buttons with the arrow icons to move the selected selection list to the desired position. Sorting can affect the order in which the selection lists are arranged on the product’s details page.
 
 .. Intern: oxbafj, Status:, F1: selectlist_main

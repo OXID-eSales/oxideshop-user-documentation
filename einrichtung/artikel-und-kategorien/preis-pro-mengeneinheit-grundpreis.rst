@@ -1,25 +1,25 @@
-﻿Preis pro Mengeneinheit (Grundpreis)
+﻿Price per unit (base price)
 ====================================
-Für Artikel, die nach Gewicht, Volumen, Länge oder Fläche angeboten werden, besteht die Verpflichtung zur Grundpreisangabe. Dies ist im Paragraph 2 der `Preisangabeverordnung <http://www.gesetze-im-internet.de/pangv/>`_ geregelt. Beim Artikel ist daher nicht nur der Endpreis, sondern auch der Preis je Mengeneinheit auszuweisen. Der Grundpreis wird berechnet und auf der Detailseite des Artikels direkt unter dem Endpreis angezeigt.
+Entering the basic price is mandatory for products that are offered by weight, volume, length or area. This is stated in paragraph 2 of the `German Price Indication Ordinance <http://www.gesetze-im-internet.de/pangv/>`, according to which not only the final price but also the price per unit must be displayed for the product. The base price is calculated and displayed on the product’s details page directly below the final price.
 
 .. image:: ../../media/screenshots/oxbafl01.png
-   :alt: Grundpreis, Detailseite des Artikels
+   :alt: Base price, product’s details page
    :class: with-shadow
    :height: 260
    :width: 500
 
-Der Grundpreis wird in der Artikelverwaltung festgelegt.
+The base price is defined in the product management section.
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Auf der Registerkarte :guilabel:`Erweitert` finden Sie die Eingabefelder :guilabel:`Menge` und :guilabel:`Mengeneinheit`.
-* Geben Sie die Menge des Artikels ein und legen Sie die Mengeneinheit fest. Wählen Sie die Mengeneinheit aus der Dropdown-Liste oder tragen Sie diese ein, ohne eine Mengeneinheit auszuwählen (\"-\").
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Administer Products --> Products`.
+* Select the desired product from the product list.
+* The :guilabel:`Extended` tab contains the :guilabel:`Quantity` and :guilabel:`Unit` input fields.
+* Enter the product’s quantity and specify the unit of measure. You can select the unit of measure from the drop-down list or enter it without selecting (\"-\").
+* Save the changes.
 
-Beispiel: Bei einem Artikel, der in einer 500 g-Packung angeboten wird, tragen Sie 0,5 bei Menge ein und wählen kg als Mengeneinheit. Angenommen, der Artikel hat einen Preis von 6,99 €, wäre der Grundpreis 13,98 €/kg.
+Example: For a product that is offered in a 500 kg package, enter 0.5 in the “Quantity” field and select kg as the unit of measure. Assuming the product costs €6.99, the base price will be €13.98/kg.
 
-Die Mengeneinheiten kg, g, l, ml, cm, mm, m, m², m³, Stück und Teil sind in der Sprachdatei :file:`lang.php` im Verzeichnis :file:`/application/translations/de` hinterlegt.
+The units kg, g, l, ml, cm, mm, m, m², m³, piece and item are stored in the :file:`lang.php` language file in the :file:`/application/translations/de` directory.
 
-.. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | `Hinweisblatt zur Angabe von Grundpreisen im Online-Shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)
+.. seealso:: :doc:`Products - Extended tab <../artikel/registerkarte-erweitert>` | `Information sheet for specifying base prices in the online shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)
 
 .. Intern: oxbafl, Status:

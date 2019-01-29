@@ -1,12 +1,12 @@
-Versandarten
+﻿Shipping methods
 ============
 
 .. toctree::
    :maxdepth: 1
       
-   versandarten
-   registerkarte-stamm
-   registerkarte-zahlungsarten
-   registerkarte-benutzer
-   registerkarte-mall
-   registerkarte-rdfa
+   shipping methods
+   main-tab
+   payment-tab
+   users-tab
+   mall-tab
+   rdfa-tab

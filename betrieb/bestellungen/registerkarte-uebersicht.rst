@@ -1,74 +1,74 @@
-﻿Registerkarte Übersicht
+﻿Overview tab
 =======================
 
-Die Registerkarte :guilabel:`Übersicht` zeigt alle wichtigen Informationen einer Bestellung an. Dazu gehören beispielsweise die Rechnungsadresse, eine davon abweichende Lieferadresse, die bestellten Artikel, der Gesamtpreis mit seinen einzelnen Positionen, die Zahlungsart und die Versandart. Die Bestellung erhält eine Bestellnummer, der Kunde eine Kundennummer, sofern es sich um eine Erstbestellung handelt.
+The :guilabel:`Overview` tab displays all important order-related information, including, for example, the billing address, a different shipping address, the ordered products, the total price with its individual items, as well as the payment and the shipping method. The order will receive an order number and the customer will receive a customer number provided that this is the first order.
 
-Darüber hinaus wird eine kurze Zusammenfassung der Bestellungen des Tages und aller Bestellungen im Shop ausgegeben. Für die Bestellung kann eine Rechnung oder ein Lieferschein im PDF-Format generiert werden. Bestellungen lassen sich zur weiteren Verarbeitung in anderen Systemen im XML-Format exportieren.
+In addition, you will see a brief summary of the orders placed on this day and all orders placed in the shop. You can generate an invoice or a delivery note for the order in PDF format and export orders in XML format for further processing in other systems.
 
 .. image:: ../../media/screenshots/oxbaec01.png
-   :alt: Bestellungen - Registerkarte Übersicht
+   :alt: Orders - Overview tab
    :class: with-shadow
    :height: 335
    :width: 650
 
-:guilabel:`Rechnungsadresse` |br|
-Es wird die Adresse angezeigt, an die die Rechnung für die Bestellung geschickt werden soll. Der Kunde hat diese Anschrift während der Registrierung im Shop oder beim Einkauf ohne Registrierung angegeben. Zusätzlich wird die E-Mail-Adresse des Kunden als Link angezeigt, so dass ein Klick darauf eine neue E-Mail öffnet, mit der dem Kunden beispielsweise eine Rechnung zugeschickt werden kann.
+:guilabel:`Billing Address` |br|
+Displays the address to which the invoice for the order should be sent. The customer provides this address during registration in the shop or when buying something without registration. In addition, the customer's email address will be displayed as a link. Clicking on it opens a new email that you can use to send an invoice to the customer, for example.
 
-:guilabel:`Lieferadresse` |br|
-Sollen die Artikel an eine andere als die Rechnungsadresse versendet werden, kann bei der Bestellung eine Lieferadresse angegeben bzw. ausgewählt werden. In diesem Fall wird die Lieferadresse neben der Rechnungsadresse angezeigt.
+:guilabel:`Shipping Address` |br|
+Customers can specify or select a shipping address when placing an order if the products needs to be sent to an address other than the billing address. In this case, the shipping address will be displayed next to the billing address.
 
-:guilabel:`Artikel` |br|
-Hier werden alle Artikel dieser Bestellung mit Anzahl, Artikelnummer, Artikeltitel und Preis aufgelistet. Auf der Registerkarte :guilabel:`Artikel` kann die Anzahl der bestellten Artikel nachträglich geändert werden. Es ist auch möglich, Artikel der Bestellung zu stornieren und zu löschen.
+:guilabel:`Products` |br|
+Displays all products included in this order with their quantity, number, title and price. The :guilabel:`Products` tab allows you to change the quantity of the ordered products at a later point. You can also cancel and delete products included with the order.
 
-:guilabel:`Gesamt` |br|
-Unter :guilabel:`Gesamt` findet sich der Gesamtpreis der Bestellung mit seinen einzelnen Positionen. Der Artikelpreis wird brutto und netto angezeigt, ein gewährter Rabatt und die Mehrwertsteuer werden ausgewiesen. Hinzu kommen die Versandkosten und eine mögliche Gebühr für die Zahlungsart.
+:guilabel:`Total` |br|
+:guilabel:`Total` displays the total price of the order with its individual items. You will see the product’s gross and net price, a discount granted, VAT, as well as the shipping costs and a fee associated with this payment method, if any.
 
-:guilabel:`Bezahlung mit` |br|
-Zahlungsart, die bei der Bestellung durch den Kunden gewählt wurde. Die Zahlungsart kann bei Bedarf durch den Shopbetreiber auf der Registerkarte :guilabel:`Stamm` geändert werden.
+:guilabel:`Payment with` |br|
+Payment method selected by the customer when placing the order. If needed, the payment method can be changed by the shop owner in the :guilabel:`Main` tab.
 
-:guilabel:`Versandart` |br|
-Versandart, die bei der Bestellung durch den Kunden gewählt wurde. Auch die Versandart lässt sich, wenn notwendig, auf der Registerkarte :guilabel:`Stamm` ändern.
+:guilabel:`Shipped with` |br|
+Shipping method selected by the customer when placing the order. The shipping method can also be changed in the :guilabel:`Main` tab if necessary.
 
-:guilabel:`Mitteilung` |br|
-Im zweiten Schritt des Bestellprozesses kann der Kunde eine Mitteilung für den Shopbetreiber in ein dafür vorgesehenes Eingabefeld eintragen. Die Mitteilung wird hier angezeigt. Nutzt der Kunde diese Möglichkeit nicht, ist an dieser Stelle der Standardtext \"Hier können Sie uns noch etwas mitteilen.\" zu sehen.
+:guilabel:`Remark` |br|
+The customer can enter a message for the shop owner in a designated input field in the second step of the ordering process. This message will be displayed here. If the customer doesn’t use this option, the default text \"Here you can enter an optional message.\" will be displayed here instead.
 
-:guilabel:`Bestellnr.` |br|
-Der Shop vergibt eine fortlaufende Bestellnummer. Die erste Bestellung, die im Shop eingeht, hat die Bestellnummer 1. Manchmal soll ein Shop aber mit einer höheren Bestellnummer starten. Shopbetreiber finden das oft professioneller. Eventuell macht auch ein eingesetztes Warenwirtschaftssystem eine höhere Nummerierung notwendig. Dafür müssen Sie lediglich die Bestellnummer der letzten Bestellung erhöhen. Von nun an zählt der Shop ab dieser Bestellnummer weiter.
+:guilabel:`Order No.` |br|
+Orders get assigned consecutive order numbers. The first order placed in the shop has the number 1. However, sometimes a shop should start the numbering with a higher order number as shop owners often find this to be more professional. The merchandise management system used may also require higher numbering. All you have to do is increase the number of the last order, and the shop will count from this order number on.
 
-:guilabel:`Kundennummer` |br|
-Kauft ein Kunde zum ersten Mal im Onlineshop ein, wird er als Benutzer angelegt und erhält eine Kundennummer. Diese wird fortlaufend vergeben, kann aber auch verändert werden, indem die Kundennummer des zuletzt angelegten Benutzers geändert wird. Gehen Sie dafür zu :menuselection:`Benutzer verwalten --> Benutzer`, ändern Sie die Kundennummer auf der Registerkarte :guilabel:`Stamm` und speichern Sie Ihre Änderungen. Der Shop zählt danach ab der neuen Kundennummer weiter.
+:guilabel:`Cust No.` |br|
+When a customer buys something in the online shop for the first time, he/she will be saved as a user and receive a customer number. The customer number is assigned on a consecutive basis but can also be changed by changing the customer number of the last created user. To do this, go to :menuselection:`Administer Users --> User`, change the customer number in the :guilabel:`Main` tab and save your changes. The shop will then continue counting from the new customer number on.
 
-:guilabel:`In Ordner` |br|
-Wurden im Shop Artikel bestellt, wird eine Bestellung dazu angelegt und im Ordner \"Neu\" abgelegt. Standardmäßig gibt es drei Ordner für Bestellungen: \"Neu\", \"Bearbeitet\" und \"Probleme\". Sie können Bestellungen in einen anderen Ordner verschieben, beispielsweise in den Ordner \"Bearbeitet\". Das erleichtert das Auffinden von Bestellungen über das Filtern und Suchen.
+:guilabel:`In Folder` |br|
+When products are ordered in the shop, the system creates an order and stores it in the \"New\" folder. By default, there are three folders for the orders: \"New\", \"Finished\" and \"Problems\". You can move the orders to a different folder, such as, e.g., \"Finished\", to make it easier to find orders via filtering and searching.
 
-Es lassen sich weitere Ordner anlegen, um die Klassifizierung von Bestellungen zu verfeinern und an Ihre speziellen Erfordernisse anzupassen. Neue Ordner werden auf der Registerkarte :guilabel:`Einstell.` unter :menuselection:`Stammdaten --> Grundeinstellungen` definiert. Klicken Sie auf :guilabel:`Administrationsbereich`, um die Einstellungen anzuzeigen. Jeder Ordner der Bestellverwaltung hat einen Eintrag mit folgender Syntax: ``Sprachkonstante Ordnername\=\>hexadezimale Farbdefinition``. Eine Sprachkonstante wird verwendet, damit die Ordner sprachabhängig angezeigt werden können. Die Übersetzung für die Standardordner ist in der jeweiligen Sprachdatei :file:`/application/views/admin/{locale}/lang.php` zu finden. Für neue Ordner sollte die benutzerdefinierte Sprachdatei :file:`cust_lang.php` verwendet werden. Die Schriftfarbe, in welcher der Ordner angezeigt werden soll, wird nach dem Schema #RRGGBB definiert. Beispiel: Ordner\"Storno\"in dunkelblauer Beschriftung - ORDERFOLDER_STORNO =\>#000088
+You can also create additional folders to refine the classification of orders and adapt it to your specific requirements. New folders can be defined in the :guilabel:`Settings` tab under :menuselection:`Master Settings --> Core Settings`. Click on :guilabel:`Administration` to view the settings. Each folder in the order management section has an entry with the following syntax: ``language constant folder name\=\>hexadecimal colour definition``. A language constant is used to display the folders depending on the language. The translation for the default folders can be found in the respective language file :file:`/application/views/admin/{locale}/lang.php`. The user-defined language file :file:`cust_lang.php` should be used for new folders. The font colour in which the folder should be displayed is defined according to the #RRGGBB scheme. Example: folder\"Cancellation\"in dark blue lettering - ORDERFOLDER_CANCELLATION =\>#000088
 
-:guilabel:`Interner Status` |br|
-Falls bei der Verarbeitung einer Bestellung ein Fehler auftrat, wird dieser angezeigt.
+:guilabel:`Internal Status` |br|
+Displays any errors that occurred while processing an order.
 
-:guilabel:`Übersicht` |br|
-Die Übersicht zeigt die Anzahl der Bestellungen und die Bestellsumme des aktuellen Tages an. Diese Information wird ergänzt durch die Anzahl aller Bestellungen im Shop und der gesamten Bestellsumme.
+:guilabel:`Overview` |br|
+Displays the number of orders and the order amount of the current day. This information is supplemented by the number of all orders placed in the shop and the total order amount.
 
-:guilabel:`Jetzt versenden` |br|
-Werden die Artikel an den Käufer versendet, kann der Shopbetreiber das bei der Bestellung dokumentieren. Ein Klick auf die Schaltfläche :guilabel:`Jetzt versenden` ändert den Bestellstatus und den Hinweis :guilabel:`Bestellung wurde noch nicht versandt`. Stattdessen wird nun ein Hinweis ausgegeben, der den Versand mit Datum und Uhrzeit bestätigt. Zusätzlich wird die Schaltfläche :guilabel:`Versendedatum zurücksetzen` eingeblendet. Damit kann das bisherige Datum des Versandes zurückgesetzt und die Ware mit aktuellem Datum erneut verschickt werden.
+:guilabel:`Ship Now` |br|
+When products are sent to the buyer, the shop owner can document the shipment in the order details. Clicking on :guilabel:`Ship Now` changes the order status and the :guilabel:`Order not shipped yet` note. You will see a message confirming the shipment and stating the shipment’s date and time instead. In addition, the :guilabel:`Reset Shipping Date` button will be displayed. You can use it to reset the previous shipping date and resent the products with the current date.
 
-:guilabel:`E-Mail schicken?` |br|
-Ist das Kontrollkästchen :guilabel:`E-Mail schicken?` angehakt, wird der Kunde per E-Mail über den Versand informiert. Die E-Mail enthält die Lieferadresse, die Bestellnummer und eine Auflistung der versendeten Artikel mit Link zur Artikelbewertung. Wurde auf der Registerkarte :guilabel:`Stamm` ein Tracking Code bei den Versandinformationen eingetragen, führt ein Link zur Sendungsverfolgung direkt auf die Webseite von DPD Deutschland.
+:guilabel:`Send e-mail?` |br|
+If the :guilabel:`Send e-mail?` box is checked, the customer will be informed about the shipment by email. The email will contain the shipping address, the order number and a list of the products shipped with the link to review them. If a tracking code has been entered in the shipping information in the :guilabel:`Main` tab, a tracking link will take the customer directly to the DPD Germany website.
 
 :guilabel:`XML Export` |br|
-Bestellungen können im XML-Format (Extensible Markup Language) exportiert werden, welches den Austausch mit anderen Systemen, wie einer Warenwirtschaft oder mit einem Versanddienstleister, ermöglicht. Ohne Vorgabe einer Bestellnummer werden sämtliche Bestellungen für den Export aufbereitet. Je nach verwendetem Browser wird die Exportdatei heruntergeladen, zum Öffnen oder zum Speichern angeboten. Mit der Eingabe von Bestellnummern in den Eingabefeldern :guilabel:`ab Bestellnr.` und :guilabel:`bis Bestellnr.` können die zu exportierenden Bestellungen eingeschränkt werden.
+Orders can be exported in XML (Extensible Markup Language) format, which enables exchange with other systems, such as merchandise management or a shipping service provider. If you don’t specify the order number, all orders will be processed for export. Depending on the browser used, the export file will be downloaded and the customer will be prompted to open or save it. By entering order numbers in the input fields :guilabel:`start Order No.` and :guilabel:`to Order No.`, you can limit the number of orders for export.
 
-.. hint:: Diese Funktion wurde nicht in die Enterprise Edition implementiert.
+.. hint:: This function hasn’t been implemented in Enterprise Edition.
 
 :guilabel:`PDF` |br|
-Zu einer Bestellung kann deren Rechnung und Lieferschein im Format PDF (Portable Document Format) erstellt werden. Rechnung oder Lieferschein sind aus einer Dropdown-Liste auswählbar. Ein Klick auf die Schaltfläche :guilabel:`PDF ausgeben` erstellt die .pdf-Datei und bietet diese je nach verwendetem Browser zum Öffnen oder Speichern an. Wurde der Shop mehrsprachig realisiert, kann die Sprache für Rechnung und Lieferschein ausgewählt werden.
+The order invoice and delivery note can be created in PDF (Portable Document Format) format. The invoice and the delivery note can be selected from a drop-down list. Clicking on :guilabel:`Create PDF` creates the .pdf file and offers the customer to open or save it, depending on the browser used. If the shop has been set up for multiple languages, you will be able to select the desired language for the invoice and the delivery note.
 
-Für das Erzeugen der Rechnung und des Lieferscheins ist die Datei :guilabel:`myorder.php` aus dem Verzeichnis :file:`/modules/invoicepdf` zuständig. Programmierkenntnisse vorausgesetzt, können Inhalt und Aufbau der Dokumente an eigene Erfordernisse angepasst werden.
+The invoice and the delivery note are generated using the :guilabel:`myorder.php` file from the :file:`/modules/invoicepdf` directory. If you have the necessary programming skills, you will be able to customise the content and structure of the documents in accordance with your individual requirements.
 
-.. hint:: Diese Funktion wurde nicht in die Enterprise Edition implementiert.
+.. hint:: This function hasn’t been implemented in Enterprise Edition.
 
-Darüber hinaus konnten in der Community und der Professional Edition Bestellungen mit der Zahlungsart \"Bankeinzug/Lastschrift\" für eine Verarbeitung bei Banken und Geldinstituten exportiert werden. Mit OXID eShop 4.9.0 wurde diese Möglichkeit zum Erstellen von Lastschrifteinzugssätzen für die elektronische Verarbeitung im Datenträgeraustauschverfahren (DTAUS) entfernt. Dieses Verfahren wird seit August 2014 von den Banken nicht mehr unterstützt.
+In addition, Community and Professional Editions allow you to export orders with the \"direct debit\" payment method for processing at banks and financial institutions. With OXID eShop 4.9.0, the option of creating direct debit records for electronic processing in the data carrier exchange system (DTAUS) has been removed. Since August 2014, this method is no longer supported by the banks.
 
-.. seealso:: :doc:`Registerkarte Stamm <../benutzer/registerkarte-stamm>` | `Hexadezimale Farbdefinition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Farben definieren in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_ | `Extensible Markup Language, XML (Wikipedia) <http://de.wikipedia.org/wiki/Extensible_Markup_Language>`_ | `Portable Document Format, PDF (Wikipedia) <http://de.wikipedia.org/wiki/PDF>`_
+.. seealso:: :doc:`Main tab <../benutzer/registerkarte-stamm>` | `Hexadecimal colour definition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Defining colours in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_ | `Extensible Markup Language, XML (Wikipedia) <http://de.wikipedia.org/wiki/Extensible_Markup_Language>`_ | `Portable Document Format, PDF (Wikipedia) <http://de.wikipedia.org/wiki/PDF>`_
 
 .. Intern: oxbaec, Status:, F1: order_overwiew.html

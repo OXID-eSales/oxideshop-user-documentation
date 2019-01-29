@@ -1,41 +1,41 @@
-Update-Installation
+﻿Installing updates
 ===================
 
-Dieses Dokument beschreibt Patch- und Minor-Updates ab Version 6.0.0 des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.* auf eine höhere Version 6.* aktualisiert.
+This document describes patches and minor updates starting with version 6.0.0 of OXID eShop. Follow the steps below to upgrade the compilation from an existing version 6.* to a newer version 6.* .
 
-Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, ausgeführt werden. Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank. Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert. Testen Sie nach dem Update den Shop erneut und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten.
+Updates should always be installed in a test environment, a copy of your current shop. Backup the shop files and the database before updating. Disable all modules and check whether the shop works in general. After updating, test the shop again by paying special attention to the ordering process as well as payment and shipping methods.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
 
-|schritt| Update-Ziel vorgeben
+|schritt| Specifying the version to be updated
 ------------------------------
-In die Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version eingetragen werden, auf welche aktualisiert werden soll. Öffnen Sie die Datei in einem Editor und tragen Sie die gewünschte Version für das Metapackage ein. Beispiel: ``"oxid-esales/oxideshop-metapackage-ce": "^v6.1.0",``
+Enter the version you want to update in the :file:`composer.json` file located in the shop’s main directory. To do this, open the file in any editor and enter the desired version for the metapackage. Example: ``"oxid-esales/oxideshop-metapackage-ce": "^v6.1.0",``
 
-|schritt| Abhängigkeiten aktualisieren
+|schritt| Updating dependencies
 --------------------------------------
-Öffnen Sie eine Shell im Hauptverzeichnis des Shops und führen Sie den nachstehenden Composer-Befehl aus. Dadurch werden alle benötigten Bibliotheken aktualisiert. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
+Open a shell in the shop's main directory and execute the following Composer command. This will update all required libraries. Specify the :command:`--no-dev` parameter if the development-related files are not required.
 
 .. code:: bash
 
    composer update --no-plugins --no-scripts --no-dev
 
-|schritt| Neue Compilation beziehen
+|schritt| Obtaining new compilation
 -----------------------------------
-Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue Compilation zu beziehen. Für Shopdateien, Themes und Module muss jeweils bestätigt werden, dass das Update bestehende Dateien überschreibt.
+The second Composer command executes all scripts to obtain the new compilation. For shop files, themes and modules, you will need to confirm that the update will overwrite the existing files.
 
 .. code:: bash
 
    composer update --no-dev
 
-|schritt| Datenbank migrieren
+|schritt| Migrating database
 -----------------------------
-Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, falls dies erforderlich ist.
+The third and final Composer command will migrate the database if necessary.
 
 .. code:: bash
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
 
-Damit ist das Update beendet.
+This completes the updating process.
 
 
 .. Intern: oxbahv, Status:

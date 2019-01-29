@@ -1,17 +1,17 @@
-﻿Master/Slave
+﻿Master/slave
 ============
 
-Der Shop kann mit mehreren Datenbanken betrieben werden. Dabei ist eine Datenbank die Master-Datenbank, die hauptsächlich Schreibzugriffe verarbeitet. Die Slave-Datenbanken enthalten gespiegelte Daten und bedienen die Lesezugriffe. Ein Load-Balancer verteilt die Datenbankzugriffe nach dieser grundsätzlichen Unterscheidung auf die Master-Datenbank und auf die Slave-Datenbanken.
+The shop can be operated with several databases. One database is the master database that mainly handles write accesses. Slave databases contain mirrored data and handle read accesses. Based on this fundamental distinction, database accesses are distributed to the master database and to the slave databases by a load balancer.
 
-Konfiguration
+Configuration
 -------------
-Master/Slave wird über einen Eintrag in der :file:`config.inc.php` aktiviert.
+Master/slave is enabled by making an entry in :file:`config.inc.php`.
 
 .. code:: php
 
    $this->aSlaveHosts = null;
 
-In diesem Eintrag werden alle Server-Adressen der Slave-Datenbanken als Array angegeben. Im Beispiel werden zwei Slave-Datenbanken verwendet.
+In this entry, all server addresses of the slave databases are specified as an array. The example uses two slave databases.
 
 .. code:: php
 

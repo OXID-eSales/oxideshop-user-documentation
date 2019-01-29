@@ -1,22 +1,22 @@
-﻿Registerkarte Mall
+﻿Mall tab
 ==================
-Die Registerkarte :guilabel:`Mall` ist bei Artikeln nur in der Enterprise Edition vorhanden.
+The :guilabel:`Mall` tab is only available for products in Enterprise Edition.
 
-Artikel können beim Erstellen von Shops an diese vererbt werden. Wird diese Option gewählt, enthält ein neuer Shop alle Artikel des Elternshops. Die vererbten Artikel können individualisierte Preise haben, wenn dies in den Malleinstellungen des neuen Shops festgelegt wurde. Zuordnungen, wie beispielsweise Kategorien, Auswahllisten, Attribute und Cross-Selling, können shopspezifisch vorgenommen werden. Auch die SEO-Einstellungen lassen sich anpassen. Die meisten Eigenschaften von Artikeln, wie Titel, Artikelnummer, Kurzbeschreibung usw. sind nicht änderbar.
+Products can be inherited when creating shops. If this option is selected, a new shop will contain all products of the parent shop. The inherited products can have customised prices if this is specified in the Mall settings of the new shop. Assignments such as categories, selection lists, attributes and cross-selling can be shop-specific. The SEO settings can also be customised. Most product characteristics such as title, product number, short description, etc. can’t be changed.
 
-Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Artikels zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Artikel aus allen Shops übernehmen und anzeigen.
+The :guilabel:`Mall` tab can be used to manage product assignments to subshops and supershops. This tab will be empty for multishops since they can load and display products from all stores without such an assignment.
 
 .. image:: ../../media/screenshots/oxbacl01.png
-   :alt: Artikel - Registerkarte Mall
+   :alt: Products - Mall tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Es ist möglich, die Vererbung aller Artikel für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.
+The inheritance of all products for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.
 
-:guilabel:`Verknüpft mit folg. Subshops` |br|
-Die Verknüpfung eines Artikels mit Subshops und Supershops kann hinzugefügt oder entfernt werden, indem das entsprechende Kontrollkästchen angehakt wird oder nicht. Bei nicht aktiviertem Kontrollkästchen ist der Artikel im Elternshop vorhanden, aber nicht im jeweiligen Subshop oder Supershop.
+:guilabel:`Assigned to following subshops` |br|
+Check or uncheck the appropriate box to assign/unassign a product to/from subshops and supershops. If the box is not checked, the product will be available in the parent shop but not in the respective subshop or supershop.
 
-Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
+Use the :guilabel:`Select All` and :guilabel:`Select None` link on the right side of the window to assign/unassign the products to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 
 .. Intern: oxbacl, Status:, F1: article_mall.html

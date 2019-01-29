@@ -1,36 +1,36 @@
-﻿Zuordnung von Artikeln zu Kategorien
+﻿Assigning products to categories
 ====================================
-Ein wichtiger Teil beim Aufbau des Warenkataloges ist die Zusammenfassung von Artikeln, um sie in verschiedenen Kategorien präsentieren zu können. Dafür müssen die Artikel den jeweiligen Kategorien zugeordnet werden. Es gibt es zwei Möglichkeiten der Zuordnung: ausgehend vom Artikel oder ausgehend von der Kategorie. Haben Sie einen Artikel neu erstellt oder bearbeiten Sie ihn gerade, ist es sinnvoll, diesem Artikel einer oder mehrere Kategorien zuzuordnen. Bearbeiten Sie hingegen eine Kategorie, ist der beste Weg, dieser Kategorie viele Artikel auf einmal zuzweisen.
+An important part of building up the product catalogue is combining the products in order to present them in different categories. To do this, you will need to assign the products to the respective categories. This could be done in two ways: based on the product or based on the category. If you have just created a new product or are currently editing it, it will make sense to assign one or more categories to it. On the other hand, if you are editing a category, the best way would be to assign several products to this category at once.
 
-Ein einzelner Artikel wird einer Kategorie zugeordnet.
+Assigning a single product to a category
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Kategorien zuordnen` auf der Registerkarte :guilabel:`Erweitert`.
-* Verschieben Sie die Kategorie(n) per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Legen Sie eine Hauptkategorie fest, wenn der Artikel in mehreren Kategorien vorkommt.
-* Markieren Sie dafür die vorgesehene Kategorie in der rechten Liste.
-* Betätigen Sie die Schaltfläche :guilabel:`Als Hauptkat. setzen`.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Administer Products --> Products`.
+* Select the desired product from the product list.
+* Click on :guilabel:`Assign Categories` in the :guilabel:`Extended` tab.
+* Drag and drop one or more categories into the right-hand list of the assignment window.
+* Specify the main category if the product appears in multiple categories.
+* To do this, highlight the required category in the right-hand list.
+* Click on :guilabel:`Set as Main Category`.
+* Close the assignment window.
 
-Einer Kategorie werden mehrere Artikel zugeordnet.
+Assigning several products to a category
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Kategorien`.
-* Wählen Sie die zu bearbeitende Kategorie aus der Kategorieliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Artikel zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Artikel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Administer Products --> Categories`.
+* Select the category you want to edit from the category list.
+* Click on :guilabel:`Assign Products` in the :guilabel:`Main` tab.
+* Drag and drop the products into the right-hand list of the assignment window.
+* Close the assignment window.
 
-.. hint:: Beim Erstellen eines neuen Artikels ist es möglich, direkt auf der Registerkarte :guilabel:`Stamm` eine einzelne Kategorie zuzuordnen. Wählen Sie diese Kategorie aus der Dropdown-Liste, die links unten im Eingabebereich angezeigt wird. Sobald der Artikel gespeichert wurde, steht diese Schnellzuordnung nicht mehr zur Verfügung. Die Liste wird nicht mehr angezeigt.
+.. hint:: When creating a new product, you can also assign a single category in the :guilabel:`Main` tab. To do this, select this category from the drop-down list that appears on the bottom left of the input area. Once the product has been saved, the quick assignment option will no longer be available and the list will no longer be displayed.
 
 .. image:: ../../media/screenshots/oxbafo01.png
-   :alt: Artikel zuordnen
+   :alt: Assigning products
    :class: with-shadow
    :height: 325
    :width: 400
 
-Die Zuordnungsfenster, die in vielen Bereichen des Administrationsbereiches verwendet werden, funktionieren immer ähnlich. Einträge können in der Liste gesucht, ausgewählt oder gefiltert werden. Sie lassen sich per Drag \& Drop von einer Liste in die andere verschieben. Dabei ist eine Mehrfachauswahl bei gedrückter Strg-Taste möglich. Das Schließen des Zuordnungsfensters beendet die Zuordnung. Es ist kein zusätzliches Speichern notwendig.
+The assignment windows that are used in many areas of the Admin panel always work in the same way. Entries in the list are searched, selected or filtered. Use drag and drop to move them into a different list. Hold down the Ctrl key to select multiple entries. Close the window to complete the assignment. You don’t need to save anything.
 
-.. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm>`
+.. seealso:: :doc:`Products - Extended tab <../artikel/registerkarte-erweitert>` | :doc:`Categories - Main tab <../kategorien/registerkarte-stamm>`
 
 .. Intern: oxbafo, Status:

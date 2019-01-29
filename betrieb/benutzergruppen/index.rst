@@ -1,8 +1,8 @@
-Benutzer
+﻿Users
 ========
 
 .. toctree::
    :maxdepth: 1
       
-   benutzergruppen
-   registerkarte-stamm
+   user groups
+   main-tab

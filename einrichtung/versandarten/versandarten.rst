@@ -1,54 +1,54 @@
-﻿Versandarten
+﻿Shipping methods
 ============
 
-Versand und Zahlung sind wichtige Funktionen in einem Online-Shop. Sie werden durch die Definition von Versandarten, Versandkostenregeln und Zahlungsarten bestimmt, die in einem wechselseitigen Zusammenhang zueinander stehen.
+Shipping and payment are important functions in an online shop. They are determined by the definition of shipping methods, shipping cost rules and payment methods that are interrelated.
 
-Im dritten Schritt des Bestellprozesses können Kunden auswählen, wie die bestellte Ware geliefert werden soll. Der OXID eShop zeigt die gültigen Versandarten an. Ist nur eine Versandart gültig, wird diese automatisch ausgewählt. Welche Versandarten angeboten werden, hängt davon ab, aus welchem Land der Kunde bestellt. Es spielt auch eine Rolle, welche Benutzer oder Benutzergruppen eine Versandart nutzen dürfen. Den Versandarten müssen letztlich mindestens eine Zahlungsart und eine Versandkostenregel zugeordnet worden sein.
+Customers can choose how the ordered products should be shipped in the third step of the ordering process. Valid shipping methods are displayed in OXID eShop. If only one shipping method is valid, it will be selected automatically. Which shipping methods are offered depends on which country the customer orders from and which users or user groups are allowed to use this shipping method. At least one payment method and one shipping cost rule must have been assigned to the shipping methods.
 
-Alle Einstellungen und Zuordnungen können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Versandarten` vorgenommen werden. Dort werden alle Versandarten mit ihrem Namen aufgelistet. Nach Versandarten kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Versandarten können durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernt werden.
+All required settings and assignments can be configured in the Admin panel under :menuselection:`Shop Settings --> Shipping Methods`. This section contains a list of all shipping methods and their names. You can search for shipping methods by entering their names in the search field. Shipping methods can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
-Unter der Liste befindet sich der Eingabebereich für die Versandart. Wird eine Versandart aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Versandart klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Versandart anlegen`.
+The input area for shipping methods is located right below the list. When you select a shipping method from the list, its information will be displayed in the input area. To create a new shipping method, click on :guilabel:`Create new Shipping Method` at the bottom of the screen.
 
 .. image:: ../../media/screenshots/oxbadd01.png
-   :alt: Versandarten
+   :alt: Shipping methods
    :class: with-shadow
    :height: 528
    :width: 650
 
-Der OXID eShop wird mit den vorbereiteten Versandarten \"Standard\", \"Beispiel Set1: UPS 48 Std.\" und \"Beispiel Set1: UPS 24 Std. Express\" ausgeliefert. Diese können verwendet werden, nachdem sie individuell angepasst wurden, oder als Vorlage für neu zu definierende Versandarten dienen.
+OXID eShop comes with the following shipping methods: \"Standard\", \"Example Set1: UPS 48 hours\" and \"Example Set2: UPS Express 24 hours\". These can be used after being customised, or as a template for newly defined shipping methods.
 
-.. hint:: Bei der Einrichtung der Versandart muss darauf geachtet werden, dass mindestens eine Versandkostenregel und mindestens eine Zahlungsart zugeordnet wurde. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung kann die Logik von Zahlung und Versand im Bestellprozess schon einmal abhandenkommen. Wurde kein Land zugewiesen, gilt die Versandart für alle Länder.
+.. hint:: When setting up the shipping method, make sure that you have assigned at least one shipping cost rule and at least one payment method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. Without the country assignment, the logic of payment and shipping in the ordering process may be lost. If no country has been assigned, the shipping method will apply to all countries.
 
-Benutzer und Benutzergruppen können, müssen aber nicht zugeordnet sein. Fehlt letztere Zuordnung, gilt die Versandart für alle Benutzer. Nur, wenn alle Bedingungen erfüllt sind, ist eine Versandart im Bestellprozess gültig und wird angezeigt. Achten Sie auch darauf, dass die Versandart aktiv ist.
+The assignment of users and user groups is optional. If no user or user group has been assigned, the shipping method will apply to all users. A shipping method will be valid and displayed in the ordering process only once all conditions have been met. Make sure that the shipping method is active.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktive Versandart, aktiver Zeitraum, Sortierung, Versandkostenregeln und Länder zuordnen |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active shipping method, active time period, sorting, assigning shipping cost rules and countries |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Zahlungsarten
+Payment tab
 ---------------------------
-**Inhalte**: Zahlungsarten zuordnen |br|
-:doc:`Artikel lesen <registerkarte-zahlungsarten>` |link|
+**Contents**: assigning payment methods |br|
+:doc:`Read article <registerkarte-zahlungsarten>` |link|
 
-Registerkarte Benutzer
+Users tab
 ----------------------
-**Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-:doc:`Artikel lesen <registerkarte-benutzer>` |link|
+**Contents**: assigning users and user groups |br|
+:doc:`Read article <registerkarte-benutzer>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Versandarten vererben, Versandarten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: inheriting payment methods, assigning payment methods, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
-Registerkarte RDFa
+RDFa tab
 ------------------
-**Inhalte**: RDFa, Resource Description Framework, GoodReleations, Vokabular für E-Commerce, allgemeine Versandarten und Paketdienste, Rich Snippets |br|
-:doc:`Artikel lesen <registerkarte-rdfa>` |link|
+**Contents**: RDFa, Resource Description Framework, GoodRelations, e-commerce vocabulary, general shipping methods and parcel services, rich snippets |br|
+:doc:`Read article <registerkarte-rdfa>` |link|
 
-.. seealso:: :doc:`Zahlungsarten <../zahlungsarten/zahlungsarten>` | :doc:`Versandkostenregeln <../versandkostenregeln/versandkostenregeln>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
+.. seealso:: :doc:`Shipping methods <../zahlungsarten/zahlungsarten>` | :doc:`Shipping cost rules <../versandkostenregeln/versandkostenregeln>` | :doc:`Payment and shipping <../zahlung-und-versand/zahlung-und-versand>`
 
 .. Intern: oxbadd, Status:

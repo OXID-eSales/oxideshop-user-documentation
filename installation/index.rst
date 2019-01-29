@@ -1,9 +1,9 @@
-Installation
+﻿Installation
 ============
 
 
 .. toctree::
    :maxdepth: 1
    
-   Neu-Installation <neu-installation/index>
-   Update-Installation <update-installation/index>
+   Reinstallation <neu-installation/index>
+   Installing updates <update-installation/index>

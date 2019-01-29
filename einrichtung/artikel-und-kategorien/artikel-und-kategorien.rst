@@ -1,48 +1,48 @@
-﻿Artikel und Kategorien
+﻿Products and categories
 ======================
-In \"Artikel und Kategorien\" werden einzelne Themen vertieft, die Sie bereits in den Abschnitten :doc:`Artikel <../artikel/artikel>` und :doc:`Kategorien <../kategorien/kategorien>` kennengelernt haben. Während dort hauptsächlich die Einstellungen und Eingabemöglichkeiten auf den Registerkarten besprochen werden, die der Erstellung des Warenkataloges dienen, werden in diesem Abschnitt einige Aspekte aufgegriffen und als kurze Anleitungen bereitgestellt.
+The \"Products and categories\" section provides more detailed information on certain topics already explained in sections :doc:`Products <../artikel/artikel>` and :doc:`Categories <../kategorien/kategorien>`. While they mainly discuss the settings and input options in the tabs used to create the product catalogue, this section will cover some aspects and provide brief instructions.
 
 -----------------------------------------------------------------------------------------
 
-Besondere Artikelpreise
+Special product prices
 -----------------------
-Alternative Preise für Benutzergruppen
+Alternative prices for user groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Preis, alternativer Preis, Artikel, Benutzer, Benutzergruppe, Preis A, Preis B, Preis C |br|
-:doc:`Artikel lesen <alternative-preise-fuer-benutzergruppen>` |link|
+**Contents**: price, alternative price, products, users, user groups, price A, price B, price C |br|
+:doc:`Read article <alternative-preise-fuer-benutzergruppen>` |link|
 
-Preis pro Mengeneinheit (Grundpreis)
+Price per unit (base price)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Preis, Grundpreisangabe, Detailseite des Artikels, Preis je Mengeneinheit, Gewicht, Volumen, Länge, Fläche, kg, g, l, ml, cm, mm, m, m², m³, Stück und Teil, Preisangabeverordnung |br|
-:doc:`Artikel lesen <preis-pro-mengeneinheit-grundpreis>` |link|
+**Contents**: price, basic price information, product’s details page, price per unit, weight, volume, length, area, kg, g, l, ml, cm, mm, m, m², m³, piece and item, German Price Indication Ordinance |br|
+:doc:`Read article <preis-pro-mengeneinheit-grundpreis>` |link|
 
-Staffelpreise
+Scale prices
 ^^^^^^^^^^^^^
-**Inhalte**: Preis, Staffelpreis, absolut, prozentual, Mengenrabatt, Detailseite des Artikels, Warenkorb |br|
-:doc:`Artikel lesen <staffelpreise>` |link|
+**Contents**: price, scale price, absolute, percentage, quantity discount, product’s details page, shopping cart |br|
+:doc:`Read article <staffelpreise>` |link|
 
 ----------------------------------------------------------------------------------------- 
  
-Warenkatalog - Zuordnung, Sortierung und Filter
+Product catalogue - assignment, sorting and filtering
 -----------------------------------------------
-Zuordnung von Artikeln zu Kategorien
+Assigning products to categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Warenkatalog, Zuordnung von Artikeln zu Kategorien, Kategorien zuordnen, Artikel zuordnen, Schnellzuordnung einer Kategorie, Zuordnungsfenster |br|
-:doc:`Artikel lesen <zuordnung-von-artikeln-zu-kategorien>` |link|
+**Contents**: product catalogue, assigning products to categories, assigning categories, assigning products, quick assignment of a category, assignment window |br|
+:doc:`Read article <zuordnung-von-artikeln-zu-kategorien>` |link|
 
-Hauptkategorie eines Artikels
+Main category of a product
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Warenkatalog, Kategorien, Hauptkategorie festlegen, Duplicated Content, Canonical Tag, Canonical Link, rel=\"canonical\" |br|
-:doc:`Artikel lesen <hauptkategorie-eines-artikels>` |link|
+**Contents**: product catalogue, categories, setting main category, duplicated content, canonical tag, canonical link, rel=\"canonical\" |br|
+:doc:`Read article <hauptkategorie-eines-artikels>` |link|
 
-Sortierung von Artikeln
+Sorting products
 ^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Warenkatalog, Artikel einer Kategorie sortieren, Schnellsortierung, Sortierung nach Artikelmerkmal, manuelle Sortierung, Felder für Sortierung, aufsteigend, asc, absteigend, desc, Benutzer können Artikellisten sortieren |br|
-:doc:`Artikel lesen <sortierung-von-artikeln>` |link|
+**Contents**: product catalogue, sorting products of a category, fast sorting, sorting according to product characteristic, manual sorting, fields for sorting, ascending, asc, descending, desc, users can sort product lists |br|
+:doc:`Read article <sortierung-von-artikeln>` |link|
 
-Filtern von Artikeln
+Filtering products
 ^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Warenkatalog, Kategorien, Artikel filtern, Attributfilter, Attribute, Kategorien zuordnen, Artikel, Attribute zuordnen |br|
-:doc:`Artikel lesen <filtern-von-artikeln>` |link|
+**Contents**: product catalogue, categories, filtering products, attribute filter, attributes, assigning categories, products, assigning attributes |br|
+:doc:`Read article <filtern-von-artikeln>` |link|
 
 .. Intern: oxbafn, Status:

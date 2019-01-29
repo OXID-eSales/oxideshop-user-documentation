@@ -1,34 +1,34 @@
-﻿Registerkarte RDFa
+﻿RDFa tab
 ==================
 
-Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale und andere Systeme bereit. Diese können beispielsweise als so genannte Rich Snippets - ausführliche Informationen zu einem Suchergebnis - dargestellt werden. Die Aufbereitung der Daten erfolgt auf Basis des Resource Description Framework (RDFa) und der für den E-Commerce optimierten Beschreibungssprache GoodReleations.
+OXID eShop provides well-prepared information for search engines, portals and other systems. It can be displayed as so-called rich snippets - detailed information on a search result. The data is prepared based on the Resource Description Framework (RDFa) and the GoodRelations description language optimised for e-commerce.
 
-Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Versandart mit den in GoodReleations vordefinierten Werten für den Versand hergestellt.
+The :guilabel:`RDFa` tab establishes a logical link between the shipping method and the shipping values predefined in GoodRelations.
 
 .. image:: ../../media/screenshots/oxbadi01.png
-   :alt: Versandarten - Registerkarte RDFa
+   :alt: Shipping methods - RDFa tab
    :class: with-shadow
    :height: 341
    :width: 650
 
-.. hint:: Damit der Shop die RDFa-Integration verwenden kann, muss die Funktion unter :menuselection:`Stammdaten --> Grundeinstellungen --> RDFa` aktiviert werden.
+.. hint:: Activate the function under :menuselection:`Master Settings --> Core Settings --> RDFa` to allow the shop to use RDFa integration.
 
-:guilabel:`Versandarten zuordnen` |br|
-:guilabel:`Hinweis: Bitte wählen Sie nur die in GoodRelations vordefinierten Versandarten aus, die Ihrer Versandart entsprechen.`
+:guilabel:`Assigning shipping methods` |br|
+:guilabel:`Hint: Please choose only those shipping methods, predefined in GoodRelations, that comply with your shipping method.`
 
-Setzen Sie ein Häkchen bei allen Angaben, welche die Versandart exakt beschreiben.
+Check the box next to all items that exactly describe the shipping method.
 
-:guilabel:`Allgemeine Versandarten` |br|
+:guilabel:`General delivery methods` |br|
 :guilabel:`Download` |br|
-:guilabel:`Fracht` |br|
-:guilabel:`Briefpost` |br|
-:guilabel:`Eigener Fuhrpark` |br|
-:guilabel:`Selbstabholung`
+:guilabel:`Freight` |br|
+:guilabel:`Snail Mail` |br|
+:guilabel:`Own fleet` |br|
+:guilabel:`Pick up`
 
-:guilabel:`Paketdienst` |br|
+:guilabel:`Parcel Services` |br|
 :guilabel:`DHL` |br|
 :guilabel:`FedEx` |br|
 :guilabel:`UPS`
 
 .. Intern: oxbadi, Status:, F1: deliveryset_rdfa.html
-.. ToDo Hinweiszeile ist fehlerhaft: %s
+.. ToDo hint line is incorrect: %s

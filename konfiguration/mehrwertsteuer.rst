@@ -1,17 +1,17 @@
-﻿Mehrwertsteuer
+﻿Value-added tax
 ==============
 
-Grundlegende Einstellungen zur Mehrwertsteuer können im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Mehrwertsteuer` vorgenommen werden. Die Standardeinstellungen nach der Installation sind für die meisten Shops geeignet, so dass hier in der Regel keine Änderungen notwendig sind. Alle aufgelisteten Optionen sind nicht aktiv und für die Mehrwehrtsteuer gilt 19 Prozent als Standard.
+Basic VAT settings can be found in the Admin panel under :menuselection:`Master Settings --> Core Settings --> Settings --> VAT`. Usually, the default settings after installation are suitable for most shops so that no changes are necessary. All listed options are unchecked and the VAT rate is set to 19 percent by default.
 
-:guilabel:`Standard-MwSt.-Satz für alle Artikel` |br|
-Die Zahl 19 im Eingabefeld steht dafür, dass für alle Artikel in Ihrem Shop standardmäßig eine Mehrwertsteuer von 19 Prozent gilt. Sie können für einzelne Artikel einen davon abweichenden Mehrwertsteuersatz definieren, beispielsweise 7 Prozent für Lebensmittel.
+:guilabel:`Default VAT for all Products` |br|
+The number 19 in the input field indicates that all products in your shop are taxed at 19 percent by default. You can define a different VAT rate for individual products, for example, 7 percent for food.
 
-:guilabel:`Artikelpreise netto eingeben (zuzüglich MwSt.)` |br|
-Es besteht die Möglichkeit, bei allen Artikeln den Artikelpreis als Nettopreis einzugeben. Für jeden Artikel im Shop muss dann die Mehrwertsteuer berechnet werden, bevor der Artikel mit seinem Bruttopreis angezeigt werden kann. Es gibt eine Einstellung, die dafür sorgt, dass die Mehrwertsteuer ausschließlich im Warenkorb und Bestellprozess angezeigt wird. Der Shop würde also Artikel mit Nettopreisen anzeigen und erst, wenn ein Artikel in den Warenkorb gelegt wird, würde die Mehrwertsteuer berechnet und angezeigt. Die Einstellung :guilabel:`MwSt. nur im Warenkorb und Bestellprozess berechnen` findet sich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Perform.`
+:guilabel:`Enter Product Prices as Net Prices (plus VAT)` |br|
+The product price can be entered as a net price for all products. In this case, VAT for each product in the shop must be calculated before the product’s gross price can be displayed. There is an option ensuring that VAT is displayed only in the shopping cart and during the ordering process. This way, the shop would indicate a product’s net price, and VAT would be calculated and displayed only when a product is added to the cart. The setting :guilabel:`Calculate specific VAT only in Shopping Cart and Checkout` can be found under :menuselection:`Master Settings --> Core Settings --> Perform.`
 
-Ebenso wie Artikelpreise lassen sich die Versandkosten, die Gebühren für die Zahlungsarten und die Kosten für Geschenkverpackungen als Nettopreise eingeben. Mit weiteren Einstellungen können Sie festlegen, wie detailliert Versandkosten, Gebühren für die Zahlungsarten und Kosten für Geschenkverpackungen im Warenkorb angezeigt werden sollen. Standard ist die Anzeige als Bruttobetrag. Es ist aber auch jeweils die Anzeige von Nettobetrag plus Mehrwertsteuer möglich.
+Similar to product prices, shipping costs, payment method fees and gift wrapping costs can be entered as net prices. Other settings allow you to specify how detailed shipping costs, payment method fees and gift wrapping costs should be displayed in the shopping cart. By default, the gross amount will be displayed. However, it is also possible to display the net amount plus VAT.
 
-:guilabel:`Die Lieferadresse anstatt der Rechnungsadresse für die Mehrwertsteuerberechnung verwenden` |br|
-Die Standardeinstellung nach der Installation ist, dass die Mehrwertsteuer auf Basis der Rechnungsadresse berechnet wird. Die Adresse des Rechnungsempfängers entscheidet darüber, ob Mehrwertsteuer berechnet wird oder nicht. Als Alternative kann für die Berechnung der Mehrwertsteuer die Lieferadresse als Basis dienen.
+:guilabel:`Use shipping country for VAT calculation instead of billing country` |br|
+After the installation, VAT will be calculated based on the billing address by default. Whether VAT is charged or not is determined based on the address of the invoice recipient. As an alternative, the shipping address can serve as the basis for calculating VAT.
 
 .. Intern: oxbaay, Status:

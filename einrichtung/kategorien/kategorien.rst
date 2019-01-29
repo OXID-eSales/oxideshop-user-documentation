@@ -1,61 +1,61 @@
-﻿Kategorien
+﻿Categories
 ==========
 
-Kategorien dienen dazu, Kunden des Onlineshops intuitiv zum gewünschten Artikel zu führen. Kategorien fassen Artikel zu Produktgruppen zusammen, präsentieren Artikel einer bestimmten Rubrik oder offerieren Sonderangebote. Kategorien stellen durch ihre Struktur auch das Navigationsmenü im Shop dar.
+Categories serve to intuitively lead online shop customers to the desired product. Categories combine products into product groups, present products from a particular section or contain special offers. Due to their structure, categories also represent the navigation menu in the shop.
 
 .. image:: ../../media/screenshots/oxbabj01.png
-   :alt: Kategorien
+   :alt: Categories
    :class: with-shadow
    :height: 529
    :width: 650
 
-Der Abschnitt \"Kategorien\" informiert Sie über das Erstellen und Verwalten von Kategorien. Um Kategorien zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Artikel verwalten --> Kategorien`. Es werden die Kategorieliste und darunter der Eingabebereich für die Kategorie angezeigt.
+The \"Categories\" section tells you how to create and manage categories. Go to :menuselection:`Administer Products --> Categories` in the Admin panel to edit categories. Here, you will see the list of categories and the input area right below it.
 
-In der Kategorieliste symbolisiert ein kleines grünes Quadrat am Anfang der Zeile eine aktive Kategorie. Wurde eine Kategorie nicht aktiviert, fehlt dieses Symbol. Desweiteren wird die Sortierung und der Kategorietitel angezeigt. Nach Kategorien kann gesucht werden, indem Suchfelder für Sortierung und Kategorietitel sowie ein Filter für die Kategorien verwendet werden. Kategorien lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile aus der Datenbank entfernen. Kategorien mit Unterkategorien können nicht gelöscht werden.
+A small green icon at the beginning of the line in the categories list symbolises an active category. It is not displayed for inactive categories. You will also see the headings for sorting and the category title. You can search for categories by using search fields for sorting and the category title as well as the categories filter. Categories can be removed from the database by clicking on the trash icon at the end of the line. Categories with subcategories can’t be deleted.
 
-Wird eine Kategorie aus der Kategorieliste gewählt, werden deren Informationen in den Eingabebereich geladen. Wollen Sie eine neue Kategorie erstellen, klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Kategorie anlegen`.
+When you select a category from the categories list, its information will be displayed in the input area. To create a new category, click on :guilabel:`Create new Category` at the bottom of the screen.
 
-In der Fußzeile finden Sie\die Funktionen: :guilabel:`Neue Kategorie anlegen`, :guilabel:`Kategoriebaum neu indizieren`, :guilabel:`Artikelanzahl in den Kategorien zurücksetzen` und :guilabel:`Hilfe starten`.
+The footer contains the following links: :guilabel:`Create new Category`, :guilabel:`Re-Index Category Tree`, :guilabel:`Reset Number of Products in Categories` and :guilabel:`Start Help`.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktive Kategorie, Titel, Kurzbeschreibung, Haupt- und Unterkategorien, Kategoriestruktur, Kategoriebilder, externer Link, alternatives Template, Schnellsortierung der Artikel, spezielle Mehrwertsteuer, negative Nachlässe |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active category, title, short description, main and subcategories, category structure, category images, external link, alternative template, fast sorting of products, special VAT, negative discounts |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Langtext
+Text tab
 ----------------------
-**Inhalte**: Beschreibung der Kategorie, Editor, WYSIWYG, HTML-Tags, SelfHTML, OXID eXchange |br|
-:doc:`Artikel lesen <registerkarte-langtext>` |link|
+**Contents**: category description, editor, WYSIWYG, HTML tags, SelfHTML, OXID eXchange |br|
+:doc:`Read article <registerkarte-langtext>` |link|
 
-Registerkarte Bilder
+Picture tab
 --------------------
-**Inhalte**: Kategoriebilder, Bild, Thumbnail, Icon, Vorschau |br|
-:doc:`Artikel lesen <registerkarte-bilder>` |link|
+**Contents**: category images, picture, thumbnail, icon, preview |br|
+:doc:`Read article <registerkarte-bilder>` |link|
 
-Registerkarte Sortierung
+Sorting tab
 ------------------------
-**Inhalte**: Artikel sortieren, manuelle Sortierung, Reihenfolge der Artikel in Kategorie, neue Sortierung |br|
-:doc:`Artikel lesen <registerkarte-sortierung>` |link|
+**Contents**: sorting products, manual sorting, order of products in a category, new sorting |br|
+:doc:`Read article <registerkarte-sortierung>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Kategorien verknüpfen, Elternshop, Subshop, Supershop, Multishop, Kategorien aller Shops, Mall |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: assigning categories, parent shop, subshop, supershop, multishop, categories of all shops, Mall |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
-Registerkarte Rechte
+Rights tab
 --------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Kategorie sichtbar, Artikel der Kategorie kaufbar, Benutzergruppen zuordnen, ausschließliches Recht, Rechte und Rollen, Berechtigung für Shop (Frontend) |br|
-:doc:`Artikel lesen <registerkarte-rechte>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: visible categories, buyable products of the category, assigning user groups, exclusive rights, rights and roles, shop permissions (front end) |br|
+:doc:`Read article <registerkarte-rechte>` |link|
 
-Registerkarte SEO
+SEO tab
 -----------------
-**Inhalte**: Suchmaschinenoptimierung, SEO, URL fixieren, SEO URL, Seitentitel, Titel Suffix, Metadaten, Meta-Tags, meta name=\"description\", meta name=\"keywords\" |br| 
-:doc:`Artikel lesen <registerkarte-seo>` |link|
+**Contents**: search engine optimisation, SEO, fixing URL, SEO URL, page title, title suffix, meta data, meta tags, meta name=\"description\", meta name=\"keywords\" |br| 
+:doc:`Read article <registerkarte-seo>` |link|
 
-.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>`
+.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Products and categories <../artikel-und-kategorien/artikel-und-kategorien>`
 
 .. Intern: oxbabj, Status:

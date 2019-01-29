@@ -1,21 +1,21 @@
-Konfiguration
+﻿Configuration
 =============
 
 
 .. toctree::
    :maxdepth: 1
    
-   konfiguration
-   firmendaten
-   e-mails
-   kundeninformationen
-   seo-einstellungen
-   mehrwertsteuer
-   laender
-   bestellprozess
-   lagerverwaltung
-   bilder
-   Mall-Funktion <mall-funktion/index>
-   rechte-und-rollen
+   configuration
+   company information
+   emails
+   customer information
+   seo settings
+   value-added tax
+   countries
+   ordering process
+   stock management
+   images
+   Mall-function <mall-funktion/index>
+   rights-and-roles
    Caching <caching/index>
    master-slave

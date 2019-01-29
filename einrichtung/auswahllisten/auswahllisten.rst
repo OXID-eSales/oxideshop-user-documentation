@@ -1,42 +1,42 @@
-﻿Auswahllisten
+﻿Selection lists
 =============
-Mit Auswahllisten lassen sich typische Ausführungen eines Artikels, wie beispielsweise eine Auswahl von Farben, Größen oder Materialien, definieren.
+Selection lists allow you to define typical product versions, such as a selection of colours, sizes or materials.
 
-Auswahllisten können direkt Artikeln zugewiesen werden. Diese erhalten dadurch auf der Detailseite eine Dropdown-Liste, aus der ein Kunde die gewünschte Ausführung auswählen kann. Die Auswahl wird beim Kauf des Artikels berücksichtigt, bei der Bestellung gespeichert und in der Mail an den Kunden und den Shopbetreiber geschickt. Auswahllisten können aber auch dazu verwendet werden, um echte Varianten zu erstellen. Dabei dienen sie als Vorlage, auf deren Basis alle daraus resultierenden Varianten eines Artikels angelegt werden.
+Selection lists can be assigned to products directly. The product’s details page will have a drop-down list where customers can select the desired version. The selected version will be taken into account when buying the product, saved when placing an order and emailed to the customer and the shop owner. Selection lists can also be used to create real variants. They serve as a template that can be used for creating all resulting product’s variants.
 
-Auswahllisten sind nur auf der Detailseite von Artikeln sichtbar, wenn das Kontrollkästchen :guilabel:`Auswahllisten laden` unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Perform.` aktiviert wurde. Damit ein Preisauf- oder abschlag beim Kauf eines Artikels berücksichtigt und im Warenkorb berechnet wird, muss zusätzlich ein Häkchen in das Kontrollkästchen :guilabel:`Preisänderungen durch Auswahllisten unterstützen` gesetzt werden. Wenn Sie möchten, dass die Auswahlliste nicht nur in der Detailansicht des Artikels angezeigt wird, aktivieren Sie :guilabel:`Auswahllisten in Artikellisten anzeigen`. Diese Einstellung bewirkt, dass die Dropdown-Liste beim Artikel auch in der Kategorieansicht oder in einem Suchergebnis zu sehen ist.
+Selection lists will only be visible on the product’s details page if the :guilabel:`Load Selection Lists` box under :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Perform.` tab has been checked. If you want a surcharge or discount to be taken into account when buying a product and calculated in the shopping cart, you will also need to check the :guilabel:`Support Price Modifications by Selection Lists` box. Check the :guilabel:`Load Selection Lists in Product Lists` box if you want to have the selection list displayed not only in the product’s detailed view. This setting allows you to display the product drop-down list in the category view or in search results.
 
 .. image:: ../../media/screenshots/oxbafi01.png
-   :alt: Auswahllisten
+   :alt: Selection lists
    :class: with-shadow
    :height: 529
    :width: 650
 
-Mit Auswahllisten allein lassen sich lediglich unterschiedliche Preise abbilden. Ein Preisaufschlag oder Preisabschlag, absolut oder prozentual ist das, wodurch sich die einzelnen Ausführungen unterscheiden können. Wenn Sie mehr Flexibilität benötigen, sollten Sie Varianten verwenden. Bei Varianten kann alles variieren, was einen Artikel ausmacht. Varianten eines Artikels können natürlich andere Preise haben, aber beispielsweise auch separate Artikelnummern, abweichende Beschreibungen, eigene Artikelfotos, unterschiedliche Lagerbestände etc.
+Selection lists alone can only be used to represent different prices. A surcharge or discount (absolute or percentage) is what makes the individual versions different. If you need more flexibility, you should use variants. Variants allow you to modify everything that constitutes a product. Product variants can not only have different prices but also separate product numbers, different descriptions, their own product photos, different stocks, etc.
 
-.. hint:: Verwenden Sie unbedingt Varianten, wenn sie planen, Ihren OXID eShop später mit einer ERP-Software (Enterprise Resource Planning) bzw. einer WaWi (Warenwirtschaftssystem) zu verbinden. Dafür werden immer eigenständige Varianten benötigt.
+.. hint:: Make sure to use variants if you plan to connect your OXID eShop with an ERP (Enterprise Resource Planning) software or a merchandise management system later. Independent variants are always required for this purpose.
 
-Auswahllisten können im Administrationsbereich unter :menuselection:`Artikel verwalten --> Auswahllisten` bearbeitet werden. Es gibt eine Liste der Auswahllisten und darunter den Eingabebereich für die Auswahllisten.
+Selection lists can be edited in the Admin panel under :menuselection:`Administer Products --> Selection Lists`. You will see a list of selection lists and the respective input area below.
 
-Alle erstellten Auswahllisten werden in alphabetischer Reihenfolge angezeigt. Nach Auswahllisten kann gesucht werden, indem das Suchfeld für deren Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"a\" ein, würden Ihnen die Auswahllisten \"Farbe\" und \"Material\" angezeigt.
+All created selection lists are displayed in alphabetical order. You can search for selection lists by using the search field and the magnifying glass icon. For example, if you type \"r\" in the search box, you will see the \"Colour\" and \"Material\" selection lists displayed in the list.
 
-Auswahllisten lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
+Selection lists can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
-Wird eine Auswahlliste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Auswahlliste klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Auswahlliste anlegen`.
+When you select a selection list, its information will be displayed in the input area. To create a new selection list, click on :guilabel:`Create new Selection List` at the bottom of the screen.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: Auswahlliste eines Artikels, Feld, Ausführung eines Artikels, Preisänderungen durch Auswahllisten unterstützen, Sortierung der Auswahllisten, Artikel zuordnen |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: product’s selection list, field, product version, support price changes through selection lists, sorting selection lists, assigning products |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Auswahllisten vererben, Auswahllisten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: inheriting selection lists, assigning selection lists, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
-.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel - Registerkarten Auswahl <../artikel/registerkarte-auswahl>` | :doc:`Artikel - Registerkarte Varianten <../artikel/registerkarte-varianten>`
+.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Products - Selection tab <../artikel/registerkarte-auswahl>` | :doc:`Products - Variants tab <../artikel/registerkarte-varianten>`
 
 .. Intern: oxbafi, Status:

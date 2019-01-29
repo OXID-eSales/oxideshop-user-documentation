@@ -1,57 +1,57 @@
-﻿Registerkarte Artikel
+﻿Products tab
 =====================
 
-Alle zu einer Bestellung gehörenden Artikel werden im Detail auf der Registerkarte :guilabel:`Artikel` aufgelistet.
+All products belonging to an order are listed in detail in the :guilabel:`Products` tab.
 
-Die Menge der bestellten Artikel lässt sich im Nachhinein ändern und aktualisieren. Dabei wird der Gesamtpreis eines Artikels neu berechnet, aber auch die Versandkosten oder der gewährte Rabatt können sich dadurch ändern.
+The quantity of the ordered products can be changed and updated at a later point. As a result, the product’s total price will be recalculated, and the shipping costs or the discount granted will also be updated.
 
-Artikel einer Bestellung lassen sich stornieren oder gar komplett löschen. Dazu dienen die beiden Symbole am Ende einer jeden Zeile. Mit dem Symbol ganz rechts entfernen Sie die jeweiligen Artikel aus der Bestellung. Nach dem Bestätigen einer Sicherheitsabfrage wird die Zeile ausgegraut und die Gesamtsumme der Bestellung neu berechnet. Durch ein erneutes Klicken auf das Symbol kann die Stornierung rückgängig gemacht werden. Haben Sie Artikel mit Klick auf das Kreuzsymbol aus der Bestellung gelöscht, ist das unwiderruflich.
+Products included with an order can be cancelled or deleted completely by using the two icons at the end of each line. Clicking on the icon on the far right removes the respective products from the order. After you confirm your decision in a confirmation prompt, the line will be greyed out and the order total will be recalculated. Click on the icon one more time to undo the cancellation. The cancellation will be irrevocable if you have deleted the products from the order by clicking on the cross icon.
 
-Eine Funktion erlaubt Ihnen allerdings auch, neue Artikel in die Bestellung aufzunehmen. Unter Angabe der Artikelnummer kann nach einem bestimmten Artikel gesucht werden. Legen Sie die Menge für den gefundenen Artikel fest und betätigen Sie die Schaltfläche :guilabel:`Artikel hinzufügen`. Der Artikel wird in der eingetragenen Menge zu einer neuen Bestellposition.
+There is also a function that allows you to include new products in the order. Enter the product number to search for a specific product. Enter the quantity for the product found and click on :guilabel:`Add Product`. The product will be added to the order in the quantity entered.
 
 .. image:: ../../media/screenshots/oxbaef01.png
-   :alt: Bestellungen - Registerkarte Artikel
+   :alt: Orders - Products tab
    :class: with-shadow
    :height: 335
    :width: 650
 
-Eine Tabelle enthält alle zu einer Bestellung gehörenden Artikel.
+All products belonging to the order will be displayed in a table.
 
-:guilabel:`Anzahl` |br|
-Anzahl des bestellten Artikels. Im Eingabefeld kann dieser Wert geändert werden. Mit der Schaltfläche :guilabel:`Aktualisieren` werden der Preis des Artikels und der Gesamtpreis der Bestellung neu berechnet.
+:guilabel:`Quantity` |br|
+Quantity of the products ordered. This value can be changed in the input field. Click on :guilabel:`Update` to recalculate the price of the product and the total price of the order.
 
-:guilabel:`Art.-Nr.` |br|
-Eindeutige Artikelnummer des Artikels.
+:guilabel:`Prod.No.` |br|
+Unique product number.
 
-:guilabel:`Titel.` |br|
-Der auf ca. zwanzig Zeichen gekürzte Artikeltitel wird angezeigt.
+:guilabel:`Title` |br|
+Displays the product title shortened to approx. twenty characters.
 
-:guilabel:`Typ` |br|
-Auswahl einer Variante. Ist der bestellte Artikel eine Variante, wird hier deren Auswahl ausgegeben. Beispiel für Größe und Farbe einer Jeans: W 32/L 34 | Blau.
+:guilabel:`Type` |br|
+The selected variant. If the ordered product is a variant, the selected variant will be displayed here. An example of size and colour for a pair of jeans: W 32/L 34 | Blue.
 
 :guilabel:`Parameter` |br|
-Beschriftung des Artikels. Bei einem individualisierbaren Artikel kann während der Bestellung eine Beschriftung in ein dafür eingeblendetes Textfeld eingegeben werden.
+Product’s label. A label can be entered in a text box displayed during the order for customisable products.
 
-:guilabel:`Kurzbeschreibung` |br|
-Kurzbeschreibung des Artikels.
+:guilabel:`Short Description` |br|
+Product’s short description.
 
-:guilabel:`eBrutto` |br|
-Einzelpreis des Artikels.
+:guilabel:`Gross` |br|
+Product’s unit price.
 
-:guilabel:`Gesamt` |br|
-Gesamtpreis des Artikels.
+:guilabel:`Total` |br|
+Product’s total price.
 
-:guilabel:`MwSt.` |br|
-Im Preis enthaltene Mehrwertsteuer in Prozent.
+:guilabel:`VAT` |br|
+Value-added tax included in the price as a percentage.
 
-Am Ende jeder Tabellenzeile befinden sich kleine Schaltflächen zum Löschen und Stornieren von Artikeln. Unter der Tabelle dient die Schaltfläche :guilabel:`Aktualisieren` der Neuberechnung der Preise und der Bestellsumme nach einer Änderung.
+Small buttons for deleting and cancelling products are located at the end of each table line. The :guilabel:`Update` button under the table is used to recalculate the prices and the order amount after any changes.
 
-:guilabel:`Gesamt` |br|
-Unter :guilabel:`Gesamt` findet sich der Gesamtpreis der Bestellung mit seinen einzelnen Positionen. Der Artikelpreis wird brutto und netto angezeigt, ein gewährter Rabatt und die Mehrwertsteuer werden ausgewiesen. Hinzu kommen die Versandkosten und eine mögliche Gebühr für die Zahlungsart.
+:guilabel:`Total` |br|
+:guilabel:`Total` displays the total price of the order with its individual items. You will see the product’s gross and net price, a discount granted, VAT, as well as the shipping costs and a fee associated with this payment method, if any.
 
-:guilabel:`Art.-Nr.` |br|
-Artikelnummer, nach der gesucht werden soll.
+:guilabel:`Prod.No.` |br|
+Product number to search for.
 
-Das Drücken der Schaltfläche :guilabel:`Suchen` startet die Suche nach einem Artikel mit der eingetragenen Artikelnummer. Wird dieser gefunden, erscheint dessen Kurzbezeichnung in einer Dropdown-Liste und ein Eingabefeld für die Artikelanzahl. Mit der Schaltfläche :guilabel:`Artikel hinzufügen` wird der Artikel der Bestellung hinzugefügt.
+Click on :guilabel:`Search` to search for a product using the entered product number. If the product is found, its short description will be displayed in a drop-down list and the quantity in the corresponding input field. Click on :guilabel:`Add Product` to add the product to the order.
 
 .. Intern: oxbaef, Status:, F1: order_article.html

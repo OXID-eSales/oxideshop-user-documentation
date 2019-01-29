@@ -1,63 +1,63 @@
-﻿Versandkosten für bestimmte Artikel
+﻿Shipping costs for specific products
 ===================================
 
-In einem Online-Shop gibt es in der Regel einen Warenkatalog aus ganz unterschiedlichen Artikeln. Der Versand einiger Artikel kann deutlich höhere Kosten verursachen, da diese nur zu Sonderkonditionen, wie beispielsweise als Sperrgut, verschickt werden können. Der Versand kann daher so eingerichtet werden, dass ein Zuschlag auf die sonst üblichen Versandkosten erhoben wird, sobald bestimmte Artikel in den Warenkorb gelegt werden. Dies lässt sich durch Versandkostenregeln abbilden, die sich auf bestimmte Artikel beziehen.
+Each online shop usually has a catalogue of various products. Some products may have significantly higher shipping costs because they can only be shipped under special conditions, such as bulky goods. Shipping can therefore be set up in such a way that a surcharge is added to the standard shipping costs if the customer adds certain products to the shopping cart. This can be represented by shipping cost rules that relate to specific products.
 
-Im Bestellprozess entscheidet sich der Kunde für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (zugewiesene Artikel) hinsichtlich der Artikel im Warenkorb erfüllt ist. Nur wenn eine Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
+The customer selects a shipping method in the ordering process. All shipping costs that belong to this shipping method will be processed. The system will check whether the specified condition (the assigned product) is met in terms of the products in the shopping cart. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
 
-In den Versandkostenregeln werden Artikel als Bedingung definiert.
+All products are defined as a condition in the shipping cost rules.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
-* Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
-* Betätigen Sie die Schaltfläche :guilabel:`Artikel zuordnen` auf der Registerkarte :guilabel:`Artikel`.
-* Verschieben Sie die Artikel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
-* Vergeben Sie einen Preisaufschlag auf der Registerkarte :guilabel:`Stamm`.
-* Komplettieren Sie alle weiteren Einstellungen der Versandkostenregel.
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+* Select the desired shipping cost rule from the list.
+* Click on :guilabel:`Assign Products` in the :guilabel:`Products` tab.
+* Drag and drop the products into the right-hand list of the assignment window.
+* Close the assignment window.
+* Enter a surcharge in the :guilabel:`Main` tab.
+* Configure all other settings of the shipping cost rule.
+* Save the changes.
 
-Die Versandkostenregel wird einer Versandart zugeordnet.
+The shipping cost rule is assigned to a shipping method.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
-* Wählen Sie die Versandart aus der Liste der Versandarten.
-* Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Shop Settings --> Shipping Methods`.
+* Select the desired shipping method from the list.
+* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
+* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
+* Close the assignment window.
 
-.. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
+.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
 
-Beispiel
+Example
 --------
-Im Beispiel werden zwei Versandkostenregeln verwendet, um höhere Versandkosten zu berechnen, sobald bestimmte Artikel in den Warenkorb gelegt werden. Für beide Versandkostenregeln gilt Menge als Bedingung und es wird ein Mengenbereich von 1 bis 99999999 vorgegeben. Dadurch wird sichergestellt, dass die Bedingung immer zutrifft. Die Berechnung erfolgt einmal pro Warenkorb. Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregel muss aktiv sein.
+Using two shipping cost rules to calculate higher shipping costs once certain products are added to the shopping cart. Set “Quantity” as a condition for both shipping cost rules and specify a quantity range of 1 to 99999999. This ensures that the condition will always apply. The calculation takes place once per cart. The assignment of countries is optional. Make sure to activate the shipping cost rule.
 
-Die erste Versandkostenregel mit 5,99 € Versandkosten gilt für alle Artikel, die zweite mit einem Preisaufschlag von 22,50 € für alle Wakeboards, die aufgrund ihrer Länge als Sperrgut verschickt werden müssen.
+The first shipping cost rule with €5.99 shipping costs will apply to all products, and the second one with a surcharge of €22.50 to all wakeboards that must be shipped as bulky goods because of their length.
 
 .. image:: ../../media/screenshots/oxbafy01.png
-   :alt: Versandkosten DHL GoGreen, Sperrgut: +22,50 Euro
+   :alt: Shipping costs DHL GoGreen, bulky goods: +22.50 euros
    :class: with-shadow
    :height: 341
    :width: 650
 
-Der im Screenshot gezeigten Versandkostenregel wurden drei Wakeboards zugeordnet. Beide Versandkostenregeln gehören zur Versandart \"DHL GoGreen\". Wird diese Versandart beim Kauf ausgewählt, werden beide Versandkostenregeln geprüft.
+Three wakeboards have been assigned to the shipping cost rule shown in the screenshot. Both shipping rules belong to the \"DHL GoGreen\" shipping method. If the customer selects this shipping method when placing an order, both shipping cost rules will be checked.
 
-Liegt ein Artikel im Warenkorb, der kein Wakeboard ist, greift die erste Versandkostenregel. Der Versand kostet 5,99 €.
+If the shopping cart contains a product that is not a wakeboard, the first shipping cost rule will apply. The shipping will cost €5.99.
 
 .. image:: ../../media/screenshots/oxbafy02.png
-   :alt: Warenkorb mit einer Wakeboard-Bindung
+   :alt: Shopping cart with a wakeboard binding
    :class: with-shadow
    :height: 261
    :width: 550
 
-Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 28,49 €.
+If the customer adds a wakeboard to the shopping cart, the second shipping cost rule will also apply. The total shipping costs will be €28.49.
 
 .. image:: ../../media/screenshots/oxbafy03.png
-   :alt: Warenkorb mit Wakeboard und Bindung
+   :alt: Shopping cart with wakeboard and binding
    :class: with-shadow
    :height: 311
    :width: 550
 
-28,49 € kostet auch der Versand eines einzelnen Wakeboards, da beide Versandkostenregeln - die für alle Artikel und die für die Wakeboards - zutreffen.
+The shipping of a single wakeboard will also cost €28.49 because both shipping cost rules - those applying to all products and those applying to the wakeboard - will apply.
 
-.. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Shipping cost rules - Products tab <../versandkostenregeln/registerkarte-artikel>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
 
 .. Intern: oxbafy, Status:

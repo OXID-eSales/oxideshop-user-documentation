@@ -1,81 +1,81 @@
-﻿SEO-Einstellungen
+﻿SEO settings
 =================
 
-Kunden beginnen die Suche nach Artikeln sehr oft mit Anfragen bei Suchmaschinen und -portalen. Damit sie dabei genau Ihren Shop, die Artikel und speziellen Angebote finden, müssen die entsprechenden Informationen optimal aufbereitet und indiziert sein. Der OXID eShop beherrscht seit der 4er Version die Suchmaschinenoptimierung, englisch: Search Engine Optimization (SEO). Die SEO-Implementierung erzeugt automatisch sprechende URLs für Kategorien und Artikel. Dabei werden reservierte Wörter und Sonderzeichen ebenso berücksichtigt, wie unterschiedliche Sprachen des Shops.
+Customers often start searching for products by entering queries in search engines and portals. To make sure that they find your shop, products and special offers, you will need to optimise and index the relevant information. Search Engine Optimisation (SEO) is supported in OXID eShop starting with version 4. SEO implementation automatically generates “speaking URLs” for categories and products, taking into consideration reserved words and special characters as well as different shop’s languages.
 
-Shopbetreiber müssen lediglich einige Einstellungen vornehmen, um konkrete Inhalte für die Suchmaschinenoptimierung vorzugeben. Dabei handelt es sich um den Seitentitel, den Aufbau der URLs und die sogenannten Metadaten. Die Inhalte können in jeder Sprache des Shops definiert werden.
+Shop owners only need to change a few settings to specify content for SEO. These are the page title, the structure of the URLs and the so-called metadata. The content can be defined in any shop’s language.
 
-Seitentitel
+Page title
 -----------
-Der Seitentitel wird bei einigen Browsern noch in der Titelleiste angezeigt und beim Abspeichern einer Seite als Lesezeichen oder Favorit verwendet. Obwohl der Seitentitel im Shop also nahezu unsichtbar ist, spielt er für Suchmaschinen eine wichtige Rolle. Suchmaschinen entnehmen dem Seitentitel die Information, welcher Inhalt auf einer Webseite zu finden ist. Die Seitentitel, außer der für die Startseite des Shops, werden automatisch aus dem Titel eines Artikels oder einer Kategorie generiert und mit einem Präfix und einem Suffix versehen.
+The page title is displayed in the title bar of some browsers and is used as a bookmark or favourite when saving a page. Although the page title in the shop is almost invisible, it plays an important role in search engines. Search engines extract information from the page title indicating which content can be found on a website. Except for the shop's start page, page titles are automatically generated from the title of a product or category and are extended with a prefix and a suffix.
 
-Beispiel für den Aufbau eines Seitentitels: OXID Surf- und Kiteshop | Transportcontainer THE BARREL | online kaufen
+Example of a page title structure: OXID Surf and Kite Shop | Transportcontainer THE BARREL | purchase online
 
-Die Einstellungen für den Seitentitel befinden sich unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO`. Achten Sie darauf, dass die gewünschte Sprache ausgewählt ist.
+The settings for the page title can be found under :menuselection:`Master Settings --> Core Settings --> SEO`. Make sure to select the desired language.
 
-:guilabel:`Titel Präfix` |br|
-Text, der vor den generierten Teil des Seitentitels gestellt wird. Tragen Sie hier am besten den Namen Ihres Shops ein. Beispiel aus dem Demoshop: OXID Surf- und Kiteshop.
+:guilabel:`Title Prefix` |br|
+Text placed before the generated part of the page title. It is best to enter your shop’s name here. Demoshop example: OXID Surf and Kite Shop
 
-:guilabel:`Titel Suffix` |br|
-Text, der an den generierten Teil des Seitentitels angehangen wird. Ergänzen Sie hier, was für alle Seiten des Shops charakteristisch ist. Beispiel aus dem Deomshop: online kaufen.
+:guilabel:`Title Suffix` |br|
+Text attached to the generated part of the page title. Here, you can add the characteristics for all the shop pages. Demoshop example: purchase online
 
-:guilabel:`Titel der Startseite` |br|
-Für die Startseite wird der Text des Seitentitels festgelegt. Er sollte das Angebot Ihres Onlineshops mit prägnanten Worten beschreiben. Abweichend von allen anderen Seiten, besteht der Seitentitel der Startseite aus Präfix und definiertem Text. Der Suffix wird nicht verwendet. Beispiel aus dem Demoshop: OXID Surf- und Kiteshop | Der Onlineshop für Wassersport und Sommerspass.
+:guilabel:`Front Page Title` |br|
+You can specify the title text for the start page. It should precisely describe your online shop offer. Unlike other pages, the start page title consists of a prefix and a defined text, without using the suffix. Demoshop example: OXID Surf and Kite Shop | Online Shop for water sports and summertime
 
-Aufbau der URLs
+URL structure
 ---------------
-Sogenannte sprechende URLs sind ebenfalls ein wichtiger Teil der Suchmaschinenoptimierung. Anstatt URLs mit Parametern und kryptischen Werten anzuzeigen, wird die URL umgeschrieben und zeigt stattdessen den Namen der Kategorie und des Artikels. Das ist gut für Suchmaschinen und für Besucher Ihres Onlineshops allemal.
+The so-called “speaking URLs” are also an important part of SEO. Instead of displaying URLs with parameters and cryptic values, the URL is rewritten to show the name of the category and the product instead. This is good for search engines and visitors of your online shop.
 
-Beispiel für intern verwendete URL: ``www.ihreshopurl.de/index.php?`` |br|
+Example of internally used URL: ``www.yourshopurl.com/index.php?`` |br|
 ``cl=details\&anid=f4f73033cf5045525644042325355732\&cnid=fadcb6dd70b9f6248efa425bd159684e``
 
-Beispiel für umgeschriebene, sprechende URL: ``www.ihreshopurl.de/Angebote/Transportcontainer-THE-BARREL.html``
+Example of rewritten speaking URL: ``www.yourshopurl.com/offers/transport-container-THE-BARREL.html``
 
-Ebenso wie die Festlegungen für den Seitentitel sind die für die URLs sprachabhängig. Achten Sie darauf, dass die gewünschte Sprache ausgewählt ist.
+Just like the specifications for the page title, those for the URLs are language-dependent. Make sure to select the desired language.
 
-:guilabel:`Standardsprache für SEO URLs` |br|
-Für die hier eingestellte Standardsprache werden keine Sprachkürzel (de, en usw.) in den URLs verwendet. In den URLs der anderen Sprachen wird das entsprechende Sprachkürzel eingefügt.
+:guilabel:`Default language for SEO URLs` |br|
+Language codes (de, en, etc.) are not used in the URLs for the default language set here. The corresponding language codes will be added to the URLs of the other languages.
 
-:guilabel:`SEO IDs Trennzeichen (z. B.\"+\",\"-\")` |br|
-Das Trennzeichen wird verwendet, wenn Kategorie- oder Artikeltitel aus mehreren Worten bestehen. Es wird anstelle eines Leerzeichens in die URL eingefügt. Der Bindestrich ist der Standard für das Trennzeichen.
+:guilabel:`SEO IDs Separator (e.g.\"+\",\"-\")` |br|
+The separator is used when category or product titles consist of several words. It is inserted in the URL instead of a space. The hyphen is used as the default separator.
 
-Beispiel: ``www.ihreshopurl.de/Kategorie-aus-mehreren-Worten/Artikel-aus-mehreren-Worten.html``.
+Example: ``www.yourshopurl.com/multiple-word-category/multiple-word-product.html``.
 
-:guilabel:`SEO Suffix um gleiche Artikel zu unterscheiden` |br|
-Wenn mehrere Artikel den gleichen Titel haben und in der gleichen Kategorie sind, würden sie die gleiche URL erhalten. Damit das nicht passiert, wird das SEO Suffix angehängt. Dadurch werden gleiche URLs vermieden. Wenn Sie kein SEO Suffix angeben, wird ``-oxid`` als Standard verwendet.
+:guilabel:`SEO Suffix for differing Similar SEO URLs` |br|
+If several products have the same title and belong to the same category, they would be assigned the same URL. The SEO suffix is attached to prevent this from happening and to avoid using the same URLs. If you don’t specify a SEO suffix, ``-oxid`` will be used by default.
 
-:guilabel:`Zeichen, die in SEO URLs ersetzt werden` |br|
-Bestimmte Sonderzeichen wie Umlaute (Ä, Ö, Ü) sollten in URLs nicht vorkommen, da Sie Probleme verursachen können. In dem Eingabefeld wird angegeben, mit welchen Zeichen die Sonderzeichen ersetzt werden. Die Syntax ist Sonderzeichen =\>Ersatzzeichen, zum Beispiel Ü =\>Ue. Für die deutsche Sprache sind die Ersetzungen bereits eingetragen. Falls Sie Sonderzeichen und Ersetzungen, beispielsweise für eine neue Sprache, eintragen oder ergänzen wollen, verwenden Sie dafür jeweils eine separate Zeile.
+:guilabel:`Characters that will be replaced in SEO URLs` |br|
+Certain special characters such as umlauts (Ä, Ö, Ü) should not be used in URLs as they can cause problems. Enter the characters replacing the special characters in the input field. The syntax is as follows: special character =\> replacement character, for example Ü =\> Ue. Replacement characters are already set for the German language. If you want to enter or add special characters and replacement characters, for example, for a new language, you will need to use a separate line for each.
 
-.. hint:: Seit der Shopversion 4.7.0/5.0.0 wird die Liste der Zeichen, die in der URL durch andere Zeichen zu ersetzen sind (Transliteration), in der Datei :file:`/application/translation/{local}/translit_lang.php` definiert. Der Eingabebereich auf der Registerkarte :guilabel:`SEO` wurde entfernt.
+.. hint:: Starting with shop version 4.7.0/5.0.0, the list of characters to be replaced in the URL by other characters (transliteration) is defined in the :file:`/application/translation/{local}/translit_lang.php` file. The input area in the :guilabel:`SEO` tab has been removed.
 
-:guilabel:`Reservierte Wörter (werden automatisch mit dem SEO Suffix versehen)` |br|
-Bestimmte URLs sind im eShop festgelegt, zum Beispiel ``www.ihreshopurl.de/admin``, um den Administrationsbereich zu öffnen. Wenn eine Kategorie\"admin\"heißen würde, wäre deren URL ebenfalls ``www.ihreshopurl.de/admin``. Die Kategorie könnte nicht geöffnet werden. Deswegen wird an solche URLs automatisch das SEO Suffix angehängt. Standardmäßig behandelt der OXID eShop alle Verzeichnisse des Shops, auch selbst hinzugefügte, wie reservierte Wörter. Im Eingabefeld können Sie weitere reservierte Wörter hinzufügen.
+:guilabel:`Reserved Words (are automatically suffixed)` |br|
+Certain URLs are specified in eShop, for example ``www.yourshopurl.com/admin``, for opening the Admin panel. A category named \"admin\" would also have the URL ``www.yourshopurl.com/admin``, and you wouldn’t be able to open it. That's why the SEO suffix is automatically appended to such URLs. By default, OXID eShop treats all shop’s directories – even the added ones – as reserved words. You can enter additional reserved words in the input field.
 
-:guilabel:`Wörter, die bei der Erzeugung der Meta-Tags für Suchmaschinen ignoriert werden` |br|
-Wenn bei Artikeln oder Kategorien keine eigenen Meta-Tags vorhanden sind, werden diese Informationen aus der Beschreibung generiert. Dabei sollten Wörter weggelassen werden, die keinen Informationswert haben. Alle Wörter die im Eingabefeld aufgelistet sind, werden bei der automatischen Generierung ignoriert.
+:guilabel:`Words which are ignored in automatic Creation of Meta-tags` |br|
+If products or categories don’t have their own meta tags, this information will be generated from the description. Words without any information value should be omitted. All words listed in the input field are ignored during automatic generation.
 
-:guilabel:`Statische URLs` |br|
-Für bestimmte Seiten, beispielsweise Kontakt und Newsletter, wurden statische URLs definiert. Diese ersetzen die internen URLs mit den verschiedenen Parametern. Sie können neue statische URLs anlegen oder bestehende, auch in verschiedenen Sprachen, ändern.
+:guilabel:`Static URLs` |br|
+Static URLs are defined for specific pages, such as Contacts and Newsletters. These replace the internal URLs with different parameters. You can create new static URLs or change the existing ones, even in different languages.
 
-Metadaten
+Metadata
 ---------
-Obwohl Metadaten nicht mehr die entscheidende Bedeutung für Suchmaschinen haben, gibt es die Möglichkeit, auf deren Inhalte Einfluß zu nehmen. Es gibt Metadaten für die Startseite und Metadaten für Artikel und Kategorien. Das sind Formulierungen und Begriffe, die als Bescheibung oder Schlüsselworte mit der jeweiligen Seite ausgeliefert werden.
+Although metadata is no longer critical for search engines, there is a way to change its content. There is metadata for the start page and metadata for products and categories. These are phrases and terms that are provided as a description or keywords with the respective page.
 
-Beispiel aus dem Demoshop:
+Demoshop example:
 
-``<meta name="description "content=\"Alles zum Thema Wassersport, Sportbekleidung und Mode.`` |br|
-``Umfangreiches Produktsortiment mit den neusten Trendprodukten. Blitzschneller Versand.">``
+``<meta name="description "content=\"All about water sports, sportswear and fashion.`` |br|
+``Comprehensive product range with the latest trending products. Fast shipping.">``
 
 ``<meta name="keywords "content="kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards,`` |br|
-``boards, strand, sommer, wassersport, mode, fashion, style, shirts, jeans, accessoires, angebote">``
+``boards, beach, summer, water sports, fashion, style, shirts, jeans, accessories, offers">``
 
-Startseite
+Start page
 ^^^^^^^^^^
-Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS-Seiten` eingetragen werden. Die CMS-Seite "META Description Startseite" (Ident: oxstartmetakeywords) nimmt dabei die Beschreibung des Shops, die CMS-Seite "META Keywords Startseite" (Ident: oxstartmetadescription) die Keywörter auf.
+The metadata for the shop’s start page can be entered under :menuselection:`Customer Info --> CMS Pages`. The CMS page “META description start page” (ID: oxstartmetakeywords) includes the shop description and the CMS page “META keywords start page” (oxstartmetadescription) includes the keywords.
 
-Kategorien und Artikel
+Categories and products
 ^^^^^^^^^^^^^^^^^^^^^^
-Die Metadaten für Kategorien und Artikel werden automatisch aus deren Beschreibung generiert. Sie können durch selbst formulierte Bescheibungen und Schlüsselworte für jede einzelne Kategorie oder jeden einzelnen Artikel überschrieben werden. Die Metadaten werden auf der Registerkarte :guilabel:`SEO` bei der Kategorie oder beim Artikel eingetragen.
+Metadata for categories and products is automatically generated from their description. It can be overwritten by self-penned descriptions and keywords for each category or product. Metadata is entered in the :guilabel:`SEO` tab of the Categories or Products sections.
 
 .. Intern: oxbabi, Status:

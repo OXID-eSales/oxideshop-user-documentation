@@ -1,29 +1,29 @@
-﻿Artikel als Zugabe
+﻿Product as add-on
 ==================
-Neben dem absoluten und relativen Preisnachlass bietet der OXID eShop noch eine dritte Rabattmöglichkeit: den Gratisartikel. Bei jedem Kauf, der die Bedingungen des Rabattes erfüllt, wird ein dafür vorgesehener Artikel als kostenlose Zugabe in den Warenkorb gelegt. Damit lassen sich beispielsweise Rabattaktionen für bestimmte Einkaufswerte oder -mengen umsetzen.
+In addition to the absolute and relative price reduction, OXID eShop offers a third discount option: the free product. For every purchase that meets the conditions for the discount, a special product will be added to the cart as a free add-on. This allows you to implement discount promotions for certain purchase values or quantities.
 
-Der Preis des Artikels, der als Zugabe in den Warenkorb gelegt wird, wird automatisch auf Null gesetzt. Es ist nicht notwendig, dafür den bisherigen Preis in der Artikelverwaltung zu ändern.
+The price of the product placed into the shopping cart as an add-on will be automatically set to zero. Changing the previous price in the product management section won’t be necessary.
 
-Der Gratisartikel wird in der Rabattverwaltung festgelegt.
+Defining the free product in the discount management section
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Rabatte`.
-* Wählen Sie einen Rabatt aus der Liste der Rabatte oder legen Sie einen neuen an.
-* Bei einem neuen Rabatt vergeben Sie einen aussagekräftigen Namen und wählen Sie :guilabel:`itm` aus der Dropdown-Liste :guilabel:`Rabatt` aus.
-* Betätigen Sie die Schaltfläche :guilabel:`Artikel auswählen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie den gewünschten Artikel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Shop Settings --> Discounts`.
+* Select a discount from the list of discounts or create a new one.
+* If the discount is new, enter a descriptive name and select :guilabel:`itm` from the :guilabel:`Discount` drop-down list.
+* Click on :guilabel:`Choose product` in the :guilabel:`Main` tab.
+* Drag and drop the desired product into the right-hand list of the assignment window.
+* Close the assignment window.
 
-Legen Sie im Feld :guilabel:`Menge` fest, wie oft der Artikel in den Warenkorb gelegt wird.
+Use the :guilabel:`Amount` field to specify how often the product will be added to the shopping cart.
 
-* Setzen Sie ein Häkchen bei :guilabel:`Multiplizieren`, wenn die Anzahl des Gratisartikels abhängig von der Anzahl der gekauften Artikel sein soll.
-* Definieren Sie nun die übrigen Bedingungen für den Rabatt, wie beispielsweise Einkaufsmenge oder -wert.
-* Achten Sie darauf, dass der Rabatt aktiv ist.
-* Speichern Sie die Einstellungen.
+* Check the :guilabel:`Multiply` box if the number of free products should depend on the number of products purchased.
+* Define the remaining conditions for the discount, such as purchase quantity or value.
+* Make sure that the discount is active.
+* Save the settings.
 
-Die Anzahl der kostenfreien Zugaben wird im Warenkorb berechnet. Dabei wird die Anzahl der rabattfähigen Artikel zunächst durch den Wert der Mindesteinkaufsmenge geteilt und anschließend mit dem Wert multipliziert, der bei :guilabel:`Menge` eingetragen ist.
+The number of free add-ons will be calculated in the shopping cart. The number of discountable products will be first divided by the value of the minimum purchase quantity and then multiplied by the value entered in the :guilabel:`Amount` field.
 
-Beispiel: Wurden 10 Artikel gekauft, auf die der Rabatt gewährt wird, die Mindesteinkaufsmenge ist 3 und die Menge der Zugabe 1, wird die Zugabe (10/3)*1 = 3 mal in den Warenkorb gelegt. Ist die Menge der Zugabe 2, erhöht sich die Anzahl der Zugaben auf 6.
+Example: If the customer purchased 10 products on which the discount is granted, the minimum purchase quantity is 3 and the add-on quantity is 1, then the add-on will be added (10/3)*1 = 3 times to the shopping cart. If the add-on quantity is 2, the number of add-ons will increase to 6.
 
-.. seealso:: :doc:`Rabatte - Registerkarte Stamm <registerkarte-stamm>`
+.. seealso:: :doc:`Discounts - Main tab <registerkarte-stamm>`
 
 .. Intern: oxbahq, Status:

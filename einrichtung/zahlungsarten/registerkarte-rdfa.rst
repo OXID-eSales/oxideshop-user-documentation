@@ -1,35 +1,35 @@
-﻿Registerkarte RDFa
+﻿RDFa tab
 ==================
 
-Der OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale und andere Systeme bereit. Diese können beispielsweise als so genannte Rich Snippets - ausführliche Informationen zu einem Suchergebnis - dargestellt werden. Die Aufbereitung der Daten erfolgt auf Basis des Resource Description Framework (RDFa) und der für den E-Commerce optimierten Beschreibungssprache GoodReleations.
+OXID eShop provides well-prepared information for search engines, portals and other systems. It can be displayed as so-called rich snippets - detailed information on a search result. The data is prepared based on the Resource Description Framework (RDFa) and the GoodRelations description language optimised for e-commerce.
 
-Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlungsart mit den in GoodReleations vordefinierten Werten für Zahlung hergestellt.
+The :guilabel:`RDFa` tab establishes a logical link between the payment method and the payment values predefined in GoodRelations.
 
 .. image:: ../../media/screenshots/oxbadc01.png
-   :alt: Zahlungsarten - Registerkarte RDFa
+   :alt: Payment methods - RDFa tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-.. hint:: Damit der Shop die RDFa-Integration verwenden kann, muss die Funktion unter :menuselection:`Stammdaten --> Grundeinstellungen --> RDFa` aktiviert werden.
+.. hint:: Activate the function under :menuselection:`Master Settings --> Core Settings --> RDFa` to allow the shop to use RDFa integration.
 
-:guilabel:`Zahlungsart zuordnen` |br|
-:guilabel:`Hinweis: Bitte wählen Sie nur die in GoodRelations vordefinierten Zahlungsarten aus, die Ihrer Zahlungsart entsprechen.`
+:guilabel:`Assign payment` |br|
+:guilabel:`Hint: Please choose only those payment methods, predefined in GoodRelations, that comply with your payment method.`
 
-Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschreiben.
+Check the box next to all items that exactly describe the payment method.
 
-:guilabel:`Allgemeine Zahlungsarten` |br|
-:guilabel:`Vorauskasse` |br|
-:guilabel:`Rechnung` |br|
-:guilabel:`Barzahlung` |br|
-:guilabel:`Barscheck` |br|
-:guilabel:`Nachnahme` |br|
-:guilabel:`Bankeinzug` |br|
+:guilabel:`General payment methods` |br|
+:guilabel:`Cash in advance` |br|
+:guilabel:`Invoice` |br|
+:guilabel:`Cash` |br|
+:guilabel:`Check in advance` |br|
+:guilabel:`Cash on delivery` |br|
+:guilabel:`Direct debit` |br|
 :guilabel:`Google Checkout` |br|
 :guilabel:`PayPal` |br|
 :guilabel:`PaySwarm`
 
-:guilabel:`Kreditkartenzahlung` |br|
+:guilabel:`Credit card payment` |br|
 :guilabel:`American Express` |br|
 :guilabel:`Diners Club` |br|
 :guilabel:`Discover` |br|
@@ -38,4 +38,4 @@ Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschrei
 :guilabel:`VISA`
 
 .. Intern: oxbadc, Status:, F1: payment_rdfa.html
-.. ToDo Hinweiszeile ist fehlerhaft: %s und zwei Punkte
+.. ToDo note line is incorrect: %s and two points

@@ -1,49 +1,49 @@
-﻿Zahlungsarten
+﻿Payment methods
 =============
 
-Zahlung und Versand sind wichtige Funktionen in einem Online-Shop. Sie werden durch die Definition von Zahlungsarten, Versandarten und Versandkostenregeln bestimmt, die in einem wechselseitigen Zusammenhang zueinander stehen.
+Payment and shipping are important functions in an online shop. They are determined by the definition of payment methods, shipping methods and shipping cost rules which are interrelated.
 
-Kunden, die in Ihrem Shop einkaufen, können im dritten Bestellschritt auswählen, wie sie zahlen wollen. Die Auswahl der Zahlungsarten hängt davon ab, ob es eine Zahlungsart für das Land gibt, aus dem ein Kunde bestellt. Er sollte auch zu einer Benutzergruppe gehören, für welche diese Zahlungsart gilt.
+Customers who shop in your shop can choose how they want to pay in the third ordering step. The choice of payment methods depends on whether there is a payment method for the country from which a customer orders. The customer should also belong to a user group to which this payment method applies.
 
-Alle erforderlichen Einstellungen können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Zahlungsarten` vorgenommen werden. In einer Liste werden alle Zahlungsarten mit ihrem Namen ausgegeben. Darunter befindet sich der Eingabebereich für die Zahlungsart. Nach Zahlungsarten kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Zahlungsarten, die neu erstellt wurden, können auch gelöscht werden. Durch einen Klick auf das Löschsymbol am Ende der Zeile werden sie endgültig aus der Datenbank entfernt. Die im Shop vorhandenen Zahlungsarten können nur deaktiviert werden, wenn sie nicht verwendet werden sollen.
+All required settings can be configured in the Admin panel under :menuselection:`Shop Settings --> Payment Methods`. You will see a list of all payment methods with their names and the input area right below it. You can search for payment methods by entering their name in the search field. Newly created payment methods can also be deleted. They can be permanently removed from the database by clicking on the trash icon at the end of the line. Payment methods available in the shop can only be deactivated if they are not going to be used.
 
-Wird eine Zahlungsart aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Zahlungsart klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Zahlungsart anlegen`.
+When you select a payment method from the list, its information will be displayed in the input area. To create a new payment method, click on :guilabel:`Create new Payment Method` at the bottom of the screen.
 
 .. image:: ../../media/screenshots/oxbacz01.png
-   :alt: Zahlungsarten
+   :alt: Payment methods
    :class: with-shadow
    :height: 536
    :width: 650
 
-Der OXID eShop wird mit den vorbereiteten Zahlungsarten \"Bankeinzug/Lastschrift\", \"Empty\", \"Kreditkarte\", \"Nachnahme\", \"Rechnung\" und \"Vorauskasse\" ausgeliefert. Sie können verwendet werden, nachdem sie individuell angepasst wurden. Nicht verwendete Zahlungsarten sollten mit Ausnahme von \"Empty\" deaktiviert werden. Diese ist eine Art Fallback-Zahlungsart, welche Kunden den Bestellprozess abschließen lässt, auch wenn die definierten Bedingungen für Zahlung und Versand für ein im Shop aktives Land nicht zutreffen. Der Kunde kann dennoch bestellen. Der Verkäufer muss im Nachhinein mit ihm die Bezahlung und den Versand klären.
+OXID eShop comes with the following payment methods: \"Direct Debit\", \"Empty\", \"Credit Card\", \"COD (Cash on Delivery)\", \"Invoice\" and \"Cash in advance\". They can be used after being customised. Unused payment methods should be deactivated with the exception of \"Empty\". This is a sort of fall-back payment method that allows customers to complete the ordering process even if the defined payment and shipping conditions don’t apply to a country active in the shop. The customer will still be able to place an order. The seller will have to clarify the payment and shipping conditions with the customer afterwards.
 
-Es können neue Zahlungsarten erstellt werden. Auch bei der Installation von Zahlungsmodulen werden ggf. neue Zahlungsarten, beispielsweise PayPal, hinzugefügt.
+You can also create new payment methods. New payment methods, such as PayPal, may be added when installing payment modules, if necessary.
 
-.. hint:: Zahlungsarten gelten für bestimmte Benutzergruppen und für Länder, aus denen Benutzer bestellen.
+.. hint:: Payment methods apply to specific user groups and countries from which users order.
 
-Wenn Sie einer Zahlungsart Benutzergruppen zuordnen, ist die Zahlungsart ausschließlich für Benutzer dieser Benutzergruppen gültig. Die Zuordnung der Benutzergruppen \"Inlandskunden\" und \"Auslandskunden\" stellt dabei das Funktionieren der Zahlungsart zunächst einmal sicher. Wurden keine Benutzergruppen zugeordnet, gilt die Zahlungsart für alle Benutzergruppen.
+If you assign user groups to a payment method, this payment method will only be valid for users of these user groups. Above all, the assignment of the user groups \"Domestic Customers\" and \"Foreign Customers\" ensures the functioning of the payment method. If no user groups have been assigned, the payment method will apply to all user groups.
 
-Einer Zahlungsart sollten Länder zugewiesen sein. Ohne eine solche Zuordnung ist die Zahlungsart für alle Länder gültig. Darüber hinaus beeinflussen die Einstellungen zur Bonität und zum Einkaufswert, ob eine Zahlungsart im Bestellprozess gültig ist und angezeigt wird. Stellen Sie sicher, dass die Zahlungsart aktiv ist.
+Countries should also be assigned to a payment method. Without an assignment, this payment method will be valid for all countries. In addition, credit rating and purchase value settings determine whether a payment method will be valid and displayed in the ordering process. Make sure that the payment method is active.
 
-Bitte beachten Sie, dass in früheren Shopversionen einer Zahlungsart mindestens ein Land (vor OXID eShop 4.6.0) und eine Benutzergruppe (vor OXID eShop 4.8.0/5.1.0) zugewiesen sein musste.
+Please note that in previous shop versions at least one country (prior to OXID eShop 4.6.0) and one user group (prior to OXID eShop 4.8.0/5.1.0) had to be assigned to a payment method.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktive Zahlungsart, Preisaufschlag, Preisabschlag, Skonto, Bonität, Bonitätsindex, Einkaufswert, Zusatzfelder, DynValue-Felder, Zahlungsart und Benutzergruppen |br| 
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active payment methods, surcharge, discount, cash discount, creditworthiness, credit rating, purchase value, additional fields, DynValue fields, payment method and user groups |br| 
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Länder
+Country tab
 --------------------
-**Inhalte**: Zahlungsarten für Länder, Länder zuordnen |br|
-:doc:`Artikel lesen <registerkarte-laender>` |link|
+**Contents**: payment methods for countries, assigning countries |br|
+:doc:`Read article <registerkarte-laender>` |link|
 
-Registerkarte RDFa
+RDFa tab
 ------------------
-**Inhalte**: RDFa, Resource Description Framework, GoodReleations, Vokabular für E-Commerce, Zahlungsarten und Kreditkartenzahlung, Rich Snippets |br| 
-:doc:`Artikel lesen <registerkarte-rdfa>` |link|
+**Contents**: RDFa, Resource Description Framework, GoodRelations, e-commerce vocabulary, payment methods and credit card payment, rich snippets |br| 
+:doc:`Read article <registerkarte-rdfa>` |link|
 
-.. seealso:: :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Versandkostenregeln <../versandkostenregeln/versandkostenregeln>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
+.. seealso:: :doc:`Shipping methods <../versandarten/versandarten>` | :doc:`Shipping cost rules <../versandkostenregeln/versandkostenregeln>` | :doc:`Payment and shipping <../zahlung-und-versand/zahlung-und-versand>`
 
 .. Intern: oxbacz, Status:

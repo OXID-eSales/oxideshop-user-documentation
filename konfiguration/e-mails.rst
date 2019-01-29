@@ -1,37 +1,37 @@
-﻿E-Mails
+﻿Emails
 =======
 
-Der OXID eShop versendet verschiedene E-Mails. Wenn Kunden bestellen, wird ihnen eine E-Mail zugeschickt, in der die Bestellung nochmals aufgeführt wird. Kunden erhalten auch eine E-Mail, wenn sie sich für Ihren OXID eShop registrieren. Sie als Shopbetreiber können Newsletter versenden, um Ihre Kunden über Neuigkeiten zu informieren.
+OXID eShop sends different types of emails. After placing an order, customers will receive an email with the order summary. They will also receive an email when they register in your OXID eShop. As the shop owner, you can send out newsletters to tell your customers about the latest news.
 
-Damit der Versand von E-Mails richtig funktioniert, müssen die SMTP-Daten korrekt eingetragen und die Mailadressen eingerichtet sein. Die dafür notwendigen Einstellungen finden Sie auf der Registerkarte :guilabel:`Stamm` unter :menuselection:`Stammdaten --> Grundeinstellungen`.
+To ensure the proper sending of emails, you will need to enter the correct SMTP data and set up the email addresses. The required settings can be found in the :guilabel:`Main` tab under :menuselection:`Master Settings --> Core Settings`.
 
-Der E-Mail-Versand erfolgt in der Regel über einen separaten Mailserver. Haben Sie in Ihrer Firma einen solchen Server, über den auch der Shop seine Mails verschicken soll, benötigen Sie die Zugangsdaten dieses Servers. Tragen Sie die Zugangsdaten in die Eingabefelder :guilabel:`SMTP-Server`, :guilabel:`SMTP-Benutzer` und :guilabel:`SMTP-Passwort` ein. Bei einem Hosting-Paket erhalten Sie die SMTP-Daten von ihrem OXID Hosting Partner oder Internet Service Provider (ISP). Häufig erfolgt dabei der Mailversand per PHP direkt über den Server, auf dem Ihr Shop installiert ist. Für den SMTP-Server wird dann der Eintrag \"localhost\" verwendet.
+Emails are usually sent via a separate mail server. If you have an in-house server that is used for sending emails through the shop, you will need the server login data. Enter the login data in the :guilabel:`SMTP Server`, :guilabel:`SMTP User` and :guilabel:`SMTP Password` fields. Your hosting package contains the SMTP data from your OXID Hosting Partner or Internet Service Provider (ISP). Emails are often sent directly via the server where your shop is installed with PHP. In this case, use the \"localhost\" entry for the SMTP server.
 
-Definieren Sie nun die E-Mail-Adressen, an die der Shop senden soll. Diese Mailadressen müssen auf Ihrem Mailserver oder in der Mailkonfiguration Ihres Hosting-Paketes eingerichtet sein.
+Now, you will need to define the email addresses to which the emails from the shop should be sent. These email addresses must be set up on your mail server or in the email configuration of your hosting package.
 
-:guilabel:`E-Mail-Adresse für Infos` |br|
-Verwenden Kunden das Kontaktformular und schicken ihre Nachricht ab, geht eine Mail an die hier angegebene Mailadresse. Geeignete Mailadressen wären beispielsweise info@ihreshopurl.de oder kontakt@ihreshopurl.de.
+:guilabel:`Email address for information` |br|
+Whenever customers send a message via the contact form, an email is sent to the email address entered here. Good email addresses would be, for example, info@yourshopurl.com or contact@yourshopurl.com.
 
-:guilabel:`E-Mail-Adresse für Antworten` |br|
-Bestellt ein Kunde in Ihrem Shop, erhält er eine E-Mail, in der die Bestellung nochmals zusammengefasst ist. Es kann vorkommen, dass der Kunde auf diese E-Mail antwortet, weil er beispielsweise eine Frage oder eine Bemerkung zu seiner Bestellung hat. Die Antwort des Kunden wird an die hier eingetragene Mailadresse verschickt.
+:guilabel:`Email address for replies` |br|
+After placing an order through your shop, the customer receives an email with the order summary. The customer might reply to this email if, for example, he/she has a question or comment about the order. The customer’s reply will be sent to the email address entered here.
 
-:guilabel:`E-Mail-Adresse für Bestellungen` |br|
-Bestellt ein Kunde in Ihrem Shop, wird auch an den Shopbetreiber eine E-Mail verschickt. Er erhält die Nachricht über die Bestellung im Shop an die hier hinterlegte Mailadresse.
+:guilabel:`Email address for orders` |br|
+Whenever a customer places an order through your shop, an email is also sent to the shop owner. The shop owner will receive a message about the order to the email address entered here.
 
-Der Shop versendet eine Reihe E-Mails an den Kunden. Außer der Bestellbestätigung sind das Mails zur Bestätigung einer Registrierung, zur Passwortänderung und zur Information, dass die Bestellung versandt wurde. Für diese Mails kann eine individuelle Betreffzeile festgelegt werden. Der Betreff fasst den Inhalt der E-Mail kurz zusammen. Falls Ihr Shop in verschiedene Länder liefern soll, lässt sich die Betreffzeile auch in mehreren Sprachen abfassen. Zwischen den verfügbaren Sprachen kann mit einer Auswahlliste gewechselt werden.
+The shop sends a number of emails to customers. Apart from the order confirmation, these are emails to confirm registration, change the password and inform that the order has been shipped. You can specify a separate subject line for these emails. The subject briefly summarises the content of the email. If your products are shipped to different countries, the subject line can also be written in several languages. You can switch between the available languages by using the selection list.
 
-:guilabel:`E-Mail-Betreff bei Bestellung` |br|
-Betreffzeile der E-Mail, welche Kunden erhalten, wenn sie in Ihrem Shop bestellen.
+:guilabel:`Order email Subject` |br|
+Subject line of the email that customers receive when they place an order through your shop.
 
-:guilabel:`E-Mail-Betreff bei Registrierung` |br|
-Betreffzeile der E-Mail, welche Kunden erhalten, wenn sie sich in Ihrem Shop registrieren.
+:guilabel:`Registration email Subject` |br|
+Subject line of the email that customers receive when they register in your shop.
 
-:guilabel:`E-Mail-Betreff \"Passwort vergessen?\"` |br|
-Hat der Kunde sein Passwort vergessen, kann er sich mit der Funktion \"Passwort vergessen?\", eine E-Mail zur Passwortänderung zuschicken lassen. Legen Sie hier den Betreff dieser E-Mail fest.
+:guilabel:Forgot `email Subject \"Password?\"` |br|
+If a customer has forgotten their password, they can use the \"Forgot your password?\" function to have an email sent to them so they can change the password. The subject of this email can be specified here.
 
-:guilabel:`E-Mail-Betreff \"Jetzt versendet\"` |br|
-Sobald die Ware an den Kunden verschickt wird, kann die Bestellung im Administrationsbereich als versendet markiert werden. Optional kann der Kunde darüber per E-Mail informiert werden. Die Betreffzeile für diese E-Mail wird hier definiert.
+:guilabel:`email Subject \"Shipped now\"` |br|
+Once the products have been sent to the customer, the order can be marked as sent in the Admin panel. As an option, the customer can be informed via email. The subject line for this email can be defined here.
 
-Klicken Sie auf :guilabel:`Speichern`. Die E-Mails werden jetzt mit einer individuellen Betreffzeile, aber einem Standardtext verschickt. Wie der Standardtext dieser E-Mails angepasst wird, erfahren Sie im Abschnitt \"CMS\".
+Click on :guilabel:`Save`. The emails will now be sent with an individual subject line, but they will still contain the default text. Go to Section \"CMS\" to learn how to customise the default text for these emails.
 
 .. Intern: oxbaav, Status:

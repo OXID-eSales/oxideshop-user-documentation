@@ -1,23 +1,23 @@
-﻿Registerkarte Mall
+﻿Mall tab
 ==================
 
-Die Registerkarte :guilabel:`Mall` ist bei Rabatten nur in der Enterprise Edition vorhanden.
+The :guilabel:`Mall` tab is only available for discounts in Enterprise Edition.
 
-Rabatte können beim Erstellen von Shops an diese vererbt werden. Wird diese Option gewählt, enthält ein neuer Shop alle Rabatte des Elternshops. Die Eigenschaften dieser Rabatte sind nicht änderbar.
+Discounts can be inherited when creating shops. If this option is selected, a new shop will contain all discounts of the parent shop. The characteristics of these discounts can’t be changed.
 
-Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Rabattes zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Rabatte aus allen Shops übernehmen und anzeigen.
+The :guilabel:`Mall` tab is used to manage the assignment of a discount to subshops and supershops. This tab will be empty for multishops since they can load and display discounts from all shops without such an assignment.
 
 .. image:: ../../media/screenshots/oxbahl01.png
-   :alt: Rabatte - Registerkarte Mall
+   :alt: Discounts - Mall tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Es ist möglich, die Vererbung aller Rabatte für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.\
+The inheritance of all discounts for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.
 
-:guilabel:`Verknüpft mit folg. Subshops` |br|
-Die Verknüpfung eines Rabattes mit Subshops und Supershops kann hinzugefügt oder entfernt werden, indem das entsprechende Kontrollkästchen angehakt wird oder nicht. Bei nicht aktiviertem Kontrollkästchen ist der Rabatt im Elternshop vorhanden, aber nicht im jeweiligen Subshop oder Supershop.
+:guilabel:`Assigned to following subshops` |br|
+Check or uncheck the appropriate box to assign/unassign the discount to/from subshops and supershops. If the box is not checked, the discount will be available in the parent shop but not in the respective subshop or supershop.
 
-Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
+Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the discount to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 
 .. Intern: oxbahl, Status:, F1: discount_mall.html

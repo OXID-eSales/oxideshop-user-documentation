@@ -1,82 +1,82 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
 
-Auf der Registerkarte :guilabel:`Stamm` werden wichtige Informationen zur Kategorie hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie eine Kategorie. Sie können hier auch der Kategorie deren Artikel zuweisen. Es lassen sich dabei viele Artikel auf einmal mit der Kategorie verbinden.
+The :guilabel:`Main` tab contains important information about categories and allows you to configure their settings. This is where you can create or edit a category and assign the products to it. You can also assign a few products at once.
 
 .. image:: ../../media/screenshots/oxbabk01.png
-   :alt: Kategorien - Registerkarte Stamm
+   :alt: Categories - Main tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich die Informationen und Einstellungen zur Kategorie auch direkt in einer weiteren Sprache bearbeiten. Bitte beachten Sie, dass die Sprachumstellung erst nach Anlegen der Kategorie möglich ist.
+The language selection list at the bottom left of the input area allows you to edit category’s information and settings in another language directly. Please note that you can only change the language after the category has been created.
 
-:guilabel:`Aktiv` |br|
-Ein aktiviertes Kontrollkästchen bewirkt, dass die Kategorie im Shop angezeigt wird. Wenn eine Kategorie nicht aktiviert ist, ist sie in der Datenbank vorhanden, erscheint jedoch nicht im Shop.
+:guilabel:`Active` |br|
+Check the box to have the category displayed in the shop. If the category hasn’t been activated, it will be saved in the database but won’t be displayed in the shop.
 
-:guilabel:`Versteckt` |br|
-Wenn eine Kategorie versteckt ist, wird sie nicht angezeigt, auch wenn die Kategorie aktiv ist. Das Kontrollkästchen ist im Normalfall nicht angehakt. Eine versteckte Kategorie kann dafür verwendet werden, ausgesuchte Artikel für besondere Zuordnungen zu gruppieren. Das können beispielsweise spezielle Versandkosten oder Verkaufsaktionen sein.
+:guilabel:`Hidden` |br|
+If a category is hidden, it won’t be displayed even if it is active. Normally, you would leave this box unchecked. A hidden category can be used to group the selected products for special assignments, e.g. special shipping costs or sales promotions.
 
-:guilabel:`Titel` |br|
-Die Kategorie wird mit dem hier vergebenen Titel im Shop angezeigt. Der Titel der Kategorie sollte kurz und eindeutig sein. Er ist auch Teil der URL, über welche die Artikel aufgerufen werden.
+:guilabel:`Title` |br|
+The category will be displayed with this title in the shop. The title should be short and clear. It is also part of the URL that is used to access the products.
 
-:guilabel:`Kurzbeschreibung` |br|
-Die Kurzbeschreibung wird im Shop in der Kategorieansicht angezeigt. Sie sollte mit wenigen Worten über diese Kategorie und die darin angebotenen Artikel informieren.
+:guilabel:`Short Description` |br|
+The short description is displayed in the category view in the shop. It should inform the customer about this category and the offered products in a few words.
 
-:guilabel:`Unterkategorie von` |br|
-Hier kann eine übergeordnete Kategorie ausgewählt und zugeordnet werden. Durch die Zuordnung von Kategorien zueinander ist es möglich, eine Kategoriestruktur aufzubauen. Wenn die Kategorie keiner anderen Kategorie untergeordnet sein soll, dann wählen Sie :guilabel:`--` aus.
+:guilabel:`Subcategory of` |br|
+Here, you can select and assign a parent category. By assigning categories to each other, you can build a category structure. Select :guilabel:`--` if you don’t want to assign a parent category.
 
-:guilabel:`Sortierung` |br|
-Legt die Reihenfolge fest, in der Unterkategorien in einer Hauptkategorie angezeigt werden. Im Eingabefeld wird eine Zahl zwischen 0 und 9999 erwartet. Die Kategorie mit der kleinsten Zahl wird als erste Unterkategorie angezeigt, die mit der größten Zahl als letzte. Vermeiden Sie direkt aufeinanderfolgende Zahlen. Kommt einmal eine neue Unterkategorie hinzu, lässt diese sich gut einsortieren, ohne gleich die Sortierung aller anderen Unterkategorien ändern zu müssen.
+:guilabel:`Sorting` |br|
+Determines the order in which subcategories are displayed in a main category. Enter a number between 0 and 9999 in the input field. The category with the smallest number will be displayed as the first subcategory and the category with the largest number as the last subcategory. Make sure to avoid consecutive numbers. Once a new subcategory has been added, it can be sorted without having to change the sorting of all other subcategories.
 
-:guilabel:`Bild` |br|
-Dateiname des Kategoriebildes, welches in der Kategorieansicht als Banner angezeigt wird, sobald die Kategorie im Shop aufgerufen wird. Das Kategoriebild sollte ein Foto oder eine Grafik sein, welche die Kategorie optisch ansprechend präsentiert. Der Dateiname ist nach dem Hochladen des Kategoriebildes sichtbar.
+:guilabel:`Picture Name` |br|
+File name of the category image that is displayed as a banner in the category view when the category is accessed in the shop. The category image should be a photo or a graphic presenting the category in a visually appealing manner. The file name will be visible after uploading the category image.
 
-:guilabel:`Bild hochladen (max. 2 MB, max. 1500*1500 px)` |br|
-Mit der Schaltfläche :guilabel:`Durchsuchen...` wählen Sie das Kategoriebild aus. Es öffnet sich ein Dateidialog, mit dem Sie das Bild auf der lokalen Festplatte auswählen können. Drücken Sie auf :guilabel:`Speichern`, um das Bild auf den Server des Shops hochzuladen.
+:guilabel:`Upload Picture (max. 2 MB, max. 1500*1500 px)` |br|
+Click on :guilabel:`Browse...` to select the category image. You will see a file dialog where you can select the image on your local hard drive. Click on :guilabel:`Save` to upload the image to the shop’s server.
 
-Achten Sie darauf, dass die Datei nicht größer als 2 Megabyte ist bzw. das Foto eine maximale Auflösung von 1.500 mal 1.500 Bildpunkten hat. Für die Veränderung der Bildgröße während des Uploads zum Server beansprucht der PHP-Prozess nicht unerheblichen Arbeitsspeicher.
+Make sure that the file is not larger than 2 megabytes or that the photo has a maximum resolution of 1,500 by 1,500 pixels. The PHP process requires a considerable amount of memory to change the image size when uploading the file to the server.
 
 :guilabel:`Icon` |br|
-Das Icon wird verwendet, um die Kategorie in der Kategorieansicht als Unterkategorie anzuzeigen. Verwenden Sie :guilabel:`Icon hochladen` (max. 2 MB, max. 1500*1500 px), um die Datei auf der lokalen Festplatte auszuwählen. Auch hier wird nach dem erfolgreichen Hochladen der Dateiname angezeigt.
+The icon is used to display the category as a subcategory in the category view. Click on :guilabel:`Upload Icon (max. 2 MB, max. 1500*1500 px)` to select the file on your local hard drive. The file name will once again be displayed after the successful upload.
 
-:guilabel:`Bild für Startseite` |br|
-Dateiname des Kategoriebildes, welches als Aktion auf der Startseite angezeigt werden soll. Der Dateiname wird nach dem Hochladen des Kategoriebildes angezeigt.
+:guilabel:`Icon for promotions` |br|
+File name of the category image that should be displayed as a promotion on the start page. The file name will be displayed after uploading the category image.
 
-:guilabel:`Externer Link (z. B. http://www.example.com)` |br|
-Sie haben in OXID eShop die Möglichkeit, innerhalb des Navigationsmenüs auch auf externe Seiten zu verlinken. Hier können Sie einen Link eingeben, der geöffnet wird, wenn Benutzer auf die :guilabel:`Kategorie` klicken. Die externe Webseite öffnet sich im gleichen Browserfenster, der gleichen Registerkarte oder im gleichen Tab. Es wird dabei die Session-ID an die aufgerufene Webseite übergeben. Diese könnte beispielsweise von eine eigenentwickelten PHP-Seite übernommen und weiterverwendet werden.
+:guilabel:`External Link (e.g. http://www.example.com)` |br|
+OXID eShop also allows you to link to external pages within the navigation menu. Here, you can enter a link that opens when users click on :guilabel:`Category`. The external website opens in the same browser window or in the same tab. The session ID from the called-up website is then transferred. The ID could, for example, be imported from a PHP page developed in-house and reused later on.
 
-:guilabel:`Alternatives Template` |br|
-Im OXID eShop könnte jede Kategorie ein anderes Erscheinungsbild haben. Um bestimmte Kategorien anders als alle anderen im Shop zu präsentieren, kann ein eigenes Template zugewiesen werden. Tragen Sie hier dessen Pfad und Namen ein. Die Pfadangabe ist relativ zum Templateverzeichnis des verwendeten Themes.
+:guilabel:`Alt Template` |br|
+In OXID eShop, each category can have a different appearance. You can assign a separate template to present certain categories unlike any other in the shop. To do this, enter the template’s path and name here. The path is relative to the template directory of the theme used.
 
-Beispiel: Der Eintrag page/list/mylist.tpl würde beim Theme \"Flow\" das Template :file:`mylist.tpl` aus dem Verzeichnis :file:`/application/views/flow/tpl/page/list` aufrufen.
+Example: The page/list/mylist.tpl entry for the \"Flow\" theme would call up the :file:`mylist.tpl` template from the :file:`/application/views/flow/tpl/page/list` directory.
 
-:guilabel:`Schnellsortierung` |br|
-Für die Artikel einer Kategorie kann die Sortierung nach einem Artikelmerkmal eingestellt werden. In einer Dropdown-Liste kann ein bestimmtes Artikelmerkmal, wie beispielsweise :guilabel:`Titel`,:guilabel:` Preis` oder :guilabel:`Letzte Änderung` gewählt werden. Als Sortierreihenfolge lässt sich :guilabel:`asc` (aufsteigend) oder :guilabel:`desc` (absteigend) festlegen.
+:guilabel:`Fast Sorting` |br|
+Sorting by a certain product characteristic can be specified for products in a category. Use the drop-down list to select a particular product characteristic, such as :guilabel:`Title`,:guilabel:` Price` or :guilabel:`Last Modification`. You can sort in the :guilabel:`asc` (ascending) or in the :guilabel:`desc` (descending) order.
 
-:guilabel:`Preis von/bis (€)` |br|
-In einer Kategorie können alle Artikel angezeigt werden, die einen bestimmten Preis haben. Im ersten Eingabefeld wird die Untergrenze eingegeben, in das zweite Eingabefeld die Obergrenze. Damit haben Sie die Möglichkeit, preisabhängige Kategorien einzurichten. So lassen sich beispielsweise alle Artikel des Shops unter 10 Euro anzeigen.
+:guilabel:`Price from/to (€)` |br|
+Use this option to display all products with a certain price in a category. Enter the lower limit in the first input field and the upper limit in the second input field. This allows you to set price-based categories. For example, you can display all products in the shop that cost less than 10 euros.
 
-:guilabel:`Spez. MwSt.` |br|
-Für alle Artikel in dieser Kategorie kann ein spezieller Mehrwertsteuersatz gelten, der hier definiert wird.
+:guilabel:`Spec. VAT` |br|
+Use this option to define a special VAT rate that can apply to all products in this category.
 
-:guilabel:`Alle neg. Nachlässe ignorieren. (Rabatte, Gutscheine, Zahlungsarten ...)` |br|
-Ist diese Einstellung aktiv, werden für alle Artikel in dieser Kategorie keine negativen Nachlässe berechnet. Das sind vor allem Rabatte und Gutscheine, die damit für Artikel dieser Kategorie nicht gelten, ebenso wie negative Nachlässe bei Zahlungsarten (Skonto).
+:guilabel:`Skip all Negative Discounts (Discounts, Vouchers, Delivery ...)` |br|
+If this option is selected, no negative discounts will be calculated for all products in this category. These are mainly rebates and coupons that don’t apply to products of this category, as well as negative discounts on payment methods (cash discount).
 
-:guilabel:`In Sprache` |br|
-Die Kategorie lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.\\\
+:guilabel:`In Language` |br|
+The category can also be edited in other active languages of the shop. To do this, select the desired language from the list.
 
-:guilabel:`Artikel zuordnen` |br|
-Der Kategorie können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster.
+:guilabel:`Assign Products` |br|
+You can assign products to the category. Clicking on :guilabel:`Assign Products` opens a new window.
 
 .. image:: ../../media/screenshots/oxbabk02.png
-   :alt: Artikel zuordnen
+   :alt: Assigning products
    :class: with-shadow
    :height: 325
    :width: 400
 
-In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Kategorie zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the category. Hold down the Ctrl key to select multiple products.
 
-.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`
+.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Assigning products to categories <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Sorting products <../artikel-und-kategorien/sortierung-von-artikeln>`
 
 .. Intern: oxbabk, Status:, F1: category_main.html

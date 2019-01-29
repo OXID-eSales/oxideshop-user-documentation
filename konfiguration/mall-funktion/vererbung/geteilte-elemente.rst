@@ -1,16 +1,16 @@
-﻿Geteilte Elemente
+﻿Shared elements
 =================
 
-Geteilte Elemente sind Zahlungsarten, Länder, Benutzer, Benutzergruppen und Bewertungen. Diese werden in allen Shops verwendet und nur ein Administrator mit dem Recht \"Admin\" kann diese ändern. Administratoren der Subshops, Supershops oder Multishops haben dafür keine Berechtigung.
+Shared elements are payment methods, countries, users, user groups, and reviews. These are used in all shops and can only be changed by an administrator with the \"Admin\" right. Subshop, supershop or multishop administrators are not authorised to do so.
 
 .. image:: ../../../media/screenshots/oxbagr01.png
-   :alt: Länder im Subshop
+   :alt: Countries in the subshop
    :class: with-shadow
-   :height: 343
+   :height: 335
    :width: 650
 
-Benutzer werden nur mit allen Shops geteilt, wenn im Hauptshop die Option :guilabel:`Benutzer können sich in allen Shops einloggen` aktiviert ist. Ist diese Einstellung auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` nicht aktiv, verwaltet jeder Shop seine eigenen Benutzer.
+Users are only shared with all shops if the :guilabel:`Allow users from other shops` option is activated in the main shop. If this setting is not selected in the :guilabel:`Mall` tab under :menuselection:`Master Settings --> Core Settings`, each shop will manage its own users.
 
-.. seealso:: :doc:`Konfiguration <../../../konfiguration/konfiguration>` | :doc:`Zahlungsarten <../../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Benutzer <../../../betrieb/benutzer/benutzer>` | :doc:`Benutzergruppen <../../../betrieb/benutzergruppen/benutzergruppen>`
+.. seealso:: :doc:`Configuration <../../../konfiguration/konfiguration>` | :doc:`Payment methods <../../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Users <../../../betrieb/benutzer/benutzer>` | :doc:`User groups <../../../betrieb/benutzergruppen/benutzergruppen>`
 
 .. Intern: oxbagr, Status:

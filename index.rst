@@ -1,15 +1,15 @@
-User documentation
-==================
+﻿User Documentation
+=====================
 
 .. toctree::
    :maxdepth: 1
    :caption: OXID eShop
    
-   Willkommen <willkommen/index>
+   Welcome <willkommen/index>
    Installation <installation/index>
-   Konfiguration <konfiguration/index>
-   Einrichtung <einrichtung/index>
-   Betrieb <betrieb/index>
+   Configuration <konfiguration/index>
+   Setup <einrichtung/index>
+   Operation <betrieb/index>
    Releases <releases/index>
 
 .. |Home| image:: media/icons/home.png

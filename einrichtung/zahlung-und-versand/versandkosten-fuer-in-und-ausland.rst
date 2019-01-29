@@ -1,58 +1,58 @@
-﻿Versandkosten für In- und Ausland
+﻿Domestic and foreign shipping costs
 =================================
 
-Für den Versand von Waren in das Ausland fallen höhere Versandkosten, als für den Versand im Inland an. Dies lässt sich durch Versandkostenregeln abbilden, die nur für bestimmte Länder gültig sind.
+Shipping to foreign countries is subject to higher shipping costs than domestic shipping. This can be represented by shipping cost rules that are only valid for certain countries.
 
-Der Kunde entscheidet sich beim Kauf im Online-Shop für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Land, in das versendet werden soll) erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
+The customer selects a shipping method when buying something in the online shop. All shipping costs that belong to this shipping method will be processed. The system will check whether the specified condition (country of delivery) is met. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
 
-In den Versandkostenregeln werden die gültigen Länder zugeordnet.
+The valid countries are assigned by the shipping cost rules.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
-* Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
-* Betätigen Sie die Schaltfläche :guilabel:`Länder zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Länder per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+* Select the desired shipping cost rule from the list.
+* Click on :guilabel:`Assign Countries` in the :guilabel:`Main` tab.
+* Drag and drop the countries into the right-hand list of the assignment window.
+* Close the assignment window.
 
-.. hint:: Damit die Definition von Versand und Zahlung stringent ist, sollte die Länderzuordnung mit der in der zugehörigen Zahlungsart und der Versandart übereinstimmen. Wurde kein Land zugewiesen, gilt die Versandkostenregel immer für alle Länder.
+.. hint:: In order for the definition of shipping and payment to be stringent, the assignment of countries should match the one in the relevant payment and shipping method. If no country has been assigned, the shipping cost rule will always apply to all countries.
 
-Die Versandkostenregel wird einer Versandart zugeordnet.
+The shipping cost rule is assigned to a shipping method.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
-* Wählen Sie die Versandart aus der Liste der Versandarten.
-* Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Shop Settings --> Shipping Methods`.
+* Select the desired shipping method from the list.
+* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
+* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
+* Close the assignment window.
 
-.. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
+.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
 
-Beispiel
+Example
 --------
-Zwei Versandkostenregeln dienen als Beispiel für eine Lieferung mit höheren Versandkosten, wenn Artikel ins Ausland geliefert werden.
+Using two shipping rules as an example of a delivery with higher shipping costs when delivering products to foreign countries.
 
-Dafür werden zwei Versandkostenregeln erstellt, denen unterschiedliche Länder zugeordnet werden. Die eine ist für den Versand von Artikeln innerhalb von Deutschlands zum Preis von 3,90 €, die andere für die Lieferung nach Österreich und in die Schweiz für 6,90 €. Die Versandkostenregeln werden so definiert, dass die Berechnung nur einmal pro Warenkorb erfolgt. Länder müssen zugewiesen sein. Für die eine Versandkostenregel ist das Deutschland, für die andere sind das Österreich und die Schweiz. Die Versandkostenregeln müssen aktiv sein.
+Create two shipping rules with different countries assigned to them. One is for shipping products within Germany for €3.90, and the other one is for shipping products to Austria and Switzerland for €6.90. The shipping cost rules for the calculation are defined so that they take place only once per shopping cart. Assign the countries to the shipping rules: Germany for the first one and Austria and Switzerland for the second one. Activate the shipping cost rules.
 
 .. image:: ../../media/screenshots/oxbafx01.png
-   :alt: Versandkostenregel für Deutschland
+   :alt: Shipping cost rule for Germany
    :class: with-shadow
    :height: 341
    :width: 650
 
-Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Sollen die Artikel nach Deutschland geliefert werden, greift die erste Versandkostenregel.
+Assign shipping cost rules to a shipping method. If the customer selects this shipping method when purchasing a product, all associated shipping cost rules will be checked. If the products have to be delivered to Germany, the first shipping cost rule will apply.
 
 .. image:: ../../media/screenshots/oxbafx02.png
-   :alt: Warenkorb mit Lieferung nach Deutschland
+   :alt: Shopping cart with delivery to Germany
    :class: with-shadow
    :height: 261
    :width: 550
 
-Wurden Artikel eingekauft, die nach Österreich geliefert werden, gilt die zweite Versandkostenregel.
+If the customer buys products that have to be delivered to Austria, the second shipping cost rule will apply.
 
 .. image:: ../../media/screenshots/oxbafx03.png
-   :alt: Warenkorb mit Lieferung nach Österreich
+   :alt: Shopping cart with delivery to Austria
    :class: with-shadow
    :height: 261
    :width: 550
 
-.. seealso:: :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Shipping cost rules - Main tab <../versandkostenregeln/registerkarte-stamm>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
 
 .. Intern: oxbafx, Status:

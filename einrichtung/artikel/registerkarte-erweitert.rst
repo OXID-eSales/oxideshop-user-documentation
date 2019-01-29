@@ -1,116 +1,116 @@
-﻿Registerkarte Erweitert
+﻿Extended tab
 =======================
-Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigenschaften von Artikeln festzulegen und ihnen Informationsquellen, wie beispielsweise Dokumente, Videos oder Audiodateien hinzuzufügen.
+The :guilabel:`Extended` tab allows you to set specific product characteristics and add sources of information, such as documents, videos, or audio files.
 
 .. image:: ../../media/screenshots/oxbacj01.png
-   :alt: Artikel - Registerkarte Erweitert
+   :alt: Products - Extended tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-:guilabel:`Gewicht` |br|
-Ein hier eingetragenes Gewicht wird bei der Berechnung der Versandkosten berücksichtigt. Die Maßeinheit für das Gewicht ist Kilogramm.
+:guilabel:`Weight` |br|
+Weight entered here is taken into account in the calculation of shipping costs. It’s measured in kilograms.
 
-:guilabel:`Maße L:` ... :guilabel:`m B:` ... :guilabel:`m H:` ... :guilabel:`m` |br|
-Geben Sie Länge, Breite und Höhe des Artikels in Metern an, wenn die Versandkosten bezogen auf die Maße berechnet werden sollen.
+:guilabel:`Dimensions L:` ... :guilabel:`m W:` ... :guilabel:`m H:` ... :guilabel:`m` |br|
+Enter product’s length, width and height in meters if the shipping costs must be calculated based on product dimensions.
 
-:guilabel:`Menge` ... :guilabel:`Mengeneinheit` |br|
-Die Angabe von Menge und Mengeneinheit wird für Artikel benötigt, für welche ein Grundpreis angegeben werden muss. Der Grundpreis ist der Preis bezogen auf eine bestimmte Mengeneinheit wie Kilogramm oder Liter. Hinterlegen Sie hier die Menge des Artikels je Mengeneinheit. Wählen Sie eine Mengeneinheit aus der Liste oder tragen Sie eine Mengeneinheit ein, die nicht in der Liste zu finden ist.
+:guilabel:`Quantity` ... :guilabel:`Unit` |br|
+Specifying quantity and unit of measure is required for products for which a base price must be specified. The base price is the price relative to a specific unit of measure, such as kilograms or litres. Enter the product quantity per unit of measure. You can select a unit of measure from the list or enter a unit of measure that’s not in the list.
 
-Der Grundpreis wird in der Detailansicht des Artikels angezeigt.
+The base price will be displayed in the product’s detailed view.
 
-Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen Sie 1,5 bei Menge ein und wählen :guilabel:`kg` als Mengeneinheit. Angenommen, der Artikel hat einen Preis von 3 €, wäre der Grundpreis 2 €/kg.
+Example: For a product that is offered in a 1.5 kg package, enter 1.5 in the Quantity field and select :guilabel:`kg` as the unit of measure. Assuming the product costs €3.00, the base price would be €2.00/kg.
 
-:guilabel:`Externe URL` |br|
-Link auf eine externe Internetseite, beispielsweise die Website des Herstellers, mit weiterführenden Informationen zum Artikel.
+:guilabel:`External URL` |br|
+Link to an external website, such as the manufacturer's website, with additional information about the product.
 
-:guilabel:`Text für ext. URL` |br|
-Haben Sie auf eine externe Internetseite verlinkt, wird hier der Text für den Link eingetragen. Der Text wird, verlinkt mit der externen URL, in der Detailansicht des Artikels am Ende der Beschreibung angezeigt.
+:guilabel:`Text for external URL` |br|
+If you have added a link to an external website, you will need to enter the text for the link here. This text will be displayed in the product’s detailed view, together with the link to the external URL, at the end of the description.
 
-:guilabel:`Einkaufspreis (€)` ... :guilabel:`UVP` ... |br|
-Sie können hier den Einkaufspreis des Artikels erfassen. Dieser wird nicht im Shop angezeigt, kann aber sinnvoll für zu erstellende Auswertungen sein.
+:guilabel:`Purchase Price (€)` ... :guilabel:`RRP` ... |br|
+Enter the product’s purchase price here. It won’t be displayed in the shop but can be useful for future analyses.
 
-Über den UVP (Unverbindlicher Verbraucherpreis) haben Sie die Möglichkeit, einen Artikel günstiger anzubieten, als der Hersteller empfiehlt. Ist der UVP, also die Herstellervorgabe, größer als der Artikelpreis, wird in der Detailansicht des Artikels die normale Preisangabe um ein \"Statt\" mit durchgestrichenem UVP ergänzt.
+RRP (Recommended Retail Price) allows you to offer products at a lower price than the manufacturer recommends. If the RRP, i.e., the price specified by the manufacturer, is greater than the product price, the normal price indication in the detailed view of the article is supplemented by a \"Statt\" with a crossed out RRP.
 
-:guilabel:`Datei` |br|
-Nach dem Hochladen einer Datei, steht hier deren Dateiname. Durch Löschen des Dateinamens und anschließendem Speichern wird diese Datei wieder aus der Detailansicht des Artikels in der Registerkarte :guilabel:`MEDIEN` entfernt.
+:guilabel:`File` |br|
+After you upload a file, the file name will be displayed here. Deleting the file name and then saving will remove this file from the product’s detailed view in the :guilabel:`MEDIA` tab.
 
-:guilabel:`Datei hochladen (max. 2 MB)` |br|
-Eine zusätzliche Datei zum Artikel, beispielsweise ein Datenblatt oder eine Bedienungsanleitung, lässt sich hier hochladen. Nach dem Speichern steht der Dateiname im Eingabefeld :guilabel:`Datei`. Die Datei kann in der Detailansicht des Artikels, Registerkarte :guilabel:`MEDIEN` heruntergeladen werden. Um mehrere Dateien bereitzustellen und auch eine Beschreibung anstatt nur des Dateinamens zu haben, verwenden Sie bitte :guilabel:`Mediendateien`.
+:guilabel:`File Upload: (max. 2 MB)` |br|
+Here, you can upload an additional file for the product, for example, a datasheet or a user manual. After saving, the file name will be displayed in the :guilabel:`File` input field. The file can be downloaded in the :guilabel:`MEDIA` tab in the product’s detailed view. Use the :guilabel:`Media URLs` field to add multiple files and a description instead of just the file name.
 
 :guilabel:`Alt. Template` |br|
-Die Detailansicht des Artikels kann von der anderer Artikel abweichen, um ihn mit einer besonderen Aufmachung zu präsentieren. Grundlage dessen ist ein eigens dafür erstelltes Template, dessen Pfad und Namen hier eingetragen werden kann. Die Pfadangabe ist relativ zum Templateverzeichnis des verwendeten Themes.
+You can change the product’s detailed view to present it differently from the other products in the shop. To do this, you will need to use a specially created template whose path and name can be entered here. The path is relative to the template directory of the theme used.
 
-Beispiel: Der Eintrag page/details/mydetails.tpl würde beim Theme \"Flow\" das Template :file:`mydetails.tpl` aus dem Verzeichnis :file:`/application/views/flow/tpl/page/details` aufrufen.
+Example: The page/details/mydetails.tpl entry for the \"Flow\" theme would call the :file:`mydetails.tpl` template from the :file:`/application/views/flow/tpl/page/details` directory.
 
-:guilabel:`Alt. Anspr.partn.` |br|
-Standardmäßig werden Fragen, die ein Kunde über die Detailansicht eines Artikels als E-Mail senden kann, an die E-Mail-Adresse geschickt, die unter :menuselection:`Stammdaten --> Grundeinstellungen` für die Info definiert wurde. Soll für einen bestimmten Artikel ein direkter Ansprechpartner zuständig sein, tragen Sie dessen E-Mail-Adresse hier ein. Alle Anfragen zum Artikel werden direkt an diesen Mitarbeiter versandt.
+:guilabel:`Alt. Contact` |br|
+By default, questions that customers can send via email through the product’s detailed view are sent to the email address specified under :menuselection:`Master Settings --> Core Settings`. If you have a direct contact person for a specific product, you will need to enter his/her email address here. All product-related enquiries will be sent directly to this employee.
 
-:guilabel:`Kann gesucht werden` |br|
-Das Kontrollkästchen ist standardmäßig aktiviert, damit Artikel durch die Suche im Shop gefunden werden können. Es kann manchmal auch sinnvoll sein, dass ein Artikel im Shop nicht zu finden ist. Ein Beispiel dafür ist ein Gratisartikel, der beim Kauf eines Artikels dazugegeben wird. Dieser sollte ja nicht mehrfach in den Warenkorb gelegt werden können.
+:guilabel:`Searchable` |br|
+This checkbox is selected by default so that customers can search for products in the shop. However, sometimes you might not want them to be able to search for a certain product in the shop, for example, if this is a free product that is added when they purchase something else. This needs to be done to prevent them from adding this product to the shopping cart multiple times.
 
-:guilabel:`Artikel ist individualisierbar` |br|
-Bei aktiviertem Kontrollkästchen wird ein zusätzliches Eingabefeld auf der Detailseite des Artikels und im Warenkorb angezeigt. Kunden können Text in dieses Eingabefeld eingeben, um beim Kauf eine individuelle Information zu übermitteln. Das könnte Text sein, der auf ein T-Shirt, eine Tasse gedruckt oder in einen Ring graviert wird.
+:guilabel:`Product can be customized` |br|
+If this box is checked, an additional input field will be displayed on the product’s details page and in the shopping cart. Customers can enter text in this input field to provide individual information when purchasing products. This could be the text that is printed on a T-shirt or a mug or an engraved in a ring.
 
-:guilabel:`Immaterieller Artikel` |br|
-Als immateriell wird ein Artikel gekennzeichnet, der kein Gegenstand ist, der nicht verpackt und an den Kunden geschickt wird. Das können beispielsweise Seminare oder Dienstleistungen sein. Sollen für alle immateriellen Artikel keine Versandkosten berechnet werden, dann muss :guilabel:`Nicht materielle Produkte nicht in die Berechnung der Versandkosten einbeziehen` in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen` aktiviert sein.
+:guilabel:`Intangible Product` |br|
+Intangible products are products that are not packaged and sent to customers, for example, seminars or services. If no shipping costs have to be calculated for all intangible products, you will need to select :guilabel:`Don't consider intangible Products (e.g. Gift Certificates) in Shipping Costs Calculation` in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Other settings`.
 
-Wenn Sie Software anbieten wollen, verwenden Sie bitte die Funktion \"Download-Artikel\".
+If you want to offer software, please use the \"Downloadable product\" function.
 
-:guilabel:`Versandkostenfrei` |br|
-Der Artikel wird bei der Versandkostenberechnung nicht berücksichtigt, wenn das Kontrollkästchen angehakt ist. Befindet sich dieser Artikel mit anderen Artikeln im Warenkorb, bedeutet das jedoch nicht, dass damit der gesamte Einkauf versandkostenfrei wird.
+:guilabel:`Free Shipping` |br|
+If this box is checked, the product won’t be included in the shipping cost calculation. However, even when this product is added to the shopping cart together with other products, this doesn’t mean that the entire order will ship for free.
 
-:guilabel:`Preisalarm deaktivieren` |br|
-In der Detailansicht eines Artikels können Kunden den Preisalarm nutzen, indem Sie einen Preis eintragen, zu dem sie den Artikel kaufen würden.
+:guilabel:`Deactivate Price Alert` |br|
+Customers can use the price alert in the product’s detailed view by entering a price at which they would buy the product.
 
-Im Administrationsbereich werden unter :menuselection:`Kundeninformationen --> Preisalarm` die Kundenanfragen gesammelt. Der Shopbetreiber kann den Kunden per E-Mail, die vom Shop vorbereitet wurde, informieren, sobald dieser Wunschpreis erreicht wird. Schalten Sie die Funktion Preisalarm hier für einen bestimmten Artikel ab.
+Customer enquiries are collected under :menuselection:`Customer Info --> Price Alert` in the Admin panel. The shop owner can notify the customer by email, prepared by the shop, once the desired price has been reached. Use this field to turn off the price alert function for a specific product.
 
-:guilabel:`Alle neg. Nachlässe ignorieren.` |br|
-Wenn das Kontrollkästchen aktiviert ist, werden für diesen Artikel keine negativen Nachlässe, wie Rabatte und Gutscheine, berechnet.
+:guilabel:`Skip all negative Discounts (Discounts, Vouchers, Delivery ...)` |br|
+If this box is checked, no negative discounts, such as discounts and coupons, will be calculated for this product.
 
-:guilabel:`AGB bestätigen` |br|
-Nach der am 13. Juni 2014 in Kraft getretenen europäischen Verbraucherrechterichtlinie muss der Benutzer bei Dienstleistungen (immaterielle Artikel) und bei Download-Artikeln dem Wegfall des Widerrufsrechts zustimmen. Dafür wird im vierten Schritt des Bestellvorgangs ein nicht vorausgewähltes Kontrollkästchen mit entsprechendem Hinweis angezeigt. Die Funktion muss generell in :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Einstell.` unter :guilabel:`Bestellungen` aktiviert sein.
+:guilabel:`Confirm terms and conditions` |br|
+According to the EU Consumer Rights Directive, which came into force on 13 June 2014, the user must agree to waive the right of withdrawal for services (intangible products) and downloadable products. For this purpose, a check box that hasn’t been preselected will be displayed with a corresponding message in the fourth step of the ordering process. In general, this function must be activated under :guilabel:`Order` in the :guilabel:`Settings` tab, under :menuselection:`Master Settings --> Core Settings`.
 
-:guilabel:`Artikel dazu` |br|
-Mit dieser Schaltfläche können Sie dem Artikel einen kostenlosen Artikel zuordnen. Dieser wird beim Einkauf des Artikels mit in den Warenkorb gelegt.
+:guilabel:`Bundled Product` |br|
+Use this button to assign a free product to the selected product. It will be added to the shopping cart when customers purchase the product.
 
-.. hint:: Diese Funktion ist derzeit nur für die Community und Professional Edition verfügbar.
+.. hint:: This function is currently available only for Community and Professional Edition.
 
-:guilabel:`In Sprache` |br|
-Der Artikel lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
+:guilabel:`In Language` |br|
+The product can also be edited in other active languages of the shop. To do this, select the desired language from the list.
 
-:guilabel:`Kategorien zuordnen` |br|
-Ein Artikel kann zu einer oder zu mehreren Kategorien gehören. Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster.
+:guilabel:`Assign Categories` |br|
+A product can belong to one or more categories. Clicking on :guilabel:`Assign Categories` opens a new window.
 
 .. image:: ../../media/screenshots/oxbacj02.png
-   :alt: Kategorien zuordnen
+   :alt: Assign Categories
    :class: with-shadow
    :height: 314
    :width: 400
 
-In diesem Zuordnungsfenster werden in der linken Liste alle Kategorie angezeigt. Die Kategorien können per Drag \& Drop in die rechte Liste verschoben werden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Damit ist die Zuordnung abgeschlossen. Ist der Artikel in mehreren Kategorien vorhanden, muss eine davon als Hauptkategorie festgelegt werden, um Duplicate Content (DC) zu vermeiden. Markieren Sie die Hauptkategorie in der rechten Liste und drücken Sie die Schaltfläche :guilabel:`Als Hauptkat. setzen`.
+All available categories will be displayed in the left-hand list. Drag and drop the desired categories into the right-hand list of the assignment window. Hold down the Ctrl key to select multiple categories. The assignment is now completed. If the product exists in multiple categories, one of them must be set as the main category to avoid duplicate content (DC). Highlight the main category in the right-hand list and click on :guilabel:`Set as Main Category`.
 
-:guilabel:`Mediendateien` |br|
-Zu einem Artikel können zusätzliche Informationen in Form von Links oder Downloads in dessen Detailansicht bereitgestellt werden. Diese werden in der automatisch erstellten Registerkarte :guilabel:`MEDIEN` angezeigt. Es kann mehrere Mediendateien zu einem Artikel geben.
+:guilabel:`Media URLs` |br|
+You can provide additional information, such as links or downloads, in the product’s detailed view. These will be displayed in the automatically created :guilabel:`MEDIA` tab. You can also add multiple media files for a product.
 
-:guilabel:`Mediendateien` - :guilabel:`Beschreibung` |br|
-Tragen Sie hier die Beschreibung für die Mediendatei ein.
+:guilabel:`Media URLs` - :guilabel:`Description` |br|
+Enter the description for the media file.
 
-:guilabel:`Mediendateien` - :guilabel:`Existierende Medien URL angeben (PDF, Film, mp3 oder YouTube!)` |br|
-Geben Sie hier die URL ein, mit der die Mediendatei aufgerufen werden kann.
+:guilabel:`Media URLs` - :guilabel:`Enter existing media URL (external PDF, movie, mp3 or YouTube!)` |br|
+Enter the URL to access the media file.
 
-:guilabel:`Mediendateien` - :guilabel:`ODER Datei hochladen (große Dateien sollten per FTP hochgeladen werden) (Dateiname darf ausschließlich Buchstaben, Zahlen, Unterstrich (_) und Punkt enthalten.` |br|
-Laden Sie eine Datei hoch, die dem Kunden in der Detailansicht des Artikels auf der Registerkarte :guilabel:`MEDIEN` zum Download angeboten wird.
+:guilabel:`Media URLs` - :guilabel:`Or upload the file (large files should be uploaded via ftp) (file name may only contain letters, numbers, underscore (_) and dot (.))` |br|
+Upload a file that will be available for download to the customer in the :guilabel:`MEDIA` tab of the product’s detailed view.
 
-:guilabel:`Preis zur festgesetzten Zeit aktualisieren` |br|
-Die Preise eines Artikels können zu einem festgelegten Zeitpunkt geändert werden. Es lassen sich Datum und Zeitpunkt festlegen, ab dem die definierten Standardpreise aktualisiert werden sollen.
+:guilabel:`Update price at defined time` |br|
+The prices of a product can be changed at a set time. You can set the date and time when the defined default prices should be updated.
 
-:guilabel:`Preis zur festgesetzten Zeit aktualisieren` - :guilabel:`Basispreis (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C` ... |br|
-Tragen Sie die Preise ein, welche die bisher festgelegten Preise ersetzen sollen. Hat ein Preis den Wert \"0\", wird er nicht aktualisiert.
+:guilabel:`Update price at defined time` - :guilabel:`Base price (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C` ... |br|
+Enter the prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
 
-:guilabel:`Preis zur festgesetzten Zeit aktualisieren` - :guilabel:`Startzeit` |br|
-Legen Sie hier den Zeitpunkt der Preisaktualisierung fest.
+:guilabel:`Update price on defined time` - :guilabel:`Start time` |br|
+Set the time for the price update.
 
-.. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`
+.. seealso:: :doc:`Categories <../kategorien/kategorien>` | :doc:`Assigning products to categories <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Product’s main category <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Price per unit (base price) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Add-on product <../../betrieb/rabatte/artikel-als-zugabe>`
 
 .. Intern: oxbacj, Status:, F1: article_extend.html

@@ -1,40 +1,40 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
 
-Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versandart zur Verfügung. Es können Versandkostenregeln und Länder zugewiesen werden.
+The :guilabel:`Main` tab contains several settings for the shipping method. Shipping cost rules and countries can be assigned here.
 
 .. image:: ../../media/screenshots/oxbade01.png
-   :alt: Versandarten - Registerkarte Stamm
+   :alt: Shipping methods - Main tab
    :class: with-shadow
    :height: 342
    :width: 650
 
 :guilabel:`Name` |br|
-Tragen Sie hier die Bezeichnung der Versandart ein. Diese wird dem Kunden im Bestellschritt 3 angezeigt. Sind mehrere Versandarten gültig, muss eine davon aus einer Dropdown-Liste ausgewählt werden.
+Enter the name of the shipping method. It will be displayed to the customer in ordering step 3. If multiple shipping methods are valid, one of them must be selected from a drop-down list.
 
-:guilabel:`Aktiv` |br|
-Ein Häkchen in diesem Kontrollkästchen bewirkt, dass die Versandart aktiv ist und verwendet werden kann.
+:guilabel:`Active` |br|
+Check this box to make the shipping method active and useable.
 
-:guilabel:`Oder aktiv` |br|
-Legen Sie hier einen Zeitraum fest, in dem die Versandart aktiv sein soll. Das Eingabeformat ist dabei JJJJ-MM-TT HH:MM:SS. Damit der Zeitraum berücksichtigt wird, darf :guilabel:`Aktiv` nicht angehakt sein.
+:guilabel:`Active for a period` |br|
+Specify a time period when the shipping method should be active. The input format should be YYY-MM-DD HH:MM:SS. To have the time period applied, don’t check the :guilabel:`Active` box.
 
-:guilabel:`Sortierung` |br|
-Die Sortierung legt die Reihenfolge der Versandarten in der Dropdown-Liste fest. Die Versandart mit der kleinsten Zahl steht als erste zur Auswahl und ist damit vorausgewählt.
+:guilabel:`Sorting` |br|
+Sorting determines the order in which shipping methods appear in the drop-down list. The shipping method with the smallest number will be listed first and preselected.
 
-:guilabel:`In Sprache` |br|
-Die Versandart kann in weiteren aktiven Sprachen des Shops bearbeitet werden. Wählen Sie eine Sprache aus der Dropdown-Liste aus.
+:guilabel:`In Language` |br|
+The shipping method can be edited in other active languages of the shop. To do this, select the desired language from the drop-down list.
 
-:guilabel:`Kopieren` |br|
-Bevor eine Versandart in einer weiteren aktiven Sprache bearbeitet werden kann, muss sie kopiert werden. Wählen Sie die Sprache aus der Dropdown-Liste aus und drücken Sie die Schaltfläche :guilabel:`Kopieren`. Ist keine weitere aktive Sprache im Shop vorhanden, wird diese Schaltfläche nicht angezeigt.
+:guilabel:`Copy to` |br|
+You will need to copy a shipping method before it can be edited in another active language. To do this, select the language from the drop-down list and click on :guilabel:`Copy to`. This button won’t be displayed if there are no other active languages in the shop.
 
-:guilabel:`Versandkostenregeln zuordnen` |br|
-Der Versandart muss mindestens eine Versandkostenregel zugeordnet sein. Die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Versandkostenregeln angezeigt. Versandkostenregeln lassen sich nach Titel, Kosten und/oder Typ (absoluter oder prozentualer Preis) filtern sowie auf- und absteigend sortieren. Verschieben Sie die Versandkostenregeln per Drag \& Drop in die rechte Liste. Die Zuordnung ist damit abgeschlossen.
+:guilabel:`Assign Shipping Cost Rules` |br|
+You will need to assign at least one shipping cost rule to the shipping method. Clicking on :guilabel:`Assign Shipping Cost Rules` opens a new window. All available shipping cost rules will be displayed in the left-hand list. Shipping cost rules can be filtered by title, cost and/or type (absolute or percentage price) and sorted in the ascending or descending order. Drag and drop the shipping cost rules into the right-hand list to complete the assignment.
 
-:guilabel:`Länder zuordnen` |br|
-Der Versandart sollten Länder zugeordnet werden, um eindeutige Zahlungs- und Versandbedingungen zu haben. Wurden Länder zugewiesen und ein Kunde bestellt aus einem Land, dem keine Versandart zugewiesen wurde, erhält er den Hinweis: \"Derzeit ist keine Versandart für dieses Land definiert. Wir werden versuchen, Liefermöglichkeiten zu finden und Sie über die Versandkosten informieren.\". Die Zahlungsarten werden ihm nicht angezeigt.
+:guilabel:`Assign Countries` |br|
+Assigning countries to the shipping method ensures clear payment and shipping conditions. If countries have been assigned and a customer places an order from a country to which no shipping method has been assigned, he/she will receive the following notification: \"No shipping method has been defined for this country. We will try to find delivery options and inform you about shipping costs.\". The payment methods won’t be displayed to the customer.
 
-Ohne Länderzuordnung gilt die Versandart für alle Länder.
+If no country has been assigned, the shipping method will apply to all countries.
 
-Mit der Schaltfläche :guilabel:`Länder zuordnen` wird ein neues Fenster geöffnet, in dem in dessen linker Liste alle aktiven Länder angezeigt werden. Länder lassen sich nach Titel und/oder der Länderabkürzung (ISO Alpha 2) sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung zur Versandart ist damit abgeschlossen.
+Clicking on :guilabel:`Assign Countries` opens a new window with all active countries displayed in the left-hand list. Countries can be sorted and filtered by title and/or country abbreviation (ISO Alpha 2). Drag the desired countries into the right-hand list using the mouse. Hold down the Ctrl key to select multiple countries. The assignment to the shipping method is now completed.
 
 .. Intern: oxbade, Status:, F1: deliveryset_main.html

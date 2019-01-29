@@ -1,6 +1,6 @@
-﻿Über die Anwenderdokumentation
+﻿About the User Documentation
 ==============================
 
-Diese Anwenderdokumentation stellt für Shopbetreiber, Shopadministratoren und Techniker Informationen zum OXID eShop 6.1 bereit. Die Informationen umfassen Themen, wie Neuinstallation und Update, Konfiguration, Einrichtung und Betrieb des OXID eShop.
+The User Documentation provides shop owners, shop administrators and engineers with information about OXID eShop 6.1. This includes reinstallation and update, configuration, setup and operation of OXID eShop.
 
 .. Intern: oxbaaa, Status:

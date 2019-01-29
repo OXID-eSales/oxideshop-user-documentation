@@ -1,71 +1,71 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
-Die Registerkarte :guilabel:`Stamm` nimmt wichtige Informationen zum Artikel auf. Erstellen oder bearbeiten Sie hier einen Artikel. Wenn Sie einen Artikel neu anlegen, können Sie ihn direkt einer Kategorie zuzuordnen. Verwenden Sie dafür die Dropdown-Liste :guilabel:`In Kategorie` am unteren Ende des Eingabebereichs. Nach dem Speichern des Artikels ist die schnelle Zuordnung der Kategorie auf dieser Registerkarte nicht mehr möglich.
+The :guilabel:`Main` tab contains important information about the product. This is where you can create or edit a product. When you create a product, you can assign it to a category directly. To do this, use the :guilabel:`In Category` drop-down list at the bottom of the input area. After saving the product, the quick assignment to a category in this tab will no longer be possible.
 
 .. image:: ../../media/screenshots/oxbaci01.png
-   :alt: Artikel - Registerkarte Stamm
+   :alt: Products - Main tab
    :class: with-shadow
    :height: 346
    :width: 650
 
-Mit der Sprachumstellung, die erst nach Anlegen des Artikels unten im Eingabebereich angezeigt wird, lassen sich die Informationen und Einstellungen zum Artikel direkt in einer weiteren Sprache bearbeiten.
+Use the language drop-down list displayed in the input area after creating a product to edit the information and settings for the product directly in another language.
 
-:guilabel:`Aktiv` |br|
-Aktivieren Sie dieses Kontrollkästchen, damit der Artikel im Shop angezeigt wird. Wenn ein Artikel nicht aktiviert wurde, ist er in der Datenbank vorhanden, erscheint jedoch nicht im Shop.
+:guilabel:`Active` |br|
+Check this box to have the product displayed in the shop. If the product hasn’t been activated, it will be saved in the database but won’t be displayed in the shop.
 
-:guilabel:`Versteckt` |br|
-Wenn dieses Kontrollkästchen aktiviert ist, wird der Artikel nicht im Shop-Frontend angezeigt, ist aber mit einem direkten Link aufrufbar. Dadurch kann der Artikel im Shop gefunden werden, auch wenn er momentan oder gar nicht mehr angeboten wird, der Link aber noch in den Suchmaschinen gelistet ist.
+:guilabel:`Hidden` |br|
+If this box is checked, the product won’t be displayed in the shop front end but can still be accessed with a direct link. This way, you can find the product in the shop even if it is currently or no longer available but the link is still listed in the search engines.
 
-:guilabel:`Oder aktiv von` ... :guilabel:`bis` ... |br|
-Es kann ein Zeitraum definiert werden, in dem ein Artikel aktiv ist. Auf diese Weise lässt sich beispielsweise ein Angebot umsetzen, das nur für eine bestimmte Zeit gültig sein soll. Anfang und Ende müssen im Format JJJJ-MM-TT HH:MM:SS angegeben werden. Datum und Zeit des Endes der Aktivierung sind nicht optional. Wollen Sie einen Artikel im Grunde nur ab einem bestimmten Datum aktiv schalten, geben Sie einfach eine weit in der Zukunft liegende Endezeit ein.
+:guilabel:`Or active from` ... :guilabel:`to` ... |br|
+You can define a time period when a product will be active. This allows you, for example, to use an offer that will only be valid for a certain period of time. The start and end must be specified in the YYYY-MM-DD HH:MM:SS format. Date and time of the end of activation are mandatory. If you just want to activate a product from a certain date, simply enter an end time far in the future.
 
-.. hint:: Damit diese Einstellung auf der Registerkarte sichtbar ist, muss :guilabel:`Beim Laden von Artikeln \"Aktiv von/bis\" berücksichtigen` unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Perform.` aktiv sein. Zusätzlich darf das Kontrollkästchen :guilabel:`Aktiv` beim Artikel nicht angehakt sein.
+.. hint:: In order for this setting to be visible in the tab, you will need to select :guilabel:`Check \"Active From/To\" when loading Products` under :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Perform.` tab. In addition, the :guilabel:`Active` box for the product must not be checked.
 
-:guilabel:`Titel` |br|
-Der Artikel wird mit diesem Titel im Shop angezeigt. Vergeben Sie prägnante Artikeltitel mit genauen Informationen. Das ist informativ für die Besucher des Shops und gleichermaßen interessant für Suchmaschinen.
+:guilabel:`Title` |br|
+The product will be displayed with this title in the shop. Make sure to use concise product titles with accurate information. This is informative for the shop visitors and equally interesting for search engines.
 
-:guilabel:`Art.-Nr.` |br|
-Versehen Sie den Artikel mit einer eindeutigen Artikelnummer. Diese wird dem Kunden im Shop in der Detailansicht des Artikels angezeigt. Darüber ist der Artikel auch suchbar. Wie die Artikelnummer aufgebaut sein muss, ist nicht vorgeschrieben. Das hängt von der Anzahl der Artikel ab oder aber auch davon, ob die Artikelnummer beispielsweise durch ein Warenwirtschaftssystem vorgegeben wird.
+:guilabel:`Prod.No.` |br|
+Make sure to use a unique number for the product. It will be displayed to the customer in the product’s detailed view in the shop. It can also be used to search for products. There are no requirements for the structure of the product number as it depends on the number of products as well as on whether the product number is specified by a merchandise management system.
 
 :guilabel:`EAN` |br|
-Eindeutige Produktkennzeichnung, welche hier hinterlegt werden kann. Für Europa ist dies die `Europäische Artikelnummer (EAN) <http://de.wikipedia.org/wiki/European_Article_Number>`_ . In Amerika ist es der `Universal Product Code (UPC) <http://de.wikipedia.org/wiki/Universal_Product_Code>`_ und in Japan die Japanese Article Number (JAN). Das Feld kann auch die `Internationale Standardbuchnummer (ISBN) <http://de.wikipedia.org/wiki/ISBN>`_ aufnehmen.
+Unique product identifier that can be entered here. In Europe this is the `European Article Number (EAN) <http://de.wikipedia.org/wiki/European_Article_Number>`_ . In the United States this is the `Universal Product Code (UPC) <http://de.wikipedia.org/wiki/Universal_Product_Code>`_ and in Japan the Japanese Article Number (JAN). This field can also contain the `International Standard Book Number (ISBN) <http://de.wikipedia.org/wiki/ISBN>`_ .
 
-:guilabel:`Hersteller EAN` |br|
-Zusatzfeld für eine weitere Kategorisierung des Artikels, beispielsweise die EAN-Identifizierung des Herstellers (Zahlen 4 bis 7 des Barcodes).
+:guilabel:`Man. EAN` |br|
+Additional field for further categorisation of the product, for example, the manufacturer's EAN identification (numbers 4 to 7 of the barcode).
 
-:guilabel:`Hersteller-Artikelnummer (MPN)` |br|
-MPN (Manufacturer's Part Number). Nummer, welche dem Artikel eindeutig einem Hersteller zuordnet.
+:guilabel:`Manufacturer’s part number (MPN)` |br|
+MPN (Manufacturer's Part Number). Number that uniquely assigns the product to a manufacturer.
 
-:guilabel:`Kurzbeschr.` |br|
-Beschreiben Sie den Artikel mit wenigen Worten. Die Kurzbeschreibung wird in der Detailansicht des Artikels zusammen mit Titel, Artikelnummer, Preis und Artikelbild angezeigt. Diese Informationen charakterisieren den Artikel und der Kunde kann sie auf einen Blick erfassen.
+:guilabel:`Short Descr.` |br|
+Describe the product in a few words. The short description is displayed in the product’s detailed view together with the title, product number, price and product image. This information characterises the product and the customer can see it at a glance.
 
-:guilabel:`Suchbegriffe` |br|
-Geben Sie hier Begriffe ein, mit welchen der Artikel im Shop gesucht werden kann. Ergänzen Sie dabei die im Titel und in der Beschreibung eines Artikels vorkommenden Wörter und verwenden Sie Verallgemeinerungen. So finden Kunden auch Artikel im Shop, wenn sie nach einem Begriff suchen, der weder im Titel noch in der Beschreibung eines Artikels enthalten ist. Trennen Sie mehrere Suchbegriffe durch Leerzeichen oder Komma.
+:guilabel:`Search Terms` |br|
+Enter terms that can be used to search for the product in the shop. Make sure to add the words that appear in the product title and description and use generalisations. This allows customers to find products in the shop when they search for a term that is neither in the title nor in the description of a product. Make sure to separate multiple search terms with space or comma.
 
-:guilabel:`Lieferant` |br|
-Wählen Sie hier den Lieferant des Artikels aus. Lieferanten werden unter :menuselection:`Stammdaten --> Lieferanten` erstellt und bearbeitet.
+:guilabel:`Distributor` |br|
+Select the product’s distributor. Distributors can be created and edited under :menuselection:`Master Settings --> Distributors`.
 
-:guilabel:`Hersteller` |br|
-Sie können den Hersteller des Artikels aus der Liste auswählen. Hersteller werden unter :menuselection:`Stammdaten --> Hersteller` erstellt und bearbeitet.
+:guilabel:`Manufacturer` |br|
+Select the product’s manufacturer from the list. Manufacturers can be created and edited under :menuselection:`Master Settings --> Brands/Manufacturers`.
 
-:guilabel:`Preis (€)` |br|
-Tragen Sie hier den Verkaufspreis des Artikels ein. Standard ist der Bruttopreis. Der Preis wird an die Varianten eines Artikels vererbt, wenn für diese kein gesonderter Preis festgelegt wurde.
+:guilabel:`Price (€)` |br|
+Enter the product’s selling price. The gross price will be displayed by default. The price will be inherited by the product’s variants if no separate price has been set for them.
 
-Es ist auch möglich, die Eingabe des Preises auf netto umzustellen. Die Einstellung dafür finden Sie in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen`. Sie gilt generell für alle Artikel. Neben dem Eingabefeld für den Preis wird immer in Klammern der tatsächliche Verkaufspreis angezeigt. Gibt es für einen Artikel einen Rabatt, wird auch dessen rabattierter Preis angezeigt.
+You can also change the price entry to net. This setting can be found in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Other settings`. In general, it applies to all products. The actual selling price is always displayed in brackets next to the price entry field. If there is a discount for a product, its discounted price will be displayed as well.
 
-:guilabel:`Alt. Preise (€)` |br|
-In den drei Feldern können alternative Preise hinterlegt werden. Diese sind direkt mit den Benutzergruppen \"Preis A\", \"Preis B\" und \"Preis C\" verbunden. Damit lassen sich für bestimmte Kunden eigene Preise anstelle des regulären Preises einrichten und anzeigen.
+:guilabel:`Alt. Prices (€)` |br|
+You can use the three fields to enter alternative prices that are directly linked to the \"Price A\", \"Price B\" and \"Price C\" user groups. This allows you to set up and display your own prices instead of the regular price for certain customers.
 
-:guilabel:`Spez. MwSt.` |br|
-Benötigen Artikel eine vom Standard im Shop abweichende Mehrwertsteuer, kann dieser Mehrwertsteuersatz hier eingetragen werden. Der Mehrwertsteuersatz, welcher standardmäßig im Shop verwendet wird, ist in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Mehrwertsteuer` festgelegt.
+:guilabel:`Spec. VAT` |br|
+If products require a VAT rate that is different from the shop’s default rate, it can be entered here. The VAT rate that is used in the shop by default can be specified in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`VAT`.
 
-:guilabel:`In Sprache` |br|
-Der Artikel lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
+:guilabel:`In Language` |br|
+The product can also be edited in other active languages of the shop. To do this, select the desired language from the list.
 
-Langbeschreibung des Artikels
+Product’s long description
 -----------------------------
-Auf der rechten Seite der Registerkarte :guilabel:`Stamm` geben Sie die Langbeschreibung des Artikels in einen Editor ein. Dieser arbeitet nach dem Prinzip WYSIWYG (What You See Is What You Get), er zeigt also den Text so an, wie er später in der Detailansicht des Artikels als Beschreibung zu sehen sein wird. Der Editor bietet die Möglichkeit der Textformatierung, des Einfügens von Links, Bildern und Videos. Für spezielle und darüber hinausgehende Anforderungen kann der HTML-Code angezeigt und bearbeitet werden.
+Product’s long description can be entered in an editor on the right side of the :guilabel:`Main` tab. This works based on the WYSIWYG (What You See Is What You Get) principle, which means that the text is displayed the way it will be visible later as the description in the product’s detailed view. The editor lets you use different text formatting options and insert links, pictures and videos. It also allows you to display and edit the HTML code to meet any special or additional requirements.
 
-.. seealso:: :doc:`Alternative Preise für Benutzergruppen <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
+.. seealso:: :doc:`Alternative prices for user groups <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen>` | :doc:`Manufacturers <../hersteller/hersteller>` | :doc:`Distributors <../lieferanten/lieferanten>`
 
 .. Intern: oxbaci, Status:, F1: article_main.html

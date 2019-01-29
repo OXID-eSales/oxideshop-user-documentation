@@ -1,49 +1,49 @@
-﻿Versandkostenregeln
+﻿Shipping cost rules
 ===================
 
-Versand und Zahlung sind wichtige Funktionen in einem Online-Shop. Sie werden durch die Definition von Versandkostenregeln, Versand- und Zahlungsarten bestimmt, die in einem wechselseitigen Zusammenhang zueinander stehen. Während für die Versandarten gilt: es ist gut, so wenige wie nötig zu haben, sind die Versandkostenregeln die Feinstellschrauben in der Konfiguration von Zahlung und Versand. Mit denen werden die Konditionen festgelegt, zu denen die Lieferung der bestellten Ware an den Kunden erfolgt. Es können Mindermengenzuschläge berechnet oder Freigrenzen für Versandkosten gesetzt werden. Es lassen sich auch unterschiedliche Versandkosten für verschiedene Länder definieren.
+Shipping and payment are important functions in an online shop. They are determined by the definition of shipping cost rules and shipping and payment methods that are interrelated. While it is good to have as few shipping methods as you need, the shipping cost rules are the fine adjustment elements in the configuration of payment and shipping. They are used to determine the conditions for the delivery of the ordered products to the customer. They allow the calculation of surcharges for small quantities or set exemption limits for shipping costs. They also allow defining different shipping costs for different countries.
 
-Haben Kunden im dritten Schritt des Bestellprozesses eine Versandart ausgewählt, werden die Versandkosten berechnet. Alle Versandkostenregeln, die der Versandart zugeordnet sind, werden nacheinander auf ihre Gültigkeit geprüft. Diese hängt davon ab, ob bestimmte Einkaufswerte, Gesamtgewichte, Bestellmengen oder Maße zutreffen. Es müssen auch die zugewiesenen Länder, Benutzergruppen, Benutzer, Kategorien und Artikel stimmen. Nur wenn alle Bedingungen erfüllt sind, ist die Versandkostenregel gültig. Die Versandkosten werden aus allen gültigen Versandkostenregeln berechnet. Bei mehreren gültigen Versandkostenregeln addieren sich die Versandkosten.
+Shipping costs will be charged if customers have selected a shipping method in the third step of the ordering process. All shipping costs that are assigned to the shipping method will be checked for validity one after the other. This depends on whether certain purchase values, total weights, order quantities or sizes apply or not. The assigned countries, user groups, users, categories and products must also be correct. A shipping cost rule will be valid only once all conditions have been met. Shipping costs are calculated from all valid shipping cost rules. When there are several valid shipping cost rules, they are added up.
 
 .. image:: ../../media/screenshots/oxbadj01.png
-   :alt: Versandkostenregeln
+   :alt: Shipping cost rules
    :class: with-shadow
    :height: 528
    :width: 650
 
-Alle Einstellungen und Zuordnungen werden im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Versandkostenregeln` vorgenommen. Dort sind alle Versandkostenregeln mit ihrem Namen aufgelistet. Nach ihnen kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Versandkostenregeln können durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernt werden.
+All required settings and assignments can be configured in the Admin panel under :menuselection:`Shop Settings --> Shipping Cost Rules`. This section contains a list of all shipping cost rules and their names. You can search for shipping cost rules by entering their names in the search field. Shipping cost rules can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
-Unter der Liste befindet sich der Eingabebereich für die Versandkostenregel. Wird eine Versandkostenregel aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Versandkostenregel klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Versandkostenregel anlegen`.
+The input area for shipping cost rules is located right below the list. When you select a shipping cost rule from the list, its information will be displayed in the input area. To create a new shipping cost rule, click on :guilabel:`Create new Shipping Cost Rule` at the bottom of the screen.
 
-Der OXID eShop wird mit den vorbereiteten Versandkostenregeln \"Versandkosten für Standard: Versandkostenfrei ab 80,-\", \"Versandkosten für Standard: 3,90 Euro innerhalb Deutschland\" und \"Versandkosten für Standard: 6,90 Rest EU\" ausgeliefert. Hinzu kommen zwei weitere Versandkostenregeln als Beispiel für den normalen und den Express-Versand mit UPS. Die Versandkostenregeln können verwendet werden, nachdem sie individuell angepasst wurden. Sie dienen auch als Vorlage für neu zu definierende Versandkostenregeln.
+OXID eShop comes with the following shipping cost rules: \"Shipping costs for Standard: Free shipping for orders over $80\", \"Shipping costs for Standard: $3.90 for domestic shipping\" and \"Shipping costs for Standard: $6.90 to ship in the rest of the EU\". There are also two additional shipping cost rules as an example for standard and express shipping via UPS. Shipping cost rules can be used after being customised. They also serve as a template for newly defined shipping cost rules.
 
-.. hint:: Länder können, aber müssen nicht zugewiesen sein. Damit die Definition von Versand und Zahlung stringent ist, sollte die Länderzuordnung mit der in der zugehörigen Zahlungsart und der Versandart übereinstimmen. Wurde kein Land zugewiesen, gilt die Versandkostenregel für alle Länder.
+.. hint:: The assignment of countries is optional. In order for the definition of shipping and payment to be stringent, the assignment of countries should match the one in the relevant payment and shipping method. If no country has been assigned, the shipping cost rule will apply to all countries.
 
-Mit der Versandkostenregel muss eine gültige Bedingung formuliert worden sein. Achten Sie darauf, dass die Versandkostenregel aktiv ist.
+A valid condition must be formulated for the shipping cost rule. Make sure that the shipping cost rule is active.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktive Versandkostenregel, aktiver Zeitraum, Bedingung der Versandkostenregel, Menge, Größe, Gewicht, Preis, Versandkosten, Preisaufschlag, Preisabschlag, absolut, prozentual, Zeitrabatt, Mengenrabatt, Berechnung des Warenkorbs, Reihenfolge der Versandkosten, Reihenfolge der Berechnung, Berechnung stoppen, keine weitere Regel, Länder zuordnen |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active shipping cost rule, active time period, condition for shipping cost rule, quantity, size, weight, price, shipping costs, surcharge, discount, absolute, percentage, time-based discount, quantity-based discount, calculation of shopping cart, order of shipping costs, order of calculation, stop calculation, no additional rules, assigning countries |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Artikel
+Products tab
 ---------------------
-**Inhalte**: Kategorien und Artikel zuordnen |br|
-:doc:`Artikel lesen <registerkarte-artikel>` |link|
+**Contents**: assigning categories and products |br|
+:doc:`Read article <registerkarte-artikel>` |link|
 
-Registerkarte Benutzer
+Users tab
 ----------------------
-**Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-:doc:`Artikel lesen <registerkarte-benutzer>` |link|
+**Contents**: assigning users and user groups |br|
+:doc:`Read article <registerkarte-benutzer>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Versandkostenregeln vererben, Versandkostenregeln verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: inheriting shipping cost rules, assigning shipping cost rules, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
-.. seealso:: :doc:`Zahlungsarten <../zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
+.. seealso:: :doc:`Payment methods <../zahlungsarten/zahlungsarten>` | :doc:`Shipping methods <../versandarten/versandarten>` | :doc:`Payment and shipping <../zahlung-und-versand/zahlung-und-versand>`
 
 .. Intern: oxbadj, Status:

@@ -1,30 +1,30 @@
-﻿Registerkarte Bilder
+﻿Picture tab
 ====================
-Artikel können bis zu zwölf Artikelbilder haben, die sehr wichtig für die optimale Präsentation der Artikel im Shop sind. Die Bilder sollten den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen. Artikelbilder werden in der Detailansicht des Artikels angezeigt. Hinzu kommen die Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Kleinere Artikelbilder - Thumbnails und Icons - zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Die Standardgrößen der Artikel werden in den Einstellungen des Themes festgelegt. Eine detaillierte Beschreibung dazu finden Sie in :doc:`Bilder <../../konfiguration/bilder>` im Abschnitt \"Konfiguration\".
+Products can have up to twelve images that are very important for their optimal presentation in the shop. Images should display the product in different views and from different angles. Product images are displayed in the product’s detailed view. In addition, there are zoom images that are also available on the product’s details page. Smaller product images - thumbnails und icons - show the product in product lists, product boxes and in the shopping cart. Product default size can be defined in the theme settings. A detailed description can be found under :doc:`Images <../../konfiguration/bilder>` in the \"Configuration\" section.
 
 .. image:: ../../media/screenshots/oxbacp01.png
-   :alt: Artikel - Registerkarte Bilder
+   :alt: Products - Pictures tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Die Registerkarte :guilabel:`Bilder` bietet die Möglichkeit, sieben Artikelbilder auf den Webserver zu laden. Ein Blick in die Verzeichnisstruktur lässt aber erkennen, dass bis zu 12 Artikelbilder möglich sind. Die zusätzlichen Artikelbilder müssen entweder per FTP auf den Webserver geladen oder das Template für den Administrationsbereich muss für die größere Zahl von Uploads angepasst werden. Informationen zum Bilder-Handling und zur Verzeichnisstruktur der Artikelbilder ab OXID eShop 4.5.1 finden Sie im englischsprachigen Tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ auf der OXIDforge.
+The :guilabel:`Pictures` tab allows you to load seven product images onto the web server. However, by looking at the directory structure, you can see that you can actually load up to 12 product images. To do this, you will need to either download additional product images to the web server via FTP or customise the template for the Admin panel for the larger number of uploads. Information on working with images and the directory structure of product images starting with OXID eShop 4.5.1 and later versions can be found in the English-language tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ on the OXIDforge page.
 
-Wurde das erste Artikelbild hochgeladen, wird das daraus generierte Thumbnail und das Icon auf der linken Seite der Registerkarte angezeigt. Für das Artikelbild selbst ist eine Vorschau verfügbar. Nicht mehr benötigte Artikelbilder können gelöscht werden. Damit werden sie nicht nur von der Registerkarte entfernt, sondern auch vom Webserver gelöscht.
+Once the first product image has been uploaded, the generated thumbnail and icon will be displayed on the left side of the tab. You can preview the product images. Those that are no longer required can be deleted. This will not only remove the product images from the tab but also delete them from the web server.
 
-:guilabel:`Artikelbilder (max. 2 MB, max. 1500*1500 px)` |br|
-Für das Hochladen der Artikelbilder gelten Einschränkungen hinsichtlich der Dateigröße. Die Bilder sollten standardmäßig maximal 2 MB groß sein oder eine Auflösung bis höchstens 1500*1500 Pixel haben. Wird das Hochladen größerer Bilder erlaubt, kann es beim Generieren der verschiedenen Artikelbilder zu Problemen mit dem PHP-Speicherlimit kommen. Für das Hochladen und Generieren der Artikelbilder sind u.a. die Parameter upload_max_filesize und memory_limit in der Konfigurationsdatei :file:`php.ini` von Bedeutung.
+:guilabel:`Product pictures (max. 2 MB, max. 1500*1500 px)` |br|
+Uploading product images is subject to file size restrictions. By default, the images should be no more than 2 MB in size or have a maximum resolution of 1500*1500 pixels. If you allow larger images to be uploaded, PHP memory limit issues may occur when generating the various product images. The upload_max_filesize and memory_limit parameters in the :file:`php.ini` configuration file are important for uploading and generating product images.
 
 :guilabel:`#1` - :guilabel:`#7` |br|
-Laden Sie hier maximal sieben Artikelbilder auf den Webserver. Die Schaltfläche :guilabel:`Durchsuchen...` öffnet einen Dateidialog, in dem Sie die entsprechende Datei auf Ihrem Rechner auswählen können. Wenn Sie nun die Schaltfläche :guilabel:`Öffnen` drücken, werden Pfad und Dateinamen direkt übernommen. Speichern startet das Hochladen des Artikelbildes und schließt damit ab, dass der Dateiname beispielsweise im Feld :guilabel:`#1` steht. Gleichzeitig wurde das Thumbnail und das Icon erzeugt.
+You can upload a maximum of seven product images to the web server. Clicking on :guilabel:`Browse...` opens a file dialog where you can select the relevant file on your computer. Click on :guilabel:`Open` to have the path and file name loaded directly. Clicking on “Save” starts uploading the product image after which the file name will be displayed, e.g., in field :guilabel:`#1`. The thumbnail and the icon will be created at the same time.
 
-:guilabel:`Thumbnail/Icon manuell hochladen` |br|
-Anstelle des automatisch generierten Thumbnails und/oder Icons kann ein anderes Bild für diese Artikelansichten verwendet werden.
+:guilabel:`Custom pictures` |br|
+Instead of the automatically generated thumbnail and/or icon, you can use a different image for these product views.
 
 :guilabel:`Thumbnail (max. 2 MB, max. 1500*1500 px)` |br|
-Wenn Sie ein anderes, als das beim Hochladen des ersten Artikelbildes generierte Thumbnail möchten, laden Sie es hier hoch. Dabei wird das automatisch erzeugte Thumbnail überschrieben und das neue als Vorschau auf der linken Seite angezeigt.
+Upload the thumbnail you want to use instead of the thumbnail generated when uploading the first product image. This overwrites the automatically generated thumbnail and displays the new one as a preview on the left side.
 
 :guilabel:`Icon (max. 2 MB, max. 1500*1500 px)` |br|
-Möchten Sie ein spezielles Artikelbild als Icon verwenden, kann es hier hochgeladen werden. Es wird dabei das automatisch erzeugte Icon überschrieben. Eine Vorschau zeigt das neue Icon auf der linken Seite der Registerkarte.
+Upload the special product image you want to use as the icon. The automatically generated icon will be overwritten. The new icon will be displayed in the preview on the left side of the tab.
 
 .. Intern: oxbacp, Status:, F1: article_pictures.html

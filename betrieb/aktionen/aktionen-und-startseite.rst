@@ -1,13 +1,13 @@
-﻿Aktionen und Startseite
+﻿Promotions and start page
 =======================
 
-Damit Aktionen auf der Startseite des Shops angezeigt werden, muss das Kontrollkästchen :guilabel:`Aktionen laden` auf der Registerkarte :guilabel:`Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` angehakt sein. Die Registerkarte enthält noch andere für Aktionen wichtige Einstellungen, auf die hier eingegangen wird.
+To display promotions on the shop’s start page, you will need to check the :guilabel:`Load Promotions` box in the :guilabel:`Perform.` tab under :menuselection:`Master Settings --> Core Settings`. This tab also contains other settings that are important for promotions and are discussed here.
 
-Dieses Dokument beschreibt die Aktionen auf der Startseite einer Standardinstallation des OXID eShop mit dem Theme \"Flow\".
+This document describes the promotions on the start page of OXID eShop default installation with the \"Flow\" theme.
 
 Banner
 ------
-Das Banner ist ein großer Bereich, der sich oben horizontal über die Startseite zieht. Darin können ein Bild oder auch mehrere Bilder angezeigt werden, die Artikel und Kategorien herausstellen.
+The banner is a large area that stretches horizontally across the start page. It can display one or more images highlighting products and categories.
 
 .. image:: ../../media/screenshots/oxbagw01.png
    :alt: Banner
@@ -15,59 +15,59 @@ Das Banner ist ein großer Bereich, der sich oben horizontal über die Startseit
    :height: 208
    :width: 650
 
-Wurden mehrere Bilder als Banner definiert, wechseln diese in einer Slideshow, einer Aneinanderreihung dieser Bilder. Ein Bild kann mit der Detailseite eines Artikels verbunden werden, so dass sich diese beim Anklicken des Bildes öffnet. Es ist auch möglich, den Titel und die Kurzbeschreibung des Artikels am unteren Bildrand anzuzeigen. Das muss in den Einstellungen für Bilder des Themes \"Flow\" aktiviert werden. Setzen Sie ein Häkchen in das Kontrollkästchen :guilabel:`Bildunterschriften im Slider auf der Startseite aktivieren` auf der Registerkarte :guilabel:`Einstell.` unter :menuselection:`Erweiterungen --> Themes`.
+If several images have been defined as banners, they will be changed into in a sequence of images which are displayed as a slideshow. An image can be linked to the product’s details page so that it opens when the customer clicks on the image. The product’s title and a short description can also be displayed at the bottom of the screen. This must be enabled in the image settings of the \"Flow\" theme. To do this, check the box :guilabel:`Activate captions for slider on home page` in the :guilabel:`Settings` tab under :menuselection:`Extensions --> Themes`.
 
-Angebote der Woche
+Week's Specials
 ------------------
-Die Angebote der Woche werden auf der Startseite unterhalb des Banners angezeigt. Es werden Artikel mit Titel und Bild präsentiert, welche der Aktion zugewiesen wurden.
+Week’s Specials are displayed on the start page below the banner. It present products with title and image assigned to the promotion.
 
 .. image:: ../../media/screenshots/oxbagw02.png
-   :alt: Angebot der Woche
+   :alt: Week's Special
    :class: with-shadow
    :height: 270
    :width: 650
 
-Vom Angebot aus kann über einen Link und die Schaltfläche :guilabel:`Mehr Informationen` die Detailseite eines beworbenen Artikels aufgerufen werden. Er kann aber auch über eine Schaltfläche direkt in den Warenkorb gelegt werden. Die Angebote der Woche können immer oder nur für einen definierten Zeitraum aktiv sein. Über den Zeitraum lassen sich beispielsweise wöchentlich wechselnde Angebote steuern.
+From here, the customer can click on the link and the :guilabel:`More information` button to access the details page of an advertised product. The product can also be added directly to the shopping cart by clicking on a different button. Week's Specials can be active always or only for a defined period of time, e.g. specials that change every week.
 
-Unsere Marken
+Our brands
 -------------
 .. image:: ../../media/screenshots/oxbagw03.png
-   :alt: Unsere Marken
+   :alt: Our brands
    :class: with-shadow
    :height: 147
    :width: 650
 
-Ein weiterer Slider wird unter den Angeboten der Woche angezeigt. Er präsentiert alle Hersteller mit ihren Logos in alphabetischer Reihenfolge. Die Anzeige unter der Überschrift \"Unsere Marken\" muss in den Anzeige-Einstellungen des Themes \"Flow\" aktiviert sein. Setzen Sie dafür ein Häkchen in das Kontrollkästchen :guilabel:`Hersteller-Slider auf der Startseite anzeigen` auf der Registerkarte :guilabel:`Einstell.` unter :menuselection:`Erweiterungen --> Themes`.
+Under Week’s Specials, you will see a different slider. It presents all manufacturers with their logos in alphabetical order. The display under \"Our brands\" must be activated in the display settings of the \"Flow\" theme. To do this, check the box :guilabel:`Show manufacturer slider on Start page` in the :guilabel:`Settings` tab under :menuselection:`Extensions --> Themes`.
 
-Frisch eingetroffen
+Just arrived
 -------------------
 
-Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge des Shops präsentiert werden. Die Anzeige ist eine vierspaltige Artikelübersicht. Es werden Bild, Titel und Preis der Artikel angezeigt. Es lässt sich die Detailseite des Artikels aufrufen oder der Artikel direkt in den Warenkorb legen.
+A large part of the start page is taken by products that are presented as new additions to the shop. The display is arranged as a four-column product overview, showing the product’s image, title and price. From here, you can access the product’s details page or add the product directly to the shopping cart.
 
 .. image:: ../../media/screenshots/oxbagw04.png
-   :alt: Frisch eingetroffen
+   :alt: Just arrived
    :class: with-shadow
    :height: 477
    :width: 650
 
-Welche Artikel in der Rubrik angezeigt werden, wird über eine Einstellung auf der Registerkarte :guilabel:`Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` gesteuert. Aus der :guilabel:`Liste der neusten Artikel (Frisch eingetroffen!)` kann ausgewählt werden, ob die Artikel bei der Aktion manuell zugeordnet oder vom Shop automatisch bereitgestellt werden. Die Aktion kann hier auch ganz abgeschaltet werden, so dass der Shop keine Zeit verbraucht, um die Aktion aufzubereiten.
+The display of products in the category is determined by a setting in the :guilabel:`Perform.` tab under :menuselection:`Master Settings --> Core Settings`. Use the :guilabel:`List of newest Products (Just arrived!)` to select whether the products are assigned manually during the promotion or whether they are provided by the shop automatically. You can also switch off the promotion here completely so that the shop doesn’t spend any time to process it.
 
-Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` auf der Registerkarte :guilabel:`Perform.` beeinflusst die Anzeige der Artikelpreise für diese und eine weitere Aktion.
+The additional setting :guilabel:`Show Prices in \"Top of the Shop\" and \"Just arrived!\"` in the :guilabel:`Perform.` tab affects the display of product prices for this and a further promotion.
 
-Topseller
+Top seller
 ---------
-Weiter unten auf der Startseite werden dem Kunden die meistverkauften Artikel des Shops angezeigt. Die Anzeige ist analog der zweispaltigen Galerie einer Artikelübersicht. Es kann die Detailseite eines Artikels aufgerufen oder ein Artikel direkt in den Warenkorb gelegt werden.
+If customers scroll down the start page, they will see the best-selling products in the shop. The display is similar to the two-column gallery of a product overview. From here, you can access the product’s details page or add the product directly to the shopping cart.
 
 .. image:: ../../media/screenshots/oxbagw05.png
-   :alt: Topseller
+   :alt: Top seller
    :class: with-shadow
    :height: 222
    :width: 650
 
-Welche Artikel als \"Topseller\" präsentiert werden, wird über eine Einstellung auf der Registerkarte :guilabel:`Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` gesteuert. Die :guilabel:`Liste der meistverkauften Artikel (Top of the Shop)` bietet :guilabel:`manuell`, :guilabel:`automatisch` und :guilabel:`ausgeschaltet` zur Auswahl an. Die Artikel können bei der Aktion \"Topseller\" zugeordnet oder vom Shop ermittelt werden. Die Aktion kann hier auch abgeschaltet werden und wird so weder aufbereitet, noch auf der Startseite angezeigt.
+The selection of products that are presented as \"Top seller\" is determined by a setting in the :guilabel:`Perform.` tab under :menuselection:`Master Settings --> Core Settings`. Use the :guilabel:`List of most sold Products (Top of the Shop)` to select :guilabel:`manual`, :guilabel:`automatic` or :guilabel:`inactive`. Products can be assigned to the \"Top seller\" promotion or determined by the shop. You can also deactivate the promotion here so that it won’t be processed or displayed on the start page.
 
-Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` bestimmt die Anzeige der Artikelpreise für diese und eine weitere Aktion.
+The additional setting :guilabel:`Show Prices in \"Top of the Shop\" and \"Just arrived!\"` determines the display of product prices for this and a further promotion.
 
-.. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>` | :doc:`Registerkarte Stamm <registerkarte-stamm>`
+.. seealso:: :doc:`Promotions <aktionen>` | :doc:`Newsletter action <aktion-fuer-newsletter>` | :doc:`Main tab <registerkarte-stamm>`
 
 .. Intern: oxbagw, Status:

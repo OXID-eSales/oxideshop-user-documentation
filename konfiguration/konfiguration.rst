@@ -1,81 +1,81 @@
-﻿Konfiguration
+﻿Configuration
 =============
 
-Im Abschnitt \"Konfiguration\" werden die wichtigsten Einstellungen vorgestellt, die für den Betrieb Ihres OXID eShop notwendig sind.
+The \"Configuration\" section describes the most important settings that are necessary for the operation of your OXID eShop.
 
-Die Einstellungen werden im Administrationsbereich vorgenommen. Rufen Sie den Administrationsbereich Ihres OXID eShop unter ``www.ihreshopurl.de/admin`` auf. Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL Ihres Shops. Die Login-Seite des Administrationsbereichs wird geöffnet. Melden Sie sich mit den Zugangsdaten an, die Sie bei der Installation des Shops vergeben haben. Bei der Anmeldung können Sie entscheiden, in welcher Sprache der Administrationsbereich angezeigt werden soll. Es stehen auch mehrere Profile zur Auswahl, die den Administrationsbereich für verschiedene Monitorauflösungen darstellen.
+These settings can be found in the Admin panel. Open the Admin panel of your OXID eShop at ``www.yourshopurl.com/admin``. Replace ``www.yourshopurl.com`` with your shop’s URL. You will see the login page of the Admin panel. Log in with the login data that you have set during the shop installation. When logging in, you can select the language in which the Admin panel should be displayed. You can also choose between several profiles to display the Admin panel for different monitor resolutions.
 
 -----------------------------------------------------------------------------------------
 
-Firmendaten
+Company information
 -----------
-**Inhalte**: Firmenname, Anschrift der Firma, Bankverbindung, rechtlich und steuerlich relevante Angaben, Name des Shops |br|
-:doc:`Artikel lesen <firmendaten>` |link|
+**Contents**: company name, company address, bank details, legal and tax information, shop name |br|
+:doc:`Read article <firmendaten>` |link|
 
-E-Mails
+Emails
 -------
-**Inhalte**: SMTP-Daten, E-Mail-Adressen, Betreffzeilen für E-Mails, die der Shop verschickt |br|
-:doc:`Artikel lesen <e-mails>` |link|
+**Contents**: SMTP data, email addresses, subject lines for emails sent from the shop |br|
+:doc:`Read article <e-mails>` |link|
 
-Kundeninformationen
+Customer information
 -------------------
-**Inhalte**: Impressum, AGB, Datenschutz, Kosten für Zahlung und Versand, Widerrufsrecht, CMS, rechtssicherer Onlineshop, Trusted Shops |br|
-:doc:`Artikel lesen <kundeninformationen>` |link|
+**Contents**: about us, general terms and conditions, privacy policy, shipping costs and payment, right of withdrawal, CMS, legally compliant online shop, Trusted Shops |br|
+:doc:`Read article <kundeninformationen>` |link|
 
-SEO-Einstellungen
+SEO settings
 -----------------
-**Inhalt**: Suchmaschinenoptimierung, SEO, Seitentitel, Titel Präfix, Titel Suffix, Seitentitel Startseite, sprechende URLs, SEO Trennzeichen, SEO Suffix, -oxid, Sonderzeichen, reservierte Wörter, statische URLs, Metadaten, Meta-Tags, meta name=\"description\", meta name=\"keywords\" |br|
-:doc:`Artikel lesen <seo-einstellungen>` |link|
+**Contents**: search engine optimisation, SEO, page title, title prefix, title suffix, page title start page, speaking URLs, SEO separators, SEO suffix, -oxid, special characters, reserved words, static URLs, metadata, meta tags, meta name=\"description\", meta name=\"keywords\" |br|
+:doc:`Read article <seo-einstellungen>` |link|
 
-Mehrwertsteuer
+Value-added tax
 --------------
-**Inhalte**: Standard-Mehrwertsteuersatz, Nettopreise eingeben (Artikel, Versandkosten, Zahlungsarten, Geschenkverpackungen), Nettopreise und Mehrwertsteuer im Warenkorb und in der Rechnung (Artikel, Versandkosten, Zahlungsarten, Geschenkverpackungen), Mehrwertsteuer und Lieferadresse |br|
-:doc:`Artikel lesen <mehrwertsteuer>` |link|
+**Contents**: standard VAT rate, entering net prices (products, shipping costs, payment methods, gift wrapping), net prices and VAT in shopping cart and invoice (products, shipping costs, payment methods, gift wrapping), VAT and shipping address |br|
+:doc:`Read article <mehrwertsteuer>` |link|
 
-Länder
+Countries
 ------
-**Inhalte**: Hauptlieferland, Land aktivieren, Länderübersicht, Land suchen |br|
-:doc:`Artikel lesen <laender>` |link|
+**Contents**: main shipping country, activating a country, country overview, searching for a country |br|
+:doc:`Read article <laender>` |link|
 
-Bestellprozess
+Ordering process
 --------------
-**Inhalte**: nicht ganzzahlige Artikelmengen, Mindestbestellwert, zwei Bestell-Button anzeigen, Button-Lösung, AGB bestätigen |br|
-:doc:`Artikel lesen <bestellprozess>` |link|
+**Contents**: fraction product quantities, minimum order value, showing two order buttons, Button Solution, confirming general terms and conditions |br|
+:doc:`Read article <bestellprozess>` |link|
 
-Lagerverwaltung
+Stock management
 ---------------
-**Inhalte**: Lagerverwaltung aktivieren, Anzeige Lieferbarkeit eines Artikels, Stückzahl für geringen Lagerbestand, Standardmeldungen für Artikel auf Lager oder für nicht lieferbare Artikel |br|
-:doc:`Artikel lesen <lagerverwaltung>` |link|
+**Contents**: activating stock management, displaying product availability, quantity for low stock level, default messages for products in stock or for products out of stock |br|
+:doc:`Read article <lagerverwaltung>` |link|
 
-Bilder
+Images
 ------
-**Inhalte**: Bildgenerierung und -qualität, Bildqualität und Dateigröße, Bildgrößen für Artikelbilder, Zoom-Bilder, Thumbails, Icons, Kategoriebilder und Hersteller-/Markenlogos, Standardgrößen in Pixeln (Breite*Höhe) |br|
-:doc:`Artikel lesen <bilder>` |link|
+**Contents**: image generation and quality, image quality and file size, image sizes for product images, zoom images, thumbnails, icons, category images and manufacturer/brand logos, standard sizes in pixels (width*height) |br|
+:doc:`Read article <bilder>` |link|
 
 -----------------------------------------------------------------------------------------
 
-Mall-Funktion
+Mall function
 -------------
-Nur Enterprise Edition |br|
-**Inhalte**: Mall, Shoptypen, Hauptshop, Subshop, Supershop, Multishop, Vererbung, Vererbungseinstellungen, Individualisierungen |br|
-:doc:`Artikel lesen <mall-funktion/mall-funktion>` |link|
+Enterprise Edition only |br|
+**Contents**: Mall, shop types, main shop, subshop, supershop, multishop, inheritance, inheritance settings, customisations |br|
+:doc:`Read article <mall-funktion/mall-funktion>` |link|
 
-Rechte und Rollen
+Rights and roles
 -----------------
-Nur Enterprise Edition |br|
-**Inhalte**: Rechte, Rollen, Rechte für Frontend, Artikel und Kategorien anzeigen, Artikel und Kategorien kaufen, Rollen für Zugriff auf Detailseite, Rechte für Administrationsbereich, Zugriff auf Menüs, Artikel und Kategorien |br|
-:doc:`Artikel lesen <rechte-und-rollen>` |link|
+Enterprise Edition only |br|
+**Contents**: rights, roles, rights for front end, displaying products and categories, buying products and categories, roles for access to the details page, Admin panel rights, access to menus, products and categories |br|
+:doc:`Read article <rechte-und-rollen>` |link|
 
 Caching
 -------
-Nur Enterprise Edition |br|
-**Inhalte**: Caching, Reverse Proxy Varnish, Memcached, Installation und Konfiguration, Cache-Manager, Default Cache Backend, Dynamic Content Caching |br|
-:doc:`Artikel lesen <caching/caching>` |link|
+Enterprise Edition only |br|
+**Contents**: caching, Varnish reverse proxy, Memcached, installation und configuration, cache manager, default cache back end, dynamic content caching |br|
+:doc:`Read article <caching/caching>` |link|
 
-Master/Slave
+Master/slave
 ------------
-Nur Enterprise Edition |br|
-**Inhalte**: Master, Slave, Master-Datenbank, Schreibzugriffe, Slave-Datenbanken, Lesezugriffe, Load-Balancer |br|
-:doc:`Artikel lesen <master-slave>` |link|
+Enterprise Edition only |br|
+**Contents**: master, slave, master database, write accesses, slave databases, read accesses, load balancer |br|
+:doc:`Read article <master-slave>` |link|
 
 .. Intern: oxbaas, Status:

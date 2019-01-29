@@ -1,14 +1,14 @@
-Installation abschließen
+﻿Completing installation
 ========================
 
-Setup-Verzeichnis
+Setup directory
 -----------------
-Nach erfolgreicher Installation wird das Verzeichnis :file:`/setup` automatisch gelöscht. Damit soll verhindert werden, dass das Setup zu einem späteren Zeitpunkt erneut aufgerufen werden kann. Kontrollieren Sie, ob das Löschen des Verzeichnisses erfolgreich war.
+After successful installation, the :file:`/setup` directory will be deleted automatically. This should prevent the setup process from being invoked again at a later time. Make sure that the directory has been successfully deleted.
 
-Datei- und Verzeichnisrechte
+ File and directory permissions
 ----------------------------
-Für einen fehlerfreien Betrieb benötigt der Shop Schreibrechte für einige Verzeichnisse (Dateirechte auf 777 oder 775). Bitte stellen Sie sicher, dass die Schreibrechte für die Verzeichnisse :file:`/out/pictures`, :file:`/out/media`, :file:`/log`, :file:`/export` und :file:`/tmp` gesetzt sind, ggf. auch rekursiv in alle Unterverzeichnisse.
+To ensure error-free operation, the shop needs write permissions for some directories (file permissions for 777 or 775). Please make sure that the write permissions for the directories :file:`/out/pictures`, :file:`/out/media`, :file:`/log`, :file:`/export` and :file:`/tmp` are set, if necessary also recursively in all subdirectories.
 
-Die Dateien :file:`.htaccess` und :file:`config.inc.php` aus dem Hauptverzeichnis müssen nach abgeschlossenem Setup schreibgeschützt sein (Dateirechte auf 444).
+The files :file:`.htaccess` and :file:`config.inc.php` from the main directory must be read-only after the setup has been completed (file permissions for 444).
 
 .. Intern: oxbaag, Status:

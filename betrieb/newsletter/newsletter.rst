@@ -1,45 +1,45 @@
-Newsletter
+﻿Newsletters
 ==========
 
-Newsletter stellen eine unkomplizierte und schnelle Möglichkeit dar, die Kunden des Onlineshops über aktuelle Themen zu informieren, Tipps zu geben, Aktionen anzukündigen und Artikel zu bewerben. Sie dienen damit der Kundeninformation und stellen zugleich Kundenbindung her. Newsletter können in regelmäßigen oder unregelmäßigen Abständen als E-Mail an Kunden versandt werden. Diese müssen den Newsletter abonniert haben, indem sie dies beispielsweise bei der Registrierung bestätigt oder das Newsletter-Formular ausgefüllt und abgeschickt haben. Darüber hinaus müssen die Kunden dem Versand von Newslettern an die eigene E-Mail-Adresse nochmals explizit zustimmen. Dieses Verfahren wird als Double-Opt-In bezeichnet und stellt sicher, dass kein Unbefugter jemanden für den Newsletter einträgt.
+Newsletters are a fast and easy way to notify online shop customers of current topics, give tips, announce campaigns and promote products. They serve to inform customers and at the same time create customer loyalty. Newsletters can be sent to customers by email at regular or irregular intervals. Customers must have subscribed to the newsletter, for example, by confirming this during registration or by filling out and sending the newsletter form. In addition, customers must explicitly agree to the sending of newsletters to their own email address. This procedure is called double opt-in. It ensures that no unauthorised person subscribes someone else to the newsletter.
 
-Benutzer, die den Newsletter abonniert haben, werden automatisch der Benutzergruppe "Newsletter-Abonnenten" zugeordnet. Sie können im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzergruppen` eingesehen werden. Kunden können den Newsletter abbestellen, indem sie das Newsletter-Formular ausfüllen und :guilabel:`Stornieren` wählen.
+Users who have subscribed to the newsletter will automatically be assigned to the "Newsletter Recipients" user group. They can be viewed in the Admin panel under :menuselection:`Administer Users --> User Groups`. Customers can unsubscribe by filling out the newsletter form and selecting :guilabel:`Unsubscribe`.
 
 .. image:: ../../media/screenshots/oxbaie01.png
-   :alt: Newsletter
+   :alt: Newsletters
    :class: with-shadow
    :height: 536
    :width: 650
 
-Der Abschnitt "Newsletter" informiert Sie über das Erstellen und Verwalten von Newslettern. Um Newsletter zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Kundeninformation --> Newsletter`. Es werden die Liste der Newsletter und darunter der Eingabebereich für die Newsletter angezeigt. Wird ein Newsletter aus der Liste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Newsletters klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Newslettervorlage`.
+The “Newsletters" section tells you how to create and manage newsletters. Go to :menuselection:`Customer Info --> Newsletter` in the Admin panel to edit the newsletters. Here, you will see the list of the newsletters and the input area right below it. When you select a newsletter from the list, its information will be displayed in the input area. To create a new newsletter, click on :guilabel:`New Newsletter Sample` at the bottom of the screen.
 
-Nach Newslettern kann gesucht werden, indem eine Zeichenfolge in das Suchfeld eingegeben und die Suche über das Lupensymbol gestartet wird. Dadurch werden in der Liste nur noch die Newsletter angezeigt, deren Titel diese Zeichenfolge enthält. Newsletter lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile aus der Datenbank entfernen. Der Beispiel-Newsletter kann nicht gelöscht werden.
+You can search for newsletters by entering a few characters into the search field and clicking on the magnifying glass icon. As a result, you will only see the newsletters whose title contains these characters. Newsletters can be removed from the database by clicking on the trash icon at the end of the line. The sample newsletter can’t be deleted.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte HTML
+HTML tab
 ------------------
-**Inhalte**:  Newsletter als HTML-Mail, Titel, Betreff, Vorlage, HTML, Tabellen, Font-Tags, Inline-CSS, dynamische Inhalte, Smarty, Smarty-Beispiel: Anrede des Benutzers |br|
-:doc:`Artikel lesen <registerkarte-html>` |link|
+**Contents**:  newsletter as HTML email, title, subject, template, HTML, tables, font tags, inline CSS, dynamic content, Smarty, Smarty example: user salutation |br|
+:doc:`Read article <registerkarte-html>` |link|
 
 
-Registerkarte Text
+Text tab
 ------------------
-**Inhalte**:  Newsletter als Nur-Text-Mail, Plain-Text-Vorlage, dynamische Inhalte, Smarty, Smarty-Beispiel: empfohlene Artikel |br|
-:doc:`Artikel lesen <registerkarte-text>` |link|
+**Contents**:  newsletter as plain text email, plain text template, dynamic content, Smarty, Smarty example: recommended products |br|
+:doc:`Read article <registerkarte-text>` |link|
 
 
-Registerkarte Vorschau
+Preview tab
 ----------------------
-**Inhalte**: Vorschau des Newsletters, Nur-Text, Plain-Text, HTML, Smarty, Smarty-Beispiel: vollständige Anbieterkennzeichnung, CMS-Seiten, oxemailfooter, oxemailfooterplain |br|
-:doc:`Artikel lesen <registerkarte-vorschau>` |link|
+**Contents**: newsletter preview, text only, plain text, HTML, Smarty, Smarty example: full provider identification, CMS pages, oxemailfooter, oxemailfooterplain |br|
+:doc:`Read article <registerkarte-vorschau>` |link|
 
 
-Registerkarte Versenden
+Selection tab
 -----------------------
-**Inhalte**: Versenden des Newsletters, Benutzergruppen zuordnen, Anzahl Empfänger, Anzahl versendeter Mails, Mails pro Tick, Newsletter testen, Darstellung in Mail-Programmen, mobilen und Web-Clients |br|
-:doc:`Artikel lesen <registerkarte-versenden>` |link|
+**Contents**: sending the newsletter, assigning user groups, number of recipients, number of emails sent, emails per tick, testing the newsletter, displaying in email programs, mobile and web clients |br|
+:doc:`Read article <registerkarte-versenden>` |link|
 
-.. seealso:: `Tipps zum Newsletter im Shopbetreiber-Blog <http://shopbetreiber-blog.de/page/1/?s=Newsletter>`_
+.. seealso:: `Tips for sending newsletters on shopbetreiber-blog.de (in German) <http://shopbetreiber-blog.de/page/1/?s=Newsletter>`_
 
 .. Intern: oxbaie, Status:

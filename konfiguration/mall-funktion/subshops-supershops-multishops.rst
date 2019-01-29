@@ -1,67 +1,67 @@
-﻿Subshops, Supershops \& Multishops
+﻿Subshops, supershops & multishops
 ==================================
 
-Beim Anlegen eines Shops wird definiert, zu welchem Shoptyp der neue Shop gehört und ob er Artikel, Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten und weitere Elemente von einem Elternshop erben soll. Shoptypen sind Subshop, Supershop und Multishop.
+When you create a shop, you will need to define which shop type the new shop is part of and whether it should inherit products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors and other elements from a parent shop. Available shop types are subshop, supershop and multishop.
 
-Der *Subshop* ist ein Shop ohne spezielle Eigenschaften. Er kann die Artikel und Einstellungen von einem Elternshop erben und diese an neue Shops vererben. Artikel, Attribute, Auswahllisten und andere Elemente können nur mit Subshops verknüpft werden, für die der Shop Elternshop ist.
+*Subshop* is a shop without any special features. It can inherit products and settings from a parent shop and pass them on to new shops. Products, attributes, selection lists and other items can only be assigned to subshops for which the shop is a parent shop.
 
-Der *Supershop* kann ebenfalls Artikel und Einstellungen von einem Elternshop erben und sie an neue Shops weitergeben. In einem Supershop besteht darüber hinaus die Möglichkeit, Artikel, Attribute, Auswahllisten u.a. mit jedem Shop zu verknüpfen. Das gilt auch für den Hauptshop und für Subshops, für den der Supershop nicht Elternshop ist.
+*Supershop* can also inherit products and settings from a parent shop and pass them on to new shops. In addition, supershop allows you to assign products, attributes, selection lists, etc. to each shop. This also applies to the main shop and to subshops, for which the supershop is not the parent shop.
 
-Der *Multishop* kommt ohne Vererbung aus, denn er zeigt alle Artikel, Hersteller und Lieferanten aus allen Shops an. Als einziger Shoptyp kann er alle Kategorien aus anderen Shops übernehmen.
+*Multishop* comes without the inheritance feature because it displays all products, manufacturers and distributors from all shops. It is the only shop type that can load all categories from other shops.
 
 .. image:: ../../media/screenshots/oxbagn01.png
-   :alt: Neuen Shop anlegen
+   :alt: Create New Shop
    :class: with-shadow
-   :height: 343
+   :height: 335
    :width: 650
 
-Ein neuer Shop kann unter :menuselection:`Stammdaten --> Grundeinstellungen` angelegt werden. Nutzen Sie dafür die Funktion am unteren Bildschirmrand.
+A new shop can be created under :menuselection:`Master Settings --> Core Settings` Use the function at the bottom of the screen.
 
-:guilabel:`Shop-ID` |br|
-Die Shops erhalten automatisch eine Nummer, beginnend mit der Shop-ID 1 für den Hauptshop.
+:guilabel:`Shop ID` |br|
+The shops will automatically receive a number, starting with shop ID 1 for the main shop.
 
-:guilabel:`Shopname` |br|
-Tragen Sie hier den Namen für den neuen Shop ein.
+:guilabel:`eShop Name` |br|
+Enter the name for the new shop.
 
-:guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop.` |br|
-Wird dieses Kontrollkästchen aktiviert, erbt der neue Shop Artikel, Attribute, Auswahllisten sowie andere Elemente und Einstellungen von einem Elternshop. Dieser muss aus der Auswahlliste :guilabel:`Elternshop` ausgewählt werden.
+:guilabel:`Shop inherits all inheritable items (products, discounts etc) from it's parent shop.` |br|
+If this box is checked, the new shop will inherit products, attributes, selection lists as well as other elements and settings from the parent shop. This needs to have the :guilabel:`Shop Parent` selection list selected.
 
-:guilabel:`Dieser Shop ist ein Supershop. Sie können Artikel mit anderen Shops verknüpfen.` |br|
-Bei aktiviertem Kontrollkästchen wird ein Shop vom Shoptyp Supershop erstellt.
+:guilabel:`This shop is supershop. That means, products can be linked to other shops.` |br|
+Check this box to create a supershop.
 
-:guilabel:`Dieser Shop ist ein Multishop. Er zeigt alle Artikel aus allen Shops an.` |br|
-Bei aktiviertem Kontrollkästchen wird ein Shop vom Shoptyp Multishop erstellt.
+:guilabel:`This shop is multishop. It shows all products from all shops.` |br|
+Check this box to create a multishop shop type.
 
-Wird beim Anlegen eines neuen Shops nicht Supershop oder Multishop als Shoptyp gewählt, entsteht ein Subshop.
+If you don’t select supershop or multishop as shop type when creating a new shop, a subshop will be created.
 
-Unter :menuselection:`Stammdaten --> Grundeinstellungen` können auf der Registerkarte :guilabel:`Mall` für den Shop Einstellungen zur Mall-Funktion vorgenommen werden. Die Einstellmöglichkeiten sind für alle Shoptypen nahezu identisch. Nur für den Multishop gibt es die Möglichkeit, alle Kategorien aus allen Shops zu übernehmen. Wurden Artikel, Attribute, Auswahllisten sowie andere Elemente und Einstellungen von einem Elternshop geerbt, zeigt die Registerkarte auch die Vererbungseinstellungen an.
+Settings for the shop’s Mall function can be configured under :menuselection:`Master Settings --> Core Settings` in the :guilabel:`Mall` tab. They are almost identical for all shop types. The only difference is that for the multishop, there is the option to load all categories from all shops. If products, attributes, selection lists and other elements and settings were inherited from a parent shop, the tab will also display the inheritance settings.
 
 .. image:: ../../media/screenshots/oxbagn02.png
-   :alt: Multishop - Registerkarte Mall
+   :alt: Multishop - Mall tab
    :class: with-shadow
-   :height: 343
+   :height: 334
    :width: 650
 
-:guilabel:`URL des Shops` |br|
-Es kann eine Webadresse angegeben werden, über die der Shop erreichbar ist. Diese URL muss sich durch die Top-Level-Domain (TLD), die Second-Level-Domain, eine Subdomain oder durch eine beliebige Kombination daraus von den anderen Shops der Enterprise Edition unterscheiden. Das Protokoll ist mit anzugeben.
+:guilabel:`Shop URL` |br|
+Specify a web address at which the shop can be reached. The top-level domain (TLD), the second-level domain, the subdomain or any combination thereof for this URL must be different from those of the other Enterprise Edition shops. The protocol must be specified as well.
 
-Beispiele: ``http://de.exampleshop.com``, ``http://en.exampleshop.com``, ``http://www.exampleshop.de``
+Example: ``http://de.exampleshop.com``, ``http://en.exampleshop.com``, ``http://www.exampleshop.com``
 
-Es ist nicht möglich, die verschiedenen Shops über Pfade in der URL zu strukturieren. Wird keine URL angegeben, wird der Shop über den URL-Parameter ``shp`` adressiert.
+Structuring the various shops using paths in the URL is impossible. If no URL is specified, the shop will be addressed using the ``shp`` URL parameter.
 
-:guilabel:`SSL-URL des Shops` |br|
-Webadresse für den verschlüsselten Aufruf des Shops. Es gelten die oben genannten Anmerkungen zur URL.
+:guilabel:`Shop SSL URL` |br|
+A web address for the encrypted access to the shop. See the above comments on the URL.
 
-:guilabel:`Datenverzeichnis /out aus aktivem Shop laden` |br|
-Aktivieren Sie dieses Kontrollkästchen, wenn beispielsweise die Artikelfotos mit der URL des aktiven Shops geladen werden sollen. Ohne diese Funktion werden die Artikelfotos und andere Ressourcen aus dem Verzeichnis :file:`/out` mit der URL des Hauptshops aufgerufen.
+:guilabel:`Load /out directory from active shop` |br|
+Check this box if, for example, you want to load the product photos using the URL of the active shop. Without this box checked, the product photos and other resources from the :file:`/out` directory will be loaded using the URL of the main shop.
 
-:guilabel:`Separate Bestellnummern für diesen Shop` |br|
-Aktivieren Sie dieses Kontrollkästchen, damit Bestellungen in diesem Shop Bestellnummern aus einem separaten Nummernkreis erhalten. Für Shops, in denen diese Einstellung nicht aktiv ist, werden die Bestellnummern shopübergreifend vergeben und hochgezählt.
+:guilabel:`Separate shop order numbering` |br|
+Check this box to have orders in this shop receive order numbers from a separate number range. For shops where this setting is not selected, the order numbers will be assigned and incremented shop-wide.
 
-:guilabel:`Aufschlag auf Artikelpreise` |br|
-Für den Shop kann generell ein absoluter oder ein prozentualer Aufschlag auf den Artikelpreis festgelegt werden. Geben Sie eine Prozentzahl für einen prozentualen Aufschlag ein und stellen Sie sicher, dass :guilabel:`%` in der zugehörigen Dropdown-Liste ausgewählt wurde. Soll es einen absoluten Preisaufschlag geben, wählen Sie bitte :guilabel:`EUR` aus der Liste und tragen Sie einen Betrag ein.
+:guilabel:`Product price addition to base price` |br|
+In general, you can set an absolute or a percentage surcharge on product prices in your shop. Enter a percentage for a percentage surcharge and make sure to select :guilabel:`%` in the corresponding selection list. To set an absolute surcharge, please select :guilabel:`EUR` from the list and enter an amount.
 
-:guilabel:`Indiv. Preis für vererbte Artikel erlauben` |br|
-Soll dieser Shop einmal seine Artikel und Einstellungen an andere Shops vererben, welche die Artikel mit individuellen Preisen anbieten sollen, aktivieren Sie bitte dieses Kontrollkästchen. Artikel- und Staffelpreise können dann in den jeweiligen Shops angepasst werden. Alle übrigen Eigenschaften der Artikel sind nicht änderbar.
+:guilabel:`Allow custom price editing for inherited products` |br|
+Please check this box if the shop’s products and settings should be passed onto other shops that offer products with individual prices. This will allow you to adjust product and scale prices in the respective shops. None of the other product characteristics can be changed.
 
 .. Intern: oxbagn, Status:

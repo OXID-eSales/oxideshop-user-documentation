@@ -1,14 +1,14 @@
-﻿Registerkarte Langtext
+﻿Text tab
 ======================
 
-Die Kategorie wird hier im Detail beschrieben.
+This tab contains the detailed description of the category.
 
 .. image:: ../../media/screenshots/oxbabl01.png
-   :alt: Kategorien - Registerkarte Langtext
+   :alt: Categories - Text tab
    :class: with-shadow
    :height: 346
    :width: 650
 
-Der Langtext kann komfortabel in einen Editor eingegeben werden. Der Editor arbeitet nach dem Prinzip WYSIWYG (What You See Is What You Get), er zeigt also den Text so an, wie er später in der Kategorieansicht des Shops zu sehen sein wird. Der Editor bietet die Möglichkeit der Textformatierung, des Einfügens von Links, Bildern und Videos. Für spezielle und darüber hinausgehende Anforderungen kann der HTML-Code angezeigt und bearbeitet werden.
+The text can be easily entered in an editor. The editor works based on the WYSIWYG (What You See Is What You Get) principle, which means that the text is displayed the way it will be visible later in the shop’s category view. The editor lets you use different text formatting options and insert links, pictures and videos. It also allows you to display and edit the HTML code to meet any special or additional requirements.
 
 .. Intern: oxbabl, Status:, F1: category_text.html

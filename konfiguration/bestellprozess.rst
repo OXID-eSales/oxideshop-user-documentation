@@ -1,28 +1,28 @@
-﻿Bestellprozess
+﻿Ordering process
 ==============
 
-Unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Bestellungen` können einige Einstellungen vorgenommen werden, die den Bestellprozess beeinflussen.
+Some settings for the ordering process can be found under :menuselection:`Master Settings --> Core Settings --> Settings --> Order`.
 
-:guilabel:`Nicht ganzzahlige Eingaben bei Artikelmengen erlauben (z.B. 1,5)` |br|
-Aktivieren Sie diese Einstellung, wenn Sie Artikel anbieten wollen, bei denen die Artikelmenge als Dezimalzahl angegeben werden muss. Beispiel für derartige Artikel sind Meterware oder Flüssigkeiten.
+:guilabel:`Allow fraction Quantities (e.g. 1.5)` |br|
+Select this setting if you want to offer products whose quantity must be specified as a decimal number, e.g. piece goods or liquids.
 
-:guilabel:`Mindestbestellwert (leer lassen, falls nicht gewünscht)` |br|
-Geben Sie hier einen Betrag vor, den alle Artikel eines Warenkorbes in Summe nicht unterschreiten sollen. Wird bei einer Bestellung dieser Mindestbestellwert nicht erreicht, wird im Bestellprozess auf der Seite zur Auswahl der Versand- und Zahlungsart die Schaltfläche :guilabel:`Weiter zum nächsten Schritt` nicht angezeigt. Stattdessen erscheint ein Hinweis auf den Mindestbestellwert.
+:guilabel:`Min. Order Price (leave empty to disable)` |br|
+Enter the minimum amount to be reached by all products added to the shopping cart. If the order value fails to reach this minimum order value, the :guilabel:`Continue to the next step` button won’t be displayed on the page for selecting the shipping and payment method during the ordering process. Instead, the customer will see a note on the minimum order value.
 
-:guilabel:`Im 4. Bestellschritt einen zusätzlichen \"Zahlungspflichtig bestellen\" Button oben anzeigen (Wenn die Einstellung nicht aktiv ist, wird nur der \"Zahlungspflichtig bestellen\" Button weiter unten angezeigt).` |br|
-Bei aktivierter Einstellung wird eine zusätzliche Schaltfläche :guilabel:`Zahlungspflichtig bestellen` oben über den Bestelldaten angezeigt.
+:guilabel:`An additional \"Order now\" button is show at the top in 4th order step (by default, \"Order now\" is shown only on the bottom of the page).` |br|
+If this setting is selected, an additional :guilabel:`Order now` button will be displayed above the order data.
 
-.. hint:: Mit der am 01.08.2012 in Kraft getretenen sogenannten \"Button-Lösung\", die der Deutsche Bundestag verabschiedet hatte, sollte diese Einstellung für deutsche\Shops nicht aktiviert sein. Das Gesetz stellt an Shopbetreiber klare Anforderungen zur Information des Kunden beim Bestellabschluss. Die Bestellseite muss die Artikel mit ihren wesentlichen Merkmalen angezeigen. Preis und Gesamtpreis der Artikel inklusive anfallender Versandkosten müssen ausgewiesen sein. Es darf nur einen einzigen Button zum Bestellabschluss geben, der in unmittelbarer Nähe zu diesen Informationen angeordnet sein muss. Dessen Beschriftung muss den Kunden unmissverständlich darauf hinweisen, dass der Kauf eine finanzielle Verpflichtung bedeutet.
+.. hint:: This setting should not be activated for German shops due to the \"Button Solution\", which was passed by the German Bundestag and came into force on 01/08/2012. This law imposes clear requirements on shop owners regarding the information presented to customers before they complete the order. The order page must display the products with their essential characteristics. The price and total price of the products including any shipping costs must also be displayed. There must be only one button to complete the order, which must be located in close proximity to this information. The labelling of this button must clearly inform the customer that the purchase represents a financial commitment.
 
-Diese Anforderungen des Gesetzgebers sind ab der Shopversion 4.7.0/5.0.0 standardmäßig umgesetzt.
+These legal requirements are implemented by default starting with shop version 4.7.0/5.0.0.
 
-:guilabel:`Kunden müssen die AGB bestätigen, um bestellen zu können` |br|
-Der Kunde muss vor Abschluss der Bestellung bestätigen, dass er die AGB gelesen und zur Kenntnis genommen hat. Aktivieren Sie die Einstellung, um dies bei Bestellabschluss vom Kunden abzufragen.
+:guilabel:`Users have to Confirm General Terms and Conditions during Check-Out` |br|
+Before completing the order, customers must confirm that they have read and acknowledged the General Terms and Conditions. Select this setting to ask this of customers when they place an order.
 
-Weitere Einstellungen zum Bestellprozess sind abhängig vom Design des Shops. Die Einstellungen sind daher beim aktiven Theme unter :menuselection:`Erweiterungen --> Themes` hinterlegt. Rufen Sie die Registerkarte :guilabel:`Einstell.` des Themes \"Azure\" auf und klicken Sie auf :guilabel:`Anzeige`.
+Additional settings for the ordering process depend on the design of the shop. For this reason, the settings are stored in the active theme under :menuselection:`Extensions --> Themes`. Go to the :guilabel:`Settings` tab of the \"Azure\" theme and click on :guilabel:`Display`.
 
-Hier können Sie festlegen, ob der Bestellprozess mit einer Bestellbestätigung abgeschlossen werden soll. In dieser Bestellbestätigung wird die Bestellnummer mitgeteilt. Links führen zur Startseite und zur Bestellhistorie des Kunden.
+Here, you can specify whether the ordering process should be completed with an order confirmation. The order confirmation contains the order number. The links lead to the start page and the customer’s order history.
 
-Aus einer Liste kann ausgewählt werden, welche Aktion ausgeführt werden soll, wenn ein Artikel in den Warenkorb gelegt wird. Es kann eine Meldung unmittelbar neben dem Warenkorb angezeigt werden. Zwei weitere Möglichkeiten sind das Öffnen eines separaten Fensters oder die Anzeige des Warenkorbs selbst.
+Use a list to select which action should be performed when a product is added to the shopping cart. There is an option to have a message displayed right next to the shopping cart. Two other options are opening a separate window or displaying the shopping cart itself.
 
 .. Intern: oxbaax, Status:

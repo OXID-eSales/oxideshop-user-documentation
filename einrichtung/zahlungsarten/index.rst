@@ -1,10 +1,10 @@
-Zahlungsarten
+﻿Payment methods
 =============
 
 .. toctree::
    :maxdepth: 1
       
-   zahlungsarten
-   registerkarte-stamm
-   registerkarte-laender
-   registerkarte-rdfa
+   payment methods
+   main-tab
+   country-tab
+   rdfa-tab

@@ -1,26 +1,26 @@
-﻿Registerkarte Sortierung
+﻿Sorting tab
 ========================
 
-Im Gegensatz zur Schnellsortierung können die Artikel einer Kategorie auch manuell in eine bestimmte Reihenfolge gebracht werden.
+Unlike fast sorting, the products in a category can also be manually arranged in a certain way.
 
 .. image:: ../../media/screenshots/oxbabn01.png
-   :alt: Kategorien - Registerkarte Sortierung
+   :alt: Categories - Sorting tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Die Schaltfläche :guilabel:`Artikel sortieren` auf der Registerkarte :guilabel:`Sortierung` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel der Kategorie angezeigt. Der Wert 0 in der Positionsspalte bei allen Artikeln zeigt an, dass es bisher keine manuelle Sortierung gibt.
+Clicking on :guilabel:`Sort Categories` in the :guilabel:`Sorting` tab opens a new window. All available products in the category will be displayed in the left-hand list. A value of 0 in the “Position” column for all products indicates that they haven’t been manually sorted yet.
 
 .. image:: ../../media/screenshots/oxbabn02.png
-   :alt: Artikel sortieren
+   :alt: Sorting products
    :class: with-shadow
    :height: 323
    :width: 400
 
-Die Artikel können per Drag \& Drop in die rechte Liste verschoben und dabei in eine neue Reihenfolge gebracht werden. Die neue Sortierung lässt sich erst speichern, wenn alle Artikel einer Kategorie in die Liste :guilabel:`Neue Sortierung` verschoben wurden.
+Drag and drop the products into the right-hand list to rearrange them. The new order can be saved only after all products in a category have been moved to the :guilabel:`New Sorting` list.
 
-Ist bei der Sortierung einmal ein Fehler aufgetreten, lässt diese sich einfach löschen. Sind alle Artikel in der gewünschten Reihenfolge, wird diese über die Schaltfläche :guilabel:`Neue Sortierung` speichern` in die Datenbank geschrieben. Wenn Sie das Fenster schließen und erneut öffnen, wird in der linken Liste die nun aktuelle Sortierung angezeigt. Die Artikel haben in der Positionsspalte aufsteigende Zahlenwerte.
+If you make an error during sorting, you can easily delete the list and start fresh. Once you have arranged all products the way you wanted, click on :guilabel:`Save` new sorting` to write this order into the database. If you close the window and open it again, the current sort order will be displayed in the left-hand list. The products will have ascending numerical values in the “Position” column.
 
-.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`
+.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Sorting products <../artikel-und-kategorien/sortierung-von-artikeln>`
 
 .. Intern: oxbabn, Status:, F1: category_order.html

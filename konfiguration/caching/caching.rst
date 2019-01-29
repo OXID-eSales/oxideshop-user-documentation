@@ -1,39 +1,39 @@
 ﻿Caching
 =======
 
-In allen Shop-Editionen werden standardmäßig die Tabellenstrukturen der Datenbank, die Inhalte der verwendeten Sprachdateien und die durch die Smarty Template Engine kompilierten Templates gespeichert. Auch Abfragen der Datenbanktabelle OXSEO werden, wenn in den Performance-Einstellungen aktiviert, in Dateien geschrieben, um wiederholte Datenbankzugriffe zu vermeiden. Speicherort der Dateien ist das Verzeichnis :file:`/tmp` des Shops und dessen Unterverzeichnisse, beispielsweise :file:`/tmp/smarty`. Das Zwischenspeichern bewirkt, dass – wenn immer möglich – Inhalte aus dem Cache genutzt und an die anfragenden Web-Clients geschickt werden. Damit werden die Datenbankzugriffe reduziert und die Antwortzeiten des OXID eShop signifikant verkürzt.
+Database table structures, contents of the language files used and templates compiled by the Smarty template engine are saved in all shop editions by default. Queries to the OXSEO database table are also written to files, if enabled in the performance settings, to avoid repeated database access. Files are saved in the shop’s :file:`/tmp` directory and its subdirectories, e.g. :file:`/tmp/smarty`. Caching allows the system to use the contents from the cache and send them to the inquiring web clients, whenever possible. This reduces database access and significantly reduces OXID eShop response times.
 
-OXID eShop Enterprise Edition bietet für das Caching weit darüber hinausgehende Möglichkeiten.
+OXID eShop Enterprise Edition offers far more capabilities for caching.
 
-Dynamic Content Cache war von Anfang an integraler Bestandteil der Enterprise Edition. Es ist eine Caching-Lösung, bei der die erstellten HTML-Seiten einschließlich ihrer dynamischen Inhalte zwischengespeichert werden. Dabei können die technischen Möglichkeiten eines Zend Servers genutzt werden oder einfach das Dateisystem des Servers, auf dem der Shop läuft. Wird eine Seite vom Browser angefordert, wird zunächst geprüft, ob diese Seite im Cache und noch gültig ist. Die Gültigkeit wird anhand der gesetzten Lebensdauer (TTL, Time To Live) bestimmt. Ist die Seite im Cache und enthält dynamischen Inhalt, wird dieser nachgeladen und anschließend wird die komplette Seite an den Browser geschickt. Befindet sich die angeforderte Seite nicht im Cache, wird sie erstellt, angezeigt und im Cache abgelegt.
+Dynamic Content Cache has been an integral part of Enterprise Edition from the very beginning. It's a caching solution that caches the generated HTML pages, including their dynamic content. For this, the technical capabilities of the Zend Server or simply the file system of the server where the shop is running can be used. If a page is requested by the browser, the system will first check whether this page is still in the cache and still valid. The validity is determined by the set lifetime (TTL, Time To Live). If the page is in the cache and contains dynamic content, it will be reloaded and then the complete page will be sent to the browser. If the requested page is not in the cache, it will be created, displayed and cached.
 
-Mit der Version 5.0.0 der Enterprise Edition wurde das Caching erweitert.
+Caching has been enhanced with Enterprise Edition version 5.0.0.
 
-Das neue und erweiterte Caching wird durch drei Hauptkomponenten umgesetzt: durch den in den OXID eShop integrierten Cache Manager, unterstützt durch den Reverse Proxy Varnish und/oder durch Memcached.
+The new and enhanced caching is implemented using three main components: the Cache Manager integrated into OXID eShop, supported by the Varnish reverse proxy and/or Memcached.
 
-Der *Cache Manager*, welcher direkter Bestandteil des OXID eShop ist, verarbeitet alle Caching-Anforderungen und stellt sicher, dass die Daten in den verschiedenen eingesetzten Caches stets aktuell sind.
+The *Cache Manager*, which is a direct component of OXID eShop, processes all caching requirements and ensures that the data in the various caches used is always up-to-date.
 
-Der *Reverse Proxy Varnish* ist ein Webbeschleuniger. Das System verarbeitet noch vor dem Webserver eingehende Anfragen von Web-Clients und stellt die auszuliefernden Webseiten überwiegend aus zwischengespeicherten Inhalten zusammen. Inhalte werden vom Webserver abgefragt und aus der Datenbank gelesen, sobald die Lebensdauer des Caches abgelaufen ist.
+The *Varnish reverse proxy* is a web accelerator. The system processes incoming enquiries from web clients before the web server and compiles the web pages to be delivered predominantly from the cached content. Contents are queried by the web server and read from the database as soon as the cache lifetime has expired.
 
-*Memcached* ist ein Cache-Server. Durch dessen Einsatz wird es möglich, den Cache im Arbeitsspeicher anstatt im Dateisystem zu speichern. Der Zugriff auf Daten im Arbeitsspeicher ist deutlich schneller als ein Festplattenzugriff.
+*Memcached* is a cache server. It allows you to store the cache in the memory instead of in the file system. Access to data in the memory is much faster than access to the hard drive.
 
 -----------------------------------------------------------------------------------------
 
-Reverse Proxy Varnish
+Varnish reverse proxy
 ---------------------
-**Inhalte**: Varnish, Funktionsweise, Hinweise zur Installation, Konfiguration, default.vcl, servers_conf.vcl, HTTP, HTTPS, SSL |br|
-:doc:`Artikel lesen <reverse-proxy-varnish>` |link|
+**Contents**: Varnish, functionality, installation instructions, configuration, default.vcl, servers_conf.vcl, HTTP, HTTPS, SSL |br|
+:doc:`Read article <reverse-proxy-varnish>` |link|
 
 Memcached
 ---------
-**Inhalte**: Memcached, Hinweise zur Installation, Konfiguration |br|
-:doc:`Artikel lesen <memcached>` |link|
+**Contents**: Memcached, installation instructions, configuration |br|
+:doc:`Read article <memcached>` |link|
 
-Caching-Einstellungen
+Caching settings
 ---------------------
-**Inhalte**: Default Cache Backend, Cache Lebensdauer (TTL), Cache Connector, Dateisystem, Cache-Verzeichnis, Memcached, Memcached Server, Reverse Proxy, cachebare Seiten, Dynamic Content Caching, cachebare Klassen |br|
-:doc:`Artikel lesen <caching-einstellungen>` |link|
+**Contents**: default cache back end, cache lifetime (TTL), cache connector, file system, cache directory, Memcached, Memcached server, reverse proxy, cachable pages, dynamic content caching, cacheable classes |br|
+:doc:`Read article <caching-einstellungen>` |link|
 
-.. note:: Weiterführende Links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Server: `http://www.zend.com/en/products/zend_server <http://www.zend.com/en/products/zend_server>`_ | Varnish: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ | Memcached: `http://memcached.org <http://memcached.org/>`_
+.. note:: Additional links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Server: `http://www.zend.com/en/products/zend_server <http://www.zend.com/en/products/zend_server>`_ | Varnish: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ | Memcached: `http://memcached.org <http://memcached.org/>`_
 
 .. Intern: oxbabz, Status:

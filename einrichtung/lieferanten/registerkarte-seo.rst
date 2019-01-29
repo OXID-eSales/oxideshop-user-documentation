@@ -1,34 +1,34 @@
-﻿Registerkarte SEO
+﻿SEO tab
 =================
 
-Die Registerkarte :guilabel:`SEO` des Lieferanten beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
+The distributor’s :guilabel:`SEO` tab contains information and settings that are relevant to search engines.
 
 .. image:: ../../media/screenshots/oxbagg01.png
-   :alt: Lieferanten - Registerkarte SEO
+   :alt: Distributors - SEO tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Informationen und Einstellungen auch in einer weiteren aktiven Sprache bearbeiten.
+The language selection list at the bottom of the input area allows you to edit distributor’s information and settings in another active language.
 
-:guilabel:`URL fixiert` |br|
-Ändert sich der Titel eines Lieferanten, wird die SEO URL neu berechnet. Sie können das für die URL des Lieferanten deaktivieren, indem dieses Kontrollkästchen angehakt wurde. Eine bestehende SEO URL bleibt dadurch unverändert.
+:guilabel:`Fixed URL` |br|
+If distributor’s title changes, the SEO URL will be recalculated. Check the box to disable this feature for the distributor’s URL. The existing SEO URL will remain unchanged.
 
-:guilabel:`Titel Suffix in Kategorie anzeigen` |br|
-Diese Einstellung bestimmt, ob das Titel-Suffix im Seitentitel angezeigt wird. Würde die Übersicht aller Artikel dieses Lieferanten über die URL aufgerufen, enthielte der Seitentitel auch den Titel-Suffix, der unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel Suffix` definiert wurde. Beispiel Demoshop:\<title\>OXID Surf- und Kiteshop | www.true-fashion.com | online kaufen\</title\>. Mehr Informationen dazu finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
+:guilabel:`Show SEO Suffix in Category` |br|
+This setting determines whether the title suffix will be displayed in the page title. If the overview of all products of this distributor is called up via the URL, the page title will also contain the title suffix defined under :menuselection:`Master Settings --> Core Settings --> SEO --> Title Suffix`. Demo shop example:\<title\>OXID Surf and Kite Shop | www.true-fashion.com | purchase online\</title\>. More information can be found in :doc:`SEO settings <../../konfiguration/seo-einstellungen>`.
 
-Im Frontend gibt es standardmäßig keinen Aufruf der Übersicht aller Artikel eines Lieferanten.
+By default, the overview of all the distributor’s products is not displayed in the front end.
 
 :guilabel:`SEO URL` |br|
-Die angezeigte URL des Lieferanten wird angezeigt. Sie kann geändert und auch fixiert werden.
+Shows the displayed distributor’s URL which can also be changed and fixed.
 
-:guilabel:`Stichworte für Meta-Tags` |br|
-Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta Keywords) eingebunden. Wenn Sie nichts eingeben, werden die Stichwörter automatisch, beispielsweise aus dem Titel des Lieferanten, der Kategorie (Nach-Lieferant) und den Suchbegriffen der zugeordneten Artikel erzeugt.
+:guilabel:`META Keywords` |br|
+The keywords evaluated by search engines are integrated into the HTML source code (meta keywords). If you leave this field empty, they will be generated automatically, e.g. from the distributor’s title, the category (by distributor), and the search terms of the assigned products.
 
-:guilabel:`Beschreibungstext für Meta-Tags` |br|
-Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden. Dieser Text wird von vielen Suchmaschinen bei den Suchergebnissen angezeigt. Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Titel des Lieferanten, der Kategorie (Nach-Lieferant) und den Titeln der zugeordneten Artikel gebildet.
+:guilabel:`META Description` |br|
+This descriptive text is included in the HTML source code (meta description). It is displayed in the search results by many search engines. If you leave this field empty, the description will be generated automatically from the distributor’s title, the category (By distributor), and the titles of the assigned products.
 
-:guilabel:`In Sprache` |br|
-Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
+:guilabel:`In Language` |br|
+Select the desired language from the list for which you want to edit the SEO information and settings.
 
 .. Intern: oxbagg, Status:, F1: vendor_seo.html

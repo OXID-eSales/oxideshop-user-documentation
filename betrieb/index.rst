@@ -1,13 +1,13 @@
-Betrieb
+﻿Operation
 =======
 
 .. toctree::
    :maxdepth: 1
       
-   Benutzer <benutzer/index>
-   Benutzergruppen <benutzergruppen/index>
-   Bestellungen <bestellungen/index>
-   Aktionen <aktionen/index>
-   Rabatte <rabatte/index>
-   Gutscheinserien <gutscheinserien/index>
+   Users <benutzer/index>
+   User groups <benutzergruppen/index>
+   Orders <bestellungen/index>
+   Promotions <aktionen/index>
+   Discounts <rabatte/index>
+   Coupon series <gutscheinserien/index>
    Newsletter <newsletter/index>

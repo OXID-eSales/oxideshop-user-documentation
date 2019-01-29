@@ -1,31 +1,31 @@
-﻿Hauptkategorie eines Artikels
+﻿Main category of a product
 =============================
-Ein Artikel kann beliebig vielen Kategorien zugeordnet werden. In diesem Fall muss eine Kategorie als Hauptkategorie festgelegt werden. Das ist notwendig, damit der Shop in bestimmten Situationen entscheiden kann, in welcher Kategorie der Artikel angezeigt werden soll. Ruft der Kunde beispielsweise einen Artikel über die shopeigene Suche oder über die Tags auf, wird dieser in der definierten Hauptkategorie angezeigt.
+A product can be assigned to any number of categories. In this case, one of the categories must be defined as the main category. This is necessary to allow the shop to decide in certain situations, in which category the product should be displayed. For example, if the customer accesses a product via the shop’s search or using the tags, it will be displayed in the defined main category.
 
-Es spielt auch der sogenannte Duplicate Content eine Rolle. Ein Artikel, der in mehreren Kategorien vorkommt, hat mehrere URLs. Diese zeigen auf dessen Detailseite und würden so identischen Inhalt präsentieren. Suchmaschinen wie Google, Bing und Yahoo! wollen ihren Nutzern Suchergebnisse ohne Redundanzen auflisten. Die Lösung sind Canonical Tags oder Canonical Links, die bei inhaltlich gleichen Seiten auf die originale Seite verweisen. Im OXID eShop ist das die Detailseite des Artikels mit der Hauptkategorie in der URL.
+The so-called duplicate content is also important. A product that appears in multiple categories has multiple URLs. These point to the product’s details page and would therefore present identical content. Search engines like Google, Bing and Yahoo! want to list search results for their users without any redundancies. The solution is canonical tags or canonical links that refer to the original page if the content is the same. In OXID eShop, this is the product’s details page with the main category in the URL.
 
-Die Canonical Tags werden im OXID eShop prinzipiell, also auch für nur eine Kategorie, gesetzt. Wurde keine Hauptkategorie festgelegt, wird die Kategorie verwendet, welcher der Artikel als Erstes zugeordnet wurde.
+In OXID eShop, canonical tags are also set for just one category. If no main category has been defined, the category to which the product was assigned first will be used.
 
-Beispiel aus dem Seitenquelltext eines Artikels in einem Demoshop:
+Example from the page source text of a product in a demo shop:
 
 ``\<link rel=\"canonical\"href=\"http://demoshop.oxid-esales.com/pe/Kiteboarding/Trapeze/Trapez-ION-MADTRIXX.html\"\>``
 
-Die Hauptkategorie eines Artikels wird festgelegt.
+Setting the main category of a product
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Kategorien zuordnen` auf der Registerkarte :guilabel:`Erweitert`.
-* Legen Sie eine Hauptkategorie fest, wenn der Artikel in mehreren Kategorien vorkommt.
-* Markieren Sie dafür die vorgesehene Kategorie in der rechten Liste.
-* Betätigen Sie die Schaltfläche :guilabel:`Als Hauptkat. setzen`.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Administer Products --> Products`.
+* Select the desired product from the product list.
+* Click on :guilabel:`Assign Categories` in the :guilabel:`Extended` tab.
+* Specify the main category if the product appears in multiple categories.
+* To do this, highlight the required category in the right-hand list.
+* Click on :guilabel:`Set as Main Category`.
+* Close the assignment window.
 
 .. image:: ../../media/screenshots/oxbafp01.png
-   :alt: Als Hauptkategorie setzen
+   :alt: Setting as main category
    :class: with-shadow
    :height: 314
    :width: 400
 
-.. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | `Canonical Link <http://de.wikipedia.org/wiki/Canonical_Link>`_ (Wikipedia)
+.. seealso:: :doc:`Products - Extended tab <../artikel/registerkarte-erweitert>` | `Canonical link <http://de.wikipedia.org/wiki/Canonical_Link>`_ (Wikipedia)
 
 .. Intern: oxbafp, Status:

@@ -1,59 +1,59 @@
-﻿Rabatte
+﻿Discounts
 =======
 
-Rabattangebote sind neben Gutscheinserien, Newslettern oder Aktionen ein wichtiges Marketinginstrument in Ihrem OXID eShop. Mit einem Rabatt gewähren Sie einen Nachlass auf den sonst üblichen Preis eines Artikels, wenn bestimmte Bedingungen erfüllt sind. Günstigere Artikelpreise können für bestimmte Artikel, Kategorien, Benutzer, Benutzergruppen, Einkaufswerte oder -mengen festgelegt werden. Mit den vielfältigen Möglichkeiten der Rabatte bieten Sie Ihren Kunden Einkaufsvorteile und fördern so die Kundenbindung.
+Apart from coupon series, newsletters or promotions, discounts are an important marketing tool in your OXID eShop. You can grant a discount on the regular price of a product if certain conditions are met. Cheaper product prices can be set for specific products, categories, users, user groups, and purchase values or quantities. The wide variety of discounts allows you to offer shopping benefits to your customers and promote customer loyalty.
 
-Rabatte lassen sich für einen bestimmten Zeitraum oder gar länderspezifisch definieren. Sie können so eingestellt werden, dass das Angebot direkt mit den ermäßigten Preisen angezeigt wird. Es ist aber auch möglich, dass der Rabatt erst im Warenkorb berechnet und ausgewiesen wird. Rabatte können prozentual oder absolut zum Artikelpreis vergeben werden. Neben der Ermäßigung des Artikelpreises gibt es auch die Möglichkeit, bei jedem Kauf, der den Rabattkriterien entspricht, einen Gratisartikel in den Warenkorb zu legen.
+Discounts can be defined for a specific time period or even for a specific country. They can be set to display the offer directly with the discounted prices. However, you can also specify that the discount is first calculated and shown in the shopping cart. Discounts can be given as a percentage or in absolute terms in relation to the product price. In addition to the reduction of the product price, there is also the option of adding a free products to the shopping cart for every purchase that meets the discount criteria.
 
 .. image:: ../../media/screenshots/oxbahh01.png
-   :alt: Rabatte
+   :alt: Discounts
    :class: with-shadow
    :height: 517
    :width: 650
 
-Mengennachlass oder Staffelrabatt können mit Staffelpreisen bei den Artikeln umgesetzt werden. Damit kann definiert werden, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird. Siehe: :doc:`Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`
+Quantity or scale discounts can be implemented with scale prices for the products. This way, the product will be cheaper if the customer buys a certain quantity. See: :doc:`Products - Stock tab <../../einrichtung/artikel/registerkarte-lager>`
 
-Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`
+A discount granted at the time of purchase can be changed later in the order management section. Likewise, a discount on the shopping cart value can be given after the order has been placed. See: :doc:`Orders - Main tab <../bestellungen/registerkarte-stamm>`
 
-Im OXID eShop können natürlich verschiedene Rabatte aktiv sein, so dass unter bestimmten Bedingungen mehrere Rabatte beim Einkauf berücksichtigt und im Warenkorb ausgewiesen werden. Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht. Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt.
+Naturally, various discounts can be active in OXID eShop so that, under certain conditions, several discounts are taken into account when buying a product and displayed in the shopping cart. In this case, discounts that apply to specific products are indicated in the shopping cart by the now valid discounted price and the crossed-out, original product price. Discounts that apply to the entire product catalogue are displayed as one line when listing the total amount for the shopping cart.
 
 .. image:: ../../media/screenshots/oxbahh02.png
-   :alt: Kite mit 2 Rabatten im Warenkorb
+   :alt: Kite with 2 discounts in the shopping cart
    :class: with-shadow
    :height: 317
    :width: 650
 
-Der Abschnitt \"Rabatte\" informiert Sie darüber, wie Rabatte erstellt und mit welchen Einstellungen sie individualisiert und für bestimmte Kundengruppen genutzt werden können. In ihm werden auch einige typische Beispiele für Rabatte aufgezeigt.
+The \"Discounts\" section tells you how to create discounts and what settings to use to customise and apply them to specific groups of customers. It also shows some typical examples of discounts.
 
-Rabatte können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Rabatte` bearbeitet werden. Es werden eine Liste mit den vorhandenen Rabatten und darunter der Eingabebereich für die Rabatte angezeigt.
+Discounts can be edited in the Admin panel under :menuselection:`Shop Settings --> Discounts`. Here, you will see a list of the available discounts and the input area right below it.
 
-In der Liste der Rabatte symbolisiert ein kleines grünes Quadrat am Anfang der Zeile einen aktiven Rabatt. Wurde ein Rabatt nicht aktiviert, fehlt dieses Symbol. Die Liste zeigt ausschließlich den Namen des Rabattes an. Nach Rabatten kann gesucht werden, indem Zeichen in das Suchfeld eingegeben werden. Die Namen der Rabatte werden nach diesen Zeichen durchsucht, sobald die Eingabe mit einem Enter abgeschlossen oder das Lupen-Symbol angeklickt wurde.
+A small green icon at the beginning of the line in the discounts list symbolises an active discount. It is not displayed for inactive discounts. The list shows only the name of the discount. To search for discounts, enter characters in the search field and then press Enter or click on the magnifying glass icon.
 
-Rabatte lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Soll der Rabatt nur nicht aktiv sein, entfernen Sie das Häkchen bei :guilabel:`Immer aktiv` und achten Sie darauf, dass kein Zeitraum eingetragen ist. Ein Eintrag würde den Rabatt ansonsten für den angegebenen Zeitraum aktivieren.
+Discounts can be permanently removed from the database by clicking on the trash icon at the end of the line. To deactivate the discount, uncheck the :guilabel:`Always active` box and make sure that no time period is specified as otherwise the discount would be activated for the specified period.
 
-Wird ein Rabatt aus der Liste der Rabatte gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Rabattes klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuen Rabatt anlegen`.
+When you select a discount from the list, its information will be displayed in the input area. To create a new discount, click on :guilabel:`Create new Discount` at the bottom of the screen.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktiver Rabatt, immer aktiv, aktiv für Zeitraum, Einkaufsmenge, Einkaufswert, absoluter Rabatt, prozentualer Rabatt, Dreingabe, Zugabe, kostenfreier Artikel |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active discount, always active, active for a time period, purchase quantity, purchase value, absolute discount, percentage discount, gift, add-on, free product |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Artikel
+Products tab
 ---------------------
-**Inhalte**: Artikel und Kategorien zuordnen |br|
-:doc:`Artikel lesen <registerkarte-artikel>` |link|
+**Contents**: Assigning products and categories |br|
+:doc:`Read article <registerkarte-artikel>` |link|
 
-Registerkarte Benutzer
+Users tab
 ----------------------
-**Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-:doc:`Artikel lesen <registerkarte-benutzer>` |link|
+**Contents**: Assigning users and user groups |br|
+:doc:`Read article <registerkarte-benutzer>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Rabatte vererben, Rabatte verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: inheriting discounts, assigning discounts, parent shop, subshop, supershop, multishop, Mall |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
 .. Intern: oxbahh, Status:

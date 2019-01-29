@@ -1,34 +1,34 @@
-﻿Zahlungsarten für bestimmte Benutzer
+﻿Payment methods for specific users
 ====================================
 
-Shopbetreiber müssen eine grundsätzliche Entscheidung darüber treffen, welche Zahlungsarten ihre Kunden nutzen können. Sie müssen festlegen, bei welchen Kunden es akzeptabel ist, die Ware vor dem Zahlungseingang zu verschicken, und bei welchen Kunden diese Vorleistung nicht sinnvoll ist. Die Zahlung auf Rechnung beispielsweise ist eine bei den Kunden sehr beliebte Zahlungsart, da dieser die Ware vor der Bezahlung anschauen oder ausprobieren kann. Für den Shopbetreiber bedeutet dieser Vorteil des Kunden aber ein erhöhtes Risiko, denn nicht alle Kunden zahlen eine Rechnung pünktlich oder überhaupt.
+Shop owners have to make a fundamental decision about which payment methods their customers can use. They need to decide for which customers it is acceptable to ship the products before receiving the payment and for which customers such advanced shipping is not efficient. For example, payment against invoice is very popular with customers since it allows them to look at the products or try them out before paying. However, for shop owners, this means an increased risk because not all customers pay their bill on time or at all.
 
-Im OXID eShop gibt es zwei Möglichkeiten, Zahlungsarten nur für bestimmte Benutzer anzubieten. Eine davon ist der Bonitätsindex, der bei den Zahlungsarten hinterlegt werden kann. Diese Einstellung steuert, dass nur Kunden diese Zahlungsart im Bestellprozess angezeigt bekommen, deren Bonität größer gleich dem Bonitätsindex der Zahlungsart ist. Diese Möglichkeit kann sehr aufwändig werden, da die Bonität für jeden einzelnen Benutzer definiert und aktuell gehalten werden muss.
+OXID eShop allows you to offer payment methods only for specific users in two different ways. One of these is the credit rating that can be stored for payment methods. This setting ensures that the payment method in the ordering process will only be displayed to customers whose credit rating is greater or equal to the credit rating of the payment method. This option can be very time-consuming because the credit rating will need to be defined and kept up to date for each individual user.
 
-Bei der Zahlungsart wird die vorausgesetzte Bonität definiert.
+The required credit rating for the payment method is defined.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Zahlungsarten`.
-* Wählen Sie die gewünschte Zahlungsart aus der Liste der Zahlungsarten.
-* Vergeben Sie auf der Registerkarte :guilabel:`Stamm` einen Bonitätsindex.
-* Speichern Sie die Eingabe.
+* Go to :menuselection:`Shop Settings --> Payment Methods`.
+* Select the desired payment method from the list.
+* Enter the required credit rating in the :guilabel:`Main` tab.
+* Save the settings.
 
-Die Bonität muss für jeden einzelnen Benutzer festgelegt werden.
+The credit rating must be defined for each individual user.
 
-* Gehen Sie zu :menuselection:`Benutzer verwalten --> Benutzer`.
-* Wählen Sie den gewünschten Benutzer aus der Liste der Benutzer.
-* Geben Sie einen Wert in das Feld :guilabel:`Bonität` auf der Registerkarte :guilabel:`Erweitert` ein.
-* Speichern Sie die Eingabe.
+* Go to :menuselection:`Administer Users --> Users`.
+* Select the desired user from the user list.
+* Enter a value in the :guilabel:`Credit Rating` field in the :guilabel:`Extended` tab.
+* Save the settings.
 
-Die zweite Möglichkeit für kundenbezogene Zahlungsarten im Bestellprozess wird durch die Zuordnung von Benutzergruppen zu den Zahlungsarten erreicht. Damit kann beispielsweise nur der Benutzergruppe Händler die Zahlung auf Rechnung eingeräumt werden.
+The second option for customer-related payment methods in the ordering process is to assign user groups to payment methods. For example, you can specify that only the “Retailer” user group can use payment against invoice as the payment method.
 
-Benutzergruppen werden einer Zahlungsart zugeordnet.
+Assigning user groups to a payment method
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Zahlungsarten`.
-* Wählen Sie die gewünschte Zahlungsart aus der Liste der Zahlungsarten.
-* Betätigen Sie die Schaltfläche :guilabel:`Benutzergruppen zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Benutzergruppe per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Shop Settings --> Payment Methods`.
+* Select the desired payment method from the list.
+* Click on :guilabel:`Assign User Groups` in the :guilabel:`Main` tab.
+* Drag and drop the user group into the right-hand list of the assignment window.
+* Close the assignment window.
 
-.. seealso:: :doc:`Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>` | :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>`
+.. seealso:: :doc:`Payment methods - Main tab <../zahlungsarten/registerkarte-stamm>` | :doc:`Users - Extended tab <../../betrieb/benutzer/registerkarte-erweitert>`
 
 .. Intern: oxbafu, Status:

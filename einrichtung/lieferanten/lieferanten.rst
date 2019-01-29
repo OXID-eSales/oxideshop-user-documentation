@@ -1,41 +1,41 @@
-﻿Lieferanten
+﻿Distributors
 ===========
 
-Der OXID eShop bietet die Möglichkeit, Lieferanten zu verwalten. Artikel können diesen Lieferanten zugeordnet werden, um die Bezugsquellen der Waren zu dokumentieren. Im Administrationsbereich lassen sich Artikel nach der Lieferanten-ID filtern und anzeigen. Im Frontend des Shops gibt es keine Verwendung für die Lieferanten, denn Shopbetreiber sind mit Sicherheit nicht daran interessiert, diese Information öffentlich zu machen.
+OXID eShop allows you to manage distributors. You can assign products to the distributors to document their sources. Products can be filtered and displayed by the distributor ID in the Admin panel. Distributors are not used in the shop’s front end since shop owners are certainly not interested in making this information public.
 
 .. image:: ../../media/screenshots/oxbage01.png
-   :alt: Lieferanten
+   :alt: Distributors
    :class: with-shadow
    :height: 530
    :width: 650
 
-Lieferanten können im Administrationsbereich unter :menuselection:`Stammdaten --> Lieferanten` bearbeitet werden. Es werden die Lieferantenliste und darunter der Eingabebereich für die Lieferanten angezeigt. Die Lieferantenliste enthält Titel und Kurzbeschreibung der Lieferanten. Nach Lieferanten kann unter Verwendung der Suchfelder gesucht werden.
+Distributors can be edited under :menuselection:`Master Settings --> Distributors` in the Admin panel. Here, you will see the list of distributors and the input area right below it. The list contains the title and the short description of the distributor. You can search for distributors by using the search fields.
 
-Lieferanten lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
+Distributors can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
-Wird ein Lieferant aus der Lieferantenliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Lieferanten klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuen Lieferant anlegen`. Weitere Funktionen in der Fußzeile sind :guilabel:`Artikelanzahl in den Lieferanten zurücksetzen` und :guilabel:`Hilfe starten`.
+When you select a distributor from the list, its information will be displayed in the input area. To create a new distributor, click on :guilabel:`Create new Distributor` at the bottom of the screen. The footer also contains the following links: :guilabel:`Reset Number of Products in Distributors` and :guilabel:`Start Help`.
 
-.. hint:: Um in der Artikelliste nach Lieferanten suchen zu können, benötigen Sie die Lieferanten-ID. Diese wird Ihnen am unteren Bildschirmrand angezeigt, sobald Sie einen Lieferanten aus der Lieferantenliste auswählen. Mit der rechten Maustaste lässt sich dieser Link kopieren und die jeweilige Lieferanten-ID entnehmen. Beispiel für einen Link: javascript:top.oxid.admin.editThis('a57c56e3ba710eafb2225e98f058d989'); Die Lieferanten-ID für www.true-fashion.com aus dem Demodaten ist a57c56e3ba710eafb2225e98f058d989.
+.. hint:: To search for distributors in the product list, you will need the distributor ID. It will be displayed at the bottom of the screen when you select a distributor from the list of distributors. Right-click to copy this link and obtain the respective distributor ID. Example of a link: javascript:top.oxid.admin.editThis('a57c56e3ba710eafb2225e98f058d989'); The distributor ID for www.true-fashion.com from the demo data is a57c56e3ba710eafb2225e98f058d989.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktiver Lieferant, Titel, Kurzbeschreibung, Icon, Lieferantenlogo, Hochladen, Upload auf Webserver, automatisch generiert, Artikel zuordnen |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active distributor, brand, title, short description, icon, distributor logo, uploading, uploading to web server, automatically generated, assigning products |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
+Available only in Enterprise Edition |br|
 
-**Inhalte**: Lieferanten vererben, Lieferanten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+**Contents**: inheriting distributors, assigning distributors, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
-Registerkarte SEO
+SEO tab
 -----------------
-**Inhalte**: Suchmaschinenoptimierung, SEO, SEO URL, Titel Suffix, URL fixieren, Meta-Tags, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\" |br|
-:doc:`Artikel lesen <registerkarte-seo>` |link|
+**Contents**: search engine optimisation, SEO, SEO URL, title suffix, fixing URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\" |br|
+:doc:`Read article <registerkarte-seo>` |link|
 
-.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Hersteller <../hersteller/hersteller>`
+.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Manufacturers <../hersteller/hersteller>`
 
 .. Intern: oxbage, Status:

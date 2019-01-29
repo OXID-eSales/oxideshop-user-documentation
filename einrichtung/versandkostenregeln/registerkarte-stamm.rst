@@ -1,60 +1,60 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
 
-Bedingungen und Konditionen für die Berechnung der Versandkosten werden auf der Registerkarte :guilabel:`Stamm` der Versandkostenregeln definiert. Über einen Dialog erfolgt die Zuordnung der Länder zur Versandkostenregel. Mindestens ein Land muss zugewiesen sein.
+The :guilabel:`Main` tab of the shipping cost rules allows you to define terms and conditions for calculating the shipping costs. Countries are assigned to the shipping cost rule via a dialog. You will need to assign at least one country.
 
 .. image:: ../../media/screenshots/oxbadk01.png
-   :alt: Versandkostenregeln - Registerkarte Stamm
+   :alt: Shipping cost rules - Main tab
    :class: with-shadow
    :height: 342
    :width: 650
 
 :guilabel:`Name` |br|
-Das Eingabefeld nimmt die Bezeichnung der Versandkostenregel auf. Der Name ist frei definierbar, sollte aber einen logischen Bezug zur Versandart haben, für welche die Versandkostenregel erstellt wird. Das erleichtert den Überblick, wenn sehr viele Versandkostenregeln notwendig sind, um den Versand abzubilden. Das Wort \"Standard\" in den Versandkostenregeln des OXID eShop weist beispielsweise auf die zugrunde liegende Versandart hin.
+This input field contains the name of the shipping cost rule. The name can be freely defined but should be logically related to the shipping method for which the shipping cost rule is created. This facilitates the overview if the shipping representation requires a lot of shipping cost rules. For example, the word \"Standard\" in the shipping rules of OXID eShop indicates the underlying shipping method.
 
-:guilabel:`Aktiv` |br|
-Die Versandkostenregel ist aktiv, wenn das Kontrollkästchen angehakt ist.
+:guilabel:`Active` |br|
+The shipping cost rule is active when the control box is checked.
 
-:guilabel:`Oder aktiv` ... :guilabel:`(von)` ... :guilabel:`(bis)` |br|
-Alternativ kann eine Versandkostenregel so eingerichtet werden, dass sie nur für einen bestimmten Zeitraum gilt. Der Zeitraum dafür wird hier festgelegt. Das Eingabeformat ist dabei JJJJ-MM-TT HH:MM:SS. Damit der Zeitraum berücksichtigt wird, darf :guilabel:`Aktiv` nicht angehakt sein, und es muss ein Bis-Datum geben.
+:guilabel:`Or, active for period` ... :guilabel:`(from)` ... :guilabel:`(to)` |br|
+Alternatively, you can set a shipping rule to apply only to a specified time period defined here. The input format should be YYY-MM-DD HH:MM:SS. Don’t check the :guilabel:`Active` box for the time period to be taken into account, and don’t forget to specify the “To” date.
 
-:guilabel:`Bedingung \>=` ...\:guilabel:`und \<=` ... |br|
-Eine Versandkostenregel kann auf Basis der Menge, der Größe, des Gewichtes oder des Preises der bestellten Artikel definiert werden. Die Auswahl erfolgt mit einer kleinen Dropdown-Liste. Die Bedingung muss so formuliert werden, dass sie gültig ist. Achten Sie daher darauf, immer eine Bis-Menge, eine Bis-Größe, ein Bis-Gewicht oder eine Bis-Preis einzutragen.
+:guilabel:`Condition \>=` ...\:guilabel:`and \<=` ... |br|
+Shipping cost rules can be defined based on the amount, size, weight or price of the products ordered by using a small drop-down list. The condition must be formulated in such a way that it is valid. Make sure you always enter a “to” quantity, a “to” size, a “to” weight or a “to” price.
 
-:guilabel:`Preis Auf-/Abschlag (€)` |br|
-Geben Sie hier die Kosten für den Versand absolut oder prozentual an. Wählen Sie \"abs\" oder \"%\" in der kleinen Dropdown-Liste aus. Über den Abschlag können im Zusammenhang mit Zeitraum oder mit Menge als Bedingung Zeit- oder Mengenrabatte abgebildet werden.
+:guilabel:`Price Surcharge/Discount (€)` |br|
+Enter the shipping costs in absolute or percentage terms by selecting \"abs\" or \"%\" in the small drop-down list. You can use the discount to display time or quantity-based discounts in connection with a time period or quantity as a condition.
 
-:guilabel:`Berechnungsregeln` |br|
-Der Preis für den Versand kann auf drei verschiedene Arten berechnet werden.
+:guilabel:`Calculation Rules` |br|
+Shipping price can be calculated in three different ways.
 
-:guilabel:`Einmal pro Warenkorb` |br|
-Der Preis für den Versand wird einmal pro Warenkorb berechnet.
+:guilabel:`Once per Cart` |br|
+Shipping price is calculated once per cart.
 
-:guilabel:`Einmal pro unterschiedlichem Artikel` |br|
-Der Preis für den Versand wird einmal pro unterschiedlichem Artikel berechnet. Es wird dabei nicht berücksichtigt, wie viele Artikel jeweils in den Warenkorb gelegt wurden.
+:guilabel:`Once for each different product` |br|
+Shipping price is calculated once per different product. It doesn’t matter how many products were added to the shopping cart.
 
-:guilabel:`Für jeden Artikel` |br|
-Der Preis für den Versand wird für jeden einzelnen Artikel im Warenkorb berechnet.
+:guilabel:`For each product` |br|
+Shipping price is calculated for each product in the shopping cart.
 
-:guilabel:`Reihenfolge der Regelberechnung` |br|
-Legen Sie fest, wann die Versandkostenregel angewendet werden soll. Die Versandkostenregel mit der kleinsten Zahl wird als erste bei der Berechnung berücksichtigt. Die Reihenfolge der Verarbeitung muss gut durchdacht sein. Es gilt zu bedenken, welche Versandkostenregel zuerst geprüft werden muss und ob danach eine weitere Versandkostenregel zu berücksichtigen ist. Alle Regeln, die nur eine einzige Bedingung prüfen und die nicht in Kombination mit anderen Regeln funktionieren, sollten immer zuerst berücksichtigt werden.
+:guilabel:`Order of Rule Processing` |br|
+Specify when the shipping cost rule should be applied. The shipping cost rule with the smallest number will be considered first in the calculation. The order of processing must be well thought out. You will need to think about which shipping cost rule has to be checked first and whether another shipping cost rule needs to be considered afterwards. All rules that check only one condition and that don’t work in combination with other rules should always be considered first.
 
-:guilabel:`Keine weiteren Regeln nach dieser berechnen` |br|
-Treffen die Bedingungen mehrerer Versandkosten zu, addieren sich die Versandkosten. Werden die Versandkosten bereits durch eine Versandkostenregel adäquat berechnet, kann eine weitere Berechnung unterbunden werden. Setzen Sie dafür ein Häkchen in dieses Kontrollkästchen.
+:guilabel:`Don't calculate further Rules if this Rule matches` |br|
+If the conditions of several shipping costs apply, the shipping costs will add up. If the shipping costs have already been adequately calculated by a shipping cost rule, further calculation can be prevented by checking this box.
 
-:guilabel:`In Sprache` |br|
-Die Versandkostenregel kann in weiteren aktiven Sprachen des Shops bearbeitet werden. Wählen Sie eine Sprache aus der Dropdown-Liste aus.
+:guilabel:`In Language` |br|
+Shipping cost rules can be edited in other active languages of the shop. To do this, select the desired language from the drop-down list.
 
-:guilabel:`Kopieren` |br|
-Bevor eine Versandkostenregel in einer weiteren aktiven Sprache bearbeitet werden kann, muss sie kopiert werden. Wählen Sie die Sprache aus der Dropdown-Liste aus und drücken Sie die Schaltfläche :guilabel:`Kopieren`. Ist keine weitere aktive Sprache im Shop vorhanden, wird diese Schaltfläche nicht angezeigt.
+:guilabel:`Copy to` |br|
+You will need to copy a shipping cost rule before it can be edited in another active language. To do this, select the language from the drop-down list and click on :guilabel:`Copy to`. This button won’t be displayed if there are no other active languages in the shop.
 
-:guilabel:`Länder zuordnen` |br|
-Der Versandkostenregel sollten Länder zugeordnet sein, die idealerweise mit denen in der zugehörigen Zahlungsart und der Versandart übereinstimmen. Das sorgt für eine transparente Logik bei der Definition von Zahlung und Versand. Wurde kein Land zugewiesen, gilt die Versandkostenregel für alle Länder.
+:guilabel:`Assign Countries` |br|
+Ideally, the shipping cost rule should have countries assigned to it that match those in the associated payment and shipping method. This ensures transparent logic in the definition of payment and shipping. If no country has been assigned, the shipping cost rule will apply to all countries.
 
-Nehmen Sie diese Zuordnung vor, indem Sie auf die Schaltfläche :guilabel:`Länder zuordnen` klicken. In einem neuen Fenster können Sie Länder aus der Liste :guilabel:`Alle Länder` auswählen. Länder lassen sich nach Namen und/oder der Länderabkürzung (ISO Alpha 2) sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung zur Versandkostenregel ist damit abgeschlossen.
+Click on :guilabel:`Assign Countries` and select countries from the :guilabel:`All Countries` list that opens in a new window. Countries can be sorted and filtered by title and/or country abbreviation (ISO Alpha 2). Drag the desired countries into the right-hand list using the mouse. Hold down the Ctrl key to select multiple countries. The assignment to the shipping cost rule is now completed.
 
-.. hint:: Der Versand in In- und Ausland sollte immer über Versandkostenregeln gesteuert werden. Verwenden Sie dafür nicht die Versandarten. Es könnten dadurch Probleme auftreten, wenn bei einer Bestellung Rechnungsadresse und Lieferadresse in verschiedenen Ländern liegen.
+.. hint:: Domestic and foreign shipping should always be controlled by shipping cost rules. Don’t use shipping methods as this could cause problems if the billing address and the shipping address are from different countries when placing an order.
 
-.. seealso:: :doc:`Gewichtsabhängige Versandkosten <../zahlung-und-versand/gewichtsabhaengige-versandkosten>` | :doc:`Versandkostenfrei ab Warenwert <../zahlung-und-versand/versandkostenfrei-ab-warenwert>` | :doc:`Versandkosten für In- und Ausland <../zahlung-und-versand/versandkosten-fuer-in-und-ausland>`
+.. seealso:: :doc:`Weight-dependent shipping costs <../zahlung-und-versand/gewichtsabhaengige-versandkosten>` | :doc:`Free shipping from certain product value <../zahlung-und-versand/versandkostenfrei-ab-warenwert>` | :doc:`Domestic and foreign shipping costs <../zahlung-und-versand/versandkosten-fuer-in-und-ausland>`
 
 .. Intern: oxbadk, Status:, F1: delivery_main.html

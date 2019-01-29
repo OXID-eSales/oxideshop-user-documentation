@@ -1,6 +1,6 @@
-﻿Registerkarte Zahlung
+﻿Payment tab
 =====================
-Alle Zahlungsarten, die der Kunde bei seinen bisherigen Bestellungen benutzte, können auf der Registerkarte :guilabel:`Zahlung` angezeigt werden. Sie sind aus einer Dropdown-Liste auswählbar. Für die Zahlungsart \"Bankeinzug/Lastschrift\" kann hier die Bankverbindung eingetragen oder geändert werden, die dem Kunden im Bestellprozess angezeigt wird.
+All payment methods used by the customer in the previous orders are displayed in the :guilabel:`Payment` tab and can be selected from a drop-down list. For the \"Direct Debit\" payment method, you can enter or change the bank details that are displayed to the customer in the ordering process.
 
 .. image:: ../../media/screenshots/oxbadw01.png
    :alt: 
@@ -8,6 +8,6 @@ Alle Zahlungsarten, die der Kunde bei seinen bisherigen Bestellungen benutzte, k
    :height: 335
    :width: 650
 
-Es ist auch möglich neue Zahlungsarten für den Kunden zu erstellen oder bestehende zu löschen. Alle auf der Registerkarte anzeigbaren Zahlungsarten bestimmen jedoch nicht, womit der Kunde bei einer Bestellung bezahlen kann. Das ist allein von der Definition der :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` abhängig.
+You can also create new payment methods for the customer or delete the existing ones. However, payment methods that are displayed in this tab don’t determine which one the customer can use to pay for the order. This can only be specified in the :doc:`Payment methods <../../einrichtung/zahlungsarten/zahlungsarten>`.
 
 .. Intern: oxbadw, Status:, F1: user_payment.html

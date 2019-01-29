@@ -1,46 +1,46 @@
-﻿Bilder
+﻿Images
 ======
 
-Jeder Artikel kann bis zu zwölf Artikelbilder haben, die in der Detailansicht des Artikels angezeigt werden. Artikel verfügen über Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Kleinere Artikelbilder zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Alle benötigten Bildarten werden automatisch generiert.
+Each product can have up to twelve product images that are displayed in the product’s detailed view. Products have zoom images that are also available on the product’s details page. Smaller product images show the product in product lists, product boxes and in the shopping cart. All required image types are generated automatically.
 
-Informationen zur Generierung der Bilder und zur Verzeichnisstruktur der Artikelbilder ab OXID eShop 4.5.1 finden Sie im englischsprachigen Tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ auf der OXIDforge.
+Information on image generation and the directory structure of product images starting with OXID eShop 4.5.1 and newer versions can be found in the English-language tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ on the OXIDforge page.
 
-Bildgenerierung und -qualität
+Image generation and quality
 -----------------------------
-Die erforderlichen Einstellungen für die Bildgenerierung und für die Bildgrößen werden für alle Artikel im Administrationsbereich vorgenommen. Gehen Sie zu :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` Klicken Sie auf :guilabel:`Bilder`, um die Einstellungen anzuzeigen. Das ist zum einen die installierte Version der GDLib, einer Software auf dem Server, die für die dynamische Erzeugung von Grafiken zuständig ist. Deren aktuelle Version ist die Version 2. Zum anderen ist das automatische Generieren von Icons aktiviert. Lassen Sie beide Einstellungen unverändert.
+The settings required for image generation and image sizes for all products can be found in the Admin panel. Go to :menuselection:`Master Settings --> Core Settings`, :guilabel:`Settings` tab and click on :guilabel:`Pictures` to view the settings. The first setting is “Installed GDLib Version”, a server software for the dynamic generation of graphics. Version 2 is the latest version. You can also see that the automatic generation of icons is activated. Leave these settings unchanged.
 
-In der Registerkarte :guilabel:`System` gibt es ebenfalls einen kleinen Abschnitt :guilabel:`Bilder`. Wichtig für die Bildgenerierung ist die Vorgabe für die Bildqualität. Die Standardeinstellung ist 75 und stellt einen guten Kompromiss zwischen Bildqualität und Dateigröße dar. Bei einem deutlich kleineren Wert sind die Artikelbilder stark komprimiert, haben daher eine kleine Dateigröße, aber eine schlechte Bildqualität (Unschärfen und Kompressionsartefakte). Ist der Wert größer als 75, steigt die Bildqualität, aber auch die Größe der Datei (längere Ladezeiten).
+There is also a small :guilabel:`Pictures` section in the :guilabel:`System` tab. Specifying the image quality is important for image generation. The default setting is 75, which is a good compromise between the image quality and the file size. At a much smaller value, product images will be highly compressed, having a small file size but a poor image quality (blurring and compression artefacts). If the value is greater than 75, the image quality will increase, but the file size will also (longer loading times).
 
-Die Option :guilabel:`E-Mails mitsamt Bildern versenden`, hat nichts mit der Bildgenerierung zu tun. Ist diese Einstellung aktiv, werden Artikelbilder in E-Mails mitgesendet. Die E-Mail, die als Bestellbestätigung verschickt wird, oder der Newsletter enthalten dann Artikelbilder. E-Mails können so schnell groß werden, was zu Problemen beim Versand und beim Empfang der Mail führen kann. Standardmäßig werden E-Mails ohne Artikelbilder versendet. Die Artikelbilder werden beim Lesen der E-Mail durch das Mail-Programm des Kunden nachgeladen.
+The option :guilabel:`Send emails with inline Images` has nothing to do with image generation. With this setting selected, product images will be sent in emails, which means that the email that will be sent as order confirmation or the newsletter will contain product images. This will lead to larger email sizes which may cause problems when sending and receiving emails. By default, emails are sent without product images. Product images will be downloaded by the customer's mail program upon reading the email.
 
-Bildgrößen
+Image sizes
 ----------
-Die Größe der Bilder für Artikel, Kategorien und für Hersteller- und Markenlogos ist abhängig vom Design des Shops. Die Einstellungen sind daher beim aktiven Theme unter :menuselection:`Erweiterungen --> Themes` hinterlegt. Rufen Sie die Registerkarte :guilabel:`Einstell.` des Themes \"Azure\" auf und klicken Sie auf :guilabel:`Bilder`.
+The size of product and category images as well as manufacturer and brand logos depends on the design of the shop. For this reason, the settings are stored in the active theme under :menuselection:`Extensions --> Themes`. Go to the :guilabel:`Settings` tab of the \"Azure\" theme and click on :guilabel:`Images`.
 
-:guilabel:`Größe des Icons in Pixeln (Breite*Höhe)` |br|
-Icons sind die kleinsten Artikelbilder und werden im Warenkorb und in Produktboxen (Beispiel: Top of the Shop) verwendet. Standardgröße: 87 Pixel breit und 87 Pixel hoch.
+:guilabel:`Icon size (width*height)` |br|
+Icons are the smallest product images that are used in the shopping cart and product boxes (for example: Top of the Shop). Default size: 87 pixels wide and 87 pixels high.
 
-:guilabel:`Größe des Thumbnails in Pixeln (Breite*Höhe)` |br|
-Thumbnails sind Vorschaubilder und werden in Artikellisten, wie Kategorie-Übersichten und Suchergebnisse, und in Aktionen (Beispiel: Frisch eingetroffen!) angezeigt. Standardgröße: 185 Pixel breit und 150 Pixel hoch.
+:guilabel:`Thumbnail size (width*height)` |br|
+Thumbnails are preview images that are displayed in product lists such as category overviews and search results as well as in special promotions (for example: Just arrived!). Default size: 185 pixels wide and 150 pixels high.
 
-:guilabel:`Größe des Kategoriebildes in Pixeln (Breite*Höhe)` |br|
-Bild für die Anzeige der Kategorie-Übersicht. Standardgröße: 784 Pixel breit und 150 Pixel hoch.
+:guilabel:`Category picture size (width*height)` |br|
+Image displayed in the category overview. Default size: 784 pixels wide and 150 pixels high.
 
-:guilabel:`Größe der Zoom-Bilder (Zoom 1-4) in Pixeln (Breite*Höhe)` |br|
-Vergrößerte Anzeige eines Artikelbildes, die sich auf der Detailseite aufrufen lässt. Standardgröße: 665 Pixel breit und 665 Pixel hoch.
+:guilabel:`Zoom picture size (zoom 1-4) in pixels (width*height)` |br|
+Enlarged view of a product image available on the product’s details page. Default size: 665 pixels wide and 665 pixels high.
 
-:guilabel:`Größe der Artikelbilder (Bild 1-12) in Pixeln (Breite*Höhe)` |br|
-Artikelbild, welches auf der Detailseite angezeigt wird. Die Größe von bis zu 12 Artikelbilder kann definiert werden. Dadurch sind Artikelbilder mit unterschiedlichen Größen möglich. Für jedes Artikelbild gibt es eine Zeile, an derem Anfang oxpic und eine Zahl steht. oxpic1 steht für das erste Artikelbild, oxpic2 für das zweite Artikelbild usw. Standardgröße: 380 Pixel breit und 340 Pixel hoch.
+:guilabel:`Product picture size (picture 1-12) in pixels (width*height)` |br|
+Product image shown on the product’s details page. You can define the size of up to 12 product images, which means that you can have product images with different sizes. There is a line for each product image beginning with oxpic and a number. oxpic1 stands for the first product image, oxpic2 for the second product image, and so on. Default size: 380 pixels wide and 340 pixels high.
 
-.. hint::Die Möglichkeit unterschiedlicher Bildgrößen sollte nur mit Umsicht verwendet werden, denn verschieden große Artikelbilder könnten eventuell zu einer eher unprofessionellen Präsentation der Artikel beitragen.
+.. hint::The option to specify different image sizes should be used with caution as different-sized product images may contribute to a rather unprofessional presentation of the products.
 
-:guilabel:`Größe des Hersteller-/Markenlogos in Pixeln (Breite*Höhe)` |br|
-Logo, das in der Marken-Übersicht auf der Startseite angezeigt wird. Standardgröße: 100 Pixel breit und 100 Pixel hoch.
+:guilabel:`Manufacturer’s/brand logo size` |br|
+Logo displayed in the brand overview on the start page. Default size: 100 pixels wide and 100 pixels high.
 
-:guilabel:`Größe des Kategoriebildes einer Unterkategorie in Pixeln (Breite*Höhe)` |br|
-Bild für die Anzeige von Unterkategorien in der Kategorie-Übersicht. Standardgröße: 168 Pixel breit und 100 Pixel hoch.
+:guilabel:`Size of a subcategory’s picture (width*height)` |br|
+Images of the subcategories displayed in the category overview. Default size: 168 pixels wide and 100 pixels high.
 
-:guilabel:`Größe des Kategoriebildes für die Startseite in Pixeln (Breite*Höhe)` |br|
-Bild der Kategorie, die auf der Startseite beworben wird. Standardgröße: 370 Pixel breit und 107 Pixel hoch.
+:guilabel:`Category picture size for promotion on start page (width*height)` |br|
+Image of the category promoted on the start page. Default size: 370 pixels wide and 107 pixels high.
 
 .. Intern: oxbaaz, Status:

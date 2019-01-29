@@ -1,72 +1,72 @@
-﻿Reverse Proxy Varnish
+﻿Varnish reverse proxy
 =====================
 
-Funktionsweise
+Functionality
 --------------
-Varnish ist ein Reverse Proxy, der vor dem eigentlichen Webserver eingehende Anfragen von Web-Clients verarbeitet. Die Webseiten, welche an die Web-Clients ausgeliefert werden, werden zum größten Teil aus zwischengespeicherten Inhalten zusammengestellt. Erst wenn die Lebensdauer des Caches abgelaufen ist, fragt Varnish Inhalte vom Webserver ab. Der OXID eShop muss dann die angeforderten Daten aus der Datenbank lesen und bereitstellen.
+Varnish is a reverse proxy that processes incoming enquiries from web clients before the actual web server. Web pages that are delivered to web clients are for the most part compiled from cached content. Only when the cache lifetime has expired, Varnish will query content from the web server. Then, OXID eShop must read and provide the requested data from the database.
 
-Die Verarbeitung durch Varnish basiert auf der Aufteilung der einzelnen Seiten des OXID eShop in kleine Teilbereiche, so genannte Widgets. Für Varnish werden diese Widgets als ESI-Tags gekennzeichnet. Dadurch kann Varnish dynamische Seitenbereiche, wie beispielsweise Warenkorb oder Login, separat abfragen und aktualisieren. Darüber hinaus werden Grafiken, Artikel- und Kategoriebilder, Stylesheet- und JavaScript-Dateien immer zwischengespeichert.
+During processing, Varnish divides the individual OXID eShop pages into small sections, the so-called widgets. These are labelled as ESI tags. This allows Varnish to separately query and update dynamic page areas, such as the shopping cart or login. In addition, graphics, product and category images, stylesheet and JavaScript files are always cached.
 
 .. image:: ../../media/screenshots/oxbacb01.png
-   :alt: Web-Clients, Varnish und Server mit OXID eShop
+   :alt: Web clients, Varnish and server with OXID eShop
    :class: with-shadow
-   :height: 198
+   :height: 204
    :width: 650
 
-Um den Reverse Proxy Varnish für das Caching des OXID eShop nutzen zu können, muss Varnish auf einem separaten Server installiert und konfiguriert werden.
+To use Varnish for caching OXID eShop, you will need to install and configure this reverse proxy on a separate server.
 
 Installation
 ------------
-Installieren Sie Varnish auf einem Server. Die Software und die Anleitung zur Installation erhalten Sie auf der Website des Herstellers: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ .
+Install Varnish on a server. The software and installation guide can be found on the manufacturer's website: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ .
 
-Konfiguration
+Configuration
 -------------
-Varnish verfügt über eine eigene Sprache, mit welcher dessen Verhalten konfiguriert werden kann. Mit VCL (Varnish Configuration Language) definiert, wird die Konfiguration in Binärcode übersetzt und bei Anfragen aus dem Web ausgeführt. Die Standard-Konfigurationsdatei ist :file:`default.vcl` und befindet sich im Verzeichnis :file:`/etc/varnish`.
+Varnish has its own language that can be used to configure its behaviour. Defined with VCL (Varnish Configuration Language), the configuration is translated into binary code and executed on requests from the web. The default configuration file, :file:`default.vcl` is located in the :file:`/etc/varnish` directory.
 
-Wir haben die Konfigurationsdatei :file:`default.vcl` für das Caching des OXID eShop angepasst. Die Definitionen entsprechen einem Standard-Shop. Sie sollten nur bei einem stark angepassten Shop verändert werden. Das betrifft ausschließlich Veränderungen im Standardverhalten des Shops durch modulare Erweiterungen, beispielsweise komplett geänderter Umgang mit Artikeln oder Einsatz eigener Cookies. Die notwendigen Änderungen in der Konfigurationsdatei setzen profunde Kenntnisse der VCL voraus. Fehlerhafte Anweisungen können die Performance beeinträchtigen und den Shop Daten bereitstellen lassen, die nicht aktuell sind. Wird die Konfigurationsdatei unverändert in einem stark angepassten Shop verwendet, kann das zu Datenverlust und unerwartetem Verhalten führen.
+We have customised the :file:`default.vcl` configuration file for cashing OXID eShop. The definitions correspond to a default shop and should only be changed for a highly customised shop. This applies only to changes in the shop’s default behaviour through modular extensions, such as completely changed handling of products or use of own cookies. The necessary changes in the configuration file require profound knowledge of the VCL. Incorrect instructions may affect performance and allow the shop to provide data that is out of date. Using the configuration file unchanged in a highly customised shop may result in data loss and unexpected behaviour.
 
-Die Konfigurationsdatei :file:`servers_conf.vcl` enthält Hostnamen und IPs der beteiligten Server und muss an die reale Systemumgebung angepasst werden.
+The :file:`servers_conf.vcl` configuration file contains the host names and IPs of the servers involved and needs to be adapted to the real system environment.
 
-Varnish ab Version 4.0.3
+Varnish starting with version 4.0.3
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Varnish Version 3.0 wird nicht mehr länger unterstützt, da die Software bereits seit April 2015 den Status End Of Life (EOL) erreicht hat. Die jetzt ausgelieferte Datei :file:`default.vcl` enthält die Konfiguration für Varnish ab Version 4.0.3. Bitte setzen Sie nicht die Versionen 4.0.0, 4.0.1 und 4.0.2 ein, da diese Probleme in der Behandlung von Cookies hatten, die dazu führten, dass Artikel nicht in den Warenkorb gelegt und Kunden sich nicht an den Shop anmelden konnten.
+Varnish version 3.0 is no longer supported because the software has reached the End Of Life (EOL) status since April 2015. The :file:`default.vcl` file provided now contains the configuration for Varnish starting with version 4.0.3. Please don’t use versions 4.0.0, 4.0.1 and 4.0.2 because they had issues with handling cookies that led to products not being placed in the shopping cart and customers being unable to log in to the shop.
 
-Wenn dieses Verhalten in Ihrem Shop auftritt und Sie nicht auf die neueste Version von Varnish aktualisieren können, versuchen Sie den folgenden Workaround. Dieser wurde nicht explizit getestet, deshalb prüfen Sie das Verhalten des Shops gründlich, bevor die Änderung in die Produktivumgebung übernommen wird.
+If this behaviour takes place in your shop and you can’t upgrade to the latest version of Varnish, you should try the following workaround. This has not been explicitly tested, so please check the shop’s behaviour thoroughly before applying the change to the production environment.
 
-Ersetzen Sie in der Konfigurationsdatei :file:`default.vcl` die Zeile 463
+In the :file:`default.vcl` configuration file, replace line 463
 
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@][^,|$]+\",\"\");``
 
-durch diese Zeile
+with the following line
 
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@]\",\"\");``
 
-Konfigurationsdateien
+Configuration files
 ^^^^^^^^^^^^^^^^^^^^^
-Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können mit Composer aus einem Repository auf GitHub gezogen werden. Auf dieses geschützte Repository kann mit dem Passwort zugegriffen werden, das Shopbetreiber beim Kauf der Hochlastoption erhalten haben. Sollten Probleme auftreten, wenden Sie sich bitte an den Technischen Support.
+The two configuration files :file:`default.vcl` and :file:`servers_conf.vcl` for configuring the reverse proxy can be dragged from a repository to GitHub using Composer. This protected repository can be accessed with the password that shop owners received when purchasing the high-load option. Please contact technical support if you experience any issues.
 
-Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese Dateien in Ihrem System bereits angepasst, müssen Sie die Inhalte der Dateien manuell zusammenführen. Starten Sie danach Apache und Varnish neu.
+Copy the files to the :file:`/etc/varnish` directory. If these files have already been customised in your system, you will need to merge their contents manually. Restart Apache and Varnish.
 
 :command:`/etc/init.d/apache2 stop` |br|
 :command:`/etc/init.d/varnish restart` |br|
 :command:`/etc/init.d/apache2 start`
 
-Anpassung der Konfiguration für OXID eShop Mobile Theme
+Customising the configuration for OXID eShop Mobile Theme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Wenn Sie OXID eShop Mobile Theme einsetzen, müssen Sie die Konfigurationsdatei :file:`default.vcl` des Reverse Proxy anpassen. Alle dafür notwendigen Einträge finden Sie in der Datei :file:`device.vcl`, welche dem Installationspaket beiliegt.
+If you are using OXID eShop Mobile Theme, you will need to customise the :file:`default.vcl` configuration file of the reverse proxy. All necessary entries can be found in the :file:`device.vcl` file included in the installation package.
 
-* Kopieren Sie den Inhalt der Datei :file:`device.vcl`.
-* Öffnen Sie Varnish's Konfigurationsdatei :file:`default.vcl`, die standardmäßig im Verzeichnis :file:`/etc/varnish` gespeichert ist.
-* Suchen Sie nach der Funktion ``oxDefineDeviceTypeRecv`` und ersetzen Sie den Inhalt durch den kopierten Code-Schnipsel.
-* Ist die Funktion nicht vorhanden, fügen Sie diese hinzu.
-* Suchen Sie nun nach der Funktion ``vcl_recv``.
-* Prüfen Sie, ob folgende Zeile enthalten ist: ``call oxDefineDeviceTypeRecv;``
-* Fehlt diese Zeile, fügen Sie diese hinzu.
-* Starten Sie Varnish neu.
+* Copy the contents of the :file:`device.vcl` file.
+* Open Varnish configuration file, :file:`default.vcl` stored in the :file:`/etc/varnish` directory by default.
+* Search for the ``oxDefineDeviceTypeRecv`` function and replace the content with the copied code snippet.
+* Add this function if it doesn’t exist.
+* Now, search for the ``vcl_recv`` function.
+* Check whether the following line is included: ``call oxDefineDeviceTypeRecv;``
+* Add this line if it’s missing.
+* Restart Varnish.
 
-SSL-Verschlüsselung
+SSL encryption
 ^^^^^^^^^^^^^^^^^^^
-Varnish verarbeitet Anfragen aus dem Web, die das HTTP-Protokoll verwenden. Verschlüsselte Anfragen mit HTTPS-Protokoll können durch den Reverse Proxy nicht umgesetzt werden. Da der OXID eShop auf SSL-Verschlüsselung umschalten kann, sobald Benutzerdaten übertragen werden, beispielsweise bei Registrierung, Anmeldung oder im Warenkorb, muss dafür eine separate Lösung geschaffen werden. Es gibt dafür aktuell zwei Möglichkeiten. Zum einen können Anfragen mit HTTPS-Protokoll direkt an den Server mit dem OXID eShop gesendet werden. Das muss mit Server-Tools umgesetzt werden. Zum anderen kann ein Load Balancer eingesetzt werden, welcher Anfragen über HTTP, Port 80 an Varnish und über HTTPS, Port 443 direkt zum OXID eShop leitet.
+Varnish processes requests from the web that use the HTTP protocol. Encrypted requests with HTTPS protocol can’t be executed through the reverse proxy. Since OXID eShop can switch to SSL encryption when user data is transferred, for example, during registration, login or in the shopping cart, a separate solution needs to be created. Currently, this can be done in two different ways. First, requests with the HTTPS protocol can be sent directly to the server with OXID eShop. This has to be implemented with server tools. Second, you can use a load balancer that forwards requests via HTTP, port 80 to Varnish and via HTTPS, port 443 directly to OXID eShop.
 
 .. Intern: oxbacb, Status:
-.. ToDo: Composer-Aufruf für die Konfigurationsdateien
+.. ToDo: call Composer for configuration files

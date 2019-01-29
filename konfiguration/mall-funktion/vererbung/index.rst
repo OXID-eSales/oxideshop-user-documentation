@@ -1,12 +1,12 @@
-﻿Vererbung
+﻿Inheritance
 =========
 
 
 .. toctree::
    :maxdepth: 1
    
-   vererbung
-   vererbbare-elemente
-   nicht-vererbbare-elemente
-   geteilte-elemente
-   individualisierung
+   inheritance
+   inheritable-elements
+   non-inheritable-elements
+   shared-elements
+   customisation

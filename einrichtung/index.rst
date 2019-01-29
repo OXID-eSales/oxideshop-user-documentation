@@ -1,17 +1,17 @@
-﻿Einrichtung
+﻿Setup
 ===========
 
 .. toctree::
    :maxdepth: 1
    
-   Artikel <artikel/index>
-   Attribute <attribute/index>
-   Auswahllisten <auswahllisten/index>
-   Kategorien <kategorien/index>
-   Artikel und Kategorien <artikel-und-kategorien/index>
-   Zahlungsarten <zahlungsarten/index>
-   Versandarten <versandarten/index>
-   Versandkostenregeln <versandkostenregeln/index>
-   Zahlung und Versand <zahlung-und-versand/index>
-   Hersteller <hersteller/index>
-   Lieferanten <lieferanten/index>
+   Products <artikel/index>
+   Attributes <attribute/index>
+   Selection lists <auswahllisten/index>
+   Categories <kategorien/index>
+   Products and categories <artikel-und-kategorien/index>
+   Payment methods <zahlungsarten/index>
+   Shipping methods <versandarten/index>
+   Shipping cost rules <versandkostenregeln/index>
+   Payment and shipping <zahlung-und-versand/index>
+   Manufacturer <hersteller/index>
+   Distributors <lieferanten/index>

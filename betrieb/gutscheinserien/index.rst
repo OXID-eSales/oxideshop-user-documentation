@@ -1,10 +1,10 @@
-Gutscheinserien
+﻿Coupon series
 ===============
 
 .. toctree::
    :maxdepth: 1
       
-   gutscheinserien
-   registerkarte-stamm
-   registerkarte-benutzergruppen-artikel
-   registerkarte-mall
+   coupon series
+   main-tab
+   user-groups-products-tab
+   mall-tab

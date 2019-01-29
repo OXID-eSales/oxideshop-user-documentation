@@ -1,20 +1,20 @@
-﻿Registerkarte Artikel
+﻿Products tab
 =====================
 
-Versandkostenregeln können für Kategorien und/oder Artikel gelten. Auf der Registerkarte :guilabel:`Artikel` kann die dafür notwendige Zuordnung vorgenommen werden. Ohne Zuweisung von Kategorien und/oder Artikel gilt die Versandkostenregel für den gesamten Warenkatalog.
+Shipping cost rules can apply to categories and/or products. The :guilabel:`Products` tab allows you to configure the necessary assignments. Without assignment of categories and/or products, the shipping cost rule will apply to the entire product catalogue.
 
 .. image:: ../../media/screenshots/oxbadl01.png
-   :alt: Versandkostenregeln - Registerkarte Artikel
+   :alt: Shipping cost rules - Products tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-:guilabel:`Kategorien zuordnen` |br|
-Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Kategorien` und :guilabel:`Zugeordnete Kategorien`. Die Kategorien können nach Titel und Kurzbeschreibung gefiltert und sortiert werden. Ziehen Sie die gewünschten Kategorien mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+:guilabel:`Assign Categories` |br|
+Clicking on this button will open the assignment window and display the two lists - :guilabel:`All Categories` and :guilabel:`Assigned Categories`. Categories can be filtered and sorted by title and short description. Drag the desired categories from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple categories. The assignment is now completed.
 
-:guilabel:`Artikel zuordnen` |br|
-Um einzelne Artikel für die Versandkostenregel festzulegen, betätigen Sie die Schaltfläche :guilabel:`Artikel zuordnen`. Im Zuordnungsfenster, welches sich öffnet, werden die beiden Listen :guilabel:`Alle Artikel` und :guilabel:`Zugeordnete Artikel` angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Versandkostenregel zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+:guilabel:`Assign Products` |br|
+Click on :guilabel:`Assign Products` to define individual products for the shipping cost rule. The assignment window opens and displays the two lists :guilabel:`All Products` and :guilabel:`Assigned Products`. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the shipping cost rule. Hold down the Ctrl key to select multiple products.
 
-.. seealso:: :doc:`Versandkosten für bestimmte Artikel <../zahlung-und-versand/versandkosten-fuer-bestimmte-artikel>` | :doc:`Versandkosten für Artikel aus bestimmten Kategorien <../zahlung-und-versand/versandkosten-fuer-artikel-aus-bestimmten-kategorien>`
+.. seealso:: :doc:`Shipping costs for specific products <../zahlung-und-versand/versandkosten-fuer-bestimmte-artikel>` | :doc:`Shipping costs for products from specific categories <../zahlung-und-versand/versandkosten-fuer-artikel-aus-bestimmten-kategorien>`
 
 .. Intern: oxbadl, Status:, F1: delivery_articles.html

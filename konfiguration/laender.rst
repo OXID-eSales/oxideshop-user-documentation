@@ -1,23 +1,23 @@
-﻿Länder
+﻿Countries
 ======
 
-Die Konfiguration des OXID eShop beinhaltet auch die Ländereinstellungen. Diese werden beispielsweise zum Einrichten von Versandkosten und Zahlungsarten benötigt. Bei der Installation haben Sie im Schritt 2 ein Hauptlieferland angegeben, welches bislang das einzige aktive Land ist. Damit Sie Ihre Artikel auch an Kunden in andere Länder liefern können, müssen Sie diese weiteren Länder aktivieren.
+The configuration of OXID eShop also includes the country settings. These are needed, for example, to set up shipping costs and payment methods. You should have already specified the main shipping country in step 2 of the installation process. It is currently the only active country. You will need to activate other countries to be able to ship your products to customers in these countries.
 
-Land aktivieren
+Activating a country
 ---------------
-Alle Länder sind bereits angelegt und konfiguriert. Die benötigten Länder müssen nur noch unter :menuselection:`Stammdaten --> Länder` aktiviert werden. In einer Übersicht werden Ihnen die ersten 10 von 247 Ländern angezeigt. Wählen Sie ein Land aus der Länderübersicht aus, indem Sie darauf klicken. Im Eingabebereich unter der Übersicht werden die Einstellungen für das ausgewählte Land angezeigt. Setzen Sie ein Häkchen bei :guilabel:`Aktiv`, um das Land zu aktivieren. Speichern Sie die Einstellungen. Das Land ist nun aktiv und kann verwendet werden.
+All countries have already been set up and configured. All you need to do now is activate the required countries under :menuselection:`Master Settings --> Countries`. The first 10 of 247 countries are displayed in the overview. Select a country from the overview by clicking on it. The settings for the selected country will be displayed in the input area below the overview. Check the :guilabel:`Active` box to activate the country. Save the settings. The country is now active and can be used.
 
-Land suchen
+Searching for a country
 -----------
-In der Länderübersicht finden Sie ein Land, indem Sie seitenweise vorblättern oder die Suchfunktion nutzen.
+You can search for a country in the country overview by browsing through the pages or using the search function.
 
-Für die Suche gibt es Eingabefelder über den Tabellenspalten.
+Search input fields are located above the table columns.
 
-* Mit dem Feld über :guilabel:`Aktiv` können Sie nach aktiven/inaktiven Ländern suchen. Wenn Sie nur aktive Länder anzeigen wollen, geben Sie 1 ein. Wollen Sie nur inaktive Länder anzeigen, geben Sie 0 ein.
-* Mit dem Feld über :guilabel:`Land` können Sie nach dem Namen von Ländern suchen. Teilbegriffe sind möglich.
-* Mit dem Feld über :guilabel:`Kurzbeschreibung` können Sie in der Kurzbeschreibung der Länder suchen. Teilbegriffe sind möglich.
-* Mit dem Feld über :guilabel:`ISO 3` können Sie nach der dreistelligen ISO-Bezeichung für das Land suchen, zum Beispiel DEU für Deutschland.
+* Use the input field above :guilabel:`Active` to search for active/inactive countries. Enter 1 if you want only active countries to be displayed. Enter 0 if you want only inactive countries to be displayed.
+* Use the input field above :guilabel:`Country` to search by country names. You can just enter part of the name.
+* Use the input field above :guilabel:`Short Description` to search for short descriptions of the countries. You can just enter part of the name.
+* Use the input field above :guilabel:`ISO 3` to search for the 3-digit ISO designation for the country, e.g., DEU for Germany.
 
-Haben Sie ein Suchkriterium eingegeben, klicken Sie auf das Lupen-Symbol rechts oben. Dadurch wird die Suche gestartet. In der Übersicht werden nur noch Länder angezeigt, auf die das Suchkriterium zutrifft. Auch eine Suche mit mehreren Suchkriterien ist möglich. Dabei müssen alle Suchkriterien erfüllt werden. Wenn Sie beispielsweise ``1`` in das Eingabefeld über :guilabel:`Aktiv` eintragen und in ``D`` in das Eingabefeld über :guilabel:`Land`, dann werden nur Länder angezeigt, die aktiv sind und deren Name ein D enthält.
+Once you have entered a search criterion, click on the magnifying glass icon in the top right corner. This starts the search. Only countries matching the search criterion will be displayed in the overview. You can also search by using multiple search criteria. In this case, all search criteria must be met. For example, if you enter ``1`` in the field above :guilabel:`Active` and ``G`` in the field above :guilabel:`Country`, you will only see countries that are active and whose name contains a G.
 
 .. Intern: oxbaba, Status:

@@ -1,13 +1,13 @@
 ﻿OXID eShop 6.1.0
 ================
 
-Veröffentlichungstermin: 31.07.2018
+Release date: 31/07/2018
 
 -----------------------------------------------------------------------------------------
 
-Allgemeines
+General information
 -----------
-Der OXID eShop 6.1.0 wird als Compilation bereitgestellt. Diese enthält folgende Komponenten:
+OXID eShop 6.1.0 is provided as a compilation with the following components:
 
 * OXID eShop CE 6.3.0
 * OXID eShop PE 6.2.0
@@ -20,81 +20,81 @@ Der OXID eShop 6.1.0 wird als Compilation bereitgestellt. Diese enthält folgend
 * PAYONE 1.0.8
 * PayPal 5.2.2
 * Visual CMS 3.2.1 (PE/EE)
-* WYSIWIG-Editor und die Mediathek Summernote 2.1.1
+* WYSIWIG editor and summernote 2.1.1 media library
 
-Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.3...v6.1.0>`_.
+All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.3...v6.1.0>`_.
 
-Mit OXID eShop 6.1.0 wurden zwei Sicherheitslücken geschlossen. Eine der beiden Sicherheitslücken ist nur dann relevant, wenn im Shop die Zahlungsart Paymorrow aktiv genutzt wird. Details zu beiden Sicherheitslücken finden Sie auf folgenden Seiten der OXIDforge: `Security Bulletin 2018-002 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_ und `Security Bulletin 2018-003 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_. Wir empfehlen ein schnelles Update auf diese Shopversion (6.1.0) und auf das ausgelieferte Modul Paymorrow 2.0.1. Eine Anleitung zum Shop-Update finden Sie unter :doc:`Update-Installation <../../installation/update-installation/index>`.
+With OXID eShop 6.1.0, we have resolved two security issues. One of the two security issues is only relevant if the Paymorrow payment method is actively used in the shop. Details on both security issues can be found on the following pages of OXIDforge: `Security Bulletin 2018-002 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_ and `Security Bulletin 2018-003 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_. We recommend a quick update to this shop version (6.1.0) and to the provided Paymorrow 2.0.1 module. For instructions on updating the shop, see :doc:`Installing updates <../../installation/update-installation/index>`.
 
-Systemvoraussetzungen
+System requirements
 ^^^^^^^^^^^^^^^^^^^^^
-Der OXID eShop 6.1.0 läuft unter PHP 7.0 und 7.1. Der Support für PHP 5.6 wurde eingestellt. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
+OXID eShop 6.1.0 runs under PHP 7.0 and 7.1. PHP 5.6 is no longer supported. The supported database is MySQL version 5.5 or 5.7. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Apache 2.2 or 2.4 can be used as a web server on a Linux system.
 
 Installation
 ^^^^^^^^^^^^
-Für die Installation, folgen Sie bitte den Anleitungen im Abschnitt "Installation":
+Please follow the instructions in Section "Installation":
 
-:doc:`Neu-Installation <../../installation/neu-installation/neu-installation>` |br|
-:doc:`Update-Installation <../../installation/update-installation/update-installation>`
+:doc:`Reinstallation <../../installation/neu-installation/neu-installation>` |br|
+:doc:`Installing updates <../../installation/update-installation/update-installation>`
 
-Bitte führen Sie das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, aus. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
+Please run the update first in a test or development environment, or a copy of your current shop. Then, test the ordering process and payment and shipping methods. If the shop works correctly, you can replace the shop in the live system with the one from the test or development environment.
 
 -----------------------------------------------------------------------------------------
 
-Neue Funktionen
+New functions
 ---------------
 
-Neue Komponenten der OXID eShop Compilation
+New components of the OXID eShop compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die OXID eShop Compilation wurde durch die Module GDPR Opt-in 2.1.1 und Klarna 4.0.1 erweitert. Das Modul GDPR Opt-in stellt Opt-in-Funktionen bereit, welche der OXID eShop für die Umsetzung der Datenschutz-Grundverordnung (DSGVO) benötigt. Mit dem Modul Klarna wird ein weiteres Zahlungsmodul ausgeliefert, mit dem Shopbetreiber beispielsweise Zahlungen auf Rechnung, per Ratenkauf oder per Sofortüberweisung über den Finanzdienstleister Klarna abwickeln können.
+The OXID eShop compilation has been enhanced with the GDPR Opt-in 2.1.1 and Klarna 4.0.1 modules. The GDPR Opt-in module provides opt-in functions that are required by OXID eShop for the implementation of the General Data Protection Regulation (GDPR). The Klarna module is an additional payment module that shop owners can use, for example, to process payments against invoice, in instalments or by immediate bank transfer via the Klarna financial service provider.
 
-PSR-3 Logger
+PSR-3 logger
 ^^^^^^^^^^^^
-Ein Logger nach Spezifikation von PSR-3 wurde in den OXID eShop integriert. Die standardisierte Schnittstelle zum automatischen Erstellen und Abspeichern von Logs ersetzt den bisherigen Logging-Mechanismus des Shops.
+We have integrated a logger according to PSR-3 specification into OXID eShop. The standardised interface for automatically creating and saving the logs replaces the shop’s previous logging mechanism.
 
 -----------------------------------------------------------------------------------------
 
-Verbesserungen und Anpassungen
+Improvements and adjustments
 ------------------------------
 
-Aktualisierte Komponenten der OXID eShop Compilation
+Updated components of the OXID eShop compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Folgende Komponenten wurden auf eine neue Version aktualisiert:
+The following components have been updated to a new version:
 
-* OXID eShop CE (Update von 6.2.0 auf 6.3.0), `Changelog 6.3.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.3.0/CHANGELOG.md>`_
-* OXID eShop PE (Update von 6.1.0 auf 6.2.0)
-* OXID eShop EE (Update von 6.1.1 auf 6.2.0)
-* Theme "Flow" (Update von 3.0.0 auf 3.0.2), `Changelog 3.0.2 <https://github.com/OXID-eSales/flow_theme/blob/v3.0.2/CHANGELOG.md>`_
-* AmazonPay (Update von 3.0.2 auf 3.1.4)
-* Paymorrow (Update von 2.0.0 auf 2.0.1), `Changelog 2.0.1 <https://github.com/OXID-eSales/paymorrow-module/blob/v2.0.1/CHANGELOG.md>`_
-* PAYONE (Update von 1.0.5 auf 1.0.8), `Changelog 1.0.8 <https://github.com/PAYONE-GmbH/oxid-6/blob/1.0.8/Changelog.txt>`_
-* PayPal (Update von 5.1.6 auf 5.2.2), `Changelog 5.2.2 <https://github.com/OXID-eSales/paypal/blob/v5.2.2/CHANGELOG.md>`_
-* Visual CMS (PE/EE, Update von 3.2.0 auf 3.2.1) `Changelog 3.2.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.2.1/CHANGELOG.md>`_
+* OXID eShop CE (update from 6.2.0 to 6.3.0), `Changelog 6.3.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.3.0/CHANGELOG.md>`_
+* OXID eShop PE (update from 6.1.0 to 6.2.0)
+* OXID eShop EE (update from 6.1.1 to 6.2.0)
+* Theme "Flow" (update from 3.0.0 to 3.0.2), `Changelog 3.0.2 <https://github.com/OXID-eSales/flow_theme/blob/v3.0.2/CHANGELOG.md>`_
+* AmazonPay (update from 3.0.2 to 3.1.4)
+* Paymorrow (update from 2.0.0 to 2.0.1), `Changelog 2.0.1 <https://github.com/OXID-eSales/paymorrow-module/blob/v2.0.1/CHANGELOG.md>`_
+* PAYONE (update from 1.0.5 to 1.0.8), `Changelog 1.0.8 <https://github.com/PAYONE-GmbH/oxid-6/blob/1.0.8/Changelog.txt>`_
+* PayPal (update from 5.1.6 to 5.2.2), `Changelog 5.2.2 <https://github.com/OXID-eSales/paypal/blob/v5.2.2/CHANGELOG.md>`_
+* Visual CMS (PE/EE, update from 3.2.0 to 3.2.1) `Changelog 3.2.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.2.1/CHANGELOG.md>`_
 
-Konfigurierbares Kontaktformular
+Configurable contact form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Im Administrationsbereich kann unter :menuselection:`Grundeinstellungen --> Stammdaten`, Registerkarte :guilabel:`Einstell.` in der Sektion :guilabel:`Weitere Einstellungen` eingestellt werden, welche Eingabefelder des Kontaktformulars Pflichtfelder sein sollen. Nur die aktivierten Felder werden beim Abschicken des Kontaktformulars validiert.
+Mandatory fields of the contact form can be specified in the Admin panel under :menuselection:`Master Settings --> Core Settings`, in the :guilabel:`Settings` tab, section :guilabel:`Other settings`. Only the activated fields will be validated when submitting the contact form.
 
-Diese Einstellungen für das Kontaktformular wurden im Zusammenhang mit der Datenschutz-Grundverordnung implementiert, um Shopbetreibern die Möglichkeit zu geben, nur die für die Bearbeitung einer Anfrage notwendigen Daten zu erheben.
+These contact form settings have been implemented in the context of the General Data Protection Regulation to allow shop owners to only collect the data necessary to process an enquiry.
 
-Module können Smarty-Plugins überschreiben
+Modules can override Smarty plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Module sind jetzt in der Lage, Smarty-Plugins zu überschreiben. Dafür wurde die Version 2.1 der Metadata eingeführt.
+Modules can now overwrite Smarty Plugins. Version 2.1 of the metadata was introduced for this purpose.
 
-Nicht mehr unterstützte Features und Funktionen
+Discontinued features and functions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Das für den OXID eShop 4&5 verwendete Prüfscript, welches die Integrität der .php-Dateien und Templates prüfte, wird nicht mehr unterstützt. Der Aufruf aus dem Administrationsbereich heraus durch Aktivieren des Kontrollkästchens :guilabel:`Versionsprüfung ausführen und abfragen` unter :menuselection:`Service --> Diagnosewerkzeug` wurde entfernt.
+The test script used for OXID eShop 4 & 5, which checked the integrity of the .php files and templates, is no longer supported. The option of calling the script from the Admin panel by checking the :guilabel:`Run Version checker` box under :menuselection:`Service --> Diagnostics tool` has been removed.
 
 -----------------------------------------------------------------------------------------
 
-Korrekturen
+Corrections
 -----------
-Es wurden die oben genannten Sicherheitslücken geschlossen. Die mit diesem Release behobenen Bugs sind identisch wie die der Version 6.0.3. Da Bugs im Bugtrack-System nicht für alle Versionen als behoben markiert werden können, gilt die Liste für OXID eShop 6.0.3.
+The above mentioned security issues have been eliminated. The bugs fixed with this release are identical to those of version 6.0.3. Since bugs in the bugtrack system can’t be marked as fixed for all versions, the list applies to OXID eShop 6.0.3.
 
 https://bugs.oxid-esales.com/changelog_page.php?version_id=433
 
 -----------------------------------------------------------------------------------------
 
-Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.2.0...v6.3.0. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
+Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.2.0...v6.3.0. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
 .. Intern: oxbail, Status:

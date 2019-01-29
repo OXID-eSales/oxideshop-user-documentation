@@ -1,13 +1,13 @@
-Bestellungen
+﻿Orders
 ============
 
 .. toctree::
    :maxdepth: 1
       
-   bestellungen
-   registerkarte-uebersicht
-   registerkarte-stamm
-   registerkarte-adressen
-   registerkarte-artikel
-   registerkarte-historie
-   registerkarte-downloads
+   orders
+   overview-tab
+   main-tab
+   addresses-tab
+   products-tab
+   history-tab
+   downloads-tab

@@ -1,32 +1,32 @@
-﻿Registerkarte SEO
+﻿SEO tab
 =================
 
-Die Registerkarte :guilabel:`SEO` der Kategorie beinhaltet Informationen und\Einstellungen, die für Suchmaschinen relevant sind.
+The category’s :guilabel:`SEO` tab contains information and settings that are relevant to search engines.
 
 .. image:: ../../media/screenshots/oxbabo01.png
-   :alt: Kategorien - Registerkarte SEO
+   :alt: Categories - SEO tab
    :class: with-shadow
    :height: 341
    :width: 650
 
-Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Informationen und Einstellungen auch direkt in einer weiteren Sprache bearbeiten.
+The language selection list at the bottom of the input area allows you to edit category’s information and settings in another language directly.
 
-:guilabel:`URL fixiert` |br|
-Es kann eine feste, sich nicht ändernde URL für die Kategorie definiert werden. Standardmäßig ändert sich die URL, sobald sich der Titel einer Kategorie ändert oder ihre Position in der Kategoriestruktur. Ist die Einstellung aktiv, bleibt bei einer solchen Änderung die SEO URL der Kategorie unverändert.
+:guilabel:`Fixed URL` |br|
+You can define a fixed, non-changing URL for the category. By default, the URL changes with the change in the category’s title or its position in the category structure. If the box is checked, the SEO URL of the category will remain unchanged in case of such a change.
 
-:guilabel:`Titel Suffix in Kategorie anzeigen` |br|
-Bei aktiviertem Kontrollkästchen wird das Titel Suffix im Seitentitel angezeigt. Das Titel Suffix wird unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO` definiert. Mehr Informationen dazu finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
+:guilabel:`Show SEO Suffix in Category` |br|
+If the box is checked, the title suffix will be displayed in the page title. The title suffix can be defined under :menuselection:`Master Settings --> Core Settings --> SEO`. More information can be found in :doc:`SEO settings <../../konfiguration/seo-einstellungen>`.
 
 :guilabel:`SEO URL` |br|
-Die aktuelle URL der Kategorie wird angezeigt. Sie kann geändert und auch fixiert werden.
+Shows the current URL of the category which can also be changed and fixed.
 
-:guilabel:`Stichworte für Meta-Tags` |br|
-Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta Keywords) eingebunden. Wenn Sie nichts eingeben, werden die Stichwörter automatisch erzeugt.
+:guilabel:`META Keywords` |br|
+The keywords evaluated by search engines are integrated into the HTML source code (meta keywords). If you leave this field empty, they will be generated automatically.
 
-:guilabel:`Beschreibungstext für Meta-Tags` |br|
-Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden. Dieser Text wird von vielen Suchmaschinen bei den Suchergebnissen angezeigt. Wenn Sie nichts eingeben, wird die Beschreibung automatisch erzeugt.
+:guilabel:`META Description` |br|
+This descriptive text is included in the HTML source code (meta description). It is displayed in the search results by many search engines. If you leave this field empty, the description will be generated automatically.
 
-:guilabel:`In Sprache` |br|
-Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
+:guilabel:`In Language` |br|
+Select the desired language from the list for which you want to edit the SEO information and settings.
 
 .. Intern: oxbabo, Status:, F1: category_seo.html

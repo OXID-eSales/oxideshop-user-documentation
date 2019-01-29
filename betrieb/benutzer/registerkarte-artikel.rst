@@ -1,6 +1,6 @@
-﻿Registerkarte Artikel
+﻿Products tab
 =====================
-Alle Artikel, die vom Benutzer gekauft wurden, werden auf der Registerkarte :guilabel:`Artikel` aufgelistet. Es werden dabei Anzahl, Artikelnummer, Titel, Typ und Kurzbeschreibung des Artikels ausgegeben.
+All products purchased by the user will be listed in the :guilabel:`Products` tab. You will see the quantity, number, title, type and brief description of the product.
 
 .. image:: ../../media/screenshots/oxbadt01.png
    :alt:
@@ -8,6 +8,6 @@ Alle Artikel, die vom Benutzer gekauft wurden, werden auf der Registerkarte :gui
    :height: 334
    :width: 650
 
-Die Spalte :guilabel:`Typ` enthält nur Werte, wenn es sich bei dem gekauften Artikel um eine Variante handelt. In dem Fall wird die Variantenauswahl angezeigt, beispielsweise \"W 32/L 32 | Blau\" für die Auswahl von Größe und Farbe eines Bekleidungsstückes.
+The :guilabel:`Type` column will only contain values if the purchased product is a variant. In this case, you will see the selected variant, for example \"W 32/L 32 | Blue\" for the garment’s size and colour.
 
 .. Intern: oxbadt, Status:, F1: user_article.html

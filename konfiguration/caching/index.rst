@@ -6,6 +6,6 @@
    :maxdepth: 1
    
    caching
-   reverse-proxy-varnish
+   varnish-reverse-proxy
    memcached
-   caching-einstellungen
+   caching settings

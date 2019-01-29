@@ -1,54 +1,54 @@
-﻿Registerkarte Downloads
+﻿Downloads tab
 =======================
-Mit OXID eShop 4.6.0 wurde ein neuer Artikeltyp eingeführt: der Download-Artikel. Damit können beliebige Dateien, beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen, zum Verkauf angeboten werden. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien.
+With OXID eShop 4.6.0, we have introduced a new product type: the downloadable product. This allows you to offer any files, such as software, photos, music files or document templates, to your customers. When the customer places a downloadable product in the shopping cart, he/she will receive all the associated files.
 
-Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --> Meine Downloads`. Die Dateien können heruntergeladen werden, sobald die Zahlung erfolgt ist. Werden beispielsweise Lastschrift oder Kreditkartenzahlung als Zahlungsart verwendet, ist das Herunterladen sofort möglich. Die E-Mail, welche die Bestellung bestätigt, enthält ebenfalls die Downloadlinks zu den bestellten Dateien, wenn die Bezahlung abgeschlossen ist.
+After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the customer used direct debit or credit card as a payment method, he/she will be able to download the files immediately. The order confirmation email will also contain the download links to the ordered files when the payment is complete.
 
 .. image:: ../../media/screenshots/oxbacq01.png
-   :alt: Artikel - Registerkarte Downloads
+   :alt: Products - Downloads tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Die Verwendung von Download-Artikeln im Shop muss global aktiviert werden. Im Administrationsbereich können in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Download-Artikel` die Standardeinstellungen vorgenommen werden. Das sind - neben dem Aktivieren der Funktion - der Pfad zu den herunterladbaren Dateien und Festlegungen zur Anzahl der Downloads oder zur Verfallszeit der Links.
+The use of downloadable products in the shop must be enabled globally. To do this, you will need to configure the default settings in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Downloadable products`, in the Admin panel. In addition to enabling downloadable products, you will be able to set the path to the downloadable files, the count of downloads or expiration times for the download links.
 
-Die zum Artikel gehörenden Dateien werden auf der Registerkarte :guilabel:` Downloads` hochgeladen und deren spezielle Download-Einstellungen definiert. Für jeden Download-Artikel und für jede einzelne Datei können die Werte abweichend von den Standardeinstellungen festgelegt werden. Das erlaubt eine sehr filigrane Definition der Bedingungen für den Download.
+You can use the :guilabel:` Downloads` tab to upload the files relevant for the product and to define their download settings. You can also change the default settings for each downloadable product and for each individual file to further define the download requirements.
 
-:guilabel:`Name der hochgeladenen Datei angeben ... oder Datei hochladen (max. 2 MB)` |br|
-Hier können dem Artikel Dateien hinzugefügt werden. Eine Möglichkeit ist, die Dateien per FTP auf den Webserver hochzuladen. Da der Pfad bereits in den Standardeinstellungen definiert wurde, genügt es, den Dateinamen anzugeben. Die andere Möglichkeit ist, die Dateien hier hochzuladen. Die Schaltfläche :guilabel:`Durchsuchen...` öffnet einen Dateidialog, in dem Sie die entsprechende Datei auf Ihrem Rechner auswählen können. Wenn Sie nun die Schaltfläche :guilabel:`Öffnen` drücken, werden Pfad und Dateinamen direkt übernommen.
+:guilabel:`Enter name of uploaded file ... or upload file (max. 2 MB)` |br|
+This is where you can add files to the product. One option is to upload them to the web server via FTP. Since the path has already been defined in the default settings, you can just enter the file name. The other option is to upload the files here. Clicking on :guilabel:`Browse...` opens a file dialog where you can select the relevant file on your computer. Click on :guilabel:`Open` to have the path and file name loaded directly.
 
-Das Betätigen der Schaltfläche :guilabel:`Abschicken` startet das Hochladen. Die Dateien werden unter :guilabel:`Hochgeladene Dateien` am unteren Ende des Eingabebereichs aufgelistet.
+Click on :guilabel:`Submit` to start the upload. The files will be listed under :guilabel:`Uploaded files` at the bottom of the input area.
 
-.. hint:: Wenn Sie Dateien per FTP auf den Webserver hochladen, beachten Sie bitte die Hinweise in der Textdatei aus dem Verzeichnis :file:`/out/downloads`.
+.. hint:: When uploading files to the web server via FTP, please follow the instructions in the text file from the :file:`/out/downloads` directory.
 
-:guilabel:`Download ist nur nach Bezahlung verfügbar` |br|
-Aktivieren Sie dieses Kontrollkästchen, um den Download erst dann zu ermöglichen, wenn die Bezahlung abgeschlossen ist. Unter :menuselection:`Bestellungen verwalten --> Bestellungen` kann in der Registerkarte :guilabel:`Stamm` die Bestellung auf bezahlt gesetzt werden. Mit der Schaltfläche :guilabel:`Versenden` auf dieser Registerkarte können die bestellten Downloadlinks an den Kunden verschickt werden. Auch im Konto sind die Downloads unter :guilabel:`Meine Downloads` ab diesem Moment aktiv.
+:guilabel:`Download is available only after purchase` |br|
+Check this box to allow downloading only when payment is complete. Go to :menuselection:`Administer Orders --> Orders` to set the order to Paid in the :guilabel:`Main` tab. Click on :guilabel:`Send` to send the ordered download links to the customer. From this moment on, the downloads will be enabled in :guilabel:`My downloads` in the customer’s account.
 
-:guilabel:`Weitere Optionen` |br|
-Es können für die Datei, die hochgeladen werden soll, Werte vorgegeben werden, die von den globalen Einstellungen abweichen. Sie überschreiben die Standardeinstellungen, die in :menuselection:`Stammdaten --> Grundeinstellung`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Downloads` für alle Artikel gesetzt wurden. Ohne Vorgabewerte gilt für die Datei eine unbegrenzte Anzahl von Downloads und keine zeitliche Beschränkung für die Downloadlinks.
+:guilabel:`Other options` |br|
+You can specify different values from the global settings for the file that is to be uploaded. This overwrites the default settings configured for all products in :menuselection:`Master Settings --> Core Settings`, :guilabel:`Settings` tab under :guilabel:`Downloads`. Without default values, the file will have an unlimited number of downloads and no time limit on the download links.
 
-:guilabel:`Max. Anzahl der Downloads` |br|
-Geben Sie hier an, wie oft Benutzer nach einer Bestellung den Link zum Download verwenden können.
+:guilabel:`Maximum count of downloads` |br|
+Specify how often users can use the download link after placing an order.
 
-:guilabel:`Max. Anzahl der Downloads für nicht registrierte Benutzer` |br|
-Geben Sie hier an, wie oft Benutzer, die ohne Registrierung bestellt haben, den Link zum Download verwenden können.
+:guilabel:`Maximum count of downloads for not registered users` |br|
+Specify how often users can use the download link after placing an order without registration.
 
-:guilabel:`Verfallszeit für Downloadlink` |br|
-Geben Sie die Zeit in Stunden an, die der Downloadlink nach der Bestellung gültig ist.
+:guilabel:`Expiration time of download link` |br|
+Enter the time in hours during which the download link will be valid after placing an order.
 
-:guilabel:`Verfallszeit für Downloadlink nach erstem Download` |br|
-Geben Sie die Zeit in Stunden an, die der Downloadlink nach dem ersten Download gültig ist.
+:guilabel:`Expiration time of download link after the first download` |br|
+Enter the time in hours during which the download link will be valid after the first download.
 
-:guilabel:`Download von Dateien für diesen Artikel zulassen` |br|
-Dateien dieses Artikels können heruntergeladen werden, wenn das Kontrollkästchen angehakt ist. Ist das nicht der Fall, verhält sich der Artikel wie ein normaler Artikel. Alle hochgeladenen Dateien sind deaktiviert.
+:guilabel:`Enable download of files for this product` |br|
+Check this box to allow the customers to download the files for this product. Otherwise, the product will behave like a regular product and all uploaded files will be disabled.
 
 .. image:: ../../media/screenshots/oxbacq02.png
-   :alt: Artikel - Registerkarte Downloads
+   :alt: Products - Downloads tab
    :class: with-shadow
    :height: 329
    :width: 650
 
-:guilabel:`Hochgeladene Dateien` |br|
-Dieser Bereich wird erst angezeigt, nachdem die erste Datei hochgeladen wurde. Er listet alle hochgeladenen Dateien mit ihrem Dateinamen auf. Ein Klick darauf zeigt die Einstellungen für den Download der Datei, die jederzeit geändert werden können. Dateien können hier auch durch einen Klick auf das kleine Papierkorbsymbol am Ende der Zeile gelöscht werden, nachdem eine Sicherheitsabfrage bestätigt wurde.
+:guilabel:`Uploaded files` |br|
+This area will only be displayed after the first file has been uploaded. It provides a list of all uploaded files with their file name. You can click on it to display the settings for downloading the file that can be changed at any time. To delete the files, click on the small trash icon at the end of the line and confirm that you want to delete them in a confirmation prompt.
 
 .. Intern: oxbacq, Status:, F1: article_files.html

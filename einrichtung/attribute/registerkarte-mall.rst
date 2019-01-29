@@ -1,22 +1,22 @@
-﻿Registerkarte Mall
+﻿Mall tab
 ==================
-Die Registerkarte :guilabel:`Mall` ist bei Attributen nur in der OXID eShop Enterprise Edition vorhanden.
+The :guilabel:`Mall` tab is only available for attributes in OXID eShop Enterprise Edition.
 
-Attribute können beim Erstellen von Shops an diese vererbt werden. Wird die Option :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` gewählt, enthält ein neuer Shop auch alle Attribute des Elternshops. Die vererbten Attribute sind nicht änderbar und behalten ihre ursprüngliche Verknüpfung mit Artikeln. Sie können aber Kategorien zugewiesen werden, damit diese sich nach Attributen filtern lassen.
+Attributes can be inherited when creating shops. If the option :guilabel:`Shop inherits all inheritable items (products, discounts etc) from it's parent shop` is selected, the new shop will also contain all the attributes of the parent shop. The inherited attributes can’t be changed and retain their original assignment to products. However, they can be assigned to categories so that the latter can be filtered by attributes.
 
-Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen des Attributes zu Subshops und Supershops verwaltet. Multishops übernehmen keine Attribute aus anderen Shops.
+The :guilabel:`Mall` tab can be used to manage attribute assignments to subshops and supershops. Multishops don’t inherit attributes from other shops.
 
 .. image:: ../../media/screenshots/oxbagi01.png
-   :alt: Attribute - Registerkarte Mall
+   :alt: Attributes - Mall tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Es ist möglich, die Vererbung aller Attribute für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen bei der Vererbungseinstellung entfernt werden.
+The inheritance of all attributes for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.
 
-:guilabel:`Verknüpft mit folg. Subshops` |br|
-Die Verknüpfung eines Attributes mit Subshops und Supershops kann hinzugefügt oder entfernt werden, indem das entsprechende Kontrollkästchen angehakt wird oder nicht. Bei nicht aktiviertem Kontrollkästchen ist das Attribut im Elternshop vorhanden, aber nicht im jeweiligen Subshop oder Supershop.
+:guilabel:`Assigned to following subshops` |br|
+Check or uncheck the appropriate box to assign/unassign an attribute to/from subshops and supershops. If the box is not checked, the attribute will be available in the parent shop but not in the respective subshop or supershop.
 
-Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
+Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the attribute to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 
 .. Intern: oxbagi, Status:, F1: attribute_mall.html

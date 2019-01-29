@@ -1,23 +1,23 @@
-﻿Registerkarte Mall
+﻿Mall tab
 ==================
 
-Die Registerkarte :guilabel:`Mall` ist bei Gutscheinserien nur in der Enterprise Edition vorhanden.
+The :guilabel:`Mall` tab is only available for coupon series in Enterprise Edition.
 
-Gutscheinserien können beim Erstellen von Shops an diese vererbt werden. Wird diese Option gewählt, enthält ein neuer Shop alle Gutscheinserien des Elternshops. Die Eigenschaften dieser Gutscheinserien sind nicht änderbar.
+Coupon series can be inherited when creating shops. If this option is selected, a new shop will contain all coupon series of the parent shop. The characteristics of these coupon series can’t be changed.
 
-Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen einer Gutscheinserie zu Subshops und Supershops verwaltet. Bei Multishops ist die Anzeige leer, da sie ohne eine derartige Verknüpfung Gutscheinserien aus allen Shops übernehmen und anzeigen.
+The :guilabel:`Mall` tab can be used to manage assignments of a coupon series to subshops and supershops. This tab will be empty for multishops since they can load and display coupon series from all shops without such an assignment.
 
 .. image:: ../../media/screenshots/oxbahu01.png
-   :alt: Gutscheinserien - Registerkarte Mall
+   :alt: Coupon series - Mall tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Es ist möglich, die Vererbung aller Gutscheinserien für einen Shop rückgängig zu machen. Dazu muss in der Registerkarte :guilabel:`Mall` des Subshops oder Supershops unter :menuselection:`Stammdaten --> Grundeinstellungen` das Häkchen aus den Vererbungseinstellungen entfernt werden.
+The inheritance of all coupon series for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.
 
-:guilabel:`Verknüpft mit folg. Subshops` |br|
-Die Verknüpfung einer Gutscheinserie mit Subshops und Supershops kann hinzugefügt oder entfernt werden, indem das entsprechende Kontrollkästchen angehakt wird oder nicht. Bei nicht aktiviertem Kontrollkästchen ist die Gutscheinserie im Elternshop vorhanden, aber nicht im jeweiligen Subshop oder Supershop.
+:guilabel:`Assigned to following subshops` |br|
+Check or uncheck the appropriate box to assign/unassign a coupon series to/from subshops and supershops. If the box is not checked, the coupon series will be available in the parent shop but not in the respective subshop or supershop.
 
-Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
+Use the :guilabel:`Select All` and :guilabel:`Select None` link on the right side of the window to assign/unassign the coupon series to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 
 .. Intern: oxbahu, Status:, F1: voucherserie_mall.html

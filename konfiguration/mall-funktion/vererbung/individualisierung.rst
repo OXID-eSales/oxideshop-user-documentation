@@ -1,32 +1,32 @@
-﻿Individualisierung
+﻿Customisation
 ==================
 
-Die beim Anlegen eines neuen Shops erfolgte Vererbung kann zu einem späteren Zeitpunkt angepasst werden. In den Vererbungseinstellungen eines neuen Shops, kann die Vererbung aller Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten und Links rückgängig gemacht werden. Die Vererbungseinstellungen sind auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` zu finden. Wird beispielsweise das Häkchen beim Kontrollkästchen :guilabel:`Alle Artikel vom Elternshop erben` entfernt, sind die geerbten Artikel nach dem Speichern der Vererbungseinstellungen nicht mehr verfügbar.
+Inheritance settings specified when creating a new shop can be adjusted later on. They allow you to undo the inheritance of all products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, news and links. Inheritance settings can be found in the :guilabel:`Mall` tab under :menuselection:`Master Settings --> Core Settings`. For example, if you uncheck the box :guilabel:`Inherit all products from parent shop`, the inherited products will no longer be available after you save the inheritance information.
 
 .. image:: ../../../media/screenshots/oxbags01.png
-   :alt: Vererbter Artikel
+   :alt: Inherited product
    :class: with-shadow
-   :height: 343
+   :height: 335
    :width: 650
 
-Die vererbten Artikel und Einstellungen sind zum größten Teil inhaltlich nicht änderbar. Es gibt jedoch Ausnahmen. Bei vererbten Artikeln können die Preise geändert werden, wenn beim Anlegen des neuen Shops individuelle Preise erlaubt wurden. Dadurch lassen sich der Verkaufspreis des Artikels, die alternativen Preise und die Staffelpreise anpassen. Den vererbten Artikeln und Attributen können Kategorien zugeordnet werden. So kann eine andere Struktur des Warenkatalogs als die im Elternshop umgesetzt werden.
+For the most part, the content of inherited products and settings can’t be changed. However, there are some exceptions. You can change the prices for inherited products if individual prices were allowed when creating the new shop. This allows you to adjust the product’s selling price, alternative prices and scale prices. Inherited products and attributes can be assigned to categories. In this way, a different structure of the product catalogue can be implemented compared to the parent shop.
 
-Für Rechte und Rollen sind ebenfalls eigene Zuordnungen von Benutzergruppen möglich. Die SEO-Einstellungen von Artikeln und Kategorien sind komplett editierbar.
+Rights and roles can also be assigned to user groups. The SEO settings of products and categories are fully editable.
 
-In der Konfigurationsdatei :file:`config.inc.php` des OXID eShop können für Artikel Eigenschaften definiert werden, die nach einer Vererbung editierbar sein sollen. Dazu muss das Array ``aMultishopArticleFields`` mit dem zur Eigenschaft gehörenden Datenbankfeld erweitert werden.
+Product characteristics that should be editable after inheritance can be defined in the OXID eShop :file:`config.inc.php` configuration file. To do this, the array ``aMultishopArticleFields`` needs to be expanded with the characteristics belonging to the associated database field.
 
-Beispiel: Außer den Preisen soll, wie im obigen Screenshot zu sehen, auch die Kurzbeschreibung änderbar sein.
+Example: Besides the prices, the short description should be editable, as shown in the screenshot above.
 
-Eintrag in der Konfigurationsdatei:
+Configuration file entry:
 
 .. code:: php
 
    $this--> aMultishopArticleFields = array(\"OXPRICE\",\"OXPRICEA\",\"OXPRICEB\",\"OXPRICEC\",\"OXUPDATEPRICE\",\"OXUPDATEPRICEA\",\"OXUPDATEPRICEB\",\"OXUPDATEPRICEC\",\"OXUPDATEPRICETIME\", \"OXSHORTDESC\");
 
-In der Datenbanktabelle oxfield2shops muss für OXSHORTDESC ein Eintrag erstellt werden.
+An entry for OXSHORTDESC must be created in the oxfield2shops database table.
 
 .. code:: mysql
 
-   ALTER TABLE oxfield2shop ADD OXSHORTDESC VARCHAR(255) NOT NULL DEFAULT '' COMMENT 'Kurzbeschreibung';
+   ALTER TABLE oxfield2shop ADD OXSHORTDESC VARCHAR(255) NOT NULL DEFAULT '' COMMENT ‘Short description';
 
 .. Intern: oxbags, Status:

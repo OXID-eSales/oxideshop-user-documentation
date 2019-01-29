@@ -1,22 +1,22 @@
-﻿Registerkarte Benutzer
+﻿Users tab
 ======================
 
-Versandarten können so konfiguriert werden, dass sie für bestimmte Benutzergruppen und/oder Benutzer gelten. Die Zuordnung erfolgt auf der Registerkarte :guilabel:`Benutzer`.
+Shipping methods can be configured to apply to specific user groups and/or users. Go to the :guilabel:`User` tab to complete the assignment.
 
 .. image:: ../../media/screenshots/oxbadg01.png
-   :alt: Versandarten - Registerkarte Benutzer
+   :alt: Shipping methods - Users tab
    :class: with-shadow
    :height: 341
    :width: 650
 
-Wird keine Benutzergruppe zugewiesen, gilt die Versandart für alle Benutzergruppen. Versandarten können auch nur für einzelne Benutzer gelten. Diese Art der Zuordnung bewirkt allerdings, dass nur ausgewählte Benutzer diese Versandart verwenden können. Zugewiesene Benutzergruppen werden damit hinfällig.
+If no user group has been assigned, the shipping method will apply to all user groups. Shipping methods can also apply only to individual users. However, this type of assignment means that only selected users will be able to use this shipping method. This makes the assigned user groups obsolete.
 
-:guilabel:`Benutzergruppen zuordnen` |br|
-Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzergruppen` und :guilabel:`Zugeordnete Benutzergruppen`. Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+:guilabel:`Assign User Groups` |br|
+Clicking on this button opens the assignment window and displays the two lists :guilabel:`All User Groups` and :guilabel:`Assigned User Groups`. User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
-:guilabel:`Benutzer zuordnen` |br|
-Um einzelne Benutzer für die Versandart festzulegen, betätigen Sie die Schaltfläche :guilabel:`Benutzer zuordnen`. Im Zuordnungsfenster, welches sich öffnet, werden die beiden Listen :guilabel:`Alle Benutzer` und :guilabel:`Zugeordnete Benutzer` angezeigt. In der linken Liste kann die Anzeige auf alle Benutzer einer Benutzergruppe eingeschränkt werden, indem eine Benutzergruppe aus der Download-Liste ausgewählt wird. In beiden Listen können Benutzer nach Login (E-Mail des Benutzers) gefiltert und/oder sortiert werden.
+:guilabel:`Assign Users` |br|
+Click on :guilabel:`Assign Users` to define individual users for the shipping method. The assignment window opens and displays the two lists :guilabel:`All Users` and :guilabel:`Assigned Users`. Select a user group from the drop-down list in the left-hand list of the assignment window to only display users from this group. Users in both lists can be filtered and/or sorted by login (user email).
 
-Auch in diesem Zuordnungsfenster ist eine Mehrfachauswahl möglich. Die gewünschten Benutzer werden per Drag \& Drop in die rechte Liste verschoben. Die Zuordnung ist abgeschlossen.
+You can also select multiple users. Drag and drop the desired users into the right-hand list The assignment is now completed.
 
 .. Intern: oxbadg, Status:, F1: deliveryset_users.html

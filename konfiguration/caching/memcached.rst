@@ -1,12 +1,12 @@
 ﻿Memcached
 =========
 
-Damit Memcached für das Caching des OXID eShop eingesetzt werden kann, muss das System auf einem separaten Server installiert werden. Sobald Memcached vom OXID eShop erkannt wird, kann es im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Cache` als :guilabel:`Cache Connector` ausgewählt werden.
+To use Memcached for caching OXID eShop, you will need to install the system on a separate server. As soon as Memcached is recognised by OXID eShop, it can be selected in the Admin panel under :menuselection:`Master Settings --> Core Settings --> Cache` as :guilabel:`Cache connector`.
 
 Installation
 ------------
-Installieren Sie Memcached auf einem Server. Die Software erhalten Sie auf der Website des Herstellers: `http://memcached.org <http://memcached.org/>`_. Eine Anleitung zur Installation und weiterführende Hinweise zu Memcached erhalten Sie im PHP Manual: `http://php.net/manual/en/book.memcached.php <http://php.net/manual/en/book.memcached.php>`_ .
+Install Memcached on a server. The software can be found on the manufacturer's website: `http://memcached.org <http://memcached.org/>`_. Installation instructions and further information about Memcached can be found in the PHP manual: `http://php.net/manual/en/book.memcached.php <http://php.net/manual/en/book.memcached.php>`_ .
 
-Stellen Sie sicher, dass die PHP-Bibliothek \"php5-memcached\" aktiv ist.
+Make sure that the PHP library, \"php5-memcached\" is active.
 
 .. Intern: oxbacc, Status:

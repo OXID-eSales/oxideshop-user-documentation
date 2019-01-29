@@ -1,23 +1,23 @@
-﻿Benutzer
+﻿Users
 ========
 
-Jeder Kunde, der das erste Mal im Shop mit oder ohne Registrierung einkauft, wird als Benutzer erfasst. Auch wenn ein Kunde sich anmeldet, um ein Kundenkonto zu erstellen, oder den Newsletter abonniert, erstellt der Shop einen neuen Benutzer oder aktualisiert einen bereits vorhandenen.
+Every customer who buys something in the shop for the first time with or without registration will be registered as a user. The shop also creates a new user or updates an existing one when a customer signs up to create a customer account or subscribe to the newsletter.
 
-Eine besondere Form des Benutzers ist der mit Administratorrechten. Im Gegensatz zu den Benutzern, die ausschließlich mit dem Frontend des Shops interagieren, hat der Administrator auch die Möglichkeit, die Konfiguration des Shops anzupassen, Artikel und Kategorien zu bearbeiten, also den Administrationsbereich des Shops zu nutzen. Der erste Administrator wird während der Installation des Shops angelegt. Im Schritt 5 beim :doc:`Setup ausführen <../../installation/neu-installation/setup-ausfuehren>` mussten Sie die E-Mail-Adresse und das Passwort dieses Administrators eingeben und konnten sich nach abgeschlossenem Setup direkt im Administrationsbereich anmelden.
+A special form of the user is the one with administrator rights. Unlike users who only interact with the shop’s front end, the administrator is also able to customise the configuration of the shop and edit products and categories, i.e. to use the shop’s Admin panel. The first administrator is created during the shop installation. In step 5, :doc:`Running setup <../../installation/neu-installation/setup-ausfuehren>`, you had to enter the email address and password for this administrator and were able to log in directly to the Admin panel after completing the setup.
 
-In der Enterprise Edition gibt es Administratoren, die mit allen Shops arbeiten können, und solche, die nur Zugriff auf einen bestimmten Shop haben. Der bei der Installation erstellte Benutzer mit Administratorrechten kann auf alle Shops zugreifen und im Administrationsbereich zwischen den einzelnen Shops wechseln.
+In Enterprise Edition, there are administrators who can work with all shops and those who only have access to a specific shop. The user with the administrator rights created during the installation can access all shops and switch between the individual shops in the Admin panel.
 
 .. image:: ../../media/screenshots/oxbadq01.png
-   :alt: Benutzer
+   :alt: Users
    :class: with-shadow
    :height: 517
    :width: 650
 
-Benutzer können im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzer` bearbeitet werden. Es werden die Benutzerliste und darunter der Eingabebereich für die Benutzer angezeigt. Die Benutzerliste zeigt den Namen des Benutzers, die E-Mail-Adresse, die Anschrift, die Telefonnummer und dessen Kundennummer. In der Benutzerliste kann gesucht werden. Verwenden Sie dafür die vorhandenen Suchfelder.
+Users can be edited in the Admin panel under :menuselection:`Administer Users --> Users`. Here, you will see the list of the users and the input area right below it. The user list displays the name of the user, the email address, the address, the telephone number and the customer number. You can search for users by using the available search fields.
 
-Benutzer lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Eine Ausnahme stellt der bei der Installation erstellte Administrator dar. Er ist der Master und kann auf diese Weise nicht gelöscht werden. Wollen Sie einem Benutzer nur vorübergehend den Zugriff auf den Shop verwehren, setzen Sie ihn auf inaktiv.
+Users can be permanently removed from the database by clicking on the trash icon at the end of the line. The only exception is the administrator created during the installation. This is the master that can’t be deleted in this way. Set a user to inactive if you only want to prevent him/her from accessing the shop temporarily.
 
-Wird ein Benutzer aus der Benutzerliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Benutzers klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuer Benutzer`. Weitere Funktionen erlauben das Erstellen einer Notiz zum Benutzer, das Erfassen einer weiteren Lieferadresse oder den Aufruf der kontextsensitiven Hilfe.
+When you select a user from the list, his/her information will be displayed in the input area. To create a new user, click on :guilabel:`Create new User` at the bottom of the screen. Other functions allow you to create a note for the user, enter another shipping address or start context-sensitive help.
 
 .. image:: ../../media/screenshots/oxbadq02.png
    :alt: 
@@ -25,40 +25,40 @@ Wird ein Benutzer aus der Benutzerliste gewählt, werden dessen Informationen in
    :height: 65
    :width: 650
 
-Unter :menuselection:`Benutzer verwalten --> Benutzerliste` werden ebenfalls alle Benutzer in einer Übersicht angezeigt. Dabei kann in einer Dropdown-Liste ausgewählt werden, ob 50, 100 oder 200 Benutzer in der Benutzerliste zu sehen sein sollen. Benutzer können über Vorname, Nachname, E-Mail-Adresse und Datum der Registrierung gesucht werden. Die Suche grenzt die angezeigten Benutzer in der Liste ein. Der Klick auf ein beliebiges Feld des Benutzers in der Liste öffnet diesen für die Bearbeitung.
+An overview of all users can also be found under :menuselection:`Administer Users --> List All Users`. You can use the drop-down list to select whether you want to display 50, 100 or 200 users in the user list. Users can be searched by first name, last name, email address and date of registration. The search will narrow down the users displayed in the list. Click on any field of the user in the list to edit him/her.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktiver Benutzer, Rechte des Benutzers, Kunde, Admin, Administrator, Benutzerdaten, Name, Anschrift, Rechnungsadresse, E-Mail, Telefon, Kundennummer, Passwort, Benutzergruppen zuordnen |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active user, user rights, customer, admin, administrator, user data, name, address, billing address, email, phone, customer number, password, assigning user groups |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Erweitert
+Extended tab
 -----------------------
-**Inhalte**: Zusatzinformationen zum Benutzer, Telefonnummer, Handynummer, Mobilfunknummer, Newsletter, Double-Opt-in, ungültige E-Mail-Adresse, Bonität, Kreditwürdigkeit, zugelassene Zahlungsarten, URL, Bonuspunkte, Freunde einladen, Kunden werben, Zuordnung zu Benutzergruppen, keine automatische Zuordnung |br|
-:doc:`Artikel lesen <registerkarte-erweitert>` |link|
+**Contents**: additional user information, phone number, cell phone number, mobile phone number, newsletter, double opt-in, invalid email address, credit rating, creditworthiness, approved payment methods, URL, bonus points, inviting friends, referring customers, assignment to user groups, no automatic assignment |br|
+:doc:`Read article <registerkarte-erweitert>` |link|
 
-Registerkarte Artikel
+Products tab
 ---------------------
-**Inhalte**: Gekaufte Artikel des Benutzers, Übersicht, Anzahl, Artikelnummer, Titel, Typ, Variantenauswahl, Kurzbeschreibung |br|
-:doc:`Artikel lesen <registerkarte-artikel>` |link|
+**Contents**: products purchased by the user, overview, quantity, product number, title, type, variant selection, brief description |br|
+:doc:`Read article <registerkarte-artikel>` |link|
 
-Registerkarte Historie
+History tab
 ----------------------
-**Inhalte**: Notiz, Protokoll, Kundenaktionen, Kundeninformationen |br|
-:doc:`Artikel lesen <registerkarte-historie>` |link|
+**Contents**: note, log, customer actions, customer information |br|
+:doc:`Read article <registerkarte-historie>` |link|
 
-Registerkarte Adressen
+Addresses tab
 ----------------------
-**Inhalte**: neue Adresse, Lieferadresse, Rechnungsadresse, Bestellung, Konto, Rechnungs- und Liefereinstellungen |br|
-:doc:`Artikel lesen <registerkarte-adressen>` |link|
+**Contents**: new address, shipping address, billing address, order, account, billing and shipping settings |br|
+:doc:`Read article <registerkarte-adressen>` |link|
 
-Registerkarte Zahlung
+Payment tab
 ---------------------
-**Inhalte**: bisher verwendete Zahlungsarten, Nachnahme, Kreditkarte, Bankeinzug/Lastschrift, Vorauskasse, Rechnung, Empty, gespeicherte Bankverbindung |br|
-:doc:`Artikel lesen <registerkarte-zahlung>` |link|
+**Contents**: previously used payment methods, cash on delivery, credit card, direct debit, cash in advance, invoice, empty, stored bank details |br|
+:doc:`Read article <registerkarte-zahlung>` |link|
 
-.. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`
+.. seealso:: :doc:`User groups <../benutzergruppen/benutzergruppen>` | :doc:`Payment methods <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Shipping methods <../../einrichtung/versandarten/versandarten>` | :doc:`Shipping cost rules <../../einrichtung/versandkostenregeln/versandkostenregeln>`
 
 .. Intern: oxbadq, Status:

@@ -1,7 +1,7 @@
-Willkommen
+﻿Welcome
 ==========
 
 .. toctree::
    :maxdepth: 1
       
-   ueber-die-anwenderdokumentation
+   about-the-userdocumentation

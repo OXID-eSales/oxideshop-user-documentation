@@ -1,20 +1,20 @@
-Artikel
+﻿Products
 =======
 
 .. toctree::
    :maxdepth: 1
       
-   artikel
-   registerkarte-stamm
-   registerkarte-erweitert
-   registerkarte-lager
-   registerkarte-mall
-   registerkarte-auswahl
-   registerkarte-crosssell
-   registerkarte-varianten
-   registerkarte-bilder
-   registerkarte-downloads
-   registerkarte-bewertung
-   registerkarte-statistik
-   registerkarte-rechte
-   registerkarte-seo
+   products
+   main-tab
+   extended-tab
+   stock-tab
+   mall-tab
+   selection-tab
+   crosssell-tab
+   variants-tab
+   picture tab
+   downloads-tab
+   review-tab
+   statistics-tab
+   rights-tab
+   seo-tab

@@ -1,44 +1,44 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
 
-Auf der Registerkarte :guilabel:`Stamm` können Bestellinformationen hinzugefügt oder verändert werden. Das betrifft Bestell- und Rechnungsnummern ebenso, wie Bezahl- und Versandinformationen. Handelt es sich bei den bestellten Artikeln um Download-Artikel, kann eine E-Mail mit den Downloadlinks an den Kunden verschickt werden.
+The :guilabel:`Main` tab allows you to add or change the order information. This applies to order and invoice numbers as well as payment and shipping information. If the ordered products are downloadable, an email with the download links can be sent to the customer.
 
 .. image:: ../../media/screenshots/oxbaed01.png
-   :alt: Bestellungen - Registerkarte Stamm
+   :alt: Orders - Main tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-:guilabel:`IP-Adresse` |br|
-Hier kann die IP-Adresse angezeigt werden, von der aus der Kunde die Bestellung abgeschlossen hat. Voraussetzung dafür ist, dass dies global aktiviert wurde. Auf der Registerkarte :guilabel:`System` unter :menuselection:`Stammdaten --> Grundeinstellungen` finden Sie bei :guilabel:`Bestellungen` die Einstellung :guilabel:`IP-Adressen speichern`. :guilabel:`Dies ist u.U. ein Verstoß gegen den Datenschutz`.
+:guilabel:`IP Address` |br|
+Displays the IP address that the customer has used to complete the order. This setting has to be activated globally. Go to the :guilabel:`System` tab under :menuselection:`Master Settings --> Core Settings` and click on :guilabel:`Orders` to find the setting :guilabel:`Store User IP Addresses` :guilabel:`(check your local laws if legal)`.
 
-Worauf die Beschriftung schon aufmerksam macht ist die Tatsache, dass das Speichern von IP-Adressen datenschutzrechtlich bedenklich sein kann. In Deutschland ist es eindeutige Rechtslage, dass ein Verstoß gegen die Datenschutzbestimmungen vorliegt, wenn Shopbetreiber die IP-Adresse eines Kunden zusammen mit dessen Bestelldaten speichern. In anderen Ländern hingegen, wie beispielsweise in den Vereinigten Staaten, dürfen IP-Adressen problemlos erfasst werden.
+The name of the setting already draws attention to the fact that the storage of IP addresses can be questionable under data protection law. In Germany, the law clearly states that it is a violation of data protection regulations if shop owners store the customer’s IP addresses together with his/her order data. However, in other countries, such as in the United States, IP addresses can be collected without any issues.
 
-:guilabel:`Bestellnr.` |br|
-Der Shop vergibt bei jeder Bestellung eine fortlaufende Bestellnummer. Diese kann hier geändert werden, wenn der Shop ab der nächsten Bestellung mit der darauffolgenden Bestellnummer weiterzählen soll.
+:guilabel:`Order No.` |br|
+Orders get assigned consecutive order numbers in the shop. The order number can be changed here if you want the shop to continue counting starting with the next order by using the subsequent order number.
 
-:guilabel:`Rechnungsnr.` |br|
-Tragen Sie hier Ihre benutzerdefinierte Rechnungsnummer ein. Wenn Sie nichts eintragen, ist die Bestellnummer auch gleichzeitig die Rechnungsnummer.
+:guilabel:`Invoice No.` |br|
+Enter your custom invoice number. If you leave this field empty, the order number will also be the invoice number.
 
-:guilabel:`Rabatt` ... :guilabel:`(EUR)` |br|
-Wurde für die bestellten Artikel ein Rabatt wirksam, wird dieser hier angezeigt. Es kann auch nachträglich ein Rabatt geändert oder gewährt werden. Tragen Sie den Wert in das Eingabefeld ein und speichern Sie die Änderungen. Der Gesamtpreis der Bestellung wird neu berechnet.
+:guilabel:`Discount` ... :guilabel:`(EUR)` |br|
+Displays a discount applied to the ordered product, if any. Discounts can also be changed or granted at a later point. Enter the value in the input field and save the changes. The total price of the order will be recalculated.
 
-:guilabel:`Bezahlinformationen` |br|
-Der Shopbetreiber hat hier die Möglichkeit, den Zahlungseingang zur Bestellung zu dokumentieren. Im Feld :guilabel:`Bezahlt am` kann das Bezahldatum im Format JJJJ-MM-TT HH:MM:SS gesetzt werden. Nach dem Speichern erscheint eine neue Zeile mit dem Hinweis :guilabel:`Bestellung wurde bezahlt` und der Datums- und Zeitangabe. Soll für die Bestellungen das aktuelle Datum verwendet werden, genügt ein Klick auf den gleichnamigen Link und es wird in das Eingabefeld eingetragen.
+:guilabel:`Payment Information` |br|
+Allows the shop owner to document the receipt of payment for the order. To do this, set the payment date in the YYYY-MM-DD HH:MM:SS format in the :guilabel:`Paid on` field. After saving, you will see a new line with the note :guilabel:`Order was paid` along with the date and time. If you want to use the current date for the orders, just click on the Current Date link and it will be entered in the input field.
 
-:guilabel:`Bezahlung mit` |br|
-In der Dropdown-Liste ist ausgewählt, mit welcher Zahlungsart der Kunde die Bestellung abgeschlossen hat. Falls notwendig, kann dieser Bestellung eine andere aktive Zahlungsart zugewiesen werden. Wählen Sie eine andere Zahlungsart aus der Dropdown-Liste aus und speichern Sie die Änderung.
+:guilabel:`Payment with` |br|
+Use the drop-down list to select the payment method that the customer used to complete the order. If necessary, you can assign a different active payment method to the order. To do this, select the desired payment method from the drop-down list and save the changes.
 
-:guilabel:`Versandinformationen` |br|
-Bei der Bestellung hat der Kunde eine Versandart gewählt, die zusammen mit den Versandkosten übersichtlich angeordnet angezeigt wird. Der Shopbetreiber kann diese Angaben, falls notwendig, ändern.
+:guilabel:`Shipping Information` |br|
+When placing an order, the customer had to select a shipping method that will be displayed together with the shipping costs. The shop owner can change this information if needed.
 
-Damit Kunden den Versand ihrer bestellten Ware verfolgen können, kann die Tracking-URL des Versanddienstleisters im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragen werden. Tracking-URL und die Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz usw.) werden dem Kunden als Link zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. Standardmäßig ist die Sendungsverfolgung für den Versanddienstleister DPD (Dynamic Parcel Distribution) konfiguriert.
+You can enter the tracking URL of the shipping service provider under :menuselection:`Master Settings --> Core Settings --> Settings --> Other settings` in the Admin panel to allow customers to track their orders. The tracking URL and the order's package ID (tracking code, parcel label number, package reference, etc., depending on the shipping service provider) will be sent to the customer as a tracking link in the email informing him/her of the shipment. By default, shipment tracking is configured for the DPD (Dynamic Parcel Distribution) shipping service provider.
 
-Die Schaltflächen :guilabel:`Jetzt versenden` und :guilabel:`Versanddatum zurücksetzen`, ebenso wie das Kontrollkästchen :guilabel:`E-Mail schicken?` erfüllen die gleiche Funktion, wie auf der Registerkarte :guilabel:`Übersicht`. Das Versanddatum kann gesetzt und der Kunde per E-Mail über den Versand der Ware informiert werden. Es wird die Zeile :guilabel:`Versandt am` mit der Datums- und Zeitangabe vervollständigt.
+The :guilabel:`Ship Now`, :guilabel:`Reset Shipping Date` and :guilabel:`Send email?` buttons perform the same function as in the :guilabel:`Overview` tab. You can set the shipping date and inform the customer about the shipment of the products by email. The :guilabel:`Shipped on` line will be filled with the date and time.
 
-:guilabel:`Bestellte Downloadlinks` |br|
-Mit OXID eShop 4.6.0 wurde mit Download-Artikel ein neuer Artikeltyp eingeführt. Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien, die er sich im Shop herunterladen kann. Mit einem Klick auf die Schaltfläche :guilabel:`Versenden` erhält der Kunde eine E-Mail mit seinen Downloadlinks zugeschickt.
+:guilabel:`Ordered download links` |br|
+With OXID eShop 4.6.0, we have introduced a new product type: downloadable products. These could be software, photos, music files or document templates. When the customer adds a downloadable product to the shopping cart, he/she will receive all the associated files and will be able to download them in the shop. Click on :guilabel:`Send` to send an email with the download links to the customer.
 
-.. seealso:: `Datenschutz: Dürfen Online-Händler IP-Adressen ihrer Kunden speichern? <http://shop.trustedshops.com/de/rechtstipps/datenschutz-duerfen-online-haendler-ip-adressen-ihrer-kunden-speichern>`_ (Trusted Shops) | `Features/oxCounter implementation <http://oxidforge.org/en/oxcounter-implementation.html>`_ (OXIDforge, englischsprachig)
+.. seealso:: `Data protection: Are online retailers allowed to store IP addresses of their customers? <http://shop.trustedshops.com/de/rechtstipps/datenschutz-duerfen-online-haendler-ip-adressen-ihrer-kunden-speichern>`_ (Trusted Shops, in German) | `Features/oxCounter implementation <http://oxidforge.org/en/oxcounter-implementation.html>`_ (OXIDforge)
 
 .. Intern: oxbaed, Status:, F1: order_main.html

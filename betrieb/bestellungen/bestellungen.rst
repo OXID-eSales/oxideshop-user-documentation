@@ -1,54 +1,54 @@
-﻿Bestellungen
+﻿Orders
 ============
 
-Schließt der Kunde seinen Einkauf im Online-Shop ab, indem er zahlungspflichtig bestellt, wird eine Bestellung angelegt. Auf einer Seite wird dem Kunden für dessen Einkauf gedankt und er wird sogleich über die Bestellnummer informiert. Gleichzeitig verschickt der Shop eine Bestellbestätigung per E-Mail, die alle wichtigen Informationen, wie beispielsweise eine Liste der bestellten Artikel, den Gesamtpreis mit allen Einzelpositionen, die gewählte Zahlungsart, die Rechnungsadresse und die Versandart beinhaltet. Auch der Shopbetreiber wird per E-Mail über die neue Bestellung benachrichtigt.
+An order is created when the customer completes his/her purchase in the online shop by placing a payable order. The customer will see a thank you page and will immediately be informed about the order number. At the same time, the shop will send an order confirmation email, containing all important information, such as a list of ordered products, the total price with all individual items, the selected payment method, the billing address, and the shipping method. The shop owner will also be notified about the new order by email.
 
 .. image:: ../../media/screenshots/oxbaeb01.png
-   :alt: Bestellungen
+   :alt: Orders
    :class: with-shadow
    :height: 517
    :width: 650
 
-Im Abschnitt \"Bestellungen\" erfahren Sie alles über die Bearbeitung von Bestellungen. Die beim Einkauf im Online-Shop erstellte Bestellung kann nachträglich geändert werden, um beispielsweise eine andere Zahlungs- oder Versandart zuzuweisen. Der Zahlungseingang kann ebenso dokumentiert werden, wie der Versand der Artikel. Rechnung und Lieferschein lassen sich aus der Bestellung heraus erstellen. Um Bestellungen zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Bestellungen verwalten --> Bestellungen`. Es werden eine Liste der Bestellungen und darunter der Eingabebereich für die Bestellung angezeigt.
+The \"Orders\" section contains all the details on processing orders. The order created during the purchase in the online shop can be changed at a later point, for example, to assign a different payment or shipping method. Payment receipt and product shipping information can also be documented. Invoice and delivery note can be created from the order. Go to :menuselection:`Administer Orders --> Orders` in the Admin panel to edit the orders. Here, you will see a list of the orders and the input area right below it.
 
-Bestellungen können gefiltert und gesucht werden. Eine Filtermöglichkeit sind die Ordner, in die sich Bestellungen verschieben lassen. In einer Dropdown-Liste direkt links über der Liste der Bestellungen lassen sich die Ordner \"Neu\", \"Bearbeitet\" oder \"Probleme\" auswählen. Diese Ordner sind standardmäßig vorhanden und erlauben eine einfache Klassifizierung der Bestellungen. Für den ausgewählten Ordner kann zusätzlich im daneben liegenden Feld ein Datum im Format JJJJ-MM-TT angegeben werden. Auch Teilformate, wie JJJJ-MM, sind möglich.
+Orders can be filtered and searched for. One filter option is the folders where the orders can be moved to. Folders \"New\", \"Finished\" or \"Problems\" can be selected from the drop-down list directly to the left above the list of orders. These folders are available by default and allow easy classification of orders. You can also specify a date in the YYYY-MM-DD format for the selected folder in the next field. Partial formats such as YYYY-MM are also allowed.
 
-Eine weitere Filtermöglichkeit erlaubt die Anzeige von bezahlten Bestellungen, Bestellungen mit bestimmten Artikeln oder Zahlungsarten. Wird \"Bezahlt\" aus der Dropdown-Liste gewählt, lassen sich Bestellungen eines vorgegebenen Bezahldatums im Format JJJJ-MM-TT anzeigen. Auch hier sind Teilformate möglich. Bei der Filterung der Bestellungen mit bestimmten Artikeln wird der Artikeltitel oder die Artikelnummer berücksichtigt. Auch hier genügt bereits die Angabe weniger Zeichen. Die Suche nach Bestellnummer, Vorname und Nachname des Käufers kann gesetzte Filter noch verfeinern, aber auch separat verwendet werden.
+Another filter option allows the display of paid orders, orders with specific products or payment methods. Select \"Payment Date\" from the drop-down list to display orders with the specified payment date in the YYYY-MM-DD format. Partial formats are allowed here as well. Orders with specific products can be filtered by the product title or number. Entering a few characters will be enough. The search by order number or buyer’s first and last name can be used separately or to refine the set filters.
 
-Bestellungen lassen sich stornieren und löschen. Verwenden Sie dafür die Symbole am Ende der Zeile einer Bestellung. Wichtiger Hinweis: Beachten Sie bitte, dass eine Stornierung nicht rückgängig gemacht werden kann und dass ein Löschen die Bestellung endgültig aus der Datenbank entfernt.
+Orders can be cancelled and deleted by using the icons at the end of the line. Important: Please note that cancelled orders can’t be restored and that the deleted orders will be permanently removed from the database.
 
-Wird eine Bestellung aus der Liste der Bestellungen gewählt, werden deren Informationen in den Eingabebereich geladen. In der Fußzeile finden Sie die Funktionen: :guilabel:`Notiz anfügen` und :guilabel:`Hilfe starten`.
+When you select an order from the list, its information will be displayed in the input area. The footer contains the following links: :guilabel:`Add Note` and :guilabel:`Start Help`.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Übersicht
+Overview tab
 -----------------------
-**Inhalte**: Bestellübersicht, Rechnungsadresse, Lieferadresse, bestellte Artikel, Gesamtpreis mit einzelnen Positionen, Zahlungsart, Versandart, Mitteilung zur Bestellung, Bestellnummer, Kundennummer, Ordner für Bestellungen, Neu, Bearbeitet, Probleme, Bestellungen des aktuellen Tages, Bestellungen total, Bestellung versenden, Versandbestätigung, XML Export, Rechnung und Lieferschein als PDF |br|
-:doc:`Artikel lesen <registerkarte-uebersicht>` |link|
+**Contents**: order overview, billing address, shipping address, ordered products, total price with individual items, payment method, shipping method, order notification, order number, customer number, folder for orders, new, processed, problems, today’s orders, total orders, shipping orders, shipping confirmation, XML export, invoice and delivery note as PDF |br|
+:doc:`Read article <registerkarte-uebersicht>` |link|
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: IP-Adresse und Bestellung, Trusted Shops, Bestellnummer, Rechnungsnummer, Rabatt, Bezahlinformationen, Bezahldatum, Zahlungsart, Versandinformationen, Versandart, Versandkosten, Bestellung versenden, Versandbestätigung, Links zu Download-Artikeln |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: IP address and order, Trusted Shops, order number, invoice number, discount, payment information, payment date, payment method, shipping information, shipping method, shipping costs, order shipping, shipping confirmation, links to downloadable products |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Adressen
+Addresses tab
 ----------------------
-**Inhalte**: Rechnungsadresse, Lieferadresse, Benutzer, Konto, Rechnungs- und Liefereinstellungen |br|
-:doc:`Artikel lesen <registerkarte-adressen>` |link|
+**Contents**: billing address, shipping address, user, account, billing and shipping settings |br|
+:doc:`Read article <registerkarte-adressen>` |link|
 
-Registerkarte Artikel
+Products tab
 ---------------------
-**Inhalte**: Artikel einer Bestellung, Anzahl der Artikel ändern, bestellte Artikel stornieren, Artikel aus Bestellung löschen, Artikel suchen, Artikel zur Bestellung hinzufügen, Gesamtpreis mit einzelnen Positionen |br|
-:doc:`Artikel lesen <registerkarte-artikel>` |link|
+**Contents**: products in an order, changing product quantity, cancelling ordered products, deleting products from the order, searching for products, adding products to the order, total price with individual items |br|
+:doc:`Read article <registerkarte-artikel>` |link|
 
-Registerkarte Historie
+History tab
 ----------------------
-**Inhalte**: Notiz, Protokoll, Kundenaktionen, Kundeninformationen |br|
-:doc:`Artikel lesen <registerkarte-historie>` |link|
+**Contents**: note, log, customer actions, customer information |br|
+:doc:`Read article <registerkarte-historie>` |link|
 
-Registerkarte Downloads
+Downloads tab
 -----------------------
-**Inhalte**: Download-Artikel einer Bestellung, herunterladbare Dateien, erster und letzter Download, Anzahl erfolgter Downloads, maximal mögliche Downloads, Gültigkeit der Download-Links, Reset, Downloads zurücksetzen |br|
-:doc:`Artikel lesen <registerkarte-downloads>` |link|
+**Contents**: downloadable products of an order, downloadable files, first and last download, number of completed downloads, maximum possible downloads, validity of download links, reset, resetting downloads |br|
+:doc:`Read article <registerkarte-downloads>` |link|
 
 .. Intern: oxbaeb, Status:

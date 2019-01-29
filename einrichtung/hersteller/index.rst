@@ -1,10 +1,10 @@
-Hersteller
+﻿Manufacturers
 ==========
 
 .. toctree::
    :maxdepth: 1
       
-   hersteller
-   registerkarte-stamm
-   registerkarte-mall
-   registerkarte-seo
+   manufacturers
+   main-tab
+   mall-tab
+   seo-tab

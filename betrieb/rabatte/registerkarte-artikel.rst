@@ -1,20 +1,20 @@
-﻿Registerkarte Artikel
+﻿Products tab
 =====================
 
-Rabatte können für Kategorien und/oder Artikel gelten. Auf der Registerkarte :guilabel:`Artikel` kann die dafür notwendige Zuordnung vorgenommen werden. Der Rabatt wird nur gewährt, wenn zugewiesene Artikel oder Artikel aus zugewiesenen Kategorien in den Warenkorb gelegt werden. Ohne Zuordnung von Kategorien und/oder Artikel gilt der Rabatt global für den gesamten Warenkatalog.
+Discounts can apply to categories and/or products. The :guilabel:`Products` tab allows you to configure the necessary assignments. The discount will only be granted when assigned products or products from assigned categories are added to the shopping cart. Without assignment of categories and/or products, the discount will apply globally to the entire product catalogue.
 
 .. image:: ../../media/screenshots/oxbahj01.png
-   :alt: Rabatte - Registerkarte Artikel
+   :alt: Discounts - Products tab
    :class: with-shadow
    :height: 335
    :width: 650
 
-:guilabel:`Kategorien zuordnen` |br|
-Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Kategorien` und :guilabel:`Zugeordnete Kategorien`. Die Kategorien können nach Titel und Kurzbeschreibung gefiltert und sortiert werden. Ziehen Sie die gewünschten Kategorien mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+:guilabel:`Assign Categories` |br|
+Clicking on this button will open the assignment window and display the two lists - :guilabel:`All Categories` and :guilabel:`Assigned Categories`. Categories can be filtered and sorted by title and short description. Drag the desired categories from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple categories. The assignment is now completed.
 
-:guilabel:`Artikel zuordnen` |br|
-Um einzelne Artikel für den Rabatt festzulegen, betätigen Sie die Schaltfläche :guilabel:`Artikel zuordnen`. Im Zuordnungsfenster, welches sich öffnet, werden die beiden Listen :guilabel:`Alle Artikel` und :guilabel:`Zugeordnete Artikel` angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit dem Rabatt zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+:guilabel:`Assign Products` |br|
+Click on :guilabel:`Assign Products` to define individual products for the discount. The assignment window opens and displays the two lists :guilabel:`All Products` and :guilabel:`Assigned Products`. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the discount. Hold down the Ctrl key to select multiple products.
 
-.. seealso:: :doc:`Rabatte auf ausgewählte Artikel <rabatte-auf-ausgewaehlte-artikel>`
+.. seealso:: :doc:`Discounts on selected products <rabatte-auf-ausgewaehlte-artikel>`
 
 .. Intern: oxbahj, Status:, F1: discount_articles.html

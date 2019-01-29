@@ -1,78 +1,78 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
 
-Auf der Registerkarte :guilabel:`Stamm` werden die wichtigen Einstellungen für Rabatte vorgenommen. Erstellen oder bearbeiten Sie hier den Rabatt. Die Zuordnung zu Artikeln, Kategorien, Benutzern und Benutzergruppen erfolgt auf zwei weiteren Registerkarten.
+The :guilabel:`Main` tab contains some important settings that can be configured for the discounts. This is where you can create or edit a discount. The assignment to products, categories, users and user groups takes place in the two following tabs.
 
 .. image:: ../../media/screenshots/oxbahi01.png
-   :alt: Rabatte - Registerkarte Stamm
+   :alt: Discounts - Main tab
    :class: with-shadow
    :height: 335
    :width: 650
 
-Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lässt sich der Name des Rabattes auch direkt in einer weiteren Sprache bearbeiten. Bitte beachten Sie, dass die Einstellungen und die Sprachumstellung erst nach Anlegen des Rabattes verfügbar sind.
+The language selection list at the bottom left of the input area allows you to edit the name of the discount in another language directly. Please note that you can only change the language after the selection list has been saved.
 
 :guilabel:`Name` |br|
-Name des Rabattes. Dieser wird im Warenkorb als eine Zeile in der Auflistung des Gesamtbetrages angezeigt, wenn der Rabatt global für den kompletten Warenkatalog des Shops gilt.
+Name of the discount. This is displayed in the shopping cart as a line in the listing of the total amount if the discount applies globally to the complete product catalogue of the shop.
 
-:guilabel:`Sortierung` |br|
-Mit einem Wert kann vorgegeben werden, in welcher Reihenfolge die Rabatte auf Artikel oder den Warenkorb angewendet werden. Der Rabatt mit der kleinsten Zahl wird zuerst berücksichtigt, der mit der größten Zahl zuletzt.
+:guilabel:`Sorting` |br|
+You can enter a value to specify the order in which the discounts are applied to the product or the shopping cart. The discount with the smallest number will be applied first and the discount with the largest number will be applied last.
 
-:guilabel:`Immer aktiv` |br|
-Aktivieren Sie dieses Kontrollkästchen, damit der Rabatt dauerhaft gewährt wird. Ist das Kontrollkästchen nicht angehakt, wird für den Rabatt ein eingetragener Zeitraum berücksichtigt.
+:guilabel:`Always active` |br|
+Check this box to have the discount granted permanently. Otherwise, the discount will only be granted for the specified time period.
 
-:guilabel:`Aktiv für Zeitraum` ... :guilabel:`(von)` ... :guilabel:`(bis)` |br|
-Um Rabattaktionen vorbereiten und zeitlich steuern zu können, kann ein Zeitraum definiert werden, in dem ein Rabatt gültig ist. Anfang und Ende müssen im Format JJJJ-MM-TT HH:MM:SS angegeben werden. Datum und Zeit des Endes der Aktivierung sind nicht optional.
+:guilabel:`Active for a period` ... :guilabel:`(From)` ... :guilabel:`(To)` |br|
+In order to prepare and schedule discounts, you can define a time period when a discount will be active. The start and end must be specified in the YYYY-MM-DD HH:MM:SS format. Date and time of the end of activation are mandatory.
 
-:guilabel:`Einkaufsmenge von` ... :guilabel:`bis` ... |br|
-Soll der Rabatt nur dann gewährt werden, wenn eine bestimmte Menge von Artikeln im Warenkorb liegt, kann hier die minimale und maximale Einkaufsmenge vorgegeben werden. Wenn beide Werte 0 sind, gilt der Rabatt für alle Einkaufsmengen.
+:guilabel:`Quantity From` ... :guilabel:`To` ... |br|
+Use this field to specify the minimum and maximum purchase quantities if the discount should only be granted after adding a certain quantity of products to the shopping cart. If both values are 0, the discount will apply to all purchase quantities.
 
-:guilabel:`Einkaufswert (€) von` ... :guilabel:`bis` ... |br|
-Geben Sie hier eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt werden soll. Sind beide Werte 0, gilt der Rabatt für jeden Einkaufswert.
+:guilabel:`Purchase Price (€) From` ... :guilabel:`To` ... |br|
+Enter a range for the total price on which a discount should be granted. If both values are 0, the discount will apply to each purchase value.
 
-.. hint:: Dem Wert im Eingabefeld :guilabel:`Einkaufsmenge von` und :guilabel:`Einkaufswert (€) von` kommt eine spezielle Bedeutung bei der Anzeige der Rabatte zu. Steht in beiden Feldern 0, werden alle Artikel, für die dieser Rabatt gilt, im Shop direkt mit dem rabattierten Preis angezeigt. Beginnt die Einkaufsmenge und/oder der Einkaufswert mit 1, wird der Rabatt erst im Warenkorb ausgewiesen. Das ist auch für die Zugabe wichtig, damit diese Art des Rabattes im Warenkorb angezeigt wird.
+.. hint:: The value in the :guilabel:`Quantity` and :guilabel:`Purchase Price (€) From` input fields has a special meaning when displaying the discounts. If there is a 0 in both fields, all products to which this discount applies will be displayed in the shop directly with the discounted price. If the quantity and/or the purchase price starts with 1, the discount will only be shown in the shopping cart. This is also important for the add-on product so that this type of discount is displayed in the shopping cart.
 
 .. image:: ../../media/screenshots/oxbahi02.png
-   :alt: Rabattierter Artikel im Warenkorb
+   :alt: Discounted product in the shopping cart
    :class: with-shadow
    :height: 294
    :width: 650
 
-:guilabel:`Rabatt` |br|
-Definieren Sie hier den Rabatt, der gewährt werden soll. Dieser kann prozentual, absolut oder als Stückzahl angegeben werden. Mit der Auswahlliste hinter dem Eingabefeld wird die Art des Rabattes ausgewählt. |br|
-:guilabel:`abs`: Der Rabatt ist absolut, beispielsweise 5 €. |br|
-:guilabel:`%`: Der Rabatt ist prozentual, beispielsweise 10 Prozent vom Einkaufswert. |br|
-:guilabel:`itm`: Der Rabatt wird in Form eines kostenlosen Artikels (Dreingabe/Zugabe) gewährt.
+:guilabel:`Discount` |br|
+Define the discount to be granted here. This can be expressed as a percentage, in absolute terms or as a quantity. Select the type of discount in the selection list following the input field. |br|
+:guilabel:`abs`: absolute discount, e.g. €5. |br|
+:guilabel:`%`: percentage-based discount, e.g. 10% of the purchase value. |br|
+:guilabel:`itm`: the discount is granted in the form of a free product (gift/add-on).
 
-:guilabel:`Artikel auswählen` |br|
-Die Schaltfläche wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist. Sie öffnet ein neues Fenster, in dem ein Artikel ausgewählt werden kann. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Der Artikel wird per Drag \& Drop in die rechte Liste verschoben. Es kann nur ein Artikel zugeordnet werden. Dessen Preis wird automatisch auf Null gesetzt, wenn er im Rahmen des Rabattes als Zugabe in den Warenkorb kommt.
+:guilabel:`Choose product` |br|
+This button is only displayed if the discount is a free product. Clicking on it opens a new window where you can select a product. All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the product into the right-hand list to assign it to the discount. The product’s price will be automatically set to zero if the customer places it into the shopping cart as an add-on.
 
-:guilabel:`Drein/Zugabe` - :guilabel:`Menge` |br|
-Das Eingabefeld wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist. Geben Sie hier an, in welcher Menge der kostenlose Artikel als Rabatt gewährt wird. Wird beispielsweise 2 als Menge eingetragen, werden insgesamt zwei kostenlose Artikel in den Warenkorb gelegt, unabhängig davon, wie viele Artikel gekauft wurden.
+:guilabel:`Free Product` - :guilabel:`Amount` |br|
+This input field is only displayed if the discount is a free product. Specify the quantity of the free product to be granted as a discount. If, for example, you enter 2 as the quantity, a total of two free products will be added to the shopping cart regardless of how many products were purchased.
 
 .. image:: ../../media/screenshots/oxbahi03.png
-   :alt: Artikel mit Dreingabe im Warenkorb
+   :alt: Product with gift in the shopping cart
    :class: with-shadow
    :height: 284
    :width: 650
 
-:guilabel:`Drein/Zugabe` - :guilabel:`Multiplizieren` |br|
-Das Kontrollkästchen wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist. Setzen Sie ein Häkchen, wenn die Menge der kostenlose Artikel von der Anzahl der gekauften Artikel abhängen soll.
+:guilabel:`Free Product` - :guilabel:`Multiply` |br|
+This box is only displayed if the discount is a free product. Check the box if the quantity of free products should depend on the number of products purchased.
 
-Die Anzahl der Zugaben wird im Warenkorb berechnet. Dabei wird die Anzahl der rabattfähigen Artikel zunächst durch den Wert der Mindesteinkaufsmenge geteilt und anschließend mit dem Wert multipliziert, der bei :guilabel:`Drein/Zugabe - Menge` eingetragen ist.
+The number of add-ons is calculated in the shopping cart. The number of discountable products is first divided by the value of the minimum purchase quantity and then multiplied by the value entered in the :guilabel:`Free Product - Amount` field.
 
-Beispiel: Wurden 10 Artikel gekauft, auf die der Rabatt gewährt wird, die Mindesteinkaufsmenge ist 5 und die Menge der Zugabe 1, wird die Zugabe (10/5)*1 = 2 mal in den Warenkorb gelegt. Ist die Menge der Zugabe 2, erhöht sich die Anzahl der Zugaben auf 4.
+Example: If the customer purchased 10 products on which the discount is granted, the minimum purchase quantity is 5 and the add-on quantity is 1, then the add-on will be added (10/5)*1 = 2 times to the shopping cart. If the add-on quantity is 2, the number of add-ons will increase to 4.
 
-:guilabel:`In Sprache` |br|
-Der Rabatt lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
+:guilabel:`In Language` |br|
+The discount can also be edited in other active languages of the shop. To do this, select the desired language from the list.
 
-:guilabel:`Kopieren` |br|
-Der Rabatt kann in eine aktive Sprache des Shops kopiert werden. Das ist Voraussetzung dafür, dass er in dieser Sprache bearbeitet werden kann. Ist der Rabatt in allen aktiven Sprachen des Shops vorhanden, werden die Schaltfläche und die Auswahlliste für die Sprache ausgeblendet.
+:guilabel:`Copy to` |br|
+The discount must be copied to another active language of the shop for it to be edited in this language. If the discount exists in all active languages of the shop, the button and the selection list for the language will be hidden.
 
-:guilabel:`Länder zuordnen` |br|
-Rabatte können auch länderspezifisch gelten. Ordnen Sie mit der Schaltfläche die Länder zu, aus denen Kunden bei einer Bestellung diesen Rabatt erhalten. Ohne eine solche Zuordnung ist der Rabatt für alle Länder gültig.
+:guilabel:`Assign Countries` |br|
+Discounts can also apply to specific countries. Use this button to assign the countries from which customers receive this discount when placing an order. Otherwise, the discount will be valid for all countries.
 
-Es öffnet sich ein Zuordnungsfenster, in dem Sie Länder aus der Liste :guilabel:`Alle Länder` auswählen können. Länder lassen sich nach Namen und/oder der Länderabkürzung sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+Clicking on this button will open an assignment window where you can select countries from the :guilabel:`All Countries` list. Countries can be sorted and filtered by name and/or country abbreviation. Drag the desired countries into the right-hand list using the mouse. Hold down the Ctrl key to select multiple countries.
 
-.. seealso:: :doc:`Zeitlich begrenzte Rabatte <zeitlich-begrenzte-rabatte>`
+.. seealso:: :doc:`Temporary discounts <zeitlich-begrenzte-rabatte>`
 
 .. Intern: oxbahi, Status:, F1: discount_main.html

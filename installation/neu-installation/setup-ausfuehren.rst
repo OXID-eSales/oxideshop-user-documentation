@@ -1,81 +1,81 @@
-﻿Setup ausführen
+﻿Running setup
 ===============
 
-Über das webbasierte Setup wird der OXID eShop installiert und konfiguriert. Öffnen Sie einen Browser und rufen Sie ``www.ihreshopurl.de/setup`` auf. Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL, unter der ihr OXID eShop erreichbar sein wird.
+OXID eShop is installed and configured through the web-based setup. Open a browser and go to ``www.yourshopurl.com/setup``. Replace ``www.yourshopurl.com`` with the URL under which your OXID eShop will be accessible.
 
-Das Setup startet. Es besteht aus 6 bzw. 7 Schritten. Für die Enterprise und die Professional Edition ist ein zusätzlicher Schritt erforderlich, damit der Lizenzkey eingegeben werden kann.
+The setup will start. It consists of 6 or 7 steps. An additional step is required to enter the license key for Enterprise and Professional Edition.
 
-Während der Installation werden bestimmte Werte in die :file:`.htaccess` und die :file:`config.inc.php` geschrieben. Beide Dateien befinden sich im Hauptverzeichnis des Shops und sollten für die Dauer des Setups nicht schreibgeschützt sein.
+Certain values are written into :file:`.htaccess` and :file:`config.inc.php` during installation. Both files are located in the main shop directory and shouldn’t be read-only for the duration of the setup.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
 
-|schritt| Voraussetzungen
+|schritt| Requirements
 -------------------------
-Im ersten Schritt des Setups werden die Systemvoraussetzungen geprüft. Wählen Sie die Sprache für die Installation aus. Die Anzeige wird direkt auf die gewählte Sprache umgestellt.
+System requirements are checked in the first step of the setup process. Select the language for the installation. The display will switch to the selected language right away.
 
-Farbige Symbole zeigen an, ob die Systemvoraussetzungen erfüllt sind:
+The following icons indicate whether the system requirements have been met:
 
 .. |install-pass| image:: ../../media/icons/install-pass.png
 .. |install-pmin| image:: ../../media/icons/install-pmin.png
 .. |install-fail| image:: ../../media/icons/install-fail.png
 .. |install-null| image:: ../../media/icons/install-null.png
 
-* |install-pass| Die Voraussetzung ist erfüllt.
-* |install-pmin| Die Voraussetzung ist nicht oder nur teilweise erfüllt. Der OXID eShop funktioniert trotzdem und kann installiert werden.
-* |install-fail| Die Voraussetzung ist nicht erfüllt. Der OXID eShop funktioniert nicht ohne diese Voraussetzung und kann nicht installiert werden.
-* |install-null| Die Voraussetzung konnte nicht überprüft werden.
+* |install-pass| The requirement has been met.
+* |install-pmin| The requirement hasn’t been met or has been met only partially. OXID eShop still works and can be installed.
+* |install-fail| The requirement hasn’t been met. OXID eShop doesn’t work without meeting this requirement and can’t be installed.
+* |install-null| The requirement couldn’t be verified.
 
-Stellen Sie sicher, dass alle Systemvoraussetzungen erfüllt sind, um den OXID eShop installieren und störungsfrei betreiben zu können. Bei Konfigurationsproblemen wenden Sie sich bitte an Ihren OXID Hosting Partner oder Internet Service Provider (ISP). Sobald alle Systemvoraussetzungen erfüllt sind (es sind keine roten Markierungen vorhanden), betätigen Sie die Schaltfläche :guilabel:`Setup beginnen`.
+Make sure that all system requirements have been met in order to install OXID eShop and ensure uninterrupted operation. Please contact your OXID Hosting Partner or Internet Service Provider (ISP) in case of any configuration issues. Once all system requirements have been met (there are no red icons), click on :guilabel:`Proceed with setup`.
 
-|schritt| Willkommen
+|schritt| Welcome
 --------------------
-Hauptlieferland und Sprache des Shops können im zweiten Schritt des Setups festgelegt werden. Sie können weitere Lieferländer und/oder Sprachen später jederzeit hinzufügen.
+The main shipping country and the shop’s language can be set in the second step of the setup. You can always add other countries and/or languages later on.
 
-Aktivieren Sie das Kontrollkästchen für die regelmäßige Prüfung auf Aktualisierungen. Bei der Installation einer Community Edition bestätigen Sie bitte auch die Verbindung zu den OXID Servern zur Verbesserung der Produktqualität. Drücken Sie die Schaltfläche :guilabel:`Shopinstallation beginnen`.
+Check the box to have it regularly check for updates. When installing Community Edition, please also confirm the connection to the OXID servers in order to improve product quality. Click on :guilabel:`Start installation`.
 
-|schritt| Lizenzbedingungen
+|schritt| License terms
 ---------------------------
-Auf dieser Seite des Setups werden Ihnen die Lizenzbedingungen angezeigt. Bitte informieren Sie sich über die Lizenzbedingungen für Ihren OXID eShop. Sind Sie damit einverstanden, wählen Sie :guilabel:`Ich akzeptiere die Lizenzbedingungen` aus und klicken Sie dann auf :guilabel:`Weiter`.
+This setup page displays the license terms. Please familiarise yourself with the license terms for your OXID eShop. If you agree, select :guilabel:`I accept license conditions` and click :guilabel:`Continue`.
 
-|schritt| Datenbank
+|schritt| Database
 -------------------
-Im vierten Schritt des Setups werden die Daten für die von Ihnen erstellte Datenbank benötigt.
+The fourth step of the setup process requires the data for the database you created.
 
-:guilabel:`Datenbank Hostname oder IP Adresse` |br|
-Sie können den Defaultwert localhost stehen lassen, wenn sich Datenbank und Webserver auf dem gleichen Server befinden. Das ist für die meisten Shops der Standard. Ist die Datenbank ausgelagert, muss der Hostname oder die IP-Adresse des Datenbankservers angegeben werden. Ist dabei die Angabe eines Ports erforderlich, steht dieser nach dem Hostnamen und einem Doppelpunkt (Hostname:Port).
+:guilabel:`Database server hostname or IP address` |br|
+You can leave localhost as the default value if the database and the web server are located on the same server. This is the standard procedure for most shops. If the database is outsourced, the hostname or IP address of the database server will need to be specified. If a port is required, it should be specified after the hostname and a colon (hostname:port).
 
-:guilabel:`Datenbank Name` |br|
-Tragen Sie den Namen der zuvor erstellten Datenbank ein.
+:guilabel:`Database name` |br|
+Enter the name of the database you created earlier.
 
-:guilabel:`Datenbank Benutzername` und :guilabel:`Datenbank Passwort` |br|
-Geben Sie die Zugangsdaten zur Datenbank ein.
+:guilabel:`Database username` and :guilabel:`Database password` |br|
+Enter the login data for the database.
 
-:guilabel:`Demodaten` |br|
-Entscheiden Sie, ob Sie den Shop vorkonfiguriert mit Beispielartikeln installieren möchten. Demodaten sind empfehlenswert, wenn Sie sich zunächst in einer Testinstallation mit dem Shop vertraut machen möchten. Sie können die Demodaten jederzeit löschen, wenn Sie den Shop mit eigenen Artikeln befüllen wollen.
+:guilabel:`Demodata` |br|
+You can decide whether you want to install the shop preconfigured with sample products. Demo data is recommended if you want to use a test installation to familiarise yourself with the shop first. You can always delete the demo data later on if you want to add your own products to the shop.
 
-Betätigen Sie die Schaltfläche :guilabel:`Datenbank jetzt erstellen`. In einigen besonderen Konstellationen kann damit die Datenbank auch direkt erstellt werden, ohne dass sie vorher manuell angelegt werden musste. Da Ihre Datenbank bereits existiert, werden alle erforderlichen Tabellen und Daten nun in dieser Datenbank gespeichert.
+Click on :guilabel:`Create database now`. Certain configurations allow you to create the database directly so that you don’t have to create it manually beforehand. Since your database already exists, all required tables and data will now be stored in this database.
 
-|schritt| Verzeichnisse \& Login
+|schritt| Directories & login
 --------------------------------
-Im nächsten Schritt des Setups lassen sich die Verzeichnis-Einstellungen anpassen und die Zugangsdaten für den Administrationsbereich des Shops festlegen. Die Setup-Routine erkennt die Verzeichnisse automatisch und schlägt diese vor. Eine Änderung ist in den allermeisten Fällen nicht notwendig.
+The next step of the setup process allows you to adjust the directory settings and define the login data for the shop’s Admin panel. The directories are automatically detected and suggested during setup. In most cases, you don’t need to change anything.
 
-:guilabel:`Shop-URL` |br|
-Es wird die URL angezeigt, unter der Ihr eShop erreichbar sein wird.
+:guilabel:`Shop URL` |br|
+Shows the URL under which your OXID eShop will be accessible.
 
-:guilabel:`Verzeichnis auf dem Server zum Shop` |br|
-Der interne Pfad zum Shop auf dem Server wird ausgegeben.
+:guilabel:`Directory for OXID eShop` |br|
+Generates the internal path to the shop on the server.
 
-:guilabel:`Verzeichnis auf dem Server zum TMP Verzeichnis` |br|
-Benennt das Verzeichis, in dem die temporären Dateien des Shops, beispielsweise für Smarty- oder SEO-Cache, gespeichert werden.
+:guilabel:`Directory for temporary data` |br|
+Names the directory where the shop's temporary files, e.g. for Smarty or SEO cache, are stored.
 
-Tragen Sie zusätzlich die E-Mail-Adresse und das Passwort des Administrators ein. Mit diesen Daten können Sie sich nach abgeschlossenem Setup im Administrationsbereich anmelden. Bewahren Sie diese Zugangsdaten an einem sicheren Ort auf.
+You will also need to enter the administrator's email address and password. You can use this data to log in to the Admin panel after the setup has been completed. Make sure to keep this login data in a safe place.
 
-|schritt| Lizenz
+|schritt| License
 ----------------
-Shopbetreiber mit einer Enterprise oder Professional Edition tragen hier den Lizenzschlüssel ein, den sie mit Kauf des OXID eShop erhalten haben. Der Lizenzschlüssel steht auf dem Lieferschein, der Ihnen per E-Mail zugeschickt wurde. Weiter mit :guilabel:`Lizenzschlüssel speichern`.
+This is where shop owners with Enterprise or Professional Edition can enter the license key they received when they purchased OXID eShop. The license key can be found on the receipt sent to you by email. Next, click on :guilabel:`Save license key`.
 
-|schritt| Fertigstellen
+|schritt| Finish
 -----------------------
-Das Setup ist nun erfolgreich abgeschlossen. Über den Link :guilabel:`Zum Shop` gelangen Sie zur Startseite Ihres Shops. Der Link :guilabel:`Zur Shop Administration` führt Sie direkt zum Administrationsbereich.
+The setup is now completed. Click on the :guilabel:`To Shop` link to get to your shop’s start page. The link :guilabel:`To admin interface` will take you directly to the Admin panel.
 
 .. Intern: oxbaaf, Status:

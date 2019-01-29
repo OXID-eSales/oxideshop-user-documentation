@@ -1,14 +1,14 @@
-Artikel und Kategorien
+﻿Products and categories
 ======================
 
 .. toctree::
    :maxdepth: 1
       
-   artikel-und-kategorien
-   alternative-preise-fuer-benutzergruppen
-   preis-pro-mengeneinheit-grundpreis
-   staffelpreise
-   zuordnung-von-artikeln-zu-kategorien
-   hauptkategorie-eines-artikels
-   sortierung-von-artikeln
-   filtern-von-artikeln
+   products-and-categories
+   alternative-prices-for-user-groups
+   price-per-unit-base-price
+   scale prices
+   assigning-products-to-categories
+   main-category-of-a-product
+   sorting-products
+   filtering-products

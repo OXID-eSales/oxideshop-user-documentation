@@ -1,20 +1,20 @@
-﻿Kundeninformationen
+﻿Customer information
 ===================
 
-Shopbetreiber tragen dafür Sorge, dass ihre Kunden über den Anbieter, über die Bedingungen für Zahlung und Versand, über den Datenschutz, über das Widerrufsrecht informiert werden, um nur einige Stichworte zum rechtssicheren Onlineshop zu nennen. Die Texte, mit denen der Kunde informiert wird, müssen sorgfältig erstellt und regelmäßig auf Aktualität geprüft werden, um rechtliche Fallstricke und in Folge dessen Abmahnungen zu vermeiden.
+Shop owners need to make sure that their customers are informed about the vendor, payment and shipping conditions, privacy policy, and the right of withdrawal. These are just a few keywords for a legally compliant online shop. Customer information must be carefully prepared and regularly updated to avoid legal pitfalls and the resulting warnings.
 
-Für korrekte Inhalte von Impressum, AGB, Datenschutz, Versand und Kosten, Widerrufsrecht\&Co. sollten sich Shopbetreiber Unterstützung suchen. In Deutschland und einer Reihe anderer Länder bietet beispielsweise Trusted Shops entsprechendes Knowhow und zertifiziert Onlineshops. Das dabei vergebene Gütesiegel bescheinigt den Shops die Einhaltung von Standards, wie Seriosität, Datenschutz und Liefersicherheit.
+Shop owners should seek support to ensure correct contents of the About Us, Terms and Conditions, Privacy Policy, Shipping and Charges, Right of Withdrawal, and other sections. In Germany and a number of other countries, for example, Trusted Shops offers the relevant know-how and certified online shops. The awarded seal of approval attests to the shops’ compliance with standards, such as integrity, data protection and supply assurance.
 
-Links zum Thema rechtssicherer Onlineshop
+Important links for legally compliant online shops
 -----------------------------------------
-Website von Trusted Shops mit Mustertexten für Mitglieder: `www.trustedshops.de <http://www.trustedshops.de/>`_ 
+Trusted Shops website with templates for members:: `www.trustedshops.com <http://www.trustedshops.de/>`_ 
 
-Blog zu aktuellen Rechtsthemen: `www.shopbetreiber-blog.de <http://www.shopbetreiber-blog.de/>`_ 
+Blog on current legal issues (in German): `www.shopbetreiber-blog.de <http://www.shopbetreiber-blog.de/>`_ 
 
-Weitere Rechtsinformationen für Shopbetreiber: `www.shopbetreiber-recht.de <http://www.shopbetreiber-recht.de/>`_
+Additional legal information for shop owners (in German): `www.shopbetreiber-recht.de <http://www.shopbetreiber-recht.de/>`_
 
-Im OXID eShop sind die wichtigsten Seiten zur Kundeninformation bereits vorbereitet und standardmäßig über die Fußzeile des Shops aufrufbar. Die Inhalte können über das in den Shop integrierte Content Management System (CMS) bearbeitet werden. Gehen Sie dafür in den Administrationsbereich zu :menuselection:`Kundeninformation --> CMS-Seiten`. Suchen Sie in der Übersicht nach der jeweiligen CMS-Seite und bearbeiten Sie deren Inhalt. Die Anzeige der CMS-Seiten kann nach E-Mails, Kunden-Infos und Artikel-Informationen gefiltert werden. Wählen Sie :guilabel:`Kunden-Infos` aus der Dropdown-Liste links über der Übersicht.
+The most important pages with customer information are already available in OXID eShop. By default, they can be accessed via the shop’s footer. The content can be edited using the Content Management System (CMS) integrated in the shop. To do this, go to :menuselection:`Customer Info --> CMS Pages` in the Admin panel. Search for the relevant CMS page in the overview to edit its content. The displayed CMS pages can be filtered by email, customer information and product information. Select :guilabel:`Customer Info` from the selection list on the left above the overview.
 
-Sobald Sie Ihre Einträge gespeichert haben, ist der neue Inhalt im Shop aufrufbar.
+Once you have saved your entries, the new content will be available in the shop.
 
 .. Intern: oxbabh, Status:

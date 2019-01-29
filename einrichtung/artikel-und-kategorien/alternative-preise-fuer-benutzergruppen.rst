@@ -1,36 +1,36 @@
-﻿Alternative Preise für Benutzergruppen
+﻿Alternative prices for user groups
 ======================================
-Der OXID eShop bietet die Möglichkeit, alternative Preise eines Artikels für drei Benutzergruppen festzulegen. Diese Benutzergruppen sind \"Preis A\", \"Preis B\" und \"Preis C\". Meldet sich ein Kunde am Shop an, der einer solchen Benutzergruppe zugeordnet wurde, bekommt er bei den entsprechenden Artikeln den alternativen Preis angezeigt.
+OXID eShop allows you to set alternative product prices for three user groups. These user groups are \"Price A\", \"Price B\" and \"Price C\". When a customer who has been assigned to such a user group logs on to the shop, he/she will see the alternative price for the corresponding products.
 
-Alternative Preise werden in der Artikelverwaltung festgelegt.
+Defining alternative prices in the product management section
 
-* Gehen Sie zu :menuselection:`Artikel verwalten -->  Artikel`.  
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.  
-* Auf der Registerkarte :guilabel:`Stamm` finden Sie bei :guilabel:`Alt. Preise (€)` die Eingabefelder :guilabel:`A`, :guilabel:`B` und :guilabel:`C`.  
-* Legen Sie alternative Preise für die drei Benutzergruppen fest.  
-* Speichern Sie die Änderungen.  
+* Go to :menuselection:`Administer Products --> Products`.  
+* Select the desired product from the product list.  
+* Input fields :guilabel:`A`, :guilabel:`B` and :guilabel:`C` can be found under :guilabel:`Alt. Prices (€)` in the :guilabel:`Main` tab.  
+* Specify alternative prices for the three user groups.  
+* Save the changes.  
 
-Benutzer können den Benutzergruppen \"Preis A\", \"Preis B\"und \"Preis C\"auf zwei Arten zugeordnet werden.
+Users can be assigned to the user groups \"Price A\", \"Price B\"and \"Price C\"in two ways.
 
-Die Benutzergruppe wird einem einzelnen Benutzer zugewiesen.
+Assigning the user group to a single user
 
-* Gehen Sie zu :menuselection:`Benutzer verwalten -->  Benutzer`.  
-* Wählen Sie den gewünschten Benutzer aus der Benutzerliste.  
-* Betätigen Sie die Schaltfläche :guilabel:`Benutzergruppen zuordnen` auf der Registerkarte :guilabel:`Stamm`.  
-* Verschieben Sie die Benutzergruppe per Drag \& Drop in die rechte Liste des Zuordnungsfensters.  
-* Schließen Sie das Zuordnungsfenster.  
+* Go to :menuselection:`Administer Users --> Users`.  
+* Select the desired user from the user list.  
+* Click on :guilabel:`Assign User Groups` in the :guilabel:`Main` tab.  
+* Drag and drop the user group into the right-hand list of the assignment window.  
+* Close the assignment window.  
 
-Mehrere Benutzer werden einer Benutzergruppe zugeordnet.
+Assigning multiple users to a user group
 
-* Gehen Sie zu :menuselection:`Benutzer verwalten -->  Benutzergruppen`.
-* Wählen Sie die gewünschte Benutzergruppe aus der Benutzergruppenliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Benutzer zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Benutzer per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-  Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Administer Users --> User Groups`.
+* Select the desired user group from the user group list.
+* Click on :guilabel:`Assign Users` in the :guilabel:`Main` tab.
+* Drag and drop the user into the right-hand list of the assignment window.
+  Hold down the Ctrl key to select multiple users.
+* Close the assignment window.
 
-Gehören Benutzer den Benutzergruppen \"Preis A\", \"Preis B\" oder \"Preis C\" an, müssen für alle Artikel auch alternative Preise eingepflegt sein. Ist das nicht der Fall, werden stattdessen 0,00 € angezeigt. Eine globale Einstellung stellt sicher, dass der normale Preis angezeigt wird, falls alternative Preise bei einem Artikel nicht vorhanden sind. Gehen Sie dazu zu :menuselection:`Stammdaten -->  Grundeinstellungen -->  Einstell.` und öffnen Sie den Abschnitt :guilabel:`Artikel`. Setzen Sie ein Häkchen bei :guilabel:`Den normalen Artikelpreis verwenden, wenn keine A, B, C Preise vorhanden sind` und klicken Sie auf :guilabel:`Speichern`.
+If users belong to the user groups \"Price A\", \"Price B\" or \"Price C\", you will also need to enter alternative prices for all products. If this is not the case, €0.00 will be displayed instead. A global setting ensures that the regular price will be displayed if alternative prices for a product are not available. Go to :menuselection:`Master Settings --> Core Settings --> Settings` and open the :guilabel:`Products` section. Check the box :guilabel:`Use standard Product Price if no A/B/C Price is set` and click on :guilabel:`Save`.
 
-.. seealso:: :doc:`Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm>` | :doc:`Benutzer - Registerkarte Stamm <../../betrieb/benutzer/registerkarte-stamm>` | :doc:`Benutzergruppen - Registerkarte Stamm <../../betrieb/benutzergruppen/registerkarte-stamm>`
+.. seealso:: :doc:`Products - Main tab <../artikel/registerkarte-stamm>` | :doc:`Users - Main tab <../../betrieb/benutzer/registerkarte-stamm>` | :doc:`User groups - Main tab <../../betrieb/benutzergruppen/registerkarte-stamm>`
 
 .. Intern: oxbafk, Status:

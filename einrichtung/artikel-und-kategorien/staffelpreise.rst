@@ -1,26 +1,26 @@
-﻿Staffelpreise
+﻿Scale prices
 =============
-Mit den Staffelpreisen kann für ausgesuchte Artikel ein Mengenrabatt gewährt werden. Sobald eine bestimmte Menge eines Artikels gekauft wird, wird der Artikel günstiger. Für einen bestimmten Mengenbereich wird ein absoluter Preis oder ein prozentualer Rabatt definiert. Mehrere Mengenbereiche bilden so eine Staffel mit unterschiedlichen Artikelpreisen.
+Scale prices can be used to offer a quantity discount for selected products. The product will be cheaper if the customer buys a certain quantity of it. You can define an absolute price or a percentage discount for a specific quantity range. Several quantity ranges form a scale with different product prices.
 
-Im OXID eShop werden die Staffelpreise auf der Detailseite des Artikels angezeigt, sobald der Kunde auf die Schaltfläche :guilabel:`Mengenstaffelpreise` klickt. Abhängig von der beim Kauf angegebenen Menge wird der dafür vorgesehene Staffelpreis im Warenkorb verwendet und angezeigt.
+When the customer clicks on :guilabel:`Block price`, scale prices will be displayed on the product’s details page in OXID eShop. The appropriate scale price will be applied and displayed in the shopping cart depending on the quantity specified at the time of purchase.
 
 .. image:: ../../media/screenshots/oxbafm01.png
-   :alt: Staffelpreise, Detailseite des Artikels
+   :alt: Scale prices, product’s details page
    :class: with-shadow
    :height: 318
    :width: 500
 
-Der Staffelpreis wird in der Artikelverwaltung festgelegt.
+Defining scale prices in the product management section
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Auf der Registerkarte :guilabel:`Lager` finden Sie die Eingabefelder :guilabel:`Menge von`, :guilabel:`bis` und :guilabel:`Preis`.
-* Geben Sie einen Mengenbereich an und legen Sie einen Preis fest. Wählen Sie aus, ob die Preisangabe absolut oder prozentual ist.
-* Speichern Sie den Staffelpreis.
-* Sie können weitere Staffelpreise hinzufügen.
+* Go to :menuselection:`Administer Products --> Products`.
+* Select the desired product from the product list.
+* Locate the :guilabel:`Quantity From`, :guilabel:`To` and :guilabel:`Price` input fields in the :guilabel:`Stock` tab.
+* Enter a quantity range and set a price. Select whether the price is absolute or percentage-based.
+* Save the scale price.
+* You can also add additional scale prices.
 
-.. hint:: Bitte beachten Sie, dass bei der Staffel mit der größten Artikelanzahl immer eine ausreichend große Menge im Feld :guilabel:`bis` steht, beispielsweise 999999. Anderenfalls würde bei der Überschreitung der obersten Staffelmenge wieder der Originalpreis des Artikels gelten.
+.. hint:: Please make sure to always enter a sufficient quantity in the :guilabel:`To` field for the scale with the largest number of products, e.g., 999999. Otherwise, the original product price will apply when the upper scale quantity is exceeded.
 
-.. seealso:: :doc:`Artikel - Registerkarte Lager <../artikel/registerkarte-lager>`
+.. seealso:: :doc:`Products - Stock tab <../artikel/registerkarte-lager>`
 
 .. Intern: oxbafm, Status:

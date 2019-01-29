@@ -1,9 +1,9 @@
-Auswahllisten
+﻿Selection lists
 =============
 
 .. toctree::
    :maxdepth: 1
       
-   auswahllisten
-   registerkarte-stamm
-   registerkarte-mall
+   selection lists
+   main-tab
+   mall-tab

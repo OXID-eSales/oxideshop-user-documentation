@@ -1,8 +1,8 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
-Die Registerkarte :guilabel:`Stamm` enthält die wichtigsten Informationen zum Benutzer. Sie werden gespeichert, sobald der Benutzer das erste Mal im Shop einkauft, sich im Shop registriert oder den Newsletter abonniert. Dabei müssen nicht alle Felder ausgefüllt worden sein, denn nur die E-Mail-Adresse, der Vor- und Nachname, die Anschrift und das Land sind standardmäßig Pflichtfelder bei der Registrierung. Beim Abonnieren des Newsletters ist allein die E-Mail-Adresse zwingend erforderlich.
+The :guilabel:`Main` tab contains important information about the user. This information is saved as soon as the user buys something in the shop for the first time, registers in the shop or subscribes to the newsletter. You don’t have to fill out all fields as only the email address, the first and last name, the address and the country are required by default when registering in the shop. When subscribing to the newsletter, only the email address is mandatory.
 
-Benutzer können auch mit der Funktion :guilabel:`Neuer Benutzer` angelegt werden. Dabei werden auf der Registerkarte :guilabel:`Stamm` alle relevanten Daten des Benutzers eingetragen. Ohne E-Mail-Adresse können die Benutzerdaten nicht gespeichert werden.
+Users can also be created by clicking on :guilabel:`Create new User`. All relevant user data will need to be entered in the :guilabel:`Main` tab. You won’t be able to save the user data without entering an email address.
 
 .. image:: ../../media/screenshots/oxbadr01.png
    :alt: 
@@ -10,67 +10,67 @@ Benutzer können auch mit der Funktion :guilabel:`Neuer Benutzer` angelegt werde
    :height: 335
    :width: 650
 
-:guilabel:`Aktiv` |br|
-Ein aktiviertes Kontrollkästchen bedeutet, dass sich der Benutzer abhängig von seinen Rechten am Shop anmelden kann. Ein automatisch erstellter Benutzer ist sofort aktiv.
+:guilabel:`Active` |br|
+A checked box means that the user can log in to the shop depending on his/her rights. An automatically generated user will be active immediately.
 
-:guilabel:`Rechte` |br|
-Bei den Rechten wird zwischen \"Kunde\" und \"Admin\" unterschieden. Die Auswahl erfolgt über eine Dropdown-Liste. Alle Benutzer, die im Shop einkaufen, sich registrieren oder den Newsletter abonnieren, haben das Recht \"Kunde\". Der Administrator, der während der Installation erstellt wurde, hat das Recht \"Admin\". Weitere Benutzer mit diesem Recht können nur im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzer` erstellt werden.
+:guilabel:`Rights` |br|
+There are two types of rights: \"Customer\" and \"Admin\". Use the drop-down list to select the desired right. All users who shop, register or subscribe to the newsletter are granted the \"Customer\" right. The administrator created during the installation has the \"Admin\" right. Additional users with this right can only be created in the Amin panel under :menuselection:`Administer Users --> Users`.
 
-In der Enterprise Edition können auch Administratoren definiert werden, die nur Zugriff auf einen bestimmten Shop haben. Die Dropdown-Liste enthält entsprechende Einträge, sobald es mehr als den Hauptshop gibt. Benutzer mit dem Recht \"Admin\" können hingegen mit allen Shops arbeiten.
+Enterprise Edition also allows you to define administrators who only have access to a specific shop. The drop-down list will contain corresponding entries when there are more shops than just the main shop. However, users with the \"Admin\" right can work with all shops.
 
-:guilabel:`E-Mail/Login` |br|
-Das Feld enthält die E-Mail-Adresse des Benutzers. Bei einem manuell erstellten Benutzer kann ein beliebiges Login vergeben werden.
+:guilabel:`Email/Login` |br|
+This field contains the user’s email address. Manually created users can have any login assigned to them.
 
-:guilabel:`Kundennr.` |br|
-Der Shop vergibt beim Erstellen eines Benutzers eine fortlaufende Kundennummer. Standardmäßig wird mit der 1 begonnen. Ändern Sie die Kundennummer des zuletzt erstellten Benutzers, wird ab dessen Kundennummer weitergezählt. Im Feld :guilabel:`Kundennr.` sind ausschließlich numerische Werte erlaubt. Davon abweichende Eingaben führen dazu, dass die Kundennummer auf Null gesetzt wird.
+:guilabel:`Customer No.` |br|
+When a user is created, he/she gets assigned a consecutive customer number, starting with 1 by default. If you change the customer number of the last created user, the counting will continue from this customer number. The :guilabel:`Customer No.` field may only contain numerical values. Any other entries will cause the customer number to be set to zero.
 
-:guilabel:`Anrede` |br|
-Anrede des Benutzers, die während des Einkaufs oder der Registrierung gewählt wurde. Beim manuellen Anlegen oder beim Ändern des Benutzers ist die Auswahl von \"Herr\" oder \"Frau\" aus einer Dropdown-Liste möglich.
+:guilabel:`Title` |br|
+User title selected during the purchase or registration. When manually creating or changing the user, you will be able to select \"Mr\" or \"Mrs\" from the drop-down list.
 
-:guilabel:`Vor-/Nachname` |br|
-Die beiden Felder nehmen den Vor- und Nachnamen des Benutzers auf.
+:guilabel:`Name, Surname` |br|
+The two fields contain the user’s first and last name.
 
-:guilabel:`Firma`
-Ein Geschäftskunde kann beim Einkauf oder bei der Registrierung den Namen seiner Firma angeben. Auch beim manuellen Anlegen kann der Firmenname des Benutzers eingetragen werden.
+:guilabel:`Company`
+Business customers can specify the name of their company when buying a product or registering in the shop. You can also enter the user’s company name when creating the user manually.
 
-:guilabel:`Str./Hausnr.` |br|
-Diese Felder nehmen den Straßennamen und die Hausnummer der Anschrift des Benutzers auf. Die Anschriftsdaten sind Teil der Rechnungs- und Liederadresse, sofern beim Kauf keine abweichende Lieferadresse verwendet wird.
+:guilabel:`Street, Street No.` |br|
+These fields contain the street and house number of the user's address. The address data is part of the billing and shipping address unless a different shipping address is used during the purchase.
 
-:guilabel:`PLZ, Ort` |br|
-Felder für die Postleitzahl und die Ortsbezeichnung der Anschrift des Benutzers.
+:guilabel:`ZIP, City` |br|
+Fields for the postcode and the city name of the user's address.
 
-:guilabel:`Umsatzsteuer-Identnummer` |br|
-Ein Geschäftskunde kann beim Einkauf oder bei der Registrierung die Umsatzsteuer-Identnummer (USt-ID) seiner Firma angeben. Auch beim manuellen Anlegen kann die Umsatzsteuer-Identnummer eingetragen werden.
+:guilabel:`VAT ID No.` |br|
+Business customers can specify their VAT identification number (VAT ID) when buying a product or registering in the shop. You can also enter the VAT ID when creating the user manually.
 
-:guilabel:`zus. Info` |br|
-Feld, um eine Zusatzinformation zu speichern.
+:guilabel:`Additional Info` |br|
+Field for saving additional information.
 
-:guilabel:`Bundesland` |br|
-Im Feld kann das Bundesland eingetragen werden, in dem der Benutzer lebt.
+:guilabel:`State` |br|
+Enter the state where the user lives.
 
-:guilabel:`Land` |br|
-Auch das Land, in dem der Benutzer lebt, ist aus einer Dropdown-Liste auswählbar. Diese Information beeinflusst, welche Zahlungs- und Versandarten der Benutzer im Bestellprozess nutzen kann.
+:guilabel:`Country` |br|
+Select the country where the user lives from the drop-down list. This information determines what payment and shipping methods the user can use in the ordering process.
 
-:guilabel:`Telefon` |br|
-Telefonnummer des Benutzers.
+:guilabel:`Phone` |br|
+User’s phone number.
 
 :guilabel:`Fax` |br|
-Faxnummer des Benutzers.
+User’s fax number.
 
-:guilabel:`Geburtsdatum` |br|
-Geburtsdatum des Benutzers.
+:guilabel:`Date of Birth` |br|
+User’s date of birth.
 
-:guilabel:`Hat ein Passwort?` |br|
-Diese Frage wird nur bei einem bereits angelegten Benutzer angezeigt. \"Ja\" oder \"Nein\" beantwortet, ob ein Passwort vergeben wurde oder nicht. Ein Benutzer ohne Passwort hat im Shop eingekauft, ohne sich zu registrieren und damit ohne ein Kundenkonto zu eröffnen.
+:guilabel:`Has password?` |br|
+This question will be displayed only for existing users. The answer \"Yes\" or \"No\" determines whether a password has been assigned or not. A user without a password has bought something in the shop without registering and without opening a customer account.
 
-:guilabel:`Neues Passwort` |br|
-Beim Anlegen oder Bearbeiten eines Benutzers muss ein Passwort vergeben werden, mit dem dieser sich am Shop anmelden kann. Ohne Passwort ist keine Anmeldung möglich. Beim Speichern eines Benutzers ohne Passwort wird darauf nicht explizit hingewiesen.
+:guilabel:`New Password` |br|
+When you create or edit a user, you will need to assign a password that he/she can use to log in to the shop. The user won’t be able to log in without a password. This is not explicitly indicated when you save a user without a password.
 
-:guilabel:`Benutzergruppen zuordnen` |br|
-Benutzer können verschiedenen Benutzergruppen angehören. Die Zusammenfassung von Benutzern zu Benutzergruppen ermöglicht eine komfortable Zuordnung von Bedingungen, wie Zahlungs- und Versandarten, und Aktionen, wie Rabatte und Gutscheine.
+:guilabel:`Assign User Groups` |br|
+Users can belong to different user groups. Grouping users into user groups makes it easy to assign conditions, such as payment and shipping methods, and promotions, such as discounts and coupons.
 
-Die Schaltfläche :guilabel:`Benutzergruppen zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Benutzergruppen angezeigt. Diese können per Drag \& Drop in die rechte Liste verschoben werden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Damit ist die Zuordnung abgeschlossen.
+Clicking on :guilabel:`Assign User Groups` opens a new window. All available user groups will be displayed in the left-hand list. Drag and drop them into the right-hand list. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
-.. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`
+.. seealso:: :doc:`User groups <../benutzergruppen/benutzergruppen>`
 
 .. Intern: oxbadr, Status:, F1: user_main.html

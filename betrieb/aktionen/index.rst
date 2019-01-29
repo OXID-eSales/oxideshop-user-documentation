@@ -1,10 +1,10 @@
-Aktionen
+﻿Promotions
 ========
 
 .. toctree::
    :maxdepth: 1
       
-   aktionen
-   aktionen-und-startseite
-   aktion-fuer-newsletter
-   registerkarte-stamm
+   promotions
+   promotions-and-start-page
+   newsletter-action
+   main-tab

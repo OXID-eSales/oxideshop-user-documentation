@@ -1,19 +1,19 @@
-﻿Registerkarte Kategorien
+﻿Category tab
 ========================
-Auf der Registerkarte :guilabel:`Kategorien` kann ein Attribut einer oder mehreren Kategorien zugeordnet werden. Wurden einer Kategorie mehrere Attribute zugewiesen, lässt sich auch deren Sortierung und damit die Reihenfolge in der Anzeige ändern.
+The :guilabel:`Category` tab allows you to assign an attribute to one or more categories. If several attributes have been assigned to a category, you will also be able to change their sorting and the display order.
 
-Durch die Zuordnung können Kategorien nach Attributen gefiltert werden. In der Kategorieübersicht des Shops wird eine Dropdown-Liste mit allen Werten des Attributes eingeblendet. Bei Auswahl eines Wertes aus dieser Liste wird der Filter angewendet und die in der Kategorie angezeigten Artikel werden aktualisiert.
+The assignment allows you to filter categories by attributes. A drop-down list with all attribute values will be displayed in the shop’s category overview. Selecting a value from this list applies the filter and updates the products displayed in the category.
 
 .. image:: ../../media/screenshots/oxbafh01.png
-   :alt: Attribute - Registerkarte Kategorien
+   :alt: Attributes - Category tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster, in dem das Attribut Kategorien zugewiesen werden kann. Im Zuordnungsfenster werden in der linken Liste alle Kategorien angezeigt. Die gewünschten Kategorien können per Drag \& Drop in die mittlere Liste verschoben werden. Diese zeigt alle Kategorien, welche dieses Attribut verwenden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. In der rechten Liste lässt sich die Sortierung der Attribute einer Kategorie ändern, wenn es für eine Kategorie mehrere Attribute gibt. Verwenden Sie dafür die kleinen Schaltflächen mit den Pfeilsymbolen, um ein markiertes Attribut an die gewünschte Position zu verschieben.
+Clicking on :guilabel:`Assign Categories` opens a new window where you can assign the attribute to different categories. All available categories will be displayed in the left-hand list. The desired categories can be dragged and dropped into the middle list, which shows all categories that use this attribute. Hold down the Ctrl key to select multiple categories. The right-hand list allows you to change the sorting of the attributes for a category if there are multiple attributes for this category. Use the small buttons with the arrow icons to move the selected attribute to the desired position.
 
-Mit der Sortierung kann beeinflusst werden, in welcher Reihenfolge die auf den Attributen und ihren Werten basierenden Filter in der Kategorieübersicht angeordnet sind. Die im Zuordnungsfenster festgelegte Reihenfolge der Attribute überschreibt die bei den Attributen definierte Sortierung.
+Sorting can affect the order in which the filters, based on the attributes and their values, are arranged in the category overview. The order of the attributes defined in the assignment window overwrites the order defined for the attributes.
 
-.. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`
+.. seealso:: :doc:`Categories <../kategorien/kategorien>` | :doc:`Filtering products <../artikel-und-kategorien/filtern-von-artikeln>`
 
 .. Intern: oxbafh, Status:, F1: attribute_category.html

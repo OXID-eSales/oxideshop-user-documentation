@@ -1,51 +1,51 @@
-﻿Sortierung von Artikeln
+﻿Sorting products
 =======================
-Die Reihenfolge, in der Artikel in einer Kategorie angezeigt werden, kann festgelegt werden. Dafür gibt es die Schnellsortierung auf Basis eines einzelnen Artikelmerkmals auf- oder absteigend und die manuelle Sortierung. Darüber hinaus können Sie den Kunden Ihres OXID eShop ermöglichen, die Artikel einer Kategorie nach vorgegebenen Kriterien zu sortieren.
+You can define the order in which products are displayed in a category by using the fast sorting feature - based on a single product characteristic (ascending or descending) - and the manual sorting feature. In addition, you can allow the customers of your OXID eShop to sort the products of a category according to the predetermined criteria.
 
-Die Schnellsortierung basiert auf einer Einstellung bei der Kategorie. Aus einer Dropdown-Liste kann ein Artikelmerkmal, wie beispielsweise :guilabel:`Titel`, :guilabel:`Preis` oder :guilabel:`Angelegt am` ausgewählt werden. Zusätzlich muss festgelegt werden, ob die Artikel nach diesem Artikelmerkmal auf- oder absteigend sortiert werden sollen.
+Fast sorting is based on a certain category setting. Use the drop-down list to select a product characteristic, such as :guilabel:`Title`, :guilabel:`Price` or :guilabel:`Created on`. You will also need to specify whether the products should be sorted in the ascending or descending order according to this characteristic.
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Kategorien`.
-* Wählen Sie die gewünschte Kategorie aus der Kategorieliste.
-* Öffnen Sie die Dropdown-Liste :guilabel:`Schnellsortierung` auf der Registerkarte :guilabel:`Stamm`.
-* Wählen Sie ein Artikelmerkmal für die Schnellsortierung aus.
-* Aktivieren Sie :guilabel:`asc` oder :guilabel:`desc` für eine aufsteigende oder eine absteigende Sortierung.
-* Speichern Sie die Einstellungen.
+* Go to :menuselection:`Administer Products --> Categories`.
+* Select the desired category from the category list.
+* Open the :guilabel:`Fast Sorting` drop-down list in the :guilabel:`Main` tab.
+* Select a product characteristic for fast sorting.
+* Select :guilabel:`asc` or :guilabel:`desc` for the ascending or descending order.
+* Save the settings.
 
-Mit der manuellen Sortierung können die Artikel einer Kategorie in eine ganz bestimmte Reihenfolge gebracht werden.
+Manual sorting allows you to arrange the products of a category in a certain way.
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Kategorien`.
-* Wählen Sie die gewünschte Kategorie aus der Kategorieliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Artikel sortieren` auf der Registerkarte :guilabel:`Sortierung`.
-* Verschieben Sie alle Artikel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Bringen Sie die Artikel damit in eine geänderte Reihenfolge.
-* Speichern Sie die neue Sortierung.
+* Go to :menuselection:`Administer Products --> Categories`.
+* Select the desired category from the category list.
+* Click on :guilabel:`Sort Categories` in the :guilabel:`Sorting` tab.
+* Drag and drop all the products into the right-hand list of the assignment window.
+* Change the order of the products as needed.
+* Save the new order.
 
-In der linken Liste wird die nun aktuelle Sortierung angezeigt. Die Artikel haben in der Positionsspalte die für die Sortierung zuständigen Werte.
+The current sort order will be displayed in the left-hand list. Product values that are relevant for sorting will be displayed in the “Position” column.
 
 .. image:: ../../media/screenshots/oxbafq01.png
-   :alt: Artikel sortieren
+   :alt: Sorting products
    :class: with-shadow
    :height: 313
    :width: 400
 
-Mit einer Einstellung in den Stammdaten können Sie festlegen, ob und wonach Ihre Kunden in Kategorien sortieren dürfen.
+One of the settings in the master data allows you to specify whether your customers can use the sorting feature in categories and what fields they can sort by.
 
-* Gehen Sie zu :menuselection:`Stammdaten --> Grundeinstellungen`.
-* Öffnen Sie die Registerkarte :guilabel:`Einstell.` und wählen Sie den Abschnitt :guilabel:`Artikel`.
-* Aktivieren Sie das Kontrollkästchen :guilabel:`Benutzer können Artikellisten sortieren`.
-* Legen Sie die Felder für die Sortierung fest.
-* Speichern Sie die Einstellungen.
+* Go to :menuselection:`Master Settings --> Core Settings`.
+* Open the :guilabel:`Settings` tab and select the :guilabel:`Products` section.
+* Check the :guilabel:`Users can sort Product Lists` box.
+* Define the fields for sorting.
+* Save the settings.
 
-Die Felder, nach denen Artikel sortiert werden können, entsprechen den Datenbankfeldern der Tabelle *oxarticles* . Jedes Feld muss in einer Zeile stehen.
+The fields by which products can be sorted correspond to the database fields of the *oxarticles* table. Each field must be in a separate line.
 
 .. image:: ../../media/screenshots/oxbafq02.png
-   :alt: Sortierungsmöglichkeiten
+   :alt: Sorting options
    :class: with-shadow
    :height: 269
    :width: 650
 
-Der Screenshot zeigt als Beispiel, dass Artikel außer nach Name und Preis auch nach der Artikelnummer sortiert werden können. Dafür wurde in den Stammdaten den standardmäßig eingetragenen Feldern *oxtitle*  und *oxvarprice*  das Feld *oxartnum*  hinzugefügt.
+The screenshot in the example shows that besides the name and the price, products can also be sorted by the product number. For this purpose, the *oxartnum* field was added to the standard *oxtitle* and *oxvarprice* fields.
 
-.. seealso:: :doc:`Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm>` | :doc:`Kategorien - Registerkarte Sortierung <../kategorien/registerkarte-sortierung>`
+.. seealso:: :doc:`Categories - Main tab <../kategorien/registerkarte-stamm>` | :doc:`Categories - Sorting tab <../kategorien/registerkarte-sortierung>`
 
 .. Intern: oxbafq, Status:

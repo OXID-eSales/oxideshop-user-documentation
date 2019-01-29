@@ -1,21 +1,21 @@
-﻿Registerkarte Mall
+﻿Mall tab
 ==================
 
-Die Registerkarte :guilabel:`Mall` bei Kategorien gibt es nur in der Enterprise Edition.
+The :guilabel:`Mall` tab is only available for categories in Enterprise Edition.
 
-Beim Erstellen neuer Shops werden die Kategorien eines Elternshops nicht vererbt. Es ist allerdings möglich, diese später auf den Registerkarten :guilabel:`Mall` der Kategorien des Elternshops mit Subshops und Supershops zu verknüpfen. Enthält eine Kategorie Unterkategorien, werden dabei alle zugehörigen Kategorien vererbt. Diese enthalten nur Artikel, wenn auch diese vererbt wurden. Ansonsten sind es leere Kategorien mit den jeweiligen Unterkategorien.
+The categories of a parent shop are not inherited when creating new shops. However, you can assign these to subshops and supershops in the :guilabel:`Mall` tab later. If a category contains subcategories, all related categories will be inherited. These will only contain products that have been inherited. Otherwise, they are empty categories with the respective subcategories.
 
-Für Multishops gibt es die Möglichkeit, dass sie alle Kategorien von allen Shops erben können. Diese Funktion befindet sich auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` des Multishops.
+Multishops can inherit all categories from all shops. This function can be found in the multishop’s :guilabel:`Mall` tab under :menuselection:`Master Settings --> Core Settings`.
 
 .. image:: ../../media/screenshots/oxbacf01.png
-   :alt: Kategorien - Registerkarte Mall
+   :alt: Categories - Mall tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-:guilabel:`Verknüpft mit folg. Subshops` |br|
-Eine Verknüpfung der Kategorie mit Subshops und Supershops kann hinzugefügt oder entfernt werden, indem das entsprechende Kontrollkästchen angehakt wird oder nicht. Bei nicht aktiviertem Kontrollkästchen ist die Kategorie im Elternshop vorhanden, nicht aber im jeweiligen Subshop oder Supershop.
+:guilabel:`Assigned to following subshops` |br|
+Check or uncheck the appropriate box to assign/unassign the category to/from subshops and supershops. If the box is not checked, the category will be available in the parent shop but not in the respective subshop or supershop.
 
-Über die Links :guilabel:`Alle auswählen` und :guilabel:`Keine auswählen` auf der rechten Seite des Fensters können alle Shops verknüpft oder alle Verknüpfungen zu den Shops entfernt werden. Vorgenommene Änderungen müssen gespeichert werden und sind für die Subshops oder Supershops sofort wirksam.
+Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the category to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 
 .. Intern: oxbacf, Status:, F1: category_mall.html

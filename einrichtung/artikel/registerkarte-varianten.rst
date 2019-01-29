@@ -1,61 +1,61 @@
-﻿Registerkarte Varianten
+﻿Variants tab
 =======================
-Mit Varianten können verschiedene Ausführungen ein und desselben Artikels umgesetzt werden. Typische Ausführungen sind beispielsweise die unterschiedlichen Größen bei Kleidungsstücken oder mehrere Farben, in denen ein Artikel angeboten wird.
+Variants allow you to use different versions of the same product. Typical versions include the different clothing sizes or multiple colours in which a product is offered.
 
 .. image:: ../../media/screenshots/oxbaco01.png
-   :alt: Artikel - Registerkarte Varianten
+   :alt: Products - Variants tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Das Prinzip der Varianten ist, dass zunächst ein Artikel - der so genannte Vaterartikel - erstellt wird. Er nimmt alle Basisinformationen auf, die an die Varianten vererbt werden. Die Langbeschreibung, die Sie beim Vaterartikel geschrieben haben, wird bei den Varianten angezeigt, es sei denn, eine Variante hat davon abweichend eine andere Langbeschreibung. Varianten können die Einstellungen des Vaterartikels übernehmen, oder andere Preise, separate Artikelnummern, eigene Artikelbilder, unterschiedliche Lagerbestände usw. haben.
+The principle behind the variants is that first you need to create the so-called parent product. It contains all the basic information that will be inherited by the variants. The long description that you wrote for the parent product will be displayed for the variants unless a variant has a different long description. Variants can inherit the settings of the parent product or have different prices, separate product numbers, their own product images, different stocks, etc.
 
-In der Regel ist der Vaterartikel selbst nicht kaufbar. Dies wird als globale Einstellung in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`System` unter :guilabel:`Varianten` festgelegt.
+As a rule, the parent product is not available for purchase. This can be defined as a global setting in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`System` tab, under :guilabel:`Variants`.
 
-Auf der Registerkarte :guilabel:`Varianten` werden die Varianten des Artikels erstellt. Im Feld :guilabel:`Name der Auswahl` wird der Begriff eingetragen, der die Varianten charakteristisch unterscheidet, beispielsweise \"Größe\", \"Material\" oder \"Farbe\". Dieser wird als Name der Dropdown-Liste angezeigt, mit der man die Varianten in der Detailansicht des Artikels auswählen kann.
+Product variants can be created in the :guilabel:`Variants` tab. Use the :guilabel:`Name of Selection` field to enter the term that characterises different variants, e.g. \"Size\", \"Material\" or \"Colour\". This term will be displayed as the name of the drop-down list that allows you to select the variants in the product’s detailed view.
 
-Multidimensionale Varianten stellen eine Mehrfachauswahl von charakteristischen Eigenschaften eines Artikels zur Verfügung. In der Detailansicht eines Artikels gibt es dadurch mehrere Dropdownlisten zur Auswahl, beispielsweise \"Größe\" und \"Farbe\". Die Mehrfachauswahl wird durch eine besondere Syntax in den Feldern :guilabel:`Name der Auswahl` und :guilabel:`Auswahl` umgesetzt. Das Pipezeichen (|) trennt jeweils die verschiedenen Eigenschaften und deren Werte.
+Multidimensional variants provide a selection of multiple characteristics of a product. This way, the product’s detailed view will contain several drop-down lists to choose from, e.g. \"Size\" and \"Colour\". Multiple selection can be implemented by using special syntax rules in the :guilabel:`Name of Selection` and :guilabel:`Selection` fields. The vertical bar (|) separates the various characteristics and their values.
 
 .. image:: ../../media/screenshots/oxbaco02.png
-   :alt: Artikel - Registerkarte Varianten
+   :alt: Products - Variants tab
    :class: with-shadow
    :height: 329
    :width: 650
 
-:guilabel:`Auswahllisten` |br|
-Hier werden die vorhandenen Auswahllisten angezeigt. Sie können dazu verwendet werden, per Mausklick Varianten daraus zu erstellen. Haben Sie für Ihre Artikel immer wiederkehrende Ausführungen, sollten Sie entsprechende Auswahllisten als Vorlage anlegen. Nun brauchen Sie die Auswahlliste jeweils nur markieren und auf den Pfeil zu drücken, der nach rechts in Richtung Tabelle zeigt. Alle Varianten werden angelegt und können bei Bedarf weiter bearbeitet, aktiviert und gespeichert werden. Werden mehrere Auswahllisten zugewiesen, entstehen dadurch multidimensionale Varianten.
+:guilabel:`Selection lists` |br|
+Displays the existing selection lists that can be used to create variants with just one click of the mouse. If you have recurring versions of your products, you should create corresponding selection lists as a template. Now, you just need to highlight the selection list and press the arrow pointing to the right in the direction of the table. All variants will be created and can be further edited, activated and saved as needed. If several selection lists are assigned, this will result in multidimensional variants.
 
-:guilabel:`Name der Auswahl` |br|
-Geben Sie hier einen Begriff ein, wodurch sich die Varianten unterscheiden. Dieser wird in der Detailansicht des Artikels als Name der Dropdown-Liste für die Variantenauswahl angezeigt. Der Besucher sollte auf einen Blick erkennen, was er in der Liste auswählen kann. Der Name der Auswahl wird separat gespeichert.
+:guilabel:`Name of Selection` |br|
+Enter a term that distinguishes the variants. This term will be displayed in the product’s detailed view as the name of the drop-down list for the variant selection. The visitors should be able to see at a glance what they can select from the list. The name of the selection will be saved separately.
 
-Beispiel für multidimensionale Varianten: Größe | Farbe
+Example of multidimensional variants: Size | Colour
 
-Um eine Variante zu erstellen, werden die Eingabefelder in der Tabelle ausgefüllt. Die Variante muss aktiviert und gespeichert werden. Um der Tabelle eine weitere Variante hinzuzufügen, betätigen Sie die Schaltfläche :guilabel:`Neue Variante`.
+Fill out the input fields in the table to create a variant. The variant must be then activated and saved. Click on :guilabel:`New Variant` to add another variant to the table.
 
 :guilabel:`Edit` |br|
-Beim Klick auf das Symbol für das Editieren wird die Variante in der Artikelverwaltung geöffnet. Die Ansicht ist nahezu identisch wie bei einem ganz normalen Artikel. Es lassen sich alle üblichen Einstellungen vornehmen und Informationen hinterlegen. Hinzugekommen ist bei den meisten Registerkarten lediglich eine erste Zeile :guilabel:`Variante von`. Die Registerkarte :guilabel:`Stamm` hat eine zusätzliche Dropdown-Liste :guilabel:`Gehe zu`, über die direkt der Vaterartikel oder eine andere Variante angezeigt werden kann.
+Clicking on the edit icon opens the variant in the product management section. The display is almost identical to that of a regular product. You can configure all the settings and store the information as usual. The only difference is that the first line, :guilabel:`Variant of` has been added to most tabs. The :guilabel:`Main` tab has an additional :guilabel:`Go to` drop-down list that can be used to display the parent product or other variant directly.
 
-:guilabel:`Aktiv` |br|
-Mit einem angehakten Kontrollkästchen ist die Variante aktiv und wird beim Artikel zur Auswahl angezeigt.
+:guilabel:`Active` |br|
+Check this box to activate the variant and have it displayed for selection in the product’s detailed view.
 
-:guilabel:`Auswahl` |br|
-Eintrag, den man in der Dropdown-Liste in der Detailansicht des Artikels auswählen kann. Unterscheiden sich die Varianten beispielsweise in der Farbe, muss in diesem Feld die Farbe selbst stehen.
+:guilabel:`Selection` |br|
+An entry that can be selected in the drop-down list of the product’s detailed view. For example, if the variants have different colours, you will need to enter the colour here.
 
-:guilabel:`Art.-Nr.` |br|
-Artikelnummer der Variante. Ohne eine Eingabe wird die Artikelnummer des Vaterartikels verwendet.
+:guilabel:`Prod.No.` |br|
+Variant’s product number. If empty, the product number of the parent product will be used.
 
-:guilabel:`Preis (€)` |br|
-Preis der Variante. Wird kein Preis eingetragen, wird der Preis des Vaterartikels verwendet.
+:guilabel:`Price (€)` |br|
+Variant’s price. If empty, the price of the parent product will be used.
 
-:guilabel:`Sort.` |br|
-Tragen Sie hier eine Zahl ein, welche die Sortierung des Eintrags in der Dropdown-Liste bestimmt. Die Variante mit der kleinsten Zahl für Sortierung wird in der Auswahl an erster Stelle angezeigt.
+:guilabel:`Sorting` |br|
+Enter a number that determines the sorting of the entry in the drop-down list. The variant with the lowest sorting number will be displayed first in the selection.
 
-:guilabel:`Lager` |br|
-Lagerbestand der Variante. In der daneben stehenden Liste kann das Verhalten ausgewählt werden, wenn die Variante nicht auf Lager ist. Siehe :guilabel:`Lieferstatus` auf der Registerkarte :guilabel:`Lager`.
+:guilabel:`Stock` |br|
+Variant’s stock. Use the list next to it to select the behaviour if the variant is out of stock. See :guilabel:`Delivery Status` in the :guilabel:`Stock` tab.
 
-:guilabel:`In Sprache` |br|
-Listenauswahl stellt die schnelle Bearbeitung von Varianten auf eine andere aktive Sprache des Shops um.
+:guilabel:`In Language` |br|
+Allows you to quickly edit variants in another active language of the shop.
 
-.. seealso:: :doc:`Auswahllisten <../auswahllisten/auswahllisten>`
+.. seealso:: :doc:`Selection lists <../auswahllisten/auswahllisten>`
 
 .. Intern: oxbaco, Status:, F1: article_variant.html

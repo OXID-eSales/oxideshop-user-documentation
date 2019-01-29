@@ -1,11 +1,11 @@
-﻿Mall-Funktion
+﻿Mall function
 =============
 
 
 .. toctree::
    :maxdepth: 1
    
-   mall-funktion
-   hauptshop-elternshops
+   mall function
+   main-shop-parent-shops
    subshops-supershops-multishops
-   Vererbung <vererbung/index>
+   Inheritance <vererbung/index>

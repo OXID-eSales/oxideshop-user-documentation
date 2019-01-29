@@ -1,23 +1,23 @@
-﻿Installation vorbereiten
+﻿Preparing for installation
 ========================
 
-Für die Neu-Installation des OXID eShop 6.1 sind einige Vorbereitungen notwendig.
+Some preparations are necessary for the reinstallation of OXID eShop 6.1.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
 
-|schritt| Composer installieren
+|schritt| Installing Composer
 -------------------------------
 
-Die Installation des OXID eShop 6 basiert nicht mehr auf gepackten und herunterladbaren Installationspaketen, sondern wird mit Hilfe von Composer ausgeführt. Composer ist ein Dependency Manager für PHP, ein Tool, welches Abhängigkeiten von Programmbestandteilen eines Projektes berücksichtigt, während es die Dateien dieses Projekts in ein definiertes Verzeichnis installiert.
+OXID eShop 6 is no longer installed based on packaged and downloadable installation packages but with the help of Composer. Composer is a dependency manager for PHP, a tool that takes into account the dependencies of a project’s program components while installing the files of that project in a defined directory.
 
-Für die Neu-Installation des OXID eShop wird Composer benötigt. Eine Anleitung zur Installation finden Sie im Abschnitt "Getting Started" der Composer-Seiten: http://getcomposer.org.
+Composer is required for the reinstallation of OXID eShop. Installation instructions can be found in the “Getting Started” section of the Composer website: http://getcomposer.org.
 
-|schritt| Shopdateien bereitstellen
+|schritt| Providing shop files
 -----------------------------------
 
-Die Shopdateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edition müssen dafür unterschiedliche Kommandos in der Shell ausgeführt werden. Die Shopdateien werden in einem Unterverzeichnis gespeichert, welches im Kommando mit :command:`your_project_name` angegeben wird. Dabei wird von dem Verzeichnis ausgegangen, in dem das Kommando in der Shell abgesetzt wird. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
+The shop files are provided by Composer. Depending on the shop edition, different commands have to be run in the shell. The shop files are stored in a subdirectory that is specified with :command:`your_project_name` in the command. This is based on the directory in which the command is run in the shell. Specify the :command:`--no-dev` parameter if the development-related files are not required.
 
-.. hint:: Für die Installation der Professional und Enterprise Edition benötigen Sie zusätzlich die Zugangsdaten, die Sie mit der E-Mail zum aktuellen Release erhalten haben.
+.. hint:: For the installation of Professional and Enterprise Edition, you will also need the login data that you received in the email for the current release.
 
 Community Edition
 ^^^^^^^^^^^^^^^^^
@@ -34,17 +34,17 @@ Enterprise Edition
 
 :command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.1-ee`
 
-Nachdem Composer seine Arbeit beendet hat, existiert das mit *your_project_name* benannte neue Verzeichnis. Dieses ist das Hauptverzeichnis (Root) des Projektes und enthält alle Dateien, die für die Installation des OXID eShop benötigt werden.
+Once Composer has finished, the new directory named with *your_project_name* will be available. This is the main (root) directory of the project that contains all the files needed to install OXID eShop.
 
-|schritt| Apache konfigurieren
+|schritt| Configuring Apache
 ------------------------------
 
-Das Hauptverzeichnis muss nun in ein Verzeichnis verschoben werden, auf das der HTTP-Server zugreifen kann. Das Document Root-Verzeichnis des Apache muss auf das Verzeichnis :file:`/source` des Hauptverzeichnisses verweisen.
+The next step is moving the main directory to a directory that the HTTP server can access. The Apache document root directory must point to the :file:`/source` directory of the main directory.
 
-|schritt| Datei- und Verzeichnisrechte anpassen
+|schritt| Customising file and directory permissions
 -----------------------------------------------
 
-Der HTTP-Server benötigt zur Laufzeit Schreibzugriff auf folgende Verzeichnisse und ihre Unterverzeichnisse:
+The HTTP server requires write access to the following directories and their subdirectories at runtime:
 
 :file:`/source/export` |br|
 :file:`/source/log/` |br|
@@ -52,17 +52,17 @@ Der HTTP-Server benötigt zur Laufzeit Schreibzugriff auf folgende Verzeichnisse
 :file:`/source/out/media/` |br|
 :file:`/source/tmp/`
 
-Für das webbasierte Setup muss der HTTP-Server auf folgendes Verzeichnis und diese Dateien schreibend zugreifen können:
+For the web-based setup, the HTTP server must have write access to the following directory and files:
 
 :file:`/source/Setup` |br|
 :file:`/source/config.inc.php` |br|
 :file:`/source/.htaccess`
 
-|schritt| Datenbank anlegen
+|schritt| Creating database
 ---------------------------
 
-Der OXID eShop benötigt eine MySQL-Datenbank, um darin alle Artikel, Kategorien, Kunden- und Bestelldaten sowie weitere Informationen speichern zu können. Die meisten Webhoster bieten Datenbankzugriff über eine spezielle Website, wie beispielsweise phpMyAdmin an. Wenn Sie dabei Hilfe benötigen, wenden Sie sich bitte an Ihren OXID Hosting Partner oder Internet Service Provider (ISP).
+OXID eShop requires a MySQL database to store all products, categories, customer and order data, and other information. Most web hosts offer database access through a special website, such as phpMyAdmin. If you need further assistance, please contact your OXID Hosting Partner or Internet Service Provider (ISP).
 
-Legen Sie jetzt eine neue MySQL-Datenbank an. Der Name der Datenbank ist frei wählbar und könnte beispielsweise *oxid_eshop* lauten. Merken Sie sich den Namen der Datenbank und die vergebenen Zugangsdaten zur Datenbank (Benutzername und Passwort). Diese Daten werden benötigt, wenn Sie das Setup ausführen.
+Now, you will need to create a new MySQL database. You can select any name for the database, for example, *oxid_eshop*. Make sure to remember the name of the database and the assigned login data for the database (username and password). You will need this data when running the setup.
 
 .. Intern: oxbaad, Status:

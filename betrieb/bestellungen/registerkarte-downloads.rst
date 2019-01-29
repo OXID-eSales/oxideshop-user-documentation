@@ -1,48 +1,48 @@
-﻿Registerkarte Downloads
+﻿Downloads tab
 =======================
 
-Alle zu einer Bestellung gehörenden Downloads werden auf der gleichnamigen Registerkarte aufgelistet. Für jeden Download gibt es eine Zeile, die neben der Artikelnummer, dem Artikeltitel und dem Namen der herunterladbaren Datei auch Informationen enthält, die durch den eigentlichen Download aktualisiert werden.
+This tab displays all downloads belonging to an order. For each download, there is a line that, in addition to the product number, the product title and the name of the downloadable file, also contains information that will be updated with the actual download.
 
 .. image:: ../../media/screenshots/oxbaeh01.png
-   :alt: Bestellungen - Registerkarte Downloads
+   :alt: Orders - Downloads tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --> Meine Downloads`. Die Dateien können heruntergeladen werden, sobald die Zahlung erfolgt ist. Wurde die Bestellung noch nicht als bezahlt markiert, weist eine entsprechende Meldung darauf hin. Werden beispielsweise Lastschrift oder Kreditkartenzahlung als Zahlungsart verwendet, ist das Herunterladen sofort möglich. Die E-Mail, welche die Bestellung bestätigt, enthält ebenfalls die Downloadlinks zu den bestellten Dateien, wenn die Bezahlung abgeschlossen ist.
+After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the order hasn’t yet been marked as paid, a corresponding message will be displayed. If the customer used direct debit or credit card as a payment method, he/she will be able to download the files immediately. The order confirmation email will also contain the download links to the ordered files when the payment is complete.
 
-Eine Tabelle enthält alle zu einer Bestellung gehörenden Downloads.
+All downloads belonging to the order will be displayed in a table.
 
-:guilabel:`Art.-Nr.` |br|
-Eindeutige Artikelnummer des Download-Artikels.
+:guilabel:`Prod.No.` |br|
+Unique number of the downloadable product.
 
-:guilabel:`Titel` |br|
-Titel des Download-Artikels.
+:guilabel:`Title` |br|
+Title of the downloadable product.
 
-:guilabel:`Herunterladbare Datei` |br|
-Datei, die zum Download-Artikel gehört und vom Kunden heruntergeladen werden kann. Für jede herunterladbare Datei eines Download-Artikels wird eine Tabellenzeile erstellt.
+:guilabel:`Downloadable file` |br|
+File that belongs to the downloadable product and can be downloaded by the customer. Each downloadable file of a downloadable product will have a separate table line.
 
-:guilabel:`Erster Download` |br|
-Datum und Uhrzeit des ersten Downloads.
+:guilabel:`First Download` |br|
+Date and time of the first download.
 
-:guilabel:`Letzter Download` |br|
-Datum und Uhrzeit des letzten Downloads.
+:guilabel:`Last Download` |br|
+Date and time of the last download.
 
-:guilabel:`Anzahl der Downloads` |br|
-Anzahl der bisher erfolgten Downloads.
+:guilabel:`Count of Downloads` |br|
+Number of downloads so far.
 
-:guilabel:`Max. Anzahl der Downloads` |br|
-Anzahl der Downloads, die maximal erlaubt sind. Die Zahl Null steht für eine unbegrenzte Anzahl von Downloads. Der Wert wurde als Standardeinstellung auf der Registerkarte :guilabel:`Einstell.` unter :menuselection:`Stammdaten --> Grundeinstellungen` festgelegt oder per Definition beim jeweiligen Download-Artikel überschrieben.
+:guilabel:`Maximum count of downloads` |br|
+The maximum number of downloads allowed. The number zero stands for an unlimited number of downloads. This value was set as the default in the :guilabel:`Settings` tab under :menuselection:`Master Settings --> Core Settings` or overwritten by definition for the respective downloadable product.
 
-:guilabel:`Gültig bis` |br|
-Zeitpunkt, bis zu dem Dateien des Download-Artikels heruntergeladen werden können. Auch hier gelten die Standardeinstellungen oder die beim Download-Artikel definierten Werte.
+:guilabel:`Valid until` |br|
+Deadline for downloading the files of the downloadable product. The default settings or the values defined for the downloadable product will also apply here.
 
-:guilabel:`Anzahl der Resets` |br|
-Es wird angezeigt, wie oft die Informationen zu den Downloads zurückgesetzt wurden.
+:guilabel:`Count of Resets` |br|
+Displays the number of times the information about the downloads has been reset.
 
 :guilabel:`Reset` |br|
-Der Shopbetreiber hat die Möglichkeit, bereits erfolgte Downloads zurückzusetzen, solange sie gültig sind. Durch Drücken der Schaltfläche werden der Zeitpunkt des ersten und letzten Downloads sowie die Anzahl der Downloads zurückgesetzt. Auch die die Gültigkeit der Downloads wird ensprechend ihrer Definition neu berechnet.
+The shop owner can reset the already occurred downloads as long as they are valid. Clicking on this button resets the time of the first and last download and the number of downloads. The validity of the downloads will also be recalculated according to their definition.
 
-.. seealso:: :doc:`Registerkarten Downloads <../../einrichtung/artikel/registerkarte-downloads>`
+.. seealso:: :doc:`Downloads tab <../../einrichtung/artikel/registerkarte-downloads>`
 
 .. Intern: oxbaeh, Status:, F1: order_downloads.html

@@ -1,32 +1,32 @@
-﻿Registerkarte Statistik
+﻿Statistics tab
 =======================
-Auf der Registerkarte :guilabel:`Statistik` werden einige verkaufsrelevante Informationen zum Artikel, beispielsweise zur Anzahl der Verkäufe, zum Verkaufsrang oder zum Status von Bestellungen, bereitgestellt.
+The :guilabel:`Statistics` tab provides some sales-related information about the product, such as the number of products sold, the sales rank, or the status of orders.
 
 .. image:: ../../media/screenshots/oxbacs01.png
-   :alt: Artikel - Registerkarte Statistik
+   :alt: Products - Statistics tab
    :class: with-shadow
    :height: 341
    :width: 650
 
-:guilabel:`Art. erstellt am` |br|
-Datum, an dem der Artikel erstellt wurde.
+:guilabel:`Product created on` |br|
+Date the product was created.
 
-:guilabel:`Letzte Änderung am` |br|
-Datum, an dem der Artikel zuletzt geändert wurde.
+:guilabel:`Last Modification on` |br|
+Date the product was last modified.
 
-:guilabel:`Verkaufsrang Position` |br|
-Es wird angezeigt, welchen Platz der Artikel in der Liste der verkauften Artikel einnimmt. Je mehr Stück eines Artikels verkauft wurden, desto höher ist sein Verkaufsrang. Beispiel: 2/60 bedeutet, dass insgesamt sechzig Artikel verkauft wurden. Der Artikel, dessen Statistik eingesehen wird, nimmt darunter den zweiten Platz ein.
+:guilabel:`Position Sales Rating` |br|
+Shows the place of the product in the list of sold products. The more units of a product have been sold, the higher its sales rank. Example: 2/60 means that a total of sixty products were sold. The product whose statistics are viewed is in the second place among them all.
 
-:guilabel:`Gesamtanzahl bestellt` |br|
-Diese Zahl gibt an, wie oft der Artikel bisher bestellt wurde.
+:guilabel:`Number of ordered Units` |br|
+This number indicates how many times the product has been ordered so far.
 
-:guilabel:`Verkäufe gesamt` |br|
-Diese Zahl zeigt, wie oft der Artikel bisher verkauft wurde.
+:guilabel:`Number of Units sold` |br|
+This number shows how many times the product has been sold so far.
 
-:guilabel:`Storniert gesamt` |br|
-Diese Zahl informiert darüber, wie oft der Artikel bisher storniert wurde.
+:guilabel:`Number of cancelled Units` |br|
+This number tells you how many times the product has been cancelled so far.
 
-:guilabel:`Anzahl der offenen Bestellungen` |br|
-Diese Zahl gibt an, wie viele Bestellungen für den Artikel noch offen und zu bearbeiten sind.
+:guilabel:`Number of pending Orders` |br|
+This number indicates how many orders for the product are still pending and need to be processed.
 
 .. Intern: oxbacs, Status:, F1: article_overview.html

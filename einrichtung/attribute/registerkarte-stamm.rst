@@ -1,32 +1,32 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
-Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zum Attribut vorgenommen. Erstellen oder bearbeiten Sie hier das Attribut.
+The :guilabel:`Main` tab contains a few settings that can be configured for the attribute. This is where you can create or edit an attribute.
 
 .. image:: ../../media/screenshots/oxbafg01.png
-   :alt: Attribute - Registerkarte Stamm
+   :alt: Attributes - Main tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich die Informationen und Einstellungen zum Attribut auch direkt in einer weiteren Sprache bearbeiten. Bitte beachten Sie, dass die Sprachumstellung erst nach Anlegen des Attributes möglich ist.
+The language selection list at the bottom left of the input area allows you to edit attribute’s information and settings in another language directly. Please note that you can only change the language after the attribute has been created.
 
 :guilabel:`Name` |br|
-Name des Attributes, wie er im Shop auf der Detailseite eines Artikels angezeigt wird, der dieses Attribut verwendet. Dient das Attribut zur Filterung einer Kategorie, ist dessen Name auch die Bezeichnung der Filterliste.
+Name of the attribute as displayed in the shop on the details page of a product using this attribute. If the attribute is used to filter a category, the attribute’s name will also be the name of the filter list.
 
-:guilabel:`Sortierung` |br|
-Die Sortierung bestimmt die Reihenfolge, in der die Attribute angezeigt werden. Sie steuert die Anzeige auf der Detailseite des Artikels und der Filter in der Kategorieübersicht. Das Attribut mit dem kleinsten Wert steht jeweils an erster Stelle.
+:guilabel:`Sorting` |br|
+Sorting determines the order in which the attributes are displayed. It controls the display on the product’s details page and the filters in the category overview. The attribute with the smallest value will always come first.
 
-:guilabel:`Wert des Attributs für Artikel im Bestellprozess anzeigen` |br|
-Aktivieren Sie dieses Kontrollkästchen, damit das Attribut im Warenkorb und in der Bestellübersicht unter dem Artikeltitel angezeigt wird.
+:guilabel:`Display attribute's value for products in checkout` |br|
+Check this box to display the attribute in the shopping cart and in the order summary under the product title.
 
-Mit dieser Einstellung wurden Vorgaben zur Information von Kunden im Bestellabschluss umgesetzt, die zu der vom Deutschen Bundestag beschlossenen und am 01. August 2012 in Kraft getretenen sogenannten \"Button-Lösung\" gehören. Im letzten Bestellschritt werden die Details zur Bestellung kompakt am Ende der Bestellübersicht ausgegeben. Sie zeigen auch alle kaufrelevanten Informationen eines Artikels, inklusive der Werte der hier aktivierten Attribute.
+This setting helps to implement the requirements on informing the customers during the checkout process, which are part of the so-called \"Button Solution\" that was adopted by the German Bundestag and came into force on 1 August 2012. The order details will be displayed in a compact form at the end of the order summary in the last ordering step. They also display all information relevant to the purchase of a product, including the values of the attributes activated here.
 
-:guilabel:`In Sprache` |br|
-Das Attribut lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus. Wird ein neues Attribut angelegt, muss dieses erst gespeichert werden, bevor die Sprachauswahl möglich ist.
+:guilabel:`In Language` |br|
+The attribute can also be edited in other active languages of the shop. To do this, select the desired language from the list. When you create a new attribute, you will need to save it first before selecting a language.
 
-:guilabel:`Artikel zuordnen` |br|
-Dem Attribut können Artikel zugeordnet werden. Wird ein neues Attribut angelegt, ist die Zuordnung von Artikeln erst möglich, nachdem das Attribut gespeichert wurde. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit dem Attribut zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+:guilabel:`Assign Products` |br|
+You can assign products to the attribute. When you create a new attribute, you will only be able to assign products after saving the attribute. Clicking on :guilabel:`Assign Products` opens a new window. All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the attribute. Hold down the Ctrl key to select multiple products.
 
-Beim Artikel muss für das zugewiesene Attribut noch ein Wert gesetzt werden. Siehe: :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
+You will also need to set a product value for the assigned attribute. See: :doc:`Products - Selection tab <../artikel/registerkarte-auswahl>`
 
 .. Intern: oxbafg, Status:, F1: attribute_main.html

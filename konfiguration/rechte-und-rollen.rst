@@ -1,85 +1,85 @@
-﻿Rechte und Rollen
+﻿Rights and roles
 =================
 
-Ein Feature der Enterprise Edition ist die Rechte- und Rollenverwaltung. Mit Rechte und Rollen kann der Zugriff auf anzuzeigende Elemente und verfügbare Funktionen des OXID eShop für einzelne Benutzer und Benutzergruppen gesteuert werden.
+One of the features of Enterprise Edition is rights and roles management. Rights and roles allow you to control access to the elements to be displayed and available functions of OXID eShop for individual users and user groups.
 
-Dabei wird zwischen den Rechten und den Rollen für den eigentlichen Shop, hier auch als Frontend bezeichnet, und dem Administrationsbereich, dem so genannten Backend, unterschieden. Front- und Backend werden in diesem Dokument als Begriffe zur Verdeutlichung der verschiedenen Bereiche der Rechte- und Rollenverwaltung verwendet.
+There is a distinction between the rights and the roles for the actual shop, here also referred to as front end, and the Admin panel, the so-called back end. In this document, front and back end are used as terms to clarify the various aspects of rights and roles management.
 
-Das Recht regelt den Zugriff auf bestimmte Funktionen, wie den Zugriff auf Artikel und Kategorien oder die Anzeige bestimmter Bereiche der Detailseite von Artikeln. In Rollen werden mehrere Rechte zusammengefasst und Benutzern und Benutzergruppen zugeordnet.
+Rights regulate access to certain functions, such as access to products and categories or the display of certain areas of the product’s details page. Multiple rights can be grouped together in roles and assigned to users and user groups.
 
-Rechte und Rollen für den Shop (Frontend)
+Rights and roles for the shop (front end)
 -----------------------------------------
-Für den Shop können verschiedene Berechtigungen erteilt werden. Die Definition erfolgt im Administrationsbereich in der Artikel- und Kategorienverwaltung sowie unter :menuselection:`Benutzer verwalten --> Shop Rollen`.
+Different permissions can be granted for the shop. This can be defined in the products’ and categories’ management section in the Admin panel as well as under :menuselection:`Administer Users --> Shop Roles`.
 
-Anzeigen von Artikeln und Kategorien
+Displaying products and categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Sie können festlegen, dass nur bestimmte Benutzergruppen ausgewählte Artikel und Kategorien sehen dürfen. Die Definition erfolgt auf der Registerkarte :guilabel:`Rechte` von Artikeln und Kategorien, indem eine oder mehrere Benutzergruppen zugewiesen werden. Es handelt sich dabei um ein ausschließliches Recht. Nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, sind die jeweiligen Artikel und Kategorien nach Anmeldung am Shop sichtbar. Allen übrigen Benutzern und Benutzergruppen werden diese Bestandteile des Warenkatalogs niemals angezeigt.
+You can choose to allow only certain user groups to see selected products and categories. This can be defined in the :guilabel:`Rights` tab of products and categories by assigning one or more user groups. This is an exclusive right. This means that only users who belong to the assigned user groups will be able to see the respective products and categories after logging into the shop. All other users and user groups will never be able to see these parts of the product catalogue.
 
-Kaufen von Artikeln und Kategorien
+Buying products and categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Für Artikel und Kategorien kann auch definiert werden, dass sie ausschließlich für bestimmte Benutzergruppen kaufbar sein sollen. Auch hier erfolgt die Definition durch Zuweisung der jeweiligen Benutzergruppen auf der Registerkarte :guilabel:`Rechte` von Artikeln oder Kategorien. Der Screenshot zeigt, dass es für nicht berechtigte Benutzer in der Artikelübersicht keine Möglichkeit gibt, zum Beispiel Kites in den Warenkorb zu legen. Mit der Schaltfläche :guilabel:`Mehr Informationen` kann lediglich die Detailseite des Artikels aufgerufen werden.
+You can also define specific user groups that will be able to buy certain products and categories. This can also be done by assigning the respective user groups in the :guilabel:`Rights` tab of products or categories. The screenshot shows that unauthorised users don’t have the option of adding, for example, kites to the shopping cart in the product overview. By clicking on :guilabel:`More information`, they can only open the product’s details page.
 
 .. image:: ../media/screenshots/oxbaev01.png
-   :alt: Artikelübersicht (Rechte und Rollen)
+   :alt: Product overview (rights and roles)
    :class: with-shadow
-   :height: 363
+   :height: 360
    :width: 650
 
-Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und der berechtigten Benutzergruppe angehört.
+The :guilabel:`To cart` button also doesn’t display in the detailed view, as long as the customer is not logged in to the shop and belongs to the authorised user group.
 
 .. image:: ../media/screenshots/oxbaev02.png
-   :alt: Detailansicht Artikel (Rechte und Rollen)
+   :alt: Product detailed view (rights and roles)
    :class: with-shadow
-   :height: 284
-   :width: 650
+   :height: 307
+   :width: 609
 
-Zugriff auf Funktionen und Bereiche der Detailseite
+Access to functions and areas of the details page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Rechte und Rollen können auch auf den gesamten Warenkatalog bezogen vergeben werden. Der Shop wird mit folgenden Rechten für den Shop ausgeliefert, die zu Rollen zusammengefasst den gewünschten Benutzergruppen zugeordnet werden können:
+Rights and roles can also be assigned for the entire product catalogue. The shop comes with the following rights that can be combined into roles and assigned to the desired user groups:
 
-* Artikel in den Warenkorb legen (TOBASKET)
-* Artikelpreis anzeigen (SHOWARTICLEPRICE)
-* Kurzbeschreibung des Artikels anzeigen (SHOWSHORTDESCRIPTION)
-* Langbeschreibung des Artikels anzeigen (SHOWLONGDESCRIPTION)
+* Add product to shopping cart (TOBASKET)
+* Show product price (SHOWARTICLEPRICE)
+* Show product’s short description (SHOWSHORTDESCRIPTION)
+* Show product’s long description (SHOWLONGDESCRIPTION)
 
-Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop Rollen` definiert. Verschiedene Rechtekombinationen können in Rollen zusammengefasst und Benutzergruppen zugeordnet werden. Sobald für eine Benutzergruppe ein Recht erteilt wurde, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr. Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident lässt sich in Templates eine rechteabhängige Anzeige realisieren.
+These rights and roles can be defined under :menuselection:`Administer Users --> Shop Roles`. You can combine different rights combinations in roles and assign them to user groups. Once a right has been granted for one user group, this right will no longer apply to all other user groups. You can also define your own rights based on view classes and their methods. Rights-based display can be implemented in templates using an assigned ident.
 
 .. image:: ../media/screenshots/oxbaev03.png
-   :alt: Rechte für Detailansicht (Rechte und Rollen)
+   :alt: Rights for detailed view (rights and roles)
    :class: with-shadow
-   :height: 188
-   :width: 387
+   :height: 158
+   :width: 319
 
-Auf der Detailseite, auf dem Screenshot als Beispiel zu sehen, und auch in den Artikelübersichten werden keine Preise für nicht berechtigte Benutzer angezeigt.
+As you can see in the screenshot, prices are not displayed for unauthorised users on the details page and in the product overview.
 
 .. image:: ../media/screenshots/oxbaev04.png
-   :alt: Detailansicht Artikel (Rechte und Rollen)
+   :alt: Product detailed view (rights and roles)
    :class: with-shadow
-   :height: 285
-   :width: 650
+   :height: 310
+   :width: 612
 
-Rechte und Rollen für den Administrationsbereich (Backend)
+Rights and roles for the Admin panel (back end)
 ----------------------------------------------------------
-Für den Administrationsbereich lassen sich ebenfalls Rollen definieren, um die verschiedenen Aufgabenbereiche bei der Administration des OXID eShop abbilden zu können.
+Roles can also be defined for the Admin panel to represent the various responsibilities in the administration of OXID eShop.
 
-Zugriff auf Menüs, Untermenüs, Registerkarten
+Access to menus, submenus and tabs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Navigation und auch auf einzelne Registerkarten des Eingabebereiches. Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich. Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Admin Rollen` definiert und den jeweiligen Benutzern zugeordnet.
+The roles allow you to define access to menus and submenus of the navigation panel as well as to individual tabs of the input area. This will give each editor his/her own custom Admin panel. These rights and roles can be defined and assigned to the respective users under :menuselection:`Administer Users --> Admin Roles`.
 
 .. image:: ../media/screenshots/oxbaev05.png
-   :alt: Zugriff im Administrationsbereich
+   :alt: Access in the Admin panel
    :class: with-shadow
-   :height: 343
+   :height: 335
    :width: 650
 
-Zugriff auf Artikel und Kategorien
+Access to products and categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differenziert definiert werden. Sie regeln beispielsweise das Anlegen, Ändern und Löschen von Artikeln und Kategorien insgesamt und wenn nötig den Zugriff auf jedes einzelne Steuerelement (Feld, Kontrollkästchen oder Option) des jeweiligen Eingabebereiches.
+The rights can be defined very differently for the editing of products and categories. For example, they regulate the creation, modification and deletion of products and categories as a whole and, if necessary, access to each control element (field, check box, or option) of the respective input area.
 
 .. image:: ../media/screenshots/oxbaev06.png
-   :alt: Zugriff im Administrationsbereich
+   :alt: Access in the Admin panel
    :class: with-shadow
-   :height: 343
+   :height: 335
    :width: 650
 
 .. Intern: oxbaev, Status:

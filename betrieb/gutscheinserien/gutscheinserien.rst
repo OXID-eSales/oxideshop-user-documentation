@@ -1,54 +1,54 @@
-﻿Gutscheinserien
+﻿Coupon series
 ===============
 
-Gutscheinserien sind eine definierte Anzahl von Gutscheinen mit identischer Gültigkeit und den selben Bedingungen zum Einlösen. Die Gutscheine können nach dem Anlegen einer Gutscheinserie mit gleichem Gutscheincode oder individuellen Gutscheinnummern generiert werden. Nachdem die Gutscheine den Weg zum Kunden gefunden haben, beispielsweise über einen verschickten Newsletter, kann der Gutscheincode beim Onlinekauf verwendet werden. Der Kunde gibt seinen Gutscheincode im ersten Bestellschritt ein und erhält einen relativen oder absoluten Rabatt auf bestimmte Artikel oder den gesamten Warenkorb. Dabei wird der gesamte Wert des Gutscheins verbraucht. Es können nicht, wie bei Geschenkgutscheinen üblich, nur Anteile eines vorhandenen Guthabens verwendet werden.
+Coupon series are a defined number of coupons with identical validity and the same redemption conditions. After creating a coupon series, coupons can be generated with the same coupon code or individual coupon numbers. After the coupons have found their way to the customer, for example, via a sent newsletter, the customer will be able to use the coupon code when shopping online. After entering the coupon code in the first step of the ordering process, the customer will receive a relative or absolute discount on certain products or the entire shopping cart. When a coupon is applied, its entire value will be used up. Unlike gift certificates, an existing coupon can’t be used partially.
 
-Gutscheine sind neben Aktionen, Rabatten und Newslettern ein weiteres Marketinginstrument in Ihrem OXID eShop. Sie können Gutscheine einsetzen, um Kaufanreize zu schaffen und neue Kunden zu gewinnen.
+Besides promotions, discounts and newsletters, coupons are another marketing tool in your OXID eShop. They can be used to create buying incentives and attract new customers.
 
 .. image:: ../../media/screenshots/oxbahr01.png
-   :alt: Gutscheinserien
+   :alt: Coupon series
    :class: with-shadow
    :height: 516
    :width: 650
 
-Nachdem der Kunde Artikel in den Warenkorb gelegt und diesen angezeigt hat, kann er im ersten Bestellschritt einen Gutscheincode oder eine Gutscheinnummer in das entsprechende Feld eingeben. Je nach den Einstellungen bei der Gutscheinserie können mehrere Gutscheine für eine Bestellung oder ein Gutschein für mehrere Bestellungen verwendet werden. Sind mehrere Gutscheine für eine Bestellung möglich, werden diese nur akzeptiert, solange der Gesamtbetrag der Bestellung größer 0,00 € ist. Beim Absenden des Gutscheins überprüft der Shop dessen Gültigkeit, schreibt diesen gut oder lehnt ihn mit einem entsprechenden Hinweis ab.
+After the customer has added products to the shopping cart, he/she can enter a coupon code or a coupon number in the appropriate field in the first ordering step. Depending on the coupon series settings, multiple coupons for one order or one coupon for multiple orders may be used. If multiple coupons can be used for an order, they will only be accepted if the total order amount is greater than €0.00. After the coupon has been submitted, the shop will check its validity and accept or reject it with a corresponding note.
 
-Wurde der Gutscheincode vom Shop akzeptiert, wird der Gutschein in der Datenbank als reserviert markiert. Beim Abschluss der Bestellung wird der Gutschein als verwendet markiert und erhält Verweise auf die Bestellung, den Kunden und einen Zeitstempel.
+If the coupon code has been accepted by the shop, the coupon will be marked as reserved in the database. Upon completion of the order, the coupon will be marked as used and will receive references to the order and the customer as well as a timestamp.
 
-Ein angegebener Gutschein kann auch wieder aus der Warenkorbübersicht entfernt werden.
+Coupons can also be removed from the cart overview.
 
 .. image:: ../../media/screenshots/oxbahr02.png
-   :alt: Verwendung eines Gutscheins im Warenkorb
+   :alt: Using a coupon in the shopping cart
    :class: with-shadow
    :height: 294
    :width: 650
 
-Im Abschnitt \"Gutscheinserien\" wird erläutert, wie Gutscheinserien erstellt und eingerichtet sowie die dazugehörigen Gutscheine generiert und exportiert werden.
+Section \"Coupon series\" explains how to create and set up coupon series and how to generate and export the associated coupons.
 
-Gutscheinserien werden im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Gutscheinserien` erstellt. Es werden eine Liste mit bereits vorhandenen Gutscheinserien und darunter der Eingabebereich für die Gutscheinserien angezeigt.
+Coupon series are created in the Admin panel under :menuselection:`Shop Settings --> Coupon Series`. Here, you will see a list of the available coupon series and the input area right below it.
 
-In der Liste der Gutscheinserien symbolisiert ein kleines grünes Quadrat am Anfang der Zeile eine aktive Gutscheinserie. Trifft für eine Gutscheinserie der Gültigkeitszeitraum nicht zu, fehlt dieses Symbol. Die Gutscheinserie ist ungültig und damit nicht aktiv. Die Liste zeigt den Namen der Gutscheinserie, den gewährten Nachlass, den Zeitraum ihrer Gültigkeit und einen vorgegebenen Mindesteinkaufswert. Nach Gutscheinserien kann gesucht werden, indem Zeichen in die Suchfelder eingegeben werden. Die Suche startet, sobald die Eingabe mit einem Enter abgeschlossen oder das Lupen-Symbol angeklickt wurde. Die Spaltenüberschriften der Liste sind Links. Ein Klick darauf sortiert die Gutscheinserien aufsteigend nach Name, Rabatt, Gültigkeit usw.
+A small green icon at the beginning of the line in the list of coupon series symbolises an active coupon series. If the validity period doesn’t apply for coupon series, this icon won’t be displayed. The coupon series thus is invalid and not active. The list displays the name of the coupon series, the discount granted, the validity period and a specified minimum purchase value. To search for coupon series, enter characters in the search field. The search starts as soon as Enter or the magnifying glass icon are clicked on. The column headers in the list are links. Clicking on them will sort the coupon series in ascending order by name, discount, validity, etc.
 
-Gutscheinserien lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Soll die Gutscheinserie nur nicht aktiv sein, tragen Sie einen nicht gültigen Zeitraum ein.
+Coupon series can be permanently removed from the database by clicking on the trash icon at the end of the line. Enter an invalid period if you want the coupon series to be inactive.
 
-Wird eine Gutscheinserie aus der Liste der Gutscheinserien gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Gutscheinserie klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Gutscheinserie anlegen`.
+When you select a coupon series from the list, its information will be displayed in the input area. To create a new coupon series, click on :guilabel:`Create new Coupon Series` at the bottom of the screen.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: Gültige Gutscheinserie, gültig im Zeitraum, gültig mit gleicher Serie, gültig mit anderer Serie, Gutscheinwert, Rabatt, absolut und prozentual, Gutscheine gerieren und exportieren, Zufallsnummern, Gutscheinnummer, Gutscheincode |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: valid coupon series, temporary valid, valid with the same series, valid with another series, coupon value, discount, absolute and percentage, generating and exporting coupons, random numbers, coupon number, coupon code |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Benutzergruppen \& Artikel
+User Groups & Products tab
 ----------------------------------------
-**Inhalte**: Gutscheine für Benutzergruppen, Benutzergruppen zuordnen, Gutscheine für Kategorien, Kategorien zuordnen, Gutscheine für Artikel, Artikel zuordnen |br|
-:doc:`Artikel lesen <registerkarte-benutzergruppen-artikel>` |link|
+**Contents**: coupons for user groups, assigning user groups, coupons for categories, assigning categories, coupons for products, assigning products |br|
+:doc:`Read article <registerkarte-benutzergruppen-artikel>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Gutscheinserien vererben, Gutscheinserien verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: inheriting coupon series, assigning coupon series, parent shop, subshop, supershop, multishop, Mall |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
 .. Intern: oxbahr, Status:

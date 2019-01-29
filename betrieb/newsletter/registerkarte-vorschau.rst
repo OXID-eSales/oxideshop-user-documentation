@@ -1,23 +1,23 @@
-Registerkarte Vorschau
+﻿Preview tab
 ======================
 
-Auf der Registerkarte :guilabel:`Vorschau` wird der Newsletter in den beiden Formaten Text und HTML angezeigt.
+The :guilabel:`Preview` tab displays the newsletter in both text and HTML formats.
 
 .. image:: ../../media/screenshots/oxbaih01.png
-   :alt: Newsletter - Registerkarte Vorschau
+   :alt: Newsletters - Preview tab
    :class: with-shadow
    :height: 346
    :width: 650
 
-Im Beispiel-Newsletter wird am Ende der HTML-Mail ein Hinweis auf vollständige Anbieterkennzeichnung ausgegeben. Der Grund ist eine Smarty-Anweisung, welche die CMS-Seite mit dem Ident "oxemailfooter" aufruft.
+You will see a request to provide full provider identification at the end of the HTML e-mail in the sample newsletter. The reason for this is a Smarty prompt that calls the CMS page with the "oxemailfooter" ident.
 
 .. code:: html
 
-   Bitte fügen Sie hier Ihre vollständige Anbieterkennzeichnung ein.
+   Please insert your full provider identification here.
    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 0; padding: 0;">
       [{ oxcontent ident="oxemailfooter" }]
    </p>
 
-Auch für die Nur-Text-Mail gibt es eine solche CMS-Seite. Sie hat den Ident "oxemailfooterplain". In beiden CMS-Seiten sollte das Impressum hinterlegt werden, so dass mit den Newslettern, aber auch anderen E-Mails, korrekte Informationen über den Onlineshop verschickt werden.
+There is also such a CMS page for the plain text email with the "oxemailfooterplain” ident. Both CMS pages should contain the About Us section so that the correct information about the online shop is sent to the recipients with newsletters and other emails.
 
 .. Intern: oxbaih, Status:, F1: newsletter_preview

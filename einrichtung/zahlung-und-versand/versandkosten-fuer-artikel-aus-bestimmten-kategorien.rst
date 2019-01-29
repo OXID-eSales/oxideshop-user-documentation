@@ -1,63 +1,63 @@
-﻿Versandkosten für Artikel aus bestimmten Kategorien
+﻿Shipping costs for products from specific categories
 ===================================================
 
-In einem Online-Shop gibt es in der Regel einen Warenkatalog aus ganz verschiedenen Artikeln. Der Versand kann so eingerichtet werden, dass Artikel aus bestimmten Kategorien günstig verschickt werden. Werden zusätzlich Artikel aus anderen Kategorien in den Warenkorb gelegt, fallen höhere Versandkosten an. Dafür werden Versandkostenregeln verwendet, die abhängig von Kategorien funktionieren.
+Each online shop usually has a catalogue of various products. The shipping can be set in such a way that products from specific categories are shipped at lower costs. If additional products from other categories are added to the shopping cart, higher shipping costs will apply. To do this, you will need to use the shipping cost rules that depend on the categories.
 
-Im Bestellprozess wählt der Kunde eine Versandart. Alle zur Versandart gehörenden Versandkostenregeln werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (zugewiesene Kategorien) hinsichtlich der Artikel im Warenkorb erfüllt ist. Nur wenn eine Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
+When the customer selects a shipping method in the ordering process, all shipping cost rules belonging to the shipping method will be processed. The system will check whether the specified condition (the assigned categories) is met in terms of the products in the shopping cart. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
 
-In den Versandkostenregeln werden Kategorien als Bedingung definiert.
+Defining the categories as a condition in the shipping cost rules.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
-* Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
-* Betätigen Sie die Schaltfläche :guilabel:`Kategorien zuordnen` auf der Registerkarte :guilabel:`Artikel`.
-* Verschieben Sie die Kategorien per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
-* Tragen Sie einen Preis auf der Registerkarte :guilabel:`Stamm` ein.
-* Komplettieren Sie alle weiteren Einstellungen der Versandkostenregel.
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+* Select the desired shipping cost rule from the list.
+* Click on :guilabel:`Assign Categories` in the :guilabel:`Products` tab.
+* Drag and drop the categories into the right-hand list of the assignment window.
+* Close the assignment window.
+* Enter a price in the :guilabel:`Main` tab.
+* Configure all other settings of the shipping cost rule.
+* Save the changes.
 
-Die Versandkostenregel wird einer Versandart zugeordnet.
+The shipping cost rule is assigned to a shipping method.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
-* Wählen Sie die Versandart aus der Liste der Versandarten.
-* Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Shop Settings --> Shipping Methods`.
+* Select the desired shipping method from the list.
+* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
+* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
+* Close the assignment window.
 
-.. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
+.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
 
-Beispiel
+Example
 --------
-Das Beispiel zeigt, wie Artikel einer bestimmten Kategorie zu günstigeren Versandkosten als alle anderen Artikel verschickt werden können. Dafür werden zwei Versandkostenregeln verwendet, deren Bedingung die Menge ist. Ein Mengenbereich von 1 bis 99999999 stellt sicher, dass diese Bedingung immer zutrifft. Die Berechnung erfolgt einmal pro Warenkorb. Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregel muss aktiv sein.
+The example shows how products from a certain category can be shipped at cheaper rates than other products. You will need to use two shipping rules with the quantity as the condition. A quantity range from 1 to 99999999 ensures that this condition will always apply. The calculation takes place once per cart. The assignment of countries is optional. Make sure to activate the shipping cost rule.
 
-Die erste Versandkostenregel wird mit einem Preis von 4,99 € angelegt. Für alle Artikel außer denen der Kategorie \"Zubehör\" gibt es eine zweite Versandkostenregel mit einem Preisaufschlag von 2,50 €.
+Create the first shipping cost rule with a price of €4.99. All products except from the \"Accessories\" category will be subject to the second shipping cost rule with a surcharge of €2.50.
 
 .. image:: ../../media/screenshots/oxbafz01.png
-   :alt: Versandkosten DHL - Standardartikel: +2,50 Euro
+   :alt: Shipping costs DHL - standard product: +2.50 euros
    :class: with-shadow
    :height: 342
    :width: 650
 
-Der im Screenshot gezeigten Versandkostenregel wurden alle Kategorien mit Ausnahme der Kategorie \"Zubehör\ "zugeordnet. Beide Versandkostenregeln gehören zur Versandart \"DHL GoGreen\". Wird diese Versandart beim Kauf ausgewählt, werden beide Versandkostenregeln geprüft.
+All categories except the \"Accessories” category have been assigned to the shipping cost rule shown in the screenshot. Both shipping rules belong to the \"DHL GoGreen\" shipping method. If the customer selects this shipping method when placing an order, both shipping cost rules will be checked.
 
-Liegt ein Artikel aus dem Kiteboarding-Zubehör im Warenkorb, greift die erste Versandkostenregel. Der Versand kostet 4,99 €.
+If the shopping cart contains a product from kiteboarding accessories, the first shipping cost rule will apply. The shipping will cost €4.99.
 
 .. image:: ../../media/screenshots/oxbafz02.png
-   :alt: Warenkorb mit Kite-Leinen
+   :alt: Shopping cart with kite lines
    :class: with-shadow
    :height: 261
    :width: 550
 
-Wird zusätzlich ein Trapez in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 7,49 €.
+If the customer adds a harness to the shopping cart, the second shipping cost rule will also apply. The total shipping costs will be €7.49.
 
 .. image:: ../../media/screenshots/oxbafz03.png
-   :alt: Warenkorb mit Kite-Leinen und Trapez
+   :alt: Shopping cart with kite lines and harness
    :class: with-shadow
    :height: 310
    :width: 550
 
-7,49 € kostet auch der Versand eines einzelnen Trapezes, da beide Versandkostenregeln zutreffen. Die erste Versandkostenregel gilt für alle Artikel und die zweite Versandkostenregel schließt nur die Artikel aus dem Kiteboarding-Zubehör aus.
+The shipping of a single harness will also cost €7.49 because both shipping cost rules will apply. The first shipping cost rule will apply to all products, and the second shipping cost rule will exclude only products from kiteboarding accessories.
 
-.. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Shipping cost rules - Products tab <../versandkostenregeln/registerkarte-artikel>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
 
 .. Intern: oxbafz, Status:

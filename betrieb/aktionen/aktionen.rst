@@ -1,39 +1,39 @@
-﻿Aktionen
+﻿Promotions
 ========
 
-Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop. Dafür stehen drei Aktionstypen zur Verfügung, mit denen hauptsächlich das Aussehen der Startseite des Shops gestaltet und aktualisiert werden kann: Aktion, Banner und Promotion. Das Theme \"Flow\" unterstützt Aktion und Banner. Promotion und einige Möglichkeiten vom Typ Aktion werden vom neuen Standard-Theme nicht verwendet. Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden, weil sie das Theme \"Azure\" nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
+Apart from discounts, coupons or newsletters, promotions are an important marketing tool in your OXID eShop. There are three types of promotions that can be used to design and update the appearance of the shop’s start page: Action, Banner, and Promotion. The \"Flow\" theme supports Action and Banner. Promotion and some Action types are not used by the new default theme. However, the actions \"Top offer in categories\" and \"Top offer start page\" are available in the Admin panel since they are used by the \"Azure\" theme. They could be integrated into a \"Flow\"-based theme as needed.
 
 .. image:: ../../media/screenshots/oxbagv01.png
-   :alt: Aktionen
+   :alt: Promotions
    :class: with-shadow
    :height: 529
    :width: 650
 
-Aktionen können unter :menuselection:`Kundeninformationen --> Aktionen verwalten` bearbeitet werden. Es gibt eine Liste der Aktionen und darunter den Eingabebereich für die Aktionen. Dieser unterscheidet sich für den Typ Banner von Aktion und Promotion, indem es die Möglichkeit gibt, ein Foto für das Banner hochzuladen und zu verlinken.
+Promotions can be edited under :menuselection:`Customer Info --> Promotions`. You will see a list of promotions and the respective input area below. Promotions differ by the type: Banner, Action, and Promotion, and you can also upload and link a photo for the banner.
 
-Alle Aktionen werden in alphabetischer Reihenfolge angezeigt. Nach Aktionen kann gesucht werden, indem das Suchfeld für deren Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"ba\" ein, würden Ihnen die vier Banner der Startseite angezeigt.
+All promotions are displayed in alphabetical order. You can search for promotions by using the search field and the magnifying glass icon. For example, if you type \"ba\" in the search box, you will see all four banners of the start page.
 
-Zusätzlich können per Auswahlliste Aktionen gefiltert werden, die aktiv sind, demnächst aktiv werden oder abgelaufen sind. Die Auswahl berücksichtigt einen bei den Aktionen definierten Zeitraum für deren Aktivität.
+In addition, you can use the selection list to search for promotions that are active, upcoming, or expired. This is based on the activity period defined for the promotions.
 
-Aktionen lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Die mit dem Shop ausgelieferten Datensätze vom Typ Aktion können nicht gelöscht werden, da sie für den stabilen Betrieb des OXID eShop erforderlich sind. Deaktivieren Sie einmal einen solchen Datensatz, um die Auswirkung auf die Anzeige der Startseite zu sehen.
+Promotions can be permanently removed from the database by clicking on the trash icon at the end of the line. Action type records that came with the shop can’t be deleted as they are required for the stable operation of OXID eShop. You can disable such a record to see how it affects the start page display.
 
-Wird eine Aktion gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Aktion klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Aktion/Promotion/Banner`.
+When you select a promotion, its information will be displayed in the input area. To create a new promotion, click on :guilabel:`New Action/Promotion/Banner` at the bottom of the screen.
 
 -----------------------------------------------------------------------------------------
 
-Aktionen und Startseite
+Promotions and start page
 -----------------------
-**Inhalte**: Startseite, Theme \"Flow\", Typ Aktion, Typ Banner, Banner, Angebote der Woche, Unsere Marken, Frisch eingetroffen, Topseller, Performanceeinstellungen, Aktionen laden, Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\" |br|
-:doc:`Artikel lesen <aktionen-und-startseite>` |link|
+**Contents**: start page \"Flow\" theme, Action type, Banner type, banner, Week's Specials, Our brands, Just arrived, Top seller, performance settings, loading promotions, displaying prices for \"Top of the Shop\" and \"Just arrived!\" |br|
+:doc:`Read article <aktionen-und-startseite>` |link|
 
-Aktion für Newsletter
+Newsletter action
 ---------------------
-**Inhalte**: Newsletter, Anzeige ausgesuchter Artikel, Aktion \"Newsletter\" |br|
-:doc:`Artikel lesen <aktion-fuer-newsletter>` |link|
+**Contents**: newsletter, displaying selected products, \"Newsletter\" action |br|
+:doc:`Read article <aktion-fuer-newsletter>` |link|
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktive Aktion, Typ Aktion, Typ Banner, Typ Promotion, Name, Artikel zuordnen, Bannerbilder, Sortierung, Slideshow, Link für Bannerbild, Benutzergruppen zuordnen, Produkte zuordnen |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active promotion, Action type, Banner type, Promotion type, name, assigning products, banner images, sorting, slideshow, link for banner image, assigning user groups |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
 .. Intern: oxbagv, Status:

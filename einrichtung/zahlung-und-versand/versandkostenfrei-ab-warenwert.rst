@@ -1,64 +1,64 @@
-﻿Versandkostenfrei ab Warenwert
+﻿Free shipping from certain product value
 ==============================
 
-Bei vielen Shops basieren die Versandkosten auf dem Gesamtpreis der gekauften Waren. Ab einem bestimmten Warenwert erfolgt meistens auch eine kostenlose Lieferung.
+For many shops, the shipping costs are based on the total price of the purchased products. Shipping is usually free starting from a certain value of products in the shopping cart.
 
-Die mit dem OXID eShop ausgelieferten Versandkostenregeln verwenden durchweg den Preis der Artikel als Bedingung. Mit einer Versandkostenregel kann auch festgelegt werden, dass die Versandkosten ab einem bestimmten Warenwert entfallen. Der Kunde entscheidet sich beim Kauf im Online-Shop für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Preis) bezogen auf den Gesamtpreis der Artikel im Warenkorb erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
+Shipping cost rules that come with OXID eShop always use the price of the product as a condition. You can also use a shipping cost rule to specify that shipping costs don’t apply above a certain product value. The customer selects a shipping method when buying something in the online shop. All shipping costs that belong to this shipping method will be processed. The system will check whether the specified condition (price) is met in terms of the total product price in the shopping cart. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
 
-Der Preis eines Artikels wird in der Artikelverwaltung festgelegt.
+The price of a product is defined in the product management section.
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Geben Sie auf der Registerkarte :guilabel:`Stamm` den Preis ein.
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Administer Products --> Products`.
+* Select the desired product from the product list.
+* Enter the price in the :guilabel:`Main` tab.
+* Save the changes.
 
-In den Versandkostenregeln wird Preis als Bedingung definiert.
+Defining the price as a condition in the shipping cost rules
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
-* Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
-* Auf der Registerkarte :guilabel:`Stamm` finden Sie die Dropdown-Liste :guilabel:`Bedingung`.
-* Wählen Sie die Bedingung Preis und tragen Sie Werte für :guilabel:`=\>` und :guilabel:`\<=` ein.
-* Komplettieren Sie alle weiteren Einstellungen der Versandkostenregel.
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+* Select the desired shipping cost rule from the list.
+* Find the :guilabel:`Condition` field in the :guilabel:`Main` tab.
+* Select “Price” and enter the values for :guilabel:`=\>` and :guilabel:`\<=`.
+* Configure all other settings of the shipping cost rule.
+* Save the changes.
 
-Die Versandkostenregel wird einer Versandart zugeordnet.
+The shipping cost rule is assigned to a shipping method.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
-* Wählen Sie die Versandart aus der Liste der Versandarten.
-* Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Shop Settings --> Shipping Methods`.
+* Select the desired shipping method from the list.
+* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
+* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
+* Close the assignment window.
 
-.. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
+.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
 
-Beispiel
+Example
 --------
-Zwei Versandkostenregeln dienen als Beispiel für eine versandkostenfreie Lieferung, wenn Artikel für 80 € und mehr gekauft werden.
+Using two shipping rules as an example of free shipping when the customer buys products worth €80.
 
-Dafür werden zwei Versandkostenregeln erstellt, deren Bedingung der Preis ist. Die eine ist für Artikel im Warenkorb mit einem Warenwert bis 79,99 €, die andere für Artikel ab 80 € Warenwert. Die Versandkostenregeln werden so definiert, dass die Berechnung nur einmal pro Warenkorb erfolgt. Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregeln müssen aktiv sein.
+Create two shipping rules with the price as the condition. One is for products in the shopping cart with a value up to €79.99, and the other one is for products with a value of €80 and above. The shipping cost rules for the calculation are defined so that they take place only once per shopping cart. The assignment of countries is optional. Activate the shipping cost rules.
 
 .. image:: ../../media/screenshots/oxbafw01.png
-   :alt: Versandkostenregel ab 80 € Warenwert
+   :alt: Shipping cost rule from €80 product value
    :class: with-shadow
    :height: 341
    :width: 650
 
-Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Liegen Artikel mit einem Einkaufswert unter 80 € im Warenkorb, greift die erste Versandkostenregel. Es werden 3,90 € Versandkosten im Warenkorb ausgewiesen.
+Assign shipping cost rules to a shipping method. If the customer selects this shipping method when purchasing a product, all associated shipping cost rules will be checked. If the shopping cart contains products with a purchase value below €80, the first shipping cost rule will apply. €3.90 shipping costs will be displayed in the shopping cart.
 
 .. image:: ../../media/screenshots/oxbafw02.png
-   :alt: Warenkorb mit Artikeln unter 80 € Warenwert
+   :alt: Shopping cart with products valued under €80
    :class: with-shadow
    :height: 261
    :width: 550
 
-Wurden Artikel eingekauft, deren Einkaufswert 80 € ist oder darüberliegt, gilt die zweite Versandkostenregel. Die Ware wird ohne Versandkosten geliefert.
+If the customer buys products with a purchase value of €80 or above, the second shipping rule will apply. In this case, the products will be shipped for free.
 
 .. image:: ../../media/screenshots/oxbafw03.png
-   :alt: Warenkorb mit Artikel über 80 € Warenwert
+   :alt: Shopping cart with products valued over €80
    :class: with-shadow
    :height: 261
    :width: 550
 
-.. seealso:: :doc:`Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Products - Main tab <../artikel/registerkarte-stamm>` | :doc:`Shipping cost rules - Main tab <../versandkostenregeln/registerkarte-stamm>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
 
 .. Intern: oxbafw, Status:

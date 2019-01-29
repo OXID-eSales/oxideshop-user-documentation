@@ -1,7 +1,7 @@
-Update-Installation
+﻿Installing updates
 ===================
 
 .. toctree::
    :maxdepth: 1
 
-   update-installation
+   installing updates

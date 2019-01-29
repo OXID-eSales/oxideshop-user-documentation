@@ -1,6 +1,6 @@
-﻿Registerkarte Erweitert
+﻿Extended tab
 =======================
-Auf der Registerkarte :guilabel:`Erweitert` können ergänzende Informationen zum Benutzer gespeichert werden. Zusätzlich wird die Rechnungsanschrift des Benutzers angezeigt. Diese kann nur auf der Registerkarte Stamm geändert werden.
+The :guilabel:`Extended` tab allows you to store additional information about the user. In addition, the user’s billing address is displayed. The billing address can only be changed in the Main tab.
 
 .. image:: ../../media/screenshots/oxbads01.png
    :alt: 
@@ -8,32 +8,32 @@ Auf der Registerkarte :guilabel:`Erweitert` können ergänzende Informationen zu
    :height: 334
    :width: 650
 
-:guilabel:`Telefon privat` |br|
-Telefonnummer, unter welcher der Kunde privat zu erreichen ist.
+:guilabel:`Evening Phone` |br|
+Phone number to reach the customer privately.
 
-:guilabel:`Telefon mobil` |br|
-Handynummer des Kunden.
+:guilabel:`Cellular Phone` |br|
+Customer’s cell phone number.
 
 :guilabel:`Newsletter` |br|
-Wenn der Kunde Newsletter vom Shop erhalten möchte, kann er das beim Kauf oder bei der Registrierung auswählen. Nachdem der Newsletter durch das sogenannte Double-Opt-in freigeschaltet wurde, indem der Kunde einen per E-Mail erhaltenen Link zur Bestätigung angeklickt hat, ist dieses Kontrollkästchen aktiviert. Der Newsletter wird an die in der Registerkarte Stamm hinterlegte E-Mail-Adresse geschickt. Die Einstellung zum Abonnement des Newsletters kann hier vom Shopbetreiber bei Bedarf geändert werden. Auch wenn der Kunde den Newsletter abbestellt, wird die Funktion deaktiviert.
+If customers want to receive newsletters from the shop, they can choose this option when buying a product or registering in the shop. This box will be checked after the customer clicks on a confirmation link received by email and activates the newsletter via the so-called double opt-in. The newsletter will be sent to the email address stored in the Main tab. Shop owners can use this checkbox to change newsletter subscription settings if needed. This function will also be disabled if the customer cancels the subscription.
 
-:guilabel:`E-Mail Adr. ungültig` |br|
-Hat der Kunde beim Kauf oder bei der Registrierung seine E-Mail-Adresse fehlerhaft eingegeben, kann der Newsletter nicht versandt werden. Der Shopbetreiber erhält eine entsprechende Fehlermeldung vom Mailsystem und kann hier das Verschicken des Newsletters deaktivieren. Für andere E-Mails, beispielsweise eine Versandbestätigung, wird weiterhin die bekannte E-Mail-Adresse verwendet.
+:guilabel:`Email adr. is invalid` |br|
+The newsletter can’t be sent if the customer has entered an incorrect email address when buying a product or registering in the shop. The shop owner will receive a corresponding error message from the mail system and will be able to use this checkbox to deactivate the sending of the newsletter. The indicated email address will still be used for other emails, such as shipping confirmation.
 
-:guilabel:`Bonität` |br|
-Dieser Wert steht für die Kreditwürdigkeit des Kunden und bestimmt, welche Zahlungsarten dieser im Shop verwenden kann. Damit kann der Shopbetreiber Zahlungsarten, wie Rechnung oder Lastschrift, nur für bestimmte Kunden zulassen. Standardmäßig werden Benutzer mit einem Bonitätswert von 1000 angelegt.
+:guilabel:`Credit Rating` |br|
+This value represents the customer’s creditworthiness and determines what payment methods he/she can use in the shop. This allows the shop owner to specify that only certain customers can use payment methods, such as invoice or direct debit. By default, users are created with a credit rating of 1000.
 
 :guilabel:`URL` |br|
-In diesem Feld kann eine Webadresse, beispielsweise die der Webseite eines Geschäftskunden, die einer privaten Webseite oder eines Blogs, gespeichert werden.
+This field can be used to store a web address, such as a business customer's web page, a private web page or a blog.
 
-:guilabel:`Bonuspunkte` |br|
-Dem Benutzer können Bonuspunkte gutgeschrieben werden, wenn er Kunden für den Shop geworben hat. Auch ein geworbener Kunde kann Bonuspunkte erhalten, wenn er sich im Shop registriert. Die Funktion muss in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Einladungen` aktiviert worden sein. Hier wird auch die Anzahl der Bonuspunkte für Neukunden und Registrierung festgelegt. Der Shopbetreiber bestimmt selbst, wie er die Bonuspunkte der Benutzer im Rahmen seines Geschäftsmodells einsetzt.
+:guilabel:`Credit points` |br|
+Users can earn bonus points for bringing customers to the shop. Newly recruited customers can also receive bonus points when they register in the shop. You will need to first activate this function in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Invitations`. This is where you can also specify the number of bonus points for inviting new customers and for registering in the shop. The shop owner determines how to use the users’ bonus points in the context of his/her business model.
 
-:guilabel:`Keine automatische Benutzergruppen-Zuordnung` |br|
-Benutzer werden auf Grund von Bedingungen automatisch bestimmten Benutzergruppen zugeordnet. Abonniert ein Benutzer beispielsweise den Newsletter, wird er in die Benutzergruppe \"Newsletter-Abonnent\" aufgenommen. Beim Einkauf entscheidet das Bestellvolumen, ob der Benutzer zukünfig zur Benutzergruppe \"Kleiner Umsatz\", \"Mittlerer Umsatz\" oder \"Großer Umsatz\" gehört. Mehr Informationen dazu unter Benutzergruppen.
+:guilabel:`No automatic assignment of user groups` |br|
+Users are automatically assigned to specific user groups based on certain conditions. For example, if a user subscribes to the newsletter, he/she will be added to the \"Newsletter Recipients\" user group. When the user buys a product, the order volume will determine whether he/she will belong to the \"Less Turnover\", \"Medium Turnover\" or \"Huge Turnover\" user group in the future. More information can be found in the User Groups section.
 
-Soll keine automatische Zuordnung des Benutzers zu Benutzergruppen erfolgen, deaktivieren Sie diese Funktion hier.
+Deactivate this function if you don’t want to assign the user to user groups automatically.
 
-.. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`
+.. seealso:: :doc:`User groups <../benutzergruppen/benutzergruppen>`
 
 .. Intern: oxbads, Status:, F1: user_extend.html

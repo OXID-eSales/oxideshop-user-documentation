@@ -1,45 +1,45 @@
-﻿Attribute
+﻿Attributes
 =========
-Artikel verfügen standardmäßig über eine Reihe von Eigenschaften, mit denen sie charakterisiert werden können. Dazu gehören beispielsweise das Gewicht, die Abmessungen oder die Menge. Mit den Attributen haben Shopbetreiber eine flexible Lösung, um eigene Artikeleigenschaften zu definieren und diese dem jeweiligen Artikel mit einem entsprechenden Wert zuzuweisen.
+By default, products have a number of characteristics, including, e.g., weight, dimensions or quantity. Attributes are a flexible solution that allows shop owners to define their own product characteristics and assign them to the respective product with an appropriate value.
 
-In der Detailansicht des Artikels wird dadurch eine neue Registerkarte :guilabel:`SPEZIFIKATION` mit den Attributen und deren Werten eingeblendet. Zusätzlich kann der Wert des Attributes beim Artikel im Warenkorb und beim Bestellabschluss angezeigt werden.
+This way, a new :guilabel:`SPECIFICATION` tab displaying the attributes and their values will be added to the product’s detailed view. In addition, the value of the product’s attribute can be displayed in the shopping cart and during the checkout process.
 
-Werden Attribute zu Kategorien zugeordnet, lassen sich die Kategorien nach diesen Attributen filtern. In der Kategorieübersicht des Shops können in einer Dropdown-Liste alle Werte des Attributes ausgewählt werden.
+If attributes are assigned to categories, the categories can be filtered according to these attributes. All attribute values can be selected in a drop-down list in the shop’s category overview.
 
-Attribute dienen auch dazu, ähnliche Artikel zu erkennen und auf der Detailseite oder im Newsletter zu offerieren. Die Anzahl ähnlicher Artikel, die bei einem Artikel angezeigt werden, kann im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` definiert werden. Achten Sie bitte darauf, dass das Kontrollkästchen bei :guilabel:`Ähnliche Artikel laden` auf der Registerkarte :guilabel:`Perform.` gesetzt ist.
+Attributes also serve to recognise similar products and to offer them on the details page or in the newsletter. The number of similar products displayed for a product can be defined in the Admin panel under :menuselection:`Master Settings --> Core Settings --> Settings --> Products`. Please make sure to check the :guilabel:`Load similar Products` box in the :guilabel:`Perform.` tab.
 
 .. image:: ../../media/screenshots/oxbaff01.png
-   :alt: Attribute
+   :alt: Attributes
    :class: with-shadow
    :height: 530
    :width: 650
 
-Attribute können im Administrationsbereich unter :menuselection:`Artikel verwalten --> Attribute` bearbeitet werden. Es werden eine Liste der Attribute und darunter der Eingabebereich für die Attribute angezeigt.
+Attributes can be edited in the Admin panel under :menuselection:`Administer Products --> Attributes`. Here, you will see the list of the attributes and the input area right below it.
 
-Die Attributliste zeigt alle verfügbaren Attribute in alphabetischer Reihenfolge. Nach Attributen kann gesucht werden, indem das Suchfeld für dessen Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"z\" ein, werden Ihnen die Attribute \"Anzeige\" und \"Einsatzbereich\" angezeigt.
+The attribute list shows all available attributes in alphabetical order. You can search for the attributes by using the search field above the attribute list. For example, if you type \"m\" in the search box, you will see the \"Material\" and \"Model\" attributes displayed in the list.
 
-Attribute lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
+Attributes can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
-Wird ein Attribut aus der Attributliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Attributes klicken Sie am unteren Bildschirmrand auf :guilabel:`Neues Attribut anlegen`.
+When you select an attribute from the attribute list, the attribute information will be displayed in the input area. To create a new attribute, click on :guilabel:`Create new Attribute` at the bottom of the screen.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: Attribut eines Artikels, Sortierung der Attribute, Attribut im Bestellprozess, kaufrelevante Informationen, Button-Lösung, Attribut zu Artikeln zuordnen, ähnliche Artikel |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: product attribute, sorting attributes, attribute in ordering process, information relevant to purchase, Button Solution, assigning attribute to products, similar products |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Kategorien
+Category tab
 ------------------------
-**Inhalte**: Attribut zu Kategorien zuordnen, Kategorien nach Attributen filtern, Sortierung der Attribute |br|
-:doc:`Artikel lesen <registerkarte-kategorien>` |link|
+**Contents**: assigning attributes to categories, filtering categories by attributes, sorting attributes |br|
+:doc:`Read article <registerkarte-kategorien>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Attribute vererben, Attribute verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: inheriting attributes, assigning attributes, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
-.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
+.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Products - Selection tab <../artikel/registerkarte-auswahl>`
 
 .. Intern: oxbaff, Status:

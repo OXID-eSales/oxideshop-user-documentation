@@ -1,29 +1,29 @@
-﻿Rabatte für bestimmte Benutzer
+﻿Discounts for specific users
 ==============================
-Ein Rabatt kann für einzelne Benutzer, Benutzergruppen oder eine Kombination aus beiden gelten. Dadurch wird es beispielsweise möglich, bestimmten Kunden Ihres Online-Shops günstigere Preise anzubieten. Wurden dem Rabatt keine Benutzer oder Benutzergruppen zugeordnet, gilt er für alle Kunden. Wurden hingegen Benutzer und Benutzergruppen zugeordnet, müssen Kunden sowohl in mindestens einer der zugewiesenen Benutzergruppen, als auch unter den zugewiesenen Benutzern sein. Nur dann ist der Rabatt für sie gültig.
+A discount can apply to individual users, user groups, or a combination of both. This allows you to offer cheaper prices to specific customers of your online shop. If no users or user groups have been assigned to the discount, it will apply to all customers. However, if users and user groups have been assigned, customers will need to be in at least one of the assigned user groups as well as among the assigned users That is the only way for the discount to apply to them.
 
-Der Rabatt wird Benutzern zugewiesen.
+The discount is assigned to users.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Rabatte`.
-* Wählen Sie einen Rabatt aus der Liste der Rabatte oder legen Sie einen neuen an.
-* Bei einem neuen Rabatt vergeben Sie einen aussagekräftigen Namen und legen Sie fest, um wie viel der reguläre Preis reduziert werden soll.
-* Betätigen Sie die Schaltfläche :guilabel:`Benutzer zuordnen` auf der Registerkarte :guilabel:`Benutzer`.
-* Verschieben Sie einen oder mehrere Benutzer per Drag \& Drop in die rechte Liste des Zuordnungsfensters. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
-* Schließen Sie das Zuordnungsfenster.
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Shop Settings --> Discounts`.
+* Select a discount from the list of discounts or create a new one.
+* If the discount is new, enter a descriptive name and specify by how much the regular price should be reduced.
+* Click on :guilabel:`Assign Users` in the :guilabel:`Users` tab.
+* Drag and drop one or several users into the right-hand list of the assignment window. Hold down the Ctrl key to select multiple users.
+* Close the assignment window.
+* Save the changes.
 
-Der Rabatt wird Benutzergruppen zugeordnet.
+The discount is assigned to user groups.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Rabatte`.
-* Wählen Sie einen Rabatt aus der Liste der Rabatte oder legen Sie einen neuen an.
-* Bei einem neuen Rabatt vergeben Sie einen aussagekräftigen Namen und legen Sie fest, um wie viel der reguläre Preis reduziert werden soll.
-* Betätigen Sie die Schaltfläche :guilabel:`Benutzergruppen zuordnen` auf der Registerkarte :guilabel:`Benutzer`.
-* Verschieben Sie eine oder mehrere Benutzergruppen per Drag \& Drop in die rechte Liste des Zuordnungsfensters. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
-* Schließen Sie das Zuordnungsfenster.
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Shop Settings --> Discounts`.
+* Select a discount from the list of discounts or create a new one.
+* If the discount is new, enter a descriptive name and specify by how much the regular price should be reduced.
+* Click on :guilabel:`Assign User Groups` in the :guilabel:`Users` tab.
+* Drag and drop one or several user groups into the right-hand list of the assignment window. Hold down the Ctrl key to select multiple user groups.
+* Close the assignment window.
+* Save the changes.
 
-Der Rabatt gilt für alle zugeordneten Benutzer und/oder Benutzergruppen.
+The discount will apply to all assigned users and/or user groups.
 
-.. seealso:: :doc:`Rabatte - Registerkarte Benutzer <registerkarte-benutzer>` | :doc:`Benutzer <../benutzer/benutzer>` | :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>`
+.. seealso:: :doc:`Discounts - Users tab <registerkarte-benutzer>` | :doc:`Users <../benutzer/benutzer>` | :doc:`User groups <../benutzergruppen/benutzergruppen>`
 
 .. Intern: oxbahp, Status:

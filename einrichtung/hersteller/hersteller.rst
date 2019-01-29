@@ -1,50 +1,50 @@
-﻿Hersteller
+﻿Manufacturers
 ==========
 
-Im OXID eShop lassen sich Hersteller verwalten, denen Artikel zugeordnet werden können. Auf diese Weise lassen sich Artikel unabhängig von den Kategorien im Shop unter dem Aspekt der Markenzugehörigkeit zusammenfassen. Im Administrationsbereich können Artikel nach der Hersteller-ID gefiltert und angezeigt werden. Im Frontend werden die Marken des Shops in einem Slider präsentiert, im Fußbereich aufgelistet und können in einer Übersicht angezeigt werden.
+OXID eShop allows you to manage manufacturers, to which products can be assigned. This way, you can combine products by brand affiliation regardless of the categories in the shop. Products can be filtered and displayed according to the manufacturer ID in the Admin panel. Shop brands are presented in a slider, listed in the footer and can be displayed in an overview in the front end.
 
 .. image:: ../../media/screenshots/oxbagb01.png
-   :alt: Nach Hersteller | Alle Marken
+   :alt: By manufacturer | All brands
    :class: with-shadow
    :height: 649
    :width: 650
 
-Darüber kann eine Übersicht aller Marken oder eine Übersicht aller Artikel einer Marke aufgerufen werden. Damit die Hersteller als Marken im Frontend angezeigt werden, muss die Funktion Herstellerliste laden und anzeigen in den Performance-Einstellungen aktiviert sein. Setzen Sie ein Häkchen in das Kontrollkästchen unter :menuselection:`Stammdaten --> Grundeinstellungen` --> Registerkarte :guilabel:`Perform.`
+In addition, an overview of all brands or an overview of all the products of a particular brand can be displayed. For the manufacturers to be displayed as brands in the front end, you will need to activate the “Load and display Manufacturer List” function in the Performance settings. To do this, check the box under :menuselection:`Master Settings --> Core Settings` --> :guilabel:`Perform.` tab.
 
-Um Hersteller zu erstellen oder zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Stammdaten --> Hersteller`.
+Go to :menuselection:`Core Settings --> Brands/Manufacturers` in the shop’s Admin panel to create or edit manufacturers.
 
 .. image:: ../../media/screenshots/oxbagb02.png
-   :alt: Hersteller
+   :alt: Manufacturers
    :class: with-shadow
    :height: 528
    :width: 650
 
-Es werden eine Liste der Hersteller und darunter der Eingabebereich für den Hersteller angezeigt. Die Herstellerliste enthält Titel und Kurzbeschreibung der Hersteller. Nach Herstellern kann gesucht werden, indem die Suchfelder verwendet werden. Geben Sie beispielsweise in das Suchfeld über :guilabel:`Titel` die Zeichenfolge \"er\" ein, so bekommen Sie drei Hersteller aus den Demodaten aufgelistet, bei denen \"er\" im Titel vorkommt.
+Here, you will see a list of manufacturers and the input area right below it. The manufacturer list contains the title and short description of the manufacturer. You can search for manufacturers by using the search fields. For example, if you type \"er\" in the search field above :guilabel:`Title`, you will see three manufacturers with \"er\" in their title listed in the demo shop.
 
-Hersteller lassen sich löschen. Verwenden Sie dafür das Löschsymbol am Ende der Zeile in der Herstellerliste.
+To delete manufacturers, use the trash icon at the end of the line in the manufacturer list.
 
-Wird ein Hersteller aus der Liste gewählt, werden dessen Informationen in den Eingabebereich geladen. In der Fußzeile finden Sie die Funktionen: :guilabel:`Neuen Hersteller anlegen`, :guilabel:`Artikelanzahl in den Herstellern zurücksetzen` und :guilabel:`Hilfe starten`.
+When you select a manufacturer from the list, its information will be displayed in the input area. The footer contains the following links: :guilabel:`Create new Manufacturer`, :guilabel:`Reset Number of Products in Manufacturers` and :guilabel:`Start Help`.
 
-.. hint:: Um in der Artikelliste nach Herstellern suchen zu können, benötigen Sie die Hersteller-ID. Diese wird Ihnen am unteren Bildschirmrand angezeigt, sobald Sie einen Hersteller aus der Herstellerliste auswählen. Mit der rechten Maustaste kann dieser Link kopiert und die jeweilige Hersteller-ID entnommen werden. Beispiel für einen Link: javascript:top.oxid.admin.editThis('9434afb379a46d6c141de9c9e5b94fcf'); Die Hersteller-ID für Kuyichi aus den Demodaten lautet 9434afb379a46d6c141de9c9e5b94fcf.
+.. hint:: To search for manufacturers in the product list, you will need the manufacturer ID. It will be displayed at the bottom of the screen when you select a manufacturer from the list of manufacturers. Right-click to copy this link and obtain the relevant manufacturer ID. Example of a link: javascript:top.oxid.admin.editThis('9434afb379a46d6c141de9c9e5b94fcf'); The manufacturer ID for Kuyichi from the demo data is 9434afb379a46d6c141de9c9e5b94fcf.
 
 -----------------------------------------------------------------------------------------
 
-Registerkarte Stamm
+Main tab
 -------------------
-**Inhalte**: aktiver Hersteller, Marke, Titel, Kurzbeschreibung, Icon, Herstellerlogo, Hochladen, Upload auf Webserver, automatisch generiert, Artikel zuordnen |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+**Contents**: active manufacturer, brand, title, short description, icon, manufacturer’s logo, uploading, uploading to web server, automatically generated, assigning products |br|
+:doc:`Read article <registerkarte-stamm>` |link|
 
-Registerkarte Mall
+Mall tab
 ------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Hersteller vererben, Hersteller verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall, Enterprise Edition |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+Available only in Enterprise Edition |br|
+**Contents**: inheriting manufacturers, assigning manufacturers, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
+:doc:`Read article <registerkarte-mall>` |link|
 
-Registerkarte SEO
+SEO tab
 -----------------
-**Inhalte**: Suchmaschinenoptimierung, SEO, SEO URL, Titel Suffix, URL fixieren, Meta-Tags, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\"\ |br|
-:doc:`Artikel lesen <registerkarte-seo>` |link|
+**Contents**: search engine optimisation, SEO, SEO URL, title suffix, fixing URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\"\ |br|
+:doc:`Read article <registerkarte-seo>` |link|
 
-.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
+.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Distributors <../lieferanten/lieferanten>`
 
 .. Intern: oxbagb, Status:

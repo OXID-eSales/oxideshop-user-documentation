@@ -1,20 +1,20 @@
-﻿Vererbbare Elemente
+﻿Inheritable elements
 ===================
 
-Vererbbare Elemente werden einem Shop von einem anderen Shop zugewiesen. Beim Erstellen eines Shops können folgende Elemente vererbt werden: Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten und Links. Die vererbten Elemente sind, von einigen Ausnahmen abgesehen, im neuen Shop inhaltlich nicht änderbar.
+Inheritable elements are assigned to one shop from another shop. The following elements can be inherited when creating a shop: products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, news, and links. With some exceptions, the content of the inherited elements can’t be changed in the new shop.
 
 .. image:: ../../../media/screenshots/oxbagp01.png
-   :alt: Vererbungseinstellungen
+   :alt: Inheritance settings
    :class: with-shadow
-   :height: 344
+   :height: 335
    :width: 650
 
-Unter :menuselection:`Stammdaten --> Grundeinstellungen` lassen sich auf der Registerkarte :guilabel:`Mall` die Vererbungseinstellungen eines neuen Shops jederzeit ändern. Wird das Häkchen beim jeweiligen Kontrollkästchen einer Vererbungseinstellung entfernt, wird die Vererbung in Echtzeit rückgängig gemacht.
+Inheritance settings for a new shop can be changed at any time in the :guilabel:`Mall` tab under :menuselection:`Master Settings --> Core Settings`. If you uncheck the box for any of the inheritance settings, the inheritance will be reversed in real time.
 
-Beim Elternshop kann auch auf der Ebene einzelner Artikel, Attribute, Auswahllisten usw. die durch die Vererbung erstellte Verknüpfung rückgängig gemacht werden. Es lassen sich aber auch beispielsweise Artikel, die im Elternshop neu angelegt wurden, im Nachhinein mit Subshops oder Supershops verknüpfen. Auch die Verknüpfung einzelner Kategorien mit Shops ist möglich. Das gilt aber ausschließlich für Top-Kategorien (oberste Ebene des Kategoriebaums), bei deren Verknüpfung alle ihre Unterkategorien mit einbezogen werden. Dabei bleiben die Zuordnungen von Artikeln zu den verknüpften Kategorien erhalten.
+In the parent shop, the assignment created by inheritance can also be undone at the level of individual products, attributes, selection lists, etc. For example, you can also assign products that have been newly created in the parent shop to subshops or supershops afterwards. Individual categories can be assigned to shops as well. However, this only applies to top categories (top level of the category tree) that are assigned with all their subcategories included. Products assigned to the assigned categories are retained.
 
-Im Subshop kann eine Verknüpfung nur gelöst werden, indem beispielsweise der Artikel, die Versandkosten oder eine Versandkostenregel gelöscht werden. Das Erstellen einer neuen Verknüpfung zu einzelnen Artikeln und Einstellungen des Elternshops ist nicht möglich.
+In the subshop, an assignment can only be removed by deleting the product, the shipping costs or a shipping cost rule, for example. You won’t be able to create a new assignment to individual products and settings of the parent shop.
 
-.. seealso:: :doc:`Artikel <../../../einrichtung/artikel/artikel>` | :doc:`Attribute <../../../einrichtung/attribute/attribute>` | :doc:`Auswahllisten <../../../einrichtung/auswahllisten/auswahllisten>` | :doc:`Versandarten <../../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../../einrichtung/versandkostenregeln/versandkostenregeln>` | :doc:`Hersteller <../../../einrichtung/hersteller/hersteller>` | :doc:`Lieferanten <../../../einrichtung/lieferanten/lieferanten>` | :doc:`Kategorien <../../../einrichtung/kategorien/kategorien>`
+.. seealso:: :doc:`Products <../../../einrichtung/artikel/artikel>` | :doc:`Attributes <../../../einrichtung/attribute/attribute>` | :doc:`Selection lists <../../../einrichtung/auswahllisten/auswahllisten>` | :doc:`Shipping methods <../../../einrichtung/versandarten/versandarten>` | :doc:`Shipping cost rules <../../../einrichtung/versandkostenregeln/versandkostenregeln>` | :doc:`Manufacturers <../../../einrichtung/hersteller/hersteller>` | :doc:`Distributors <../../../einrichtung/lieferanten/lieferanten>` | :doc:`Categories <../../../einrichtung/kategorien/kategorien>`
 
 .. Intern: oxbagp, Status:

@@ -1,22 +1,22 @@
-﻿Registerkarte Bilder
+﻿Picture tab
 ====================
 
-Wurden für die Kategorie ein Bild und/oder ein Icon hochgeladen, werden die Bilder auf dieser Registerkarte in der Vorschau angezeigt.
+If an image and/or icon has been uploaded for the category, it will be displayed as a preview in this tab.
 
 .. image:: ../../media/screenshots/oxbabm01.png
-   :alt: Kategorien - Registerkarte Bilder
+   :alt: Categories - Picture tab
    :class: with-shadow
    :height: 341
    :width: 650
 
-Als :guilabel:`Thumbnail` ist dabei das Bild zu sehen, welches in der Kategorieansicht als Banner angezeigt wird, sobald die Kategorie im Shop aufgerufen wird. Das :guilabel:`Icon` stellt eine Unterkategorie in der Kategorieansicht dar.
+:guilabel:`Thumbnail` is the image that is displayed as a banner in the category view as soon as the category is accessed in the shop. :guilabel:`Icon` represents a subcategory in the category view.
 
 .. image:: ../../media/screenshots/oxbabm02.png
-   :alt: Kategorieansicht
+   :alt: Category view
    :class: with-shadow
    :height: 330
    :width: 650
 
-Im Screenshot wird die Kategorie \"Kiteboarding\" mit einem Bild/Thumbnail dargestellt, für die Unterkategorien \"Kites\", \"Kiteboards\", \"Trapeze\" und \"Zubehör\" wird deren Icon angezeigt.
+The screenshot shows the \"Kiteboarding\" category with an image/thumbnail. For the \"Kites\", \"Kiteboards\", \"Harnesses\" and \"Accessories\" subcategories, their icon will be displayed.
 
 .. Intern: oxbabm, Status:, F1: category_pictures.html

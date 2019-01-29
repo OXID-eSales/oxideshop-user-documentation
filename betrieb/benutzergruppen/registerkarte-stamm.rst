@@ -1,27 +1,27 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
 
-Auf der Registerkarte :guilabel:`Stamm` kann der Name einer Benutzergruppe angegeben bzw. geändert werden. Die Benutzergruppe lässt sich hier aktivieren oder deaktivieren. Wird eine Benutzergruppe neu angelegt, wird nach dem ersten Speichern eine zusätzliche Schaltfläche :guilabel:`Kopieren` angezeigt. Nach Auswahl der Sprache aus einer Dropdown-Liste kann die Benutzergruppe in diese Sprache des Shops kopiert und bearbeitet werden.
+The :guilabel:`Main` tab can be used to specify or change the name of a user group and to activate or deactivate it. An additional :guilabel:`Copy to` button will be displayed for all newly created user groups after you save them for the first time. Select a language from the drop-down list to copy the user group into this shop’s language and edit it.
 
 .. image:: ../../media/screenshots/oxbaea01.png
-   :alt: Benutzergruppen - Registerkarte Stamm
+   :alt: User groups - Main tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-:guilabel:`Aktiv` |br|
-Aktivieren Sie das Kontrollkästchen, damit die Benutzergruppe im Shop verwendet werden kann. Wenn eine Benutzergruppe nicht aktiviert wurde, ist sie in der Datenbank vorhanden, wird jedoch nicht in den Zuordnungsfenstern für Benutzergruppen angezeigt. Wenn Sie eine Benutzergruppe aktivieren oder deaktivieren gilt dies für alle Sprachen.
+:guilabel:`Active` |br|
+Check this box to be able to use the user group in the shop. If the user group hasn’t been activated, it will be saved in the database but won’t be displayed in the assignment windows for the user groups. When you activate or deactivate a user group, this setting will apply to all languages.
 
 :guilabel:`Name` |br|
-Die Benutzergruppe wird mit diesem Namen im Administrationsbereich des Shops angezeigt. Sie wird damit beispielsweise unter :guilabel:`Benutzer verwalten` --> :guilabel:`Benutzergruppen` oder den jeweiligen Zuordnungsfenstern bei Zahlungsarten, Versandarten, Versandkostenregeln, Rabatten oder Gutscheinserien aufgelistet.
+The name of the user group displayed in the shop’s Admin panel. For example, this name will be listed under :guilabel:`Administer Users` --> :guilabel:`User Groups` or in the respective assignment windows for the payment and shipping methods, shipping cost rules, discounts or coupon series.
 
-:guilabel:`In Sprache` |br|
-Aus einer Dropdown-Liste kann eine Sprache ausgewählt werden, in welcher der Name der Benutzergruppe bearbeitet werden soll. Die Benutzergruppe muss zuvor in diese Sprache kopiert worden sein.
+:guilabel:`In Language` |br|
+Use the drop-down list to select a language in which you want to edit the name of the user group. The user group must have been previously copied into this language.
 
-:guilabel:`Kopieren` |br|
-Das Betätigen der Schaltfläche macht die Benutzergruppe für eine weitere Sprache, die in der Dropdown-Liste ausgewählt wurde, verfügbar. Wurde die Benutzergruppe in alle Sprachen des Shops kopiert, wird die Schaltfläche und die dazugehörige Dropdown-Liste nicht mehr angezeigt.
+:guilabel:`Copy to` |br|
+Clicking on this button will make the user group available for another language selected in the drop-down list. If the user group has been copied to all of the shop’s languages, the button and the corresponding drop-down list will no longer be displayed.
 
-:guilabel:`Benutzer zuordnen` |br|
-Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzer` und :guilabel:`Mitglieder der Benutzergruppe`. Die Benutzergruppen lassen sich nach E-Mail/Login filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+:guilabel:`Assign Users` |br|
+Clicking on this button will open the assignment window with the two lists - :guilabel:`All Users` and :guilabel:`User Group Members` - displayed. User groups can be filtered and sorted by email/login. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
 .. Intern: oxbaea, Status:, F1: usergroup_main.html

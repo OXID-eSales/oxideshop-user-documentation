@@ -1,29 +1,29 @@
-﻿Registerkarte Crosssell.
+﻿Crosssell. tab
 ========================
-Mit Cross-Selling haben Sie die Möglichkeit, den Kunden verwandte Artikel und/oder Zubehör zu einem Artikel anzubieten. Die Zuordnung der Artikel erfolgt auf der :guilabel:`Registerkarte Crosssell.`
+Cross-selling allows you to offer related products and/or product accessories to your customers. Products can be assigned in the :guilabel:`Crosssell.` tab.
 
-Beim Cross-Selling (Quer- oder Kreuzverkauf) geht es darum, Artikel, die zueinander passen und sich ergänzen, gemeinsam anzubieten und zu verkaufen. Sie können beispielsweise zu einem MP3-Player die dazugehörigen Batterien und Akkus anbieten, zu Gläsern die jeweiligen Getränke und umgekehrt. Zugeordnete Artikel werden auf der rechten Seite der Detailansicht eines Artikels in einer zusätzlichen Produktbox \"Schon gesehen?\" angezeigt. Titel, ein Artikelbild der Größe Icon und der Preis informieren über zugeordnete Artikel, die auch verlinkt sind.
+Cross-selling is about offering and selling products that work well together and complement each other. For example, you can offer the corresponding (rechargeable) batteries for an MP3 player, the respective drinks for glasses, and vice versa. The assigned products are displayed in an additional \"Have you seen?\" product box on the right side of the product’s detailed view. The title, the picture of the size icon and the price inform the customers about the assigned products that are linked as well.
 
-Die Anzahl der in der Produktbox angezeigten Artikel wird in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Artikel` festgelegt. Sie gilt auch für das Zubehör. Sollen die zugewiesenen Artikel in ihrer Detailansicht auch den Artikel anzeigen, dem sie zugewiesen wurden, muss das bidirektionale Cross-Selling aktiviert werden. Sie finden diese Einstellung in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen`.
+The number of products displayed in the product box can be specified in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Products`. The same applies to the accessories. If you want the products to display the product, to which they were assigned, in their detailed view, you will need to enable bidirectional cross-selling. This setting can be found in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Other settings`.
 
 .. image:: ../../media/screenshots/oxbacn01.png
-   :alt: Artikel - Registerkarte Crosssel.
+   :alt: Products - Crosssel. tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Auf eine etwas weniger flexiblere Art verknüpfen Sie Artikel als Zubehör. Der zugeordnete Artikel wird in der Rubrik \"Zubehör\" auf der rechten Seite der Detailansicht vorgestellt. Für Zubehör gibt es keine bidirektionale Anzeige.
+Assigning products as accessories takes place in a less flexible way. The assigned product will be displayed in the \"Accessories\" section on the right side of the detailed view. There is no bidirectional display for accessories.
 
-.. hint:: Sie haben auch die Möglichkeit, beim Kauf eines Artikels eine kostenlose Zugabe in den Warenkorb zu legen. Öffnen Sie dafür die Registerkarte :guilabel:`Erweitert` des Artikels, für den die Zugabe vorgesehen ist. Über die Schaltfläche :guilabel:`Artikel dazu` weisen Sie den Gratisartikel zu. Diese Funktion ist nur für die Community und Professional Edition verfügbar.
+.. hint:: You can also add a gift to the shopping cart when the customers purchase a product. To do this, open the :guilabel:`Extended` tab of the product for which you want to offer a free add-on. Click on :guilabel:`Bundled Product` to assign the free product. This function is available only for Community and Professional Edition.
 
-Um Artikel für das Cross-Selling zu verbinden, betätigen Sie die Schaltfläche :guilabel:`Crosssellings zuordnen`. Es öffnet sich ein Zuordnungsfenster, in dem Sie Artikel aus der Liste :guilabel:`Alle verfügbaren Artikel` auswählen können. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Liste ausgewählt wird. Artikel lassen sich auch nach Artikelnummer, Titel und/oder EAN filtern. Ziehen Sie die gewünschten Artikel mit der Maus in die rechte Liste. Das Cross-Selling ist damit fertig eingerichtet.
+Click on :guilabel:`Assign Crosssellings` to link products for cross-selling. This opens an assignment window where you can select products from the :guilabel:`All available Products` list. Select a category from the drop-down list if you only want to display products from this category. You can also filter products by product number, title and/or EAN. Drag the desired products into the right-hand list using the mouse to complete the assignment.
 
 .. image:: ../../media/screenshots/oxbacn02.png
-   :alt: Crosssellings zuordnen
+   :alt: Assign Crosssellings
    :class: with-shadow
    :height: 325
    :width: 400
 
-Ein zweites Zuordnungsfenster wird mit der Schaltfläche :guilabel:`Zubehör zuordnen` geöffnet. Auch hier werden in der linken Liste alle Artikel angezeigt und lassen sich wie beschrieben filtern. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit als Zubehör zugewiesen. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+Clicking on :guilabel:`Assign Accessories` opens the second assignment window. Here too, all products will be displayed in the left-hand list and can be filtered as described. They can be dragged and dropped into the right-hand list and assigned as accessories. Hold down the Ctrl key to select multiple accessories.
 
 .. Intern: oxbacn, Status:, F1: article_crossselling.html

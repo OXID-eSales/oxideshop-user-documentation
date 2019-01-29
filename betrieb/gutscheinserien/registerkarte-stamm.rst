@@ -1,75 +1,75 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
 
-Gutscheinserien fassen eine Anzahl von Gutscheinen zusammen und werden auf der Registerkarte :guilabel:`Stamm` erstellt und bearbeitet. Hier wird die Gültigkeit einer Gutscheinserie festgelegt, die gleichzeitig auch die Gültigkeit der zur Serie gehörenden Gutscheine bestimmt. Ein absoluter oder relativer Rabatt stellt den eigentlichen Wert eines Gutscheins da, der im Warenkorb angerechnet wird. Die Gutscheine einer Serie können mit einem fixen oder einem zufälligen Gutscheincode generiert und als Datei im CSV-Format exportiert werden. Eine kleine Übersicht zeigt die Anzahl aller generierten, der eingelösten und noch unbenutzten Gutscheine.
+Coupon series combine a number of coupons. They can be created and edited in the :guilabel:`Main` tab. You can define the validity of a coupon series which also determines the validity of the coupons belonging to the series. An absolute or relative discount represents the actual value of a coupon, which will be applied in the shopping cart. The coupons of a series can be generated with a fixed or a random coupon code and exported as a file in CSV format. A small overview shows the number of all generated, redeemed and unused coupons.
 
 .. image:: ../../media/screenshots/oxbahs01.png
-   :alt: Gutscheinserien - Registerkarte Stamm
+   :alt: Coupon series - Main tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Die Zuordnung von Benutzergruppen, Kategorien und/oder Artikeln erfolgt auf einer weiteren Registerkarte.
+The assignment of user groups, categories and/or products takes place in the next tab.
 
 :guilabel:`Name` |br|
-Name der Gutscheinserie. Dieser wird ausschließlich in der Liste der Gutscheinserien angezeigt und ist dort suchbar.
+Name of the coupon series. This is only displayed in the list of coupon series and can be used to search for coupon series.
 
-:guilabel:`Beschreibung` |br|
-Mit einer kurzen Beschreibung können detailliertere Informationen zu einer Gutscheinserie hinterlegt werden
+:guilabel:`Description` |br|
+Enter a short description to provide more detailed information about a coupon series.
 
-:guilabel:`Gültig von` |br|
-Damit Gutscheine nur in einer zeitlich begrenzten Marketingaktion, wie beispielsweise Sommerschlussverkauf, Weihnachtsgeschäft oder Mondscheinaktion, einsetzbar sind, kann für die Gutscheinserie ein entsprechender Zeitraum definiert werden. Dieser Zeitraum gilt auch für die einzelnen Gutscheine. Geben Sie hier den Beginn der Gültigkeit im Format JJJJ-MM-TT HH:MM:SS an. Ohne Anfangszeitpunkt ist die Gutscheinserie bis zu einem gesetzten Endezeitpunkt oder unbegrenzt gültig.
+:guilabel:`Valid from` |br|
+You can specify a corresponding time period for the coupon series if the coupons should only be used in a temporary marketing campaign, such as a summer sale, Christmas sale or a late night sale. This time period will also apply to the individual coupons. Enter the start of validity in the YYYY-MM-DD HH:MM:SS format. Without the start date, the coupon series will be valid until a set end time, or it is unlimited.
 
-:guilabel:`Gültig bis` |br|
-Endezeitpunkt der Gutscheinserie im Format JJJJ-MM-TT HH:MM:SS. Ohne Endezeitpunkt ist die Gutscheinserie ab einem gesetzten Anfangszeitpunkt oder unbegrenzt gültig.
+:guilabel:`Valid until` |br|
+The end of validity for the coupon series in the YYYY-MM-DD HH:MM:SS format. Without the end date, the coupon series will be valid from a set start time, or it is unlimited.
 
-:guilabel:`Rabatt` |br|
-Definieren Sie hier den Gutscheinwert, der beim Einlösen des Gutscheins im Warenkorb gewährt werden soll. Dieser kann prozentual oder absolut angegeben werden. Mit der Auswahlliste hinter dem Eingabefeld wird die Art des Gutscheinwertes ausgewählt. |br|
-:guilabel:`abs`: Der Gutscheinwert ist absolut, beispielsweise 10 €. |br|
-:guilabel:`%`: Der Gutscheinwert ist prozentual, beispielsweise 10 Prozent vom Einkaufswert.
+:guilabel:`Discount` |br|
+Define the coupon value that will be applied when the customer redeems the coupon in the shopping cart. This can be expressed as a percentage or in absolute terms. Select the type of the coupon value in the selection list following the input field. |br|
+:guilabel:`abs`: The coupon value is absolute, e.g. €10. |br|
+:guilabel:`%`: The coupon value is based on a percent, e.g. 10% of the purchase value.
 
-.. hint:: Wenn mehrere Gutscheine für eine Bestellung verwendet werden, vervielfältigt sich der Gutscheinwert eventuell in Abhängigkeit von den weiteren Einstellungen.
+.. hint:: If multiple coupons are used for an order, the coupon value may be duplicated depending on the other settings.
 
-:guilabel:`Gültig ab Einkaufswert` |br|
-Ein Gutschein dieser Serie wird vom Shop erst akzeptiert, wenn ein hier definierter Einkaufswert erreicht wurde. Ohne eine Vorgabe ist es nicht relevant, welchen Einkaufswert die Artikel im Warenkorb haben.
+:guilabel:`Valid with purchase amount` |br|
+A coupon in this series will only be accepted by the shop when a defined purchase value has been reached. If you leave this field empty, the purchase value of the products in the shopping cart won’t be taken into account.
 
-:guilabel:`Gültig mit gleicher Serie` |br|
-Legen Sie fest, ob Ihre Kunden mehrere Gutscheine der selben Gutscheinserie bei einer Bestellung verwenden dürfen. Sind mehrere Gutscheine für eine Bestellung möglich, können diese nur eingelöst werden, solange der Gesamtbetrag der Bestellung größer 0,00 € ist. Wenn Sie :guilabel:`Nein` wählen, kann nur ein Gutschein dieser Serie pro Bestellung eingelöst werden.
+:guilabel:`Valid with same Series` |br|
+Specify whether your customers may use multiple coupons from the same coupon series when placing an order. If multiple coupons can be used for an order, they will only be accepted if the total order amount is greater than €0.00. If you select :guilabel:`No`, they will only be able to redeem one coupon in this series per order.
 
-:guilabel:`Gültig mit anderer Serie` |br|
-Mit dieser Option können Sie einstellen, ob Kunden Gutscheine verschiedener Gutscheinserien bei einer Bestellung kombinieren dürfen. Ist das Optionsfeld :guilabel:`Nein` aktiviert, können Gutscheine dieser Serie nicht mit Gutscheinen anderer Serien kombiniert werden. Wurde :guilabel:`Ja` ausgewählt, muss diese\Option auch bei den zu kombinierenden Gutscheinserien auf :guilabel:`Ja` gesetzt sein.
+:guilabel:`Valid with different Series` |br|
+Use this option to specify whether customers may combine coupons of different series within one order. If you select :guilabel:`No`, they won’t be able to combine coupons from this series with coupons from other series. If you select :guilabel:`Yes`, you will also need to select :guilabel:`Yes` for the coupon series to be combined.
 
-:guilabel:`Gültig mit gleicher Serie bei einer anderen Bestellung` |br|
-Soll ein Kunde Gutscheine dieser Gutscheinserie bei mehreren Bestellungen verwenden können, muss diese Option auf :guilabel:`Ja` stehen. Gutscheine dieser Serie können nur bei einer Bestellung eingelöst werden, wenn die Option auf :guilabel:`Nein` gesetzt ist.
+:guilabel:`Valid with same Series, different Order` |br|
+Select :guilabel:`Yes` to allow your customers to use coupons from this coupon series for several orders. Select :guilabel:`No` to specify that coupons in this series can only be redeemed for one order.
 
-:guilabel:`Nur einmalig berechnen (gültig nur bei zugewiesenen Gutscheinen)` |br|
-Diese Einstellung hat nur Auswirkung auf Gutscheine einer Gutscheinserie, denen Artikel und/oder Kategorien zugeordnet sind. Ist das Kontrollkästchen angehakt, wird der Gutschein für nur einen der Gutscheinserie zugewiesenen Artikel eingelöst, auch wenn mehrere solcher Artikel im Warenkorb liegen. Ist diese Einstellung nicht aktiv, wird der Gutschein auf jeden dieser Artikel angerechnet.
+:guilabel:`Calculate only once (valid only for product or category vouchers)` |br|
+This setting only affects coupons of a coupon series that have products and/or categories assigned to them. If the box is checked, the coupon will be redeemed for only one of the products assigned to the coupon series even if the shopping cart contains several such products. If the box is not checked, the coupon will be applied to each of these products.
 
-:guilabel:`Gutscheine - Anzahl` |br|
-Anzahl der erzeugten, zur Gutscheinserie gehörenden Gutscheine.
+:guilabel:`Coupons - Quantity` |br|
+Number of coupons generated for the coupon series.
 
-:guilabel:`Gutscheine - Verfügbar` |br|
-Anzahl der Gutscheine dieser Gutscheinserie, die noch nicht verbraucht wurden.
+:guilabel:`Coupons - Available` |br|
+Number of coupons in this coupon series that have not yet been used.
 
-:guilabel:`Gutscheine - Benutzt` |br|
-Anzahl der eingelösten Gutscheine dieser Gutscheinserie.
+:guilabel:`Coupons - Used` |br|
+Number of redeemed coupons in this coupon series.
 
-:guilabel:`Neue Gutscheine anlegen (optional)` |br|
-Zu einer Gutscheinserie können beliebig viele Gutscheine erstellt werden. Es ist möglich, diese einmalig oder bei Bedarf auch mehrfach zu generieren. Beim Exportieren wird eine Datei, welche die generierten Gutscheinnummern enthält, in eine Datei geschrieben und im Verzeichnis :file:`/export` des Shops gespeichert.
+:guilabel:`Create new Coupons (optional)` |br|
+You can create as many coupons as you wish for a coupon series. They can be generated once or, if necessary, multiple times. During export, a file containing the generated coupon numbers will be written to a file and stored in the shop's :file:`/export` directory.
 
-:guilabel:`Zufallsnummern erzeugen` |br|
-Wurde diese Option aktiviert, werden Gutscheine mit einem 32-stelligen alphanumerischen Gutscheincode generiert. Beispiel für zufälligen Gutscheincode: f2119e0585d1c5514f6729c703f14bf0
+:guilabel:`Random Numbers` |br|
+If this option is enabled, coupons will be generated with a 32-digit alphanumeric coupon code. Example of a random coupon code: f2119e0585d1c5514f6729c703f14bf0
 
-:guilabel:`Gutscheinnummer` |br|
-Aktivieren Sie diese Option, wenn Sie Gutscheine mit identischem Gutscheincode anlegen wollen. Alle generierten Gutscheine erhalten den Gutscheincode, den Sie hier eingetragen haben. Beispiel für gleichen Gutscheincode: SALE2018
+:guilabel:`Coupon Number` |br|
+Enable this option if you want to create coupons with the same coupon code. All generated coupons will receive the coupon code that you have entered here. Example of the same coupon code: SALE2018
 
-:guilabel:`Anzahl` |br|
-Legen Sie hier fest, wie viel Gutscheine der Gutscheinserie generiert werden sollen.
+:guilabel:`Quantity` |br|
+Specify how many coupons in the coupon series should be generated.
 
-:guilabel:`Generieren` |br|
-Zum Erzeugen der Gutscheine betätigen Sie diese Schaltfläche. Es können bei Bedarf auch neue Gutscheine zur Gutscheinserie hinzugefügt werden. Die Gutscheine mit ihrem Gutscheincode werden in der Tabelle oxvoucher der Datenbank gespeichert.
+:guilabel:`Generate` |br|
+Press this button to generate the coupons. If necessary, you can also add new coupons to the coupon series. Coupons with their coupon code will be stored in the oxvoucher table of the database.
 
 :guilabel:`Export` |br|
-Die Schaltfläche ermöglicht es, die generierten Gutscheine mit den Gutscheincodes in eine Datei zu schreiben. Das wird vor allem dann notwendig, wenn Gutscheine mit zufälligen Gutscheincodes generiert wurden, da diese nicht im Administrationsbereich angezeigt werden. Die Datei listet alle, auch die bereits eingelösten Gutscheine auf. Sie wird im Verzeichnis :file:`/export` des Shops gespeichert und kann mit einem beliebigen Texteditor oder Tabellenkalkulationsprogramm geöffnet werden.
+The button allows you to write the generated coupons with the coupon codes in a file. This is especially necessary if coupons have been generated with random coupon codes as they are not displayed in the Admin panel. The file will list all coupons, including those already redeemed. It will be saved in the shop’s :file:`/export` directory and can be opened with any text editor or spreadsheet program.
 
 .. Intern: oxbahs, Status:, F1: voucherserie_main.html

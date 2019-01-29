@@ -1,31 +1,31 @@
-﻿Registerkarte SEO
+﻿SEO tab
 =================
-Die Registerkarte :guilabel:`SEO` des Artikels beinhaltet Informationen und\Einstellungen, die für Suchmaschinen relevant sind.
+The product’s :guilabel:`SEO` tab contains information and settings that are relevant to search engines.
 
 .. image:: ../../media/screenshots/oxbacu01.png
-   :alt: Artikel - Registerkarte SEO
+   :alt: Products - SEO tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Informationen und Einstellungen auch in einer weiteren aktiven Sprache bearbeiten.
+The language selection list at the bottom of the input area allows you to edit product’s information and settings in another active language.
 
-:guilabel:`Aktive Kategorie/Hersteller` |br|
-Ein Artikel kann unterschiedliche SEO URLs haben, abhängig davon, wie er aufgerufen wird. Das kann der Aufruf über eine Kategorie, über die Marke (den Hersteller) oder über ein Stichwort sein. Wählen Sie hier aus, welche URL Sie anzeigen und anpassen möchten.
+:guilabel:`Active Category/Vendor` |br|
+Products can have different SEO URLs, depending on how they are called up: via a category, the brand (the manufacturer) or a keyword. Select which URL you want to view and customise.
 
-:guilabel:`URL fixiert` |br|
-Ändern sich Daten eines Artikels, wie beispielsweise der Titel oder die Kategoriezuordnung, wird die SEO URL neu berechnet. Sie können das für eine ausgewählte URL deaktivieren, indem dieses Kontrollkästchen angehakt wurde. Eine bestehende SEO URL bleibt dadurch unverändert.
+:guilabel:`Fixed URL` |br|
+If product’s data changes, e.g., the title or the category assignment, the SEO URL will be recalculated. Check the box to disable this feature for the selected URL. The existing SEO URL will remain unchanged.
 
 :guilabel:`SEO URL` |br|
-Die ausgewählte URL des Artikels wird angezeigt. Sie kann geändert und auch fixiert werden.
+Displays the selected URL of the product which can also be changed and fixed.
 
-:guilabel:`Stichworte für Meta-Tags` |br|
-Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta Keywords) eingebunden. Wenn Sie nichts eingeben, werden die Stichwörter automatisch, beispielsweise aus dem Titel des Artikels, den Kategorien und den Suchbegriffen erzeugt.
+:guilabel:`META Keywords` |br|
+The keywords evaluated by search engines are integrated into the HTML source code (meta keywords). If you leave the field empty, they will be generated automatically, e.g., from the product’s title, the categories, and the search terms.
 
-:guilabel:`Beschreibungstext für Meta-Tags` |br|
-Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden. Dieser Text wird von vielen Suchmaschinen bei den Suchergebnissen angezeigt. Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Langtext des Artikels erzeugt.
+:guilabel:`META Description` |br|
+This descriptive text is included in the HTML source code (meta description). It is displayed in the search results by many search engines. If you leave this field empty, the description will be automatically generated from the product’s long text.
 
-:guilabel:`In Sprache` |br|
-Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
+:guilabel:`In Language` |br|
+Select the desired language from the list for which you want to edit the SEO information and settings.
 
 .. Intern: oxbacu, Status:, F1: article_seo.html

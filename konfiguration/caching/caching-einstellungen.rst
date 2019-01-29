@@ -1,68 +1,68 @@
-﻿Caching-Einstellungen
+﻿Caching settings
 =====================
 
-Im Administrationsbereich des OXID eShop lassen sich alle Einstellungen für das Caching vornehmen. Gehen Sie zu :menuselection:`Stammdaten --> Grundeinstellungen --> Caching`. Die Registerkarte :guilabel:`Caching` ist in drei Bereiche unterteilt: :guilabel:`Default Cache Backend`, :guilabel:`Reverse Proxy` und :guilabel:`Dynamic Content Caching`. Klicken Sie jeweils auf die Überschriften, um die dazugehörigen Einstellungen anzuzeigen.
+All caching settings can be configured in the OXID eShop Admin panel. Go to :menuselection:`Master Settings --> Core Settings --> Caching`. The :guilabel:`Caching` tab is divided into three sections: :guilabel:`Default Cache Backend`, :guilabel:`Reverse Proxy` and :guilabel:`Dynamic Content Caching`. Click each of the headings to view its settings.
 
 .. image:: ../../media/screenshots/oxbacd01.png
-   :alt: Registerkarte Caching
+   :alt: Caching tab
    :class: with-shadow
    :height: 319
    :width: 650
 
 Default Cache Backend
 ---------------------
-In diesem Abschnitt wird das Standard-Caching aktiviert. Dadurch werden statische Inhalte, wie Artikel, Kategorien, der Kategoriebaum, Mengenpreise, Inhalte von CMS-Seiten u.a. zwischengespeichert. Mit Cache Connector legen Sie den Speicherort für den Cache fest. Sie können dabei das Dateisystem nutzen oder Memcached wählen, wenn Memcached installiert wurde und verwendet werden kann.
+This section enables default caching. As a result, static content, such as products, categories, the category tree, volume prices, contents of CMS pages, etc., is cached. Cache connector specifies the location for the cache. You can use the file system or select Memcached if Memcached has been installed and can be used.
 
-Der Default Cache kann auch komplett gelöscht werden.
+The default cache can also be completely cleared.
 
-:guilabel:`Caching aktivieren` |br|
-Setzen Sie ein Häkchen, um das Standard-Caching zu aktivieren.
+:guilabel:`Enable caching` |br|
+Check this box to enable default caching.
 
-:guilabel:`Cache Lebensdauer (TTL)` |br|
-Der Standardwert für die Cache Lebensdauer ist 3.600 Sekunden. TTL steht für Time To Live. Nach dieser Zeit wird der Cache gelöscht, auch wenn er noch nie verwendet wurde.
+:guilabel:`Cache lifetime (TTL)` |br|
+The default value for the cache lifetime is 3,600 seconds. TTL stands for Time To Live. After this time, the cache is cleared even if it has never been used.
 
-:guilabel:`Cache Connector` |br|
-Wählen Sie aus der Liste den Speicherort des Caches: Dateisystem oder Memcached.
+:guilabel:`Cache connector` |br|
+Select the cache location from the list: file system or Memcached.
 
-:guilabel:`Cache-Verzeichnis` |br|
-Geben Sie ein Verzeichnis an, welches der Cache verwenden soll. Standardmäßig ist dafür das Verzeichnis :file:`/cache` vorgesehen. Das Eingabefeld wird nur angezeigt, wenn Dateisystem als Cache Connector ausgewählt wurde.
+:guilabel:`Cache directory` |br|
+Specify a directory to use for the cache. By default, this is :file:`/cache`. This input field is only displayed if file system was selected as cache connector.
 
-:guilabel:`Liste der Memcached Server ([host]@[port]@[weight])` |br|
-Tragen Sie den oder die Memcached Server ein. Die Syntax ist ``[host]@[port]@[weight]``, wobei ``@[weight]`` optional ist. Werden mehrere Memcached Server angegeben, kann über den Wert ``@[weight]`` eine Lastverteilung definiert werden. Das Eingabefeld wird nur angezeigt, wenn Memcached als Cache Connector ausgewählt wurde.
+:guilabel:`List of Memcached servers ([host]@[port]@[weight])` |br|
+Enter the Memcached server(s). The syntax is ``[host]@[port]@[weight]`` where ``@[weight]`` is optional. If several Memcached servers are specified, you can define the load balancing using the ``@[weight]`` value. This input field is only displayed if Memcached was selected as cache connector.
 
 Reverse Proxy
 -------------
-Der Abschnitt enthält die Einstellungen für die Unterstützung eines Reverse Proxys. Derzeit arbeitet der OXID eShop ausschließlich mit Varnish als Reverse Proxy zusammen. Bitte beachten Sie, dass Sie entweder Reverse Proxy oder Dynamic Content Caching verwenden sollten. Es wird davon abgeraten, beide Arten des Cachings im OXID eShop einzusetzen.
+The section contains the settings for supporting a reverse proxy. Currently, OXID eShop only supports Varnish as a reverse proxy. Please note that you should use either Reverse Proxy or Dynamic Content Caching. It’s not recommended to use both types of caching in OXID eShop.
 
-Es wird überprüft, ob der Administrationsbereich über den Reverse Proxy aufgerufen wurde. Ist das nicht der Fall, wird ein Hinweis angezeigt. Mit dem Button :guilabel:`Verfügbarkeit des Reverse Proxys testen`, kann überprüft werden, ob der Reverse Proxy für das Frontend verfügbar ist und die Voraussetzungen für das Caching gegeben sind.
+The system checks whether the Admin panel was accessed via the reverse proxy. If this is not the case, a message will be displayed. Click on :guilabel:`Test Reverse Proxy’s availability` to check whether the reverse proxy is available for the front end and whether the caching requirements are met.
 
-Der Cache des Reverse Proxys kann für alle oder bestimmte Seiten gelöscht werden.
+The cache of the reverse proxy can be cleared for all or specific pages.
 
-:guilabel:`Caching aktivieren` |br|
-Setzen Sie ein Häkchen, um das Caching mit dem Reverse Proxy zu aktivieren.
+:guilabel:`Enable caching` |br|
+Check this box to enable reverse proxy caching.
 
-:guilabel:`Cache Lebensdauer (TTL)` |br|
-Dauer in Sekunden, nach denen der Cache gelöscht wird, auch wenn er noch nie verwendet wurde. Der Standardwert ist 3.600 Sekunden.
+:guilabel:`Cache lifetime (TTL)` |br|
+Duration in seconds after which the cache is cleared even if it has never been used. The default value is 3,600 seconds.
 
-:guilabel:`Cache leeren` |br|
-Der Cache des Reverse Proxys kann für alle Seiten oder separat für die Startseite, die Detailseiten der Artikel oder für Listen- und Detailseiten gelöscht werden. Wird der Eintrag Listen- und Detailseiten ausgewählt, wird der Cache für die Listen der Kategorien, Hersteller, Lieferanten und auch für jede Detailseite aus den Kategorien gelöscht.
+:guilabel:`Flush cache` |br|
+The cache of the reverse proxy can be cleared for all pages or separately for the start page, products’ details pages or for list and details pages. Selecting “List and details pages” clears the cache for the lists of categories, manufacturers, distributors as well as for each details page from the categories.
 
-:guilabel:`Verfügbarkeit des Reverse Proxys testen` |br|
-Überprüft, ob der Reverse Proxy für das Frontend verfügbar ist. Dabei wird intern die Startseite des Shops aufgerufen und nach dem Header 'X-Varnish' gesucht, der vom Reverse Proxy Varnish geliefert wird. Das Ergebnis der Prüfung wird als Meldung ausgegeben.
+:guilabel:`Test Reverse Proxy’s availability` |br|
+Checks whether the reverse proxy is available for the front end. This will call the shop’s start page internally and search for the 'X-Varnish' header provided by Varnish. The result of the check will be displayed as a message.
 
 Dynamic Content Caching
 -----------------------
-In diesem Abschnitt finden Sie die Einstellungen zum Dynamic Content Caching, welches bisher die einzige Art des Cachings in der Enterprise Edition war. Eine Tabelle gibt eine Übersicht über die vom Cache angeforderten Daten, beispielsweise über Cache Hits für Daten, die sich im Cache befinden oder Cache Miss für Daten, die im Cache nicht mehr vorhanden sind.
+This section contains the settings for dynamic content caching, which used to be the only kind of caching in Enterprise Edition. A table provides an overview of the data requested by the cache, such as cache hits for data in the cache or cache miss for data that is no longer in the cache.
 
-Bitte verwenden Sie Dynamic Content Caching nicht zusammen mit Reverse Proxy, da beide Methoden im Wesentlichen Seiten und dynamische Inhalte zwischenspeichern. Das könnte die Performance negativ beeinflussen.
+Please don’t use dynamic content caching with reverse proxy because both methods essentially cache pages and dynamic content. That could adversely affect the performance.
 
-:guilabel:`Caching aktivieren` |br|
-Wenn Sie Dynamic Content Caching verwenden wollen, aktivieren Sie bitte das Kontrollkästchen.
+:guilabel:`Enable caching` |br|
+Check this box if you want to use dynamic content caching.
 
-:guilabel:`Cache Lebensdauer (TTL)` |br|
-Dauer in Sekunden, nach denen der Cache gelöscht wird. Der Standardwert ist 3.600 Sekunden. Nach dieser Zeit wird das Seiten-Layout ungültig. Diese Information wird über den HTTP-Header unter Verwendung des Header-Wertes \"Age\" gesendet.
+:guilabel:`Cache lifetime (TTL)` |br|
+Duration in seconds after which the cache is cleared. The default value is 3,600 seconds. After this time, the page layout becomes invalid. This information is sent via the HTTP header using the \"Age\" header value.
 
-:guilabel:`Cachebare Klassen` |br|
-Liste der Klassen, die gecached werden, standardmäßig info, start, details, alist und vendorlist.
+:guilabel:`Cacheable classes` |br|
+List of classes which are cached by default: info, start, details, alist and vendorlist.
 
 .. Intern: oxbacd, Status:

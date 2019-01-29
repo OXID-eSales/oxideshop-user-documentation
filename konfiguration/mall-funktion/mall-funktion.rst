@@ -1,41 +1,41 @@
-﻿Mall-Funktion
+﻿Mall function
 =============
 
-Die Mall-Funktion ist ein Feature der Enterprise Edition des OXID eShop. Die Mandantenfähigkeit erlaubt das Anlegen mehrerer Shops und den Aufbau einer Multishop-Struktur. Die Bearbeitung der Shops und deren verschiedenen Verknüpfungen untereinander erfolgt über einen Administrationsbereich. Die Verknüpfungen der Shops werden beim Anlegen definiert und können später geändert und individuell angepasst werden. Abhängig von der erworbenen Lizenz können mit der Enterprise Edition bis zu 1.500 Shops erstellt und bearbeitet werden. So lassen sich produkt-, zielgruppen- und länderspezifische Onlineshops umsetzen, die sich beispielsweise inhaltlich, sprachlich und im Design unterscheiden.
+The Mall function is a feature of OXID eShop Enterprise Edition. The multi-client capability allows you to create multiple shops and build a multishop structure. The shops and their assignments to each other can be edited via the Admin panel. Shop assignments are defined upon shop creation and can later be changed and customised. Depending on the license purchased, Enterprise Edition allows you to create and edit up to 1,500 shops. This way, you can implement product-, target group- and country-specific online shops with various content, language and design.
 
 .. image:: ../../media/screenshots/oxbaeu01.png
-   :alt: Stammdaten - Grundeinstellungen
+   :alt: Master Settings - Core Settings
    :class: with-shadow
-   :height: 535
+   :height: 517
    :width: 650
 
-Shops können im Administrationsbereich bearbeitet werden. Dafür werden shopübergreifende Administratorrechte benötigt, die Benutzer durch das Recht \"Admin\" erhalten. Im Gegensatz dazu gibt es auch Administratoren, die nur Zugriff auf einen bestimmten Shop haben. Die Definition erfolgt unter :menuselection:`Benutzer -->  Benutzer verwalten` durch Zuweisung des entsprechenden Rechts.
+Shops can be edited in the Admin panel. This requires shop-wide administrator rights that users receive by being granted the \"Admin\" right. In contrast, there are also administrators who only have access to a specific shop. The corresponding right can be assigned under :menuselection:`Administer Users --> Users`.
 
-Unter :menuselection:`Stammdaten --> Grundeinstellungen` werden die Shopliste und darunter der Eingabebereich für die Shops angezeigt. Nach der Installation des OXID eShop Enterprise Edition gibt es zunächst nur einen Shop in der Liste. Zum Erstellen eines neuen Shops klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuen Shop anlegen`.
+Shop lists and the input area for the shops are displayed under :menuselection:`Master Settings --> Core Settings`. After you install OXID eShop Enterprise Edition, you will see that there is only one shop in the list. To create a new shop, click on :guilabel:`Create New Shop` at the bottom of the screen.
 
-Die Shopliste zeigt den Shopnamen und in Klammern gesetzt die Shop-ID. Nach Shops kann gesucht werden, indem das Suchfeld über der Shopliste verwendet wird. Geben Sie beispielsweise in das Suchfeld die Zahl 1 ein, würden alle Shops aufgelistet, bei denen 1 im Shopnamen vorkommt. Die Suche startet mit der Eingabetaste oder einen Klick auf das Lupensymbol.
+The shop list displays the shop name followed by the shop ID in brackets. You can search for shops by using the search field above the shop list. For example, if you enter the number 1 in the search field, all shops containing 1 in the shop name will be listed. Press “Enter” or a click on the magnifying glass icon to start the search.
 
-Shops lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Der Shop, der bei der Installation erstellt wurde, kann nicht gelöscht werden.
+Click on the delete icon at the end of the line to permanently remove the shops from the database. The shop created during the installation can’t be deleted.
 
-Wird ein Shop aus der Shopliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Die einzelnen Shops können auch aus einer Dropdown-Liste ausgewählt werden, die sich über dem Menü auf der linken Seite des Administrationsbereiches befindet. Auf der Registerkarte :guilabel:`Stamm` werden der Shoptyp, ein möglicher Elternshop, die Shop-ID und der Shopname angezeigt. Der Shopname kann geändert werden. Einstellungen, welche die Mall-Funktion betreffen, können auf der Registerkarte :guilabel:`Mall` vorgenommen werden.
+When you select a shop from the shop list, the shop’s information will be displayed in the input area. Shops can also be selected from the selection list located above the menu on the left side of the Admin panel. The :guilabel:`Main` tab displays the shop type, a shop parent (if any), the shop ID and the shop name. The shop name can be changed. Mall function settings can be configured in the :guilabel:`Mall` tab.
 
 -----------------------------------------------------------------------------------------
 
-Hauptshop \& Elternshops
+Main shop & parent shops
 ------------------------
-**Inhalte**: Mall, Enterprise Edition, Hauptshop, Elternshops, Startseiten-Typ, separate Bestellnummern, Preisaufschlag prozentual oder absolut, individuelle Preise, Benutzer für alle Shops, Shoptypen |br|
-:doc:`Artikel lesen <hauptshop-elternshops>` |link|
+**Contents**: Mall, Enterprise Edition, main shop, parent shops, start page type, separate order numbers, surcharge percentage or absolute, individual prices, users for all shops, shop types |br|
+:doc:`Read article <hauptshop-elternshops>` |link|
 
-Subshops, Supershops \& Multishops
+Subshops, supershops & multishops
 ----------------------------------
-**Inhalte**: Mall, Enterprise Edition, Shoptypen, Subshop, Supershop, Multishop, Neuen Shop anlegen, URL, SSL-URL, Top-Level-Domain, Second-Level-Domain, Subdomain, Verzeichnis /out, separate Bestellnummern, Preisaufschlag prozentual oder absolut, individuelle Preise |br|
-:doc:`Artikel lesen <subshops-supershops-multishops>` |link|
+**Contents**: Mall, Enterprise Edition, shop types, subshop, supershop, multishop, create new shop, URL, SSL URL, top-level domain, second-level domain, subdomain, /out directory, separate order numbers, surcharge percentage or absolute, individual prices |br|
+:doc:`Read article <subshops-supershops-multishops>` |link|
 
-Vererbung
+Inheritance
 ---------
-**Inhalte**: Mall, Enterprise Edition, Vererbung, vererbbare Elemente, nicht vererbbare Elemente, geteilte Elemente, Vererbungseinstellungen, Verknüpfungen, Individualisierung, Artikelpreise, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
-:doc:`Artikel lesen <vererbung/vererbung>` |link|
+**Contents**: Mall, Enterprise Edition, inheritance, inheritable elements, non-inheritable elements, shared elements, inheritance settings, assignments, customisation, product prices, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
+:doc:`Read article <vererbung/vererbung>` |link|
 
-.. seealso:: :doc:`Konfiguration <../../konfiguration/konfiguration>`
+.. seealso:: :doc:`Configuration <../../konfiguration/konfiguration>`
 
 .. Intern: oxbaeu, Status:

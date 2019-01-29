@@ -1,38 +1,38 @@
-﻿Registerkarte Bewertung
+﻿Review tab
 =======================
-Kunden können die Artikel Ihres Shops bewerten. Dies sorgt für Transparenz und Vertrauen. In der Detailansicht eines Artikels können angemeldete Kunden bis zu fünf Sterne vergeben und einen Kommentar abgeben. Die Bewertungen und die durchschnittlich vergebenen Sterne werden am unteren Ende der Detailansicht angezeigt.
+Customers can review products in your shop, which ensures transparency and helps build trust. They can go to the product’s detailed view to give it up to five stars and leave a comment. The reviews and the average stars awarded are displayed at the bottom of the detailed view.
 
 .. image:: ../../media/screenshots/oxbacr01.png
-   :alt: Artikel - Registerkarten Bewertung
+   :alt: Products - Review tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-Auf dieser Registerkarte können die Bewertungen zu einem Artikel eingesehen, kleine Rechtschreibfehler korrigiert oder eine Bewertung notfalls auch gelöscht werden.
+This tab allows you to view the reviews for a product, correct small spelling errors and delete a review if necessary.
 
-Alle Bewertungen sind unter :menuselection:`Artikel verwalten --> Artikel --> Alle Bewertungen` aufgelistet und führen über einen Link direkt zum Artikel.
+All reviews are listed under :menuselection:`Administer Products --> Products --> List All Reviews` and are linked directly to the product.
 
 .. image:: ../../media/screenshots/oxbacr02.png
-   :alt: Alle Bewertungen
+   :alt: List All Reviews
    :class: with-shadow
    :height: 87
    :width: 650
 
-Sie können festlegen, ob Sie eine Bewertung freigeben wollen, bevor sie in der Detailansicht des Artikels angezeigt wird. Aktivieren Sie die Option :guilabel:`Artikelbewertungen moderieren: Sie werden erst veröffentlicht, wenn sie von einem Administrator aktiv gesetzt werden` in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`System` unter :guilabel:`Weitere Einstellungen`.
+You can decide whether you want to publish a review before it is displayed in the product’s detailed view. To do this, select :guilabel:`Moderate Product Reviews: They are only published after they are activated by an Administrator User` in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`System` tab, under :guilabel:`Other settings`.
 
-Eine weitere Einstellung zu den Artikelbewertungen finden Sie in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen`. Es kann festgelegt werden, nach wievielen Tagen Kunden einen Artikel neu bewerten dürfen. Ohne einen Wert, dürfen Kunden einen Artikel generell nur einmal bewerten.
+Another setting for product reviews can be found in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Other settings`. Here, you can specify after how many days customers are allowed to post a new review for a product. Without a value, customers are generally only allowed to review a product once.
 
-Alle Bewertungen werden mit Datum und Uhrzeit in einem Auswahlfeld aufgelistet. Die aktuellsten Bewertungen stehen am Ende der Liste. Wird eine Bestellung markiert, werden auf der rechten Seite der Name des Kunden und der Text der Bewertung angezeigt. Das Kontrollkästchen :guilabel:`Aktiv` ist nur sichtbar, wenn das Moderieren der Artikelbewertungen eingeschaltet wurde.
+All reviews are listed with date and time in a selection box. The latest reviews are at the end of the list. When you select an order, the customer’s name and the review text will be displayed on the right. The :guilabel:`Active` checkbox will only be visible if moderating product reviews has been enabled.
 
-Änderungen an Bewertungen können gespeichert werden. Das Löschen einer Bewertung ist ebenfalls möglich. Löschen Sie nur Bewertungen, die keine sind (SPAM-Einträge). Lassen Sie auch negative Bewertungen zu. Sie können dazu ja mit einer eigenen Stellungnahme reagieren. Langfristig wird es für Vertrauen sorgen, wenn nicht nur positive Bewertungen zu lesen sind.
+You can save changes to the reviews or delete a review. Please make sure to only delete reviews that are not real (spam messages). Don’t delete negative reviews; instead, provide a response. In the long run, it will create trust when customers don’t only see positive reviews.
 
-:guilabel:`Aktiv` |br|
-Wenn die Bewertung in der Detailansicht des Artikels angezeigt werden soll, haken Sie dieses Kontrollkästchen an.
+:guilabel:`Active` |br|
+Check this box if you want the review to be displayed in the product’s detailed view.
 
-:guilabel:`Gepostet von` |br|
-Vorname und Name des Kunden, der die Bewertung abgegeben hat.
+:guilabel:`Posted from` |br|
+First and last name of the customer who submitted the review.
 
 :guilabel:`Text` |br|
-Text der abgegebenen Bewertung, der editiert werden kann. Änderungen müssen mit der Schaltfläche :guilabel:`Speichern` in die Datenbank geschrieben werden.
+Text of the submitted review that can be edited. Click on :guilabel:`Save` to have the changes written to the database.
 
 .. Intern: oxbacr, Status:, F1: article_review.html

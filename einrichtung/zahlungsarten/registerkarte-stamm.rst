@@ -1,65 +1,65 @@
-﻿Registerkarte Stamm
+﻿Main tab
 ===================
 
-Die Registerkarte :guilabel:`Stamm` stellt verschiedene Einstellungen zur Verfügung, um die Zahlungsart individuell konfigurieren zu können. Die Zahlungsart kann hier beschrieben werden. Über einen Dialog erfolgt die Zuordnung der Benutzergruppen zur Zahlungsart.
+The :guilabel:`Main` tab provides various settings to configure each payment method individually. Payment methods can also be described here. User groups are assigned to the payment method via a dialog.
 
 .. image:: ../../media/screenshots/oxbada01.png
-   :alt: Zahlungsarten - Registerkarte Stamm
+   :alt: Payment methods - Main tab
    :class: with-shadow
    :height: 346
    :width: 650
 
-:guilabel:`Aktiv` |br|
-Aktivieren Sie dieses Kontrollkästchen, damit die Zahlungsart im Shop verwendet werden kann.
+:guilabel:`Active` |br|
+Check this box to be able to use the payment method in the shop.
 
 :guilabel:`Name` |br|
-Vergeben Sie einen Namen für die Zahlungsart. Dieser wird dem Kunden im Bestellschritt 3 als Option angezeigt. Sind mehrere Zahlungsarten möglich, kann eine Option und damit eine Zahlungsart per Mausklick ausgewählt werden.
+Enter a name for the payment method. It will be displayed to the customer in ordering step 3 as an option. If several payment methods are available, the customer will be able to select an option - and a payment method - by clicking on it with the mouse.
 
-:guilabel:`Preisauf-/abschlag (€)` |br|
-Für Zahlungsarten kann ein absoluter oder prozentualer Auf- oder Abschlag auf den Preis festgelegt werden. Kosten, die durch eine Zahlungsart entstehen, können so auf die Kunden umgelegt werden. Wählen Sie aus der Liste aus, ob der Preisauf- oder -abschlag absolut oder in Prozent angegeben wird. Einen Preisabschlag gewähren Sie, indem Sie ein Minuszeichen vor den Preis setzen.
+:guilabel:`Price Surcharge/Reduction (€)` |br|
+You can set an absolute or percentage surcharge or discount on the price for payment methods. Costs incurred by a payment method can be allocated to the customers. Use the list to select whether the surcharge or discount will be absolute or percentage-based. To offer a discount, place a minus sign in front of the price.
 
-:guilabel:`Basis für Preisauf-/abschlag:` |br|
-Wurde der Preisauf- oder -abschlag prozentual angegeben, muss dieser bei der Bestellung berechnet werden. Basis dafür ist der Warenkorb. Setzen Sie ein Häkchen bei den Warenkorbpositionen, die bei der Berechnung berücksichtigt werden sollen.
+:guilabel:`Base of price surcharge/reduction:` |br|
+If the surcharge or discount has been given as a percentage, it will need to be calculated when placing an order. The basis for this is the shopping cart. Check the box next to the shopping cart item to be included in the calculation.
 
-:guilabel:`1. Warenwert aller Artikel im Warenkorb` |br|
-:guilabel:`2. Rabatte` |br|
-:guilabel:`3. Gutscheine` |br|
-:guilabel:`4. Versandkosten` |br|
-:guilabel:`5. Geschenkverpackung/Grußkarte`
+:guilabel:`1. Value of all goods in cart` |br|
+:guilabel:`2. Discounts` |br|
+:guilabel:`3. Coupons` |br|
+:guilabel:`4. Shipping costs` |br|
+:guilabel:`5. Gift Wrapping/Greeting Card`
 
-:guilabel:`Ab Bonitätsindex` |br|
-Legen Sie fest, dass Kunden über einen bestimmten Bonitätsindex verfügen müssen, um diese Zahlungsart nutzen zu können. Wenn Sie den Wert 0 eintragen, ist die Zahlungsart uneingeschränkt nutzbar. Die Bonität eines Kunden wird unter :menuselection:`Benutzer verwalten --> Benutzer` definiert.
+:guilabel:`min. Credit Rating` |br|
+You can specify that customers must have a certain credit rating to use this payment method. If you enter 0, they will be able to use the payment method without any restrictions. Customer’s creditworthiness can be defined under :menuselection:`Administer Users --> Users`.
 
-:guilabel:`Einkaufswert (€) von` ... :guilabel:`bis` ... |br|
-Sie können Ihren Kunden eine Zahlungsart erst ab einem bestimmten Einkaufswert zur Verfügung stellen. Geben Sie hier einen Einkaufswert vor. Soll die Zahlungsart für jeden Einkaufswert gelten, tragen Sie beispielsweise von 0 bis 99999 als Werte ein. Im Feld bis darf nicht 0 stehen.
+:guilabel:`Purchase Price (€) from` ... :guilabel:`to` ... |br|
+You can make a payment method available to your customers only starting from a certain purchase value. To do this, enter a purchase value here. If you want the payment method to apply to every purchase value, you can enter values from 0 to 99999, as an example. The “to” field can’t be 0.
 
-:guilabel:`Ausgewählt` |br|
-Kann ein Kunde im dritten Schritt des Bestellprozesses aus mehreren Zahlungsarten wählen, werden diese als untereinanderstehende Optionsfelder angezeigt. Aktivieren Sie dieses Kontrollkästchen, wenn diese Zahlungsart als Option standardmäßig vorausgewählt sein soll.
+:guilabel:`Selected` |br|
+If customers can choose from several payment methods in the third step of the ordering process, these will be displayed as separate radio buttons. Check this box if this payment method should be preselected as an option by default.
 
-:guilabel:`Sortierung` |br|
-Wenn mehrere Zahlungsarten im Schritt 3 des Bestellprozesses untereinander angezeigt werden, steht die Zahlungsart mit der kleinsten Zahl als Option ganz oben. Legen Sie eine sinnvolle Reihenfolge der Zahlungsarten fest.
+:guilabel:`Sorting` |br|
+If several payment methods are displayed one below the other in step 3 of the ordering process, the method with the smallest number will be the top option. Make sure to define an efficient order of payment methods.
 
-:guilabel:`Felder` |br|
-Bei bestimmten Zahlungsarten sind zusätzliche Informationen vom Kunden erforderlich. Hat der Kunde bei der Bestellung Bankeinzug gewählt, benötigen Sie dessen Bankverbindung. Die Felder \"lsbankname\", lsblz\" und \"lsktonr\" fragen Bank, Bankleitzahl und Kontonummer während der Bestellung vom Kunden ab.
+:guilabel:`Fields` |br|
+Certain payment methods require additional information from the customer. If the customer has chosen direct debit when placing an order, you will need his/her bank account. The \"lsbankname\", lsblz\" and \"lsktonr\" fields will ask the customer for his/her bank, the bank code and account number during ordering.
 
-.. hint:: Da viele Zahlungsschnittstellen, mit denen der OXID eShop erweitert werden kann, bestehende Felder verwenden, ändern Sie die bestehenden Einträge bitte nicht.
+.. hint:: Please don’t change the existing entries since many payment interfaces with which OXID eShop can be enhanced use the existing fields.
 
-:guilabel:`Feld hinzufügen` | :guilabel:`Markierte Felder löschen` |br|
-Für Zahlungsarten können Sie neue Felder ohne Programmierung hinzufügen. Damit diese aber vom Kunden abgefragt und deren Werte in der Datenbank gespeichert werden, muss allerdings das für die Anzeige zuständige Template erweitert werden. Eine Vorlage, wie die Felder verwendet werden, finden Sie im Template :file:`payment_oxiddebitnote.tpl`, welches die Zahlungsart \"Bankeinzug/Lastschrift\" im Bestellprozess anzeigt. Hier sorgen die DynValue-Felder dafür, dass die vom Kunden eingegebenen Bankdaten in der Datenbank (Tabelle\"oxuserpayments\", Feld\"OXVALUE\") gespeichert werden.
+:guilabel:`Add Field` | :guilabel:`Delete Selected Fields` |br|
+You can add new fields for payment methods without any additional programming. However, in order for these to be queried by the customer and their values to be stored in the database, the template responsible for the display will need to be enhanced. A template for how the fields are used can be found in the :file:`payment_oxiddebitnote.tpl` template that displays the \"Direct Debit\" payment method in the ordering process. The DynValue fields here ensure that the bank data entered by the customer is stored in the database (table\"oxuserpayments\", field\"OXVALUE\").
 
-:guilabel:`In Sprache` |br|
-Die Zahlungsart lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
+:guilabel:`In Language` |br|
+The payment method can also be edited in other active languages of the shop. To do this, select the desired language from the list.
 
-:guilabel:`Benutzergruppen zuordnen` |br|
-Zahlungsarten gelten für Benutzergruppen. Eine Zuordnung stellt sicher, dass Kunden nur die für sie vorgesehenen Zahlungsarten nutzen können. Wurden keine Benutzergruppen zugeordnet, gilt die Zahlungsart für alle Benutzergruppen.
+:guilabel:`Assign User Groups` |br|
+Payment methods apply to user groups. The assignment ensures that customers can only use the payment methods intended for them. If no user groups have been assigned, the payment method will apply to all user groups.
 
-Die Schaltfläche :guilabel:`Benutzergruppen zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Benutzergruppen angezeigt. Die Benutzergruppen können per Drag \& Drop in die rechte Liste verschoben werden. Damit ist die Zuordnung abgeschlossen.
+Clicking on :guilabel:`Assign User Groups` opens a new window. All available user groups will be displayed in the left-hand list. Drag and drop them into the right-hand list. The assignment is now completed.
 
-Die Benutzergruppen \"Inland\" und \"Ausland\" sind so etwas wie die Basis für die Zahlungsarten. Jeder Kunde, der Waren in den Warenkorb legte, hat sich im Bestellschritt 2 bereits identifiziert. Er kauft als registrierter Kunde oder als Kunde ohne Registrierung ein. Seine Rechnungsanschrift und gegebenenfalls eine davon abweichende Lieferadresse sind dem Shop bekannt. Ein Inlandskunde oder ein Auslandskunde ist er damit in jedem Fall.
+User groups \"Domestic\" and \"Foreign\" serve as the basis for the payment methods. Every customer who added products to the shopping cart had already identified him/herself in ordering step 2. He/she can place an order as a registered customer or as a customer without registration. The customer’s billing address and a different shipping address (if applicable) will be known to the shop. This means that he/she will by default be a domestic or a foreign customer.
 
-:guilabel:`Beschreibung der Zahlungsart` |br|
-Geben Sie ein paar Informationen zur Zahlungsart ein. Diese werden angezeigt, sobald der Kunde diese Zahlungsart im Bestellprozess auswählt.
+:guilabel:`Payment Description` |br|
+Enter the information about the payment method. It will be displayed when the customer selects this payment method in the ordering process.
 
-.. seealso:: :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>` | :doc:`Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten>` | :doc:`Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`
+.. seealso:: :doc:`Users - Extended tab <../../betrieb/benutzer/registerkarte-erweitert>` | :doc:`Prices for payment methods <../zahlung-und-versand/preise-fuer-zahlungsarten>` | :doc:`Payment methods for specific users <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`
 
 .. Intern: oxbada, Status:, F1: payment_main.html

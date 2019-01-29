@@ -1,11 +1,11 @@
-Neu-Installation
+﻿Reinstallation
 ================
 
 .. toctree::
    :maxdepth: 1
 
-   neu-installation
-   server-und-systemvoraussetzungen
-   installation-vorbereiten
-   setup-ausfuehren
-   installation-abschliessen
+   reinstallation
+   server-and-system-requirements
+   preparing-for-installation
+   running-setup
+   completing-installation

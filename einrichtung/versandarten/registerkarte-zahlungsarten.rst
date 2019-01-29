@@ -1,14 +1,14 @@
-﻿Registerkarte Zahlungsarten
+﻿Payment tab
 ===========================
 
-Auf dieser Registerkarte können der Versandart die Zahlungsarten zugeordnet werden. Es ist mindestens eine Zahlungsart notwendig.
+Use this tab to assign payment methods to the shipping method. You will need to enter at least one payment method.
 
 .. image:: ../../media/screenshots/oxbadf01.png
-   :alt: Versandarten - Registerkarte Zahlungsarten
+   :alt: Shipping methods - Payment tab
    :class: with-shadow
    :height: 341
    :width: 650
 
-Um die für die Versandart geltenden Zahlungsarten festzulegen, betätigen Sie die Schaltfläche :guilabel:`Zahlungsarten zuordnen`. Im sich öffnenden Zuordnungsfenster sehen Sie die Zahlungsarten in der linken Liste. Zahlungsarten lassen sich nach Beschreibung und/oder Kosten filtern und sortieren. Ziehen Sie die gewünschten Zahlungsarten mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+Click on :guilabel:`Assign Payment Methods` to define payment methods applicable to the shipping method. Payment methods will be displayed in the left-hand list of the assignment window. They can be filtered and sorted by description and/or cost. Drag the desired payment methods into the right-hand list using the mouse. Hold down the Ctrl key to select multiple payment methods. The assignment is now completed.
 
 .. Intern: oxbadf, Status:, F1: deliveryset_payment.html

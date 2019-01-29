@@ -1,33 +1,33 @@
-﻿Registerkarte Auswahl
+﻿Selection tab
 =====================
-Auf der Registerkarte :guilabel:`Auswahl` können einem Artikel Attribute und/oder Auswahllisten zugeordnet werden.
+The :guilabel:`Selection` tab allows you to assign attributes and/or selection lists to a product.
 
-Artikel können viele Eigenschaften haben. Für etliche Eigenschaften, wie beispielsweise Gewicht oder Abmessungen, bietet der OXID eShop Eingabe- und Einstellmöglichkeiten. Sie können sofort verwendet werden. Benötigen Sie weitere Eigenschaften, um Ihre Artikel zu charakterisieren, können Sie dafür Attribute erstellen und diese den Artikeln zuweisen. In der Detailansicht des Artikels wird eine neue Registerkarte :guilabel:`SPEZIFIKATION` eingeblendet, in der die Attribute und deren Werte angezeigt werden.
+Products can have a lot of characteristics. OXID eShop offers input and setting options for some of them, such as weight or dimensions. These characteristics can be used immediately. If you need additional characteristics, you can create attributes and assign them to your products. This way, a new :guilabel:`SPECIFICATION` tab displaying the attributes and their values will be added to the product’s detailed view.
 
 .. image:: ../../media/screenshots/oxbacm01.png
-   :alt: Artikel - Registerkarte Auswahl
+   :alt: Products - Selection tab
    :class: with-shadow
    :height: 342
    :width: 650
 
-In Auswahllisten werden typische Ausführungen eines Artikels, beispielsweise dessen verschiedene Farben oder Größen, definiert. Es sind Vorlagen, die bei vielen Artikeln verwendet werden können. Artikel mit einer\Auswahlliste haben in der Detailansicht eine Dropdown-Liste, aus welcher der Kunde eine Ausführung auswählen kann. Die Auswahl, beispielsweise die Farbe oder die Größe des Artikels, wird mit der Bestellung gespeichert.
+Selection lists define typical product versions, such as different colours or sizes. These are templates that can be used for many products. Products with a selection list have a drop-down list in the detailed view that the customer can use to select the desired version. The selection, such as the product colour or size, will be saved with the order.
 
-Die Schaltfläche :guilabel:`Attribute zuordnen` öffnet ein neues Fenster, in dem einen Artikel die Attribute zugewiesen werden können. Im Zuordnungsfenster werden in der linken Liste alle nicht benutzten Attribute angezeigt. Die gewünschten Attribute können per Drag \& Drop in die rechte Liste verschoben werden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Nachdem ein Attribut in der rechten Liste markiert wurde, muss ein Wert für das Attribut eingetragen und gespeichert werden.
+Clicking on :guilabel:`Assign Attributes` opens a new window where you can assign attributes to a product. All unused attributes will be displayed in the left-hand list. The required attributes can be dragged and dropped into the right-hand list. Hold down the Ctrl key to select multiple attributes. After you select an attribute in the right-hand list, you will need to enter and save a value for it.
 
 .. image:: ../../media/screenshots/oxbacm02.png
-   :alt: Attribute zuordnen
+   :alt: Assign Attributes
    :class: with-shadow
    :height: 314
    :width: 400
 
-Ein weiteres Zuordnungsfenster wird mit der Schaltfläche :guilabel:`Auswahllisten zuordnen` geöffnet. Alle vorhandenen Auswahllisten werden angezeigt und können per Drag \& Drop in die rechte Liste des Zuordnungsfensters verschoben werden.
+Clicking on :guilabel:`Assign Selection Lists` opens another assignment window. This displays all available selection lists which can also be dragged and dropped into the right-hand list.
 
 .. image:: ../../media/screenshots/oxbacm03.png
-   :alt: Auswahllisten zuordnen
+   :alt: Assign Selection Lists
    :class: with-shadow
    :height: 320
    :width: 400
 
-.. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`
+.. seealso:: :doc:`Attributes <../attribute/attribute>` | :doc:`Selection lists <../auswahllisten/auswahllisten>` | :doc:`Filtering products <../artikel-und-kategorien/filtern-von-artikeln>`
 
 .. Intern: oxbacm, Status:, F1: article_attribute.html

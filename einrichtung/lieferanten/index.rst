@@ -1,10 +1,10 @@
-Lieferanten
+﻿Distributors
 ===========
 
 .. toctree::
    :maxdepth: 1
       
-   lieferanten
-   registerkarte-stamm
-   registerkarte-mall
-   registerkarte-seo
+   distributors
+   main-tab
+   mall-tab
+   seo-tab

@@ -1,20 +1,20 @@
-Registerkarte Versenden
+﻿Selection tab
 =======================
 
-Newsletter können auf der Registerkarte :guilabel:`Versenden` an die Abonnenten verschickt werden.
+The :guilabel:`Selection` tab allows you to send newsletters to subscribers.
 
-Zuerst werden die Benutzergruppen zugewiesen. Damit kann der Newsletter beispielsweise zunächst an eine Testgruppe geschickt werden, bevor er später an die eigentliche Benutzergruppe "Newsletter-Abonnenten" geht. Nach der Zuordnung wird angezeigt, an wie viele Empfänger der Newsletter versendet wird. Mit einem Klick auf den Link :guilabel:`Newsletter senden` beginnt der Versand.
+First of all, you will need to assign the user groups. For example, the newsletter can first be sent to a test group before it goes to the actual "Newsletter Recipients” user group later. After the assignment, you will see how many recipients were sent the newsletter. Click on :guilabel:`Send Newsletter` to start sending the newsletter.
 
 .. image:: ../../media/screenshots/oxbaii01.png
-   :alt: Newsletter - Registerkarte Versenden
+   :alt: Newsletters - Selection tab
    :class: with-shadow
    :height: 346
    :width: 650
 
-Der Newsletter wird nicht auf einmal an alle Empfänger versandt. In sogenannten Ticks wird eine definierte Anzahl von Mails verschickt. Die Standardeinstellung sind zwanzig E-Mails pro Tick. Dies kann im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen` unter :menuselection:`Weitere Einstellungen` geändert werden. Wie viele E-Mails ohne Probleme versendet werden können, hängt auch vom Hosting Provider ab.
+The newsletter will not be sent to all recipients at once. A defined number of emails is sent in so-called ticks. The default setting is twenty emails per tick. This can be changed in the Admin panel under :menuselection:`Master Settings --> Core Settings` --> :menuselection:`Other settings`. The number of emails that can be sent without any issues also depends on the hosting provider.
 
-Bevor Sie den finalen Newsletter verschicken, sollten Sie testen, wie dieser in den gängigen Mail-Programmen und Browsern dargestellt wird. Dabei gilt es auch, Besonderheiten zu beachten. Oft blockieren Benutzer die Anzeige von Bildern oder schauen sich den Newsletter nur in einer Vorschau an. Immer mehr hat auch das Smartphone an Bedeutung gewonnen, auf denen schnell mal die Mails durchgesehen werden.
+Before sending the final newsletter, you should test how it displays in popular mail programs and browsers. It is important to remember about special features. Users often block the display of images or view the newsletter only in a preview. Smartphones that allow quickly viewing emails have also gained even more importance.
 
-Wenn Sie Konten und Mailadressen bei diversen Webmail-Dienstleistern und verschiedene Mail-Programme installiert haben, können Sie den vorbereiteten Newsletter an die speziellen Benutzer einer Testgruppe schicken. Im Internet finden sich aber auch Lösungen, welche diese Tests erleichtern. Newletter werden dabei in vielen wichtigen Mail-Clients, wie beispielsweise Microsoft Outlook, Apple Mail, Gmail oder Thunderbird angezeigt, aber auch für die Darstellung in mobilen und Web-Clients aufbereitet.
+If you have installed accounts and email addresses with diverse webmail service providers and various mail programs, you can send the prepared newsletter to the specific users of a test group. There are also solutions on the Internet that make these tests easier. Newsletters can be displayed in many important mail clients, such as Microsoft Outlook, Apple Mail, Gmail or Thunderbird, and optimised for display in mobile and web clients.
 
 .. Intern: oxbaii, Status:, F1: newsletter_selection

@@ -1,20 +1,20 @@
-﻿Registerkarte Benutzer
+﻿Users tab
 ======================
 
-Rabatte können für bestimmte Benutzergruppen und/oder Benutzer gelten. Diese Festlegung kann auf der Registerkarte Benutzer vorgenommen werden. Ohne Zuordnung von Benutzergruppen und/oder Benutzer gilt der Rabatt für alle Kunden des Online-Shops.
+Discounts can apply to specific user groups and/or users. Go to the Users tab to configure the necessary settings. Without the assignment of user groups and/or users, the discount will apply to all customers of the online shop.
 
 .. image:: ../../media/screenshots/oxbahk01.png
-   :alt: Rabatte - Registerkarte Benutzer
+   :alt: Discounts - Users tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-:guilabel:`Benutzergruppen zuordnen` |br|
-Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzergruppen` und :guilabel:`Zugeordnete Benutzergruppen`. Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+:guilabel:`Assign User Groups` |br|
+Clicking on this button opens the assignment window and displays the two lists :guilabel:`All User Groups` and :guilabel:`Assigned User Groups`. User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
-:guilabel:`Benutzer zuordnen` |br|
-Um einzelne Benutzer für den Rabatt festzulegen, betätigen Sie die Schaltfläche :guilabel:`Benutzer zuordnen`. Im Zuordnungsfenster, welches sich öffnet, werden die beiden Listen :guilabel:`Alle Benutzer` und :guilabel:`Zugeordnete Benutzer` angezeigt. In der linken Liste kann die Anzeige auf alle Benutzer einer Benutzergruppe eingeschränkt werden, indem eine Benutzergruppe aus der Dropdown-Liste ausgewählt wird. In beiden Listen können Benutzer nach Login (E-Mail des Benutzers) gefiltert und/oder sortiert werden.
+:guilabel:`Assign Users` |br|
+Click on :guilabel:`Assign Users` to define individual users for the discount. The assignment window opens and displays the two lists :guilabel:`All Users` and :guilabel:`Assigned Users`. Select a user group from the drop-down list in the left-hand list of the assignment window to only display users from this group. Users in both lists can be filtered and/or sorted by login (user email).
 
-Auch in diesem Zuordnungsfenster ist eine Mehrfachauswahl möglich. Die gewünschten Benutzer werden per Drag \& Drop in die rechte Liste verschoben. Die Zuordnung ist abgeschlossen.
+You can also select multiple users. Drag and drop the desired users into the right-hand list The assignment is now completed.
 
 .. Intern: oxbahk, Status:, F1: discount_users.html

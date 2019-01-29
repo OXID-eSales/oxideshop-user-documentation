@@ -1,11 +1,11 @@
-Newsletter
+﻿Newsletters
 ==========
 
 .. toctree::
    :maxdepth: 1
 
-   newsletter
-   registerkarte-html
-   registerkarte-text
-   registerkarte-vorschau
-   registerkarte-versenden
+   newsletters
+   html-tab
+   text-tab
+   preview-tab
+   selection-tab

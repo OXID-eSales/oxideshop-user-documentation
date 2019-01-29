@@ -1,49 +1,49 @@
-﻿Zahlung und Versand
+﻿Payment and shipping
 ===================
 
-Zahlung und Versand sind wichtige Funktionen im Online-Shop und ermöglichen dem Kunden, eine passende Bezahlmethode und die gewünschte Liefermöglichkeit auszuwählen. Im Abschnitt \"Zahlung und Versand\" werden konkrete Einstellungen bei den Zahlungsarten und Anwendungsbeispiele für Versandkostenregeln dargestellt, welche verschiedene Besonderheiten im Bestellprozess berücksichtigen.
+Payment and shipping are important functions in the online shop. They allow the customer to select an appropriate payment method and the desired shipping option. The \"Payment and shipping\" section contains specific settings for payment methods and application examples for shipping costs rules, taking into account various special features in the ordering process.
 
 -----------------------------------------------------------------------------------------
 
-Zahlungsarten
+Payment methods
 -------------
-Preise für Zahlungsarten
+Prices for payment methods
 ^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Zahlung, Zahlungsart, Preisaufschlag, Preisabschlag, absolut, prozentual, Rabatt, Skonto, Preisauf- und -abschläge im Bestellprozess |br|
-:doc:`Artikel lesen <preise-fuer-zahlungsarten>` |link|
+**Contents**: payment, payment method, surcharge, discount, absolute, percentage, cash discount, surcharges and discounts in the ordering process |br|
+:doc:`Read article <preise-fuer-zahlungsarten>` |link|
 
-Zahlungsarten für bestimmte Benutzer
+Payment methods for specific users
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Zahlung, Zahlungsart, Bonität, Bonitätsindex, Benutzergruppen, Benutzergruppen zuordnen, Zuordnungsfenster, Zahlungsarten im Bestellprozess |br|
-:doc:`Artikel lesen <zahlungsarten-fuer-bestimmte-benutzer>` |link|
+**Contents**: payment, payment method, creditworthiness, credit rating, user groups, assigning user groups, assignment window, payment methods in the ordering process |br|
+:doc:`Read article <zahlungsarten-fuer-bestimmte-benutzer>` |link|
  
 ----------------------------------------------------------------------------------------- 
 
-Versandkostenregeln
+Shipping cost rules
 -------------------
-Gewichtsabhängige Versandkosten
+Weight-based shipping costs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Versand, Versandkosten, Versandkostenregel, Bedingung, Gewicht, Artikel, Bestellprozess, Berechnung der Versandkosten |br|
-:doc:`Artikel lesen <gewichtsabhaengige-versandkosten>` |link|
+**Contents**: shipping, shipping costs, shipping cost rule, condition, weight, products, ordering process, calculation of shipping costs |br|
+:doc:`Read article <gewichtsabhaengige-versandkosten>` |link|
 
-Versandkostenfrei ab Warenwert
+Free shipping from certain product value
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Versand, Versandkosten, Versandkostenregel, Bedingung, Preis, Artikel, Bestellprozess, Berechnung der Versandkosten, versandkostenfreie Lieferung |br|
-:doc:`Artikel lesen <versandkostenfrei-ab-warenwert>` |link|
+**Contents**: shipping, shipping costs, shipping cost rule, condition, price, products, ordering process, calculation of shipping costs, free shipping |br|
+:doc:`Read article <versandkostenfrei-ab-warenwert>` |link|
 
-Versandkosten für In- und Ausland
+Domestic and foreign shipping costs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Versand, Versandkosten, Versandkostenregel, Länder, Länderzuordnung, Inland, Ausland, Bestellprozess, Berechnung der Versandkosten |br|
-:doc:`Artikel lesen <versandkosten-fuer-in-und-ausland>` |link|
+**Contents**: shipping, shipping costs, shipping cost rule, countries, assignment of countries, domestic, foreign, ordering process, calculation of shipping costs |br|
+:doc:`Read article <versandkosten-fuer-in-und-ausland>` |link|
 
-Versandkosten für bestimmte Artikel
+Shipping costs for specific products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Versand, Versandkosten, Versandkostenregel, Artikel zuordnen, Preisaufschlag, Sperrgut, Bestellprozess, Berechnung der Versandkosten |br|
-:doc:`Artikel lesen <versandkosten-fuer-bestimmte-artikel>` |link|
+**Contents**: shipping, shipping costs, shipping cost rule, assigning products, surcharge, bulky goods, ordering process, calculation of shipping costs |br|
+:doc:`Read article <versandkosten-fuer-bestimmte-artikel>` |link|
 
-Versandkosten für Artikel aus bestimmten Kategorien
+Shipping costs for products from specific categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Inhalte**: Versand, Versandkosten, Versandkostenregel, Kategorien zuordnen, Preisaufschlag, Bestellprozess, Berechnung der Versandkosten |br|
-:doc:`Artikel lesen <versandkosten-fuer-artikel-aus-bestimmten-kategorien>` |link|
+**Contents**: Shipping, shipping costs, shipping cost rule, assigning categories, surcharge, ordering process, calculation of shipping costs |br|
+:doc:`Read article <versandkosten-fuer-artikel-aus-bestimmten-kategorien>` |link|
 
 .. Intern: oxbafs, Status:

@@ -1,32 +1,32 @@
-﻿Registerkarte Rechte
+﻿Rights tab
 ====================
 
-Die Registerkarte :guilabel:`Rechte` bei Kategorien gibt es nur in der Enterprise Edition.
+The :guilabel:`Rights` tab is only available for categories in Enterprise Edition.
 
-Auf der Registerkarte :guilabel:`Rechte` können einer Kategorie Benutzergruppen zugeordnet werden, deren Benutzer diese Kategorie mit ihren Artikeln im Shop sehen dürfen und/oder kaufen können. Diese Zuordnung ist Teil der Rechte- und Rollenverwaltung der Enterprise Edition.
+The :guilabel:`Rights` tab allows you to assign user groups to a category whose users are allowed to view and/or buy this category with its products in the shop. This assignment is part of the rights and roles management feature in Enterprise Edition.
 
 .. image:: ../../media/screenshots/oxbacg01.png
-   :alt: Kategorien - Registerkarte Rechte
+   :alt: Categories - Rights tab
    :class: with-shadow
    :height: 334
    :width: 650
 
-Das ausschließliche Recht legt zum einen fest, dass die Kategorie nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, nach Anmeldung am Shop sichtbar ist. Allen übrigen Benutzern und Benutzergruppen wird diese Kategorie und deren Artikel niemals angezeigt, der Menüpunkt ausgeblendet.
+On the one hand, the exclusive right means that only users who belong to the assigned user groups will be able to see the category after logging into the shop. All other users and user groups will never be able to see this category and its products as this menu item will be hidden.
 
-Wurden Benutzergruppen als ausschließlich kaufbar zugewiesen, gibt es zum anderen für nicht berechtigte Benutzer keine Möglichkeit, Artikel dieser Kategorie in den Warenkorb zu legen. Mit der Schaltfäche :guilabel:`Mehr Informationen` kann lediglich die Detailseite des Artikels aufgerufen werden. Auch dort fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und er der berechtigten Benutzergruppe angehört.
+On the other hand, if user groups have been assigned as exclusively buyable, unauthorised users won’t be able to add products of this category to the shopping cart. By clicking on :guilabel:`More information`, they will only be able to open the product’s details page. The :guilabel:`To cart` button won’t be displayed there either unless the customer is logged in to the shop and belongs to the authorised user group.
 
-Um einer Kategorie Benutzergruppen zuzuweisen, betätigen Sie die Schaltfläche :guilabel:`Benutzergruppen zuordnen (Ausschließlich sichtbar)` bzw. :guilabel:`Benutzergruppen zuordnen (Ausschließlich kaufbar)`. Es öffnet sich jeweils ein Zuordnungsfenster, in dem Sie Kategorien aus der Liste :guilabel:`Alle Benutzergruppen` auswählen können.
+Click on :guilabel:`Assign User Groups (Exclusively visible)` or :guilabel:`Assign User Groups (Exclusively buyable)` to assign user groups to a category. This opens an assignment window where you can select categories from the :guilabel:`All User Groups` list.
 
-Per Option kann festgelegt werden, ob die jeweilige Berechtigung ausschließlich für die Kategorie und ihre Artikel oder aber auch für deren Unterkategorien und Artikel gelten soll.
+You will be able to specify whether the respective permission should apply only to the category and its products or to the category, its subcategories and its products.
 
 .. image:: ../../media/screenshots/oxbacg02.png
-   :alt: Benutzergruppen zuordnen (Ausschließlich kaufbar)
+   :alt: Assign User Groups (Exclusively buyable)
    :class: with-shadow
    :height: 344
    :width: 400
 
-Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
-.. seealso:: :doc:`Rechte und Rollen <../../konfiguration/rechte-und-rollen>`
+.. seealso:: :doc:`Rights and roles <../../konfiguration/rechte-und-rollen>`
 
 .. Intern: oxbacg, Status:, F1: category_rights.html

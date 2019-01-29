@@ -1,45 +1,45 @@
-﻿Server und Systemvoraussetzungen
+﻿Server und system requirements
 ================================
 
-Der OXID eShop kann auf verschiedenen Server-Systemen betrieben werden. Die Wahl eines passenden Hosting-Paketes hängt beispielsweise von der Anzahl der Artikel, der erwarteten Besucher im Shop und von der Anzahl der Bestellungen ab. Genügt für einen kleinen Shop mit einigen hundert Artikeln, wenigen Besuchern im Monat und einem überschaubaren Bestellvolumen ein Shared Hosting-System, sollte für größere Shops ein Managed Server-System gewählt werden. Bei steigender Last ist der Betrieb einer Serverfarm mit Loadbalancing und einem Datenbankcluster in Betracht zu ziehen. Beratung und Unterstützung bei der Auswahl des geeigneten Systems finden Sie bei unseren `OXID Partnern (Hosting) <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_. Diese stellen speziell auf den OXID eShop zugeschnittene Lösungen bereit.
+OXID eShop can run on different server systems. The choice of a suitable hosting package depends, for example, on the number of products, the expected number of visitors in the shop, and the number of orders. While a shared hosting system is sufficient for a small shop with a few hundred products, a few visitors per month and a manageable order volume, a managed server system should be selected for larger shops. As the load increases, you should consider using a server farm with load balancing and a database cluster. Please contact our `OXID Hosting Partners <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_ for advice and support in selecting the right system. They provide solutions specifically tailored to OXID eShop.
 
-Für den Betrieb des OXID eShop Version 6 müssen die unten stehenden Systemvoraussetzungen erfüllt sein. Es gibt einige Änderungen gegenüber den Systemvoraussetzungen für die Shopversionen 4 und 5. Dazu gehören die unterstützten Versionen für den Webserver Apache, für die MySQL-Datenbank und für die serverseitige Script- und Programmiersprache PHP.
+The following system requirements must be met to operate OXID eShop version 6. There are some changes compared to the system requirements for shop versions 4 and 5, including the supported versions for the Apache web server, MySQL database and the server-side PHP scripting and programming language.
 
-Webserver
+Web server
 ---------
 
-* Apache Versionen 2.2 und 2.4 (auf Linux)
-* 500 MB freier Webspace für die Community und die Professional Edition
-* 750 MB freier Webspace für die Enterprise Edition
-* Installierte Erweiterung *mod_rewrite*
+* Apache version 2.2 and 2.4 (on Linux)
+* 500 MB of free webspace for Community and Professional Edition
+* 750 MB of free webspace for Enterprise Edition
+* Installed *mod_rewrite* extension
 
-Bitte beachten Sie, dass trotz installierter Erweiterung *mod_rewrite* bei der Prüfung der Systemgesundheit die Voraussetzungen nicht erfüllt sein können. Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts. Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
+Please note that even with the *mod_rewrite* extension installed, the system health check may not meet the requirements. Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration. This was changed to *AllowOverride None* with Apache 2.3.9.
 
-Der Zend Guard Loader wird nicht länger benötigt, da der OXID eShop 6 unverschlüsselt ist.
+Zend Guard Loader is no longer needed because OXID eShop 6 is not encrypted.
 
 MySQL
 -----
 
-* MySQL 5.5 und 5.7
+* MySQL 5.5 and 5.7
 
-Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
+The database user needs sufficient permission to create a database during the installation if it doesn’t already exist. The user also needs permission to create views.
 
-Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE READ* der InnoDB Storage Engine belassen werden.
+The transaction isolation level must be left with the default value *REPEATABLE READ* for the InnoDB Storage Engine.
 
 PHP
 ---
 
-* PHP Versionen 7.0 und 7.1
-* Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
-* Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte dektiviert sein (OFF)
-* Datei-Uploads sollten in PHP aktiviert sein
-* Aktiviertes *allow_url_fopen* und *fsockopen* auf Port 80
-* Apache-Servervariablen *REQUEST_URI* oder *SCRIPT_URI* müssen vorhanden sein
-* *ini_set* erlaubt
+* PHP version 7.0 and 7.1
+* Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
+* PHP setting *session.auto_start* in :file:`php.ini` should be disabled (OFF)
+* File uploads should be enabled in PHP
+* Enabled *allow_url_fopen* and *fsockopen* on port 80
+* Apache server variables *REQUEST_URI* or *SCRIPT_URI* must be available
+* *ini_set* allowed
 
-PHP-Erweiterungen, die installiert sein müssen:
+PHP extensions that need to be installed:
 
-* *GD LIB* Version 2.x
+* *GD LIB* version 2.x
 * *PDO_MySQL*
 * *BC Math*
 * *JSON*
@@ -53,12 +53,12 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
+Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). The requirements for Composer can be found in `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
 
 OpenSSL
 -------
 
-Für die zu einer Compilation gehörenden Module wird OpenSSL benötigt.
+Compilation modules require OpenSSL.
 
 * *openssl* >= 1.0.1
 

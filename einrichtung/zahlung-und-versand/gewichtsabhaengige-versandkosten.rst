@@ -1,72 +1,72 @@
-﻿Gewichtsabhängige Versandkosten
+﻿Weight-based shipping costs
 ===============================
 
-Der OXID eShop kann so eingerichtet werden, dass für die Berechnung der Versandkosten das Gewicht der Artikel berücksichtigt wird.
+OXID eShop can be set up to take the weight of the products into account when calculating the shipping costs.
 
-Dafür werden Versandkostenregeln verwendet, deren Bedingung das Gewicht von Artikeln ist. Im Bestellprozess entscheidet sich der Kunde für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Gewicht) hinsichtlich des Gesamtgewichts der Artikel im Warenkorb erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
+To do this, you will need to use the shipping rules with the weight of the products as a condition. The customer selects a shipping method in the ordering process. All shipping costs that belong to this shipping method will be processed. The system will check whether the specified condition (weight) is met in terms of the total weight of the products in the shopping cart. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
 
-Damit gewichtsabhängige Versandkosten funktionieren, muss bei den Artikeln das Gewicht eingetragen sein. Das hat auch zur Folge, dass das Gewicht auf dessen Detailseite unterhalb des Artikelpreises ausgewiesen wird.
+In order for weight-based shipping costs to work, you will need to enter the weight for the products. This also means that the weight will be displayed on the details page below the product price.
 
-Das Gewicht eines Artikels wird in der Artikelverwaltung festgelegt.
+Defining the weight of a product in the product management section
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Geben Sie auf der Registerkarte :guilabel:`Erweitert` das Gewicht ein.
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Administer Products --> Products`.
+* Select the desired product from the product list.
+* Enter the weight in the :guilabel:`Extended` tab.
+* Save the changes.
 
-In den Versandkostenregeln wird Gewicht als Bedingung definiert.
+Defining the weight as a condition in shipping cost rules
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
-* Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
-* Auf der Registerkarte :guilabel:`Stamm` finden Sie die Dropdown-Liste :guilabel:`Bedingung`.
-* Wählen Sie die Bedingung Gewicht und tragen Sie Werte für :guilabel:`=\>` und :guilabel:`\<=` ein.
-* Komplettieren Sie alle weiteren Einstellungen der Versandkostenregel.
-* Speichern Sie die Änderungen.
+* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+* Select the desired shipping cost rule from the list.
+* Find the :guilabel:`Condition` field in the :guilabel:`Main` tab.
+* Select “Weight” and enter the values for :guilabel:`=\>` and :guilabel:`\<=`.
+* Configure all other settings of the shipping cost rule.
+* Save the changes.
 
-Die Versandkostenregel wird einer Versandart zugeordnet.
+The shipping cost rule is assigned to a shipping method.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> :guilabel:`Versandart`en`.
-* Wählen Sie die Versandart aus der Liste der Versandarten.
-* Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+* Go to :menuselection:`Shop Settings --> :guilabel:`Shipping Methods``.
+* Select the desired shipping method from the list.
+* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
+* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
+* Close the assignment window.
 
-.. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
+.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
 
-Beispiel
+Example
 --------
-Ein Artikel und zwei Versandkostenregeln dienen als Beispiel für gewichtsabhängige Versandkosten. Es wird ein Artikel benötigt, dem ein Gewicht von 2 kg zugewiesen wird. In der Artikelverwaltung wird beim Artikel auf der Registerkarte :guilabel:`Erweitert` ein Gewicht von 2 Kilogramm eingetragen.
+Using one product and two shipping rules as an example of weight-based shipping costs. You will need a product with the weight of 2 kg. Enter 2 kg as the product weight in the :guilabel:`Extended` tab of the product’s management section.
 
 .. image:: ../../media/screenshots/oxbafv01.png
-   :alt: Artikel mit 2 kg Gewicht
+   :alt: Product with the weight of 2 kg
    :class: with-shadow
    :height: 341
    :width: 650
 
-Es werden zwei Versandkostenregeln erstellt, deren Bedingung das Gewicht ist. Die eine ist für Artikel im Warenkorb unter 3 Kilogramm Gesamtgewicht, die für 3,90 € verschickt werden, die andere für Artikel mit mehr Gewicht und Versandkosten in Höhe von 5,50 €. Die Versandkostenregeln werden so definiert, dass die Berechnung nur einmal pro Warenkorb erfolgt. Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregel muss aktiv sein.
+Create two shipping rules with the weight as the condition. One is for products in the cart with total weight under 3 kg that will be shipped for €3.90, and the other one is for products with bigger weight and shipping costs of €5.50. The shipping cost rules for the calculation are defined so that they take place only once per shopping cart. The assignment of countries is optional. Make sure to activate the shipping cost rule.
 
 .. image:: ../../media/screenshots/oxbafv02.png
-   :alt: Versandkostenregel ab 3 kg Gesamtgewicht
+   :alt: Shipping cost rule starting from 3 kg total weight
    :class: with-shadow
    :height: 341
    :width: 650
 
-Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft. Liegt der Artikel mit dem Gewicht von 2 Kilogramm einmal im Warenkorb, greift die erste Versandkostenregel.
+Assign shipping cost rules to a shipping method. If the customer selects this shipping method when purchasing a product, all associated shipping cost rules will be checked. If there is one product with the weight of 2 kg in the shopping cart, the first shipping cost rule will apply.
 
 .. image:: ../../media/screenshots/oxbafv03.png
-   :alt: Warenkorb mit 1 Artikel
+   :alt: Shopping cart with 1 product
    :class: with-shadow
    :height: 291
    :width: 550
 
-Sind zwei oder mehrere Artikel mit einem Gewicht von jeweils 2 Kilogramm im Warenkorb, gilt die zweite Versandkostenregel für die Berechnung der Versandkosten.
+If there are two or more products weighing 2 kg each in the shopping cart, the second shipping cost rule will apply to the calculation of shipping costs.
 
 .. image:: ../../media/screenshots/oxbafv04.png
-   :alt: Warenkorb mit 2 Artikeln
+   :alt: Shopping cart with 2 products
    :class: with-shadow
    :height: 291
    :width: 550
 
-.. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Products - Extended tab <../artikel/registerkarte-erweitert>` | :doc:`Shipping cost rules - Main tab <../versandkostenregeln/registerkarte-stamm>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
 
 .. Intern: oxbafv, Status:

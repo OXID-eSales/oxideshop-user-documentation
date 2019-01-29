@@ -1,42 +1,42 @@
-﻿Vererbung
+﻿Inheritance
 =========
 
-Die Vererbung ist ein wichtiger Bestandteil der Mall-Funktion. Sie erfolgt beim Anlegen eines neuen Shops, wenn das Kontrollkästchen :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` aktiviert wurde. Außer den Artikeln werden auch Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten und weitere Elemente an den neuen Shop weitergegeben. Eine Vererbung von Kategorien erfolgt nicht.
+Inheritance is an important part of the Mall function. It takes place when you check the box :guilabel:`Shop inherits all inheritable products and settings from the parent shop` when creating a new shop. Besides the products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors and other elements will be passed onto the new shop. Categories are not inherited.
 
 .. image:: ../../../media/screenshots/oxbago01.png
-   :alt: Neuen Shop anlegen mit Vererbung
+   :alt: Create new shop with inheritance
    :class: with-shadow
-   :height: 343
+   :height: 335
    :width: 650
 
-Die Vererbung kann nach dem Anlegen eines Shops noch geändert werden. Die Änderungen können shopweit in den Vererbungseinstellungen vorgenommen werden oder sich auf einzelne Artikel, Attribute, Auswahllisten, Versandarten, Versandkostenregeln, Hersteller, Lieferanten usw. beziehen. Details dazu finden Sie im Dokument :doc:`Individualisierung <individualisierung>`.
+Inheritance settings can be changed even after you create a shop. The changes can be made shop-wide in the inheritance settings or refer to individual products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors, etc. Further information can be found in :doc:`Customisation <individualisierung>`.
 
-Ein Subshop kann seine Artikel und Einstellungen an einen weiteren Subshop vererben. Es ist nur möglich, einzelne Artikel und andere Elemente zu dem Subshop zu verknüpfen oder die Verknüpfung dorthin zu lösen, für den er Elternshop ist. Ein Supershop hingegen, kann an Supershops und Subshops vererben. Verknüpfungen einzelner Artikel und anderer Elemente können zu allen anderen Shops hergestellt und wieder gelöst werden. Das gilt auch für den Hauptshop und für Subshops, für den der Supershop nicht Elternshop ist. Multishops müssen keine Artikel und Einstellungen erben, denn sie zeigen beispielsweise alle Artikel, Hersteller und Lieferanten aus allen Shops an. Optional können sie aber alle Kategorien aus allen Shops erben.
+A subshop can pass on its product and settings to another subshop. You can only assign/unassign individual products and other elements to/from the subshop for which it is the parent shop. A supershop, on the other hand, can pass on its products and settings to supershops and subshops. You can assign individual products and other elements to all other shops and then unassign them. This also applies to the main shop and to subshops, for which the supershop is not the parent shop. Multishops don’t have to inherit products and settings because they display all products, manufacturers and distributors from all shops. As an option, they can inherit all categories from all shops.
 
-Die in den weiteren Dokumenten beschriebenen Details zur Vererbung sind auch davon abhängig, ob man als Administrator aller Shops oder als Administrator eines Subhops, Supershops oder Multishops angemeldet ist. Die Definition erfolgt über die Vergabe von Rechten unter :menuselection:`Benutzer verwalten --> Benutzer`.
+Inheritance-related information that can be found in the other documents is also determined by whether you are logged in as administrator of all shops or as an administrator of a subshop, supershop or multishop. This is defined by the rights assigned under :menuselection:`Administer Users --> Users`.
 
 -----------------------------------------------------------------------------------------
 
-Vererbbare Elemente
+Inheritable elements
 -------------------
-**Inhalte**: Mall, Enterprise Edition, Vererbung, Vererbungseinstellungen, Verknüpfungen, vererbbare Elemente, Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten, Links |br|
-:doc:`Artikel lesen <vererbbare-elemente>` |link|
+**Contents**: Mall, Enterprise Edition, inheritance, inheritance settings, assignments, inheritable elements, products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, news, links |br|
+:doc:`Read article <vererbbare-elemente>` |link|
 
-Nicht vererbbare Elemente
+Non-inheritable elements
 -------------------------
-**Inhalte**: Mall, Enterprise Edition, Vererbung, nicht vererbbare Elemente, Shopkonfiguration, Zuordnung zu Aktionen, CMS-Seiten, Bestellungen |br|
-:doc:`Artikel lesen <nicht-vererbbare-elemente>` |link|
+**Contents**: Mall, Enterprise Edition, inheritance, non-heritable elements, shop configuration, assignment to promotions, CMS pages, orders |br|
+:doc:`Read article <nicht-vererbbare-elemente>` |link|
 
-Geteilte Elemente
+Shared elements
 -----------------
-**Inhalte**: Mall, Enterprise Edition, Vererbung, geteilte Elemente, Zahlungsarten, Länder, Sprachen, Benutzer, Benutzergruppen, Bewertungen |br|
-:doc:`Artikel lesen <geteilte-elemente>` |link|
+**Contents**: Mall, Enterprise Edition, inheritance, shared elements, payment methods, countries, languages, users, user groups, reviews |br|
+:doc:`Read article <geteilte-elemente>` |link|
 
-Individualisierung
+Customisation
 ------------------
-**Inhalte**: Mall, Enterprise Edition, Vererbung, Individualisierung, Vererbungseinstellungen, Artikelpreis, alternative Preise, Staffelpreise, Rechte und Rollen, SEO, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
-:doc:`Artikel lesen <individualisierung>` |link|
+**Contents**: Mall, Enterprise Edition, inheritance, customisation, inheritance settings, product price, alternative prices, scale prices, rights and roles, SEO, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
+:doc:`Read article <individualisierung>` |link|
 
-.. seealso:: :doc:`Benutzer <../../../betrieb/benutzer/benutzer>`
+.. seealso:: :doc:`Users <../../../betrieb/benutzer/benutzer>`
 
 .. Intern: oxbago, Status:
