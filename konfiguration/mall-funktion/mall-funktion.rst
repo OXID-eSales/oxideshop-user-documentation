@@ -1,7 +1,7 @@
 ﻿Mall-Funktion
 =============
 
-Die Mall-Funktion ist ein Feature der Enterprise Edition des OXID eShop. Die Mandantenfähigkeit erlaubt das Anlegen mehrerer Shops und den Aufbau einer Multishop-Struktur. Die Bearbeitung der Shops und deren verschiedenen Verknüpfungen untereinander erfolgt über einen Administrationsbereich. Die Verknüpfungen der Shops werden beim Anlegen definiert und können später geändert und individuell angepasst werden. Abhängig von der erworbenen Lizenz können mit der Enterprise Edition bis zu 1.500 Shops erstellt und bearbeitet werden. So lassen sich produkt-, zielgruppen- und länderspezifische Onlineshops umsetzen, die sich beispielsweise inhaltlich, sprachlich und im Design unterscheiden.
+Die Mall-Funktion ist ein Feature der Enterprise Edition des OXID eShop. Die Mandantenfähigkeit erlaubt das Anlegen mehrerer Shops und den Aufbau einer Multi-Shop-Struktur. Die Bearbeitung der Shops und deren verschiedenen Verknüpfungen untereinander erfolgt über einen Administrationsbereich. Die Verknüpfungen der Shops werden beim Anlegen definiert und können später geändert und individuell angepasst werden. Abhängig von der erworbenen Lizenz können mit der Enterprise Edition bis zu 1.500 Shops erstellt und bearbeitet werden. So lassen sich produkt-, zielgruppen- und länderspezifische Onlineshops umsetzen, die sich beispielsweise inhaltlich, sprachlich und im Design unterscheiden.
 
 .. image:: ../../media/screenshots-de/oxaaeu01.png
    :alt: Stammdaten - Grundeinstellungen
