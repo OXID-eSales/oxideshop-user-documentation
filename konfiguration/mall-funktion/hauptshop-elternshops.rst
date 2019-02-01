@@ -14,7 +14,7 @@ Hauptshop
 :guilabel:`Startseiten-Typ` |br|
 Diese Einstellung ist nur beim Hauptshop vorhanden.
 
-Wenn es bei einer Enterpreis Edition mehrere Shops gibt, kann aus der Dropdown-Liste ausgewählt werden, was beim Aufruf der Shop-URL angezeigt wird. Der erste Eintrag :guilabel:`Hauptshop anzeigen` ruft direkt die Startseite des Hauptshops auf. Mit :guilabel:`Shop-Auswahlseite` wird eine Seite aufgerufen, auf welcher der anzuzeigende Shop ausgewählt werden kann. Darüber hinaus können einzelne Shops über eigene Shop-URLs aufgerufen werden, worauf später eingegangen wird.
+Wenn es bei einer Enterprise Edition mehrere Shops gibt, kann aus der Dropdown-Liste ausgewählt werden, was beim Aufruf der Shop-URL angezeigt wird. Der erste Eintrag :guilabel:`Hauptshop anzeigen` ruft direkt die Startseite des Hauptshops auf. Mit :guilabel:`Shop-Auswahlseite` wird eine Seite aufgerufen, auf welcher der anzuzeigende Shop ausgewählt werden kann. Darüber hinaus können einzelne Shops über eigene Shop-URLs aufgerufen werden, worauf später eingegangen wird.
 
 :guilabel:`Separate Bestellnummern für diesen Shop` |br|
 Aktivieren Sie dieses Kontrollkästchen, damit Bestellungen in diesem Shop Bestellnummern aus einem separaten Nummernkreis erhalten. Für Shops, in denen diese Einstellung nicht aktiv ist, werden die Bestellnummern shopübergreifend vergeben und hochgezählt.
