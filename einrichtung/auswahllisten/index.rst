@@ -4,6 +4,6 @@
 .. toctree::
    :maxdepth: 1
       
-   selection lists
+   selection-lists
    main-tab
    mall-tab

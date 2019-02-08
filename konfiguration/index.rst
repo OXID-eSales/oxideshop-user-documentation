@@ -6,14 +6,14 @@
    :maxdepth: 1
    
    configuration
-   company information
+   company-information
    emails
-   customer information
-   seo settings
-   value-added tax
+   customer-information
+   seo-settings
+   value-added-tax
    countries
-   ordering process
-   stock management
+   ordering-process
+   stock-management
    images
    Mall-function <mall-funktion/index>
    rights-and-roles

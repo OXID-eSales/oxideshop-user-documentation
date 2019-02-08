@@ -4,7 +4,7 @@
 .. toctree::
    :maxdepth: 1
       
-   coupon series
+   coupon-series
    main-tab
    user-groups-products-tab
    mall-tab

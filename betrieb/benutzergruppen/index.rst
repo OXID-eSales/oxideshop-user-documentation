@@ -4,5 +4,5 @@
 .. toctree::
    :maxdepth: 1
       
-   user groups
+   user-groups
    main-tab

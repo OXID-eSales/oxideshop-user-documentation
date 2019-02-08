@@ -4,4 +4,4 @@
 .. toctree::
    :maxdepth: 1
 
-   installing updates
+   installing-updates

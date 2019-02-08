@@ -4,7 +4,7 @@
 .. toctree::
    :maxdepth: 1
       
-   shipping methods
+   shipping-methods
    main-tab
    payment-tab
    users-tab
