@@ -15,7 +15,7 @@
    ordering-process
    stock-management
    images
-   Mall-function <mall-funktion/index>
+   Mall-function <mall-function/index>
    rights-and-roles
    Caching <caching/index>
    master-slave

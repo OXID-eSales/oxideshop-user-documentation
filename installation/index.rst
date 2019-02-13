@@ -5,5 +5,5 @@
 .. toctree::
    :maxdepth: 1
    
-   Reinstallation <neu-installation/index>
-   Installing updates <update-installation/index>
+   Reinstallation <new-installation/index>
+   Installing updates <installing-updates/index>

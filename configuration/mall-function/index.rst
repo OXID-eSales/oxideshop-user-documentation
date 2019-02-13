@@ -8,4 +8,4 @@
    mall-function
    main-shop-parent-shops
    subshops-supershops-multishops
-   Inheritance <vererbung/index>
+   Inheritance <inheritance/index>

@@ -5,11 +5,11 @@
    :maxdepth: 1
    :caption: OXID eShop
    
-   Welcome <willkommen/index>
+   Welcome <welcome/index>
    Installation <installation/index>
-   Configuration <konfiguration/index>
-   Setup <einrichtung/index>
-   Operation <betrieb/index>
+   Configuration <configuration/index>
+   Setup <setup/index>
+   Operation <operation/index>
    Releases <releases/index>
 
 .. |Home| image:: media/icons/home.png
