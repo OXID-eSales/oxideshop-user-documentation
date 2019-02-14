@@ -15,6 +15,6 @@ Clicking on this button will open the assignment window and display the two list
 :guilabel:`Assign Products` |br|
 Click on :guilabel:`Assign Products` to define individual products for the discount. The assignment window opens and displays the two lists :guilabel:`All Products` and :guilabel:`Assigned Products`. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the discount. Hold down the Ctrl key to select multiple products.
 
-.. seealso:: :doc:`Discounts on selected products <rabatte-auf-ausgewaehlte-artikel>`
+.. seealso:: :doc:`Discounts on selected products <discounts-on-selected-products>`
 
 .. Intern: oxbahj, Status:, F1: discount_articles.html

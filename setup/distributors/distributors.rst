@@ -22,20 +22,20 @@ When you select a distributor from the list, its information will be displayed i
 Main tab
 -------------------
 **Contents**: active distributor, brand, title, short description, icon, distributor logo, uploading, uploading to web server, automatically generated, assigning products |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 Mall tab
 ------------------
 Available only in Enterprise Edition |br|
 
 **Contents**: inheriting distributors, assigning distributors, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
-:doc:`Read article <registerkarte-mall>` |link|
+:doc:`Read article <mall-tab>` |link|
 
 SEO tab
 -----------------
 **Contents**: search engine optimisation, SEO, SEO URL, title suffix, fixing URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\" |br|
-:doc:`Read article <registerkarte-seo>` |link|
+:doc:`Read article <seo-tab>` |link|
 
-.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Manufacturers <../hersteller/hersteller>`
+.. seealso:: :doc:`Products <../products/products>` | :doc:`Manufacturers <../manufacturer/manufacturers>`
 
 .. Intern: oxbage, Status:

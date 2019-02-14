@@ -24,16 +24,16 @@ When you select a promotion, its information will be displayed in the input area
 Promotions and start page
 -----------------------
 **Contents**: start page \"Flow\" theme, Action type, Banner type, banner, Week's Specials, Our brands, Just arrived, Top seller, performance settings, loading promotions, displaying prices for \"Top of the Shop\" and \"Just arrived!\" |br|
-:doc:`Read article <aktionen-und-startseite>` |link|
+:doc:`Read article <promotions-and-start-page>` |link|
 
 Newsletter action
 ---------------------
 **Contents**: newsletter, displaying selected products, \"Newsletter\" action |br|
-:doc:`Read article <aktion-fuer-newsletter>` |link|
+:doc:`Read article <newsletter-action>` |link|
 
 Main tab
 -------------------
 **Contents**: active promotion, Action type, Banner type, Promotion type, name, assigning products, banner images, sorting, slideshow, link for banner image, assigning user groups |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 .. Intern: oxbagv, Status:

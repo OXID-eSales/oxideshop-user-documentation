@@ -43,6 +43,6 @@ Displays the number of times the information about the downloads has been reset.
 :guilabel:`Reset` |br|
 The shop owner can reset the already occurred downloads as long as they are valid. Clicking on this button resets the time of the first and last download and the number of downloads. The validity of the downloads will also be recalculated according to their definition.
 
-.. seealso:: :doc:`Downloads tab <../../einrichtung/artikel/registerkarte-downloads>`
+.. seealso:: :doc:`Downloads tab <../../setup/products/downloads-tab>`
 
 .. Intern: oxbaeh, Status:, F1: order_downloads.html

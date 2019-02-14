@@ -13,6 +13,6 @@ Temporary discounts are edited in the discount management section.
 
 The discount will only apply to the entered time period and the specified conditions. Without the assignment of user groups or users, the discount will apply to all customers of your online shop. In addition, if neither products nor categories have been assigned, the discount will apply to the entire range of products.
 
-.. seealso:: :doc:`Discounts - Main tab <registerkarte-stamm>`
+.. seealso:: :doc:`Discounts - Main tab <main-tab>`
 
 .. Intern: oxbahn, Status:

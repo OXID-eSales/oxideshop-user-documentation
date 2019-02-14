@@ -27,6 +27,6 @@ You will be able to specify whether the respective permission should apply only 
 
 User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
-.. seealso:: :doc:`Rights and roles <../../konfiguration/rechte-und-rollen>`
+.. seealso:: :doc:`Rights and roles <../../configuration/rights-and-roles>`
 
 .. Intern: oxbacg, Status:, F1: category_rights.html

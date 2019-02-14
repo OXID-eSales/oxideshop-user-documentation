@@ -22,6 +22,6 @@ Click on :guilabel:`Assign User Groups (Exclusively visible)` or :guilabel:`Assi
 
 User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
-.. seealso:: :doc:`Rights and roles <../../konfiguration/rechte-und-rollen>`
+.. seealso:: :doc:`Rights and roles <../../configuration/rights-and-roles>`
 
 .. Intern: oxbact, Status:, F1: article_rights.html

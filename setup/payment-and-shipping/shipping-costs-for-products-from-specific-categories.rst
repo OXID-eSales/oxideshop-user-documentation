@@ -58,6 +58,6 @@ If the customer adds a harness to the shopping cart, the second shipping cost ru
 
 The shipping of a single harness will also cost €7.49 because both shipping cost rules will apply. The first shipping cost rule will apply to all products, and the second shipping cost rule will exclude only products from kiteboarding accessories.
 
-.. seealso:: :doc:`Shipping cost rules - Products tab <../versandkostenregeln/registerkarte-artikel>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Shipping cost rules - Products tab <../shipping-cost-rules/products-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
 
 .. Intern: oxbafz, Status:

@@ -11,9 +11,9 @@ Discounts can be defined for a specific time period or even for a specific count
    :height: 517
    :width: 650
 
-Quantity or scale discounts can be implemented with scale prices for the products. This way, the product will be cheaper if the customer buys a certain quantity. See: :doc:`Products - Stock tab <../../einrichtung/artikel/registerkarte-lager>`
+Quantity or scale discounts can be implemented with scale prices for the products. This way, the product will be cheaper if the customer buys a certain quantity. See: :doc:`Products - Stock tab <../../setup/products/stock-tab>`
 
-A discount granted at the time of purchase can be changed later in the order management section. Likewise, a discount on the shopping cart value can be given after the order has been placed. See: :doc:`Orders - Main tab <../bestellungen/registerkarte-stamm>`
+A discount granted at the time of purchase can be changed later in the order management section. Likewise, a discount on the shopping cart value can be given after the order has been placed. See: :doc:`Orders - Main tab <../orders/main-tab>`
 
 Naturally, various discounts can be active in OXID eShop so that, under certain conditions, several discounts are taken into account when buying a product and displayed in the shopping cart. In this case, discounts that apply to specific products are indicated in the shopping cart by the now valid discounted price and the crossed-out, original product price. Discounts that apply to the entire product catalogue are displayed as one line when listing the total amount for the shopping cart.
 
@@ -38,22 +38,22 @@ When you select a discount from the list, its information will be displayed in t
 Main tab
 -------------------
 **Contents**: active discount, always active, active for a time period, purchase quantity, purchase value, absolute discount, percentage discount, gift, add-on, free product |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 Products tab
 ---------------------
 **Contents**: Assigning products and categories |br|
-:doc:`Read article <registerkarte-artikel>` |link|
+:doc:`Read article <products-tab>` |link|
 
 Users tab
 ----------------------
 **Contents**: Assigning users and user groups |br|
-:doc:`Read article <registerkarte-benutzer>` |link|
+:doc:`Read article <users-tab>` |link|
 
 Mall tab
 ------------------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting discounts, assigning discounts, parent shop, subshop, supershop, multishop, Mall |br|
-:doc:`Read article <registerkarte-mall>` |link|
+:doc:`Read article <mall-tab>` |link|
 
 .. Intern: oxbahh, Status:

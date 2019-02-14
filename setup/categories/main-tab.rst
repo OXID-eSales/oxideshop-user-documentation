@@ -77,6 +77,6 @@ You can assign products to the category. Clicking on :guilabel:`Assign Products`
 
 All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the category. Hold down the Ctrl key to select multiple products.
 
-.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Assigning products to categories <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Sorting products <../artikel-und-kategorien/sortierung-von-artikeln>`
+.. seealso:: :doc:`Products <../products/products>` | :doc:`Assigning products to categories <../products-and-categories/assigning-products-to-categories>` | :doc:`Sorting products <../products-and-categories/sorting-products>`
 
 .. Intern: oxbabk, Status:, F1: category_main.html

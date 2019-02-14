@@ -20,6 +20,6 @@ Example: For a product that is offered in a 500 kg package, enter 0.5 in the “
 
 The units kg, g, l, ml, cm, mm, m, m², m³, piece and item are stored in the :file:`lang.php` language file in the :file:`/application/translations/de` directory.
 
-.. seealso:: :doc:`Products - Extended tab <../artikel/registerkarte-erweitert>` | `Information sheet for specifying base prices in the online shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)
+.. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | `Information sheet for specifying base prices in the online shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)
 
 .. Intern: oxbafl, Status:

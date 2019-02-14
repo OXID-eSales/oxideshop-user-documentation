@@ -53,6 +53,6 @@ If the customer buys products that have to be delivered to Austria, the second s
    :height: 261
    :width: 550
 
-.. seealso:: :doc:`Shipping cost rules - Main tab <../versandkostenregeln/registerkarte-stamm>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Shipping cost rules - Main tab <../shipping-cost-rules/main-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
 
 .. Intern: oxbafx, Status:

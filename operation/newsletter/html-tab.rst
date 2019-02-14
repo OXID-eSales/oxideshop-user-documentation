@@ -35,6 +35,6 @@ The way the Smarty prompts work is illustrated by an example from the sample new
 
 The recipient of the newsletter is addressed personally by reading and inserting the salutation and the first and last name from the database. The result can be viewed in the :guilabel:`Preview` tab.
 
-.. seealso:: `Email Standards Project <http://www.email-standards.org>`_ | `Smarty Template Engine <https://www.smarty.net>`_ | :doc:`Preview tab <registerkarte-vorschau>`
+.. seealso:: `Email Standards Project <http://www.email-standards.org>`_ | `Smarty Template Engine <https://www.smarty.net>`_ | :doc:`Preview tab <preview-tab>`
 
 .. Intern: oxbaif, Status:, F1: newsletter_main

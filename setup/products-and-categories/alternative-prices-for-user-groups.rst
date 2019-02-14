@@ -31,6 +31,6 @@ Assigning multiple users to a user group
 
 If users belong to the user groups \"Price A\", \"Price B\" or \"Price C\", you will also need to enter alternative prices for all products. If this is not the case, €0.00 will be displayed instead. A global setting ensures that the regular price will be displayed if alternative prices for a product are not available. Go to :menuselection:`Master Settings --> Core Settings --> Settings` and open the :guilabel:`Products` section. Check the box :guilabel:`Use standard Product Price if no A/B/C Price is set` and click on :guilabel:`Save`.
 
-.. seealso:: :doc:`Products - Main tab <../artikel/registerkarte-stamm>` | :doc:`Users - Main tab <../../betrieb/benutzer/registerkarte-stamm>` | :doc:`User groups - Main tab <../../betrieb/benutzergruppen/registerkarte-stamm>`
+.. seealso:: :doc:`Products - Main tab <../products/main-tab>` | :doc:`Users - Main tab <../../operation/users/main-tab>` | :doc:`User groups - Main tab <../../operation/user-groups/main-tab>`
 
 .. Intern: oxbafk, Status:

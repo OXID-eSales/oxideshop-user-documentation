@@ -56,6 +56,6 @@ Variant’s stock. Use the list next to it to select the behaviour if the varian
 :guilabel:`In Language` |br|
 Allows you to quickly edit variants in another active language of the shop.
 
-.. seealso:: :doc:`Selection lists <../auswahllisten/auswahllisten>`
+.. seealso:: :doc:`Selection lists <../selection-lists/selection-lists>`
 
 .. Intern: oxbaco, Status:, F1: article_variant.html

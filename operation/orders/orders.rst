@@ -24,31 +24,31 @@ When you select an order from the list, its information will be displayed in the
 Overview tab
 -----------------------
 **Contents**: order overview, billing address, shipping address, ordered products, total price with individual items, payment method, shipping method, order notification, order number, customer number, folder for orders, new, processed, problems, today’s orders, total orders, shipping orders, shipping confirmation, XML export, invoice and delivery note as PDF |br|
-:doc:`Read article <registerkarte-uebersicht>` |link|
+:doc:`Read article <overview-tab>` |link|
 
 Main tab
 -------------------
 **Contents**: IP address and order, Trusted Shops, order number, invoice number, discount, payment information, payment date, payment method, shipping information, shipping method, shipping costs, order shipping, shipping confirmation, links to downloadable products |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 Addresses tab
 ----------------------
 **Contents**: billing address, shipping address, user, account, billing and shipping settings |br|
-:doc:`Read article <registerkarte-adressen>` |link|
+:doc:`Read article <addresses-tab>` |link|
 
 Products tab
 ---------------------
 **Contents**: products in an order, changing product quantity, cancelling ordered products, deleting products from the order, searching for products, adding products to the order, total price with individual items |br|
-:doc:`Read article <registerkarte-artikel>` |link|
+:doc:`Read article <products-tab>` |link|
 
 History tab
 ----------------------
 **Contents**: note, log, customer actions, customer information |br|
-:doc:`Read article <registerkarte-historie>` |link|
+:doc:`Read article <history-tab>` |link|
 
 Downloads tab
 -----------------------
 **Contents**: downloadable products of an order, downloadable files, first and last download, number of completed downloads, maximum possible downloads, validity of download links, reset, resetting downloads |br|
-:doc:`Read article <registerkarte-downloads>` |link|
+:doc:`Read article <downloads-tab>` |link|
 
 .. Intern: oxbaeb, Status:

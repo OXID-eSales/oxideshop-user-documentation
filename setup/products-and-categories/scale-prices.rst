@@ -21,6 +21,6 @@ Defining scale prices in the product management section
 
 .. hint:: Please make sure to always enter a sufficient quantity in the :guilabel:`To` field for the scale with the largest number of products, e.g., 999999. Otherwise, the original product price will apply when the upper scale quantity is exceeded.
 
-.. seealso:: :doc:`Products - Stock tab <../artikel/registerkarte-lager>`
+.. seealso:: :doc:`Products - Stock tab <../products/stock-tab>`
 
 .. Intern: oxbafm, Status:

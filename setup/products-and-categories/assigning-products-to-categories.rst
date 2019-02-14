@@ -31,6 +31,6 @@ Assigning several products to a category
 
 The assignment windows that are used in many areas of the Admin panel always work in the same way. Entries in the list are searched, selected or filtered. Use drag and drop to move them into a different list. Hold down the Ctrl key to select multiple entries. Close the window to complete the assignment. You don’t need to save anything.
 
-.. seealso:: :doc:`Products - Extended tab <../artikel/registerkarte-erweitert>` | :doc:`Categories - Main tab <../kategorien/registerkarte-stamm>`
+.. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | :doc:`Categories - Main tab <../categories/main-tab>`
 
 .. Intern: oxbafo, Status:

@@ -9,7 +9,7 @@ Inheritance is an important part of the Mall function. It takes place when you c
    :height: 335
    :width: 650
 
-Inheritance settings can be changed even after you create a shop. The changes can be made shop-wide in the inheritance settings or refer to individual products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors, etc. Further information can be found in :doc:`Customisation <individualisierung>`.
+Inheritance settings can be changed even after you create a shop. The changes can be made shop-wide in the inheritance settings or refer to individual products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors, etc. Further information can be found in :doc:`Customisation <customisation>`.
 
 A subshop can pass on its product and settings to another subshop. You can only assign/unassign individual products and other elements to/from the subshop for which it is the parent shop. A supershop, on the other hand, can pass on its products and settings to supershops and subshops. You can assign individual products and other elements to all other shops and then unassign them. This also applies to the main shop and to subshops, for which the supershop is not the parent shop. Multishops don’t have to inherit products and settings because they display all products, manufacturers and distributors from all shops. As an option, they can inherit all categories from all shops.
 
@@ -20,23 +20,23 @@ Inheritance-related information that can be found in the other documents is also
 Inheritable elements
 -------------------
 **Contents**: Mall, Enterprise Edition, inheritance, inheritance settings, assignments, inheritable elements, products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, news, links |br|
-:doc:`Read article <vererbbare-elemente>` |link|
+:doc:`Read article <inheritable-elements>` |link|
 
 Non-inheritable elements
 -------------------------
 **Contents**: Mall, Enterprise Edition, inheritance, non-heritable elements, shop configuration, assignment to promotions, CMS pages, orders |br|
-:doc:`Read article <nicht-vererbbare-elemente>` |link|
+:doc:`Read article <non-inheritable-elements>` |link|
 
 Shared elements
 -----------------
 **Contents**: Mall, Enterprise Edition, inheritance, shared elements, payment methods, countries, languages, users, user groups, reviews |br|
-:doc:`Read article <geteilte-elemente>` |link|
+:doc:`Read article <shared-elements>` |link|
 
 Customisation
 ------------------
 **Contents**: Mall, Enterprise Edition, inheritance, customisation, inheritance settings, product price, alternative prices, scale prices, rights and roles, SEO, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
-:doc:`Read article <individualisierung>` |link|
+:doc:`Read article <customisation>` |link|
 
-.. seealso:: :doc:`Users <../../../betrieb/benutzer/benutzer>`
+.. seealso:: :doc:`Users <../../../operation/users/users>`
 
 .. Intern: oxbago, Status:

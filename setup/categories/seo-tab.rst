@@ -15,7 +15,7 @@ The language selection list at the bottom of the input area allows you to edit c
 You can define a fixed, non-changing URL for the category. By default, the URL changes with the change in the category’s title or its position in the category structure. If the box is checked, the SEO URL of the category will remain unchanged in case of such a change.
 
 :guilabel:`Show SEO Suffix in Category` |br|
-If the box is checked, the title suffix will be displayed in the page title. The title suffix can be defined under :menuselection:`Master Settings --> Core Settings --> SEO`. More information can be found in :doc:`SEO settings <../../konfiguration/seo-einstellungen>`.
+If the box is checked, the title suffix will be displayed in the page title. The title suffix can be defined under :menuselection:`Master Settings --> Core Settings --> SEO`. More information can be found in :doc:`SEO settings <../../configuration/seo-settings>`.
 
 :guilabel:`SEO URL` |br|
 Shows the current URL of the category which can also be changed and fixed.

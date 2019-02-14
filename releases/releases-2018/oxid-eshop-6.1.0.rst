@@ -24,7 +24,7 @@ OXID eShop 6.1.0 is provided as a compilation with the following components:
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.3...v6.1.0>`_.
 
-With OXID eShop 6.1.0, we have resolved two security issues. One of the two security issues is only relevant if the Paymorrow payment method is actively used in the shop. Details on both security issues can be found on the following pages of OXIDforge: `Security Bulletin 2018-002 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_ and `Security Bulletin 2018-003 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_. We recommend a quick update to this shop version (6.1.0) and to the provided Paymorrow 2.0.1 module. For instructions on updating the shop, see :doc:`Installing updates <../../installation/update-installation/index>`.
+With OXID eShop 6.1.0, we have resolved two security issues. One of the two security issues is only relevant if the Paymorrow payment method is actively used in the shop. Details on both security issues can be found on the following pages of OXIDforge: `Security Bulletin 2018-002 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_ and `Security Bulletin 2018-003 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_. We recommend a quick update to this shop version (6.1.0) and to the provided Paymorrow 2.0.1 module. For instructions on updating the shop, see :doc:`Installing updates <../../installation/installing-updates/index>`.
 
 System requirements
 ^^^^^^^^^^^^^^^^^^^^^
@@ -34,8 +34,8 @@ Installation
 ^^^^^^^^^^^^
 Please follow the instructions in Section "Installation":
 
-:doc:`Reinstallation <../../installation/neu-installation/neu-installation>` |br|
-:doc:`Installing updates <../../installation/update-installation/update-installation>`
+:doc:`Reinstallation <../../installation/new-installation/reinstallation>` |br|
+:doc:`Installing updates <../../installation/installing-updates/installing-updates>`
 
 Please run the update first in a test or development environment, or a copy of your current shop. Then, test the ordering process and payment and shipping methods. If the shop works correctly, you can replace the shop in the live system with the one from the test or development environment.
 

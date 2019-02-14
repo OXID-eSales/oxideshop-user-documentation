@@ -15,6 +15,6 @@ Like promotions, CMS pages are non-inheritable elements. They are copied from th
 
 If a customer places an order in a subshop, supershop or multishop, the order will only be created in the respective shop and can only be processed there. The assigned order number depends on whether separate order numbers are allowed for the shop. The relevant settings can be found in the :guilabel:`Mall` tab under :menuselection:`Master Settings --> Core Settings`.
 
-.. seealso:: :doc:`Configuration <../../../konfiguration/konfiguration>` | :doc:`Orders <../../../betrieb/bestellungen/bestellungen>`
+.. seealso:: :doc:`Configuration <../../../configuration/configuration>` | :doc:`Orders <../../../operation/orders/orders>`
 
 .. Intern: oxbagq, Status:

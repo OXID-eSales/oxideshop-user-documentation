@@ -28,6 +28,6 @@ Clicking on :guilabel:`Assign Selection Lists` opens another assignment window. 
    :height: 320
    :width: 400
 
-.. seealso:: :doc:`Attributes <../attribute/attribute>` | :doc:`Selection lists <../auswahllisten/auswahllisten>` | :doc:`Filtering products <../artikel-und-kategorien/filtern-von-artikeln>`
+.. seealso:: :doc:`Attributes <../attributes/attributes>` | :doc:`Selection lists <../selection-lists/selection-lists>` | :doc:`Filtering products <../products-and-categories/filtering-products>`
 
 .. Intern: oxbacm, Status:, F1: article_attribute.html

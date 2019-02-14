@@ -14,6 +14,6 @@ Clicking on :guilabel:`Assign Categories` opens a new window where you can assig
 
 Sorting can affect the order in which the filters, based on the attributes and their values, are arranged in the category overview. The order of the attributes defined in the assignment window overwrites the order defined for the attributes.
 
-.. seealso:: :doc:`Categories <../kategorien/kategorien>` | :doc:`Filtering products <../artikel-und-kategorien/filtern-von-artikeln>`
+.. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Filtering products <../products-and-categories/filtering-products>`
 
 .. Intern: oxbafh, Status:, F1: attribute_category.html

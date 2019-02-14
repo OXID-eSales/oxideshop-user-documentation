@@ -36,6 +36,6 @@ Parent shops
 -----------
 When you create a new shop that inherits all products and settings from a previously created shop, the previous shop becomes a parent shop. The shop that passes on products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors and other elements to the new shop is its parent shop. Individual products can also be assigned to any other shop from the main shop, which makes the main shop a supershop. More information about other shop types can be found in :doc:`Subshops, supershops & multishops <subshops-supershops-multishops>`.
 
-.. seealso:: :doc:`Inheritance <vererbung/vererbung>`
+.. seealso:: :doc:`Inheritance <inheritance/inheritance>`
 
 .. Intern: oxbagm, Status:

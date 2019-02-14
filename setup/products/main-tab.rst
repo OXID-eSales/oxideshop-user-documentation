@@ -28,7 +28,7 @@ The product will be displayed with this title in the shop. Make sure to use conc
 Make sure to use a unique number for the product. It will be displayed to the customer in the product’s detailed view in the shop. It can also be used to search for products. There are no requirements for the structure of the product number as it depends on the number of products as well as on whether the product number is specified by a merchandise management system.
 
 :guilabel:`EAN` |br|
-Unique product identifier that can be entered here. In Europe this is the `European Article Number (EAN) <http://de.wikipedia.org/wiki/European_Article_Number>`_ . In the United States this is the `Universal Product Code (UPC) <http://de.wikipedia.org/wiki/Universal_Product_Code>`_ and in Japan the Japanese Article Number (JAN). This field can also contain the `International Standard Book Number (ISBN) <http://de.wikipedia.org/wiki/ISBN>`_ .
+Unique product identifier that can be entered here. In Europe this is the `European Article Number (EAN) <https://en.wikipedia.org/wiki/International_Article_Number>`_ . In the United States this is the `Universal Product Code (UPC) <https://en.wikipedia.org/wiki/Universal_Product_Code>`_ and in Japan the Japanese Article Number (JAN). This field can also contain the `International Standard Book Number (ISBN) <https://en.wikipedia.org/wiki/International_Standard_Book_Number>`_ .
 
 :guilabel:`Man. EAN` |br|
 Additional field for further categorisation of the product, for example, the manufacturer's EAN identification (numbers 4 to 7 of the barcode).
@@ -66,6 +66,6 @@ Product’s long description
 -----------------------------
 Product’s long description can be entered in an editor on the right side of the :guilabel:`Main` tab. This works based on the WYSIWYG (What You See Is What You Get) principle, which means that the text is displayed the way it will be visible later as the description in the product’s detailed view. The editor lets you use different text formatting options and insert links, pictures and videos. It also allows you to display and edit the HTML code to meet any special or additional requirements.
 
-.. seealso:: :doc:`Alternative prices for user groups <../artikel-und-kategorien/alternative-preise-fuer-benutzergruppen>` | :doc:`Manufacturers <../hersteller/hersteller>` | :doc:`Distributors <../lieferanten/lieferanten>`
+.. seealso:: :doc:`Alternative prices for user groups <../products-and-categories/alternative-prices-for-user-groups>` | :doc:`Manufacturers <../manufacturer/manufacturers>` | :doc:`Distributors <../distributors/distributors>`
 
 .. Intern: oxbaci, Status:, F1: article_main.html

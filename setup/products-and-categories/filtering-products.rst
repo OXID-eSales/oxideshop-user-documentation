@@ -41,6 +41,6 @@ The individual values that are assigned to products for this attribute represent
 
 The screenshot in the example shows that the category with the shirts can be sorted by the product’s material. Cotton and Stretch Jersey are the available filters to limit the number of products shown.
 
-.. seealso:: :doc:`Attributes - Category tab <../attribute/registerkarte-kategorien>` | :doc:`Products - Selection tab <../artikel/registerkarte-auswahl>`
+.. seealso:: :doc:`Attributes - Category tab <../attributes/category-tab>` | :doc:`Products - Selection tab <../products/selection-tab>`
 
 .. Intern: oxbafr, Status:

@@ -8,7 +8,7 @@ OXID eShop has an integrated stock management system that shows the availability
    :height: 342
    :width: 650
 
-To use :doc:`Stock Management<../../konfiguration/lagerverwaltung>`, you will need to first activate and configure this feature in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Stock`.
+To use :doc:`Stock Management<../../configuration/stock-management>`, you will need to first activate and configure this feature in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Stock`.
 
 :guilabel:`Stock` |br|
 When you create a product, you can enter its initial stock here. The stock decreases with each order. This field shows how many items are currently in stock and can also be adjusted if the stock changes.
@@ -56,6 +56,6 @@ Enter the product quantity for a quantity range.
 :guilabel:`Scale Prices` - :guilabel:`Price (€)` |br|
 Enter the product price for a unit of measure. This can be an absolute price or a price in percent.
 
-.. seealso:: :doc:`Scale Prices <../artikel-und-kategorien/staffelpreise>`
+.. seealso:: :doc:`Scale Prices <../products-and-categories/scale-prices>`
 
 .. Intern: oxback, Status:, F1: article_stock.html

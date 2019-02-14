@@ -73,6 +73,6 @@ Discounts can also apply to specific countries. Use this button to assign the co
 
 Clicking on this button will open an assignment window where you can select countries from the :guilabel:`All Countries` list. Countries can be sorted and filtered by name and/or country abbreviation. Drag the desired countries into the right-hand list using the mouse. Hold down the Ctrl key to select multiple countries.
 
-.. seealso:: :doc:`Temporary discounts <zeitlich-begrenzte-rabatte>`
+.. seealso:: :doc:`Temporary discounts <temporary-discounts>`
 
 .. Intern: oxbahi, Status:, F1: discount_main.html

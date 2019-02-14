@@ -71,6 +71,6 @@ Users can belong to different user groups. Grouping users into user groups makes
 
 Clicking on :guilabel:`Assign User Groups` opens a new window. All available user groups will be displayed in the left-hand list. Drag and drop them into the right-hand list. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
-.. seealso:: :doc:`User groups <../benutzergruppen/benutzergruppen>`
+.. seealso:: :doc:`User groups <../user-groups/user-groups>`
 
 .. Intern: oxbadr, Status:, F1: user_main.html

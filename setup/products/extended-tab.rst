@@ -111,6 +111,6 @@ Enter the prices that should replace the previously set prices. If a price is se
 :guilabel:`Update price on defined time` - :guilabel:`Start time` |br|
 Set the time for the price update.
 
-.. seealso:: :doc:`Categories <../kategorien/kategorien>` | :doc:`Assigning products to categories <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Product’s main category <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Price per unit (base price) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Add-on product <../../betrieb/rabatte/artikel-als-zugabe>`
+.. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Assigning products to categories <../products-and-categories/assigning-products-to-categories>` | :doc:`Product’s main category <../products-and-categories/main-category-of-a-product>` | :doc:`Price per unit (base price) <../products-and-categories/price-per-unit-base-price>` | :doc:`Add-on product <../../operation/discounts/product-as-add-on>`
 
 .. Intern: oxbacj, Status:, F1: article_extend.html

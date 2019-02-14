@@ -26,6 +26,6 @@ The following lines are taken from the sample newsletter that shows the way the 
 
 First, the system checks whether a list of products exists. If it exists, it will loop through to list all the products in that list with their price. The result can be viewed in the :guilabel:`Preview` tab. A list of products exists if products have been assigned to the \"Newsletter\" action.
 
-.. seealso:: `Smarty Template Engine <https://www.smarty.net>`_ | :doc:`Preview tab <registerkarte-vorschau>` | :doc:`Newsletter action <../aktionen/aktion-fuer-newsletter>`
+.. seealso:: `Smarty Template Engine <https://www.smarty.net>`_ | :doc:`Preview tab <preview-tab>` | :doc:`Newsletter action <../promotions/newsletter-action>`
 
 .. Intern: oxbaig, Status:, F1: newsletter_plain

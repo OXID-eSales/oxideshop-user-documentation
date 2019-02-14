@@ -67,6 +67,6 @@ If there are two or more products weighing 2 kg each in the shopping cart, the s
    :height: 291
    :width: 550
 
-.. seealso:: :doc:`Products - Extended tab <../artikel/registerkarte-erweitert>` | :doc:`Shipping cost rules - Main tab <../versandkostenregeln/registerkarte-stamm>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | :doc:`Shipping cost rules - Main tab <../shipping-cost-rules/main-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
 
 .. Intern: oxbafv, Status:

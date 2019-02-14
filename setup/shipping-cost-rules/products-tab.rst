@@ -15,6 +15,6 @@ Clicking on this button will open the assignment window and display the two list
 :guilabel:`Assign Products` |br|
 Click on :guilabel:`Assign Products` to define individual products for the shipping cost rule. The assignment window opens and displays the two lists :guilabel:`All Products` and :guilabel:`Assigned Products`. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the shipping cost rule. Hold down the Ctrl key to select multiple products.
 
-.. seealso:: :doc:`Shipping costs for specific products <../zahlung-und-versand/versandkosten-fuer-bestimmte-artikel>` | :doc:`Shipping costs for products from specific categories <../zahlung-und-versand/versandkosten-fuer-artikel-aus-bestimmten-kategorien>`
+.. seealso:: :doc:`Shipping costs for specific products <../payment-and-shipping/shipping-costs-for-specific-products>` | :doc:`Shipping costs for products from specific categories <../payment-and-shipping/shipping-costs-for-products-from-specific-categories>`
 
 .. Intern: oxbadl, Status:, F1: delivery_articles.html

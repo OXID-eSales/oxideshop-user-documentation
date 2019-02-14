@@ -24,6 +24,6 @@ The discount is assigned to categories
 
 The discount will apply to the assigned products and/or categories. Without the assignment of user groups or users, the discount will apply to all customers of your online shop.
 
-.. seealso:: :doc:`Discounts - Products tab <registerkarte-artikel>` | :doc:`Products <../../einrichtung/artikel/artikel>` | :doc:`Categories <../../einrichtung/kategorien/kategorien>`
+.. seealso:: :doc:`Discounts - Products tab <products-tab>` | :doc:`Products <../../setup/products/products>` | :doc:`Categories <../../setup/categories/categories>`
 
 .. Intern: oxbaho, Status:

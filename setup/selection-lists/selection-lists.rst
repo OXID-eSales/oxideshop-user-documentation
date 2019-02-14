@@ -29,14 +29,14 @@ When you select a selection list, its information will be displayed in the input
 Main tab
 -------------------
 **Contents**: product’s selection list, field, product version, support price changes through selection lists, sorting selection lists, assigning products |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 Mall tab
 ------------------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting selection lists, assigning selection lists, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
-:doc:`Read article <registerkarte-mall>` |link|
+:doc:`Read article <mall-tab>` |link|
 
-.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Products - Selection tab <../artikel/registerkarte-auswahl>` | :doc:`Products - Variants tab <../artikel/registerkarte-varianten>`
+.. seealso:: :doc:`Products <../products/products>` | :doc:`Products - Selection tab <../products/selection-tab>` | :doc:`Products - Variants tab <../products/variants-tab>`
 
 .. Intern: oxbafi, Status:

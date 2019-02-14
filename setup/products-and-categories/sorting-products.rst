@@ -46,6 +46,6 @@ The fields by which products can be sorted correspond to the database fields of 
 
 The screenshot in the example shows that besides the name and the price, products can also be sorted by the product number. For this purpose, the *oxartnum* field was added to the standard *oxtitle* and *oxvarprice* fields.
 
-.. seealso:: :doc:`Categories - Main tab <../kategorien/registerkarte-stamm>` | :doc:`Categories - Sorting tab <../kategorien/registerkarte-sortierung>`
+.. seealso:: :doc:`Categories - Main tab <../categories/main-tab>` | :doc:`Categories - Sorting tab <../categories/sorting-tab>`
 
 .. Intern: oxbafq, Status:

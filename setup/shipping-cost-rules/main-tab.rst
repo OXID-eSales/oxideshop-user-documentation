@@ -55,6 +55,6 @@ Click on :guilabel:`Assign Countries` and select countries from the :guilabel:`A
 
 .. hint:: Domestic and foreign shipping should always be controlled by shipping cost rules. Don’t use shipping methods as this could cause problems if the billing address and the shipping address are from different countries when placing an order.
 
-.. seealso:: :doc:`Weight-dependent shipping costs <../zahlung-und-versand/gewichtsabhaengige-versandkosten>` | :doc:`Free shipping from certain product value <../zahlung-und-versand/versandkostenfrei-ab-warenwert>` | :doc:`Domestic and foreign shipping costs <../zahlung-und-versand/versandkosten-fuer-in-und-ausland>`
+.. seealso:: :doc:`Weight-dependent shipping costs <../payment-and-shipping/weight-based-shipping-costs>` | :doc:`Free shipping from certain product value <../payment-and-shipping/free-shipping-from-certain-product-value>` | :doc:`Domestic and foreign shipping costs <../payment-and-shipping/domestic-and-foreign-shipping-costs>`
 
 .. Intern: oxbadk, Status:, F1: delivery_main.html

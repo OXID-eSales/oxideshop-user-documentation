@@ -58,6 +58,6 @@ If the customer adds a wakeboard to the shopping cart, the second shipping cost 
 
 The shipping of a single wakeboard will also cost €28.49 because both shipping cost rules - those applying to all products and those applying to the wakeboard - will apply.
 
-.. seealso:: :doc:`Shipping cost rules - Products tab <../versandkostenregeln/registerkarte-artikel>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Shipping cost rules - Products tab <../shipping-cost-rules/products-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
 
 .. Intern: oxbafy, Status:

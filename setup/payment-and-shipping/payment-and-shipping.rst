@@ -10,12 +10,12 @@ Payment methods
 Prices for payment methods
 ^^^^^^^^^^^^^^^^^^^^^^^^
 **Contents**: payment, payment method, surcharge, discount, absolute, percentage, cash discount, surcharges and discounts in the ordering process |br|
-:doc:`Read article <preise-fuer-zahlungsarten>` |link|
+:doc:`Read article <prices-for-payment-methods>` |link|
 
 Payment methods for specific users
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Contents**: payment, payment method, creditworthiness, credit rating, user groups, assigning user groups, assignment window, payment methods in the ordering process |br|
-:doc:`Read article <zahlungsarten-fuer-bestimmte-benutzer>` |link|
+:doc:`Read article <payment-methods-for-specific-users>` |link|
  
 ----------------------------------------------------------------------------------------- 
 
@@ -24,26 +24,26 @@ Shipping cost rules
 Weight-based shipping costs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Contents**: shipping, shipping costs, shipping cost rule, condition, weight, products, ordering process, calculation of shipping costs |br|
-:doc:`Read article <gewichtsabhaengige-versandkosten>` |link|
+:doc:`Read article <weight-based-shipping-costs>` |link|
 
 Free shipping from certain product value
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Contents**: shipping, shipping costs, shipping cost rule, condition, price, products, ordering process, calculation of shipping costs, free shipping |br|
-:doc:`Read article <versandkostenfrei-ab-warenwert>` |link|
+:doc:`Read article <free-shipping-from-certain-product-value>` |link|
 
 Domestic and foreign shipping costs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Contents**: shipping, shipping costs, shipping cost rule, countries, assignment of countries, domestic, foreign, ordering process, calculation of shipping costs |br|
-:doc:`Read article <versandkosten-fuer-in-und-ausland>` |link|
+:doc:`Read article <domestic-and-foreign-shipping-costs>` |link|
 
 Shipping costs for specific products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Contents**: shipping, shipping costs, shipping cost rule, assigning products, surcharge, bulky goods, ordering process, calculation of shipping costs |br|
-:doc:`Read article <versandkosten-fuer-bestimmte-artikel>` |link|
+:doc:`Read article <shipping-costs-for-specific-products>` |link|
 
 Shipping costs for products from specific categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Contents**: Shipping, shipping costs, shipping cost rule, assigning categories, surcharge, ordering process, calculation of shipping costs |br|
-:doc:`Read article <versandkosten-fuer-artikel-aus-bestimmten-kategorien>` |link|
+:doc:`Read article <shipping-costs-for-products-from-specific-categories>` |link|
 
 .. Intern: oxbafs, Status:

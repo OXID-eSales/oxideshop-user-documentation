@@ -26,29 +26,29 @@ The assignment of users and user groups is optional. If no user or user group ha
 Main tab
 -------------------
 **Contents**: active shipping method, active time period, sorting, assigning shipping cost rules and countries |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab` |link|
 
 Payment tab
 ---------------------------
 **Contents**: assigning payment methods |br|
-:doc:`Read article <registerkarte-zahlungsarten>` |link|
+:doc:`Read article <payment-tab>` |link|
 
 Users tab
 ----------------------
 **Contents**: assigning users and user groups |br|
-:doc:`Read article <registerkarte-benutzer>` |link|
+:doc:`Read article <users-tab>` |link|
 
 Mall tab
 ------------------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting payment methods, assigning payment methods, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
-:doc:`Read article <registerkarte-mall>` |link|
+:doc:`Read article <mall-tab>` |link|
 
 RDFa tab
 ------------------
 **Contents**: RDFa, Resource Description Framework, GoodRelations, e-commerce vocabulary, general shipping methods and parcel services, rich snippets |br|
-:doc:`Read article <registerkarte-rdfa>` |link|
+:doc:`Read article <rdfa-tab>` |link|
 
-.. seealso:: :doc:`Shipping methods <../zahlungsarten/zahlungsarten>` | :doc:`Shipping cost rules <../versandkostenregeln/versandkostenregeln>` | :doc:`Payment and shipping <../zahlung-und-versand/zahlung-und-versand>`
+.. seealso:: :doc:`Payment methods <../payment-methods/payment-methods>` | :doc:`Shipping cost rules <../shipping-cost-rules/shipping-cost-rules>` | :doc:`Payment and shipping <../payment-and-shipping/payment-and-shipping>`
 
 .. Intern: oxbadd, Status:

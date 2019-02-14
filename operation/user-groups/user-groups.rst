@@ -49,11 +49,11 @@ Users who register in your shop without having placed an order will be displayed
 
 Newsletter Recipients
 ^^^^^^^^^^^^^^^^^^^^^
-If the user checks the box :guilabel:`Subscribe to the newsletter` when placing an order or registering in the shop, he/she will be flagged as a newsletter subscriber. If the user clicks on a special confirmation link received by email, he/she will be activated for receiving the newsletter and included in this user group. Such explicit confirmation is also called double opt-in. If the user unsubscribes from the newsletter later, he/she will still remain in this user group. The actual delivery of the newsletter to the user can be disabled in the :doc:`Extended tab <../benutzer/registerkarte-erweitert>`.
+If the user checks the box :guilabel:`Subscribe to the newsletter` when placing an order or registering in the shop, he/she will be flagged as a newsletter subscriber. If the user clicks on a special confirmation link received by email, he/she will be activated for receiving the newsletter and included in this user group. Such explicit confirmation is also called double opt-in. If the user unsubscribes from the newsletter later, he/she will still remain in this user group. The actual delivery of the newsletter to the user can be disabled in the :doc:`Extended tab <../users/extended-tab>`.
 
 Price A/Price B/Price C
 ^^^^^^^^^^^^^^^^^^^^^^^
-These user groups allow you to display special product prices to the users. Users must be manually assigned to the respective group. Go to the products’ :doc:`Main tab <../../einrichtung/artikel/registerkarte-stamm>` to specify alternative prices (A, B and/or C) that the users of the respective user group (Price A/Price B or Price C) will see instead of the regular price after they register in the shop.
+These user groups allow you to display special product prices to the users. Users must be manually assigned to the respective group. Go to the products’ :doc:`Main tab <../../setup/products/main-tab>` to specify alternative prices (A, B and/or C) that the users of the respective user group (Price A/Price B or Price C) will see instead of the regular price after they register in the shop.
 
 .. hint::You may experience issues with products for which no alternative prices have been specified. For example, €0.00 would be displayed for users from one of the user groups with alternative prices. To avoid this, check the box :guilabel:`Use standard Product Price if no A/B/C Price is set` in section :guilabel:`Products` under :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab.
 
@@ -74,8 +74,8 @@ Users who have been assigned to this user group will be denied access to the sho
 Main tab
 -------------------
 **Contents**: active user group, user group name, language, assigning users |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
-.. seealso:: :doc:`Users <../benutzer/benutzer>` | :doc:`Payment methods <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Shipping methods <../../einrichtung/versandarten/versandarten>` | :doc:`Shipping cost rules <../../einrichtung/versandkostenregeln/versandkostenregeln>`
+.. seealso:: :doc:`Users <../users/users>` | :doc:`Payment methods <../../setup/payment-methods/payment-methods>` | :doc:`Shipping methods <../../setup/shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../../setup/shipping-cost-rules/shipping-cost-rules>`
 
 .. Intern: oxbadz, Status:

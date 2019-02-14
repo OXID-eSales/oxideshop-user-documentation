@@ -38,17 +38,17 @@ When you select a coupon series from the list, its information will be displayed
 Main tab
 -------------------
 **Contents**: valid coupon series, temporary valid, valid with the same series, valid with another series, coupon value, discount, absolute and percentage, generating and exporting coupons, random numbers, coupon number, coupon code |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 User Groups & Products tab
 ----------------------------------------
 **Contents**: coupons for user groups, assigning user groups, coupons for categories, assigning categories, coupons for products, assigning products |br|
-:doc:`Read article <registerkarte-benutzergruppen-artikel>` |link|
+:doc:`Read article <user-groups-products-tab>` |link|
 
 Mall tab
 ------------------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting coupon series, assigning coupon series, parent shop, subshop, supershop, multishop, Mall |br|
-:doc:`Read article <registerkarte-mall>` |link|
+:doc:`Read article <mall-tab>` |link|
 
 .. Intern: oxbahr, Status:

@@ -15,7 +15,7 @@ The language selection list at the bottom of the input area allows you to edit m
 If a manufacturer’s title changes, the SEO URL will be recalculated. Check the box to disable this feature for the manufacturer’s URL. The existing SEO URL will remain unchanged.
 
 :guilabel:`Show SEO Suffix in Category` |br|
-Check this box to display the title suffix in the page title. If the overview of all products of this brand is called up, the page title will also contain the title suffix defined under :menuselection:`Master Settings --> Core Settings --> SEO --> Title Suffix`. Demo shop example:\<title\>OXID Surf and Kite Shop | www.true-fashion.com | purchase online\</title\>. More information can be found in :doc:`SEO settings <../../konfiguration/seo-einstellungen>`.
+Check this box to display the title suffix in the page title. If the overview of all products of this brand is called up, the page title will also contain the title suffix defined under :menuselection:`Master Settings --> Core Settings --> SEO --> Title Suffix`. Demo shop example:\<title\>OXID Surf and Kite Shop | www.true-fashion.com | purchase online\</title\>. More information can be found in :doc:`SEO settings <../../configuration/seo-settings>`.
 
 :guilabel:`SEO URL` |br|
 Shows the displayed manufacturer’s URL which can also be changed and fixed.

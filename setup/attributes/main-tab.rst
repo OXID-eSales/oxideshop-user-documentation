@@ -27,6 +27,6 @@ The attribute can also be edited in other active languages of the shop. To do th
 :guilabel:`Assign Products` |br|
 You can assign products to the attribute. When you create a new attribute, you will only be able to assign products after saving the attribute. Clicking on :guilabel:`Assign Products` opens a new window. All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the attribute. Hold down the Ctrl key to select multiple products.
 
-You will also need to set a product value for the assigned attribute. See: :doc:`Products - Selection tab <../artikel/registerkarte-auswahl>`
+You will also need to set a product value for the assigned attribute. See: :doc:`Products - Selection tab <../products/selection-tab>`
 
 .. Intern: oxbafg, Status:, F1: attribute_main.html

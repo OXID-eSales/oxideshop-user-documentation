@@ -27,19 +27,19 @@ When you select an attribute from the attribute list, the attribute information 
 Main tab
 -------------------
 **Contents**: product attribute, sorting attributes, attribute in ordering process, information relevant to purchase, Button Solution, assigning attribute to products, similar products |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 Category tab
 ------------------------
 **Contents**: assigning attributes to categories, filtering categories by attributes, sorting attributes |br|
-:doc:`Read article <registerkarte-kategorien>` |link|
+:doc:`Read article <category-tab>` |link|
 
 Mall tab
 ------------------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting attributes, assigning attributes, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
-:doc:`Read article <registerkarte-mall>` |link|
+:doc:`Read article <mall-tab>` |link|
 
-.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Products - Selection tab <../artikel/registerkarte-auswahl>`
+.. seealso:: :doc:`Products <../products/products>` | :doc:`Products - Selection tab <../products/selection-tab>`
 
 .. Intern: oxbaff, Status:

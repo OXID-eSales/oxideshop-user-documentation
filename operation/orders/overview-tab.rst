@@ -69,6 +69,6 @@ The invoice and the delivery note are generated using the :guilabel:`myorder.php
 
 In addition, Community and Professional Editions allow you to export orders with the \"direct debit\" payment method for processing at banks and financial institutions. With OXID eShop 4.9.0, the option of creating direct debit records for electronic processing in the data carrier exchange system (DTAUS) has been removed. Since August 2014, this method is no longer supported by the banks.
 
-.. seealso:: :doc:`Main tab <../benutzer/registerkarte-stamm>` | `Hexadecimal colour definition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Defining colours in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_ | `Extensible Markup Language, XML (Wikipedia) <http://de.wikipedia.org/wiki/Extensible_Markup_Language>`_ | `Portable Document Format, PDF (Wikipedia) <http://de.wikipedia.org/wiki/PDF>`_
+.. seealso:: :doc:`Main tab <../users/main-tab>` | `Hexadecimal colour definition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Defining colours in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_ | `Extensible Markup Language, XML (Wikipedia) <https://en.wikipedia.org/wiki/XML>`_ | `Portable Document Format, PDF (Wikipedia) <https://en.wikipedia.org/wiki/PDF>`_
 
 .. Intern: oxbaec, Status:, F1: order_overwiew.html

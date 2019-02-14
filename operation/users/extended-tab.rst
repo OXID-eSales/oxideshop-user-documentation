@@ -34,6 +34,6 @@ Users are automatically assigned to specific user groups based on certain condit
 
 Deactivate this function if you don’t want to assign the user to user groups automatically.
 
-.. seealso:: :doc:`User groups <../benutzergruppen/benutzergruppen>`
+.. seealso:: :doc:`User groups <../user-groups/user-groups>`
 
 .. Intern: oxbads, Status:, F1: user_extend.html

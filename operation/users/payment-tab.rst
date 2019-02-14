@@ -8,6 +8,6 @@ All payment methods used by the customer in the previous orders are displayed in
    :height: 335
    :width: 650
 
-You can also create new payment methods for the customer or delete the existing ones. However, payment methods that are displayed in this tab don’t determine which one the customer can use to pay for the order. This can only be specified in the :doc:`Payment methods <../../einrichtung/zahlungsarten/zahlungsarten>`.
+You can also create new payment methods for the customer or delete the existing ones. However, payment methods that are displayed in this tab don’t determine which one the customer can use to pay for the order. This can only be specified in the :doc:`Payment methods <../../setup/payment-methods/payment-methods>`.
 
 .. Intern: oxbadw, Status:, F1: user_payment.html

@@ -24,6 +24,6 @@ The number of free add-ons will be calculated in the shopping cart. The number o
 
 Example: If the customer purchased 10 products on which the discount is granted, the minimum purchase quantity is 3 and the add-on quantity is 1, then the add-on will be added (10/3)*1 = 3 times to the shopping cart. If the add-on quantity is 2, the number of add-ons will increase to 6.
 
-.. seealso:: :doc:`Discounts - Main tab <registerkarte-stamm>`
+.. seealso:: :doc:`Discounts - Main tab <main-tab>`
 
 .. Intern: oxbahq, Status:

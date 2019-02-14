@@ -25,6 +25,6 @@ Surcharges and discounts are set for the respective payment method.
 * The selected costs only apply to a percentage-based surcharge and discount.
 * Save the changes.
 
-.. seealso:: :doc:`Payment methods - Main tab <../zahlungsarten/registerkarte-stamm>`
+.. seealso:: :doc:`Payment methods - Main tab <../payment-methods/main-tab>`
 
 .. Intern: oxbaft, Status:

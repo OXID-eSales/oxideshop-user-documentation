@@ -60,6 +60,6 @@ User groups \"Domestic\" and \"Foreign\" serve as the basis for the payment meth
 :guilabel:`Payment Description` |br|
 Enter the information about the payment method. It will be displayed when the customer selects this payment method in the ordering process.
 
-.. seealso:: :doc:`Users - Extended tab <../../betrieb/benutzer/registerkarte-erweitert>` | :doc:`Prices for payment methods <../zahlung-und-versand/preise-fuer-zahlungsarten>` | :doc:`Payment methods for specific users <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`
+.. seealso:: :doc:`Users - Extended tab <../../operation/users/extended-tab>` | :doc:`Prices for payment methods <../payment-and-shipping/prices-for-payment-methods>` | :doc:`Payment methods for specific users <../payment-and-shipping/payment-methods-for-specific-users>`
 
 .. Intern: oxbada, Status:, F1: payment_main.html

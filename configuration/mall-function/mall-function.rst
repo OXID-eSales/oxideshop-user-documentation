@@ -24,7 +24,7 @@ When you select a shop from the shop list, the shop’s information will be disp
 Main shop & parent shops
 ------------------------
 **Contents**: Mall, Enterprise Edition, main shop, parent shops, start page type, separate order numbers, surcharge percentage or absolute, individual prices, users for all shops, shop types |br|
-:doc:`Read article <hauptshop-elternshops>` |link|
+:doc:`Read article <main-shop-parent-shops>` |link|
 
 Subshops, supershops & multishops
 ----------------------------------
@@ -34,8 +34,8 @@ Subshops, supershops & multishops
 Inheritance
 ---------
 **Contents**: Mall, Enterprise Edition, inheritance, inheritable elements, non-inheritable elements, shared elements, inheritance settings, assignments, customisation, product prices, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
-:doc:`Read article <vererbung/vererbung>` |link|
+:doc:`Read article <inheritance/inheritance>` |link|
 
-.. seealso:: :doc:`Configuration <../../konfiguration/konfiguration>`
+.. seealso:: :doc:`Configuration <../../configuration/configuration>`
 
 .. Intern: oxbaeu, Status:

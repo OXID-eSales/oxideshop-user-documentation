@@ -26,6 +26,6 @@ Setting the main category of a product
    :height: 314
    :width: 400
 
-.. seealso:: :doc:`Products - Extended tab <../artikel/registerkarte-erweitert>` | `Canonical link <http://de.wikipedia.org/wiki/Canonical_Link>`_ (Wikipedia)
+.. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | `Canonical link <https://en.wikipedia.org/wiki/Canonical_link_element>`_ (Wikipedia)
 
 .. Intern: oxbafp, Status:

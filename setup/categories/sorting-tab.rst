@@ -21,6 +21,6 @@ Drag and drop the products into the right-hand list to rearrange them. The new o
 
 If you make an error during sorting, you can easily delete the list and start fresh. Once you have arranged all products the way you wanted, click on :guilabel:`Save` new sorting` to write this order into the database. If you close the window and open it again, the current sort order will be displayed in the left-hand list. The products will have ascending numerical values in the “Position” column.
 
-.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Sorting products <../artikel-und-kategorien/sortierung-von-artikeln>`
+.. seealso:: :doc:`Products <../products/products>` | :doc:`Sorting products <../products-and-categories/sorting-products>`
 
 .. Intern: oxbabn, Status:, F1: category_order.html

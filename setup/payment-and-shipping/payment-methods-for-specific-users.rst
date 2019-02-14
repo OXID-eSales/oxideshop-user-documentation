@@ -29,6 +29,6 @@ Assigning user groups to a payment method
 * Drag and drop the user group into the right-hand list of the assignment window.
 * Close the assignment window.
 
-.. seealso:: :doc:`Payment methods - Main tab <../zahlungsarten/registerkarte-stamm>` | :doc:`Users - Extended tab <../../betrieb/benutzer/registerkarte-erweitert>`
+.. seealso:: :doc:`Payment methods - Main tab <../payment-methods/main-tab>` | :doc:`Users - Extended tab <../../operation/users/extended-tab>`
 
 .. Intern: oxbafu, Status:

@@ -32,18 +32,18 @@ Please note that in previous shop versions at least one country (prior to OXID e
 Main tab
 -------------------
 **Contents**: active payment methods, surcharge, discount, cash discount, creditworthiness, credit rating, purchase value, additional fields, DynValue fields, payment method and user groups |br| 
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 Country tab
 --------------------
 **Contents**: payment methods for countries, assigning countries |br|
-:doc:`Read article <registerkarte-laender>` |link|
+:doc:`Read article <country-tab>` |link|
 
 RDFa tab
 ------------------
 **Contents**: RDFa, Resource Description Framework, GoodRelations, e-commerce vocabulary, payment methods and credit card payment, rich snippets |br| 
-:doc:`Read article <registerkarte-rdfa>` |link|
+:doc:`Read article <rdfa-tab>` |link|
 
-.. seealso:: :doc:`Shipping methods <../versandarten/versandarten>` | :doc:`Shipping cost rules <../versandkostenregeln/versandkostenregeln>` | :doc:`Payment and shipping <../zahlung-und-versand/zahlung-und-versand>`
+.. seealso:: :doc:`Shipping methods <../shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../shipping-cost-rules/shipping-cost-rules>` | :doc:`Payment and shipping <../payment-and-shipping/payment-and-shipping>`
 
 .. Intern: oxbacz, Status:

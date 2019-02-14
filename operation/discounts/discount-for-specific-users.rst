@@ -24,6 +24,6 @@ The discount is assigned to user groups.
 
 The discount will apply to all assigned users and/or user groups.
 
-.. seealso:: :doc:`Discounts - Users tab <registerkarte-benutzer>` | :doc:`Users <../benutzer/benutzer>` | :doc:`User groups <../benutzergruppen/benutzergruppen>`
+.. seealso:: :doc:`Discounts - Users tab <users-tab>` | :doc:`Users <../users/users>` | :doc:`User groups <../user-groups/user-groups>`
 
 .. Intern: oxbahp, Status:

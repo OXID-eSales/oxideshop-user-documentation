@@ -26,24 +26,24 @@ A valid condition must be formulated for the shipping cost rule. Make sure that 
 Main tab
 -------------------
 **Contents**: active shipping cost rule, active time period, condition for shipping cost rule, quantity, size, weight, price, shipping costs, surcharge, discount, absolute, percentage, time-based discount, quantity-based discount, calculation of shopping cart, order of shipping costs, order of calculation, stop calculation, no additional rules, assigning countries |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 Products tab
 ---------------------
 **Contents**: assigning categories and products |br|
-:doc:`Read article <registerkarte-artikel>` |link|
+:doc:`Read article <products-tab>` |link|
 
 Users tab
 ----------------------
 **Contents**: assigning users and user groups |br|
-:doc:`Read article <registerkarte-benutzer>` |link|
+:doc:`Read article <users-tab>` |link|
 
 Mall tab
 ------------------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting shipping cost rules, assigning shipping cost rules, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
-:doc:`Read article <registerkarte-mall>` |link|
+:doc:`Read article <mall-tab>` |link|
 
-.. seealso:: :doc:`Payment methods <../zahlungsarten/zahlungsarten>` | :doc:`Shipping methods <../versandarten/versandarten>` | :doc:`Payment and shipping <../zahlung-und-versand/zahlung-und-versand>`
+.. seealso:: :doc:`Payment methods <../payment-methods/payment-methods>` | :doc:`Shipping methods <../shipping-methods/shipping-methods>` | :doc:`Payment and shipping <../payment-and-shipping/payment-and-shipping>`
 
 .. Intern: oxbadj, Status:

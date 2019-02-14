@@ -59,6 +59,6 @@ If the customer buys products with a purchase value of €80 or above, the secon
    :height: 261
    :width: 550
 
-.. seealso:: :doc:`Products - Main tab <../artikel/registerkarte-stamm>` | :doc:`Shipping cost rules - Main tab <../versandkostenregeln/registerkarte-stamm>` | :doc:`Shipping methods - Main tab <../versandarten/registerkarte-stamm>`
+.. seealso:: :doc:`Products - Main tab <../products/main-tab>` | :doc:`Shipping cost rules - Main tab <../shipping-cost-rules/main-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
 
 .. Intern: oxbafw, Status:

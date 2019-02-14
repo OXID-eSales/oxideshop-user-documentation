@@ -3,7 +3,7 @@
 
 The :guilabel:`Main` tab contains a few settings that can be configured for the promotion. This is where you can create or edit a promotion. When creating a promotion, you will need to specify its type. Depending on whether you have selected Action, Promotion, or Banner, the settings in the tab will be more or less different from each other.
 
-Please note that the Promotion type and some of the Action types will not be displayed on the start page for the \"Flow\" theme. See: :doc:`Promotions and start page <aktionen-und-startseite>`
+Please note that the Promotion type and some of the Action types will not be displayed on the start page for the \"Flow\" theme. See: :doc:`Promotions and start page <promotions-and-start-page>`
 
 Action type
 ----------
@@ -76,6 +76,6 @@ You can assign a product to the promotion. Clicking on :guilabel:`Assign Product
 
 Click on :guilabel:`Assign Product` to link the banner to the product selected in the list. Click on :guilabel:`Unassign Product` to unlink the banner and the product.
 
-.. seealso:: :doc:`Promotions <aktionen>` | :doc:`Promotions and start page <aktionen-und-startseite>` | :doc:`Newsletter action <aktion-fuer-newsletter>`
+.. seealso:: :doc:`Promotions <promotions>` | :doc:`Promotions and start page <promotions-and-start-page>` | :doc:`Newsletter action <newsletter-action>`
 
 .. Intern: oxbagy, Status:, F1: actions_main.html

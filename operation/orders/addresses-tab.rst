@@ -15,6 +15,6 @@ A modified billing address or the shipping address entered at a later point will
 
 The address information includes the customer’s name and address as well as some additional input fields for the company name, additional information, and phone and fax numbers. Depending on the country that can be selected from the drop-down list, you can add the respective state, e.g. for the United States of America, in the “State” field.
 
-.. seealso:: :doc:`Addresses tab <../benutzer/registerkarte-adressen>`
+.. seealso:: :doc:`Addresses tab <../users/addresses-tab>`
 
 .. Intern: oxbaee, Status:, F1: order_address.html

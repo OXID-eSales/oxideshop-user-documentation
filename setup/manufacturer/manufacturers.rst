@@ -32,19 +32,19 @@ When you select a manufacturer from the list, its information will be displayed 
 Main tab
 -------------------
 **Contents**: active manufacturer, brand, title, short description, icon, manufacturer’s logo, uploading, uploading to web server, automatically generated, assigning products |br|
-:doc:`Read article <registerkarte-stamm>` |link|
+:doc:`Read article <main-tab>` |link|
 
 Mall tab
 ------------------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting manufacturers, assigning manufacturers, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
-:doc:`Read article <registerkarte-mall>` |link|
+:doc:`Read article <mall-tab>` |link|
 
 SEO tab
 -----------------
 **Contents**: search engine optimisation, SEO, SEO URL, title suffix, fixing URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\"\ |br|
-:doc:`Read article <registerkarte-seo>` |link|
+:doc:`Read article <seo-tab>` |link|
 
-.. seealso:: :doc:`Products <../artikel/artikel>` | :doc:`Distributors <../lieferanten/lieferanten>`
+.. seealso:: :doc:`Products <../products/products>` | :doc:`Distributors <../distributors/distributors>`
 
 .. Intern: oxbagb, Status:
