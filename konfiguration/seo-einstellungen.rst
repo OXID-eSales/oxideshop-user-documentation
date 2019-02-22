@@ -72,7 +72,7 @@ Beispiel aus dem Demoshop:
 
 Startseite
 ----------
-Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS-Seiten` eingetragen werden. Die CMS-Seite "META Description Startseite" (Ident: oxstartmetakeywords) nimmt dabei die Beschreibung des Shops, die CMS-Seite "META Keywords Startseite" (Ident: oxstartmetadescription) die Keywörter auf.
+Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS-Seiten` eingetragen werden. Die CMS-Seite "META Description Startseite" (Ident: oxstartmetadescription) nimmt dabei die Beschreibung des Shops, die CMS-Seite "META Keywords Startseite" (Ident: oxstartmetakeywords) die Keywörter auf.
 
 Kategorien und Artikel
 ----------------------
