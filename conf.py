@@ -140,7 +140,7 @@ html_context = {
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'OXID-eSales',
     'github_repo': 'oxideshop-user-documentation',
-    'github_version': 'b-6.1/'
+    'github_version': 'b-6.1-de/'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
