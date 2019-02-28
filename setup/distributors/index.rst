@@ -1,5 +1,5 @@
 ﻿Distributors
-===========
+============
 
 .. toctree::
    :maxdepth: 1

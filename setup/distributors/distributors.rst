@@ -1,12 +1,11 @@
 ﻿Distributors
-===========
+============
 
 OXID eShop allows you to manage distributors. You can assign products to the distributors to document their sources. Products can be filtered and displayed by the distributor ID in the Admin panel. Distributors are not used in the shop’s front end since shop owners are certainly not interested in making this information public.
 
 .. image:: ../../media/screenshots/oxbage01.png
    :alt: Distributors
-   :class: with-shadow
-   :height: 530
+   :height: 534
    :width: 650
 
 Distributors can be edited under :menuselection:`Master Settings --> Distributors` in the Admin panel. Here, you will see the list of distributors and the input area right below it. The list contains the title and the short description of the distributor. You can search for distributors by using the search fields.
@@ -20,19 +19,19 @@ When you select a distributor from the list, its information will be displayed i
 -----------------------------------------------------------------------------------------
 
 Main tab
--------------------
+--------
 **Contents**: active distributor, brand, title, short description, icon, distributor logo, uploading, uploading to web server, automatically generated, assigning products |br|
 :doc:`Read article <main-tab>` |link|
 
 Mall tab
-------------------
+--------
 Available only in Enterprise Edition |br|
 
 **Contents**: inheriting distributors, assigning distributors, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
 :doc:`Read article <mall-tab>` |link|
 
 SEO tab
------------------
+-------
 **Contents**: search engine optimisation, SEO, SEO URL, title suffix, fixing URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\" |br|
 :doc:`Read article <seo-tab>` |link|
 

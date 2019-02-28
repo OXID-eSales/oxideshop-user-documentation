@@ -1,12 +1,11 @@
 ﻿SEO tab
-=================
+=======
 
 The distributor’s :guilabel:`SEO` tab contains information and settings that are relevant to search engines.
 
 .. image:: ../../media/screenshots/oxbagg01.png
    :alt: Distributors - SEO tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The language selection list at the bottom of the input area allows you to edit distributor’s information and settings in another active language.

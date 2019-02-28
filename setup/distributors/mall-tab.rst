@@ -1,5 +1,5 @@
 ﻿Mall tab
-==================
+========
 
 The :guilabel:`Mall` tab is only available for distributors in OXID eShop Enterprise Edition.
 
@@ -9,8 +9,7 @@ The :guilabel:`Mall` tab can be used to manage manufacturer assignments to subsh
 
 .. image:: ../../media/screenshots/oxbagl01.png
    :alt: Distributors - Mall tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 The inheritance of all distributors for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.

@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab contains brief information and settings for the distributor. This is where you can create or edit a distributor.
 
 .. image:: ../../media/screenshots/oxbagf01.png
    :alt: Distributors - Main tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The language selection list at the bottom of the input area allows you to edit information and settings for the distributor in another language directly.
@@ -34,8 +33,7 @@ You can assign products to the distributor. Clicking on :guilabel:`Assign Produc
 
 .. image:: ../../media/screenshots/oxbagf02.png
    :alt: Assigning products
-   :class: with-shadow
-   :height: 295
+   :height: 314
    :width: 400
 
 All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the distributor. Hold down the Ctrl key to select multiple products.
