@@ -1,5 +1,5 @@
 ﻿Mall tab
-==================
+========
 
 The :guilabel:`Mall` tab is only available for shipping cost rules in OXID eShop Enterprise Edition.
 
@@ -9,8 +9,7 @@ The :guilabel:`Mall` tab can be used to manage the assignments of shipping cost 
 
 .. image:: ../../media/screenshots/oxbadn01.png
    :alt: Shipping cost rules - Mall tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 The inheritance of all shipping cost rules for a shop can be undone. To do this, uncheck the box :guilabel:`Inherit delivery information from parent shop` in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`. This will also remove the assignment to the inherited shipping methods.

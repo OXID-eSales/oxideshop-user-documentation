@@ -1,12 +1,11 @@
 ﻿Users tab
-======================
+=========
 
 Shipping cost rules can apply to specific user groups and/or users. Go to the :guilabel:`User` tab to configure the necessary settings. Without the assignment of user groups and/or users, the shipping cost rule will apply to all.
 
 .. image:: ../../media/screenshots/oxbadm01.png
    :alt: Shipping cost rules - Users tab
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 :guilabel:`Assign User Groups` |br|

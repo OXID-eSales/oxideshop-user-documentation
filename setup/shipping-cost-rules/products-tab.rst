@@ -1,12 +1,11 @@
 ﻿Products tab
-=====================
+============
 
 Shipping cost rules can apply to categories and/or products. The :guilabel:`Products` tab allows you to configure the necessary assignments. Without assignment of categories and/or products, the shipping cost rule will apply to the entire product catalogue.
 
 .. image:: ../../media/screenshots/oxbadl01.png
    :alt: Shipping cost rules - Products tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 :guilabel:`Assign Categories` |br|

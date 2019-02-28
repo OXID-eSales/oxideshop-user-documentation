@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab of the shipping cost rules allows you to define terms and conditions for calculating the shipping costs. Countries are assigned to the shipping cost rule via a dialog. You will need to assign at least one country.
 
 .. image:: ../../media/screenshots/oxbadk01.png
    :alt: Shipping cost rules - Main tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 :guilabel:`Name` |br|

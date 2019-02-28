@@ -7,8 +7,7 @@ Shipping costs will be charged if customers have selected a shipping method in t
 
 .. image:: ../../media/screenshots/oxbadj01.png
    :alt: Shipping cost rules
-   :class: with-shadow
-   :height: 528
+   :height: 535
    :width: 650
 
 All required settings and assignments can be configured in the Admin panel under :menuselection:`Shop Settings --> Shipping Cost Rules`. This section contains a list of all shipping cost rules and their names. You can search for shipping cost rules by entering their names in the search field. Shipping cost rules can be permanently removed from the database by clicking on the trash icon at the end of the line.
