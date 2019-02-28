@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab contains important information about categories and allows you to configure their settings. This is where you can create or edit a category and assign the products to it. You can also assign a few products at once.
 
 .. image:: ../../media/screenshots/oxbabk01.png
    :alt: Categories - Main tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The language selection list at the bottom left of the input area allows you to edit category’s information and settings in another language directly. Please note that you can only change the language after the category has been created.
@@ -71,8 +70,7 @@ You can assign products to the category. Clicking on :guilabel:`Assign Products`
 
 .. image:: ../../media/screenshots/oxbabk02.png
    :alt: Assigning products
-   :class: with-shadow
-   :height: 325
+   :height: 324
    :width: 400
 
 All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the category. Hold down the Ctrl key to select multiple products.

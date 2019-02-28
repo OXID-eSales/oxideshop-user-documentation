@@ -7,7 +7,7 @@
    categories
    main-tab
    text-tab
-   picture tab
+   picture-tab
    sorting-tab
    mall-tab
    rights-tab

@@ -1,20 +1,18 @@
 ﻿Picture tab
-====================
+===========
 
 If an image and/or icon has been uploaded for the category, it will be displayed as a preview in this tab.
 
 .. image:: ../../media/screenshots/oxbabm01.png
    :alt: Categories - Picture tab
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 :guilabel:`Thumbnail` is the image that is displayed as a banner in the category view as soon as the category is accessed in the shop. :guilabel:`Icon` represents a subcategory in the category view.
 
 .. image:: ../../media/screenshots/oxbabm02.png
    :alt: Category view
-   :class: with-shadow
-   :height: 330
+   :height: 331
    :width: 650
 
 The screenshot shows the \"Kiteboarding\" category with an image/thumbnail. For the \"Kites\", \"Kiteboards\", \"Harnesses\" and \"Accessories\" subcategories, their icon will be displayed.

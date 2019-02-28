@@ -1,5 +1,5 @@
 ﻿Rights tab
-====================
+==========
 
 The :guilabel:`Rights` tab is only available for categories in Enterprise Edition.
 
@@ -7,8 +7,7 @@ The :guilabel:`Rights` tab allows you to assign user groups to a category whose 
 
 .. image:: ../../media/screenshots/oxbacg01.png
    :alt: Categories - Rights tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 On the one hand, the exclusive right means that only users who belong to the assigned user groups will be able to see the category after logging into the shop. All other users and user groups will never be able to see this category and its products as this menu item will be hidden.
@@ -21,8 +20,7 @@ You will be able to specify whether the respective permission should apply only 
 
 .. image:: ../../media/screenshots/oxbacg02.png
    :alt: Assign User Groups (Exclusively buyable)
-   :class: with-shadow
-   :height: 344
+   :height: 335
    :width: 400
 
 User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.

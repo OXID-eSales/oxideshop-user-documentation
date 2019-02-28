@@ -1,5 +1,5 @@
 ﻿Mall tab
-==================
+========
 
 The :guilabel:`Mall` tab is only available for categories in Enterprise Edition.
 
@@ -9,8 +9,7 @@ Multishops can inherit all categories from all shops. This function can be found
 
 .. image:: ../../media/screenshots/oxbacf01.png
    :alt: Categories - Mall tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 :guilabel:`Assigned to following subshops` |br|

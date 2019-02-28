@@ -5,8 +5,7 @@ Categories serve to intuitively lead online shop customers to the desired produc
 
 .. image:: ../../media/screenshots/oxbabj01.png
    :alt: Categories
-   :class: with-shadow
-   :height: 529
+   :height: 535
    :width: 650
 
 The \"Categories\" section tells you how to create and manage categories. Go to :menuselection:`Administer Products --> Categories` in the Admin panel to edit categories. Here, you will see the list of categories and the input area right below it.

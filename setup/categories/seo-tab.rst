@@ -1,12 +1,11 @@
 ﻿SEO tab
-=================
+=======
 
 The category’s :guilabel:`SEO` tab contains information and settings that are relevant to search engines.
 
 .. image:: ../../media/screenshots/oxbabo01.png
    :alt: Categories - SEO tab
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 The language selection list at the bottom of the input area allows you to edit category’s information and settings in another language directly.
