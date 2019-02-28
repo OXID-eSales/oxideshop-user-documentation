@@ -1,5 +1,6 @@
 ﻿Mall tab
-==================
+========
+
 The :guilabel:`Mall` tab is only available for attributes in OXID eShop Enterprise Edition.
 
 Attributes can be inherited when creating shops. If the option :guilabel:`Shop inherits all inheritable items (products, discounts etc) from it's parent shop` is selected, the new shop will also contain all the attributes of the parent shop. The inherited attributes can’t be changed and retain their original assignment to products. However, they can be assigned to categories so that the latter can be filtered by attributes.
@@ -8,8 +9,7 @@ The :guilabel:`Mall` tab can be used to manage attribute assignments to subshops
 
 .. image:: ../../media/screenshots/oxbagi01.png
    :alt: Attributes - Mall tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 The inheritance of all attributes for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.

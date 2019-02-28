@@ -1,11 +1,11 @@
 ﻿Main tab
-===================
+========
+
 The :guilabel:`Main` tab contains a few settings that can be configured for the attribute. This is where you can create or edit an attribute.
 
 .. image:: ../../media/screenshots/oxbafg01.png
    :alt: Attributes - Main tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The language selection list at the bottom left of the input area allows you to edit attribute’s information and settings in another language directly. Please note that you can only change the language after the attribute has been created.

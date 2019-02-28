@@ -1,5 +1,5 @@
 ﻿Products
-=======
+========
 
 .. toctree::
    :maxdepth: 1

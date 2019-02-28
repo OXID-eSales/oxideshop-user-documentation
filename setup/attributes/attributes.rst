@@ -1,5 +1,6 @@
 ﻿Attributes
-=========
+==========
+
 By default, products have a number of characteristics, including, e.g., weight, dimensions or quantity. Attributes are a flexible solution that allows shop owners to define their own product characteristics and assign them to the respective product with an appropriate value.
 
 This way, a new :guilabel:`SPECIFICATION` tab displaying the attributes and their values will be added to the product’s detailed view. In addition, the value of the product’s attribute can be displayed in the shopping cart and during the checkout process.
@@ -10,8 +11,7 @@ Attributes also serve to recognise similar products and to offer them on the det
 
 .. image:: ../../media/screenshots/oxbaff01.png
    :alt: Attributes
-   :class: with-shadow
-   :height: 530
+   :height: 534
    :width: 650
 
 Attributes can be edited in the Admin panel under :menuselection:`Administer Products --> Attributes`. Here, you will see the list of the attributes and the input area right below it.
