@@ -1,12 +1,11 @@
 ﻿Manufacturers
-==========
+=============
 
 OXID eShop allows you to manage manufacturers, to which products can be assigned. This way, you can combine products by brand affiliation regardless of the categories in the shop. Products can be filtered and displayed according to the manufacturer ID in the Admin panel. Shop brands are presented in a slider, listed in the footer and can be displayed in an overview in the front end.
 
 .. image:: ../../media/screenshots/oxbagb01.png
    :alt: By manufacturer | All brands
-   :class: with-shadow
-   :height: 649
+   :height: 395
    :width: 650
 
 In addition, an overview of all brands or an overview of all the products of a particular brand can be displayed. For the manufacturers to be displayed as brands in the front end, you will need to activate the “Load and display Manufacturer List” function in the Performance settings. To do this, check the box under :menuselection:`Master Settings --> Core Settings` --> :guilabel:`Perform.` tab.
@@ -15,8 +14,7 @@ Go to :menuselection:`Core Settings --> Brands/Manufacturers` in the shop’s Ad
 
 .. image:: ../../media/screenshots/oxbagb02.png
    :alt: Manufacturers
-   :class: with-shadow
-   :height: 528
+   :height: 535
    :width: 650
 
 Here, you will see a list of manufacturers and the input area right below it. The manufacturer list contains the title and short description of the manufacturer. You can search for manufacturers by using the search fields. For example, if you type \"er\" in the search field above :guilabel:`Title`, you will see three manufacturers with \"er\" in their title listed in the demo shop.
@@ -30,18 +28,18 @@ When you select a manufacturer from the list, its information will be displayed 
 -----------------------------------------------------------------------------------------
 
 Main tab
--------------------
+--------
 **Contents**: active manufacturer, brand, title, short description, icon, manufacturer’s logo, uploading, uploading to web server, automatically generated, assigning products |br|
 :doc:`Read article <main-tab>` |link|
 
 Mall tab
-------------------
+--------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting manufacturers, assigning manufacturers, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
 :doc:`Read article <mall-tab>` |link|
 
 SEO tab
------------------
+-------
 **Contents**: search engine optimisation, SEO, SEO URL, title suffix, fixing URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\"\ |br|
 :doc:`Read article <seo-tab>` |link|
 

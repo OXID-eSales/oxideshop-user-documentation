@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab contains some information about manufacturers and allows you to configure their settings. This is where you can create or edit a manufacturer.
 
 .. image:: ../../media/screenshots/oxbagc01.png
    :alt: Manufacturers - Main tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The language selection list at the bottom of the input area allows you to edit information and settings for manufacturers in another language directly.
@@ -34,8 +33,7 @@ You can assign products to the manufacturer. Clicking on :guilabel:`Assign Produ
 
 .. image:: ../../media/screenshots/oxbagc02.png
    :alt: Assigning products
-   :class: with-shadow
-   :height: 325
+   :height: 324
    :width: 400
 
 All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the manufacturer. Hold down the Ctrl key to select multiple products.

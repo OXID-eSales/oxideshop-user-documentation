@@ -1,5 +1,5 @@
 ﻿Manufacturers
-==========
+=============
 
 .. toctree::
    :maxdepth: 1
