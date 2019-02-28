@@ -1,5 +1,6 @@
 ﻿Mall tab
-==================
+========
+
 The :guilabel:`Mall` tab is only available for selection lists in OXID eShop Enterprise Edition.
 
 Selection lists can be inherited when creating shops. If the option :guilabel:`Shop inherits all inheritable items (products, discounts etc) from it's parent shop` is selected, the new shop will also contain all the selection lists of the parent shop. The inherited selection lists can’t be changed and retain their original assignment to products.
@@ -8,8 +9,7 @@ The :guilabel:`Mall` tab can be used to manage assignments of selection lists to
 
 .. image:: ../../media/screenshots/oxbagj01.png
    :alt: Selection lists - Mall tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 The inheritance of all selection lists for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.

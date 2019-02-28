@@ -1,11 +1,11 @@
 ﻿Main tab
-===================
+========
+
 The :guilabel:`Main` tab allows you to create, edit and assign selection lists to the desired products.
 
 .. image:: ../../media/screenshots/oxbafj01.png
    :alt: Selection lists - Main tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The language selection list at the bottom of the input area allows you to edit information and settings for selection lists in another language directly. Please note that you can only change the language after the selection list has been saved.

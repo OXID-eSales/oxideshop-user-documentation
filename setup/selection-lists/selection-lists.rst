@@ -1,5 +1,6 @@
 ﻿Selection lists
-=============
+===============
+
 Selection lists allow you to define typical product versions, such as a selection of colours, sizes or materials.
 
 Selection lists can be assigned to products directly. The product’s details page will have a drop-down list where customers can select the desired version. The selected version will be taken into account when buying the product, saved when placing an order and emailed to the customer and the shop owner. Selection lists can also be used to create real variants. They serve as a template that can be used for creating all resulting product’s variants.
@@ -8,8 +9,7 @@ Selection lists will only be visible on the product’s details page if the :gui
 
 .. image:: ../../media/screenshots/oxbafi01.png
    :alt: Selection lists
-   :class: with-shadow
-   :height: 529
+   :height: 535
    :width: 650
 
 Selection lists alone can only be used to represent different prices. A surcharge or discount (absolute or percentage) is what makes the individual versions different. If you need more flexibility, you should use variants. Variants allow you to modify everything that constitutes a product. Product variants can not only have different prices but also separate product numbers, different descriptions, their own product photos, different stocks, etc.
