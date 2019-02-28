@@ -1,5 +1,5 @@
 ﻿Payment methods for specific users
-====================================
+==================================
 
 Shop owners have to make a fundamental decision about which payment methods their customers can use. They need to decide for which customers it is acceptable to ship the products before receiving the payment and for which customers such advanced shipping is not efficient. For example, payment against invoice is very popular with customers since it allows them to look at the products or try them out before paying. However, for shop owners, this means an increased risk because not all customers pay their bill on time or at all.
 

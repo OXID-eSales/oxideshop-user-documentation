@@ -1,5 +1,5 @@
 ﻿Shipping costs for products from specific categories
-===================================================
+====================================================
 
 Each online shop usually has a catalogue of various products. The shipping can be set in such a way that products from specific categories are shipped at lower costs. If additional products from other categories are added to the shopping cart, higher shipping costs will apply. To do this, you will need to use the shipping cost rules that depend on the categories.
 
@@ -34,8 +34,7 @@ Create the first shipping cost rule with a price of €4.99. All products except
 
 .. image:: ../../media/screenshots/oxbafz01.png
    :alt: Shipping costs DHL - standard product: +2.50 euros
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 All categories except the \"Accessories” category have been assigned to the shipping cost rule shown in the screenshot. Both shipping rules belong to the \"DHL GoGreen\" shipping method. If the customer selects this shipping method when placing an order, both shipping cost rules will be checked.
@@ -44,16 +43,14 @@ If the shopping cart contains a product from kiteboarding accessories, the first
 
 .. image:: ../../media/screenshots/oxbafz02.png
    :alt: Shopping cart with kite lines
-   :class: with-shadow
-   :height: 261
+   :height: 263
    :width: 550
 
 If the customer adds a harness to the shopping cart, the second shipping cost rule will also apply. The total shipping costs will be €7.49.
 
 .. image:: ../../media/screenshots/oxbafz03.png
    :alt: Shopping cart with kite lines and harness
-   :class: with-shadow
-   :height: 310
+   :height: 313
    :width: 550
 
 The shipping of a single harness will also cost €7.49 because both shipping cost rules will apply. The first shipping cost rule will apply to all products, and the second shipping cost rule will exclude only products from kiteboarding accessories.

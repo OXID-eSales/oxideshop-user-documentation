@@ -1,5 +1,5 @@
 ﻿Weight-based shipping costs
-===============================
+===========================
 
 OXID eShop can be set up to take the weight of the products into account when calculating the shipping costs.
 
@@ -39,32 +39,28 @@ Using one product and two shipping rules as an example of weight-based shipping 
 
 .. image:: ../../media/screenshots/oxbafv01.png
    :alt: Product with the weight of 2 kg
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 Create two shipping rules with the weight as the condition. One is for products in the cart with total weight under 3 kg that will be shipped for €3.90, and the other one is for products with bigger weight and shipping costs of €5.50. The shipping cost rules for the calculation are defined so that they take place only once per shopping cart. The assignment of countries is optional. Make sure to activate the shipping cost rule.
 
 .. image:: ../../media/screenshots/oxbafv02.png
    :alt: Shipping cost rule starting from 3 kg total weight
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 Assign shipping cost rules to a shipping method. If the customer selects this shipping method when purchasing a product, all associated shipping cost rules will be checked. If there is one product with the weight of 2 kg in the shopping cart, the first shipping cost rule will apply.
 
 .. image:: ../../media/screenshots/oxbafv03.png
    :alt: Shopping cart with 1 product
-   :class: with-shadow
-   :height: 291
+   :height: 245
    :width: 550
 
 If there are two or more products weighing 2 kg each in the shopping cart, the second shipping cost rule will apply to the calculation of shipping costs.
 
 .. image:: ../../media/screenshots/oxbafv04.png
    :alt: Shopping cart with 2 products
-   :class: with-shadow
-   :height: 291
+   :height: 246
    :width: 550
 
 .. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | :doc:`Shipping cost rules - Main tab <../shipping-cost-rules/main-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`

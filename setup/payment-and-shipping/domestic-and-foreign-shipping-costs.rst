@@ -1,5 +1,5 @@
 ﻿Domestic and foreign shipping costs
-=================================
+===================================
 
 Shipping to foreign countries is subject to higher shipping costs than domestic shipping. This can be represented by shipping cost rules that are only valid for certain countries.
 
@@ -33,24 +33,21 @@ Create two shipping rules with different countries assigned to them. One is for 
 
 .. image:: ../../media/screenshots/oxbafx01.png
    :alt: Shipping cost rule for Germany
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 Assign shipping cost rules to a shipping method. If the customer selects this shipping method when purchasing a product, all associated shipping cost rules will be checked. If the products have to be delivered to Germany, the first shipping cost rule will apply.
 
 .. image:: ../../media/screenshots/oxbafx02.png
    :alt: Shopping cart with delivery to Germany
-   :class: with-shadow
-   :height: 261
+   :height: 263
    :width: 550
 
 If the customer buys products that have to be delivered to Austria, the second shipping cost rule will apply.
 
 .. image:: ../../media/screenshots/oxbafx03.png
    :alt: Shopping cart with delivery to Austria
-   :class: with-shadow
-   :height: 261
+   :height: 262
    :width: 550
 
 .. seealso:: :doc:`Shipping cost rules - Main tab <../shipping-cost-rules/main-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`

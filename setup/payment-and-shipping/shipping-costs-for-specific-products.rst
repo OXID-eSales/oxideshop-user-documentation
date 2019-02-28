@@ -1,5 +1,5 @@
 ﻿Shipping costs for specific products
-===================================
+====================================
 
 Each online shop usually has a catalogue of various products. Some products may have significantly higher shipping costs because they can only be shipped under special conditions, such as bulky goods. Shipping can therefore be set up in such a way that a surcharge is added to the standard shipping costs if the customer adds certain products to the shopping cart. This can be represented by shipping cost rules that relate to specific products.
 
@@ -34,8 +34,7 @@ The first shipping cost rule with €5.99 shipping costs will apply to all produ
 
 .. image:: ../../media/screenshots/oxbafy01.png
    :alt: Shipping costs DHL GoGreen, bulky goods: +22.50 euros
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 Three wakeboards have been assigned to the shipping cost rule shown in the screenshot. Both shipping rules belong to the \"DHL GoGreen\" shipping method. If the customer selects this shipping method when placing an order, both shipping cost rules will be checked.
@@ -44,16 +43,14 @@ If the shopping cart contains a product that is not a wakeboard, the first shipp
 
 .. image:: ../../media/screenshots/oxbafy02.png
    :alt: Shopping cart with a wakeboard binding
-   :class: with-shadow
-   :height: 261
+   :height: 262
    :width: 550
 
 If the customer adds a wakeboard to the shopping cart, the second shipping cost rule will also apply. The total shipping costs will be €28.49.
 
 .. image:: ../../media/screenshots/oxbafy03.png
    :alt: Shopping cart with wakeboard and binding
-   :class: with-shadow
-   :height: 311
+   :height: 312
    :width: 550
 
 The shipping of a single wakeboard will also cost €28.49 because both shipping cost rules - those applying to all products and those applying to the wakeboard - will apply.

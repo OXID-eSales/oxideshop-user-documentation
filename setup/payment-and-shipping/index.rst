@@ -1,5 +1,5 @@
 ﻿Payment and shipping
-===================
+====================
 
 .. toctree::
    :maxdepth: 1

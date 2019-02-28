@@ -1,5 +1,5 @@
 ﻿Free shipping from certain product value
-==============================
+========================================
 
 For many shops, the shipping costs are based on the total price of the purchased products. Shipping is usually free starting from a certain value of products in the shopping cart.
 
@@ -39,24 +39,21 @@ Create two shipping rules with the price as the condition. One is for products i
 
 .. image:: ../../media/screenshots/oxbafw01.png
    :alt: Shipping cost rule from €80 product value
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 Assign shipping cost rules to a shipping method. If the customer selects this shipping method when purchasing a product, all associated shipping cost rules will be checked. If the shopping cart contains products with a purchase value below €80, the first shipping cost rule will apply. €3.90 shipping costs will be displayed in the shopping cart.
 
 .. image:: ../../media/screenshots/oxbafw02.png
    :alt: Shopping cart with products valued under €80
-   :class: with-shadow
-   :height: 261
+   :height: 262
    :width: 550
 
 If the customer buys products with a purchase value of €80 or above, the second shipping rule will apply. In this case, the products will be shipped for free.
 
 .. image:: ../../media/screenshots/oxbafw03.png
    :alt: Shopping cart with products valued over €80
-   :class: with-shadow
-   :height: 261
+   :height: 262
    :width: 550
 
 .. seealso:: :doc:`Products - Main tab <../products/main-tab>` | :doc:`Shipping cost rules - Main tab <../shipping-cost-rules/main-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
