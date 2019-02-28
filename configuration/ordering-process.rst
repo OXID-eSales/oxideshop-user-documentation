@@ -1,5 +1,5 @@
 ﻿Ordering process
-==============
+================
 
 Some settings for the ordering process can be found under :menuselection:`Master Settings --> Core Settings --> Settings --> Order`.
 

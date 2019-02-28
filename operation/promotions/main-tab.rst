@@ -1,12 +1,12 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab contains a few settings that can be configured for the promotion. This is where you can create or edit a promotion. When creating a promotion, you will need to specify its type. Depending on whether you have selected Action, Promotion, or Banner, the settings in the tab will be more or less different from each other.
 
 Please note that the Promotion type and some of the Action types will not be displayed on the start page for the \"Flow\" theme. See: :doc:`Promotions and start page <promotions-and-start-page>`
 
 Action type
-----------
+-----------
 .. image:: ../../media/screenshots/oxbagy01.png
    :alt: Promotions - Main tab, Action type
    :class: with-shadow
@@ -29,7 +29,7 @@ The promotion can also be edited in other active languages of the shop. To do th
 The promotion can have one product (e.g. \"Week's Specials\" action) or several products (e.g. \"Just arrived\" and \"Top seller\" actions) assigned to it. Clicking on :guilabel:`Assign Products` opens a new window. All available products will be displayed in the left-hand list. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the promotion. Hold down the Ctrl key to select multiple products.
 
 Banner type
-----------
+-----------
 .. image:: ../../media/screenshots/oxbagy02.png
    :alt: Promotions - Main tab, Banner type
    :class: with-shadow

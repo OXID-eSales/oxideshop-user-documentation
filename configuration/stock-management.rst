@@ -1,18 +1,18 @@
 ﻿Stock management
-===============
+================
 
 The management of product stocks is integrated in OXID eShop. This way, the customer can be informed about a product’s availability. There are three different statuses to indicate a product’s availability: many, few, or out of stock. The status is indicated by a coloured symbol and a note text in the product details.
 
 Products with sufficiently large quantities
-----------------------------------------
+-------------------------------------------
 A green symbol and the :guilabel:`Ready for shipping` default text below the price indicate sufficient stock.
 
 Low volume products
-------------------------------
+-------------------
 The symbol below the price turns orange. The default text :guilabel:`Only some items on stock - order quickly!` will be displayed.
 
 Out of stock products
------------------------
+---------------------
 A red symbol and the notice text :guilabel:`This item is not on stock and has to be re-ordered` indicate that the product is sold out.
 
 Before you can use the stock management feature, you will need to activate it. To do this, go to :menuselection:`Master Settings --> Core Settings`,:guilabel:` Settings` tab and click on :guilabel:`Stock` to view the settings.

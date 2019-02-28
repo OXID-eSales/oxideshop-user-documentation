@@ -1,5 +1,5 @@
 ﻿Discounts
-=======
+=========
 
 Apart from coupon series, newsletters or promotions, discounts are an important marketing tool in your OXID eShop. You can grant a discount on the regular price of a product if certain conditions are met. Cheaper product prices can be set for specific products, categories, users, user groups, and purchase values or quantities. The wide variety of discounts allows you to offer shopping benefits to your customers and promote customer loyalty.
 
@@ -36,22 +36,22 @@ When you select a discount from the list, its information will be displayed in t
 -----------------------------------------------------------------------------------------
 
 Main tab
--------------------
+--------
 **Contents**: active discount, always active, active for a time period, purchase quantity, purchase value, absolute discount, percentage discount, gift, add-on, free product |br|
 :doc:`Read article <main-tab>` |link|
 
 Products tab
----------------------
+------------
 **Contents**: Assigning products and categories |br|
 :doc:`Read article <products-tab>` |link|
 
 Users tab
-----------------------
+---------
 **Contents**: Assigning users and user groups |br|
 :doc:`Read article <users-tab>` |link|
 
 Mall tab
-------------------
+--------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting discounts, assigning discounts, parent shop, subshop, supershop, multishop, Mall |br|
 :doc:`Read article <mall-tab>` |link|

@@ -21,69 +21,69 @@ When you select a product from the product list, the product information will be
 -----------------------------------------------------------------------------------------
 
 Main tab
--------------------
+--------
 **Contents**: active product, title, product number, EAN, MPN, short and long description, search terms, distributor and manufacturer, price and alternative price, special VAT |br|
 :doc:`Read article <main-tab>` |link|
 
 Extended tab
------------------------
+------------
 **Contents**: weight, dimensions, quantity, basic price, external URL, purchase price, RRP, alternative template, searchable and customisable, intangible product (service), free shipping, EU Consumer Rights Directive 2013, waiving the right of withdrawal for intangible and downloadable products, free product, assigning categories, media files as URL or for download, updating prices |br| 
 :doc:`Read article <extended-tab>` |link|
 
 Stock tab
--------------------
+---------
 **Contents**: stock, external storehouse, product sold out, offline or not orderable, delivery time, product back in stock, product in stock, product out of stock, email about stock, messages about stock, scale prices, quantity, quantity discount |br|
 :doc:`Read article <stock-tab>` |link|
 
 Mall tab
-------------------
+--------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting products, assigning products, parent shop, subshop, supershop, multishop, Mall |br|
 :doc:`Read article <mall-tab>` |link|
 
 Selection tab
----------------------
+-------------
 **Contents**: assigning attributes, specific characteristics, assigning selection lists, typical versions, reusable for many products |br|
 :doc:`Read article <selection-tab>` |link|
 
 Crosssell. tab
-------------------------
+--------------
 **Contents**: cross-selling, Crossselling, Have you seen?, bidirectional cross-selling, accessories |br|
 :doc:`Read article <crosssell-tab>` |link|
 
 Variants tab
------------------------
+------------
 **Contents**: variants, multidimensional variants, product versions, parent product, purchasable, inheritance, selection name and value, variants from selection lists |br|
 :doc:`Read article <variants-tab>` |link|
 
 Picture tab
---------------------
+-----------
 **Contents**: product images, thumbnail, icon, zoom image, upload, upload to web server, automatically generated |br|
 :doc:`Read article <picture-tab>` |link|
 
 Downloads tab
------------------------
+-------------
 **Contents**: downloadable products, download links, my downloads, download count, expiration time of download links, uploaded files |br|
 :doc:`Read article <downloads-tab>` |link|
 
 Review tab
------------------------
+----------
 **Contents**: product reviews, stars and comments, moderating product reviews |br|
 :doc:`Read article <review-tab>` |link|
 
 Statistics tab
------------------------
+--------------
 **Contents**: creation date, modification date, sales rank, orders, sales, cancellations |br|
 :doc:`Read article <statistics-tab>` |link|
 
 Rights tab
---------------------
+----------
 Available only in Enterprise Edition |br|
 **Contents**: visible products, buyable products, assigning user groups, exclusive rights, rights and roles, shop permissions (front end) |br|
 :doc:`Read article <rights-tab>` |link|
 
 SEO tab
------------------
+-------
 **Contents**: search engine optimisation, SEO, selecting URL, fixed URL, SEO URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\" |br|
 :doc:`Read article <seo-tab>` |link|
 

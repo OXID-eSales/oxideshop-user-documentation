@@ -6,7 +6,7 @@ Release date: 31/07/2018
 -----------------------------------------------------------------------------------------
 
 General information
------------
+-------------------
 OXID eShop 6.1.0 is provided as a compilation with the following components:
 
 * OXID eShop CE 6.3.0
@@ -27,7 +27,7 @@ All changes to the compilation can be viewed in the following metapackage: `<htt
 With OXID eShop 6.1.0, we have resolved two security issues. One of the two security issues is only relevant if the Paymorrow payment method is actively used in the shop. Details on both security issues can be found on the following pages of OXIDforge: `Security Bulletin 2018-002 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_ and `Security Bulletin 2018-003 <https://oxidforge.org/en/security-bulletin-2018-002.html>`_. We recommend a quick update to this shop version (6.1.0) and to the provided Paymorrow 2.0.1 module. For instructions on updating the shop, see :doc:`Installing updates <../../installation/installing-updates/index>`.
 
 System requirements
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 OXID eShop 6.1.0 runs under PHP 7.0 and 7.1. PHP 5.6 is no longer supported. The supported database is MySQL version 5.5 or 5.7. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Apache 2.2 or 2.4 can be used as a web server on a Linux system.
 
 Installation
@@ -42,10 +42,10 @@ Please run the update first in a test or development environment, or a copy of y
 -----------------------------------------------------------------------------------------
 
 New functions
----------------
+-------------
 
 New components of the OXID eShop compilation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The OXID eShop compilation has been enhanced with the GDPR Opt-in 2.1.1 and Klarna 4.0.1 modules. The GDPR Opt-in module provides opt-in functions that are required by OXID eShop for the implementation of the General Data Protection Regulation (GDPR). The Klarna module is an additional payment module that shop owners can use, for example, to process payments against invoice, in instalments or by immediate bank transfer via the Klarna financial service provider.
 
 PSR-3 logger
@@ -55,10 +55,10 @@ We have integrated a logger according to PSR-3 specification into OXID eShop. Th
 -----------------------------------------------------------------------------------------
 
 Improvements and adjustments
-------------------------------
+----------------------------
 
 Updated components of the OXID eShop compilation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The following components have been updated to a new version:
 
 * OXID eShop CE (update from 6.2.0 to 6.3.0), `Changelog 6.3.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.3.0/CHANGELOG.md>`_
@@ -72,17 +72,17 @@ The following components have been updated to a new version:
 * Visual CMS (PE/EE, update from 3.2.0 to 3.2.1) `Changelog 3.2.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.2.1/CHANGELOG.md>`_
 
 Configurable contact form
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 Mandatory fields of the contact form can be specified in the Admin panel under :menuselection:`Master Settings --> Core Settings`, in the :guilabel:`Settings` tab, section :guilabel:`Other settings`. Only the activated fields will be validated when submitting the contact form.
 
 These contact form settings have been implemented in the context of the General Data Protection Regulation to allow shop owners to only collect the data necessary to process an enquiry.
 
 Modules can override Smarty plugins
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Modules can now overwrite Smarty Plugins. Version 2.1 of the metadata was introduced for this purpose.
 
 Discontinued features and functions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The test script used for OXID eShop 4 & 5, which checked the integrity of the .php files and templates, is no longer supported. The option of calling the script from the Admin panel by checking the :guilabel:`Run Version checker` box under :menuselection:`Service --> Diagnostics tool` has been removed.
 
 -----------------------------------------------------------------------------------------

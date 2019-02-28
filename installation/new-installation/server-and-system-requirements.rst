@@ -1,12 +1,12 @@
 ﻿Server und system requirements
-================================
+==============================
 
 OXID eShop can run on different server systems. The choice of a suitable hosting package depends, for example, on the number of products, the expected number of visitors in the shop, and the number of orders. While a shared hosting system is sufficient for a small shop with a few hundred products, a few visitors per month and a manageable order volume, a managed server system should be selected for larger shops. As the load increases, you should consider using a server farm with load balancing and a database cluster. Please contact our `OXID Hosting Partners <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_ for advice and support in selecting the right system. They provide solutions specifically tailored to OXID eShop.
 
 The following system requirements must be met to operate OXID eShop version 6. There are some changes compared to the system requirements for shop versions 4 and 5, including the supported versions for the Apache web server, MySQL database and the server-side PHP scripting and programming language.
 
 Web server
----------
+----------
 
 * Apache version 2.2 and 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition

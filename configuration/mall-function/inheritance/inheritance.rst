@@ -1,5 +1,5 @@
 ﻿Inheritance
-=========
+===========
 
 Inheritance is an important part of the Mall function. It takes place when you check the box :guilabel:`Shop inherits all inheritable products and settings from the parent shop` when creating a new shop. Besides the products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors and other elements will be passed onto the new shop. Categories are not inherited.
 
@@ -18,22 +18,22 @@ Inheritance-related information that can be found in the other documents is also
 -----------------------------------------------------------------------------------------
 
 Inheritable elements
--------------------
+--------------------
 **Contents**: Mall, Enterprise Edition, inheritance, inheritance settings, assignments, inheritable elements, products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, news, links |br|
 :doc:`Read article <inheritable-elements>` |link|
 
 Non-inheritable elements
--------------------------
+------------------------
 **Contents**: Mall, Enterprise Edition, inheritance, non-heritable elements, shop configuration, assignment to promotions, CMS pages, orders |br|
 :doc:`Read article <non-inheritable-elements>` |link|
 
 Shared elements
------------------
+---------------
 **Contents**: Mall, Enterprise Edition, inheritance, shared elements, payment methods, countries, languages, users, user groups, reviews |br|
 :doc:`Read article <shared-elements>` |link|
 
 Customisation
-------------------
+-------------
 **Contents**: Mall, Enterprise Edition, inheritance, customisation, inheritance settings, product price, alternative prices, scale prices, rights and roles, SEO, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
 :doc:`Read article <customisation>` |link|
 

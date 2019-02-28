@@ -1,14 +1,14 @@
 ﻿Countries
-======
+=========
 
 The configuration of OXID eShop also includes the country settings. These are needed, for example, to set up shipping costs and payment methods. You should have already specified the main shipping country in step 2 of the installation process. It is currently the only active country. You will need to activate other countries to be able to ship your products to customers in these countries.
 
 Activating a country
----------------
+--------------------
 All countries have already been set up and configured. All you need to do now is activate the required countries under :menuselection:`Master Settings --> Countries`. The first 10 of 247 countries are displayed in the overview. Select a country from the overview by clicking on it. The settings for the selected country will be displayed in the input area below the overview. Check the :guilabel:`Active` box to activate the country. Save the settings. The country is now active and can be used.
 
 Searching for a country
------------
+-----------------------
 You can search for a country in the country overview by browsing through the pages or using the search function.
 
 Search input fields are located above the table columns.

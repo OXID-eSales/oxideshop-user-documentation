@@ -27,12 +27,12 @@ Main shop & parent shops
 :doc:`Read article <main-shop-parent-shops>` |link|
 
 Subshops, supershops & multishops
-----------------------------------
+---------------------------------
 **Contents**: Mall, Enterprise Edition, shop types, subshop, supershop, multishop, create new shop, URL, SSL URL, top-level domain, second-level domain, subdomain, /out directory, separate order numbers, surcharge percentage or absolute, individual prices |br|
 :doc:`Read article <subshops-supershops-multishops>` |link|
 
 Inheritance
----------
+-----------
 **Contents**: Mall, Enterprise Edition, inheritance, inheritable elements, non-inheritable elements, shared elements, inheritance settings, assignments, customisation, product prices, config.inc.php, aMultishopArticleFields, oxfield2shops |br|
 :doc:`Read article <inheritance/inheritance>` |link|
 

@@ -1,5 +1,5 @@
 ﻿Company information
-===========
+===================
 
 You can enter your company information and shop name in the :guilabel:`Main` tab under :menuselection:`Master Settings --> Core Settings`. The company information will be displayed to the customers in the shop’s contact form but is not part of the About Us section. The About Us section will be created using the Content Management System (CMS) integrated in the shop. The shop name will be used in the shop and in outgoing emails.
 

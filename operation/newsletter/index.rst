@@ -1,5 +1,5 @@
 ﻿Newsletters
-==========
+===========
 
 .. toctree::
    :maxdepth: 1

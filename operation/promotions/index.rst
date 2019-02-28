@@ -1,5 +1,5 @@
 ﻿Promotions
-========
+==========
 
 .. toctree::
    :maxdepth: 1

@@ -1,5 +1,5 @@
 ﻿Value-added tax
-==============
+===============
 
 Basic VAT settings can be found in the Admin panel under :menuselection:`Master Settings --> Core Settings --> Settings --> VAT`. Usually, the default settings after installation are suitable for most shops so that no changes are necessary. All listed options are unchecked and the VAT rate is set to 19 percent by default.
 

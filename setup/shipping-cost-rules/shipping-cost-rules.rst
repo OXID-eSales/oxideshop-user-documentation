@@ -23,22 +23,22 @@ A valid condition must be formulated for the shipping cost rule. Make sure that 
 -----------------------------------------------------------------------------------------
 
 Main tab
--------------------
+--------
 **Contents**: active shipping cost rule, active time period, condition for shipping cost rule, quantity, size, weight, price, shipping costs, surcharge, discount, absolute, percentage, time-based discount, quantity-based discount, calculation of shopping cart, order of shipping costs, order of calculation, stop calculation, no additional rules, assigning countries |br|
 :doc:`Read article <main-tab>` |link|
 
 Products tab
----------------------
+------------
 **Contents**: assigning categories and products |br|
 :doc:`Read article <products-tab>` |link|
 
 Users tab
-----------------------
+---------
 **Contents**: assigning users and user groups |br|
 :doc:`Read article <users-tab>` |link|
 
 Mall tab
-------------------
+--------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting shipping cost rules, assigning shipping cost rules, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
 :doc:`Read article <mall-tab>` |link|

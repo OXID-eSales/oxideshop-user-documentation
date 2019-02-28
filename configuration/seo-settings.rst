@@ -1,12 +1,12 @@
 ﻿SEO settings
-=================
+============
 
 Customers often start searching for products by entering queries in search engines and portals. To make sure that they find your shop, products and special offers, you will need to optimise and index the relevant information. Search Engine Optimisation (SEO) is supported in OXID eShop starting with version 4. SEO implementation automatically generates “speaking URLs” for categories and products, taking into consideration reserved words and special characters as well as different shop’s languages.
 
 Shop owners only need to change a few settings to specify content for SEO. These are the page title, the structure of the URLs and the so-called metadata. The content can be defined in any shop’s language.
 
 Page title
------------
+----------
 The page title is displayed in the title bar of some browsers and is used as a bookmark or favourite when saving a page. Although the page title in the shop is almost invisible, it plays an important role in search engines. Search engines extract information from the page title indicating which content can be found on a website. Except for the shop's start page, page titles are automatically generated from the title of a product or category and are extended with a prefix and a suffix.
 
 Example of a page title structure: OXID Surf and Kite Shop | Transportcontainer THE BARREL | purchase online
@@ -23,7 +23,7 @@ Text attached to the generated part of the page title. Here, you can add the cha
 You can specify the title text for the start page. It should precisely describe your online shop offer. Unlike other pages, the start page title consists of a prefix and a defined text, without using the suffix. Demoshop example: OXID Surf and Kite Shop | Online Shop for water sports and summertime
 
 URL structure
----------------
+-------------
 The so-called “speaking URLs” are also an important part of SEO. Instead of displaying URLs with parameters and cryptic values, the URL is rewritten to show the name of the category and the product instead. This is good for search engines and visitors of your online shop.
 
 Example of internally used URL: ``www.yourshopurl.com/index.php?`` |br|
@@ -59,7 +59,7 @@ If products or categories don’t have their own meta tags, this information wil
 Static URLs are defined for specific pages, such as Contacts and Newsletters. These replace the internal URLs with different parameters. You can create new static URLs or change the existing ones, even in different languages.
 
 Metadata
----------
+--------
 Although metadata is no longer critical for search engines, there is a way to change its content. There is metadata for the start page and metadata for products and categories. These are phrases and terms that are provided as a description or keywords with the respective page.
 
 Demoshop example:
@@ -75,7 +75,7 @@ Start page
 The metadata for the shop’s start page can be entered under :menuselection:`Customer Info --> CMS Pages`. The CMS page “META description start page” (ID: oxstartmetakeywords) includes the shop description and the CMS page “META keywords start page” (oxstartmetadescription) includes the keywords.
 
 Categories and products
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 Metadata for categories and products is automatically generated from their description. It can be overwritten by self-penned descriptions and keywords for each category or product. Metadata is entered in the :guilabel:`SEO` tab of the Categories or Products sections.
 
 .. Intern: oxbabi, Status:

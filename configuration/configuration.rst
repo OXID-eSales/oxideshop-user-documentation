@@ -8,42 +8,42 @@ These settings can be found in the Admin panel. Open the Admin panel of your OXI
 -----------------------------------------------------------------------------------------
 
 Company information
------------
+-------------------
 **Contents**: company name, company address, bank details, legal and tax information, shop name |br|
 :doc:`Read article <company-information>` |link|
 
 Emails
--------
+------
 **Contents**: SMTP data, email addresses, subject lines for emails sent from the shop |br|
 :doc:`Read article <emails>` |link|
 
 Customer information
--------------------
+--------------------
 **Contents**: about us, general terms and conditions, privacy policy, shipping costs and payment, right of withdrawal, CMS, legally compliant online shop, Trusted Shops |br|
 :doc:`Read article <customer-information>` |link|
 
 SEO settings
------------------
+------------
 **Contents**: search engine optimisation, SEO, page title, title prefix, title suffix, page title start page, speaking URLs, SEO separators, SEO suffix, -oxid, special characters, reserved words, static URLs, metadata, meta tags, meta name=\"description\", meta name=\"keywords\" |br|
 :doc:`Read article <seo-settings>` |link|
 
 Value-added tax
---------------
+---------------
 **Contents**: standard VAT rate, entering net prices (products, shipping costs, payment methods, gift wrapping), net prices and VAT in shopping cart and invoice (products, shipping costs, payment methods, gift wrapping), VAT and shipping address |br|
 :doc:`Read article <value-added-tax>` |link|
 
 Countries
-------
+---------
 **Contents**: main shipping country, activating a country, country overview, searching for a country |br|
 :doc:`Read article <countries>` |link|
 
 Ordering process
---------------
+----------------
 **Contents**: fraction product quantities, minimum order value, showing two order buttons, Button Solution, confirming general terms and conditions |br|
 :doc:`Read article <ordering-process>` |link|
 
 Stock management
----------------
+----------------
 **Contents**: activating stock management, displaying product availability, quantity for low stock level, default messages for products in stock or for products out of stock |br|
 :doc:`Read article <stock-management>` |link|
 

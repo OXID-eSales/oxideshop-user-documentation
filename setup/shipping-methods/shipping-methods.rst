@@ -23,28 +23,28 @@ The assignment of users and user groups is optional. If no user or user group ha
 -----------------------------------------------------------------------------------------
 
 Main tab
--------------------
+--------
 **Contents**: active shipping method, active time period, sorting, assigning shipping cost rules and countries |br|
 :doc:`Read article <main-tab>` |link|
 
 Payment tab
----------------------------
+-----------
 **Contents**: assigning payment methods |br|
 :doc:`Read article <payment-tab>` |link|
 
 Users tab
-----------------------
+---------
 **Contents**: assigning users and user groups |br|
 :doc:`Read article <users-tab>` |link|
 
 Mall tab
-------------------
+--------
 Available only in Enterprise Edition |br|
 **Contents**: inheriting payment methods, assigning payment methods, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
 :doc:`Read article <mall-tab>` |link|
 
 RDFa tab
-------------------
+--------
 **Contents**: RDFa, Resource Description Framework, GoodRelations, e-commerce vocabulary, general shipping methods and parcel services, rich snippets |br|
 :doc:`Read article <rdfa-tab>` |link|
 

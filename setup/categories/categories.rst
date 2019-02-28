@@ -19,39 +19,39 @@ The footer contains the following links: :guilabel:`Create new Category`, :guila
 -----------------------------------------------------------------------------------------
 
 Main tab
--------------------
+--------
 **Contents**: active category, title, short description, main and subcategories, category structure, category images, external link, alternative template, fast sorting of products, special VAT, negative discounts |br|
 :doc:`Read article <main-tab>` |link|
 
 Text tab
-----------------------
+--------
 **Contents**: category description, editor, WYSIWYG, HTML tags, SelfHTML, OXID eXchange |br|
 :doc:`Read article <text-tab>` |link|
 
 Picture tab
---------------------
+-----------
 **Contents**: category images, picture, thumbnail, icon, preview |br|
 :doc:`Read article <picture-tab>` |link|
 
 Sorting tab
-------------------------
+-----------
 **Contents**: sorting products, manual sorting, order of products in a category, new sorting |br|
 :doc:`Read article <sorting-tab>` |link|
 
 Mall tab
-------------------
+--------
 Available only in Enterprise Edition |br|
 **Contents**: assigning categories, parent shop, subshop, supershop, multishop, categories of all shops, Mall |br|
 :doc:`Read article <mall-tab>` |link|
 
 Rights tab
---------------------
+----------
 Available only in Enterprise Edition |br|
 **Contents**: visible categories, buyable products of the category, assigning user groups, exclusive rights, rights and roles, shop permissions (front end) |br|
 :doc:`Read article <rights-tab>` |link|
 
 SEO tab
------------------
+-------
 **Contents**: search engine optimisation, SEO, fixing URL, SEO URL, page title, title suffix, meta data, meta tags, meta name=\"description\", meta name=\"keywords\" |br| 
 :doc:`Read article <seo-tab>` |link|
 

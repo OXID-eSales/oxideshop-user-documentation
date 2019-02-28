@@ -1,12 +1,12 @@
 ﻿Customer information
-===================
+====================
 
 Shop owners need to make sure that their customers are informed about the vendor, payment and shipping conditions, privacy policy, and the right of withdrawal. These are just a few keywords for a legally compliant online shop. Customer information must be carefully prepared and regularly updated to avoid legal pitfalls and the resulting warnings.
 
 Shop owners should seek support to ensure correct contents of the About Us, Terms and Conditions, Privacy Policy, Shipping and Charges, Right of Withdrawal, and other sections. In Germany and a number of other countries, for example, Trusted Shops offers the relevant know-how and certified online shops. The awarded seal of approval attests to the shops’ compliance with standards, such as integrity, data protection and supply assurance.
 
 Important links for legally compliant online shops
------------------------------------------
+--------------------------------------------------
 Trusted Shops website with templates for members:: `www.trustedshops.com <http://www.trustedshops.de/>`_ 
 
 Blog on current legal issues (in German): `www.shopbetreiber-blog.de <http://www.shopbetreiber-blog.de/>`_ 

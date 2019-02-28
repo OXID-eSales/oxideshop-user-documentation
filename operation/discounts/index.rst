@@ -1,5 +1,5 @@
 ﻿Discounts
-=======
+=========
 
 .. toctree::
    :maxdepth: 1

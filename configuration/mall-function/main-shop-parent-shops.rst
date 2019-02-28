@@ -1,5 +1,5 @@
 ﻿Main shop & parent shops
-=======================
+========================
 
 The shop created during the installation of OXID eShop Enterprise Edition is a special shop. The main shop not only combines different shop types but also provides two settings that affect all shops. The other settings can be found on the :guilabel:`Mall` tab of each shop.
 
@@ -33,7 +33,7 @@ It determines whether users can log in to all shops. If this box is checked, use
 If this setting is not selected or was deselected later, the users will only be able to log in to the shop they have registered for.
 
 Parent shops
------------
+------------
 When you create a new shop that inherits all products and settings from a previously created shop, the previous shop becomes a parent shop. The shop that passes on products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors and other elements to the new shop is its parent shop. Individual products can also be assigned to any other shop from the main shop, which makes the main shop a supershop. More information about other shop types can be found in :doc:`Subshops, supershops & multishops <subshops-supershops-multishops>`.
 
 .. seealso:: :doc:`Inheritance <inheritance/inheritance>`
