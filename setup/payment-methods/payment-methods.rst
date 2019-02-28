@@ -1,5 +1,5 @@
 ﻿Payment methods
-=============
+===============
 
 Payment and shipping are important functions in an online shop. They are determined by the definition of payment methods, shipping methods and shipping cost rules which are interrelated.
 
@@ -11,8 +11,7 @@ When you select a payment method from the list, its information will be displaye
 
 .. image:: ../../media/screenshots/oxbacz01.png
    :alt: Payment methods
-   :class: with-shadow
-   :height: 536
+   :height: 534
    :width: 650
 
 OXID eShop comes with the following payment methods: \"Direct Debit\", \"Empty\", \"Credit Card\", \"COD (Cash on Delivery)\", \"Invoice\" and \"Cash in advance\". They can be used after being customised. Unused payment methods should be deactivated with the exception of \"Empty\". This is a sort of fall-back payment method that allows customers to complete the ordering process even if the defined payment and shipping conditions don’t apply to a country active in the shop. The customer will still be able to place an order. The seller will have to clarify the payment and shipping conditions with the customer afterwards.

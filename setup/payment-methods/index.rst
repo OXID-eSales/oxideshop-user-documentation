@@ -1,5 +1,5 @@
 ﻿Payment methods
-=============
+===============
 
 .. toctree::
    :maxdepth: 1

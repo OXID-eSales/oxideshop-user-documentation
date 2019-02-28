@@ -1,12 +1,11 @@
 ﻿Country tab
-====================
+===========
 
 Payment methods apply to countries. Use the :guilabel:`Country` tab to assign the countries from which the customers can pay for their order using this payment method. Without an assignment, this payment method will be valid for all countries.
 
 .. image:: ../../media/screenshots/oxbadb01.png
    :alt: Payment methods - Country tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 :guilabel:`Assign Countries` |br|

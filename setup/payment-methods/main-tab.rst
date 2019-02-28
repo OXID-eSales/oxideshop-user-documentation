@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab provides various settings to configure each payment method individually. Payment methods can also be described here. User groups are assigned to the payment method via a dialog.
 
 .. image:: ../../media/screenshots/oxbada01.png
    :alt: Payment methods - Main tab
-   :class: with-shadow
-   :height: 346
+   :height: 343
    :width: 650
 
 :guilabel:`Active` |br|
@@ -45,7 +44,7 @@ Certain payment methods require additional information from the customer. If the
 .. hint:: Please don’t change the existing entries since many payment interfaces with which OXID eShop can be enhanced use the existing fields.
 
 :guilabel:`Add Field` | :guilabel:`Delete Selected Fields` |br|
-You can add new fields for payment methods without any additional programming. However, in order for these to be queried by the customer and their values to be stored in the database, the template responsible for the display will need to be enhanced. A template for how the fields are used can be found in the :file:`payment_oxiddebitnote.tpl` template that displays the \"Direct Debit\" payment method in the ordering process. The DynValue fields here ensure that the bank data entered by the customer is stored in the database (table\"oxuserpayments\", field\"OXVALUE\").
+You can add new fields for payment methods without any additional programming. However, in order for these to be queried by the customer and their values to be stored in the database, the template responsible for the display will need to be enhanced. A template for how the fields are used can be found in the :file:`payment_oxiddebitnote.tpl` template that displays the \"Direct Debit\" payment method in the ordering process. The DynValue fields here ensure that the bank data entered by the customer is stored in the database (table \"oxuserpayments\", field \"OXVALUE\").
 
 :guilabel:`In Language` |br|
 The payment method can also be edited in other active languages of the shop. To do this, select the desired language from the list.
