@@ -1,5 +1,5 @@
 ﻿Products and categories
-======================
+=======================
 
 .. toctree::
    :maxdepth: 1

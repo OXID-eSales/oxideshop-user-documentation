@@ -1,5 +1,6 @@
 ﻿Main category of a product
-=============================
+==========================
+
 A product can be assigned to any number of categories. In this case, one of the categories must be defined as the main category. This is necessary to allow the shop to decide in certain situations, in which category the product should be displayed. For example, if the customer accesses a product via the shop’s search or using the tags, it will be displayed in the defined main category.
 
 The so-called duplicate content is also important. A product that appears in multiple categories has multiple URLs. These point to the product’s details page and would therefore present identical content. Search engines like Google, Bing and Yahoo! want to list search results for their users without any redundancies. The solution is canonical tags or canonical links that refer to the original page if the content is the same. In OXID eShop, this is the product’s details page with the main category in the URL.
@@ -22,8 +23,7 @@ Setting the main category of a product
 
 .. image:: ../../media/screenshots/oxbafp01.png
    :alt: Setting as main category
-   :class: with-shadow
-   :height: 314
+   :height: 315
    :width: 400
 
 .. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | `Canonical link <https://en.wikipedia.org/wiki/Canonical_link_element>`_ (Wikipedia)

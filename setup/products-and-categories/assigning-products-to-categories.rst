@@ -1,5 +1,6 @@
 ﻿Assigning products to categories
-====================================
+================================
+
 An important part of building up the product catalogue is combining the products in order to present them in different categories. To do this, you will need to assign the products to the respective categories. This could be done in two ways: based on the product or based on the category. If you have just created a new product or are currently editing it, it will make sense to assign one or more categories to it. On the other hand, if you are editing a category, the best way would be to assign several products to this category at once.
 
 Assigning a single product to a category
@@ -25,8 +26,7 @@ Assigning several products to a category
 
 .. image:: ../../media/screenshots/oxbafo01.png
    :alt: Assigning products
-   :class: with-shadow
-   :height: 325
+   :height: 322
    :width: 400
 
 The assignment windows that are used in many areas of the Admin panel always work in the same way. Entries in the list are searched, selected or filtered. Use drag and drop to move them into a different list. Hold down the Ctrl key to select multiple entries. Close the window to complete the assignment. You don’t need to save anything.

@@ -1,13 +1,13 @@
 ﻿Scale prices
-=============
+============
+
 Scale prices can be used to offer a quantity discount for selected products. The product will be cheaper if the customer buys a certain quantity of it. You can define an absolute price or a percentage discount for a specific quantity range. Several quantity ranges form a scale with different product prices.
 
 When the customer clicks on :guilabel:`Block price`, scale prices will be displayed on the product’s details page in OXID eShop. The appropriate scale price will be applied and displayed in the shopping cart depending on the quantity specified at the time of purchase.
 
 .. image:: ../../media/screenshots/oxbafm01.png
    :alt: Scale prices, product’s details page
-   :class: with-shadow
-   :height: 318
+   :height: 317
    :width: 500
 
 Defining scale prices in the product management section

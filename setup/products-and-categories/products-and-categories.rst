@@ -1,6 +1,7 @@
 ﻿Products and categories
-======================
-The \"Products and categories\" section provides more detailed information on certain topics already explained in sections :doc:`Products <../products/products>` and :doc:`Categories <../categories/categories>`. While they mainly discuss the settings and input options in the tabs used to create the product catalogue, this section will cover some aspects and provide brief instructions.
+=======================
+
+The "Products and categories" section provides more detailed information on certain topics already explained in sections :doc:`Products <../products/products>` and :doc:`Categories <../categories/categories>`. While they mainly discuss the settings and input options in the tabs used to create the product catalogue, this section will cover some aspects and provide brief instructions.
 
 -----------------------------------------------------------------------------------------
 

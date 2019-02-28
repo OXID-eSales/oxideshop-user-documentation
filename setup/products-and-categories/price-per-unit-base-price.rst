@@ -1,11 +1,11 @@
 ﻿Price per unit (base price)
-====================================
+===========================
+
 Entering the basic price is mandatory for products that are offered by weight, volume, length or area. This is stated in paragraph 2 of the `German Price Indication Ordinance <http://www.gesetze-im-internet.de/pangv/>`, according to which not only the final price but also the price per unit must be displayed for the product. The base price is calculated and displayed on the product’s details page directly below the final price.
 
 .. image:: ../../media/screenshots/oxbafl01.png
    :alt: Base price, product’s details page
-   :class: with-shadow
-   :height: 260
+   :height: 244
    :width: 500
 
 The base price is defined in the product management section.

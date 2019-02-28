@@ -1,5 +1,6 @@
 ﻿Sorting products
-=======================
+================
+
 You can define the order in which products are displayed in a category by using the fast sorting feature - based on a single product characteristic (ascending or descending) - and the manual sorting feature. In addition, you can allow the customers of your OXID eShop to sort the products of a category according to the predetermined criteria.
 
 Fast sorting is based on a certain category setting. Use the drop-down list to select a product characteristic, such as :guilabel:`Title`, :guilabel:`Price` or :guilabel:`Created on`. You will also need to specify whether the products should be sorted in the ascending or descending order according to this characteristic.
@@ -20,12 +21,11 @@ Manual sorting allows you to arrange the products of a category in a certain way
 * Change the order of the products as needed.
 * Save the new order.
 
-The current sort order will be displayed in the left-hand list. Product values that are relevant for sorting will be displayed in the “Position” column.
+The current sort order will be displayed in the left-hand list. Product values that are relevant for sorting will be displayed in the "Position" column.
 
 .. image:: ../../media/screenshots/oxbafq01.png
    :alt: Sorting products
-   :class: with-shadow
-   :height: 313
+   :height: 311
    :width: 400
 
 One of the settings in the master data allows you to specify whether your customers can use the sorting feature in categories and what fields they can sort by.
@@ -40,8 +40,7 @@ The fields by which products can be sorted correspond to the database fields of 
 
 .. image:: ../../media/screenshots/oxbafq02.png
    :alt: Sorting options
-   :class: with-shadow
-   :height: 269
+   :height: 272
    :width: 650
 
 The screenshot in the example shows that besides the name and the price, products can also be sorted by the product number. For this purpose, the *oxartnum* field was added to the standard *oxtitle* and *oxvarprice* fields.

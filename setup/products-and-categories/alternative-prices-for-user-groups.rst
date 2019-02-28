@@ -1,5 +1,6 @@
 ﻿Alternative prices for user groups
-======================================
+==================================
+
 OXID eShop allows you to set alternative product prices for three user groups. These user groups are \"Price A\", \"Price B\" and \"Price C\". When a customer who has been assigned to such a user group logs on to the shop, he/she will see the alternative price for the corresponding products.
 
 Defining alternative prices in the product management section
