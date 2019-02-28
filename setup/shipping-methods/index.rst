@@ -1,5 +1,5 @@
 ﻿Shipping methods
-============
+================
 
 .. toctree::
    :maxdepth: 1

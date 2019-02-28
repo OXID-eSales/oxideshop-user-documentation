@@ -1,12 +1,11 @@
 ﻿Users tab
-======================
+=========
 
 Shipping methods can be configured to apply to specific user groups and/or users. Go to the :guilabel:`User` tab to complete the assignment.
 
 .. image:: ../../media/screenshots/oxbadg01.png
    :alt: Shipping methods - Users tab
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 If no user group has been assigned, the shipping method will apply to all user groups. Shipping methods can also apply only to individual users. However, this type of assignment means that only selected users will be able to use this shipping method. This makes the assigned user groups obsolete.

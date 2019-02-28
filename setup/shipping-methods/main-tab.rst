@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab contains several settings for the shipping method. Shipping cost rules and countries can be assigned here.
 
 .. image:: ../../media/screenshots/oxbade01.png
    :alt: Shipping methods - Main tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 :guilabel:`Name` |br|

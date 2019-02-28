@@ -1,5 +1,5 @@
 ﻿RDFa tab
-==================
+========
 
 OXID eShop provides well-prepared information for search engines, portals and other systems. It can be displayed as so-called rich snippets - detailed information on a search result. The data is prepared based on the Resource Description Framework (RDFa) and the GoodRelations description language optimised for e-commerce.
 
@@ -7,8 +7,7 @@ The :guilabel:`RDFa` tab establishes a logical link between the shipping method 
 
 .. image:: ../../media/screenshots/oxbadi01.png
    :alt: Shipping methods - RDFa tab
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 .. hint:: Activate the function under :menuselection:`Master Settings --> Core Settings --> RDFa` to allow the shop to use RDFa integration.
