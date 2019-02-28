@@ -1,11 +1,11 @@
 ﻿Main tab
-===================
+========
+
 The :guilabel:`Main` tab contains important information about the product. This is where you can create or edit a product. When you create a product, you can assign it to a category directly. To do this, use the :guilabel:`In Category` drop-down list at the bottom of the input area. After saving the product, the quick assignment to a category in this tab will no longer be possible.
 
 .. image:: ../../media/screenshots/oxbaci01.png
    :alt: Products - Main tab
-   :class: with-shadow
-   :height: 346
+   :height: 343
    :width: 650
 
 Use the language drop-down list displayed in the input area after creating a product to edit the information and settings for the product directly in another language.

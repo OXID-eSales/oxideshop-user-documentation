@@ -1,11 +1,11 @@
 ﻿Variants tab
-=======================
+============
+
 Variants allow you to use different versions of the same product. Typical versions include the different clothing sizes or multiple colours in which a product is offered.
 
 .. image:: ../../media/screenshots/oxbaco01.png
    :alt: Products - Variants tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The principle behind the variants is that first you need to create the so-called parent product. It contains all the basic information that will be inherited by the variants. The long description that you wrote for the parent product will be displayed for the variants unless a variant has a different long description. Variants can inherit the settings of the parent product or have different prices, separate product numbers, their own product images, different stocks, etc.
@@ -18,8 +18,7 @@ Multidimensional variants provide a selection of multiple characteristics of a p
 
 .. image:: ../../media/screenshots/oxbaco02.png
    :alt: Products - Variants tab
-   :class: with-shadow
-   :height: 329
+   :height: 343
    :width: 650
 
 :guilabel:`Selection lists` |br|

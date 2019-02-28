@@ -1,11 +1,11 @@
 ﻿Stock tab
-===================
+=========
+
 OXID eShop has an integrated stock management system that shows the availability of products to customers and reduces stock with each order. The shop owner will be notified by email if the product’s stock falls below a specified number of items.
 
 .. image:: ../../media/screenshots/oxback01.png
    :alt: Products - Stock tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 To use :doc:`Stock Management<../../configuration/stock-management>`, you will need to first activate and configure this feature in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Stock`.

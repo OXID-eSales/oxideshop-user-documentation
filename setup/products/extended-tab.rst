@@ -1,11 +1,11 @@
 ﻿Extended tab
-=======================
+============
+
 The :guilabel:`Extended` tab allows you to set specific product characteristics and add sources of information, such as documents, videos, or audio files.
 
 .. image:: ../../media/screenshots/oxbacj01.png
    :alt: Products - Extended tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 :guilabel:`Weight` |br|
@@ -84,8 +84,7 @@ A product can belong to one or more categories. Clicking on :guilabel:`Assign Ca
 
 .. image:: ../../media/screenshots/oxbacj02.png
    :alt: Assign Categories
-   :class: with-shadow
-   :height: 314
+   :height: 311
    :width: 400
 
 All available categories will be displayed in the left-hand list. Drag and drop the desired categories into the right-hand list of the assignment window. Hold down the Ctrl key to select multiple categories. The assignment is now completed. If the product exists in multiple categories, one of them must be set as the main category to avoid duplicate content (DC). Highlight the main category in the right-hand list and click on :guilabel:`Set as Main Category`.

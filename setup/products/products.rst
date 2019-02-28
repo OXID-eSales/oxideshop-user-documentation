@@ -1,18 +1,18 @@
 ﻿Products
-=======
+========
+
 Besides categories, products are the very basis of the product catalogue. After all, an online shop is all about presenting and selling the products. Titles and short or long descriptions are the most important product characteristics, but there are many more that allow products to be described in detail. There are also product images that should display the product in different views and from different angles. High-quality photos are important to present the product in the best way possible and can be decisive for the purchase.
 
 .. image:: ../../media/screenshots/oxbach01.png
    :alt: Products
-   :class: with-shadow
-   :height: 536
+   :height: 535
    :width: 650
    
 The \"Products\" section tells you how to create and manage products. It explains all the settings that can be configured for the products. The section also discusses attributes and selection lists as well as variants and multidimensional variants.
 
 Products can be edited in the Admin panel under :menuselection:`Administer Products --> Products`. Here, you will see the product list and the input area right below it.
 
-A small green icon at the beginning of the line in the product list symbolises an active product. It is not displayed for inactive products. The product list shows the number, the title and the short description of the product. You can search for products by using search fields and/or filters for categories and product characteristics. For example, if you enter the number 13 the “Prod.No.” search field, you will see all the products listed with 13 in the product number. In the demo data, these are the kiteboards with the product numbers 1301, 1302, 1303 and 1304.
+A small green icon at the beginning of the line in the product list symbolises an active product. It is not displayed for inactive products. The product list shows the number, the title and the short description of the product. You can search for products by using search fields and/or filters for categories and product characteristics. For example, if you enter the number 13 the "Prod.No." search field, you will see all the products listed with 13 in the product number. In the demo data, these are the kiteboards with the product numbers 1301, 1302, 1303 and 1304.
 
 Products can be permanently removed from the database by clicking on the trash icon at the end of the line. If you just want to temporarily remove a product from the shop because it is currently out of stock, you can set it to inactive. The advantage of this is that you don’t have to recreate the product as soon as it is back in stock.
 

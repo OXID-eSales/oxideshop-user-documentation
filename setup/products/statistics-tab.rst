@@ -1,11 +1,11 @@
 ﻿Statistics tab
-=======================
+==============
+
 The :guilabel:`Statistics` tab provides some sales-related information about the product, such as the number of products sold, the sales rank, or the status of orders.
 
 .. image:: ../../media/screenshots/oxbacs01.png
    :alt: Products - Statistics tab
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 :guilabel:`Product created on` |br|

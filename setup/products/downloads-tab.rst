@@ -1,13 +1,13 @@
 ﻿Downloads tab
-=======================
+=============
+
 With OXID eShop 4.6.0, we have introduced a new product type: the downloadable product. This allows you to offer any files, such as software, photos, music files or document templates, to your customers. When the customer places a downloadable product in the shopping cart, he/she will receive all the associated files.
 
 After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the customer used direct debit or credit card as a payment method, he/she will be able to download the files immediately. The order confirmation email will also contain the download links to the ordered files when the payment is complete.
 
 .. image:: ../../media/screenshots/oxbacq01.png
    :alt: Products - Downloads tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The use of downloadable products in the shop must be enabled globally. To do this, you will need to configure the default settings in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Downloadable products`, in the Admin panel. In addition to enabling downloadable products, you will be able to set the path to the downloadable files, the count of downloads or expiration times for the download links.
@@ -44,8 +44,7 @@ Check this box to allow the customers to download the files for this product. Ot
 
 .. image:: ../../media/screenshots/oxbacq02.png
    :alt: Products - Downloads tab
-   :class: with-shadow
-   :height: 329
+   :height: 343
    :width: 650
 
 :guilabel:`Uploaded files` |br|

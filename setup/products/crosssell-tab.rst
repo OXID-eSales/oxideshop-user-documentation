@@ -1,5 +1,6 @@
 ﻿Crosssell. tab
-========================
+==============
+
 Cross-selling allows you to offer related products and/or product accessories to your customers. Products can be assigned in the :guilabel:`Crosssell.` tab.
 
 Cross-selling is about offering and selling products that work well together and complement each other. For example, you can offer the corresponding (rechargeable) batteries for an MP3 player, the respective drinks for glasses, and vice versa. The assigned products are displayed in an additional \"Have you seen?\" product box on the right side of the product’s detailed view. The title, the picture of the size icon and the price inform the customers about the assigned products that are linked as well.
@@ -8,8 +9,7 @@ The number of products displayed in the product box can be specified in :menusel
 
 .. image:: ../../media/screenshots/oxbacn01.png
    :alt: Products - Crosssel. tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 Assigning products as accessories takes place in a less flexible way. The assigned product will be displayed in the \"Accessories\" section on the right side of the detailed view. There is no bidirectional display for accessories.
@@ -20,8 +20,7 @@ Click on :guilabel:`Assign Crosssellings` to link products for cross-selling. Th
 
 .. image:: ../../media/screenshots/oxbacn02.png
    :alt: Assign Crosssellings
-   :class: with-shadow
-   :height: 325
+   :height: 324
    :width: 400
 
 Clicking on :guilabel:`Assign Accessories` opens the second assignment window. Here too, all products will be displayed in the left-hand list and can be filtered as described. They can be dragged and dropped into the right-hand list and assigned as accessories. Hold down the Ctrl key to select multiple accessories.

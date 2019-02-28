@@ -1,11 +1,11 @@
 ﻿Review tab
-=======================
+==========
+
 Customers can review products in your shop, which ensures transparency and helps build trust. They can go to the product’s detailed view to give it up to five stars and leave a comment. The reviews and the average stars awarded are displayed at the bottom of the detailed view.
 
 .. image:: ../../media/screenshots/oxbacr01.png
    :alt: Products - Review tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 This tab allows you to view the reviews for a product, correct small spelling errors and delete a review if necessary.
@@ -14,8 +14,7 @@ All reviews are listed under :menuselection:`Administer Products --> Products --
 
 .. image:: ../../media/screenshots/oxbacr02.png
    :alt: List All Reviews
-   :class: with-shadow
-   :height: 87
+   :height: 57
    :width: 650
 
 You can decide whether you want to publish a review before it is displayed in the product’s detailed view. To do this, select :guilabel:`Moderate Product Reviews: They are only published after they are activated by an Administrator User` in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`System` tab, under :guilabel:`Other settings`.

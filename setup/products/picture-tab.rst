@@ -1,11 +1,11 @@
 ﻿Picture tab
-====================
+===========
+
 Products can have up to twelve images that are very important for their optimal presentation in the shop. Images should display the product in different views and from different angles. Product images are displayed in the product’s detailed view. In addition, there are zoom images that are also available on the product’s details page. Smaller product images - thumbnails und icons - show the product in product lists, product boxes and in the shopping cart. Product default size can be defined in the theme settings. A detailed description can be found under :doc:`Images <../../configuration/images>` in the \"Configuration\" section.
 
 .. image:: ../../media/screenshots/oxbacp01.png
    :alt: Products - Pictures tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The :guilabel:`Pictures` tab allows you to load seven product images onto the web server. However, by looking at the directory structure, you can see that you can actually load up to 12 product images. To do this, you will need to either download additional product images to the web server via FTP or customise the template for the Admin panel for the larger number of uploads. Information on working with images and the directory structure of product images starting with OXID eShop 4.5.1 and later versions can be found in the English-language tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ on the OXIDforge page.

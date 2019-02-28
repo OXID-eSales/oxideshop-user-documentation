@@ -1,5 +1,6 @@
 ﻿Mall tab
-==================
+========
+
 The :guilabel:`Mall` tab is only available for products in Enterprise Edition.
 
 Products can be inherited when creating shops. If this option is selected, a new shop will contain all products of the parent shop. The inherited products can have customised prices if this is specified in the Mall settings of the new shop. Assignments such as categories, selection lists, attributes and cross-selling can be shop-specific. The SEO settings can also be customised. Most product characteristics such as title, product number, short description, etc. can’t be changed.
@@ -8,7 +9,6 @@ The :guilabel:`Mall` tab can be used to manage product assignments to subshops a
 
 .. image:: ../../media/screenshots/oxbacl01.png
    :alt: Products - Mall tab
-   :class: with-shadow
    :height: 334
    :width: 650
 

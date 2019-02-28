@@ -12,7 +12,7 @@
    selection-tab
    crosssell-tab
    variants-tab
-   picture tab
+   picture-tab
    downloads-tab
    review-tab
    statistics-tab

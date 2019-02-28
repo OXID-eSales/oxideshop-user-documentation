@@ -1,11 +1,11 @@
 ﻿SEO tab
-=================
+=======
+
 The product’s :guilabel:`SEO` tab contains information and settings that are relevant to search engines.
 
 .. image:: ../../media/screenshots/oxbacu01.png
    :alt: Products - SEO tab
-   :class: with-shadow
-   :height: 342
+   :height: 343
    :width: 650
 
 The language selection list at the bottom of the input area allows you to edit product’s information and settings in another active language.
