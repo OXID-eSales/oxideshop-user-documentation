@@ -10,4 +10,4 @@
    Promotions <promotions/index>
    Discounts <discounts/index>
    Coupon series <coupon-series/index>
-   Newsletter <newsletter/index>
+   Newsletters <newsletters/index>
