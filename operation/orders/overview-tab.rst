@@ -1,5 +1,5 @@
 ﻿Overview tab
-=======================
+============
 
 The :guilabel:`Overview` tab displays all important order-related information, including, for example, the billing address, a different shipping address, the ordered products, the total price with its individual items, as well as the payment and the shipping method. The order will receive an order number and the customer will receive a customer number provided that this is the first order.
 
@@ -7,8 +7,7 @@ In addition, you will see a brief summary of the orders placed on this day and a
 
 .. image:: ../../media/screenshots/oxbaec01.png
    :alt: Orders - Overview tab
-   :class: with-shadow
-   :height: 335
+   :height: 354
    :width: 650
 
 :guilabel:`Billing Address` |br|

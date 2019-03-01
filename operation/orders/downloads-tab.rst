@@ -1,12 +1,11 @@
 ﻿Downloads tab
-=======================
+=============
 
 This tab displays all downloads belonging to an order. For each download, there is a line that, in addition to the product number, the product title and the name of the downloadable file, also contains information that will be updated with the actual download.
 
 .. image:: ../../media/screenshots/oxbaeh01.png
    :alt: Orders - Downloads tab
-   :class: with-shadow
-   :height: 334
+   :height: 354
    :width: 650
 
 After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the order hasn’t yet been marked as paid, a corresponding message will be displayed. If the customer used direct debit or credit card as a payment method, he/she will be able to download the files immediately. The order confirmation email will also contain the download links to the ordered files when the payment is complete.

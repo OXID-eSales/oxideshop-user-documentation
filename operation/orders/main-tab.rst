@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab allows you to add or change the order information. This applies to order and invoice numbers as well as payment and shipping information. If the ordered products are downloadable, an email with the download links can be sent to the customer.
 
 .. image:: ../../media/screenshots/oxbaed01.png
    :alt: Orders - Main tab
-   :class: with-shadow
-   :height: 334
+   :height: 354
    :width: 650
 
 :guilabel:`IP Address` |br|

@@ -1,5 +1,5 @@
 ﻿Products tab
-=====================
+============
 
 All products belonging to an order are listed in detail in the :guilabel:`Products` tab.
 
@@ -11,8 +11,7 @@ There is also a function that allows you to include new products in the order. E
 
 .. image:: ../../media/screenshots/oxbaef01.png
    :alt: Orders - Products tab
-   :class: with-shadow
-   :height: 335
+   :height: 354
    :width: 650
 
 All products belonging to the order will be displayed in a table.
