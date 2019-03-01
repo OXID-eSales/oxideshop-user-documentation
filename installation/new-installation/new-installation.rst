@@ -1,10 +1,11 @@
-﻿Reinstallation
-==============
+﻿New installation
+================
 
-This section tells you how to reinstall OXID eShop 6.1. There is one decisive change compared to shop versions 4 and 5: The installation is no longer based on installation packages. The files required for the shop are provided by Composer, a dependency manager for PHP. After that, you can run the web-based setup and install the shop as usual.
+This section tells you how to install OXID eShop 6.1. There is one decisive change compared to shop versions 4 and 5: The installation is no longer based on installation packages. The files required for the shop are provided by Composer, a dependency manager for PHP. After that, you can run the web-based setup and install the shop as usual.
 
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Step 1
+    :class: no-shadow
     :height: 532
     :width: 650
 

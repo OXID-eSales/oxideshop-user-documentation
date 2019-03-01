@@ -1,10 +1,10 @@
-﻿Reinstallation
+﻿New installation
 ================
 
 .. toctree::
    :maxdepth: 1
 
-   reinstallation
+   new-installation
    server-and-system-requirements
    preparing-for-installation
    running-setup
