@@ -1,5 +1,6 @@
 ﻿Discounts on selected products
-===============================
+==============================
+
 A discount can apply to individual products, the products of a specific category and/or all products of several categories. This allows you to promote specific products or a whole product group from the catalogue by using a discount promotion. If the “From” value is set to 0 for the purchase value or quantity, the discount will be deducted in the online shop and the respective products will be displayed with the discounted price. If the value is set to 1, the discount will be first calculated and shown in the shopping cart.
 
 The discount is assigned to products.

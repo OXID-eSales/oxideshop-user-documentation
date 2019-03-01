@@ -1,5 +1,5 @@
 ﻿Mall tab
-==================
+========
 
 The :guilabel:`Mall` tab is only available for discounts in Enterprise Edition.
 
@@ -9,8 +9,7 @@ The :guilabel:`Mall` tab is used to manage the assignment of a discount to subsh
 
 .. image:: ../../media/screenshots/oxbahl01.png
    :alt: Discounts - Mall tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 The inheritance of all discounts for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.

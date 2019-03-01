@@ -1,5 +1,6 @@
 ﻿Product as add-on
-==================
+=================
+
 In addition to the absolute and relative price reduction, OXID eShop offers a third discount option: the free product. For every purchase that meets the conditions for the discount, a special product will be added to the cart as a free add-on. This allows you to implement discount promotions for certain purchase values or quantities.
 
 The price of the product placed into the shopping cart as an add-on will be automatically set to zero. Changing the previous price in the product management section won’t be necessary.

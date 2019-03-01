@@ -1,5 +1,6 @@
 ﻿Temporary discounts
-==========================
+===================
+
 OXID eShop allows you to create discounts that apply for a defined period of time. This can be special discount promotions, such as Sunday or late night offers, and seasonal discounts, such as a summer sale or a Christmas special. A start and an end date must be specified for such a discount. For special discounts, the start and end time can be even specified down to the minute or second.
 
 Temporary discounts are edited in the discount management section.

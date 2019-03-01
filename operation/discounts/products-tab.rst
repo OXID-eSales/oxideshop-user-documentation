@@ -1,12 +1,11 @@
 ﻿Products tab
-=====================
+============
 
 Discounts can apply to categories and/or products. The :guilabel:`Products` tab allows you to configure the necessary assignments. The discount will only be granted when assigned products or products from assigned categories are added to the shopping cart. Without assignment of categories and/or products, the discount will apply globally to the entire product catalogue.
 
 .. image:: ../../media/screenshots/oxbahj01.png
    :alt: Discounts - Products tab
-   :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 :guilabel:`Assign Categories` |br|

@@ -1,5 +1,6 @@
 ﻿Discounts for specific users
-==============================
+============================
+
 A discount can apply to individual users, user groups, or a combination of both. This allows you to offer cheaper prices to specific customers of your online shop. If no users or user groups have been assigned to the discount, it will apply to all customers. However, if users and user groups have been assigned, customers will need to be in at least one of the assigned user groups as well as among the assigned users That is the only way for the discount to apply to them.
 
 The discount is assigned to users.

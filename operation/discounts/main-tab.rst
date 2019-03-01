@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab contains some important settings that can be configured for the discounts. This is where you can create or edit a discount. The assignment to products, categories, users and user groups takes place in the two following tabs.
 
 .. image:: ../../media/screenshots/oxbahi01.png
    :alt: Discounts - Main tab
-   :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 The language selection list at the bottom left of the input area allows you to edit the name of the discount in another language directly. Please note that you can only change the language after the selection list has been saved.
@@ -33,7 +32,6 @@ Enter a range for the total price on which a discount should be granted. If both
 
 .. image:: ../../media/screenshots/oxbahi02.png
    :alt: Discounted product in the shopping cart
-   :class: with-shadow
    :height: 294
    :width: 650
 
@@ -51,8 +49,7 @@ This input field is only displayed if the discount is a free product. Specify th
 
 .. image:: ../../media/screenshots/oxbahi03.png
    :alt: Product with gift in the shopping cart
-   :class: with-shadow
-   :height: 284
+   :height: 350
    :width: 650
 
 :guilabel:`Free Product` - :guilabel:`Multiply` |br|

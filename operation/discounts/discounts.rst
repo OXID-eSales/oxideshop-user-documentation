@@ -7,8 +7,7 @@ Discounts can be defined for a specific time period or even for a specific count
 
 .. image:: ../../media/screenshots/oxbahh01.png
    :alt: Discounts
-   :class: with-shadow
-   :height: 517
+   :height: 535
    :width: 650
 
 Quantity or scale discounts can be implemented with scale prices for the products. This way, the product will be cheaper if the customer buys a certain quantity. See: :doc:`Products - Stock tab <../../setup/products/stock-tab>`
@@ -19,8 +18,7 @@ Naturally, various discounts can be active in OXID eShop so that, under certain 
 
 .. image:: ../../media/screenshots/oxbahh02.png
    :alt: Kite with 2 discounts in the shopping cart
-   :class: with-shadow
-   :height: 317
+   :height: 331
    :width: 650
 
 The \"Discounts\" section tells you how to create discounts and what settings to use to customise and apply them to specific groups of customers. It also shows some typical examples of discounts.

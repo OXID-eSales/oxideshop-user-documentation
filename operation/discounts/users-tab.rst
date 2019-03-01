@@ -1,12 +1,11 @@
 ﻿Users tab
-======================
+=========
 
 Discounts can apply to specific user groups and/or users. Go to the Users tab to configure the necessary settings. Without the assignment of user groups and/or users, the discount will apply to all customers of the online shop.
 
 .. image:: ../../media/screenshots/oxbahk01.png
    :alt: Discounts - Users tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 :guilabel:`Assign User Groups` |br|
