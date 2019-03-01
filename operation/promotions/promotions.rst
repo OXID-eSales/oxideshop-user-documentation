@@ -5,8 +5,7 @@ Apart from discounts, coupons or newsletters, promotions are an important market
 
 .. image:: ../../media/screenshots/oxbagv01.png
    :alt: Promotions
-   :class: with-shadow
-   :height: 529
+   :height: 535
    :width: 650
 
 Promotions can be edited under :menuselection:`Customer Info --> Promotions`. You will see a list of promotions and the respective input area below. Promotions differ by the type: Banner, Action, and Promotion, and you can also upload and link a photo for the banner.

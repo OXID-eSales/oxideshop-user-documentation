@@ -11,7 +11,6 @@ The banner is a large area that stretches horizontally across the start page. It
 
 .. image:: ../../media/screenshots/oxbagw01.png
    :alt: Banner
-   :class: with-shadow
    :height: 208
    :width: 650
 
@@ -23,8 +22,7 @@ Week’s Specials are displayed on the start page below the banner. It present p
 
 .. image:: ../../media/screenshots/oxbagw02.png
    :alt: Week's Special
-   :class: with-shadow
-   :height: 270
+   :height: 275
    :width: 650
 
 From here, the customer can click on the link and the :guilabel:`More information` button to access the details page of an advertised product. The product can also be added directly to the shopping cart by clicking on a different button. Week's Specials can be active always or only for a defined period of time, e.g. specials that change every week.
@@ -33,7 +31,6 @@ Our brands
 ----------
 .. image:: ../../media/screenshots/oxbagw03.png
    :alt: Our brands
-   :class: with-shadow
    :height: 147
    :width: 650
 
@@ -45,8 +42,7 @@ A large part of the start page is taken by products that are presented as new ad
 
 .. image:: ../../media/screenshots/oxbagw04.png
    :alt: Just arrived
-   :class: with-shadow
-   :height: 477
+   :height: 476
    :width: 650
 
 The display of products in the category is determined by a setting in the :guilabel:`Perform.` tab under :menuselection:`Master Settings --> Core Settings`. Use the :guilabel:`List of newest Products (Just arrived!)` to select whether the products are assigned manually during the promotion or whether they are provided by the shop automatically. You can also switch off the promotion here completely so that the shop doesn’t spend any time to process it.
@@ -59,7 +55,6 @@ If customers scroll down the start page, they will see the best-selling products
 
 .. image:: ../../media/screenshots/oxbagw05.png
    :alt: Top seller
-   :class: with-shadow
    :height: 222
    :width: 650
 

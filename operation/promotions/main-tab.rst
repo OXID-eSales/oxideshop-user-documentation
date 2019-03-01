@@ -9,8 +9,7 @@ Action type
 -----------
 .. image:: ../../media/screenshots/oxbagy01.png
    :alt: Promotions - Main tab, Action type
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 :guilabel:`Name` |br|
@@ -32,8 +31,7 @@ Banner type
 -----------
 .. image:: ../../media/screenshots/oxbagy02.png
    :alt: Promotions - Main tab, Banner type
-   :class: with-shadow
-   :height: 341
+   :height: 343
    :width: 650
 
 :guilabel:`Name` |br|
@@ -70,8 +68,7 @@ You can assign a product to the promotion. Clicking on :guilabel:`Assign Product
 
 .. image:: ../../media/screenshots/oxbagy03.png
    :alt: Assign Product
-   :class: with-shadow
-   :height: 340
+   :height: 322
    :width: 400
 
 Click on :guilabel:`Assign Product` to link the banner to the product selected in the list. Click on :guilabel:`Unassign Product` to unlink the banner and the product.
