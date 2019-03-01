@@ -5,8 +5,7 @@ Inheritable elements are assigned to one shop from another shop. The following e
 
 .. image:: ../../../media/screenshots/oxbagp01.png
    :alt: Inheritance settings
-   :class: with-shadow
-   :height: 335
+   :height: 344
    :width: 650
 
 Inheritance settings for a new shop can be changed at any time in the :guilabel:`Mall` tab under :menuselection:`Master Settings --> Core Settings`. If you uncheck the box for any of the inheritance settings, the inheritance will be reversed in real time.

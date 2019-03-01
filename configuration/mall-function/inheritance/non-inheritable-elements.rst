@@ -1,12 +1,11 @@
 ﻿Non-inheritable elements
-=========================
+========================
 
 Non-inheritable elements are part of every subshop, supershop and multishop. They are created for each shop and can be edited and adapted to the respective shop and its requirements. When you create a new shop, its basic settings, languages, promotions and Content Management System (CMS) pages will be copied and provided as templates for the new shop.
 
 .. image:: ../../../media/screenshots/oxbagq01.png
    :alt: Master Settings - Core Settings
-   :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 A new shop can be configured under :menuselection:`Master Settings --> Core Settings`. The settings can be adjusted separately for each shop - from the company information and email addresses to the various system settings, performance specifications and SEO settings. The :guilabel:`License` tab is the only one that contains the Enterprise Edition license key for all shops.

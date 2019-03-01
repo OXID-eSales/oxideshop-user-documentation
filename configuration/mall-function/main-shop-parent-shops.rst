@@ -5,8 +5,7 @@ The shop created during the installation of OXID eShop Enterprise Edition is a s
 
 .. image:: ../../media/screenshots/oxbagm01.png
    :alt: Main shop - Mall tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 Main shop

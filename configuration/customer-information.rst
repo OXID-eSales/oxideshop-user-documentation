@@ -7,7 +7,7 @@ Shop owners should seek support to ensure correct contents of the About Us, Term
 
 Important links for legally compliant online shops
 --------------------------------------------------
-Trusted Shops website with templates for members:: `www.trustedshops.com <http://www.trustedshops.de/>`_ 
+Trusted Shops website with templates for members (in German): `www.trustedshops.de <http://www.trustedshops.de/>`_
 
 Blog on current legal issues (in German): `www.shopbetreiber-blog.de <http://www.shopbetreiber-blog.de/>`_ 
 

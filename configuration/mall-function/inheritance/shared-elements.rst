@@ -1,11 +1,10 @@
 ﻿Shared elements
-=================
+===============
 
 Shared elements are payment methods, countries, users, user groups, and reviews. These are used in all shops and can only be changed by an administrator with the \"Admin\" right. Subshop, supershop or multishop administrators are not authorised to do so.
 
 .. image:: ../../../media/screenshots/oxbagr01.png
    :alt: Countries in the subshop
-   :class: with-shadow
    :height: 335
    :width: 650
 

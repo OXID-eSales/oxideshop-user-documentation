@@ -1,12 +1,11 @@
 ﻿Caching settings
-=====================
+================
 
 All caching settings can be configured in the OXID eShop Admin panel. Go to :menuselection:`Master Settings --> Core Settings --> Caching`. The :guilabel:`Caching` tab is divided into three sections: :guilabel:`Default Cache Backend`, :guilabel:`Reverse Proxy` and :guilabel:`Dynamic Content Caching`. Click each of the headings to view its settings.
 
 .. image:: ../../media/screenshots/oxbacd01.png
    :alt: Caching tab
-   :class: with-shadow
-   :height: 319
+   :height: 343
    :width: 650
 
 Default Cache Backend

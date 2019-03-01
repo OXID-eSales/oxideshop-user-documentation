@@ -9,8 +9,7 @@ During processing, Varnish divides the individual OXID eShop pages into small se
 
 .. image:: ../../media/screenshots/oxbacb01.png
    :alt: Web clients, Varnish and server with OXID eShop
-   :class: with-shadow
-   :height: 204
+   :height: 198
    :width: 650
 
 To use Varnish for caching OXID eShop, you will need to install and configure this reverse proxy on a separate server.

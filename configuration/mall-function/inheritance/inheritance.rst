@@ -5,8 +5,7 @@ Inheritance is an important part of the Mall function. It takes place when you c
 
 .. image:: ../../../media/screenshots/oxbago01.png
    :alt: Create new shop with inheritance
-   :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 Inheritance settings can be changed even after you create a shop. The changes can be made shop-wide in the inheritance settings or refer to individual products, attributes, selection lists, shipping methods, shipping cost rules, manufacturers, distributors, etc. Further information can be found in :doc:`Customisation <customisation>`.

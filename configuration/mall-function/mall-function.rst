@@ -5,8 +5,7 @@ The Mall function is a feature of OXID eShop Enterprise Edition. The multi-clien
 
 .. image:: ../../media/screenshots/oxbaeu01.png
    :alt: Master Settings - Core Settings
-   :class: with-shadow
-   :height: 517
+   :height: 535
    :width: 650
 
 Shops can be edited in the Admin panel. This requires shop-wide administrator rights that users receive by being granted the \"Admin\" right. In contrast, there are also administrators who only have access to a specific shop. The corresponding right can be assigned under :menuselection:`Administer Users --> Users`.

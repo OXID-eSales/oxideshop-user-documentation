@@ -11,8 +11,7 @@ When you create a shop, you will need to define which shop type the new shop is 
 
 .. image:: ../../media/screenshots/oxbagn01.png
    :alt: Create New Shop
-   :class: with-shadow
-   :height: 335
+   :height: 343
    :width: 650
 
 A new shop can be created under :menuselection:`Master Settings --> Core Settings` Use the function at the bottom of the screen.
@@ -38,8 +37,7 @@ Settings for the shop’s Mall function can be configured under :menuselection:`
 
 .. image:: ../../media/screenshots/oxbagn02.png
    :alt: Multishop - Mall tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 :guilabel:`Shop URL` |br|
