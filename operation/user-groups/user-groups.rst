@@ -5,8 +5,7 @@ User groups are used to group users with specific characteristics. Such characte
 
 .. image:: ../../media/screenshots/oxbadz01.png
    :alt: User groups
-   :class: with-shadow
-   :height: 517
+   :height: 535
    :width: 650
 
 User groups can be edited in the Admin panel under :menuselection:`Administer Users --> User Groups`. Here, you will see a list of the user groups and the input area right below it. You can search for the name of the user group by using the available search field. For example, typing \"a\" will display all user groups that have this letter in their name.

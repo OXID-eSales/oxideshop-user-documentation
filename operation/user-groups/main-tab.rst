@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 The :guilabel:`Main` tab can be used to specify or change the name of a user group and to activate or deactivate it. An additional :guilabel:`Copy to` button will be displayed for all newly created user groups after you save them for the first time. Select a language from the drop-down list to copy the user group into this shop’s language and edit it.
 
 .. image:: ../../media/screenshots/oxbaea01.png
    :alt: User groups - Main tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 :guilabel:`Active` |br|
