@@ -1,5 +1,5 @@
 ﻿Users
-========
+=====
 
 Every customer who buys something in the shop for the first time with or without registration will be registered as a user. The shop also creates a new user or updates an existing one when a customer signs up to create a customer account or subscribe to the newsletter.
 
@@ -9,8 +9,7 @@ In Enterprise Edition, there are administrators who can work with all shops and 
 
 .. image:: ../../media/screenshots/oxbadq01.png
    :alt: Users
-   :class: with-shadow
-   :height: 517
+   :height: 534
    :width: 650
 
 Users can be edited in the Admin panel under :menuselection:`Administer Users --> Users`. Here, you will see the list of the users and the input area right below it. The user list displays the name of the user, the email address, the address, the telephone number and the customer number. You can search for users by using the available search fields.
@@ -20,9 +19,8 @@ Users can be permanently removed from the database by clicking on the trash icon
 When you select a user from the list, his/her information will be displayed in the input area. To create a new user, click on :guilabel:`Create new User` at the bottom of the screen. Other functions allow you to create a note for the user, enter another shipping address or start context-sensitive help.
 
 .. image:: ../../media/screenshots/oxbadq02.png
-   :alt: 
-   :class: with-shadow
-   :height: 65
+   :alt: Users - Overview
+   :height: 66
    :width: 650
 
 An overview of all users can also be found under :menuselection:`Administer Users --> List All Users`. You can use the drop-down list to select whether you want to display 50, 100 or 200 users in the user list. Users can be searched by first name, last name, email address and date of registration. The search will narrow down the users displayed in the list. Click on any field of the user in the list to edit him/her.
@@ -30,32 +28,32 @@ An overview of all users can also be found under :menuselection:`Administer User
 -----------------------------------------------------------------------------------------
 
 Main tab
--------------------
+--------
 **Contents**: active user, user rights, customer, admin, administrator, user data, name, address, billing address, email, phone, customer number, password, assigning user groups |br|
 :doc:`Read article <main-tab>` |link|
 
 Extended tab
------------------------
+------------
 **Contents**: additional user information, phone number, cell phone number, mobile phone number, newsletter, double opt-in, invalid email address, credit rating, creditworthiness, approved payment methods, URL, bonus points, inviting friends, referring customers, assignment to user groups, no automatic assignment |br|
 :doc:`Read article <extended-tab>` |link|
 
 Products tab
----------------------
+------------
 **Contents**: products purchased by the user, overview, quantity, product number, title, type, variant selection, brief description |br|
 :doc:`Read article <products-tab>` |link|
 
 History tab
-----------------------
+-----------
 **Contents**: note, log, customer actions, customer information |br|
 :doc:`Read article <history-tab>` |link|
 
 Addresses tab
-----------------------
+-------------
 **Contents**: new address, shipping address, billing address, order, account, billing and shipping settings |br|
 :doc:`Read article <addresses-tab>` |link|
 
 Payment tab
----------------------
+-----------
 **Contents**: previously used payment methods, cash on delivery, credit card, direct debit, cash in advance, invoice, empty, stored bank details |br|
 :doc:`Read article <payment-tab>` |link|
 

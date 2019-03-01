@@ -1,13 +1,13 @@
 ﻿Main tab
-===================
+========
+
 The :guilabel:`Main` tab contains important information about the user. This information is saved as soon as the user buys something in the shop for the first time, registers in the shop or subscribes to the newsletter. You don’t have to fill out all fields as only the email address, the first and last name, the address and the country are required by default when registering in the shop. When subscribing to the newsletter, only the email address is mandatory.
 
 Users can also be created by clicking on :guilabel:`Create new User`. All relevant user data will need to be entered in the :guilabel:`Main` tab. You won’t be able to save the user data without entering an email address.
 
 .. image:: ../../media/screenshots/oxbadr01.png
-   :alt: 
-   :class: with-shadow
-   :height: 335
+   :alt: Users - Main tab
+   :height: 343
    :width: 650
 
 :guilabel:`Active` |br|

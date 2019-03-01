@@ -1,11 +1,11 @@
 ﻿Extended tab
-=======================
+============
+
 The :guilabel:`Extended` tab allows you to store additional information about the user. In addition, the user’s billing address is displayed. The billing address can only be changed in the Main tab.
 
 .. image:: ../../media/screenshots/oxbads01.png
-   :alt: 
-   :class: with-shadow
-   :height: 334
+   :alt: Users - Extended tab
+   :height: 343
    :width: 650
 
 :guilabel:`Evening Phone` |br|
@@ -28,12 +28,5 @@ This field can be used to store a web address, such as a business customer's web
 
 :guilabel:`Credit points` |br|
 Users can earn bonus points for bringing customers to the shop. Newly recruited customers can also receive bonus points when they register in the shop. You will need to first activate this function in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Invitations`. This is where you can also specify the number of bonus points for inviting new customers and for registering in the shop. The shop owner determines how to use the users’ bonus points in the context of his/her business model.
-
-:guilabel:`No automatic assignment of user groups` |br|
-Users are automatically assigned to specific user groups based on certain conditions. For example, if a user subscribes to the newsletter, he/she will be added to the \"Newsletter Recipients\" user group. When the user buys a product, the order volume will determine whether he/she will belong to the \"Less Turnover\", \"Medium Turnover\" or \"Huge Turnover\" user group in the future. More information can be found in the User Groups section.
-
-Deactivate this function if you don’t want to assign the user to user groups automatically.
-
-.. seealso:: :doc:`User groups <../user-groups/user-groups>`
 
 .. Intern: oxbads, Status:, F1: user_extend.html
