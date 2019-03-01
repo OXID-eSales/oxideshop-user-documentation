@@ -43,7 +43,48 @@ code, .rst-content code{
     border: 0px;
     font-size: 90%;
 }
-
+/* Screenshots mit Schatten */
 .with-shadow {
     box-shadow: 0 4px 10px #bababa;
+}
+
+/* Tabellen mit viel Text ohne horizontale Scrollbars  */
+.wy-table-responsive table td {
+    white-space: normal;
+}
+
+/* Keine vertikalen, schwarzen und fetten Linien in Tabellenüberschrift */
+.wy-table thead th, .rst-content table.docutils thead th, .rst-content table.field-list thead th {
+    border-right: solid 2px #e1e4e5;
+    background-color: #bfbfbf;
+    padding: 5px;
+/*  background-color: #c6d9ec;
+    color: #00008B; */
+}
+
+/* Kompaktere Tabellen, horizontale und vertikale Ausrichtung in der Tabelle */
+.wy-table td, .rst-content table.docutils td, .rst-content table.field-list td {
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Formatierung von Datenbanken, Datenbanktabellen und -feldern */
+/* Muss in der conf.py als .. role:: db definiert sein */
+.db {
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
+/* neue Formatierung der Beschreibung von Steuerelementen (dafür wird Definition list verwendet) */
+dl.docutils dd {
+    margin-left: unset;
+    margin-bottom: 24px;
+}
+
+/* Screenshots standardmäßig mit Schatten */
+div.section > img {
+    box-shadow: 0 4px 10px #bababa;
+}
+.no-shadow {
+    box-shadow: initial !important;
 }
