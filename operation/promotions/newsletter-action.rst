@@ -10,6 +10,6 @@ The \"Newsletter\" action is important for sending newsletters. This action can 
 
 The above screenshot shows the preview of a newsletter introducing a kite and two lines from the product catalogue. Both products have been previously assigned to the "Newsletter” action.
 
-.. seealso:: :doc:`Promotions <promotions>` | :doc:`Newsletter <../newsletter/newsletters>`
+.. seealso:: :doc:`Promotions <promotions>` | :doc:`Newsletter <../newsletters/newsletters>`
 
 .. Intern: oxbagx, Status:
