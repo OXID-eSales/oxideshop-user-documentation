@@ -43,11 +43,6 @@ code, .rst-content code{
     border: 0px;
     font-size: 90%;
 }
-/* Screenshots mit Schatten */
-.with-shadow {
-    box-shadow: 0 4px 10px #bababa;
-}
-
 /* Tabellen mit viel Text ohne horizontale Scrollbars  */
 .wy-table-responsive table td {
     white-space: normal;
@@ -82,9 +77,15 @@ dl.docutils dd {
 }
 
 /* Screenshots standardmäßig mit Schatten */
-div.section > img {
+div.section img {
     box-shadow: 0 4px 10px #bababa;
+    margin-top: -3px;
 }
 .no-shadow {
     box-shadow: initial !important;
+}
+
+/ vertikale Zentrierung der Texte next/prev in den Buttons der Fußzeile /
+a.btn.btn-neutral {
+    padding-bottom: 4px;
 }
