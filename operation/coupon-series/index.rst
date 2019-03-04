@@ -1,5 +1,5 @@
 ﻿Coupon series
-===============
+=============
 
 .. toctree::
    :maxdepth: 1

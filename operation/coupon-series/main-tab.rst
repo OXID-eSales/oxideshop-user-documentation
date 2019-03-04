@@ -1,12 +1,11 @@
 ﻿Main tab
-===================
+========
 
 Coupon series combine a number of coupons. They can be created and edited in the :guilabel:`Main` tab. You can define the validity of a coupon series which also determines the validity of the coupons belonging to the series. An absolute or relative discount represents the actual value of a coupon, which will be applied in the shopping cart. The coupons of a series can be generated with a fixed or a random coupon code and exported as a file in CSV format. A small overview shows the number of all generated, redeemed and unused coupons.
 
 .. image:: ../../media/screenshots/oxbahs01.png
    :alt: Coupon series - Main tab
-   :class: with-shadow
-   :height: 334
+   :height: 343
    :width: 650
 
 The assignment of user groups, categories and/or products takes place in the next tab.

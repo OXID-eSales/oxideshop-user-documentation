@@ -1,5 +1,5 @@
 ﻿Mall tab
-==================
+========
 
 The :guilabel:`Mall` tab is only available for coupon series in Enterprise Edition.
 
@@ -9,7 +9,6 @@ The :guilabel:`Mall` tab can be used to manage assignments of a coupon series to
 
 .. image:: ../../media/screenshots/oxbahu01.png
    :alt: Coupon series - Mall tab
-   :class: with-shadow
    :height: 334
    :width: 650
 

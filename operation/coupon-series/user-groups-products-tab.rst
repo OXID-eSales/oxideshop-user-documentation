@@ -1,11 +1,10 @@
 ﻿User Groups & Products tab
-========================================
+==========================
 
 Coupon series can apply to user groups, categories or individual products, or any combination thereof. The :guilabel:`User Groups & Products` tab allows you to assign user groups, categories and/or products to the coupon series. Without such an assignment, the coupons in a series will apply to all users and the complete product catalogue.
 
 .. image:: ../../media/screenshots/oxbaht01.png
    :alt: Coupon series - User Groups & Products tab
-   :class: with-shadow
    :height: 334
    :width: 650
 
