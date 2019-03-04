@@ -1,5 +1,5 @@
 ﻿Selection tab
-=======================
+=============
 
 The :guilabel:`Selection` tab allows you to send newsletters to subscribers.
 
@@ -7,11 +7,10 @@ First of all, you will need to assign the user groups. For example, the newslett
 
 .. image:: ../../media/screenshots/oxbaii01.png
    :alt: Newsletters - Selection tab
-   :class: with-shadow
-   :height: 346
+   :height: 343
    :width: 650
 
-The newsletter will not be sent to all recipients at once. A defined number of emails is sent in so-called ticks. The default setting is twenty emails per tick. This can be changed in the Admin panel under :menuselection:`Master Settings --> Core Settings` --> :menuselection:`Other settings`. The number of emails that can be sent without any issues also depends on the hosting provider.
+The newsletter will not be sent to all recipients at once. A defined number of emails is sent in so-called ticks. The default setting is twenty emails per tick. This can be changed in the Admin panel under :menuselection:`Master Settings --> Core Settings -->` :menuselection:`Other settings`. The number of emails that can be sent without any issues also depends on the hosting provider.
 
 Before sending the final newsletter, you should test how it displays in popular mail programs and browsers. It is important to remember about special features. Users often block the display of images or view the newsletter only in a preview. Smartphones that allow quickly viewing emails have also gained even more importance.
 

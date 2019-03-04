@@ -7,8 +7,7 @@ Users who have subscribed to the newsletter will automatically be assigned to th
 
 .. image:: ../../media/screenshots/oxbaie01.png
    :alt: Newsletters
-   :class: with-shadow
-   :height: 536
+   :height: 535
    :width: 650
 
 The “Newsletters" section tells you how to create and manage newsletters. Go to :menuselection:`Customer Info --> Newsletter` in the Admin panel to edit the newsletters. Here, you will see the list of the newsletters and the input area right below it. When you select a newsletter from the list, its information will be displayed in the input area. To create a new newsletter, click on :guilabel:`New Newsletter Sample` at the bottom of the screen.

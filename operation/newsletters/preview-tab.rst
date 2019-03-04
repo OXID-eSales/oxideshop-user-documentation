@@ -1,12 +1,11 @@
 ﻿Preview tab
-======================
+===========
 
 The :guilabel:`Preview` tab displays the newsletter in both text and HTML formats.
 
 .. image:: ../../media/screenshots/oxbaih01.png
    :alt: Newsletters - Preview tab
-   :class: with-shadow
-   :height: 346
+   :height: 343
    :width: 650
 
 You will see a request to provide full provider identification at the end of the HTML e-mail in the sample newsletter. The reason for this is a Smarty prompt that calls the CMS page with the "oxemailfooter" ident.

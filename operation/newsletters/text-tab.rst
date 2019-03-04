@@ -1,12 +1,11 @@
 ﻿Text tab
-==================
+========
 
 OXID eShop always sends newsletters in two formats: as a plain text email and as an HTML email. This ensures that the newsletter is displayed correctly by all mail programs and webmails. The :guilabel:`Text` tab allows you to create the newsletter in plain text format.
 
 .. image:: ../../media/screenshots/oxbaig01.png
    :alt: Newsletters - Text tab
-   :class: with-shadow
-   :height: 346
+   :height: 343
    :width: 650
 
 The text of the newsletter is entered in the large input field of this tab. As in HTML email, the text can contain dynamic content placeholders. Text passages provided for this purpose can display content from the online shop, such as the salutation, the first and last name of a user, the address of the shop or information about certain products.

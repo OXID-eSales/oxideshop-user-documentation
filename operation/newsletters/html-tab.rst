@@ -1,12 +1,11 @@
 ﻿HTML tab
-==================
+========
 
 OXID eShop always sends newsletters in two formats: as an HTML email and as a plain text email. This ensures that the newsletter is displayed correctly by all mail programs and webmails. The :guilabel:`HTML` tab allows you to create the newsletter in HTML format. Unlike plain text, the content here can be emphasised by heading hierarchies, different font colours and sizes, and other formatting options. You can also integrate the company logo, graphics, links and product photos.
 
 .. image:: ../../media/screenshots/oxbaif01.png
    :alt: Newsletters - HTML tab
-   :class: with-shadow
-   :height: 346
+   :height: 343
    :width: 650
 
 :guilabel:`Title` |br|
