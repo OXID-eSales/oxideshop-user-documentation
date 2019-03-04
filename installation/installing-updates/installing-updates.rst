@@ -6,6 +6,7 @@ This document describes patches and minor updates starting with version 6.0.0 of
 Updates should always be installed in a test environment, a copy of your current shop. Backup the shop files and the database before updating. Disable all modules and check whether the shop works in general. After updating, test the shop again by paying special attention to the ordering process as well as payment and shipping methods.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
+               :class: no-shadow
 
 |schritt| Specifying the version to be updated
 ----------------------------------------------

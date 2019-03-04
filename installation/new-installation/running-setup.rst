@@ -8,6 +8,7 @@ The setup will start. It consists of 6 or 7 steps. An additional step is require
 Certain values are written into :file:`.htaccess` and :file:`config.inc.php` during installation. Both files are located in the main shop directory and shouldn’t be read-only for the duration of the setup.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
+               :class: no-shadow
 
 |schritt| Requirements
 ----------------------
@@ -16,9 +17,13 @@ System requirements are checked in the first step of the setup process. Select t
 The following icons indicate whether the system requirements have been met:
 
 .. |install-pass| image:: ../../media/icons/install-pass.png
+               :class: no-shadow
 .. |install-pmin| image:: ../../media/icons/install-pmin.png
+               :class: no-shadow
 .. |install-fail| image:: ../../media/icons/install-fail.png
+               :class: no-shadow
 .. |install-null| image:: ../../media/icons/install-null.png
+               :class: no-shadow
 
 * |install-pass| The requirement has been met.
 * |install-pmin| The requirement hasn’t been met or has been met only partially. OXID eShop still works and can be installed.

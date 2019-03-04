@@ -4,6 +4,7 @@
 Some preparations are necessary for the reinstallation of OXID eShop 6.1.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
+               :class: no-shadow
 
 |schritt| Installing Composer
 -----------------------------
