@@ -56,7 +56,7 @@ Aktualisierte Komponenten der OXID eShop Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
-* OXID eShop (Update von 6.2.0 auf 6.2.1), `Changelog 6.2.1 <https://github.com/OXID-eSales/oxideshop_ce_private/blob/b-6.0.x/CHANGELOG.md>`_
+* OXID eShop (Update von 6.2.0 auf 6.2.1), `Changelog 6.2.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.2.1/CHANGELOG.md>`_
 * AmazonPay (Update von 3.0.2 auf 3.1.4)
 * Paymorrow (Update von 2.0.0 auf 2.0.1), `Changelog 2.0.1 <https://github.com/OXID-eSales/paymorrow-module/blob/v2.0.1/CHANGELOG.md>`_
 * PAYONE (Update von 1.0.5 auf 1.0.8), `Changelog 1.0.8 <https://github.com/PAYONE-GmbH/oxid-6/blob/1.0.8/Changelog.txt>`_
