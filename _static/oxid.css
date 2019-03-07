@@ -85,7 +85,7 @@ div.section img {
     box-shadow: initial !important;
 }
 
-/ vertikale Zentrierung der Texte next/prev in den Buttons der Fußzeile /
+/* vertikale Zentrierung der Texte next/prev in den Buttons der Fußzeile */
 a.btn.btn-neutral {
     padding-bottom: 4px;
 }
