@@ -59,7 +59,7 @@ Variants tab
 Picture tab
 -----------
 **Contents**: product images, thumbnail, icon, zoom image, upload, upload to web server, automatically generated |br|
-:doc:`Read article <picture-tab>` |link|
+:doc:`Read article <pictures-tab>` |link|
 
 Downloads tab
 -------------
