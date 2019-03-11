@@ -35,6 +35,6 @@ SEO tab
 **Contents**: search engine optimisation, SEO, SEO URL, title suffix, fixing URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\" |br|
 :doc:`Read article <seo-tab>` |link|
 
-.. seealso:: :doc:`Products <../products/products>` | :doc:`Manufacturers <../manufacturer/manufacturers>`
+.. seealso:: :doc:`Products <../products/products>` | :doc:`Manufacturers <../manufacturers/manufacturers>`
 
 .. Intern: oxbage, Status:

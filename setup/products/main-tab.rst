@@ -66,6 +66,6 @@ Product’s long description
 -----------------------------
 Product’s long description can be entered in an editor on the right side of the :guilabel:`Main` tab. This works based on the WYSIWYG (What You See Is What You Get) principle, which means that the text is displayed the way it will be visible later as the description in the product’s detailed view. The editor lets you use different text formatting options and insert links, pictures and videos. It also allows you to display and edit the HTML code to meet any special or additional requirements.
 
-.. seealso:: :doc:`Alternative prices for user groups <../products-and-categories/alternative-prices-for-user-groups>` | :doc:`Manufacturers <../manufacturer/manufacturers>` | :doc:`Distributors <../distributors/distributors>`
+.. seealso:: :doc:`Alternative prices for user groups <../products-and-categories/alternative-prices-for-user-groups>` | :doc:`Manufacturers <../manufacturers/manufacturers>` | :doc:`Distributors <../distributors/distributors>`
 
 .. Intern: oxbaci, Status:, F1: article_main.html

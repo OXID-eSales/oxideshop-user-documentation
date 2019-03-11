@@ -14,6 +14,6 @@ In the parent shop, the assignment created by inheritance can also be undone at 
 
 In the subshop, an assignment can only be removed by deleting the product, the shipping costs or a shipping cost rule, for example. You won’t be able to create a new assignment to individual products and settings of the parent shop.
 
-.. seealso:: :doc:`Products <../../../setup/products/products>` | :doc:`Attributes <../../../setup/attributes/attributes>` | :doc:`Selection lists <../../../setup/selection-lists/selection-lists>` | :doc:`Shipping methods <../../../setup/shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../../../setup/shipping-cost-rules/shipping-cost-rules>` | :doc:`Manufacturers <../../../setup/manufacturer/manufacturers>` | :doc:`Distributors <../../../setup/distributors/distributors>` | :doc:`Categories <../../../setup/categories/categories>`
+.. seealso:: :doc:`Products <../../../setup/products/products>` | :doc:`Attributes <../../../setup/attributes/attributes>` | :doc:`Selection lists <../../../setup/selection-lists/selection-lists>` | :doc:`Shipping methods <../../../setup/shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../../../setup/shipping-cost-rules/shipping-cost-rules>` | :doc:`Manufacturers <../../../setup/manufacturers/manufacturers>` | :doc:`Distributors <../../../setup/distributors/distributors>` | :doc:`Categories <../../../setup/categories/categories>`
 
 .. Intern: oxbagp, Status:

@@ -13,5 +13,5 @@
    Shipping methods <shipping-methods/index>
    Shipping cost rules <shipping-cost-rules/index>
    Payment and shipping <payment-and-shipping/index>
-   Manufacturer <manufacturer/index>
+   Manufacturers <manufacturers/index>
    Distributors <distributors/index>
