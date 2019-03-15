@@ -9,7 +9,6 @@ Typ Aktion
 ----------
 .. image:: ../../media/screenshots/oxbagy01.png
    :alt: Aktionen - Registerkarte Stamm, Typ Aktion
-   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -32,7 +31,6 @@ Typ Banner
 ----------
 .. image:: ../../media/screenshots/oxbagy02.png
    :alt: Aktionen - Registerkarte Stamm, Typ Banner
-   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -70,7 +68,6 @@ Der Aktion kann ein Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Prod
 
 .. image:: ../../media/screenshots/oxbagy03.png
    :alt: Produkt zuordnen
-   :class: with-shadow
    :height: 340
    :width: 400
 

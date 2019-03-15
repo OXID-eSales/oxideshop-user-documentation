@@ -5,7 +5,6 @@ Im OXID eShop lassen sich Hersteller verwalten, denen Artikel zugeordnet werden 
 
 .. image:: ../../media/screenshots/oxbagb01.png
    :alt: Nach Hersteller | Alle Marken
-   :class: with-shadow
    :height: 649
    :width: 650
 
@@ -15,7 +14,6 @@ Um Hersteller zu erstellen oder zu bearbeiten, gehen Sie im Administrationsberei
 
 .. image:: ../../media/screenshots/oxbagb02.png
    :alt: Hersteller
-   :class: with-shadow
    :height: 528
    :width: 650
 

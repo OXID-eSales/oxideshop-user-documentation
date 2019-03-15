@@ -9,7 +9,6 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen einer Gutschein
 
 .. image:: ../../media/screenshots/oxbahu01.png
    :alt: Gutscheinserien - Registerkarte Mall
-   :class: with-shadow
    :height: 334
    :width: 650
 

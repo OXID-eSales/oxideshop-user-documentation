@@ -5,6 +5,7 @@ In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 6.1 neu installieren. E
 
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Schritt 1
+    :class: no-shadow
     :height: 455
     :width: 650
 

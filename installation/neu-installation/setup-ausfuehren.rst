@@ -8,6 +8,7 @@ Das Setup startet. Es besteht aus 6 bzw. 7 Schritten. Für die Enterprise und di
 Während der Installation werden bestimmte Werte in die :file:`.htaccess` und die :file:`config.inc.php` geschrieben. Beide Dateien befinden sich im Hauptverzeichnis des Shops und sollten für die Dauer des Setups nicht schreibgeschützt sein.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
+              :class: no-shadow
 
 |schritt| Voraussetzungen
 -------------------------

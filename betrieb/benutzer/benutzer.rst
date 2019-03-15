@@ -9,7 +9,6 @@ In der Enterprise Edition gibt es Administratoren, die mit allen Shops arbeiten 
 
 .. image:: ../../media/screenshots/oxbadq01.png
    :alt: Benutzer
-   :class: with-shadow
    :height: 517
    :width: 650
 
@@ -21,7 +20,6 @@ Wird ein Benutzer aus der Benutzerliste gewählt, werden dessen Informationen in
 
 .. image:: ../../media/screenshots/oxbadq02.png
    :alt: 
-   :class: with-shadow
    :height: 65
    :width: 650
 

@@ -8,7 +8,6 @@ Auswahllisten sind nur auf der Detailseite von Artikeln sichtbar, wenn das Kontr
 
 .. image:: ../../media/screenshots/oxbafi01.png
    :alt: Auswahllisten
-   :class: with-shadow
    :height: 529
    :width: 650
 

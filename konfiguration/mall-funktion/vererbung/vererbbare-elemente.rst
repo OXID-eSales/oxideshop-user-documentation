@@ -5,7 +5,6 @@ Vererbbare Elemente werden einem Shop von einem anderen Shop zugewiesen. Beim Er
 
 .. image:: ../../../media/screenshots/oxbagp01.png
    :alt: Vererbungseinstellungen
-   :class: with-shadow
    :height: 335
    :width: 650
 

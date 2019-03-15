@@ -5,7 +5,6 @@ Die Mall-Funktion ist ein Feature der Enterprise Edition des OXID eShop. Die Man
 
 .. image:: ../../media/screenshots/oxbaeu01.png
    :alt: Stammdaten - Grundeinstellungen
-   :class: with-shadow
    :height: 517
    :width: 650
 

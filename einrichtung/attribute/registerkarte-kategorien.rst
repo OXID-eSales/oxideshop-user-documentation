@@ -6,7 +6,6 @@ Durch die Zuordnung können Kategorien nach Attributen gefiltert werden. In der 
 
 .. image:: ../../media/screenshots/oxbafh01.png
    :alt: Attribute - Registerkarte Kategorien
-   :class: with-shadow
    :height: 342
    :width: 650
 

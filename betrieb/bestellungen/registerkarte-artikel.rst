@@ -11,7 +11,6 @@ Eine Funktion erlaubt Ihnen allerdings auch, neue Artikel in die Bestellung aufz
 
 .. image:: ../../media/screenshots/oxbaef01.png
    :alt: Bestellungen - Registerkarte Artikel
-   :class: with-shadow
    :height: 335
    :width: 650
 

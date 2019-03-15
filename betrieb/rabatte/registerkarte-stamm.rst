@@ -5,7 +5,6 @@ Auf der Registerkarte :guilabel:`Stamm` werden die wichtigen Einstellungen für 
 
 .. image:: ../../media/screenshots/oxbahi01.png
    :alt: Rabatte - Registerkarte Stamm
-   :class: with-shadow
    :height: 335
    :width: 650
 
@@ -33,7 +32,6 @@ Geben Sie hier eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt
 
 .. image:: ../../media/screenshots/oxbahi02.png
    :alt: Rabattierter Artikel im Warenkorb
-   :class: with-shadow
    :height: 294
    :width: 650
 
@@ -51,7 +49,6 @@ Das Eingabefeld wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist.
 
 .. image:: ../../media/screenshots/oxbahi03.png
    :alt: Artikel mit Dreingabe im Warenkorb
-   :class: with-shadow
    :height: 284
    :width: 650
 

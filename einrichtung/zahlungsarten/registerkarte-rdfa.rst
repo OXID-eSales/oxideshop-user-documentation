@@ -7,7 +7,6 @@ Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlu
 
 .. image:: ../../media/screenshots/oxbadc01.png
    :alt: Zahlungsarten - Registerkarte RDFa
-   :class: with-shadow
    :height: 342
    :width: 650
 

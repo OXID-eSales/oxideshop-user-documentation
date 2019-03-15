@@ -5,7 +5,6 @@ Gutscheinserien können für Benutzergruppen, Kategorien oder einzelne Artikel g
 
 .. image:: ../../media/screenshots/oxbaht01.png
    :alt: Gutscheinserien - Registerkarte Benutzergruppen &amp; Artikel
-   :class: with-shadow
    :height: 334
    :width: 650
 

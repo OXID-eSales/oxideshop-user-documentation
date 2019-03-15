@@ -5,7 +5,6 @@ Rabatte können für bestimmte Benutzergruppen und/oder Benutzer gelten. Diese F
 
 .. image:: ../../media/screenshots/oxbahk01.png
    :alt: Rabatte - Registerkarte Benutzer
-   :class: with-shadow
    :height: 334
    :width: 650
 

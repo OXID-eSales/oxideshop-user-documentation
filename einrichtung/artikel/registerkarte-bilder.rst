@@ -4,7 +4,6 @@ Artikel können bis zu zwölf Artikelbilder haben, die sehr wichtig für die opt
 
 .. image:: ../../media/screenshots/oxbacp01.png
    :alt: Artikel - Registerkarte Bilder
-   :class: with-shadow
    :height: 342
    :width: 650
 

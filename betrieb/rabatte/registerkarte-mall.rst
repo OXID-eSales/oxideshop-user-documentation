@@ -9,7 +9,6 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Rabattes 
 
 .. image:: ../../media/screenshots/oxbahl01.png
    :alt: Rabatte - Registerkarte Mall
-   :class: with-shadow
    :height: 334
    :width: 650
 

@@ -6,7 +6,6 @@ Im OXID eShop werden die Staffelpreise auf der Detailseite des Artikels angezeig
 
 .. image:: ../../media/screenshots/oxbafm01.png
    :alt: Staffelpreise, Detailseite des Artikels
-   :class: with-shadow
    :height: 318
    :width: 500
 

@@ -5,7 +5,6 @@ Die beim Anlegen eines neuen Shops erfolgte Vererbung kann zu einem späteren Ze
 
 .. image:: ../../../media/screenshots/oxbags01.png
    :alt: Vererbter Artikel
-   :class: with-shadow
    :height: 335
    :width: 650
 

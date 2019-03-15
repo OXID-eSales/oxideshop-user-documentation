@@ -5,7 +5,6 @@ Auf der Registerkarte :guilabel:`Vorschau` wird der Newsletter in den beiden For
 
 .. image:: ../../media/screenshots/oxbaih01.png
    :alt: Newsletter - Registerkarte Vorschau
-   :class: with-shadow
    :height: 346
    :width: 650
 

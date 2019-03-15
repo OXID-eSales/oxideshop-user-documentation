@@ -5,7 +5,6 @@ Die Vererbung ist ein wichtiger Bestandteil der Mall-Funktion. Sie erfolgt beim 
 
 .. image:: ../../../media/screenshots/oxbago01.png
    :alt: Neuen Shop anlegen mit Vererbung
-   :class: with-shadow
    :height: 335
    :width: 650
 

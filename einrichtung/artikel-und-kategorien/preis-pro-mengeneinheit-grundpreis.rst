@@ -4,7 +4,6 @@ Für Artikel, die nach Gewicht, Volumen, Länge oder Fläche angeboten werden, b
 
 .. image:: ../../media/screenshots/oxbafl01.png
    :alt: Grundpreis, Detailseite des Artikels
-   :class: with-shadow
    :height: 260
    :width: 500
 

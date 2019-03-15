@@ -5,7 +5,6 @@ Die Registerkarte :guilabel:`Stamm` stellt verschiedene Einstellungen zur Verfü
 
 .. image:: ../../media/screenshots/oxbada01.png
    :alt: Zahlungsarten - Registerkarte Stamm
-   :class: with-shadow
    :height: 346
    :width: 650
 

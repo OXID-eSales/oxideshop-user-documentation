@@ -4,7 +4,6 @@ Die Registerkarte :guilabel:`SEO` des Artikels beinhaltet Informationen und\Eins
 
 .. image:: ../../media/screenshots/oxbacu01.png
    :alt: Artikel - Registerkarte SEO
-   :class: with-shadow
    :height: 342
    :width: 650
 

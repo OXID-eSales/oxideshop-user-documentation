@@ -24,7 +24,6 @@ In der linken Liste wird die nun aktuelle Sortierung angezeigt. Die Artikel habe
 
 .. image:: ../../media/screenshots/oxbafq01.png
    :alt: Artikel sortieren
-   :class: with-shadow
    :height: 313
    :width: 400
 
@@ -40,7 +39,6 @@ Die Felder, nach denen Artikel sortiert werden können, entsprechen den Datenban
 
 .. image:: ../../media/screenshots/oxbafq02.png
    :alt: Sortierungsmöglichkeiten
-   :class: with-shadow
    :height: 269
    :width: 650
 

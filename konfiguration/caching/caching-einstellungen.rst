@@ -5,7 +5,6 @@ Im Administrationsbereich des OXID eShop lassen sich alle Einstellungen für das
 
 .. image:: ../../media/screenshots/oxbacd01.png
    :alt: Registerkarte Caching
-   :class: with-shadow
    :height: 319
    :width: 650
 

@@ -4,7 +4,6 @@ Alle Artikel, die vom Benutzer gekauft wurden, werden auf der Registerkarte :gui
 
 .. image:: ../../media/screenshots/oxbadt01.png
    :alt:
-   :class: with-shadow
    :height: 334
    :width: 650
 

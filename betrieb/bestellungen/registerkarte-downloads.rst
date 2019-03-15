@@ -5,7 +5,6 @@ Alle zu einer Bestellung gehörenden Downloads werden auf der gleichnamigen Regi
 
 .. image:: ../../media/screenshots/oxbaeh01.png
    :alt: Bestellungen - Registerkarte Downloads
-   :class: with-shadow
    :height: 334
    :width: 650
 

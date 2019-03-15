@@ -5,7 +5,6 @@ Kategorien dienen dazu, Kunden des Onlineshops intuitiv zum gewünschten Artikel
 
 .. image:: ../../media/screenshots/oxbabj01.png
    :alt: Kategorien
-   :class: with-shadow
    :height: 529
    :width: 650
 

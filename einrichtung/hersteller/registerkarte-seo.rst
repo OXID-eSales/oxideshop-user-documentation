@@ -5,7 +5,6 @@ Die Registerkarte :guilabel:`SEO` des Herstellers beinhaltet Informationen und E
 
 .. image:: ../../media/screenshots/oxbagd01.png
    :alt: Hersteller - Registerkarte SEO
-   :class: with-shadow
    :height: 342
    :width: 650
 

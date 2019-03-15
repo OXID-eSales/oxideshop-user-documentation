@@ -14,7 +14,6 @@ Ein bestehendes Attribut wird einer Kategorie zugeordnet.
 
 .. image:: ../../media/screenshots/oxbafr01.png
    :alt: Attributfilter in der Kategorieansicht
-   :class: with-shadow
    :height: 330
    :width: 400
 
@@ -35,7 +34,6 @@ Die einzelnen Werte, die bei den Artikeln für dieses Attribut vergeben werden, 
 
 .. image:: ../../media/screenshots/oxbafr02.png
    :alt: Attributfilter in der Kategorieansicht
-   :class: with-shadow
    :height: 121
    :width: 650
 

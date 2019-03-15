@@ -5,7 +5,6 @@ Schließt der Kunde seinen Einkauf im Online-Shop ab, indem er zahlungspflichtig
 
 .. image:: ../../media/screenshots/oxbaeb01.png
    :alt: Bestellungen
-   :class: with-shadow
    :height: 517
    :width: 650
 

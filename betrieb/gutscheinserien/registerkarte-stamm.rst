@@ -5,7 +5,6 @@ Gutscheinserien fassen eine Anzahl von Gutscheinen zusammen und werden auf der R
 
 .. image:: ../../media/screenshots/oxbahs01.png
    :alt: Gutscheinserien - Registerkarte Stamm
-   :class: with-shadow
    :height: 334
    :width: 650
 

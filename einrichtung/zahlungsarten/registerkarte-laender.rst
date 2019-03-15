@@ -5,7 +5,6 @@ Zahlungsarten gelten für Länder. Ordnen Sie auf der Registerkarte :guilabel:`L
 
 .. image:: ../../media/screenshots/oxbadb01.png
    :alt: Zahlungsarten - Registerkarte Länder
-   :class: with-shadow
    :height: 342
    :width: 650
 

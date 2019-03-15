@@ -5,7 +5,6 @@ Die Registerkarte :guilabel:`SEO` der Kategorie beinhaltet Informationen und\Ein
 
 .. image:: ../../media/screenshots/oxbabo01.png
    :alt: Kategorien - Registerkarte SEO
-   :class: with-shadow
    :height: 341
    :width: 650
 

@@ -7,7 +7,6 @@ Darüber hinaus wird eine kurze Zusammenfassung der Bestellungen des Tages und a
 
 .. image:: ../../media/screenshots/oxbaec01.png
    :alt: Bestellungen - Registerkarte Übersicht
-   :class: with-shadow
    :height: 335
    :width: 650
 

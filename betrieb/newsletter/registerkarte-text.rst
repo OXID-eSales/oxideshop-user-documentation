@@ -5,7 +5,6 @@ Der OXID eShop verschickt Newsletter immer in zwei Formaten: als Nur-Text-Mail u
 
 .. image:: ../../media/screenshots/oxbaig01.png
    :alt: Newsletter - Registerkarte Text
-   :class: with-shadow
    :height: 346
    :width: 650
 

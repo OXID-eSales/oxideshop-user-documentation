@@ -5,7 +5,6 @@ Die Registerkarte :guilabel:`SEO` des Lieferanten beinhaltet Informationen und E
 
 .. image:: ../../media/screenshots/oxbagg01.png
    :alt: Lieferanten - Registerkarte SEO
-   :class: with-shadow
    :height: 342
    :width: 650
 

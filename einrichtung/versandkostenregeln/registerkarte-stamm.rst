@@ -5,7 +5,6 @@ Bedingungen und Konditionen für die Berechnung der Versandkosten werden auf der
 
 .. image:: ../../media/screenshots/oxbadk01.png
    :alt: Versandkostenregeln - Registerkarte Stamm
-   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -18,8 +17,8 @@ Die Versandkostenregel ist aktiv, wenn das Kontrollkästchen angehakt ist.
 :guilabel:`Oder aktiv` ... :guilabel:`(von)` ... :guilabel:`(bis)` |br|
 Alternativ kann eine Versandkostenregel so eingerichtet werden, dass sie nur für einen bestimmten Zeitraum gilt. Der Zeitraum dafür wird hier festgelegt. Das Eingabeformat ist dabei JJJJ-MM-TT HH:MM:SS. Damit der Zeitraum berücksichtigt wird, darf :guilabel:`Aktiv` nicht angehakt sein, und es muss ein Bis-Datum geben.
 
-:guilabel:`Bedingung \>=` ...\:guilabel:`und \<=` ... |br|
-Eine Versandkostenregel kann auf Basis der Menge, der Größe, des Gewichtes oder des Preises der bestellten Artikel definiert werden. Die Auswahl erfolgt mit einer kleinen Dropdown-Liste. Die Bedingung muss so formuliert werden, dass sie gültig ist. Achten Sie daher darauf, immer eine Bis-Menge, eine Bis-Größe, ein Bis-Gewicht oder eine Bis-Preis einzutragen.
+:guilabel:`Bedingung >=` ... :guilabel:`und <=` ... |br|
+Eine Versandkostenregel kann auf Basis der Menge, der Größe, des Gewichtes oder des Preises der bestellten Artikel definiert werden. Die Auswahl erfolgt mit einer kleinen Dropdown-Liste. Die Bedingung muss so formuliert werden, dass sie gültig ist. Achten Sie daher darauf, immer eine Bis-Menge, eine Bis-Größe, ein Bis-Gewicht oder einen Bis-Preis einzutragen.
 
 :guilabel:`Preis Auf-/Abschlag (€)` |br|
 Geben Sie hier die Kosten für den Versand absolut oder prozentual an. Wählen Sie \"abs\" oder \"%\" in der kleinen Dropdown-Liste aus. Über den Abschlag können im Zusammenhang mit Zeitraum oder mit Menge als Bedingung Zeit- oder Mengenrabatte abgebildet werden.

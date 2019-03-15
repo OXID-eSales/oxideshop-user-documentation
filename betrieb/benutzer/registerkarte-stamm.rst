@@ -6,7 +6,6 @@ Benutzer können auch mit der Funktion :guilabel:`Neuer Benutzer` angelegt werde
 
 .. image:: ../../media/screenshots/oxbadr01.png
    :alt: 
-   :class: with-shadow
    :height: 335
    :width: 650
 

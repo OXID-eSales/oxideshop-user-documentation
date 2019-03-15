@@ -39,7 +39,6 @@ Dafür werden zwei Versandkostenregeln erstellt, deren Bedingung der Preis ist. 
 
 .. image:: ../../media/screenshots/oxbafw01.png
    :alt: Versandkostenregel ab 80 € Warenwert
-   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -47,7 +46,6 @@ Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Ver
 
 .. image:: ../../media/screenshots/oxbafw02.png
    :alt: Warenkorb mit Artikeln unter 80 € Warenwert
-   :class: with-shadow
    :height: 261
    :width: 550
 
@@ -55,7 +53,6 @@ Wurden Artikel eingekauft, deren Einkaufswert 80 € ist oder darüberliegt, gil
 
 .. image:: ../../media/screenshots/oxbafw03.png
    :alt: Warenkorb mit Artikel über 80 € Warenwert
-   :class: with-shadow
    :height: 261
    :width: 550
 

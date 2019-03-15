@@ -7,7 +7,6 @@ Der Preisaufschlag oder Preisabschlag kann absolut oder prozentual festgelegt we
 
 .. image:: ../../media/screenshots/oxbaft01.png
    :alt: Bestellung mit Zahlungsart Nachnahme
-   :class: with-shadow
    :height: 278
    :width: 550
 

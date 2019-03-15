@@ -5,7 +5,6 @@ Versandkostenregeln können für Kategorien und/oder Artikel gelten. Auf der Reg
 
 .. image:: ../../media/screenshots/oxbadl01.png
    :alt: Versandkostenregeln - Registerkarte Artikel
-   :class: with-shadow
    :height: 342
    :width: 650
 

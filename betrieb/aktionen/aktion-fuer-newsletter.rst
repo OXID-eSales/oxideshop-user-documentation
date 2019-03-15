@@ -5,7 +5,6 @@ Für den Versand von Newslettern ist die Aktion \"Newsletter\" wichtig. In diese
 
 .. image:: ../../media/screenshots/oxbagx01.png
    :alt: Artikel im Newsletter
-   :class: with-shadow
    :height: 340
    :width: 650
 

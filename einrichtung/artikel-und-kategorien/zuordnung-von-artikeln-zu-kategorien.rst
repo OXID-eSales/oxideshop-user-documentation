@@ -25,7 +25,6 @@ Einer Kategorie werden mehrere Artikel zugeordnet.
 
 .. image:: ../../media/screenshots/oxbafo01.png
    :alt: Artikel zuordnen
-   :class: with-shadow
    :height: 325
    :width: 400
 

@@ -5,7 +5,6 @@ Die Kategorie wird hier im Detail beschrieben.
 
 .. image:: ../../media/screenshots/oxbabl01.png
    :alt: Kategorien - Registerkarte Langtext
-   :class: with-shadow
    :height: 346
    :width: 650
 

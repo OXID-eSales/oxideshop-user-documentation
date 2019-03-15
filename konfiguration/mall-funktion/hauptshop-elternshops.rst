@@ -5,7 +5,6 @@ Der Shop, der bei der Installation des OXID eShop Enterprise Edition erstellt wi
 
 .. image:: ../../media/screenshots/oxbagm01.png
    :alt: Hauptshop - Registerkarte Mall
-   :class: with-shadow
    :height: 334
    :width: 650
 

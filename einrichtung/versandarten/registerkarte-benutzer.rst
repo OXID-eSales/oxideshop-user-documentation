@@ -5,7 +5,6 @@ Versandarten können so konfiguriert werden, dass sie für bestimmte Benutzergru
 
 .. image:: ../../media/screenshots/oxbadg01.png
    :alt: Versandarten - Registerkarte Benutzer
-   :class: with-shadow
    :height: 341
    :width: 650
 

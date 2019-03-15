@@ -6,7 +6,6 @@ Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --
 
 .. image:: ../../media/screenshots/oxbacq01.png
    :alt: Artikel - Registerkarte Downloads
-   :class: with-shadow
    :height: 342
    :width: 650
 
@@ -44,7 +43,6 @@ Dateien dieses Artikels können heruntergeladen werden, wenn das Kontrollkästch
 
 .. image:: ../../media/screenshots/oxbacq02.png
    :alt: Artikel - Registerkarte Downloads
-   :class: with-shadow
    :height: 329
    :width: 650
 

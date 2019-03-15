@@ -7,7 +7,6 @@ Rabatte lassen sich für einen bestimmten Zeitraum oder gar länderspezifisch de
 
 .. image:: ../../media/screenshots/oxbahh01.png
    :alt: Rabatte
-   :class: with-shadow
    :height: 517
    :width: 650
 
@@ -19,7 +18,6 @@ Im OXID eShop können natürlich verschiedene Rabatte aktiv sein, so dass unter 
 
 .. image:: ../../media/screenshots/oxbahh02.png
    :alt: Kite mit 2 Rabatten im Warenkorb
-   :class: with-shadow
    :height: 317
    :width: 650
 

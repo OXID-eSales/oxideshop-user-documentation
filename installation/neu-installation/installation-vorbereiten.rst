@@ -4,6 +4,7 @@
 Für die Neu-Installation des OXID eShop 6.1 sind einige Vorbereitungen notwendig.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
+              :class: no-shadow
 
 |schritt| Composer installieren
 -------------------------------

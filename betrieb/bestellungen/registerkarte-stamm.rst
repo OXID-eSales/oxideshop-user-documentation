@@ -5,7 +5,6 @@ Auf der Registerkarte :guilabel:`Stamm` können Bestellinformationen hinzugefüg
 
 .. image:: ../../media/screenshots/oxbaed01.png
    :alt: Bestellungen - Registerkarte Stamm
-   :class: with-shadow
    :height: 334
    :width: 650
 

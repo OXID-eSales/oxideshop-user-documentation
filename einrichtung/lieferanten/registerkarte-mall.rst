@@ -9,7 +9,6 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Herstelle
 
 .. image:: ../../media/screenshots/oxbagl01.png
    :alt: Lieferanten - Registerkarte Mall
-   :class: with-shadow
    :height: 334
    :width: 650
 

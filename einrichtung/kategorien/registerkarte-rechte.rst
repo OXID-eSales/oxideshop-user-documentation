@@ -7,7 +7,6 @@ Auf der Registerkarte :guilabel:`Rechte` können einer Kategorie Benutzergruppen
 
 .. image:: ../../media/screenshots/oxbacg01.png
    :alt: Kategorien - Registerkarte Rechte
-   :class: with-shadow
    :height: 334
    :width: 650
 
@@ -21,7 +20,6 @@ Per Option kann festgelegt werden, ob die jeweilige Berechtigung ausschließlich
 
 .. image:: ../../media/screenshots/oxbacg02.png
    :alt: Benutzergruppen zuordnen (Ausschließlich kaufbar)
-   :class: with-shadow
    :height: 344
    :width: 400
 

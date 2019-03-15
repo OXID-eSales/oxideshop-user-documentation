@@ -39,7 +39,6 @@ Ein Artikel und zwei Versandkostenregeln dienen als Beispiel für gewichtsabhän
 
 .. image:: ../../media/screenshots/oxbafv01.png
    :alt: Artikel mit 2 kg Gewicht
-   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -47,7 +46,6 @@ Es werden zwei Versandkostenregeln erstellt, deren Bedingung das Gewicht ist. Di
 
 .. image:: ../../media/screenshots/oxbafv02.png
    :alt: Versandkostenregel ab 3 kg Gesamtgewicht
-   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -55,7 +53,6 @@ Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Ver
 
 .. image:: ../../media/screenshots/oxbafv03.png
    :alt: Warenkorb mit 1 Artikel
-   :class: with-shadow
    :height: 291
    :width: 550
 
@@ -63,7 +60,6 @@ Sind zwei oder mehrere Artikel mit einem Gewicht von jeweils 2 Kilogramm im Ware
 
 .. image:: ../../media/screenshots/oxbafv04.png
    :alt: Warenkorb mit 2 Artikeln
-   :class: with-shadow
    :height: 291
    :width: 550
 

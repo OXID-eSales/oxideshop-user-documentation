@@ -4,7 +4,6 @@ Artikel sind neben den Kategorien die eigentliche Basis des Warenkatalogs. Schli
 
 .. image:: ../../media/screenshots/oxbach01.png
    :alt: Artikel
-   :class: with-shadow
    :height: 536
    :width: 650
    

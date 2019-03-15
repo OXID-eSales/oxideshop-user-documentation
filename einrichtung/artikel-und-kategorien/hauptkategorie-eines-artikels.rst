@@ -22,7 +22,6 @@ Die Hauptkategorie eines Artikels wird festgelegt.
 
 .. image:: ../../media/screenshots/oxbafp01.png
    :alt: Als Hauptkategorie setzen
-   :class: with-shadow
    :height: 314
    :width: 400
 

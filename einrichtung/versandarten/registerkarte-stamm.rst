@@ -5,7 +5,6 @@ Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versand
 
 .. image:: ../../media/screenshots/oxbade01.png
    :alt: Versandarten - Registerkarte Stamm
-   :class: with-shadow
    :height: 342
    :width: 650
 

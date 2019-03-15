@@ -8,7 +8,6 @@ Auf der Registerkarte :guilabel:`Mall` werden die Verknüpfungen eines Artikels 
 
 .. image:: ../../media/screenshots/oxbacl01.png
    :alt: Artikel - Registerkarte Mall
-   :class: with-shadow
    :height: 334
    :width: 650
 

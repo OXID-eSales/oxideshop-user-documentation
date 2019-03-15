@@ -34,7 +34,6 @@ Die erste Versandkostenregel mit 5,99 € Versandkosten gilt für alle Artikel, 
 
 .. image:: ../../media/screenshots/oxbafy01.png
    :alt: Versandkosten DHL GoGreen, Sperrgut: +22,50 Euro
-   :class: with-shadow
    :height: 341
    :width: 650
 
@@ -44,7 +43,6 @@ Liegt ein Artikel im Warenkorb, der kein Wakeboard ist, greift die erste Versand
 
 .. image:: ../../media/screenshots/oxbafy02.png
    :alt: Warenkorb mit einer Wakeboard-Bindung
-   :class: with-shadow
    :height: 261
    :width: 550
 
@@ -52,7 +50,6 @@ Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Vers
 
 .. image:: ../../media/screenshots/oxbafy03.png
    :alt: Warenkorb mit Wakeboard und Bindung
-   :class: with-shadow
    :height: 311
    :width: 550
 

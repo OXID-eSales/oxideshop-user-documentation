@@ -4,7 +4,6 @@ Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zum Att
 
 .. image:: ../../media/screenshots/oxbafg01.png
    :alt: Attribute - Registerkarte Stamm
-   :class: with-shadow
    :height: 342
    :width: 650
 
