@@ -34,7 +34,7 @@ Installation
 ^^^^^^^^^^^^
 Please follow the instructions in Section "Installation":
 
-:doc:`Reinstallation <../../installation/new-installation/new-installation>` |br|
+:doc:`New installation <../../installation/new-installation/new-installation>` |br|
 :doc:`Installing updates <../../installation/installing-updates/installing-updates>`
 
 Please run the update first in a test or development environment, or a copy of your current shop. Then, test the ordering process and payment and shipping methods. If the shop works correctly, you can replace the shop in the live system with the one from the test or development environment.

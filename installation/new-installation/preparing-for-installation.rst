@@ -1,7 +1,7 @@
 ﻿Preparing for installation
 ==========================
 
-Some preparations are necessary for the reinstallation of OXID eShop 6.1.
+Some preparations are necessary for the new installation of OXID eShop 6.1.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
@@ -11,7 +11,7 @@ Some preparations are necessary for the reinstallation of OXID eShop 6.1.
 
 OXID eShop 6 is no longer installed based on packaged and downloadable installation packages but with the help of Composer. Composer is a dependency manager for PHP, a tool that takes into account the dependencies of a project’s program components while installing the files of that project in a defined directory.
 
-Composer is required for the reinstallation of OXID eShop. Installation instructions can be found in the “Getting Started” section of the Composer website: http://getcomposer.org.
+Composer is required for the new installation of OXID eShop. Installation instructions can be found in the “Getting Started” section of the Composer website: http://getcomposer.org.
 
 |schritt| Providing shop files
 ------------------------------
