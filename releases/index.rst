@@ -8,3 +8,4 @@ Section \"Releases\" summarises the most important information about the publish
    
    releases
    2018 releases <releases-2018/index>
+   2019 releases <releases-2019/index>

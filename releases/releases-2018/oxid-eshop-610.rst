@@ -20,7 +20,7 @@ OXID eShop 6.1.0 is provided as a compilation with the following components:
 * PAYONE 1.0.8
 * PayPal 5.2.2
 * Visual CMS 3.2.1 (PE/EE)
-* WYSIWIG editor and summernote 2.1.1 media library
+* Summernote WYSIWIG editor and Media Gallery 2.1.1
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.3...v6.1.0>`_.
 
@@ -32,7 +32,7 @@ OXID eShop 6.1.0 runs under PHP 7.0 and 7.1. PHP 5.6 is no longer supported. The
 
 Installation
 ^^^^^^^^^^^^
-Please follow the instructions in Section "Installation":
+Please follow the instructions in section "Installation":
 
 :doc:`New installation <../../installation/new-installation/new-installation>` |br|
 :doc:`Installing updates <../../installation/installing-updates/installing-updates>`
