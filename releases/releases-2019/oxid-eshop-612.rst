@@ -83,4 +83,4 @@ https://bugs.oxid-esales.com/changelog_page.php?version_id=458
 
 Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.2.1...v6.2.2. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
-.. Intern: oxbain, transL, Status:
+.. Intern: oxbain, Status: transL
