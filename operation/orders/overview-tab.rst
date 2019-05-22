@@ -54,20 +54,6 @@ When products are sent to the buyer, the shop owner can document the shipment in
 :guilabel:`Send e-mail?` |br|
 If the :guilabel:`Send e-mail?` box is checked, the customer will be informed about the shipment by email. The email will contain the shipping address, the order number and a list of the products shipped with the link to review them. If a tracking code has been entered in the shipping information in the :guilabel:`Main` tab, a tracking link will take the customer directly to the DPD Germany website.
 
-:guilabel:`XML Export` |br|
-Orders can be exported in XML (Extensible Markup Language) format, which enables exchange with other systems, such as merchandise management or a shipping service provider. If you don’t specify the order number, all orders will be processed for export. Depending on the browser used, the export file will be downloaded and the customer will be prompted to open or save it. By entering order numbers in the input fields :guilabel:`start Order No.` and :guilabel:`to Order No.`, you can limit the number of orders for export.
-
-.. hint:: This function hasn’t been implemented in Enterprise Edition.
-
-:guilabel:`PDF` |br|
-The order invoice and delivery note can be created in PDF (Portable Document Format) format. The invoice and the delivery note can be selected from a drop-down list. Clicking on :guilabel:`Create PDF` creates the .pdf file and offers the customer to open or save it, depending on the browser used. If the shop has been set up for multiple languages, you will be able to select the desired language for the invoice and the delivery note.
-
-The invoice and the delivery note are generated using the :guilabel:`myorder.php` file from the :file:`/modules/invoicepdf` directory. If you have the necessary programming skills, you will be able to customise the content and structure of the documents in accordance with your individual requirements.
-
-.. hint:: This function hasn’t been implemented in Enterprise Edition.
-
-In addition, Community and Professional Editions allow you to export orders with the \"direct debit\" payment method for processing at banks and financial institutions. With OXID eShop 4.9.0, the option of creating direct debit records for electronic processing in the data carrier exchange system (DTAUS) has been removed. Since August 2014, this method is no longer supported by the banks.
-
-.. seealso:: :doc:`Main tab <../users/main-tab>` | `Hexadecimal colour definition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Defining colours in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_ | `Extensible Markup Language, XML (Wikipedia) <https://en.wikipedia.org/wiki/XML>`_ | `Portable Document Format, PDF (Wikipedia) <https://en.wikipedia.org/wiki/PDF>`_
+.. seealso:: :doc:`Main tab <../users/main-tab>` | `Hexadecimal colour definition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Defining colours in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_
 
 .. Intern: oxbaec, Status:, F1: order_overwiew.html
