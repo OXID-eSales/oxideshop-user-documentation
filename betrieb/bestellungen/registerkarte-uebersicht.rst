@@ -55,20 +55,6 @@ Werden die Artikel an den Käufer versendet, kann der Shopbetreiber das bei der 
 :guilabel:`E-Mail schicken?` |br|
 Ist das Kontrollkästchen :guilabel:`E-Mail schicken?` angehakt, wird der Kunde per E-Mail über den Versand informiert. Die E-Mail enthält die Lieferadresse, die Bestellnummer und eine Auflistung der versendeten Artikel mit Link zur Artikelbewertung. Wurde auf der Registerkarte :guilabel:`Stamm` ein Tracking Code bei den Versandinformationen eingetragen, führt ein Link zur Sendungsverfolgung direkt auf die Webseite von DPD Deutschland.
 
-:guilabel:`XML Export` |br|
-Bestellungen können im XML-Format (Extensible Markup Language) exportiert werden, welches den Austausch mit anderen Systemen, wie einer Warenwirtschaft oder mit einem Versanddienstleister, ermöglicht. Ohne Vorgabe einer Bestellnummer werden sämtliche Bestellungen für den Export aufbereitet. Je nach verwendetem Browser wird die Exportdatei heruntergeladen, zum Öffnen oder zum Speichern angeboten. Mit der Eingabe von Bestellnummern in den Eingabefeldern :guilabel:`ab Bestellnr.` und :guilabel:`bis Bestellnr.` können die zu exportierenden Bestellungen eingeschränkt werden.
-
-.. hint:: Diese Funktion wurde nicht in die Enterprise Edition implementiert.
-
-:guilabel:`PDF` |br|
-Zu einer Bestellung kann deren Rechnung und Lieferschein im Format PDF (Portable Document Format) erstellt werden. Rechnung oder Lieferschein sind aus einer Dropdown-Liste auswählbar. Ein Klick auf die Schaltfläche :guilabel:`PDF ausgeben` erstellt die .pdf-Datei und bietet diese je nach verwendetem Browser zum Öffnen oder Speichern an. Wurde der Shop mehrsprachig realisiert, kann die Sprache für Rechnung und Lieferschein ausgewählt werden.
-
-Für das Erzeugen der Rechnung und des Lieferscheins ist die Datei :guilabel:`myorder.php` aus dem Verzeichnis :file:`/modules/invoicepdf` zuständig. Programmierkenntnisse vorausgesetzt, können Inhalt und Aufbau der Dokumente an eigene Erfordernisse angepasst werden.
-
-.. hint:: Diese Funktion wurde nicht in die Enterprise Edition implementiert.
-
-Darüber hinaus konnten in der Community und der Professional Edition Bestellungen mit der Zahlungsart \"Bankeinzug/Lastschrift\" für eine Verarbeitung bei Banken und Geldinstituten exportiert werden. Mit OXID eShop 4.9.0 wurde diese Möglichkeit zum Erstellen von Lastschrifteinzugssätzen für die elektronische Verarbeitung im Datenträgeraustauschverfahren (DTAUS) entfernt. Dieses Verfahren wird seit August 2014 von den Banken nicht mehr unterstützt.
-
-.. seealso:: :doc:`Registerkarte Stamm <../benutzer/registerkarte-stamm>` | `Hexadezimale Farbdefinition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Farben definieren in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_ | `Extensible Markup Language, XML (Wikipedia) <http://de.wikipedia.org/wiki/Extensible_Markup_Language>`_ | `Portable Document Format, PDF (Wikipedia) <http://de.wikipedia.org/wiki/PDF>`_
+.. seealso:: :doc:`Registerkarte Stamm <../benutzer/registerkarte-stamm>` | `Hexadezimale Farbdefinition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Farben definieren in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_
 
 .. Intern: oxbaec, Status:, F1: order_overwiew.html
