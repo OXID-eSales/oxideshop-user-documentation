@@ -34,18 +34,14 @@
 }
 
 .pre{
-   color: #00008B; 
-   background-color: #F8F8FF;
+    color: #00008B;
+    background-color: #F8F8FF;
 }
 
 code, .rst-content code{
     background: none;
     border: 0px;
     font-size: 90%;
-}
-/* Screenshots mit Schatten */
-.with-shadow {
-    box-shadow: 0 4px 10px #bababa;
 }
 
 /* Tabellen mit viel Text ohne horizontale Scrollbars  */
@@ -58,8 +54,8 @@ code, .rst-content code{
     border-right: solid 2px #e1e4e5;
     background-color: #bfbfbf;
     padding: 5px;
-/*  background-color: #c6d9ec;
-    color: #00008B; */
+    /*  background-color: #c6d9ec;
+        color: #00008B; */
 }
 
 /* Kompaktere Tabellen, horizontale und vertikale Ausrichtung in der Tabelle */
@@ -79,6 +75,7 @@ code, .rst-content code{
 dl.docutils dd {
     margin-left: unset;
     margin-bottom: 24px;
+    line-height: 24px;
 }
 
 /* Screenshots standardmäßig mit Schatten */

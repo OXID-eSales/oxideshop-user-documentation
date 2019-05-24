@@ -1,7 +1,7 @@
 Neu-Installation
 ================
 
-In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 6.1 neu installieren. Es gibt dabei eine entscheidende Änderung gegenüber den Shopversionen 4 und 5: die Installation basiert nicht mehr auf Installationspaketen. Die für den Shop benötigten Dateien werden mit Hilfe von Composer, dem Dependency Manager für PHP, bereitgestellt. Danach kann wie gewohnt das webbasierte Setup ausgeführt und der Shop installiert werden.
+In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 6.2 neu installieren. Es gibt dabei eine entscheidende Änderung gegenüber den Shopversionen 4 und 5: die Installation basiert nicht mehr auf Installationspaketen. Die für den Shop benötigten Dateien werden mit Hilfe von Composer, dem Dependency Manager für PHP, bereitgestellt. Danach kann wie gewohnt das webbasierte Setup ausgeführt und der Shop installiert werden.
 
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Schritt 1
@@ -9,7 +9,7 @@ In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 6.1 neu installieren. E
     :height: 455
     :width: 650
 
-Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/6.1/getting_started/installation/index.html>`_.
+Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/6.2/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 

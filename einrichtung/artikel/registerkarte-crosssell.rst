@@ -1,5 +1,6 @@
 ﻿Registerkarte Crosssell.
 ========================
+
 Mit Cross-Selling haben Sie die Möglichkeit, den Kunden verwandte Artikel und/oder Zubehör zu einem Artikel anzubieten. Die Zuordnung der Artikel erfolgt auf der :guilabel:`Registerkarte Crosssell.`
 
 Beim Cross-Selling (Quer- oder Kreuzverkauf) geht es darum, Artikel, die zueinander passen und sich ergänzen, gemeinsam anzubieten und zu verkaufen. Sie können beispielsweise zu einem MP3-Player die dazugehörigen Batterien und Akkus anbieten, zu Gläsern die jeweiligen Getränke und umgekehrt. Zugeordnete Artikel werden auf der rechten Seite der Detailansicht eines Artikels in einer zusätzlichen Produktbox \"Schon gesehen?\" angezeigt. Titel, ein Artikelbild der Größe Icon und der Preis informieren über zugeordnete Artikel, die auch verlinkt sind.

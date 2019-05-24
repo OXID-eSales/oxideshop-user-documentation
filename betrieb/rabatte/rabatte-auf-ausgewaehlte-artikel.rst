@@ -1,5 +1,6 @@
 ﻿Rabatte auf ausgewählte Artikel
 ===============================
+
 Ein Rabatt kann für einzelne Artikel, die Artikel einer Kategorie und/oder alle Artikel mehrerer Kategorien gewährt werden. Damit können bestimmte Artikel oder eine ganze Warengruppe aus dem Sortiment in einer Rabattaktion beworben werden. Wird bei Einkaufswert oder -menge der Von-Wert mit 0 angegeben, ist der Rabatt im Online-Shop bereits abgezogen. Die jeweiligen Artikel werden im Online-Shop mit dem rabattierten Preis angezeigt. Der Wert 1 sorgt hingegen dafür, dass der Rabatt erst im Warenkorb ausgewiesen wird.
 
 Der Rabatt wird Artikeln zugewiesen.

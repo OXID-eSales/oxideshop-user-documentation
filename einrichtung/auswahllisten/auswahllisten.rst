@@ -1,5 +1,6 @@
 ﻿Auswahllisten
 =============
+
 Mit Auswahllisten lassen sich typische Ausführungen eines Artikels, wie beispielsweise eine Auswahl von Farben, Größen oder Materialien, definieren.
 
 Auswahllisten können direkt Artikeln zugewiesen werden. Diese erhalten dadurch auf der Detailseite eine Dropdown-Liste, aus der ein Kunde die gewünschte Ausführung auswählen kann. Die Auswahl wird beim Kauf des Artikels berücksichtigt, bei der Bestellung gespeichert und in der Mail an den Kunden und den Shopbetreiber geschickt. Auswahllisten können aber auch dazu verwendet werden, um echte Varianten zu erstellen. Dabei dienen sie als Vorlage, auf deren Basis alle daraus resultierenden Varianten eines Artikels angelegt werden.

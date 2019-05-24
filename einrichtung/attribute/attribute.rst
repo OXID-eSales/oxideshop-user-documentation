@@ -1,5 +1,6 @@
 ﻿Attribute
 =========
+
 Artikel verfügen standardmäßig über eine Reihe von Eigenschaften, mit denen sie charakterisiert werden können. Dazu gehören beispielsweise das Gewicht, die Abmessungen oder die Menge. Mit den Attributen haben Shopbetreiber eine flexible Lösung, um eigene Artikeleigenschaften zu definieren und diese dem jeweiligen Artikel mit einem entsprechenden Wert zuzuweisen.
 
 In der Detailansicht des Artikels wird dadurch eine neue Registerkarte :guilabel:`SPEZIFIKATION` mit den Attributen und deren Werten eingeblendet. Zusätzlich kann der Wert des Attributes beim Artikel im Warenkorb und beim Bestellabschluss angezeigt werden.

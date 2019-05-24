@@ -12,35 +12,35 @@ Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --
 
 Eine Tabelle enthält alle zu einer Bestellung gehörenden Downloads.
 
-:guilabel:`Art.-Nr.` |br|
-Eindeutige Artikelnummer des Download-Artikels.
+:guilabel:`Art.-Nr.`
+   Eindeutige Artikelnummer des Download-Artikels.
 
-:guilabel:`Titel` |br|
-Titel des Download-Artikels.
+:guilabel:`Titel`
+   Titel des Download-Artikels.
 
-:guilabel:`Herunterladbare Datei` |br|
-Datei, die zum Download-Artikel gehört und vom Kunden heruntergeladen werden kann. Für jede herunterladbare Datei eines Download-Artikels wird eine Tabellenzeile erstellt.
+:guilabel:`Herunterladbare Datei`
+   Datei, die zum Download-Artikel gehört und vom Kunden heruntergeladen werden kann. Für jede herunterladbare Datei eines Download-Artikels wird eine Tabellenzeile erstellt.
 
-:guilabel:`Erster Download` |br|
-Datum und Uhrzeit des ersten Downloads.
+:guilabel:`Erster Download`
+   Datum und Uhrzeit des ersten Downloads.
 
-:guilabel:`Letzter Download` |br|
-Datum und Uhrzeit des letzten Downloads.
+:guilabel:`Letzter Download`
+   Datum und Uhrzeit des letzten Downloads.
 
-:guilabel:`Anzahl der Downloads` |br|
-Anzahl der bisher erfolgten Downloads.
+:guilabel:`Anzahl der Downloads`
+   Anzahl der bisher erfolgten Downloads.
 
-:guilabel:`Max. Anzahl der Downloads` |br|
-Anzahl der Downloads, die maximal erlaubt sind. Die Zahl Null steht für eine unbegrenzte Anzahl von Downloads. Der Wert wurde als Standardeinstellung auf der Registerkarte :guilabel:`Einstell.` unter :menuselection:`Stammdaten --> Grundeinstellungen` festgelegt oder per Definition beim jeweiligen Download-Artikel überschrieben.
+:guilabel:`Max. Anzahl der Downloads`
+   Anzahl der Downloads, die maximal erlaubt sind. Die Zahl Null steht für eine unbegrenzte Anzahl von Downloads. Der Wert wurde als Standardeinstellung auf der Registerkarte :guilabel:`Einstell.` unter :menuselection:`Stammdaten --> Grundeinstellungen` festgelegt oder per Definition beim jeweiligen Download-Artikel überschrieben.
 
-:guilabel:`Gültig bis` |br|
-Zeitpunkt, bis zu dem Dateien des Download-Artikels heruntergeladen werden können. Auch hier gelten die Standardeinstellungen oder die beim Download-Artikel definierten Werte.
+:guilabel:`Gültig bis`
+   Zeitpunkt, bis zu dem Dateien des Download-Artikels heruntergeladen werden können. Auch hier gelten die Standardeinstellungen oder die beim Download-Artikel definierten Werte.
 
-:guilabel:`Anzahl der Resets` |br|
-Es wird angezeigt, wie oft die Informationen zu den Downloads zurückgesetzt wurden.
+:guilabel:`Anzahl der Resets`
+   Es wird angezeigt, wie oft die Informationen zu den Downloads zurückgesetzt wurden.
 
-:guilabel:`Reset` |br|
-Der Shopbetreiber hat die Möglichkeit, bereits erfolgte Downloads zurückzusetzen, solange sie gültig sind. Durch Drücken der Schaltfläche werden der Zeitpunkt des ersten und letzten Downloads sowie die Anzahl der Downloads zurückgesetzt. Auch die die Gültigkeit der Downloads wird ensprechend ihrer Definition neu berechnet.
+:guilabel:`Reset`
+   Der Shopbetreiber hat die Möglichkeit, bereits erfolgte Downloads zurückzusetzen, solange sie gültig sind. Durch Drücken der Schaltfläche werden der Zeitpunkt des ersten und letzten Downloads sowie die Anzahl der Downloads zurückgesetzt. Auch die die Gültigkeit der Downloads wird ensprechend ihrer Definition neu berechnet.
 
 .. seealso:: :doc:`Registerkarten Downloads <../../einrichtung/artikel/registerkarte-downloads>`
 

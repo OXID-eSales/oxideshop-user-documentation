@@ -69,13 +69,7 @@ Nur Enterprise Edition |br|
 Caching
 -------
 Nur Enterprise Edition |br|
-**Inhalte**: Caching, Reverse Proxy Varnish, Memcached, Installation und Konfiguration, Cache-Manager, Default Cache Backend, Dynamic Content Caching |br|
+**Inhalte**: Caching, Memcached, Installation und Konfiguration, Cache-Manager, Default Cache Backend, Dynamic Content Caching |br|
 :doc:`Artikel lesen <caching/caching>` |link|
-
-Master/Slave
-------------
-Nur Enterprise Edition |br|
-**Inhalte**: Master, Slave, Master-Datenbank, Schreibzugriffe, Slave-Datenbanken, Lesezugriffe, Load-Balancer |br|
-:doc:`Artikel lesen <master-slave>` |link|
 
 .. Intern: oxbaas, Status:

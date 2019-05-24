@@ -18,4 +18,3 @@ Konfiguration
    Mall-Funktion <mall-funktion/index>
    rechte-und-rollen
    Caching <caching/index>
-   master-slave

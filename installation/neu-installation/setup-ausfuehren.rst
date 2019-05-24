@@ -42,17 +42,17 @@ Auf dieser Seite des Setups werden Ihnen die Lizenzbedingungen angezeigt. Bitte 
 -------------------
 Im vierten Schritt des Setups werden die Daten für die von Ihnen erstellte Datenbank benötigt.
 
-:guilabel:`Datenbank Hostname oder IP Adresse` |br|
-Sie können den Defaultwert localhost stehen lassen, wenn sich Datenbank und Webserver auf dem gleichen Server befinden. Das ist für die meisten Shops der Standard. Ist die Datenbank ausgelagert, muss der Hostname oder die IP-Adresse des Datenbankservers angegeben werden. Ist dabei die Angabe eines Ports erforderlich, steht dieser nach dem Hostnamen und einem Doppelpunkt (Hostname:Port).
+:guilabel:`Datenbank Hostname oder IP Adresse`
+   Sie können den Defaultwert localhost stehen lassen, wenn sich Datenbank und Webserver auf dem gleichen Server befinden. Das ist für die meisten Shops der Standard. Ist die Datenbank ausgelagert, muss der Hostname oder die IP-Adresse des Datenbankservers angegeben werden. Ist dabei die Angabe eines Ports erforderlich, steht dieser nach dem Hostnamen und einem Doppelpunkt (Hostname:Port).
 
-:guilabel:`Datenbank Name` |br|
-Tragen Sie den Namen der zuvor erstellten Datenbank ein.
+:guilabel:`Datenbank Name`
+   Tragen Sie den Namen der zuvor erstellten Datenbank ein.
 
-:guilabel:`Datenbank Benutzername` und :guilabel:`Datenbank Passwort` |br|
-Geben Sie die Zugangsdaten zur Datenbank ein.
+:guilabel:`Datenbank Benutzername` und :guilabel:`Datenbank Passwort`
+   Geben Sie die Zugangsdaten zur Datenbank ein.
 
-:guilabel:`Demodaten` |br|
-Entscheiden Sie, ob Sie den Shop vorkonfiguriert mit Beispielartikeln installieren möchten. Demodaten sind empfehlenswert, wenn Sie sich zunächst in einer Testinstallation mit dem Shop vertraut machen möchten. Sie können die Demodaten jederzeit löschen, wenn Sie den Shop mit eigenen Artikeln befüllen wollen.
+:guilabel:`Demodaten`
+   Entscheiden Sie, ob Sie den Shop vorkonfiguriert mit Beispielartikeln installieren möchten. Demodaten sind empfehlenswert, wenn Sie sich zunächst in einer Testinstallation mit dem Shop vertraut machen möchten. Sie können die Demodaten jederzeit löschen, wenn Sie den Shop mit eigenen Artikeln befüllen wollen.
 
 Betätigen Sie die Schaltfläche :guilabel:`Datenbank jetzt erstellen`. In einigen besonderen Konstellationen kann damit die Datenbank auch direkt erstellt werden, ohne dass sie vorher manuell angelegt werden musste. Da Ihre Datenbank bereits existiert, werden alle erforderlichen Tabellen und Daten nun in dieser Datenbank gespeichert.
 
@@ -60,14 +60,14 @@ Betätigen Sie die Schaltfläche :guilabel:`Datenbank jetzt erstellen`. In einig
 --------------------------------
 Im nächsten Schritt des Setups lassen sich die Verzeichnis-Einstellungen anpassen und die Zugangsdaten für den Administrationsbereich des Shops festlegen. Die Setup-Routine erkennt die Verzeichnisse automatisch und schlägt diese vor. Eine Änderung ist in den allermeisten Fällen nicht notwendig.
 
-:guilabel:`Shop-URL` |br|
-Es wird die URL angezeigt, unter der Ihr eShop erreichbar sein wird.
+:guilabel:`Shop-URL`
+   Es wird die URL angezeigt, unter der Ihr eShop erreichbar sein wird.
 
-:guilabel:`Verzeichnis auf dem Server zum Shop` |br|
-Der interne Pfad zum Shop auf dem Server wird ausgegeben.
+:guilabel:`Verzeichnis auf dem Server zum Shop`
+   Der interne Pfad zum Shop auf dem Server wird ausgegeben.
 
-:guilabel:`Verzeichnis auf dem Server zum TMP Verzeichnis` |br|
-Benennt das Verzeichis, in dem die temporären Dateien des Shops, beispielsweise für Smarty- oder SEO-Cache, gespeichert werden.
+:guilabel:`Verzeichnis auf dem Server zum TMP Verzeichnis`
+   Benennt das Verzeichis, in dem die temporären Dateien des Shops, beispielsweise für Smarty- oder SEO-Cache, gespeichert werden.
 
 Tragen Sie zusätzlich die E-Mail-Adresse und das Passwort des Administrators ein. Mit diesen Daten können Sie sich nach abgeschlossenem Setup im Administrationsbereich anmelden. Bewahren Sie diese Zugangsdaten an einem sicheren Ort auf.
 

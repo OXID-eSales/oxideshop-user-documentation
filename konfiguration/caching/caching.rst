@@ -19,11 +19,6 @@ Der *Reverse Proxy Varnish* ist ein Webbeschleuniger. Das System verarbeitet noc
 
 -----------------------------------------------------------------------------------------
 
-Reverse Proxy Varnish
----------------------
-**Inhalte**: Varnish, Funktionsweise, Hinweise zur Installation, Konfiguration, default.vcl, servers_conf.vcl, HTTP, HTTPS, SSL |br|
-:doc:`Artikel lesen <reverse-proxy-varnish>` |link|
-
 Memcached
 ---------
 **Inhalte**: Memcached, Hinweise zur Installation, Konfiguration |br|
@@ -31,9 +26,9 @@ Memcached
 
 Caching-Einstellungen
 ---------------------
-**Inhalte**: Default Cache Backend, Cache Lebensdauer (TTL), Cache Connector, Dateisystem, Cache-Verzeichnis, Memcached, Memcached Server, Reverse Proxy, cachebare Seiten, Dynamic Content Caching, cachebare Klassen |br|
+**Inhalte**: Default Cache Backend, Cache Lebensdauer (TTL), Cache Connector, Dateisystem, Cache-Verzeichnis, Memcached, Memcached Server,  cachebare Seiten, Dynamic Content Caching, cachebare Klassen |br|
 :doc:`Artikel lesen <caching-einstellungen>` |link|
 
-.. note:: Weiterführende Links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Server: `http://www.zend.com/en/products/zend_server <http://www.zend.com/en/products/zend_server>`_ | Varnish: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ | Memcached: `http://memcached.org <http://memcached.org/>`_
+.. note:: Weiterführende Links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Server: `http://www.zend.com/en/products/zend_server <http://www.zend.com/en/products/zend_server>`_  | Memcached: `http://memcached.org <http://memcached.org/>`_
 
 .. Intern: oxbabz, Status:

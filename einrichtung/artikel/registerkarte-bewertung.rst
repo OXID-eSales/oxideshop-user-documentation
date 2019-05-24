@@ -1,5 +1,6 @@
 ﻿Registerkarte Bewertung
 =======================
+
 Kunden können die Artikel Ihres Shops bewerten. Dies sorgt für Transparenz und Vertrauen. In der Detailansicht eines Artikels können angemeldete Kunden bis zu fünf Sterne vergeben und einen Kommentar abgeben. Die Bewertungen und die durchschnittlich vergebenen Sterne werden am unteren Ende der Detailansicht angezeigt.
 
 .. image:: ../../media/screenshots/oxbacr01.png
@@ -24,13 +25,13 @@ Alle Bewertungen werden mit Datum und Uhrzeit in einem Auswahlfeld aufgelistet. 
 
 Änderungen an Bewertungen können gespeichert werden. Das Löschen einer Bewertung ist ebenfalls möglich. Löschen Sie nur Bewertungen, die keine sind (SPAM-Einträge). Lassen Sie auch negative Bewertungen zu. Sie können dazu ja mit einer eigenen Stellungnahme reagieren. Langfristig wird es für Vertrauen sorgen, wenn nicht nur positive Bewertungen zu lesen sind.
 
-:guilabel:`Aktiv` |br|
-Wenn die Bewertung in der Detailansicht des Artikels angezeigt werden soll, haken Sie dieses Kontrollkästchen an.
+:guilabel:`Aktiv`
+   Wenn die Bewertung in der Detailansicht des Artikels angezeigt werden soll, haken Sie dieses Kontrollkästchen an.
 
-:guilabel:`Gepostet von` |br|
-Vorname und Name des Kunden, der die Bewertung abgegeben hat.
+:guilabel:`Gepostet von`
+   Vorname und Name des Kunden, der die Bewertung abgegeben hat.
 
-:guilabel:`Text` |br|
-Text der abgegebenen Bewertung, der editiert werden kann. Änderungen müssen mit der Schaltfläche :guilabel:`Speichern` in die Datenbank geschrieben werden.
+:guilabel:`Text`
+   Text der abgegebenen Bewertung, der editiert werden kann. Änderungen müssen mit der Schaltfläche :guilabel:`Speichern` in die Datenbank geschrieben werden.
 
 .. Intern: oxbacr, Status:, F1: article_review.html

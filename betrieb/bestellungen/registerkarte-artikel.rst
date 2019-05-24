@@ -16,40 +16,40 @@ Eine Funktion erlaubt Ihnen allerdings auch, neue Artikel in die Bestellung aufz
 
 Eine Tabelle enthält alle zu einer Bestellung gehörenden Artikel.
 
-:guilabel:`Anzahl` |br|
-Anzahl des bestellten Artikels. Im Eingabefeld kann dieser Wert geändert werden. Mit der Schaltfläche :guilabel:`Aktualisieren` werden der Preis des Artikels und der Gesamtpreis der Bestellung neu berechnet.
+:guilabel:`Anzahl`
+   Anzahl des bestellten Artikels. Im Eingabefeld kann dieser Wert geändert werden. Mit der Schaltfläche :guilabel:`Aktualisieren` werden der Preis des Artikels und der Gesamtpreis der Bestellung neu berechnet.
 
-:guilabel:`Art.-Nr.` |br|
-Eindeutige Artikelnummer des Artikels.
+:guilabel:`Art.-Nr.`
+   Eindeutige Artikelnummer des Artikels.
 
-:guilabel:`Titel.` |br|
-Der auf ca. zwanzig Zeichen gekürzte Artikeltitel wird angezeigt.
+:guilabel:`Titel.`
+   Der auf ca. zwanzig Zeichen gekürzte Artikeltitel wird angezeigt.
 
-:guilabel:`Typ` |br|
-Auswahl einer Variante. Ist der bestellte Artikel eine Variante, wird hier deren Auswahl ausgegeben. Beispiel für Größe und Farbe einer Jeans: W 32/L 34 | Blau.
+:guilabel:`Typ`
+   Auswahl einer Variante. Ist der bestellte Artikel eine Variante, wird hier deren Auswahl ausgegeben. Beispiel für Größe und Farbe einer Jeans: W 32/L 34 | Blau.
 
-:guilabel:`Parameter` |br|
-Beschriftung des Artikels. Bei einem individualisierbaren Artikel kann während der Bestellung eine Beschriftung in ein dafür eingeblendetes Textfeld eingegeben werden.
+:guilabel:`Parameter`
+   Beschriftung des Artikels. Bei einem individualisierbaren Artikel kann während der Bestellung eine Beschriftung in ein dafür eingeblendetes Textfeld eingegeben werden.
 
-:guilabel:`Kurzbeschreibung` |br|
-Kurzbeschreibung des Artikels.
+:guilabel:`Kurzbeschreibung`
+   Kurzbeschreibung des Artikels.
 
-:guilabel:`eBrutto` |br|
-Einzelpreis des Artikels.
+:guilabel:`eBrutto`
+   Einzelpreis des Artikels.
 
-:guilabel:`Gesamt` |br|
-Gesamtpreis des Artikels.
+:guilabel:`Gesamt`
+   Gesamtpreis des Artikels.
 
-:guilabel:`MwSt.` |br|
-Im Preis enthaltene Mehrwertsteuer in Prozent.
+:guilabel:`MwSt.`
+   Im Preis enthaltene Mehrwertsteuer in Prozent.
 
 Am Ende jeder Tabellenzeile befinden sich kleine Schaltflächen zum Löschen und Stornieren von Artikeln. Unter der Tabelle dient die Schaltfläche :guilabel:`Aktualisieren` der Neuberechnung der Preise und der Bestellsumme nach einer Änderung.
 
-:guilabel:`Gesamt` |br|
-Unter :guilabel:`Gesamt` findet sich der Gesamtpreis der Bestellung mit seinen einzelnen Positionen. Der Artikelpreis wird brutto und netto angezeigt, ein gewährter Rabatt und die Mehrwertsteuer werden ausgewiesen. Hinzu kommen die Versandkosten und eine mögliche Gebühr für die Zahlungsart.
+:guilabel:`Gesamt`
+   Unter :guilabel:`Gesamt` findet sich der Gesamtpreis der Bestellung mit seinen einzelnen Positionen. Der Artikelpreis wird brutto und netto angezeigt, ein gewährter Rabatt und die Mehrwertsteuer werden ausgewiesen. Hinzu kommen die Versandkosten und eine mögliche Gebühr für die Zahlungsart.
 
-:guilabel:`Art.-Nr.` |br|
-Artikelnummer, nach der gesucht werden soll.
+:guilabel:`Art.-Nr.`
+   Artikelnummer, nach der gesucht werden soll.
 
 Das Drücken der Schaltfläche :guilabel:`Suchen` startet die Suche nach einem Artikel mit der eingetragenen Artikelnummer. Wird dieser gefunden, erscheint dessen Kurzbezeichnung in einer Dropdown-Liste und ein Eingabefeld für die Artikelanzahl. Mit der Schaltfläche :guilabel:`Artikel hinzufügen` wird der Artikel der Bestellung hinzugefügt.
 
