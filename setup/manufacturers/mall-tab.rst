@@ -14,8 +14,8 @@ The :guilabel:`Mall` tab can be used to manage manufacturer assignments to subsh
 
 The inheritance of all manufacturers for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.
 
-:guilabel:`Assigned to following subshops` |br|
-Check or uncheck the appropriate box to assign/unassign a manufacturer to/from subshops and supershops. If the box is not checked, the manufacturer will be available in the parent shop but not in the respective subshop or supershop.
+:guilabel:`Assigned to following subshops`
+   Check or uncheck the appropriate box to assign/unassign a manufacturer to/from subshops and supershops. If the box is not checked, the manufacturer will be available in the parent shop but not in the respective subshop or supershop.
 
 Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the manufacturer to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 

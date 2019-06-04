@@ -74,6 +74,7 @@ code, .rst-content code{
 dl.docutils dd {
     margin-left: unset;
     margin-bottom: 24px;
+	line-height: 24px;
 }
 
 /* Screenshots standardmäßig mit Schatten */

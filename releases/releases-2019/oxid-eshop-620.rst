@@ -1,13 +1,13 @@
-OXID eShop 6.1.2
+OXID eShop 6.2.0
 ================
 
-Release date: 29/01/2019
+Release date: 29/10/2019
 
 -----------------------------------------------------------------------------------------
 
 General information
 -------------------
-OXID eShop 6.1.2 is provided as a compilation with the following components:
+OXID eShop 6.2.0 is provided as a compilation with the following components:
 
 * OXID eShop CE 6.3.2
 * OXID eShop PE 6.2.2

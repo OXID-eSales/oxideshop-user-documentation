@@ -14,9 +14,9 @@ The :guilabel:`Mall` tab is used to manage the assignment of a discount to subsh
 
 The inheritance of all discounts for a shop can be undone. To do this, uncheck the inheritance settings box in the :guilabel:`Mall` tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`.
 
-:guilabel:`Assigned to following subshops` |br|
-Check or uncheck the appropriate box to assign/unassign the discount to/from subshops and supershops. If the box is not checked, the discount will be available in the parent shop but not in the respective subshop or supershop.
+:guilabel:`Assigned to following subshops`
+   Check or uncheck the appropriate box to assign/unassign the discount to/from subshops and supershops. If the box is not checked, the discount will be available in the parent shop but not in the respective subshop or supershop.
 
-Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the discount to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
+   Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the discount to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 
 .. Intern: oxbahl, Status:, F1: discount_mall.html

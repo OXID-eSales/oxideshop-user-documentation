@@ -25,13 +25,13 @@ All reviews are listed with date and time in a selection box. The latest reviews
 
 You can save changes to the reviews or delete a review. Please make sure to only delete reviews that are not real (spam messages). Don’t delete negative reviews; instead, provide a response. In the long run, it will create trust when customers don’t only see positive reviews.
 
-:guilabel:`Active` |br|
-Check this box if you want the review to be displayed in the product’s detailed view.
+:guilabel:`Active`
+   Check this box if you want the review to be displayed in the product’s detailed view.
 
-:guilabel:`Posted from` |br|
-First and last name of the customer who submitted the review.
+:guilabel:`Posted from`
+   First and last name of the customer who submitted the review.
 
-:guilabel:`Text` |br|
-Text of the submitted review that can be edited. Click on :guilabel:`Save` to have the changes written to the database.
+:guilabel:`Text`
+   Text of the submitted review that can be edited. Click on :guilabel:`Save` to have the changes written to the database.
 
 .. Intern: oxbacr, Status:, F1: article_review.html

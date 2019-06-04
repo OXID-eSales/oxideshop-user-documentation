@@ -11,7 +11,7 @@ Defining alternative prices in the product management section
 * Specify alternative prices for the three user groups.  
 * Save the changes.  
 
-Users can be assigned to the user groups \"Price A\", \"Price B\"and \"Price C\"in two ways.
+Users can be assigned to the user groups \"Price A\", \"Price B\" and \"Price C\"in two ways.
 
 Assigning the user group to a single user
 

@@ -16,41 +16,41 @@ There is also a function that allows you to include new products in the order. E
 
 All products belonging to the order will be displayed in a table.
 
-:guilabel:`Quantity` |br|
-Quantity of the products ordered. This value can be changed in the input field. Click on :guilabel:`Update` to recalculate the price of the product and the total price of the order.
+:guilabel:`Quantity`
+   Quantity of the products ordered. This value can be changed in the input field. Click on :guilabel:`Update` to recalculate the price of the product and the total price of the order.
 
-:guilabel:`Prod.No.` |br|
-Unique product number.
+:guilabel:`Prod.No.`
+   Unique product number.
 
-:guilabel:`Title` |br|
-Displays the product title shortened to approx. twenty characters.
+:guilabel:`Title`
+   Displays the product title shortened to approx. twenty characters.
 
-:guilabel:`Type` |br|
-The selected variant. If the ordered product is a variant, the selected variant will be displayed here. An example of size and colour for a pair of jeans: W 32/L 34 | Blue.
+:guilabel:`Type`
+   The selected variant. If the ordered product is a variant, the selected variant will be displayed here. An example of size and colour for a pair of jeans: W 32/L 34 | Blue.
 
-:guilabel:`Parameter` |br|
-Product’s label. A label can be entered in a text box displayed during the order for customisable products.
+:guilabel:`Parameter`
+   Product’s label. A label can be entered in a text box displayed during the order for customisable products.
 
-:guilabel:`Short Description` |br|
-Product’s short description.
+:guilabel:`Short Description`
+   Product’s short description.
 
-:guilabel:`Gross` |br|
-Product’s unit price.
+:guilabel:`Gross`
+   Product’s unit price.
 
-:guilabel:`Total` |br|
-Product’s total price.
+:guilabel:`Total`
+   Product’s total price.
 
-:guilabel:`VAT` |br|
-Value-added tax included in the price as a percentage.
+:guilabel:`VAT`
+   Value-added tax included in the price as a percentage.
 
-Small buttons for deleting and cancelling products are located at the end of each table line. The :guilabel:`Update` button under the table is used to recalculate the prices and the order amount after any changes.
+   Small buttons for deleting and cancelling products are located at the end of each table line. The :guilabel:`Update` button under the table is used to recalculate the prices and the order amount after any changes.
 
 :guilabel:`Total` |br|
 :guilabel:`Total` displays the total price of the order with its individual items. You will see the product’s gross and net price, a discount granted, VAT, as well as the shipping costs and a fee associated with this payment method, if any.
 
-:guilabel:`Prod.No.` |br|
-Product number to search for.
+:guilabel:`Prod.No.`
+   Product number to search for.
 
-Click on :guilabel:`Search` to search for a product using the entered product number. If the product is found, its short description will be displayed in a drop-down list and the quantity in the corresponding input field. Click on :guilabel:`Add Product` to add the product to the order.
+   Click on :guilabel:`Search` to search for a product using the entered product number. If the product is found, its short description will be displayed in a drop-down list and the quantity in the corresponding input field. Click on :guilabel:`Add Product` to add the product to the order.
 
 .. Intern: oxbaef, Status:, F1: order_article.html

@@ -46,17 +46,17 @@ This setup page displays the license terms. Please familiarise yourself with the
 ------------------
 The fourth step of the setup process requires the data for the database you created.
 
-:guilabel:`Database server hostname or IP address` |br|
-You can leave localhost as the default value if the database and the web server are located on the same server. This is the standard procedure for most shops. If the database is outsourced, the hostname or IP address of the database server will need to be specified. If a port is required, it should be specified after the hostname and a colon (hostname:port).
+:guilabel:`Database server hostname or IP address`
+   You can leave localhost as the default value if the database and the web server are located on the same server. This is the standard procedure for most shops. If the database is outsourced, the hostname or IP address of the database server will need to be specified. If a port is required, it should be specified after the hostname and a colon (hostname:port).
 
-:guilabel:`Database name` |br|
-Enter the name of the database you created earlier.
+:guilabel:`Database name`
+   Enter the name of the database you created earlier.
 
-:guilabel:`Database username` and :guilabel:`Database password` |br|
-Enter the login data for the database.
+:guilabel:`Database username` and :guilabel:`Database password`
+   Enter the login data for the database.
 
-:guilabel:`Demodata` |br|
-You can decide whether you want to install the shop preconfigured with sample products. Demo data is recommended if you want to use a test installation to familiarise yourself with the shop first. You can always delete the demo data later on if you want to add your own products to the shop.
+:guilabel:`Demodata`
+   You can decide whether you want to install the shop preconfigured with sample products. Demo data is recommended if you want to use a test installation to familiarise yourself with the shop first. You can always delete the demo data later on if you want to add your own products to the shop.
 
 Click on :guilabel:`Create database now`. Certain configurations allow you to create the database directly so that you don’t have to create it manually beforehand. Since your database already exists, all required tables and data will now be stored in this database.
 
@@ -64,14 +64,14 @@ Click on :guilabel:`Create database now`. Certain configurations allow you to cr
 -----------------------------
 The next step of the setup process allows you to adjust the directory settings and define the login data for the shop’s Admin panel. The directories are automatically detected and suggested during setup. In most cases, you don’t need to change anything.
 
-:guilabel:`Shop URL` |br|
-Shows the URL under which your OXID eShop will be accessible.
+:guilabel:`Shop URL`
+   Shows the URL under which your OXID eShop will be accessible.
 
-:guilabel:`Directory for OXID eShop` |br|
-Generates the internal path to the shop on the server.
+:guilabel:`Directory for OXID eShop`
+   Generates the internal path to the shop on the server.
 
-:guilabel:`Directory for temporary data` |br|
-Names the directory where the shop's temporary files, e.g. for Smarty or SEO cache, are stored.
+:guilabel:`Directory for temporary data`
+   Names the directory where the shop's temporary files, e.g. for Smarty or SEO cache, are stored.
 
 You will also need to enter the administrator's email address and password. You can use this data to log in to the Admin panel after the setup has been completed. Make sure to keep this login data in a safe place.
 

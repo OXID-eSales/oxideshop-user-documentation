@@ -8,14 +8,14 @@ OXID eShop always sends newsletters in two formats: as an HTML email and as a pl
    :height: 343
    :width: 650
 
-:guilabel:`Title` |br|
-The name of the newsletter displayed in the shop’s Admin panel. It can also be used to search for the newsletter. The title is not used in the newsletter that is sent out.
+:guilabel:`Title`
+   The name of the newsletter displayed in the shop’s Admin panel. It can also be used to search for the newsletter. The title is not used in the newsletter that is sent out.
 
-:guilabel:`Subject line` |br|
-The subject line summarises the content of the newsletter. The subject should be brief and concise since it is the first thing the newsletter recipients see in their inbox. It determines whether they open the newsletter or move it directly to the trash. The subject line applies to both newsletter formats.
+:guilabel:`Subject line`
+   The subject line summarises the content of the newsletter. The subject should be brief and concise since it is the first thing the newsletter recipients see in their inbox. It determines whether they open the newsletter or move it directly to the trash. The subject line applies to both newsletter formats.
 
-:guilabel:`Sample` |br|
-The content of the newsletter can be easily entered in an editor. This works based on the WYSIWYG (What You See Is What You Get) principle, which means that the text is displayed the way it will be visible in the newsletter later. The editor lets you use different text formatting options and insert links and images.
+:guilabel:`Sample`
+   The content of the newsletter can be easily entered in an editor. This works based on the WYSIWYG (What You See Is What You Get) principle, which means that the text is displayed the way it will be visible in the newsletter later. The editor lets you use different text formatting options and insert links and images.
 
 When creating a newsletter in HTML format, it is important to know that most mail programs and webmails can render HTML, but there are no reliable standards. To be on the safe side, you should resort to the tried and tested techniques. We recommend that you work with tables, font tags, and inline CSS. However, CSS positioning via floats, videos, audios, forms and scripts should not be used in your newsletter. There are a lot of websites on the Internet that provide useful information on how to create and test HTML newsletters.
 

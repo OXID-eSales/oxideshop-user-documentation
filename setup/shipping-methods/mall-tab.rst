@@ -14,8 +14,8 @@ The :guilabel:`Mall` tab can be used to manage the assignments of shipping metho
 
 The inheritance of all shipping methods for a shop can be undone. To do this, uncheck the box :guilabel:`Inherit delivery information from parent shop` in the Mall tab of the subshop or supershop under :menuselection:`Master Settings --> Core Settings`. This will also remove the assignment to the inherited shipping cost rules.
 
-:guilabel:`Assigned to following subshops` |br|
-Check or uncheck the appropriate box to assign/unassign the shipping method to/from subshops and supershops. If the box is not checked, the shipping method will be available in the parent shop but not in the respective subshop or supershop.
+:guilabel:`Assigned to following subshops`
+   Check or uncheck the appropriate box to assign/unassign the shipping method to/from subshops and supershops. If the box is not checked, the shipping method will be available in the parent shop but not in the respective subshop or supershop.
 
 Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the shipping method to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 

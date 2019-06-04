@@ -12,8 +12,8 @@ Multishops can inherit all categories from all shops. This function can be found
    :height: 343
    :width: 650
 
-:guilabel:`Assigned to following subshops` |br|
-Check or uncheck the appropriate box to assign/unassign the category to/from subshops and supershops. If the box is not checked, the category will be available in the parent shop but not in the respective subshop or supershop.
+:guilabel:`Assigned to following subshops`
+   Check or uncheck the appropriate box to assign/unassign the category to/from subshops and supershops. If the box is not checked, the category will be available in the parent shop but not in the respective subshop or supershop.
 
 Use the :guilabel:`Select All` and :guilabel:`Select None` links on the right side of the window to assign/unassign the category to/from all shops. Any changes made must be saved and will immediately be effective for subshops or supershops.
 
