@@ -3,7 +3,7 @@
 
 Selection lists allow you to define typical product versions, such as a selection of colours, sizes or materials.
 
-Selection lists can be assigned to products directly. The product’s details page will have a drop-down list where customers can select the desired version. The selected version will be taken into account when buying the product, saved when placing an order and emailed to the customer and the shop owner. Selection lists can also be used to create real variants. They serve as a template that can be used for creating all resulting product’s variants.
+Selection lists can be assigned to products directly. The product’s details page will have a drop-down list where customers can select the desired version. The selected version will be taken into account when buying the product, saved when placing an order and e-mailed to the customer and the shop owner. Selection lists can also be used to create real variants. They serve as a template that can be used for creating all resulting product’s variants.
 
 Selection lists will only be visible on the product’s details page if the :guilabel:`Load Selection Lists` box under :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Perform.` tab has been checked. If you want a surcharge or discount to be taken into account when buying a product and calculated in the shopping cart, you will also need to check the :guilabel:`Support Price Modifications by Selection Lists` box. Check the :guilabel:`Load Selection Lists in Product Lists` box if you want to have the selection list displayed not only in the product’s detailed view. This setting allows you to display the product drop-down list in the category view or in search results.
 

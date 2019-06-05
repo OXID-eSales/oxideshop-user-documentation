@@ -17,6 +17,6 @@ You will see a request to provide full provider identification at the end of the
       [{ oxcontent ident="oxemailfooter" }]
    </p>
 
-There is also such a CMS page for the plain text email with the "oxemailfooterplain” ident. Both CMS pages should contain the About Us section so that the correct information about the online shop is sent to the recipients with newsletters and other emails.
+There is also such a CMS page for the plain text e-mail with the "oxemailfooterplain” ident. Both CMS pages should contain the About Us section so that the correct information about the online shop is sent to the recipients with newsletters and other e-mails.
 
 .. Intern: oxbaih, Status:, F1: newsletter_preview

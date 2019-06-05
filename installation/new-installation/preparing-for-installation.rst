@@ -18,7 +18,7 @@ Composer is required for the new installation of OXID eShop. Installation instru
 
 The shop files are provided by Composer. Depending on the shop edition, different commands have to be run in the shell. The shop files are stored in a subdirectory that is specified with :command:`your_project_name` in the command. This is based on the directory in which the command is run in the shell. Specify the :command:`--no-dev` parameter if the development-related files are not required.
 
-.. hint:: For the installation of Professional and Enterprise Edition, you will also need the login data that you received in the email for the current release.
+.. hint:: For the installation of Professional and Enterprise Edition, you will also need the login data that you received in the e-mail for the current release.
 
 Community Edition
 ^^^^^^^^^^^^^^^^^

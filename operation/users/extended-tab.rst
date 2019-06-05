@@ -15,10 +15,10 @@ The :guilabel:`Extended` tab allows you to store additional information about th
    Customer’s cell phone number.
 
 :guilabel:`Newsletter`
-   If customers want to receive newsletters from the shop, they can choose this option when buying a product or registering in the shop. This box will be checked after the customer clicks on a confirmation link received by email and activates the newsletter via the so-called double opt-in. The newsletter will be sent to the email address stored in the Main tab. Shop owners can use this checkbox to change newsletter subscription settings if needed. This function will also be disabled if the customer cancels the subscription.
+   If customers want to receive newsletters from the shop, they can choose this option when buying a product or registering in the shop. This box will be checked after the customer clicks on a confirmation link received by e-mail and activates the newsletter via the so-called double opt-in. The newsletter will be sent to the email address stored in the Main tab. Shop owners can use this checkbox to change newsletter subscription settings if needed. This function will also be disabled if the customer cancels the subscription.
 
 :guilabel:`Email adr. is invalid`
-   The newsletter can’t be sent if the customer has entered an incorrect email address when buying a product or registering in the shop. The shop owner will receive a corresponding error message from the mail system and will be able to use this checkbox to deactivate the sending of the newsletter. The indicated email address will still be used for other emails, such as shipping confirmation.
+   The newsletter can’t be sent if the customer has entered an incorrect e-mail address when buying a product or registering in the shop. The shop owner will receive a corresponding error message from the mail system and will be able to use this checkbox to deactivate the sending of the newsletter. The indicated e-mail address will still be used for other e-mails, such as shipping confirmation.
 
 :guilabel:`Credit Rating`
    This value represents the customer’s creditworthiness and determines what payment methods he/she can use in the shop. This allows the shop owner to specify that only certain customers can use payment methods, such as invoice or direct debit. By default, users are created with a credit rating of 1000.

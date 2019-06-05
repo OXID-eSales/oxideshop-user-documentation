@@ -1,9 +1,9 @@
 ﻿Main tab
 ========
 
-The :guilabel:`Main` tab contains important information about the user. This information is saved as soon as the user buys something in the shop for the first time, registers in the shop or subscribes to the newsletter. You don’t have to fill out all fields as only the email address, the first and last name, the address and the country are required by default when registering in the shop. When subscribing to the newsletter, only the email address is mandatory.
+The :guilabel:`Main` tab contains important information about the user. This information is saved as soon as the user buys something in the shop for the first time, registers in the shop or subscribes to the newsletter. You don’t have to fill out all fields as only the e-mail address, the first and last name, the address and the country are required by default when registering in the shop. When subscribing to the newsletter, only the e-mail address is mandatory.
 
-Users can also be created by clicking on :guilabel:`Create new User`. All relevant user data will need to be entered in the :guilabel:`Main` tab. You won’t be able to save the user data without entering an email address.
+Users can also be created by clicking on :guilabel:`Create new User`. All relevant user data will need to be entered in the :guilabel:`Main` tab. You won’t be able to save the user data without entering an e-mail address.
 
 .. image:: ../../media/screenshots/oxbadr01.png
    :alt: Users - Main tab
@@ -19,7 +19,7 @@ Users can also be created by clicking on :guilabel:`Create new User`. All releva
    Enterprise Edition also allows you to define administrators who only have access to a specific shop. The drop-down list will contain corresponding entries when there are more shops than just the main shop. However, users with the \"Admin\" right can work with all shops.
 
 :guilabel:`Email/Login`
-   This field contains the user’s email address. Manually created users can have any login assigned to them.
+   This field contains the user’s e-mail address. Manually created users can have any login assigned to them.
 
 :guilabel:`Customer No.`
    When a user is created, he/she gets assigned a consecutive customer number, starting with 1 by default. If you change the customer number of the last created user, the counting will continue from this customer number. The :guilabel:`Customer No.` field may only contain numerical values. Any other entries will cause the customer number to be set to zero.

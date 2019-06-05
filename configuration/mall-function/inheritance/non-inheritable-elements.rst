@@ -8,7 +8,7 @@ Non-inheritable elements are part of every subshop, supershop and multishop. The
    :height: 343
    :width: 650
 
-A new shop can be configured under :menuselection:`Master Settings --> Core Settings`. The settings can be adjusted separately for each shop - from the company information and email addresses to the various system settings, performance specifications and SEO settings. The :guilabel:`License` tab is the only one that contains the Enterprise Edition license key for all shops.
+A new shop can be configured under :menuselection:`Master Settings --> Core Settings`. The settings can be adjusted separately for each shop - from the company information and e-mail addresses to the various system settings, performance specifications and SEO settings. The :guilabel:`License` tab is the only one that contains the Enterprise Edition license key for all shops.
 
 Like promotions, CMS pages are non-inheritable elements. They are copied from the parent shop when you create the new shop and can be customised as required. For promotions, only the week’s special, just arrived, the category top offer, start page below (not active), the start page top offer and the top seller are copied as a template. The assigned products are not loaded and must be assigned separately. The content of promotions can only be changed in the main shop.
 

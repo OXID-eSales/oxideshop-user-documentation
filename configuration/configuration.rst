@@ -14,7 +14,7 @@ Company information
 
 Emails
 ------
-**Contents**: SMTP data, email addresses, subject lines for emails sent from the shop |br|
+**Contents**: SMTP data, e-mail addresses, subject lines for emails sent from the shop |br|
 :doc:`Read article <emails>` |link|
 
 Customer information

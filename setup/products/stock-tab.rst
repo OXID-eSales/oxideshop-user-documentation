@@ -1,7 +1,7 @@
 ﻿Stock tab
 =========
 
-OXID eShop has an integrated stock management system that shows the availability of products to customers and reduces stock with each order. The shop owner will be notified by email if the product’s stock falls below a specified number of items.
+OXID eShop has an integrated stock management system that shows the availability of products to customers and reduces stock with each order. The shop owner will be notified by e-mail if the product’s stock falls below a specified number of items.
 
 .. image:: ../../media/screenshots/oxback01.png
    :alt: Products - Stock tab
@@ -30,8 +30,8 @@ The stock is illustrated by a small icon and a status message in the product’s
 :guilabel:`Delivery time From` ... :guilabel:`to` ...
    Here, you can specify the product’s delivery time. If both values are used, the delivery time in the product’s detailed view will be displayed as a time span, e.g. delivery time: 2 - 5 Days. Without the first value, the delivery time will be displayed in the fixed format, e.g. delivery time: 5 Days. The delivery time can also be specified in weeks or months.
 
-:guilabel:`Send email if stock falls below the value`
-   Check this box and enter the desired value if you would like to be notified by email if the stock falls below a certain value.
+:guilabel:`Send e-mail if stock falls below the value`
+   Check this box and enter the desired value if you would like to be notified by e-mail if the stock falls below a certain value.
 
 :guilabel:`In-Stock Message`
    You can specify which text is displayed if the product is in or out of stock. If no text is specified, a default message will be displayed. You will need to first activate this feature in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Stock`.
