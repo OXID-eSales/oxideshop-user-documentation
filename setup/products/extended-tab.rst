@@ -44,7 +44,7 @@ You can change the product’s detailed view to present it differently from the 
 Example: The page/details/mydetails.tpl entry for the \"Flow\" theme would call the :file:`mydetails.tpl` template from the :file:`/application/views/flow/tpl/page/details` directory.
 
 :guilabel:`Alt. Contact` |br|
-By default, questions that customers can send via email through the product’s detailed view are sent to the email address specified under :menuselection:`Master Settings --> Core Settings`. If you have a direct contact person for a specific product, you will need to enter his/her email address here. All product-related enquiries will be sent directly to this employee.
+By default, questions that customers can send via e-mail through the product’s detailed view are sent to the e-mail address specified under :menuselection:`Master Settings --> Core Settings`. If you have a direct contact person for a specific product, you will need to enter his/her e-mail address here. All product-related enquiries will be sent directly to this employee.
 
 :guilabel:`Searchable` |br|
 This checkbox is selected by default so that customers can search for products in the shop. However, sometimes you might not want them to be able to search for a certain product in the shop, for example, if this is a free product that is added when they purchase something else. This needs to be done to prevent them from adding this product to the shopping cart multiple times.
@@ -63,7 +63,7 @@ If this box is checked, the product won’t be included in the shipping cost cal
 :guilabel:`Deactivate Price Alert` |br|
 Customers can use the price alert in the product’s detailed view by entering a price at which they would buy the product.
 
-Customer enquiries are collected under :menuselection:`Customer Info --> Price Alert` in the Admin panel. The shop owner can notify the customer by email, prepared by the shop, once the desired price has been reached. Use this field to turn off the price alert function for a specific product.
+Customer enquiries are collected under :menuselection:`Customer Info --> Price Alert` in the Admin panel. The shop owner can notify the customer by e-mail, prepared by the shop, once the desired price has been reached. Use this field to turn off the price alert function for a specific product.
 
 :guilabel:`Skip all negative Discounts (Discounts, Vouchers, Delivery ...)` |br|
 If this box is checked, no negative discounts, such as discounts and coupons, will be calculated for this product.

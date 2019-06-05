@@ -1,7 +1,7 @@
 ﻿Orders
 ======
 
-An order is created when the customer completes his/her purchase in the online shop by placing a payable order. The customer will see a thank you page and will immediately be informed about the order number. At the same time, the shop will send an order confirmation email, containing all important information, such as a list of ordered products, the total price with all individual items, the selected payment method, the billing address, and the shipping method. The shop owner will also be notified about the new order by email.
+An order is created when the customer completes his/her purchase in the online shop by placing a payable order. The customer will see a thank you page and will immediately be informed about the order number. At the same time, the shop will send an order confirmation e-mail, containing all important information, such as a list of ordered products, the total price with all individual items, the selected payment method, the billing address, and the shipping method. The shop owner will also be notified about the new order by e-mail.
 
 .. image:: ../../media/screenshots/oxbaeb01.png
    :alt: Orders

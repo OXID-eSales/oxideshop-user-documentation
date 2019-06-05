@@ -32,7 +32,7 @@ Extended tab
 
 Stock tab
 ---------
-**Contents**: stock, external storehouse, product sold out, offline or not orderable, delivery time, product back in stock, product in stock, product out of stock, email about stock, messages about stock, scale prices, quantity, quantity discount |br|
+**Contents**: stock, external storehouse, product sold out, offline or not orderable, delivery time, product back in stock, product in stock, product out of stock, e-mail about stock, messages about stock, scale prices, quantity, quantity discount |br|
 :doc:`Read article <stock-tab>` |link|
 
 Mall tab

@@ -12,9 +12,9 @@ Company information
 **Contents**: company name, company address, bank details, legal and tax information, shop name |br|
 :doc:`Read article <company-information>` |link|
 
-Emails
-------
-**Contents**: SMTP data, email addresses, subject lines for emails sent from the shop |br|
+E-mails
+-------
+**Contents**: SMTP data, e-mail addresses, subject lines for e-mails sent from the shop |br|
 :doc:`Read article <emails>` |link|
 
 Customer information

@@ -73,11 +73,11 @@ Generates the internal path to the shop on the server.
 :guilabel:`Directory for temporary data` |br|
 Names the directory where the shop's temporary files, e.g. for Smarty or SEO cache, are stored.
 
-You will also need to enter the administrator's email address and password. You can use this data to log in to the Admin panel after the setup has been completed. Make sure to keep this login data in a safe place.
+You will also need to enter the administrator's e-mail address and password. You can use this data to log in to the Admin panel after the setup has been completed. Make sure to keep this login data in a safe place.
 
 |schritt| License
 -----------------
-This is where shop owners with Enterprise or Professional Edition can enter the license key they received when they purchased OXID eShop. The license key can be found on the receipt sent to you by email. Next, click on :guilabel:`Save license key`.
+This is where shop owners with Enterprise or Professional Edition can enter the license key they received when they purchased OXID eShop. The license key can be found on the receipt sent to you by e-mail. Next, click on :guilabel:`Save license key`.
 
 |schritt| Finish
 ----------------

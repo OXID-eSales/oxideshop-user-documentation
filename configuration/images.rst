@@ -7,11 +7,11 @@ Information on image generation and the directory structure of product images st
 
 Image generation and quality
 ----------------------------
-The settings required for image generation and image sizes for all products can be found in the Admin panel. Go to :menuselection:`Master Settings --> Core Settings`, :guilabel:`Settings` tab and click on :guilabel:`Pictures` to view the settings. The first setting is “Installed GDLib Version”, a server software for the dynamic generation of graphics. Version 2 is the latest version. You can also see that the automatic generation of icons is activated. Leave these settings unchanged.
+The settings required for image generation and image sizes for all products can be found in the Admin panel. Go to :menuselection:`Master Settings --> Core Settings`, :guilabel:`Settings` tab and click on :guilabel:`Pictures` to view the settings. The first setting is "Installed GDLib Version", a server software for the dynamic generation of graphics. Version 2 is the latest version. You can also see that the automatic generation of icons is activated. Leave these settings unchanged.
 
 There is also a small :guilabel:`Pictures` section in the :guilabel:`System` tab. Specifying the image quality is important for image generation. The default setting is 75, which is a good compromise between the image quality and the file size. At a much smaller value, product images will be highly compressed, having a small file size but a poor image quality (blurring and compression artefacts). If the value is greater than 75, the image quality will increase, but the file size will also (longer loading times).
 
-The option :guilabel:`Send emails with inline Images` has nothing to do with image generation. With this setting selected, product images will be sent in emails, which means that the email that will be sent as order confirmation or the newsletter will contain product images. This will lead to larger email sizes which may cause problems when sending and receiving emails. By default, emails are sent without product images. Product images will be downloaded by the customer's mail program upon reading the email.
+The option :guilabel:`Send e-mails with inline Images` has nothing to do with image generation. With this setting selected, product images will be sent in e-mails, which means that the e-mail that will be sent as order confirmation or the newsletter will contain product images. This will lead to larger e-mail sizes which may cause problems when sending and receiving e-mails. By default, e-mails are sent without product images. Product images will be downloaded by the customer's mail program upon reading the e-mail.
 
 Image sizes
 -----------

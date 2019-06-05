@@ -11,7 +11,7 @@ In addition, you will see a brief summary of the orders placed on this day and a
    :width: 650
 
 :guilabel:`Billing Address` |br|
-Displays the address to which the invoice for the order should be sent. The customer provides this address during registration in the shop or when buying something without registration. In addition, the customer's email address will be displayed as a link. Clicking on it opens a new email that you can use to send an invoice to the customer, for example.
+Displays the address to which the invoice for the order should be sent. The customer provides this address during registration in the shop or when buying something without registration. In addition, the customer's e-mail address will be displayed as a link. Clicking on it opens a new e-mail that you can use to send an invoice to the customer, for example.
 
 :guilabel:`Shipping Address` |br|
 Customers can specify or select a shipping address when placing an order if the products needs to be sent to an address other than the billing address. In this case, the shipping address will be displayed next to the billing address.
@@ -52,7 +52,7 @@ Displays the number of orders and the order amount of the current day. This info
 When products are sent to the buyer, the shop owner can document the shipment in the order details. Clicking on :guilabel:`Ship Now` changes the order status and the :guilabel:`Order not shipped yet` note. You will see a message confirming the shipment and stating the shipment’s date and time instead. In addition, the :guilabel:`Reset Shipping Date` button will be displayed. You can use it to reset the previous shipping date and resent the products with the current date.
 
 :guilabel:`Send e-mail?` |br|
-If the :guilabel:`Send e-mail?` box is checked, the customer will be informed about the shipment by email. The email will contain the shipping address, the order number and a list of the products shipped with the link to review them. If a tracking code has been entered in the shipping information in the :guilabel:`Main` tab, a tracking link will take the customer directly to the DPD Germany website.
+If the :guilabel:`Send e-mail?` box is checked, the customer will be informed about the shipment by e-mail. The e-mail will contain the shipping address, the order number and a list of the products shipped with the link to review them. If a tracking code has been entered in the shipping information in the :guilabel:`Main` tab, a tracking link will take the customer directly to the DPD Germany website.
 
 .. seealso:: :doc:`Main tab <../users/main-tab>` | `Hexadecimal colour definition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Defining colours in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_
 

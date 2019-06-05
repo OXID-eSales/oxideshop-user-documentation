@@ -21,6 +21,6 @@ Use the drop-down list to select a language in which you want to edit the name o
 Clicking on this button will make the user group available for another language selected in the drop-down list. If the user group has been copied to all of the shop’s languages, the button and the corresponding drop-down list will no longer be displayed.
 
 :guilabel:`Assign Users` |br|
-Clicking on this button will open the assignment window with the two lists - :guilabel:`All Users` and :guilabel:`User Group Members` - displayed. User groups can be filtered and sorted by email/login. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
+Clicking on this button will open the assignment window with the two lists - :guilabel:`All Users` and :guilabel:`User Group Members` - displayed. User groups can be filtered and sorted by e-mail/login. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
 
 .. Intern: oxbaea, Status:, F1: usergroup_main.html

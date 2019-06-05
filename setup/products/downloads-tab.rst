@@ -3,7 +3,7 @@
 
 With OXID eShop 4.6.0, we have introduced a new product type: the downloadable product. This allows you to offer any files, such as software, photos, music files or document templates, to your customers. When the customer places a downloadable product in the shopping cart, he/she will receive all the associated files.
 
-After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the customer used direct debit or credit card as a payment method, he/she will be able to download the files immediately. The order confirmation email will also contain the download links to the ordered files when the payment is complete.
+After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the customer used direct debit or credit card as a payment method, he/she will be able to download the files immediately. The order confirmation e-mail will also contain the download links to the ordered files when the payment is complete.
 
 .. image:: ../../media/screenshots/oxbacq01.png
    :alt: Products - Downloads tab
