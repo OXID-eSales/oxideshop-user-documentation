@@ -5,7 +5,7 @@ Im Administrationsbereich des OXID eShop lassen sich alle Einstellungen für das
 
 .. image:: ../../media/screenshots/oxbacd01.png
    :alt: Registerkarte Caching
-   :height: 319
+   :height: 343
    :width: 650
 
 Default Cache Backend
@@ -32,6 +32,11 @@ Der Default Cache kann auch komplett gelöscht werden.
 Dynamic Content Caching
 -----------------------
 In diesem Abschnitt finden Sie die Einstellungen zum Dynamic Content Caching, welches bisher die einzige Art des Cachings in der Enterprise Edition war. Eine Tabelle gibt eine Übersicht über die vom Cache angeforderten Daten, beispielsweise über Cache Hits für Daten, die sich im Cache befinden oder Cache Miss für Daten, die im Cache nicht mehr vorhanden sind.
+
+.. image:: ../../media/screenshots/oxbacd02.png
+   :alt: Registerkarte Caching
+   :height: 343
+   :width: 650
 
 Bitte verwenden Sie Dynamic Content Caching nicht zusammen mit einem Reverse Proxy, da beide Methoden im Wesentlichen Seiten und dynamische Inhalte zwischenspeichern. Das könnte die Performance negativ beeinflussen.
 
