@@ -36,12 +36,9 @@ Die ausgelieferte Datei :file:`default.vcl` enthält die Konfiguration für Varn
 
 Wenn dieses Verhalten in Ihrem Shop auftritt und Sie nicht auf die neuere Version von Varnish aktualisieren können, versuchen Sie den folgenden Workaround. Dieser wurde nicht explizit getestet, deshalb prüfen Sie das Verhalten des Shops gründlich, bevor die Änderung in die Produktivumgebung übernommen wird.
 
-Ersetzen Sie in der Konfigurationsdatei :file:`default.vcl` die Zeile 463
-
+Ersetzen Sie in der Konfigurationsdatei :file:`default.vcl` die Zeile 463 |br|
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@][^,|$]+\",\"\");``
-
-durch diese Zeile
-
+durch diese Zeile |br|
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@]\",\"\");``
 
 Konfigurationsdateien
