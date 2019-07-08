@@ -50,22 +50,10 @@ Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese D
 :command:`/etc/init.d/varnish restart` |br|
 :command:`/etc/init.d/apache2 start`
 
-Anpassung der Konfiguration für OXID eShop Mobile Theme
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Wenn Sie OXID eShop Mobile Theme einsetzen, müssen Sie die Konfigurationsdatei :file:`default.vcl` des Reverse Proxy anpassen. Alle dafür notwendigen Einträge finden Sie in der Datei :file:`device.vcl`, welche dem Installationspaket beiliegt.
-
-* Kopieren Sie den Inhalt der Datei :file:`device.vcl`.
-* Öffnen Sie Varnish's Konfigurationsdatei :file:`default.vcl`, die standardmäßig im Verzeichnis :file:`/etc/varnish` gespeichert ist.
-* Suchen Sie nach der Funktion ``oxDefineDeviceTypeRecv`` und ersetzen Sie den Inhalt durch den kopierten Code-Schnipsel.
-* Ist die Funktion nicht vorhanden, fügen Sie diese hinzu.
-* Suchen Sie nun nach der Funktion ``vcl_recv``.
-* Prüfen Sie, ob folgende Zeile enthalten ist: ``call oxDefineDeviceTypeRecv;``
-* Fehlt diese Zeile, fügen Sie diese hinzu.
-* Starten Sie Varnish neu.
-
 SSL-Verschlüsselung
 ^^^^^^^^^^^^^^^^^^^
 Varnish verarbeitet Anfragen aus dem Web, die das HTTP-Protokoll verwenden. Verschlüsselte Anfragen mit HTTPS-Protokoll können durch den Reverse Proxy nicht umgesetzt werden. Da der OXID eShop auf SSL-Verschlüsselung umschalten kann, sobald Benutzerdaten übertragen werden, beispielsweise bei Registrierung, Anmeldung oder im Warenkorb, muss dafür eine separate Lösung geschaffen werden. Es gibt dafür aktuell zwei Möglichkeiten. Zum einen können Anfragen mit HTTPS-Protokoll direkt an den Server mit dem OXID eShop gesendet werden. Das muss mit Server-Tools umgesetzt werden. Zum anderen kann ein Load Balancer eingesetzt werden, welcher Anfragen über HTTP, Port 80 an Varnish und über HTTPS, Port 443 direkt zum OXID eShop leitet.
+
 
 .. Intern: oxbacb, Status:
 .. ToDo: Composer-Aufruf für die Konfigurationsdateien
