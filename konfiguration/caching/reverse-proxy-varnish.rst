@@ -15,9 +15,13 @@ Die Verarbeitung durch Varnish basiert auf der Aufteilung der einzelnen Seiten d
 
 Um den Reverse Proxy Varnish für das Caching des OXID eShop nutzen zu können, muss Varnish auf einem separaten Server installiert und konfiguriert werden.
 
+-------------------------------------------------
+
 Installation
 ------------
 Installieren Sie Varnish auf einem Server. Die Software und die Anleitung zur Installation erhalten Sie auf der Website des Herstellers: `http://www.varnish-cache.org <http://www.varnish-cache.org/>`_ .
+
+-------------------------------------------------
 
 Konfiguration
 -------------
