@@ -43,7 +43,21 @@ durch diese Zeile
 
 Konfigurationsdateien
 ^^^^^^^^^^^^^^^^^^^^^
-Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können mit Composer aus einem Repository auf GitHub gezogen werden. Auf dieses geschützte Repository kann mit dem Passwort zugegriffen werden, das Shopbetreiber beim Kauf der Hochlastoption erhalten haben. Sollten Probleme auftreten, wenden Sie sich bitte an den Technischen Support.
+Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können mit Composer aus einem Repository auf GitHub gezogen werden. Das Paket wird von unserem Satis-Server bereitgestellt. Um es herunterzuladen, müssen per Konsole folgende Composer-Kommando im Hauptverzeichnis des Shops ausgeführt werden:
+
+.. code::
+
+  composer global config repositories.oxid-esales/varnish-configuration \
+    composer https://varnish.packages.oxid-esales.com/
+
+  composer global require oxid-esales/varnish-configuration:^v4.0.0
+
+Auf dieses geschützte Repository kann mit dem Passwort zugegriffen werden, das Shopbetreiber beim Kauf der Hochlastoption erhalten haben. Sollten Probleme auftreten, wenden Sie sich bitte an den Technischen Support.
+
+Im Verzeichnis :file:`/vendor/oxid-esales/varnish-configuration/` befinden sich danach die Dateien :file:`default.vcl` und :file:`servers_conf.vcl.dist`. Benennen Sie die Datei :file:`servers_conf.vcl.dist` in :file:`servers_conf.vcl` um und ersetzen Sie darin folgende Platzhalter:
+
+* <my_shop_hostname> - IP/Hostname des Backend-Servers vom Shop
+* <my_shop_IP> - IP des Nodes, der den Cache löschen darf
 
 Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese Dateien in Ihrem System bereits angepasst, müssen Sie die Inhalte der Dateien manuell zusammenführen. Starten Sie danach Apache und Varnish neu.
 
@@ -55,5 +69,5 @@ SSL-Verschlüsselung
 ^^^^^^^^^^^^^^^^^^^
 Varnish verarbeitet Anfragen aus dem Web, die das HTTP-Protokoll verwenden. Verschlüsselte Anfragen mit HTTPS-Protokoll können durch den Reverse Proxy nicht umgesetzt werden. Da der OXID eShop auf SSL-Verschlüsselung umschalten kann, sobald Benutzerdaten übertragen werden, beispielsweise bei Registrierung, Anmeldung oder im Warenkorb, muss dafür eine separate Lösung geschaffen werden. Es gibt dafür aktuell zwei Möglichkeiten. Zum einen können Anfragen mit HTTPS-Protokoll direkt an den Server mit dem OXID eShop gesendet werden. Das muss mit Server-Tools umgesetzt werden. Zum anderen kann ein Load Balancer eingesetzt werden, welcher Anfragen über HTTP, Port 80 an Varnish und über HTTPS, Port 443 direkt zum OXID eShop leitet.
 
+
 .. Intern: oxbacb, Status:
-.. ToDo: Composer-Aufruf für die Konfigurationsdateien
