@@ -33,21 +33,18 @@ Die Konfigurationsdatei :file:`servers_conf.vcl` enthält Hostnamen und IPs der 
 
 Varnish ab Version 4.0.3
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Varnish Version 3.0 wird nicht mehr länger unterstützt, da die Software bereits seit April 2015 den Status End Of Life (EOL) erreicht hat. Die jetzt ausgelieferte Datei :file:`default.vcl` enthält die Konfiguration für Varnish ab Version 4.0.3. Bitte setzen Sie nicht die Versionen 4.0.0, 4.0.1 und 4.0.2 ein, da diese Probleme in der Behandlung von Cookies hatten, die dazu führten, dass Artikel nicht in den Warenkorb gelegt und Kunden sich nicht an den Shop anmelden konnten.
+Die ausgelieferte Datei :file:`default.vcl` enthält die Konfiguration für Varnish ab Version 4.0.3. Bitte setzen Sie nicht die Versionen 4.0.0, 4.0.1 und 4.0.2 ein, da diese Probleme in der Behandlung von Cookies hatten, die dazu führten, dass Artikel nicht in den Warenkorb gelegt und Kunden sich nicht an den Shop anmelden konnten.
 
-Wenn dieses Verhalten in Ihrem Shop auftritt und Sie nicht auf die neueste Version von Varnish aktualisieren können, versuchen Sie den folgenden Workaround. Dieser wurde nicht explizit getestet, deshalb prüfen Sie das Verhalten des Shops gründlich, bevor die Änderung in die Produktivumgebung übernommen wird.
+Wenn dieses Verhalten in Ihrem Shop auftritt und Sie nicht auf die neuere Version von Varnish aktualisieren können, versuchen Sie den folgenden Workaround. Dieser wurde nicht explizit getestet, deshalb prüfen Sie das Verhalten des Shops gründlich, bevor die Änderung in die Produktivumgebung übernommen wird.
 
-Ersetzen Sie in der Konfigurationsdatei :file:`default.vcl` die Zeile 463
-
+Ersetzen Sie in der Konfigurationsdatei :file:`default.vcl` die Zeile 463 |br|
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@][^,|$]+\",\"\");``
-
-durch diese Zeile
-
+durch diese Zeile |br|
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@]\",\"\");``
 
 Konfigurationsdateien
 ^^^^^^^^^^^^^^^^^^^^^
-Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können mit Composer aus einem Repository auf GitHub gezogen werden. Das Paket wird von unserem Satis-Server bereitgestellt. Um es herunterzuladen, müssen per Konsole folgende Composer-Kommando im Hauptverzeichnis des Shops ausgeführt werden:
+Die beiden Konfigurationsdateien :file:`default.vcl` und :file:`servers_conf.vcl` für die Konfiguration des Reverse Proxys können mit Composer aus einem Repository auf GitHub gezogen werden. Das Paket wird von unserem Satis-Server bereitgestellt. Um es herunterzuladen, müssen per Konsole folgende Composer-Kommandos im Hauptverzeichnis des Shops ausgeführt werden:
 
 .. code::
 
@@ -60,8 +57,8 @@ Auf dieses geschützte Repository kann mit dem Passwort zugegriffen werden, das 
 
 Im Verzeichnis :file:`/vendor/oxid-esales/varnish-configuration/` befinden sich danach die Dateien :file:`default.vcl` und :file:`servers_conf.vcl.dist`. Benennen Sie die Datei :file:`servers_conf.vcl.dist` in :file:`servers_conf.vcl` um und ersetzen Sie darin folgende Platzhalter:
 
-* <my_shop_hostname> - IP/Hostname des Backend-Servers vom Shop
-* <my_shop_IP> - IP des Nodes, der den Cache löschen darf
+* ``<my_shop_hostname>`` - IP/Hostname des Backend-Servers vom Shop
+* ``<my_shop_IP>`` - IP des Nodes, der den Cache löschen darf
 
 Kopieren Sie die Dateien in das Verzeichnis :file:`/etc/varnish`. Wurden diese Dateien in Ihrem System bereits angepasst, müssen Sie die Inhalte der Dateien manuell zusammenführen. Starten Sie danach Apache und Varnish neu.
 
