@@ -25,6 +25,8 @@ OXID eShop 6.1.4 is provided as a compilation with the following components:
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.3...v6.1.4>`_.
 
+With OXID eShop 6.1.4, we have resolved a security issue: with a specially crafted URL, an attacker would be able to gain full access to the administration panel. Details on the security issue can be found on the following page of OXIDforge: `Security Bulletin 2019-001 <https://oxidforge.org/en/security-bulletin-2019-001.html>`_. We recommend a quick update to this shop version. For instructions on updating the shop, see `Installing updates <https://docs.oxid-esales.com/eshop/en/6.1/installation/installing-updates/installing-updates.html>`_.
+
 System requirements
 ^^^^^^^^^^^^^^^^^^^
 OXID eShop 6.1.4 runs under PHP 7.0 and 7.1. The supported database is MySQL version 5.5 or 5.7. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Apache 2.2 or 2.4 can be used as a web server on a Linux system.
@@ -67,4 +69,4 @@ https://bugs.oxid-esales.com/changelog_page.php?version_id=504
 
 Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.3.3...v6.3.5. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
-.. Intern: oxbaip, Status: transL
+.. Intern: oxbair, Status: transL
