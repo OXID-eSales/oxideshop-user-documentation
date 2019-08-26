@@ -20,9 +20,17 @@ Um Artikel für das Cross-Selling zu verbinden, betätigen Sie die Schaltfläche
 
 .. image:: ../../media/screenshots/oxbacn02.png
    :alt: Crosssellings zuordnen
-   :height: 325
+   :height: 300
    :width: 400
 
 Ein zweites Zuordnungsfenster wird mit der Schaltfläche :guilabel:`Zubehör zuordnen` geöffnet. Auch hier werden in der linken Liste alle Artikel angezeigt und lassen sich wie beschrieben filtern. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit als Zubehör zugewiesen. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+
+.. image:: ../../media/screenshots/oxbacn03.png
+   :alt: Zubehör zuordnen und sortieren
+   :height: 295
+   :width: 400
+
+Die Reihenfolge der zugeordneten Artikel lässt sich einfach ändern. Nachdem ein Artikel in der rechten Liste markiert wurde, kann dieser mit den jetzt angezeigten Minischaltflächen nach oben oder unten verschoben werden.
+
 
 .. Intern: oxbacn, Status:, F1: article_crossselling.html
