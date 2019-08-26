@@ -20,9 +20,17 @@ Click on :guilabel:`Assign Crosssellings` to link products for cross-selling. Th
 
 .. image:: ../../media/screenshots/oxbacn02.png
    :alt: Assign Crosssellings
-   :height: 324
+   :height: 302
    :width: 400
 
 Clicking on :guilabel:`Assign Accessories` opens the second assignment window. Here too, all products will be displayed in the left-hand list and can be filtered as described. They can be dragged and dropped into the right-hand list and assigned as accessories. Hold down the Ctrl key to select multiple accessories.
 
-.. Intern: oxbacn, Status:, F1: article_crossselling.html
+.. image:: ../../media/screenshots/oxbacn03.png
+   :alt: Assign and sort accessories
+   :height: 294
+   :width: 400
+
+The order of the assigned products can be easily changed. Once an item has been highlighted in the right list, it can be moved up or down using the mini buttons that are now displayed.
+
+
+.. Intern: oxbacn, Status:, F1: article_crossselling.html, transL
