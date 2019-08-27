@@ -5,7 +5,9 @@ Zahlung und Versand sind wichtige Funktionen in einem Online-Shop. Sie werden du
 
 Kunden, die in Ihrem Shop einkaufen, können im dritten Bestellschritt auswählen, wie sie zahlen wollen. Die Auswahl der Zahlungsarten hängt davon ab, ob es eine Zahlungsart für das Land gibt, aus dem ein Kunde bestellt. Er sollte auch zu einer Benutzergruppe gehören, für welche diese Zahlungsart gilt.
 
-Alle erforderlichen Einstellungen können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Zahlungsarten` vorgenommen werden. In einer Liste werden alle Zahlungsarten mit ihrem Namen ausgegeben. Darunter befindet sich der Eingabebereich für die Zahlungsart. Nach Zahlungsarten kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Zahlungsarten, die neu erstellt wurden, können auch gelöscht werden. Durch einen Klick auf das Löschsymbol am Ende der Zeile werden sie endgültig aus der Datenbank entfernt. Die im Shop vorhandenen Zahlungsarten können nur deaktiviert werden, wenn sie nicht verwendet werden sollen.
+Alle erforderlichen Einstellungen können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Zahlungsarten` vorgenommen werden. In einer Liste werden alle Zahlungsarten mit ihrem Namen ausgegeben. Darunter befindet sich der Eingabebereich für die Zahlungsart. Nach Zahlungsarten kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Zahlungsarten können in der Listenansicht nach aktiv/nicht aktiv und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Zahlungsarten werden dadurch in aufsteigender Reihenfolge angezeigt.
+
+Zahlungsarten, die neu erstellt wurden, können auch gelöscht werden. Durch einen Klick auf das Löschsymbol am Ende der Zeile werden sie endgültig aus der Datenbank entfernt. Die im Shop vorhandenen Zahlungsarten können nur deaktiviert werden, wenn sie nicht verwendet werden sollen.
 
 Wird eine Zahlungsart aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Zahlungsart klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Zahlungsart anlegen`.
 
@@ -44,5 +46,6 @@ Registerkarte RDFa
 :doc:`Artikel lesen <registerkarte-rdfa>` |link|
 
 .. seealso:: :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Versandkostenregeln <../versandkostenregeln/versandkostenregeln>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
+
 
 .. Intern: oxbacz, Status:

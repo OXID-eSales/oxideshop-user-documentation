@@ -18,7 +18,7 @@ Mit Auswahllisten allein lassen sich lediglich unterschiedliche Preise abbilden.
 
 Auswahllisten können im Administrationsbereich unter :menuselection:`Artikel verwalten --> Auswahllisten` bearbeitet werden. Es gibt eine Liste der Auswahllisten und darunter den Eingabebereich für die Auswahllisten.
 
-Alle erstellten Auswahllisten werden in alphabetischer Reihenfolge angezeigt. Nach Auswahllisten kann gesucht werden, indem das Suchfeld für deren Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"a\" ein, würden Ihnen die Auswahllisten \"Farbe\" und \"Material\" angezeigt.
+Alle erstellten Auswahllisten werden in alphabetischer Reihenfolge angezeigt. Nach Auswahllisten kann gesucht werden, indem das Suchfeld für deren Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"a\" ein, würden Ihnen die Auswahllisten \"Farbe\" und \"Material\" angezeigt. Auswahllisten können in der Listenansicht nach Titel und Arbeitstitel sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Auswahllisten werden dadurch in aufsteigender Reihenfolge angezeigt.
 
 Auswahllisten lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
 
