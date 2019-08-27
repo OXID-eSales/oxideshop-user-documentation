@@ -18,7 +18,7 @@ Selection lists alone can only be used to represent different prices. A surcharg
 
 Selection lists can be edited in the Admin panel under :menuselection:`Administer Products --> Selection Lists`. You will see a list of selection lists and the respective input area below.
 
-All created selection lists are displayed in alphabetical order. You can search for selection lists by using the search field and the magnifying glass icon. For example, if you type \"r\" in the search box, you will see the \"Colour\" and \"Material\" selection lists displayed in the list.
+All created selection lists are displayed in alphabetical order. You can search for selection lists by using the search field and the magnifying glass icon. For example, if you type \"r\" in the search box, you will see the \"Colour\" and \"Material\" selection lists displayed in the list. Selection lists can be sorted in the list view by title or working title by clicking on the respective column heading. The selection lists are thereby displayed in ascending order.
 
 Selection lists can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
@@ -39,4 +39,5 @@ Available only in Enterprise Edition |br|
 
 .. seealso:: :doc:`Products <../products/products>` | :doc:`Products - Selection tab <../products/selection-tab>` | :doc:`Products - Variants tab <../products/variants-tab>`
 
-.. Intern: oxbafi, Status:
+
+.. Intern: oxbafi, Status: transL
