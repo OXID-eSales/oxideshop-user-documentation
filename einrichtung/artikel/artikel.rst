@@ -13,6 +13,8 @@ Artikel können im Administrationsbereich unter :menuselection:`Artikel verwalte
 
 In der Artikelliste symbolisiert ein kleines grünes Quadrat am Anfang der Zeile einen aktiven Artikel. Wurde ein Artikel nicht aktiviert, fehlt dieses Symbol. Die Artikelliste zeigt die Artikelnummer, den Artikeltitel und die Kurzbeschreibung des Artikels. Nach Artikeln kann gesucht werden, indem Suchfelder und/oder Filter für Kategorien und Artikeleigenschaften verwendet werden. Geben Sie beispielsweise in das Suchfeld Art.-Nr. die Zahl 13 ein, so bekommen Sie alle Artikel aufgelistet, bei denen 13 in der Artikelnummer vorkommt. In den Demodaten sind das Kiteboards mit den Artikelnummern 1301, 1302, 1303 und 1304.
 
+Artikel können in der Artikelliste nach aktiv/nicht aktiv, Artikelnummer, Titel oder Kurzbeschreibung sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Artikel werden dadurch in aufsteigender Reihenfolge angezeigt.
+
 Artikel lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Wollen Sie einen Artikel nur zeitweise aus dem Shop nehmen, weil er derzeit nicht lieferbar ist, setzen Sie ihn auf inaktiv. Der Vorteil dabei ist, dass der Artikel nicht wieder neu angelegt werden muss, sobald er wieder auf Lager ist.
 
 Wird ein Artikel aus der Artikelliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Artikels klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuen Artikel anlegen`.
@@ -87,5 +89,6 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
+
 
 .. Intern: oxbach, Status:
