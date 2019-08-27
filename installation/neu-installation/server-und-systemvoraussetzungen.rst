@@ -3,7 +3,7 @@
 
 Der OXID eShop kann auf verschiedenen Server-Systemen betrieben werden. Die Wahl eines passenden Hosting-Paketes hängt beispielsweise von der Anzahl der Artikel, der erwarteten Besucher im Shop und von der Anzahl der Bestellungen ab. Genügt für einen kleinen Shop mit einigen hundert Artikeln, wenigen Besuchern im Monat und einem überschaubaren Bestellvolumen ein Shared Hosting-System, sollte für größere Shops ein Managed Server-System gewählt werden. Bei steigender Last ist der Betrieb einer Serverfarm mit Loadbalancing und einem Datenbankcluster in Betracht zu ziehen. Beratung und Unterstützung bei der Auswahl des geeigneten Systems finden Sie bei unseren `OXID Partnern (Hosting) <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_. Diese stellen speziell auf den OXID eShop zugeschnittene Lösungen bereit.
 
-Für den Betrieb des OXID eShop Version 6 müssen die unten stehenden Systemvoraussetzungen erfüllt sein. Es gibt einige Änderungen gegenüber den Systemvoraussetzungen für die Shopversionen 4 und 5. Dazu gehören die unterstützten Versionen für den Webserver Apache, für die MySQL-Datenbank und für die serverseitige Script- und Programmiersprache PHP.
+Für den Betrieb des OXID eShop Version 6 müssen die unten stehenden Systemvoraussetzungen erfüllt sein.
 
 Webserver
 ---------
@@ -29,7 +29,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP Versionen 7.0 und 7.1
+* PHP Versionen 7.1 und 7.2
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte dektiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
@@ -61,5 +61,6 @@ OpenSSL
 Für die zu einer Compilation gehörenden Module wird OpenSSL benötigt.
 
 * *openssl* >= 1.0.1
+
 
 .. Intern: oxbaac, Status:

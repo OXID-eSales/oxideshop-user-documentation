@@ -45,13 +45,16 @@ Das Hauptverzeichnis muss nun in ein Verzeichnis verschoben werden, auf das der 
 |schritt| Datei- und Verzeichnisrechte anpassen
 -----------------------------------------------
 
-Der HTTP-Server benötigt zur Laufzeit Schreibzugriff auf folgende Verzeichnisse und ihre Unterverzeichnisse:
+Der HTTP-Server benötigt zur Laufzeit Lese- und Schreibzugriff für folgende Verzeichnisse und ihre Unterverzeichnisse:
 
 :file:`/source/export` |br|
 :file:`/source/log/` |br|
 :file:`/source/out/pictures/` |br|
 :file:`/source/out/media/` |br|
-:file:`/source/tmp/`
+:file:`/source/tmp/` |br|
+:file:`/var/`
+
+Zusätzlich benötigt auch der CLI-Benutzer (Command Line Interface) Lese- und Schreibzugriff für das Verzeichnis :file:`/var/`.
 
 Für das webbasierte Setup muss der HTTP-Server auf folgendes Verzeichnis und diese Dateien schreibend zugreifen können:
 
@@ -65,5 +68,6 @@ Für das webbasierte Setup muss der HTTP-Server auf folgendes Verzeichnis und di
 Der OXID eShop benötigt eine MySQL-Datenbank, um darin alle Artikel, Kategorien, Kunden- und Bestelldaten sowie weitere Informationen speichern zu können. Die meisten Webhoster bieten Datenbankzugriff über eine spezielle Website, wie beispielsweise phpMyAdmin an. Wenn Sie dabei Hilfe benötigen, wenden Sie sich bitte an Ihren OXID Hosting Partner oder Internet Service Provider (ISP).
 
 Legen Sie jetzt eine neue MySQL-Datenbank an. Der Name der Datenbank ist frei wählbar und könnte beispielsweise *oxid_eshop* lauten. Merken Sie sich den Namen der Datenbank und die vergebenen Zugangsdaten zur Datenbank (Benutzername und Passwort). Diese Daten werden benötigt, wenn Sie das Setup ausführen.
+
 
 .. Intern: oxbaad, Status:
