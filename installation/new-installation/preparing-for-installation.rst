@@ -45,13 +45,16 @@ The next step is moving the main directory to a directory that the HTTP server c
 |schritt| Customising file and directory permissions
 ----------------------------------------------------
 
-The HTTP server requires write access to the following directories and their subdirectories at runtime:
+The HTTP server requires read and write access to the following directories and their subdirectories at runtime:
 
 :file:`/source/export` |br|
 :file:`/source/log/` |br|
 :file:`/source/out/pictures/` |br|
 :file:`/source/out/media/` |br|
-:file:`/source/tmp/`
+:file:`/source/tmp/` |br|
+:file:`/var/`
+
+The CLI user (Command Line Interface) additionally requires read and write access for the directory :file:`/var/`.
 
 For the web-based setup, the HTTP server must have write access to the following directory and files:
 
@@ -65,5 +68,6 @@ For the web-based setup, the HTTP server must have write access to the following
 OXID eShop requires a MySQL database to store all products, categories, customer and order data, and other information. Most web hosts offer database access through a special website, such as phpMyAdmin. If you need further assistance, please contact your OXID Hosting Partner or Internet Service Provider (ISP).
 
 Now, you will need to create a new MySQL database. You can select any name for the database, for example, *oxid_eshop*. Make sure to remember the name of the database and the assigned login data for the database (username and password). You will need this data when running the setup.
+
 
 .. Intern: oxbaad, Status:

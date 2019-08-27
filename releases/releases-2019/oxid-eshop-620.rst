@@ -10,7 +10,7 @@ General information
 -------------------
 OXID eShop 6.2.0 is provided as a compilation with the following components:
 
-* OXID eShop
+* OXID eShop 6.4.0
 * OXID eShop
 * OXID eShop
 * Theme "Flow"
@@ -28,7 +28,7 @@ All changes to the compilation can be viewed in the following metapackage: `<htt
 
 System requirements
 ^^^^^^^^^^^^^^^^^^^
-OXID eShop 6.1.2 runs under PHP 7.0 and 7.1. The supported database is MySQL version 5.5 or 5.7. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Apache 2.2 or 2.4 can be used as a web server on a Linux system.
+OXID eShop 6.1.2 runs under PHP 7.1 and 7.2. Support for PHP 7.0 has been discontinued. The supported database is MySQL version 5.5 or 5.7. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Apache 2.2 or 2.4 can be used as a web server on a Linux system.
 
 Installation
 ^^^^^^^^^^^^
@@ -54,17 +54,20 @@ Updated components of the OXID eShop compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The following components have been updated to a new version:
 
-* OXID eShop CE (update from ... to ...), `Changelog 6.2.0 < >`_
+* OXID eShop CE (update from 6.3.5 to 6.4.0), `Changelog 6.4.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.4.0/CHANGELOG.md>`_
 * OXID eShop PE (update from ... to ...)
 
-
+Sorting of accessories for products
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The order of the assigned products can be changed in the assignment window for the accessories. Once an item has been highlighted in the right list, it can be moved up or down using the mini buttons that are now displayed.
 
 
 -----------------------------------------------------------------------------------------
 
 Corrections
 -----------
-Corrections Beta 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=459
+
+Corrections 6.2.0 Beta 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=459
 
 
 .. Intern: oxbais, Status: transL
