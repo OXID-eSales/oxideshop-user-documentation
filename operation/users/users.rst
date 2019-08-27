@@ -13,6 +13,7 @@ In Enterprise Edition, there are administrators who can work with all shops and 
    :width: 650
 
 Users can be edited in the Admin panel under :menuselection:`Administer Users --> Users`. Here, you will see the list of the users and the input area right below it. The user list displays the name of the user, the e-mail address, the address, the telephone number and the customer number. You can search for users by using the available search fields.
+Users can be sorted in the user list by name, e-mail, street, ZIP, city, phone or customer number by clicking on the respective column heading. The users are thereby displayed in ascending order.
 
 Users can be permanently removed from the database by clicking on the trash icon at the end of the line. The only exception is the administrator created during the installation. This is the master that can’t be deleted in this way. Set a user to inactive if you only want to prevent him/her from accessing the shop temporarily.
 
@@ -59,4 +60,5 @@ Payment tab
 
 .. seealso:: :doc:`User groups <../user-groups/user-groups>` | :doc:`Payment methods <../../setup/payment-methods/payment-methods>` | :doc:`Shipping methods <../../setup/shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../../setup/shipping-cost-rules/shipping-cost-rules>`
 
-.. Intern: oxbadq, Status:
+
+.. Intern: oxbadq, Status: transL

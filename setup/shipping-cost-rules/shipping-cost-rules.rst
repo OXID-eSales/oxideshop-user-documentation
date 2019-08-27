@@ -10,7 +10,9 @@ Shipping costs will be charged if customers have selected a shipping method in t
    :height: 535
    :width: 650
 
-All required settings and assignments can be configured in the Admin panel under :menuselection:`Shop Settings --> Shipping Cost Rules`. This section contains a list of all shipping cost rules and their names. You can search for shipping cost rules by entering their names in the search field. Shipping cost rules can be permanently removed from the database by clicking on the trash icon at the end of the line.
+All required settings and assignments can be configured in the Admin panel under :menuselection:`Shop Settings --> Shipping Cost Rules`. This section contains a list of all shipping cost rules and their names. You can search for shipping cost rules by entering their names in the search field. Shipping cost rules can be sorted in the list view by active/not active, sorting or name by clicking on the respective column heading. The Sshipping cost rules are thereby displayed in ascending order.
+
+Shipping cost rules can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
 The input area for shipping cost rules is located right below the list. When you select a shipping cost rule from the list, its information will be displayed in the input area. To create a new shipping cost rule, click on :guilabel:`Create new Shipping Cost Rule` at the bottom of the screen.
 
@@ -45,4 +47,5 @@ Available only in Enterprise Edition |br|
 
 .. seealso:: :doc:`Payment methods <../payment-methods/payment-methods>` | :doc:`Shipping methods <../shipping-methods/shipping-methods>` | :doc:`Payment and shipping <../payment-and-shipping/payment-and-shipping>`
 
-.. Intern: oxbadj, Status:
+
+.. Intern: oxbadj, Status: transL
