@@ -10,7 +10,9 @@ Haben Kunden im dritten Schritt des Bestellprozesses eine Versandart ausgewählt
    :height: 528
    :width: 650
 
-Alle Einstellungen und Zuordnungen werden im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Versandkostenregeln` vorgenommen. Dort sind alle Versandkostenregeln mit ihrem Namen aufgelistet. Nach ihnen kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Versandkostenregeln können durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernt werden.
+Alle Einstellungen und Zuordnungen werden im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Versandkostenregeln` vorgenommen. Dort sind alle Versandkostenregeln mit ihrem Namen aufgelistet. Nach ihnen kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Versandkostenregeln können in der Listenansicht nach aktiv/nicht aktiv, Sortierung und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Versandkostenregeln werden dadurch in aufsteigender Reihenfolge angezeigt.
+
+Versandkostenregeln können durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernt werden.
 
 Unter der Liste befindet sich der Eingabebereich für die Versandkostenregel. Wird eine Versandkostenregel aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Versandkostenregel klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Versandkostenregel anlegen`.
 
@@ -44,5 +46,6 @@ Nur in der Enterprise Edition vorhanden |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
 
 .. seealso:: :doc:`Zahlungsarten <../zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../versandarten/versandarten>` | :doc:`Zahlung und Versand <../zahlung-und-versand/zahlung-und-versand>`
+
 
 .. Intern: oxbadj, Status:

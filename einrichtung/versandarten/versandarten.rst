@@ -5,7 +5,9 @@ Versand und Zahlung sind wichtige Funktionen in einem Online-Shop. Sie werden du
 
 Im dritten Schritt des Bestellprozesses können Kunden auswählen, wie die bestellte Ware geliefert werden soll. Der OXID eShop zeigt die gültigen Versandarten an. Ist nur eine Versandart gültig, wird diese automatisch ausgewählt. Welche Versandarten angeboten werden, hängt davon ab, aus welchem Land der Kunde bestellt. Es spielt auch eine Rolle, welche Benutzer oder Benutzergruppen eine Versandart nutzen dürfen. Den Versandarten müssen letztlich mindestens eine Zahlungsart und eine Versandkostenregel zugeordnet worden sein.
 
-Alle Einstellungen und Zuordnungen können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Versandarten` vorgenommen werden. Dort werden alle Versandarten mit ihrem Namen aufgelistet. Nach Versandarten kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Versandarten können durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernt werden.
+Alle Einstellungen und Zuordnungen können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Versandarten` vorgenommen werden. Dort werden alle Versandarten mit ihrem Namen aufgelistet. Nach Versandarten kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Versandarten können in der Listenansicht nach aktiv/nicht aktiv und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Versandarten werden dadurch in aufsteigender Reihenfolge angezeigt.
+
+Versandarten können durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernt werden.
 
 Unter der Liste befindet sich der Eingabebereich für die Versandart. Wird eine Versandart aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Versandart klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Versandart anlegen`.
 
