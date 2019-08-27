@@ -5,7 +5,9 @@ Payment and shipping are important functions in an online shop. They are determi
 
 Customers who shop in your shop can choose how they want to pay in the third ordering step. The choice of payment methods depends on whether there is a payment method for the country from which a customer orders. The customer should also belong to a user group to which this payment method applies.
 
-All required settings can be configured in the Admin panel under :menuselection:`Shop Settings --> Payment Methods`. You will see a list of all payment methods with their names and the input area right below it. You can search for payment methods by entering their name in the search field. Newly created payment methods can also be deleted. They can be permanently removed from the database by clicking on the trash icon at the end of the line. Payment methods available in the shop can only be deactivated if they are not going to be used.
+All required settings can be configured in the Admin panel under :menuselection:`Shop Settings --> Payment Methods`. You will see a list of all payment methods with their names and the input area right below it. You can search for payment methods by entering their name in the search field. Payment methods can be sorted in the list view by active/not active or name by clicking on the respective column heading. The payment methods are thereby displayed in ascending order.
+
+Newly created payment methods can also be deleted. They can be permanently removed from the database by clicking on the trash icon at the end of the line. Payment methods available in the shop can only be deactivated if they are not going to be used.
 
 When you select a payment method from the list, its information will be displayed in the input area. To create a new payment method, click on :guilabel:`Create new Payment Method` at the bottom of the screen.
 
@@ -45,4 +47,5 @@ RDFa tab
 
 .. seealso:: :doc:`Shipping methods <../shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../shipping-cost-rules/shipping-cost-rules>` | :doc:`Payment and shipping <../payment-and-shipping/payment-and-shipping>`
 
-.. Intern: oxbacz, Status:
+
+.. Intern: oxbacz, Status: transL

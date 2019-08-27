@@ -5,7 +5,9 @@ Shipping and payment are important functions in an online shop. They are determi
 
 Customers can choose how the ordered products should be shipped in the third step of the ordering process. Valid shipping methods are displayed in OXID eShop. If only one shipping method is valid, it will be selected automatically. Which shipping methods are offered depends on which country the customer orders from and which users or user groups are allowed to use this shipping method. At least one payment method and one shipping cost rule must have been assigned to the shipping methods.
 
-All required settings and assignments can be configured in the Admin panel under :menuselection:`Shop Settings --> Shipping Methods`. This section contains a list of all shipping methods and their names. You can search for shipping methods by entering their names in the search field. Shipping methods can be permanently removed from the database by clicking on the trash icon at the end of the line.
+All required settings and assignments can be configured in the Admin panel under :menuselection:`Shop Settings --> Shipping Methods`. This section contains a list of all shipping methods and their names. You can search for shipping methods by entering their names in the search field. Shipping methods can be sorted in the list view by active/not active or name by clicking on the respective column heading. The shipping methods are thereby displayed in ascending order.
+
+Shipping methods can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
 The input area for shipping methods is located right below the list. When you select a shipping method from the list, its information will be displayed in the input area. To create a new shipping method, click on :guilabel:`Create new Shipping Method` at the bottom of the screen.
 
@@ -50,4 +52,5 @@ RDFa tab
 
 .. seealso:: :doc:`Payment methods <../payment-methods/payment-methods>` | :doc:`Shipping cost rules <../shipping-cost-rules/shipping-cost-rules>` | :doc:`Payment and shipping <../payment-and-shipping/payment-and-shipping>`
 
-.. Intern: oxbadd, Status:
+
+.. Intern: oxbadd, Status: transL
