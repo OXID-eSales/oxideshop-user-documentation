@@ -12,7 +12,7 @@ In der Enterprise Edition gibt es Administratoren, die mit allen Shops arbeiten 
    :height: 517
    :width: 650
 
-Benutzer können im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzer` bearbeitet werden. Es werden die Benutzerliste und darunter der Eingabebereich für die Benutzer angezeigt. Die Benutzerliste zeigt den Namen des Benutzers, die E-Mail-Adresse, die Anschrift, die Telefonnummer und dessen Kundennummer. In der Benutzerliste kann gesucht werden. Verwenden Sie dafür die vorhandenen Suchfelder.
+Benutzer können im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzer` bearbeitet werden. Es werden die Benutzerliste und darunter der Eingabebereich für die Benutzer angezeigt. Die Benutzerliste zeigt den Namen des Benutzers, die E-Mail-Adresse, die Anschrift, die Telefonnummer und dessen Kundennummer. In der Benutzerliste kann gesucht werden. Verwenden Sie dafür die vorhandenen Suchfelder. Benutzer können in der Benutzerliste nach Name, E-Mail, Straße, Postleitzahl, Ort, Telefon und Kundennummer sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Benutzer werden dadurch in aufsteigender Reihenfolge angezeigt.
 
 Benutzer lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Eine Ausnahme stellt der bei der Installation erstellte Administrator dar. Er ist der Master und kann auf diese Weise nicht gelöscht werden. Wollen Sie einem Benutzer nur vorübergehend den Zugriff auf den Shop verwehren, setzen Sie ihn auf inaktiv.
 
