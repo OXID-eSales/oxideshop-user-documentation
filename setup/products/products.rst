@@ -14,6 +14,8 @@ Products can be edited in the Admin panel under :menuselection:`Administer Produ
 
 A small green icon at the beginning of the line in the product list symbolises an active product. It is not displayed for inactive products. The product list shows the number, the title and the short description of the product. You can search for products by using search fields and/or filters for categories and product characteristics. For example, if you enter the number 13 the "Prod.No." search field, you will see all the products listed with 13 in the product number. In the demo data, these are the kiteboards with the product numbers 1301, 1302, 1303 and 1304.
 
+Products can be sorted in the product list by active/inactive, product number, title or short description by clicking on the respective column heading. The products are displayed in ascending order.
+
 Products can be permanently removed from the database by clicking on the trash icon at the end of the line. If you just want to temporarily remove a product from the shop because it is currently out of stock, you can set it to inactive. The advantage of this is that you don’t have to recreate the product as soon as it is back in stock.
 
 When you select a product from the product list, the product information will be displayed in the input area. To create a new product, click on :guilabel:`Create New Product` at the bottom of the screen.
@@ -89,4 +91,5 @@ SEO tab
 
 .. seealso:: :doc:`Attributes <../attributes/attributes>` | :doc:`Selection lists <../selection-lists/selection-lists>` | :doc:`Categories <../categories/categories>` | :doc:`Products and categories <../products-and-categories/products-and-categories>` | :doc:`Manufacturers <../manufacturers/manufacturers>` | :doc:`Distributors <../distributors/distributors>`
 
-.. Intern: oxbach, Status:
+
+.. Intern: oxbach, Status: transL

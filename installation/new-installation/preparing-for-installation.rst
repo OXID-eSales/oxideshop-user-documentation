@@ -70,4 +70,4 @@ OXID eShop requires a MySQL database to store all products, categories, customer
 Now, you will need to create a new MySQL database. You can select any name for the database, for example, *oxid_eshop*. Make sure to remember the name of the database and the assigned login data for the database (username and password). You will need this data when running the setup.
 
 
-.. Intern: oxbaad, Status:
+.. Intern: oxbaad, Status: transL
