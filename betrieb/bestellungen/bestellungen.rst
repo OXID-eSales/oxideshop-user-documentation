@@ -14,6 +14,8 @@ Bestellungen können gefiltert und gesucht werden. Eine Filtermöglichkeit sind 
 
 Eine weitere Filtermöglichkeit erlaubt die Anzeige von bezahlten Bestellungen, Bestellungen mit bestimmten Artikeln oder Zahlungsarten. Wird \"Bezahlt\" aus der Dropdown-Liste gewählt, lassen sich Bestellungen eines vorgegebenen Bezahldatums im Format JJJJ-MM-TT anzeigen. Auch hier sind Teilformate möglich. Bei der Filterung der Bestellungen mit bestimmten Artikeln wird der Artikeltitel oder die Artikelnummer berücksichtigt. Auch hier genügt bereits die Angabe weniger Zeichen. Die Suche nach Bestellnummer, Vorname und Nachname des Käufers kann gesetzte Filter noch verfeinern, aber auch separat verwendet werden.
 
+Bestellungen können in der Liste nach Bestellzeit, bezahlt, Bestellnummer, Vorname und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Bestellungen werden dadurch in aufsteigender Reihenfolge angezeigt.
+
 Bestellungen lassen sich stornieren und löschen. Verwenden Sie dafür die Symbole am Ende der Zeile einer Bestellung. Wichtiger Hinweis: Beachten Sie bitte, dass eine Stornierung nicht rückgängig gemacht werden kann und dass ein Löschen die Bestellung endgültig aus der Datenbank entfernt.
 
 Wird eine Bestellung aus der Liste der Bestellungen gewählt, werden deren Informationen in den Eingabebereich geladen. In der Fußzeile finden Sie die Funktionen: :guilabel:`Notiz anfügen` und :guilabel:`Hilfe starten`.
