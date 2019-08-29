@@ -10,6 +10,8 @@ OXID eShop allows you to manage distributors. You can assign products to the dis
 
 Distributors can be edited under :menuselection:`Master Settings --> Distributors` in the Admin panel. Here, you will see the list of distributors and the input area right below it. The list contains the title and the short description of the distributor. You can search for distributors by using the search fields.
 
+Distributors can be sorted in the list by active/not active, title and short description by clicking on the respective column heading. The distributors are thereby displayed in ascending order.
+
 Distributors can be permanently removed from the database by clicking on the trash icon at the end of the line.
 
 When you select a distributor from the list, its information will be displayed in the input area. To create a new distributor, click on :guilabel:`Create new Distributor` at the bottom of the screen. The footer also contains the following links: :guilabel:`Reset Number of Products in Distributors` and :guilabel:`Start Help`.
@@ -37,4 +39,5 @@ SEO tab
 
 .. seealso:: :doc:`Products <../products/products>` | :doc:`Manufacturers <../manufacturers/manufacturers>`
 
-.. Intern: oxbage, Status:
+
+.. Intern: oxbage, Status: transL

@@ -19,6 +19,8 @@ Go to :menuselection:`Core Settings --> Brands/Manufacturers` in the shop’s Ad
 
 Here, you will see a list of manufacturers and the input area right below it. The manufacturer list contains the title and short description of the manufacturer. You can search for manufacturers by using the search fields. For example, if you type \"er\" in the search field above :guilabel:`Title`, you will see three manufacturers with \"er\" in their title listed in the demo shop.
 
+Manufacturers can be sorted in the list by active/not active, title and short description by clicking on the respective column heading. The manufacturers are thereby displayed in ascending order.
+
 To delete manufacturers, use the trash icon at the end of the line in the manufacturer list.
 
 When you select a manufacturer from the list, its information will be displayed in the input area. The footer contains the following links: :guilabel:`Create new Manufacturer`, :guilabel:`Reset Number of Products in Manufacturers` and :guilabel:`Start Help`.
@@ -45,4 +47,5 @@ SEO tab
 
 .. seealso:: :doc:`Products <../products/products>` | :doc:`Distributors <../distributors/distributors>`
 
-.. Intern: oxbagb, Status:
+
+.. Intern: oxbagb, Status: transL
