@@ -10,6 +10,8 @@ Der OXID eShop bietet die Möglichkeit, Lieferanten zu verwalten. Artikel könne
 
 Lieferanten können im Administrationsbereich unter :menuselection:`Stammdaten --> Lieferanten` bearbeitet werden. Es werden die Lieferantenliste und darunter der Eingabebereich für die Lieferanten angezeigt. Die Lieferantenliste enthält Titel und Kurzbeschreibung der Lieferanten. Nach Lieferanten kann unter Verwendung der Suchfelder gesucht werden.
 
+Lieferanten können in der Liste nach aktiv/nicht aktiv, Titel und Kurzbeschreibung sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Hersteller werden dadurch in aufsteigender Reihenfolge angezeigt.
+
 Lieferanten lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
 
 Wird ein Lieferant aus der Lieferantenliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Lieferanten klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuen Lieferant anlegen`. Weitere Funktionen in der Fußzeile sind :guilabel:`Artikelanzahl in den Lieferanten zurücksetzen` und :guilabel:`Hilfe starten`.
@@ -36,5 +38,6 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Hersteller <../hersteller/hersteller>`
+
 
 .. Intern: oxbage, Status:

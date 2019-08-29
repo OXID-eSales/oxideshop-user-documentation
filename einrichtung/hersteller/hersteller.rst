@@ -19,6 +19,8 @@ Um Hersteller zu erstellen oder zu bearbeiten, gehen Sie im Administrationsberei
 
 Es werden eine Liste der Hersteller und darunter der Eingabebereich für den Hersteller angezeigt. Die Herstellerliste enthält Titel und Kurzbeschreibung der Hersteller. Nach Herstellern kann gesucht werden, indem die Suchfelder verwendet werden. Geben Sie beispielsweise in das Suchfeld über :guilabel:`Titel` die Zeichenfolge \"er\" ein, so bekommen Sie drei Hersteller aus den Demodaten aufgelistet, bei denen \"er\" im Titel vorkommt.
 
+Hersteller können in der Liste nach aktiv/nicht aktiv, Titel und Kurzbeschreibung sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Hersteller werden dadurch in aufsteigender Reihenfolge angezeigt.
+
 Hersteller lassen sich löschen. Verwenden Sie dafür das Löschsymbol am Ende der Zeile in der Herstellerliste.
 
 Wird ein Hersteller aus der Liste gewählt, werden dessen Informationen in den Eingabebereich geladen. In der Fußzeile finden Sie die Funktionen: :guilabel:`Neuen Hersteller anlegen`, :guilabel:`Artikelanzahl in den Herstellern zurücksetzen` und :guilabel:`Hilfe starten`.
@@ -44,5 +46,6 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
+
 
 .. Intern: oxbagb, Status:

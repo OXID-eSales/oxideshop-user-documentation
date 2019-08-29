@@ -41,4 +41,5 @@ Registerkarte Versenden
 
 .. seealso:: `Tipps zum Newsletter im Shopbetreiber-Blog <http://shopbetreiber-blog.de/page/1/?s=Newsletter>`_
 
+
 .. Intern: oxbaie, Status:
