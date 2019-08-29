@@ -14,6 +14,8 @@ Orders can be filtered and searched for. One filter option is the folders where 
 
 Another filter option allows the display of paid orders, orders with specific products or payment methods. Select \"Payment Date\" from the drop-down list to display orders with the specified payment date in the YYYY-MM-DD format. Partial formats are allowed here as well. Orders with specific products can be filtered by the product title or number. Entering a few characters will be enough. The search by order number or buyer’s first and last name can be used separately or to refine the set filters.
 
+Orders can be sorted in the list by order time, payment date, order number, first and last name by clicking on the respective column heading. The orders are thereby displayed in ascending order.
+
 Orders can be cancelled and deleted by using the icons at the end of the line. Important: Please note that cancelled orders can’t be restored and that the deleted orders will be permanently removed from the database.
 
 When you select an order from the list, its information will be displayed in the input area. The footer contains the following links: :guilabel:`Add Note` and :guilabel:`Start Help`.
@@ -50,4 +52,5 @@ Downloads tab
 **Contents**: downloadable products of an order, downloadable files, first and last download, number of completed downloads, maximum possible downloads, validity of download links, reset, resetting downloads |br|
 :doc:`Read article <downloads-tab>` |link|
 
-.. Intern: oxbaeb, Status:
+
+.. Intern: oxbaeb, Status: transL

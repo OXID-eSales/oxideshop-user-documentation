@@ -14,6 +14,8 @@ All promotions are displayed in alphabetical order. You can search for promotion
 
 In addition, you can use the selection list to search for promotions that are active, upcoming, or expired. This is based on the activity period defined for the promotions.
 
+Promotions can be sorted in the list by active/not active, start time and type by clicking on the respective column heading. The promotions are thereby displayed in ascending order.
+
 Promotions can be permanently removed from the database by clicking on the trash icon at the end of the line. Action type records that came with the shop can’t be deleted as they are required for the stable operation of OXID eShop. You can disable such a record to see how it affects the start page display.
 
 When you select a promotion, its information will be displayed in the input area. To create a new promotion, click on :guilabel:`New Action/Promotion/Banner` at the bottom of the screen.
