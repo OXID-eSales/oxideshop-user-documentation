@@ -28,6 +28,8 @@ Coupon series are created in the Admin panel under :menuselection:`Shop Settings
 
 A small green icon at the beginning of the line in the list of coupon series symbolises an active coupon series. If the validity period doesn’t apply for coupon series, this icon won’t be displayed. The coupon series thus is invalid and not active. The list displays the name of the coupon series, the discount granted, the validity period and a specified minimum purchase value. To search for coupon series, enter characters in the search field. The search starts as soon as Enter or the magnifying glass icon are clicked on. The column headers in the list are links. Clicking on them will sort the coupon series in ascending order by name, discount, validity, etc.
 
+Coupon series can be sorted in the list by active/not active, name, discount, valid from/until and minimum order sum by clicking on the respective column heading. The coupon series are thereby displayed in ascending order.
+
 Coupon series can be permanently removed from the database by clicking on the trash icon at the end of the line. Enter an invalid period if you want the coupon series to be inactive.
 
 When you select a coupon series from the list, its information will be displayed in the input area. To create a new coupon series, click on :guilabel:`Create new Coupon Series` at the bottom of the screen.
@@ -50,4 +52,5 @@ Available only in Enterprise Edition |br|
 **Contents**: inheriting coupon series, assigning coupon series, parent shop, subshop, supershop, multishop, Mall |br|
 :doc:`Read article <mall-tab>` |link|
 
-.. Intern: oxbahr, Status:
+
+.. Intern: oxbahr, Status: transL

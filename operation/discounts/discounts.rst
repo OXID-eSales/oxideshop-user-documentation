@@ -27,6 +27,8 @@ Discounts can be edited in the Admin panel under :menuselection:`Shop Settings -
 
 A small green icon at the beginning of the line in the discounts list symbolises an active discount. It is not displayed for inactive discounts. The list shows only the name of the discount. To search for discounts, enter characters in the search field and then press Enter or click on the magnifying glass icon.
 
+Discounts can be sorted in the list by active/not active, sorting and name by clicking on the respective column heading. The discounts are thereby displayed in ascending order.
+
 Discounts can be permanently removed from the database by clicking on the trash icon at the end of the line. To deactivate the discount, uncheck the :guilabel:`Always active` box and make sure that no time period is specified as otherwise the discount would be activated for the specified period.
 
 When you select a discount from the list, its information will be displayed in the input area. To create a new discount, click on :guilabel:`Create new Discount` at the bottom of the screen.
@@ -54,4 +56,5 @@ Available only in Enterprise Edition |br|
 **Contents**: inheriting discounts, assigning discounts, parent shop, subshop, supershop, multishop, Mall |br|
 :doc:`Read article <mall-tab>` |link|
 
-.. Intern: oxbahh, Status:
+
+.. Intern: oxbahh, Status: transL
