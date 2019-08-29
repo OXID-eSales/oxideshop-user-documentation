@@ -27,6 +27,8 @@ Rabatte können im Administrationsbereich unter :menuselection:`Shopeinstellunge
 
 In der Liste der Rabatte symbolisiert ein kleines grünes Quadrat am Anfang der Zeile einen aktiven Rabatt. Wurde ein Rabatt nicht aktiviert, fehlt dieses Symbol. Die Liste zeigt ausschließlich den Namen des Rabattes an. Nach Rabatten kann gesucht werden, indem Zeichen in das Suchfeld eingegeben werden. Die Namen der Rabatte werden nach diesen Zeichen durchsucht, sobald die Eingabe mit einem Enter abgeschlossen oder das Lupen-Symbol angeklickt wurde.
 
+Rabatte können in der Liste nach aktiv/nicht aktiv, Sortierung und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Rabatte werden dadurch in aufsteigender Reihenfolge angezeigt.
+
 Rabatte lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Soll der Rabatt nur nicht aktiv sein, entfernen Sie das Häkchen bei :guilabel:`Immer aktiv` und achten Sie darauf, dass kein Zeitraum eingetragen ist. Ein Eintrag würde den Rabatt ansonsten für den angegebenen Zeitraum aktivieren.
 
 Wird ein Rabatt aus der Liste der Rabatte gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Rabattes klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuen Rabatt anlegen`.

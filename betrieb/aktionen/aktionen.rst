@@ -10,9 +10,9 @@ Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketi
 
 Aktionen können unter :menuselection:`Kundeninformationen --> Aktionen verwalten` bearbeitet werden. Es gibt eine Liste der Aktionen und darunter den Eingabebereich für die Aktionen. Dieser unterscheidet sich für den Typ Banner von Aktion und Promotion, indem es die Möglichkeit gibt, ein Foto für das Banner hochzuladen und zu verlinken.
 
-Alle Aktionen werden in alphabetischer Reihenfolge angezeigt. Nach Aktionen kann gesucht werden, indem das Suchfeld für deren Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"ba\" ein, würden Ihnen die vier Banner der Startseite angezeigt.
+Alle Aktionen werden in alphabetischer Reihenfolge angezeigt. Nach Aktionen kann gesucht werden, indem das Suchfeld für deren Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"ba\" ein, würden Ihnen die vier Banner der Startseite angezeigt. Zusätzlich können per Auswahlliste Aktionen gefiltert werden, die aktiv sind, demnächst aktiv werden oder abgelaufen sind. Die Auswahl berücksichtigt einen bei den Aktionen definierten Zeitraum für deren Aktivität.
 
-Zusätzlich können per Auswahlliste Aktionen gefiltert werden, die aktiv sind, demnächst aktiv werden oder abgelaufen sind. Die Auswahl berücksichtigt einen bei den Aktionen definierten Zeitraum für deren Aktivität.
+Aktionen können in der Liste nach aktiv/nicht aktiv, Name, Startzeit und Typ werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Aktionen werden dadurch in aufsteigender Reihenfolge angezeigt.
 
 Aktionen lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Die mit dem Shop ausgelieferten Datensätze vom Typ Aktion können nicht gelöscht werden, da sie für den stabilen Betrieb des OXID eShop erforderlich sind. Deaktivieren Sie einmal einen solchen Datensatz, um die Auswirkung auf die Anzeige der Startseite zu sehen.
 
