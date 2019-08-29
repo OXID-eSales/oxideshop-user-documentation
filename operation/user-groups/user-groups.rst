@@ -8,7 +8,7 @@ User groups are used to group users with specific characteristics. Such characte
    :height: 535
    :width: 650
 
-User groups can be edited in the Admin panel under :menuselection:`Administer Users --> User Groups`. Here, you will see a list of the user groups and the input area right below it. You can search for the name of the user group by using the available search field. For example, typing \"a\" will display all user groups that have this letter in their name.
+User groups can be edited in the Admin panel under :menuselection:`Administer Users --> User Groups`. Here, you will see a list of the user groups and the input area right below it. You can search for the name of the user group by using the available search field. For example, typing \"a\" will display all user groups that have this letter in their name. User groups can be sorted in the list by active/not active or name by clicking on the respective column heading. The user groups are thereby displayed in ascending order.
 
 User groups can be permanently removed from the database by clicking on the trash icon at the end of the line. The only exception are the 16 predefined user groups that come with OXID eShop.
 
@@ -77,4 +77,5 @@ Main tab
 
 .. seealso:: :doc:`Users <../users/users>` | :doc:`Payment methods <../../setup/payment-methods/payment-methods>` | :doc:`Shipping methods <../../setup/shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../../setup/shipping-cost-rules/shipping-cost-rules>`
 
-.. Intern: oxbadz, Status:
+
+.. Intern: oxbadz, Status: transL
