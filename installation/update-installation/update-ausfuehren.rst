@@ -58,4 +58,14 @@ Das Prüfscript teilt Ihnen mit, ob und an welcher Stelle der Shop nicht dem Ori
 
 .. hint:: Seit OXID eShop 4.8.0/5.1.0 ist diese Prüfung in den Administrationsbereich des Shops integriert. Sie können es später jederzeit unter :menuselection:`Service --> Diagnosewerkzeug` aufrufen.
 
+---------------------------------------------------------------------------------------------------
+
+Probleme mit der PDF-Rechnung
+-----------------------------
+
+Ab OXID eShop Version 4.8.0 wird das Modul für die PDF-Rechnung in das Verzeichnis :file:`/modules/oe/invoicepdf` installiert. Da aber das bisherige Verzeichnis :file:`/modules/invoicepdf` bei einem Update von 4.7.* nicht gelöscht wird, funktioniert das Erstellen von Rechnungen nicht.
+
+Bitte löschen Sie das Verzeichnis :file:`/modules/invoicepdf` manuell. Gehen Sie anschließend im Administrationsbereich des Shops zur Modulverwaltung. Sie erhalten einen Hinweis, dass für ein registriertes Modul das Modulverzeichnis fehlt. Beantworten Sie die Frage, ob alle Modulinformationen entfernt werden sollen, indem Sie die Schaltfläche :guilabel:`Ja` drücken.
+
+
 .. Intern: oxaaaj, Status:
