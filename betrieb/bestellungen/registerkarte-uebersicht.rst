@@ -1,9 +1,7 @@
 ﻿Registerkarte Übersicht
 =======================
 
-Die Registerkarte :guilabel:`Übersicht` zeigt alle wichtigen Informationen einer Bestellung an. Dazu gehören beispielsweise die Rechnungsadresse, eine davon abweichende Lieferadresse, die bestellten Artikel, der Gesamtpreis mit seinen einzelnen Positionen, die Zahlungsart und die Versandart. Die Bestellung erhält eine Bestellnummer, der Kunde eine Kundennummer, sofern es sich um eine Erstbestellung handelt.
-
-Darüber hinaus wird eine kurze Zusammenfassung der Bestellungen des Tages und aller Bestellungen im Shop ausgegeben. Für die Bestellung kann eine Rechnung oder ein Lieferschein im PDF-Format generiert werden. Bestellungen lassen sich zur weiteren Verarbeitung in anderen Systemen im XML-Format exportieren.
+Die Registerkarte :guilabel:`Übersicht` zeigt alle wichtigen Informationen einer Bestellung an. Dazu gehören beispielsweise die Rechnungsadresse, eine davon abweichende Lieferadresse, die bestellten Artikel, der Gesamtpreis mit seinen einzelnen Positionen, die Zahlungsart und die Versandart. Die Bestellung erhält eine Bestellnummer, der Kunde eine Kundennummer, sofern es sich um eine Erstbestellung handelt. Darüber hinaus wird eine kurze Zusammenfassung der Bestellungen des Tages und aller Bestellungen im Shop ausgegeben.
 
 .. image:: ../../media/screenshots/oxbaec01.png
    :alt: Bestellungen - Registerkarte Übersicht
@@ -55,5 +53,6 @@ Werden die Artikel an den Käufer versendet, kann der Shopbetreiber das bei der 
 Ist das Kontrollkästchen :guilabel:`E-Mail schicken?` angehakt, wird der Kunde per E-Mail über den Versand informiert. Die E-Mail enthält die Lieferadresse, die Bestellnummer und eine Auflistung der versendeten Artikel mit Link zur Artikelbewertung. Wurde auf der Registerkarte :guilabel:`Stamm` ein Tracking Code bei den Versandinformationen eingetragen, führt ein Link zur Sendungsverfolgung direkt auf die Webseite von DPD Deutschland.
 
 .. seealso:: :doc:`Registerkarte Stamm <../benutzer/registerkarte-stamm>` | `Hexadezimale Farbdefinition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Farben definieren in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_
+
 
 .. Intern: oxbaec, Status:, F1: order_overwiew.html
