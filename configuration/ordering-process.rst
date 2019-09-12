@@ -14,8 +14,6 @@ If this setting is selected, an additional :guilabel:`Order now` button will be 
 
 .. hint:: This setting should not be activated for German shops due to the \"Button Solution\", which was passed by the German Bundestag and came into force on 01/08/2012. This law imposes clear requirements on shop owners regarding the information presented to customers before they complete the order. The order page must display the products with their essential characteristics. The price and total price of the products including any shipping costs must also be displayed. There must be only one button to complete the order, which must be located in close proximity to this information. The labelling of this button must clearly inform the customer that the purchase represents a financial commitment.
 
-These legal requirements are implemented by default starting with shop version 4.7.0/5.0.0.
-
 :guilabel:`Users have to Confirm General Terms and Conditions during Check-Out` |br|
 Before completing the order, customers must confirm that they have read and acknowledged the General Terms and Conditions. Select this setting to ask this of customers when they place an order.
 
@@ -24,5 +22,6 @@ Additional settings for the ordering process depend on the design of the shop. F
 Here, you can specify whether the ordering process should be completed with an order confirmation. The order confirmation contains the order number. The links lead to the start page and the customer’s order history.
 
 Use a list to select which action should be performed when a product is added to the shopping cart. There is an option to have a message displayed right next to the shopping cart. Two other options are opening a separate window or displaying the shopping cart itself.
+
 
 .. Intern: oxbaax, Status:
