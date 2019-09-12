@@ -1,9 +1,7 @@
 ﻿Overview tab
 ============
 
-The :guilabel:`Overview` tab displays all important order-related information, including, for example, the billing address, a different shipping address, the ordered products, the total price with its individual items, as well as the payment and the shipping method. The order will receive an order number and the customer will receive a customer number provided that this is the first order.
-
-In addition, you will see a brief summary of the orders placed on this day and all orders placed in the shop. You can generate an invoice or a delivery note for the order in PDF format and export orders in XML format for further processing in other systems.
+The :guilabel:`Overview` tab displays all important order-related information, including, for example, the billing address, a different shipping address, the ordered products, the total price with its individual items, as well as the payment and the shipping method. The order will receive an order number and the customer will receive a customer number provided that this is the first order. In addition, you will see a brief summary of the orders placed on this day and all orders placed in the shop.
 
 .. image:: ../../media/screenshots/oxbaec01.png
    :alt: Orders - Overview tab
@@ -55,5 +53,6 @@ When products are sent to the buyer, the shop owner can document the shipment in
 If the :guilabel:`Send e-mail?` box is checked, the customer will be informed about the shipment by e-mail. The e-mail will contain the shipping address, the order number and a list of the products shipped with the link to review them. If a tracking code has been entered in the shipping information in the :guilabel:`Main` tab, a tracking link will take the customer directly to the DPD Germany website.
 
 .. seealso:: :doc:`Main tab <../users/main-tab>` | `Hexadecimal colour definition (Wikipedia) <http://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_ | `Defining colours in HTML (SELFHTML) <http://de.selfhtml.org/html/allgemein/farben.htm>`_
+
 
 .. Intern: oxbaec, Status:, F1: order_overwiew.html
