@@ -258,11 +258,15 @@ html_show_sphinx = False
 htmlhelp_basename = 'OXIDeShop6doc'
 
 # A string of reStructuredText that will be included at the beginning of every source file that is read.
-rst_epilog = """
+rst_prolog = """
+
 .. |link| image:: /media/icons-de/link.png
+
+.. role:: db
+
 .. |br| raw:: html
 
-   <br />
+   <br>
 """
 
 # -- Options for LaTeX output ---------------------------------------------
