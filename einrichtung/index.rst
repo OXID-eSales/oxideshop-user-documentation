@@ -15,3 +15,10 @@
    Zahlung und Versand <zahlung-und-versand/index>
    Hersteller <hersteller/index>
    Lieferanten <lieferanten/index>
+
+-------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   Generischer Export und Import <export-import/index>
