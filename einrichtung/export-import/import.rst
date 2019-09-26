@@ -1,7 +1,7 @@
 Import
 ======
 
-Während ausschließlich Artikeldaten exportiert werden können, bietet der Import flexiblere Möglichkeiten. Neben den Artikeldaten können auch Kunden- und Bestelldaten sowie Zuordnungen von Artikeln beispielsweise zu Kategorien, Aktionen oder als Zubehör importiert werden. Der Import basiert auf CSV-Dateien, die zum Shop hochgeladen werden. Anschließend erfolgt die Zuordnung der Datenfelder der CSV-Datei zu den korrespondierenden Datenbankspalten der jeweiligen Datenbanktabelle und der eigentliche Import.
+Während ausschließlich Artikeldaten exportiert werden können, bietet der Import flexiblere Möglichkeiten. Neben den Artikeldaten können auch Kunden- und Bestelldaten sowie Zuordnungen von Artikeln beispielsweise zu Kategorien, Aktionen oder als Zubehör importiert werden. Der Import basiert auf CSV-Dateien, die zum Shop hochgeladen werden. Anschließend erfolgt die Zuordnung der Datenfelder der CSV-Datei zu den korrespondierenden Spalten der jeweiligen Datenbanktabelle und der eigentliche Import.
 
 Im ersten Schritt wird die Datenbanktabelle festgelegt, in welche importiert werden soll. Die CSV-Datei wird mit Hilfe eines Dateidialogs auf dem Rechner ausgewählt und zur Verarbeitung in den Shop geladen.
 
