@@ -11,7 +11,7 @@ Eine in den OXID eShop integrierte Lagerverwaltung zeigt den Kunden die Verfügb
 Um die :doc:`Lagerverwaltung <../../konfiguration/lagerverwaltung>` nutzen zu können, muss diese in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Lager` aktiviert und konfiguriert werden.
 
 :guilabel:`Lagerbestand`
-   Geben Sie beim Erstellen eines Artikels dessen Anfangsbestand ein. Der Bestand verringert sich bei jeder Bestellung. Wieviel Exemplare des Artikels aktuell auf Lager sind, wird hier angezeigt und kann bei Veränderungen des Lagerbestandes auch angepasst werden.
+   Geben Sie beim Erstellen eines Artikels dessen Anfangsbestand ein. Der Bestand verringert sich bei jeder Bestellung. Wie viele Exemplare des Artikels aktuell auf Lager sind, wird hier angezeigt und kann bei Veränderungen des Lagerbestandes auch angepasst werden.
 
    Der Lagerbestand wird in der Detailansicht des Artikels durch ein kleines Symbol und eine Statusmeldung veranschaulicht.
 
