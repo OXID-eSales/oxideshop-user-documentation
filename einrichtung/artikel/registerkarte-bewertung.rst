@@ -20,7 +20,7 @@ Alle Bewertungen sind unter :menuselection:`Artikel verwalten --> Artikel --> Al
 
 Sie können festlegen, ob Sie eine Bewertung freigeben wollen, bevor sie in der Detailansicht des Artikels angezeigt wird. Aktivieren Sie die Option :guilabel:`Artikelbewertungen moderieren: Sie werden erst veröffentlicht, wenn sie von einem Administrator aktiv gesetzt werden` in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`System` unter :guilabel:`Weitere Einstellungen`.
 
-Eine weitere Einstellung zu den Artikelbewertungen finden Sie in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen`. Es kann festgelegt werden, nach wievielen Tagen Kunden einen Artikel neu bewerten dürfen. Ohne einen Wert, dürfen Kunden einen Artikel generell nur einmal bewerten.
+Eine weitere Einstellung zu den Artikelbewertungen finden Sie in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen`. Es kann festgelegt werden, nach wie vielen Tagen Kunden einen Artikel neu bewerten dürfen. Ohne einen Wert, dürfen Kunden einen Artikel generell nur einmal bewerten.
 
 Alle Bewertungen werden mit Datum und Uhrzeit in einem Auswahlfeld aufgelistet. Die aktuellsten Bewertungen stehen am Ende der Liste. Wird eine Bestellung markiert, werden auf der rechten Seite der Name des Kunden und der Text der Bewertung angezeigt. Das Kontrollkästchen :guilabel:`Aktiv` ist nur sichtbar, wenn das Moderieren der Artikelbewertungen eingeschaltet wurde.
 

@@ -29,7 +29,7 @@ Vaterartikel von Varianten exportieren
    Beim Export werden auch die Vaterartikel der Varianten berücksichtigt, auch wenn diese nicht kaufbar sind. Vaterartikel können nicht gekauft werden, solange die Einstellung :guilabel:`Varianten-"Vater" ist kaufbar` in den Grundeinstellungen nicht aktiviert wurde.
 
 Kampagnenparameter
-   Name einer Kampagne, welcher an die im Datensatz enthaltene SEO-URL angehängt wird. Damit kann über Tracking ausgewertet werden, wieviel Zugriffe über diese spezielle URL auf den Artikel erfolgten. Die Funktion ist derzeit nicht aktiv.
+   Name einer Kampagne, welcher an die im Datensatz enthaltene SEO-URL angehängt wird. Damit kann über Tracking ausgewertet werden, wie viele Zugriffe über diese spezielle URL auf den Artikel erfolgten. Die Funktion ist derzeit nicht aktiv.
 
 Hauptkategorie zum Kampagnenparameter hinzufügen
    Der Name der Hauptkategorie wird dem Kampagnenparameter hinzugefügt, wenn das Kontrollkästchen angehakt ist. Die Funktion ist derzeit nicht aktiv.
