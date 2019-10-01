@@ -35,7 +35,12 @@ Installation
 Für die Installation, folgen Sie bitte den Anleitungen im Abschnitt "Installation":
 
 :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>` |br|
-:doc:`Update-Installation <../../installation/update-installation/update-installation>`
+:doc:`Update <../../installation/update/update>`
+:doc:`Spezial: von 6.1.x auf 6.2.0 aktualisieren <../../installation/update/von-6.1.x-auf-6.2.0-aktualisieren>`
+
+
+
+
 
 Bitte führen Sie das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, aus. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 
