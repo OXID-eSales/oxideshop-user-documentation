@@ -1,5 +1,5 @@
-Update-Installation
-===================
+Standard-Update
+===============
 
 Dieses Dokument beschreibt Patch- und Minor-Updates ab Version 6.0.0 des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.* auf eine höhere Version 6.* aktualisiert.
 
@@ -10,7 +10,7 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 
 |schritt| Update-Ziel vorgeben
 ------------------------------
-In die Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version eingetragen werden, auf welche aktualisiert werden soll. Öffnen Sie die Datei in einem Editor und tragen Sie die gewünschte Version für das Metapackage ein. Beispiel: ``"oxid-esales/oxideshop-metapackage-ce": "^v6.2.0",``
+In die Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version eingetragen werden, auf welche aktualisiert werden soll. Öffnen Sie die Datei in einem Editor und tragen Sie die gewünschte Version für das Metapackage ein. Beispiel: ``"oxid-esales/oxideshop-metapackage-ce": "^v6.1.0",``
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
@@ -39,4 +39,4 @@ Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, fa
 Damit ist das Update beendet.
 
 
-.. Intern: oxbahv, Status:
+.. Intern: oxbaix, Status:
