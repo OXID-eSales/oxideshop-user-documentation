@@ -1,5 +1,5 @@
-﻿Installing updates
-==================
+Standard update
+===============
 
 This document describes patches and minor updates starting with version 6.0.0 of OXID eShop. Follow the steps below to upgrade the compilation from an existing version 6.* to a newer version 6.* .
 
@@ -8,9 +8,9 @@ Updates should always be installed in a test environment, a copy of your current
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
 
-|schritt| Specifying the version to be updated
-----------------------------------------------
-Enter the version you want to update in the :file:`composer.json` file located in the shop’s main directory. To do this, open the file in any editor and enter the desired version for the metapackage. Example: ``"oxid-esales/oxideshop-metapackage-ce": "^v6.1.0",``
+|schritt| Specifying the target version of the update
+-----------------------------------------------------
+Enter the version to which you want to update in the :file:`composer.json` file located in the shop’s main directory. To do this, open the file in any editor and enter the desired version for the metapackage. Example: ``"oxid-esales/oxideshop-metapackage-ce": "^v6.2.0",``
 
 |schritt| Updating dependencies
 -------------------------------
