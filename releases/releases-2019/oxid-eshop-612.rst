@@ -42,7 +42,6 @@ Please run the update first in a test or development environment, or a copy of y
 
 New Functions
 -------------
-
 The theme "Wave" - responsive and based on Bootstrap 4 - is now a new component of the OXID eShop compilation. More information about the theme can be found in the blog post `Introducing Wave theme <https://oxidforge.org/en/introducing-wave-theme.html>`_ on the OXIDforge.
 
 -----------------------------------------------------------------------------------------

@@ -20,14 +20,14 @@ OXID eShop 6.1.3 is provided as a compilation with the following components:
 * Paymorrow 2.0.1
 * PAYONE 1.0.10
 * PayPal 5.2.5
-* Summernote WYSIWIG editor und Media Gallery 2.2.0
+* Summernote WYSIWIG editor and Media Gallery 2.2.0
 * Visual CMS 3.3.1 (PE/EE)
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.2...v6.1.3>`_.
 
 System requirements
 ^^^^^^^^^^^^^^^^^^^
-OXID eShop 6.1.2 runs under PHP 7.0 and 7.1. PHP 5.6 is no longer supported. The supported database is MySQL version 5.5 or 5.7. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Apache 2.2 or 2.4 can be used as a web server on a Linux system.
+OXID eShop 6.1.3 runs under PHP 7.0 and 7.1. PHP 5.6 is no longer supported. The supported database is MySQL version 5.5 or 5.7. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Apache 2.2 or 2.4 can be used as a web server on a Linux system.
 
 Installation
 ^^^^^^^^^^^^
