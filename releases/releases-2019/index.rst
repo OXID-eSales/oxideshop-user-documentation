@@ -4,5 +4,6 @@
 .. toctree::
    :maxdepth: 1
 
+   29.10.2019 - OXID eShop 6.0.6 <oxid-eshop-606>
    30.07.2019 - OXID eShop 6.0.5 <oxid-eshop-605>
    05.03.2019 - OXID eShop 6.0.4 <oxid-eshop-604>

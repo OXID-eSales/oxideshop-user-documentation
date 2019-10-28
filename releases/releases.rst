@@ -3,6 +3,7 @@
 
 Releases 2019
 -------------
+29.10.2019 - :doc:`OXID eShop 6.0.6 <releases-2019/oxid-eshop-606>` |br|
 30.07.2019 - :doc:`OXID eShop 6.0.5 <releases-2019/oxid-eshop-605>` |br|
 05.03.2019 - :doc:`OXID eShop 6.0.4 <releases-2019/oxid-eshop-604>`
 
@@ -15,5 +16,6 @@ Releases 2018
 Releases 2017
 -------------
 21.11.2017 - :doc:`OXID eShop 6.0.0 <releases-2017/oxid-eshop-600>`
+
 
 .. Intern: oxbabe, Status:
