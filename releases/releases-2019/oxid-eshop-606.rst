@@ -24,7 +24,7 @@ Der OXID eShop 6.0.6 wird als Compilation bereitgestellt. Diese enthält folgend
 
 Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.5…v6.0.6>`_.
 
-Mit OXID eShop 6.0.6 wurde eine Sicherheitslücke geschlossen. Details dazu werden am 05.11.2019 im "Security Bulletin 2019-002" auf der `OXIDforge <https://oxidforge.org/de>`_ veröffentlicht. Wir empfehlen ein schnelles Update auf diese Shopversion. Eine Anleitung zum Shop-Update finden Sie unter `Update-Installation <https://docs.oxid-esales.com/eshop/de/6.0/installation/update-installation/update-installation.html>`_.
+Mit OXID eShop 6.0.6 wurde eine Sicherheitslücke geschlossen: über eine speziell gestaltete URL könnten Benutzer mit Administratorrechten unbeabsichtigt unberechtigten Benutzern Zugriff auf den Administrationsbereich gewähren. Details zur Sicherheitslücke finden Sie auf folgender Seite der OXIDforge: `Security Bulletin 2019-002 <https://oxidforge.org/de/security-bulletin-2019-002.html>`_. Wir empfehlen ein schnelles Update auf diese Shopversion. Eine Anleitung zum Shop-Update finden Sie unter `Update-Installation <https://docs.oxid-esales.com/eshop/de/6.0/installation/update-installation/update-installation.html>`_.
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
