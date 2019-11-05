@@ -25,7 +25,7 @@ OXID eShop 6.1.5 is provided as a compilation with the following components:
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.4...v6.1.5>`_.
 
-With OXID eShop 6.1.5, we have resolved a security issue. Details will be published on 05/11/2019 in "Security Bulletin 2019-002" on `OXIDforge <https://oxidforge.org>`_. We recommend a quick update to this shop version. For instructions on updating the shop, see `Installing updates <https://docs.oxid-esales.com/eshop/en/6.1/installation/installing-updates/installing-updates.html>`_.
+With OXID eShop 6.1.5, we have resolved a security issue: with a specially crafted URL, users with administrative rights could unintentionally grant unauthorized users access to the admin panel. Details on the security issue can be found on the following page of OXIDforge: `Security Bulletin 2019-002 <https://oxidforge.org/en/security-bulletin-2019-002.html>`_. We recommend a quick update to this shop version. For instructions on updating the shop, see `Installing updates <https://docs.oxid-esales.com/eshop/en/6.1/installation/installing-updates/installing-updates.html>`_.
 
 System requirements
 ^^^^^^^^^^^^^^^^^^^
