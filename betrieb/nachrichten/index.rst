@@ -7,3 +7,4 @@ Nachrichten
    nachrichten
    registerkarte-stamm
    registerkarte-text
+   registerkarte-mall

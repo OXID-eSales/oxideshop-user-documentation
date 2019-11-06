@@ -35,5 +35,11 @@ Registerkarte Text
 **Inhalte**: Text der Nachricht, Editor Summernote, WYSIWYG, Textformatierung und -ausrichtung, Schriftarten und -farbe, Aufzählungen und Listen, Tabellen, Links, Bilder, Videos, HTML-Code |br|
 :doc:`Artikel lesen <registerkarte-text>` |link|
 
+Registerkarte Mall
+------------------
+Nur in der Enterprise Edition vorhanden |br|
+**Inhalte**: Nachrichten vererben, Nachrichten verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
+:doc:`Artikel lesen <registerkarte-mall>` |link|
+
 
 .. Intern: oxbajb, Status:
