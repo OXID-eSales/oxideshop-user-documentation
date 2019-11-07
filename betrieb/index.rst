@@ -18,3 +18,4 @@ Betrieb
 
    Newsletter <newsletter/index>
    Nachrichten <nachrichten/index>
+   Links <links/index>
