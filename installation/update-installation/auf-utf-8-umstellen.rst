@@ -8,6 +8,7 @@ Update-Dateien
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
+:download:`5.3.0 - 5.3.x: OXID_UTF8UPDATE_EE_5.3.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_5.3.0.zip>` |br|
 :download:`5.2.0 - 5.2.x: OXID_UTF8UPDATE_EE_5.2.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_5.2.0.zip>` |br|
 :download:`5.1.0 - 5.1.x: OXID_UTF8UPDATE_EE_5.1.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_5.1.0.zip>` |br|
 :download:`5.0.0 - 5.0.x: OXID_UTF8UPDATE_EE_5.0.0.zip </downloads/utf-8/OXID_UTF8UPDATE_EE_5.0.0.zip>` |br|
@@ -21,6 +22,7 @@ Enterprise Edition
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
+:download:`4.10.0 - 4.10.x: OXID_UTF8UPDATE_PE_4.10.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.10.0.zip>` |br|
 :download:`4.9.0 - 4.9.x: OXID_UTF8UPDATE_PE_4.9.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.9.0.zip>` |br|
 :download:`4.8.0 - 4.8.x: OXID_UTF8UPDATE_PE_4.8.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.8.0.zip>` |br|
 :download:`4.7.0 - 4.7.x: OXID_UTF8UPDATE_PE_4.7.0.zip </downloads/utf-8/OXID_UTF8UPDATE_PE_4.7.0.zip>` |br|
@@ -34,6 +36,7 @@ Professional Edition
 
 Community Edition
 ^^^^^^^^^^^^^^^^^
+:download:`4.10.0 - 4.10.x: OXID_UTF8UPDATE_CE_4.10.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.10.0.zip>` |br|
 :download:`4.9.0 - 4.9.x: OXID_UTF8UPDATE_CE_4.9.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.9.0.zip>` |br|
 :download:`4.8.0 - 4.8.x: OXID_UTF8UPDATE_CE_4.8.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.8.0.zip>` |br|
 :download:`4.7.0 - 4.7.x: OXID_UTF8UPDATE_CE_4.7.0.zip </downloads/utf-8/OXID_UTF8UPDATE_CE_4.7.0.zip>` |br|
