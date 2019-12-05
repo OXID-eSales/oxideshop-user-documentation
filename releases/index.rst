@@ -7,4 +7,4 @@ Der Abschnitt \"Releases\" fasst die wichtigsten Informationen zu den veröffent
    :maxdepth: 1
    
    releases
-   Releases 2019 <releases-2019/index>
+   Releases 2020 <releases-2020/index>

@@ -1,8 +1,9 @@
-﻿Übersicht aller Releases ab 2019
+﻿Übersicht aller Releases ab 2020
 ================================
 
-Releases 2019
+Releases 2020
 -------------
-29.10.2019 - :doc:`OXID eShop 6.2.0 <releases-2019/oxid-eshop-620>`
+xx.xx.2020 - :doc:`OXID eShop 6.2.0 <releases-2020/oxid-eshop-620>`
+
 
 .. Intern: oxbabe, Status:

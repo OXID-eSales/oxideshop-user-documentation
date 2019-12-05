@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'OXID eShop 6.2'
-copyright = '2019, OXID eSales AG'
+copyright = '2020, OXID eSales AG'
 author = 'OXID eSales AG'
 
 # The short X.Y version
