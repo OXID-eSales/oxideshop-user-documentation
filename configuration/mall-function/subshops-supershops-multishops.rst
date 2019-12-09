@@ -7,7 +7,7 @@ When you create a shop, you will need to define which shop type the new shop is 
 
 *Supershop* can also inherit products and settings from a parent shop and pass them on to new shops. In addition, supershop allows you to assign products, attributes, selection lists, etc. to each shop. This also applies to the main shop and to subshops, for which the supershop is not the parent shop.
 
-*Multishop* comes without the inheritance feature because it displays all products, manufacturers and distributors from all shops. It is the only shop type that can load all categories from other shops. About news, we can choose if we want our multishop to inherit all the news from other shops or not.
+*Multishop* comes without the inheritance feature because it displays all products, manufacturers and distributors from all shops. It is the only shop type that can load all categories from other shops.
 
 .. image:: ../../media/screenshots/oxbagn01.png
    :alt: Create New Shop
@@ -33,7 +33,7 @@ Check this box to create a multishop shop type.
 
 If you don’t select supershop or multishop as shop type when creating a new shop, a subshop will be created.
 
-Settings for the shop’s Mall function can be configured under :menuselection:`Master Settings --> Core Settings` in the :guilabel:`Mall` tab. They are almost identical for all shop types. There are only two additional options for multishops, the first one is the option to load all categories from all shops, the second one is the option to choose if we want to have all the news from other shops in our multishop or not. If products, attributes, selection lists and other elements and settings were inherited from a parent shop, the tab will also display the inheritance settings.
+Settings for the shop’s Mall function can be configured under :menuselection:`Master Settings --> Core Settings` in the :guilabel:`Mall` tab. They are almost identical for all shop types. The only difference is that for the multishop, there is the option to load all categories from all shops. If products, attributes, selection lists and other elements and settings were inherited from a parent shop, the tab will also display the inheritance settings.
 
 .. image:: ../../media/screenshots/oxbagn02.png
    :alt: Multishop - Mall tab
@@ -49,9 +49,6 @@ Structuring the various shops using paths in the URL is impossible. If no URL is
 
 :guilabel:`Shop SSL URL` |br|
 A web address for the encrypted access to the shop. See the above comments on the URL.
-
-:guilabel:`Do not show news from all shops` |br|
-Check this box if you do not want to have all the news from other shops in your multishop.
 
 :guilabel:`Load /out directory from active shop` |br|
 Check this box if, for example, you want to load the product photos using the URL of the active shop. Without this box checked, the product photos and other resources from the :file:`/out` directory will be loaded using the URL of the main shop.
