@@ -15,7 +15,7 @@ Out of stock products
 ---------------------
 A red symbol and the notice text :guilabel:`This item is not on stock and has to be re-ordered` indicate that the product is sold out.
 
-Before you can use the stock management feature, you will need to activate it. To do this, go to :menuselection:`Master Settings --> Core Settings`,:guilabel:` Settings` tab and click on :guilabel:`Stock` to view the settings.
+Before you can use the stock management feature, you will need to activate it. To do this, go to :menuselection:`Master Settings --> Core Settings`, :guilabel:`Settings` tab and click on :guilabel:`Stock` to view the settings.
 
 The :guilabel:`Activate Stock Management` box is checked by default. With each order, the quantity of a product will be reduced and the stock status updated. If stock management is deactivated, a green symbol will always be displayed in the product details.
 
