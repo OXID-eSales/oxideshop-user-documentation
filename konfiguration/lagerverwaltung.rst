@@ -15,7 +15,7 @@ Artikel nicht vorhanden
 -----------------------
 Ist der Artikel ausverkauft, wird dies durch ein rotes Symbol und den Hinweis :guilabel:`Dieser Artikel ist nicht auf Lager und muss erst nachbestellt werden` dargestellt.
 
-Damit Sie die Lagerverwaltung verwenden können, muss diese aktiviert sein. Gehen Sie dafür zu :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte:guilabel:` Einstell.` Klicken Sie auf :guilabel:`Lager`, um die Einstellungen anzuzeigen.
+Damit Sie die Lagerverwaltung verwenden können, muss diese aktiviert sein. Gehen Sie dafür zu :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` Klicken Sie auf :guilabel:`Lager`, um die Einstellungen anzuzeigen.
 
 Standardmäßig ist das Kontrollkästchen :guilabel:`Lagerverwaltung aktiv` angehakt. Bei jeder Bestellung eines Artikels wird die Stückzahl reduziert und der Lagerstatus aktualisiert. Ist die Lagerverwaltung inaktiv, wird in den Artikeldetails immer ein grünes Symbol angezeigt.
 
