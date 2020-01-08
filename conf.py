@@ -20,6 +20,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import datetime as dt
 
 # -- General configuration ------------------------------------------------
 
@@ -54,7 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'OXID eShop 6'
-copyright = '2017 - 2020, OXID eSales AG'
+copyright = '2017 - {}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The version info for the project you're documenting, acts as replacement for
