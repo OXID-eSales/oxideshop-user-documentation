@@ -15,19 +15,18 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+import datetime as dt
 
 # -- Project information -----------------------------------------------------
 
 project = 'OXID eShop 6.2'
-copyright = '2020, OXID eSales AG'
+copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The short X.Y version
 version = '6.2'
 # The full version, including alpha/beta/rc tags
 release = '6.2.0'
-
 
 # -- General configuration ---------------------------------------------------
 
