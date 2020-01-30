@@ -26,7 +26,7 @@ Section \"Coupon series\" explains how to create and set up coupon series and ho
 
 Coupon series are created in the Admin panel under :menuselection:`Shop Settings --> Coupon Series`. Here, you will see a list of the available coupon series and the input area right below it.
 
-A small green icon at the beginning of the line in the list of coupon series symbolises an active coupon series. If the validity period doesn’t apply for coupon series, this icon won’t be displayed. The coupon series thus is invalid and not active. The list displays the name of the coupon series, the discount granted, the validity period and a specified minimum purchase value. To search for coupon series, enter characters in the search field. The search starts as soon as Enter or the magnifying glass icon are clicked on. The column headers in the list are links. Clicking on them will sort the coupon series in ascending order by name, discount, validity, etc.
+A small green circle with a check mark at the beginning of the line in the list of coupon series symbolises an active coupon series. If the validity period doesn’t apply for coupon series, this icon won’t be displayed. The coupon series thus is invalid and not active. The list displays the name of the coupon series, the discount granted, the validity period and a specified minimum purchase value. To search for coupon series, enter characters in the search field. The search starts as soon as Enter or the magnifying glass icon are clicked on. The column headers in the list are links. Clicking on them will sort the coupon series in ascending order by name, discount, validity, etc.
 
 Coupon series can be permanently removed from the database by clicking on the trash icon at the end of the line. Enter an invalid period if you want the coupon series to be inactive.
 
@@ -49,5 +49,6 @@ Mall tab
 Available only in Enterprise Edition |br|
 **Contents**: inheriting coupon series, assigning coupon series, parent shop, subshop, supershop, multishop, Mall |br|
 :doc:`Read article <mall-tab>` |link|
+
 
 .. Intern: oxbahr, Status:

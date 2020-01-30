@@ -25,7 +25,7 @@ The \"Discounts\" section tells you how to create discounts and what settings to
 
 Discounts can be edited in the Admin panel under :menuselection:`Shop Settings --> Discounts`. Here, you will see a list of the available discounts and the input area right below it.
 
-A small green icon at the beginning of the line in the discounts list symbolises an active discount. It is not displayed for inactive discounts. The list shows only the name of the discount. To search for discounts, enter characters in the search field and then press Enter or click on the magnifying glass icon.
+A small green circle with a check mark at the beginning of the line in the discounts list symbolises an active discount. It is not displayed for inactive discounts. The list shows only the name of the discount. To search for discounts, enter characters in the search field and then press Enter or click on the magnifying glass icon.
 
 Discounts can be permanently removed from the database by clicking on the trash icon at the end of the line. To deactivate the discount, uncheck the :guilabel:`Always active` box and make sure that no time period is specified as otherwise the discount would be activated for the specified period.
 
@@ -53,5 +53,6 @@ Mall tab
 Available only in Enterprise Edition |br|
 **Contents**: inheriting discounts, assigning discounts, parent shop, subshop, supershop, multishop, Mall |br|
 :doc:`Read article <mall-tab>` |link|
+
 
 .. Intern: oxbahh, Status:
