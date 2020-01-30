@@ -10,7 +10,7 @@ Categories serve to intuitively lead online shop customers to the desired produc
 
 The \"Categories\" section tells you how to create and manage categories. Go to :menuselection:`Administer Products --> Categories` in the Admin panel to edit categories. Here, you will see the list of categories and the input area right below it.
 
-A small green icon at the beginning of the line in the categories list symbolises an active category. It is not displayed for inactive categories. You will also see the headings for sorting and the category title. You can search for categories by using search fields for sorting and the category title as well as the categories filter. Categories can be sorted in the category list by active/inactive, sorting or title by clicking on the respective column heading. The categories are thereby displayed in ascending order.
+A small green circle with a check mark at the beginning of the line in the categories list symbolises an active category. It is not displayed for inactive categories. You will also see the headings for sorting and the category title. You can search for categories by using search fields for sorting and the category title as well as the categories filter. Categories can be sorted in the category list by active/inactive, sorting or title by clicking on the respective column heading. The categories are thereby displayed in ascending order.
 
 Categories can be removed from the database by clicking on the trash icon at the end of the line. Categories with subcategories can’t be deleted.
 

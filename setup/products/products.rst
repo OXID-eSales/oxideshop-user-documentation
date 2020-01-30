@@ -12,7 +12,7 @@ The \"Products\" section tells you how to create and manage products. It explain
 
 Products can be edited in the Admin panel under :menuselection:`Administer Products --> Products`. Here, you will see the product list and the input area right below it.
 
-A small green icon at the beginning of the line in the product list symbolises an active product. It is not displayed for inactive products. The product list shows the number, the title and the short description of the product. You can search for products by using search fields and/or filters for categories and product characteristics. For example, if you enter the number 13 the "Prod.No." search field, you will see all the products listed with 13 in the product number. In the demo data, these are the kiteboards with the product numbers 1301, 1302, 1303 and 1304.
+A small green circle with a check mark at the beginning of the line in the product list symbolises an active product. It is not displayed for inactive products. The product list shows the number, the title and the short description of the product. You can search for products by using search fields and/or filters for categories and product characteristics. For example, if you enter the number 13 the "Prod.No." search field, you will see all the products listed with 13 in the product number. In the demo data, these are the kiteboards with the product numbers 1301, 1302, 1303 and 1304.
 
 Products can be sorted in the product list by active/inactive, product number, title or short description by clicking on the respective column heading. The products are displayed in ascending order.
 

@@ -25,7 +25,7 @@ The \"Discounts\" section tells you how to create discounts and what settings to
 
 Discounts can be edited in the Admin panel under :menuselection:`Shop Settings --> Discounts`. Here, you will see a list of the available discounts and the input area right below it.
 
-A small green icon at the beginning of the line in the discounts list symbolises an active discount. It is not displayed for inactive discounts. The list shows only the name of the discount. To search for discounts, enter characters in the search field and then press Enter or click on the magnifying glass icon.
+A small green circle with a check mark at the beginning of the line in the discounts list symbolises an active discount. It is not displayed for inactive discounts. The list shows only the name of the discount. To search for discounts, enter characters in the search field and then press Enter or click on the magnifying glass icon.
 
 Discounts can be sorted in the list by active/not active, sorting and name by clicking on the respective column heading. The discounts are thereby displayed in ascending order.
 
