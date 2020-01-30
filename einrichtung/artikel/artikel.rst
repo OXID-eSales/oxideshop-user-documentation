@@ -11,7 +11,7 @@ Der Abschnitt \"Artikel\" informiert Sie über das Erstellen und Verwalten von A
 
 Artikel können im Administrationsbereich unter :menuselection:`Artikel verwalten -->  Artikel` bearbeitet werden. Es werden die Artikelliste und darunter der Eingabebereich für die Artikel angezeigt.
 
-In der Artikelliste symbolisiert ein kleines grünes Quadrat am Anfang der Zeile einen aktiven Artikel. Wurde ein Artikel nicht aktiviert, fehlt dieses Symbol. Die Artikelliste zeigt die Artikelnummer, den Artikeltitel und die Kurzbeschreibung des Artikels. Nach Artikeln kann gesucht werden, indem Suchfelder und/oder Filter für Kategorien und Artikeleigenschaften verwendet werden. Geben Sie beispielsweise in das Suchfeld Art.-Nr. die Zahl 13 ein, so bekommen Sie alle Artikel aufgelistet, bei denen 13 in der Artikelnummer vorkommt. In den Demodaten sind das Kiteboards mit den Artikelnummern 1301, 1302, 1303 und 1304.
+In der Artikelliste symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Artikel. Wurde ein Artikel nicht aktiviert, fehlt dieses Symbol. Die Artikelliste zeigt die Artikelnummer, den Artikeltitel und die Kurzbeschreibung des Artikels. Nach Artikeln kann gesucht werden, indem Suchfelder und/oder Filter für Kategorien und Artikeleigenschaften verwendet werden. Geben Sie beispielsweise in das Suchfeld Art.-Nr. die Zahl 13 ein, so bekommen Sie alle Artikel aufgelistet, bei denen 13 in der Artikelnummer vorkommt. In den Demodaten sind das Kiteboards mit den Artikelnummern 1301, 1302, 1303 und 1304.
 
 Artikel lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Wollen Sie einen Artikel nur zeitweise aus dem Shop nehmen, weil er derzeit nicht lieferbar ist, setzen Sie ihn auf inaktiv. Der Vorteil dabei ist, dass der Artikel nicht wieder neu angelegt werden muss, sobald er wieder auf Lager ist.
 
@@ -87,5 +87,6 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
+
 
 .. Intern: oxbach, Status:

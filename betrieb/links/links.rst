@@ -17,7 +17,7 @@ Um Links zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuse
    :height: 541
    :width: 650
 
-In der Linkliste symbolisiert ein kleines grünes Quadrat am Anfang der Zeile einen aktiven Link. Wurde ein Link nicht aktiviert, fehlt dieses Symbol.
+In der Linkliste symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Link. Wurde ein Link nicht aktiviert, fehlt dieses Symbol.
 
 Die Liste zeigt das Datum und die URL des Links. Nach Links kann gesucht werden, indem Suchfelder für Datum und URL verwendet werden. Links lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
 

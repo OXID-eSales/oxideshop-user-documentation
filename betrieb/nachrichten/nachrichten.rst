@@ -17,7 +17,7 @@ Um Nachrichten zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :
    :height: 541
    :width: 650
 
-In der Liste symbolisiert ein kleines grünes Quadrat am Anfang der Zeile eine aktive Nachricht. Wurde eine Nachricht nicht aktiviert oder liegt das aktuelle Datum nicht in einem definierten Aktivierungszeitraum, fehlt dieses Symbol. Die Liste zeigt das Datum und den Titel der Nachricht. Nach Nachrichten kann gesucht werden, indem Suchfelder für Datum und Titel verwendet werden. Nachrichten lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
+In der Liste symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile eine aktive Nachricht. Wurde eine Nachricht nicht aktiviert oder liegt das aktuelle Datum nicht in einem definierten Aktivierungszeitraum, fehlt dieses Symbol. Die Liste zeigt das Datum und den Titel der Nachricht. Nach Nachrichten kann gesucht werden, indem Suchfelder für Datum und Titel verwendet werden. Nachrichten lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
 
 Wird eine Nachricht aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Nachricht klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Nachricht` anlegen.
 
