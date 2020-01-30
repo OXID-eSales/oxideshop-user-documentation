@@ -11,7 +11,7 @@ Kategorien dienen dazu, Kunden des Onlineshops intuitiv zum gewünschten Artikel
 
 Der Abschnitt \"Kategorien\" informiert Sie über das Erstellen und Verwalten von Kategorien. Um Kategorien zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Artikel verwalten --> Kategorien`. Es werden die Kategorieliste und darunter der Eingabebereich für die Kategorie angezeigt.
 
-In der Kategorieliste symbolisiert ein kleines grünes Quadrat am Anfang der Zeile eine aktive Kategorie. Wurde eine Kategorie nicht aktiviert, fehlt dieses Symbol. Desweiteren wird die Sortierung und der Kategorietitel angezeigt. Nach Kategorien kann gesucht werden, indem Suchfelder für Sortierung und Kategorietitel sowie ein Filter für die Kategorien verwendet werden. Kategorien lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile aus der Datenbank entfernen. Kategorien mit Unterkategorien können nicht gelöscht werden.
+In der Kategorieliste symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile eine aktive Kategorie. Wurde eine Kategorie nicht aktiviert, fehlt dieses Symbol. Desweiteren wird die Sortierung und der Kategorietitel angezeigt. Nach Kategorien kann gesucht werden, indem Suchfelder für Sortierung und Kategorietitel sowie ein Filter für die Kategorien verwendet werden. Kategorien lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile aus der Datenbank entfernen. Kategorien mit Unterkategorien können nicht gelöscht werden.
 
 Wird eine Kategorie aus der Kategorieliste gewählt, werden deren Informationen in den Eingabebereich geladen. Wollen Sie eine neue Kategorie erstellen, klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Kategorie anlegen`.
 
@@ -57,5 +57,6 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>`
+
 
 .. Intern: oxbabj, Status:
