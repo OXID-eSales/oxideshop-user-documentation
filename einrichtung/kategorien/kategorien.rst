@@ -10,7 +10,7 @@ Kategorien dienen dazu, Kunden des Onlineshops intuitiv zum gewünschten Artikel
 
 Der Abschnitt \"Kategorien\" informiert Sie über das Erstellen und Verwalten von Kategorien. Um Kategorien zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Artikel verwalten --> Kategorien`. Es werden die Kategorieliste und darunter der Eingabebereich für die Kategorie angezeigt.
 
-In der Kategorieliste symbolisiert ein kleines grünes Quadrat am Anfang der Zeile eine aktive Kategorie. Wurde eine Kategorie nicht aktiviert, fehlt dieses Symbol. Desweiteren wird die Sortierung und der Kategorietitel angezeigt. Nach Kategorien kann gesucht werden, indem Suchfelder für Sortierung und Kategorietitel sowie ein Filter für die Kategorien verwendet werden. Kategorien können in der Kategorieliste nach aktiv/inaktiv, Sortierung und Titel sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Kategorien werden dadurch in aufsteigender Reihenfolge angezeigt.
+In der Kategorieliste symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile eine aktive Kategorie. Wurde eine Kategorie nicht aktiviert, fehlt dieses Symbol. Desweiteren wird die Sortierung und der Kategorietitel angezeigt. Nach Kategorien kann gesucht werden, indem Suchfelder für Sortierung und Kategorietitel sowie ein Filter für die Kategorien verwendet werden. Kategorien können in der Kategorieliste nach aktiv/inaktiv, Sortierung und Titel sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Kategorien werden dadurch in aufsteigender Reihenfolge angezeigt.
 
 Kategorien lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile aus der Datenbank entfernen. Kategorien mit Unterkategorien können nicht gelöscht werden.
 

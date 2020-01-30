@@ -25,7 +25,7 @@ Der Abschnitt \"Rabatte\" informiert Sie darüber, wie Rabatte erstellt und mit 
 
 Rabatte können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Rabatte` bearbeitet werden. Es werden eine Liste mit den vorhandenen Rabatten und darunter der Eingabebereich für die Rabatte angezeigt.
 
-In der Liste der Rabatte symbolisiert ein kleines grünes Quadrat am Anfang der Zeile einen aktiven Rabatt. Wurde ein Rabatt nicht aktiviert, fehlt dieses Symbol. Die Liste zeigt ausschließlich den Namen des Rabattes an. Nach Rabatten kann gesucht werden, indem Zeichen in das Suchfeld eingegeben werden. Die Namen der Rabatte werden nach diesen Zeichen durchsucht, sobald die Eingabe mit einem Enter abgeschlossen oder das Lupen-Symbol angeklickt wurde.
+In der Liste der Rabatte symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Rabatt. Wurde ein Rabatt nicht aktiviert, fehlt dieses Symbol. Die Liste zeigt ausschließlich den Namen des Rabattes an. Nach Rabatten kann gesucht werden, indem Zeichen in das Suchfeld eingegeben werden. Die Namen der Rabatte werden nach diesen Zeichen durchsucht, sobald die Eingabe mit einem Enter abgeschlossen oder das Lupen-Symbol angeklickt wurde.
 
 Rabatte können in der Liste nach aktiv/nicht aktiv, Sortierung und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Rabatte werden dadurch in aufsteigender Reihenfolge angezeigt.
 
@@ -55,5 +55,6 @@ Registerkarte Mall
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Rabatte vererben, Rabatte verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
+
 
 .. Intern: oxbahh, Status:

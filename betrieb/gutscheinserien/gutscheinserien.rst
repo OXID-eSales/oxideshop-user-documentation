@@ -25,7 +25,7 @@ Im Abschnitt \"Gutscheinserien\" wird erläutert, wie Gutscheinserien erstellt u
 
 Gutscheinserien werden im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Gutscheinserien` erstellt. Es werden eine Liste mit bereits vorhandenen Gutscheinserien und darunter der Eingabebereich für die Gutscheinserien angezeigt.
 
-In der Liste der Gutscheinserien symbolisiert ein kleines grünes Quadrat am Anfang der Zeile eine aktive Gutscheinserie. Trifft für eine Gutscheinserie der Gültigkeitszeitraum nicht zu, fehlt dieses Symbol. Die Gutscheinserie ist ungültig und damit nicht aktiv. Die Liste zeigt den Namen der Gutscheinserie, den gewährten Nachlass, den Zeitraum ihrer Gültigkeit und einen vorgegebenen Mindesteinkaufswert. Nach Gutscheinserien kann gesucht werden, indem Zeichen in die Suchfelder eingegeben werden. Die Suche startet, sobald die Eingabe mit einem Enter abgeschlossen oder das Lupen-Symbol angeklickt wurde. Die Spaltenüberschriften der Liste sind Links. Ein Klick darauf sortiert die Gutscheinserien aufsteigend nach Name, Rabatt, Gültigkeit usw.
+In der Liste der Gutscheinserien symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile eine aktive Gutscheinserie. Trifft für eine Gutscheinserie der Gültigkeitszeitraum nicht zu, fehlt dieses Symbol. Die Gutscheinserie ist ungültig und damit nicht aktiv. Die Liste zeigt den Namen der Gutscheinserie, den gewährten Nachlass, den Zeitraum ihrer Gültigkeit und einen vorgegebenen Mindesteinkaufswert. Nach Gutscheinserien kann gesucht werden, indem Zeichen in die Suchfelder eingegeben werden. Die Suche startet, sobald die Eingabe mit einem Enter abgeschlossen oder das Lupen-Symbol angeklickt wurde. Die Spaltenüberschriften der Liste sind Links. Ein Klick darauf sortiert die Gutscheinserien aufsteigend nach Name, Rabatt, Gültigkeit usw.
 
 Gutscheinserien lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Soll die Gutscheinserie nur nicht aktiv sein, tragen Sie einen nicht gültigen Zeitraum ein.
 
@@ -48,5 +48,6 @@ Registerkarte Mall
 Nur in der Enterprise Edition vorhanden |br|
 **Inhalte**: Gutscheinserien vererben, Gutscheinserien verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
 :doc:`Artikel lesen <registerkarte-mall>` |link|
+
 
 .. Intern: oxbahr, Status:
