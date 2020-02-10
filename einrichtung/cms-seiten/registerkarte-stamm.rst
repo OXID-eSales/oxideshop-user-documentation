@@ -5,6 +5,7 @@ Auf der Registerkarte :guilabel:`Stamm` werden Einstellungen zur CMS-Seite vorge
 
 .. image:: ../../media/screenshots-de/oxbajj01.png
    :alt: CMS-Seiten
+   :class: with-shadow
    :height: 343
    :width: 650
 

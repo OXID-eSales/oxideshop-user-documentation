@@ -5,6 +5,7 @@ Die Registerkarte :guilabel:`SEO` der CMS-Seite beinhaltet Informationen und Ein
 
 .. image:: ../../media/screenshots-de/oxbajk01.png
    :alt: CMS-Seiten
+   :class: with-shadow
    :height: 343
    :width: 650
 

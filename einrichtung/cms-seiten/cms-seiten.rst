@@ -5,6 +5,7 @@ CMS steht für Content-Management-System, zu deutsch Inhaltsverwaltungssystem. I
 
 .. image:: ../../media/screenshots-de/oxbaji01.png
    :alt: CMS-Seiten
+   :class: with-shadow
    :height: 541
    :width: 650
 
@@ -12,6 +13,7 @@ Sie werden auch für einzelne Seitenbereiche, die den Kunden informieren, genutz
 
 .. image:: ../../media/screenshots-de/oxbaji02.png
    :alt: Footer im Frontend
+   :class: with-shadow
    :height: 89
    :width: 650
 
