@@ -1,7 +1,7 @@
 ﻿Registerkarte SEO
 =================
 
-Die Registerkarte :guilabel:`SEO` der Kategorie beinhaltet Informationen und\Einstellungen, die für Suchmaschinen relevant sind.
+Die Registerkarte :guilabel:`SEO` der Kategorie beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
 
 .. image:: ../../media/screenshots-de/oxbabo01.png
    :alt: Kategorien - Registerkarte SEO
