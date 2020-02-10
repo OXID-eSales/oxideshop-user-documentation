@@ -21,4 +21,5 @@
 .. toctree::
    :maxdepth: 1
 
+   CMS-Seiten <cms-seiten/index>
    Generischer Export und Import <export-import/index>
