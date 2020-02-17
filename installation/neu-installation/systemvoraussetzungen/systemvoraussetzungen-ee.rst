@@ -11,8 +11,8 @@ Webserver
 
 Bitte beachten Sie, dass trotz installierter Erweiterung *mod_rewrite* bei der Prüfung der Systemgesundheit die Voraussetzungen nicht erfüllt sein können. Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts. Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
 
-MySQL
------
+Datenbank
+---------
 
 * MySQL 5.7 - getestet
 * MySQL 5.6 - getestet, mit bekanntem Bug |br|
