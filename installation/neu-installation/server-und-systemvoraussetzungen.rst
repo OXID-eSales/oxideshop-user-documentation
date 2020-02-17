@@ -17,10 +17,11 @@ Bitte beachten Sie, dass trotz installierter Erweiterung *mod_rewrite* bei der P
 
 Der Zend Guard Loader wird nicht länger benötigt, da der OXID eShop 6 unverschlüsselt ist.
 
-MySQL
------
+Datenbank
+---------
 
 * MySQL 5.5 und 5.7
+* MariaDB (getestet mit MariaDB 10.4)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
 
@@ -29,7 +30,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP Versionen 7.1 und 7.2   https://www.php.net/supported-versions.php
+* PHP Versionen 7.1 bis 7.4
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte dektiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
