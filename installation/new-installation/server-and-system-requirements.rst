@@ -17,8 +17,8 @@ Please note that even with the *mod_rewrite* extension installed, the system hea
 
 Zend Guard Loader is no longer needed because OXID eShop 6 is not encrypted.
 
-MySQL
------
+Database
+--------
 
 * MySQL 5.5 and 5.7
 
