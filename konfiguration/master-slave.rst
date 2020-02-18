@@ -17,7 +17,7 @@ Der zweite Eintrag definiert die Balance zwischen Master/Slave mit einem Wert zw
 
 .. code:: php
 
-   $this->SlaveHosts = array('slave1host', '10.2.3.12', 'masterhost');
+   $this->aSlaveHosts = array('slave1host', '10.2.3.12', 'masterhost');
    $this->iMasterSlaveBalance = 50;
 
 Master/Slave im Quellcode
