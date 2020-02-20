@@ -51,7 +51,7 @@ Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich 
    Beispiel: Der Eintrag page/list/mylist.tpl würde beim Theme \"Flow\" das Template :file:`mylist.tpl` aus dem Verzeichnis :file:`/application/views/flow/tpl/page/list` aufrufen.
 
 :guilabel:`Schnellsortierung`
-   Für die Artikel einer Kategorie kann die Sortierung nach einem Artikelmerkmal eingestellt werden. In einer Dropdown-Liste kann ein bestimmtes Artikelmerkmal, wie beispielsweise :guilabel:`Titel`, :guilabel:` Preis` oder :guilabel:`Letzte Änderung` gewählt werden. Als Sortierreihenfolge lässt sich :guilabel:`asc` (aufsteigend) oder :guilabel:`desc` (absteigend) festlegen.
+   Für die Artikel einer Kategorie kann die Sortierung nach einem Artikelmerkmal eingestellt werden. In einer Dropdown-Liste kann ein bestimmtes Artikelmerkmal, wie beispielsweise :guilabel:`Titel`, :guilabel:`Preis` oder :guilabel:`Letzte Änderung` gewählt werden. Als Sortierreihenfolge lässt sich :guilabel:`asc` (aufsteigend) oder :guilabel:`desc` (absteigend) festlegen.
 
 :guilabel:`Preis von/bis (€)`
    In einer Kategorie können alle Artikel angezeigt werden, die einen bestimmten Preis haben. Im ersten Eingabefeld wird die Untergrenze eingegeben, in das zweite Eingabefeld die Obergrenze. Damit haben Sie die Möglichkeit, preisabhängige Kategorien einzurichten. So lassen sich beispielsweise alle Artikel des Shops unter 10 Euro anzeigen.
