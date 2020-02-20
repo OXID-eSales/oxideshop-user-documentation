@@ -9,7 +9,7 @@ Im OXID eShop lassen sich Hersteller verwalten, denen Artikel zugeordnet werden 
    :height: 649
    :width: 650
 
-Darüber kann eine Übersicht aller Marken oder eine Übersicht aller Artikel einer Marke aufgerufen werden. Damit die Hersteller als Marken im Frontend angezeigt werden, muss die Funktion Herstellerliste laden und anzeigen in den Performance-Einstellungen aktiviert sein. Setzen Sie ein Häkchen in das Kontrollkästchen unter :menuselection:`Stammdaten --> Grundeinstellungen` --> Registerkarte :guilabel:`Perform.`
+Darüber kann eine Übersicht aller Marken oder eine Übersicht aller Artikel einer Marke aufgerufen werden. Damit die Hersteller als Marken im Frontend angezeigt werden, muss die Funktion Herstellerliste laden und anzeigen in den Performance-Einstellungen aktiviert sein. Setzen Sie ein Häkchen in das Kontrollkästchen unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Perform.`
 
 Um Hersteller zu erstellen oder zu bearbeiten, gehen Sie im Administrationsbereich des Shops zu :menuselection:`Stammdaten --> Hersteller`.
 
@@ -46,5 +46,6 @@ Registerkarte SEO
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
+
 
 .. Intern: oxbagb, Status:

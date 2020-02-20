@@ -23,7 +23,7 @@ Wird eine Bestellung aus der Liste der Bestellungen gewählt, werden deren Infor
 
 Registerkarte Übersicht
 -----------------------
-**Inhalte**: Bestellübersicht, Rechnungsadresse, Lieferadresse, bestellte Artikel, Gesamtpreis mit einzelnen Positionen, Zahlungsart, Versandart, Mitteilung zur Bestellung, Bestellnummer, Kundennummer, Ordner für Bestellungen, Neu, Bearbeitet, Probleme, Bestellungen des aktuellen Tages, Bestellungen total, Bestellung versenden, Versandbestätigung, XML Export, Rechnung und Lieferschein als PDF |br|
+**Inhalte**: Bestellübersicht, Rechnungsadresse, Lieferadresse, bestellte Artikel, Gesamtpreis mit einzelnen Positionen, Zahlungsart, Versandart, Mitteilung zur Bestellung, Bestellnummer, Kundennummer, Ordner für Bestellungen, Neu, Bearbeitet, Probleme, Bestellungen des aktuellen Tages, Bestellungen total, Bestellung versenden, Versandbestätigung |br|
 :doc:`Artikel lesen <registerkarte-uebersicht>` |link|
 
 Registerkarte Stamm
@@ -50,5 +50,6 @@ Registerkarte Downloads
 -----------------------
 **Inhalte**: Download-Artikel einer Bestellung, herunterladbare Dateien, erster und letzter Download, Anzahl erfolgter Downloads, maximal mögliche Downloads, Gültigkeit der Download-Links, Reset, Downloads zurücksetzen |br|
 :doc:`Artikel lesen <registerkarte-downloads>` |link|
+
 
 .. Intern: oxbaeb, Status:

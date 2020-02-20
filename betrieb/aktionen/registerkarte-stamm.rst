@@ -40,7 +40,7 @@ Typ Banner
 Name der Aktion vom Typ Banner, wie er im Administrationsbereich angezeigt wird. Auf der Startseite des Shops werden die Banner in einer wechselnden Folge ihrer Bilder ohne eine Überschrift angezeigt.
 
 :guilabel:`Immer aktiv` |br|
-Aktivieren Sie dieses Kontrollkästchen, damit das Banner im Shop angezeigt wird. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Aktionen laden` auf der Registerkarte:guilabel:` Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` angehakt ist.
+Aktivieren Sie dieses Kontrollkästchen, damit das Banner im Shop angezeigt wird. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Aktionen laden` auf der Registerkarte :guilabel:` Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` angehakt ist.
 
 :guilabel:`Aktiv für Zeitraum von` ... :guilabel:`bis` ... |br|
 Definieren Sie hier einen Zeitraum, in dem das Banner aktiv ist. Dieser wird nur berücksichtigt, wenn das Kontrollkästchen :guilabel:`Immer aktiv` nicht angehakt ist. Auch zugeordnete Benutzergruppen beeinflussen die Anzeige des Banners auf der Startseite.
@@ -77,5 +77,6 @@ Der Aktion kann ein Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Prod
 Mit der Schaltfläche :guilabel:`Produkt zuordnen` wird das Banner mit dem in der Liste markierten Artikel verbunden. Mit der Schaltfläche :guilabel:`Produktzuordnung löschen` wird eine bestehende Verbindung zwischen Banner und Artikel getrennt.
 
 .. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktionen und Startseite <aktionen-und-startseite>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>`
+
 
 .. Intern: oxbagy, Status:, F1: actions_main.html

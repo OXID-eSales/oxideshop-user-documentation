@@ -18,7 +18,7 @@ Die Versandkostenregel ist aktiv, wenn das Kontrollkästchen angehakt ist.
 :guilabel:`Oder aktiv` ... :guilabel:`(von)` ... :guilabel:`(bis)` |br|
 Alternativ kann eine Versandkostenregel so eingerichtet werden, dass sie nur für einen bestimmten Zeitraum gilt. Der Zeitraum dafür wird hier festgelegt. Das Eingabeformat ist dabei JJJJ-MM-TT HH:MM:SS. Damit der Zeitraum berücksichtigt wird, darf :guilabel:`Aktiv` nicht angehakt sein, und es muss ein Bis-Datum geben.
 
-:guilabel:`Bedingung \>=` ...\:guilabel:`und \<=` ... |br|
+:guilabel:`Bedingung \>=` ... :guilabel:`und \<=` ... |br|
 Eine Versandkostenregel kann auf Basis der Menge, der Größe, des Gewichtes oder des Preises der bestellten Artikel definiert werden. Die Auswahl erfolgt mit einer kleinen Dropdown-Liste. Die Bedingung muss so formuliert werden, dass sie gültig ist. Achten Sie daher darauf, immer eine Bis-Menge, eine Bis-Größe, ein Bis-Gewicht oder eine Bis-Preis einzutragen.
 
 :guilabel:`Preis Auf-/Abschlag (€)` |br|
@@ -56,5 +56,6 @@ Nehmen Sie diese Zuordnung vor, indem Sie auf die Schaltfläche :guilabel:`Länd
 .. hint:: Der Versand in In- und Ausland sollte immer über Versandkostenregeln gesteuert werden. Verwenden Sie dafür nicht die Versandarten. Es könnten dadurch Probleme auftreten, wenn bei einer Bestellung Rechnungsadresse und Lieferadresse in verschiedenen Ländern liegen.
 
 .. seealso:: :doc:`Gewichtsabhängige Versandkosten <../zahlung-und-versand/gewichtsabhaengige-versandkosten>` | :doc:`Versandkostenfrei ab Warenwert <../zahlung-und-versand/versandkostenfrei-ab-warenwert>` | :doc:`Versandkosten für In- und Ausland <../zahlung-und-versand/versandkosten-fuer-in-und-ausland>`
+
 
 .. Intern: oxbadk, Status:, F1: delivery_main.html

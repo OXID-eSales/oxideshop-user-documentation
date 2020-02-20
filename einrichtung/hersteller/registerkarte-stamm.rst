@@ -24,7 +24,7 @@ Die Kurzbeschreibung wird im Shop in der Übersicht aller Artikel dieses Herstel
 Dateiname eines Herstellerlogos, welches in der Übersicht aller Hersteller/Marken angezeigt wird. Der Dateiname ist nach dem Hochladen des Icons sichtbar. Die Größe des Hersteller-/Markenlogos in Pixeln (Breite*Höhe) wird in den Einstellungen des Themes festgelegt.
 
 :guilabel:`Icon hochladen (max. 2 MB, max. 1500*1500 px)` |br|
-Mit der Schaltfläche :guilabel:`Durchsuchen...` wählen Sie das Icon aus. Es öffnet sich ein Dateidialog, mit dem Sie die entsprechende Datei auf der lokalen Festplatte auswählen können. Drücken Sie auf :guilabel:`Speichern`, um das Bild auf den Server des Shops hochzuladen. Der Speicherort ist:file:` /out/pictures/master/manufacturer/icon`.
+Mit der Schaltfläche :guilabel:`Durchsuchen...` wählen Sie das Icon aus. Es öffnet sich ein Dateidialog, mit dem Sie die entsprechende Datei auf der lokalen Festplatte auswählen können. Drücken Sie auf :guilabel:`Speichern`, um das Bild auf den Server des Shops hochzuladen. Der Speicherort ist :file:` /out/pictures/master/manufacturer/icon`.
 
 :guilabel:`In Sprache` |br|
 Der Hersteller lässt sich in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
@@ -39,5 +39,6 @@ Dem Hersteller können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`A
    :width: 400
 
 In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit dem Hersteller zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+
 
 .. Intern: oxbagc, Status:, F1: manufacturer_main.html

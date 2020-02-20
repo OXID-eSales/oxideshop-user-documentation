@@ -45,7 +45,7 @@ Bei bestimmten Zahlungsarten sind zusätzliche Informationen vom Kunden erforder
 .. hint:: Da viele Zahlungsschnittstellen, mit denen der OXID eShop erweitert werden kann, bestehende Felder verwenden, ändern Sie die bestehenden Einträge bitte nicht.
 
 :guilabel:`Feld hinzufügen` | :guilabel:`Markierte Felder löschen` |br|
-Für Zahlungsarten können Sie neue Felder ohne Programmierung hinzufügen. Damit diese aber vom Kunden abgefragt und deren Werte in der Datenbank gespeichert werden, muss allerdings das für die Anzeige zuständige Template erweitert werden. Eine Vorlage, wie die Felder verwendet werden, finden Sie im Template :file:`payment_oxiddebitnote.tpl`, welches die Zahlungsart \"Bankeinzug/Lastschrift\" im Bestellprozess anzeigt. Hier sorgen die DynValue-Felder dafür, dass die vom Kunden eingegebenen Bankdaten in der Datenbank (Tabelle\"oxuserpayments\", Feld\"OXVALUE\") gespeichert werden.
+Für Zahlungsarten können Sie neue Felder ohne Programmierung hinzufügen. Damit diese aber vom Kunden abgefragt und deren Werte in der Datenbank gespeichert werden, muss allerdings das für die Anzeige zuständige Template erweitert werden. Eine Vorlage, wie die Felder verwendet werden, finden Sie im Template :file:`payment_oxiddebitnote.tpl`, welches die Zahlungsart "Bankeinzug/Lastschrift" im Bestellprozess anzeigt. Hier sorgen die DynValue-Felder dafür, dass die vom Kunden eingegebenen Bankdaten in der Datenbank (Tabelle :db:`oxuserpayments`, Feld :db:`OXVALUE`) gespeichert werden.
 
 :guilabel:`In Sprache` |br|
 Die Zahlungsart lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
@@ -55,11 +55,12 @@ Zahlungsarten gelten für Benutzergruppen. Eine Zuordnung stellt sicher, dass Ku
 
 Die Schaltfläche :guilabel:`Benutzergruppen zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Benutzergruppen angezeigt. Die Benutzergruppen können per Drag \& Drop in die rechte Liste verschoben werden. Damit ist die Zuordnung abgeschlossen.
 
-Die Benutzergruppen \"Inland\" und \"Ausland\" sind so etwas wie die Basis für die Zahlungsarten. Jeder Kunde, der Waren in den Warenkorb legte, hat sich im Bestellschritt 2 bereits identifiziert. Er kauft als registrierter Kunde oder als Kunde ohne Registrierung ein. Seine Rechnungsanschrift und gegebenenfalls eine davon abweichende Lieferadresse sind dem Shop bekannt. Ein Inlandskunde oder ein Auslandskunde ist er damit in jedem Fall.
+Die Benutzergruppen "Inland" und "Ausland" sind so etwas wie die Basis für die Zahlungsarten. Jeder Kunde, der Waren in den Warenkorb legte, hat sich im Bestellschritt 2 bereits identifiziert. Er kauft als registrierter Kunde oder als Kunde ohne Registrierung ein. Seine Rechnungsanschrift und gegebenenfalls eine davon abweichende Lieferadresse sind dem Shop bekannt. Ein Inlandskunde oder ein Auslandskunde ist er damit in jedem Fall.
 
 :guilabel:`Beschreibung der Zahlungsart` |br|
 Geben Sie ein paar Informationen zur Zahlungsart ein. Diese werden angezeigt, sobald der Kunde diese Zahlungsart im Bestellprozess auswählt.
 
 .. seealso:: :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>` | :doc:`Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten>` | :doc:`Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`
+
 
 .. Intern: oxbada, Status:, F1: payment_main.html
