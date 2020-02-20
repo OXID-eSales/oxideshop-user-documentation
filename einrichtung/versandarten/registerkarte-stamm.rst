@@ -11,11 +11,11 @@ Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versand
 :guilabel:`Name` |br|
 Tragen Sie hier die Bezeichnung der Versandart ein. Diese wird dem Kunden im Bestellschritt 3 angezeigt. Sind mehrere Versandarten gültig, muss eine davon aus einer Dropdown-Liste ausgewählt werden.
 
-:guilabel:`Aktiv` |br|
+:guilabel:`Immer aktiv` |br|
 Ein Häkchen in diesem Kontrollkästchen bewirkt, dass die Versandart aktiv ist und verwendet werden kann.
 
-:guilabel:`Oder aktiv` |br|
-Legen Sie hier einen Zeitraum fest, in dem die Versandart aktiv sein soll. Das Eingabeformat ist dabei JJJJ-MM-TT HH:MM:SS. Damit der Zeitraum berücksichtigt wird, darf :guilabel:`Aktiv` nicht angehakt sein.
+:guilabel:`Aktiv für Zeitraum` |br|
+Legen Sie hier einen Zeitraum fest, in dem die Versandart aktiv sein soll. Das Eingabeformat ist dabei JJJJ-MM-TT HH:MM:SS. Damit der Zeitraum berücksichtigt wird, darf :guilabel:`Immer aktiv` nicht angehakt sein.
 
 :guilabel:`Sortierung` |br|
 Die Sortierung legt die Reihenfolge der Versandarten in der Dropdown-Liste fest. Die Versandart mit der kleinsten Zahl steht als erste zur Auswahl und ist damit vorausgewählt.
@@ -35,5 +35,6 @@ Der Versandart sollten Länder zugeordnet werden, um eindeutige Zahlungs- und Ve
 Ohne Länderzuordnung gilt die Versandart für alle Länder.
 
 Mit der Schaltfläche :guilabel:`Länder zuordnen` wird ein neues Fenster geöffnet, in dem in dessen linker Liste alle aktiven Länder angezeigt werden. Länder lassen sich nach Titel und/oder der Länderabkürzung (ISO Alpha 2) sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung zur Versandart ist damit abgeschlossen.
+
 
 .. Intern: oxbade, Status:, F1: deliveryset_main.html

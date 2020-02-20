@@ -63,7 +63,7 @@ Für alle Artikel in dieser Kategorie kann ein spezieller Mehrwertsteuersatz gel
 Ist diese Einstellung aktiv, werden für alle Artikel in dieser Kategorie keine negativen Nachlässe berechnet. Das sind vor allem Rabatte und Gutscheine, die damit für Artikel dieser Kategorie nicht gelten, ebenso wie negative Nachlässe bei Zahlungsarten (Skonto).
 
 :guilabel:`In Sprache` |br|
-Die Kategorie lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.\\\
+Die Kategorie lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
 
 :guilabel:`Artikel zuordnen` |br|
 Der Kategorie können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster.
@@ -76,5 +76,6 @@ Der Kategorie können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Ar
 In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Kategorie zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`
+
 
 .. Intern: oxbabk, Status:, F1: category_main.html

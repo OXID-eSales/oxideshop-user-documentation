@@ -8,7 +8,7 @@ Die Canonical Tags werden im OXID eShop prinzipiell, also auch für nur eine Kat
 
 Beispiel aus dem Seitenquelltext eines Artikels in einem Demoshop:
 
-``\<link rel=\"canonical\"href=\"http://demoshop.oxid-esales.com/pe/Kiteboarding/Trapeze/Trapez-ION-MADTRIXX.html\"\>``
+``<link rel="canonical "href="http://demoshop.oxid-esales.com/pe/Kiteboarding/Trapeze/Trapez-ION-MADTRIXX.html">``
 
 Die Hauptkategorie eines Artikels wird festgelegt.
 

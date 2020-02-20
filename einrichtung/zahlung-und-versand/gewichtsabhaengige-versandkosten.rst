@@ -25,7 +25,7 @@ In den Versandkostenregeln wird Gewicht als Bedingung definiert.
 
 Die Versandkostenregel wird einer Versandart zugeordnet.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> :guilabel:`Versandart`en`.
+* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
 * Wählen Sie die Versandart aus der Liste der Versandarten.
 * Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
 * Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
@@ -64,5 +64,6 @@ Sind zwei oder mehrere Artikel mit einem Gewicht von jeweils 2 Kilogramm im Ware
    :width: 550
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
+
 
 .. Intern: oxbafv, Status:
