@@ -1,7 +1,7 @@
 ﻿Registerkarte SEO
 =================
 
-Die Registerkarte :guilabel:`SEO` des Artikels beinhaltet Informationen und\Einstellungen, die für Suchmaschinen relevant sind.
+Die Registerkarte :guilabel:`SEO` des Artikels beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
 
 .. image:: ../../media/screenshots/oxbacu01.png
    :alt: Artikel - Registerkarte SEO
@@ -27,5 +27,6 @@ Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Inf
 
 :guilabel:`In Sprache`
    Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
+
 
 .. Intern: oxbacu, Status:, F1: article_seo.html

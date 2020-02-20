@@ -51,7 +51,7 @@ Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich 
    Beispiel: Der Eintrag page/list/mylist.tpl würde beim Theme \"Flow\" das Template :file:`mylist.tpl` aus dem Verzeichnis :file:`/application/views/flow/tpl/page/list` aufrufen.
 
 :guilabel:`Schnellsortierung`
-   Für die Artikel einer Kategorie kann die Sortierung nach einem Artikelmerkmal eingestellt werden. In einer Dropdown-Liste kann ein bestimmtes Artikelmerkmal, wie beispielsweise :guilabel:`Titel`,:guilabel:` Preis` oder :guilabel:`Letzte Änderung` gewählt werden. Als Sortierreihenfolge lässt sich :guilabel:`asc` (aufsteigend) oder :guilabel:`desc` (absteigend) festlegen.
+   Für die Artikel einer Kategorie kann die Sortierung nach einem Artikelmerkmal eingestellt werden. In einer Dropdown-Liste kann ein bestimmtes Artikelmerkmal, wie beispielsweise :guilabel:`Titel`, :guilabel:` Preis` oder :guilabel:`Letzte Änderung` gewählt werden. Als Sortierreihenfolge lässt sich :guilabel:`asc` (aufsteigend) oder :guilabel:`desc` (absteigend) festlegen.
 
 :guilabel:`Preis von/bis (€)`
    In einer Kategorie können alle Artikel angezeigt werden, die einen bestimmten Preis haben. Im ersten Eingabefeld wird die Untergrenze eingegeben, in das zweite Eingabefeld die Obergrenze. Damit haben Sie die Möglichkeit, preisabhängige Kategorien einzurichten. So lassen sich beispielsweise alle Artikel des Shops unter 10 Euro anzeigen.
@@ -63,7 +63,7 @@ Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich 
    Ist diese Einstellung aktiv, werden für alle Artikel in dieser Kategorie keine negativen Nachlässe berechnet. Das sind vor allem Rabatte und Gutscheine, die damit für Artikel dieser Kategorie nicht gelten, ebenso wie negative Nachlässe bei Zahlungsarten (Skonto).
 
 :guilabel:`In Sprache`
-   Die Kategorie lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.\\\
+   Die Kategorie lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
 
 :guilabel:`Artikel zuordnen`
    Der Kategorie können Artikel zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster.
@@ -76,5 +76,6 @@ Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lassen sich 
 In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Kategorie zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`
+
 
 .. Intern: oxbabk, Status:, F1: category_main.html

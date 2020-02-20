@@ -44,7 +44,7 @@ Die Registerkarte :guilabel:`Stamm` stellt verschiedene Einstellungen zur Verfü
 .. hint:: Da viele Zahlungsschnittstellen, mit denen der OXID eShop erweitert werden kann, bestehende Felder verwenden, ändern Sie die bestehenden Einträge bitte nicht.
 
 :guilabel:`Feld hinzufügen` | :guilabel:`Markierte Felder löschen`
-   Für Zahlungsarten können Sie neue Felder ohne Programmierung hinzufügen. Damit diese aber vom Kunden abgefragt und deren Werte in der Datenbank gespeichert werden, muss allerdings das für die Anzeige zuständige Template erweitert werden. Eine Vorlage, wie die Felder verwendet werden, finden Sie im Template :file:`payment_oxiddebitnote.tpl`, welches die Zahlungsart \"Bankeinzug/Lastschrift\" im Bestellprozess anzeigt. Hier sorgen die DynValue-Felder dafür, dass die vom Kunden eingegebenen Bankdaten in der Datenbank (Tabelle\"oxuserpayments\", Feld\"OXVALUE\") gespeichert werden.
+   Für Zahlungsarten können Sie neue Felder ohne Programmierung hinzufügen. Damit diese aber vom Kunden abgefragt und deren Werte in der Datenbank gespeichert werden, muss allerdings das für die Anzeige zuständige Template erweitert werden. Eine Vorlage, wie die Felder verwendet werden, finden Sie im Template :file:`payment_oxiddebitnote.tpl`, welches die Zahlungsart \"Bankeinzug/Lastschrift\" im Bestellprozess anzeigt. Hier sorgen die DynValue-Felder dafür, dass die vom Kunden eingegebenen Bankdaten in der Datenbank (Tabelle :db:`oxuserpayments`, Feld :db:`OXVALUE`) gespeichert werden.
 
 :guilabel:`In Sprache`
    Die Zahlungsart lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
@@ -60,5 +60,6 @@ Die Registerkarte :guilabel:`Stamm` stellt verschiedene Einstellungen zur Verfü
    Geben Sie ein paar Informationen zur Zahlungsart ein. Diese werden angezeigt, sobald der Kunde diese Zahlungsart im Bestellprozess auswählt.
 
 .. seealso:: :doc:`Benutzer - Registerkarte Erweitert <../../betrieb/benutzer/registerkarte-erweitert>` | :doc:`Preise für Zahlungsarten <../zahlung-und-versand/preise-fuer-zahlungsarten>` | :doc:`Zahlungsarten für bestimmte Benutzer <../zahlung-und-versand/zahlungsarten-fuer-bestimmte-benutzer>`
+
 
 .. Intern: oxbada, Status:, F1: payment_main.html

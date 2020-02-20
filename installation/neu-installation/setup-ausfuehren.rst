@@ -17,9 +17,13 @@ Im ersten Schritt des Setups werden die Systemvoraussetzungen geprüft. Wählen 
 Farbige Symbole zeigen an, ob die Systemvoraussetzungen erfüllt sind:
 
 .. |install-pass| image:: ../../media/icons/install-pass.png
+                   :class: no-shadow
 .. |install-pmin| image:: ../../media/icons/install-pmin.png
+                   :class: no-shadow
 .. |install-fail| image:: ../../media/icons/install-fail.png
+                   :class: no-shadow
 .. |install-null| image:: ../../media/icons/install-null.png
+                   :class: no-shadow
 
 * |install-pass| Die Voraussetzung ist erfüllt.
 * |install-pmin| Die Voraussetzung ist nicht oder nur teilweise erfüllt. Der OXID eShop funktioniert trotzdem und kann installiert werden.
@@ -78,5 +82,6 @@ Shopbetreiber mit einer Enterprise oder Professional Edition tragen hier den Liz
 |schritt| Fertigstellen
 -----------------------
 Das Setup ist nun erfolgreich abgeschlossen. Über den Link :guilabel:`Zum Shop` gelangen Sie zur Startseite Ihres Shops. Der Link :guilabel:`Zur Shop Administration` führt Sie direkt zum Administrationsbereich.
+
 
 .. Intern: oxbaaf, Status:
