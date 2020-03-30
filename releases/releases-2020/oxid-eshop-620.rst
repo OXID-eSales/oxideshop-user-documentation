@@ -115,7 +115,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * GDPR Opt-In (Update von 2.2.0 auf 2.3.0), `Changelog 2.3.0 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.0/CHANGELOG.md>`_
 * Klarna (Update von 4.3.0 auf 5.1.4), `Changelog 5.1.4 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.1.4/CHANGELOG.md>`_
 * Paymorrow (Update von 2.0.1 auf 2.0.3), `Changelog 2.0.3 <https://github.com/OXID-eSales/paymorrow-module/blob/v2.0.3/CHANGELOG.md>`_
-* PAYONE (Update von 1.0.10 auf 1.3.1), `Changelog 1.3.1 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.3.1/Changelog.txt>`_
+* PAYONE (Update von 1.0.10 auf 1.3.1), `Changelog v1.3.1 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.3.1/Changelog.txt>`_
 * PayPal (Update von 5.2.5 auf 6.1.0), `Changelog 6.1.0 <https://github.com/OXID-eSales/paypal/blob/v6.1.0/CHANGELOG.md>`_
 * Visual CMS (PE/EE) (Update von 3.3.2 auf 3.3.3), `Changelog 3.3.3 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.3.3/CHANGELOG.md>`_
 
