@@ -1,5 +1,5 @@
 ﻿User Documentation
-=====================
+==================
 
 .. toctree::
    :maxdepth: 1
@@ -12,4 +12,6 @@
    Operation <operation/index>
    Releases <releases/index>
 
-.. |Home| image:: media/icons/home.png
+.. image:: media/icons/home.png
+    :width: 0 px
+    :height: 0 px
