@@ -28,7 +28,7 @@ OXID eShop 6.2.0 is provided as a compilation with the following components:
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/b-6.1...b-6.2>`_.
 
-The OXID eShop 6.2.0 contains a security fix for the payment module PAYONE. We recommend a quick update to this shop version.
+The OXID eShop 6.2.0 contains a security improvement for the payment module PAYONE.
 
 System requirements
 ^^^^^^^^^^^^^^^^^^^
