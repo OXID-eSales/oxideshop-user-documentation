@@ -12,6 +12,6 @@ Anwenderdokumentation
    Betrieb <betrieb/index>
    Releases <releases/index>
 
-.. image:: media/icons/home.png
+.. image:: media/icons-de/home.png
     :width: 0 px
     :height: 0 px
