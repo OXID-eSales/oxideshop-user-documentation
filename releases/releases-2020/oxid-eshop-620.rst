@@ -28,7 +28,7 @@ OXID eShop 6.2.0 is provided as a compilation with the following components:
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/b-6.1...b-6.2>`_.
 
-The OXID eShop 6.2.0 contains a security improvement for the payment module PAYONE.
+OXID eShop 6.2.0 contains a security improvement for the payment module PAYONE.
 
 System requirements
 ^^^^^^^^^^^^^^^^^^^
@@ -43,9 +43,9 @@ The new installation and the update from 6.1.x to 6.2.0 are described in the sec
 
 During installation, the new directory :file:`/var` is created at the same level as :file:`/source` and :file:`/vendor`, to which the HTTP server and CLI user need read and write access.
 
-Please run the update first in a test or development environment, or a copy of your current shop. Then, test the ordering process and payment and shipping methods. If the shop works correctly, you can replace the shop in the live system with the one from the test or development environment.
+Please run the update first in a test or development environment, or a copy of your current shop. Then, test the ordering process and payment and shipping methods. If the shopping cart software works correctly, you can replace it in the live system with the one from the test or development environment.
 
-The OXID eShop 6.0.* has now reached EOL (End of Life) and is no longer supported. Please run an update if you still use a shop of this series.
+OXID eShop 6.0.* has now reached EoL (End of Life) and is no longer supported. Please consider to update if you still use a shop of this series.
 
 -----------------------------------------------------------------------------------------
 
@@ -54,19 +54,19 @@ New Functions
 
 Reverse Proxy NGINX
 ^^^^^^^^^^^^^^^^^^^
-The OXID eShop high load option is an add-on for the OXID eShop Enterprise Edition in version 6. Caching ensures the fast generation and delivery of HTML pages, especially during peak loads. Caching is handled by a reverse proxy, which processes incoming requests from web clients before the actual web server. The OXID eShop high load option now supports NGINX version 1.14.0 and higher as a reverse proxy, offering an alternative to the previously used varnish.
+OXID eShop high load option is an add-on for the OXID eShop Enterprise Edition in version 6. Caching ensures the fast generation and delivery of HTML pages, especially during peak loads. Caching is handled by a reverse proxy, which processes incoming requests from web clients before the actual web server. The OXID eShop high load option now supports NGINX version 1.14.0 and higher as a reverse proxy, offering an alternative to the previously used Varnish.
 
 OXID eShop console
 ^^^^^^^^^^^^^^^^^^
-The OXID eShop 6.2.0 uses the `Symfony Console <https://symfony.com/doc/current/console.html>`_. This allows developers to write, register and execute their own commands for components and modules. Information on this can be found in the developer documentation:  https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html.
+OXID eShop 6.2.0 uses the `Symfony Console <https://symfony.com/doc/current/console.html>`_. This allows developers to write, register and execute their own commands for components and modules. Information on this can be found in the developer documentation:  https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html.
 
 Template engine Twig
 ^^^^^^^^^^^^^^^^^^^^
-The OXID eShop supports `Twig <https://twig.symfony.com>`_, a Symfony project, as an alternative template engine. Developers can decide if they want to use Twig instead of Smarty in the templates. Tools are provided for the conversion from Smarty to Twig.
+OXID eShop supports `Twig <https://twig.symfony.com>`_, a Symfony project, as an alternative template engine. Developers can decide if they want to use Twig instead of Smarty in the templates. Tools are provided for the conversion from Smarty to Twig.
 
 Dependency Injection
 ^^^^^^^^^^^^^^^^^^^^
-Dependency Injection (DI), a design pattern in object-oriented programming, can now be used in modules. DI is implemented within OXID eShop using the Symfony DI container. Dependency Injection means, in a nutshell, that an object that requires the functionality of another object may not instantiate the other object itself. The object is injected from outside. What Depency Injection means for project developers is presented in a three-part article at the OXIDforge. `Part 1: Basics <https://oxidforge.org/en/dependency-injection-for-project-developers.html>`_ has been published so far.
+Dependency Injection (DI), a design pattern in object-oriented programming, can now be used in modules. DI is implemented in OXID eShop using the Symfony DI container. Dependency Injection means, in a nutshell, that an object that requires the functionality of another object may not instantiate the other object itself. The object is injected from outside. What Depency Injection means for project developers is presented in a three-part article at the OXIDforge. `Part 1: Basics <https://oxidforge.org/en/dependency-injection-for-project-developers.html>`_ has been published so far.
 
 Events
 ^^^^^^
@@ -80,15 +80,15 @@ The `Doctrine SQL Query Builder <https://www.doctrine-project.org/projects/doctr
 
 Codeception
 ^^^^^^^^^^^
-For the OXID eShop, `Codeception acceptance tests <https://codeception.com>`_ are introduced, which are recommended for writing acceptance tests for modules of the "Flow" and "Wave" themes. For developers, these tests are easier to write, use and maintain. Another advantage is that newer drivers are supported. Detailed information can be found in the developer documentation: https://docs.oxid-esales.com/developer/en/6.2.2/development/modules_components_themes/module/testing/codeception/index.html.
+For OXID eShop, `Codeception acceptance tests <https://codeception.com>`_ are introduced, which are recommended for writing acceptance tests for modules of the "Flow" and "Wave" themes. For developers, these tests are easier to write, use and maintain. Another advantage is that newer drivers are supported. Detailed information can be found in the developer documentation: https://docs.oxid-esales.com/developer/en/6.2.2/development/modules_components_themes/module/testing/codeception/index.html.
 
 New directory /var
 ^^^^^^^^^^^^^^^^^^
-The shop now has the new directory :file:`/var` on the same level as :file:`/source` and :file:`/vendor`. It contains the module configurations, structured by subdirectories. These are saved in .yaml files for each subshop (for an Enterprise Edition) and environment specific (production, staging, development). The directory requires recursive read and write access for HTTP server and CLI users during installation and at runtime.
+OXID eShop now has the new directory :file:`/var` on the same level as :file:`/source` and :file:`/vendor`. It contains the module configurations, structured by subdirectories. These are saved in .yaml files for each subshop (for an Enterprise Edition) and environment specific (production, staging, development). The directory requires recursive read and write access for HTTP server and CLI users during installation and at runtime.
 
 Custom shop offline page
 ^^^^^^^^^^^^^^^^^^^^^^^^
-The store can display a user-defined shop offline page with customized layout and/or special features instead of the default page that indicates maintenance mode. This is done by creating an HTML page with the file name :file:`cust_offline.html` and copying it into the directory :file:`/source`.
+The shop can display a user-defined shop offline page with customized layout and/or special features instead of the default page that indicates maintenance mode.
 
 Character set of the database connection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -122,7 +122,7 @@ In the assignment window for accessories, the order of the assigned products can
 
 Changes in the module system
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Today it is standard in large and medium-sized projects to operate the OXID eShop in various environments such as integration, staging, and production. In order to easily configure modules instead of managing them separately in each environment, the module system was extended accordingly. It is now possible to manage the environment via YAML configuration files. These are stored in the new directory :file:`/var` and its structured subdirectories. For detailed information, see the developer documentation: https://docs.oxid-esales.com/developer/en/6.2/development/modules_components_themes/project/module_configuration/modules_configuration.html#configuring-module-20190910
+Nowadays it is standard in large and medium-sized projects to operate OXID eShop in various environments such as integration, staging, and production. In order to easily configure modules instead of managing them separately in each environment, the module system was extended accordingly. It is now possible to manage the environment via YAML configuration files. These are stored in the new directory :file:`/var` and its structured subdirectories. For detailed information, see the developer documentation: https://docs.oxid-esales.com/developer/en/6.2/development/modules_components_themes/project/module_configuration/modules_configuration.html#configuring-module-20190910
 
 The :file:`metadata.php` file will be validated more strictly. The version number is now mandatory and additional source code is not allowed.
 
