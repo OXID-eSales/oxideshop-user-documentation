@@ -88,7 +88,7 @@ OXID eShop now has the new directory :file:`/var` on the same level as :file:`/s
 
 Custom shop offline page
 ^^^^^^^^^^^^^^^^^^^^^^^^
-The shop can display a user-defined shop offline page with customized layout and/or special features instead of the default page that indicates maintenance mode.
+The shop can display a user-defined shop offline page with customized layout and/or special features instead of the default page that indicates maintenance mode. This can be achieved by overwriting the method ``oxTriggerOfflinePageDisplay``.
 
 Character set of the database connection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
