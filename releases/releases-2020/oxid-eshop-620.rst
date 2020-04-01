@@ -28,11 +28,11 @@ Der OXID eShop 6.2.0 wird als Compilation bereitgestellt. Diese enthält u.a. fo
 
 Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/b-6.1...b-6.2>`_.
 
-Der OXID eShop 6.2.0 enthält eine Sicherheitsverbesserung im Zahlungsmodul PAYONE.
+OXID eShop 6.2.0 enthält eine Sicherheitsverbesserung im Zahlungsmodul PAYONE.
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
-Der OXID eShop 6.2.0 läuft unter PHP 7.1 bis 7.4. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 und MariaDB in der Version 10.4 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
+OXID eShop 6.2.0 läuft unter PHP 7.1 bis 7.4. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 und MariaDB in der Version 10.4 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
 
 Installation
 ^^^^^^^^^^^^
@@ -45,7 +45,7 @@ Bei der Installation wird das neue Verzeichnis :file:`/var` auf der gleichen Ebe
 
 Bitte führen Sie ein Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, aus. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 
-Der OXID eShop 6.0.* hat nun EOL (End of Life) erreicht und wird nicht mehr unterstützt. Bitte führen Sie ein Update aus, falls Sie noch einen Shop dieser Serie einsetzen.
+OXID eShop 6.0.* hat nun EOL (End of Life) erreicht und wird nicht mehr unterstützt. Bitte führen Sie ein Update aus, falls Sie noch einen Shop dieser Serie einsetzen.
 
 -----------------------------------------------------------------------------------------
 
@@ -58,11 +58,11 @@ Die OXID eShop Hochlastoption ist ein Add-On für den OXID eShop Enterprise Edit
 
 OXID eShop console
 ^^^^^^^^^^^^^^^^^^
-Der OXID eShop 6.2.0 nutzt die `Symfony Console <https://symfony.com/doc/current/console.html>`_. Mit dieser können Entwickler eigene Kommandos für Komponenten und Module schreiben, registrieren und ausführen. Informationen dazu sind in der englischsprachigen Entwicklerdokumentation zu finden: https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html.
+OXID eShop 6.2.0 nutzt die `Symfony Console <https://symfony.com/doc/current/console.html>`_. Mit dieser können Entwickler eigene Kommandos für Komponenten und Module schreiben, registrieren und ausführen. Informationen dazu sind in der englischsprachigen Entwicklerdokumentation zu finden: https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html.
 
 Template Engine Twig
 ^^^^^^^^^^^^^^^^^^^^
-Der OXID eShop unterstützt `Twig <https://twig.symfony.com>`_, ein Symfony Project, als alternative Template Engine. Entwickler können entscheiden, ob sie Twig anstelle von Smarty in den Templates verwenden möchten. Für die Umstellung von Smarty auf Twig werden Tools zur Verfügung gestellt.
+OXID eShop unterstützt `Twig <https://twig.symfony.com>`_, ein Symfony Project, als alternative Template Engine. Entwickler können entscheiden, ob sie Twig anstelle von Smarty in den Templates verwenden möchten. Für die Umstellung von Smarty auf Twig werden Tools zur Verfügung gestellt.
 
 Dependency Injection
 ^^^^^^^^^^^^^^^^^^^^
@@ -91,7 +91,7 @@ Der Shop hat nun das neue Verzeichnis :file:`/var` auf der gleichen Ebene wie :f
 
 Benutzerdefinierte Shop offline-Seite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Der Shop kann eine benutzerdefinierte Shop offline-Seite mit angepasstem Layout und/oder speziellen Funktionen anstatt der Standardseite, die auf Wartungsarbeiten hinweist, anzeigen. Dafür wird eine HTML-Seite mit dem Dateinamen :file:`cust_offline.html` erstellt und in das Verzeichnis :file:`/source` kopiert.
+Der Shop kann eine benutzerdefinierte Shop offline-Seite mit angepasstem Layout und/oder speziellen Funktionen anstatt der Standardseite, die auf Wartungsarbeiten hinweist, anzeigen. Dies kann durch Überschreiben der Methode ``oxTriggerOfflinePageDisplay`` erreicht werden.
 
 Zeichensatz der Datenbankverbindung
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
