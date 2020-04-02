@@ -13,13 +13,13 @@ Veröffentlichungstermin Beta 1: 30.11.2016
 
 Allgemeines
 -----------
-Der OXID eShop 6.0.0 wird als so genannte Compilation bereitgestellt. Darin sind OXID eShop 6.0.0, die Module AmazonPay 3.0.2, PayOne 1.0.4, PayPal 5.1.3, Visual CMS 3.0.0 (PE/EE) sowie der WYSIWIG-Editor und die Mediathek Summernote 2.0.0 als Komponenten enthalten. Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.0-rc.3...v6.0.0 <https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.0-rc.3...v6.0.0>`_.
+OXID eShop 6.0.0 wird als so genannte Compilation bereitgestellt. Darin sind OXID eShop 6.0.0, die Module AmazonPay 3.0.2, PayOne 1.0.4, PayPal 5.1.3, Visual CMS 3.0.0 (PE/EE) sowie der WYSIWIG-Editor und die Mediathek Summernote 2.0.0 als Komponenten enthalten. Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.0-rc.3...v6.0.0 <https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.0-rc.3...v6.0.0>`_.
 
 Dieses Major-Release bringt einen im Kern modernisierten OXID eShop. Es wurden Namespaces eingeführt, um die Klassen von Shop und Modulen eindeutig zu bezeichnen und in einer Art Baumstruktur anzuordnen. Für die Datenbank kommt nun Doctrine anstelle ADOdb lite als Datenbankabstraktionsschicht (englisch Database Abstraction Layer, DAL) zum Einsatz. Die Datenbank selbst wurde auf InnoDB als Speichersubsystem umgestellt. Quellcode, Daten und Datenbank verwenden ausschließlich den Unicode-Zeichensatz UTF-8. Composer, der anwendungsorientierte Paketmanager für PHP, wurde in den OXID eShop integriert. Damit werden die für die Installation des Shop benötigten Dateien unter Berücksichtigung der Versionsabhängigkeiten bereitgestellt. Das Autoloading (PSR-4) von Composer erleichtert auch die Übernahme eines Shops von der Entwicklungs- in die Produktivumgebung. Mit dem OXID eShop 6.0.0 werden Community, Professional und Enterprise wieder zu einem einheitlichen Versionsstand zusammengeführt. Technisch gesehen bauen die Editionen aufeinander auf, so dass ein Upgrade problemlos möglich ist. Alle drei Editionen des Shops sind quelloffen, so dass der Zend Guard Loader nicht länger benötigt wird.
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
-Der OXID eShop 6.0.0 läuft unter PHP 5.6 oder 7.0. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
+OXID eShop 6.0.0 läuft unter PHP 5.6 oder 7.0. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
 
 Installation
 ^^^^^^^^^^^^
@@ -32,7 +32,7 @@ Falls Sie vom RC3 auf die finale Version aktualisieren wollen, finden Sie Inform
 
 Bitte führen Sie das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, aus. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 
-Der OXID eShop 4.9.*/5.2.* hat nun EOL (End of Life) erreicht und wird nicht mehr unterstützt. Bitte führen Sie ein Update aus, falls Sie noch einen Shop dieser Serie einsetzen.
+OXID eShop 4.9.*/5.2.* hat nun End of Life (EOL) erreicht und wird nicht mehr unterstützt. Bitte führen Sie ein Update aus, falls Sie noch einen Shop dieser Serie einsetzen.
 
 -----------------------------------------------------------------------------------------
 

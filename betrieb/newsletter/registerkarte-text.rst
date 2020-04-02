@@ -1,7 +1,7 @@
 Registerkarte Text
 ==================
 
-Der OXID eShop verschickt Newsletter immer in zwei Formaten: als Nur-Text-Mail und als HTML-Mail. Dadurch wird sichergestellt, dass der Newsletter von allen Mail-Programmen und Webmailern korrekt angezeigt wird. Auf der Registerkarte :guilabel:`Text` wird der Newsletter im Nur-Text-Format erstellt.
+OXID eShop verschickt Newsletter immer in zwei Formaten: als Nur-Text-Mail und als HTML-Mail. Dadurch wird sichergestellt, dass der Newsletter von allen Mail-Programmen und Webmailern korrekt angezeigt wird. Auf der Registerkarte :guilabel:`Text` wird der Newsletter im Nur-Text-Format erstellt.
 
 .. image:: ../../media/screenshots-de/oxbaig01.png
    :alt: Newsletter - Registerkarte Text

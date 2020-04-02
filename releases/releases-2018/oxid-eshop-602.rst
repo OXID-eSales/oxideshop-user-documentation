@@ -7,11 +7,11 @@ Veröffentlichungstermin: 28.03.2018
 
 Allgemeines
 -----------
-Der OXID eShop 6.0.2 wird als Compilation bereitgestellt. Darin sind die Komponenten OXID eShop 6.2.0, das Theme "Flow" 3.0.0, die Module AmazonPay 3.0.2, Paymorrow 2.0.0, PayOne 1.0.5, PayPal 5.1.6, Visual CMS 3.2.0 (PE/EE) sowie der WYSIWIG-Editor und die Mediathek Summernote 2.1.1 enthalten. Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.1…v6.0.2>`_.
+OXID eShop 6.0.2 wird als Compilation bereitgestellt. Darin sind die Komponenten OXID eShop 6.2.0, das Theme "Flow" 3.0.0, die Module AmazonPay 3.0.2, Paymorrow 2.0.0, PayOne 1.0.5, PayPal 5.1.6, Visual CMS 3.2.0 (PE/EE) sowie der WYSIWIG-Editor und die Mediathek Summernote 2.1.1 enthalten. Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.1…v6.0.2>`_.
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
-Der OXID eShop 6.0.1 läuft unter PHP 5.6 oder 7.0. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
+OXID eShop 6.0.1 läuft unter PHP 5.6 oder 7.0. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
 
 Installation
 ^^^^^^^^^^^^

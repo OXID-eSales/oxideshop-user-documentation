@@ -15,7 +15,7 @@ Unter der Liste befindet sich der Eingabebereich für die Versandart. Wird eine 
    :height: 528
    :width: 650
 
-Der OXID eShop wird mit den vorbereiteten Versandarten \"Standard\", \"Beispiel Set1: UPS 48 Std.\" und \"Beispiel Set1: UPS 24 Std. Express\" ausgeliefert. Diese können verwendet werden, nachdem sie individuell angepasst wurden, oder als Vorlage für neu zu definierende Versandarten dienen.
+OXID eShop wird mit den vorbereiteten Versandarten \"Standard\", \"Beispiel Set1: UPS 48 Std.\" und \"Beispiel Set1: UPS 24 Std. Express\" ausgeliefert. Diese können verwendet werden, nachdem sie individuell angepasst wurden, oder als Vorlage für neu zu definierende Versandarten dienen.
 
 .. hint:: Bei der Einrichtung der Versandart muss darauf geachtet werden, dass mindestens eine Versandkostenregel und mindestens eine Zahlungsart zugeordnet wurde. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung kann die Logik von Zahlung und Versand im Bestellprozess schon einmal abhandenkommen. Wurde kein Land zugewiesen, gilt die Versandart für alle Länder.
 

@@ -1,7 +1,7 @@
 Generischer Export und Import
 =============================
 
-Der OXID eShop ermöglicht mit dem generischen Export und Import, Daten mit anderen Systemen auszutauschen.
+OXID eShop ermöglicht mit dem generischen Export und Import, Daten mit anderen Systemen auszutauschen.
 
 Beim Export werden Artikeldaten in eine CSV-Datei geschrieben und können so zur weiteren Verarbeitung an andere Systeme oder Plattformen, wie beispielsweise Online-Versandhändler, Preis-Suchmaschinen, Affiliate-Netzwerke oder Warenwirtschaftssysteme, übergeben werden.
 

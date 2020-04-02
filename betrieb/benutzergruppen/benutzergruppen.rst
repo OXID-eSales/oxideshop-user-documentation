@@ -17,7 +17,7 @@ Wird eine Benutzergruppe aus der Benutzergruppenliste gewählt, werden deren Inf
 
 Vordefinierte Benutzergruppen und automatische Zuordnung
 --------------------------------------------------------
-Der OXID eShop wird mit 16 Benutzergruppen ausgeliefert. Wenn sich Kunden im Shop registrieren und einkaufen, werden sie automatisch bestimmten Benutzergruppen zugewiesen.
+OXID eShop wird mit 16 Benutzergruppen ausgeliefert. Wenn sich Kunden im Shop registrieren und einkaufen, werden sie automatisch bestimmten Benutzergruppen zugewiesen.
 
 Inlandskunde/Auslandskunde
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
