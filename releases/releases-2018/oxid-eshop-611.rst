@@ -7,7 +7,7 @@ Veröffentlichungstermin: 30.10.2018
 
 Allgemeines
 -----------
-Der OXID eShop 6.1.1 wird als Compilation bereitgestellt. Diese enthält folgende Komponenten:
+OXID eShop 6.1.1 wird als Compilation bereitgestellt. Diese enthält folgende Komponenten:
 
 * OXID eShop CE 6.3.1
 * OXID eShop PE 6.2.1
@@ -26,7 +26,7 @@ Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
-Der OXID eShop 6.1.1 läuft unter PHP 7.0 und 7.1. Der Support für PHP 5.6 wurde eingestellt. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
+OXID eShop 6.1.1 läuft unter PHP 7.0 und 7.1. Der Support für PHP 5.6 wurde eingestellt. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
 
 Installation
 ^^^^^^^^^^^^

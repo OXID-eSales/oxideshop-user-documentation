@@ -14,7 +14,7 @@ Alle Einstellungen und Zuordnungen werden im Administrationsbereich unter :menus
 
 Unter der Liste befindet sich der Eingabebereich für die Versandkostenregel. Wird eine Versandkostenregel aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen Versandkostenregel klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue Versandkostenregel anlegen`.
 
-Der OXID eShop wird mit den vorbereiteten Versandkostenregeln \"Versandkosten für Standard: Versandkostenfrei ab 80,-\", \"Versandkosten für Standard: 3,90 Euro innerhalb Deutschland\" und \"Versandkosten für Standard: 6,90 Rest EU\" ausgeliefert. Hinzu kommen zwei weitere Versandkostenregeln als Beispiel für den normalen und den Express-Versand mit UPS. Die Versandkostenregeln können verwendet werden, nachdem sie individuell angepasst wurden. Sie dienen auch als Vorlage für neu zu definierende Versandkostenregeln.
+OXID eShop wird mit den vorbereiteten Versandkostenregeln \"Versandkosten für Standard: Versandkostenfrei ab 80,-\", \"Versandkosten für Standard: 3,90 Euro innerhalb Deutschland\" und \"Versandkosten für Standard: 6,90 Rest EU\" ausgeliefert. Hinzu kommen zwei weitere Versandkostenregeln als Beispiel für den normalen und den Express-Versand mit UPS. Die Versandkostenregeln können verwendet werden, nachdem sie individuell angepasst wurden. Sie dienen auch als Vorlage für neu zu definierende Versandkostenregeln.
 
 .. hint:: Länder können, aber müssen nicht zugewiesen sein. Damit die Definition von Versand und Zahlung stringent ist, sollte die Länderzuordnung mit der in der zugehörigen Zahlungsart und der Versandart übereinstimmen. Wurde kein Land zugewiesen, gilt die Versandkostenregel für alle Länder.
 

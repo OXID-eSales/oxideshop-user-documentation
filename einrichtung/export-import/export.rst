@@ -1,7 +1,7 @@
 Export
 ======
 
-Der OXID eShop bietet die Möglichkeit, Artikeldaten zu exportieren. Die Datensätze werden in eine CSV-Datei geschrieben und als :file:`genexport.txt` im Verzeichnis :file:`/export` des Shops gespeichert. Diese Datei kann zur weiteren Verarbeitung beispielsweise an andere Systeme oder Plattformen übergeben werden.
+OXID eShop bietet die Möglichkeit, Artikeldaten zu exportieren. Die Datensätze werden in eine CSV-Datei geschrieben und als :file:`genexport.txt` im Verzeichnis :file:`/export` des Shops gespeichert. Diese Datei kann zur weiteren Verarbeitung beispielsweise an andere Systeme oder Plattformen übergeben werden.
 
 Die Einstellmöglichkeiten für den Export befinden sich im Administrationsbereich unter :menuselection:`Service --> Gener. Export`. Auf der linken Seite des Fensters wird der Kategoriebaum des Shops angezeigt. Hier können die Kategorien ausgewählt werden, deren Artikel exportiert werden sollen. Es werden nur aktive und nicht versteckte Artikel berücksichtigt. Eine Mehrfachauswahl von Kategorien ist bei gedrückter Strg-Taste möglich. Strg-a markiert alle vorhandenen Kategorien und exportiert damit alle vorhandenen Artikel. Das Gleiche passiert übrigens, wenn keine Kategorie ausgewählt wurde. Der Versuch, ausschließlich eine Kategorie zu exportieren, welche keine Artikel enthält, führt zu einer Fehlermeldung.
 

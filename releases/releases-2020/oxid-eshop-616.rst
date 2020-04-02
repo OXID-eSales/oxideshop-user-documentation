@@ -7,7 +7,7 @@ Veröffentlichungstermin: 31.03.2020
 
 Allgemeines
 -----------
-Der OXID eShop 6.1.6 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
+OXID eShop 6.1.6 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
 
 * OXID eShop CE 6.3.7
 * OXID eShop PE 6.2.3
@@ -25,11 +25,11 @@ Der OXID eShop 6.1.6 wird als Compilation bereitgestellt. Diese enthält u.a. fo
 
 Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.5...v6.1.6>`_.
 
-Der OXID eShop 6.1.6 enthält einen Security Fix für das Zahlungsmodul PAYONE. Wir empfehlen ein schnelles Update auf diese Shopversion.
+OXID eShop 6.1.6 enthält einen Security Fix für das Zahlungsmodul PAYONE. Wir empfehlen ein schnelles Update auf diese Shopversion.
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
-Der OXID eShop 6.1.6 läuft unter PHP 7.0 und 7.1. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
+OXID eShop 6.1.6 läuft unter PHP 7.0 und 7.1. Als Datenbank wird MySQL in der Version 5.5 oder 5.7 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
 
 Installation
 ^^^^^^^^^^^^
@@ -40,7 +40,7 @@ Für die Installation, folgen Sie bitte den Anleitungen im Abschnitt "Installati
 
 Bitte führen Sie das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, aus. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 
-Der OXID eShop 6.0.* hat nun EOL (End of Life) erreicht und wird nicht mehr unterstützt. Bitte führen Sie ein Update aus, falls Sie noch einen Shop dieser Serie einsetzen.
+OXID eShop 6.0.* hat nun End of Life (EOL) erreicht und wird nicht mehr unterstützt. Bitte führen Sie ein Update aus, falls Sie noch einen Shop dieser Serie einsetzen.
 
 -----------------------------------------------------------------------------------------
 
