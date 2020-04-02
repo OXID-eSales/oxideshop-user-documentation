@@ -1,7 +1,7 @@
 ﻿Gewichtsabhängige Versandkosten
 ===============================
 
-Der OXID eShop kann so eingerichtet werden, dass für die Berechnung der Versandkosten das Gewicht der Artikel berücksichtigt wird.
+OXID eShop kann so eingerichtet werden, dass für die Berechnung der Versandkosten das Gewicht der Artikel berücksichtigt wird.
 
 Dafür werden Versandkostenregeln verwendet, deren Bedingung das Gewicht von Artikeln ist. Im Bestellprozess entscheidet sich der Kunde für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Gewicht) hinsichtlich des Gesamtgewichts der Artikel im Warenkorb erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
 

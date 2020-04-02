@@ -10,7 +10,7 @@ Veröffentlichungstermin Beta 1: 02.08.2019
 
 Allgemeines
 -----------
-Der OXID eShop 6.2.0 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
+OXID eShop 6.2.0 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
 
 * OXID eShop CE 6.5.3
 * OXID eShop PE 6.4.0
