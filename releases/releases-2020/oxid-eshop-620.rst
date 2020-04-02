@@ -45,7 +45,7 @@ During installation, the new directory :file:`/var` is created at the same level
 
 Please run the update first in a test or development environment, or a copy of your current shop. Then, test the ordering process and payment and shipping methods. If the shopping cart software works correctly, you can replace it in the live system with the one from the test or development environment.
 
-OXID eShop 6.0.* has now reached EoL (End of Life) and is no longer supported. Please consider to update if you still use a shop of this series.
+OXID eShop 6.0.* has now reached End-of-Life (EOL) and is no longer supported. Please consider to update if you still use a shop of this series.
 
 -----------------------------------------------------------------------------------------
 
