@@ -25,7 +25,7 @@ OXID eShop 6.1.6 is provided as a compilation with the following components:
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.5...v6.1.6>`_.
 
-The OXID eShop 6.1.6 contains a security fix for the payment module PAYONE. We recommend a quick update to this shop version.
+OXID eShop 6.1.6 contains a security fix for the payment module PAYONE. We recommend a quick update to this shop version.
 
 System requirements
 ^^^^^^^^^^^^^^^^^^^
@@ -40,7 +40,7 @@ Please follow the instructions in section “Installation”:
 
 Please run the update first in a test or development environment, or a copy of your current shop. Then, test the ordering process and payment and shipping methods. If the shop works correctly, you can replace the shop in the live system with the one from the test or development environment.
 
-The OXID eShop 6.0.* has now reached EOL (End of Life) and is no longer supported. Please run an update if you still use a shop of this series.
+OXID eShop 6.0.* has now reached EoL (End of Life) and is no longer supported. Please run an update if you still use a shop of this series.
 
 -----------------------------------------------------------------------------------------
 
