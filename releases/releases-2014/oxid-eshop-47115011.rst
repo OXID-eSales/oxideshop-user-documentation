@@ -14,7 +14,7 @@ Veröffentlichungstermin: 25.02.2014
 Allgemeines
 -----------
 
-Der OXID eShop 4.7.11/5.0.11 enthält zwei Security Fixes. Es wird dringend empfohlen, diesen Patch so schnell wie möglich in Ihr Live-System zu übernehmen. Die beiden englischsprachigen Security Bulletins `2014-001 <https://oxidforge.org/en/security-bulletin-2014-001.html>`_ und `2014-002 <https://oxidforge.org/en/security-bulletin-2014-002.html>`_, welche die Sicherheitsprobleme beschreiben, wurden am 11.03.2014 veröffentlicht.
+OXID eShop 4.7.11/5.0.11 enthält zwei Security Fixes. Es wird dringend empfohlen, diesen Patch so schnell wie möglich in Ihr Live-System zu übernehmen. Die beiden englischsprachigen Security Bulletins `2014-001 <https://oxidforge.org/en/security-bulletin-2014-001.html>`_ und `2014-002 <https://oxidforge.org/en/security-bulletin-2014-002.html>`_, welche die Sicherheitsprobleme beschreiben, wurden am 11.03.2014 veröffentlicht.
 
 ----------
 

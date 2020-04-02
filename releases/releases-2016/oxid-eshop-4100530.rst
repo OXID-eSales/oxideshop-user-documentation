@@ -15,7 +15,7 @@ Veröffentlichungstermin Beta 1: 26.04.2016
 Allgemeines
 -----------
 
-Der OXID eShop 4.10.0/5.3.0 wird mit dem responsiven Theme \"Flow\" (Beta-Version für alle Shop-Editionen), dem Visual CMS (nur Professional und Enterprise Edition) und dem Modul PAYONE (alle Shop-Editionen) ausgeliefert. Der Shop läuft unter PHP 5.3, 5.4, 5.5 und 5.6.
+OXID eShop 4.10.0/5.3.0 wird mit dem responsiven Theme \"Flow\" (Beta-Version für alle Shop-Editionen), dem Visual CMS (nur Professional und Enterprise Edition) und dem Modul PAYONE (alle Shop-Editionen) ausgeliefert. Der Shop läuft unter PHP 5.3, 5.4, 5.5 und 5.6.
 
 .. hint:: Das Theme \"Flow\", Visual CMS und das Modul PAYONE sind nicht in den kumulativen Update-Paketen, sondern nur im Installationspaket für eine Neu-Installation enthalten.
 

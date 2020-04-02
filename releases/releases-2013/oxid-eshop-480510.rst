@@ -28,7 +28,7 @@ Ende für PHP 5.2
 ^^^^^^^^^^^^^^^^
 Bereits im Dezember 2010 kündigte das PHP-Entwicklungsteam an, dass die Veröffentlichung von PHP 5.2.16 das Ende des PHP 5.2-Supports markiert. Details dazu finden Sie im News Archive von php.net: `http://www.php.net/archive/2010.php#id2010-12-16-1 <http://www.php.net/archive/2010.php#id2010-12-16-1>`_ .
 
-Der OXID eShop 4.8.0/5.1.0 unterstützt daher die PHP-Version 5.2 nicht mehr. Er wird nicht in einer PHP 5.2-Umgebung getestet und die Wartung hinsichtlich dieser PHP-Version ist eingestellt. Für die OXID eShop Enterprise und Professional Edition liegen Installationspakete vor, die für PHP 5.3 und PHP 5.4 verschlüsselt sind. Der Quellcode aller Editionen ist momentan noch kompatibel zu PHP 5.2, sodass der OXID eShop auch in einer solchen Umgebung lauffähig sein sollte. Dies wurde nicht explizit getestet und kann daher nicht garantiert werden. Ein Anspruch auf Support besteht in diesem Falle nicht.
+OXID eShop 4.8.0/5.1.0 unterstützt daher die PHP-Version 5.2 nicht mehr. Er wird nicht in einer PHP 5.2-Umgebung getestet und die Wartung hinsichtlich dieser PHP-Version ist eingestellt. Für die OXID eShop Enterprise und Professional Edition liegen Installationspakete vor, die für PHP 5.3 und PHP 5.4 verschlüsselt sind. Der Quellcode aller Editionen ist momentan noch kompatibel zu PHP 5.2, sodass der OXID eShop auch in einer solchen Umgebung lauffähig sein sollte. Dies wurde nicht explizit getestet und kann daher nicht garantiert werden. Ein Anspruch auf Support besteht in diesem Falle nicht.
 
 Bereits im nächsten Major Release sollen beispielsweise Sprach-Features aus PHP 5.3 genutzt werden. Wir empfehlen eine sofortige Umstellung auf PHP 5.3 und höher. Achten Sie bitte darauf, dass die PHP-Version Ihres Server zur installierten Shopversion passt. Module, die im Shop verwendet werden, müssen ebenfalls mit der PHP-Version kompatibel sein. Siehe auch den englischsprachigen Blogpost vom 08.10.2013:  `http://blog.oxid-esales.com/2013/10/php-52-will-not-be-supported-from-oxid-eshop-versions-48-and-51-on <http://blog.oxid-esales.com/2013/10/php-52-will-not-be-supported-from-oxid-eshop-versions-48-and-51-on>`_.
 
@@ -41,7 +41,7 @@ Shop mit SEPA-Unterstützung
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 SEPA steht für Single Euro Payments Area (Einheitlicher Euro-Zahlungsverkehrsraum) und ist ein Projekt zur Vereinheitlichung des bargeldlosen Zahlungsverkehrs in Europa. Zum 01.02.2014 enden nationale Überweisungs- und Lastschriftverfahren in den Euro-Ländern. Hintergrundinformationen finden Sie beispielsweise auf der Webseite der Europäischen Zentralbank: `http://www.ecb.europa.eu/paym/sepa/html/index.en.html <http://www.ecb.europa.eu/paym/sepa/html/index.en.html>`_.
 
-Der OXID eShop 4.8.0/5.1.0 ist auf die Umstellung des bargeldlosen Zahlungsverkehrs in Europa vorbereitet. Die Zahlungsart Bankeinzug/Lastschrift wurde angepasst, so dass als Kontonummer eine gültige IBAN (International Bank Account Number) und als Bankleitzahl ein BIC (Business Identifier Code) eingetragen werden können.
+OXID eShop 4.8.0/5.1.0 ist auf die Umstellung des bargeldlosen Zahlungsverkehrs in Europa vorbereitet. Die Zahlungsart Bankeinzug/Lastschrift wurde angepasst, so dass als Kontonummer eine gültige IBAN (International Bank Account Number) und als Bankleitzahl ein BIC (Business Identifier Code) eingetragen werden können.
 
 Diagnosewerkzeug im Administrationsbereich
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,7 +51,7 @@ In das Diagnosewerkzeug ist das bekannte Prüfskript :file:`oxchkversion.php` in
 
 Neue Widgets
 ^^^^^^^^^^^^
-Der OXID eShop 4.7.0/5.0.0 führte Widgets als einen neuen Komponententyp für den Seitenaufbau ein. Widgets sind logische Elemente der Benutzeroberfläche (GUI), die in jedem beliebigen Template verwendet werden können.
+OXID eShop 4.7.0/5.0.0 führte Widgets als einen neuen Komponententyp für den Seitenaufbau ein. Widgets sind logische Elemente der Benutzeroberfläche (GUI), die in jedem beliebigen Template verwendet werden können.
 
 Mit diesem Shop-Release ergänzen 'oxwArticleBox', 'oxwArticleDetails', 'oxwRating' und 'oxwReview' die bereits vorhandenen Widgets. Weitere Informationen finden Sie im Tutorial `Widgets from 4.8 5.1 <http://oxidforge.org/en/widgets-from-4-8-5-1.html>`_ in der OXIDforge.
 

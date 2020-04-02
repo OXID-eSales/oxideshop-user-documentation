@@ -14,7 +14,7 @@ Veröffentlichungstermin: 28.04.2015
 Allgemeines
 -----------
 
-Der OXID eShop 4.9.4/5.2.4 läuft mit PHP 5.3/5.4 und ist für PHP 5.5/5.6 vorbereitet, aber noch nicht abschließend getestet.
+OXID eShop 4.9.4/5.2.4 läuft mit PHP 5.3/5.4 und ist für PHP 5.5/5.6 vorbereitet, aber noch nicht abschließend getestet.
 
 ----------
 

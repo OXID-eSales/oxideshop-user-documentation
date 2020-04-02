@@ -16,7 +16,7 @@ Dies ist das nunmehr letzte Release des OXID eShop Version 4.6. Ursprünglich wu
 Verbesserungen und Anpassungen
 ------------------------------
 
-In der Version 4.6.8 wurden einige wenige Änderungen an Sprachdateien und Templates der Themes \"Basic\" und \"Azure\" sowie des Administrationsbereiches vorgenommen. Diese wurden hauptsächlich wegen der für Februar 2014 angekündigten SEPA-Umstellung notwendig. Der OXID eShop 4.6.8 ist damit auf die Umstellung des bargeldlosen Zahlungsverkehrs in Europa vorbereitet. Die Zahlungsart Bankeinzug/Lastschrift wurde angepasst, so dass als Kontonummer eine gültige IBAN (International Bank Account Number) und als Bankleitzahl ein BIC (Business Identifier Code) eingetragen werden können.
+In der Version 4.6.8 wurden einige wenige Änderungen an Sprachdateien und Templates der Themes \"Basic\" und \"Azure\" sowie des Administrationsbereiches vorgenommen. Diese wurden hauptsächlich wegen der für Februar 2014 angekündigten SEPA-Umstellung notwendig. OXID eShop 4.6.8 ist damit auf die Umstellung des bargeldlosen Zahlungsverkehrs in Europa vorbereitet. Die Zahlungsart Bankeinzug/Lastschrift wurde angepasst, so dass als Kontonummer eine gültige IBAN (International Bank Account Number) und als Bankleitzahl ein BIC (Business Identifier Code) eingetragen werden können.
 
 Eine Übersicht aller Änderungen finden Sie in :file:`/templ_docu_basic/index.html`, :file:`/templ_docu_azure/index.html` und :file:`/templ_docu_admin/index.html`.
 

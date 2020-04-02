@@ -14,7 +14,7 @@ Veröffentlichungstermin: 27.01.2015
 Allgemeines
 -----------
 
-Der OXID eShop 4.9.3/5.2.3 wird mit der OXID eFire Extension Paymorrow in Version 1.0.0 ausgeliefert. Damit sind die Zahlungsarten Rechnung und Lastschrift standardmäßig in den Shop integriert. Mehr Informationen dazu erhalten Sie im Blogbeitrag `Sichere Rechnungs- und Lastschriftzahlung mit der OXID eFire Extension Paymorrow <http://blog.oxid-esales.com/2015/01/sichere-rechnungs-und-lastschriftzahlung-mit-der-oxid-efire-extension-paymorrow/>`_.
+OXID eShop 4.9.3/5.2.3 wird mit der OXID eFire Extension Paymorrow in Version 1.0.0 ausgeliefert. Damit sind die Zahlungsarten Rechnung und Lastschrift standardmäßig in den Shop integriert. Mehr Informationen dazu erhalten Sie im Blogbeitrag `Sichere Rechnungs- und Lastschriftzahlung mit der OXID eFire Extension Paymorrow <http://blog.oxid-esales.com/2015/01/sichere-rechnungs-und-lastschriftzahlung-mit-der-oxid-efire-extension-paymorrow/>`_.
 
 ----------
 

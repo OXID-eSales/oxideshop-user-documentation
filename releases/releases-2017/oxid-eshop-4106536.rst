@@ -25,7 +25,7 @@ Es gab keine Änderungen in Templates für das Frontend und den Administrationsb
 
 Verbesserungen
 --------------
-Der OXID eShop 4.10.6/5.3.6 wird mit folgenden Modulen ausgeliefert:
+OXID eShop 4.10.6/5.3.6 wird mit folgenden Modulen ausgeliefert:
 
 * Amazon Pay in der Version 2.5.0
 * Das Modul PayPal wurde auf die Version 3.3.0 aktualisiert. Alle Änderungen finden Sie im Changelog: `<https://github.com/OXID-eSales/paypal/blob/v3.3.0/CHANGELOG.md>`_.

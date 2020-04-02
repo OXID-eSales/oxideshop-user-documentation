@@ -16,7 +16,7 @@ Allgemeines
 
 Unterstützte PHP-Versionen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-Der OXID eShop 4.9.5/5.2.5 läuft mit PHP 5.3, 5.4, 5.5 und 5.6.
+OXID eShop 4.9.5/5.2.5 läuft mit PHP 5.3, 5.4, 5.5 und 5.6.
 
 Varnish ab Version 4.0.3 für Caching (Enterprise Edition)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

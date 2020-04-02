@@ -17,7 +17,7 @@ Veröffentlichungstermin Beta 1: 19.08.2014
 Allgemeines
 -----------
 
-Der OXID eShop 4.9.0/5.2.0 wird mit der OXID eFire Extension PayPal (Standalone-Modul) in Version 3.2.0 und dem Mobile Theme Version 1.3.0 ausgeliefert. Er läuft unter PHP 5.3 und PHP 5.4. Die Shopversion enthält einige Sicherheitsverbesserungen, so dass wir ein baldmöglichstes Update empfehlen.
+OXID eShop 4.9.0/5.2.0 wird mit der OXID eFire Extension PayPal (Standalone-Modul) in Version 3.2.0 und dem Mobile Theme Version 1.3.0 ausgeliefert. Er läuft unter PHP 5.3 und PHP 5.4. Die Shopversion enthält einige Sicherheitsverbesserungen, so dass wir ein baldmöglichstes Update empfehlen.
 
 Installation
 ^^^^^^^^^^^^

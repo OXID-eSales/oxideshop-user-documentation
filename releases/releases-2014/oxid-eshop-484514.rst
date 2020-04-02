@@ -14,7 +14,7 @@ Veröffentlichungstermin: 25.02.2014
 Allgemeines
 -----------
 
-Der OXID eShop 4.8.4/5.1.4 enthält zwei Security Fixes. Es wird dringend empfohlen, diesen Patch so schnell wie möglich in Ihr Live-System zu übernehmen. Die beiden englischsprachigen Security Bulletins `2014-001 <http://wiki.oxidforge.org/Security_bulletins/2014-001>`_ und `2014-002 <http://wiki.oxidforge.org/Security_bulletins/2014-002>`_, welche die Sicherheitsprobleme beschreiben, wurden am 11.03.2014 veröffentlicht.
+OXID eShop 4.8.4/5.1.4 enthält zwei Security Fixes. Es wird dringend empfohlen, diesen Patch so schnell wie möglich in Ihr Live-System zu übernehmen. Die beiden englischsprachigen Security Bulletins `2014-001 <http://wiki.oxidforge.org/Security_bulletins/2014-001>`_ und `2014-002 <http://wiki.oxidforge.org/Security_bulletins/2014-002>`_, welche die Sicherheitsprobleme beschreiben, wurden am 11.03.2014 veröffentlicht.
 
 Im Administrationsbereich des OXID eShop präsentieren sich unter :menuselection:`eCommerce Services` die sogenannten Dynpages mit neuem Inhalt und Aussehen.
 

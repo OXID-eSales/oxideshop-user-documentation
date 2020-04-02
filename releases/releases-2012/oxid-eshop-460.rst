@@ -11,7 +11,7 @@ Neue Funktionen
 
 Download-Artikel
 ^^^^^^^^^^^^^^^^
-Der OXID eShop 4.6.0 stellt einen neuen Artikeltyp als Standard bereit: Download-Artikel. Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien. Nach Abschluss des Bestellvorgangs finden sich alle Downloads unter :menuselection:`Konto --> Meine Downloads`.
+OXID eShop 4.6.0 stellt einen neuen Artikeltyp als Standard bereit: Download-Artikel. Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien. Nach Abschluss des Bestellvorgangs finden sich alle Downloads unter :menuselection:`Konto --> Meine Downloads`.
 
 Die Verwendung von Download-Artikeln im Shop muss global aktiviert werden. Im Administrationsbereich können unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Download-Artikel` die Standardeinstellungen vorgenommen werden. Das sind - neben dem Aktivieren der Funktion - der Pfad zu den herunterladbaren Dateien und Festlegungen zur Anzahl der Downloads oder zur Verfallszeit der Links.
 
