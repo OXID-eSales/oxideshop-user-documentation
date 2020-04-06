@@ -8,7 +8,7 @@ This document describes the update from OXID eShop 6.1.0 and higher to OXID eSho
 
 |schritt| Updating the shop
 ---------------------------
-1. In the file :file:`composer.json`, which is located in the main directory of the shop, version must be changed. This concerns the section "require" and if needed "require-dev". Example for an OXID eShop Community Edition 6.2.0:
+1. In the file :file:`composer.json`, which is located in the main directory of the shop, version must be changed. This concerns the section "require" and "require-dev". Example for an OXID eShop Community Edition 6.2.0:
 
 .. code:: json
 
@@ -64,7 +64,7 @@ You can find the values for your shop edition in the respective repository of th
 --------------------------------------------
 In this step, settings and activation status of the modules belonging to the shop are transferred from the database to configuration files :file:`*.yml`.
 
-1. With the following Composer command, which is called in the main directory of the shop, you install the OXID eShop update component.
+1. With the following Composer commands, which are called in the main directory of the shop, you install the OXID eShop update component.
 
 .. code:: bash
 
