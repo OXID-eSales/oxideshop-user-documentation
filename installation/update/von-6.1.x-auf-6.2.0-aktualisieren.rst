@@ -112,7 +112,7 @@ Alte Dateien entfernen
 
 Fehlersuche und -behebung
 -------------------------
-Hinweise auf mögliche Probleme bei der Übernahme von Status und Einstellungen der Module finden sich im Dokument `Update from 6.1.x to 6.2.0 <https://docs.oxid-esales.com/developer/en/6.2-beta.1/update/eshop_from_6x_to_6y/update_to_62.html>`_ der
+Hinweise auf mögliche Probleme bei der Übernahme von Status und Einstellungen der Module finden sich im Dokument `Update from 6.1.x to 6.2.0 <https://docs.oxid-esales.com/developer/en/6.2/update/#troubleshooting>`_ der
 englischsprachigen Entwicklerdokumentation.
 
 
