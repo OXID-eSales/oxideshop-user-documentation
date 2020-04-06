@@ -112,7 +112,7 @@ Removing old files
 
 Troubleshooting
 ---------------
-Hints on possible problems with the transfer of status and settings of the modules can be found in the document `Update from 6.1.x to 6.2.0 <https://docs.oxid-esales.com/developer/en/6.2-beta.1/update/eshop_from_6x_to_6y/update_to_62.html>`_ of the developer documentation.
+Hints on possible problems with the transfer of status and settings of the modules can be found in the document `Update from 6.1.x to 6.2.0 <https://docs.oxid-esales.com/developer/en/6.2/update/#troubleshooting>`_ of the developer documentation.
 
 
 .. Intern: oxbaiy, Status: transL
