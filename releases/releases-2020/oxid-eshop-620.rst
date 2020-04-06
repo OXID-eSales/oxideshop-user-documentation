@@ -67,9 +67,7 @@ OXID eShop unterstützt `Twig <https://twig.symfony.com>`_, ein Symfony Project,
 Dependency Injection
 ^^^^^^^^^^^^^^^^^^^^
 Dependency Injection (DI), ein Entwurfsmuster in der objektorientierten Programmierung, kann jetzt in Modulen genutzt werden.
-Implementiert wird DI innerhalb von OXID eShop mit Hilfe des Symfony DI containers. Dependency Injection bedeutet verkürzt und zusammengefasst, dass ein Objekt, welches die Funktionalität eines anderen Objektes benötigt, dieses nicht selbst instantiieren darf. Das Objekt wird von außen injiziert. Was Depency Injection für Projektentwickler bedeutet, wird in einem dreiteiligen Beitrag unseres neuen Corporate Blogs vorgestellt.
-* `Teil 1: die Grundlagen <https://www.oxid-esales.com/blog/dependency-injection-fuer-projektentwickler-in-oxid/>`_
-* `Teil 2: DI innerhalb von Modulen <https://www.oxid-esales.com/blog/dependency-injection-innerhalb-von-oxid-modulen/>`_
+Implementiert wird DI innerhalb von OXID eShop mit Hilfe des Symfony DI containers. Dependency Injection bedeutet verkürzt und zusammengefasst, dass ein Objekt, welches die Funktionalität eines anderen Objektes benötigt, dieses nicht selbst instantiieren darf. Das Objekt wird von außen injiziert. Was Depency Injection für Projektentwickler bedeutet, wird in einem dreiteiligen Beitrag unseres neuen Corporate Blogs vorgestellt: `Teil 1: die Grundlagen <https://www.oxid-esales.com/blog/dependency-injection-fuer-projektentwickler-in-oxid/>`_, `Teil 2: DI innerhalb von Modulen <https://www.oxid-esales.com/blog/dependency-injection-innerhalb-von-oxid-modulen/>`_.
 
 Events
 ^^^^^^
