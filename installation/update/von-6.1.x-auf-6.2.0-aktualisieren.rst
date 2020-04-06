@@ -8,7 +8,7 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
 
 Aktualisierung des Shops
 ------------------------
-|schritt| In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, müssen Version geändert werden. Das betrifft die Sektion "require" und falls benötigt "require-dev". Beispiel für einen OXID eShop Community Edition 6.2.0:
+|schritt| In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, müssen Version geändert werden. Das betrifft die Sektion "require" und "require-dev". Beispiel für einen OXID eShop Community Edition 6.2.0:
 
 .. code:: json
 
