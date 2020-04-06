@@ -6,9 +6,9 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
-Aktualisierung des Shops
-------------------------
-|schritt| In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, müssen Version geändert werden. Das betrifft die Sektion "require" und "require-dev". Beispiel für einen OXID eShop Community Edition 6.2.0:
+|schritt| Aktualisierung des Shops
+----------------------------------
+1. In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, müssen Version geändert werden. Das betrifft die Sektion "require" und "require-dev". Beispiel für einen OXID eShop Community Edition 6.2.0:
 
 .. code:: json
 
@@ -28,31 +28,31 @@ Sie finden die Werte für Ihre Shop-Edition im jeweiligen Repository des OXID eS
 * Professional Edition: https://github.com/OXID-eSales/oxideshop_project/blob/b-6.2-pe/composer.json
 * Enterprise Edition: https://github.com/OXID-eSales/oxideshop_project/blob/b-6.2-ee/composer.json
 
-|schritt| Leeren Sie das Verzeichnis mit den temporären Dateien des Shops, indem Sie beispielsweise eine Shell im Hauptverzeichnis des Shops aufrufen und folgendes Kommando eingeben:
+2. Leeren Sie das Verzeichnis mit den temporären Dateien des Shops, indem Sie beispielsweise eine Shell im Hauptverzeichnis des Shops aufrufen und folgendes Kommando eingeben:
 
 .. code:: bash
 
    rm -rf source/tmp/*
 
-|schritt| Führen Sie in der Shell den nachstehenden Composer-Befehl aus, um die Abhängigkeiten zu aktualisieren. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
+3. Führen Sie in der Shell den nachstehenden Composer-Befehl aus, um die Abhängigkeiten zu aktualisieren. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
 
 .. code:: bash
 
    composer update --no-plugins --no-scripts --no-dev
 
-|schritt| Kopieren Sie nun die Datei :file:`overridablefunctions.php` vom Verzeichnis :file:`/vendor` des Shops in das Verzeichnis :file:`/source`.
+4. Kopieren Sie nun die Datei :file:`overridablefunctions.php` vom Verzeichnis :file:`/vendor` des Shops in das Verzeichnis :file:`/source`.
 
 .. code:: bash
 
     cp vendor/oxid-esales/oxideshop-ce/source/overridablefunctions.php source/
 
-|schritt| Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue Compilation zu beziehen. Für Shopdateien, Themes und Module muss jeweils bestätigt werden, dass das Update bestehende Dateien überschreibt. Haben Sie eigene Module mit ``"type": "path"`` in Ihre Datei :file:`composer.json` eingebunden, beantworten Sie die Nachfrage zum Überschreiben bitte mit Nein.
+5. Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue Compilation zu beziehen. Für Shopdateien, Themes und Module muss jeweils bestätigt werden, dass das Update bestehende Dateien überschreibt. Haben Sie eigene Module mit ``"type": "path"`` in Ihre Datei :file:`composer.json` eingebunden, beantworten Sie die Nachfrage zum Überschreiben bitte mit Nein.
 
 .. code:: bash
 
    composer update --no-dev
 
-|schritt| Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus.
+6. Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus.
 
 .. code:: bash
 
@@ -60,24 +60,24 @@ Sie finden die Werte für Ihre Shop-Edition im jeweiligen Repository des OXID eS
 
 ---------------------------------------------------------------------------------------------------
 
-Aktualisierung der Modulkonfigurationen
----------------------------------------
+|schritt| Aktualisierung der Modulkonfigurationen
+-------------------------------------------------
 In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Shop gehörenden Module aus der Datenbank in Konfigurationsdateien :file:`*.yml` transferiert.
 
-|schritt| Mit dem nachfolgenden Composer-Kommando, welches im Hauptverzeichnis des Shops aufgerufen wird, installieren Sie die OXID eShop update component.
+1. Mit den nachfolgenden Composer-Kommandos, welche im Hauptverzeichnis des Shops aufgerufen werden, installieren Sie die OXID eShop update component.
 
 .. code:: bash
 
    composer require --no-update oxid-esales/oxideshop-update-component
    composer update --no-dev --no-interaction
 
-|schritt| Für alle Module, die sich im Verzeichnis :file:`source/modules` befinden, wird eine Standardkonfiguration erstellt. Dafür wird die neue OXID eShop Console mit folgendem Kommando aufgerufen:
+2. Für alle Module, die sich im Verzeichnis :file:`source/modules` befinden, wird eine Standardkonfiguration erstellt. Dafür wird die neue OXID eShop Console mit folgendem Kommando aufgerufen:
 
 .. code:: bash
 
    vendor/bin/oe-console oe:oxideshop-update-component:install-all-modules
 
-|schritt| Die vorhandenen Moduldaten (Moduleinstellungen, Klassenerweiterungsketten, Aktivierungsstatus) werden aus der Datenbank in die Konfigurationsdateien :file:`*.yml` übertragen.
+3. Die vorhandenen Moduldaten (Moduleinstellungen, Klassenerweiterungsketten, Aktivierungsstatus) werden aus der Datenbank in die Konfigurationsdateien :file:`*.yml` übertragen.
 
 .. code:: bash
 
@@ -85,19 +85,19 @@ In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Sho
 
 Nach diesem Arbeitsschritt sollte in der Konfigurationsdatei aller zuvor aktiven Module die Option `configured = true` sein. Die Konfigurationsdatei enthält jetzt auch die Moduleinstellungen. Es sind die selben, die im Administrationsbereich beim Modul festgelegt wurden.
 
-|schritt| Um Datenredundanz und Probleme bei der Aktivierung von Modulen zu vermeiden, werden deren Status und Einstellungen aus der Datenbank entfernt.
+4. Um Datenredundanz und Probleme bei der Aktivierung von Modulen zu vermeiden, werden deren Status und Einstellungen aus der Datenbank entfernt.
 
 .. code:: bash
 
    vendor/bin/oe-console oe:oxideshop-update-component:delete-module-data-from-database
 
-|schritt| Alle Module, die zuvor aktiv waren, werden aktiviert und die Moduleinstellungen wiederhergestellt.
+5. Alle Module, die zuvor aktiv waren, werden aktiviert und die Moduleinstellungen wiederhergestellt.
 
 .. code:: bash
 
    vendor/bin/oe-console oe:module:apply-configuration
 
-|schritt| Deinstallieren Sie die OXID eShop update component.
+6. Deinstallieren Sie die OXID eShop update component.
 
 .. code:: bash
 
@@ -106,9 +106,9 @@ Nach diesem Arbeitsschritt sollte in der Konfigurationsdatei aller zuvor aktiven
 
 ---------------------------------------------------------------------------------------------------
 
-Alte Dateien entfernen
-----------------------
-|schritt| Die Datei :file:`xd_reciever.htm` aus dem Verzeichnis :file:`/source` wird nicht mehr benötigt und sollte gelöscht werden.
+|schritt| Alte Dateien entfernen
+--------------------------------
+Die Datei :file:`xd_reciever.htm` aus dem Verzeichnis :file:`/source` wird nicht mehr benötigt und sollte gelöscht werden.
 
 ---------------------------------------------------------------------------------------------------
 
