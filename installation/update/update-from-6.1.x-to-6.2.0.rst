@@ -62,7 +62,7 @@ You can find the values for your shop edition in the respective repository of th
 
 |schritt| Updating the module configurations
 --------------------------------------------
-In this step, settings and activation status of the modules belonging to the shop are transferred from the database to configuration files :file:`*.yml`.
+In this step, settings and activation status of the modules belonging to the shop are transferred from the database to configuration files :file:`*.yaml`.
 
 1. With the following Composer commands, which are called in the main directory of the shop, you install the OXID eShop update component.
 
@@ -77,7 +77,7 @@ In this step, settings and activation status of the modules belonging to the sho
 
    vendor/bin/oe-console oe:oxideshop-update-component:install-all-modules
 
-3. The existing module data (module settings, class extension chains, activation status) are transferred from the database to the configuration files :file:`*.yml`.
+3. The existing module data (module settings, class extension chains, activation status) are transferred from the database to the configuration files :file:`*.yaml`.
 
 .. code:: bash
 
