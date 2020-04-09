@@ -62,7 +62,7 @@ Sie finden die Werte für Ihre Shop-Edition im jeweiligen Repository des OXID eS
 
 |schritt| Aktualisierung der Modulkonfigurationen
 -------------------------------------------------
-In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Shop gehörenden Module aus der Datenbank in Konfigurationsdateien :file:`*.yml` transferiert.
+In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Shop gehörenden Module aus der Datenbank in Konfigurationsdateien :file:`*.yaml` transferiert.
 
 1. Mit den nachfolgenden Composer-Kommandos, welche im Hauptverzeichnis des Shops aufgerufen werden, installieren Sie die OXID eShop update component.
 
@@ -77,7 +77,7 @@ In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Sho
 
    vendor/bin/oe-console oe:oxideshop-update-component:install-all-modules
 
-3. Die vorhandenen Moduldaten (Moduleinstellungen, Klassenerweiterungsketten, Aktivierungsstatus) werden aus der Datenbank in die Konfigurationsdateien :file:`*.yml` übertragen.
+3. Die vorhandenen Moduldaten (Moduleinstellungen, Klassenerweiterungsketten, Aktivierungsstatus) werden aus der Datenbank in die Konfigurationsdateien :file:`*.yaml` übertragen.
 
 .. code:: bash
 
