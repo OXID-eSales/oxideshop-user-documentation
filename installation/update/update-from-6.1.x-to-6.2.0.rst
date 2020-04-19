@@ -108,7 +108,7 @@ After this step the option `configured = true` should be in the configuration fi
 
 |schritt| Removing old files
 ----------------------------
-The file :file:`xd_reciever.htm` from the :file:`/source` directory is no longer needed and should be deleted.
+The file :file:`xd_receiver.htm` from the :file:`/source` directory is no longer needed and should be deleted.
 
 ---------------------------------------------------------------------------------------------------
 
