@@ -108,7 +108,7 @@ Nach diesem Arbeitsschritt sollte in der Konfigurationsdatei aller zuvor aktiven
 
 |schritt| Alte Dateien entfernen
 --------------------------------
-Die Datei :file:`xd_reciever.htm` aus dem Verzeichnis :file:`/source` wird nicht mehr benötigt und sollte gelöscht werden.
+Die Datei :file:`xd_receiver.htm` aus dem Verzeichnis :file:`/source` wird nicht mehr benötigt und sollte gelöscht werden.
 
 ---------------------------------------------------------------------------------------------------
 
