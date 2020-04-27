@@ -26,7 +26,7 @@ author = 'OXID eSales AG'
 # The short X.Y version
 version = '6.2'
 # The full version, including alpha/beta/rc tags
-release = '6.2.0'
+release = '6.2.1'
 
 # -- General configuration ---------------------------------------------------
 
