@@ -44,7 +44,7 @@ Improvements and adjustments
 ----------------------------
 The following components have been updated to a new version:
 
-* OXID eShop CE (update from 6.5.3 to 6.5.4), `Changelog 6.5.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.3.7/CHANGELOG.md>`_
+* OXID eShop CE (update from 6.5.3 to 6.5.4), `Changelog 6.5.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.5.4/CHANGELOG.md>`_
 * OXID eShop EE (update from 6.5.1 to 6.5.2)
 * OXID eShop demodata CE (update from 6.0.3 to 6.0.4)
 * OXID eShop demodata PE (update from 6.0.3 to 6.0.4)
