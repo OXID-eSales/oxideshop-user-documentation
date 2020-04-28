@@ -1,7 +1,7 @@
 ﻿Update
 ======
 
-This section of the user documentation informs about the update of the OXID eShop.
+This section of the user documentation informs about the update of OXID eShop.
 
 -----------------------------------------------------------------------------------------
 
