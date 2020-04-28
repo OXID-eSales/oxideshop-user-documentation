@@ -58,8 +58,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
 Korrekturen
 -----------
-Die mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet.
-
+Die mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet. |br|
 https://bugs.oxid-esales.com/changelog_page.php?version_id=563
 
 
