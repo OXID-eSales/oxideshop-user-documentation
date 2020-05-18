@@ -80,7 +80,7 @@ The `Doctrine SQL Query Builder <https://www.doctrine-project.org/projects/doctr
 
 Codeception
 ^^^^^^^^^^^
-For OXID eShop, `Codeception acceptance tests <https://codeception.com>`_ are introduced, which are recommended for writing acceptance tests for modules of the "Flow" and "Wave" themes. For developers, these tests are easier to write, use and maintain. Another advantage is that newer drivers are supported. Detailed information can be found in the developer documentation: https://docs.oxid-esales.com/developer/en/6.2.2/development/modules_components_themes/module/testing/codeception/index.html.
+For OXID eShop, `Codeception acceptance tests <https://codeception.com>`_ are introduced, which are recommended for writing acceptance tests for modules of the "Flow" and "Wave" themes. For developers, these tests are easier to write, use and maintain. Another advantage is that newer drivers are supported. Detailed information can be found in the developer documentation: https://docs.oxid-esales.com/developer/en/6.2/development/modules_components_themes/module/testing/codeception/index.html.
 
 New directory /var
 ^^^^^^^^^^^^^^^^^^
