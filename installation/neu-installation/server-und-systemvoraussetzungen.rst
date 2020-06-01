@@ -32,7 +32,7 @@ PHP
 
 * PHP Versionen 7.1 bis 7.4
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
-* Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte dektiviert sein (OFF)
+* Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
 * Aktiviertes *allow_url_fopen* und *fsockopen* auf Port 80
 * Apache-Servervariablen *REQUEST_URI* oder *SCRIPT_URI* müssen vorhanden sein
