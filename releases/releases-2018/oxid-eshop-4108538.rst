@@ -39,4 +39,4 @@ Es wurden die oben genannten Sicherheitslücken geschlossen. Darüber hinaus wur
 
 Änderungen gegenüber der vorhergehenden Version können im Repository der Community Edition auf GitHub eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_ce/compare/v4.10.7...v4.10.8>`_.
 
-.. Intern: oxaaic, Status:
+.. Intern: oxaaii, Status:
