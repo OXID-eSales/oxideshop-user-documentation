@@ -23,17 +23,17 @@ The shop files are provided by Composer. Depending on the shop edition, differen
 Community Edition
 ^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.1-ce`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.2-ce`
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.1-pe`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.2-pe`
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.1-ee`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.2-ee`
 
 Once Composer has finished, the new directory named with *your_project_name* will be available. This is the main (root) directory of the project that contains all the files needed to install OXID eShop.
 
