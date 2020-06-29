@@ -1,7 +1,7 @@
 ﻿Preparing for installation
 ==========================
 
-Some preparations are necessary for the new installation of OXID eShop 6.1.
+Some preparations are necessary for the new installation of OXID eShop 6.2.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
