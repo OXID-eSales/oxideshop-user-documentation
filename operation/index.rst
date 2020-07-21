@@ -10,4 +10,11 @@
    Promotions <promotions/index>
    Discounts <discounts/index>
    Coupon series <coupon-series/index>
+
+-------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
    Newsletters <newsletters/index>
+   Wished price <wished-price/index>
