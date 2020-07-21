@@ -5,7 +5,7 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 
 .. image:: ../../media/screenshots/oxbacj01.png
    :alt: Artikel - Registerkarte Erweitert
-   :height: 342
+   :height: 344
    :width: 650
 
 :guilabel:`Gewicht`
@@ -17,9 +17,9 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 :guilabel:`Menge` ... :guilabel:`Mengeneinheit`
     Die Angabe von Menge und Mengeneinheit wird für Artikel benötigt, für welche ein Grundpreis angegeben werden muss. Der Grundpreis ist der Preis bezogen auf eine bestimmte Mengeneinheit wie Kilogramm oder Liter. Hinterlegen Sie hier die Menge des Artikels je Mengeneinheit. Wählen Sie eine Mengeneinheit aus der Liste oder tragen Sie eine Mengeneinheit ein, die nicht in der Liste zu finden ist.
 
-   Der Grundpreis wird in der Detailansicht des Artikels angezeigt.
+Der Grundpreis wird in der Detailansicht des Artikels angezeigt.
 
-   Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen Sie 1,5 bei Menge ein und wählen :guilabel:`kg` als Mengeneinheit. Angenommen, der Artikel hat einen Preis von 3 €, wäre der Grundpreis 2 €/kg.
+Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen Sie 1,5 bei Menge ein und wählen :guilabel:`kg` als Mengeneinheit. Angenommen, der Artikel hat einen Preis von 3 €, wäre der Grundpreis 2 €/kg.
 
 :guilabel:`Externe URL`
    Link auf eine externe Internetseite, beispielsweise die Website des Herstellers, mit weiterführenden Informationen zum Artikel.
@@ -60,10 +60,12 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 :guilabel:`Versandkostenfrei`
    Der Artikel wird bei der Versandkostenberechnung nicht berücksichtigt, wenn das Kontrollkästchen angehakt ist. Befindet sich dieser Artikel mit anderen Artikeln im Warenkorb, bedeutet das jedoch nicht, dass damit der gesamte Einkauf versandkostenfrei wird.
 
-:guilabel:`Preisalarm deaktivieren`
-   In der Detailansicht eines Artikels können Kunden den Preisalarm nutzen, indem Sie einen Preis eintragen, zu dem sie den Artikel kaufen würden.
+:guilabel:`Wunschpreis deaktivieren`
+   In der Detailansicht eines Artikels können Kunden die Funktion Wunschpreis nutzen, indem Sie einen Preis eintragen, zu dem sie den Artikel kaufen würden. Im Administrationsbereich werden unter :menuselection:`Kundeninformationen --> Wunschpreis` die Kundenanfragen gesammelt. Der Shopbetreiber kann den Kunden per E-Mail, die vom Shop vorbereitet wurde, informieren, sobald dieser Wunschpreis erreicht wird. Schalten Sie die Funktion Preisalarm hier für einen bestimmten Artikel ab.
 
-   Im Administrationsbereich werden unter :menuselection:`Kundeninformationen --> Preisalarm` die Kundenanfragen gesammelt. Der Shopbetreiber kann den Kunden per E-Mail, die vom Shop vorbereitet wurde, informieren, sobald dieser Wunschpreis erreicht wird. Schalten Sie die Funktion Preisalarm hier für einen bestimmten Artikel ab.
+Die Funktion kann aber auch in den Einstellungen des Themes in der Sektion :guilabel:`Funktionen` für den Shop global aktiviert oder deaktiviert werden.
+
+Wunschpreis hieß bis OXID eShop 6.2.1 Preisalarm.
 
 :guilabel:`Alle neg. Nachlässe ignorieren.`
    Wenn das Kontrollkästchen aktiviert ist, werden für diesen Artikel keine negativen Nachlässe, wie Rabatte und Gutscheine, berechnet.
@@ -112,4 +114,5 @@ In diesem Zuordnungsfenster werden in der linken Liste alle Kategorie angezeigt.
 
 .. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`
 
-.. Intern: oxbacj, Status:, F1: article_extend.html
+
+.. Intern: oxbacj, Status:, F1: article_extend.html, Latitute-images
