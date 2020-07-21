@@ -5,7 +5,7 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
 
 .. image:: ../../media/screenshots/oxbacj01.png
    :alt: Products - Extended tab
-   :height: 343
+   :height: 345
    :width: 650
 
 :guilabel:`Weight`
@@ -60,10 +60,12 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
 :guilabel:`Free Shipping`
    If this box is checked, the product won’t be included in the shipping cost calculation. However, even when this product is added to the shopping cart together with other products, this doesn’t mean that the entire order will ship for free.
 
-:guilabel:`Deactivate Price Alert`
-   Customers can use the price alert in the product’s detailed view by entering a price at which they would buy the product.
+:guilabel:`Deactivate wished Price`
+   Customers can use the wished price function in the product’s detailed view by entering a price at which they would buy the product. Customer enquiries are collected under :menuselection:`Customer Info --> Price Alert` in the Admin panel. The shop owner can notify the customer by e-mail, prepared by the shop, once the desired price has been reached. Use this field to turn off the wished price for a specific product.
 
-   Customer enquiries are collected under :menuselection:`Customer Info --> Price Alert` in the Admin panel. The shop owner can notify the customer by e-mail, prepared by the shop, once the desired price has been reached. Use this field to turn off the price alert function for a specific product.
+The function can also be globally enabled or disabled for the shop in the :guilabel:`Functions` section of the theme’s settings.
+
+Until OXID eShop 6.2.1, wished price was called price alert.
 
 :guilabel:`Skip all negative Discounts (Discounts, Vouchers, Delivery ...)`
    If this box is checked, no negative discounts, such as discounts and coupons, will be calculated for this product.
