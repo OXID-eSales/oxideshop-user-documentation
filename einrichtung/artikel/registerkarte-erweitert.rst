@@ -61,7 +61,7 @@ Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen 
    Der Artikel wird bei der Versandkostenberechnung nicht berücksichtigt, wenn das Kontrollkästchen angehakt ist. Befindet sich dieser Artikel mit anderen Artikeln im Warenkorb, bedeutet das jedoch nicht, dass damit der gesamte Einkauf versandkostenfrei wird.
 
 :guilabel:`Wunschpreis deaktivieren`
-   In der Detailansicht eines Artikels können Kunden die Funktion Wunschpreis nutzen, indem Sie einen Preis eintragen, zu dem sie den Artikel kaufen würden. Im Administrationsbereich werden unter :menuselection:`Kundeninformationen --> Wunschpreis` die Kundenanfragen gesammelt. Der Shopbetreiber kann den Kunden per E-Mail, die vom Shop vorbereitet wurde, informieren, sobald dieser Wunschpreis erreicht wird. Schalten Sie die Funktion Preisalarm hier für einen bestimmten Artikel ab.
+   In der Detailansicht eines Artikels können Kunden die Funktion Wunschpreis nutzen, indem Sie einen Preis eintragen, zu dem sie den Artikel kaufen würden. Im Administrationsbereich werden unter :menuselection:`Kundeninformationen --> Wunschpreis` die Kundenanfragen gesammelt. Der Shopbetreiber kann den Kunden per E-Mail, die vom Shop vorbereitet wurde, informieren, sobald dieser Wunschpreis erreicht wird. Schalten Sie die Funktion Wunschpreis hier für einen bestimmten Artikel ab.
 
 Die Funktion kann aber auch in den Einstellungen des Themes in der Sektion :guilabel:`Funktionen` für den Shop global aktiviert oder deaktiviert werden.
 
