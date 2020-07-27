@@ -68,7 +68,7 @@ In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Sho
 
 .. code:: bash
 
-   composer require --no-update oxid-esales/oxideshop-update-component
+   composer require --no-update oxid-esales/oxideshop-update-component:"^1.0"
    composer update --no-dev --no-interaction
 
 2. Für alle Module, die sich im Verzeichnis :file:`source/modules` befinden, wird eine Standardkonfiguration erstellt. Dafür wird die neue OXID eShop Console mit folgendem Kommando aufgerufen:
