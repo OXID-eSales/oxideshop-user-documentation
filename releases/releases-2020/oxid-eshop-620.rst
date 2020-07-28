@@ -114,7 +114,7 @@ The following components have been updated to a new version:
 * Paymorrow (update from 2.0.1 to 2.0.3), `Changelog 2.0.3 <https://github.com/OXID-eSales/paymorrow-module/blob/v2.0.3/CHANGELOG.md>`_
 * PAYONE (update from 1.0.10 to 1.3.1), `Changelog v1.3.1 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.3.1/Changelog.txt>`_
 * PayPal (update from 5.2.5 to 6.1.0), `Changelog 6.1.0 <https://github.com/OXID-eSales/paypal/blob/v6.1.0/CHANGELOG.md>`_
-* Visual CMS (PE/EE) (update from 3.3.2 to 3.3.3), `Changelog 3.3.3 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.3.3/CHANGELOG.md>`_
+* Visual CMS (PE/EE) (update from 3.3.2 to 3.3.3)
 
 Sorting of accessories for products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
