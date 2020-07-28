@@ -52,7 +52,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * GDPR Opt-In (Update von 2.3.0 auf 2.3.1), `Changelog 3.3.1 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.1/CHANGELOG.md>`_
 * PayPal (Update von 6.1.0 auf 6.2.0), `Changelog 6.2.0 <https://github.com/OXID-eSales/paypal/blob/v6.2.0/CHANGELOG.md>`_
 * Summernote WYSIWIG-Editor und Mediathek (Update von 2.2.0 auf 2.3.0), `Changelog 2.3.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.3.0/CHANGELOG.md>`_
-* Visual CMS, PE/EE (Update von 3.3.3 auf 3.4.0), `Changelog 3.4.0 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.4.0/CHANGELOG.md>`_
+* Visual CMS, PE/EE (Update von 3.3.3 auf 3.4.0)
 * OXID eShop composer plugin (Update von 4.1.1 auf 5.0.1), `Changelog 5.0.1 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.0.1/CHANGELOG.md>`_
 * OXID eShop doctrine migration integration (Update von 2.1.3 auf 3.1.0), `Changelog 3.1.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v3.1.0/CHANGELOG.md>`_
 
