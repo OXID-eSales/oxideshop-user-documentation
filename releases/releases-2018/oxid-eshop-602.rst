@@ -7,7 +7,7 @@ Veröffentlichungstermin: 28.03.2018
 
 Allgemeines
 -----------
-OXID eShop 6.0.2 wird als Compilation bereitgestellt. Darin sind die Komponenten OXID eShop 6.2.0, das Theme "Flow" 3.0.0, die Module AmazonPay 3.0.2, Paymorrow 2.0.0, PayOne 1.0.5, PayPal 5.1.6, Visual CMS 3.2.0 (PE/EE) sowie der WYSIWIG-Editor und die Mediathek Summernote 2.1.1 enthalten. Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.1…v6.0.2>`_.
+OXID eShop 6.0.2 wird als Compilation bereitgestellt. Darin sind die Komponenten OXID eShop 6.2.0, das Theme "Flow" 3.0.0, die Module AmazonPay 3.0.2, Paymorrow 2.0.0, PayOne 1.0.5, PayPal 5.1.6, Visual CMS 3.2.0 (PE/EE) sowie der WYSIWIG Editor + Mediathek 2.1.1 enthalten. Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.1…v6.0.2>`_.
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^

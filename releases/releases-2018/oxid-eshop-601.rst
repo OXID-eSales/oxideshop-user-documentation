@@ -7,7 +7,7 @@ Veröffentlichungstermin: 30.01.2018
 
 Allgemeines
 -----------
-OXID eShop 6.0.1 wird als Compilation bereitgestellt. Darin sind OXID eShop 6.1.0, die Module AmazonPay 3.0.2, Paymorrow 2.0.0, PayOne 1.0.5, PayPal 5.1.5, Visual CMS 3.1.0 (PE/EE) sowie der WYSIWIG-Editor und die Mediathek Summernote 2.1.0 als Komponenten enthalten. Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.0...v6.0.1>`_.
+OXID eShop 6.0.1 wird als Compilation bereitgestellt. Darin sind OXID eShop 6.1.0, die Module AmazonPay 3.0.2, Paymorrow 2.0.0, PayOne 1.0.5, PayPal 5.1.5, Visual CMS 3.1.0 (PE/EE) sowie der WYSIWIG Editor + Mediathek 2.1.0 als Komponenten enthalten. Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.0.0...v6.0.1>`_.
 
 Mit OXID eShop 6.0.1 wird eine Sicherheitslücke geschlossen, die mit CVSS = 4.9 eingestuft wurde und nur in der Enterprise Edition mit Hochlastoption und aktivem Varnish auftritt. Details zur Sicherheitslücke finden Sie auf folgender Seite der OXIDforge: `Security Bulletin 2018-001 <https://oxidforge.org/en/security-bulletin-2018-001.html>`_. Wir empfehlen ein schnelles Update auf diese Shopversion. Eine Anleitung dazu finden Sie unter :doc:`Update-Installation <../../installation/update-installation/update-installation>`.
 
