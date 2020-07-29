@@ -20,7 +20,7 @@ OXID eShop 6.2.2 is provided as a compilation with the following components:
 * Paymorrow 2.0.3
 * PAYONE 1.3.1
 * PayPal 6.2.0
-* Summernote WYSIWIG editor and Media Gallery 2.3.0
+* WYSIWYG Editor + Mediathek 2.3.0
 * Visual CMS 3.4.0 (PE/EE)
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.2.1...v6.2.2>`_.
@@ -51,7 +51,7 @@ The following components have been updated to a new version:
 * Theme "Wave" (update from 1.3.1 to 1.4.0), `Changelog 1.4.0 <https://github.com/OXID-eSales/wave-theme/blob/v1.4.0/CHANGELOG.md>`_
 * GDPR Opt-In (update from 2.3.0 to 2.3.1), `Changelog 3.3.1 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.1/CHANGELOG.md>`_
 * PayPal (update from 6.1.0 to 6.2.0), `Changelog 6.2.0 <https://github.com/OXID-eSales/paypal/blob/v6.2.0/CHANGELOG.md>`_
-* Summernote WYSIWIG editor and Media Gallery (update from 2.2.0 to 2.3.0), `Changelog 2.3.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.3.0/CHANGELOG.md>`_
+* WYSIWYG Editor + Mediathek (update from 2.2.0 to 2.3.0), `Changelog 2.3.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.3.0/CHANGELOG.md>`_
 * Visual CMS, PE/EE (update from 3.3.3 to 3.4.0)
 * OXID eShop composer plugin (update from 4.1.1 to 5.0.1), `Changelog 5.0.1 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.0.1/CHANGELOG.md>`_
 * OXID eShop doctrine migration integration (update from 2.1.3 to 3.1.0), `Changelog 3.1.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v3.1.0/CHANGELOG.md>`_
