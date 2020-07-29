@@ -20,7 +20,7 @@ OXID eShop 6.1.5 wird als Compilation bereitgestellt. Diese enthält u.a. folgen
 * Paymorrow 2.0.1
 * PAYONE 1.0.10
 * PayPal 5.2.5
-* Summernote WYSIWIG-Editor und Mediathek 2.2.0
+* WYSIWIG Editor + Mediathek 2.2.0
 * Visual CMS 3.3.2 (PE/EE)
 
 Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.4...v6.1.5>`_.
