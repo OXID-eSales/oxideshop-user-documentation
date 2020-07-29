@@ -20,7 +20,7 @@ OXID eShop 6.1.2 is provided as a compilation with the following components:
 * Paymorrow 2.0.1
 * PAYONE 1.0.10
 * PayPal 5.2.3
-* Summernote WYSIWIG editor and Media Gallery 2.2.0
+* WYSIWYG Editor + Mediathek 2.2.0
 * Visual CMS 3.3.0 (PE/EE)
 
 All changes to the compilation can be viewed in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.1.1...v6.1.2>`_.
