@@ -1,7 +1,7 @@
 ﻿Geteilte Elemente
 =================
 
-Geteilte Elemente sind Zahlungsarten, Länder, Benutzer, Benutzergruppen und Bewertungen. Diese werden in allen Shops verwendet und nur ein Administrator mit dem Recht \"Admin\" kann diese ändern. Administratoren der Subshops, Supershops oder Multishops haben dafür keine Berechtigung.
+Geteilte Elemente sind Zahlungsarten, Länder, Benutzer, Benutzergruppen und Bewertungen. Diese werden in allen Shops verwendet, können aber nur im Hauptshop gepflegt werden.
 
 .. image:: ../../../media/screenshots-de/oxaagr01.png
    :alt: Länder im Subshop
