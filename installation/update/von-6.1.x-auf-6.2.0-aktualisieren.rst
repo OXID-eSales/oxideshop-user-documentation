@@ -70,14 +70,19 @@ In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Sho
 
    composer require --no-update oxid-esales/oxideshop-update-component:"^1.0"
    composer update --no-dev --no-interaction
+   
+2. Leeren Sie das Verzeichnis mit den temporären Dateien des Shops, indem Sie beispielsweise eine Shell im Hauptverzeichnis des Shops aufrufen und folgendes Kommando eingeben:
+   .. code:: bash
 
-2. Für alle Module, die sich im Verzeichnis :file:`source/modules` befinden, wird eine Standardkonfiguration erstellt. Dafür wird die neue OXID eShop Console mit folgendem Kommando aufgerufen:
+   rm -rf source/tmp/*
+
+3. Für alle Module, die sich im Verzeichnis :file:`source/modules` befinden, wird eine Standardkonfiguration erstellt. Dafür wird die neue OXID eShop Console mit folgendem Kommando aufgerufen:
 
 .. code:: bash
 
    vendor/bin/oe-console oe:oxideshop-update-component:install-all-modules
 
-3. Die vorhandenen Moduldaten (Moduleinstellungen, Klassenerweiterungsketten, Aktivierungsstatus) werden aus der Datenbank in die Konfigurationsdateien :file:`*.yaml` übertragen.
+4. Die vorhandenen Moduldaten (Moduleinstellungen, Klassenerweiterungsketten, Aktivierungsstatus) werden aus der Datenbank in die Konfigurationsdateien :file:`*.yaml` übertragen.
 
 .. code:: bash
 
@@ -85,19 +90,19 @@ In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Sho
 
 Nach diesem Arbeitsschritt sollte in der Konfigurationsdatei aller zuvor aktiven Module die Option `configured = true` sein. Die Konfigurationsdatei enthält jetzt auch die Moduleinstellungen. Es sind die selben, die im Administrationsbereich beim Modul festgelegt wurden.
 
-4. Um Datenredundanz und Probleme bei der Aktivierung von Modulen zu vermeiden, werden deren Status und Einstellungen aus der Datenbank entfernt.
+5. Um Datenredundanz und Probleme bei der Aktivierung von Modulen zu vermeiden, werden deren Status und Einstellungen aus der Datenbank entfernt.
 
 .. code:: bash
 
    vendor/bin/oe-console oe:oxideshop-update-component:delete-module-data-from-database
 
-5. Alle Module, die zuvor aktiv waren, werden aktiviert und die Moduleinstellungen wiederhergestellt.
+6. Alle Module, die zuvor aktiv waren, werden aktiviert und die Moduleinstellungen wiederhergestellt.
 
 .. code:: bash
 
    vendor/bin/oe-console oe:module:apply-configuration
 
-6. Deinstallieren Sie die OXID eShop update component.
+7. Deinstallieren Sie die OXID eShop update component.
 
 .. code:: bash
 
