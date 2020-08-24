@@ -72,7 +72,8 @@ In diesem Arbeitsschritt werden Einstellungen und Aktivierungsstatus der zum Sho
    composer update --no-dev --no-interaction
    
 2. Leeren Sie das Verzeichnis mit den temporären Dateien des Shops, indem Sie beispielsweise eine Shell im Hauptverzeichnis des Shops aufrufen und folgendes Kommando eingeben:
-   .. code:: bash
+
+.. code:: bash
 
    rm -rf source/tmp/*
 
