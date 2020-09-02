@@ -22,19 +22,19 @@ Installieren Sie einen OXID eShop 4.7.0/5.0.0 auf dem gleichen Server, auf dem d
 
 3. Alte Datenbank verbinden
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Verbinden Sie den OXID eShop 4.7.0/5.0.0 mit der Datenbank des OXID eShop 4.6.5 bzw. 4.6.6. Editieren Sie dafür die Konfigurationsdateiconfig.inc.phpdes OXID eShop 4.7.0/5.0.0 und ändern Sie die Einträge für den Datenbanknamen, den Datenbankbenutzer und dessen Passwort.
+Verbinden Sie den OXID eShop 4.7.0/5.0.0 mit der Datenbank des OXID eShop 4.6.5 bzw. 4.6.6. Editieren Sie dafür die Konfigurationsdatei config.inc.php des OXID eShop 4.7.0/5.0.0 und ändern Sie die Einträge für den Datenbanknamen, den Datenbankbenutzer und dessen Passwort.
 
 4. updateApp ausführen
 ^^^^^^^^^^^^^^^^^^^^^^
-Das Update-Paket enthält das Verzeichnis/updateAppmit einem kleinen Programm, welches die Datenbank bearbeitet sowie Theme und/oder Module in den neuen Shop verschiebt. Kopieren Sie das Verzeichnis/updateAppin das Hauptverzeichnis des installierten OXID eShop 4.7.0/5.0.0.
+Das Update-Paket enthält das Verzeichnis/updateAp pmit einem kleinen Programm, welches die Datenbank bearbeitet sowie Theme und/oder Module in den neuen Shop verschiebt. Kopieren Sie das Verzeichnis/updateApp in das Hauptverzeichnis des installierten OXID eShop 4.7.0/5.0.0.
 
-Rufen Sie in Ihrem Browserwww.ihreshopurl.de/updateAppauf. Ersetzen Sie dabeiwww.ihreshopurl.dedurch die URL Ihres OXID eShop 4.7.0/5.0.0. Das Programm fragt, ob es Theme und Module in den neuen Shop verschieben soll. Bejahen Sie diese Frage, müssen Sie den Pfad zum OXID eShop 4.6.5 bzw. 4.6.6 angeben. Sie finden den Pfad in der Konfigurationsdateiconfig.inc.phpdes OXID eShop 4.6.5 bzw. 4.6.6.
+Rufen Sie in Ihrem Browser www.ihreshopurl.de/updateApp auf. Ersetzen Sie dabei www.ihreshopurl.de durch die URL Ihres OXID eShop 4.7.0/5.0.0. Das Programm fragt, ob es Theme und Module in den neuen Shop verschieben soll. Bejahen Sie diese Frage, müssen Sie den Pfad zum OXID eShop 4.6.5 bzw. 4.6.6 angeben. Sie finden den Pfad in der Konfigurationsdatei config.inc.php des OXID eShop 4.6.5 bzw. 4.6.6.
 
-Bitte beachten Sie, dass Updates bei großen Datenbanken viel Zeit beanspruchen können. Setzen Sie den Parameter *max_execution_time*  in derphp.inider Test- oder Entwicklungsumgebung auf einen angemessenen Wert, um ein Timeout bei der Verarbeitung zu vermeiden. Löschen Sie das Verzeichnis/updateApp, wenn das Datenbank-Update fertig ist.
+Bitte beachten Sie, dass Updates bei großen Datenbanken viel Zeit beanspruchen können. Setzen Sie den Parameter *max_execution_time*  in der php.ini der Test- oder Entwicklungsumgebung auf einen angemessenen Wert, um ein Timeout bei der Verarbeitung zu vermeiden. Löschen Sie das Verzeichnis/updateApp, wenn das Datenbank-Update fertig ist.
 
 5. Views aktualisieren
 ^^^^^^^^^^^^^^^^^^^^^^
-Gehen Sie im Administrationsbereich des OXID eShop 4.7.0/5.0.0 zuService-\>Toolsund aktualisieren Sie die Views. Falls Sie sich nicht im Administrationsbereich anmelden können, setzen Sie vorübergehend den Parameter *blSkipViewUsage*  in der Konfigurationsdateiconfig.inc.phpauf\"true\".
+Gehen Sie im Administrationsbereich des OXID eShop 4.7.0/5.0.0 zu Service-\>Tools und aktualisieren Sie die Views. Falls Sie sich nicht im Administrationsbereich anmelden können, setzen Sie vorübergehend den Parameter *blSkipViewUsage*  in der Konfigurationsdateiconfig.inc.php auf\"true\".
 
 6. Artikelbilder kopieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^
