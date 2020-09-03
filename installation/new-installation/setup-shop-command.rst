@@ -7,6 +7,7 @@ We have three commands to install and prepare the shop:
     - :ref:`Install the shop<install-the-shop>`
     - :ref:`Install demo data<install-demo-data>`
     - :ref:`Add admin user<add-admin-user>`
+    - :ref:`Add license for PE and EE edition<add-license>`
 
 .. important::
 
@@ -103,3 +104,29 @@ Example:
 .. code::
 
     vendor/bin/oe-console oe:admin:create-user --admin-email=admin@gmail.com --admin-password=123456
+
+.. _add-license:
+
+ADD LICENSE FOR PE AND EE EDITION
+=================================
+
+To add or remove licenses for your shop edition, you can use one of the follwing commands.
+
+If you want to add a new license run the following command:
+
+.. code::
+
+    vendor/bin/oe-console oe:license:add LICENSE-KEY
+
+Which:
+    - <license-key> is a valid license 
+
+If you want to clear all licenses run the following command:
+
+.. code::
+
+    vendor/bin/oe-console oe:license:clear
+
+.. important::
+
+    This will delete all licenses which are currently installed within the shop!
