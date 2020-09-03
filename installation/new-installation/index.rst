@@ -9,3 +9,4 @@
    preparing-for-installation
    running-setup
    completing-installation
+   setup-shop-command
