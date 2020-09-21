@@ -33,4 +33,5 @@ Caching-Einstellungen
 
 .. note:: Weiterführende Links: Smarty Template Engine: `http://www.smarty.net <http://www.smarty.net/>`_ | Zend Server: `http://www.zend.com/en/products/zend_server <http://www.zend.com/en/products/zend_server>`_  | Memcached: `http://memcached.org <http://memcached.org/>`_
 
+
 .. Intern: oxbabz, Status:
