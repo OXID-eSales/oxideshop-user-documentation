@@ -9,11 +9,13 @@ Dynamic Content Cache war von Anfang an integraler Bestandteil der Enterprise Ed
 
 Mit der Version 5.0.0 der Enterprise Edition wurde das Caching erweitert.
 
-Das neue und erweiterte Caching wird durch drei Hauptkomponenten umgesetzt: durch den in den OXID eShop integrierten Cache Manager, unterstützt durch den Reverse Proxy Varnish und/oder durch Memcached.
+Das neue und erweiterte Caching wird durch drei Hauptkomponenten umgesetzt: durch den in den OXID eShop integrierten Cache Manager, unterstützt durch den Reverse Proxy Varnish und/oder durch Memcached. Seit OXID eShop 6.2 ist zudem als Alternative zum Varnish Cache auch ein Caching via NGINX möglich.
+
+.. hint:: Zur Nutzung der zuvor genannten Caching Möglichkeiten ist der Erwerb einer Hochlastlizenz nötig. Diese wird dann als zusätzlicher Lizenzschlüssel im eShop registriert.
 
 Der *Cache Manager*, welcher direkter Bestandteil des OXID eShop ist, verarbeitet alle Caching-Anforderungen und stellt sicher, dass die Daten in den verschiedenen eingesetzten Caches stets aktuell sind.
 
-Der *Reverse Proxy Varnish* ist ein Webbeschleuniger. Das System verarbeitet noch vor dem Webserver eingehende Anfragen von Web-Clients und stellt die auszuliefernden Webseiten überwiegend aus zwischengespeicherten Inhalten zusammen. Inhalte werden vom Webserver abgefragt und aus der Datenbank gelesen, sobald die Lebensdauer des Caches abgelaufen ist.
+Der *Reverse Proxy Varnish* sowie auch die Lösung via *NGINX* sind Webbeschleuniger. Das System verarbeitet noch vor dem Webserver eingehende Anfragen von Web-Clients und stellt die auszuliefernden Webseiten überwiegend aus zwischengespeicherten Inhalten zusammen. Inhalte werden vom Webserver abgefragt und aus der Datenbank gelesen, sobald die Lebensdauer des Caches abgelaufen ist.
 
 *Memcached* ist ein Cache-Server. Durch dessen Einsatz wird es möglich, den Cache im Arbeitsspeicher anstatt im Dateisystem zu speichern. Der Zugriff auf Daten im Arbeitsspeicher ist deutlich schneller als ein Festplattenzugriff.
 
