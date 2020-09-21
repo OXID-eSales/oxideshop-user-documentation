@@ -9,4 +9,7 @@ Installieren Sie Memcached auf einem Server. Die Software erhalten Sie auf der W
 
 Stellen Sie sicher, dass die PHP-Bibliothek \"memcached\" aktiv ist.
 
+Weitere Vorrausetzungen
+------------
+Es wird ein Lizenz-Key mit Hochlastoption benötigt.
 .. Intern: oxbacc, Status:
