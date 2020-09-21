@@ -9,11 +9,13 @@ Dynamic Content Cache has been an integral part of Enterprise Edition from the v
 
 Caching has been enhanced with Enterprise Edition version 5.0.0.
 
-The new and enhanced caching is implemented using three main components: the Cache Manager integrated into OXID eShop, supported by the Varnish reverse proxy and/or Memcached.
+The new and enhanced caching is implemented using three main components: the Cache Manager integrated into OXID eShop, supported by the Varnish reverse proxy and/or Memcached. Since OXID eShop 6.2 you can also use NGINX as an alternative to Varnish.
+
+.. hint:: To use the mentioned caching mechanisms you have to purchase a High-Performance License. This must be registered as an additional license key in the eShop.
 
 The *Cache Manager*, which is a direct component of OXID eShop, processes all caching requirements and ensures that the data in the various caches used is always up-to-date.
 
-The *Varnish reverse proxy* is a web accelerator. The system processes incoming enquiries from web clients before the web server and compiles the web pages to be delivered predominantly from the cached content. Contents are queried by the web server and read from the database as soon as the cache lifetime has expired.
+The *Varnish reverse proxy* as well as the solution via *NGINX* are web accelerators. The system processes incoming enquiries from web clients before the web server and compiles the web pages to be delivered predominantly from the cached content. Contents are queried by the web server and read from the database as soon as the cache lifetime has expired.
 
 *Memcached* is a cache server. It allows you to store the cache in the memory instead of in the file system. Access to data in the memory is much faster than access to the hard drive.
 
