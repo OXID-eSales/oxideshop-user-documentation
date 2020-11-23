@@ -12,7 +12,7 @@ OXID eShop 6.2.3 is provided as a compilation with the following components:
 * OXID eShop CE 6.6.0
 * OXID eShop PE 6.4.1
 * OXID eShop EE 6.5.4
-* Theme "Flow" 3.5.0
+* Theme "Flow" 3.6.0
 * Theme "Wave" 1.5.0
 * Amazon Pay 3.6.4
 * GDPR Opt-In 2.3.1
