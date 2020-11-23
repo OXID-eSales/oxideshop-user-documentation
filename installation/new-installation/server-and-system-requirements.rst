@@ -54,9 +54,9 @@ PHP extensions that need to be installed:
 Composer
 --------
 
-* Composer Version 1
+* Composer
 
-Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). The requirements for Composer can be found in `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
+Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). With OXID eShop 6.2.3 from November 2020, versions 1 and 2 of Composer are supported. The requirements for Composer can be found in `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
 
 OpenSSL
 -------
@@ -64,5 +64,6 @@ OpenSSL
 Compilation modules require OpenSSL.
 
 * *openssl* >= 1.0.1
+
 
 .. Intern: oxbaac, Status:

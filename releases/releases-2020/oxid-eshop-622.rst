@@ -54,7 +54,6 @@ The following components have been updated to a new version:
 * WYSIWYG Editor + Mediathek (update from 2.2.0 to 2.3.0), `Changelog 2.3.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.3.0/CHANGELOG.md>`_
 * Visual CMS, PE/EE (update from 3.3.3 to 3.4.0)
 * OXID eShop composer plugin (update from 4.1.1 to 5.0.1), `Changelog 5.0.1 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.0.1/CHANGELOG.md>`_
-* OXID eShop doctrine migration integration (update from 2.1.3 to 3.1.0), `Changelog 3.1.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v3.1.0/CHANGELOG.md>`_
 
 Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.4...v6.5.6. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
