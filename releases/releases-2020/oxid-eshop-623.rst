@@ -60,6 +60,10 @@ The following components have been updated to a new version:
 
 Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.6...v6.6.0. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
+New command for OXID eShop console
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+With ``oe:module:uninstall-configuration`` a module configuration can be removed from the .yaml configuration files and the database.
+
 -----------------------------------------------------------------------------------------
 
 Corrections
