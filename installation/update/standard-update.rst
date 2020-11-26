@@ -17,8 +17,10 @@ Beispiel für ein Update einer Community Edition 6.2.0 zu 6.2.1:
 .. code:: bash
 
    composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.2.1
-   
-.. hint:: Der Name des Metapackage muss an die verwendeten Shop Edition angepasst werden.
+
+.. hint::
+
+   Der Name des Metapackage muss an die verwendeten Shop Edition angepasst werden.
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
