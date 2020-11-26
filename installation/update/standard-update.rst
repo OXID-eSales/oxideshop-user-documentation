@@ -10,7 +10,17 @@ Updates should always be installed in a test environment, a copy of your current
 
 |schritt| Specifying the target version of the update
 -----------------------------------------------------
-Enter the version to which you want to update in the :file:`composer.json` file located in the shop’s main directory. To do this, open the file in any editor and enter the desired version for the metapackage. Example: ``"oxid-esales/oxideshop-metapackage-ce": "^v6.2.0",``
+In the file :file:`composer.json` located in the shop’s main directory, the version of the metapackage must be updated.
+
+Example of an update for a Community Edition 6.2.0 to 6.2.1:
+
+.. code:: bash
+
+   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.2.1
+
+.. hint::
+
+   The name of the metapackage must be adapted to the used shop edition.
 
 |schritt| Updating dependencies
 -------------------------------
