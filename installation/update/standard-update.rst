@@ -10,7 +10,17 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 
 |schritt| Update-Ziel vorgeben
 ------------------------------
-In die Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version eingetragen werden, auf welche aktualisiert werden soll. Öffnen Sie die Datei in einem Editor und tragen Sie die gewünschte Version für das Metapackage ein. Beispiel: ``"oxid-esales/oxideshop-metapackage-ce": "^v6.2.0",``
+In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version des Metapackage aktualisiert werden.
+
+Beispiel für ein Update einer Community Edition 6.2.0 zu 6.2.1:
+
+.. code:: bash
+
+   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.2.1
+
+.. hint::
+
+   Der Name des Metapackage muss an die verwendeten Shop Edition angepasst werden.
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
