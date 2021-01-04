@@ -51,7 +51,8 @@ The HTTP server requires write access to the following directories and their sub
 :file:`/source/log/` |br|
 :file:`/source/out/pictures/` |br|
 :file:`/source/out/media/` |br|
-:file:`/source/tmp/`
+:file:`/source/tmp/` |br|
+:file:`/var/`
 
 For the web-based setup, the HTTP server must have write access to the following directory and files:
 
