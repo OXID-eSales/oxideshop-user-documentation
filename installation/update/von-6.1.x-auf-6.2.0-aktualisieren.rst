@@ -8,7 +8,9 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
 
 |schritt| Aktualisierung des Shops
 ----------------------------------
-1. In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, müssen Version geändert werden. Das betrifft die Sektion "require" und "require-dev". Beispiel für einen OXID eShop Community Edition 6.2.0:
+1. In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, müssen Version geändert werden. Das betrifft die Sektion "require" und "require-dev".
+
+**OXID eShop Community Edition 6.2.0**
 
 .. code:: json
 
@@ -21,7 +23,8 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
    },
-für einen OXID eShop Professional Edition 6.2.0:
+
+**OXID eShop Professional Edition 6.2.0**
 
 .. code:: json
 
@@ -34,7 +37,8 @@ für einen OXID eShop Professional Edition 6.2.0:
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
    },
-   für einen OXID eShop Community Edition 6.2.0:
+
+**OXID eShop Enterprise Edition 6.2.0**
 
 .. code:: json
 
