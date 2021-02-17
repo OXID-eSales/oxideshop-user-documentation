@@ -8,7 +8,9 @@ This document describes the update from OXID eShop 6.1.0 and higher to OXID eSho
 
 |schritt| Updating the shop
 ---------------------------
-1. In the file :file:`composer.json`, which is located in the main directory of the shop, version must be changed. This concerns the section "require" and "require-dev". Example for an OXID eShop Community Edition 6.2.0:
+1. In the file :file:`composer.json`, which is located in the main directory of the shop, version must be changed. This concerns the section "require" and "require-dev".
+
+**OXID eShop Community Edition 6.2.0**
 
 .. code:: json
 
@@ -22,11 +24,33 @@ This document describes the update from OXID eShop 6.1.0 and higher to OXID eSho
       "oxid-esales/azure-theme": "^v1.4.2"
    },
 
-You can find the values for your shop edition in the respective repository of the OXID eShop project:
+**OXID eShop Professional Edition 6.2.0**
 
-* Community Edition: https://github.com/OXID-eSales/oxideshop_project/blob/b-6.2-ce/composer.json
-* Professional Edition: https://github.com/OXID-eSales/oxideshop_project/blob/b-6.2-pe/composer.json
-* Enterprise Edition: https://github.com/OXID-eSales/oxideshop_project/blob/b-6.2-ee/composer.json
+.. code:: json
+
+   "require": {
+      "oxid-esales/oxideshop-metapackage-pe": "v6.2.0"
+   },
+   "require-dev": {
+      "oxid-esales/testing-library": "^v7.0.1",
+      "incenteev/composer-parameter-handler": "^v2.0.0",
+      "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
+      "oxid-esales/azure-theme": "^v1.4.2"
+   },
+
+**OXID eShop Enterprise Edition 6.2.0**
+
+.. code:: json
+
+   "require": {
+      "oxid-esales/oxideshop-metapackage-ee": "v6.2.0"
+   },
+   "require-dev": {
+      "oxid-esales/testing-library": "^v7.0.1",
+      "incenteev/composer-parameter-handler": "^v2.0.0",
+      "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
+      "oxid-esales/azure-theme": "^v1.4.2"
+   },
 
 2. Clear the directory with the temporary files of the shop, for example by calling a shell in the main directory of the shop and entering the following command:
 
