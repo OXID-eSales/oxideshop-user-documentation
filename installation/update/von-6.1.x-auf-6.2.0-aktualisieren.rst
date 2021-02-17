@@ -21,12 +21,32 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
    },
+für einen OXID eShop Professional Edition 6.2.0:
 
-Sie finden die Werte für Ihre Shop-Edition im jeweiligen Repository des OXID eShop Projektes:
+.. code:: json
 
-* Community Edition: https://github.com/OXID-eSales/oxideshop_project/blob/b-6.2-ce/composer.json
-* Professional Edition: https://github.com/OXID-eSales/oxideshop_project/blob/b-6.2-pe/composer.json
-* Enterprise Edition: https://github.com/OXID-eSales/oxideshop_project/blob/b-6.2-ee/composer.json
+   "require": {
+      "oxid-esales/oxideshop-metapackage-pe": "v6.2.0"
+   },
+   "require-dev": {
+      "oxid-esales/testing-library": "^v7.0.1",
+      "incenteev/composer-parameter-handler": "^v2.0.0",
+      "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
+      "oxid-esales/azure-theme": "^v1.4.2"
+   },
+   für einen OXID eShop Community Edition 6.2.0:
+
+.. code:: json
+
+   "require": {
+      "oxid-esales/oxideshop-metapackage-ee": "v6.2.0"
+   },
+   "require-dev": {
+      "oxid-esales/testing-library": "^v7.0.1",
+      "incenteev/composer-parameter-handler": "^v2.0.0",
+      "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
+      "oxid-esales/azure-theme": "^v1.4.2"
+   },
 
 2. Leeren Sie das Verzeichnis mit den temporären Dateien des Shops, indem Sie beispielsweise eine Shell im Hauptverzeichnis des Shops aufrufen und folgendes Kommando eingeben:
 
