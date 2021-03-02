@@ -1,7 +1,7 @@
 ﻿New installation
 ================
 
-This section tells you how to install OXID eShop 6.2. The installation is no longer based on installation packages. The files required for the shop are provided by Composer, a dependency manager for PHP. After that, you can run the web-based setup and install the shop as usual.
+This section tells you how to install OXID eShop 7.0. The installation is no longer based on installation packages. The files required for the shop are provided by Composer, a dependency manager for PHP. After that, you can run the web-based setup and install the shop as usual.
 
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Step 1

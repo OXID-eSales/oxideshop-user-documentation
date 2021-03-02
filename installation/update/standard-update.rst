@@ -1,7 +1,7 @@
 Standard update
 ===============
 
-This document describes patches and minor updates of OXID eShop. Follow the steps below to upgrade the compilation from an existing version 6.2.x to a newer version 6.2.x.
+This document describes patches and minor updates of OXID eShop. Follow the steps below to upgrade the compilation from an existing version 7.0.x to a newer version 7.0.x.
 
 Updates should always be installed in a test environment, a copy of your current shop. Backup the shop files and the database before updating. Disable all modules and check whether the shop works in general. After updating, test the shop again by paying special attention to the ordering process as well as payment and shipping methods.
 

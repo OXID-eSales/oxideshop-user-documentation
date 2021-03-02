@@ -1,7 +1,7 @@
-Update from 6.1.x to 6.2.0
+Update from 6.2.x to 7.0.0
 ==========================
 
-This document describes the update from OXID eShop 6.1.0 and higher to OXID eShop 6.2.0. It differs from a standard update mainly in that the module configurations are taken from the database.
+This document describes the update from OXID eShop 6.2.0 and higher to OXID eShop 7.0.0. It differs from a standard update mainly in that the module configurations are taken from the database.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
@@ -100,7 +100,7 @@ In this step, settings and activation status of the modules belonging to the sho
 .. code:: bash
 
    rm -rf source/tmp/*
-   
+
 3. A default configuration is created for all modules located in the :file:`source/modules` directory. To do this, the new OXID eShop Console is called with the following command:
 
 .. code:: bash
