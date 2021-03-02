@@ -6,4 +6,4 @@ Update
 
    update
    standard-update
-   von-6.1.x-auf-6.2.0-aktualisieren
+   von-6.2.x-auf-7.0.0-aktualisieren

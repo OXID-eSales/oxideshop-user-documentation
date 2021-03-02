@@ -1,7 +1,7 @@
-Von 6.1.x auf 6.2.0 aktualisieren
+Von 6.2.x auf 7.0.0 aktualisieren
 =================================
 
-Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID eShop 6.2.0. Es unterscheidet sich vor allem durch die Übernahme der Modulkonfigurationen aus der Datenbank von einem Standard-Update.
+Dieses Dokument beschreibt das Update von OXID eShop 6.2.0 und höher auf OXID eShop 7.0.0. Es unterscheidet sich vor allem durch die Übernahme der Modulkonfigurationen aus der Datenbank von einem Standard-Update.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
@@ -10,46 +10,46 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
 ----------------------------------
 1. In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, müssen Version geändert werden. Das betrifft die Sektion "require" und "require-dev".
 
-**OXID eShop Community Edition 6.2.0**
+**OXID eShop Community Edition 7.0.0**
 
 .. code:: json
 
    "require": {
-      "oxid-esales/oxideshop-metapackage-ce": "v6.2.0"
+      "oxid-esales/oxideshop-metapackage-ce": "v7.0.0"
    },
    "require-dev": {
-      "oxid-esales/testing-library": "^v7.0.1",
-      "incenteev/composer-parameter-handler": "^v2.0.0",
-      "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
-      "oxid-esales/azure-theme": "^v1.4.2"
+      "oxid-esales/testing-library": "^v",
+      "incenteev/composer-parameter-handler": "^v",
+      "oxid-esales/oxideshop-ide-helper": "^v",
+      "oxid-esales/azure-theme": "^v"
    },
 
-**OXID eShop Professional Edition 6.2.0**
+**OXID eShop Professional Edition 7.0.0**
 
 .. code:: json
 
    "require": {
-      "oxid-esales/oxideshop-metapackage-pe": "v6.2.0"
+      "oxid-esales/oxideshop-metapackage-pe": "v7.0.0"
    },
    "require-dev": {
-      "oxid-esales/testing-library": "^v7.0.1",
-      "incenteev/composer-parameter-handler": "^v2.0.0",
-      "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
-      "oxid-esales/azure-theme": "^v1.4.2"
+      "oxid-esales/testing-library": "^v",
+      "incenteev/composer-parameter-handler": "^v",
+      "oxid-esales/oxideshop-ide-helper": "^",
+      "oxid-esales/azure-theme": "^"
    },
 
-**OXID eShop Enterprise Edition 6.2.0**
+**OXID eShop Enterprise Edition 7.0.0**
 
 .. code:: json
 
    "require": {
-      "oxid-esales/oxideshop-metapackage-ee": "v6.2.0"
+      "oxid-esales/oxideshop-metapackage-ee": "v7.0.0"
    },
    "require-dev": {
-      "oxid-esales/testing-library": "^v7.0.1",
-      "incenteev/composer-parameter-handler": "^v2.0.0",
-      "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
-      "oxid-esales/azure-theme": "^v1.4.2"
+      "oxid-esales/testing-library": "^v",
+      "incenteev/composer-parameter-handler": "^v",
+      "oxid-esales/oxideshop-ide-helper": "^v",
+      "oxid-esales/azure-theme": "^v"
    },
 
 2. Leeren Sie das Verzeichnis mit den temporären Dateien des Shops, indem Sie beispielsweise eine Shell im Hauptverzeichnis des Shops aufrufen und folgendes Kommando eingeben:

@@ -1,7 +1,7 @@
 Standard-Update
 ===============
 
-Dieses Dokument beschreibt Patch- und Minor-Updates des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.2.x auf eine höhere Version 6.2.x aktualisiert.
+Dieses Dokument beschreibt Patch- und Minor-Updates des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 7.0.x auf eine höhere Version 7.0.x aktualisiert.
 
 Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, ausgeführt werden. Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank. Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert. Testen Sie nach dem Update den Shop erneut und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten.
 
@@ -12,11 +12,11 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 ------------------------------
 In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version des Metapackage aktualisiert werden.
 
-Beispiel für ein Update einer Community Edition 6.2.0 zu 6.2.1:
+Beispiel für ein Update einer Community Edition 7.0.0 zu 7.0.1:
 
 .. code:: bash
 
-   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.2.1
+   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v7.0.1
 
 .. hint::
 
