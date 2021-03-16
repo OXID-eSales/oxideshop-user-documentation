@@ -12,11 +12,11 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 ------------------------------
 In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version des Metapackage aktualisiert werden.
 
-Beispiel für ein Update einer Community Edition 6.2.0 zu 6.2.1:
+Beispiel für ein Update einer Community Edition 6.2.4 zu 6.3.0:
 
 .. code:: bash
 
-   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.2.1
+   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.3.0
 
 .. hint::
 
