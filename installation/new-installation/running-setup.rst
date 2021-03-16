@@ -83,4 +83,5 @@ This is where shop owners with Enterprise or Professional Edition can enter the 
 ----------------
 The setup is now completed. Click on the :guilabel:`To Shop` link to get to your shop’s start page. The link :guilabel:`To admin interface` will take you directly to the Admin panel.
 
+
 .. Intern: oxbaaf, Status:

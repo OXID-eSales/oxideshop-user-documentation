@@ -30,7 +30,7 @@ The transaction isolation level must be left with the default value *REPEATABLE 
 PHP
 ---
 
-* PHP version 7.1 to 7.4
+* PHP version 8.0, 7.4 und 7.3
 * Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
 * PHP setting *session.auto_start* in :file:`php.ini` should be disabled (OFF)
 * File uploads should be enabled in PHP

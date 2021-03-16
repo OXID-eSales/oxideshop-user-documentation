@@ -1,7 +1,7 @@
 Standard update
 ===============
 
-This document describes patches and minor updates of OXID eShop. Follow the steps below to upgrade the compilation from an existing version 6.2.x to a newer version 6.2.x.
+This document describes patches and minor updates of OXID eShop. Follow the steps below to upgrade the compilation from an existing version 6.3.x to a newer version 6.3.x.
 
 Updates should always be installed in a test environment, a copy of your current shop. Backup the shop files and the database before updating. Disable all modules and check whether the shop works in general. After updating, test the shop again by paying special attention to the ordering process as well as payment and shipping methods.
 
@@ -12,11 +12,11 @@ Updates should always be installed in a test environment, a copy of your current
 -----------------------------------------------------
 In the file :file:`composer.json` located in the shop’s main directory, the version of the metapackage must be updated.
 
-Example of an update for a Community Edition 6.2.0 to 6.2.1:
+Example of an update for a Community Edition 6.2.4 to 6.3.0:
 
 .. code:: bash
 
-   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.2.1
+   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.3.0
 
 .. hint::
 

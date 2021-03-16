@@ -1,7 +1,7 @@
 ﻿New installation
 ================
 
-This section tells you how to install OXID eShop 6.2. The installation is no longer based on installation packages. The files required for the shop are provided by Composer, a dependency manager for PHP. After that, you can run the web-based setup and install the shop as usual.
+This section tells you how to install OXID eShop 6.3. The installation is no longer based on installation packages. The files required for the shop are provided by Composer, a dependency manager for PHP. After that, you can run the web-based setup and install the shop as usual.
 
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Step 1
@@ -15,7 +15,7 @@ The installation guide in English can be found in the developer documentation: `
 
 Server und system requirements
 ------------------------------
-**Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP from 7.1 to 7.4, Composer, OpenSSL |br|
+**Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 8.0, 7.4 and 7.3, Composer, OpenSSL |br|
 :doc:`Read article <server-and-system-requirements>` |link|
 
 Preparing for installation
