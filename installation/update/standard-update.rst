@@ -1,7 +1,7 @@
 Standard-Update
 ===============
 
-Dieses Dokument beschreibt Patch- und Minor-Updates des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.2.x auf eine höhere Version 6.2.x aktualisiert.
+Dieses Dokument beschreibt Patch- und Minor-Updates des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.3.x auf eine höhere Version 6.3.x aktualisiert.
 
 Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, ausgeführt werden. Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank. Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert. Testen Sie nach dem Update den Shop erneut und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten.
 
