@@ -1,7 +1,7 @@
 ﻿Individualisierung
 ==================
 
-Die beim Anlegen eines neuen Shops erfolgte Vererbung kann zu einem späteren Zeitpunkt angepasst werden. In den Vererbungseinstellungen eines neuen Shops, kann die Vererbung aller Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten und Links rückgängig gemacht werden. Die Vererbungseinstellungen sind auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` zu finden. Wird beispielsweise das Häkchen beim Kontrollkästchen :guilabel:`Alle Artikel vom Elternshop erben` entfernt, sind die geerbten Artikel nach dem Speichern der Vererbungseinstellungen nicht mehr verfügbar.
+Die beim Anlegen eines neuen Shops erfolgte Vererbung kann zu einem späteren Zeitpunkt angepasst werden. In den Vererbungseinstellungen eines neuen Shops, kann die Vererbung aller Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen und Links rückgängig gemacht werden. Die Vererbungseinstellungen sind auf der Registerkarte :guilabel:`Mall` unter :menuselection:`Stammdaten --> Grundeinstellungen` zu finden. Wird beispielsweise das Häkchen beim Kontrollkästchen :guilabel:`Alle Artikel vom Elternshop erben` entfernt, sind die geerbten Artikel nach dem Speichern der Vererbungseinstellungen nicht mehr verfügbar.
 
 .. image:: ../../../media/screenshots/oxbags01.png
    :alt: Vererbter Artikel
@@ -27,5 +27,6 @@ In der Datenbanktabelle oxfield2shops muss für OXSHORTDESC ein Eintrag erstellt
 .. code:: mysql
 
    ALTER TABLE oxfield2shop ADD OXSHORTDESC VARCHAR(255) NOT NULL DEFAULT '' COMMENT 'Kurzbeschreibung';
+
 
 .. Intern: oxbags, Status:

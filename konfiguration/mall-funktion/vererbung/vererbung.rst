@@ -18,7 +18,7 @@ Die in den weiteren Dokumenten beschriebenen Details zur Vererbung sind auch dav
 
 Vererbbare Elemente
 -------------------
-**Inhalte**: Mall, Enterprise Edition, Vererbung, Vererbungseinstellungen, Verknüpfungen, vererbbare Elemente, Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Nachrichten, Links |br|
+**Inhalte**: Mall, Enterprise Edition, Vererbung, Vererbungseinstellungen, Verknüpfungen, vererbbare Elemente, Artikel, Attribute, Auswahllisten, Versandkosten, Versandkostenregeln, Hersteller, Lieferanten, Rabatte, Gutscheine, Geschenkverpackungen, Links |br|
 :doc:`Artikel lesen <vererbbare-elemente>` |link|
 
 Nicht vererbbare Elemente
@@ -37,5 +37,6 @@ Individualisierung
 :doc:`Artikel lesen <individualisierung>` |link|
 
 .. seealso:: :doc:`Benutzer <../../../betrieb/benutzer/benutzer>`
+
 
 .. Intern: oxbago, Status:
