@@ -1,7 +1,7 @@
 ﻿Customisation
 =============
 
-Inheritance settings specified when creating a new shop can be adjusted later on. They allow you to undo the inheritance of all products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, news and links. Inheritance settings can be found in the :guilabel:`Mall` tab under :menuselection:`Master Settings --> Core Settings`. For example, if you uncheck the box :guilabel:`Inherit all products from parent shop`, the inherited products will no longer be available after you save the inheritance information.
+Inheritance settings specified when creating a new shop can be adjusted later on. They allow you to undo the inheritance of all products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping and links. Inheritance settings can be found in the :guilabel:`Mall` tab under :menuselection:`Master Settings --> Core Settings`. For example, if you uncheck the box :guilabel:`Inherit all products from parent shop`, the inherited products will no longer be available after you save the inheritance information.
 
 .. image:: ../../../media/screenshots/oxbags01.png
    :alt: Inherited product

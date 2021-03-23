@@ -18,7 +18,7 @@ Inheritance-related information that can be found in the other documents is also
 
 Inheritable elements
 --------------------
-**Contents**: Mall, Enterprise Edition, inheritance, inheritance settings, assignments, inheritable elements, products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, news, links |br|
+**Contents**: Mall, Enterprise Edition, inheritance, inheritance settings, assignments, inheritable elements, products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, links |br|
 :doc:`Read article <inheritable-elements>` |link|
 
 Non-inheritable elements

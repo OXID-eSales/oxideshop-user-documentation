@@ -1,7 +1,7 @@
 ﻿Inheritable elements
 ====================
 
-Inheritable elements are assigned to one shop from another shop. The following elements can be inherited when creating a shop: products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping, news, and links. With some exceptions, the content of the inherited elements can’t be changed in the new shop.
+Inheritable elements are assigned to one shop from another shop. The following elements can be inherited when creating a shop: products, attributes, selection lists, shipping costs, shipping cost rules, manufacturers, distributors, discounts, coupons, gift wrapping and links. With some exceptions, the content of the inherited elements can’t be changed in the new shop.
 
 .. image:: ../../../media/screenshots/oxbagp01.png
    :alt: Inheritance settings
