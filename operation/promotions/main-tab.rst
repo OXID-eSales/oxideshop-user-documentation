@@ -73,6 +73,7 @@ Banner type
 
 Click on :guilabel:`Assign Product` to link the banner to the product selected in the list. Click on :guilabel:`Unassign Product` to unlink the banner and the product.
 
-.. seealso:: :doc:`Promotions <promotions>` | :doc:`Promotions and start page <promotions-and-start-page>` | :doc:`Newsletter action <newsletter-action>`
+.. seealso:: :doc:`Promotions <promotions>` | :doc:`Promotions and start page <promotions-and-start-page>`
+
 
 .. Intern: oxbagy, Status:, F1: actions_main.html

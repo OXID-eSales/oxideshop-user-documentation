@@ -14,31 +14,5 @@ The “Newsletters" section tells you how to create and manage newsletters. Go t
 
 You can search for newsletters by entering a few characters into the search field and clicking on the magnifying glass icon. As a result, you will only see the newsletters whose title contains these characters. Newsletters can be removed from the database by clicking on the trash icon at the end of the line. The sample newsletter can’t be deleted.
 
------------------------------------------------------------------------------------------
-
-HTML tab
---------
-**Contents**:  newsletter as HTML e-mail, title, subject, template, HTML, tables, font tags, inline CSS, dynamic content, Smarty, Smarty example: user salutation |br|
-:doc:`Read article <html-tab>` |link|
-
-
-Text tab
---------
-**Contents**:  newsletter as plain text e-mail, plain text template, dynamic content, Smarty, Smarty example: recommended products |br|
-:doc:`Read article <text-tab>` |link|
-
-
-Preview tab
------------
-**Contents**: newsletter preview, text only, plain text, HTML, Smarty, Smarty example: full provider identification, CMS pages, oxemailfooter, oxemailfooterplain |br|
-:doc:`Read article <preview-tab>` |link|
-
-
-Selection tab
--------------
-**Contents**: sending the newsletter, assigning user groups, number of recipients, number of e-mails sent, e-mails per tick, testing the newsletter, displaying in e-mail programs, mobile and web clients |br|
-:doc:`Read article <selection-tab>` |link|
-
-.. seealso:: `Tips for sending newsletters on shopbetreiber-blog.de (in German) <http://shopbetreiber-blog.de/page/1/?s=Newsletter>`_
 
 .. Intern: oxbaie, Status:

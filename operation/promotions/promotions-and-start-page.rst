@@ -62,6 +62,7 @@ The selection of products that are presented as \"Top seller\" is determined by 
 
 The additional setting :guilabel:`Show Prices in \"Top of the Shop\" and \"Just arrived!\"` determines the display of product prices for this and a further promotion.
 
-.. seealso:: :doc:`Promotions <promotions>` | :doc:`Newsletter action <newsletter-action>` | :doc:`Main tab <main-tab>`
+.. seealso:: :doc:`Promotions <promotions>` | :doc:`Main tab <main-tab>`
+
 
 .. Intern: oxbagw, Status:

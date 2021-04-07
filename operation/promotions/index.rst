@@ -6,5 +6,4 @@
       
    promotions
    promotions-and-start-page
-   newsletter-action
    main-tab
