@@ -25,14 +25,10 @@ Aktionen und Startseite
 **Inhalte**: Startseite, Theme \"Flow\", Typ Aktion, Typ Banner, Banner, Angebote der Woche, Unsere Marken, Frisch eingetroffen, Topseller, Performanceeinstellungen, Aktionen laden, Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\" |br|
 :doc:`Artikel lesen <aktionen-und-startseite>` |link|
 
-Aktion für Newsletter
----------------------
-**Inhalte**: Newsletter, Anzeige ausgesuchter Artikel, Aktion \"Newsletter\" |br|
-:doc:`Artikel lesen <aktion-fuer-newsletter>` |link|
-
 Registerkarte Stamm
 -------------------
 **Inhalte**: aktive Aktion, Typ Aktion, Typ Banner, Typ Promotion, Name, Artikel zuordnen, Bannerbilder, Sortierung, Slideshow, Link für Bannerbild, Benutzergruppen zuordnen, Produkte zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
+
 
 .. Intern: oxbagv, Status:

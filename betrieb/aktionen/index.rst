@@ -6,5 +6,4 @@ Aktionen
       
    aktionen
    aktionen-und-startseite
-   aktion-fuer-newsletter
    registerkarte-stamm

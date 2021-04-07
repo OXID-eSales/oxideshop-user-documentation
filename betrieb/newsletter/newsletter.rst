@@ -14,32 +14,5 @@ Der Abschnitt "Newsletter" informiert Sie über das Erstellen und Verwalten von 
 
 Nach Newslettern kann gesucht werden, indem eine Zeichenfolge in das Suchfeld eingegeben und die Suche über das Lupensymbol gestartet wird. Dadurch werden in der Liste nur noch die Newsletter angezeigt, deren Titel diese Zeichenfolge enthält. Newsletter lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile aus der Datenbank entfernen. Der Beispiel-Newsletter kann nicht gelöscht werden.
 
------------------------------------------------------------------------------------------
-
-Registerkarte HTML
-------------------
-**Inhalte**:  Newsletter als HTML-Mail, Titel, Betreff, Vorlage, HTML, Tabellen, Font-Tags, Inline-CSS, dynamische Inhalte, Smarty, Smarty-Beispiel: Anrede des Benutzers |br|
-:doc:`Artikel lesen <registerkarte-html>` |link|
-
-
-Registerkarte Text
-------------------
-**Inhalte**:  Newsletter als Nur-Text-Mail, Plain-Text-Vorlage, dynamische Inhalte, Smarty, Smarty-Beispiel: empfohlene Artikel |br|
-:doc:`Artikel lesen <registerkarte-text>` |link|
-
-
-Registerkarte Vorschau
-----------------------
-**Inhalte**: Vorschau des Newsletters, Nur-Text, Plain-Text, HTML, Smarty, Smarty-Beispiel: vollständige Anbieterkennzeichnung, CMS-Seiten, oxemailfooter, oxemailfooterplain |br|
-:doc:`Artikel lesen <registerkarte-vorschau>` |link|
-
-
-Registerkarte Versenden
------------------------
-**Inhalte**: Versenden des Newsletters, Benutzergruppen zuordnen, Anzahl Empfänger, Anzahl versendeter Mails, Mails pro Tick, Newsletter testen, Darstellung in Mail-Programmen, mobilen und Web-Clients |br|
-:doc:`Artikel lesen <registerkarte-versenden>` |link|
-
-.. seealso:: `Tipps zum Newsletter im Shopbetreiber-Blog <http://shopbetreiber-blog.de/page/1/?s=Newsletter>`_
-
 
 .. Intern: oxbaie, Status:

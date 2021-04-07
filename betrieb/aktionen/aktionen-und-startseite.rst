@@ -63,6 +63,7 @@ Welche Artikel als \"Topseller\" präsentiert werden, wird über eine Einstellun
 
 Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` bestimmt die Anzeige der Artikelpreise für diese und eine weitere Aktion.
 
-.. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Aktion für Newsletter <aktion-fuer-newsletter>` | :doc:`Registerkarte Stamm <registerkarte-stamm>`
+.. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Registerkarte Stamm <registerkarte-stamm>`
+
 
 .. Intern: oxbagw, Status:
