@@ -1,7 +1,7 @@
 ﻿E-Mails
 =======
 
-OXID eShop versendet verschiedene E-Mails. Wenn Kunden bestellen, wird ihnen eine E-Mail zugeschickt, in der die Bestellung nochmals aufgeführt wird. Kunden erhalten auch eine E-Mail, wenn sie sich für Ihren OXID eShop registrieren. Sie als Shopbetreiber können Newsletter versenden, um Ihre Kunden über Neuigkeiten zu informieren.
+OXID eShop versendet verschiedene E-Mails. Wenn Kunden bestellen, wird ihnen eine E-Mail zugeschickt, in der die Bestellung nochmals aufgeführt wird. Kunden erhalten auch eine E-Mail, wenn sie sich für Ihren OXID eShop registrieren.
 
 Damit der Versand von E-Mails richtig funktioniert, müssen die SMTP-Daten korrekt eingetragen und die Mailadressen eingerichtet sein. Die dafür notwendigen Einstellungen finden Sie auf der Registerkarte :guilabel:`Stamm` unter :menuselection:`Stammdaten --> Grundeinstellungen`.
 

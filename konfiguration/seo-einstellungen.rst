@@ -56,7 +56,7 @@ Ebenso wie die Festlegungen für den Seitentitel sind die für die URLs sprachab
    Wenn bei Artikeln oder Kategorien keine eigenen Meta-Tags vorhanden sind, werden diese Informationen aus der Beschreibung generiert. Dabei sollten Wörter weggelassen werden, die keinen Informationswert haben. Alle Wörter die im Eingabefeld aufgelistet sind, werden bei der automatischen Generierung ignoriert.
 
 :guilabel:`Statische URLs`
-   Für bestimmte Seiten, beispielsweise Kontakt und Newsletter, wurden statische URLs definiert. Diese ersetzen die internen URLs mit den verschiedenen Parametern. Sie können neue statische URLs anlegen oder bestehende, auch in verschiedenen Sprachen, ändern.
+   Für eine Reihe von Seiten wurden statische URLs definiert. Diese ersetzen die internen URLs mit den verschiedenen Parametern. Sie können neue statische URLs anlegen oder bestehende, auch in verschiedenen Sprachen, ändern.
 
 Metadaten
 ---------

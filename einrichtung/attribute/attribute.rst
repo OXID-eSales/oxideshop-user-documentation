@@ -7,7 +7,7 @@ In der Detailansicht des Artikels wird dadurch eine neue Registerkarte :guilabel
 
 Werden Attribute zu Kategorien zugeordnet, lassen sich die Kategorien nach diesen Attributen filtern. In der Kategorieübersicht des Shops können in einer Dropdown-Liste alle Werte des Attributes ausgewählt werden.
 
-Attribute dienen auch dazu, ähnliche Artikel zu erkennen und auf der Detailseite oder im Newsletter zu offerieren. Die Anzahl ähnlicher Artikel, die bei einem Artikel angezeigt werden, kann im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` definiert werden. Achten Sie bitte darauf, dass das Kontrollkästchen bei :guilabel:`Ähnliche Artikel laden` auf der Registerkarte :guilabel:`Perform.` gesetzt ist.
+Attribute dienen auch dazu, ähnliche Artikel zu erkennen und auf der Detailseite zu offerieren. Die Anzahl ähnlicher Artikel, die bei einem Artikel angezeigt werden, kann im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` definiert werden. Achten Sie bitte darauf, dass das Kontrollkästchen bei :guilabel:`Ähnliche Artikel laden` auf der Registerkarte :guilabel:`Perform.` gesetzt ist.
 
 .. image:: ../../media/screenshots/oxbaff01.png
    :alt: Attribute

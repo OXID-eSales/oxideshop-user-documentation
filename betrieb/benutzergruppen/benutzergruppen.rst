@@ -48,7 +48,7 @@ Benutzer, die sich in Ihrem Shop registriert ohne bestellt zu haben, kommen in d
 
 Newsletter-Abonnenten
 ^^^^^^^^^^^^^^^^^^^^^
-Wird bei einer Bestellung oder Registrierung das Kontrollkästchen :guilabel:`Newsletter abonnieren` angehakt, ist der Benutzer als Newsletter-Abonnent vorgemerkt. Bestätigt der Benutzer einen speziellen Link, den er per E-Mail erhalten hat, wird er für den Newsletter freigeschaltet und in diese Benutzergruppe übernommen. Diese explizite Bestätigung wird auch Double-Opt-in genannt. Meldet sich ein Benutzer später vom Newsletter ab, bleibt er in dieser Benutzergruppe. Der eigentliche Versand des Newsletters wird beim Benutzer auf der :doc:`Registerkarte Erweitert <../benutzer/registerkarte-erweitert>` deaktiviert.
+Wird bei einer Bestellung oder Registrierung das Kontrollkästchen :guilabel:`Newsletter abonnieren` angehakt, ist der Benutzer als Newsletter-Abonnent vorgemerkt. Bestätigt der Benutzer einen speziellen Link, den er per E-Mail erhalten hat, wird er für den Newsletter freigeschaltet und in diese Benutzergruppe übernommen. Diese explizite Bestätigung wird auch Double-Opt-in genannt. Meldet sich ein Benutzer später vom Newsletter ab, bleibt er in dieser Benutzergruppe. Der eigentliche Versand des Newsletters wird beim Benutzer auf der :doc:`Registerkarte Erweitert <../benutzer/registerkarte-erweitert>` deaktiviert. Damit sind dessen Daten nicht mehr in der .csv-Datei enthalten, welche für einen Newsletter-Versand exportiert werden kann.
 
 Preis A/Preis B/Preis C
 ^^^^^^^^^^^^^^^^^^^^^^^

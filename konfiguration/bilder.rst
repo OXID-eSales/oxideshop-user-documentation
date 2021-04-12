@@ -11,7 +11,7 @@ Die erforderlichen Einstellungen für die Bildgenerierung und für die Bildgrö�
 
 In der Registerkarte :guilabel:`System` gibt es ebenfalls einen kleinen Abschnitt :guilabel:`Bilder`. Wichtig für die Bildgenerierung ist die Vorgabe für die Bildqualität. Die Standardeinstellung ist 75 und stellt einen guten Kompromiss zwischen Bildqualität und Dateigröße dar. Bei einem deutlich kleineren Wert sind die Artikelbilder stark komprimiert, haben daher eine kleine Dateigröße, aber eine schlechte Bildqualität (Unschärfen und Kompressionsartefakte). Ist der Wert größer als 75, steigt die Bildqualität, aber auch die Größe der Datei (längere Ladezeiten).
 
-Die Option :guilabel:`E-Mails mitsamt Bildern versenden`, hat nichts mit der Bildgenerierung zu tun. Ist diese Einstellung aktiv, werden Artikelbilder in E-Mails mitgesendet. Die E-Mail, die als Bestellbestätigung verschickt wird, oder der Newsletter enthalten dann Artikelbilder. E-Mails können so schnell groß werden, was zu Problemen beim Versand und beim Empfang der Mail führen kann. Standardmäßig werden E-Mails ohne Artikelbilder versendet. Die Artikelbilder werden beim Lesen der E-Mail durch das Mail-Programm des Kunden nachgeladen.
+Die Option :guilabel:`E-Mails mitsamt Bildern versenden`, hat nichts mit der Bildgenerierung zu tun. Ist diese Einstellung aktiv, werden Artikelbilder in E-Mails mitgesendet. Die E-Mail, die als Bestellbestätigung verschickt wird, enthält dann Artikelbilder. E-Mails können so schnell groß werden, was zu Problemen beim Versand und beim Empfang der Mail führen kann. Standardmäßig werden E-Mails ohne Artikelbilder versendet. Die Artikelbilder werden beim Lesen der E-Mail durch das Mail-Programm des Kunden nachgeladen.
 
 Bildgrößen
 ----------
