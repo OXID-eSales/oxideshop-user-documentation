@@ -8,7 +8,7 @@ Alle zu einer Bestellung gehörenden Downloads werden auf der gleichnamigen Regi
    :height: 334
    :width: 650
 
-Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --> Meine Downloads`. Die Dateien können heruntergeladen werden, sobald die Zahlung erfolgt ist. Wurde die Bestellung noch nicht als bezahlt markiert, weist eine entsprechende Meldung darauf hin. Werden beispielsweise Lastschrift oder Kreditkartenzahlung als Zahlungsart verwendet, ist das Herunterladen sofort möglich. Die E-Mail, welche die Bestellung bestätigt, enthält ebenfalls die Downloadlinks zu den bestellten Dateien, wenn die Bezahlung abgeschlossen ist.
+Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --> Meine Downloads`. Die Dateien können heruntergeladen werden, sobald die Zahlung erfolgt ist. Wurde die Bestellung noch nicht als bezahlt markiert, weist eine entsprechende Meldung darauf hin. Wird beispielsweise Lastschrift als Zahlungsart verwendet, ist das Herunterladen sofort möglich. Die E-Mail, welche die Bestellung bestätigt, enthält ebenfalls die Downloadlinks zu den bestellten Dateien, wenn die Bezahlung abgeschlossen ist.
 
 Eine Tabelle enthält alle zu einer Bestellung gehörenden Downloads.
 

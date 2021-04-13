@@ -54,7 +54,7 @@ Registerkarte Adressen
 
 Registerkarte Zahlung
 ---------------------
-**Inhalte**: bisher verwendete Zahlungsarten, Nachnahme, Kreditkarte, Bankeinzug/Lastschrift, Vorauskasse, Rechnung, Empty, gespeicherte Bankverbindung |br|
+**Inhalte**: bisher verwendete Zahlungsarten, Nachnahme, Bankeinzug/Lastschrift, Vorauskasse, Rechnung, Empty, gespeicherte Bankverbindung |br|
 :doc:`Artikel lesen <registerkarte-zahlung>` |link|
 
 .. seealso:: :doc:`Benutzergruppen <../benutzergruppen/benutzergruppen>` | :doc:`Zahlungsarten <../../einrichtung/zahlungsarten/zahlungsarten>` | :doc:`Versandarten <../../einrichtung/versandarten/versandarten>` | :doc:`Versandkostenregeln <../../einrichtung/versandkostenregeln/versandkostenregeln>`
