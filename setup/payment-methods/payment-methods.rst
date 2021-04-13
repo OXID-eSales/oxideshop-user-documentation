@@ -16,7 +16,7 @@ When you select a payment method from the list, its information will be displaye
    :height: 534
    :width: 650
 
-OXID eShop comes with the following payment methods: \"Direct Debit\", \"Empty\", \"Credit Card\", \"COD (Cash on Delivery)\", \"Invoice\" and \"Cash in advance\". They can be used after being customised. Unused payment methods should be deactivated with the exception of \"Empty\". This is a sort of fall-back payment method that allows customers to complete the ordering process even if the defined payment and shipping conditions don’t apply to a country active in the shop. The customer will still be able to place an order. The seller will have to clarify the payment and shipping conditions with the customer afterwards.
+OXID eShop comes with the following payment methods: \"Direct Debit\", \"Empty\", \"COD (Cash on Delivery)\", \"Invoice\" and \"Cash in advance\". They can be used after being customised. Unused payment methods should be deactivated with the exception of \"Empty\". This is a sort of fall-back payment method that allows customers to complete the ordering process even if the defined payment and shipping conditions don’t apply to a country active in the shop. The customer will still be able to place an order. The seller will have to clarify the payment and shipping conditions with the customer afterwards.
 
 You can also create new payment methods. New payment methods, such as PayPal, may be added when installing payment modules, if necessary.
 
@@ -42,7 +42,7 @@ Country tab
 
 RDFa tab
 --------
-**Contents**: RDFa, Resource Description Framework, GoodRelations, e-commerce vocabulary, payment methods and credit card payment, rich snippets |br| 
+**Contents**: RDFa, Resource Description Framework, GoodRelations, e-commerce vocabulary, payment methods, rich snippets |br|
 :doc:`Read article <rdfa-tab>` |link|
 
 .. seealso:: :doc:`Shipping methods <../shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../shipping-cost-rules/shipping-cost-rules>` | :doc:`Payment and shipping <../payment-and-shipping/payment-and-shipping>`

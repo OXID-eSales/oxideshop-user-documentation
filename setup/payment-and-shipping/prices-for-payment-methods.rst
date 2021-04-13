@@ -1,7 +1,7 @@
 ﻿Prices for payment methods
 ==========================
 
-You can define surcharges and discounts for payment methods. On the one hand, you can allocate any costs incurred to the customers, such as fees when they use credit card or cash on delivery as payment methods. On the other hand, you can grant a discount for using cash in advance as the payment method because in this case products will be delivered only after payment has been received. Cash in advance is a sort of cash discount as the payment terms are always kept.
+You can define surcharges and discounts for payment methods. On the one hand, you can allocate any costs incurred to the customers, such as fees when they use cash on delivery as payment method. On the other hand, you can grant a discount for using cash in advance as the payment method because in this case products will be delivered only after payment has been received. Cash in advance is a sort of cash discount as the payment terms are always kept.
 
 Surcharge or discount can be set in absolute or percentage terms. An absolute surcharge is an item in the shopping cart that is added to the product value.
 

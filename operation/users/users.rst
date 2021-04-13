@@ -55,7 +55,7 @@ Addresses tab
 
 Payment tab
 -----------
-**Contents**: previously used payment methods, cash on delivery, credit card, direct debit, cash in advance, invoice, empty, stored bank details |br|
+**Contents**: previously used payment methods, cash on delivery, direct debit, cash in advance, invoice, empty, stored bank details |br|
 :doc:`Read article <payment-tab>` |link|
 
 .. seealso:: :doc:`User groups <../user-groups/user-groups>` | :doc:`Payment methods <../../setup/payment-methods/payment-methods>` | :doc:`Shipping methods <../../setup/shipping-methods/shipping-methods>` | :doc:`Shipping cost rules <../../setup/shipping-cost-rules/shipping-cost-rules>`

@@ -28,13 +28,6 @@ Check the box next to all items that exactly describe the payment method.
 :guilabel:`PayPal` |br|
 :guilabel:`PaySwarm`
 
-:guilabel:`Credit card payment` |br|
-:guilabel:`American Express` |br|
-:guilabel:`Diners Club` |br|
-:guilabel:`Discover` |br|
-:guilabel:`JCB` |br|
-:guilabel:`MasterCard` |br|
-:guilabel:`VISA`
 
 .. Intern: oxbadc, Status:, F1: payment_rdfa.html
 .. ToDo note line is incorrect: %s and two points

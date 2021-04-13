@@ -8,7 +8,7 @@ This tab displays all downloads belonging to an order. For each download, there 
    :height: 354
    :width: 650
 
-After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the order hasn’t yet been marked as paid, a corresponding message will be displayed. If the customer used direct debit or credit card as a payment method, he/she will be able to download the files immediately. The order confirmation e-mail will also contain the download links to the ordered files when the payment is complete.
+After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the order hasn’t yet been marked as paid, a corresponding message will be displayed. If the customer used direct debit as a payment method, he/she will be able to download the files immediately. The order confirmation e-mail will also contain the download links to the ordered files when the payment is complete.
 
 All downloads belonging to the order will be displayed in a table.
 
