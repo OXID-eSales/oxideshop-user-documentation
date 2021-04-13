@@ -1,7 +1,7 @@
 ﻿Emails
 =======
 
-OXID eShop sends different types of emails. After placing an order, customers will receive an email with the order summary. They will also receive an email when they register in your OXID eShop. As the shop owner, you can send out newsletters to tell your customers about the latest news.
+OXID eShop sends different types of emails. After placing an order, customers will receive an email with the order summary. They will also receive an email when they register in your OXID eShop.
 
 To ensure the proper sending of emails, you will need to enter the correct SMTP data and set up the email addresses. The required settings can be found in the :guilabel:`Main` tab under :menuselection:`Master Settings --> Core Settings`.
 

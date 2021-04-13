@@ -1,7 +1,7 @@
 ﻿History tab
 ===========
 
-All customer’s orders are logged in the :guilabel:`History` tab. In addition, you will see the entries for successful registration, newsletters and e-mails sent. Each entry is saved with a timestamp and a note in square brackets, such as \"Order\" and \"Remark\". If you highlight an entry in the left-hand column by clicking on it with the mouse, its content will be displayed in the bigger input field on the right-hand side.
+All customer’s orders are logged in the :guilabel:`History` tab. In addition, you will see the entries for successful registration and e-mails sent. Each entry is saved with a timestamp and a note in square brackets, such as \"Order\" and \"Remark\". If you highlight an entry in the left-hand column by clicking on it with the mouse, its content will be displayed in the bigger input field on the right-hand side.
 
 .. image:: ../../media/screenshots/oxbaeg01.png
    :alt: Orders - History tab

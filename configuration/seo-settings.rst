@@ -56,7 +56,7 @@ Certain URLs are specified in eShop, for example ``www.yourshopurl.com/admin``, 
 If products or categories don’t have their own meta tags, this information will be generated from the description. Words without any information value should be omitted. All words listed in the input field are ignored during automatic generation.
 
 :guilabel:`Static URLs` |br|
-Static URLs are defined for specific pages, such as Contacts and Newsletters. These replace the internal URLs with different parameters. You can create new static URLs or change the existing ones, even in different languages.
+Static URLs have been defined for a number of pages. These replace the internal URLs with different parameters. You can create new static URLs or change the existing ones, even in different languages.
 
 Metadata
 --------
@@ -77,4 +77,5 @@ Categories and products
 ^^^^^^^^^^^^^^^^^^^^^^^
 Metadata for categories and products is automatically generated from their description. It can be overwritten by self-penned descriptions and keywords for each category or product. Metadata is entered in the :guilabel:`SEO` tab of the Categories or Products sections.
 
-.. Intern: oxbabi, Status:
+
+.. Intern: oxbabi, Status: transL

@@ -7,7 +7,7 @@ This way, a new :guilabel:`SPECIFICATION` tab displaying the attributes and thei
 
 If attributes are assigned to categories, the categories can be filtered according to these attributes. All attribute values can be selected in a drop-down list in the shop’s category overview.
 
-Attributes also serve to recognise similar products and to offer them on the details page or in the newsletter. The number of similar products displayed for a product can be defined in the Admin panel under :menuselection:`Master Settings --> Core Settings --> Settings --> Products`. Please make sure to check the :guilabel:`Load similar Products` box in the :guilabel:`Perform.` tab.
+Attributes also serve to recognise similar products and to offer them on the details page. The number of similar products displayed for a product can be defined in the Admin panel under :menuselection:`Master Settings --> Core Settings --> Settings --> Products`. Please make sure to check the :guilabel:`Load similar Products` box in the :guilabel:`Perform.` tab.
 
 .. image:: ../../media/screenshots/oxbaff01.png
    :alt: Attributes

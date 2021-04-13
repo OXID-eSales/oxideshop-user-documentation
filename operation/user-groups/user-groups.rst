@@ -48,7 +48,7 @@ Users who register in your shop without having placed an order will be displayed
 
 Newsletter Recipients
 ^^^^^^^^^^^^^^^^^^^^^
-If the user checks the box :guilabel:`Subscribe to the newsletter` when placing an order or registering in the shop, he/she will be flagged as a newsletter subscriber. If the user clicks on a special confirmation link received by e-mail, he/she will be activated for receiving the newsletter and included in this user group. Such explicit confirmation is also called double opt-in. If the user unsubscribes from the newsletter later, he/she will still remain in this user group. The actual delivery of the newsletter to the user can be disabled in the :doc:`Extended tab <../users/extended-tab>`.
+If the user checks the box :guilabel:`Subscribe to the newsletter` when placing an order or registering in the shop, he/she will be flagged as a newsletter subscriber. If the user clicks on a special confirmation link received by e-mail, he/she will be activated for receiving the newsletter and included in this user group. Such explicit confirmation is also called double opt-in. If the user unsubscribes from the newsletter later, he/she will still remain in this user group. The actual delivery of the newsletter to the user can be disabled in the :doc:`Extended tab <../users/extended-tab>`. This means that the user's data is no longer included in the .csv file, which can be exported for sending a newsletter.
 
 Price A/Price B/Price C
 ^^^^^^^^^^^^^^^^^^^^^^^

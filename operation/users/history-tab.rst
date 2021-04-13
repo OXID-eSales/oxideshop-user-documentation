@@ -1,7 +1,7 @@
 ﻿History tab
 ===========
 
-Customer’s actions in OXID eShop and the related information are logged in the :guilabel:`History` tab. For example, you will see entries for successful registration, orders, as well as newsletters and e-mails sent. Each entry is saved with a timestamp and a note in square brackets, such as \"Remark\" and \"Order\". If you highlight an entry in the left-hand column by clicking on it with the mouse, its content will be displayed in the bigger input field on the right-hand side.
+Customer’s actions in OXID eShop and the related information are logged in the :guilabel:`History` tab. For example, you will see entries for successful registration, orders, as well as orders and e-mails sent. Each entry is saved with a timestamp and a note in square brackets, such as \"Remark\" and \"Order\". If you highlight an entry in the left-hand column by clicking on it with the mouse, its content will be displayed in the bigger input field on the right-hand side.
 
 .. image:: ../../media/screenshots/oxbadu01.png
    :alt: Users - History tab

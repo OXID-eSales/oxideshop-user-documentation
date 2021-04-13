@@ -1,7 +1,7 @@
 ﻿Main tab
 ========
 
-The :guilabel:`Main` tab contains a few settings that can be configured for the promotion. This is where you can create or edit a promotion. When creating a promotion, you will need to specify its type. Depending on whether you have selected Action, Promotion, or Banner, the settings in the tab will be more or less different from each other.
+The :guilabel:`Main` tab contains a few settings that can be configured for the promotion. This is where you can create or edit a promotion. When creating a promotion, you will need to specify its type. Depending on whether you have selected Action, Promotion or Banner, the settings in the tab will be more or less different from each other.
 
 Please note that the Promotion type and some of the Action types will not be displayed on the start page for the \"Flow\" theme. See: :doc:`Promotions and start page <promotions-and-start-page>`
 
