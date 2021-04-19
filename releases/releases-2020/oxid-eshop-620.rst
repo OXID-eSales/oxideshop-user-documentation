@@ -138,7 +138,7 @@ Detailed information on testing modules can be found in the developer documentat
 
 Overview of all changes
 ^^^^^^^^^^^^^^^^^^^^^^^
-Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.3.6…v6.5.3. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
+Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.3.6...v6.5.3. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
 -----------------------------------------------------------------------------------------
 

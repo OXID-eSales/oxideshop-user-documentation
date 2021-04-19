@@ -1,6 +1,10 @@
 ﻿Overview of all releases from 2020 onwards
 ==========================================
 
+2021 releases
+-------------
+20/04/2021 - :doc:`OXID eShop 6.2.4 <releases-2021/oxid-eshop-624>`
+
 2020 releases
 -------------
 24/11/2020 - :doc:`OXID eShop 6.2.3 <releases-2020/oxid-eshop-623>` |br|
