@@ -85,6 +85,9 @@
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
   <script src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
 
+  <!-- EOL note based on cookie note https://github.com/Wruczek/Bootstrap-Cookie-Alert -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -213,6 +216,17 @@
   {% endif %}
 
   {%- block footer %} {% endblock %}
+
+  <!-- EOL note based on cookie note https://github.com/Wruczek/Bootstrap-Cookie-Alert -->
+  <!-- Für einen roten Button style="background-color:#C02124" -->
+  <div class="alert wy-text-center cookiealert" role="alert">
+    Dies ist die Dokumentation für OXID eShop 6.1, der End of Life (EOL) erreicht hat und nicht mehr unterstützt wird.
+    <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+      Ich habe verstanden
+    </button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 
 </body>
 </html>
