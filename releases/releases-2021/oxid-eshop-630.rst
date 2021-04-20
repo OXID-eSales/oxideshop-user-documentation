@@ -72,7 +72,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * OXID Cookie Management powered by usercentrics 1.1.3, `Changelog 1.1.3 <https://github.com/OXID-eSales/usercentrics/blob/v1.1.3/CHANGELOG.md>`_
 * OXID eShop DemoData installer (Update von 1.1.2 auf 1.1.3)
 * Amazon Pay (Update von 3.6.4 auf 3.6.8), `Changelog 3.6.8 <https://github.com/bestit/amazon-pay-oxid/blob/3.6.8/CHANGELOG.md>`_
-* Klarna (Update von 5.3.0 auf 5.4.0), `Changelog 5.4.0 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.0/CHANGELOG.md>`_
+* Klarna (Update von 5.3.0 auf 5.5.0), `Changelog 5.5.0 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.0/CHANGELOG.md>`_
 * Paymorrow (Update von 2.0.3 auf 2.0.4) `Changelog 2.0.4 <https://github.com/OXID-eSales/paymorrow-module/blob/v2.0.4/CHANGELOG.md>`_
 * PayPal (Update von 6.2.1 auf 6.2.3), `Changelog 6.2.3 <https://github.com/OXID-eSales/paypal/blob/v6.2.3/CHANGELOG.md>`_
 * OXID eShop composer plugin (Update von 5.1.0 auf 5.2.0) `Changelog 5.2.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.2.0/CHANGELOG.md>`_
