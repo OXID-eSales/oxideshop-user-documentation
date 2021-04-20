@@ -67,7 +67,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * OXID Cookie Management powered by usercentrics 1.1.2, `Changelog 1.1.2 <https://github.com/OXID-eSales/usercentrics/blob/v1.1.2/CHANGELOG.md>`_
 * OXID eShop DemoData installer (Update von 1.1.2 auf 1.1.3)
 * Amazon Pay (Update von 3.6.4 auf 3.6.8), `Changelog 3.6.8 <https://github.com/bestit/amazon-pay-oxid/blob/3.6.8/CHANGELOG.md>`_
-* Klarna (Update von 5.3.0 auf 5.5.0), `Changelog 5.4.0 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.0/CHANGELOG.md>`_
+* Klarna (Update von 5.3.0 auf 5.5.0), `Changelog 5.5.0 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.0/CHANGELOG.md>`_
 * PayPal (Update von 6.2.1 auf 6.2.2), `Changelog 6.2.2 <https://github.com/OXID-eSales/paypal/blob/v6.2.2/CHANGELOG.md>`_
 
 Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.6.0…v6.7.0. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
