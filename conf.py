@@ -131,7 +131,8 @@ html_context = {
     'current_version': '6.1',
     'versions':
          [('6.1', 'https://docs.oxid-esales.com/eshop/en/6.1/'),
-          ('6.2', 'https://docs.oxid-esales.com/eshop/en/6.2/')],
+          ('6.2', 'https://docs.oxid-esales.com/eshop/en/6.2/'),
+          ('6.3', 'https://docs.oxid-esales.com/eshop/en/6.3/')],
     'languages':
          [('EN', 'https://docs.oxid-esales.com/eshop/en/6.1/'),
           ('DE', 'https://docs.oxid-esales.com/eshop/de/6.1/')],
