@@ -16,7 +16,7 @@ OXID eShop 6.2.4 is provided as a compilation with the following components:
 * Theme "Wave" 1.6.0
 * Amazon Pay 3.6.8
 * GDPR Opt-In 2.3.2
-* Klarna 5.4.0
+* Klarna 5.5.0
 * OXID Cookie Management powered by usercentrics 1.1.2
 * Paymorrow 2.0.3
 * PAYONE 1.3.1
@@ -67,7 +67,7 @@ The following components have been updated to a new version:
 * OXID Cookie Management powered by usercentrics 1.1.2, `Changelog 1.1.2 <https://github.com/OXID-eSales/usercentrics/blob/v1.1.2/CHANGELOG.md>`_
 * OXID eShop DemoData installer (update from 1.1.2 to 1.1.3)
 * Amazon Pay (update from 3.6.4 to 3.6.8), `Changelog 3.6.8 <https://github.com/bestit/amazon-pay-oxid/blob/3.6.8/CHANGELOG.md>`_
-* Klarna (update from 5.3.0 to 5.4.0), `Changelog 5.4.0 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.4.0/CHANGELOG.md>`_
+* Klarna (update from 5.3.0 to 5.5.0), `Changelog 5.5.0 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.0/CHANGELOG.md>`_
 * PayPal (update from 6.2.1 to 6.2.2), `Changelog 6.2.2 <https://github.com/OXID-eSales/paypal/blob/v6.2.2/CHANGELOG.md>`_
 
 Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.6.0...v6.7.0. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
