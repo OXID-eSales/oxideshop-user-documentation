@@ -51,6 +51,8 @@ PHP-Erweiterungen, die installiert sein müssen:
 * *SOAP*
 * *DOM*
 
+.. note:: Für den Betrieb von PHP 8 wird dringend empfohlen, das error_reporting von PHP auf ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` zu setzen, da Sie sonst eine Vielzahl von Warnungen erhalten werden.
+
 Composer
 --------
 
