@@ -18,7 +18,7 @@ This document describes the update from OXID eShop 6.1.0 and higher to OXID eSho
       "oxid-esales/oxideshop-metapackage-ce": "v6.2.0"
    },
    "require-dev": {
-      "oxid-esales/testing-library": "^v7.0.1",
+      "oxid-esales/testing-library": "^v7.1.0",
       "incenteev/composer-parameter-handler": "^v2.0.0",
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
@@ -32,7 +32,7 @@ This document describes the update from OXID eShop 6.1.0 and higher to OXID eSho
       "oxid-esales/oxideshop-metapackage-pe": "v6.2.0"
    },
    "require-dev": {
-      "oxid-esales/testing-library": "^v7.0.1",
+      "oxid-esales/testing-library": "^v7.1.0",
       "incenteev/composer-parameter-handler": "^v2.0.0",
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
@@ -46,7 +46,7 @@ This document describes the update from OXID eShop 6.1.0 and higher to OXID eSho
       "oxid-esales/oxideshop-metapackage-ee": "v6.2.0"
    },
    "require-dev": {
-      "oxid-esales/testing-library": "^v7.0.1",
+      "oxid-esales/testing-library": "^v7.1.0",
       "incenteev/composer-parameter-handler": "^v2.0.0",
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
