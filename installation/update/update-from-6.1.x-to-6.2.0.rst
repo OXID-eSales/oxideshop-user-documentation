@@ -126,6 +126,17 @@ After this step the option `configured = true` should be in the configuration fi
 .. code:: bash
 
    vendor/bin/oe-console oe:module:apply-configuration
+   
+.. hint::
+
+   In an Enterprise Edition environment with at least two shops and active legacy modules the command may trigger an error. The workaround is to run the command per individual shop by using parameter --shop-id.
+   
+   Example:
+
+   .. code:: bash
+
+    vendor/bin/oe-console oe:module:apply-configuration --shop-id=1
+    vendor/bin/oe-console oe:module:apply-configuration --shop-id=2
 
 7. Uninstall the OXID eShop update component
 
