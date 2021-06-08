@@ -126,6 +126,17 @@ Nach diesem Arbeitsschritt sollte in der Konfigurationsdatei aller zuvor aktiven
 .. code:: bash
 
    vendor/bin/oe-console oe:module:apply-configuration
+   
+.. hint::
+
+   In einer Enterprise Edition Umgebung mit mindestens zwei Shops und aktiven Legacy Modulen kann der Befehl einen Fehler auslösen. Als Workaround sollte das Kommando für jeden einzelnen Shop durch Hinzufügen des Parameters --shop-id ausgeführt werden.
+   
+   Beispiel:
+   
+   .. code:: bash
+
+    vendor/bin/oe-console oe:module:apply-configuration --shop-id=1
+    vendor/bin/oe-console oe:module:apply-configuration --shop-id=2
 
 7. Deinstallieren Sie die OXID eShop update component.
 
