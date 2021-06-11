@@ -40,7 +40,11 @@ Rights and roles can also be assigned for the entire product catalogue. The shop
 * Show product’s short description (SHOWSHORTDESCRIPTION)
 * Show product’s long description (SHOWLONGDESCRIPTION)
 
-These rights and roles can be defined under :menuselection:`Administer Users --> Shop Roles`. You can combine different rights combinations in roles and assign them to user groups. Once a right has been granted for one user group, this right will no longer apply to all other user groups. You can also define your own rights based on view classes and their methods. Rights-based display can be implemented in templates using an assigned ident.
+These rights and roles can be defined under :menuselection:`Administer Users --> Shop Roles`. You can combine different rights combinations in roles and assign them to user groups. Once a right has been granted for one user group, this right will no longer apply to all other user groups.
+
+.. hint:: Initially all users have all rights. A right is first restricted as soon as a minimum of one role gets this right activated explicitly and this role has at least one usergroup assigned. This usergroup does not need any users attached. Therefore you may create a usergroup *Full Access* that is related to the matching role *Full Access*, which has all rights set to active. Then all users get restricted in the first step and in the second step you can grant rights to other specific usergroups by adding matching roles.
+
+You can also define your own rights based on view classes and their methods. Rights-based display can be implemented in templates using an assigned ident.
 
 .. image:: ../media/screenshots/oxbaev03.png
    :alt: Rights for detailed view (rights and roles)
