@@ -1,9 +1,9 @@
-﻿Setup ausführen
-===============
+﻿Webbasiertes Setup
+==================
 
-Über das webbasierte Setup wird der OXID eShop installiert und konfiguriert. Öffnen Sie einen Browser und rufen Sie ``www.ihreshopurl.de/setup`` auf. Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL, unter der ihr OXID eShop erreichbar sein wird.
+OXID eShop kann mit einem webbasierten Setup oder per Kommandozeile installiert und konfiguriert werden. Dieses Dokument beschreibt das webbasierte Setup.
 
-Das Setup startet. Es besteht aus 6 bzw. 7 Schritten. Für die Enterprise und die Professional Edition ist ein zusätzlicher Schritt erforderlich, damit der Lizenzkey eingegeben werden kann.
+Öffnen Sie einen Browser und rufen Sie ``www.ihreshopurl.de/setup`` auf. Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL, unter der ihr OXID eShop erreichbar sein wird. Das Setup startet. Es besteht aus 6 bzw. 7 Schritten. Für die Enterprise und die Professional Edition ist ein zusätzlicher Schritt erforderlich, damit der Lizenzkey eingegeben werden kann.
 
 Während der Installation werden bestimmte Werte in die :file:`.htaccess` und die :file:`config.inc.php` geschrieben. Beide Dateien befinden sich im Hauptverzeichnis des Shops und sollten für die Dauer des Setups nicht schreibgeschützt sein.
 

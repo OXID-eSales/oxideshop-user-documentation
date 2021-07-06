@@ -23,10 +23,16 @@ Installation vorbereiten
 **Inhalte**: Composer installieren, Shopdateien bereitstellen, Apache konfigurieren, Datei- und Verzeichnisrechte anpassen, Datenbank anlegen |br|
 :doc:`Artikel lesen <installation-vorbereiten>` |link|
 
-Setup ausführen
----------------
-**Inhalte**: Webbasiertes Setup, Prüfung der Systemvoraussetzungen, Hauptlieferland und Sprache des Shops wählen, Lizenzbedingungen, Datenbank, Datenbankname, Datenbankbenutzer und -passwort angeben, Demodaten, Shopverzeichnisse, Zugangsdaten für Administrationsbereich festlegen, Shop-Administrator, Lizenzschlüssel eingeben (PE und EE) |br|
-:doc:`Artikel lesen <setup-ausfuehren>` |link|
+Webbasiertes Setup
+------------------
+**Inhalte**: Webbasiertes Setup, Prüfung der Systemvoraussetzungen, Hauptlieferland und Sprache des Shops wählen, Lizenzbedingungen, Datenbank, Datenbankname, Datenbankbenutzer und -passwort angeben, Demodaten, Shopverzeichnisse, Zugangsdaten für Administrationsbereich, Shop-Administrator, Lizenzschlüssel eingeben (PE und EE) |br|
+:doc:`Artikel lesen <setup-webbasiert>` |link|
+
+Setup per Kommandozeile
+-----------------------
+**Inhalte**: Setup per Kommandozeile, oe:setup:shop, Datenbank, db-host, db-port, db-name, db-user, db-password, Shop-Konfiguration, shop-url, shop-directory, compile-directory, languag, oe:admin:create-user, Zugangsdaten für Administrationsbereich, Shop-Administrator, admin-email, admin-password |br|
+:doc:`Artikel lesen <setup-webbasiert>` |link|
+
 
 Installation abschließen
 ------------------------

@@ -3,7 +3,7 @@
 
 Jeder Kunde, der das erste Mal im Shop mit oder ohne Registrierung einkauft, wird als Benutzer erfasst. Auch wenn ein Kunde sich anmeldet, um ein Kundenkonto zu erstellen, oder den Newsletter abonniert, erstellt der Shop einen neuen Benutzer oder aktualisiert einen bereits vorhandenen.
 
-Eine besondere Form des Benutzers ist der mit Administratorrechten. Im Gegensatz zu den Benutzern, die ausschließlich mit dem Frontend des Shops interagieren, hat der Administrator auch die Möglichkeit, die Konfiguration des Shops anzupassen, Artikel und Kategorien zu bearbeiten, also den Administrationsbereich des Shops zu nutzen. Der erste Administrator wird während der Installation des Shops angelegt. Im Schritt 5 beim :doc:`Setup ausführen <../../installation/neu-installation/setup-ausfuehren>` mussten Sie die E-Mail-Adresse und das Passwort dieses Administrators eingeben und konnten sich nach abgeschlossenem Setup direkt im Administrationsbereich anmelden.
+Eine besondere Form des Benutzers ist der mit Administratorrechten. Im Gegensatz zu den Benutzern, die ausschließlich mit dem Frontend des Shops interagieren, hat der Administrator auch die Möglichkeit, die Konfiguration des Shops anzupassen, Artikel und Kategorien zu bearbeiten, also den Administrationsbereich des Shops zu nutzen. Der erste Administrator wird während des Setups des Shops angelegt.
 
 In der Enterprise Edition gibt es Administratoren, die mit allen Shops arbeiten können, und solche, die nur Zugriff auf einen bestimmten Shop haben. Der bei der Installation erstellte Benutzer mit Administratorrechten kann auf alle Shops zugreifen und im Administrationsbereich zwischen den einzelnen Shops wechseln.
 
