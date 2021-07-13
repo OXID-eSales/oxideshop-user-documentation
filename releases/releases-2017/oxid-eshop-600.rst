@@ -124,7 +124,7 @@ Die Möglichkeit, im Administrationsbereich unter :menuselection:`Stammdaten -> 
 
 Korrekturen
 -----------
-Korrekturen 6.0.0: `https://bugs.oxid-esales.com/changelog_page.php?version_id= <https://bugs.oxid-esales.com/changelog_page.php?version_id=355>`_ |br|
+Korrekturen 6.0.0: `https://bugs.oxid-esales.com/changelog_page.php?version_id=355 <https://bugs.oxid-esales.com/changelog_page.php?version_id=355>`_ |br|
 Korrekturen 6.0.0 RC 3: `https://bugs.oxid-esales.com/changelog_page.php?version_id=360 <https://bugs.oxid-esales.com/changelog_page.php?version_id=360>`_ |br|
 Korrekturen 6.0.0 RC 2: `https://bugs.oxid-esales.com/changelog_page.php?version_id=356 <https://bugs.oxid-esales.com/changelog_page.php?version_id=356>`_ |br|
 Korrekturen 6.0.0 RC 1: `https://bugs.oxid-esales.com/changelog_page.php?version_id=351 <https://bugs.oxid-esales.com/changelog_page.php?version_id=351>`_ |br|
