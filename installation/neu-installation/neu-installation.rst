@@ -15,7 +15,7 @@ Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdo
 
 Server und Systemvoraussetzungen
 --------------------------------
-**Inhalte**: Server, Shared Hosting, Managed Server, Serverfarm mit Loadbalancing und Datenbankcluster, Linux, Webserver, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 7.1 bis 7.4, Composer, OpenSSL |br|
+**Inhalte**: Server, Shared Hosting, Managed Server, Serverfarm mit Loadbalancing und Datenbankcluster, Linux, Webserver, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 8.0, 7.4 und 7.3, Composer 1 und 2, OpenSSL |br|
 :doc:`Artikel lesen <server-und-systemvoraussetzungen>` |link|
 
 Installation vorbereiten
@@ -30,7 +30,7 @@ Webbasiertes Setup
 
 Setup per Kommandozeile
 -----------------------
-**Inhalte**: Setup per Kommandozeile, oe:setup:shop, Datenbank, db-host, db-port, db-name, db-user, db-password, Shop-Konfiguration, shop-url, shop-directory, compile-directory, languag, oe:admin:create-user, Zugangsdaten für Administrationsbereich, Shop-Administrator, admin-email, admin-password |br|
+**Inhalte**: Setup per Kommandozeile, oe:setup:shop, Datenbank, db-host, db-port, db-name, db-user, db-password, Shop-Konfiguration, shop-url, shop-directory, compile-directory, language, oe:setup:demodata, Demodaten, oe:admin:create-user, Zugangsdaten für Administrationsbereich, Shop-Administrator, admin-email, admin-password, oe:license:add, oe:license:clear, Lizenzschlüssel für PE/EE |br|
 :doc:`Artikel lesen <setup-webbasiert>` |link|
 
 
