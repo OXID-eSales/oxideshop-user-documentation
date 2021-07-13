@@ -7,7 +7,7 @@ Veröffentlichungstermin RC 1: 27.07.2021
 
 Allgemeines
 -----------
-OXID eShop 7.0.0 RC1 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
+OXID eShop 7.0.0 RC 1 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
 
 * OXID eShop CE 7.0.0-rc1
 * OXID eShop PE 7.0.0-rc1
@@ -91,7 +91,7 @@ Nachrichten konnten mit "Flow", Standard-Theme seit OXID eShop 6.0.0, bereits nu
 
 Korrekturen
 -----------
-Korrekturen 7.0.0 RC 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=
+Keine Korrekturen für OXID eShop 7.0.0 RC 1
 
 
 .. Intern: oxbajt, Status:
