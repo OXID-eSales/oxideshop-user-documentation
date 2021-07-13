@@ -1,9 +1,9 @@
-﻿Running setup
-=============
+﻿Web-based setup
+===============
 
-OXID eShop is installed and configured through the web-based setup. Open a browser and go to ``www.yourshopurl.com/setup``. Replace ``www.yourshopurl.com`` with the URL under which your OXID eShop will be accessible.
+OXID eShop can be installed and configured with a web-based setup or via command line. This document describes the web-based setup.
 
-The setup will start. It consists of 6 or 7 steps. An additional step is required to enter the license key for Enterprise and Professional Edition.
+Open a browser and go to ``www.yourshopurl.com/setup``. Replace ``www.yourshopurl.com`` with the URL under which your OXID eShop will be accessible. The setup will start. It consists of 6 or 7 steps. An additional step is required to enter the license key for Enterprise and Professional Edition.
 
 Certain values are written into :file:`.htaccess` and :file:`config.inc.php` during installation. Both files are located in the main shop directory and shouldn’t be read-only for the duration of the setup.
 
@@ -83,4 +83,5 @@ This is where shop owners with Enterprise or Professional Edition can enter the 
 ----------------
 The setup is now completed. Click on the :guilabel:`To Shop` link to get to your shop’s start page. The link :guilabel:`To admin interface` will take you directly to the Admin panel.
 
-.. Intern: oxbaaf, Status:
+
+.. Intern: oxbaaf, Status: transL

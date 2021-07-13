@@ -7,5 +7,6 @@
    new-installation
    server-and-system-requirements
    preparing-for-installation
-   running-setup
+   setup-web-based
+   setup-command-line
    completing-installation

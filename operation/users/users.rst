@@ -3,7 +3,7 @@
 
 Every customer who buys something in the shop for the first time with or without registration will be registered as a user. The shop also creates a new user or updates an existing one when a customer signs up to create a customer account or subscribe to the newsletter.
 
-A special form of the user is the one with administrator rights. Unlike users who only interact with the shop’s front end, the administrator is also able to customise the configuration of the shop and edit products and categories, i.e. to use the shop’s Admin panel. The first administrator is created during the shop installation. In step 5, :doc:`Running setup <../../installation/new-installation/running-setup>`, you had to enter the e-mail address and password for this administrator and were able to log in directly to the Admin panel after completing the setup.
+A special form of the user is the one with administrator rights. Unlike users who only interact with the shop’s front end, the administrator is also able to customise the configuration of the shop and edit products and categories, i.e. to use the shop’s Admin panel. The first administrator is created during the shop installation.
 
 In Enterprise Edition, there are administrators who can work with all shops and those who only have access to a specific shop. The user with the administrator rights created during the installation can access all shops and switch between the individual shops in the Admin panel.
 
