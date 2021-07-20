@@ -1,5 +1,5 @@
-OXID eShop 7.0.0
-================
+OXID eShop 7.0.0 RC 1
+=====================
 
 Veröffentlichungstermin RC 1: 27.07.2021
 
@@ -26,22 +26,15 @@ Module, wie solche für die Zahlungsarten, der WYSIWYG Editor + Mediathek oder V
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
-OXID eShop 7.0.0 läuft unter PHP 8.0, 7.4 und 7.3.
-
-Als Datenbank wird MySQL in der Version 5.5 oder 5.7 und MariaDB in der Version 10.4 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
-
-Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
-
-Composer wird in den Versionen 1 und 2 unterstützt.
+OXID eShop 7.0.0 RC 1 läuft unter PHP 7.4 und 8.0. Als Datenbank wird MySQL in der Version 5.7 und 8.0 sowie MariaDB in der Version 10.4 unterstützt. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden. Composer wird in den Versionen 1 und 2 unterstützt.
 
 Installation
 ^^^^^^^^^^^^
 Für die Installation, folgen Sie bitte den Anleitungen im Abschnitt "Installation":
 
-:doc:`Neu-Installation <../../installation/neu-installation/neu-installation>` |br|
-:doc:`Update <../../installation/update/update>`
+:doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`
 
-Bitte führen Sie das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, aus. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
+Es wird nicht empfohlen, ein Update des OXID eShop auf die Version 7.0.0 RC 1 vorzunehmen. Eine Update-Anleitung wird mit der Veröffentlichung der finalen Version zur Verfügung stehen.
 
 -----------------------------------------------------------------------------------------
 
@@ -50,6 +43,10 @@ Neue Funktionen
 Setup per Kommandozeile
 ^^^^^^^^^^^^^^^^^^^^^^^
 Als Ergänzung zum webbasierten Setup kann OXID eShop jetzt auch über die Kommandozeile erstellt und konfiguriert werden. Das neue Kommando der OXID eShop console ``oe:setup:shop`` erstellt die Datenbank und konfiguriert den Shop. Die dafür notwendigen Informationen werden mit Parametern übergeben. In weiteren Schritten können mit ``oe:setup:demodata`` Demodaten installiert und mit ``oe:admin:create-user`` der Shop-Administrator erstellt werden. Für OXID eShop Professional und Enterprise Edition fügt das Kommando ``oe:license:add`` einen gültigen Lizenzschlüssel hinzu. Siehe: :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`
+
+Modul-Installation per Kommandozeile
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Module können mit den neuen Kommandos der OXID eShop console ``oe:module:install`` und ``oe:module:uninstall`` installiert und deinstalliert werden. Alle Informationen dazu finden Sie in der englischsprachigen Entwicklerdokumentation: https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html und https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
 
 -----------------------------------------------------------------------------------------
 
@@ -74,6 +71,11 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * OXID eShop facts (Update von 2.4.0 auf 3.0.0), `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v3.0.0/CHANGELOG.md>`_
 * Unified Namespace Generator (Update von 2.2.0 auf 3.0.0), `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v3.0.0/CHANGELOG.md>`_
 
+Tracking-URL je Versandart
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+Bisher konnte eine Tracking-URL pro Shop definiert werden. Sie wird im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragen. Diese Tracking-URL ist nun die Standard-Tracking-URL und kann durch eine eigene Tracking-URL je Versandart ersetzt werden.
+
+Sobald die Paket-ID (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) bei der Bestellung eingetragen ist, steht der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, zur Verfügung. Er wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
 
 Kreditkarte als Zahlungsart nicht mehr unterstützt
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -13,7 +13,7 @@ Unter der Liste befindet sich der Eingabebereich für die Versandart. Wird eine 
 
 .. image:: ../../media/screenshots/oxbadd01.png
    :alt: Versandarten
-   :height: 528
+   :height: 567
    :width: 650
 
 OXID eShop wird mit den vorbereiteten Versandarten \"Standard\", \"Beispiel Set1: UPS 48 Std.\" und \"Beispiel Set1: UPS 24 Std. Express\" ausgeliefert. Diese können verwendet werden, nachdem sie individuell angepasst wurden, oder als Vorlage für neu zu definierende Versandarten dienen.
@@ -26,7 +26,7 @@ Benutzer und Benutzergruppen können, müssen aber nicht zugeordnet sein. Fehlt 
 
 Registerkarte Stamm
 -------------------
-**Inhalte**: aktive Versandart, aktiver Zeitraum, Sortierung, Versandkostenregeln und Länder zuordnen |br|
+**Inhalte**: aktive Versandart, aktiver Zeitraum, Sortierung, Tracking-URL, Versandkostenregeln und Länder zuordnen |br|
 :doc:`Artikel lesen <registerkarte-stamm>` |link|
 
 Registerkarte Zahlungsarten

@@ -31,7 +31,10 @@ Auf der Registerkarte :guilabel:`Stamm` können Bestellinformationen hinzugefüg
 :guilabel:`Versandinformationen`
    Bei der Bestellung hat der Kunde eine Versandart gewählt, die zusammen mit den Versandkosten übersichtlich angeordnet angezeigt wird. Der Shopbetreiber kann diese Angaben, falls notwendig, ändern.
 
-Damit Kunden den Versand ihrer bestellten Ware verfolgen können, kann die Tracking-URL des Versanddienstleisters im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragen werden. Tracking-URL und die Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz usw.) werden dem Kunden als Link zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. Standardmäßig ist die Sendungsverfolgung für den Versanddienstleister DPD (Dynamic Parcel Distribution) konfiguriert.
+:guilabel:`Tracking-Code`
+   Tragen Sie hier die Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz usw.) ein. Der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
+
+Die Tracking-URL kann für jede einzelne Versandart definiert werden. Gibt es für eine Versandart keine spezielle Tracking-URL, wird die im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragene verwendet.
 
 Die Schaltflächen :guilabel:`Jetzt versenden` und :guilabel:`Versanddatum zurücksetzen`, ebenso wie das Kontrollkästchen :guilabel:`E-Mail schicken?` erfüllen die gleiche Funktion, wie auf der Registerkarte :guilabel:`Übersicht`. Das Versanddatum kann gesetzt und der Kunde per E-Mail über den Versand der Ware informiert werden. Es wird die Zeile :guilabel:`Versandt am` mit der Datums- und Zeitangabe vervollständigt.
 
