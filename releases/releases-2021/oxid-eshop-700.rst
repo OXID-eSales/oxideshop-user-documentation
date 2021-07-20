@@ -1,7 +1,7 @@
 OXID eShop 7.0.0 RC 1
 =====================
 
-Veröffentlichungstermin RC 1: 27.07.2021
+Veröffentlichungstermin RC 1: 21.07.2021
 
 -----------------------------------------------------------------------------------------
 
@@ -26,7 +26,12 @@ Module, wie solche für die Zahlungsarten, der WYSIWYG Editor + Mediathek oder V
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
-OXID eShop 7.0.0 RC 1 läuft unter PHP 7.4 und 8.0. Als Datenbank wird MySQL in der Version 5.7 und 8.0 sowie MariaDB in der Version 10.4 unterstützt. Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden. Composer wird in den Versionen 1 und 2 unterstützt.
+
+* OXID eShop 7.0.0 RC 1 läuft unter PHP 7.4 und 8.0
+* Als Datenbank wird MySQL in der Version 5.7 und 8.0 sowie MariaDB in der Version 10.4 unterstützt
+* Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden
+* Composer wird in den Versionen 1 und 2 unterstützt
+* Metadata wird in den Versionen 2.0 und 2.1 unterstützt
 
 Installation
 ^^^^^^^^^^^^
@@ -60,7 +65,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * OXID eShop CE (Update von 6.8.0 auf 7.0.0-rc1), `Changelog 7.0.0-rc1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0-rc1/CHANGELOG.md>`_
 * OXID eShop PE (Update von 6.5.0 auf 7.0.0-rc1)
 * OXID eShop EE (Update von 6.6.0 auf 7.0.0-rc1)
-* Theme "Flow" (Update von 3.7.0 auf 4.0.0), `Changelog 4.0.0 <https://github.com/OXID-eSales/flow_theme/blob/v4.0.0/CHANGELOG.md>`_
+* Theme "Flow" (Update von 3.7.0 auf 4.0.0), `Changelog Flow 4.0.0 <https://github.com/OXID-eSales/flow_theme/blob/v4.0.0/CHANGELOG.md>`_
 * Theme "Wave" (Update von 1.6.0 auf 2.0.0), `Changelog 2.0.0 <https://github.com/OXID-eSales/wave-theme/blob/v2.0.0/CHANGELOG.md>`_
 
 * OXID eShop composer plugin (Update von 5.2.0 auf 6.0.0), `Changelog 6.0.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v6.0.0/CHANGELOG.md>`_
@@ -68,7 +73,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * OXID eShop DemoData installer (Update von 1.2.0 auf 2.0.0)
 * OXID eShop demodata CE/PE/EE (Update von 6.0.4 auf 7.0.0)
 * OXID eShop doctrine migration integration (Update von 3.2.0 auf 4.0.0), `Changelog 4.0.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v4.0.0/CHANGELOG.md>`_
-* OXID eShop facts (Update von 2.4.0 auf 3.0.0), `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v3.0.0/CHANGELOG.md>`_
+* OXID eShop facts (Update von 2.4.0 auf 3.0.0), `Changelog OXID eShop facts 3.0.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v3.0.0/CHANGELOG.md>`_
 * Unified Namespace Generator (Update von 2.2.0 auf 3.0.0), `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v3.0.0/CHANGELOG.md>`_
 
 Tracking-URL je Versandart
@@ -88,6 +93,16 @@ Newsletter stellen eine unkomplizierte und schnelle Möglichkeit dar, die Kunden
 Nachrichten entfernt
 ^^^^^^^^^^^^^^^^^^^^
 Nachrichten konnten mit "Flow", Standard-Theme seit OXID eShop 6.0.0, bereits nur über einen Link im Fußbereich aufgerufen werden. Nun wurde diese wenig genutzte Funktion komplett aus dem Shop entfernt.
+
+Änderungen bei Modulen
+^^^^^^^^^^^^^^^^^^^^^^
+
+* Native Composer-Unterstützung für Module: Dateien verbleiben komplett im Verzeichnis :file:`/vendor`. Sie werden nicht nach :file:`/source/modules` kopiert.
+* Das Caching für Modul-Assets - statische Dateien, welche von Modulen im Frontend benötigt werden (CSS-, JavaScript- oder Bild-Dateien) - wurde optimiert.
+
+Keine verschlüsselten Werte in der Datenbank
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Die Verschlüsselung von Werten in der Datenbank wurde entfernt, da diese Funktion nicht mehr von MySQL 8.0 unterstützt wird.
 
 -----------------------------------------------------------------------------------------
 
