@@ -13,7 +13,7 @@ The input area for shipping methods is located right below the list. When you se
 
 .. image:: ../../media/screenshots/oxbadd01.png
    :alt: Shipping methods
-   :height: 535
+   :height: 566
    :width: 650
 
 OXID eShop comes with the following shipping methods: \"Standard\", \"Example Set1: UPS 48 hours\" and \"Example Set2: UPS Express 24 hours\". These can be used after being customised, or as a template for newly defined shipping methods.
@@ -26,7 +26,7 @@ The assignment of users and user groups is optional. If no user or user group ha
 
 Main tab
 --------
-**Contents**: active shipping method, active time period, sorting, assigning shipping cost rules and countries |br|
+**Contents**: active shipping method, active time period, sorting, tracking URL, assigning shipping cost rules and countries |br|
 :doc:`Read article <main-tab>` |link|
 
 Payment tab

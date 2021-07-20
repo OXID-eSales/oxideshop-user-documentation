@@ -15,7 +15,7 @@ The installation guide in English can be found in the developer documentation: `
 
 Server und system requirements
 ------------------------------
-**Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP from 7.1 to 7.4, Composer, OpenSSL |br|
+**Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache 2.2 + 2.4, MySQL 5.7 + 8.0, MariaDB 10.4, PHP 7.4 + 8.0, Composer 1 + 2, Metadata 2.0 + 2.1, OpenSSL |br|
 :doc:`Read article <server-and-system-requirements>` |link|
 
 Preparing for installation
@@ -30,7 +30,7 @@ Web-based setup
 
 Setup via command line
 ----------------------
-**Contents**: setup via command line, oe:setup:shop, Datenbank, db-host, db-port, db-name, db-user, db-password, shop configuration, shop-url, shop-directory, compile-directory, language, oe:setup:demodata, demo datea, oe:admin:create-user, access data for administration panel, shop administrator, admin-email, admin-password, oe:license:add, oe:license:clear, license key for PE/EE |br|
+**Contents**: setup via command line, oe:setup:shop, Datenbank, db-host, db-port, db-name, db-user, db-password, shop configuration, shop-url, shop-directory, compile-directory, language, oe:setup:demodata, demo datea, oe:admin:create-user, access data for administration panel, shop administrator, admin-email, admin-password, oe:license:add, oe:license:clear, license key for PE/EE, module installation, oe:module:install, oe:module:uninstall |br|
 :doc:`Read article <setup-command-line>` |link|
 
 

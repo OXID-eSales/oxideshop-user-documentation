@@ -67,5 +67,9 @@ OXID eShop Professional and Enterprise Edition require a valid license key for p
 
 With the command ``oe:license:clear`` all license keys of a shop can be deleted.
 
+|schritt| Installing modules
+----------------------------
+Modules can be installed using the ``oe:module:install`` command of the OXID eShop console. The ``oe:module:uninstall`` command removes a specified module from the shop. All information about this can be found in the developer documentation: https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html and https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
+
 
 .. Intern: oxbaju, Status: transL

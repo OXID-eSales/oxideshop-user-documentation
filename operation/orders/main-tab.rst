@@ -31,13 +31,19 @@ The :guilabel:`Main` tab allows you to add or change the order information. This
 :guilabel:`Shipping Information`
    When placing an order, the customer had to select a shipping method that will be displayed together with the shipping costs. The shop owner can change this information if needed.
 
+:guilabel:`Shipping Information - Tracking Code`
+   Enter here the package ID of the order (depending on the shipping service provider tracking code, parcel label number, package reference, shipment number, etc.). The tracking link, consisting of the tracking URL and the package ID of the order, is sent to the customer for tracking purposes with the e-mail notifying him/her of the shipment. The tracking link is also displayed in the customer's order history in the frontend.
+
+   The tracking URL can be defined for each individual shipping method. If there is no special tracking URL for a shipping method, the one entered in the Admin panel under :menuselection:`Master Settings --> Core Settings --> Settings --> Other settings` will be used.
+
    You can enter the tracking URL of the shipping service provider under :menuselection:`Master Settings --> Core Settings --> Settings --> Other settings` in the Admin panel to allow customers to track their orders. The tracking URL and the order's package ID (tracking code, parcel label number, package reference, etc., depending on the shipping service provider) will be sent to the customer as a tracking link in the e-mail informing him/her of the shipment. By default, shipment tracking is configured for the DPD (Dynamic Parcel Distribution) shipping service provider.
 
-The :guilabel:`Ship Now`, :guilabel:`Reset Shipping Date` and :guilabel:`Send e-mail?` buttons perform the same function as in the :guilabel:`Overview` tab. You can set the shipping date and inform the customer about the shipment of the products by e-mail. The :guilabel:`Shipped on` line will be filled with the date and time.
+   The :guilabel:`Ship Now`, :guilabel:`Reset Shipping Date` and :guilabel:`Send e-mail?` buttons perform the same function as in the :guilabel:`Overview` tab. You can set the shipping date and inform the customer about the shipment of the products by e-mail. The :guilabel:`Shipped on` line will be filled with the date and time.
 
 :guilabel:`Ordered download links`
    With OXID eShop 4.6.0, we have introduced a new product type: downloadable products. These could be software, photos, music files or document templates. When the customer adds a downloadable product to the shopping cart, he/she will receive all the associated files and will be able to download them in the shop. Click on :guilabel:`Send` to send an e-mail with the download links to the customer.
 
 .. seealso:: `Data protection: Are online retailers allowed to store IP addresses of their customers? <http://shop.trustedshops.com/de/rechtstipps/datenschutz-duerfen-online-haendler-ip-adressen-ihrer-kunden-speichern>`_ (Trusted Shops, in German) | `Features/oxCounter implementation <http://oxidforge.org/en/oxcounter-implementation.html>`_ (OXIDforge)
 
-.. Intern: oxbaed, Status:, F1: order_main.html
+
+.. Intern: oxbaed, Status:, F1: order_main.html, transL

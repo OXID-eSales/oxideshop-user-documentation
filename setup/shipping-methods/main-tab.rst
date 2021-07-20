@@ -5,7 +5,7 @@ The :guilabel:`Main` tab contains several settings for the shipping method. Ship
 
 .. image:: ../../media/screenshots/oxbade01.png
    :alt: Shipping methods - Main tab
-   :height: 343
+   :height: 339
    :width: 650
 
 :guilabel:`Name`
@@ -19,6 +19,11 @@ The :guilabel:`Main` tab contains several settings for the shipping method. Ship
 
 :guilabel:`Sorting`
    Sorting determines the order in which shipping methods appear in the drop-down list. The shipping method with the smallest number will be listed first and preselected.
+
+:guilabel:`Tracking URL`
+   A separate tracking URL can be defined for each shipping method. ##ID## serves as a placeholder, which is replaced by the respective package ID of the order (depending on the shipping service provider tracking code, parcel label number, package reference, shipment number, etc). If a shipping method does not have its own tracking URL, the one entered in the administration panel under :menuselection:`Master data --> Basic settings --> Settings. --> Other settings` will be used.
+
+   Tracking URL and specific package ID of the order are combined to the tracking link. It will be sent to the customer as a tracking link in the e-mail informing him/her of the shipment. The tracking link is also displayed in the customer's order history in the frontend.
 
 :guilabel:`In Language`
    The shipping method can be edited in other active languages of the shop. To do this, select the desired language from the drop-down list.
@@ -36,4 +41,5 @@ The :guilabel:`Main` tab contains several settings for the shipping method. Ship
 
    Clicking on :guilabel:`Assign Countries` opens a new window with all active countries displayed in the left-hand list. Countries can be sorted and filtered by title and/or country abbreviation (ISO Alpha 2). Drag the desired countries into the right-hand list using the mouse. Hold down the Ctrl key to select multiple countries. The assignment to the shipping method is now completed.
 
-.. Intern: oxbade, Status:, F1: deliveryset_main.html
+
+.. Intern: oxbade, Status:, F1: deliveryset_main.html, transL
