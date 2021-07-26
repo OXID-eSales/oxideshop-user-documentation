@@ -139,7 +139,7 @@ Ausführliche Information zum Testen von Modulen hält die englischsprachige Ent
 
 Übersicht aller Änderungen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-Änderungen gegenüber den vorhergehenden Versionen der Komponente OXID eShop können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.3.6…v6.5.3. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
+Änderungen gegenüber den vorhergehenden Versionen der Komponente OXID eShop können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.3.6...v6.5.3. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
 
 -----------------------------------------------------------------------------------------
 

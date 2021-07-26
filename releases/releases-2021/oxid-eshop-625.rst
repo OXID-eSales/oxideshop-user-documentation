@@ -65,7 +65,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * OXID eShop facts (Update von 2.3.2 auf 2.4.0), `Changelog 2.4.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v2.4.0/CHANGELOG.md>`_
 * Unified Namespace Generator (Update von 2.1.0 auf 2.2.0), `Changelog 2.2.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v2.2.0/CHANGELOG.md>`_
 
-Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.7.0…v6.7.2. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
+Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.7.0...v6.7.2. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
 
 -----------------------------------------------------------------------------------------
 

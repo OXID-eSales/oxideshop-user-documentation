@@ -58,7 +58,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * OXID eShop doctrine migration integration (Update von 2.1.3 auf 3.1.1), `Changelog 3.1.1 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v3.1.1/CHANGELOG.md>`_
 * Unified Namespace Generator (Update von 2.0.1 auf 2.1.0), `Changelog 2.1.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v2.1.0/CHANGELOG.md>`_
 
-Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.6…v6.6.0. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
+Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.6...v6.6.0. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
 
 Neues Kommando für OXID eShop console
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

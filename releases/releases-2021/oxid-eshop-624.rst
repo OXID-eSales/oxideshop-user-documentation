@@ -70,7 +70,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 * Klarna (Update von 5.3.0 auf 5.5.0), `Changelog 5.5.0 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.0/CHANGELOG.md>`_
 * PayPal (Update von 6.2.1 auf 6.2.2), `Changelog 6.2.2 <https://github.com/OXID-eSales/paypal/blob/v6.2.2/CHANGELOG.md>`_
 
-Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.6.0…v6.7.0. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
+Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.6.0...v6.7.0. Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
 
 -----------------------------------------------------------------------------------------
 
