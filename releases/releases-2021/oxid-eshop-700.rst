@@ -106,7 +106,7 @@ Encoding of database values has been removed as functionality is no longer suppo
 
 Corrections
 -----------
-No fixes for OXID eShop 7.0.0 RC 1
+Corrections 7.0.0 RC 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
 
 
-.. Intern: , Status: transL
+.. Intern: oxbajt, Status: transL
