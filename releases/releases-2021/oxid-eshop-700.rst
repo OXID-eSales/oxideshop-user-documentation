@@ -108,7 +108,7 @@ Die Verschlüsselung von Werten in der Datenbank wurde entfernt, da diese Funkti
 
 Korrekturen
 -----------
-Keine Korrekturen für OXID eShop 7.0.0 RC 1
+Korrekturen 7.0.0 RC 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
 
 
 .. Intern: oxbajt, Status:
