@@ -3,6 +3,7 @@
 
 2021 releases
 -------------
+03/08/2021 - :doc:`OXID eShop 6.2.5 <releases-2021/oxid-eshop-625>` |br|
 20/04/2021 - :doc:`OXID eShop 6.2.4 <releases-2021/oxid-eshop-624>`
 
 2020 releases

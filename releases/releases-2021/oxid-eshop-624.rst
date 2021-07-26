@@ -28,7 +28,7 @@ All changes to the compilation can be viewed in the following metapackage: `<htt
 
 System requirements
 ^^^^^^^^^^^^^^^^^^^
-OXID eShop 6.2.3 runs under PHP 7.1 to 7.4.
+OXID eShop 6.2.4 runs under PHP 7.1 to 7.4.
 
 The supported database is MySQL version 5.5 or 5.7 and MariaDB version 10.4. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
 
@@ -56,7 +56,7 @@ OXID eShop compilation has been enhanced with the OXID Cookie Management powered
 -----------------------------------------------------------------------------------------
 
 Improvements and adjustments
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
 The following components have been updated to a new version:
 
 * OXID eShop CE (update from 6.6.0 to 6.7.0), `Changelog 6.7.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/dev-b-6.2.x/CHANGELOG.md>`_
