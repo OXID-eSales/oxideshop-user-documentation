@@ -74,4 +74,4 @@ Corrections
 No fixes for OXID eShop 6.2.5
 
 
-.. Intern: oxbajv, Status:
+.. Intern: oxbajv, Status: transL
