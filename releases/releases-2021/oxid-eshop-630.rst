@@ -60,7 +60,7 @@ OXID eShop compilation has been enhanced with the OXID Cookie Management powered
 -----------------------------------------------------------------------------------------
 
 Improvements and adjustments
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
 The following components have been updated to a new version:
 
 * OXID eShop CE (update from 6.6.0 to 6.8.0), `Changelog 6.8.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.8.0/CHANGELOG.md>`_
