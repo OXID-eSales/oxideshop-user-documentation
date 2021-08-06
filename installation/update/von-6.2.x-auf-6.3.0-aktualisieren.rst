@@ -28,7 +28,7 @@ Anschließend müssen noch manche Versionen im ``require-dev`` Bereich aktualisi
 
    composer require --dev --no-update oxid-esales/testing-library:^v8.0.0 oxid-esales/oxideshop-ide-helper:^v4.1.0
 
-.. hint::
+.. warning::
 
    Auch wenn die Dev Pakete nicht installiert werden, prüft Composer deren Abhängigkeiten. Diese Anpassung ist somit zwingend notwendig.
 
