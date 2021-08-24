@@ -38,9 +38,9 @@ The second Composer command executes all scripts to obtain the new compilation. 
 
    composer update --no-dev
 
-|schritt| Clear tmp directory
------------------------------
-To ensure the cached elements do not contain any incompatibilities the tmp directory needs to be cleared
+|schritt| Deleting temporary files
+----------------------------------
+To ensure the cached elements do not contain any incompatibilities the :file:`/tmp` directory needs to be cleared.
 
 .. code:: bash
 
@@ -54,8 +54,8 @@ The third and final Composer command will migrate the database if necessary.
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
 
-|schritt| Optional - Generate views
------------------------------------
+|schritt| Optional: Generating views
+------------------------------------
 Depending on changes and shop edition you might see the maintenance mode in the shop as long as the views are not generated again.
 
 .. code:: bash
@@ -64,7 +64,7 @@ Depending on changes and shop edition you might see the maintenance mode in the 
 
 .. hint::
 
-   Usually is required when upgrading an Enterprise Edition
+   Usually required when updating an Enterprise Edition.
 
 This completes the updating process.
 
