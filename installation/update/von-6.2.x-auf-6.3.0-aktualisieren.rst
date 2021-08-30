@@ -1,7 +1,7 @@
-Standard-Update
-===============
+Von 6.2.x auf 6.3.0 aktualisieren
+=================================
 
-Dieses Dokument beschreibt Patch-Updates des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.3.x auf eine höhere Version 6.3.x aktualisiert.
+Dieses Dokument beschreibt ein Minor-Update des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.2.x auf die Version 6.3.0 aktualisiert.
 
 Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, ausgeführt werden. Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank. Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert. Testen Sie nach dem Update den Shop erneut und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten.
 
@@ -12,15 +12,25 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 ------------------------------
 In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version des Metapackage aktualisiert werden.
 
-Beispiel für ein Update einer Community Edition 6.3.0 zu 6.3.1:
+Beispiel für ein Update einer Community Edition 6.2.4 zu 6.3.0:
 
 .. code:: bash
 
-   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.3.1
+   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.3.0
 
 .. hint::
 
    Der Name des Metapackage muss an die verwendeten Shop Edition angepasst werden.
+
+Anschließend müssen noch manche Versionen im ``require-dev`` Bereich aktualisiert werden.
+
+.. code:: bash
+
+   composer require --dev --no-update oxid-esales/testing-library:^v8.0.0 oxid-esales/oxideshop-ide-helper:^v4.1.0
+
+.. warning::
+
+   Auch wenn die Dev Pakete nicht installiert werden, prüft Composer deren Abhängigkeiten. Diese Anpassung ist somit zwingend notwendig.
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
@@ -38,14 +48,6 @@ Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue C
 
    composer update --no-dev
 
-|schritt| Temporäre Dateien löschen
------------------------------------
-Um sicherzustellen, dass die zwischengespeicherten Elemente keine Inkompatibilitäten enthalten, muss das Verzeichnis :file:`/tmp` geleert werden.
-
-.. code:: bash
-
-   rm -rf source/tmp/*
-
 |schritt| Datenbank migrieren
 -----------------------------
 Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, falls dies erforderlich ist.
@@ -53,18 +55,6 @@ Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, fa
 .. code:: bash
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
-
-|schritt| Optional: Views generieren
-------------------------------------
-Je nach Änderungen und Shop-Edition kann es sein, dass der Shop in den Wartungsmodus geht, solange die Views nicht neu generiert werden.
-
-.. code:: bash
-
-   vendor/bin/oe-eshop-db_views_generate
-
-.. hint::
-
-   Wird üblicherweise beim Update einer Enterprise Edition benötigt.
 
 Damit ist das Update beendet.
 
