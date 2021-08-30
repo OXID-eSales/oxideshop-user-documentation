@@ -38,6 +38,14 @@ Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue C
 
    composer update --no-dev
 
+|schritt| Temporäre Dateien löschen
+-----------------------------------
+Um sicherzustellen, dass die zwischengespeicherten Elemente keine Inkompatibilitäten enthalten, muss das Verzeichnis :file:`/tmp` geleert werden.
+
+.. code:: bash
+
+   rm -rf source/tmp/*
+
 |schritt| Datenbank migrieren
 -----------------------------
 Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, falls dies erforderlich ist.
@@ -45,6 +53,18 @@ Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, fa
 .. code:: bash
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
+
+|schritt| Optional: Views generieren
+------------------------------------
+Je nach Änderungen und Shop-Edition kann es sein, dass der Shop in den Wartungsmodus geht, solange die Views nicht neu generiert werden.
+
+.. code:: bash
+
+   vendor/bin/oe-eshop-db_views_generate
+
+.. hint::
+
+   Wird üblicherweise beim Update einer Enterprise Edition benötigt.
 
 Damit ist das Update beendet.
 
