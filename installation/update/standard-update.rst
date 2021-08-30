@@ -20,7 +20,7 @@ Beispiel für ein Update einer Community Edition 6.2.0 zu 6.2.1:
 
 .. hint::
 
-   Der Name des Metapackage muss an die verwendeten Shop Edition angepasst werden.
+   Der Name des Metapackage muss an die verwendete Shop-Edition angepasst werden.
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
