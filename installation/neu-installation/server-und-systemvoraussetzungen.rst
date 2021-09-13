@@ -54,9 +54,11 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-* Composer
+* Composer 1 bis OXID eShop 6.2.2
+* Composer 1 oder 2 für OXID eShop 6.2.3 und 6.2.4
+* Composer 2 ab OXID eShop 6.2.5
 
-Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Mit OXID eShop 6.2.3 vom November 2020 werden die Versionen 1 und 2 von Composer unterstützt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
+Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
 
 OpenSSL
 -------
