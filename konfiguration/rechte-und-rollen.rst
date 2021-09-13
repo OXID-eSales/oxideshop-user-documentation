@@ -7,7 +7,7 @@ Dabei wird zwischen den Rechten und den Rollen für den eigentlichen Shop, hier 
 
 Das Recht regelt den Zugriff auf bestimmte Funktionen, wie den Zugriff auf Artikel und Kategorien oder die Anzeige bestimmter Bereiche der Detailseite von Artikeln. In Rollen werden mehrere Rechte zusammengefasst und Benutzern und Benutzergruppen zugeordnet.
 
-Das Rechte und Rollen System kann in der *config.inc.php* über die Einstellung ``$this->blUseRightsRoles = 3`` aktiviert werden.
+Die Rechte- und Rollenverwaltung kann in der Konfigurationsdatei :file:`config.inc.php` über die Einstellung ``$this->blUseRightsRoles = 3`` aktiviert werden.
 
 Rechte und Rollen für den Shop (Frontend)
 -----------------------------------------
