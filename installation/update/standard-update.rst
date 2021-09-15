@@ -26,7 +26,7 @@ Beispiel für ein Update einer Community Edition 6.2.0 zu 6.2.1:
 
    Der Name des Metapackage muss an die verwendete Shop-Edition angepasst werden.
 
-Wenn Sie von Version 6.2.0, 6.2.1, 6.2.2 oder 6.2.3 auf 6.2.4 oder höher aktualisieren, muss anschließend noch der IDE Helper im ``require-dev`` Bereich aktualisiert werden.
+Wenn Sie Composer 2 verwenden, was möglich ist ab einem Update auf OXID eShop 6.2.3, muss der IDE Helper im ``require-dev`` Bereich ebenfalls aktualisiert werden.
 
 .. code:: bash
 
@@ -34,7 +34,7 @@ Wenn Sie von Version 6.2.0, 6.2.1, 6.2.2 oder 6.2.3 auf 6.2.4 oder höher aktual
 
 .. warning::
 
-   Auch wenn die Dev-Pakete nicht installiert werden, prüft Composer deren Abhängigkeiten. Diese Anpassung ist somit zwingend notwendig, wenn sie von den genannten Versionen auf 6.2.4 oder höher aktualisieren möchten.
+   Auch wenn die Dev-Pakete nicht installiert werden, prüft Composer deren Abhängigkeiten. Diese Anpassung ist somit zwingend notwendig, wenn Sie Composer 2 verwenden.
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
