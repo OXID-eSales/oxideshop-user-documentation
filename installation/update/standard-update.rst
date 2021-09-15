@@ -34,7 +34,7 @@ If you are using Composer 2, what is possible with an update to OXID eShop 6.2.3
 
 .. warning::
 
-   Even if you do not install the dev requirements, Composer verifies their dependencies. Therefore this change is mandatory if you are using Composer 2.
+   Even if you do not install the dev requirements, Composer verifies their dependencies. Therefore this change is mandatory, if you are using Composer 2.
 
 |schritt| Updating dependencies
 -------------------------------
