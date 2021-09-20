@@ -7,6 +7,8 @@ There is a distinction between the rights and the roles for the actual shop, her
 
 Rights regulate access to certain functions, such as access to products and categories or the display of certain areas of the product’s details page. Multiple rights can be grouped together in roles and assigned to users and user groups.
 
+The rights and roles management can be activated in the configuration file :file:`config.inc.php` via the setting ``$this->blUseRightsRoles = 3``.
+
 Rights and roles for the shop (front end)
 -----------------------------------------
 Different permissions can be granted for the shop. This can be defined in the products’ and categories’ management section in the Admin panel as well as under :menuselection:`Administer Users --> Shop Roles`.
@@ -79,5 +81,6 @@ The rights can be defined very differently for the editing of products and categ
    :alt: Access in the Admin panel
    :height: 343
    :width: 650
+
 
 .. Intern: oxbaev, Status:
