@@ -7,6 +7,8 @@ Dabei wird zwischen den Rechten und den Rollen für den eigentlichen Shop, hier 
 
 Das Recht regelt den Zugriff auf bestimmte Funktionen, wie den Zugriff auf Artikel und Kategorien oder die Anzeige bestimmter Bereiche der Detailseite von Artikeln. In Rollen werden mehrere Rechte zusammengefasst und Benutzern und Benutzergruppen zugeordnet.
 
+Die Rechte- und Rollenverwaltung kann in der Konfigurationsdatei :file:`config.inc.php` über die Einstellung ``$this->blUseRightsRoles = 3`` aktiviert werden.
+
 Rechte und Rollen für den Shop (Frontend)
 -----------------------------------------
 Für den Shop können verschiedene Berechtigungen erteilt werden. Die Definition erfolgt im Administrationsbereich in der Artikel- und Kategorienverwaltung sowie unter :menuselection:`Benutzer verwalten --> Shop Rollen`.
@@ -75,5 +77,6 @@ Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differe
    :alt: Zugriff im Administrationsbereich
    :height: 335
    :width: 650
+
 
 .. Intern: oxbaev, Status:
