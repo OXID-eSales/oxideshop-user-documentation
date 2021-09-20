@@ -5,9 +5,9 @@ This document describes patches and minor updates of OXID eShop. Follow the step
 
 Updates should always be installed in a test environment, a copy of your current shop. Backup the shop files and the database before updating. Disable all modules and check whether the shop works in general. After updating, test the shop again by paying special attention to the ordering process as well as payment and shipping methods.
 
-.. hint::
+.. warning::
 
-   Before updating to OXID eShop 6.2.5 or higher, Composer must be updated to version 2.
+   Before updating from OXID eShop 6.2.0 till 6.2.4 to OXID eShop 6.2.5 or higher, Composer must be updated to version 2.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
@@ -25,6 +25,16 @@ Example of an update for a Community Edition 6.2.0 to 6.2.1:
 .. hint::
 
    The name of the metapackage must be adapted to the used shop edition.
+
+If you are using Composer 2, what is possible with an update to OXID eShop 6.2.3 or higher, you need to update the IDE Helper in ``require-dev`` section as well.
+
+.. code:: bash
+
+   composer require --dev --no-update oxid-esales/oxideshop-ide-helper:^v4.0.0
+
+.. warning::
+
+   Even if you do not install the dev requirements, Composer verifies their dependencies. Therefore this change is mandatory, if you are using Composer 2.
 
 |schritt| Updating dependencies
 -------------------------------
