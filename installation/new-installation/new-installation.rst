@@ -6,10 +6,10 @@ This section tells you how to install OXID eShop 6.3. The installation is no lon
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Step 1
     :class: no-shadow
-    :height: 457
+    :height: 455
     :width: 650
 
-The installation guide in English can be found in the developer documentation: `<https://docs.oxid-esales.com/developer/en/6.1/getting_started/installation/index.html>`_.
+The installation guide in English can be found in the developer documentation: `<https://docs.oxid-esales.com/developer/en/6.3/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 
