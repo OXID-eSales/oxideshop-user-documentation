@@ -1,7 +1,7 @@
 ﻿Installation vorbereiten
 ========================
 
-Für die Neu-Installation des OXID eShop 6.3 sind einige Vorbereitungen notwendig.
+Für die Neu-Installation des OXID eShop sind einige Vorbereitungen notwendig.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
@@ -23,17 +23,17 @@ Die Shopdateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edi
 Community Edition
 ^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.3-ce`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.4-ce`
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.3-pe`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.4-pe`
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.3-ee`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.4-ee`
 
 Nachdem Composer seine Arbeit beendet hat, existiert das mit *your_project_name* benannte neue Verzeichnis. Dieses ist das Hauptverzeichnis (Root) des Projektes und enthält alle Dateien, die für die Installation des OXID eShop benötigt werden.
 

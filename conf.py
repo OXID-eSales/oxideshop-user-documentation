@@ -20,14 +20,14 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'OXID eShop 6.3'
+project = 'OXID eShop 6.4'
 copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The short X.Y version
-version = '6.3'
+version = '6.4'
 # The full version, including alpha/beta/rc tags
-release = '6.3.0'
+release = '6.4'
 
 # -- General configuration ---------------------------------------------------
 
@@ -80,14 +80,15 @@ pygments_style = None
 html_theme = 'sphinx_rtd_theme'
 
 html_context = {
-    'current_version': '6.3',
+    'current_version': '6.4',
     'versions':
         [('6.1', 'https://docs.oxid-esales.com/eshop/de/6.1/'),
          ('6.2', 'https://docs.oxid-esales.com/eshop/de/6.2/'),
-         ('6.3', 'https://docs.oxid-esales.com/eshop/de/6.3/')],
+         ('6.3', 'https://docs.oxid-esales.com/eshop/de/6.3/'),
+         ('6.4', 'https://docs.oxid-esales.com/eshop/de/6.4/')],
     'languages':
-        [('DE', 'https://docs.oxid-esales.com/eshop/de/6.3/'),
-         ('EN', 'https://docs.oxid-esales.com/eshop/en/6.3/')],
+        [('DE', 'https://docs.oxid-esales.com/eshop/de/6.4/'),
+         ('EN', 'https://docs.oxid-esales.com/eshop/en/6.4/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
@@ -96,7 +97,7 @@ html_context = {
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'OXID-eSales',
     'github_repo': 'oxideshop-user-documentation',
-    'github_version': 'b-6.3-de/'
+    'github_version': 'b-6.4-de/'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -111,7 +112,7 @@ html_theme_path = ['_themes']
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-html_title = 'OXID eShop 6.3 | Anwenderdokumentation'
+html_title = 'OXID eShop 6.4 | Anwenderdokumentation'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -162,7 +163,7 @@ rst_epilog = """
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OXIDeShop63doc'
+htmlhelp_basename = 'OXIDeShop64doc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -189,7 +190,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OXIDeShop63.tex', 'OXID eShop 6.3 Anwenderdokumentation',
+    (master_doc, 'OXIDeShop64.tex', 'OXID eShop 6.4 Anwenderdokumentation',
      'OXID eSales AG', 'manual'),
 ]
 
@@ -199,7 +200,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'oxideshop63', 'OXID eShop 6.3 Anwenderdokumentation',
+    (master_doc, 'oxideshop64', 'OXID eShop 6.4 Anwenderdokumentation',
      [author], 1)
 ]
 
@@ -210,8 +211,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OXIDeShop63', 'OXID eShop 6.3 Anwenderdokumentation',
-     author, 'OXIDeShop63', 'One line description of project.',
+    (master_doc, 'OXIDeShop64', 'OXID eShop 6.4 Anwenderdokumentation',
+     author, 'OXIDeShop64', 'One line description of project.',
      'Miscellaneous'),
 ]
 

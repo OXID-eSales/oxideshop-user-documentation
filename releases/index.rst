@@ -1,7 +1,7 @@
 Releases
 ========
 
-Der Abschnitt \"Releases\" fasst die wichtigsten Informationen zu den veröffentlichten Versionen des OXID eShop 6.3 zusammen.
+Der Abschnitt \"Releases\" fasst die wichtigsten Informationen zu den veröffentlichten Versionen des OXID eShop 6.4 zusammen.
 
 .. toctree::
    :maxdepth: 1
