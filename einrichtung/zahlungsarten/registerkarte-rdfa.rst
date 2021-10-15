@@ -37,4 +37,4 @@ Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschrei
 :guilabel:`VISA`
 
 .. Intern: oxbadc, Status:, F1: payment_rdfa.html
-.. ToDo Hinweiszeile ist fehlerhaft: %s und zwei Punkte
+.. ToDo Hinweiszeile ist fehlerhaft: %s und zwei Punkte (Screenshot erneuern, wenn Wert korrekt angezeigt wird)

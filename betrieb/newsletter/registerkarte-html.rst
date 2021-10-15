@@ -1,7 +1,13 @@
 Registerkarte HTML
 ==================
 
-OXID eShop verschickt Newsletter immer in zwei Formaten: als HTML-Mail und als Nur-Text-Mail. Dadurch wird sichergestellt, dass der Newsletter von allen Mail-Programmen und Webmailern korrekt dargestellt wird. Auf der Registerkarte :guilabel:`HTML` wird der Newsletter im HTML-Format erstellt. Im Gegensatz zum Nur-Text-Format können hier Inhalte durch Überschriftenhierarchien, unterschiedliche Schriftfarben und -größen und andere Formatierungen hervorgehoben werden. Es lassen sich Firmenlogo, Grafiken, Links und Artikelfotos einbinden.
+OXID eShop verschickt Newsletter immer in zwei Formaten: als HTML-Mail und als Nur-Text-Mail.
+
+Dadurch wird sichergestellt, dass der Newsletter von allen Mail-Programmen und Webmailern korrekt dargestellt wird.
+
+Auf der Registerkarte :guilabel:`HTML` wird der Newsletter im HTML-Format erstellt.
+
+Im Gegensatz zum Nur-Text-Format lassen sich Inhalte damit durch Überschriftenhierarchien, unterschiedliche Schriftfarben und -größen und andere Formatierungen hervorheben. Binden Sie beispielsweise Firmenlogo, Grafiken, Links und Artikelfotos in Ihre Newsletter ein.
 
 .. image:: ../../media/screenshots/oxbaif01.png
    :alt: Newsletter - Registerkarte HTML
@@ -25,11 +31,12 @@ Die dynamischen Inhalte werden mit *Smarty*, einer Template-Engine für PHP, umg
 
 Die Funktionsweise der Smarty-Anweisungen wird an einem Beispiel aus dem Beispiel-Newsletter deutlich. Beim Versenden des Newsletters werden die Smarty-Anweisungen, die wie Platzhalter fungieren, durch reale Daten aus dem Shop ersetzt.
 
-.. code:: html
+.. code::
 
    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;"
       Hallo [{ $myuser->oxuser__oxsal->value|oxmultilangsal }] [{ $myuser->oxuser__oxfname->value }] [{ $myuser->oxuser__oxlname->value }],
    </p>
+
 
 Der Empfänger des Newsletters wird persönlich angesprochen, indem  Anrede, Vorname und Nachname aus der Datenbank gelesen und ausgegeben werden. Das Ergebnis kann auf der Registerkarte :guilabel:`Vorschau` eingesehen werden.
 
