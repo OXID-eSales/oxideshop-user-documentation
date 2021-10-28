@@ -9,7 +9,8 @@ Allgemeines
 -----------
 OXID eShop 6.4.0 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
 
-'#tbd: metadata-Datei von Devops: welche Kompnenten gehören zu 6.4.0? Welche Komponenten haben eine andere Version gegenüber 6.3?
+.. todo:: #tbd: metadata-Datei von Devops: welche Kompnenten gehören zu 6.4.0? Welche Komponenten haben eine andere Version gegenüber 6.3?
+
 * OXID eShop CE 6.9.0
 * OXID eShop PE 6.5.1
 * OXID eShop EE 6.6.1
@@ -48,14 +49,14 @@ Bitte führen Sie das Update erst in einer Test- oder Entwicklungsumgebung, eine
 
 -----------------------------------------------------------------------------------------
 
-'#tbd: gibt es neue Funktionen?
+.. todo:: #tbd: gibt es neue Funktionen?
 
 
 Verbesserungen und Anpassungen
 ------------------------------
 Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
-'#tbd: welche Aktualisierungen? und Link zu Changelog bei public
+..todo:: #tbd: welche Aktualisierungen? und Link zu Changelog bei public: devops liefern input (metadata); gibt es Anpassungen?
 
 * OXID eShop CE (Update von 6.8.0 auf 6.9.0), `Changelog 6.9.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.9.0/CHANGELOG.md>`_
 * OXID eShop PE (Update von 6.5.0 auf 6.5.1)
@@ -71,10 +72,14 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
 -----------------------------------------------------------------------------------------
 
+..todo:: #tbd: Neue Funktionen?
+
 Korrekturen
 -----------
 Die mit diesem Patch behobenen Bugs sind in unserem Bugtrack-System aufgelistet. |br|
-https://bugs.oxid-esales.com/changelog_page.php?version_id=626 '#tbd: ID holen unter https://bugs.oxid-esales.com/changelog_page.php?project_id=1,  dann ID der Verion, evtl. Vilma fragen
+https://bugs.oxid-esales.com/changelog_page.php?version_id=626
+
+..todo:: #tbd: ID holen unter https://bugs.oxid-esales.com/changelog_page.php?project_id=1,  dann ID der Verion, evtl. Vilma fragen, auch nach Termin internes release
 
 
 .. Intern: oxbajx, Status:
