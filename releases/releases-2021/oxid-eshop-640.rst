@@ -3,13 +3,15 @@ OXID eShop 6.4.0
 
 Veröffentlichungstermin: xx.xx.2021
 
+.. todo: adjust date
+
 -----------------------------------------------------------------------------------------
 
 Allgemeines
 -----------
 OXID eShop 6.4.0 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
 
-.. todo:: #tbd: metadata-Datei von Devops: welche Kompnenten gehören zu 6.4.0? Welche Komponenten haben eine andere Version gegenüber 6.3?
+.. todo #tbd: metadata-Datei von Devops: welche Kompnenten gehören zu 6.4.0? Welche Komponenten haben eine andere Version gegenüber 6.3?
 
 * OXID eShop CE 6.9.0
 * OXID eShop PE 6.5.1
@@ -30,7 +32,10 @@ Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
-OXID eShop 6.3.1 läuft unter PHP 8.0, 7.4 und 7.3. '#tbd: prüfen
+
+OXID eShop 6.3.1 läuft unter PHP 8.0, 7.4 und 7.3.
+
+.. todo #tbd: prüfen
 
 Als Datenbank wird MySQL in der Version 5.5 oder 5.7 und MariaDB in der Version 10.4 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
 
@@ -40,12 +45,12 @@ Composer wird in den Versionen 1 und 2 unterstützt.
 
 Installation
 ^^^^^^^^^^^^
-Für die Installation, folgen Sie bitte den Anleitungen im Abschnitt "Installation":
+Für die Installation folgen Sie den Anleitungen im Abschnitt "Installation":
 
 :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>` |br|
 :doc:`Update <../../installation/update/update>`
 
-Bitte führen Sie das Update erst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, aus. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
+Führen Sie das Update zuerst in einer Test- oder Entwicklungsumgebung, einer Kopie Ihres aktuellen Shops, aus. Testen Sie anschließend den Bestellprozess sowie Zahlungs- und Versandarten. Arbeitet der Shop korrekt, kann der Shop im Live-System durch den aus der Test- oder Entwicklungsumgebung ersetzt werden.
 
 -----------------------------------------------------------------------------------------
 
@@ -56,7 +61,7 @@ Verbesserungen und Anpassungen
 ------------------------------
 Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
-..todo:: #tbd: welche Aktualisierungen? und Link zu Changelog bei public: devops liefern input (metadata); gibt es Anpassungen?
+.. todo #tbd: welche Aktualisierungen? und Link zu Changelog bei public: devops liefern input (metadata); gibt es Anpassungen?
 
 * OXID eShop CE (Update von 6.8.0 auf 6.9.0), `Changelog 6.9.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.9.0/CHANGELOG.md>`_
 * OXID eShop PE (Update von 6.5.0 auf 6.5.1)
@@ -72,7 +77,7 @@ Folgende Komponenten wurden auf eine neue Version aktualisiert:
 
 -----------------------------------------------------------------------------------------
 
-..todo:: #tbd: Neue Funktionen?
+.. todo  #tbd: Neue Funktionen?
 
 Korrekturen
 -----------

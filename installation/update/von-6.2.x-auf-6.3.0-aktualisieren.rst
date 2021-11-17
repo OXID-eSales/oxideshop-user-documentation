@@ -1,7 +1,7 @@
 Von 6.2.x auf 6.3.0 aktualisieren
 =================================
 
-'#tbd: dieses Dok anpassen oder obsolet? Gibt es spezielle Prozedur
+.. todo #tbd: dieses Dok anpassen oder obsolet? Gibt es spezielle Prozedur
 
 Dieses Dokument beschreibt ein Minor-Update des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.2.x auf die Version 6.3.0 aktualisiert.
 
