@@ -49,7 +49,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP Versionen 8.0, 7.4 und 7.3
+* PHP Versionen 8.0 und 7.4
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein

@@ -33,7 +33,7 @@ Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
 
-OXID eShop 6.3.1 läuft unter PHP 8.0, 7.4 und 7.3.
+OXID eShop 6.3.1 läuft unter PHP 8.0 und 7.4.
 
 .. todo #tbd: prüfen
 
