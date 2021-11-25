@@ -26,7 +26,7 @@ OXID eShop 6.4.0 wird als Compilation bereitgestellt. Diese enthält u.a. folgen
 * PAYONE 1.5.0
 * PayPal 6.3.1
 * WYSIWYG Editor + Mediathek 2.4.0
-* Visual CMS 3.5.3 (PE/EE)
+* Visual CMS 3.6.0 (PE/EE)
 
 Alle Änderungen in der Compilation können im Metapackage eingesehen werden: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.3.0...v6.3.1>`_. '#tbd werde informiert zur URL  internene Release, zum Release testen
 
@@ -37,7 +37,7 @@ OXID eShop 6.3.1 läuft unter PHP 8.0 und 7.4.
 
 .. todo #tbd: prüfen
 
-Als Datenbank wird MySQL in der Version 5.5 oder 5.7 und MariaDB in der Version 10.4 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
+Als Datenbank wird MySQL in der Version 5.5 oder 5.7 und MariaDB in der Version 10.4 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
 
 Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden.
 

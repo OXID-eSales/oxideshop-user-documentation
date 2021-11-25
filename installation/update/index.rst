@@ -6,6 +6,5 @@ Update
 
    update
    standard-update
-   von-6.2.x-auf-6.3.0-aktualisieren
+   von-6.3.x-auf-6.4.0-aktualisieren
 
-.. ToDo:: #tbd: prüfen ob notwendig: von-6.2.x-auf-6.3.0-aktualisieren

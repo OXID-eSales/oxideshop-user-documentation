@@ -10,6 +10,9 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 
 |schritt| Update-Ziel vorgeben
 ------------------------------
+
+.. todo #HR: Was bedeutet das folgende: Mache ich das vor composer require oder ist es das, was composer require macht?
+
 In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version des Metapackage aktualisiert werden.
 
 Beispiel für ein Update einer Community Edition 6.4.0 zu 6.4.1:
@@ -18,13 +21,20 @@ Beispiel für ein Update einer Community Edition 6.4.0 zu 6.4.1:
 
    composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.1
 
+. todo #HR: was bedeutet der folgende Hinweis?
+
 .. hint::
 
    Der Name des Metapackage muss an die verwendeten Shop Edition angepasst werden.
 
+
+
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
-Öffnen Sie eine Shell im Hauptverzeichnis des Shops und führen Sie den nachstehenden Composer-Befehl aus. Dadurch werden alle benötigten Bibliotheken aktualisiert. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
+
+Öffnen Sie eine Shell im Hauptverzeichnis des Shops und führen Sie den nachstehenden Composer-Befehl aus.
+Dadurch werden alle benötigten Bibliotheken aktualisiert. Der Parameter :command:`--no-dev` wird angegeben,
+wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
 
 .. code:: bash
 
@@ -32,7 +42,8 @@ Beispiel für ein Update einer Community Edition 6.4.0 zu 6.4.1:
 
 |schritt| Neue Compilation beziehen
 -----------------------------------
-Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue Compilation zu beziehen. Für Shopdateien, Themes und Module muss jeweils bestätigt werden, dass das Update bestehende Dateien überschreibt.
+Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue Compilation zu beziehen. Für Shopdateien,
+Themes und Module muss jeweils bestätigt werden, dass das Update bestehende Dateien überschreibt.
 
 .. code:: bash
 
@@ -40,6 +51,7 @@ Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue C
 
 |schritt| Temporäre Dateien löschen
 -----------------------------------
+
 Um sicherzustellen, dass die zwischengespeicherten Elemente keine Inkompatibilitäten enthalten, muss das Verzeichnis :file:`/tmp` geleert werden.
 
 .. code:: bash
@@ -48,7 +60,10 @@ Um sicherzustellen, dass die zwischengespeicherten Elemente keine Inkompatibilit
 
 |schritt| Datenbank migrieren
 -----------------------------
+
 Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, falls dies erforderlich ist.
+
+.. todo alls dies erforderlich ist streichen
 
 .. code:: bash
 
@@ -64,7 +79,7 @@ Je nach Änderungen und Shop-Edition kann es sein, dass der Shop in den Wartungs
 
 .. hint::
 
-   Wird üblicherweise beim Update einer Enterprise Edition benötigt.
+   Wird üblicherweise beim Update einer Enterprise Edition benötigt. #tbd wenn EE, dann vermutlich nötig
 
 Damit ist das Update beendet.
 

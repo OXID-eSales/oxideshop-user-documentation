@@ -25,14 +25,19 @@ Webserver
 * 750 MB freier Webspace für die Enterprise Edition
 * Installierte Erweiterung *mod_rewrite*
 
-.. todo #HR: Wo installiere ich *mod_rewrite*? Apache? Wozu dient es; #HR/#VL: Wozu dient das Kapitel, wenn ich den Shop z.B. als VM installiere?
+.. hint::
 
-Beachten Sie, dass trotz installierter Erweiterung *mod_rewrite* bei der Prüfung der Systemgesundheit die Voraussetzungen nicht erfüllt sein können.
-Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts.
-Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
+   Nach der Installation gelangen Sie ins webbasierte Setup des Shops.
 
-.. todo #HR "Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert."
-        Heißt das im Klartext: "Stellen Sie sicher, dass in Apache die Einsttung *AllowOverride* = *None* ist?
+   Bevor Sie das Setup ausführen können, prüft das System, ob die Systemvoraussetzungen erfüllt sind.
+
+   Es kann sein, dass unter :guilabel:`Server-Konfiguration` das *Apache mod_rewrite Module* als fehlerhaft markiert ist.
+
+   Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts.
+
+   Wenn Sie Apache Apache 2.3.9 haben, stellen Sie sicher, dass *AllowOverride* den Wert *None* hat.
+
+.. todo #tbd Hinweis in EN nachziehen
 
 Der Zend Guard Loader wird nicht benötigt, da OXID eShop 6 unverschlüsselt ist.
 
@@ -49,7 +54,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP Versionen 8.0 und 7.4
+* PHP Versionen 8.0 oder 7.4
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
