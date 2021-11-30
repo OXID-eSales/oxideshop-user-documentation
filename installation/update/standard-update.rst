@@ -14,17 +14,19 @@ Updates should always be installed in a test environment, a copy of your current
 
 |schritt| Specifying the target version of the update
 -----------------------------------------------------
-In the file :file:`composer.json` located in the shop’s main directory, the version of the metapackage must be updated.
+
+Update the version of the metapackage in the file :file:`composer.json` located in the shop’s main directory.
 
 Example of an update for a Community Edition 6.3.0 to 6.3.1:
+
+To do so, in the following command, adjust the name of the the metapackage according to the target shop edition, and execute the command.
+
+In our example, you update a Community Edition from version 6.4.0 to version 6.4.1:
 
 .. code:: bash
 
    composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.3.1
 
-.. hint::
-
-   The name of the metapackage must be adapted to the used shop edition.
 
 |schritt| Updating dependencies
 -------------------------------
@@ -52,14 +54,17 @@ To ensure the cached elements do not contain any incompatibilities the :file:`/t
 
 |schritt| Migrating database
 -----------------------------
-The third and final Composer command will migrate the database if necessary.
+
+Mmigrate the database.
 
 .. code:: bash
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
 
+
 |schritt| Optional: Generating views
 ------------------------------------
+
 Depending on changes and shop edition you might see the maintenance mode in the shop as long as the views are not generated again.
 
 .. code:: bash

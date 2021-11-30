@@ -26,7 +26,7 @@ The dynamic content is implemented with *Smarty*, a template engine for PHP. The
 
 The way the Smarty prompts work is illustrated by an example from the sample newsletter. When the newsletter is sent, the Smarty prompts, which act as placeholders, are replaced by real data from the shop.
 
-.. code:: html
+.. code::
 
    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;"
       Hello [{ $myuser->oxuser__oxsal->value|oxmultilangsal }] [{ $myuser->oxuser__oxfname->value }] [{ $myuser->oxuser__oxlname->value }],

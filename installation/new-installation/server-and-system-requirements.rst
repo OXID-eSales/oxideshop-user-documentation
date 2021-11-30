@@ -1,21 +1,43 @@
 ﻿Server and system requirements
 ==============================
 
-OXID eShop can run on different server systems. The choice of a suitable hosting package depends, for example, on the number of products, the expected number of visitors in the shop, and the number of orders. While a shared hosting system is sufficient for a small shop with a few hundred products, a few visitors per month and a manageable order volume, a managed server system should be selected for larger shops. As the load increases, you should consider using a server farm with load balancing and a database cluster. Please contact our `OXID Hosting Partners <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_ for advice and support in selecting the right system. They provide solutions specifically tailored to OXID eShop.
+You can run OXID eShop on different server systems.
+
+The choice of a suitable hosting package depends, for example, on the number of products, the expected number of visitors in the shop, and the number of orders.
+
+You have the following options:
+
+* Use a shared hosting system for a small shop with a few hundred products, a few visitors per month and a manageable order volume.
+* Use a managed server system for larger shops.
+* As the load increases, a server farm with load balancing and a database cluster is recommended.
+
+For advice and support in selecting the right system, contact our `OXID Hosting Partners <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_. They provide solutions specifically tailored to OXID eShop.
+
+----------------------------------------------------------------------------------------
 
 The following system requirements must be met to operate OXID eShop version 6.
 
 Web server
 ----------
 
-* Apache version 2.2 and 2.4 (on Linux)
+* Apache version 2.2 or 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition
 * 750 MB of free webspace for Enterprise Edition
 * Installed *mod_rewrite* extension
 
-Please note that even with the *mod_rewrite* extension installed, the system health check may not meet the requirements. Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration. This was changed to *AllowOverride None* with Apache 2.3.9.
+.. hint::
 
-Zend Guard Loader is no longer needed because OXID eShop 6 is not encrypted.
+   After finishing the installation, you go to the web-based shop setup.
+
+   Before you can start the setup, the system checks whether the system requirements are met.
+
+   Under :guilabel:`Server Configuration`, it's possible that the *Apache mod_rewrite Module* is marked as defective, even with the *mod_rewrite* extension installed.
+
+   Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration.
+
+   If you have Apache 2.3.9, ensure that the *AllowOverride* parameter has the value *None*.
+
+Zend Guard Loader is not needed because OXID eShop 6 is not encrypted.
 
 Database
 --------
