@@ -12,7 +12,7 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 
    Führen Sie das Update immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, aus.
 
-   Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank.
+   Erstellen Sie zuvor eine Sicherung der Shop-Dateien und der Datenbank.
 
    Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert.
 
@@ -27,11 +27,11 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 Aktualisieren Sie in der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, die Version des Metapackage.
 
 
-1. Passen Sie im folgenden Beispielbefehl die Versions-Nummer des Metapackage an die verwendete Shop-Edition an:
+1. Passen Sie im folgenden Beispielbefehl die Versions-Nummer des Metapackage entsprechend der neuen Shop-Edition an:
 
    .. code:: bash
 
-      composer require --no-update oxid-esales/oxideshop-metapackage-<Typ der Edition: ce, pe oder ee>**:v**<Versions-Nummer>
+      composer require --no-update oxid-esales/oxideshop-metapackage-<Typ der Edition: ce, pe oder ee>:v<Versions-Nummer>
 
 2. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Community Edition 6.3.1 zu 6.4.0:
 
@@ -40,6 +40,8 @@ Aktualisieren Sie in der Datei :file:`composer.json`, die sich im Hauptverzeichn
       composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.0
 
 3. Aktualisieren Sie die Versionen im ``require-dev``-Bereich:
+
+.. todo: #tbd: #HR: Einziger Schritt, der im Mininor Update zusätzlich zu den Schritten eines Patch-Updates hinzukommt? -- ja um bacw. comp sicherstellen -- Testen
 
    .. hint::
 
@@ -64,11 +66,11 @@ Aktualisieren Sie die benötigten Bibliotheken.
 
    .. code:: bash
 
-      cd /var/www/oxideshop
+      cd /var/www/oxideshop/
 
 2. Führen Sie den folgenden Composer-Befehl aus.
 
-   Optonal: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
+   Optional: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
 
    .. code:: bash
 
@@ -77,13 +79,16 @@ Aktualisieren Sie die benötigten Bibliotheken.
 |schritt| Neue Compilation beziehen
 -----------------------------------
 
-Führen Sie die Skripte aus, um die neue Compilation zu beziehen:
+Führen Sie die Skripte aus, um die neue Compilation zu beziehen.
+
+Bestätigen Sie dabei für Shop-Dateien, Themes und Module, dass das Update bestehende Dateien überschreibt.
+
 
 .. code:: bash
 
    composer update --no-dev
 
-Bestätigen Sie dabei für Shopdateien, Themes und Module, dass das Update bestehende Dateien überschreibt.
+
 
 |schritt| Temporäre Dateien löschen
 -----------------------------------
@@ -103,18 +108,14 @@ Migrieren Sie die Datenbank.
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
 
-Wenn nichts zu migrieren ist, erscheint die Meldung `PHP Warning:  require_once(migrate.php): failed to open stream: No such file or directory in /var/www/oxides`
+Wenn nichts zu migrieren ist, erscheint die Meldung `PHP Warning:  require_once(migrate.php): failed to open stream: No such file or directory in /var/www/oxideshop`
 
 |schritt| Optional: Datenbank-Views generieren
 ----------------------------------------------
 
-Je nach Änderungen und Shop-Edition kann es sein, dass der Shop in den Wartungsmodus geht, solange die Datenbank-Views nicht neu generiert werden.
+Je nach Änderungen und Shop-Edition kann es sein, dass der Shop in den Wartungsmodus geht.
 
-Prüfen Sie den Shop und führen Sie bei Bedarf den folgenden Befehl aus.
-
-.. todo #HR/#AF: how do I identify that the db views have to be generated?
-
-Eine Enterprise Edition enthalt Datenbank-Views der Subshops. Vor allem hier kann deshalb das Aktualisieren der Datenbank-Views nötig sein.
+Wenn der Shop nach dem Update im Wartungsmodus ist, generieren Sie die Datenbank-Views mit folgendem Befehl neu:
 
 .. code:: bash
 

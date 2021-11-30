@@ -15,7 +15,7 @@ Beratung und Unterstützung bei der Auswahl des geeigneten Systems finden Sie be
 
 ----------------------------------------------------------------------------------------------------------
 
-Für den Betrieb des OXID eShop Version 6 müssen die unten stehenden Systemvoraussetzungen erfüllt sein.
+Für den Betrieb des OXID eShop Version 6 muss Ihr System die folgenden Systemvoraussetzungen erfüllen.
 
 Webserver
 ---------
@@ -31,13 +31,12 @@ Webserver
 
    Bevor Sie das Setup ausführen können, prüft das System, ob die Systemvoraussetzungen erfüllt sind.
 
-   Es kann sein, dass unter :guilabel:`Server-Konfiguration` das *Apache mod_rewrite Module* als fehlerhaft markiert ist.
+   Es kann sein, dass unter :guilabel:`Server-Konfiguration` das *Apache mod_rewrite Module* als fehlerhaft markiert ist, obwohl Sie das Modul installiert haben.
 
    Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts.
 
-   Wenn Sie Apache Apache 2.3.9 haben, stellen Sie sicher, dass *AllowOverride* den Wert *None* hat.
+   Wenn Sie Apache 2.3.9 haben, stellen Sie sicher, dass *AllowOverride* den Wert *None* hat.
 
-.. todo #tbd Hinweis in EN nachziehen
 
 Der Zend Guard Loader wird nicht benötigt, da OXID eShop 6 unverschlüsselt ist.
 

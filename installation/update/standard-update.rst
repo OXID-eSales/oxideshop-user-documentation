@@ -1,7 +1,10 @@
 Standard-Update
 ===============
 
-Dieses Dokument beschreibt Patch-Updates des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden Version 6.4.x auf eine höhere Version 6.4.x aktualisiert. #tbd: prüfen
+Dieses Dokument beschreibt Patch-Updates des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden
+Version 6.4.x auf eine höhere Version 6.4.x aktualisiert.
+
+.. todo #tbd: prüfen
 
 Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, ausgeführt werden. Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank. Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert. Testen Sie nach dem Update den Shop erneut und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten.
 
@@ -11,22 +14,15 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 |schritt| Update-Ziel vorgeben
 ------------------------------
 
-.. todo #HR: Was bedeutet das folgende: Mache ich das vor composer require oder ist es das, was composer require macht?
+Aktualisieren Sie die Version des Metapackage in der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet.
 
-In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version des Metapackage aktualisiert werden.
+Passen Sie dazu im folgenden Befehl der Name des Metapackage an die verwendete Shop Edition an, und führen Sie den Befehl aus.
 
-Beispiel für ein Update einer Community Edition 6.4.0 zu 6.4.1:
+In unserem Beispiel aktualisieren Sie eine Community Edition von Version 6.4.0 zu Version 6.4.1:
 
 .. code:: bash
 
    composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.1
-
-. todo #HR: was bedeutet der folgende Hinweis?
-
-.. hint::
-
-   Der Name des Metapackage muss an die verwendeten Shop Edition angepasst werden.
-
 
 
 |schritt| Abhängigkeiten aktualisieren
@@ -61,9 +57,8 @@ Um sicherzustellen, dass die zwischengespeicherten Elemente keine Inkompatibilit
 |schritt| Datenbank migrieren
 -----------------------------
 
-Der dritte und letzte Composer-Befehl führt die Migration der Datenbank aus, falls dies erforderlich ist.
+DMigrieren Sie Datenbank.
 
-.. todo alls dies erforderlich ist streichen
 
 .. code:: bash
 
