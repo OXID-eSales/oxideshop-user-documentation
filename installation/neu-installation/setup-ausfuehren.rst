@@ -118,7 +118,7 @@ Notieren Sie sich die die folgenden Einstellungen und bewahren Sie die Daten an 
 
    Zeigt die URL an, unter der Ihr eShop erreichbar sein wird.
 
-.. todo: #tbd: testen: kann ich die URL ändern?
+.. todo: #tbd: testen: URL ändern
 
 :guilabel:`Verzeichnis auf dem Server zum Shop`
 

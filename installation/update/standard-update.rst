@@ -1,12 +1,21 @@
 Standard-Update
 ===============
 
-Dieses Dokument beschreibt Patch-Updates des OXID eShop. Mit den folgenden Schritten wird die Compilation von einer bestehenden
-Version 6.4.x auf eine höhere Version 6.4.x aktualisiert.
 
-.. todo #tbd: prüfen
+Führen Sie ein Update des OXID eShop aus.
 
-Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, ausgeführt werden. Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank. Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert. Testen Sie nach dem Update den Shop erneut und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten.
+Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf die Version 6.4.0.
+
+.. ATTENTION::
+   **Datenverlust**
+
+   Führen Sie das Update immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, aus.
+
+   Erstellen Sie zuvor eine Sicherung der Shop-Dateien und der Datenbank.
+
+   Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert.
+
+   Testen Sie nach dem Update den Shop erneut. Prüfen Sie besonders die Funktionen des Bestellprozesses, die Zahlungs- und Versandarten.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
@@ -14,41 +23,61 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 |schritt| Update-Ziel vorgeben
 ------------------------------
 
-Aktualisieren Sie die Version des Metapackage in der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet.
+Aktualisieren Sie in der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, die Version des Metapackage.
 
-Passen Sie dazu im folgenden Befehl der Name des Metapackage an die verwendete Shop Edition an, und führen Sie den Befehl aus.
 
-In unserem Beispiel aktualisieren Sie eine Community Edition von Version 6.4.0 zu Version 6.4.1:
+1. Passen Sie im folgenden Beispielbefehl die Versions-Nummer des Metapackage entsprechend der neuen Shop-Edition an:
 
-.. code:: bash
+   .. code:: bash
 
-   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.1
+      composer require --no-update oxid-esales/oxideshop-metapackage-<Typ der Edition: ce, pe oder ee>:v<Versions-Nummer>
+
+2. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Community Edition 6.3.1 zu 6.4.0:
+
+   .. code:: bash
+
+      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.0
+
+
 
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
 
-Öffnen Sie eine Shell im Hauptverzeichnis des Shops und führen Sie den nachstehenden Composer-Befehl aus.
-Dadurch werden alle benötigten Bibliotheken aktualisiert. Der Parameter :command:`--no-dev` wird angegeben,
-wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
+Aktualisieren Sie die benötigten Bibliotheken.
 
-.. code:: bash
+1. Wechseln Sie ins Hauptverzeichnis des Shops (in unserem Beispiel ``cd /var/www/oxideshop/``.
 
-   composer update --no-plugins --no-scripts --no-dev
+   .. code:: bash
+
+      cd /var/www/oxideshop/
+
+2. Führen Sie den folgenden Composer-Befehl aus.
+
+   Optional: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
+
+   .. code:: bash
+
+      composer update --no-plugins --no-scripts --no-dev
 
 |schritt| Neue Compilation beziehen
 -----------------------------------
-Mit einem zweiten Composer-Befehl werden alle Scripts ausgeführt, um die neue Compilation zu beziehen. Für Shopdateien,
-Themes und Module muss jeweils bestätigt werden, dass das Update bestehende Dateien überschreibt.
+
+Führen Sie die Skripte aus, um die neue Compilation zu beziehen.
+
+Bestätigen Sie dabei für Shop-Dateien, Themes und Module, dass das Update bestehende Dateien überschreibt.
+
 
 .. code:: bash
 
    composer update --no-dev
 
+
+
 |schritt| Temporäre Dateien löschen
 -----------------------------------
 
-Um sicherzustellen, dass die zwischengespeicherten Elemente keine Inkompatibilitäten enthalten, muss das Verzeichnis :file:`/tmp` geleert werden.
+Um sicherzustellen, dass die zwischengespeicherten Elemente keine Inkompatibilitäten enthalten, leeren Sie das Verzeichnis :file:`/tmp`.
 
 .. code:: bash
 
@@ -57,26 +86,27 @@ Um sicherzustellen, dass die zwischengespeicherten Elemente keine Inkompatibilit
 |schritt| Datenbank migrieren
 -----------------------------
 
-DMigrieren Sie Datenbank.
-
+Migrieren Sie die Datenbank.
 
 .. code:: bash
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
 
-|schritt| Optional: Views generieren
-------------------------------------
-Je nach Änderungen und Shop-Edition kann es sein, dass der Shop in den Wartungsmodus geht, solange die Views nicht neu generiert werden.
+Wenn nichts zu migrieren ist, erscheint die Meldung `PHP Warning:  require_once(migrate.php): failed to open stream: No such file or directory in /var/www/oxideshop`.
+
+|schritt| Wenn nötig: Datenbank-Views generieren
+------------------------------------------------
+
+Je nach Änderungen und Shop-Edition kann es sein, dass der Shop in den Wartungsmodus geht.
+
+Wenn der Shop nach dem Update im Wartungsmodus ist, generieren Sie die Datenbank-Views mit folgendem Befehl neu:
 
 .. code:: bash
 
    vendor/bin/oe-eshop-db_views_generate
 
-.. hint::
 
-   Wird üblicherweise beim Update einer Enterprise Edition benötigt. #tbd wenn EE, dann vermutlich nötig
-
-Damit ist das Update beendet.
+Das Update ist beendet. Wenn Sie den Shop als Administrator öffnen, wird die neue Version rechts oben angezeigt.
 
 
 .. Intern: oxbaix, Status:
