@@ -1,81 +1,111 @@
-Standard update
+Standard Update
 ===============
 
-This document describes patch updates of OXID eShop. Follow the steps below to upgrade the compilation from an existing version 6.3.x to a newer version 6.3.x.
+Update the OXID eShop.
 
-Updates should always be installed in a test environment, a copy of your current shop. Backup the shop files and the database before updating. Disable all modules and check whether the shop works in general. After updating, test the shop again by paying special attention to the ordering process as well as payment and shipping methods.
+With the following steps, update the Compilation from an existing version 6.3.x to version 6.4.0, for exmaple.
 
-.. hint::
+.. ATTENTION::
+   **Loss of data**
 
-   Before updating to OXID eShop 6.3.1 or higher, Composer must be updated to version 2.
+   Perform the update in a test environment (a copy of your current shop).
+
+   Make sure to backup the shop data and database.
+
+   Before the update, deactivate all modules and check whether the shop is working.
+
+   After the update, activate all modules and test the shop again. In particular, check the ordering process as well as payment and shipping methods.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
-               :class: no-shadow
+              :class: no-shadow
 
 |schritt| Specifying the target version of the update
 -----------------------------------------------------
 
-Update the version of the metapackage in the file :file:`composer.json` located in the shop’s main directory.
+In the :file:`composer.json` file, which is in the shop's main directory, update the metapackage version.
 
-Example of an update for a Community Edition 6.3.0 to 6.3.1:
 
-To do so, in the following command, adjust the name of the the metapackage according to the target shop edition, and execute the command.
+1. In the following sample command, adjust the edition type and the metapackage version number corresponding to the new shop version:
 
-In our example, you update a Community Edition from version 6.4.0 to version 6.4.1:
+   .. code:: bash
 
-.. code:: bash
+      composer require --no-update oxid-esales/oxideshop-metapackage-<eition type: ce, pe or ee>:v<version number>
 
-   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.3.1
+2. Execute the command, in our example for an update from a Community Edition 6.3.1 to 6.4.0:
+
+   .. code:: bash
+
+      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.0
+
 
 
 |schritt| Updating dependencies
 -------------------------------
-Open a shell in the shop's main directory and execute the following Composer command. This will update all required libraries. Specify the :command:`--no-dev` parameter if the development-related files are not required.
 
-.. code:: bash
+Update the required libraries.
 
-   composer update --no-plugins --no-scripts --no-dev
+1. Go to the shop's main directory.
 
-|schritt| Obtaining new compilation
------------------------------------
-The second Composer command executes all scripts to obtain the new compilation. For shop files, themes and modules, you will need to confirm that the update will overwrite the existing files.
+   .. code:: bash
+
+      cd /var/www/oxideshop
+
+2. Execute the following Composer command.
+
+   Optional: If you don't require the development-related files, use the  :command:`--no-dev` parameter.
+
+   .. code:: bash
+
+      composer update --no-plugins --no-scripts --no-dev
+
+|schritt| Obtaining the new compilation
+---------------------------------------
+
+Execute the the scripts to obtain the new compilation.
+
+For the shop files, themes, and modules, confirm the update overwrites existing files.
+
+.. todo #HR: gibts einen Parameter -y oder so, um automatisch alle Abfragen zu bestätigen?
 
 .. code:: bash
 
    composer update --no-dev
 
+
+
 |schritt| Deleting temporary files
 ----------------------------------
-To ensure the cached elements do not contain any incompatibilities the :file:`/tmp` directory needs to be cleared.
+
+To ensure the cached elements do not contain any incompatibilities, clear the :file:`/tmp` directory.
 
 .. code:: bash
 
    rm -rf source/tmp/*
 
-|schritt| Migrating database
------------------------------
+|schritt| Migrating the database
+--------------------------------
 
-Mmigrate the database.
+Migrate the database.
 
 .. code:: bash
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
 
+If there are no changes requiring a migration, the following message appears: ``PHP Warning:  require_once(migrate.php): failed to open stream: No such file or directory in /var/www/oxides``.
 
-|schritt| Optional: Generating views
-------------------------------------
+|schritt| If required: Generating database views
+------------------------------------------------
 
-Depending on changes and shop edition you might see the maintenance mode in the shop as long as the views are not generated again.
+Depending on the changes and your shop edition type, it's possible that you see the maintenance mode in the shop.
+
+If the shop is in maintenance mode after the update, generate the database views again. To do so, execute the following command.
 
 .. code:: bash
 
    vendor/bin/oe-eshop-db_views_generate
 
-.. hint::
 
-   Usually required when updating an Enterprise Edition.
-
-This completes the updating process.
+The update is finished. When you access the shop as administrator, the new version is displayed in the upper right corner.
 
 
-.. Intern: oxbaix, Status:
+.. Intern: oxbaix, Status: transL
