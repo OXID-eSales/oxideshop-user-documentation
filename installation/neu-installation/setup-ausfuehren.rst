@@ -74,19 +74,19 @@ Prüfen Sie die Lizenzbedingungen und akzeptieren Sie sie.
 
 Erstellen Sie eine Datenbank oder binden Sie eine bestehende Datenbank ein.
 
-
 :guilabel:`Datenbank Hostname oder IP Adresse`
 
    Sie haben folgende Möglichkeiten:
 
    * Wenn sich Datenbank und Webserver auf demselben Server befinden, lassen Sie den Standardwert `localhost` stehen. Das ist für die meisten Shops der Standard.
-   * Ist Ihre Datenbank ausgelagert, geben Sie den Hostnamen oder die IP-Adresse Ihres Datenbankservers an. Ist dabei die Angabe eines Ports erforderlich, steht dieser nach dem Hostnamen und einem Doppelpunkt (`Hostname:Port`).
+   * Ist Ihre Datenbank ausgelagert, geben Sie den Hostnamen oder die IP-Adresse Ihres Datenbankservers an. Ist dabei die Angabe eines Ports erforderlich, steht dieser nach dem Hostnamen und einem Doppelpunkt (``Hostname:Port``).
 
 :guilabel:`Datenbank Name`
 
+   Sie haben folgende Möglichkeiten:
+
    * Tragen Sie den Namen Ihrer ausgelagerten Datenbank ein.
    * Wenn Sie noch keine Datenbank haben, dann tragen Sie einen Namen für eine Datenbank ein, die das System beim Setup erstellt.
-
 
 :guilabel:`Datenbank Benutzername` und :guilabel:`Datenbank Passwort`
 
@@ -95,19 +95,19 @@ Erstellen Sie eine Datenbank oder binden Sie eine bestehende Datenbank ein.
 :guilabel:`Demodaten`
 
    Entscheiden Sie, ob Sie den Shop vorkonfiguriert mit Beispielartikeln installieren möchten.
+
    Demodaten sind empfehlenswert, wenn Sie sich zunächst in einer Testinstallation mit dem Shop vertraut machen möchten.
+
    Sie können die Demodaten jederzeit löschen, wenn Sie den Shop mit eigenen Artikeln befüllen wollen.
 
-Wählen Sie die Schaltfläche :guilabel:`Datenbank jetzt erstellen`.
 
-Wenn Sie eine existierende Datenbank eingebunden haben, erscheint eine Meldung, dass die Datenbank überschrieben wird und dass die
-erforderlichen Tabellen und Daten nun in dieser Datenbank gespeichert werden.
+Wenn Sie noch keine Datenbank haben, wählen Sie die Schaltfläche :guilabel:`Datenbank jetzt erstellen`.
 
-.. todo: #tbd: testen  setup neu wg. DB
+Wenn Sie eine existierende Datenbank eingebunden haben, erscheint eine Meldung, dass die Datenbank überschrieben wird und dass die erforderlichen Tabellen und Daten nun in dieser Datenbank gespeichert werden.
 
 
-|schritt| Verzeichnisse \& Login
---------------------------------
+|schritt| Verzeichnisse & Login
+-------------------------------
 
 Passen Sie bei Bedarf die Verzeichnis-Einstellungen an und legen Sie die Zugangsdaten für den Administrationsbereich des Shops fest.
 
@@ -123,7 +123,9 @@ Notieren Sie sich die die folgenden Einstellungen und bewahren Sie die Daten an 
 :guilabel:`Verzeichnis auf dem Server zum Shop`
 
    Gibt den internen Pfad zum Shop auf dem Server an (beispielsweise `/var/www/oxideshop/source/`).
-   Passen Sie den Pfad beisielsweise dann an, wenn Sie mehrere Shops haben.
+
+   Passen Sie den Pfad beispielsweise dann an, wenn Sie mehrere Shops haben.
+
    Sie brauchen den Pfad im letzten Schritt des Setups.
 
 :guilabel:`Verzeichnis auf dem Server zum TMP Verzeichnis`
@@ -136,9 +138,8 @@ Notieren Sie sich die die folgenden Einstellungen und bewahren Sie die Daten an 
 :guilabel:`Administrator E-Mail` und :guilabel:`Administrator Passwort`
 
    Tragen Sie die E-Mail-Adresse und das Passwort des Administrators ein.
+
    Mit diesen Daten melden Sie sich nach dem Setup im Administrationsbereich an.
-
-
 
 |schritt| Lizenz
 ----------------

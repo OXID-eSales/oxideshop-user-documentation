@@ -60,6 +60,7 @@ Aktualisieren Sie die benötigten Bibliotheken.
 
       composer update --no-plugins --no-scripts --no-dev
 
+
 |schritt| Neue Compilation beziehen
 -----------------------------------
 
@@ -71,7 +72,6 @@ Bestätigen Sie dabei für Shop-Dateien, Themes und Module, dass das Update best
 .. code:: bash
 
    composer update --no-dev
-
 
 
 |schritt| Temporäre Dateien löschen

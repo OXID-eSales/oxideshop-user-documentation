@@ -1,9 +1,7 @@
 OXID eShop 6.4.0
 ================
 
-Veröffentlichungstermin: xx.xx.2021
-
-.. todo: adjust date
+Veröffentlichungstermin: 15.12.2021
 
 -----------------------------------------------------------------------------------------
 
@@ -12,7 +10,6 @@ Verbesserungen und Anpassungen
 
 Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/b-6.3...b-6.4>`_.
 
-.. todo: #tbd #VL informiert zur URL  internene Release, zum Release testen
 
 Die Compilation enthält folgende Komponenten. Einige Komponenten wurden auf eine neue Version aktualisiert:
 
@@ -44,7 +41,7 @@ Die Compilation enthält folgende Komponenten. Einige Komponenten wurden auf ein
 Corrections
 -----------
 
-.. todo: #VL: Welche ID für 6.4?
+.. todo: #VL: Welche ID für 6.4? -- zum official Release aktualisieren
 
 Korrekturen sind in unserem Bugtracking-System aufgelistet. |br|
 https://bugs.oxid-esales.com/changelog_page.php?version_id=626

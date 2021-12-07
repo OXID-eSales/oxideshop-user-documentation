@@ -13,10 +13,10 @@ Die Installation des OXID eShop 6 basiert nicht mehr auf gepackten und herunterl
 
 Für die Neu-Installation des OXID eShop wird Composer benötigt. Eine Anleitung zur Installation finden Sie im Abschnitt "Getting Started" der Composer-Seiten: http://getcomposer.org.
 
-|schritt| Shopdateien bereitstellen
------------------------------------
+|schritt| Shop-Dateien bereitstellen
+------------------------------------
 
-Die Shopdateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edition müssen dafür unterschiedliche Kommandos in der Shell ausgeführt werden. Die Shopdateien werden in einem Unterverzeichnis gespeichert, welches im Kommando mit :command:`your_project_name` angegeben wird. Dabei wird von dem Verzeichnis ausgegangen, in dem das Kommando in der Shell abgesetzt wird. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
+Die Shop-Dateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edition müssen dafür unterschiedliche Kommandos in der Shell ausgeführt werden. Die Shop-Dateien werden in einem Unterverzeichnis gespeichert, welches im Kommando mit :command:`your_project_name` angegeben wird. Dabei wird von dem Verzeichnis ausgegangen, in dem der Befehl in der Shell abgesetzt wird. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
 
 .. hint:: Für die Installation der Professional und Enterprise Edition benötigen Sie zusätzlich die Zugangsdaten, die Sie mit der E-Mail zum aktuellen Release erhalten haben.
 
