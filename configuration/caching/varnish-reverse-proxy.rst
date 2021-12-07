@@ -68,4 +68,5 @@ SSL encryption
 Varnish processes requests from the web that use the HTTP protocol. Encrypted requests with HTTPS protocol can’t be executed through the reverse proxy. Since OXID eShop can switch to SSL encryption when user data is transferred, for example, during registration, login or in the shopping cart, a separate solution needs to be created. Currently, this can be done in two different ways. First, requests with the HTTPS protocol can be sent directly to the server with OXID eShop. This has to be implemented with server tools. Second, you can use a load balancer that forwards requests via HTTP, port 80 to Varnish and via HTTPS, port 443 directly to OXID eShop.
 
 .. Intern: oxbacb, Status:
+
 .. ToDo: call Composer for configuration files

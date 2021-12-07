@@ -3,7 +3,7 @@ Standard Update
 
 Update the OXID eShop.
 
-With the following steps, update the Compilation from an existing version 6.3.x to version 6.4.0, for exmaple.
+With the following steps, update the Compilation from an existing version 6.3.x to version 6.4.0, for example.
 
 .. ATTENTION::
    **Loss of data**
@@ -58,19 +58,18 @@ Update the required libraries.
 
       composer update --no-plugins --no-scripts --no-dev
 
+
 |schritt| Obtaining the new compilation
 ---------------------------------------
 
-Execute the the scripts to obtain the new compilation.
+Execute the scripts to obtain the new compilation.
 
 For the shop files, themes, and modules, confirm the update overwrites existing files.
 
-.. todo #HR: gibts einen Parameter -y oder so, um automatisch alle Abfragen zu bestätigen?
 
 .. code:: bash
 
    composer update --no-dev
-
 
 
 |schritt| Deleting temporary files
@@ -91,7 +90,7 @@ Migrate the database.
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
 
-If there are no changes requiring a migration, the following message appears: ``PHP Warning:  require_once(migrate.php): failed to open stream: No such file or directory in /var/www/oxides``.
+If there are no changes that require a migration, the following message appears: ``PHP Warning:  require_once(migrate.php): failed to open stream: No such file or directory in /var/www/oxides``.
 
 |schritt| If required: Generating database views
 ------------------------------------------------
@@ -105,7 +104,7 @@ If the shop is in maintenance mode after the update, generate the database views
    vendor/bin/oe-eshop-db_views_generate
 
 
-The update is finished. When you access the shop as administrator, the new version is displayed in the upper right corner.
+The update is finished. When you access the shop as an administrator, the new version is displayed in the upper right corner.
 
 
 .. Intern: oxbaix, Status: transL

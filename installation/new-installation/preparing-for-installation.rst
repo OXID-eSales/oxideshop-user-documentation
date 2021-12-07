@@ -1,7 +1,7 @@
 ﻿Preparing for installation
 ==========================
 
-Some preparations are necessary for the new installation of OXID eShop 6.3.
+Some preparations are necessary for the new installation of OXID eShop.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
@@ -65,7 +65,7 @@ For the web-based setup, the HTTP server must have write access to the following
 |schritt| Creating a database
 -----------------------------
 
-OXID eShop requires a MySQL database to store all products, categories, customer and order data, and other information. Most web hosts offer database access through a special website, such as phpMyAdmin. If you need further assistance, please contact your OXID Hosting Partner or Internet Service Provider (ISP).
+OXID eShop requires a MySQL database to store all products, categories, customer and order data, and other information. Most web hosts offer database access through a special website, such as phpMyAdmin. If you need further assistance, contact your OXID Hosting Partner or Internet Service Provider (ISP).
 
 You have the following options:
 

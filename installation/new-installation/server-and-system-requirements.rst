@@ -7,7 +7,7 @@ The choice of a suitable hosting package depends, for example, on the number of 
 
 You have the following options:
 
-* Use a shared hosting system for a small shop with a few hundred products, a few visitors per month and a manageable order volume.
+* Use a shared hosting system for a small shop with a few hundred products, a few visitors per month, and a manageable order volume.
 * Use a managed server system for larger shops.
 * As the load increases, a server farm with load balancing and a database cluster is recommended.
 
@@ -17,8 +17,8 @@ For advice and support in selecting the right system, contact our `OXID Hosting 
 
 The following system requirements must be met to operate OXID eShop version 6.
 
-Web server
-----------
+Webserver
+---------
 
 * Apache version 2.2 or 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition
@@ -31,7 +31,7 @@ Web server
 
    Before you can start the setup, the system checks whether the system requirements are met.
 
-   Under :guilabel:`Server Configuration`, it's possible that the *Apache mod_rewrite Module* is marked as defective, even with the *mod_rewrite* extension installed.
+   Under :guilabel:`Server Configuration`, the *Apache mod_rewrite Module* bay be marked as defective, even with the *mod_rewrite* extension installed.
 
    Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration.
 
@@ -73,7 +73,7 @@ PHP extensions that need to be installed:
 * *SOAP*
 * *DOM*
 
-.. note:: To run PHP 8 we strongly recommend to set the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` otherwise you will get a lot of warnings.
+.. note:: To run PHP 8 we strongly recommend setting the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` otherwise you will get a lot of warnings.
 
 Composer
 --------
@@ -81,7 +81,7 @@ Composer
 * Composer 1 or 2 for OXID eShop 6.3.0
 * Composer 2 since OXID eShop 6.3.1
 
-Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). The requirements for Composer can be found in `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
+You need Composer for the installation of OXID eShop and changes in autoloading of files (not at runtime). Find the requirements for Composer at `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
 
 OpenSSL
 -------

@@ -17,14 +17,15 @@ The installation guide in English can be found in the developer documentation: `
 
 -----------------------------------------------------------------------------------------
 
-Ensure server und system requirements
+Ensure server and system requirements
 -------------------------------------
+
 **Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 8.0, 7.4 and 7.3, Composer, OpenSSL |br|
 :doc:`Read article <server-and-system-requirements>` |link|
 
 Preparing for installation
 --------------------------
-**Contents**: installing Composer, providing shop files, configuring Apache, customising file and directory permissions, creating database |br|
+**Contents**: installing Composer, providing shop files, configuring Apache, customizing file and directory permissions, creating a database |br|
 :doc:`Read article <preparing-for-installation>` |link|
 
 Running setup
