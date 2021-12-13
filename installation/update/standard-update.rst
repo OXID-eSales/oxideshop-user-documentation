@@ -25,6 +25,7 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 
 Aktualisieren Sie in der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, die Version des Metapackage.
 
+.. todo #HR: Wenn ich in der EE mehrer Subshops habe, wiederhole ich den Prozess für jeden Shop oder kann ich shopübergreifend aktualisieren?
 
 1. Passen Sie im folgenden Beispielbefehl die Versions-Nummer des Metapackage entsprechend der neuen Shop-Edition an:
 
@@ -55,6 +56,8 @@ Aktualisieren Sie die benötigten Bibliotheken.
 2. Führen Sie den folgenden Composer-Befehl aus.
 
    Optional: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
+
+.. todo: #HR: in welchem Fall brauche ich die entwicklungsbezogenen Dateien?
 
    .. code:: bash
 
