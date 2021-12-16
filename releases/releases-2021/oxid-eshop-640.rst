@@ -35,7 +35,7 @@ The following components have been updated to a new version. Some components hav
    * NGINX 1.3.0 `Changelog 1.3.0 <https://github.com/OXID-eSales/nginx-module/blob/v1.3.0/CHANGELOG.md>`_
    * Varnish 1.1.0 `Changelog 1.1.0 <https://github.com/OXID-eSales/varnish-module/blob/v1.1.0/CHANGELOG.md>`_
 * OXID ERP Interface 3.2.0 `Changelog 3.2.0 <https://github.com/OXID-eSales/erp/blob/v3.2.0/CHANGELOG.md>`_
-* GraphQL (update from 5.1 to 6.0.1) `Changelog 6.0 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
+* GraphQL (update from 5.1 to 6.0.1) `Changelog 6.0.1 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
 
 Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.8.0...v6.9.0. Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
