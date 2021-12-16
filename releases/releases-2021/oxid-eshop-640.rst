@@ -36,10 +36,10 @@ Die Compilation enthält folgende Komponenten. Einige Komponenten wurden auf ein
    * NGINX 1.3.0 `Changelog 1.3.0 <https://github.com/OXID-eSales/nginx-module/blob/v1.3.0/CHANGELOG.md>`_
    * Varnish 1.1.0 `Changelog 1.1.0 <https://github.com/OXID-eSales/varnish-module/blob/v1.1.0/CHANGELOG.md>`_
 * OXID ERP Interface 3.2.0 `Changelog 3.2.0 <https://github.com/OXID-eSales/erp/blob/v3.2.0/CHANGELOG.md>`_
-* GraphQL (Update von 5.1 auf 6.0) `Changelog 6.0 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
+* GraphQL (Update von 5.1 auf 6.0.1) `Changelog 6.0.1 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
 
 
-Corrections
+Korrekturen
 -----------
 
 .. todo: #VL: Welche ID für 6.4? -- zum official Release aktualisieren
