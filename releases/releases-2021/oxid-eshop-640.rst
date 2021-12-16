@@ -45,7 +45,7 @@ Korrekturen
 .. todo: #VL: Welche ID für 6.4? -- zum official Release aktualisieren
 
 Korrekturen sind in unserem Bugtracking-System aufgelistet. |br|
-https://bugs.oxid-esales.com/changelog_page.php?version_id=626
+https://bugs.oxid-esales.com/changelog_page.php?version_id=619
 
 
 
