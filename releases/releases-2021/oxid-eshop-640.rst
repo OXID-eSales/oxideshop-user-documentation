@@ -45,7 +45,7 @@ Corrections
 -----------
 
 The bugs fixed with this patch are listed in our bugtrack system. |br|
-https://bugs.oxid-esales.com/changelog_page.php?version_id=626
+https://bugs.oxid-esales.com/changelog_page.php?version_id=619
 
 Installation
 ------------
