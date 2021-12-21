@@ -6,6 +6,8 @@ Führen Sie ein Update des OXID eShop aus.
 
 Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf die Version 6.4.0.
 
+Wenn Sie eine Oxid eShop Enterprise Editionhaben, um mehrere Subshops zu pflegen, wiederholen Sie das Update für jeden einzelnen Subshop.
+
 .. ATTENTION::
    **Datenverlust**
 
@@ -23,17 +25,22 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 |schritt| Update-Ziel vorgeben
 ------------------------------
 
-Aktualisieren Sie in der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, die Version des Metapackage.
+Um das Update auszuführen, wechseln Sie ins Hauptverzeichnis des Shops. Aktualisieren Sie in der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, die Version des Metapackage.
 
-.. todo #HR: Wenn ich in der EE mehrer Subshops habe, wiederhole ich den Prozess für jeden Shop oder kann ich shopübergreifend aktualisieren?
 
-1. Passen Sie im folgenden Beispielbefehl die Versions-Nummer des Metapackage entsprechend der neuen Shop-Edition an:
+1. Wechseln Sie ins Hauptverzeichnis des Shops (in unserem Beispiel `/var/www/oxideshop/`).
+
+   .. code:: bash
+
+      cd /var/www/oxideshop/
+
+2. Passen Sie im folgenden Beispielbefehl die Versions-Nummer des Metapackage entsprechend der neuen Shop-Edition an:
 
    .. code:: bash
 
       composer require --no-update oxid-esales/oxideshop-metapackage-<Typ der Edition: ce, pe oder ee>:v<Versions-Nummer>
 
-2. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Community Edition 6.3.1 zu 6.4.0:
+3. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Community Edition 6.3.1 zu 6.4.0:
 
    .. code:: bash
 
@@ -47,21 +54,15 @@ Aktualisieren Sie in der Datei :file:`composer.json`, die sich im Hauptverzeichn
 
 Aktualisieren Sie die benötigten Bibliotheken.
 
-1. Wechseln Sie ins Hauptverzeichnis des Shops (in unserem Beispiel ``cd /var/www/oxideshop/``.
+Führen Sie dazu den folgenden Composer-Befehl aus.
 
-   .. code:: bash
-
-      cd /var/www/oxideshop/
-
-2. Führen Sie den folgenden Composer-Befehl aus.
-
-   Optional: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
+Optional: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
 
 .. todo: #HR: in welchem Fall brauche ich die entwicklungsbezogenen Dateien?
 
-   .. code:: bash
+.. code:: bash
 
-      composer update --no-plugins --no-scripts --no-dev
+   composer update --no-plugins --no-scripts --no-dev
 
 
 |schritt| Neue Compilation beziehen
