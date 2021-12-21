@@ -5,6 +5,8 @@ Update the OXID eShop.
 
 With the following steps, update the Compilation from an existing version 6.3.x to version 6.4.0, for example.
 
+If you have an Oxid eShop Enterprise Edition to maintain multiple subshops, perform the update for each subshop.
+
 .. ATTENTION::
    **Loss of data**
 
@@ -22,16 +24,21 @@ With the following steps, update the Compilation from an existing version 6.3.x 
 |schritt| Specifying the target version of the update
 -----------------------------------------------------
 
-In the :file:`composer.json` file, which is in the shop's main directory, update the metapackage version.
+To perform the update, go to the shop's main directory. In the :file:`composer.json` file, which is in the shop's main directory, update the metapackage version.
 
+1. Go to the shop's main directory (`/var/www/oxideshop/`, in our example).
 
-1. In the following sample command, adjust the edition type and the metapackage version number corresponding to the new shop version:
+   .. code:: bash
+
+      cd /var/www/oxideshop
+
+2. In the following sample command, adjust the edition type and the metapackage version number corresponding to the new shop version:
 
    .. code:: bash
 
       composer require --no-update oxid-esales/oxideshop-metapackage-<eition type: ce, pe or ee>:v<version number>
 
-2. Execute the command, in our example for an update from a Community Edition 6.3.1 to 6.4.0:
+3. Execute the command, in our example for an update from a Community Edition 6.3.1 to 6.4.0:
 
    .. code:: bash
 
@@ -44,19 +51,13 @@ In the :file:`composer.json` file, which is in the shop's main directory, update
 
 Update the required libraries.
 
-1. Go to the shop's main directory.
+To do so, execute the following Composer command.
 
-   .. code:: bash
+Optional: If you don't require the development-related files, use the  :command:`--no-dev` parameter.
 
-      cd /var/www/oxideshop
+.. code:: bash
 
-2. Execute the following Composer command.
-
-   Optional: If you don't require the development-related files, use the  :command:`--no-dev` parameter.
-
-   .. code:: bash
-
-      composer update --no-plugins --no-scripts --no-dev
+   composer update --no-plugins --no-scripts --no-dev
 
 
 |schritt| Obtaining the new compilation
