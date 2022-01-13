@@ -15,8 +15,6 @@ Die Compilation enthält folgende Komponenten. Einige Komponenten wurden auf ein
 
 
 * OXID eShop CE 6.10.0 `Changelog 6.10.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.0/CHANGELOG.md>`_
-* OXID eShop PE 6.5.1 `Changelog 6.5.1 <https://github.com/OXID-eSales/oxideshop_pe/blob/v6.5.1/CHANGELOG.md>`_
-* OXID eShop EE 6.7.0 `Changelog 6.7.0 <https://github.com/OXID-eSales/oxideshop_ee/blob/v6.7.0/CHANGELOG.md>`_
 * Theme "Flow" 3.8.0 `Changelog 3.8.0 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.0/CHANGELOG.md>`_
 * Theme "Wave" 1.6.1 `Changelog 1.6.1 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.1/CHANGELOG.md>`_
 * Amazon Pay 3.6.8 `Changelog 3.6.8 <https://github.com/OXID-eSales/amazon-pay-oxid/blob/3.6.8/CHANGELOG.md>`_
@@ -26,16 +24,9 @@ Die Compilation enthält folgende Komponenten. Einige Komponenten wurden auf ein
 * PAYONE (Update von 1.5.1 auf 1.6.0) `Changelog 1.6.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.6.0/Changelog.txt>`_
 * PayPal (Update von 6.3.1 auf 6.4.0) `Changelog 6.4.0 <https://github.com/OXID-eSales/paypal/blob/v6.4.0/CHANGELOG.md>`_
 * WYSIWYG Editor + Mediathek 2.4.1 `Changelog 2.4.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.1/CHANGELOG.md>`_
-* Visual CMS (PE/EE) (Update von 3.5.3 auf 3.6.0) `Changelog 3.6.0 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.6.0/CHANGELOG.md>`_
 * Geo blocking 1.1.0 `Changelog 1.1.0 <https://github.com/OXID-eSales/geo-blocking-module/blob/v1.1.0/CHANGELOG.md>`_
 * Country VAT Administration 1.0.3 `Changelog 1.0.3 <https://github.com/OXID-eSales/country-vat-module/blob/v1.0.3/CHANGELOG.md>`_
 * OXID Econda Analytics (EE) 1.3.0 `Changelog 1.3.0 <https://github.com/OXID-eSales/econda-analytics-module/blob/v1.3.0/CHANGELOG.md>`_
-* OXID eShop Personalisierungsoption (EE) 2.2.0 `Changelog 2.2.0 <https://github.com/OXID-eSales/personalization-module/blob/v2.2.0/CHANGELOG.md>`_
-* B2B Edition (EE) 4.1.0 `Changelog 4.1.0 <https://github.com/OXID-eSales/oxid-eshop-b2b-edition/blob/v4.1.0/CHANGELOG.md>`_
-* OXID Highload Module (EE)
-   * NGINX 1.3.0 `Changelog 1.3.0 <https://github.com/OXID-eSales/nginx-module/blob/v1.3.0/CHANGELOG.md>`_
-   * Varnish 1.1.0 `Changelog 1.1.0 <https://github.com/OXID-eSales/varnish-module/blob/v1.1.0/CHANGELOG.md>`_
-* OXID ERP Interface 3.2.0 `Changelog 3.2.0 <https://github.com/OXID-eSales/erp/blob/v3.2.0/CHANGELOG.md>`_
 * GraphQL (Update von 5.1 auf 6.0.1) `Changelog 6.0.1 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
 
 
