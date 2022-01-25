@@ -21,13 +21,13 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'OXID eShop 6.4'
-copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
+copyright = '2021 - {}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The short X.Y version
 version = '6.4'
 # The full version, including alpha/beta/rc tags
-release = '6.4'
+release = '6.4.1'
 
 # -- General configuration ---------------------------------------------------
 
