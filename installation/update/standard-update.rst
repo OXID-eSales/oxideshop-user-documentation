@@ -3,7 +3,7 @@ Standard Update
 
 Update the OXID eShop.
 
-With the following steps, update the Compilation from an existing version 6.3.x to version 6.4.0, for example.
+With the following steps, update the Compilation from an existing version 6.3.x to version 6.4.1, for example.
 
 If you have an Oxid eShop Enterprise Edition to maintain multiple subshops, perform the update for each subshop.
 
@@ -38,11 +38,11 @@ To perform the update, go to the shop's main directory. In the :file:`composer.j
 
       composer require --no-update oxid-esales/oxideshop-metapackage-<eition type: ce, pe or ee>:v<version number>
 
-3. Execute the command, in our example for an update from a Community Edition 6.3.1 to 6.4.0:
+3. Execute the command, in our example for an update from a Community Edition 6.3.1 to 6.4.1:
 
    .. code:: bash
 
-      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.0
+      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.1
 
 
 
