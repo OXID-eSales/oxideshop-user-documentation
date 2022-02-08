@@ -12,11 +12,10 @@ Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.co
 
 
 
-
 Die Compilation enthält folgende Komponenten. Das PAYONE-Module wurde auf eine neue Version aktualisiert:
 
 
-* OXID eShop CE 6.10.0 `Changelog 6.10.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.0/CHANGELOG.md>`_
+* OXID eShop CE 6.10.1 `Changelog 6.10.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.1/CHANGELOG.md>`_
 * Theme "Flow" 3.8.0 `Changelog 3.8.0 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.0/CHANGELOG.md>`_
 * Theme "Wave" 1.6.1 `Changelog 1.6.1 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.1/CHANGELOG.md>`_
 * Amazon Pay 3.6.8 `Changelog 3.6.8 <https://github.com/OXID-eSales/amazon-pay-oxid/blob/3.6.8/CHANGELOG.md>`_
