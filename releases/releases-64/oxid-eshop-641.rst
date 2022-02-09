@@ -10,7 +10,7 @@ Improvements and adjustments
 ----------------------------
 
 
-View the changes to the compilation in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.0...v6.4.1>`_.
+View the changes to the compilation in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.0…v6.4.1>`_.
 
 The following components have been updated to a new version:
 
