@@ -8,7 +8,7 @@ Veröffentlichungstermin: 08.02.2022
 Verbesserungen und Anpassungen
 ------------------------------
 
-Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/b-6.4.0...b-6.4.1>`_.
+Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.0…v6.4.1>`_.
 
 Folgende Komponenten wurden aktualisiert:
 
