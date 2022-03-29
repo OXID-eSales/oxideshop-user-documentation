@@ -5,8 +5,6 @@ Update the OXID eShop.
 
 With the following steps, update the Compilation from an existing version 6.3.x to version 6.4.1, for example.
 
-If you have an Oxid eShop Enterprise Edition to maintain multiple subshops, perform the update for each subshop.
-
 .. ATTENTION::
    **Loss of data**
 
