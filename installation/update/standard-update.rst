@@ -89,7 +89,6 @@ Migrate the database.
 
    vendor/bin/oe-eshop-db_migrate migrations:migrate
 
-If there are no changes that require a migration, the following message appears: ``PHP Warning:  require_once(migrate.php): failed to open stream: No such file or directory in /var/www/oxides``.
 
 |schritt| If required: Generating database views
 ------------------------------------------------
