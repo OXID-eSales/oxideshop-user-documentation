@@ -11,9 +11,30 @@ Webserver
 * Apache Versionen 2.2 und 2.4 (auf Linux)
 * 500 MB freier Webspace für die Community und die Professional Edition
 * 750 MB freier Webspace für die Enterprise Edition
-* Installierte Erweiterung *mod_rewrite*
+* *mod_rewrite* Erweiterung installiert
 
-Bitte beachten Sie, dass trotz installierter Erweiterung *mod_rewrite* bei der Prüfung der Systemgesundheit die Voraussetzungen nicht erfüllt sein können. Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts. Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
+  .. note::
+
+      Auch wenn die *mod_rewrite*-Erweiterung installiert ist, kann es sein, dass die Systemüberprüfung nicht den Anforderungen entspricht.
+
+      Einer der Gründe dafür ist oft die Einstellung für *AllowOverride* in der Apache vhost-Konfiguration.
+
+      Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
+
+* Kryptographisch ausreichende Konfiguration
+
+  .. note::
+      **Was ist eine kryptographisch ausreichende Konfiguration und wie erreicht Sie sie?**
+
+      Eines der Merkmale einer sicheren Webanwendung ist die Fähigkeit, kryptografisch starke Zufallswerte zu erzeugen.
+
+      Aus diesem Grund muss der PHP-Prozess Zugang zu einer geeigneten Zufallsquelle für seine CSPRNG (*Cryptographically Secure Pseudorandom Number Generator*) Funktionen (`random_int()`, `random_bytes()`) haben.
+
+      In den meisten Fällen sind dazu keine zusätzlichen Anpassungen Ihrerseits erforderlich, und die Anwendungselemente sollten sofort zusammenarbeiten.
+
+      Wenn jedoch eine Ausnahme ausgelöst wird, beginnen Sie mit der Fehlersuche, indem Sie die Dokumentation für die oben genannten PHP-Funktionen unter `php.net/manual/de/function.random-bytes.php <https://www.php.net/manual/de/function.random-bytes.php>`_ und `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_ durchsehen.
+
+
 
 Datenbank
 ---------
