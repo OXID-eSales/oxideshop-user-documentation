@@ -11,9 +11,30 @@ Web server
 * Apache version 2.2 and 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition
 * 750 MB of free webspace for Enterprise Edition
-* Installed *mod_rewrite* extension
+* *mod_rewrite* extension installed
 
-Please note that even with the *mod_rewrite* extension installed, the system health check may not meet the requirements. Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration. This was changed to *AllowOverride None* with Apache 2.3.9.
+  ..  note::
+
+      Even with the *mod_rewrite* extension installed, the system health check may not meet the requirements.
+
+      Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration.
+
+      This was changed to *AllowOverride None* with Apache 2.3.9.
+
+* Cryptographically-sufficient configuration
+
+  ..  note::
+      **What is cryptographically-sufficient configuration and how to achieve it?**
+
+      One of the features of a secure web application is the ability to generate cryptographically-strong random values.
+
+      This is why the PHP process needs to have access to an appropriate source of randomness for its CSPRNG (*Cryptographically Secure Pseudorandom Number Generator*) functions (`random_int()`, `random_bytes()`).
+
+      In most cases no additional tweaking from your side will be necessary and application elements should work together out of the box.
+
+      However, if an exception is thrown, start troubleshooting by looking through the documentation for the aforementioned PHP functions under `php.net/manual/en/function.random-bytes.php <https://www.php.net/manual/en/function.random-bytes.php>`_ and `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_.
+
+
 
 Database
 --------
