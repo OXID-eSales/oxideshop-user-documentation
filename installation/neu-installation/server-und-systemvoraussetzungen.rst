@@ -32,7 +32,7 @@ Webserver
 
       In den meisten Fällen sind dazu keine zusätzlichen Anpassungen Ihrerseits erforderlich, und die Anwendungselemente sollten sofort zusammenarbeiten.
 
-      Wenn jedoch eine Ausnahme ausgelöst wird, beginnen Sie mit der Fehlersuche, indem Sie die Dokumentation für die oben genannten PHP-Funktionen unter `php.net/manual/de/function.random-bytes.php <https://www.php.net/manual/de/function.random-bytes.php>`_ und `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_ durchsehen.
+      Wenn jedoch durch eine der Funktionen (`random_int()` oder `random_bytes()`) eine Ausnahme ausgelöst wird, beginnen Sie mit der Fehlersuche, indem Sie die Dokumentation für die oben genannten PHP-Funktionen unter `php.net/manual/de/function.random-bytes.php <https://www.php.net/manual/de/function.random-bytes.php>`_ und `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_ durchsehen.
 
 
 
