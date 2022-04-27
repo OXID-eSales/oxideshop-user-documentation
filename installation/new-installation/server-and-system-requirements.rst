@@ -32,7 +32,7 @@ Web server
 
       In most cases no additional tweaking from your side will be necessary and application elements should work together out of the box.
 
-      However, if an exception is thrown, start troubleshooting by looking through the documentation for the aforementioned PHP functions under `php.net/manual/en/function.random-bytes.php <https://www.php.net/manual/en/function.random-bytes.php>`_ and `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_.
+      However, if an exception is thrown by one of the PHP functions (`random_int()` or `random_bytes()`), start troubleshooting by looking through the documentation for the functions under `php.net/manual/en/function.random-bytes.php <https://www.php.net/manual/en/function.random-bytes.php>`_ and `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_.
 
 
 
