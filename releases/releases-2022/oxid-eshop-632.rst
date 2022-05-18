@@ -37,13 +37,10 @@ Changes from the previous version of the OXID eShop component can be viewed in t
 |br|
 Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
------------------------------------------------------------------------------------------
-
-
 
 
 System requirements
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 OXID eShop 6.3.2 runs under PHP 8.0, 7.4 and 7.3.
 
@@ -54,7 +51,7 @@ Apache 2.2 or 2.4 can be used as a web server on a Linux system.
 Composer is supported in versions 1 and 2.
 
 Installation
-^^^^^^^^^^^^
+------------
 Please follow the instructions in section “Installation”:
 
 :doc:`New installation <../../installation/new-installation/new-installation>` |br|
@@ -62,9 +59,8 @@ Please follow the instructions in section “Installation”:
 
 Run the update first in a test or development environment, or a copy of your current shop. Then, test the ordering process and payment and shipping methods. If the shop works correctly, you can replace the shop in the live system with the one from the test or development environment.
 
------------------------------------------------------------------------------------------
 
 
 
 
-.. Intern: oxbajw, Status: transL
+.. Intern: , Status: transL
