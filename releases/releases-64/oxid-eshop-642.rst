@@ -1,25 +1,23 @@
-OXID eShop 6.4.1
+OXID eShop 6.4.2
 ================
 
-Release date: 08/02/2022
+Release date: 17/05/2022
 
------------------------------------------------------------------------------------------
+OXID eShop 6.4.2 resolves Bugs. See :ref:`releases/releases-64/oxid-eshop-642:Corrections`.
 
 
 Improvements and adjustments
 ----------------------------
 
-
-View the changes to the compilation in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.0…v6.4.1>`_.
+View the changes to the compilation in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.1…v6.4.2>`_.
 
 The following components have been updated to a new version:
 
-* OXID eShop CE (update from 6.10.0 to 6.10.1) `Changelog 6.10.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.1/CHANGELOG.md>`_
-* PAYONE (update from 1.6.0 to 1.6.2) `Changelog 1.6.2 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.6.2/Changelog.txt>`_
+* OXID eShop CE (update from 6.10.1 to 6.10.2) `Changelog 6.10.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.2/CHANGELOG.md>`_
 
 The compilation contains the following components:
 
-* OXID eShop CE 6.10.1 `Changelog 6.10.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.1/CHANGELOG.md>`_
+* OXID eShop CE 6.10.2 `Changelog 6.10.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.2/CHANGELOG.md>`_
 * Theme "Flow" 3.8.0 `Changelog 3.8.0 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.0/CHANGELOG.md>`_
 * Theme "Wave" 1.6.1 `Changelog 1.6.1 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.1/CHANGELOG.md>`_
 * Amazon Pay 3.6.8 `Changelog 3.6.8 <https://github.com/OXID-eSales/amazon-pay-oxid/blob/3.6.8/CHANGELOG.md>`_
@@ -36,13 +34,11 @@ The compilation contains the following components:
 
 
 
------------------------------------------------------------------------------------------
-
 Corrections
 -----------
 
 Find the bugs fixed with this patch are listed in our bugtrack system. |br|
-https://bugs.oxid-esales.com/changelog_page.php?version_id=671
+https://bugs.oxid-esales.com/changelog_page.php?version_id=673
 
 Installation
 ------------
@@ -53,4 +49,6 @@ Follow the instructions in section “Installation”:
 :doc:`Installing updates <../../installation/update/update>`
 
 
-.. Intern: oxbajw, Status: transL
+
+
+.. Intern: , Status: transL
