@@ -1,4 +1,5 @@
-﻿Releases 2022
+﻿:hidden:
+Releases 2022
 =============
 
 .. toctree::
