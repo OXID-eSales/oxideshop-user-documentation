@@ -1,7 +1,7 @@
 ﻿Releases
 ========
 
-Informieren Sie sich über Neuerungen und Änderungen der Versionen des OXID eShop.
+Find out about innovations and changes in the versions of OXID eShop.
 
 .. toctree::
    :maxdepth: 1
