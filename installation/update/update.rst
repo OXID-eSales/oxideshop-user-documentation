@@ -17,3 +17,8 @@ Update from 6.2.x to 6.3.0
 
 
 .. Intern: oxbahv, Status: transL
+
+.. warning::
+    OXID eShop relies on Composer for its update procedures.
+    Please be aware that it's not possible to use Composer v2.3.x or newer with the current version of OXID eShop.
+    :ref:`See more <server_requirements_composer>`

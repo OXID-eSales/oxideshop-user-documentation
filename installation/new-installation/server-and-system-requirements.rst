@@ -53,13 +53,34 @@ PHP extensions that need to be installed:
 
 .. note:: To run PHP 8 we strongly recommend to set the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` otherwise you will get a lot of warnings.
 
+.. _server_requirements_composer:
+
 Composer
 --------
 
-* Composer 1 or 2 for OXID eShop 6.3.0
-* Composer 2 since OXID eShop 6.3.1
+OXID eShop uses Composer as a dependency manager and classes autoloader.
+Recommended Composer versions are:
 
-Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). The requirements for Composer can be found in `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
+* v1 or v2 (up to v2.2.x) for OXID eShop 6.3.0 and older
+* v2 (up to v2.2.x) for OXID eShop 6.3.1 and newer.
+
+.. warning::
+    It's not possible to use Composer v2.3.x or newer with the current version of OXID eShop.
+    The issue will be mitigated in the upcoming minor release of OXID eShop.
+    Meanwhile, you can install any previous version of `Composer <https://getcomposer.org/download/>`_,
+    or set the existing one to the latest compatible version to make sure it's fully operational with OXID eShop.
+    E.g. by running the following in terminal:
+.. code:: bash
+
+   composer selfupdate 2.2.12
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Why it might be necessary to use an older version of Composer?
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+Composer, being a PHP application, utilizes `Symfony components <https://symfony.com/components>`_ for its internal operation.
+Starting with v2.3.0, Composer bundles versions of these components that conflict with the ones used in OXID eShop
+(`see discussion with the similar issue <https://github.com/composer/composer/issues/10671>`_)
 
 OpenSSL
 -------
