@@ -1,4 +1,4 @@
-:hidden:
+:orphan:
 OXID eShop 6.3.2
 ================
 
