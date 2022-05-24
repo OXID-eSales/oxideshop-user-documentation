@@ -12,6 +12,9 @@ Updates should always be installed in a test environment, a copy of your current
 
 |schritt| Updating Composer
 ---------------------------
+
+Update to composer 2.2.x.
+
 .. attention::
 
    Composer 2.3.x is not supported.
