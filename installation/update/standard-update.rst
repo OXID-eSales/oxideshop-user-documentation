@@ -16,8 +16,25 @@ With the following steps, update the Compilation from an existing version 6.3.x 
 
    After the update, activate all modules and test the shop again. In particular, check the ordering process as well as payment and shipping methods.
 
+
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
+
+|schritt| Updating Composer
+---------------------------
+
+Update to composer 2.2.x.
+
+.. attention::
+
+   Composer 2.3.x is not supported.
+
+   If you have Composer 2.3.x, for example, install Composer 2.2.x as follows:
+
+   .. code:: bash
+
+      composer selfupdate 2.2.12
+
 
 |schritt| Specifying the target version of the update
 -----------------------------------------------------
