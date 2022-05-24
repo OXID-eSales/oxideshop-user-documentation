@@ -5,12 +5,24 @@ This document describes patch updates of OXID eShop. Follow the steps below to u
 
 Updates should always be installed in a test environment, a copy of your current shop. Backup the shop files and the database before updating. Disable all modules and check whether the shop works in general. After updating, test the shop again by paying special attention to the ordering process as well as payment and shipping methods.
 
-.. hint::
 
-   Before updating to OXID eShop 6.3.1 or higher, Composer must be updated to version 2.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
+
+|schritt| Updating Composer
+---------------------------
+.. attention::
+
+   Composer 2.3.x is not supported.
+
+   If you have Composer 2.3.x, for example, install Composer 2.2.x as follows:
+
+   .. code:: bash
+
+      composer selfupdate 2.2.12
+
+
 
 |schritt| Specifying the target version of the update
 -----------------------------------------------------

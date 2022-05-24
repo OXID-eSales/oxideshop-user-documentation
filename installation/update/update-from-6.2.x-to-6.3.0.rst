@@ -8,6 +8,20 @@ Updates should always be installed in a test environment, a copy of your current
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
 
+|schritt| Updating Composer
+---------------------------
+.. attention::
+
+   Composer 2.3.x is not supported.
+
+   If you have Composer 2.3.x, for example, install Composer 2.2.x as follows:
+
+   .. code:: bash
+
+      composer selfupdate 2.2.12
+
+
+
 |schritt| Specifying the target version of the update
 -----------------------------------------------------
 In the file :file:`composer.json` located in the shop’s main directory, the version of the metapackage must be updated.
