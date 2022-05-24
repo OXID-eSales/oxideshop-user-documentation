@@ -20,6 +20,21 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
+|schritt| Composer aktualisieren
+--------------------------------
+
+Aktualisieren Sie Composer auf Version 2.2.x.
+
+.. attention::
+
+   Composer 2.3.x wird nicht unterstützt.
+
+   Wenn Sie Composer 2.3.x haben, installieren Sie Composer 2.2.x beispielsweise wie folgt:
+
+   .. code:: bash
+
+      composer selfupdate 2.2.12
+
 |schritt| Update-Ziel vorgeben
 ------------------------------
 

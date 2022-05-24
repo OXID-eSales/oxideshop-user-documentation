@@ -82,6 +82,18 @@ Composer
 * Composer 1 oder 2 für OXID eShop 6.3.0
 * Composer 2 ab OXID eShop 6.3.1
 
+.. attention::
+
+   Composer 2.3.x wird nicht unterstützt.
+
+   Wenn Sie Composer 2.3.x haben, installieren Sie Composer 2.2.x beispielsweise wie folgt:
+
+   .. code:: bash
+
+      composer selfupdate 2.2.12
+
+
+
 Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
 
 OpenSSL
