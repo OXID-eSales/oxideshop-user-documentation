@@ -1,9 +1,7 @@
-:orphan:
-
 OXID eShop 6.4.2
 ================
 
-Release date: 17/05/2022
+Release date: 31/05/2022
 
 OXID eShop 6.4.2 resolves Bugs. See :ref:`releases/releases-64/oxid-eshop-642:Corrections`.
 
