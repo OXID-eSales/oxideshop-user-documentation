@@ -3,7 +3,7 @@
 
 Releases 2022
 -------------
-17.05.2022 - :doc:`OXID eShop 6.3.2 <releases-2022/oxid-eshop-632>`
+31.05.2022 - :doc:`OXID eShop 6.3.2 <releases-2022/oxid-eshop-632>`
 
 Releases 2021
 -------------
