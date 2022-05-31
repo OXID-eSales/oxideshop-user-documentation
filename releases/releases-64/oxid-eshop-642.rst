@@ -26,7 +26,7 @@ Die Compilation enthält folgende Komponenten:
 * Klarna 5.5.2 `Changelog 5.5.2 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.2/CHANGELOG.md>`_
 * OXID Cookie Management 1.2.0 powered by usercentrics `Changelog 1.2.0 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.0/CHANGELOG.md>`_
 * PAYONE 1.6.2 `Changelog 1.6.2 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.6.2/Changelog.txt>`_
-* PayPal 6.4.0`Changelog 6.4.0 <https://github.com/OXID-eSales/paypal/blob/v6.4.0/CHANGELOG.md>`_
+* PayPal 6.4.0 `Changelog 6.4.0 <https://github.com/OXID-eSales/paypal/blob/v6.4.0/CHANGELOG.md>`_
 * WYSIWYG Editor + Mediathek 2.4.1 `Changelog 2.4.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.1/CHANGELOG.md>`_
 * Geo blocking 1.1.0 `Changelog 1.1.0 <https://github.com/OXID-eSales/geo-blocking-module/blob/v1.1.0/CHANGELOG.md>`_
 * Country VAT Administration 1.0.3 `Changelog 1.0.3 <https://github.com/OXID-eSales/country-vat-module/blob/v1.0.3/CHANGELOG.md>`_
