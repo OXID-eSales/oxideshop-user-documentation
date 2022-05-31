@@ -1,8 +1,7 @@
-:orphan:
 OXID eShop 6.3.2
 ================
 
-Release date: 17/05/2022
+Release date: 31/05/2022
 
 General information
 -------------------
@@ -37,7 +36,6 @@ The following component has been updated:
 Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: `<https://github.com/OXID-eSales/oxideshop_ce/compare/v6.9.0...v6.9.1>`_.
 |br|
 Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
-
 
 
 System requirements
