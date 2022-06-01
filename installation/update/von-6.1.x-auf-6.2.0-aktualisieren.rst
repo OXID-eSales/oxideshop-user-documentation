@@ -19,7 +19,7 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
    },
    "require-dev": {
       "oxid-esales/testing-library": "^v7.0.1",
-      "incenteev/composer-parameter-handler": "^v2.0.0",
+      "incenteev/composer-parameter-handler": "^v2.0",
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
    },
@@ -33,7 +33,7 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
    },
    "require-dev": {
       "oxid-esales/testing-library": "^v7.0.1",
-      "incenteev/composer-parameter-handler": "^v2.0.0",
+      "incenteev/composer-parameter-handler": "^v2.0",
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
    },
@@ -47,7 +47,7 @@ Dieses Dokument beschreibt das Update von OXID eShop 6.1.0 und höher auf OXID e
    },
    "require-dev": {
       "oxid-esales/testing-library": "^v7.0.1",
-      "incenteev/composer-parameter-handler": "^v2.0.0",
+      "incenteev/composer-parameter-handler": "^v2.0",
       "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
       "oxid-esales/azure-theme": "^v1.4.2"
    },
