@@ -45,11 +45,11 @@ https://bugs.oxid-esales.com/changelog_page.php?version_id=673
 Installation
 ------------
 
-Zum Installieren oder Aktualisieren folgen Sie den Anleitungen im Abschnitt "Installation":
+Zum Installieren oder Aktualisieren folgen Sie den Anleitungen im Abschnitt *Installation*:
 
 
 :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>` |br|
-:doc:`Update <../../installation/update/update>`
+:doc:`Update <../../installation/update/minor-update>`
 
 
 .. Intern: , Status:

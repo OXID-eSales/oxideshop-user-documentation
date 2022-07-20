@@ -1,7 +1,9 @@
 ﻿Registerkarte Downloads
 =======================
 
-Mit Download-Artikeln können beliebige Dateien, beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen, zum Verkauf angeboten werden. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien.
+Bieten Sie mit Download-Artikeln beliebige Dateien, beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen, zum Verkauf an.
+
+Legt Ihr Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien.
 
 Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --> Meine Downloads`. Die Dateien können heruntergeladen werden, sobald die Zahlung erfolgt ist. Werden beispielsweise Lastschrift oder Kreditkartenzahlung als Zahlungsart verwendet, ist das Herunterladen sofort möglich. Die E-Mail, welche die Bestellung bestätigt, enthält ebenfalls die Downloadlinks zu den bestellten Dateien, wenn die Bezahlung abgeschlossen ist.
 
@@ -10,7 +12,11 @@ Nach der Bestellung finden sich die Downloadlinks unter :menuselection:`Konto --
    :height: 342
    :width: 650
 
-Die Verwendung von Download-Artikeln im Shop muss global aktiviert werden. Im Administrationsbereich können in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Download-Artikel` die Standardeinstellungen vorgenommen werden. Das sind - neben dem Aktivieren der Funktion - der Pfad zu den herunterladbaren Dateien und Festlegungen zur Anzahl der Downloads oder zur Verfallszeit der Links.
+Die Verwendung von Download-Artikeln im Shop müssen Sie global aktivieren.
+|br|
+Das tun Sie im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Download-Artikel`.
+|br|
+Konfigurieren Sie dort außerdem globale Standard-Einstellungen wie den Pfad zu den herunterladbaren Dateien, die mögliche Anzahl der Downloads oder die Verfallszeit der Links.
 
 Die zum Artikel gehörenden Dateien werden auf der Registerkarte :guilabel:` Downloads` hochgeladen und deren spezielle Download-Einstellungen definiert. Für jeden Download-Artikel und für jede einzelne Datei können die Werte abweichend von den Standardeinstellungen festgelegt werden. Das erlaubt eine sehr filigrane Definition der Bedingungen für den Download.
 

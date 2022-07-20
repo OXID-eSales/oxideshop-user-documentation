@@ -28,8 +28,6 @@ Stellen Sie sicher, dass während des Setup Konfigurationsparameter geschrieben 
 
    Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL, unter der ihr OXID eShop erreichbar sein wird.
 
-.. todo: #tbd: #HR: prüfen: Wo habe ich bei der Installation die IP-Adresse festgelegt?
-
    Das Setup startet.
 
 |schritt| Voraussetzungen
@@ -118,7 +116,6 @@ Notieren Sie sich die die folgenden Einstellungen und bewahren Sie die Daten an 
 
    Zeigt die URL an, unter der Ihr eShop erreichbar sein wird.
 
-.. todo: #tbd: testen: URL ändern
 
 :guilabel:`Verzeichnis auf dem Server zum Shop`
 

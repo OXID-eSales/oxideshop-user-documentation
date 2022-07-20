@@ -149,26 +149,37 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
-# A string of reStructuredText that will be included at the beginning of every source file that is read.
+# A string of reStructuredText that will be included at the beginning of every source file that is read; custom roles; associated classes are defined in the css
 rst_prolog = """
 .. role:: db
-
+.. role:: productname
+.. role:: technicalname
 """
 
 rst_epilog = """
 .. |link| image:: /media/icons/link.png
            :class: no-shadow
-
+.. |procedure| replace:: **Vorgehen**
+.. |prerequisites| replace:: **Voraussetzungen**
+.. |result| replace:: **Resultat**
+.. |background| replace:: **Hintergrund**
+.. |example| replace:: **Beispiel**
 .. |br| raw:: html
 
    <br />
 """
 
 
+
+
+
+
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'OXIDeShop64doc'
+
+
 
 
 # -- Options for LaTeX output ------------------------------------------------
