@@ -43,10 +43,10 @@ https://bugs.oxid-esales.com/changelog_page.php?version_id=673
 Installation
 ------------
 
-Follow the instructions in section “Installation”:
+Follow the instructions in section *Installation*:
 
 :doc:`New installation <../../installation/new-installation/new-installation>` |br|
-:doc:`Installing updates <../../installation/update/update>`
+:doc:`Installing updates <../../installation/update/minor-update>`
 
 
 

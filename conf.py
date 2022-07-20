@@ -279,7 +279,7 @@ rst_epilog = """
 .. |link| image:: /media/icons/link.png
            :class: no-shadow
 .. |procedure| replace:: **Procedure**
-.. |prerequisites| replace:: *Prerequisites**
+.. |prerequisites| replace:: **Prerequisites**
 .. |result| replace:: **Result**
 .. |background| replace:: **Background**
 .. |example| replace:: **Example**
