@@ -15,10 +15,14 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
    Enter product’s length, width and height in meters if the shipping costs must be calculated based on product dimensions.
 
 :guilabel:`Quantity` ... :guilabel:`Unit`
-   Specifying quantity and unit of measure is required for products for which a base price must be specified. The base price is the price relative to a specific unit of measure, such as kilograms or litres. Enter the product quantity per unit of measure. You can select a unit of measure from the list or enter a unit of measure that’s not in the list.
-
+   Specifying quantity and unit of measure is required for products for which a base price must be specified.
+   |br|
+   The base price is the price relative to a specific unit of measure, such as kilograms or litres.
+   |br|
+   Enter the product quantity per unit of measure. You can select a unit of measure from the list or enter a unit of measure that’s not in the list.
+   |br|
    The base price will be displayed in the product’s detailed view.
-
+   |br|
    Example: For a product that is offered in a 1.5 kg package, enter 1.5 in the Quantity field and select :guilabel:`kg` as the unit of measure. Assuming the product costs €3.00, the base price would be €2.00/kg.
 
 :guilabel:`External URL`
@@ -53,9 +57,13 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
    If this box is checked, an additional input field will be displayed on the product’s details page and in the shopping cart. Customers can enter text in this input field to provide individual information when purchasing products. This could be the text that is printed on a T-shirt or a mug or an engraved in a ring.
 
 :guilabel:`Intangible Product`
-   Intangible products are products that are not packaged and sent to customers, for example, seminars or services. If no shipping costs have to be calculated for all intangible products, you will need to select :guilabel:`Don't consider intangible Products (e.g. Gift Certificates) in Shipping Costs Calculation` in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Other settings`.
-
-   If you want to offer software, please use the \"Downloadable product\" function.
+   Intangible products are products that are not packaged and sent to customers, for example, seminars or services.
+   |br|
+   If no shipping costs have to be calculated for all intangible products, you will need to select :guilabel:`Don't consider intangible Products (e.g. Gift Certificates) in Shipping Costs Calculation` in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Other settings`.
+   |br|
+   If you offer software, under :menuselection:`Master Settings --> Core Settings --> Settings --> Download articles` you have configured the \"Download articles\" function.
+   |br|
+   For more Informationen,see :doc:`Downloads tab <../../setup/products/downloads-tab>`.
 
 :guilabel:`Free Shipping`
    If this box is checked, the product won’t be included in the shipping cost calculation. However, even when this product is added to the shopping cart together with other products, this doesn’t mean that the entire order will ship for free.
@@ -84,12 +92,19 @@ Until OXID eShop 6.2.1, wished price was called price alert.
 :guilabel:`Assign Categories`
    A product can belong to one or more categories. Clicking on :guilabel:`Assign Categories` opens a new window.
 
-.. image:: ../../media/screenshots/oxbacj02.png
-   :alt: Assign Categories
-   :height: 311
-   :width: 400
+   .. image:: ../../media/screenshots/oxbacj02.png
+      :alt: Assign Categories
+      :height: 311
+      :width: 400
 
-All available categories will be displayed in the left-hand list. Drag and drop the desired categories into the right-hand list of the assignment window. Hold down the Ctrl key to select multiple categories. The assignment is now completed. If the product exists in multiple categories, one of them must be set as the main category to avoid duplicate content (DC). Highlight the main category in the right-hand list and click on :guilabel:`Set as Main Category`.
+   |br|
+   All available categories will be displayed in the left-hand list.
+   |br|
+   Drag and drop the desired categories into the right-hand list of the assignment window. Hold down the Ctrl key to select multiple categories.
+   |br|
+   The assignment is now completed.
+   |br|
+   If the product exists in multiple categories, one of them must be set as the main category to avoid duplicate content (DC). Highlight the main category in the right-hand list and click on :guilabel:`Set as Main Category`.
 
 :guilabel:`Media URLs`
    You can provide additional information, such as links or downloads, in the product’s detailed view. These will be displayed in the automatically created :guilabel:`MEDIA` tab. You can also add multiple media files for a product.
