@@ -1,5 +1,5 @@
-Patch-Update ausführen
-======================
+Patch-Update installieren
+=========================
 
 Führen Sie bei Bedarf ein Patch-Update Ihres OXID eShops durch.
 

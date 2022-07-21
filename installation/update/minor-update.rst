@@ -1,5 +1,5 @@
-Minor Update ausführen
-======================
+Minor Update installieren
+=========================
 
 Führen Sie bei Bedarf ein Minor-Update Ihres OXID eShops durch.
 
