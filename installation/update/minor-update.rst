@@ -1,4 +1,4 @@
-Performing A Minor Update
+Installing a minor update
 =========================
 
 Perform a minor update of your OXID eShop if required.

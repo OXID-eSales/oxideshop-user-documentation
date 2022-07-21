@@ -1,4 +1,4 @@
-Performing a patch update
+Installing a patch update
 =========================
 
 Perform a patch update of your OXID eShop if required.
