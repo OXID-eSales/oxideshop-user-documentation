@@ -3,9 +3,28 @@ Minor Update installieren
 
 Führen Sie bei Bedarf ein Minor-Update Ihres OXID eShops durch.
 
-Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.2.x auf Version 6.4.x.
+Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
+
+
+
+.. todo: #VL: ist etwas bei dem Minor update von 6.4.x auf 6.5.0 zu beachten?  -- nein
+.. todo: #VL: In welchem Fall würde ich auf 643 updaten statt gleich auf 650? -- 6.5.0 8.1, simfony-komponenten
 
 .. include:: /_static/reuse/note_dataloss.rst
+
+Kompatibilität von Drittanbieter-Modulen sicherstellen
+------------------------------------------------------
+
+Wenn Sie Module oder Themes von Drittanbietern verwenden, fragen Sie den Drittanbieter, ob diese Themes und Module mit der neuen Version des OXID eShops kompatibel sind.
+
+Hintergrund: Normalerweise enthält ein Minor Update keine breaking changes. Alle Module von Drittanbietern funktionieren nach dem Update wie zuvor.
+
+In Ausnahmefällen können sich Änderungen jedoch so auswirken, dass Module von Drittanbietern nicht mehr funktionieren.
+|br|
+Beispiele:
+
+* Drittanbieter-Module funktionieren beim Update von OXID eShop 6.1 auf 6.2 nicht mehr.
+* Das OXID eSales-Modul Amazon Pay 3.6.8 funktioniert in OXID eShop 6.5 nicht mehr (siehe :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
 
 
 Voraussetzungen sicherstellen

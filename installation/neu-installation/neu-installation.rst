@@ -14,9 +14,8 @@ Danach führen Sie das webbasierte Setup aus und installieren den Shop.
     :width: 650
 
 .. todo Check installation guide:
-.. todo: #VL: V. 6.5 der Dev-Doku clonen? https://docs.oxid-esales.com/developer/en/6.4/getting_started/installation/index.html
 
-Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/6.4/getting_started/installation/index.html>`_.
+Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 
