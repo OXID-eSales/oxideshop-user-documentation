@@ -1,7 +1,7 @@
 ﻿Installation vorbereiten
 ========================
 
-Für die Neu-Installation des OXID eShop sind einige Vorbereitungen notwendig.
+Schaffen Sie die Voraussetzungen für die Neu-Installation des OXID eShop.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
@@ -11,7 +11,9 @@ Für die Neu-Installation des OXID eShop sind einige Vorbereitungen notwendig.
 
 Die Installation des OXID eShop 6 basiert nicht mehr auf gepackten und herunterladbaren Installationspaketen, sondern wird mit Hilfe von Composer ausgeführt. Composer ist ein Dependency Manager für PHP, ein Tool, welches Abhängigkeiten von Programmbestandteilen eines Projektes berücksichtigt, während es die Dateien dieses Projekts in ein definiertes Verzeichnis installiert.
 
-Für die Neu-Installation des OXID eShop wird Composer benötigt. Eine Anleitung zur Installation finden Sie im Abschnitt "Getting Started" der Composer-Seiten: http://getcomposer.org.
+Für die Neu-Installation des OXID eShop brauchen Sie Composer. Siehe unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server und Systemvoraussetzungen` Abschnitt :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Composer`.
+
+Eine Anleitung zur Installation finden Sie im Abschnitt "Getting Started" der Composer-Seiten unter: http://getcomposer.org.
 
 |schritt| Shop-Dateien bereitstellen
 ------------------------------------
@@ -23,17 +25,17 @@ Die Shop-Dateien werden durch Composer bereitgestellt. Abhängig von der Shop-Ed
 Community Edition
 ^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.4-ce`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.5-ce`
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.4-pe`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.5-pe`
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.4-ee`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-6.5-ee`
 
 Nachdem Composer seine Arbeit beendet hat, existiert das mit *your_project_name* benannte neue Verzeichnis. Dieses ist das Hauptverzeichnis (Root) des Projektes und enthält alle Dateien, die für die Installation des OXID eShop benötigt werden.
 
