@@ -44,7 +44,7 @@ Die Compilation enthält folgende Komponenten:
 * Country VAT Administration 1.0.3 `Changelog 1.0.3 <https://github.com/OXID-eSales/country-vat-module/blob/v1.0.3/CHANGELOG.md>`_
 * OXID Econda Analytics (EE) 1.3.0 `Changelog 1.3.0 <https://github.com/OXID-eSales/econda-analytics-module/blob/v1.3.0/CHANGELOG.md>`_
 * GraphQL 6.0.1 `Changelog 6.0.1 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
-
+* Makaira Connect Essential 1.4.1 `Changelog 1.4.1 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.1/CHANGELOG.md>`_
 
 Korrekturen
 -----------
