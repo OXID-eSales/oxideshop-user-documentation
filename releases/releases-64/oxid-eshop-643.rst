@@ -37,11 +37,10 @@ Die Compilation enthält folgende Komponenten:
 Korrekturen
 -----------
 
-.. todo: #VL sendet ID
 
 Korrekturen finden Sie in unserem Bugtracking-System aufgelistet.
 |br|
-https://bugs.oxid-esales.com/changelog_page.php?version_id=673
+https://bugs.oxid-esales.com/changelog_page.php?version_id=698
 
 
 Installation
