@@ -37,10 +37,8 @@ The compilation contains the following components:
 Corrections
 -----------
 
-.. todo: #VL sendet ID
-
 Find the bugs fixed with this patch are listed in our bugtrack system. |br|
-https://bugs.oxid-esales.com/changelog_page.php?version_id=673
+https://bugs.oxid-esales.com/changelog_page.php?version_id=698
 
 Installation
 ------------
