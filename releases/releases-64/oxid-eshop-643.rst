@@ -13,20 +13,23 @@ Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.co
 
 Folgende Komponenten wurden aktualisiert:
 
+* Theme "Flow" (Update von 3.8.0 zu 3.8.1) `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
+* Theme "Wave" (Update von 1.6.1 zu 1.6.2) `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
+* OXID Cookie Management powered by usercentrics (Update von 1.2.0 zu 1.2.1) `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
 * PAYONE (Update von 1.6.2 zu 1.7.0) `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
+* PayPal (Update von 6.4.0 zu 6.4.1) `Changelog 6.4.1 <https://github.com/OXID-eSales/paypal/blob/v6.4.1/CHANGELOG.md>`_
 
 
 Die Compilation enthält folgende Komponenten:
 
 * OXID eShop CE 6.10.2 `Changelog 6.10.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.2/CHANGELOG.md>`_
-* Theme "Flow" 3.8.0 `Changelog 3.8.0 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.0/CHANGELOG.md>`_
-* Theme "Wave" 1.6.1 `Changelog 1.6.1 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.1/CHANGELOG.md>`_
+* Theme "Flow" 3.8.1 `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
+* Theme "Wave" 1.6.2 `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
 * Amazon Pay 3.6.8 `Changelog 3.6.8 <https://github.com/OXID-eSales/amazon-pay-oxid/blob/3.6.8/CHANGELOG.md>`_
 * GDPR Opt-In 2.3.3 `Changelog 2.3.3 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
 * Klarna 5.5.2 `Changelog 5.5.2 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.2/CHANGELOG.md>`_
-* OXID Cookie Management 1.2.0 powered by usercentrics `Changelog 1.2.0 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.0/CHANGELOG.md>`_
+* OXID Cookie Management powered by usercentrics 1.2.1 `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
 * PAYONE 1.7.0 `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
-* PayPal 6.4.0 `Changelog 6.4.0 <https://github.com/OXID-eSales/paypal/blob/v6.4.0/CHANGELOG.md>`_
 * WYSIWYG Editor + Mediathek 2.4.1 `Changelog 2.4.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.1/CHANGELOG.md>`_
 * Geo blocking 1.1.0 `Changelog 1.1.0 <https://github.com/OXID-eSales/geo-blocking-module/blob/v1.1.0/CHANGELOG.md>`_
 * Country VAT Administration 1.0.3 `Changelog 1.0.3 <https://github.com/OXID-eSales/country-vat-module/blob/v1.0.3/CHANGELOG.md>`_
