@@ -13,7 +13,7 @@ OXID eShop 6.5.0
   Siehe :ref:`releases/releases-65/oxid-eshop-650:Korrekturen`.
 * unterstützt PHP 8.1
   |br|
-  Siehe unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server und Systemvoraussetzungen` Abschnitt :ref:`installation/neu-installation/server-und-systemvoraussetzungen:PHP`.
+  Siehe unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server und Systemvoraussetzungen`, Abschnitt :ref:`installation/neu-installation/server-und-systemvoraussetzungen:PHP`.
 * verwendet `Symfony 5.4 <https://symfony.com/releases/5.4>`_ statt Symfony 3.4
   |br|
   Hintergrund: Symfony 3.4 wird nicht mehr mit (Sicherheits-) Updates unterstützt und ist nicht mit PHP 8.1 kompatibel.
@@ -86,7 +86,7 @@ Folgende Komponenten und Module wurden aktualisiert oder sind neu hinzugekommen:
 * OXID eShop CE (Update von 6.10.3 zu 6.11.0) `Changelog 6.11.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.11.0/CHANGELOG.md>`_
 * Theme "Flow" (Update von 3.8.0 zu 3.8.1):  `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" (Update von 1.6.1 zu 1.6.2):  `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
-* PayPal 6.5.0 (Update 6.4.1 zu 6.5.0): `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
+* PayPal 6.5.0 (Update von 6.4.1 zu 6.5.0): `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
 * OXID Cookie Management powered by usercentrics (Update von 1.2.0 zu 1.2.1) `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
 * PAYONE (Update von 1.6.2 zu 1.7.0) `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
 * Klarna (Update von 5.5.2 zu 5.5.3) `Changelog 5.5.3 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.3/CHANGELOG.md>`_
@@ -120,7 +120,7 @@ Die Compilation enthält folgende Komponenten:
 Sonstige Module
 ^^^^^^^^^^^^^^^
 
-Die folgenden Module müssen Sie bei Bedarf manuell installieren.
+Installieren Sie die folgenden Module bei Bedarf manuell.
 
 * OXID Econda Analytics (EE) 1.3.0: `Changelog 1.3.0 <https://github.com/OXID-eSales/econda-analytics-module/blob/v1.3.0/CHANGELOG.md>`_
 * Geo blocking 1.1.0: `Changelog 1.1.0 <https://github.com/OXID-eSales/geo-blocking-module/blob/v1.1.0/CHANGELOG.md>`_
