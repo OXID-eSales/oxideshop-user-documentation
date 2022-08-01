@@ -1,7 +1,7 @@
 ﻿New installation
 ================
 
-Learn how to install OXID eShop 6.4.
+Learn how to install OXID eShop 6.5.
 
 To get the files required for the shop, use Composer, a dependency manager for PHP.
 
@@ -13,7 +13,7 @@ After that, run the web-based setup and install the shop as usual.
     :height: 455
     :width: 650
 
-The installation guide in English can be found in the developer documentation: `<https://docs.oxid-esales.com/developer/en/6.4/getting_started/installation/index.html>`_.
+The installation guide in English can be found in the developer documentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 

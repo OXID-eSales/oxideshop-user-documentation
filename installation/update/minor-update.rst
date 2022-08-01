@@ -3,9 +3,23 @@ Installing a minor update
 
 Perform a minor update of your OXID eShop if required.
 
-For example, update the compilation from an existing version 6.2.x to version 6.4.x.
+For example, update the compilation from an existing version 6.3.x to version 6.5.0.
 
 .. include:: /_static/reuse/note_dataloss.rst
+
+Ensuring the compatibility of third-party modules
+-------------------------------------------------
+
+If you use third-party modules or themes, ask the third-party vendor if these themes and modules are compatible with the new version of OXID eShop.
+
+Background: Typically, a minor update does not contain any breaking changes. All third-party modules will work as before after the update.
+
+However, in exceptional cases, changes can have such an impact that third-party modules no longer work.
+|br|
+Examples:
+
+* Third-party modules no longer work when updating from OXID eShop 6.1 to 6.2.
+* The OXID eSales payment module Amazon Pay 3.6.8 no longer works in OXID eShop 6.5 (see :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
 
 
 Ensuring the prerequisites
