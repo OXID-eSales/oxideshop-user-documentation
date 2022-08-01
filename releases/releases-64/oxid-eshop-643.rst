@@ -1,4 +1,4 @@
-OXID eShop 6.4.2
+OXID eShop 6.4.3
 ================
 
 Release date: 02/08/2022
@@ -11,6 +11,9 @@ Improvements and adjustments
 
 Display changes to the compilation in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.2…v6.4.3>`_.
 
+Updated Components
+^^^^^^^^^^^^^^^^^^
+
 The following components have been updated to a new version:
 
 * Theme "Flow" (Update from 3.8.0 to 3.8.1): `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
@@ -18,6 +21,9 @@ The following components have been updated to a new version:
 * OXID Cookie Management powered by usercentrics (Update from 1.2.0 to 1.2.1): `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
 * PAYONE (Update from 1.6.2 to 1.7.0): `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
 * PayPal (Update from 6.4.0 to 6.4.1): `Changelog 6.4.1 <https://github.com/OXID-eSales/paypal/blob/v6.4.1/CHANGELOG.md>`_
+
+Components of the compilation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The compilation contains the following components:
 
