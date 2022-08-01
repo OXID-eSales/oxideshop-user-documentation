@@ -11,6 +11,9 @@ Verbesserungen und Anpassungen
 
 Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.2…v6.4.3>`_.
 
+Aktualisierte Komponenten
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Folgende Komponenten wurden aktualisiert:
 
 * Theme "Flow" (Update von 3.8.0 zu 3.8.1): `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
@@ -19,6 +22,8 @@ Folgende Komponenten wurden aktualisiert:
 * PAYONE (Update von 1.6.2 zu 1.7.0): `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
 * PayPal (Update von 6.4.0 zu 6.4.1): `Changelog 6.4.1 <https://github.com/OXID-eSales/paypal/blob/v6.4.1/CHANGELOG.md>`_
 
+Komponenten der Compilation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die Compilation enthält folgende Komponenten:
 
