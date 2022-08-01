@@ -60,7 +60,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'OXID eShop 6.4'
+project = 'OXID eShop 6.5'
 copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
@@ -134,7 +134,7 @@ todo_include_todos = True
 html_theme = 'sphinx_rtd_theme'
 
 html_context = {
-    'current_version': '6.4',
+    'current_version': '6.5',
     'versions':
          [('6.1', 'https://docs.oxid-esales.com/eshop/en/6.1/'),
           ('6.2', 'https://docs.oxid-esales.com/eshop/en/6.2/'),
@@ -167,7 +167,7 @@ html_theme_path = ['_themes']
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-html_title = 'OXID eShop 6.4 | User documentation'
+html_title = 'OXID eShop 6.5 | User documentation'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -313,7 +313,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OXIDeShop64.tex', 'OXID eShop 6.4 Documentation',
+    (master_doc, 'OXIDeShop64.tex', 'OXID eShop 6.5 Documentation',
      'OXID eSales AG', 'manual'),
 ]
 
@@ -349,7 +349,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'oxideshop64', 'OXID eShop 6.4 Documentation',
+    (master_doc, 'oxideshop64', 'OXID eShop 6.5 Documentation',
      [author], 1)
 ]
 
@@ -364,7 +364,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OXIDeShop64', 'OXID eShop 6.4 Documentation',
+    (master_doc, 'OXIDeShop64', 'OXID eShop 6.5 Documentation',
      author, 'OXIDeShop63', 'One line description of project.',
      'Miscellaneous'),
 ]
