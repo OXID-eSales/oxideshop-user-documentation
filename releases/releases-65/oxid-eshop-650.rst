@@ -55,11 +55,9 @@ Der Parallelbetrieb ist so lange nötig, bis alle alten Bestellungen abgeschloss
 
 Tun Sie Folgendes:
 
-1. Wenn Sie OXID 6.1 oder früher haben, machen Sie ein Update auf OXID eShop Version 6.2 oder 6.3.
+1. Wenn Sie OXID 6.0 oder früher haben, machen Sie ein Update auf OXID eShop Version 6.1, 6.2 oder 6.3.
    |br|
-   Hintergrund: Der Parallelbetrieb ist nur in den Versionen OXID 6.2 und OXID 6.3 möglich.
-
-   .. todo: #ML klären: Aussage falsch: "Installieren Sie Amazon Pay für den OXID eShop ab Version 6.1." ?
+   Hintergrund: Der Parallelbetrieb ist nur in den Versionen OXID 6.1 bis OXID 6.3 möglich.
 
 #. Installieren und konfigurieren Sie :productname:`Amazon Pay für OXID`.
    |br|
