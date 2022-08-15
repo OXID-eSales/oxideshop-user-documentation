@@ -36,6 +36,18 @@ OXID eShop 6.5.0
 
        Abhilfe: Um Ihren OXID eShop reibungslos auf das neue Modul umzustellen, folgen Sie den Anweisungen unter :ref:`releases/releases-65/oxid-eshop-650:Breaking Changes`.
 
+.. important::
+
+  **Neue OXID eShop Community Edition-Lizenz**
+
+  Mit der OXID eShop Version 6.5.0 ist die Community Edition ausschließlich für den nichtkommerziellen Einsatz bestimmt.
+
+  Wir stellen Ihnen die OXID eShop Community Edition ab dem 15.08.2022 zum Evaluieren, Testen und für Proof of Concepts zur Verfügung.
+
+  Weitere Informationen über die OXID eShop Community Edition-Lizenz 2022 finden Sie unter https://github.com/OXID-eSales/oxideshop_ce/blob/b-6.5.x/LICENSE.
+
+  Um die OXID eShop Software kommerziell zu nutzen, wenden Sie sich an OXID eSales unter sales@oxid-esales.com.
+
 
 Verbesserungen und Anpassungen
 ------------------------------
