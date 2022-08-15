@@ -1,7 +1,7 @@
 OXID eShop 6.5.0
 ================
 
-Release date: 08/02/2022
+Release date: 16/08/2022
 
 OXID eShop 6.5.0
 
@@ -17,7 +17,6 @@ OXID eShop 6.5.0
 * uses `Symfony 5.4 <https://symfony.com/releases/5.4>`_ instead of Symfony 3.4
   |br|
   Background: Symfony 3.4 is no longer supported with (security) updates and is not compatible with PHP 8.1.
-
 
   .. attention::
 
@@ -37,7 +36,17 @@ OXID eShop 6.5.0
 
        Workaround: To smoothly migrate your OXID eShop to the new module, follow the instructions at :ref:`releases/releases-65/oxid-eshop-650:Breaking Changes`.
 
+.. important::
 
+     **New OXID eShop Community Edition license**
+
+     With OXID eShop version 6.5.0, the Community Edition is exclusively for non-commercial use.
+
+     Starting on 15-08-2022, we provide you with the OXID eShop Community Edition for evaluation, testing and proof of concepts.
+
+     For more information about the OXID eShop Community Edition License 2022, see https://github.com/OXID-eSales/oxideshop_ce/blob/b-6.5.x/LICENSE.
+
+     To use the OXID eShop software commercially, contact OXID eSales at sales@oxid-esales.com.
 
 
 Improvements and adjustments
