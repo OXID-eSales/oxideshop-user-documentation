@@ -8,9 +8,8 @@ Artikel können bis zu zwölf Artikelbilder haben, die sehr wichtig für die opt
    :height: 342
    :width: 650
 
-.. todo: #VL: Forge-Inhalt in Anw.-Doku?:  https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html
 
-Die Registerkarte :guilabel:`Bilder` bietet die Möglichkeit, sieben Artikelbilder auf den Webserver zu laden. Ein Blick in die Verzeichnisstruktur lässt aber erkennen, dass bis zu 12 Artikelbilder möglich sind. Die zusätzlichen Artikelbilder müssen entweder per FTP auf den Webserver geladen oder das Template für den Administrationsbereich muss für die größere Zahl von Uploads angepasst werden. Informationen zum Bilder-Handling und zur Verzeichnisstruktur der Artikelbilder ab OXID eShop 4.5.1 finden Sie im englischsprachigen Tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ auf der OXIDforge.
+Die Registerkarte :guilabel:`Bilder` bietet die Möglichkeit, sieben Artikelbilder auf den Webserver zu laden. Ein Blick in die Verzeichnisstruktur lässt aber erkennen, dass bis zu 12 Artikelbilder möglich sind. Die zusätzlichen Artikelbilder müssen entweder per FTP auf den Webserver geladen oder das Template für den Administrationsbereich muss für die größere Zahl von Uploads angepasst werden.
 
 Wurde das erste Artikelbild hochgeladen, wird das daraus generierte Thumbnail und das Icon auf der linken Seite der Registerkarte angezeigt. Für das Artikelbild selbst ist eine Vorschau verfügbar. Nicht mehr benötigte Artikelbilder können gelöscht werden. Damit werden sie nicht nur von der Registerkarte entfernt, sondern auch vom Webserver gelöscht.
 

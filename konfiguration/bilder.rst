@@ -3,10 +3,6 @@
 
 Jeder Artikel kann bis zu zwölf Artikelbilder haben, die in der Detailansicht des Artikels angezeigt werden. Artikel verfügen über Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Kleinere Artikelbilder zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Alle benötigten Bildarten werden automatisch generiert.
 
-.. todo: #VL: Forge inhalt in Doku?
-
-Informationen zur Generierung der Bilder und zur Verzeichnisstruktur der Artikelbilder ab OXID eShop 4.5.1 finden Sie im englischsprachigen Tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ auf der OXIDforge.
-
 Bildgenerierung und -qualität
 -----------------------------
 Die erforderlichen Einstellungen für die Bildgenerierung und für die Bildgrößen werden für alle Artikel im Administrationsbereich vorgenommen. Gehen Sie zu :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` Klicken Sie auf :guilabel:`Bilder`, um die Einstellungen anzuzeigen. Das ist zum einen die installierte Version der GDLib, einer Software auf dem Server, die für die dynamische Erzeugung von Grafiken zuständig ist. Deren aktuelle Version ist die Version 2. Zum anderen ist das automatische Generieren von Icons aktiviert. Lassen Sie beide Einstellungen unverändert.

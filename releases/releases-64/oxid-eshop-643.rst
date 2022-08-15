@@ -1,7 +1,7 @@
 OXID eShop 6.4.3
 ================
 
-Veröffentlichungstermin: 02.08.2022
+Veröffentlichungstermin: 16.08.2022
 
 OXID eShop 6.4.3 behebt Bugs. Siehe :ref:`releases/releases-64/oxid-eshop-643:Korrekturen`.
 
