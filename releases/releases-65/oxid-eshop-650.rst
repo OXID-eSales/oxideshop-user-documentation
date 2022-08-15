@@ -123,7 +123,7 @@ Die Compilation enthält folgende Komponenten:
 * WYSIWYG Editor + Mediathek 2.4.1: `Changelog 2.4.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.1/CHANGELOG.md>`_
 * Makaira (1.4.1) `Changelog 1.4.1 <https://github.com/MakairaIO/oxid-connect-essential/blob/stable/CHANGELOG.md>`_
 * Unzer (RC Version 1.0, EE): `Changelog 1.0 <https://github.com/OXID-eSales/unzer-module/blob/b-6.3.x/CHANGELOG.md>`_
-* Amazon Pay für OXID (Version 1.2.0): `Changelog 1.2.0 <https://github.com/OXID-eSales/amazon-pay-module/blob/b-6.2.x/CHANGELOG.md>`_
+
 
 Sonstige Module
 ^^^^^^^^^^^^^^^
