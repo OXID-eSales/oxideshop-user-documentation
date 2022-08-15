@@ -1,7 +1,7 @@
 OXID eShop 6.5.0
 ================
 
-Veröffentlichungstermin: 15.08.2022
+Veröffentlichungstermin: 16.08.2022
 
 OXID eShop 6.5.0
 

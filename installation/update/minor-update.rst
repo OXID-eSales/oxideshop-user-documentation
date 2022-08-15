@@ -6,8 +6,6 @@ Führen Sie bei Bedarf ein Minor-Update Ihres OXID eShops durch.
 Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
 
 
-.. todo: #VL: In welchem Fall würde ich auf 643 updaten statt gleich auf 650? -- 6.5.0 8.1, simfony-komponenten
-
 .. include:: /_static/reuse/note_dataloss.rst
 
 Kompatibilität von Drittanbieter-Modulen sicherstellen
