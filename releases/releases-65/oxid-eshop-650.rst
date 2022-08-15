@@ -104,9 +104,7 @@ Folgende Komponenten und Module wurden aktualisiert oder sind neu hinzugekommen:
 * Neu: Unzer Payment für OXID (Version 1.0 als Release Candidate für die Enterprise Edition): `Changelog 1.0 <https://github.com/OXID-eSales/unzer-module/blob/b-6.3.x/CHANGELOG.md>`_
   |br|
   Weitere Informationen über unser neues Zahlungs-Modul finden Sie unter https://docs.oxid-esales.com/modules/unzer/de/latest/index.html.
-* Neu: Amazon Pay für OXID (Version 1.2.0) `Changelog 1.2.0 <https://github.com/OXID-eSales/amazon-pay-module/blob/b-6.2.x/CHANGELOG.md>`_
-  |br|
-  Weitere Informationen über unser neues Zahlungs-Modul finden Sie unter https://docs.oxid-esales.com/modules/amazon-pay/de/latest/.
+
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
