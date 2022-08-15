@@ -1,7 +1,7 @@
 OXID eShop 6.5.0
 ================
 
-Veröffentlichungstermin: 02.08.2022
+Veröffentlichungstermin: 15.08.2022
 
 OXID eShop 6.5.0
 
@@ -65,9 +65,7 @@ Tun Sie Folgendes:
 #. Planen Sie eine Downtime für Ihren OXID eShop ein und tun Sie Folgendes:
 
    * Schalten Sie :productname:`Amazon Pay für OXID` für den Live-Betrieb frei.
-   * Deaktivieren Sie alle Zahlungsarten, die zu :productname:`Amazon Pay & Login for OXID eShop` gehören.
-
-   .. todo: #ML: klären: woran kann ich die leicht erkennen?
+   * Deaktivieren Sie Zahlungsarten, die zu :productname:`Amazon Pay & Login for OXID eShop` gehören.
 
    Resultat: Ihre Kunden wickeln künftige Zahlungen mit :productname:`Amazon Pay für OXID` ab.
    |br|
