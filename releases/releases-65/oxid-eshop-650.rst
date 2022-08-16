@@ -94,7 +94,7 @@ New or updated components
 
 The following components and modules have been updated or added:
 
-* OXID eShop CE (Update from 6.10.3 to 6.11.0) `Changelog 6.11.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.11.0/CHANGELOG.md>`_
+* OXID eShop CE (Update from 6.10.3 to 6.12.0) `Changelog 6.12.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.12.0/CHANGELOG.md>`_
 * Theme "Flow" (Update from 3.8.0 to 3.8.1):  `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" (Update from 1.6.1 to 1.6.2):  `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
 * PayPal 6.5.0 (Update from 6.4.1 to 6.5.0): `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
@@ -102,7 +102,7 @@ The following components and modules have been updated or added:
 * PAYONE (Update from 1.6.2 to 1.7.0) `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
 * Klarna (Update from 5.5.2 to 5.5.3) `Changelog 5.5.3 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.3/CHANGELOG.md>`_
 * New: Makaira (1.4.1) `Changelog 1.4.1 <https://github.com/MakairaIO/oxid-connect-essential/blob/stable/CHANGELOG.md>`_
-* New: Unzer Payment for OXID (Version 1.0 as Release Candidate for the OXID eShop Enterprise Edition): `Changelog 1.0 <https://github.com/OXID-eSales/unzer-module/blob/b-6.3.x/CHANGELOG.md>`_
+* New: Unzer Payment for OXID (Version 1.0.0 for the OXID eShop Enterprise Edition): `Changelog 1.0.0 <https://github.com/OXID-eSales/unzer-module/blob/v1.0.0/CHANGELOG.md>`_
   |br|
   For more information about our new payment module, see https://docs.oxid-esales.com/modules/unzer/en/latest/index.html.
 
@@ -112,8 +112,8 @@ Compilation components
 
 The compilation contains the following components:
 
-* OXID eShop CE 6.11.0: `Changelog 6.11.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.11.0/CHANGELOG.md>`_
-* OXID eShop composer plugin 5.2.2) `Changelog 5.2.2 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.2.2/CHANGELOG.md>`_
+* OXID eShop CE 6.12.0: `Changelog 6.12.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.12.0/CHANGELOG.md>`_
+* OXID eShop composer plugin 5.2.2: `Changelog 5.2.2 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.2.2/CHANGELOG.md>`_
 * Theme "Flow" 3.8.1: `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" 1.6.2: `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
 * GDPR Opt-In 2.3.3: `Changelog 2.3.3 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
@@ -122,8 +122,8 @@ The compilation contains the following components:
 * PAYONE 1.7.0: `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
 * PayPal 6.5.0: `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
 * WYSIWYG Editor + Mediathek 2.4.1: `Changelog 2.4.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.1/CHANGELOG.md>`_
-* Makaira (1.4.1) `Changelog 1.4.1 <https://github.com/MakairaIO/oxid-connect-essential/blob/stable/CHANGELOG.md>`_
-* Unzer Payment for OXID (RC Version 1.0, EE): `Changelog 1.0 <https://github.com/OXID-eSales/unzer-module/blob/b-6.3.x/CHANGELOG.md>`_
+* Makaira 1.4.2: `Changelog 1.4.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.2/CHANGELOG.md>`_
+* Unzer Payment for OXID 1.0.0 (EE): `Changelog 1.0 <https://github.com/OXID-eSales/unzer-module/blob/v1.0.0/CHANGELOG.md>`_
 
 
 Other Modules
@@ -134,7 +134,7 @@ Install the following modules manually if required.
 * OXID Econda Analytics (EE) 1.3.0: `Changelog 1.3.0 <https://github.com/OXID-eSales/econda-analytics-module/blob/v1.3.0/CHANGELOG.md>`_
 * Geo blocking 1.1.0: `Changelog 1.1.0 <https://github.com/OXID-eSales/geo-blocking-module/blob/v1.1.0/CHANGELOG.md>`_
 * Country VAT Administration 1.0.3: `Changelog 1.0.3 <https://github.com/OXID-eSales/country-vat-module/blob/v1.0.3/CHANGELOG.md>`_
-* GraphQL 6.0.1: `Changelog 6.0.1 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
+* GraphQL 7.0.2: `Changelog 7.0.2 <https://github.com/OXID-eSales/graphql-base-module/blob/v7.0.2/CHANGELOG-v7.md>`_
 
 Corrections
 -----------
