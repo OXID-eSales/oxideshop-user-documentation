@@ -100,7 +100,7 @@ Folgende Komponenten und Module wurden aktualisiert oder sind neu hinzugekommen:
 * OXID Cookie Management powered by usercentrics (Update von 1.2.0 zu 1.2.1) `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
 * PAYONE (Update von 1.6.2 zu 1.7.0) `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
 * Klarna (Update von 5.5.2 zu 5.5.3) `Changelog 5.5.3 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.3/CHANGELOG.md>`_
-* Neu: Makaira (1.4.1) `Changelog 1.4.1 <https://github.com/MakairaIO/oxid-connect-essential/blob/stable/CHANGELOG.md>`_
+* Neu: Makaira (1.4.2) `Changelog 1.4.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.2/CHANGELOG.md>`_
 * Neu: Unzer Payment für OXID (Version 1.0.0 für die Enterprise Edition): `Changelog 1.0.0 <https://github.com/OXID-eSales/unzer-module/blob/v1.0.0/CHANGELOG.md>`_
   |br|
   Weitere Informationen über unser neues Zahlungs-Modul finden Sie unter https://docs.oxid-esales.com/modules/unzer/de/latest/index.html.
