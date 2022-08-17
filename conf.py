@@ -90,7 +90,8 @@ html_context = {
         [('6.1', 'https://docs.oxid-esales.com/eshop/de/6.1/'),
          ('6.2', 'https://docs.oxid-esales.com/eshop/de/6.2/'),
          ('6.3', 'https://docs.oxid-esales.com/eshop/de/6.3/'),
-         ('6.4', 'https://docs.oxid-esales.com/eshop/de/6.4/')],
+         ('6.4', 'https://docs.oxid-esales.com/eshop/de/6.4/'),
+         ('6.5', 'https://docs.oxid-esales.com/eshop/de/6.5/')],
     'languages':
         [('DE', 'https://docs.oxid-esales.com/eshop/de/6.4/'),
          ('EN', 'https://docs.oxid-esales.com/eshop/en/6.4/')],
