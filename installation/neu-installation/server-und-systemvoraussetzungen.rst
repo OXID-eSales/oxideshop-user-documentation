@@ -62,7 +62,7 @@ Composer
    
    Bitte beachten Sie, dass zum Stand der OXID eShop Version 6.2.5 die Composer Version 2.1.6 aktuell war und damit getestet wurde. 
    
-   Wenn Sie eine Composer Version größer als 2.1.6 haben, installieren Sie Composer 2.1.6 beispielsweise wie folgt:
+   Installieren Sie Composer 2.1.6 beispielsweise wie folgt:
 
    .. code:: bash
 
