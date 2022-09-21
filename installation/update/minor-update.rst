@@ -197,7 +197,7 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
 
    .. code:: bash
 
-      vendor/bin/oe-shop-db_migrate migrations:migrate
+      vendor/bin/oe-eshop-db_migrate migrations:migrate
 
 #. Regenerate the database views.
    |br|

@@ -74,7 +74,7 @@ For example, use the following steps to update the compilation from an existing 
 
    .. code:: bash
 
-      vendor/bin/oe-shop-db_migrate migrations:migrate
+      vendor/bin/oe-eshop-db_migrate migrations:migrate
 
 #. Regenerate the database views.
    |br|
