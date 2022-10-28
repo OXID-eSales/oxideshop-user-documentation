@@ -85,7 +85,7 @@ Composer
 
    Eine Composer Version aktueller als 2.2 wird nicht unterstützt.
 
-   Bitte beachten Sie, dass zum Stand der OXID eShop Version 6.4.0 die Composer Version 2.2 getestet wurde.
+   Bitte beachten Sie, dass zum Stand der OXID eShop Version 6.5.0 die Composer Version 2.2 getestet wurde.
 
    Installieren Sie die Composer Version 2.2 beispielsweise wie folgt:
 
