@@ -83,13 +83,13 @@ Composer
 
 .. attention::
 
-   Composer 2.3.x is not supported.
+    Please note that Composer Version 2.1.5 was the current version of OXID eShop Version 6.3.1 and was tested with it.
 
-   If you have Composer 2.3.x, for example, install Composer 2.2.x as follows:
+    Use Composer selfupdate to install its 2.1.5 version as follows:
 
-   .. code:: bash
+    ..code::bash
+       composer selfupdate 2.1.5
 
-      composer selfupdate 2.2.12
 
 
 You need Composer for the installation of OXID eShop and changes in autoloading of files (not at runtime). Find the requirements for Composer at `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
