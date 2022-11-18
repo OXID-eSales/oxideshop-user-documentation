@@ -1,8 +1,6 @@
 Installing a minor update
 =========================
 
-Perform a minor update of your OXID eShop if required.
-
 For example, update the compilation from an existing version 6.3.x to version 6.5.0.
 
 .. include:: /_static/reuse/note_dataloss.rst
