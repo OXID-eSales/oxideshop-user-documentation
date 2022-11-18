@@ -1,8 +1,6 @@
 Minor Update installieren
 =========================
 
-Führen Sie bei Bedarf ein Minor-Update Ihres OXID eShops durch.
-
 Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
 
 
