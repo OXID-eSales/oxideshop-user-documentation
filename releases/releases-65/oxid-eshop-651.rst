@@ -5,11 +5,13 @@ OXID eShop 6.5.1
 
 Veröffentlichungstermin: 16.08.2022
 
-.. todo: #SB: klären: So korrekt? Bleibt für den Shopbetreier noch was zu tun?
+.. todo: #SB/#VL: klären: So korrekt? Bleibt für den Shopbetreier noch was zu tun?
 
-Mit OXID eShop 6.5.1 bindet das Theme "Wave" Google Fonts nicht mehr dynamisch ein, sondern statisch.
+Mit OXID eShop 6.5.1 bindet das Theme "Wave" Google Fonts nicht mehr dynamisch ein, sondern lokal aus dem Theme-Ordner.
 
 Hintergrund: Betreiber von Webshops, die dynamisch eingebundene Google Fonts verwenden, sind Opfer von Abmahnungen geworden.
+
+Wenn Sie andere Google-Fonts als die im Wave-Theme verwendeten dynamisch eingebunden haben, dann stellen Sie sicher, diese Fonts ebenfalls aus einem lokalen Ordner einzubinden. Wie es geht, beschreibt Google unter https://fonts.google.com/knowledge/using_type/self_hosting_web_fonts.
 
 Weitere Informationen finden Sie in unserem `Blogpost vom 21.09.2022 <https://www.oxid-esales.com/blog/moegliche-abmahnungen-bei-google-fonts/>`_.
 
