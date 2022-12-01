@@ -88,20 +88,20 @@ This document describes the update from OXID eShop 6.1.0 and higher to OXID eSho
 --------------------------------------------
 In this step, settings and activation status of the modules belonging to the shop are transferred from the database to configuration files :file:`*.yaml`.
 
-1. With the following Composer commands, which are called in the main directory of the shop, you install the OXID eShop update component.
+1. With the following Composer commands, which are called in the main directory of the shop, you install the OXID eShop `update component <https://github.com/OXID-eSales/oxideshop-update-component>`__.
 
 .. code:: bash
 
    composer require --no-update oxid-esales/oxideshop-update-component:"^1.0"
    composer update --no-dev --no-interaction
 
-2. Clear the directory with the temporary files of the shop, for example by calling a shell in the main directory of the shop and entering the following command:
+2. Clear the directory with the temporary files of the shop, for example by calling a shell in the main directory of the shop and entering the following `console command <https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html>`__:
 
 .. code:: bash
 
    rm -rf source/tmp/*
    
-3. A default configuration is created for all modules located in the :file:`source/modules` directory. To do this, the new OXID eShop Console is called with the following command:
+3. A default configuration is created for all modules located in the :file:`source/modules` directory. To do this, the new OXID eShop Console is called with the following `console command <https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html>`__:
 
 .. code:: bash
 
@@ -113,7 +113,7 @@ In this step, settings and activation status of the modules belonging to the sho
 
    vendor/bin/oe-console oe:oxideshop-update-component:transfer-module-data
 
-After this step the option `configured = true` should be in the configuration file of all previously active modules. The configuration file now also contains the module settings. They are the same as those defined for the module in the administration panel.
+   After this step the option `configured = true` should be in the configuration file of all previously active modules. The configuration file now also contains the module settings. They are the same as those defined for the module in the administration panel.
 
 5. To avoid data redundancy and problems when activating modules, their status and settings are removed from the database.
 
@@ -121,15 +121,19 @@ After this step the option `configured = true` should be in the configuration fi
 
    vendor/bin/oe-console oe:oxideshop-update-component:delete-module-data-from-database
 
+   Now, modules data should be removed from the database so modules functionality should not work anymore.
+
 6. All modules that were previously active are activated and the module settings are restored.
 
 .. code:: bash
 
    vendor/bin/oe-console oe:module:apply-configuration
-   
+
+   All modules which were previously active, should be active and have the correct configuration set, after this `console command <https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html>`__.
+
 .. hint::
 
-   In an Enterprise Edition environment with at least two shops and active legacy modules the command may trigger an error. The workaround is to run the command per individual shop by using parameter --shop-id.
+   In an Enterprise Edition environment with at least two shops and active legacy modules the `console command <https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html>`__ may trigger an error. The workaround is to run the command per individual shop by using parameter --shop-id.
    
    Example:
 
@@ -155,7 +159,27 @@ The file :file:`xd_receiver.htm` from the :file:`/source` directory is no longer
 
 Troubleshooting
 ---------------
-Hints on possible problems with the transfer of status and settings of the modules can be found in the document `Update from 6.1.x to 6.2.0 <https://docs.oxid-esales.com/developer/en/6.2/update/#troubleshooting>`_ of the developer documentation.
+
+* **Error message: `Module directory of ModuleX could not be installed due to The variable $sMetadataVersion must be
+  present in ModuleX/metadata.php and it must be a scalar.`**
+
+  * Up to OXID eShop 6.1, modules without a metadata version in the file :file:`metadata.php` were accepted.
+    OXID eShop 6.2 requires to set a
+    `metadata version <https://docs.oxid-esales.com/developer/en/6.2/development/modules_components_themes/module/skeleton/metadataphp/version21.html#modules-skeleton-metadata-v21-structure>`__ in ModuleX :file:`metadata.php`.
+
+* **Error message `The metadata key constrains is not supported in metadata version 2.0.`**
+
+  * Up to OXID eShop 6.1, the array keys `constraints` and `constrains` were accepted in the file :file:`metadata.php`.
+    OXID eShop 6.2 only allows the key `constraints`. Please refer to
+    `the metadata documentation of settings <https://docs.oxid-esales.com/developer/en/6.2/development/modules_components_themes/module/skeleton/metadataphp/amodule/settings.html>`__.
+
+* **The extension chain in the OXID eShop admin in** :menuselection:`Extension -->  Modules --> Installed Shop Modules` **is
+  partly highlighted red and crossed out.**
+
+  * This must not be an error. Up to OXID eShop 6.1, only extensions of active modules were shown. OXID eShop 6.2 shows
+    extensions of all installed modules (active and inactive). If a module is inactive, the extensions of this module
+    are highlighted red and crossed out. This new behavior means, you can configure the extension chain of modules which
+    are not activated yet.
 
 
 .. Intern: oxbaiy, Status: transL
