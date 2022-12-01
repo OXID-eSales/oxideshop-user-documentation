@@ -121,19 +121,15 @@ In this step, settings and activation status of the modules belonging to the sho
 
    vendor/bin/oe-console oe:oxideshop-update-component:delete-module-data-from-database
 
-   Now, modules data should be removed from the database so modules functionality should not work anymore.
-
 6. All modules that were previously active are activated and the module settings are restored.
 
 .. code:: bash
 
    vendor/bin/oe-console oe:module:apply-configuration
 
-   All modules which were previously active, should be active and have the correct configuration set, after this `console command <https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html>`__.
-
 .. hint::
 
-   In an Enterprise Edition environment with at least two shops and active legacy modules the `console command <https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html>`__ may trigger an error. The workaround is to run the command per individual shop by using parameter --shop-id.
+   In an Enterprise Edition environment with at least two shops and active legacy modules the command may trigger an error. The workaround is to run the `console command <https://docs.oxid-esales.com/developer/en/6.2/development/tell_me_about/console.html>`__ per individual shop by using parameter --shop-id.
    
    Example:
 
@@ -167,7 +163,7 @@ Troubleshooting
     OXID eShop 6.2 requires to set a
     `metadata version <https://docs.oxid-esales.com/developer/en/6.2/development/modules_components_themes/module/skeleton/metadataphp/version21.html#modules-skeleton-metadata-v21-structure>`__ in ModuleX :file:`metadata.php`.
 
-* **Error message `The metadata key constrains is not supported in metadata version 2.0.`**
+* **Error message: `The metadata key constrains is not supported in metadata version 2.0.`**
 
   * Up to OXID eShop 6.1, the array keys `constraints` and `constrains` were accepted in the file :file:`metadata.php`.
     OXID eShop 6.2 only allows the key `constraints`. Please refer to
@@ -180,6 +176,5 @@ Troubleshooting
     extensions of all installed modules (active and inactive). If a module is inactive, the extensions of this module
     are highlighted red and crossed out. This new behavior means, you can configure the extension chain of modules which
     are not activated yet.
-
 
 .. Intern: oxbaiy, Status: transL
