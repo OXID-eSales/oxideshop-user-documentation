@@ -10,7 +10,18 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 
 |schritt| Update-Ziel vorgeben
 ------------------------------
-In die Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version eingetragen werden, auf welche aktualisiert werden soll. Öffnen Sie die Datei in einem Editor und tragen Sie die gewünschte Version für das Metapackage ein. Beispiel: ``"oxid-esales/oxideshop-metapackage-ce": "v6.1.5",``
+In die Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version eingetragen werden, auf welche aktualisiert werden soll. Öffnen Sie die Datei in einem Editor und tragen Sie die gewünschte Version für das Metapackage ein. Beispiel: ``"oxid-esales/oxideshop-metapackage-ce": "v6.1.6",``
+
+"require": {
+   "oxid-esales/oxideshop-metapackage-ce": "v6.1.6"
+},
+"require-dev": {
+    "oxid-esales/testing-library": "^v5.0.4",
+    "oxid-esales/coding-standards": "^v3.0.5",
+    "incenteev/composer-parameter-handler": "~v2.0",
+    "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
+    "oxid-esales/azure-theme": "^v1.4.2"
+},
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------
