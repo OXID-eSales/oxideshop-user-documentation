@@ -15,7 +15,7 @@ Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdo
 
 Server und Systemvoraussetzungen
 --------------------------------
-**Inhalte**: Server, Shared Hosting, Managed Server, Serverfarm mit Loadbalancing und Datenbankcluster, Linux, Webserver, Apache 2.2 + 2.4, MySQL 5.7 + 8.0, MariaDB 10.4, PHP 7.4 + 8.0, Composer 1 und 2, Metadata 2.0 + 2.1, OpenSSL |br|
+**Inhalte**: Server, Shared Hosting, Managed Server, Serverfarm mit Loadbalancing und Datenbankcluster, Linux, Webserver, Apache 2.2 + 2.4, MySQL 5.7 + 8.0, MariaDB 10.4, PHP 8.0 + 8.1, Composer 2, Metadata 2.0 + 2.1, OpenSSL |br|
 :doc:`Artikel lesen <server-und-systemvoraussetzungen>` |link|
 
 Installation vorbereiten

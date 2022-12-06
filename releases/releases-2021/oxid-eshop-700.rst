@@ -27,10 +27,10 @@ Module, wie solche für die Zahlungsarten, der WYSIWYG Editor + Mediathek oder V
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
 
-* OXID eShop 7.0.0 RC 1 läuft unter PHP 7.4 und 8.0
+* OXID eShop 7.0.0 RC 2 läuft unter PHP 8.0 und 8.1
 * Als Datenbank wird MySQL in der Version 5.7 und 8.0 sowie MariaDB in der Version 10.4 unterstützt
 * Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden
-* Composer wird in den Versionen 1 und 2 unterstützt
+* Composer wird in der Version 2 unterstützt
 * Metadata wird in den Versionen 2.0 und 2.1 unterstützt
 
 Installation

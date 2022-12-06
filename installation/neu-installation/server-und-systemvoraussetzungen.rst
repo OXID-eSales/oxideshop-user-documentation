@@ -49,7 +49,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP Versionen 7.4 und 8.0
+* PHP Versionen 8.0 und 8.1
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
@@ -77,7 +77,7 @@ Composer
 
 * Composer
 
-Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. OXID eShop 7.0.0 wurde mit den Versionen 1 und 2 von Composer getestet. Bitte beachten Sie die zukünftige Verfügbarkeit von Composer Version 1. Siehe: `Deprecating Packagist.org support for Composer 1.x <https://blog.packagist.com/deprecating-composer-1-support/>`_
+Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. OXID eShop 7.0.0 wurde mit der Versionen 2.4 von Composer getestet.
 
 OpenSSL
 -------
