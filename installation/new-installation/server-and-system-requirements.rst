@@ -82,11 +82,12 @@ Composer
 
 .. attention::
 
-    Composer versions higher than 2.2 are not supported.
+    Composer 2.3.x is not supported.
 
-    Use Composer selfupdate to install its 2.2 version as follows:
+    If you have Composer 2.3.x, for example, install Composer 2.2 as follows:
 
-    ..code::bash
+    .. code:: bash
+
        composer selfupdate --2.2
 
 
