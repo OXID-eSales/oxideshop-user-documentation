@@ -13,8 +13,6 @@ Weitere Informationen finden Sie in unserem `Blogpost vom 21.09.2022 <https://ww
 
 Außerdem haben wir Bugs behoben. Siehe :ref:`releases/releases-65/oxid-eshop-651:Korrekturen`.
 
-
-
 Verbesserungen und Anpassungen
 ------------------------------
 
