@@ -73,7 +73,7 @@ PHP extensions that need to be installed:
 * *SOAP*
 * *DOM*
 
-.. note:: To run PHP 8 we strongly recommend setting the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` otherwise you will get a lot of warnings.
+.. note:: To run PHP 8, we strongly recommend setting the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED``. Otherwise you will get a lot of warnings.
 
 Composer
 --------
