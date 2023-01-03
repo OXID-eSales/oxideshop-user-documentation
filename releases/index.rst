@@ -1,4 +1,4 @@
-Releases
+﻿Releases
 ========
 
 Der Abschnitt \"Releases\" fasst die wichtigsten Informationen zu den veröffentlichten Versionen des OXID eShop 7.0 zusammen.

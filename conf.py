@@ -42,7 +42,12 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.autosectionlabel',
 ]
+
+# Make sure the target is unique
+autosectionlabel_prefix_document = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -85,6 +90,7 @@ html_context = {
         [('6.2', 'https://docs.oxid-esales.com/eshop/de/6.2/'),
          ('6.3', 'https://docs.oxid-esales.com/eshop/de/6.3/'),
          ('6.4', 'https://docs.oxid-esales.com/eshop/de/6.4/'),
+         ('6.5', 'https://docs.oxid-esales.com/eshop/de/6.5/'),
          ('7.0', 'https://docs.oxid-esales.com/eshop/de/7.0/')],
     'languages':
         [('DE', 'https://docs.oxid-esales.com/eshop/de/7.0/'),
@@ -144,20 +150,29 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
-# A string of reStructuredText that will be included at the beginning of every source file that is read.
+# A string of reStructuredText that will be included at the beginning of every source file that is read; custom roles; associated classes are defined in the css
 rst_prolog = """
 .. role:: db
-
+.. role:: productname
+.. role:: technicalname
 """
 
 rst_epilog = """
 .. |link| image:: /media/icons/link.png
            :class: no-shadow
-
+.. |procedure| replace:: **Vorgehen**
+.. |prerequisites| replace:: **Voraussetzungen**
+.. |result| replace:: **Resultat**
+.. |background| replace:: **Hintergrund**
+.. |example| replace:: **Beispiel**
 .. |br| raw:: html
 
    <br />
 """
+
+
+
+
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
@@ -240,4 +255,4 @@ epub_exclude_files = ['search.html']
 # -- Options for todo extension ----------------------------------------------
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+todo_include_todos = False

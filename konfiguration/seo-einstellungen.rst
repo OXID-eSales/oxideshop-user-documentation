@@ -64,7 +64,7 @@ Obwohl Metadaten nicht mehr die entscheidende Bedeutung für Suchmaschinen haben
 
 Beispiel aus dem Demoshop:
 
-.. code:: html
+.. code::
 
    <meta name="description "content=\"Alles zum Thema Wassersport, Sportbekleidung und Mode. Umfangreiches Produktsortiment mit den neusten Trendprodukten. Blitzschneller Versand.">
    <meta name="keywords "content="kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards, boards, strand, sommer, wassersport, mode, fashion, style, shirts, jeans, accessoires, angebote">

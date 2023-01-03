@@ -6,7 +6,7 @@ In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 7.0 neu installieren. D
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Schritt 1
     :class: no-shadow
-    :height: 459
+    :height: 452
     :width: 650
 
 Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.

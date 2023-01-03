@@ -3,7 +3,6 @@
 
 Jeder Artikel kann bis zu zwölf Artikelbilder haben, die in der Detailansicht des Artikels angezeigt werden. Artikel verfügen über Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Kleinere Artikelbilder zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Alle benötigten Bildarten werden automatisch generiert.
 
-Informationen zur Generierung der Bilder und zur Verzeichnisstruktur der Artikelbilder ab OXID eShop 4.5.1 finden Sie im englischsprachigen Tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ auf der OXIDforge.
 
 Bildgenerierung und -qualität
 -----------------------------

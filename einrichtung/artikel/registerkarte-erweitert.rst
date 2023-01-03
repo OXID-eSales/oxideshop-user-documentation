@@ -15,11 +15,15 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
     Geben Sie Länge, Breite und Höhe des Artikels in Metern an, wenn die Versandkosten bezogen auf die Maße berechnet werden sollen.
 
 :guilabel:`Menge` ... :guilabel:`Mengeneinheit`
-    Die Angabe von Menge und Mengeneinheit wird für Artikel benötigt, für welche ein Grundpreis angegeben werden muss. Der Grundpreis ist der Preis bezogen auf eine bestimmte Mengeneinheit wie Kilogramm oder Liter. Hinterlegen Sie hier die Menge des Artikels je Mengeneinheit. Wählen Sie eine Mengeneinheit aus der Liste oder tragen Sie eine Mengeneinheit ein, die nicht in der Liste zu finden ist.
-
-Der Grundpreis wird in der Detailansicht des Artikels angezeigt.
-
-Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen Sie 1,5 bei Menge ein und wählen :guilabel:`kg` als Mengeneinheit. Angenommen, der Artikel hat einen Preis von 3 €, wäre der Grundpreis 2 €/kg.
+    Die Angabe von Menge und Mengeneinheit wird für Artikel benötigt, für welche ein Grundpreis angegeben werden muss.
+    |br|
+    Der Grundpreis ist der Preis bezogen auf eine bestimmte Mengeneinheit wie Kilogramm oder Liter.
+    |br|
+    Hinterlegen Sie hier die Menge des Artikels je Mengeneinheit. Wählen Sie eine Mengeneinheit aus der Liste oder tragen Sie eine Mengeneinheit ein, die nicht in der Liste zu finden ist.
+    |br|
+    Der Grundpreis wird in der Detailansicht des Artikels angezeigt.
+    |br|
+    Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen Sie 1,5 bei Menge ein und wählen :guilabel:`kg` als Mengeneinheit. Angenommen, der Artikel hat einen Preis von 3 €, wäre der Grundpreis 2 €/kg.
 
 :guilabel:`Externe URL`
    Link auf eine externe Internetseite, beispielsweise die Website des Herstellers, mit weiterführenden Informationen zum Artikel.
@@ -53,9 +57,15 @@ Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen 
    Bei aktiviertem Kontrollkästchen wird ein zusätzliches Eingabefeld auf der Detailseite des Artikels und im Warenkorb angezeigt. Kunden können Text in dieses Eingabefeld eingeben, um beim Kauf eine individuelle Information zu übermitteln. Das könnte Text sein, der auf ein T-Shirt, eine Tasse gedruckt oder in einen Ring graviert wird.
 
 :guilabel:`Immaterieller Artikel`
-   Als immateriell wird ein Artikel gekennzeichnet, der kein Gegenstand ist, der nicht verpackt und an den Kunden geschickt wird. Das können beispielsweise Seminare oder Dienstleistungen sein. Sollen für alle immateriellen Artikel keine Versandkosten berechnet werden, dann muss :guilabel:`Nicht materielle Produkte nicht in die Berechnung der Versandkosten einbeziehen` in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen` aktiviert sein.
-
-   Wenn Sie Software anbieten wollen, verwenden Sie bitte die Funktion \"Download-Artikel\".
+   Als immateriell wird ein Artikel gekennzeichnet, der kein Gegenstand ist, der nicht verpackt und an den Kunden geschickt wird.
+   |br|
+   Das können beispielsweise Seminare oder Dienstleistungen sein.
+   |br|
+   Sollen für alle immateriellen Artikel keine Versandkosten berechnet werden, dann muss :guilabel:`Nicht materielle Produkte nicht in die Berechnung der Versandkosten einbeziehen` in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Weitere Einstellungen` aktiviert sein.
+   |br|
+   Wenn Sie Software anbieten, stellen Sie sicher, dass Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Download-Artikel` die Funktion \"Download-Artikel\" konfiguriert haben.
+   |br|
+   Weitere Informationen finden Sie unter :doc:`Registerkarte Downloads <../../einrichtung/artikel/registerkarte-downloads>`.
 
 :guilabel:`Versandkostenfrei`
    Der Artikel wird bei der Versandkostenberechnung nicht berücksichtigt, wenn das Kontrollkästchen angehakt ist. Befindet sich dieser Artikel mit anderen Artikeln im Warenkorb, bedeutet das jedoch nicht, dass damit der gesamte Einkauf versandkostenfrei wird.
@@ -63,9 +73,9 @@ Beispiel: Bei einem Artikel, der in einer 1,5 kg-Packung angeboten wird, tragen 
 :guilabel:`Wunschpreis deaktivieren`
    In der Detailansicht eines Artikels können Kunden die Funktion Wunschpreis nutzen, indem Sie einen Preis eintragen, zu dem sie den Artikel kaufen würden. Im Administrationsbereich werden unter :menuselection:`Kundeninformationen --> Wunschpreis` die Kundenanfragen gesammelt. Der Shopbetreiber kann den Kunden per E-Mail, die vom Shop vorbereitet wurde, informieren, sobald dieser Wunschpreis erreicht wird. Schalten Sie die Funktion Wunschpreis hier für einen bestimmten Artikel ab.
 
-Die Funktion kann aber auch in den Einstellungen des Themes in der Sektion :guilabel:`Funktionen` für den Shop global aktiviert oder deaktiviert werden.
+   Die Funktion kann aber auch in den Einstellungen des Themes in der Sektion :guilabel:`Funktionen` für den Shop global aktiviert oder deaktiviert werden.
 
-Wunschpreis hieß bis OXID eShop 6.2.1 Preisalarm.
+   Wunschpreis hieß bis OXID eShop 6.2.1 Preisalarm.
 
 :guilabel:`Alle neg. Nachlässe ignorieren.`
    Wenn das Kontrollkästchen aktiviert ist, werden für diesen Artikel keine negativen Nachlässe, wie Rabatte und Gutscheine, berechnet.
@@ -84,12 +94,19 @@ Wunschpreis hieß bis OXID eShop 6.2.1 Preisalarm.
 :guilabel:`Kategorien zuordnen`
    Ein Artikel kann zu einer oder zu mehreren Kategorien gehören. Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster.
 
-.. image:: ../../media/screenshots/oxbacj02.png
-   :alt: Kategorien zuordnen
-   :height: 314
-   :width: 400
+   .. image:: ../../media/screenshots/oxbacj02.png
+      :alt: Kategorien zuordnen
+      :height: 314
+      :width: 400
 
-In diesem Zuordnungsfenster werden in der linken Liste alle Kategorie angezeigt. Die Kategorien können per Drag \& Drop in die rechte Liste verschoben werden. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Damit ist die Zuordnung abgeschlossen. Ist der Artikel in mehreren Kategorien vorhanden, muss eine davon als Hauptkategorie festgelegt werden, um Duplicate Content (DC) zu vermeiden. Markieren Sie die Hauptkategorie in der rechten Liste und drücken Sie die Schaltfläche :guilabel:`Als Hauptkat. setzen`.
+   |br|
+   In diesem Zuordnungsfenster werden in der linken Liste alle Kategorie angezeigt.
+   |br|
+   Die Kategorien können Sie per Drag \& Drop in die rechte Liste verschieben. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+   |br|
+   Damit ist die Zuordnung abgeschlossen.
+   |br|
+   Ist der Artikel in mehreren Kategorien vorhanden, müssen Sie eine davon als Hauptkategorie festlegen, um Duplicate Content (DC) zu vermeiden. Markieren Sie dazu die Hauptkategorie in der rechten Liste und drücken Sie die Schaltfläche :guilabel:`Als Hauptkat. setzen`.
 
 :guilabel:`Mediendateien`
    Zu einem Artikel können zusätzliche Informationen in Form von Links oder Downloads in dessen Detailansicht bereitgestellt werden. Diese werden in der automatisch erstellten Registerkarte :guilabel:`MEDIEN` angezeigt. Es kann mehrere Mediendateien zu einem Artikel geben.

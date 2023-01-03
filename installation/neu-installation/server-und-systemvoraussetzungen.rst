@@ -1,14 +1,26 @@
 ﻿Server und Systemvoraussetzungen
 ================================
 
-OXID eShop kann auf verschiedenen Server-Systemen betrieben werden. Die Wahl eines passenden Hosting-Paketes hängt beispielsweise von der Anzahl der Artikel, der erwarteten Besucher im Shop und von der Anzahl der Bestellungen ab. Genügt für einen kleinen Shop mit einigen hundert Artikeln, wenigen Besuchern im Monat und einem überschaubaren Bestellvolumen ein Shared Hosting-System, sollte für größere Shops ein Managed Server-System gewählt werden. Bei steigender Last ist der Betrieb einer Serverfarm mit Loadbalancing und einem Datenbankcluster in Betracht zu ziehen. Beratung und Unterstützung bei der Auswahl des geeigneten Systems finden Sie bei unseren `OXID Partnern (Hosting) <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_. Diese stellen speziell auf den OXID eShop zugeschnittene Lösungen bereit.
+Sie können OXID eShop auf verschiedenen Server-Systemen betreiben.
 
-Für den Betrieb des OXID eShop Version 7 müssen die unten stehenden Systemvoraussetzungen erfüllt sein.
+Die Wahl eines passenden Hosting-Pakets hängt beispielsweise von der Anzahl der Artikel, der erwarteten Besucher im Shop und von der Anzahl der Bestellungen ab.
+
+Sie haben folgende Möglichkeiten:
+
+* Für einen kleinen Shop mit einigen hundert Artikeln, wenigen Besuchern im Monat und einem überschaubaren Bestellvolumen genügt ein Shared Hosting-System.
+* Für größere Shops wählen Sie ein Managed Server-System.
+* Bei steigender Last empfiehlt sich eine Serverfarm mit Loadbalancing und einem Datenbank-Cluster.
+
+Beratung und Unterstützung bei der Auswahl des geeigneten Systems finden Sie bei unseren `OXID Partnern (Hosting) <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_. Diese stellen speziell auf den OXID eShop zugeschnittene Lösungen bereit.
+
+----------------------------------------------------------------------------------------------------------
+
+Für den Betrieb des OXID eShop Version 6 muss Ihr System die folgenden Systemvoraussetzungen erfüllen.
 
 Webserver
 ---------
 
-* Apache Versionen 2.2 und 2.4 (auf Linux)
+* Apache Versionen 2.2 oder 2.4 (auf Linux)
 * 500 MB freier Webspace für die Community und die Professional Edition
 * 750 MB freier Webspace für die Enterprise Edition
 * *mod_rewrite* Erweiterung installiert
@@ -39,7 +51,7 @@ Webserver
 Datenbank
 ---------
 
-* MySQL 5.7 und 8.0
+* MySQL 5.5 oder 5.7
 * MariaDB (getestet mit MariaDB 10.4)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
