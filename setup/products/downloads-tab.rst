@@ -1,7 +1,9 @@
 ﻿Downloads tab
 =============
 
-With OXID eShop 4.6.0, we have introduced a new product type: the downloadable product. This allows you to offer any files, such as software, photos, music files or document templates, to your customers. When the customer places a downloadable product in the shopping cart, he/she will receive all the associated files.
+With downloadable products, offer any files for sale, for example software, photos, music files or document templates.
+
+When your customer adds a downloadable products to their shopping cart, they purchase all of the associated files.
 
 After ordering, the download links can be found under :menuselection:`Account --> My downloads`. The files can be downloaded once the payment has been made. If the customer used direct debit as a payment method, he/she will be able to download the files immediately. The order confirmation e-mail will also contain the download links to the ordered files when the payment is complete.
 
@@ -10,9 +12,13 @@ After ordering, the download links can be found under :menuselection:`Account --
    :height: 343
    :width: 650
 
-The use of downloadable products in the shop must be enabled globally. To do this, you will need to configure the default settings in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Downloadable products`, in the Admin panel. In addition to enabling downloadable products, you will be able to set the path to the downloadable files, the count of downloads or expiration times for the download links.
+The use of downloadable products in the shop must be enabled globally.
+|br|
+To do this, adjust the default settings in :menuselection:`Master Settings --> Core Settings --> Settings --> Downloadable products`.
+|br|
+In addition to enabling downloadable products, set the path to the downloadable files, the count of downloads or expiration times for the download links.
 
-You can use the :guilabel:` Downloads` tab to upload the files relevant for the product and to define their download settings. You can also change the default settings for each downloadable product and for each individual file to further define the download requirements.
+You can use the :guilabel:`Downloads` tab to upload the files relevant for the product and to define their download settings. You can also change the default settings for each downloadable product and for each individual file to further define the download requirements.
 
 :guilabel:`Enter name of uploaded file ... or upload file (max. 2 MB)`
    This is where you can add files to the product. One option is to upload them to the web server via FTP. Since the path has already been defined in the default settings, you can just enter the file name. The other option is to upload the files here. Clicking on :guilabel:`Browse...` opens a file dialog where you can select the relevant file on your computer. Click on :guilabel:`Open` to have the path and file name loaded directly.

@@ -37,7 +37,11 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
+    'sphinx.ext.autosectionlabel',
 ]
+
+# Make sure the target is unique
+autosectionlabel_prefix_document = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -135,6 +139,7 @@ html_context = {
          [('6.2', 'https://docs.oxid-esales.com/eshop/en/6.2/'),
           ('6.3', 'https://docs.oxid-esales.com/eshop/en/6.3/'),
           ('6.4', 'https://docs.oxid-esales.com/eshop/en/6.4/'),
+          ('6.5', 'https://docs.oxid-esales.com/eshop/en/6.5/'),
           ('7.0', 'https://docs.oxid-esales.com/eshop/en/7.0/')],
     'languages':
          [('EN', 'https://docs.oxid-esales.com/eshop/en/7.0/'),
@@ -267,13 +272,18 @@ htmlhelp_basename = 'OXIDeShop7doc'
 # A string of reStructuredText that will be included at the beginning of every source file that is read.
 rst_prolog = """
 .. role:: db
-
+.. role:: productname
+.. role:: technicalname
 """
 
 rst_epilog = """
 .. |link| image:: /media/icons/link.png
-   :class: no-shadow
-
+           :class: no-shadow
+.. |procedure| replace:: **Procedure**
+.. |prerequisites| replace:: **Prerequisites**
+.. |result| replace:: **Result**
+.. |background| replace:: **Background**
+.. |example| replace:: **Example**
 .. |br| raw:: html
 
    <br />

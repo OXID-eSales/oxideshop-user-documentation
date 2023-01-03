@@ -6,7 +6,7 @@ This section tells you how to install OXID eShop 7.0. The installation is no lon
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Step 1
     :class: no-shadow
-    :height: 457
+    :height: 455
     :width: 650
 
 The installation guide in English can be found in the developer documentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
@@ -20,7 +20,7 @@ Server und system requirements
 
 Preparing for installation
 --------------------------
-**Contents**: installing Composer, providing shop files, configuring Apache, customising file and directory permissions, creating database |br|
+**Contents**: installing Composer, providing shop files, configuring Apache, customizing file and directory permissions, creating a database |br|
 :doc:`Read article <preparing-for-installation>` |link|
 
 Web-based setup

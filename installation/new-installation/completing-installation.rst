@@ -11,4 +11,5 @@ To ensure error-free operation, the shop needs write permissions for some direct
 
 The files :file:`.htaccess` and :file:`config.inc.php` from the main directory must be read-only after the setup has been completed (file permissions for 444).
 
+
 .. Intern: oxbaag, Status:

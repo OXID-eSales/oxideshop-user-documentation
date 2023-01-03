@@ -62,12 +62,21 @@ For the web-based setup, the HTTP server must have write access to the following
 :file:`/source/config.inc.php` |br|
 :file:`/source/.htaccess`
 
-|schritt| Creating database
----------------------------
+|schritt| Creating a database
+-----------------------------
 
-OXID eShop requires a MySQL database to store all products, categories, customer and order data, and other information. Most web hosts offer database access through a special website, such as phpMyAdmin. If you need further assistance, please contact your OXID Hosting Partner or Internet Service Provider (ISP).
+OXID eShop requires a MySQL database to store all products, categories, customer and order data, and other information. Most web hosts offer database access through a special website, such as phpMyAdmin. If you need further assistance, contact your OXID Hosting Partner or Internet Service Provider (ISP).
 
-Now, you will need to create a new MySQL database. You can select any name for the database, for example, *oxid_eshop*. Make sure to remember the name of the database and the assigned login data for the database (username and password). You will need this data when running the setup.
+You have the following options:
+
+* Recommended: Create a new MySQL database. You can select any name for the database, for example, *oxid_eshop*.
+
+ Make sure to remember the name of the database and the assigned login data for the database (username and password).
+
+ You will need this data when running the setup.
+
+* Alternatively: Create the database during the setup.
+
 
 
 .. Intern: oxbaad, Status: transL

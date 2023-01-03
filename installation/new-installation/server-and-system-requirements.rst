@@ -1,14 +1,26 @@
 ﻿Server and system requirements
 ==============================
 
-OXID eShop can run on different server systems. The choice of a suitable hosting package depends, for example, on the number of products, the expected number of visitors in the shop, and the number of orders. While a shared hosting system is sufficient for a small shop with a few hundred products, a few visitors per month and a manageable order volume, a managed server system should be selected for larger shops. As the load increases, you should consider using a server farm with load balancing and a database cluster. Please contact our `OXID Hosting Partners <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_ for advice and support in selecting the right system. They provide solutions specifically tailored to OXID eShop.
+You can run OXID eShop on different server systems.
+
+The choice of a suitable hosting package depends, for example, on the number of products, the expected number of visitors in the shop, and the number of orders.
+
+You have the following options:
+
+* Use a shared hosting system for a small shop with a few hundred products, a few visitors per month, and a manageable order volume.
+* Use a managed server system for larger shops.
+* As the load increases, a server farm with load balancing and a database cluster is recommended.
+
+For advice and support in selecting the right system, contact our `OXID Hosting Partners <https://www.oxid-esales.com/oxid-welt/partner/partner-finden/>`_. They provide solutions specifically tailored to OXID eShop.
+
+----------------------------------------------------------------------------------------
 
 The following system requirements must be met to operate OXID eShop version 7.
 
-Web server
-----------
+Webserver
+---------
 
-* Apache version 2.2 and 2.4 (on Linux)
+* Apache version 2.2 or 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition
 * 750 MB of free webspace for Enterprise Edition
 * *mod_rewrite* extension installed
@@ -75,7 +87,15 @@ PHP extensions that need to be installed:
 Composer
 --------
 
-* Composer
+* Composer 2.2
+
+.. attention::
+
+    Composer 2.3.x is not supported.
+
+    If you have Composer 2.3.x, for example, install Composer 2.2 as follows:
+
+    .. code:: bash
 
 Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
 
