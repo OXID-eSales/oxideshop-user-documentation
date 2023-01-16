@@ -1,7 +1,11 @@
 ﻿Setup ausführen
 ===============
 
-Um Ihren OXID eShop startbereit zu machen, führen Sie das webbasierte Setup aus.
+Um Ihren OXID eShop startbereit zu machen, führen Sie das Setup entweder webbasiert oder per Kommandozeile aus.
+
+Im folgende beschreiben wir das webbasierte Setup.
+
+Alternativ können Sie das Setup per Kommandozeile ausführen. Weitere Informationen finden Sie unter :ref:`installation/neu-installation/setup-kommandozeile:Setup per Kommandozeile`.
 
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
@@ -163,6 +167,7 @@ Setzen Sie aus Sicherheitsgründen die Datei `config.inc.php` in den `read-only`
 
 * Der Link :guilabel:`Zum Shop` führt Sie zur Startseite Ihres Shops.
 * Der Link :guilabel:`Zur Shop Administration` führt Sie zum Administrationsbereich.
+
 
 
 .. Intern: oxbaaf, Status:
