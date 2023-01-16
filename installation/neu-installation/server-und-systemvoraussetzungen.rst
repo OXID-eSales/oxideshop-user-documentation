@@ -27,17 +27,13 @@ Webserver
 * 750 MB freier Webspace für die Enterprise Edition
 * Installierte Erweiterung *mod_rewrite*
 
-    .. hint::
+  .. note::
 
-       Nach der Installation gelangen Sie ins webbasierte Setup des Shops.
+      Auch wenn die *mod_rewrite*-Erweiterung installiert ist, kann es sein, dass die Systemüberprüfung nicht den Anforderungen entspricht.
 
-       Bevor Sie das Setup ausführen können, prüft das System, ob die Systemvoraussetzungen erfüllt sind.
+      Einer der Gründe dafür ist oft die Einstellung für *AllowOverride* in der Apache vhost-Konfiguration.
 
-       Es kann sein, dass unter :guilabel:`Server-Konfiguration` das *Apache mod_rewrite Module* als fehlerhaft markiert ist, obwohl Sie das Modul installiert haben.
-
-       Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts.
-
-       Wenn Sie Apache 2.3.9 haben, stellen Sie sicher, dass *AllowOverride* den Wert *None* hat.
+      Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
 
 * Kryptographisch ausreichende Konfiguration
 
@@ -70,7 +66,7 @@ PHP
 
 .. todo: #VL prüfen
 
-* PHP Versionen 7.4, 8.0 oder 8.1
+* PHP Versionen 8.0 oder 8.1
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein

@@ -1,9 +1,19 @@
-OXID eShop 7.0.0 RC 1
-=====================
+OXID eShop 7.0.0
+================
 
-Veröffentlichungstermin RC 1: 21.07.2021
+Veröffentlichungstermin RC 1: 28.02.2023
 
 -----------------------------------------------------------------------------------------
+
+.. todo: Features
+
+.. todo: #VL: OXDEV-6673: Newsletter-Empfänger exportieren ist schon in 6.x umgesetzt
+
+  Export newsletter recipients: :menuselection:`Kundeninformation --> Newsletter`. Betätigen Sie die Schaltfläche :guilabel:`Empfänger exportieren`.
+
+  Datei: betrieb/newsletter/newsletter.rst
+
+
 
 Allgemeines
 -----------

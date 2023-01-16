@@ -1,7 +1,13 @@
 Newsletter
 ==========
 
-Newsletter stellen eine unkomplizierte und schnelle Möglichkeit dar, die Kunden des Onlineshops über aktuelle Themen zu informieren, Tipps zu geben, Aktionen anzukündigen und Artikel zu bewerben. Sie dienen damit der Kundeninformation und stellen zugleich Kundenbindung her. Kunden müssen den Newsletter abonniert haben, indem sie dies beispielsweise bei der Registrierung bestätigt oder das Newsletter-Formular ausgefüllt und abgeschickt haben. Darüber hinaus müssen die Kunden dem Versand von Newslettern an die eigene E-Mail-Adresse nochmals explizit zustimmen. Dieses Verfahren wird als Double-Opt-In bezeichnet und stellt sicher, dass kein Unbefugter jemanden für den Newsletter einträgt.
+Newsletter stellen eine unkomplizierte und schnelle Möglichkeit dar, die Kunden des Onlineshops über aktuelle Themen zu informieren, Tipps zu geben, Aktionen anzukündigen und Artikel zu bewerben.
+
+Sie dienen damit der Kundeninformation und stellen zugleich Kundenbindung her.
+
+Kunden müssen den Newsletter abonniert haben, indem sie dies beispielsweise bei der Registrierung bestätigt oder das Newsletter-Formular ausgefüllt und abgeschickt haben.
+
+Darüber hinaus müssen die Kunden dem Versand von Newslettern an die eigene E-Mail-Adresse nochmals explizit zustimmen. Dieses Verfahren wird als Double-Opt-In bezeichnet und stellt sicher, dass kein Unbefugter jemanden für den Newsletter einträgt.
 
 .. image:: ../../media/screenshots/oxbaie01.png
    :alt: Newsletter abonnieren
