@@ -7,6 +7,5 @@ Neu-Installation
    neu-installation
    server-und-systemvoraussetzungen
    installation-vorbereiten
-   setup-webbasiert
-   setup-kommandozeile
+   setup-ausfuehren
    installation-abschliessen

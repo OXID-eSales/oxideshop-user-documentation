@@ -1,7 +1,11 @@
 Neu-Installation
 ================
 
-In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 7.0 neu installieren. Die für den Shop benötigten Dateien werden mit Hilfe von Composer, dem Dependency Manager für PHP, bereitgestellt. Danach kann das webbasierte Setup ausgeführt und der Shop installiert werden.
+Erfahren Sie, wie Sie den OXID eShop 7.0 neu installieren.
+
+Die für den Shop benötigten Dateien rufen Sie  mit Hilfe von Composer ab, dem Dependency Manager für PHP.
+
+Danach führen Sie das webbasierte Setup aus und installieren den Shop.
 
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Schritt 1
@@ -9,13 +13,15 @@ In diesem Abschnitt erfahren Sie, wie Sie den OXID eShop 7.0 neu installieren. D
     :height: 452
     :width: 650
 
+.. todo Check installation guide:
+
 Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 
-Server und Systemvoraussetzungen
---------------------------------
-**Inhalte**: Server, Shared Hosting, Managed Server, Serverfarm mit Loadbalancing und Datenbankcluster, Linux, Webserver, Apache 2.2 + 2.4, MySQL 5.7 + 8.0, MariaDB 10.4, PHP 8.0 + 8.1, Composer 2, Metadata 2.0 + 2.1, OpenSSL |br|
+Server- und Systemvoraussetzungen sicherstellen
+-----------------------------------------------
+**Inhalte**: Server, Shared Hosting, Managed Server, Serverfarm mit Loadbalancing und Datenbankcluster, Linux, Webserver, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 8.1 und 7.4, Composer, OpenSSL |br|
 :doc:`Artikel lesen <server-und-systemvoraussetzungen>` |link|
 
 Installation vorbereiten
@@ -23,16 +29,10 @@ Installation vorbereiten
 **Inhalte**: Composer installieren, Shopdateien bereitstellen, Apache konfigurieren, Datei- und Verzeichnisrechte anpassen, Datenbank anlegen |br|
 :doc:`Artikel lesen <installation-vorbereiten>` |link|
 
-Webbasiertes Setup
-------------------
-**Inhalte**: Webbasiertes Setup, Prüfung der Systemvoraussetzungen, Hauptlieferland und Sprache des Shops wählen, Lizenzbedingungen, Datenbank, Datenbankname, Datenbankbenutzer und -passwort angeben, Demodaten, Shopverzeichnisse, Zugangsdaten für Administrationsbereich, Shop-Administrator, Lizenzschlüssel eingeben (PE und EE) |br|
-:doc:`Artikel lesen <setup-webbasiert>` |link|
-
-Setup per Kommandozeile
------------------------
-**Inhalte**: Setup per Kommandozeile, oe:setup:shop, Datenbank, db-host, db-port, db-name, db-user, db-password, Shop-Konfiguration, shop-url, shop-directory, compile-directory, language, oe:setup:demodata, Demodaten, oe:admin:create-user, Zugangsdaten für Administrationsbereich, Shop-Administrator, admin-email, admin-password, oe:license:add, oe:license:clear, Lizenzschlüssel für PE/EE, Modul-Installation, oe:module:install, oe:module:uninstall |br|
-:doc:`Artikel lesen <setup-webbasiert>` |link|
-
+Setup ausführen
+---------------
+**Inhalte**: Webbasiertes Setup, Prüfung der Systemvoraussetzungen, Hauptlieferland und Sprache des Shops wählen, Lizenzbedingungen, Datenbank, Datenbankname, Datenbankbenutzer und -passwort angeben, Demodaten, Shopverzeichnisse, Zugangsdaten für Administrationsbereich festlegen, Shop-Administrator, Lizenzschlüssel eingeben (PE und EE) |br|
+:doc:`Artikel lesen <setup-ausfuehren>` |link|
 
 Installation abschließen
 ------------------------
