@@ -1,7 +1,13 @@
 ﻿Newsletters
 ===========
 
-Newsletters are a fast and easy way to notify online shop customers of current topics, give tips, announce campaigns and promote products. They serve to inform customers and at the same time create customer loyalty. Customers must have subscribed to the newsletter, for example, by confirming this during registration or by filling out and sending the newsletter form. In addition, customers must explicitly agree to the sending of newsletters to their own e-mail address. This procedure is called double opt-in. It ensures that no unauthorised person subscribes someone else to the newsletter.
+Newsletters are a fast and easy way to notify online shop customers of current topics, give tips, announce campaigns and promote products.
+
+They serve to inform customers and at the same time create customer loyalty.
+
+Customers must have subscribed to the newsletter, for example, by confirming this during registration or by filling out and sending the newsletter form.
+
+In addition, customers must explicitly agree to the sending of newsletters to their own e-mail address. This procedure is called double opt-in. It ensures that no unauthorised person subscribes someone else to the newsletter.
 
 .. image:: ../../media/screenshots/oxbaie01.png
    :alt: Subscribing newsletter
