@@ -61,7 +61,7 @@ The transaction isolation level must be left with the default value *REPEATABLE 
 PHP
 ---
 
-* PHP version 8.0 and 8.1
+* PHP version 8.0 or 8.1
 * Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
 * PHP setting *session.auto_start* in :file:`php.ini` should be disabled (OFF)
 * File uploads should be enabled in PHP
@@ -96,6 +96,8 @@ Composer
     If you have Composer 2.3.x, for example, install Composer 2.2 as follows:
 
     .. code:: bash
+
+       composer selfupdate --2.2
 
 Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
 

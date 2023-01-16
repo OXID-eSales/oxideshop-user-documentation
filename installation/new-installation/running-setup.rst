@@ -1,11 +1,12 @@
-﻿Web-based setup
-===============
+﻿Running setup
+=============
 
-OXID eShop can be installed and configured with a web-based setup or via command line. This document describes the web-based setup.
+To get your OXID eShop ready for launch, run the setup either web-based or via command line.
 
-Open a browser and go to ``www.yourshopurl.com/setup``. Replace ``www.yourshopurl.com`` with the URL under which your OXID eShop will be accessible. The setup will start. It consists of 6 or 7 steps. An additional step is required to enter the license key for Enterprise and Professional Edition.
+In the following, we describe the web-based setup.
 
-Certain values are written into :file:`.htaccess` and :file:`config.inc.php` during installation. Both files are located in the main shop directory and shouldn’t be read-only for the duration of the setup.
+Alternatively, you can run the setup via command line. For more information, see :ref:`installation/new-installation/setup-command-line:Setup via command line`.
+
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
@@ -174,5 +175,4 @@ For reasons of security, set the :file:`config.inc.php` file into ``read-only`` 
 * The link :guilabel:`To the shop administration` leads you to the the Admin panel.
 
 
-
-.. Intern: oxbaaf, Status: transL
+.. Intern: oxbaaf, Status:

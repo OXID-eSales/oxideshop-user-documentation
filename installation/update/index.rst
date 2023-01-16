@@ -1,7 +1,10 @@
 Update
 ======
 
+We distinguish the following update types:
+
 .. toctree::
    :maxdepth: 1
 
-   update
+   Minor Update, for example from version 6.3 to 6.5 <minor-update>
+   Patch update, for example from version 6.4.1 to 6.4.3 <patch-update>
