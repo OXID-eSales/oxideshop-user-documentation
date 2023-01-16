@@ -15,37 +15,50 @@ Beratung und Unterstützung bei der Auswahl des geeigneten Systems finden Sie be
 
 ----------------------------------------------------------------------------------------------------------
 
-.. todo: Vorauss. klären
-
 Für den Betrieb des OXID eShop Version 7 muss Ihr System die folgenden Systemvoraussetzungen erfüllen.
 
 Webserver
 ---------
+
+.. todo: #VL prüfen
 
 * Apache Versionen 2.2 oder 2.4 (auf Linux)
 * 500 MB freier Webspace für die Community und die Professional Edition
 * 750 MB freier Webspace für die Enterprise Edition
 * Installierte Erweiterung *mod_rewrite*
 
-.. hint::
+    .. hint::
 
-   Nach der Installation gelangen Sie ins webbasierte Setup des Shops.
+       Nach der Installation gelangen Sie ins webbasierte Setup des Shops.
 
-   Bevor Sie das Setup ausführen können, prüft das System, ob die Systemvoraussetzungen erfüllt sind.
+       Bevor Sie das Setup ausführen können, prüft das System, ob die Systemvoraussetzungen erfüllt sind.
 
-   Es kann sein, dass unter :guilabel:`Server-Konfiguration` das *Apache mod_rewrite Module* als fehlerhaft markiert ist, obwohl Sie das Modul installiert haben.
+       Es kann sein, dass unter :guilabel:`Server-Konfiguration` das *Apache mod_rewrite Module* als fehlerhaft markiert ist, obwohl Sie das Modul installiert haben.
 
-   Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts.
+       Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts.
 
-   Wenn Sie Apache 2.3.9 haben, stellen Sie sicher, dass *AllowOverride* den Wert *None* hat.
+       Wenn Sie Apache 2.3.9 haben, stellen Sie sicher, dass *AllowOverride* den Wert *None* hat.
+
+* Kryptographisch ausreichende Konfiguration
+
+  .. note::
+      **Was ist eine kryptographisch ausreichende Konfiguration und wie erreicht Sie sie?**
+
+      Eines der Merkmale einer sicheren Webanwendung ist die Fähigkeit, kryptografisch starke Zufallswerte zu erzeugen.
+
+      Aus diesem Grund muss der PHP-Prozess Zugang zu einer geeigneten Zufallsquelle für seine CSPRNG (*Cryptographically Secure Pseudorandom Number Generator*) Funktionen (`random_int()`, `random_bytes()`) haben.
+
+      In den meisten Fällen sind dazu keine zusätzlichen Anpassungen Ihrerseits erforderlich, und die Anwendungselemente sollten sofort zusammenarbeiten.
+
+      Wenn jedoch durch eine der PHP-Funktionen (`random_int()` oder `random_bytes()`) eine Ausnahme ausgelöst wird, beginnen Sie mit der Fehlersuche, indem Sie die Dokumentation für die Funktionen unter `php.net/manual/de/function.random-bytes.php <https://www.php.net/manual/de/function.random-bytes.php>`_ und `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_ durchsehen.
 
 
-Der Zend Guard Loader wird nicht benötigt, da OXID eShop 6 unverschlüsselt ist.
-
-Datenbank
+atenbank
 ---------
 
-* MySQL 5.5 oder 5.7
+.. todo: #VL prüfen
+
+* MySQL 5.7 und 8.0
 * MariaDB (getestet mit MariaDB 10.4)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
@@ -54,6 +67,8 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 
 PHP
 ---
+
+.. todo: #VL prüfen
 
 * PHP Versionen 7.4, 8.0 oder 8.1
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
@@ -80,6 +95,8 @@ PHP-Erweiterungen, die installiert sein müssen:
 
 Composer
 --------
+
+.. todo: #VL prüfen
 
 * Composer 2.2
 
