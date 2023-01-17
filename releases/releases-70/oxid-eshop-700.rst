@@ -13,6 +13,9 @@ Veröffentlichungstermin RC 1: 28.02.2023
 
   Datei: betrieb/newsletter/newsletter.rst
 
+.. todo: OXDEV-6674	saving tracking URL per Shipping Method ist schon umgesetzt: in RN erwähnen?
+
+.. todo: OXDEV-6675 remove Suggest (Recommend Product) feature from documentation: nichts zum Entfernen gefunden
 
 
 Allgemeines

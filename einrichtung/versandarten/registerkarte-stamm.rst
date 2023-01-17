@@ -21,9 +21,13 @@ Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versand
    Die Sortierung legt die Reihenfolge der Versandarten in der Dropdown-Liste fest. Die Versandart mit der kleinsten Zahl steht als erste zur Auswahl und ist damit vorausgewählt.
 
 :guilabel:`Tracking-URL`
-   Für jede Versandart kann eine separate Tracking-URL definiert werden. ##ID## dient dabei als Platzhalter, welcher durch die jeweilige Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) ersetzt wird. Gibt es für eine Versandart keine eigene Tracking-URL, wird die im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragene verwendet.
+   Für jede Versandart kann eine separate Tracking-URL definiert werden.
 
-Tracking-URL und konkrete Paket-ID der Bestellung werden zum Tracking-Link zusammengefügt. Dieser wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
+   ##ID## dient dabei als Platzhalter, welcher durch die jeweilige Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) ersetzt wird.
+
+   Gibt es für eine Versandart keine eigene Tracking-URL, wird die im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragene verwendet.
+
+   Tracking-URL und konkrete Paket-ID der Bestellung werden zum Tracking-Link zusammengefügt. Dieser wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
 
 :guilabel:`In Sprache`
    Die Versandart kann in weiteren aktiven Sprachen des Shops bearbeitet werden. Wählen Sie eine Sprache aus der Dropdown-Liste aus.
