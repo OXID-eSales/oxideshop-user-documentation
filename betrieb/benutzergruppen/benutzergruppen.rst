@@ -1,14 +1,24 @@
 ﻿Benutzergruppen
 ===============
 
-Benutzergruppen dienen dazu, Benutzer mit bestimmten Eigenschaften zusammenzufassen. Solche Eigenschaften können beispielsweise der Status des Benutzers, der bisherigen Umsatz im Shop, die Anmeldung für den Newsletter oder spezielle Preise für bestimmte Artikel sein. Benutzer, die einer Benutzergruppe angehören, lassen sich an anderer Stelle komfortabel zuordnen. Mit nur wenigen Mausklicks können Zahlungs- und Versandarten, Versandkostenregeln, Rabatte, Gutscheinserien etc. zugewiesen werden.
+Benutzergruppen dienen dazu, Benutzer mit bestimmten Eigenschaften zusammenzufassen.
+
+Solche Eigenschaften können beispielsweise der Status des Benutzers, der bisherigen Umsatz im Shop, die Anmeldung für den Newsletter oder spezielle Preise für bestimmte Artikel sein.
+
+Benutzer, die einer Benutzergruppe angehören, lassen sich an anderer Stelle komfortabel zuordnen. Mit nur wenigen Mausklicks können Zahlungs- und Versandarten, Versandkostenregeln, Rabatte, Gutscheinserien etc. zugewiesen werden.
 
 .. image:: ../../media/screenshots/oxbadz01.png
    :alt: Benutzergruppen
    :height: 517
    :width: 650
 
-Benutzergruppen können Sie im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzergruppen` bearbeiten. Es werden eine Liste der Benutzergruppen und darunter der Eingabebereich für die Benutzergruppe angezeigt. In der Liste kann nach dem Namen der Benutzergruppe gesucht werden. Verwenden Sie dafür das vorhandene Suchfeld. Wenn Sie beispielsweise \"a\" eingeben, werden alle Benutzergruppen angezeigt, die diesen Buchstaben in ihrem Namen haben. Benutzergruppen können in der Benutzergruppenliste nach aktiv/nicht aktiv und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Benutzergruppen werden dadurch in aufsteigender Reihenfolge angezeigt.
+Benutzergruppen können Sie im Administrationsbereich unter :menuselection:`Benutzer verwalten --> Benutzergruppen` bearbeiten.
+
+Es werden eine Liste der Benutzergruppen und darunter der Eingabebereich für die Benutzergruppe angezeigt. In der Liste kann nach dem Namen der Benutzergruppe gesucht werden.
+
+Verwenden Sie dafür das vorhandene Suchfeld. Wenn Sie beispielsweise \"a\" eingeben, werden alle Benutzergruppen angezeigt, die diesen Buchstaben in ihrem Namen haben.
+
+Benutzergruppen können in der Benutzergruppenliste nach aktiv/nicht aktiv und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Benutzergruppen werden dadurch in aufsteigender Reihenfolge angezeigt.
 
 Benutzergruppen lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Eine Ausnahme stellen die 16 vordefinierten Benutzergruppen dar, mit denen der OXID eShop ausgeliefert wird.
 
@@ -48,7 +58,15 @@ Benutzer, die sich in Ihrem Shop registriert ohne bestellt zu haben, kommen in d
 
 Newsletter-Abonnenten
 ^^^^^^^^^^^^^^^^^^^^^
-Wird bei einer Bestellung oder Registrierung das Kontrollkästchen :guilabel:`Newsletter abonnieren` angehakt, ist der Benutzer als Newsletter-Abonnent vorgemerkt. Bestätigt der Benutzer einen speziellen Link, den er per E-Mail erhalten hat, wird er für den Newsletter freigeschaltet und in diese Benutzergruppe übernommen. Diese explizite Bestätigung wird auch Double-Opt-in genannt. Meldet sich ein Benutzer später vom Newsletter ab, bleibt er in dieser Benutzergruppe. Der eigentliche Versand des Newsletters wird beim Benutzer auf der :doc:`Registerkarte Erweitert <../benutzer/registerkarte-erweitert>` deaktiviert. Damit sind dessen Daten nicht mehr in der .csv-Datei enthalten, welche für einen Newsletter-Versand exportiert werden kann.
+Wird bei einer Bestellung oder Registrierung das Kontrollkästchen :guilabel:`Newsletter abonnieren` angehakt, ist der Benutzer als Newsletter-Abonnent vorgemerkt.
+
+Bestätigt der Benutzer einen speziellen Link, den er per E-Mail erhalten hat, wird er für den Newsletter freigeschaltet und in diese Benutzergruppe übernommen.
+
+Diese explizite Bestätigung wird auch Double-Opt-in genannt.
+
+Meldet sich ein Benutzer später vom Newsletter ab, bleibt er in dieser Benutzergruppe.
+
+Der eigentliche Versand des Newsletters wird beim Benutzer auf der :doc:`Registerkarte Erweitert <../benutzer/registerkarte-erweitert>` deaktiviert. Damit sind dessen Daten nicht mehr in der .csv-Datei enthalten, die für einen Newsletter-Versand exportiert werden kann.
 
 Preis A/Preis B/Preis C
 ^^^^^^^^^^^^^^^^^^^^^^^

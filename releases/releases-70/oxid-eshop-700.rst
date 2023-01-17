@@ -17,6 +17,9 @@ Veröffentlichungstermin RC 1: 28.02.2023
 
 .. todo: OXDEV-6675 remove Suggest (Recommend Product) feature from documentation: nichts zum Entfernen gefunden
 
+.. todo: OXDEV-6676 remove Waht's new feature from documentation: nichts zum Entfernen gefunden
+
+.. todo: OXDEV-6677 remove LDAP feature from documentation: nichts zum Entfernen gefunden
 
 Allgemeines
 -----------
