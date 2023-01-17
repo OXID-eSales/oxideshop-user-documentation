@@ -21,7 +21,9 @@ The :guilabel:`Main` tab contains several settings for the shipping method. Ship
    Sorting determines the order in which shipping methods appear in the drop-down list. The shipping method with the smallest number will be listed first and preselected.
 
 :guilabel:`Tracking URL`
-   A separate tracking URL can be defined for each shipping method. ##ID## serves as a placeholder, which is replaced by the respective package ID of the order (depending on the shipping service provider tracking code, parcel label number, package reference, shipment number, etc). If a shipping method does not have its own tracking URL, the one entered in the administration panel under :menuselection:`Master data --> Basic settings --> Settings. --> Other settings` will be used.
+   A separate tracking URL can be defined for each shipping method. ##ID## serves as a placeholder, which is replaced by the respective package ID of the order (depending on the shipping service provider tracking code, parcel label number, package reference, shipment number, etc).
+
+   If a shipping method does not have its own tracking URL, the one entered in the administration panel under :menuselection:`Master data --> Basic settings --> Settings. --> Other settings` will be used.
 
    Tracking URL and specific package ID of the order are combined to the tracking link. It will be sent to the customer as a tracking link in the e-mail informing him/her of the shipment. The tracking link is also displayed in the customer's order history in the frontend.
 
