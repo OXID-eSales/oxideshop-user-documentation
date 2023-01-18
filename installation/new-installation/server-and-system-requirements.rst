@@ -20,6 +20,8 @@ The following system requirements must be met to operate OXID eShop version 7.
 Webserver
 ---------
 
+.. todo: #VL verify
+
 * Apache version 2.2 or 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition
 * 750 MB of free webspace for Enterprise Edition
@@ -27,11 +29,15 @@ Webserver
 
   ..  note::
 
-      Even with the *mod_rewrite* extension installed, the system health check may not meet the requirements.
+       After finishing the installation, you go to the web-based shop setup.
 
-      Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration.
+       Before you can start the setup, the system checks whether the system requirements are met.
 
-      This was changed to *AllowOverride None* with Apache 2.3.9.
+       Under :guilabel:`Server Configuration`, the *Apache mod_rewrite Module* bay be marked as defective, even with the *mod_rewrite* extension installed.
+
+       Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration.
+
+       If you have Apache 2.3.9, ensure that the *AllowOverride* parameter has the value *None*.
 
 * Cryptographically-sufficient configuration
 
@@ -46,12 +52,12 @@ Webserver
 
       However, if an exception is thrown by one of the PHP functions (`random_int()` or `random_bytes()`), start troubleshooting by looking through the documentation for the functions under `php.net/manual/en/function.random-bytes.php <https://www.php.net/manual/en/function.random-bytes.php>`_ and `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_.
 
-
-
 Database
 --------
 
-* MySQL 5.7 and 8.0
+.. todo: #VL verify
+
+* MySQL 5.7 or 8.0
 * MariaDB Support (tested with MariaDB 10.4)
 
 The database user needs sufficient permission to create a database during the installation if it doesn’t already exist. The user also needs permission to create views.
@@ -60,6 +66,8 @@ The transaction isolation level must be left with the default value *REPEATABLE 
 
 PHP
 ---
+
+.. todo: #VL verify
 
 * PHP version 8.0 or 8.1
 * Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
@@ -82,10 +90,12 @@ PHP extensions that need to be installed:
 * *SOAP*
 * *DOM*
 
-.. note:: To run PHP 8 we strongly recommend to set the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` otherwise you will get a lot of warnings.
+.. note:: To run PHP 8, we strongly recommend to set the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED``. Otherwise you will get a lot of warnings.
 
 Composer
 --------
+
+.. todo: #VL verify
 
 * Composer 2.2
 
@@ -103,6 +113,9 @@ Composer is required for the installation of OXID eShop and changes in autoloadi
 
 OpenSSL
 -------
+
+.. todo: #VL verify
+
 Compilation modules require OpenSSL.
 
 * *openssl* >= 1.0.1

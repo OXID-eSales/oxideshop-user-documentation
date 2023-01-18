@@ -13,6 +13,8 @@ After that, run the web-based setup and install the shop as usual.
     :height: 455
     :width: 650
 
+.. todo: #tbd: ensure latest = 7.0:
+
 The installation guide in English can be found in the developer documentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------

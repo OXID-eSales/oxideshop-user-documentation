@@ -1,6 +1,8 @@
 Installing a patch update
 =========================
 
+.. todo: #VL: orphanate chapter as of 7.0?
+
 Perform a patch update of your OXID eShop if required.
 
 For example, use the following steps to update the compilation from an existing version 6.4.x to version 6.4.2.
