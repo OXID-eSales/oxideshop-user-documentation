@@ -1,8 +1,9 @@
 Minor Update installieren
 =========================
 
-Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
+.. todo: #VL: Update 70 = Minor update 6.5 -> 7.0?
 
+Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -102,8 +103,9 @@ Stellen Sie dabei vor jedem Update-Schritt sicher, dass Sie Versionen von Compos
    #. Stellen Sie sicher, dass Sie PHP Version 7.4 haben.
    #. Machen Sie ohne weitere Zwischenschritte das Update auf die gewünschte Zielversion.
 
-#. Wenn Sie OXID eShop Version 6.2.5 oder höher haben, machen Sie das Update auf die aktuelle Version direkt, wie im Folgenden beschrieben unter :ref:`installation/update/minor-update:Update ausführen`
+#. Wenn Sie OXID eShop Version 6.2.5 oder höher haben, machen Sie das Update auf die aktuelle Version direkt, wie im Folgenden beschrieben unter :ref:`installation/update/minor-update:Update ausführen`.
 
+.. todo: #VL: dito 6.2.5 required for update to 7.0? 7.0 requires PHP 8.0
 
 Update ausführen
 ----------------
@@ -115,6 +117,8 @@ Aktualisieren Sie Ihren OXID eShop auf die aktuelle Version.
 Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installation/update/minor-update:Voraussetzungen sicherstellen`).
 
 |procedure|
+
+.. todo: #VL: how do I upgrade to V. 7.0?
 
 1. Aktualisieren Sie in der Datei :file:`composer.json` die Version des Metapackage.
    |br|

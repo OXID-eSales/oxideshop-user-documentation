@@ -29,11 +29,15 @@ Webserver
 
   .. note::
 
-      Auch wenn die *mod_rewrite*-Erweiterung installiert ist, kann es sein, dass die Systemüberprüfung nicht den Anforderungen entspricht.
+       Nach der Installation gelangen Sie ins webbasierte Setup des Shops.
 
-      Einer der Gründe dafür ist oft die Einstellung für *AllowOverride* in der Apache vhost-Konfiguration.
+       Bevor Sie das Setup ausführen können, prüft das System, ob die Systemvoraussetzungen erfüllt sind.
 
-      Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
+       Es kann sein, dass unter :guilabel:`Server-Konfiguration` das *Apache mod_rewrite Module* als fehlerhaft markiert ist, obwohl Sie das Modul installiert haben.
+
+       Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts.
+
+       Wenn Sie Apache 2.3.9 haben, stellen Sie sicher, dass *AllowOverride* den Wert *None* hat.
 
 * Kryptographisch ausreichende Konfiguration
 
@@ -49,12 +53,12 @@ Webserver
       Wenn jedoch durch eine der PHP-Funktionen (`random_int()` oder `random_bytes()`) eine Ausnahme ausgelöst wird, beginnen Sie mit der Fehlersuche, indem Sie die Dokumentation für die Funktionen unter `php.net/manual/de/function.random-bytes.php <https://www.php.net/manual/de/function.random-bytes.php>`_ und `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_ durchsehen.
 
 
-atenbank
+Datenbank
 ---------
 
 .. todo: #VL prüfen
 
-* MySQL 5.7 und 8.0
+* MySQL 5.7 oder 8.0
 * MariaDB (getestet mit MariaDB 10.4)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
