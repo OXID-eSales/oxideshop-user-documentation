@@ -1,44 +1,42 @@
-:orphan:
-Minor Update installieren
-=========================
+Upgrade
+=======
 
-Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
+.. todo: #HR: Update 70 = "Upgrade" 6.x -> 7.0?
+
+Wechseln Sie von OXID eShop Version 6.x zu OVersion 7.0.
+
+.. todo: #HR: Was muss ich beachten je nach Vorgänger-Version?
 
 .. include:: /_static/reuse/note_dataloss.rst
 
 Kompatibilität von Drittanbieter-Modulen sicherstellen
 ------------------------------------------------------
 
-Wenn Sie Module oder Themes von Drittanbietern verwenden, fragen Sie den Drittanbieter, ob diese Themes und Module mit der neuen Version des OXID eShops kompatibel sind.
+.. todo: #HR: Was muss ich beachten jbei Drittanbieter-Software?
 
-Hintergrund: Normalerweise enthält ein Minor Update keine breaking changes. Alle Module von Drittanbietern funktionieren nach dem Update wie zuvor.
-
-In Ausnahmefällen können sich Änderungen jedoch so auswirken, dass Module von Drittanbietern nicht mehr funktionieren.
-|br|
-Beispiele:
-
-* Drittanbieter-Module funktionieren beim Update von OXID eShop 6.1 auf 6.2 nicht mehr.
-* Das OXID eSales-Modul Amazon Pay 3.6.8 funktioniert in OXID eShop 6.5 nicht mehr (siehe :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
+Wenn Sie Module oder Themes von Drittanbietern verwenden, fragen Sie den Drittanbieter, ob diese Themes und Module mit Version 7 des OXID eShops kompatibel sind.
 
 
 Voraussetzungen sicherstellen
 -----------------------------
 
-Bevor Sie ein Minor Update auf die gewünschte Zielversion von OXID eShop ausführen können, stellen Sie sicher, dass Sie die technischen Voraussetzungen für das Update erfüllen.
+.. todo: #HR: Was muss ich beachten je nach Vorgänger-Version?
+
+Bevor Sie ein Upgrade auf OXID eShop Version 7 ausführen, stellen Sie sicher, dass Sie die technischen Voraussetzungen für das Update erfüllen.
 
 Dazu prüfen Sie:
 
 * Muss ich ein oder mehrere inkrementelle Updates machen?
   |br|
-  Inkrementelles Update bedeutet: Sie machen ein Update nicht direkt auf die Zielversion, sondern in einem vorhergehenden Schritt ein Update auf eine Version zwischen Ihrer Ausgangs-Version und Ihrer Ziel-Version.
+  Inkrementelles Update bedeutet: Sie machen ein Update nicht direkt auf OXID eShop Version 7, sondern in einem vorhergehenden Schritt ein Update auf eine Version zwischen Ihrer Ausgangs-Version und OXID eShop Version 7.
   |br|
-  Erst in einem folgenden Update machen Sie das Update von der Zwischenversion zur Zielversion.
+  Erst in einem folgenden Update machen Sie das Update von der Zwischenversion zu OXID eShop Version 7.
 * Habe ich beim Update oder beim inkrementellen Update eine Version von :emphasis:`Composer`, die sowohl meine jeweilige Ausgangs- als auch die Zielversion unterstützt?
 * Habe ich beim Update oder beim inkrementellen Update eine Version von :emphasis:`PHP`, die sowohl meine jeweilige Ausgangs- als auch die Zielversion unterstützt?
 
 |procedure|
 
-Prüfen Sie Schritt für Schritt, welches inkrementelle Update Sie machen müssen, um schließlich zur Zielversion von OXID eShop zu kommen.
+Prüfen Sie Schritt für Schritt, welches inkrementelle Update Sie machen müssen, um schließlich zu OXID eShop Version 7 zu kommen.
 
 Stellen Sie dabei vor jedem Update-Schritt sicher, dass Sie Versionen von Composer und PHP haben, die sowohl von der jeweiligen Ausgangs- als auch von der jeweiligen Zielversion unterstützt werden.
 
@@ -104,12 +102,12 @@ Stellen Sie dabei vor jedem Update-Schritt sicher, dass Sie Versionen von Compos
 
 #. Wenn Sie OXID eShop Version 6.2.5 oder höher haben, machen Sie das Update auf die aktuelle Version direkt, wie im Folgenden beschrieben unter :ref:`installation/update/minor-update:Update ausführen`.
 
-.. todo: #VL: dito 6.2.5 required for update to 7.0? 7.0 requires PHP 8.0
+.. todo: #HR: dito 6.2.5 required for upgrade to 7.0? 7.0 requires PHP 8.0 -- welche Version brauche ich für Upgrade auf 7.0?
 
-Update ausführen
+Upgrade ausführen
 ----------------
 
-Aktualisieren Sie Ihren OXID eShop auf die aktuelle Version.
+Aktualisieren Sie Ihren OXID eShop auf die OXID eShop Version 7.
 
 |prerequisites|
 
@@ -117,12 +115,14 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
 
 |procedure|
 
-.. todo: #VL: how do I upgrade to V. 7.0?
+.. todo: #HR: how do I upgrade to V. 7.0?
 
 1. Aktualisieren Sie in der Datei :file:`composer.json` die Version des Metapackage.
    |br|
    Passen Sie dazu wie im folgenden Beispiel den Namen des Metapackage der gewünschten Shop-Edition an.
    |br|
+   .. todo: #HR: how do I upgrade to V. 7.0? -- etapackage-Namen ``7.0.0?``
+
    Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``6.4.2``:
 
    .. code:: bash
@@ -149,9 +149,9 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
 
    .. note::
 
-      Durch das Update werden mögliche Änderungen überschrieben, die Sie im Verzeichnis :file:`source` an Modulen oder Themes vorgenommen haben.
+      Durch das Upgrade werden mögliche Änderungen überschrieben, die Sie im Verzeichnis :file:`source` an Modulen oder Themes vorgenommen haben.
 
-      Hintergrund: Bei einem Shop-Update lädt Composer die neuen Daten zunächst ins Verzeichnis :file:`vendor`. Anschließend werden die Daten ins Verzeichnis :file:`source` kopiert. Damit werden die Dateien des Shops, der Module und der Themes ersetzt.
+      Hintergrund: Bei einem Shop-UUpgrade lädt Composer die neuen Daten zunächst ins Verzeichnis :file:`vendor`. Anschließend werden die Daten ins Verzeichnis :file:`source` kopiert. Damit werden die Dateien des Shops, der Module und der Themes ersetzt.
 
       Ihre individuellen Anpassungen des OXID Shops oder Änderungen an Modulen von Fremdherstellern sind nur dann vorm Überschreiben durch das Update sicher, wenn Sie die Änderungen durch eine der Erweiterungsmöglichkeiten des OXID eShops (Component, Modul, Child-Theme) vorgenommen haben.
 
@@ -165,7 +165,7 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
 
       **Abfragen bestätigen**
 
-      Während des Updates werden Sie gefragt, welche Pakete überschrieben werden dürfen.
+      Während des Upgrades werden Sie gefragt, welche Pakete überschrieben werden dürfen.
 
       Damit nur kompatible und getestete Pakete installiert werden und es nicht zu Inkonsistenzen und Fehlfunktionen durch fehlerhaft implementierte Module oder Themes kommen kann, müssen Sie die Abfragen mit :technicalname:`Ja` bestätigen.
 
@@ -176,11 +176,9 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
       * Holen Sie zum Erstellen von Modulen oder Child-Themes die Unterstützung einer OXID-Partner-Agentur ein. Dies erleichtert Ihnen alle künftigen Updates.
         |br|
         Eine Liste der von OXID zertifizierten Partneragenturen finden Sie unter `oxid-esales.com/partner/partner-finden/ <https://www.oxid-esales.com/partner/partner-finden/>`_.
-      * Wenn Sie Module oder Themes von Drittanbietern verwenden, fragen Sie den Drittanbieter, ob diese Themes und Module mit der neuen Version des OXID eShops kompatibel sind.
-        |br|
-        Hintergrund: Normalerweise enthält ein Minor Update keine breaking changes. Alle Module von Drittanbietern funktionieren nach dem Update wie zuvor.
-        |br|
-        In Ausnahmefällen (beispielsweise beim Update von OXID eShop 6.1 auf 6.2) können sich Änderungen jedoch so auswirken, dass Module von Drittanbietern nicht mehr funktionieren.
+
+
+   .. todo: #HR: Stimmen die folgenden Befehle?
 
    .. code:: bash
 
@@ -211,5 +209,3 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
    .. code:: bash
 
       vendor/bin/oe-eshop-db_views_generate
-
-.. Intern: oxbajz, Status:

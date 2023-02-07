@@ -1,5 +1,5 @@
-﻿Server und Systemvoraussetzungen
-================================
+﻿Server- und Systemvoraussetzungen
+=================================
 
 Sie können OXID eShop auf verschiedenen Server-Systemen betreiben.
 
@@ -20,7 +20,7 @@ Für den Betrieb des OXID eShop Version 7 muss Ihr System die folgenden Systemvo
 Webserver
 ---------
 
-.. todo: #VL prüfen
+.. todo: #HR/VL prüfen
 
 * Apache Versionen 2.2 oder 2.4 (auf Linux)
 * 500 MB freier Webspace für die Community und die Professional Edition
@@ -56,7 +56,7 @@ Webserver
 Datenbank
 ---------
 
-.. todo: #VL prüfen
+.. todo: #HR/VL prüfen
 
 * MySQL 5.7 oder 8.0
 * MariaDB (getestet mit MariaDB 10.4)
@@ -68,7 +68,8 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-.. todo: #VL prüfen
+.. todo: #HR/VL prüfen
+
 
 * PHP Versionen 8.0 oder 8.1
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
@@ -96,7 +97,7 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-.. todo: #VL prüfen
+.. todo: #HR/VL prüfen: "Composer wird in der Version 2 unterstützt" -- gilt Folgendes?
 
 * Composer 2.2
 
@@ -114,6 +115,13 @@ Composer
 
 
 Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
+
+Metadata
+--------
+
+.. todo: #HR/VL: Was ist "Metadata"?
+
+Metadata wird in den Versionen 2.0 und 2.1 unterstützt.
 
 OpenSSL
 -------

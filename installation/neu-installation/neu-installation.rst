@@ -13,7 +13,7 @@ Danach führen Sie das webbasierte Setup aus und installieren den Shop.
     :height: 452
     :width: 650
 
-.. todo Check installation guide:
+.. todo #tbd: Check installation guide:
 
 Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
 

@@ -1,59 +1,53 @@
 OXID eShop 7.0.0
 ================
 
+.. todo: #VL: Datum
+
 Veröffentlichungstermin RC 1: 28.02.2023
 
------------------------------------------------------------------------------------------
+.. todo: #VL: Was ist das Wichtige an V. 7?
 
-.. todo: Features
+Komponenten der Compilation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #VL: OXDEV-6673: Newsletter-Empfänger exportieren ist schon in 6.x umgesetzt
+Die Compilation enthält folgende Komponenten:
 
-  Export newsletter recipients: :menuselection:`Kundeninformation --> Newsletter`. Betätigen Sie die Schaltfläche :guilabel:`Empfänger exportieren`.
+.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig?
 
-  Datei: betrieb/newsletter/newsletter.rst
-
-.. todo: OXDEV-6674	saving tracking URL per Shipping Method ist schon umgesetzt: in RN erwähnen?
-
-.. todo: OXDEV-6675 remove Suggest (Recommend Product) feature from documentation: nichts zum Entfernen gefunden
-
-.. todo: OXDEV-6676 remove Waht's new feature from documentation: nichts zum Entfernen gefunden
-
-.. todo: OXDEV-6677 remove LDAP feature from documentation: nichts zum Entfernen gefunden
-
-Allgemeines
------------
-OXID eShop 7.0.0 RC 1 wird als Compilation bereitgestellt. Diese enthält u.a. folgende Komponenten:
-
-* OXID eShop CE 7.0.0-rc1
+* OXID eShop CE 7.0.0-rc1: `Changelog 7.0.0-rc1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0-rc1/CHANGELOG.md>`_
 * OXID eShop PE 7.0.0-rc1
 * OXID eShop EE 7.0.0-rc1
-* Theme "Flow" 4.0.0
-* Theme "Wave" 2.0.0
-* OXID eShop composer plugin 6.0.0
+* Theme "Flow" 4.0.0: `Changelog Flow 4.0.0 <https://github.com/OXID-eSales/flow_theme/blob/v4.0.0/CHANGELOG.md>`_
+* Theme "Wave" 2.0.0: `Changelog 2.0.0 <https://github.com/OXID-eSales/wave-theme/blob/v2.0.0/CHANGELOG.md>`_
+* OXID eShop composer plugin 6.0.0: `Changelog 6.0.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v6.0.0/CHANGELOG.md>`_
 * OXID eShop Views Generator 2.0.0
 * OXID eShop DemoData installer 2.0.0
 * OXID eShop demodata CE/PE/EE 7.0.0
-* OXID eShop doctrine migration integration 4.0.0
-* OXID eShop facts 3.0.0
-* Unified Namespace Generator 3.0.0
+* OXID eShop doctrine migration integration 4.0.0: `Changelog 4.0.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v4.0.0/CHANGELOG.md>`_
+* OXID eShop facts 3.0.0: `Changelog OXID eShop facts 3.0.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v3.0.0/CHANGELOG.md>`_
+* Unified Namespace Generator 3.0.0: `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v3.0.0/CHANGELOG.md>`_
 
-Module, wie solche für die Zahlungsarten, der WYSIWYG Editor + Mediathek oder Visual CMS für die Professional und Enterprise Edition werden mit dem finalen Release bereitgestellt.
+.. todo: #VL: Folgende Komponenten ergänzen:
+
+* GDPR Opt-In 2.3.3: `Changelog 2.3.3 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
+* Klarna 5.5.3: `Changelog 5.5.3 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.3/CHANGELOG.md>`_
+* OXID Cookie Management powered by usercentrics 1.2.1: `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
+* PAYONE 1.7.0: `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
+* PayPal 6.5.0: `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
+* WYSIWYG Editor + Mediathek 2.4.1: `Changelog 2.4.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.1/CHANGELOG.md>`_
+* Makaira 1.4.2: `Changelog 1.4.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.2/CHANGELOG.md>`_
+* Unzer Payment für OXID 1.0.0 (EE): `Changelog 1.0.0 <https://github.com/OXID-eSales/unzer-module/blob/v1.0.0/CHANGELOG.md>`_
+
 
 Systemvoraussetzungen
 ^^^^^^^^^^^^^^^^^^^^^
 
-* OXID eShop 7.0.0 RC 2 läuft unter PHP 8.0 und 8.1
-* Als Datenbank wird MySQL in der Version 5.7 und 8.0 sowie MariaDB in der Version 10.4 unterstützt
-* Als Webserver kann Apache 2.2 oder 2.4 auf einem Linux-System eingesetzt werden
-* Composer wird in der Version 2 unterstützt
-* Metadata wird in den Versionen 2.0 und 2.1 unterstützt
+Die Systemvoraussetzungen finden Sie unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server- und Systemvoraussetzungen`.
 
 Installation
 ^^^^^^^^^^^^
-Für die Installation, folgen Sie bitte den Anleitungen im Abschnitt "Installation":
 
-:doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`
+Folgen Sie zum Installieren den den Anleitungen unter :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`.
 
 Es wird nicht empfohlen, ein Update des OXID eShop auf die Version 7.0.0 RC 1 vorzunehmen. Eine Update-Anleitung wird mit der Veröffentlichung der finalen Version zur Verfügung stehen.
 
@@ -73,24 +67,8 @@ Module können mit den neuen Kommandos der OXID eShop console ``oe:module:instal
 
 Verbesserungen und Anpassungen
 ------------------------------
-Aktualisierte Komponenten
-^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Folgende Komponenten wurden auf eine neue Version aktualisiert:
-
-* OXID eShop CE (Update von 6.8.0 auf 7.0.0-rc1), `Changelog 7.0.0-rc1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0-rc1/CHANGELOG.md>`_
-* OXID eShop PE (Update von 6.5.0 auf 7.0.0-rc1)
-* OXID eShop EE (Update von 6.6.0 auf 7.0.0-rc1)
-* Theme "Flow" (Update von 3.7.0 auf 4.0.0), `Changelog Flow 4.0.0 <https://github.com/OXID-eSales/flow_theme/blob/v4.0.0/CHANGELOG.md>`_
-* Theme "Wave" (Update von 1.6.0 auf 2.0.0), `Changelog 2.0.0 <https://github.com/OXID-eSales/wave-theme/blob/v2.0.0/CHANGELOG.md>`_
-
-* OXID eShop composer plugin (Update von 5.2.0 auf 6.0.0), `Changelog 6.0.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v6.0.0/CHANGELOG.md>`_
-* OXID eShop Views Generator (Update von 1.3.0 auf 2.0.0)
-* OXID eShop DemoData installer (Update von 1.2.0 auf 2.0.0)
-* OXID eShop demodata CE/PE/EE (Update von 6.0.4 auf 7.0.0)
-* OXID eShop doctrine migration integration (Update von 3.2.0 auf 4.0.0), `Changelog 4.0.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v4.0.0/CHANGELOG.md>`_
-* OXID eShop facts (Update von 2.4.0 auf 3.0.0), `Changelog OXID eShop facts 3.0.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v3.0.0/CHANGELOG.md>`_
-* Unified Namespace Generator (Update von 2.2.0 auf 3.0.0), `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v3.0.0/CHANGELOG.md>`_
+.. todo: #HR/VL: Stimmen die Folgenden Anpassungen?
 
 Tracking-URL je Versandart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -122,9 +100,10 @@ Die Verschlüsselung von Werten in der Datenbank wurde entfernt, da diese Funkti
 
 -----------------------------------------------------------------------------------------
 
-Korrekturen
------------
-Korrekturen 7.0.0 RC 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
+.. todo: include as of 7.x:
+    Korrekturen
+    -----------
+    Korrekturen 7.0.0 RC 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
 
 
 .. Intern: oxbajt, Status:

@@ -2,6 +2,8 @@
 Setup per Kommandozeile
 =======================
 
+.. todo: #HR: Gilt das Folgende noch?
+
 OXID eShop kann mit einem webbasierten Setup oder per Kommandozeile erstellt und konfiguriert werden. Dieses Dokument beschreibt das Setup per Kommandozeile.
 
 Während der Installation werden bestimmte Werte in die :file:`.htaccess` und die :file:`config.inc.php` geschrieben. Beide Dateien befinden sich im Hauptverzeichnis des Shops und sollten für die Dauer des Setups nicht schreibgeschützt sein.

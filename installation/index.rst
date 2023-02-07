@@ -6,4 +6,4 @@ Installation
    :maxdepth: 1
    
    Neu-Installation <neu-installation/index>
-   Update <update/index>
+   Upgrade von Version 6.x auf 7.0 <upgrade>

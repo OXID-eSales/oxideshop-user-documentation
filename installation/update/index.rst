@@ -1,9 +1,8 @@
+:orphan:
 Update
 ======
 
 Wir unterscheiden folgende Update-Typen:
-
-.. todo: #VL: Update 70 = Minor update 6.5 -> 7.0?
 
 .. toctree::
    :maxdepth: 1
