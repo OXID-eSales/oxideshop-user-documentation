@@ -8,4 +8,5 @@ Neu-Installation
    server-und-systemvoraussetzungen
    installation-vorbereiten
    setup-ausfuehren
+   setup-kommandozeile.rst
    installation-abschliessen

@@ -1,18 +1,18 @@
 Upgrade
 =======
 
-.. todo: #HR: Update 70 = "Upgrade" 6.x -> 7.0?
+.. todo: #VaL: Update 70 = "Upgrade" 6.x -> 7.0? --> Vasyl
 
-Wechseln Sie von OXID eShop Version 6.x zu OVersion 7.0.
+.. todo: #VaL clarify: Do we need aditional info if Smarty is used; What is the default, how would I install Smarty/Twig? Für smarty oder default twig installieren; Zusatzinfo, wenn Smarty verwendet?
 
-.. todo: #HR: Was muss ich beachten je nach Vorgänger-Version?
+Wechseln Sie von OXID eShop Version 6.x zu Version 7.0.
+
+.. todo: #VaL: What do I have to consider, depending on my previous version?
 
 .. include:: /_static/reuse/note_dataloss.rst
 
 Kompatibilität von Drittanbieter-Modulen sicherstellen
 ------------------------------------------------------
-
-.. todo: #HR: Was muss ich beachten jbei Drittanbieter-Software?
 
 Wenn Sie Module oder Themes von Drittanbietern verwenden, fragen Sie den Drittanbieter, ob diese Themes und Module mit Version 7 des OXID eShops kompatibel sind.
 
@@ -20,7 +20,7 @@ Wenn Sie Module oder Themes von Drittanbietern verwenden, fragen Sie den Drittan
 Voraussetzungen sicherstellen
 -----------------------------
 
-.. todo: #HR: Was muss ich beachten je nach Vorgänger-Version?
+.. todo: #VaL: What do I have to consider, depending on my previous version?
 
 Bevor Sie ein Upgrade auf OXID eShop Version 7 ausführen, stellen Sie sicher, dass Sie die technischen Voraussetzungen für das Update erfüllen.
 
@@ -102,7 +102,7 @@ Stellen Sie dabei vor jedem Update-Schritt sicher, dass Sie Versionen von Compos
 
 #. Wenn Sie OXID eShop Version 6.2.5 oder höher haben, machen Sie das Update auf die aktuelle Version direkt, wie im Folgenden beschrieben unter :ref:`installation/update/minor-update:Update ausführen`.
 
-.. todo: #HR: dito 6.2.5 required for upgrade to 7.0? 7.0 requires PHP 8.0 -- welche Version brauche ich für Upgrade auf 7.0?
+.. todo: #VaL: dito 6.2.5 required for upgrade to 7.0? 7.0 requires PHP 8.0 -- which Version do I need to upgrade to 7.0? HR: vermutlich 6.5: VaL: verify
 
 Upgrade ausführen
 ----------------
@@ -115,13 +115,13 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
 
 |procedure|
 
-.. todo: #HR: how do I upgrade to V. 7.0?
+.. todo: #Val: how do I upgrade to V. 7.0?
 
 1. Aktualisieren Sie in der Datei :file:`composer.json` die Version des Metapackage.
    |br|
    Passen Sie dazu wie im folgenden Beispiel den Namen des Metapackage der gewünschten Shop-Edition an.
    |br|
-   .. todo: #HR: how do I upgrade to V. 7.0? -- etapackage-Namen ``7.0.0?``
+   .. todo: #Val: how do I upgrade to V. 7.0? -- metapackage-Namen ``7.0.0?``
 
    Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``6.4.2``:
 
@@ -178,7 +178,7 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
         Eine Liste der von OXID zertifizierten Partneragenturen finden Sie unter `oxid-esales.com/partner/partner-finden/ <https://www.oxid-esales.com/partner/partner-finden/>`_.
 
 
-   .. todo: #HR: Stimmen die folgenden Befehle?
+   .. todo: #Val: are the following commands correct?
 
    .. code:: bash
 

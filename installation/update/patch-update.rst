@@ -2,6 +2,8 @@
 Patch-Update installieren
 =========================
 
+.. todo: #VaL: Is there a use case for a patch update in V. 7?
+
 Führen Sie bei Bedarf ein Patch-Update Ihres OXID eShops durch.
 
 Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.4.x auf die Version 6.4.2.

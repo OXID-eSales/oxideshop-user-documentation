@@ -1,9 +1,9 @@
 ﻿Setup ausführen
 ===============
 
-Um Ihren OXID eShop startbereit zu machen, führen Sie das Setup entweder webbasiert oder per Kommandozeile aus.
+Um Ihren OXID eShop startbereit zu machen, führen Sie das Setup aus.
 
-Im folgende beschreiben wir das webbasierte Setup.
+Im Folgenden beschreiben wir das webbasierte Setup.
 
 Alternativ können Sie das Setup per Kommandozeile ausführen. Weitere Informationen finden Sie unter :ref:`installation/neu-installation/setup-kommandozeile:Setup per Kommandozeile`.
 

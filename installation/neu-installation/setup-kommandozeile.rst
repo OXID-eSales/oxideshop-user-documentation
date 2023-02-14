@@ -1,8 +1,5 @@
-:orphan:
 Setup per Kommandozeile
 =======================
-
-.. todo: #HR: Gilt das Folgende noch?
 
 OXID eShop kann mit einem webbasierten Setup oder per Kommandozeile erstellt und konfiguriert werden. Dieses Dokument beschreibt das Setup per Kommandozeile.
 
