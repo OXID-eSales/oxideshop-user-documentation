@@ -20,7 +20,7 @@ The following system requirements must be met to operate OXID eShop version 7.
 Webserver
 ---------
 
-.. todo: #VL verify
+.. todo: #VaL verify
 
 * Apache version 2.2 or 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition

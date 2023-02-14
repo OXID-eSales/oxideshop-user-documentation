@@ -1,7 +1,7 @@
 ﻿Running setup
 =============
 
-To get your OXID eShop ready for launch, run the setup either web-based or via command line.
+To get your OXID eShop ready for launch, run the setup.
 
 In the following, we describe the web-based setup.
 

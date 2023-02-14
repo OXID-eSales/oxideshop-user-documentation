@@ -1,4 +1,3 @@
-:orphan:
 Setup via command line
 ======================
 

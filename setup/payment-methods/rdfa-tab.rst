@@ -5,6 +5,8 @@ OXID eShop provides well-prepared information for search engines, portals and ot
 
 The :guilabel:`RDFa` tab establishes a logical link between the payment method and the payment values predefined in GoodRelations.
 
+
+
 .. image:: ../../media/screenshots/oxbadc01.png
    :alt: Payment methods - RDFa tab
    :height: 343

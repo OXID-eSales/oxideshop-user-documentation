@@ -8,4 +8,5 @@
    server-and-system-requirements
    preparing-for-installation
    running-setup
+   setup-command-line.rst
    completing-installation
