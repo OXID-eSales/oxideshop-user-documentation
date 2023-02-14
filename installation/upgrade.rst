@@ -105,7 +105,7 @@ Stellen Sie dabei vor jedem Update-Schritt sicher, dass Sie Versionen von Compos
 .. todo: #VaL: dito 6.2.5 required for upgrade to 7.0? 7.0 requires PHP 8.0 -- which Version do I need to upgrade to 7.0? HR: vermutlich 6.5: VaL: verify
 
 Upgrade ausführen
-----------------
+-----------------
 
 Aktualisieren Sie Ihren OXID eShop auf die OXID eShop Version 7.
 

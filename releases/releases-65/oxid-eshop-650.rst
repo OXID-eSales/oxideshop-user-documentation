@@ -13,7 +13,7 @@ OXID eShop 6.5.0
   Siehe :ref:`releases/releases-65/oxid-eshop-650:Korrekturen`.
 * unterstützt PHP 8.1
   |br|
-  Siehe unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server und Systemvoraussetzungen`, Abschnitt :ref:`installation/neu-installation/server-und-systemvoraussetzungen:PHP`.
+  Siehe unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server- und Systemvoraussetzungen`, Abschnitt :ref:`installation/neu-installation/server-und-systemvoraussetzungen:PHP`.
 * verwendet `Symfony 5.4 <https://symfony.com/releases/5.4>`_ statt Symfony 3.4
   |br|
   Hintergrund: Symfony 3.4 wird nicht mehr mit (Sicherheits-) Updates unterstützt und ist nicht mit PHP 8.1 kompatibel.
