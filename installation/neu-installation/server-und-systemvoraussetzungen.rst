@@ -20,7 +20,7 @@ Für den Betrieb des OXID eShop Version 7 muss Ihr System die folgenden Systemvo
 Webserver
 ---------
 
-.. todo: #VaL: verify:
+.. todo: #VaL: verify: -- keine Änd.
 
 * Apache Versionen 2.2 oder 2.4 (auf Linux)
 * 500 MB freier Webspace für die Community und die Professional Edition
@@ -56,9 +56,9 @@ Webserver
 Datenbank
 ---------
 
-.. todo: #VaL: verify:
+.. todo: #VaL: verify: -- see change log MySQL 5.7 or 8.0
 
-* MySQL 5.7 oder 8.0
+* MySQL 5.7 or 8.0
 * MariaDB (getestet mit MariaDB 10.4)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
@@ -68,10 +68,10 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-.. todo: #VaL: verify:
+.. todo: #VaL: verify: 8.0 oder höher
 
 
-* PHP Versionen 8.0 oder 8.1
+* PHP Versionen 8.0 oder höher
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
@@ -97,7 +97,7 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-.. todo: #VaL: verify:: "Composer supported in  Version 2 " -- gilt Folgendes?
+.. todo: #VaL: verify:: "Composer supported in  Version 2 " -- gilt Folgendes? Composer 2.x is correct -- Vasyl checks
 
 * Composer 2.2
 
@@ -119,7 +119,7 @@ Composer wird für die Installation des OXID eShop und Änderungen im Autoloadin
 Metadata
 --------
 
-.. todo: #VaL: What is "Metadata"?
+.. todo: #VaL: What is "Metadata"? file format: see dev docu
 
 Metadata wird in den Versionen 2.0 und 2.1 unterstützt.
 
