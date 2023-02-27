@@ -9,7 +9,7 @@ For more information, see our security bulletin at https://docs.oxid-esales.com/
 
 With PAYONE 1.8.0, new payment methods are available.
 
-In addition, we have improved minor bugs.
+In addition, we have fixed minor bugs.
 
 
 Improvements and adaptations
