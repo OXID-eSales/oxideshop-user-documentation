@@ -9,7 +9,7 @@ Weitere Informationen finden Sie in unserem Sicherheits-Bulletin unter https://d
 
 Mit PAYONE 1.8.0 stehen neue Zahlungsarten zur Auswahl.
 
-Ausßerdem haben wir kleinere Fehler verbessert.
+Außerdem haben wir kleinere Fehler verbessert.
 
 
 Verbesserungen und Anpassungen
