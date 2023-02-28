@@ -1,7 +1,7 @@
 OXID eShop 6.5.2
 ================
 
-Release date: 28-02-2023
+Release date: 21-02-2023
 
 With OXID eShop 6.5.2, we close a potential security vulnerability: Passing a URL that contains the :code:`force_sid` parameter could have resulted in the session being hijacked. In case of a takeover, the attacker would have had access to the user account.
 
@@ -25,7 +25,7 @@ We have updated the following components and modules:
 
 * OXID eShop CE (Update from 6.13.0 to 6.14.0): `Changelog 6.14.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.0/CHANGELOG.md>`_
 * OXID eShop PE (Update from 6.5.2 to 6.5.3)
-* OXID eShop PE (Update from 6.8.0 to 6.8.1)
+* OXID eShop EE (Update from 6.8.0 to 6.8.1)
 * WYSIWYG Editor + Media Library (Update from 2.4.1 to 2.4.2): `Changelog 2.4.2 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.2/CHANGELOG.md>`_
 * PAYONE (update from 1.7.0 to 1.8.0): `Changelog 1.80 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.8.0/Changelog.txt>`_
 
