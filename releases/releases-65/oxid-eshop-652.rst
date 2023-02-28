@@ -5,7 +5,7 @@ Release date: 21-02-2023
 
 With OXID eShop 6.5.2, we close a potential security vulnerability: Passing a URL that contains the :code:`force_sid` parameter could have resulted in the session being hijacked. In case of a takeover, the attacker would have had access to the user account.
 
-For more information, see our security bulletin at https://docs.oxid-esales.com/en/security/security-bulletins.html#security-bulletin-2023-001-cve-2023-26260.
+For more information, see our security bulletin at https://docs.oxid-esales.com/en/security/security-bulletins.html#security-bulletin-2023-001.
 
 With PAYONE 1.8.0, new payment methods are available.
 
