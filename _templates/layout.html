@@ -36,7 +36,6 @@
   <!--[if lt IE 9]>
     <script src="{{ pathto('_static/js/html5shiv.min.js', 1) }}"></script>
   <![endif]-->
-  {%- endblock %}
   
    <script type="text/javascript" src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script> 
   {%- if not embedded %}
@@ -71,6 +70,7 @@
           href="{{ pathto('_static/opensearch.xml', 1) }}"/>
     {%- endif %}
   {%- endif %}
+  {%- endblock %}
 
   {# CSS #}
   <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
