@@ -20,8 +20,6 @@ Für den Betrieb des OXID eShop Version 7 muss Ihr System die folgenden Systemvo
 Webserver
 ---------
 
-.. todo: #VaL: verify: -- keine Änd.
-
 * Apache Versionen 2.2 oder 2.4 (auf Linux)
 * 500 MB freier Webspace für die Community und die Professional Edition
 * 750 MB freier Webspace für die Enterprise Edition
@@ -56,8 +54,6 @@ Webserver
 Datenbank
 ---------
 
-.. todo: #VaL: verify: -- see change log MySQL 5.7 or 8.0
-
 * MySQL 5.7 or 8.0
 * MariaDB (getestet mit MariaDB 10.4)
 
@@ -67,9 +63,6 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 
 PHP
 ---
-
-.. todo: #VaL: verify: 8.0 oder höher
-
 
 * PHP Versionen 8.0 oder höher
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
@@ -119,14 +112,14 @@ Composer wird für die Installation des OXID eShop und Änderungen im Autoloadin
 Metadata
 --------
 
-.. todo: #VaL: What is "Metadata"? file format: see dev docu
+* Metadata Version 2.0 oder höher
 
-Metadata wird in den Versionen 2.0 und 2.1 unterstützt.
+Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
 OpenSSL
 -------
 
-Für die zu einer Compilation gehörenden Module wird OpenSSL benötigt.
+Für die zu einer Compilation gehörenden Module brauchen Sie OpenSSL.
 
 * *openssl* >= 1.0.1
 

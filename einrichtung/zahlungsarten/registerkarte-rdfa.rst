@@ -5,7 +5,7 @@ OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale und 
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlungsart mit den in GoodReleations vordefinierten Werten für Zahlung hergestellt.
 
-.. todo: #SB: clarify Credit cards on RDFa tab
+.. todo: #SB: clarify Credit cards on RDFa tab: SB: Konfigurieren für RDFa, was man konfiguriert.
 
 .. image:: ../../media/screenshots/oxbadc01.png
    :alt: Zahlungsarten - Registerkarte RDFa
@@ -18,6 +18,8 @@ Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlu
 :guilabel:`Hinweis: Bitte wählen Sie nur die in GoodRelations vordefinierten Zahlungsarten aus, die Ihrer Zahlungsart entsprechen.`
 
 Setzen Sie ein Häkchen bei allen Angaben, welche die Zahlungsart exakt beschreiben.
+
+.. todo: anhaken, was konfiguriet ist unter Zahlungsarten..
 
 :guilabel:`Allgemeine Zahlungsarten` |br|
 :guilabel:`Vorauskasse` |br|
