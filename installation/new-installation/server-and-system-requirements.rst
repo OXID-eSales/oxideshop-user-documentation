@@ -20,8 +20,6 @@ The following system requirements must be met to operate OXID eShop version 7.
 Webserver
 ---------
 
-.. todo: #VaL verify
-
 * Apache version 2.2 or 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition
 * 750 MB of free webspace for Enterprise Edition
@@ -55,8 +53,6 @@ Webserver
 Database
 --------
 
-.. todo: #VL verify
-
 * MySQL 5.7 or 8.0
 * MariaDB Support (tested with MariaDB 10.4)
 
@@ -67,9 +63,7 @@ The transaction isolation level must be left with the default value *REPEATABLE 
 PHP
 ---
 
-.. todo: #VL verify
-
-* PHP version 8.0 or 8.1
+* PHP version 8.0 or higher
 * Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
 * PHP setting *session.auto_start* in :file:`php.ini` should be disabled (OFF)
 * File uploads should be enabled in PHP
@@ -95,7 +89,7 @@ PHP extensions that need to be installed:
 Composer
 --------
 
-.. todo: #VL verify
+.. todo: #VL verifying
 
 * Composer 2.2
 
@@ -111,10 +105,15 @@ Composer
 
 Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
 
+Metadata
+--------
+
+* Metadata version 2.0 or higher
+
+For more information about metadata versions, in the Developer documentation, see `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+
 OpenSSL
 -------
-
-.. todo: #VL verify
 
 Compilation modules require OpenSSL.
 
