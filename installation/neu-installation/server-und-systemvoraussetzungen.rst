@@ -90,9 +90,9 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-.. todo: #VaL: verify:: "Composer supported in  Version 2 " -- gilt Folgendes? Composer 2.x is correct -- Vasyl checks
+.. todo: #VaL: verify:: "Composer supported in  Version 2 " -- gilt Folgendes? Composer 2.x is correct -- Vasyl checks: VL: muss 2.4 sein
 
-* Composer 2.2
+* Composer 2.4
 
 .. attention::
 

@@ -3,16 +3,248 @@ OXID eShop 7.0.0
 
 .. todo: #VL: Datum
 
-Veröffentlichungstermin RC 1: 28.02.2023
+Veröffentlichungstermin: 31.03.2023
 
-.. todo: #VL: Was ist das Wichtige an V. 7?
+.. todo: #VL: Was ist das Wichtige an V. 7? -- Marketing , s.
+    * Präsi
+    * done: https://oxidesalesag-my.sharepoint.com/:w:/g/personal/christoph_albrecht_oxid-esales_com/EfnSd3ekQv5LpEf4oywZxEIBh4ti8oT5iRoq6WXw4ef6KA?e=QVP9As
+
+Funktionen
+----------
+
+Sicherheit
+^^^^^^^^^^
+
+* Unterstützte und getestete MySQL-Version: 8.0
+
+  Verbessern Sie mit MySQL 8.0 vor allem die Sicherheit, aber auch die Performance:
+
+  * schnelleres Suchen und Indizieren
+  * bessere Skalierbarkeit
+  * verbesserte Unterstützung von NoSQL-Operationen
+  * verbesserte Unterstützung räumlicher Daten
+  * verbesserte Unterstützung von Transaktionen und damit einfachere Entwicklung und Wartung
+
+
+* Unterstützte und getestete PHP-Versionen: 8.0 und 8.1
+
+* Unterstützte und getestete Composer-Version: 2.4
+
+  Composer 2.4 unterstützt PHP 8. Composer Version 1.x unterstützen wir aus Sicherheitsgründen nicht mehr.
+
+  Mit Composer 2.4 haben Sie außerdem bessere Unterstützung für Plugins, und es erleichtert Ihnen die Diagnose und den Umgang mit Fehlermeldungen.
+
+
+* Symfony-Komponenten sind aktualisiert auf Symfony Version 6.
+
+  Hintergrund: Es gibt keine (Sicherheits-) Updates für Symfony 3.4, und es ist nicht mit PHP 8.1 kompatibel.
+
+  Mit dem Update ist Ihr Zugang zu den neuesten Fehlerbehebungen, Sicherheits-Patches und anderen Support-Ressourcen sichergestellt.
+
+ * Automatisches HTML-Escaping im Frontend
+
+  Das Interpretieren bestimmter HTML-Tags passiert nicht mehr zentral in der Klasse :code:`CoreField`, sondern im Frontend automatisch durch die Twig Templating Engine oder GraphQL.
+
+  Twig und GraphQL umgehen diese Zeichen automatisch und geben sie sicher wider. Dadurch ist sichergestellt, dass kein schädlicher JavaScript-Code ausgeführt werden kann. Cross-Site Scripting (XSS)-Angriffe werden unterbunden.
+
+.. important::
+
+   Wichtig
+
+   Wenn Sie Smarty nutzen oder eigene Lösungen bauen, stellen Sie sicher, dass Sie das HTML-Escaping eingeschaltet haben.
+
+   .. todo: #tbd: Ref Dev-Doku: Check HTML escaping
+
+   Weitere Informationen finden Sie unter Check HTML escaping.
+
+* Metadata Version 2.0 oder höher
+
+  Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+
+  .. todo: #VL: Metadate für Sicherheit oder etwas anders wichtig? Oder reicht unten der pauschale Verweis auf Systemvorauss.?
+
+
+Performance
+^^^^^^^^^^^
+
+* Um die Browser-Geschwindigkeit zu erhöhen, unterstützen wir das Bildformat WebP.
+
+  Optional: Sie können Ihre in anderen Formaten vorliegenden Bilder automatisch konvertieren.
+
+  Aktivieren Sie dazu unter :menuselection:`Stammdaten --> Grundeinstellungen --> System --> Bilder` das Kontrollkästchen :guilabel:`Alle hochgeladenen Bilder automatisch in das WebP-Format konvertieren`.
+
+  .. todo: #tbd: verifizieren: :guilabel:`Alle hochgeladenen Bilder automatisch in das WebP-Format konvertieren`.
+  .. todo: #tbd: prüfen: wo ist die Funktion dokumentiert?
+  .. todo: #tbd: EN: Master Settings ‣ Core Settings ‣ System ‣ Pictures / Kontrollkästchen Automatically convert all uploaded images to WebP format.
+
+Entwicklung
+^^^^^^^^^^^
+
+* Nutzen Sie Twig, unsere Standard-Templating Engine. Twig ist weit verbreitet, wird gut gewartet und hat eine große Entwickler-Community, in der Sie Unterstützung finden.
+
+  Weitere Informationen finden Sie unter Twig Template Engine.
+
+* Nicht nativ in Twig, aber wichtig, wenn Sie eigene Module entwickeln: Mit der Twig-Templates-Mehrfachvererbung für Module können Sie das visuelle Erscheinungsbild Ihres OXID eShops schnell ändern, ohne interne Geschäftslogik und Codebasis zu beeinträchtigen. Ändert sich ein Modul, passt sich das Layout automatisch an.
+
+  Weitere Informationen finden Sie unter Understanding the OXID eShop template hierarchy and override system.
+
+* Die Namen in den Controller-Templates sind unabhängig von der Templating Engine. In der finalen Version von OXID eShop v7.0.0 wird Ihnen das die Einbindung alternativer Templating Engines, beispielsweise Smarty, erleichtern. Die Templating Engine wird die richtige Extension selbständig finden.
+Beispiel: Controller::$_sThisTemplate = 'page/content' statt 'page/content.tpl'
+
+Betrieb
+^^^^^^^
+
+* Um Ihnen das Installieren, Konfigurieren und Warten von OXID eshops zu erleichtern, haben wir den Aufbau der OXID eShop-Konfigurationsdatei geändert.
+
+  Weitere Informationen finden Sie unter
+
+  * Modules configuration and setup
+  * Troubleshooting
+
+* Um Ihnen auch das Installieren, Konfigurieren und Betreiben von Modulen zu erleichtern, haben wir den Module-Handler so geändert, dass alle Modul-spezifischen Informationen in YAML-Dateien gespeichert sind, nicht mehr in der Datenbank.
+
+  Weitere Informationen finden Sie unter Check changes in the module handler.
+
+
+Änderungen bei Modulen
+----------------------
+
+Native Composer-Unterstützung für Module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Dateien bleiben im Verzeichnis :file:`/vendor`. Sie werden nicht nach :file:`/source/modules` kopiert.
+
+Dies vereinfacht das Entwickeln und Warten eigener Module und Projekte.
+
+.. todo: #tbd ref dev-docu
+
+
+Caching für Modul-Assets
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #VL: Was ist der Benefit?
+
+Das Caching statischer Dateien, die von Modulen im Frontend benötigt werden (CSS-, JavaScript- oder Bild-Dateien) haben wir mithilfe von Zeitstempeln optimiert.
+
+Neue Funktionen
+---------------
+
+Tracking-URL je Versandart
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #tbd: Doku im entspr. Kap. erg: :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen`
+
+Bisher konnten Sie eine Tracking-URL :emphasis:`:emphasis:`pro Shop` definieren (unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen`).
+
+Diese Tracking-URL ist nun die :emphasis:`Standard`-Tracking-URL.
+
+Sie können sie durch eine eigene Tracking-URL :emphasis:`je Versandart` ersetzen, beispielsweise DHL, UPS, DPD und so weiter.
+
+Sobald die Paket-ID (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) bei der Bestellung eingetragen ist, steht der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, zur Verfügung.
+
+Er wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
+
+
+Setup per Kommandozeile
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Um das Implementieren Ihres Projekts zu vereinfachen, können Sie -- als Ergänzung zum webbasierten Setup -- Ihren OXID eShop über die Kommandozeile erstellen und konfigurieren.
+
+Das neue Kommando der OXID eShop console ``oe:setup:shop`` erstellt die Datenbank und konfiguriert den Shop.
+
+Die dafür notwendigen Informationen übergeben Sie mit Parametern.
+
+Installieren Sie mit ``oe:setup:demodata`` Demodaten, legen Sie mit ``oe:admin:create-user`` den Shop-Administrator an.
+
+Für OXID eShop Professional und Enterprise Edition fügen Sie mit dem Kommando ``oe:license:add`` einen gültigen Lizenzschlüssel hinzu.
+
+.. todo: #VL: Was ist der use case für `oe:license:clear`` ?
+
+Weitere Informationen finden Sie unter :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`
+
+Modul-Installation per Kommandozeile
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Installieren oder deinstallieren Sie Module mit den neuen Kommandos der OXID eShop console ``oe:module:install`` und ``oe:module:uninstall``.
+
+Weitere Informationen finden Sie in der englischsprachigen Entwicklerdokumentation unter
+
+.. todo: #tbd: #ref auf dev docu **7.0**
+
+* https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html
+* https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
+
+
+Verschlankung
+-------------
+
+Folgende technisch veralteten Funktionalitäten haben wir entfernt:
+
+Test-Bibliothek
+^^^^^^^^^^^^^^^
+
+Nutzen Sie statt der Test-Bibliothek die native PHPUnit- und Codeception-Funktionalität.
+
+Weitere Informationen finden Sie unter Testing.
+
+RSS-Funktionalität
+^^^^^^^^^^^^^^^^^^
+
+Die RSS-Funktionalität ist entfallen.
+
+Anmeldung über LDAP
+^^^^^^^^^^^^^^^^^^^
+
+Wir empfehlen, wie die meisten Kunden eine eigene Login-Lösung zu implementieren.
+
+Kreditkarte als Zahlungsart nicht mehr unterstützt
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Die im OXID eShop implementierte Zahlungsart Kreditkarte unterstützen wir aus Sicherheitsgründen nicht mehr.
+
+Nutzen Sie das Modul eines Zahlungsanbieters, um Ihren Kunden das Zahlen mit der Kreditkarte anzubieten.
+
+Newsletter-Versand entfernt
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Aus technischen Gründen haben wir das Senden von Newsletter aus dem OXID eShop entfernt.
+
+Senden Sie Newsletter, um Ihre Kunden über aktuelle Themen zu informieren, Tipps zu geben, Aktionen anzukündigen und Artikel zu bewerben.
+
+Nutzen Sie dafür künftig jedoch Newsletter-Dienste, cloudbasierte Newsletter-Tools oder Newsletter-Software.
+
+Kunden können den Newsletter nach wie vor abonnieren.
+
+Eine Liste der Newsletter-Abonnenten können Sie exportieren, um sie an einen externen Anbieter zu übergeben.
+
+Weitere Informationen finden Sie unter :doc:`Newsletter <../../betrieb/newsletter/newsletter>`.
+
+Nachrichten entfernt
+^^^^^^^^^^^^^^^^^^^^
+
+Nachrichten konnten mit "Flow", Standard-Theme seit OXID eShop 6.0.0, bereits nur über einen Link im Fußbereich aufgerufen werden.
+
+.. todo: #VL: Ist "Nachrichten zu verwalten" der richtige Ausdruck? Was passiert genau? -- Wohin verlinken?
+
+Nutzen Sie Visual CMS, um Nachrichten zu verwalten.
+
+
+Keine verschlüsselten Werte in der Datenbank
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Die Verschlüsselung von Werten in der Datenbank wurde entfernt, weil MySQL 8.0 diese Funktion nicht mehr unterstützt.
+
+Dies verbessert die Lesbarkeit der Konfigurations Ihres eShops und erleichtert Ihnen die Entwicklung.
+
+Komponenten
+-----------
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die Compilation enthält folgende Komponenten:
 
-.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig?
+.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig? -- VL: tbd
 
 * OXID eShop CE 7.0.0-rc1: `Changelog 7.0.0-rc1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0-rc1/CHANGELOG.md>`_
 * OXID eShop PE 7.0.0-rc1
@@ -27,7 +259,7 @@ Die Compilation enthält folgende Komponenten:
 * OXID eShop facts 3.0.0: `Changelog OXID eShop facts 3.0.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v3.0.0/CHANGELOG.md>`_
 * Unified Namespace Generator 3.0.0: `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v3.0.0/CHANGELOG.md>`_
 
-.. todo: #VL: Folgende Komponenten ergänzen:
+.. todo: #VL: Folgende Komponenten ergänzen: Payone entfällt
 
 * GDPR Opt-In 2.3.3: `Changelog 2.3.3 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
 * Klarna 5.5.3: `Changelog 5.5.3 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.3/CHANGELOG.md>`_
@@ -49,61 +281,14 @@ Installation
 
 Folgen Sie zum Installieren den den Anleitungen unter :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`.
 
-Es wird nicht empfohlen, ein Update des OXID eShop auf die Version 7.0.0 RC 1 vorzunehmen. Eine Update-Anleitung wird mit der Veröffentlichung der finalen Version zur Verfügung stehen.
+.. todo: #tbd: oder Upgrade 6.5 ->7.0
 
------------------------------------------------------------------------------------------
+Korrekturen
+-----------
 
-Neue Funktionen
----------------
-Setup per Kommandozeile
-^^^^^^^^^^^^^^^^^^^^^^^
-Als Ergänzung zum webbasierten Setup kann OXID eShop jetzt auch über die Kommandozeile erstellt und konfiguriert werden. Das neue Kommando der OXID eShop console ``oe:setup:shop`` erstellt die Datenbank und konfiguriert den Shop. Die dafür notwendigen Informationen werden mit Parametern übergeben. In weiteren Schritten können mit ``oe:setup:demodata`` Demodaten installiert und mit ``oe:admin:create-user`` der Shop-Administrator erstellt werden. Für OXID eShop Professional und Enterprise Edition fügt das Kommando ``oe:license:add`` einen gültigen Lizenzschlüssel hinzu. Siehe: :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`
+.. todo: #VL: Welche tracking IDs? Nur RC1? -- VL prüft, ob noch was dazu kommt
 
-Modul-Installation per Kommandozeile
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Module können mit den neuen Kommandos der OXID eShop console ``oe:module:install`` und ``oe:module:uninstall`` installiert und deinstalliert werden. Alle Informationen dazu finden Sie in der englischsprachigen Entwicklerdokumentation: https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html und https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
-
------------------------------------------------------------------------------------------
-
-Verbesserungen und Anpassungen
-------------------------------
-
-.. todo: #HR/VL: Stimmen die Folgenden Anpassungen?
-
-Tracking-URL je Versandart
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-Bisher konnte eine Tracking-URL pro Shop definiert werden. Sie wird im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragen. Diese Tracking-URL ist nun die Standard-Tracking-URL und kann durch eine eigene Tracking-URL je Versandart ersetzt werden.
-
-Sobald die Paket-ID (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) bei der Bestellung eingetragen ist, steht der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, zur Verfügung. Er wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
-
-Kreditkarte als Zahlungsart nicht mehr unterstützt
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die im OXID eShop implementierte Zahlungsart Kreditkarte wird nicht mehr unterstützt. Shopbetreiber, welche diese Zahlungsart benötigen, sollten auf Module entsprechender Zahlungsanbieter zurückgreifen.
-
-Newsletter-Versand entfernt
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Newsletter stellen eine unkomplizierte und schnelle Möglichkeit dar, die Kunden des Onlineshops über aktuelle Themen zu informieren, Tipps zu geben, Aktionen anzukündigen und Artikel zu bewerben. Kunden können den Newsletter nach wie vor abonnieren, aber der eigentlich Versand wurde aus dem OXID eShop entfernt. Dafür sollten zukünftig ausschließlich Newsletter-Dienste, cloudbasierte Newsletter-Tools oder Newsletter-Software genutzt werden. OXID eShop bietet die Möglichkeit, eine Liste der Newsletter-Abonnenten zu exportieren, die dann an einen externen Anbieter übergeben werden kann. Siehe: :doc:`Newsletter <../../betrieb/newsletter/newsletter>`
-
-Nachrichten entfernt
-^^^^^^^^^^^^^^^^^^^^
-Nachrichten konnten mit "Flow", Standard-Theme seit OXID eShop 6.0.0, bereits nur über einen Link im Fußbereich aufgerufen werden. Nun wurde diese wenig genutzte Funktion komplett aus dem Shop entfernt.
-
-Änderungen bei Modulen
-^^^^^^^^^^^^^^^^^^^^^^
-
-* Native Composer-Unterstützung für Module: Dateien verbleiben komplett im Verzeichnis :file:`/vendor`. Sie werden nicht nach :file:`/source/modules` kopiert.
-* Das Caching für Modul-Assets - statische Dateien, welche von Modulen im Frontend benötigt werden (CSS-, JavaScript- oder Bild-Dateien) - wurde optimiert.
-
-Keine verschlüsselten Werte in der Datenbank
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Die Verschlüsselung von Werten in der Datenbank wurde entfernt, da diese Funktion nicht mehr von MySQL 8.0 unterstützt wird.
-
------------------------------------------------------------------------------------------
-
-.. todo: include as of 7.x:
-    Korrekturen
-    -----------
-    Korrekturen 7.0.0 RC 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
+Korrekturen 7.0.0 RC 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
 
 
 .. Intern: oxbajt, Status:
