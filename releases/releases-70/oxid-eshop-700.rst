@@ -5,8 +5,8 @@ OXID eShop 7.0.0
 
 Veröffentlichungstermin: 31.03.2023
 
-.. todo: #VL: Was ist das Wichtige an V. 7? -- Marketing , s.
-    * Präsi
+.. todo: #VL: Was ist das Wichtige an V. 7? -- Folgendes prüfen
+    * done: Präsi
     * done: https://oxidesalesag-my.sharepoint.com/:w:/g/personal/christoph_albrecht_oxid-esales_com/EfnSd3ekQv5LpEf4oywZxEIBh4ti8oT5iRoq6WXw4ef6KA?e=QVP9As
 
 Funktionen
@@ -47,21 +47,21 @@ Sicherheit
 
   Twig und GraphQL umgehen diese Zeichen automatisch und geben sie sicher wider. Dadurch ist sichergestellt, dass kein schädlicher JavaScript-Code ausgeführt werden kann. Cross-Site Scripting (XSS)-Angriffe werden unterbunden.
 
-.. important::
+  .. important::
 
-   Wichtig
+     Wichtig
 
-   Wenn Sie Smarty nutzen oder eigene Lösungen bauen, stellen Sie sicher, dass Sie das HTML-Escaping eingeschaltet haben.
+     Wenn Sie Smarty nutzen oder eigene Lösungen bauen, stellen Sie sicher, dass Sie das HTML-Escaping eingeschaltet haben.
 
-   .. todo: #tbd: Ref Dev-Doku: Check HTML escaping
+     .. todo: #tbd: Ref Dev-Doku: 7.0-rc.2 -> 7.0 oder latest
 
-   Weitere Informationen finden Sie unter Check HTML escaping.
+     Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/7.0-rc.2/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
 
 * Metadata Version 2.0 oder höher
 
   Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
-  .. todo: #VL: Metadate für Sicherheit oder etwas anders wichtig? Oder reicht unten der pauschale Verweis auf Systemvorauss.?
+  .. todo: #VL: Metadate für Sicherheit oder etwas anders wichtig?
 
 
 Performance
@@ -84,12 +84,21 @@ Entwicklung
 
   Weitere Informationen finden Sie unter Twig Template Engine.
 
+  .. todo: #tbd: Ref Dev-Doku: twig
+
 * Nicht nativ in Twig, aber wichtig, wenn Sie eigene Module entwickeln: Mit der Twig-Templates-Mehrfachvererbung für Module können Sie das visuelle Erscheinungsbild Ihres OXID eShops schnell ändern, ohne interne Geschäftslogik und Codebasis zu beeinträchtigen. Ändert sich ein Modul, passt sich das Layout automatisch an.
 
-  Weitere Informationen finden Sie unter Understanding the OXID eShop template hierarchy and override system.
+  Weitere Informationen finden Sie unter Understanding the OXID eShop template hierarchy and override system.
 
-* Die Namen in den Controller-Templates sind unabhängig von der Templating Engine. In der finalen Version von OXID eShop v7.0.0 wird Ihnen das die Einbindung alternativer Templating Engines, beispielsweise Smarty, erleichtern. Die Templating Engine wird die richtige Extension selbständig finden.
-Beispiel: Controller::$_sThisTemplate = 'page/content' statt 'page/content.tpl'
+  .. todo: #tbd: Ref Dev-Doku:
+
+* Die Namen in den Controller-Templates sind unabhängig von der Templating Engine.
+
+  Dies erleichtert Ihnen das Einbinden alternativer Templating Engines, beispielsweise Smarty.
+
+  Denn die Templating Engine findet die richtige Extension automatisch.
+
+  Beispiel: Controller::$_sThisTemplate='page/content' statt 'page/content.tpl'
 
 Betrieb
 ^^^^^^^
@@ -98,12 +107,16 @@ Betrieb
 
   Weitere Informationen finden Sie unter
 
+  .. todo: #tbd: Ref Dev-Doku:
+
   * Modules configuration and setup
   * Troubleshooting
 
 * Um Ihnen auch das Installieren, Konfigurieren und Betreiben von Modulen zu erleichtern, haben wir den Module-Handler so geändert, dass alle Modul-spezifischen Informationen in YAML-Dateien gespeichert sind, nicht mehr in der Datenbank.
 
-  Weitere Informationen finden Sie unter Check changes in the module handler.
+  Weitere Informationen finden Sie unter Check changes in the module handler.
+
+  .. todo: #tbd: Ref Dev-Doku:
 
 
 Änderungen bei Modulen
@@ -114,7 +127,7 @@ Native Composer-Unterstützung für Module
 
 Dateien bleiben im Verzeichnis :file:`/vendor`. Sie werden nicht nach :file:`/source/modules` kopiert.
 
-Dies vereinfacht das Entwickeln und Warten eigener Module und Projekte.
+Dies erleichtert Ihnen das Entwickeln und Warten eigener Module und Projekte.
 
 .. todo: #tbd ref dev-docu
 
@@ -122,9 +135,11 @@ Dies vereinfacht das Entwickeln und Warten eigener Module und Projekte.
 Caching für Modul-Assets
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #VL: Was ist der Benefit?
+.. todo: #VL: Was ist der Benefit der Zeitstempel?
 
 Das Caching statischer Dateien, die von Modulen im Frontend benötigt werden (CSS-, JavaScript- oder Bild-Dateien) haben wir mithilfe von Zeitstempeln optimiert.
+
+.. todo: #tbd ref dev-docu
 
 Neue Funktionen
 ---------------
@@ -133,12 +148,13 @@ Tracking-URL je Versandart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #tbd: Doku im entspr. Kap. erg: :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen`
+.. todo: #tbd: Ref auf Doku-Kap.
 
 Bisher konnten Sie eine Tracking-URL :emphasis:`:emphasis:`pro Shop` definieren (unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen`).
 
 Diese Tracking-URL ist nun die :emphasis:`Standard`-Tracking-URL.
 
-Sie können sie durch eine eigene Tracking-URL :emphasis:`je Versandart` ersetzen, beispielsweise DHL, UPS, DPD und so weiter.
+Sie können sie durch eine eigene Tracking-URL :emphasis:`je Versandart` ersetzen, beispielsweise für DHL, UPS, DPD und so weiter.
 
 Sobald die Paket-ID (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) bei der Bestellung eingetragen ist, steht der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, zur Verfügung.
 
@@ -185,7 +201,9 @@ Test-Bibliothek
 
 Nutzen Sie statt der Test-Bibliothek die native PHPUnit- und Codeception-Funktionalität.
 
-Weitere Informationen finden Sie unter Testing.
+Weitere Informationen finden Sie unter Testing.
+
+.. todo: #tbd: Ref dev docu
 
 RSS-Funktionalität
 ^^^^^^^^^^^^^^^^^^
@@ -197,15 +215,15 @@ Anmeldung über LDAP
 
 Wir empfehlen, wie die meisten Kunden eine eigene Login-Lösung zu implementieren.
 
-Kreditkarte als Zahlungsart nicht mehr unterstützt
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Kreditkarte als Zahlungsart
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die im OXID eShop implementierte Zahlungsart Kreditkarte unterstützen wir aus Sicherheitsgründen nicht mehr.
 
 Nutzen Sie das Modul eines Zahlungsanbieters, um Ihren Kunden das Zahlen mit der Kreditkarte anzubieten.
 
-Newsletter-Versand entfernt
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Newsletter-Versand
+^^^^^^^^^^^^^^^^^^
 
 Aus technischen Gründen haben wir das Senden von Newsletter aus dem OXID eShop entfernt.
 
@@ -213,9 +231,7 @@ Senden Sie Newsletter, um Ihre Kunden über aktuelle Themen zu informieren, Tipp
 
 Nutzen Sie dafür künftig jedoch Newsletter-Dienste, cloudbasierte Newsletter-Tools oder Newsletter-Software.
 
-Kunden können den Newsletter nach wie vor abonnieren.
-
-Eine Liste der Newsletter-Abonnenten können Sie exportieren, um sie an einen externen Anbieter zu übergeben.
+Kunden können Newsletter nach wie vor abonnieren. Die Liste Ihrer Newsletter-Abonnenten exportieren Sie als csv-Datei, um sie an einen externen Anbieter zu übergeben.
 
 Weitere Informationen finden Sie unter :doc:`Newsletter <../../betrieb/newsletter/newsletter>`.
 
@@ -224,13 +240,14 @@ Nachrichten entfernt
 
 Nachrichten konnten mit "Flow", Standard-Theme seit OXID eShop 6.0.0, bereits nur über einen Link im Fußbereich aufgerufen werden.
 
-.. todo: #VL: Ist "Nachrichten zu verwalten" der richtige Ausdruck? Was passiert genau? -- Wohin verlinken?
+.. todo: #VL: Ist "Nachrichten zu verwalten" der richtige Ausdruck? Was passiert genau? --
+.. todo: #tbd: Ref : Wohin verlinken?
 
 Nutzen Sie Visual CMS, um Nachrichten zu verwalten.
 
 
-Keine verschlüsselten Werte in der Datenbank
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Verschlüsselten Werte in der Datenbank
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die Verschlüsselung von Werten in der Datenbank wurde entfernt, weil MySQL 8.0 diese Funktion nicht mehr unterstützt.
 
@@ -288,7 +305,7 @@ Korrekturen
 
 .. todo: #VL: Welche tracking IDs? Nur RC1? -- VL prüft, ob noch was dazu kommt
 
-Korrekturen 7.0.0 RC 1: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
+Korrekturen: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
 
 
 .. Intern: oxbajt, Status:
