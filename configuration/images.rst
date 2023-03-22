@@ -21,7 +21,7 @@ On the :guilabel:`System` tab there is also a :guilabel:`Images` section. You ha
 
 * :guilabel:`Convert images automatically to WebP format`: Increase the browser speed.
 
-  To do this, you can automatically convert the images to WebP image format.
+  To do this, you can automatically convert the images to the WebP image format.
 
 The option :guilabel:`Send e-mails with inline Images` has nothing to do with image generation. With this setting selected, product images will be sent in e-mails, which means that the e-mail that will be sent as order confirmation will contain product images. This will lead to larger e-mail sizes which may cause problems when sending and receiving e-mails. By default, e-mails are sent without product images. Product images will be downloaded by the customer's mail program upon reading the e-mail.
 
