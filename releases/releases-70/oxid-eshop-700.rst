@@ -1,9 +1,9 @@
 OXID eShop 7.0.0
 ================
 
-.. todo: #VL: Datum
+.. todo: #VL: Datum: Tech release nä. Wo.; Taggen vermutl. 18.4.
 
-Veröffentlichungstermin: 31.03.2023
+Veröffentlichungstermin: 18.04.2023
 
 .. todo: #VL: Was ist das Wichtige an V. 7? -- Folgendes prüfen
     * done: Präsi
@@ -61,8 +61,6 @@ Sicherheit
 
   Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
-  .. todo: #VL: Metadate für Sicherheit oder etwas anders wichtig?
-
 
 Performance
 ^^^^^^^^^^^
@@ -71,18 +69,18 @@ Performance
 
   Optional: Sie können Ihre in anderen Formaten vorliegenden Bilder automatisch konvertieren.
 
-  Aktivieren Sie dazu unter :menuselection:`Stammdaten --> Grundeinstellungen --> System --> Bilder` das Kontrollkästchen :guilabel:`Alle hochgeladenen Bilder automatisch in das WebP-Format konvertieren`.
+  Aktivieren Sie dazu unter :menuselection:`Stammdaten --> Grundeinstellungen --> System --> Bilder` das Kontrollkästchen :guilabel:`Bilder automatisch ins WebP-Format konvertieren`.
 
-  .. todo: #tbd: verifizieren: :guilabel:`Alle hochgeladenen Bilder automatisch in das WebP-Format konvertieren`.
-  .. todo: #tbd: prüfen: wo ist die Funktion dokumentiert?
-  .. todo: #tbd: EN: Master Settings ‣ Core Settings ‣ System ‣ Pictures / Kontrollkästchen Automatically convert all uploaded images to WebP format.
+  Siehe :ref:`konfiguration/bilder:Bildgenerierung und -qualität`.
+
+  .. todo: EN: :menuselection:`Master Settings --> Core Settings --> System --> Pictures` -- checkbox :guilabel:`Automatically convert images to WebP format`
 
 Entwicklung
 ^^^^^^^^^^^
 
 * Nutzen Sie Twig, unsere Standard-Templating Engine. Twig ist weit verbreitet, wird gut gewartet und hat eine große Entwickler-Community, in der Sie Unterstützung finden.
 
-  Weitere Informationen finden Sie unter Twig Template Engine.
+  Weitere Informationen finden Sie unter Twig Template Engine.
 
   .. todo: #tbd: Ref Dev-Doku: twig
 
@@ -132,14 +130,7 @@ Dies erleichtert Ihnen das Entwickeln und Warten eigener Module und Projekte.
 .. todo: #tbd ref dev-docu
 
 
-Caching für Modul-Assets
-^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #VL: Was ist der Benefit der Zeitstempel?
-
-Das Caching statischer Dateien, die von Modulen im Frontend benötigt werden (CSS-, JavaScript- oder Bild-Dateien) haben wir mithilfe von Zeitstempeln optimiert.
-
-.. todo: #tbd ref dev-docu
 
 Neue Funktionen
 ---------------
@@ -166,15 +157,20 @@ Setup per Kommandozeile
 
 Um das Implementieren Ihres Projekts zu vereinfachen, können Sie -- als Ergänzung zum webbasierten Setup -- Ihren OXID eShop über die Kommandozeile erstellen und konfigurieren.
 
-Das neue Kommando der OXID eShop console ``oe:setup:shop`` erstellt die Datenbank und konfiguriert den Shop.
+Sie haben auf der OXID eShop console folgende Möglichkeiten:
 
-Die dafür notwendigen Informationen übergeben Sie mit Parametern.
+* Erstellen Sie mit ``oe:setup:shop`` die Datenbank und konfigurieren Sie Ihren OXID eShop.
+  |br|
+  Die dafür notwendigen Informationen übergeben Sie mit Parametern.
 
-Installieren Sie mit ``oe:setup:demodata`` Demodaten, legen Sie mit ``oe:admin:create-user`` den Shop-Administrator an.
+  .. todo: #VL/#tbd: Wo beschreiben wir, wie es geht`?
 
-Für OXID eShop Professional und Enterprise Edition fügen Sie mit dem Kommando ``oe:license:add`` einen gültigen Lizenzschlüssel hinzu.
+* Installieren Sie mit ``oe:setup:demodata`` Demodaten.
+* Legen Sie mit ``oe:admin:create-user`` den Shop-Administrator an.
+* Wenn Sie die OXID eShop Professional oder Enterprise Edition haben fügen Sie mit ``oe:license:add`` Ihren Lizenzschlüssel hinzu.
 
-.. todo: #VL: Was ist der use case für `oe:license:clear`` ?
+  Es ist technisch nicht möglich, vorhandene Lizenzen durch neue zu ersetzen. Wenn Sie einen bestehende Lizenz durch eine andere tauschen, löschen Sie deshalb vorher mit ``oe:license:clear`` alle Lizenzen und fügen die neue Lizenz anschließend erneut hinzu.
+
 
 Weitere Informationen finden Sie unter :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`
 
@@ -238,12 +234,11 @@ Weitere Informationen finden Sie unter :doc:`Newsletter <../../betrieb/newslette
 Nachrichten entfernt
 ^^^^^^^^^^^^^^^^^^^^
 
-Nachrichten konnten mit "Flow", Standard-Theme seit OXID eShop 6.0.0, bereits nur über einen Link im Fußbereich aufgerufen werden.
+Bereits mit "Flow", dem Standard-Theme seit OXID eShop 6.0.0, konnten Nachrichten bereits nur über einen Link im Fußbereich aufgerufen werden.
 
-.. todo: #VL: Ist "Nachrichten zu verwalten" der richtige Ausdruck? Was passiert genau? --
-.. todo: #tbd: Ref : Wohin verlinken?
+.. todo: #tbd: Ref : Wohin verlinken?  -- VCMS nicht verlinken, da private
 
-Nutzen Sie Visual CMS, um Nachrichten zu verwalten.
+Gestalten Sie beispielsweise Landing Pages mit Visual CMS (für die Professional und Enterprise Edition), um Neuigkeiten oder Angebote zu verbreiten.
 
 
 Verschlüsselten Werte in der Datenbank
@@ -261,7 +256,8 @@ Komponenten der Compilation
 
 Die Compilation enthält folgende Komponenten:
 
-.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig? -- VL: tbd
+.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig? -- VL: tbd: nä Woche.
+.. todo: #tbd: Flow und Wave weg, dafür Twig
 
 * OXID eShop CE 7.0.0-rc1: `Changelog 7.0.0-rc1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0-rc1/CHANGELOG.md>`_
 * OXID eShop PE 7.0.0-rc1
@@ -298,14 +294,18 @@ Installation
 
 Folgen Sie zum Installieren den den Anleitungen unter :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`.
 
-.. todo: #tbd: oder Upgrade 6.5 ->7.0
+.. todo: #tbd: oder Upgrade 6.5 ->7.0, sobald vorhanden
 
 Korrekturen
 -----------
 
-.. todo: #VL: Welche tracking IDs? Nur RC1? -- VL prüft, ob noch was dazu kommt
+.. todo: Tracking IDs -- done:
 
-Korrekturen: https://bugs.oxid-esales.com/changelog_page.php?version_id=344
+Korrekturen:
+
+* https://bugs.oxid-esales.com/changelog_page.php?version_id=344
+* https://bugs.oxid-esales.com/changelog_page.php?version_id=630
+* https://bugs.oxid-esales.com/changelog_page.php?version_id=728
 
 
 .. Intern: oxbajt, Status:

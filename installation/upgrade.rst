@@ -3,7 +3,7 @@ Upgrade
 
 .. todo: #VaL: Update 70 = "Upgrade" 6.x -> 7.0? --> Vasyl #VL: Ugrade-Beschreibung gibt es schon: wo in Dev-Doku? https://docs.oxid-esales.com/developer/en/7.0-rc.2/update/eshop_from_65_to_7/modules.html
 
-.. todo: #VaL clarify: Do we need aditional info if Smarty is used; What is the default, how would I install Smarty/Twig? Für smarty oder default twig installieren; Zusatzinfo, wenn Smarty verwendet?
+.. todo: #VaL clarify: Do we need additional info if Smarty is used; What is the default, how would I install Smarty/Twig? Für smarty oder default twig installieren; Zusatzinfo, wenn Smarty verwendet?
 
 Wechseln Sie von OXID eShop Version 6.x zu Version 7.0.
 

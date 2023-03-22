@@ -8,7 +8,19 @@ Bildgenerierung und -qualität
 -----------------------------
 Die erforderlichen Einstellungen für die Bildgenerierung und für die Bildgrößen werden für alle Artikel im Administrationsbereich vorgenommen. Gehen Sie zu :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` Klicken Sie auf :guilabel:`Bilder`, um die Einstellungen anzuzeigen. Das ist zum einen die installierte Version der GDLib, einer Software auf dem Server, die für die dynamische Erzeugung von Grafiken zuständig ist. Deren aktuelle Version ist die Version 2. Zum anderen ist das automatische Generieren von Icons aktiviert. Lassen Sie beide Einstellungen unverändert.
 
-In der Registerkarte :guilabel:`System` gibt es ebenfalls einen kleinen Abschnitt :guilabel:`Bilder`. Wichtig für die Bildgenerierung ist die Vorgabe für die Bildqualität. Die Standardeinstellung ist 75 und stellt einen guten Kompromiss zwischen Bildqualität und Dateigröße dar. Bei einem deutlich kleineren Wert sind die Artikelbilder stark komprimiert, haben daher eine kleine Dateigröße, aber eine schlechte Bildqualität (Unschärfen und Kompressionsartefakte). Ist der Wert größer als 75, steigt die Bildqualität, aber auch die Größe der Datei (längere Ladezeiten).
+Auf der Registerkarte :guilabel:`System` gibt es ebenfalls einen Abschnitt :guilabel:`Bilder`. Sie haben dort folgende Möglichkeiten:
+|br|
+* :guilabel:`Bildqualität`: Wichtig für die Bildgenerierung ist die Vorgabe für die Bildqualität.
+
+  Die Standardeinstellung ist 75 und stellt einen guten Kompromiss zwischen Bildqualität und Dateigröße dar.
+
+  Bei einem deutlich kleineren Wert sind die Artikelbilder stark komprimiert, haben daher eine kleine Dateigröße, aber eine schlechte Bildqualität (Unschärfen und Kompressionsartefakte).
+
+  Ist der Wert größer als 75, steigt die Bildqualität, aber auch die Größe der Datei (längere Ladezeiten).
+
+* :guilabel:`Bilder automatisch ins WebP-Format konvertieren`: Erhöhen Sie die Browser-Geschwindigkeit.
+
+  Dazu können Sie die Bilder automatisch ins Bildformat WebP konvertieren.
 
 Die Option :guilabel:`E-Mails mitsamt Bildern versenden`, hat nichts mit der Bildgenerierung zu tun. Ist diese Einstellung aktiv, werden Artikelbilder in E-Mails mitgesendet. Die E-Mail, die als Bestellbestätigung verschickt wird, enthält dann Artikelbilder. E-Mails können so schnell groß werden, was zu Problemen beim Versand und beim Empfang der Mail führen kann. Standardmäßig werden E-Mails ohne Artikelbilder versendet. Die Artikelbilder werden beim Lesen der E-Mail durch das Mail-Programm des Kunden nachgeladen.
 
