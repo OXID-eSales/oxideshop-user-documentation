@@ -53,9 +53,9 @@ Sicherheit
 
      Wenn Sie Smarty nutzen oder eigene Lösungen bauen, stellen Sie sicher, dass Sie das HTML-Escaping eingeschaltet haben.
 
-     .. todo: #tbd: Ref Dev-Doku: 7.0-rc.2 -> 7.0 oder latest
+     .. todo: #tbd: verify URL: (https://docs.oxid-esales.com/developer/en/7.0-rc.2/update/eshop_from_65_to_7/modules.html#check-html-escaping)
 
-     Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/7.0-rc.2/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
+     Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
 
 * Metadata Version 2.0 oder höher
 
@@ -80,15 +80,12 @@ Entwicklung
 
 * Nutzen Sie Twig, unsere Standard-Templating Engine. Twig ist weit verbreitet, wird gut gewartet und hat eine große Entwickler-Community, in der Sie Unterstützung finden.
 
-  Weitere Informationen finden Sie unter Twig Template Engine.
-
-  .. todo: #tbd: Ref Dev-Doku: twig
+  Weitere Informationen finden Sie unter `Twig Template Engine <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/index.html>`_.
 
 * Nicht nativ in Twig, aber wichtig, wenn Sie eigene Module entwickeln: Mit der Twig-Templates-Mehrfachvererbung für Module können Sie das visuelle Erscheinungsbild Ihres OXID eShops schnell ändern, ohne interne Geschäftslogik und Codebasis zu beeinträchtigen. Ändert sich ein Modul, passt sich das Layout automatisch an.
 
-  Weitere Informationen finden Sie unter Understanding the OXID eShop template hierarchy and override system.
+  Weitere Informationen finden Sie unter `Understanding the OXID eShop template hierarchy and override system <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/theme/theme_template_hierarchy.html>`_.
 
-  .. todo: #tbd: Ref Dev-Doku:
 
 * Die Namen in den Controller-Templates sind unabhängig von der Templating Engine.
 
@@ -105,16 +102,14 @@ Betrieb
 
   Weitere Informationen finden Sie unter
 
-  .. todo: #tbd: Ref Dev-Doku:
-
-  * Modules configuration and setup
-  * Troubleshooting
+  * `Modules configuration and setup <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/module_configuration/modules_configuration.html>`_
+  * `Troubleshooting <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/installation_setup/troubleshooting.html>`_
 
 * Um Ihnen auch das Installieren, Konfigurieren und Betreiben von Modulen zu erleichtern, haben wir den Module-Handler so geändert, dass alle Modul-spezifischen Informationen in YAML-Dateien gespeichert sind, nicht mehr in der Datenbank.
 
-  Weitere Informationen finden Sie unter Check changes in the module handler.
+  Weitere Informationen finden Sie unter `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
 
-  .. todo: #tbd: Ref Dev-Doku:
+  .. todo: #tbd: URL verif.
 
 
 Änderungen bei Modulen
@@ -127,9 +122,7 @@ Dateien bleiben im Verzeichnis :file:`/vendor`. Sie werden nicht nach :file:`/so
 
 Dies erleichtert Ihnen das Entwickeln und Warten eigener Module und Projekte.
 
-.. todo: #tbd ref dev-docu
-
-
+Siehe auch in der Entwickler-Dokumentation `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_
 
 
 Neue Funktionen
@@ -139,6 +132,7 @@ Tracking-URL je Versandart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #tbd: Doku im entspr. Kap. erg: :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen`
+        :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
 .. todo: #tbd: Ref auf Doku-Kap.
 
 Bisher konnten Sie eine Tracking-URL :emphasis:`:emphasis:`pro Shop` definieren (unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen`).
@@ -149,8 +143,9 @@ Sie können sie durch eine eigene Tracking-URL :emphasis:`je Versandart` ersetze
 
 Sobald die Paket-ID (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) bei der Bestellung eingetragen ist, steht der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, zur Verfügung.
 
-Er wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
+.. todo: #VL: Was genau ist die neue Funktion, wo finde ich sie?
 
+Er wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
 
 Setup per Kommandozeile
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -163,14 +158,11 @@ Sie haben auf der OXID eShop console folgende Möglichkeiten:
   |br|
   Die dafür notwendigen Informationen übergeben Sie mit Parametern.
 
-  .. todo: #VL/#tbd: Wo beschreiben wir, wie es geht`?
-
 * Installieren Sie mit ``oe:setup:demodata`` Demodaten.
 * Legen Sie mit ``oe:admin:create-user`` den Shop-Administrator an.
 * Wenn Sie die OXID eShop Professional oder Enterprise Edition haben fügen Sie mit ``oe:license:add`` Ihren Lizenzschlüssel hinzu.
 
   Es ist technisch nicht möglich, vorhandene Lizenzen durch neue zu ersetzen. Wenn Sie einen bestehende Lizenz durch eine andere tauschen, löschen Sie deshalb vorher mit ``oe:license:clear`` alle Lizenzen und fügen die neue Lizenz anschließend erneut hinzu.
-
 
 Weitere Informationen finden Sie unter :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`
 
@@ -181,11 +173,12 @@ Installieren oder deinstallieren Sie Module mit den neuen Kommandos der OXID eSh
 
 Weitere Informationen finden Sie in der englischsprachigen Entwicklerdokumentation unter
 
-.. todo: #tbd: #ref auf dev docu **7.0**
+.. todo: #tbd: URLs verifiz.
+    * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html
+    * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
 
-* https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html
-* https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
-
+* https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html
+* https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html.
 
 Verschlankung
 -------------
@@ -197,9 +190,7 @@ Test-Bibliothek
 
 Nutzen Sie statt der Test-Bibliothek die native PHPUnit- und Codeception-Funktionalität.
 
-Weitere Informationen finden Sie unter Testing.
-
-.. todo: #tbd: Ref dev docu
+Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Testing <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/testing/codeception/index.html>`_.
 
 RSS-Funktionalität
 ^^^^^^^^^^^^^^^^^^
@@ -235,8 +226,6 @@ Nachrichten entfernt
 ^^^^^^^^^^^^^^^^^^^^
 
 Bereits mit "Flow", dem Standard-Theme seit OXID eShop 6.0.0, konnten Nachrichten bereits nur über einen Link im Fußbereich aufgerufen werden.
-
-.. todo: #tbd: Ref : Wohin verlinken?  -- VCMS nicht verlinken, da private
 
 Gestalten Sie beispielsweise Landing Pages mit Visual CMS (für die Professional und Enterprise Edition), um Neuigkeiten oder Angebote zu verbreiten.
 
@@ -298,8 +287,6 @@ Folgen Sie zum Installieren den den Anleitungen unter :doc:`Neu-Installation <..
 
 Korrekturen
 -----------
-
-.. todo: Tracking IDs -- done:
 
 Korrekturen:
 
