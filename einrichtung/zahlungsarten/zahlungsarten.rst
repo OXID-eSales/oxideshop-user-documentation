@@ -7,7 +7,7 @@ Kunden, die in Ihrem Shop einkaufen, können im dritten Bestellschritt auswähle
 
 Alle erforderlichen Einstellungen können Sie im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Zahlungsarten` vornehmen. In einer Liste werden alle Zahlungsarten mit ihrem Namen ausgegeben. Darunter befindet sich der Eingabebereich für die Zahlungsart.
 
-Nach Zahlungsarten kann gesucht werden, indem das Suchfeld für den Namen verwendet wird. Zahlungsarten können in der Listenansicht nach aktiv/nicht aktiv und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Zahlungsarten werden dadurch in aufsteigender Reihenfolge angezeigt.
+Nach Zahlungsarten können Sie suchen, indem Sie das Suchfeld für den Namen verwenden. Zahlungsarten können in der Listenansicht nach aktiv/nicht aktiv und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Zahlungsarten werden dadurch in aufsteigender Reihenfolge angezeigt.
 
 Zahlungsarten, die neu erstellt wurden, können auch gelöscht werden. Durch einen Klick auf das Löschsymbol am Ende der Zeile werden sie endgültig aus der Datenbank entfernt. Die im Shop vorhandenen Zahlungsarten können nur deaktiviert werden, wenn sie nicht verwendet werden sollen.
 
@@ -20,7 +20,7 @@ Wird eine Zahlungsart aus der Liste gewählt, werden deren Informationen in den 
    :class: with-shadow
    :width: 650
 
-   Abb.: Neu Zahlungsart anlegen
+   Abb.: Neue Zahlungsart anlegen
 
 OXID eShop wird mit den vorbereiteten Zahlungsarten \"Bankeinzug/Lastschrift\", \"Empty\", \"Nachnahme\", \"Rechnung\" und \"Vorauskasse\" ausgeliefert. Sie können verwendet werden, nachdem sie individuell angepasst wurden. Nicht verwendete Zahlungsarten sollten mit Ausnahme von \"Empty\" deaktiviert werden.
 
