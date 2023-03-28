@@ -45,7 +45,7 @@ Sicherheit
 
   Das Interpretieren bestimmter HTML-Tags passiert nicht mehr zentral in der Klasse :code:`CoreField`, sondern im Frontend automatisch durch die Twig Templating Engine oder GraphQL.
 
-  Twig und GraphQL umgehen diese Zeichen automatisch und geben sie sicher wider. Dadurch ist sichergestellt, dass kein schädlicher JavaScript-Code ausgeführt werden kann. Cross-Site Scripting (XSS)-Angriffe werden unterbunden.
+  Twig und GraphQL umgehen diese Zeichen automatisch und geben sie sicher wieder. Dadurch ist sichergestellt, dass kein schädlicher JavaScript-Code ausgeführt werden kann. Cross-Site Scripting (XSS)-Angriffe werden unterbunden.
 
   .. important::
 
