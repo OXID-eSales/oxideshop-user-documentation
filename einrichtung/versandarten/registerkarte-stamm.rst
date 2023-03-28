@@ -20,14 +20,28 @@ Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versand
 :guilabel:`Sortierung`
    Die Sortierung legt die Reihenfolge der Versandarten in der Dropdown-Liste fest. Die Versandart mit der kleinsten Zahl steht als erste zur Auswahl und ist damit vorausgewählt.
 
+.. _Tracking-URL:
+
 :guilabel:`Tracking-URL`
-   Für jede Versandart kann eine separate Tracking-URL definiert werden.
+   Legen Sie für jede Versandart eine separate Tracking-URL fest.
 
-   ##ID## dient dabei als Platzhalter, welcher durch die jeweilige Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) ersetzt wird.
+   ##ID## dient dabei als Platzhalter, den das System durch die jeweilige Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) ersetzt.
 
-   Gibt es für eine Versandart keine eigene Tracking-URL, wird die im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragene verwendet.
+   .. todo: #tbd: Bild mit Beispiel: https://www.dhl.com/de-de/home/tracking/tracking-express.html?tracking-id=##ID##
 
-   Tracking-URL und konkrete Paket-ID der Bestellung werden zum Tracking-Link zusammengefügt. Dieser wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
+   Gibt es für eine Versandart keine eigene Tracking-URL, wird die Tracking-URL verwendet, die Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragen haben.
+
+   Resultat: Tracking-URL und konkrete Paket-ID der Bestellung werden zum Tracking-Link zusammengefügt. Dieser wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird.
+
+   .. todo: Die Versandart gilt ja dann für jeden Kunden und deswegen dort nur den Standardlink mit dem Platzhalter.
+        Wenn du die Bestellung eines Kunden verschickst, dann hat sein Paket eine individuelle Sendungsnummer und die trägt man entsprechend dann in dessen Bestellung ein (Siehe Screen im Anhang).
+        Der Shop nimmt dann die URL aus der Versandart und die Nummer aus der Bestellung.
+        Wenn die eingetragen ist (1), dann Speichern klicken.
+        Danach E-Mail schicken anhaken (2) und dann Jetzt versenden (3).
+        Dann kriegt der Kunde eine Versandbestätigung mit voller persönlicher Tracking URL.
+        :menuselection:`Bestellungen verwalten --> Bestellungen --> Stamm`
+
+   In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
 
 :guilabel:`In Sprache`
    Die Versandart kann in weiteren aktiven Sprachen des Shops bearbeitet werden. Wählen Sie eine Sprache aus der Dropdown-Liste aus.

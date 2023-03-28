@@ -1,7 +1,7 @@
 ﻿Registerkarte Stamm
 ===================
 
-Auf der Registerkarte :guilabel:`Stamm` können Bestellinformationen hinzugefügt oder verändert werden. Das betrifft Bestell- und Rechnungsnummern ebenso, wie Bezahl- und Versandinformationen. Handelt es sich bei den bestellten Artikeln um Download-Artikel, kann eine E-Mail mit den Downloadlinks an den Kunden verschickt werden.
+Auf der Registerkarte :guilabel:`Stamm` können Sie Bestellinformationen hinzufügen oder ändern. Das betrifft Bestell- und Rechnungsnummern ebenso, wie Bezahl- und Versandinformationen. Handelt es sich bei den bestellten Artikeln um Download-Artikel, kann eine E-Mail mit den Downloadlinks an den Kunden verschickt werden.
 
 .. image:: ../../media/screenshots/oxbaed01.png
    :alt: Bestellungen - Registerkarte Stamm
@@ -29,16 +29,30 @@ Auf der Registerkarte :guilabel:`Stamm` können Bestellinformationen hinzugefüg
    In der Dropdown-Liste ist ausgewählt, mit welcher Zahlungsart der Kunde die Bestellung abgeschlossen hat. Falls notwendig, kann dieser Bestellung eine andere aktive Zahlungsart zugewiesen werden. Wählen Sie eine andere Zahlungsart aus der Dropdown-Liste aus und speichern Sie die Änderung.
 
 :guilabel:`Versandinformationen`
-   Bei der Bestellung hat der Kunde eine Versandart gewählt, die zusammen mit den Versandkosten übersichtlich angeordnet angezeigt wird. Der Shopbetreiber kann diese Angaben, falls notwendig, ändern.
+   Bei der Bestellung hat der Kunde eine Versandart gewählt, die zusammen mit den Versandkosten angezeigt wird. Der Shopbetreiber kann diese Angaben, falls notwendig, ändern.
 
 :guilabel:`Tracking-Code`
-   Tragen Sie hier die Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz usw.) ein. Der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
+   Tragen Sie hier die Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz usw.) ein.
 
-Die Tracking-URL kann für jede einzelne Versandart definiert werden. Gibt es für eine Versandart keine spezielle Tracking-URL, wird die im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragene verwendet.
+   Der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, wird generiert und Ihrem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird.
 
-Die Schaltflächen :guilabel:`Jetzt versenden` und :guilabel:`Versanddatum zurücksetzen`, ebenso wie das Kontrollkästchen :guilabel:`E-Mail schicken?` erfüllen die gleiche Funktion, wie auf der Registerkarte :guilabel:`Übersicht`. Das Versanddatum kann gesetzt und der Kunde per E-Mail über den Versand der Ware informiert werden. Es wird die Zeile :guilabel:`Versandt am` mit der Datums- und Zeitangabe vervollständigt.
+   In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
+
+   Die Tracking-URL können Sie für jede einzelne Versandart separat definieren.
+   |br|
+   Wie das geht, finden Sie unter :ref:`Tracking-URL <Tracking-URL>`.
+
+   Wenn Sie für eine Versandart keine spezielle Tracking-URL festgelegt haben, verwendet das System die Tracking-URL, die Sie im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragen haben.
+
+   .. todo: :ref:`Tracking-URL <Tracking-URL>` Weitere Einstellungen
+
+   Die Schaltflächen :guilabel:`Jetzt versenden` und :guilabel:`Versanddatum zurücksetzen`, ebenso wie das Kontrollkästchen :guilabel:`E-Mail schicken?` erfüllen die gleiche Funktion, wie auf der Registerkarte :guilabel:`Übersicht`. Das Versanddatum kann gesetzt und der Kunde per E-Mail über den Versand der Ware informiert werden. Es wird die Zeile :guilabel:`Versandt am` mit der Datums- und Zeitangabe vervollständigt.
 
 :guilabel:`Bestellte Downloadlinks`
-   Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten. Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien, die er sich im Shop herunterladen kann. Mit einem Klick auf die Schaltfläche :guilabel:`Versenden` erhält der Kunde eine E-Mail mit seinen Downloadlinks zugeschickt.
+   Mit Download-Artikeln kann der Shopbetreiber beispielsweise Software, Fotos, Musikdateien oder Dokumentvorlagen anbieten.
+
+   Legt der Kunde einen Download-Artikel in den Warenkorb, erwirbt er alle dazugehörigen Dateien, die er sich im Shop herunterladen kann.
+
+   Mit einem Klick auf die Schaltfläche :guilabel:`Versenden` erhält der Kunde eine E-Mail mit seinen Downloadlinks zugeschickt.
 
 .. Intern: oxbaed, Status:, F1: order_main.html
