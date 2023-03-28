@@ -90,22 +90,7 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-.. todo: #VaL: verify:: "Composer supported in  Version 2 " -- gilt Folgendes? Composer 2.x is correct -- Vasyl checks: VL: muss 2.4 sein
-
 * Composer 2.4
-
-.. attention::
-
-   Eine Composer Version aktueller als 2.2 wird nicht unterstützt.
-
-   Bitte beachten Sie, dass zum Stand der OXID eShop Version 6.5.0 die Composer Version 2.2 getestet wurde.
-
-   Installieren Sie die Composer Version 2.2 beispielsweise wie folgt:
-
-   .. code:: bash
-
-      composer selfupdate --2.2
-
 
 Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
 

@@ -1,7 +1,7 @@
 OXID eShop 7.0.0
 ================
 
-.. todo: #VL: Datum: Tech release nä. Wo.; Taggen vermutl. 18.4.
+.. todo: #VL: Datum: Tech release diese Woche; Taggen vermutl. 18.4.
 
 Veröffentlichungstermin: 18.04.2023
 
@@ -143,7 +143,7 @@ Sie können sie durch eine eigene Tracking-URL :emphasis:`je Versandart` ersetze
 
 Sobald die Paket-ID (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) bei der Bestellung eingetragen ist, steht der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, zur Verfügung.
 
-.. todo: #VL: Was genau ist die neue Funktion, wo finde ich sie?
+.. todo: #Steven: Was genau ist die neue Funktion, wo finde ich sie? Unter Versandart , VA wählen, Link Tracking URL: Woher kriege ich die Tracking URL, die ich da angebe? Beispiel
 
 Er wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
 
@@ -245,7 +245,7 @@ Komponenten der Compilation
 
 Die Compilation enthält folgende Komponenten:
 
-.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig? -- VL: tbd: nä Woche.
+.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig? -- VL: tbd: bis Do
 .. todo: #tbd: Flow und Wave weg, dafür Twig
 
 * OXID eShop CE 7.0.0-rc1: `Changelog 7.0.0-rc1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0-rc1/CHANGELOG.md>`_

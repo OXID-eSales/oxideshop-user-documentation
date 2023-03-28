@@ -2,6 +2,8 @@
 Update
 ======
 
+.. todo: #tbd: Link auf upgrade in Dev-Dou: https://docs.oxid-esales.com/developer/en/latest/update/upgrade-to-7.0.html
+
 Wir unterscheiden folgende Update-Typen:
 
 .. toctree::

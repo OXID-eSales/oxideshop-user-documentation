@@ -2,7 +2,7 @@
 Patch-Update installieren
 =========================
 
-.. todo: #VaL: Is there a use case for a patch update in V. 7?
+.. todo: #HR/#VaL: Is there a use case for a patch update in V. 7? -- nein
 
 Führen Sie bei Bedarf ein Patch-Update Ihres OXID eShops durch.
 

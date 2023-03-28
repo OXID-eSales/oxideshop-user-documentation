@@ -1,6 +1,11 @@
 Upgrade
 =======
 
+.. todo: #tbd: Für das Folgende verweisen auf Devdoku https://github.com/OXID-eSales/developer_documentation/blob/b-7.0.x/update/upgrade-to-7.0.rst
+
+
+
+
 .. todo: #VaL: Update 70 = "Upgrade" 6.x -> 7.0? --> Vasyl #VL: Ugrade-Beschreibung gibt es schon: wo in Dev-Doku? https://docs.oxid-esales.com/developer/en/7.0-rc.2/update/eshop_from_65_to_7/modules.html
 
 .. todo: #VaL clarify: Do we need additional info if Smarty is used; What is the default, how would I install Smarty/Twig? Für smarty oder default twig installieren; Zusatzinfo, wenn Smarty verwendet?
@@ -116,6 +121,10 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
 |procedure|
 
 .. todo: #Val: how do I upgrade to V. 7.0?
+
+.. todo: #tbd: Enter Ref to upgrade info in dev docu: https://docs.oxid-esales.com/developer/en/latest/update/upgrade-to-7.0.html
+
+Folgen Sie den Anweisungen in der Entwickler-Dokumentation unter `Upgrade to OXID eShop 7.0 <https://docs.oxid-esales.com/developer/en/latest/update/upgrade-to-7.0.html>`_.
 
 1. Aktualisieren Sie in der Datei :file:`composer.json` die Version des Metapackage.
    |br|
