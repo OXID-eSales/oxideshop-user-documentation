@@ -89,19 +89,7 @@ PHP extensions that need to be installed:
 Composer
 --------
 
-.. todo: #VL verifying
-
-* Composer 2.2
-
-.. attention::
-
-    Composer 2.3.x is not supported.
-
-    If you have Composer 2.3.x, for example, install Composer 2.2 as follows:
-
-    .. code:: bash
-
-       composer selfupdate --2.2
+* Composer 2.4
 
 Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
 
