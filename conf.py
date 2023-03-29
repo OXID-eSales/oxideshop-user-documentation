@@ -25,7 +25,7 @@ copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The short X.Y version
-version = '7.0'
+version = '7.0 prelim'
 # The full version, including alpha/beta/rc tags
 release = '7.0.0'
 

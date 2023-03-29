@@ -52,9 +52,9 @@ Ordnen Sie der Versandart beispielsweise Versandkostenregeln und Länder zu. Leg
 
       Abb.: Tracking-URL für eine Versandart festlegen
 
-   Ergebnis: Die Tracking-URL und die konkrete Paket-ID einer Bestellung werden zu einem Tracking-Link zusammengefügt. Dieser wird dem Kunden mit der E-Mail, die ihn über den Versand der Ware informiert, zur Sendungsverfolgung zugesendet.
+   Ergebnis: Die Tracking-URL und die konkrete Paket-ID einer Bestellung werden zu einem Tracking-Link zusammengefügt. Der Tracking-Link wird dem Kunden zur Sendungsverfolgung mit der Versandbestätigungs-E-Mail zugeschickt.
 
-   Der Tracking-Link wird auch in der Kundenbestellhistorie im Frontend angezeigt.
+   Der Besteller kann den Tracking-Link auch in der Kundenbestellhistorie im Frontend unter :menuselection:`Mein Konto --> Bestellhistorie` anzeigen.
 
    Wenn Sie für eine Versandart keine eigene Tracking-URL festlegen, verwendet das System die Tracking-URL, die Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` festgelegt haben.
 
