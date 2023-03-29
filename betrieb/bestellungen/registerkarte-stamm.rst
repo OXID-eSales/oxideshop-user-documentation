@@ -83,9 +83,6 @@ Handelt es sich bei den bestellten Artikeln um Download-Artikel, können Sie ein
 
    Wenn Sie für eine Versandart keine spezielle Tracking-URL festgelegt haben, verwendet das System die Tracking-URL, die Sie im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` festgelegt haben.
 
-   .. todo: #VL: Stimmt das Folgende noch?
-
-   Die Sendungsverfolgung ist standardmäßig für den Versanddienstleister DPD (Dynamic Parcel Distribution) konfiguriert.
 
    .. todo: #tbd: create Ref zu Doku, sobald angelegt für :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` / :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
 
