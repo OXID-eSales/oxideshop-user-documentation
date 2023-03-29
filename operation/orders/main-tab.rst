@@ -31,8 +31,10 @@ The :guilabel:`Main` tab allows you to add or change the order information. This
 :guilabel:`Shipping Information`
    When placing an order, the customer had to select a shipping method that will be displayed together with the shipping costs. The shop owner can change this information if needed.
 
+.. _tracking-url-orders:
+
 :guilabel:`Shipping Information - Tracking Code`
-   Enter here the package ID of the order (depending on the shipping service provider tracking code, parcel label number, package reference, shipment number, etc.). The tracking link, consisting of the tracking URL and the package ID of the order, is sent to the customer for tracking purposes with the e-mail notifying him/her of the shipment. The tracking link is also displayed in the customer's order history in the frontend.
+   Enter the package ID of the order (depending on the shipping service provider tracking code, parcel label number, package reference, shipment number, etc.). The tracking link, consisting of the tracking URL and the package ID of the order, is sent to the customer for tracking purposes with the e-mail notifying him/her of the shipment. The tracking link is also displayed in the customer's order history in the frontend.
 
    The tracking URL can be defined for each individual shipping method. If there is no special tracking URL for a shipping method, the one entered in the Admin panel under :menuselection:`Master Settings --> Core Settings --> Settings --> Other settings` will be used.
 
