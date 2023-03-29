@@ -1,9 +1,12 @@
+:orphan:
+
 Upgrade
 =======
 
+
 .. todo: #tbd: Für das Folgende verweisen auf Devdoku https://github.com/OXID-eSales/developer_documentation/blob/b-7.0.x/update/upgrade-to-7.0.rst
 
-
+.. todo: Prüfen, ob Link in TOC auf https://docs.oxid-esales.com/developer/en/latest/update/upgrade-to-7.0.html reicht
 
 
 .. todo: #VaL: Update 70 = "Upgrade" 6.x -> 7.0? --> Vasyl #VL: Ugrade-Beschreibung gibt es schon: wo in Dev-Doku? https://docs.oxid-esales.com/developer/en/7.0-rc.2/update/eshop_from_65_to_7/modules.html
