@@ -79,9 +79,6 @@ The :guilabel:`Main` tab allows you to add or change the order information. This
 
    If you have not defined a special tracking URL for a shipping method, the system uses the tracking URL you have defined in the administration area under :menuselection:`Master Settings --> Core Settings --> Settings --> Other settings`.
 
-   By default, shipment tracking is configured for the DPD (Dynamic Parcel Distribution) shipping service provider.
-
-
 
 :guilabel:`Ordered download links`
    With downloadable products, offer software, photos, music files or document templates, for example.
