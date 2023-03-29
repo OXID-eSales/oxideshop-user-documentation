@@ -1,7 +1,11 @@
 ﻿Registerkarte Stamm
 ===================
 
-Auf der Registerkarte :guilabel:`Stamm` können Sie Bestellinformationen hinzufügen oder ändern. Das betrifft Bestell- und Rechnungsnummern ebenso, wie Bezahl- und Versandinformationen. Handelt es sich bei den bestellten Artikeln um Download-Artikel, kann eine E-Mail mit den Downloadlinks an den Kunden verschickt werden.
+Auf der Registerkarte :guilabel:`Stamm` können Sie Bestellinformationen hinzufügen oder ändern.
+
+Das betrifft Bestell- und Rechnungsnummern ebenso wie Bezahl- und Versandinformationen.
+
+Handelt es sich bei den bestellten Artikeln um Download-Artikel, können Sie eine E-Mail mit den Downloadlinks an den Kunden senden.
 
 .. image:: ../../media/screenshots/oxbaed01.png
    :alt: Bestellungen - Registerkarte Stamm
@@ -23,7 +27,7 @@ Auf der Registerkarte :guilabel:`Stamm` können Sie Bestellinformationen hinzuf�
    Wurde für die bestellten Artikel ein Rabatt wirksam, wird dieser hier angezeigt. Es kann auch nachträglich ein Rabatt geändert oder gewährt werden. Tragen Sie den Wert in das Eingabefeld ein und speichern Sie die Änderungen. Der Gesamtpreis der Bestellung wird neu berechnet.
 
 :guilabel:`Bezahlinformationen`
-   Der Shopbetreiber hat hier die Möglichkeit, den Zahlungseingang zur Bestellung zu dokumentieren. Im Feld :guilabel:`Bezahlt am` kann das Bezahldatum im Format JJJJ-MM-TT HH:MM:SS gesetzt werden. Nach dem Speichern erscheint eine neue Zeile mit dem Hinweis :guilabel:`Bestellung wurde bezahlt` und der Datums- und Zeitangabe. Soll für die Bestellungen das aktuelle Datum verwendet werden, genügt ein Klick auf den gleichnamigen Link und es wird in das Eingabefeld eingetragen.
+   Dokumentieren Sie den Zahlungseingang zur Bestellung. Im Feld :guilabel:`Bezahlt am` kann das Bezahldatum im Format JJJJ-MM-TT HH:MM:SS gesetzt werden. Nach dem Speichern erscheint eine neue Zeile mit dem Hinweis :guilabel:`Bestellung wurde bezahlt` und der Datums- und Zeitangabe. Soll für die Bestellungen das aktuelle Datum verwendet werden, genügt ein Klick auf den gleichnamigen Link und es wird in das Eingabefeld eingetragen.
 
 :guilabel:`Bezahlung mit`
    In der Dropdown-Liste ist ausgewählt, mit welcher Zahlungsart der Kunde die Bestellung abgeschlossen hat. Falls notwendig, kann dieser Bestellung eine andere aktive Zahlungsart zugewiesen werden. Wählen Sie eine andere Zahlungsart aus der Dropdown-Liste aus und speichern Sie die Änderung.
@@ -31,8 +35,10 @@ Auf der Registerkarte :guilabel:`Stamm` können Sie Bestellinformationen hinzuf�
 :guilabel:`Versandinformationen`
    Bei der Bestellung hat der Kunde eine Versandart gewählt, die zusammen mit den Versandkosten angezeigt wird. Der Shopbetreiber kann diese Angaben, falls notwendig, ändern.
 
+.. _tracking-url-orders:
+
 :guilabel:`Tracking-Code`
-   Tragen Sie hier die Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz usw.) ein.
+   Tragen Sie die Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz usw.) ein.
 
    Der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, wird generiert und Ihrem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird.
 
@@ -40,7 +46,7 @@ Auf der Registerkarte :guilabel:`Stamm` können Sie Bestellinformationen hinzuf�
 
    Die Tracking-URL können Sie für jede einzelne Versandart separat definieren.
    |br|
-   Wie das geht, finden Sie unter :ref:`Tracking-URL <Tracking-URL>`.
+   Wie das geht, finden Sie unter :ref:`Tracking-URL <tracking-url-shipping-method>`.
 
    Wenn Sie für eine Versandart keine spezielle Tracking-URL festgelegt haben, verwendet das System die Tracking-URL, die Sie im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragen haben.
 

@@ -1,5 +1,8 @@
-﻿Registerkarte RDFa
+﻿.. _rdfa-zahlungsarten:
+
+Registerkarte RDFa
 ==================
+
 
 Legen Sie fest, welche RDFa-Daten für jede Zahlungsart Ihres OXID eShops eingebettet werden soll.
 
@@ -9,6 +12,7 @@ OXID eShop stellt Informationen gut aufbereitet für Suchmaschinen, Portale und 
 
 Auf der Registerkarte :guilabel:`RDFa` wird eine logische Verknüpfung der Zahlungsart mit den in GoodReleations vordefinierten Werten für Zahlung hergestellt.
 
+Weitere Informationen zum Einbetten von RDFa-Daten auch Ihrer :emphasis:`Versandarten` Sie unter :menuselection:`Shopeinstellungen --> Versandarten`, :ref:`Registerkarte RDFa <rdfa-versandarten>`.
 
 |prerequisites|
 
