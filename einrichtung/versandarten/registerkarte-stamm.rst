@@ -58,7 +58,7 @@ Ordnen Sie der Versandart beispielsweise Versandkostenregeln und Länder zu. Leg
 
    Wenn Sie für eine Versandart keine eigene Tracking-URL festlegen, verwendet das System die Tracking-URL, die Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` festgelegt haben.
 
-   .. todo: #tbd: create Ref
+   .. todo: #tbd: create Ref hier hin sobald Doku existiert für :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` / :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
 
 :guilabel:`In Sprache`
    Wenn Sie die Versandart in einer anderen aktiven Sprache des Shops bearbeiten möchten, wählen Sie die gewünschte Sprache aus der Dropdown-Liste aus.
