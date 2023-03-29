@@ -1,7 +1,9 @@
 ﻿Main tab
 ========
 
-The :guilabel:`Main` tab contains several settings for the shipping method. Shipping cost rules and countries can be assigned here.
+On the :guilabel:`Main` tab, configure the shipping method.
+
+Assign, for example, shipping rules and countries to the shipping method. Set a tracking URL so that the system can send a tracking link to your customer.
 
 .. image:: ../../media/screenshots/oxbade01.png
    :alt: Shipping methods - Main tab
@@ -12,13 +14,13 @@ The :guilabel:`Main` tab contains several settings for the shipping method. Ship
    Enter the name of the shipping method. It will be displayed to the customer in ordering step 3. If multiple shipping methods are valid, one of them must be selected from a drop-down list.
 
 :guilabel:`Active`
-   Check this box to make the shipping method active and useable.
+   For the shipping method to be active and usable, activate the checkbox.
 
 :guilabel:`Active for a period`
    Specify a time period when the shipping method should be active. The input format should be YYY-MM-DD HH:MM:SS. To have the time period applied, don’t check the :guilabel:`Active` box.
 
 :guilabel:`Sorting`
-   Sorting determines the order in which shipping methods appear in the drop-down list. The shipping method with the smallest number will be listed first and preselected.
+   Set the order of shipping types in the drop-down list. The shipping method with the smallest number will be listed first and preselected.
 
 :guilabel:`Tracking URL`
    A separate tracking URL can be defined for each shipping method. ##ID## serves as a placeholder, which is replaced by the respective package ID of the order (depending on the shipping service provider tracking code, parcel label number, package reference, shipment number, etc).
