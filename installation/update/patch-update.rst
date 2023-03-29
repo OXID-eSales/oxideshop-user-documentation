@@ -1,7 +1,7 @@
+:orphan:
+
 Installing a patch update
 =========================
-
-.. todo: #VL: orphanate chapter as of 7.0?
 
 Perform a patch update of your OXID eShop if required.
 

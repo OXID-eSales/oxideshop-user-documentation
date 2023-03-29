@@ -1,7 +1,7 @@
+:orphan:
+
 Installing a minor update
 =========================
-
-.. todo: #VL: Update 70 = Minor update 6.5 -> 7.0?
 
 For example, update the compilation from an existing version 6.3.x to version 6.5.0.
 
