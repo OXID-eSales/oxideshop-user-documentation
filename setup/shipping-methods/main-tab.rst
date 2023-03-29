@@ -55,9 +55,9 @@ Assign, for example, shipping rules and countries to the shipping method. Set a 
 
       Figure: Setting the tracking URL for a shipping method
 
-   Result: The tracking URL and the specific package ID of an order are merged into a tracking link. For tracking purposes, this is sent to the customer with the email informing them that the goods have been shipped.
+   Result: The tracking URL and the specific package ID of an order are merged into a tracking link. For tracking purposes, the tracking link is sent to the customer with the email informing them that the goods have been shipped.
 
-   The tracking link is also displayed in the customer order history in the frontend.
+   The customer can also display the tracking link in the customer order history in the frontend under :menuselection:`My Account --> Order History`.
 
    If you do not set a custom tracking URL for a shipping method, the system uses the tracking URL you set in :menuselection:`Master Data --> Basic Settings --> Settings. --> Other settings`.
 
