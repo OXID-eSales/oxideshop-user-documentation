@@ -3,6 +3,9 @@
 RDFa tab
 ========
 
+.. note::
+   For technical reasons, the following function cannot be executed at the moment.
+
 Specify which RDFa data are to be embedded for each shipping method of your OXID eShop.
 
 |background|
