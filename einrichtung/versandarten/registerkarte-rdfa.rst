@@ -3,6 +3,9 @@
 Registerkarte RDFa
 ==================
 
+.. note::
+   Die folgende Funktion lässt sich aus technischen Gründen im Moment nicht ausführen.
+
 Legen Sie fest, welche RDFa-Daten für jede Versandart Ihres OXID eShops eingebettet werden soll.
 
 |background|

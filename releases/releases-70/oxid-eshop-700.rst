@@ -1,9 +1,9 @@
 OXID eShop 7.0.0
 ================
 
-.. todo: #VL: Datum: Tech release gepl. 31.3.; Taggen vermutl. 18.4.
+.. todo: #HR: Datum: Tech release gepl. 31.4.; Taggen vermutl. 9.5.
 
-Veröffentlichungstermin: 18.04.2023
+Veröffentlichungstermin: 31.04.2023
 
 
 Funktionen
@@ -22,10 +22,11 @@ Sicherheit
   * verbesserte Unterstützung räumlicher Daten
   * verbesserte Unterstützung von Transaktionen und damit einfachere Entwicklung und Wartung
 
-.. todo: #HR: Klären: Laut dem Changelog der Version 7.0 wird lediglich die MySQL Version 5.5 nicht mehr unterstützt: https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.0.x/CHANGELOG.md#:~:text=Support%3A-,MySQL%20v5.5%2C%20v5.6,-Database%20encoding
-    Die dort erwähnte Version 5.6 haben wir nie unterstützt.
-    Die Version 5.7 wurde mit der 6.5 unterstützt aber nie explizit aufgehoben.
-    Zusammenfassend: Entweder muss das Changelog 5.7 ebenfalls als „Removed“ listen (und entfernt 5.6) oder die Shop Version 7 muss noch 5.7 unterstützen.
+  .. note::
+     **MySQL 5.7**
+
+     MySQL 5.7 zu nutzen, ist möglich, aber wir empfehlen MySQL 8.0.
+
 
 * Unterstützte PHP-Versionen: 8.0 und 8.1
 
@@ -34,12 +35,6 @@ Sicherheit
   Mit Composer 2.4 haben Sie außerdem bessere Unterstützung für Plugins, und es erleichtert Ihnen die Diagnose und den Umgang mit Fehlermeldungen.
 
 * Symfony-Komponenten sind aktualisiert auf Symfony Version 6.
-
-  .. todo: #HR: Hintergrundinfo erwünscht? MK möchte Folgendes streichen:
-
-  Hintergrund: Es gibt keine (Sicherheits-) Updates für Symfony 3.4, und es ist nicht mit PHP 8.1 kompatibel.
-
-  Mit dem Update ist Ihr Zugang zu den neuesten Fehlerbehebungen, Sicherheits-Patches und anderen Support-Ressourcen sichergestellt.
 
 * Automatisches HTML-Escaping im Frontend
 
@@ -193,7 +188,7 @@ Anmeldung über LDAP
 
 Wir empfehlen, wie die meisten Kunden eine eigene Login-Lösung zu implementieren.
 
-.. todo: #VL/#HR: klären:
+.. todo: #HR: klärt:
     	Ich verstehe den Satz nicht. Wer empfiehlt was? Gibt es dafür eine Anleitung? Ein Modul? Was haben die anderen Kunden implementiert?
     	Funktioniert das alte Script trotzdem noch, wenn man es mit umzieht? Wir haben da draußen noch Enterprise Kunden, die LDAP verwenden.
 
@@ -242,7 +237,7 @@ Die Compilation enthält folgende Komponenten:
 
    Folgendes Infos sind Platzhalter. Wir müssen die Infos noch sammeln.
 
-.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig? -- VL: tbd: bis Do
+.. todo: #HR: wo finde ich die Komponenten? Metapackage 7.0 wann fertig? -- VL: tbd: bis Do
 .. todo: #tbd: Flow und Wave weg, dafür Twig
 
 
@@ -259,7 +254,7 @@ Die Compilation enthält folgende Komponenten:
 * OXID eShop facts 3.0.0: `Changelog OXID eShop facts 3.0.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v3.0.0/CHANGELOG.md>`_
 * Unified Namespace Generator 3.0.0: `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v3.0.0/CHANGELOG.md>`_
 
-.. todo: #VL: Folgende Komponenten ergänzen: Payone entfällt
+.. todo: #HR: Folgende Komponenten ergänzen: Payone, Klarna, Unzer, PayPal entfällt
 
 * GDPR Opt-In 2.3.3: `Changelog 2.3.3 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
 * Klarna 5.5.3: `Changelog 5.5.3 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.3/CHANGELOG.md>`_
