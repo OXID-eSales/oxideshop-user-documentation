@@ -186,11 +186,7 @@ Die RSS-Funktionalität ist entfallen.
 Anmeldung über LDAP
 ^^^^^^^^^^^^^^^^^^^
 
-Wir empfehlen, wie die meisten Kunden eine eigene Login-Lösung zu implementieren.
-
-.. todo: #HR: klärt:
-    	Ich verstehe den Satz nicht. Wer empfiehlt was? Gibt es dafür eine Anleitung? Ein Modul? Was haben die anderen Kunden implementiert?
-    	Funktioniert das alte Script trotzdem noch, wenn man es mit umzieht? Wir haben da draußen noch Enterprise Kunden, die LDAP verwenden.
+Wenn Sie eine LDAP-Umgebung haben, müssen Sie eine eigene Login-Lösung implementieren.
 
 
 Kreditkarte als Zahlungsart
