@@ -156,8 +156,8 @@ For more information, see the developer documentation under
         * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html
         * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
 
-* https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html
-* https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html.
+* `Best practice module setup for development with composer <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html>`_
+* `Uninstall modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html>`_
 
 Streamlining
 ------------
@@ -197,7 +197,7 @@ Customers can still subscribe to newsletters.
 
 To use the data in a professional marketing tool, export the list of your newsletter subscribers.
 
-For more information, see :doc:`Newsletter <../../operation/newsletters/newsletters>`.
+For more information, see :doc:`Newsletters <../../operation/newsletters/newsletters>`.
 
 News removed
 ^^^^^^^^^^^^
