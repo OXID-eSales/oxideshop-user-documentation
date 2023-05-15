@@ -1,299 +1,264 @@
 OXID eShop 7.0.0
 ================
 
-Release date: 18.04.2023
+Release date: 24-05-2023
 
-.. todo: #tbd: to be translated when RN 700 is finalized
+Features
+--------
 
-.. attention::
+Security
+^^^^^^^^
 
-   The following is to be translated when RN 700 is finalized.
+* Supported MySQL Version: 8.0
 
-Funktionen
-----------
+  With MySQL 8.0, improve security in particular, but also performance:
 
-Sicherheit
-^^^^^^^^^^
+  * faster searching and indexing
+  * better scalability
+  * improved support for NoSQL operations
+  * improved support for spatial data
+  * improved support for transactions, making development and maintenance easier
 
-* Unterstützte MySQL-Version: 8.0
+  .. note::
+     **MySQL 5.7**
 
-  Verbessern Sie mit MySQL 8.0 vor allem die Sicherheit, aber auch die Performance:
+     Using MySQL 5.7 is possible, but we recommend MySQL 8.0.
 
-  * schnelleres Suchen und Indizieren
-  * bessere Skalierbarkeit
-  * verbesserte Unterstützung von NoSQL-Operationen
-  * verbesserte Unterstützung räumlicher Daten
-  * verbesserte Unterstützung von Transaktionen und damit einfachere Entwicklung und Wartung
 
-.. todo: #HR: Klären: Laut dem Changelog der Version 7.0 wird lediglich die MySQL Version 5.5 nicht mehr unterstützt: https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.0.x/CHANGELOG.md#:~:text=Support%3A-,MySQL%20v5.5%2C%20v5.6,-Database%20encoding
-    Die dort erwähnte Version 5.6 haben wir nie unterstützt.
-    Die Version 5.7 wurde mit der 6.5 unterstützt aber nie explizit aufgehoben.
-    Zusammenfassend: Entweder muss das Changelog 5.7 ebenfalls als „Removed“ listen (und entfernt 5.6) oder die Shop Version 7 muss noch 5.7 unterstützen.
+* Supported PHP versions: 8.0 and 8.1
 
-* Unterstützte PHP-Versionen: 8.0 und 8.1
+* Supported Composer version: 2.4
 
-* Unterstützte Composer-Version: 2.4
+  With Composer 2.4, you also have better support for plugins, and it makes it easier to diagnose and deal with error messages.
 
-  Mit Composer 2.4 haben Sie außerdem bessere Unterstützung für Plugins, und es erleichtert Ihnen die Diagnose und den Umgang mit Fehlermeldungen.
+* Symfony components are updated to Symfony version 6.
 
-* Symfony-Komponenten sind aktualisiert auf Symfony Version 6.
+* Automatic HTML escaping in the frontend.
 
-  .. todo: #HR: Hintergrundinfo erwünscht? MK möchte Folgendes streichen:
+  Interpreting certain HTML tags no longer happens centrally in the :code:`Field` class, but automatically in the frontend by the Twig template engine or GraphQL.
 
-  Hintergrund: Es gibt keine (Sicherheits-) Updates für Symfony 3.4, und es ist nicht mit PHP 8.1 kompatibel.
-
-  Mit dem Update ist Ihr Zugang zu den neuesten Fehlerbehebungen, Sicherheits-Patches und anderen Support-Ressourcen sichergestellt.
-
-* Automatisches HTML-Escaping im Frontend
-
-  Das Interpretieren bestimmter HTML-Tags passiert nicht mehr zentral in der Klasse :code:`Field`, sondern im Frontend automatisch durch die Twig Template Engine oder GraphQL.
-
-  Twig und GraphQL umgehen diese Zeichen automatisch und geben sie sicher wieder. Dadurch ist sichergestellt, dass kein schädlicher JavaScript-Code ausgeführt werden kann. Cross-Site Scripting (XSS)-Angriffe werden unterbunden.
+  Twig and GraphQL automatically bypass these characters and render them safely. This ensures that no malicious JavaScript code can be executed. Cross-site scripting (XSS) attacks are prevented.
 
   .. important::
 
-     Wenn Sie Smarty nutzen oder eigene Lösungen bauen, stellen Sie sicher, dass Sie das HTML-Escaping eingeschaltet haben.
+     If you use Smarty or build custom solutions, make sure you have HTML escaping turned on.
 
      .. todo: #tbd: verify URL: (https://docs.oxid-esales.com/developer/en/7.0-rc.2/update/eshop_from_65_to_7/modules.html#check-html-escaping)
 
-     Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
+     For more information, see `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_ in the developer documentation.
 
-* Metadata Version 2.0 oder höher
+* Metadata version 2.0 or higher
 
-  Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+  For more information about metadata, see the developer documentation under `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
 
 Performance
 ^^^^^^^^^^^
 
-* Um die Browser-Geschwindigkeit zu erhöhen, unterstützen wir das Bildformat WebP.
+* To increase browser speed, we support the WebP image format.
 
-  Optional: Sie können Ihre in anderen Formaten vorliegenden Bilder automatisch konvertieren.
+  Optional: You can automatically convert your images that are in other formats.
 
-  Aktivieren Sie dazu unter :menuselection:`Stammdaten --> Grundeinstellungen --> System --> Bilder` das Kontrollkästchen :guilabel:`Bilder automatisch ins WebP-Format konvertieren`.
+  To do this, under :menuselection:`Master Data --> Basic Settings --> System --> Images`, check the :guilabel:`Convert images to WebP format automatically` checkbox.
 
-  Siehe :ref:`konfiguration/bilder:Bildgenerierung und -qualität`.
+  See :ref:`configuration/images:image generation and quality`.
 
-  .. todo: EN: :menuselection:`Master Settings --> Core Settings --> System --> Pictures` -- checkbox :guilabel:`Automatically convert images to WebP format`
-
-Entwicklung
+Development
 ^^^^^^^^^^^
 
-* Nutzen Sie Twig, unsere Standard-Template Engine. Twig ist weit verbreitet, wird gut gewartet und hat eine große Entwickler-Community, in der Sie Unterstützung finden.
+* Use Twig, our default template engine. Twig is widely used, well maintained and has a large developer community where you can find support.
 
-  Weitere Informationen finden Sie unter `Twig Template Engine <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/index.html>`_.
+  For more information, see `Twig Template Engine <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/index.html>`_.
 
-* Nicht nativ in Twig, aber wichtig, wenn Sie eigene Module entwickeln: Mit der Twig-Templates-Mehrfachvererbung für Module können Sie das visuelle Erscheinungsbild Ihres OXID eShops schnell ändern, ohne interne Geschäftslogik und Codebasis zu beeinträchtigen. Ändert sich ein Modul, passt sich das Layout automatisch an.
+* Not native to Twig, but important if you develop your own modules: Twig template multiple inheritance for modules allows you to quickly change the visual appearance of your OXID eShop without affecting internal business logic and code base. If a module changes, the layout automatically adapts.
 
-  Weitere Informationen finden Sie unter `Understanding the OXID eShop template hierarchy and override system <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/theme/theme_template_hierarchy.html>`_.
+  For more information, see `Understanding the OXID eShop template hierarchy and override system <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/theme/theme_template_hierarchy.html>`_.
 
 
-* Die Namen in den Controller-Templates sind unabhängig von der Template Engine.
+* The names in the controller templates are independent of the template engine.
 
-  Dies erleichtert Ihnen das Einbinden alternativer Template Engines, beispielsweise Smarty.
+  This makes it easier for you to include alternative template engines, for example Smarty.
 
-  Denn die Template Engine findet die richtige Extension automatisch.
+  Because the Template Engine finds the correct extension automatically.
 
-  Beispiel: Controller::$_sThisTemplate='page/content' statt 'page/content.tpl'
+  Example: Controller::$_sThisTemplate='page/content' instead of 'page/content.tpl'.
 
-Betrieb
-^^^^^^^
+Operation
+^^^^^^^^^
 
-* Um Ihnen das Installieren, Konfigurieren und Warten Ihres OXID eShop zu erleichtern, haben wir den Aufbau der OXID eShop-Konfigurationsdatei geändert.
+* To make it easier for you to install, configure and maintain your OXID eShop, we have changed the structure of the OXID eShop configuration file.
 
-  Weitere Informationen finden Sie unter
+  For more information^, see
 
   * `Modules configuration and setup <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/module_configuration/modules_configuration.html>`_
   * `Troubleshooting <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/installation_setup/troubleshooting.html>`_
 
-* Um Ihnen auch das Installieren, Konfigurieren und Betreiben von Modulen zu erleichtern, haben wir den Module-Handler so geändert, dass alle Modul-spezifischen Informationen nicht mehr in der Datenbank, sondern in YAML-Dateien gespeichert sind.
+* To also make it easier for you to install, configure and run modules, we have changed the module handler so that all module-specific information is stored in YAML files rather than in the database.
 
-  Weitere Informationen finden Sie unter `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
+  For more information, see `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
 
   .. todo: #tbd: URL verif.
 
-
-Änderungen bei Modulen
-----------------------
-
-Native Composer-Unterstützung für Module
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Dateien bleiben im Verzeichnis :file:`/vendor`. Sie werden nicht nach :file:`/source/modules` kopiert.
-
-Dies erleichtert Ihnen das Entwickeln und Warten eigener Module und Projekte.
-
-Siehe auch in der Entwickler-Dokumentation `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_
-
-
-Neue Funktionen
+Modules changes
 ---------------
 
-Tracking-URL je Versandart
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Native Composer support for modules
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #tbd: Doku im entspr. Kap. erg: :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` / :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
+Files remain in the :file:`/vendor` directory. They are not copied to :file:`/source/modules`.
 
-Hinterlegen Sie pro Versandart eine Tracking-URL.
+This makes it easier for you to develop and maintain your own modules and projects.
 
-Sobald die Paket-ID (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) bei der Bestellung eingetragen wurde, steht der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, zur Verfügung.
+For more information, see the developer documentation under `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_.
 
-Weitere Informationen finden Sie unter :ref:`Tracking-URL <tracking-url-shipping-method>`.
 
-Setup per Kommandozeile
-^^^^^^^^^^^^^^^^^^^^^^^
+New functions
+-------------
 
-Um das Implementieren Ihres Projekts zu vereinfachen, können Sie, alternativ zum webbasierten Setup, Ihren OXID eShop über die Kommandozeile erstellen und konfigurieren.
+Tracking URL per shipping method
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sie haben auf der OXID eShop Console folgende Möglichkeiten:
+.. todo: #tbd: Docu in corresponding chap. erg: :menuselection:`Master data --> Basic settings --> Settings. --> Other settings` :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
 
-* Erstellen Sie mit ``oe:setup:shop`` die Datenbank und konfigurieren Sie Ihren OXID eShop.
+Store one tracking URL per shipping method.
+
+As soon as the parcel ID (depending on the shipping provider the tracking code, parcel label number, parcel reference, shipment number, etc.) has been entered with the order, the tracking link consisting of the tracking URL and the parcel ID of the order will be available.
+
+For more information, see :ref:`Tracking-URL <tracking-url-shipping-method>`.
+
+Setup via command line
+^^^^^^^^^^^^^^^^^^^^^^
+
+To simplify the implementation of your project, as an alternative to the web-based setup, you can create and configure your OXID eShop via the command line.
+
+You have the following options on the OXID eShop Console:
+
+* Use ``oe:setup:shop`` to create the database and configure your OXID eShop.
   |br|
-  Die dafür notwendigen Informationen übergeben Sie mit Parametern.
+  You pass the necessary information for this with parameters.
 
-* Installieren Sie mit ``oe:setup:demodata`` Demodaten.
-* Legen Sie mit ``oe:admin:create-user`` den Shop-Administrator an.
-* Wenn Sie die OXID eShop Professional oder Enterprise Edition haben, fügen Sie mit ``oe:license:add`` Lizenzschlüssel hinzu.
+* Install demo data with ``oe:setup:demodata``.
+* Create the store administrator with ``oe:admin:create-user``.
+* If you have OXID eShop Professional or Enterprise edition, add license keys with ``oe:license:add``.
 
-  Es ist technisch nicht möglich, vorhandene Lizenzschlüssel durch neue zu ersetzen. Wenn Sie einen bestehenden Lizenzschlüssel durch eine anderen tauschen, löschen Sie deshalb vorher mit ``oe:license:clear`` alle Lizenzschlüssel und fügen die Lizenzschlüssel anschließend erneut hinzu.
+  It is technically not possible to replace existing license keys with new ones. Therefore, if you replace an existing license key with another one, delete all license keys first with ``oe:license:clear`` and then add the license keys again.
 
-Weitere Informationen finden Sie unter :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`
+For more information see :doc:`Setup via command line <../../installation/new-installation/setup-command-line>`.
 
-Modul-Installation per Kommandozeile
+Module installation via command line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Installieren oder deinstallieren Sie Module mit den neuen Kommandos der OXID eShop Console ``oe:module:install`` und ``oe:module:uninstall``.
+Install or uninstall modules using the new OXID eShop Console commands ``oe:module:install`` and ``oe:module:uninstall``.
 
-Weitere Informationen finden Sie in der englischsprachigen Entwicklerdokumentation unter
+For more information, see the developer documentation under
 
-.. todo: #tbd: URLs verifiz.
-    * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html
-    * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
+.. todo: #tbd: Verify URLs.
+        * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html
+        * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
 
 * https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html
 * https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html.
 
-Verschlankung
--------------
+Streamlining
+------------
 
-Folgende technisch veralteten Funktionalitäten haben wir entfernt:
+We have removed the following technically obsolete functionalities:
 
-Test-Bibliothek
-^^^^^^^^^^^^^^^
+Test Library
+^^^^^^^^^^^^
 
-Nutzen Sie statt der Test-Bibliothek die native PHPUnit- und Codeception-Funktionalität.
+Use the native PHPUnit and Codeception functionality instead of the test library.
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Testing <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/testing/codeception/index.html>`_.
+For more information, see the developer documentation under `Testing <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/testing/codeception/index.html>`_.
 
-RSS-Funktionalität
+RSS functionality
 ^^^^^^^^^^^^^^^^^^
 
-Die RSS-Funktionalität ist entfallen.
+The RSS functionality has been dropped.
 
-Anmeldung über LDAP
+Login via LDAP
+^^^^^^^^^^^^^^
+
+If you have an LDAP environment, you need to implement a custom login solution.
+
+Credit card as payment method
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For security reasons, we no longer support the credit card payment method implemented in OXID eShop.
+
+To offer credit card payment to your customers, use a payment provider module.
+
+Newsletter dispatch
 ^^^^^^^^^^^^^^^^^^^
 
-Wir empfehlen, wie die meisten Kunden eine eigene Login-Lösung zu implementieren.
+We have removed the rudimentary basic newsletter feature for sending a newsletter from the OXID eShop.
 
-.. todo: #VL/#HR: klären:
-    	Ich verstehe den Satz nicht. Wer empfiehlt was? Gibt es dafür eine Anleitung? Ein Modul? Was haben die anderen Kunden implementiert?
-    	Funktioniert das alte Script trotzdem noch, wenn man es mit umzieht? Wir haben da draußen noch Enterprise Kunden, die LDAP verwenden.
+Customers can still subscribe to newsletters.
 
+To use the data in a professional marketing tool, export the list of your newsletter subscribers.
 
-Kreditkarte als Zahlungsart
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+For more information, see :doc:`Newsletter <../../operation/newsletters/newsletters>`.
 
-Die im OXID eShop implementierte Zahlungsart Kreditkarte unterstützen wir aus Sicherheitsgründen nicht mehr.
+News removed
+^^^^^^^^^^^^
 
-Nutzen Sie das Modul eines Zahlungsanbieters, um Ihren Kunden das Zahlen mit der Kreditkarte anzubieten.
+With the introduction of the Flow theme (OXID eShop 6.0.0), you could already access news under :menuselection:`Admin --> Customer Information --> News` only via a link in the footer.
 
-Newsletter-Versand
-^^^^^^^^^^^^^^^^^^
+To present news or offers, we recommend to implement landing pages with Visual CMS (for Professional and Enterprise Edition).
 
-Die rudimentäre Basis-Newsletter-Funktion zum Versenden eines Newsletters haben wir aus dem OXID eShop entfernt.
+Encrypted values in the database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Kunden können Newsletter nach wie vor abonnieren.
+We removed the native encryption of the store configuration in the :code:`oxconfig` table, because MySQL 8.0 does not support this feature anymore.
 
-Die Liste Ihrer Newsletter-Abonnenten exportieren Sie, um die Daten in einem professionellen Marketing-Tool zu verwenden.
+Module information is stored in separate YAML files and can be encrypted individually by module.
 
-Weitere Informationen finden Sie unter :doc:`Newsletter <../../betrieb/newsletter/newsletter>`.
+Components
+----------
 
-Nachrichten entfernt
-^^^^^^^^^^^^^^^^^^^^
+Components of the compilation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mit der Einführung des Themes Flow (OXID eShop 6.0.0), konnten Sie Nachrichten unter :menuselection:`Admin --> Kundeninformationen --> Nachrichten` bereits nur noch über einen Link im Fußbereich aufrufen.
+The compilation contains the following components:
 
-Stattdessen empfehlen wir, zukünftig Landing Pages mit Visual CMS (für die Professional und Enterprise Edition) zu realisieren, um Neuigkeiten oder Angebote zu präsentieren.
+* `OXID eShop CE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0/CHANGELOG.md>`_
+* `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
+* `OXID eShop EE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.0/CHANGELOG.md>`_
+* `Apex theme 1.0.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.0.0/CHANGELOG.md>`_
+* `Twig theme 2.1.0 <https://github.com/OXID-eSales/twig-theme/blob/v2.1.0/CHANGELOG.md>`_
+* `Twig admin theme 2.1.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.1.0/CHANGELOG.md>`_
+* `Twig component 2.1.0 <https://github.com/OXID-eSales/twig-component/blob/v2.1.0/CHANGELOG.md>`_
 
-Verschlüsselte Werte in der Datenbank
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* `OXID eShop composer plugin 7.1.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.1.0/CHANGELOG.md>`_
+* `OXID eShop Views Generator 2.1.0 <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.1.0/CHANGELOG.md>`_
+* `OXID eShop DemoData installer 3.1.0 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.1.0/CHANGELOG.md>`_
+* `OXID eShop demodata CE/PE/EE 8.0.0 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.0/CHANGELOG.md>`_
+* `OXID eShop doctrine migration integration 5.1.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.1.0/CHANGELOG.md>`_
+* `OXID eShop facts 4.1.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.1.0/CHANGELOG.md>`_
+* `Unified Namespace Generator 4.1.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v4.1.0/CHANGELOG.md>`_
 
-Die native Verschlüsselung der Shop-Konfiguration in der Tabelle :code:`oxconfig` haben wir entfernt, da MySQL 8.0 diese Funktion nicht mehr unterstützt.
-
-Modul-Informationen sind in eigenen YAML-Dateien gespeichert und können, je nach Anforderung, individuell per Modul eigens verschlüsselt werden.
-
-Komponenten
------------
-
-Komponenten der Compilation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Die Compilation enthält folgende Komponenten:
-
-.. attention::
-
-   Folgendes Infos sind Platzhalter. Wir müssen die Infos noch sammeln.
-
-.. todo: #VL: wo finde ich die Komponenten? Metapackage 7.0 wann fertig? -- VL: tbd: bis Do
-.. todo: #tbd: Flow und Wave weg, dafür Twig
+* `GDPR Opt-In 3.0 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
+* `OXID Cookie Management powered by usercentrics 2.0.2 <https://github.com/OXID-eSales/usercentrics/blob/v2.0.2/CHANGELOG.md>`_
+* `WYSIWYG Editor + Media Library 3.0.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v3.0.1/CHANGELOG.md>`_
+* `Makaira 2.1.0 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.0/CHANGELOG.md>`_
 
 
-* OXID eShop CE 7.0.0-rc1: `Changelog 7.0.0-rc1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0-rc1/CHANGELOG.md>`_
-* OXID eShop PE 7.0.0-rc1
-* OXID eShop EE 7.0.0-rc1
-* Theme "Flow" 4.0.0: `Changelog Flow 4.0.0 <https://github.com/OXID-eSales/flow_theme/blob/v4.0.0/CHANGELOG.md>`_
-* Theme "Wave" 2.0.0: `Changelog 2.0.0 <https://github.com/OXID-eSales/wave-theme/blob/v2.0.0/CHANGELOG.md>`_
-* OXID eShop composer plugin 6.0.0: `Changelog 6.0.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v6.0.0/CHANGELOG.md>`_
-* OXID eShop Views Generator 2.0.0
-* OXID eShop DemoData installer 2.0.0
-* OXID eShop demodata CE/PE/EE 7.0.0
-* OXID eShop doctrine migration integration 4.0.0: `Changelog 4.0.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v4.0.0/CHANGELOG.md>`_
-* OXID eShop facts 3.0.0: `Changelog OXID eShop facts 3.0.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v3.0.0/CHANGELOG.md>`_
-* Unified Namespace Generator 3.0.0: `Changelog 3.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v3.0.0/CHANGELOG.md>`_
+System requirements
+^^^^^^^^^^^^^^^^^^^
 
-.. todo: #VL: Folgende Komponenten ergänzen: Payone entfällt
-
-* GDPR Opt-In 2.3.3: `Changelog 2.3.3 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
-* Klarna 5.5.3: `Changelog 5.5.3 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.3/CHANGELOG.md>`_
-* OXID Cookie Management powered by usercentrics 1.2.1: `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
-* PAYONE 1.7.0: `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
-* PayPal 6.5.0: `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
-* WYSIWYG Editor + Mediathek 2.4.1: `Changelog 2.4.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.1/CHANGELOG.md>`_
-* Makaira 1.4.2: `Changelog 1.4.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.2/CHANGELOG.md>`_
-* Unzer Payment für OXID 1.0.0 (EE): `Changelog 1.0.0 <https://github.com/OXID-eSales/unzer-module/blob/v1.0.0/CHANGELOG.md>`_
-
-
-Systemvoraussetzungen
-^^^^^^^^^^^^^^^^^^^^^
-
-Die Systemvoraussetzungen finden Sie unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server- und Systemvoraussetzungen`.
+For the system requirements, see :ref:`installation/new-installation/server-and-system-requirements:Server and system requirements`.
 
 Installation
 ^^^^^^^^^^^^
 
-Folgen Sie zum Installieren den den Anleitungen unter :ref:`installation/index:Installation`.
+To install, follow the instructions under :ref:`installation/index:Installation`.
 
-.. todo: :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`.
-
-
-Korrekturen
+Corrections
 -----------
 
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=344
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=630
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=728
-
-
 
 
 .. Intern: oxbajt, Status: transL
