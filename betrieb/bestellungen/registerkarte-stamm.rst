@@ -62,7 +62,7 @@ Handelt es sich bei den bestellten Artikeln um Download-Artikel, können Sie ein
 :guilabel:`Versandinformationen`
    Bei der Bestellung hat der Kunde eine Versandart gewählt, die zusammen mit den Versandkosten angezeigt wird.
 
-   Sie können diese Angaben, falls nötig, ändern.
+   Sie können diese Angaben bei Bedarf ändern.
 
    Die Schaltflächen :guilabel:`Jetzt versenden` und :guilabel:`Versanddatum zurücksetzen`, ebenso wie das Kontrollkästchen :guilabel:`E-Mail schicken?` erfüllen die gleiche Funktion, wie auf der Registerkarte :guilabel:`Übersicht`. Das Versanddatum kann gesetzt und der Kunde per E-Mail über den Versand der Ware informiert werden.
 
@@ -84,7 +84,7 @@ Handelt es sich bei den bestellten Artikeln um Download-Artikel, können Sie ein
    Wenn Sie für eine Versandart keine spezielle Tracking-URL festgelegt haben, verwendet das System die Tracking-URL, die Sie im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` festgelegt haben.
 
 
-   .. todo: #tbd: create Ref zu Doku, sobald angelegt für :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` / :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
+   .. todo: #tbd 7.x: create Ref zu Doku, sobald angelegt für :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` / :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
 
 
 

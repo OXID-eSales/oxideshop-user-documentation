@@ -42,7 +42,7 @@ Prüfen Sie im Administrationsbereich unter :menuselection:`Stammdaten --> Grund
 :guilabel:`Berechnung der MwSt. für Nebenleistungen`
    Optional: Legen Sie fest, wie Sie die Mehrwertsteuer für Versandkosten, Gebühren oder Verpackung berechnen wollen.
 
-.. todo: #tbd: add details
+.. todo: #tbd 7.x: add details
    |br|
    :guilabel:`MwSt. ausgehend vom größten Nettowert berechnen`:
    |br|
@@ -61,7 +61,7 @@ Standardmäßig wird der Bruttobetrag angezeigt. Sie können aber auch jeweils d
    |br|
    Optional: Legen Sie die Lieferadresse als Basis für die Berechnung der Mehrwertsteuer fest.
 
-.. todo: #tbd: guilabels
+.. todo: #tbd 7.x: guilabels
    :guilabel:`Online UST-ID Prüfung deaktivieren`
    :guilabel:`Alternative URL für die Online UST-ID Prüfung`
 

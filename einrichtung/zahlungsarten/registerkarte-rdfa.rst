@@ -40,4 +40,4 @@ Tun Sie auf der Registerkarte :guilabel:`RDFa` für jede Zahlungsart, die Sie ko
 
 .. Intern: oxbadc, Status:, F1: payment_rdfa.html
 
-.. ToDo: #SB: Wirkungsweise/Bug klären (geht es automatisch?) und in EN nachziehen, Bild mit HTML-Resulat ergänzen: typeof="gr:PaymentMethod
+.. ToDo: #tbd 7x: #SB: Wirkungsweise/Bug klären (geht es automatisch?) und in EN nachziehen, Bild mit HTML-Resulat ergänzen: typeof="gr:PaymentMethod

@@ -1,7 +1,7 @@
 Installation
 ============
 
-.. todo: #tbd: publish dev docu and verify URL https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/upgrade-to-7.0.html
+.. todo: #tbd: verify URL https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/upgrade-to-7.0.html
 
 .. toctree::
    :maxdepth: 1

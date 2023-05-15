@@ -2,7 +2,7 @@
 Patch-Update installieren
 =========================
 
-.. todo: #HR/#VaL: Is there a use case for a patch update in V. 7? -- nein
+.. todo: #tbd 7.x: evtl. reuse: Topic vorl. ausgeblendet
 
 Führen Sie bei Bedarf ein Patch-Update Ihres OXID eShops durch.
 
@@ -54,7 +54,7 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
    |br|
    Optional: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
 
-   .. todo: #HR: in welchem Fall brauche ich die entwicklungsbezogenen Dateien?
+   .. todo: #tbd 7.x: evtl. reuse: #HR: in welchem Fall brauche ich die entwicklungsbezogenen Dateien?
 
    .. code:: bash
 

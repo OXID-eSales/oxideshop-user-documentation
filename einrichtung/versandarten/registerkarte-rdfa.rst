@@ -41,4 +41,4 @@ Tun Sie auf der Registerkarte :guilabel:`RDFa` für jede Versandart, die Sie kon
 
 
 .. Intern: oxbadi, Status:, F1: deliveryset_rdfa.html
-.. ToDo Hinweiszeile ist fehlerhaft: %s (Screenshot erneuern, wenn Wert korrekt angezeigt wird)
+.. ToDo #tbd 7.x Hinweiszeile ist fehlerhaft: %s (Screenshot erneuern, wenn Wert korrekt angezeigt wird)
