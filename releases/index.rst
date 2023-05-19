@@ -5,6 +5,6 @@ Section \"Releases\" summarises the most important information about the publish
 
 .. toctree::
    :maxdepth: 1
-   
+
    releases
    2021 releases <releases-2021/index>
