@@ -3,7 +3,7 @@ Patch-Update installieren
 
 Führen Sie bei Bedarf ein Patch-Update Ihres OXID eShops durch.
 
-Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.4.x auf die Version 6.4.2.
+Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.5.x auf die Version 6.5.2.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -39,11 +39,11 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 
          composer require --no-update oxid-esales/oxideshop-metapackage-<Typ der Edition: ce, pe oder ee>:v<Versions-Nummer>
 
-   b. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Community Edition 6.4.1 zu 6.4.2:
+   b. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Community Edition 6.5.1 zu 6.5.2:
 
       .. code:: bash
 
-         composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.2
+         composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.5.2
 
 #. Aktualisieren Sie die benötigten Bibliotheken.
    |br|
