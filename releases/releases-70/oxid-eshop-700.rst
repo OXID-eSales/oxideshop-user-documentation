@@ -3,118 +3,68 @@ OXID eShop 7.0.0
 
 .. todo: #HR: Datum: verif. 24.05
 
-Veröffentlichungstermin: 24.05.2023
+Veröffentlichungstermin: 30.05.2023
 
-Funktionen
+Die wichtigsten Änderungen im Überblick
 ----------
 
-Sicherheit
-^^^^^^^^^^
+* OXID eShop 7.0 unterstützt nativ die Template Engine Twig. Die bisher verwendete Template Engine Smarty steht als alternatives Paket zur Verfügung. Wir empfehlen jedoch einen baldigen Umstieg auf den neuen Standard Twig.
+* MySQL 8, Composer 2.4 und das Bildformat WebP unterstützt.
+* Das Module-Handling wurde optimiert und angepasst.
 
-* Unterstützte MySQL-Version: 8.0
+Technologien
+----------
 
-  Verbessern Sie mit MySQL 8.0 vor allem die Sicherheit, aber auch die Performance:
+* Unterstützung für MySQL-Version 8.0.
 
-  * schnelleres Suchen und Indizieren
-  * bessere Skalierbarkeit
-  * verbesserte Unterstützung von NoSQL-Operationen
-  * verbesserte Unterstützung räumlicher Daten
-  * verbesserte Unterstützung von Transaktionen und damit einfachere Entwicklung und Wartung
+* Unterstützung für Composer-Version 2.4.
 
-  .. note::
-     **MySQL 5.7**
+* Umstellung der Standard Template Engine von Smarty auf Twig.
 
-     MySQL 5.7 zu nutzen, ist möglich, aber wir empfehlen MySQL 8.0.
+  * Weitere Informationen finden Sie unter `Twig Template Engine <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/index.html>`_.
 
+  * Smarty kann optional weiterhin verwendet werden. Siehe <Link zu https://github.com/OXID-eSales/developer_documentation/commit/e9bdc830de0de7c828d0e3b293dd5c9edbc5a24b>
 
-* Unterstützte PHP-Versionen: 8.0 und 8.1
+* Automatisches HTML-Escaping im Frontend.
 
-* Unterstützte Composer-Version: 2.4
+  * Weitere Informationen finden Sie in der Entwickler-Dokumentation `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
 
-  Mit Composer 2.4 haben Sie außerdem bessere Unterstützung für Plugins, und es erleichtert Ihnen die Diagnose und den Umgang mit Fehlermeldungen.
+* Unterstützung des WebP Bildformats.
 
-* Symfony-Komponenten sind aktualisiert auf Symfony Version 6.
+  * Siehe :ref:`konfiguration/bilder:Bildgenerierung und -qualität`.
 
-* Automatisches HTML-Escaping im Frontend
-
-  Das Interpretieren bestimmter HTML-Tags passiert nicht mehr zentral in der Klasse :code:`Field`, sondern im Frontend automatisch durch die Twig Template Engine oder GraphQL.
-
-  Twig und GraphQL umgehen diese Zeichen automatisch und geben sie sicher wieder. Dadurch ist sichergestellt, dass kein schädlicher JavaScript-Code ausgeführt werden kann. Cross-Site Scripting (XSS)-Angriffe werden unterbunden.
-
-  .. important::
-
-     Wenn Sie Smarty nutzen oder eigene Lösungen bauen, stellen Sie sicher, dass Sie das HTML-Escaping eingeschaltet haben.
-
-     .. todo: #tbd: verify URL: (https://docs.oxid-esales.com/developer/en/7.0-rc.2/update/eshop_from_65_to_7/modules.html#check-html-escaping)
-
-     Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
-
-* Metadata Version 2.0 oder höher
-
-  Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+* Symfony-Komponenten wurden auf Version 6 aktualisiert.
 
 
-Performance
-^^^^^^^^^^^
 
-* Um die Browser-Geschwindigkeit zu erhöhen, unterstützen wir das Bildformat WebP.
+Verbesserung des Modulsystems
+-------
 
-  Optional: Sie können Ihre in anderen Formaten vorliegenden Bilder automatisch konvertieren.
+Composer
+^^^^^^^^
+Entsprechend der Composer Philosophie werden Moduldateien ausschließlich aus dem Verzeichnis :file:`vendor/` gelesen. Beim Installieren von Modulen werden die Dateien nicht mehr automatisch in das Verzeichnis :file:`source/modules/` kopiert.
 
-  Aktivieren Sie dazu unter :menuselection:`Stammdaten --> Grundeinstellungen --> System --> Bilder` das Kontrollkästchen :guilabel:`Bilder automatisch ins WebP-Format konvertieren`.
+Weitere Informationen finden Sie in unserer Entwickler-Dokumentation `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_
 
-  Siehe :ref:`konfiguration/bilder:Bildgenerierung und -qualität`.
+YAML-Files
+^^^^^^^^
+Weiterhin wurde die Struktur der Konfigurationsdateien angepasst. Weitere Informationen finden Sie unter
 
-  .. todo: EN: :menuselection:`Master Settings --> Core Settings --> System --> Pictures` -- checkbox :guilabel:`Automatically convert images to WebP format`
+* `Modules configuration and setup <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/module_configuration/modules_configuration.html>`_
+* `Troubleshooting <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/installation_setup/troubleshooting.html>`_
 
-Entwicklung
-^^^^^^^^^^^
-
-* Nutzen Sie Twig, unsere Standard-Template Engine. Twig ist weit verbreitet, wird gut gewartet und hat eine große Entwickler-Community, in der Sie Unterstützung finden.
-
-  Weitere Informationen finden Sie unter `Twig Template Engine <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/index.html>`_.
-
-* Nicht nativ in Twig, aber wichtig, wenn Sie eigene Module entwickeln: Mit der Twig-Templates-Mehrfachvererbung für Module können Sie das visuelle Erscheinungsbild Ihres OXID eShops schnell ändern, ohne interne Geschäftslogik und Codebasis zu beeinträchtigen. Ändert sich ein Modul, passt sich das Layout automatisch an.
-
-  Weitere Informationen finden Sie unter `Understanding the OXID eShop template hierarchy and override system <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/theme/theme_template_hierarchy.html>`_.
-
-
-* Die Namen in den Controller-Templates sind unabhängig von der Template Engine.
-
-  Dies erleichtert Ihnen das Einbinden alternativer Template Engines, beispielsweise Smarty.
-
-  Denn die Template Engine findet die richtige Extension automatisch.
-
-  Beispiel: Controller::$_sThisTemplate='page/content' statt 'page/content.tpl'
-
-Betrieb
-^^^^^^^
-
-* Um Ihnen das Installieren, Konfigurieren und Warten Ihres OXID eShop zu erleichtern, haben wir den Aufbau der OXID eShop-Konfigurationsdatei geändert.
-
-  Weitere Informationen finden Sie unter
-
-  * `Modules configuration and setup <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/module_configuration/modules_configuration.html>`_
-  * `Troubleshooting <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/installation_setup/troubleshooting.html>`_
-
-* Um Ihnen auch das Installieren, Konfigurieren und Betreiben von Modulen zu erleichtern, haben wir den Module-Handler so geändert, dass alle Modul-spezifischen Informationen nicht mehr in der Datenbank, sondern in YAML-Dateien gespeichert sind.
-
-  Weitere Informationen finden Sie unter `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
+Bei einem Update auf die Version 7 ist es daher notwendig eigene Module in die neue Struktur zu überführen: `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
 
   .. todo: #tbd: URL verif.
 
 
-Änderungen bei Modulen
-----------------------
+Console
+^^^^^^^^
 
-Native Composer-Unterstützung für Module
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Geänderte Commands für das Handling von Modulen:
 
-Dateien bleiben im Verzeichnis :file:`/vendor`. Sie werden nicht nach :file:`/source/modules` kopiert.
-
-Dies erleichtert Ihnen das Entwickeln und Warten eigener Module und Projekte.
-
-Siehe auch in der Entwickler-Dokumentation `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_
+* `Best practice module setup for development with composer <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html>`_
+* `Uninstall modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html>`_
 
 
 Neue Funktionen
@@ -151,24 +101,9 @@ Sie haben auf der OXID eShop Console folgende Möglichkeiten:
 
 Weitere Informationen finden Sie unter :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`
 
-Modul-Installation per Kommandozeile
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Installieren oder deinstallieren Sie Module mit den neuen Kommandos der OXID eShop Console ``oe:module:install`` und ``oe:module:uninstall``.
-
-Weitere Informationen finden Sie in der englischsprachigen Entwicklerdokumentation unter
-
-.. todo: #tbd: URLs verifiz.
-    * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html
-    * https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
-
-* `Best practice module setup for development with composer <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html>`_
-* `Uninstall modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html>`_
-
-Verschlankung
+Clean Up
 -------------
-
-Folgende technisch veralteten Funktionalitäten haben wir entfernt:
+Entfernung von veralteten (deprecated) Funktionen.
 
 Test-Bibliothek
 ^^^^^^^^^^^^^^^
@@ -202,11 +137,11 @@ Die rudimentäre Basis-Newsletter-Funktion zum Versenden eines Newsletters haben
 
 Kunden können Newsletter nach wie vor abonnieren.
 
-Die Liste Ihrer Newsletter-Abonnenten exportieren Sie, um die Daten in einem professionellen Marketing-Tool zu verwenden.
+Die Liste Ihrer Newsletter-Abonnenten können Sie im Administrationsbereich exportieren, um die Daten in einem professionellen Marketing-Tool zu verwenden.
 
 Weitere Informationen finden Sie unter :doc:`Newsletter <../../betrieb/newsletter/newsletter>`.
 
-Nachrichten entfernt
+Nachrichten (News) wurde entfernt
 ^^^^^^^^^^^^^^^^^^^^
 
 Mit der Einführung des Themes Flow (OXID eShop 6.0.0), konnten Sie Nachrichten unter :menuselection:`Admin --> Kundeninformationen --> Nachrichten` bereits nur noch über einen Link im Fußbereich aufrufen.
@@ -217,8 +152,6 @@ Verschlüsselte Werte in der Datenbank
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die native Verschlüsselung der Shop-Konfiguration in der Tabelle :code:`oxconfig` haben wir entfernt, da MySQL 8.0 diese Funktion nicht mehr unterstützt.
-
-Modul-Informationen sind in eigenen YAML-Dateien gespeichert und können, je nach Anforderung, individuell per Modul eigens verschlüsselt werden.
 
 Komponenten
 -----------
