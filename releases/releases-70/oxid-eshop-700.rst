@@ -1,67 +1,86 @@
 OXID eShop 7.0.0
 ================
 
-.. todo: #HR: Datum: verif. 24.05
+.. todo: #HR: Datum: verif. 30.05.
 
 Veröffentlichungstermin: 30.05.2023
 
 Die wichtigsten Änderungen im Überblick
-----------
+---------------------------------------
 
-* OXID eShop 7.0 unterstützt nativ die Template Engine Twig. Die bisher verwendete Template Engine Smarty steht als alternatives Paket zur Verfügung. Wir empfehlen jedoch einen baldigen Umstieg auf den neuen Standard Twig.
-* MySQL 8, Composer 2.4 und das Bildformat WebP unterstützt.
+* OXID eShop 7.0 unterstützt nativ die Template Engine Twig.
+
+  Die bisher verwendete Template Engine Smarty steht als alternatives Paket zur Verfügung.
+
+  Wir empfehlen jedoch einen baldigen Umstieg auf den neuen Standard Twig.
+
+* MySQL 8, Composer 2.4 und das Bildformat WebP werden unterstützt.
 * Das Module-Handling wurde optimiert und angepasst.
 
 Technologien
-----------
+------------
 
-* Unterstützung für MySQL-Version 8.0.
+* Unterstützung für MySQL-Version 8.0
 
-* Unterstützung für Composer-Version 2.4.
+* Unterstützung für Composer-Version 2.4
 
-* Umstellung der Standard Template Engine von Smarty auf Twig.
+* Umstellung der Standard Template Engine von Smarty auf Twig
 
-  * Weitere Informationen finden Sie unter `Twig Template Engine <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/index.html>`_.
+  Weitere Informationen finden Sie unter `Twig Template Engine <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/index.html>`_.
 
-  * Smarty kann optional weiterhin verwendet werden. Siehe <Link zu https://github.com/OXID-eSales/developer_documentation/commit/e9bdc830de0de7c828d0e3b293dd5c9edbc5a24b>
+  Optional können Sie weiterhin Smarty verwenden.
+  |br|
+  Weitere Informationen finden Sie unter `Install smarty template engine <https://github.com/OXID-eSales/developer_documentation/update/eshop_from_65_to_7/install_smarty_engine.html>`_
 
-* Automatisches HTML-Escaping im Frontend.
+  .. todo: #tbd Link machen: <Link zu https://github.com/OXID-eSales/developer_documentation/commit/e9bdc830de0de7c828d0e3b293dd5c9edbc5a24b>
 
-  * Weitere Informationen finden Sie in der Entwickler-Dokumentation `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
+* Automatisches HTML-Escaping im Frontend
 
-* Unterstützung des WebP Bildformats.
+  .. todo: verify URL:
 
-  * Siehe :ref:`konfiguration/bilder:Bildgenerierung und -qualität`.
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
 
-* Symfony-Komponenten wurden auf Version 6 aktualisiert.
+* Unterstützung des Bildformats WebP
 
+  Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Bildgenerierung und -qualität`.
 
+* Aktualisierung der Symfony-Komponenten auf Version 6
 
 Verbesserung des Modulsystems
--------
+-----------------------------
 
 Composer
 ^^^^^^^^
-Entsprechend der Composer Philosophie werden Moduldateien ausschließlich aus dem Verzeichnis :file:`vendor/` gelesen. Beim Installieren von Modulen werden die Dateien nicht mehr automatisch in das Verzeichnis :file:`source/modules/` kopiert.
 
-Weitere Informationen finden Sie in unserer Entwickler-Dokumentation `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_
+Entsprechend der Philosophie von Composer werden Moduldateien ausschließlich aus dem Verzeichnis :file:`vendor/` gelesen.
+
+Beim Installieren von Modulen werden die Dateien nicht mehr automatisch in das Verzeichnis :file:`source/modules/` kopiert.
+
+Weitere Informationen finden Sie in unserer Entwickler-Dokumentation unter `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_
 
 YAML-Files
-^^^^^^^^
-Weiterhin wurde die Struktur der Konfigurationsdateien angepasst. Weitere Informationen finden Sie unter
+^^^^^^^^^^
+
+Wir haben die Struktur der Konfigurationsdateien angepasst.
+
+Weitere Informationen finden Sie unter
 
 * `Modules configuration and setup <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/module_configuration/modules_configuration.html>`_
 * `Troubleshooting <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/installation_setup/troubleshooting.html>`_
 
-Bei einem Update auf die Version 7 ist es daher notwendig eigene Module in die neue Struktur zu überführen: `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
+Bei einem Update auf die Version 7 ist es daher notwendig, dass Sie eigene Module in die neue Struktur überführen.
+
+Weitere Informationen finden Sie unter `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
 
   .. todo: #tbd: URL verif.
 
 
 Console
-^^^^^^^^
+^^^^^^^
 
-Geänderte Commands für das Handling von Modulen:
+Die Befehle für das Handling von Modulen sind geändert.
+
+Weitere Informationen finden Sie unter
 
 * `Best practice module setup for development with composer <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html>`_
 * `Uninstall modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html>`_
@@ -87,7 +106,7 @@ Setup per Kommandozeile
 
 Um das Implementieren Ihres Projekts zu vereinfachen, können Sie, alternativ zum webbasierten Setup, Ihren OXID eShop über die Kommandozeile erstellen und konfigurieren.
 
-Sie haben auf der OXID eShop Console folgende Möglichkeiten:
+Sie haben auf der OXID eShop-Console folgende Möglichkeiten:
 
 * Erstellen Sie mit ``oe:setup:shop`` die Datenbank und konfigurieren Sie Ihren OXID eShop.
   |br|
@@ -99,11 +118,12 @@ Sie haben auf der OXID eShop Console folgende Möglichkeiten:
 
   Es ist technisch nicht möglich, vorhandene Lizenzschlüssel durch neue zu ersetzen. Wenn Sie einen bestehenden Lizenzschlüssel durch eine anderen tauschen, löschen Sie deshalb vorher mit ``oe:license:clear`` alle Lizenzschlüssel und fügen die Lizenzschlüssel anschließend erneut hinzu.
 
-Weitere Informationen finden Sie unter :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`
+Weitere Informationen finden Sie unter :doc:`Setup per Kommandozeile <../../installation/neu-installation/setup-kommandozeile>`.
 
 Clean Up
--------------
-Entfernung von veralteten (deprecated) Funktionen.
+--------
+
+Folgende veraltete (deprecated) Funktionen haben wir entfernt.
 
 Test-Bibliothek
 ^^^^^^^^^^^^^^^
@@ -122,7 +142,6 @@ Anmeldung über LDAP
 
 Wenn Sie eine LDAP-Umgebung haben, müssen Sie eine eigene Login-Lösung implementieren.
 
-
 Kreditkarte als Zahlungsart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -137,21 +156,21 @@ Die rudimentäre Basis-Newsletter-Funktion zum Versenden eines Newsletters haben
 
 Kunden können Newsletter nach wie vor abonnieren.
 
-Die Liste Ihrer Newsletter-Abonnenten können Sie im Administrationsbereich exportieren, um die Daten in einem professionellen Marketing-Tool zu verwenden.
+Um die Daten in einem professionellen Marketing-Tool zu verwenden, exportieren Sie die Liste Ihrer Newsletter-Abonnenten im Administrationsbereich.
 
 Weitere Informationen finden Sie unter :doc:`Newsletter <../../betrieb/newsletter/newsletter>`.
 
-Nachrichten (News) wurde entfernt
-^^^^^^^^^^^^^^^^^^^^
+Nachrichten (News)
+^^^^^^^^^^^^^^^^^^
 
 Mit der Einführung des Themes Flow (OXID eShop 6.0.0), konnten Sie Nachrichten unter :menuselection:`Admin --> Kundeninformationen --> Nachrichten` bereits nur noch über einen Link im Fußbereich aufrufen.
 
-Stattdessen empfehlen wir, zukünftig Landing Pages mit Visual CMS (für die Professional und Enterprise Edition) zu realisieren, um Neuigkeiten oder Angebote zu präsentieren.
+Um Neuigkeiten oder Angebote zu präsentieren, empfehlen wir, zukünftig Landing Pages mit Visual CMS (für die Professional und Enterprise Edition) zu realisieren.
 
 Verschlüsselte Werte in der Datenbank
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die native Verschlüsselung der Shop-Konfiguration in der Tabelle :code:`oxconfig` haben wir entfernt, da MySQL 8.0 diese Funktion nicht mehr unterstützt.
+Die native Verschlüsselung der Shop-Konfiguration in der Tabelle :code:`oxconfig` haben wir entfernt, weil MySQL 8.0 diese Funktion nicht mehr unterstützt.
 
 Komponenten
 -----------

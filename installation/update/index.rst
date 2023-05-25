@@ -2,7 +2,7 @@
 Update
 ======
 
-.. todo: #tbd 7.x: evtl. reuse: Topic vorläufig ausgeblendet; Link auf upgrade in Dev-Dou: https://docs.oxid-esales.com/developer/en/latest/update/upgrade-to-7.0.html
+.. todo: #tbd 7.x: evtl. reuse: Topic vorläufig ausgeblendet; Link auf upgrade in Dev-Dou: https://docs.oxid-esales.com/developer/en/latest/update/update-to-7.0.html
 
 Wir unterscheiden folgende Update-Typen:
 
