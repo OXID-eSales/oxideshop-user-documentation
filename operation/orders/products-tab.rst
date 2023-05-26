@@ -43,7 +43,7 @@ All products belonging to the order will be displayed in a table.
 :guilabel:`VAT`
    Value-added tax included in the price as a percentage.
 
-   Small buttons for deleting and cancelling products are located at the end of each table line. The :guilabel:`Update` button under the table is used to recalculate the prices and the order amount after any changes.
+Small buttons for deleting and cancelling products are located at the end of each table line. The :guilabel:`Update` button under the table is used to recalculate the prices and the order amount after any changes.
 
 :guilabel:`Total` |br|
 :guilabel:`Total` displays the total price of the order with its individual items. You will see the product’s gross and net price, a discount granted, VAT, as well as the shipping costs and a fee associated with this payment method, if any.
