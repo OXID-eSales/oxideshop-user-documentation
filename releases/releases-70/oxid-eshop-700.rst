@@ -1,8 +1,6 @@
 OXID eShop 7.0.0
 ================
 
-.. todo: #HR: Datum: verif. 30.05.
-
 Veröffentlichungstermin: 30.05.2023
 
 Die wichtigsten Änderungen im Überblick
@@ -54,7 +52,9 @@ Composer
 
 Entsprechend der Philosophie von Composer werden Moduldateien ausschließlich aus dem Verzeichnis :file:`vendor/` gelesen.
 
-Beim Installieren von Modulen werden die Dateien nicht mehr automatisch in das Verzeichnis :file:`source/modules/` kopiert.
+.. todo: #tbd: automatisch streichen
+
+Beim Installieren von Modulen werden die Dateien nicht mehr in das Verzeichnis :file:`source/modules/` kopiert.
 
 Weitere Informationen finden Sie in unserer Entwickler-Dokumentation unter `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_
 
@@ -180,29 +180,28 @@ Komponenten der Compilation
 
 Die Compilation enthält folgende Komponenten:
 
-.. todo: Metapackes: https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-7.0/composer.json, dito: PE, EE
-.. todo: #done: Flow und Wave weg, dafür Twig
-.. todo: #Support: Sind Twig admin-theme und Twig component durch Twig theme abgedeckt?
-.. todo: #done: Payone, Klarna, Unzer, PayPal entfallen
+.. todo: done Metapackes: https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-7.0/composer.json, dito: PE, EE
 
 * `OXID eShop CE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0/CHANGELOG.md>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
 * `OXID eShop EE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.0/CHANGELOG.md>`_
 * `Apex theme 1.0.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.0.0/CHANGELOG.md>`_
-* `Twig theme 2.1.0 <https://github.com/OXID-eSales/twig-theme/blob/v2.1.0/CHANGELOG.md>`_
 * `Twig admin theme 2.1.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.1.0/CHANGELOG.md>`_
-* `Twig component 2.1.0 <https://github.com/OXID-eSales/twig-component/blob/v2.1.0/CHANGELOG.md>`_
+* `Twig component CE 2.1.0 <https://github.com/OXID-eSales/twig-component/blob/v2.1.0/CHANGELOG.md>`_
+* `Twig component PE 2.1.0 <https://github.com/OXID-eSales/twig-component-pe/blob/v2.1.0/CHANGELOG.md>`_
+* `Twig component EE 2.1.0 <https://github.com/OXID-eSales/twig-component-ee/blob/v2.1.0/CHANGELOG.md>`_
 
 * `OXID eShop composer plugin 7.1.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.1.0/CHANGELOG.md>`_
 * `OXID eShop Views Generator 2.1.0 <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.1.0/CHANGELOG.md>`_
-* `OXID eShop DemoData installer 3.1.0 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.1.0/CHANGELOG.md>`_
-* `OXID eShop demodata CE/PE/EE 8.0.0 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.0/CHANGELOG.md>`_
+* `OXID eShop demo data installer 3.1.0 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.1.0/CHANGELOG.md>`_
+* `OXID eShop demo data CE/PE/EE 8.0.0 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.0/CHANGELOG.md>`_
 * `OXID eShop doctrine migration integration 5.1.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.1.0/CHANGELOG.md>`_
 * `OXID eShop facts 4.1.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.1.0/CHANGELOG.md>`_
 * `Unified Namespace Generator 4.1.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v4.1.0/CHANGELOG.md>`_
 
-* `GDPR Opt-In 3.0 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
+* `GDPR Opt-In 3.0.1 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v3.0.1/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics 2.0.2 <https://github.com/OXID-eSales/usercentrics/blob/v2.0.2/CHANGELOG.md>`_
+* `Visual CMS 4.0.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v4.0.1/CHANGELOG.md>`_
 * `WYSIWYG Editor + Mediathek 3.0.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v3.0.1/CHANGELOG.md>`_
 * `Makaira 2.1.0 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.0/CHANGELOG.md>`_
 
