@@ -1,8 +1,10 @@
+:orphan:
 Minor Update installieren
 =========================
 
-Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
+.. todo: #tbd 7.x: evtl. reuse: Topic vorl. ausgeblendet
 
+Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -102,7 +104,7 @@ Stellen Sie dabei vor jedem Update-Schritt sicher, dass Sie Versionen von Compos
    #. Stellen Sie sicher, dass Sie PHP Version 7.4 haben.
    #. Machen Sie ohne weitere Zwischenschritte das Update auf die gewünschte Zielversion.
 
-#. Wenn Sie OXID eShop Version 6.2.5 oder höher haben, machen Sie das Update auf die aktuelle Version direkt, wie im Folgenden beschrieben unter :ref:`installation/update/minor-update:Update ausführen`
+#. Wenn Sie OXID eShop Version 6.2.5 oder höher haben, machen Sie das Update auf die aktuelle Version direkt, wie im Folgenden beschrieben unter :ref:`installation/update/minor-update:Update ausführen`.
 
 
 Update ausführen

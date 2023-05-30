@@ -1,5 +1,5 @@
-﻿Server und Systemvoraussetzungen
-================================
+﻿Server- und Systemvoraussetzungen
+=================================
 
 Sie können OXID eShop auf verschiedenen Server-Systemen betreiben.
 
@@ -15,7 +15,7 @@ Beratung und Unterstützung bei der Auswahl des geeigneten Systems finden Sie be
 
 ----------------------------------------------------------------------------------------------------------
 
-Für den Betrieb des OXID eShop Version 6 muss Ihr System die folgenden Systemvoraussetzungen erfüllen.
+Für den Betrieb des OXID eShop Version 7 muss Ihr System die folgenden Systemvoraussetzungen erfüllen.
 
 Webserver
 ---------
@@ -23,15 +23,19 @@ Webserver
 * Apache Versionen 2.2 oder 2.4 (auf Linux)
 * 500 MB freier Webspace für die Community und die Professional Edition
 * 750 MB freier Webspace für die Enterprise Edition
-* *mod_rewrite* Erweiterung installiert
+* Installierte Erweiterung *mod_rewrite*
 
   .. note::
 
-      Auch wenn die *mod_rewrite*-Erweiterung installiert ist, kann es sein, dass die Systemüberprüfung nicht den Anforderungen entspricht.
+       Nach der Installation gelangen Sie ins webbasierte Setup des Shops.
 
-      Einer der Gründe dafür ist oft die Einstellung für *AllowOverride* in der Apache vhost-Konfiguration.
+       Bevor Sie das Setup ausführen können, prüft das System, ob die Systemvoraussetzungen erfüllt sind.
 
-      Diese wurde mit Apache 2.3.9 auf *AllowOverride None* geändert.
+       Es kann sein, dass unter :guilabel:`Server-Konfiguration` das *Apache mod_rewrite Module* als fehlerhaft markiert ist, obwohl Sie das Modul installiert haben.
+
+       Ein Grund dafür ist oft die Einstellung für *AllowOverride* in der Apache-Konfiguration des vHosts.
+
+       Wenn Sie Apache 2.3.9 haben, stellen Sie sicher, dass *AllowOverride* den Wert *None* hat.
 
 * Kryptographisch ausreichende Konfiguration
 
@@ -47,11 +51,10 @@ Webserver
       Wenn jedoch durch eine der PHP-Funktionen (`random_int()` oder `random_bytes()`) eine Ausnahme ausgelöst wird, beginnen Sie mit der Fehlersuche, indem Sie die Dokumentation für die Funktionen unter `php.net/manual/de/function.random-bytes.php <https://www.php.net/manual/de/function.random-bytes.php>`_ und `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_ durchsehen.
 
 
-
 Datenbank
 ---------
 
-* MySQL 5.5 oder 5.7
+* MySQL 5.7 or 8.0
 * MariaDB (getestet mit MariaDB 10.4)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
@@ -61,7 +64,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP Versionen 8.0 und 8.1
+* PHP Versionen 8.0 oder höher
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
@@ -87,13 +90,21 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-* Composer
+* Composer 2.4
 
-Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. OXID eShop 7.0.0 wurde mit der Versionen 2.4 von Composer getestet.
+Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
+
+Metadata
+--------
+
+* Metadata Version 2.0 oder höher
+
+Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
 OpenSSL
 -------
-Für die zu einer Compilation gehörenden Module wird OpenSSL benötigt.
+
+Für die zu einer Compilation gehörenden Module brauchen Sie OpenSSL.
 
 * *openssl* >= 1.0.1
 

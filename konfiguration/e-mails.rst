@@ -18,7 +18,9 @@ Definieren Sie nun die E-Mail-Adressen, an die der Shop senden soll. Diese Maila
 :guilabel:`E-Mail-Adresse für Bestellungen`
    Bestellt ein Kunde in Ihrem Shop, wird auch an den Shopbetreiber eine E-Mail verschickt. Er erhält die Nachricht über die Bestellung im Shop an die hier hinterlegte Mailadresse.
 
-Der Shop versendet eine Reihe E-Mails an den Kunden. Außer der Bestellbestätigung sind das Mails zur Bestätigung einer Registrierung, zur Passwortänderung und zur Information, dass die Bestellung versandt wurde. Für diese Mails kann eine individuelle Betreffzeile festgelegt werden. Der Betreff fasst den Inhalt der E-Mail kurz zusammen. Falls Ihr Shop in verschiedene Länder liefern soll, lässt sich die Betreffzeile auch in mehreren Sprachen abfassen. Zwischen den verfügbaren Sprachen kann mit einer Auswahlliste gewechselt werden.
+Der Shop versendet eine Reihe E-Mails an den Kunden. Außer der Bestellbestätigung sind das Mails zur Bestätigung einer Registrierung, zur Passwortänderung und zur Information, dass die Bestellung versandt wurde.
+
+Für diese Mails kann eine individuelle Betreffzeile festgelegt werden. Der Betreff fasst den Inhalt der E-Mail kurz zusammen. Falls Ihr Shop in verschiedene Länder liefern soll, lässt sich die Betreffzeile auch in mehreren Sprachen abfassen. Zwischen den verfügbaren Sprachen kann mit einer Auswahlliste gewechselt werden.
 
 :guilabel:`E-Mail-Betreff bei Bestellung`
    Betreffzeile der E-Mail, welche Kunden erhalten, wenn sie in Ihrem Shop bestellen.
