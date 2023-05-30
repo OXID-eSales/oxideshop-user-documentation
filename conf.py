@@ -25,7 +25,7 @@ copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The short X.Y version
-version = '7.0 prelim'
+version = '7.0'
 # The full version, including alpha/beta/rc tags
 release = '7.0.0'
 
@@ -85,13 +85,13 @@ pygments_style = None
 html_theme = 'sphinx_rtd_theme'
 
 html_context = {
-    'current_version': '7.0-prelim',
+    'current_version': '7.0',
     'versions':
         [('6.2', 'https://docs.oxid-esales.com/eshop/de/6.2/'),
          ('6.3', 'https://docs.oxid-esales.com/eshop/de/6.3/'),
          ('6.4', 'https://docs.oxid-esales.com/eshop/de/6.4/'),
          ('6.5', 'https://docs.oxid-esales.com/eshop/de/6.5/'),
-         ('7.0', 'https://docs.oxid-esales.com/eshop/de/7.0-prelim/')],
+         ('7.0', 'https://docs.oxid-esales.com/eshop/de/7.0/')],
     'languages':
         [('DE', 'https://docs.oxid-esales.com/eshop/de/7.0/'),
          ('EN', 'https://docs.oxid-esales.com/eshop/en/7.0/')],
@@ -103,7 +103,7 @@ html_context = {
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'OXID-eSales',
     'github_repo': 'oxideshop-user-documentation',
-    'github_version': 'b-7.0-de-700/'
+    'github_version': 'b-7.0/'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme

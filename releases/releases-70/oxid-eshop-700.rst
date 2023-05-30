@@ -28,13 +28,9 @@ Technologien
 
   Optional können Sie weiterhin Smarty verwenden.
   |br|
-  Weitere Informationen finden Sie unter `Install smarty template engine <https://github.com/OXID-eSales/developer_documentation/update/eshop_from_65_to_7/install_smarty_engine.html>`_
-
-  .. todo: #tbd Link machen: <Link zu https://github.com/OXID-eSales/developer_documentation/commit/e9bdc830de0de7c828d0e3b293dd5c9edbc5a24b>
+  Weitere Informationen finden Sie unter `Switching to the legacy Smarty template engine <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/install_smarty_engine.html>`_.
 
 * Automatisches HTML-Escaping im Frontend
-
-  .. todo: verify URL:
 
   Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
 
@@ -51,8 +47,6 @@ Composer
 ^^^^^^^^
 
 Entsprechend der Philosophie von Composer werden Moduldateien ausschließlich aus dem Verzeichnis :file:`vendor/` gelesen.
-
-.. todo: #tbd: automatisch streichen
 
 Beim Installieren von Modulen werden die Dateien nicht mehr in das Verzeichnis :file:`source/modules/` kopiert.
 
@@ -71,9 +65,6 @@ Weitere Informationen finden Sie unter
 Bei einem Update auf die Version 7 ist es daher notwendig, dass Sie eigene Module in die neue Struktur überführen.
 
 Weitere Informationen finden Sie unter `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
-
-  .. todo: #tbd: URL verif.
-
 
 Console
 ^^^^^^^
@@ -130,7 +121,7 @@ Test-Bibliothek
 
 Nutzen Sie statt der Test-Bibliothek die native PHPUnit- und Codeception-Funktionalität.
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Testing <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/testing/codeception/index.html>`_.
+Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Testing <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
 RSS-Funktionalität
 ^^^^^^^^^^^^^^^^^^
@@ -180,8 +171,6 @@ Komponenten der Compilation
 
 Die Compilation enthält folgende Komponenten:
 
-.. todo: done Metapackes: https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-7.0/composer.json, dito: PE, EE
-
 * `OXID eShop CE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0/CHANGELOG.md>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
 * `OXID eShop EE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.0/CHANGELOG.md>`_
@@ -201,7 +190,7 @@ Die Compilation enthält folgende Komponenten:
 
 * `GDPR Opt-In 3.0.1 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v3.0.1/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics 2.0.2 <https://github.com/OXID-eSales/usercentrics/blob/v2.0.2/CHANGELOG.md>`_
-* `Visual CMS 4.0.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v4.0.1/CHANGELOG.md>`_
+* `Visual CMS 4.0.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v4.0.1/CHANGELOG.md>`_ (PE/EE)
 * `WYSIWYG Editor + Mediathek 3.0.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v3.0.1/CHANGELOG.md>`_
 * `Makaira 2.1.0 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.0/CHANGELOG.md>`_
 
