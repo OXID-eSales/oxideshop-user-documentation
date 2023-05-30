@@ -171,7 +171,7 @@ Komponenten der Compilation
 
 Die Compilation enthält folgende Komponenten:
 
-* `OXID eShop CE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0/CHANGELOG.md>`_
+* `OXID eShop CE 7.0.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.1/CHANGELOG.md>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
 * `OXID eShop EE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.0/CHANGELOG.md>`_
 * `Apex theme 1.0.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.0.0/CHANGELOG.md>`_
@@ -212,5 +212,55 @@ Korrekturen
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=630
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=728
 
+
+Dank
+^^^^
+
+Vielen Dank für die Merge Requests, die mit dieser Version veröffentlicht wurden!
+
+.. todo: #tbd: #VL: Haben wir eine Liste zu Beiträger? -- siehe Changelog: dort keine Namen -- VL prüft: i.a.
+        flow-control |br|
+        PR-758 Refaktorierung von Aufrufen der veralteten getStr-Methode |br|
+        PR-721 Fehlende veraltete getConfig- und getSession-Methodenaufrufe behoben |br|
+        PR-728 PHP-Fehlerberichtsstufe nicht zurücksetzen |br|
+        vanilla-thunder |br|
+        PR-764 Anzeige von mehr Details in der Berechtigungsprüfung im Setup-Prozess
+        BernhardScheffold |br|
+        PR-466 oxseo::OXOBJECTID-Index verbessern
+        alfredbez |br|
+        PR-772 BC-Klassen durch namenstragende Klassen ersetzt |br|
+        PR-493 Zeitstempel wird nun für css und js Dateien hinzugefügt, die von Modulen eingebunden werden |br|
+        PR-733 Protokollierung im Shop-Konstruktor, wenn der Shop nicht gültig ist |br|
+        PR-766 Einführung von Psalm für statische Code-Analyse |br|
+        PR-449 Unterstützung für eine einzige Language-Map-Datei |br|
+        PR-744 Argumente zur oxNew-Methodensignatur hinzugefügt, um die Möglichkeiten der statischen Analyse zu verbessern |br|
+        PR-802 Exception in der getLanguageAbbr Methode, wenn keine Abkürzung für eine bestimmte ID verfügbar ist |br|
+        8i11y |br|
+        PR-789 Sicherstellen, dass das Verzeichnis source/out/pictures/generated existiert
+        ivoba |br|
+        PR-808 und PR-827 Verbessert gitignore
+        dx-bhesse |br|
+        PR-793 Behebung des Problems mit der Escape-Funktion für Sonderzeichen in simplexml::addChild
+        keywan-ghadami-oxid |br|
+        PR-754 Preflight-Prüfung für die Erzeugung von Views |br|
+        PR-794 Autovervollständigung für SMTP-Felder im Admin-Template abschalten
+        AlfonsMartin |br|
+        PR-771 Leistungsverbesserung der Klasse Field
+        kermie |br|
+        PR-826 Beispiel-Dist-Dateien für Übersetzungen im Ordner Application/translations |br|
+        PR-729 Mehrzeilen in Übersetzungsdateien entfernt, um sie für Lokalisierungsplattformen geeignet zu machen |br|
+        PR-852 Korrektur des Url-Protokolls für die neue Versionsprüfung
+        SvenBrunk |br|
+        PR-730 Blocknamen in source/Application/views/admin/tpl/shop_main.tpl ändern
+        tterhaarlaudert |br|
+        PR-750 Überspringen der Währungsurl-Generierung, wenn die Option "Währungen anzeigen" deaktiviert ist
+        JaroslavHerber |br|
+        PR-787 Verbessertes Laden der Konfigurationsoptionen
+        szdirk |br|
+        PR-853 Aktualisierte aRobots in source/config.inc.php.dist
+        olivereanderson |br|
+        PR-813 Copyright-String korrigiert |br|
+        |br|
+        Behebung von Code-Stil und Typ-Problemen von alfredbez, flow-control, mprokopov, ivoba, SvenBrunk, SimonNitzsche
 
 .. Intern: oxbajt, Status:
