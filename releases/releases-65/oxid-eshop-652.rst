@@ -5,7 +5,7 @@ Veröffentlichungstermin: 21.02.2023
 
 Mit OXID eShop 6.5.2 schließen wir eine potentielle Sicherheitslücke: Durch das Weitergeben einer URL, die den Parameter :code:`force_sid` enthält, hätte es zur Übernahme der Session kommen können. Im Fall einer Übernahme hätte der Angreifer Einsicht in das Benutzerkonto gehabt.
 
-Weitere Informationen finden Sie in unserem Sicherheits-Bulletin unter https://docs.oxid-esales.com/de/security/security-bulletins.html#security-bulletin-2023-001.
+Weitere Informationen finden Sie in unserem Sicherheits-Bulletin unter https://docs.oxid-esales.com/de/security/security-bulletins.html#security-bulletin-2023-001-cve-2023-26260.
 
 Mit PAYONE 1.8.0 stehen neue Zahlungsarten zur Auswahl.
 
@@ -41,7 +41,7 @@ Die Compilation enthält folgende Komponenten:
 * GDPR Opt-In 2.3.3: `Changelog 2.3.3 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v2.3.3/CHANGELOG.md>`_
 * Klarna 5.5.3: `Changelog 5.5.3 <https://github.com/topconcepts/OXID-Klarna-6/blob/v5.5.3/CHANGELOG.md>`_
 * OXID Cookie Management powered by usercentrics 1.2.1: `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
-* PAYONE 1.8.0: `Changelog 1.8.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.8.0/Changelog.txt>`_
+* PAYONE 1.8.0: `Changelog PAYONE 1.8.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.8.0/Changelog.txt>`_
 * PayPal 6.5.0: `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
 * WYSIWYG Editor + Mediathek 2.4.2: `Changelog 2.4.2 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.2/CHANGELOG.md>`_
 * Makaira 1.4.2: `Changelog 1.4.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.2/CHANGELOG.md>`_
@@ -57,5 +57,3 @@ Zum Installieren oder Aktualisieren folgen Sie den Anleitungen im Abschnitt *Ins
 :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>` |br|
 :doc:`Minor Update installieren <../../installation/update/minor-update>` |br|
 :doc:`Patch-Update installieren <../../installation/update/patch-update>`
-
-.. Intern: , Status:

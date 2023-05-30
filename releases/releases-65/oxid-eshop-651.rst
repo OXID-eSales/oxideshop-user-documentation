@@ -16,8 +16,6 @@ Außerdem haben wir Bugs behoben. Siehe :ref:`releases/releases-65/oxid-eshop-65
 Verbesserungen und Anpassungen
 ------------------------------
 
-.. todo: #VL: tbd am Releastag
-
 Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.5.0…v6.5.1>`_.
 
 

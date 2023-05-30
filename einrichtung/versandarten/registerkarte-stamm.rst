@@ -1,7 +1,9 @@
 ﻿Registerkarte Stamm
 ===================
 
-Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versandart zur Verfügung. Es können Versandkostenregeln und Länder zugewiesen werden.
+Konfigurieren Sie auf der Registerkarte :guilabel:`Stamm` die Versandart.
+
+Ordnen Sie der Versandart beispielsweise Versandkostenregeln und Länder zu. Legen Sie eine Tracking-URL fest, damit das System einen Tracking-Link an Ihren Kunden senden kann.
 
 .. image:: ../../media/screenshots/oxbade01.png
    :alt: Versandarten - Registerkarte Stamm
@@ -9,37 +11,84 @@ Die Registerkarte :guilabel:`Stamm` stellt einige Einstellungen für die Versand
    :width: 650
 
 :guilabel:`Name`
-   Tragen Sie hier die Bezeichnung der Versandart ein. Diese wird dem Kunden im Bestellschritt 3 angezeigt. Sind mehrere Versandarten gültig, muss eine davon aus einer Dropdown-Liste ausgewählt werden.
+   Tragen Sie die Bezeichnung der Versandart ein. Diese wird dem Kunden im Bestellschritt 3 angezeigt.
+
+   Sind mehrere Versandarten gültig, muss eine davon aus einer Dropdown-Liste ausgewählt werden.
 
 :guilabel:`Immer aktiv`
-   Ein Häkchen in diesem Kontrollkästchen bewirkt, dass die Versandart aktiv ist und verwendet werden kann.
+   Damit die Versandart aktiv ist und verwendet werden kann, markieren Sie das Kontrollkästchen.
 
 :guilabel:`Aktiv für Zeitraum`
-   Legen Sie hier einen Zeitraum fest, in dem die Versandart aktiv sein soll. Das Eingabeformat ist dabei JJJJ-MM-TT HH:MM:SS. Damit der Zeitraum berücksichtigt wird, darf :guilabel:`Aktiv` nicht angehakt sein.
+   Legen Sie einen Zeitraum fest, in dem die Versandart aktiv sein soll.
+
+   Das Eingabeformat ist :code:`YYY-MM-DD HH:MM:SS`.
+
+   Damit der Zeitraum berücksichtigt wird, stellen Sie sicher, dass :guilabel:`Immer aktiv` nicht markiert ist.
 
 :guilabel:`Sortierung`
-   Die Sortierung legt die Reihenfolge der Versandarten in der Dropdown-Liste fest. Die Versandart mit der kleinsten Zahl steht als erste zur Auswahl und ist damit vorausgewählt.
+   Legen Sie die Reihenfolge der Versandarten in der Dropdown-Liste fest.
+
+   Die Versandart mit der kleinsten Zahl steht als erste zur Auswahl und ist damit vorausgewählt.
+
+.. _tracking-url-shipping-method:
 
 :guilabel:`Tracking-URL`
-   Für jede Versandart kann eine separate Tracking-URL definiert werden. ##ID## dient dabei als Platzhalter, welcher durch die jeweilige Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) ersetzt wird. Gibt es für eine Versandart keine eigene Tracking-URL, wird die im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` eingetragene verwendet.
+   Legen Sie eine Tracking-URL fest.
 
-Tracking-URL und konkrete Paket-ID der Bestellung werden zum Tracking-Link zusammengefügt. Dieser wird dem Kunden zur Sendungsverfolgung mit der E-Mail zugeschickt, mit der ihm der Versand der Ware mitgeteilt wird. In der Bestellhistorie des Kunden im Frontend wird der Tracking-Link ebenfalls angezeigt.
+   Beispiel (:ref:`oxbade02`, Pos. 1): :code:`https://www.dhl.com/de-de/home/tracking/tracking-express.html?tracking-id=##ID##`
+
+   Den Platzhalter :code:`##ID##` ersetzt das System durch die jeweilige Paket-ID der Bestellung (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.).
+
+   Die Paket-ID geben Sie ein, wenn Sie die jeweilige Bestellung bearbeiten.
+   |br|
+   Weitere Informationen finden Sie unter :ref:`Tracking-Code <tracking-url-orders>`.
+
+   .. _oxbade02:
+
+   .. figure:: ../../media/screenshots/oxbade02.png
+      :alt: Tracking-URL für eine Versandart festlegen
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Tracking-URL für eine Versandart festlegen
+
+   Ergebnis: Die Tracking-URL und die konkrete Paket-ID einer Bestellung werden zu einem Tracking-Link zusammengefügt. Der Tracking-Link wird dem Kunden zur Sendungsverfolgung mit der Versandbestätigungs-E-Mail zugeschickt.
+
+   Der Besteller kann den Tracking-Link auch in der Kundenbestellhistorie im Frontend unter :menuselection:`Mein Konto --> Bestellhistorie` anzeigen.
+
+   Wenn Sie für eine Versandart keine eigene Tracking-URL festlegen, verwendet das System die Tracking-URL, die Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` festgelegt haben.
+
+   .. todo: #tbd 7.x: create Ref hier hin sobald Doku existiert für :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen` / :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
 
 :guilabel:`In Sprache`
-   Die Versandart kann in weiteren aktiven Sprachen des Shops bearbeitet werden. Wählen Sie eine Sprache aus der Dropdown-Liste aus.
+   Wenn Sie die Versandart in einer anderen aktiven Sprache des Shops bearbeiten möchten, wählen Sie die gewünschte Sprache aus der Dropdown-Liste aus.
 
 :guilabel:`Kopieren`
-   Bevor eine Versandart in einer weiteren aktiven Sprache bearbeitet werden kann, muss sie kopiert werden. Wählen Sie die Sprache aus der Dropdown-Liste aus und drücken Sie die Schaltfläche :guilabel:`Kopieren`. Ist keine weitere aktive Sprache im Shop vorhanden, wird diese Schaltfläche nicht angezeigt.
+   Kopieren Sie eine Versandart, um sie in einer weiteren aktiven Sprache bearbeiten zu können.
+
+   Wählen Sie die Sprache aus der Dropdown-Liste aus und drücken Sie die Schaltfläche :guilabel:`Kopieren`. Ist keine weitere aktive Sprache im Shop vorhanden, wird diese Schaltfläche nicht angezeigt.
 
 :guilabel:`Versandkostenregeln zuordnen`
-   Der Versandart muss mindestens eine Versandkostenregel zugeordnet sein. Die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Versandkostenregeln angezeigt. Versandkostenregeln lassen sich nach Titel, Kosten und/oder Typ (absoluter oder prozentualer Preis) filtern sowie auf- und absteigend sortieren. Verschieben Sie die Versandkostenregeln per Drag \& Drop in die rechte Liste. Die Zuordnung ist damit abgeschlossen.
+   Ordnen Sie der Versandart mindestens eine Versandkostenregel zu.
+
+   Über die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` öffnen Sie ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Versandkostenregeln angezeigt.
+
+   Filtern Sie die Versandkostenregeln nach Titel, Kosten und/oder Typ (absoluter oder prozentualer Preis) und sortieren Sie sie.
+
+   Verschieben Sie die Versandkostenregeln per Drag \& Drop in die rechte Liste. Die Zuordnung ist damit abgeschlossen.
 
 :guilabel:`Länder zuordnen`
-   Der Versandart sollten Länder zugeordnet werden, um eindeutige Zahlungs- und Versandbedingungen zu haben. Wurden Länder zugewiesen und ein Kunde bestellt aus einem Land, dem keine Versandart zugewiesen wurde, erhält er den Hinweis: \"Derzeit ist keine Versandart für dieses Land definiert. Wir werden versuchen, Liefermöglichkeiten zu finden und Sie über die Versandkosten informieren.\". Die Zahlungsarten werden ihm nicht angezeigt.
+   Um eindeutige Zahlungs- und Versandbedingungen zu haben, ordnen Sie der Versandart Länder zu.
+
+   Sind die Länder zugeordnet und ein Kunde bestellt aus einem Land, dem keine Versandart zugeordnet ist, so erhält der Kunde die folgende Meldung: \"Derzeit ist keine Versandart für dieses Land definiert. Wir werden versuchen, Liefermöglichkeiten zu finden und Sie über die Versandkosten informieren.\". Die Zahlungsarten werden ihm nicht angezeigt.
 
    Ohne Länderzuordnung gilt die Versandart für alle Länder.
 
-   Mit der Schaltfläche :guilabel:`Länder zuordnen` wird ein neues Fenster geöffnet, in dem in dessen linker Liste alle aktiven Länder angezeigt werden. Länder lassen sich nach Titel und/oder der Länderabkürzung (ISO Alpha 2) sortieren und filtern. Ziehen Sie die gewünschten Länder mit der Maus in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung zur Versandart ist damit abgeschlossen.
+   Öffnen Sie mit der Schaltfläche :guilabel:`Länder zuordnen` ein neues Fenster: In der linken Liste werden alle aktiven Länder angezeigt.
+
+   Sortieren und filtern Sie die Länder nach Titel und/oder Länderkürzel (ISO Alpha 2).
+
+   Ziehen Sie die gewünschten Länder mit der Maus in die Liste auf der rechten Seite. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Damit ist die Zuordnung zur Versandart abgeschlossen.
 
 
 .. Intern: oxbade, Status:, F1: deliveryset_main.html

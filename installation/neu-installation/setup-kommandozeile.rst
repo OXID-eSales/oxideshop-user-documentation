@@ -22,8 +22,8 @@ OXID eShop wird mit dem Kommando ``oe:setup:shop`` für OXID eShop console erste
 * ``--compile-directory`` - Verzeichis für die temporären Dateien des Shops
 * ``--language`` - Sprache für den Shop, Sprachkürzel nach ISO 639-1
 
-Beispiel
-^^^^^^^^
+Beispiel: Shop anlegen und konfigurieren
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: bash
 
@@ -51,8 +51,8 @@ Das Kommando ``oe:admin:create-user`` erstellt den Shop-Administrator und verwen
 * ``--admin-password=`` - Passwort des Shop-Administrators, Zugangsdaten für den Administrationsbereich
 
 
-Beispiel
-^^^^^^^^
+Beispiel: Shop-Administrator anlegen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: bash
 
