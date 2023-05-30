@@ -168,7 +168,7 @@ Components of the compilation
 
 The compilation contains the following components:
 
-* `OXID eShop CE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.0/CHANGELOG.md>`_
+* `OXID eShop CE 7.0.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.1/CHANGELOG.md>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
 * `OXID eShop EE 7.0.0 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.0/CHANGELOG.md>`_
 * `Apex theme 1.0.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.0.0/CHANGELOG.md>`_
@@ -209,5 +209,54 @@ Corrections
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=630
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=728
 
+Credits
+^^^^^^^
+
+Many thanks to your merge requests published with this release!
+
+.. todo: #tbd:
+    flow-control |br|
+    PR-758 Refactor calls to deprecated getStr |br|
+    PR-721 Fixed missed deprecated getConfig and getSession method usages |br|
+    PR-728 Do not reset the PHP error reporting level |br|
+    vanilla-thunder |br|
+    PR-764 Display more details in permission check in setup process
+    BernhardScheffold |br|
+    PR-466 Improve oxseo::OXOBJECTID index
+    alfredbez |br|
+    PR-772 Replaced BC classes with namespaced ones |br|
+    PR-493 Timestamp is now added for css and js files included from module |br|
+    PR-733 Logging to shop constructor if shop is not valid |br|
+    PR-766 Introduction of Psalm for static code analysis |br|
+    PR-449 Support for single language map file |br|
+    PR-744 Added arguments to oxNew method signature to improve static analysis possibilities |br|
+    PR-802 Throw exception in getLanguageAbbr method if no abbreviation is available by specific id |br|
+    8i11y |br|
+    PR-789 Ensure source/out/pictures/generated directory exists
+    ivoba |br|
+    PR-808 and PR-827 Improve gitignore
+    dx-bhesse |br|
+    PR-793 Fix special chars escape problem in simplexml::addChild
+    keywan-ghadami-oxid |br|
+    PR-754 Preflight check for views generation |br|
+    PR-794 Turn off autocomplete for SMTP fields in admin template
+    AlfonsMartin |br|
+    PR-771 Performance improvement of Field class
+    kermie |br|
+    PR-826 Example dist files for translations in Application/translations folder |br|
+    PR-729 Removed multilines in translation files to make it fit for localization platforms |br|
+    PR-852 Fix new version check url protocol
+    SvenBrunk |br|
+    PR-730 Switch block names in source/Application/views/admin/tpl/shop_main.tpl
+    tterhaarlaudert |br|
+    PR-750 Skip currency url generation if “Display Currencies” option is disabled
+    JaroslavHerber |br|
+    PR-787 Improved config options loading process
+    szdirk |br|
+    PR-853 Updated aRobots in source/config.inc.php.dist
+    olivereanderson |br|
+    PR-813 Fix copyright string |br|
+    |br|
+    Fixing code style and type issues by alfredbez, flow-control, mprokopov, ivoba, SvenBrunk, SimonNitzsche
 
 .. Intern: oxbajt, Status: transL
