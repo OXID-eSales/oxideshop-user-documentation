@@ -28,9 +28,7 @@ Technologies
 
   Optionally, you can still use Smarty.
   |br|
-  For more information, see `Install smarty template engine <https://github.com/OXID-eSales/developer_documentation/update/eshop_from_65_to_7/install_smarty_engine.html>`_.
-
-  .. todo: #tbd Make link: <link to https://github.com/OXID-eSales/developer_documentation/commit/e9bdc830de0de7c828d0e3b293dd5c9edbc5a24b>
+  For more information, see `Switching to the legacy Smarty template engine <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/install_smarty_engine.html>`_.
 
 * Automatic HTML escaping in the frontend.
 
@@ -68,8 +66,6 @@ When updating to version 7, it is therefore necessary that you transfer your cus
 
 For more information, see `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
 
-  .. todo: #tbd: URL verif.
-
 Console
 ^^^^^^^
 
@@ -77,7 +73,7 @@ The commands for handling modules have changed.
 
 For more information, see
 
-* `Best practice Modul-Setup für die Entwicklung mit Composer <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html>`_
+* `Best practice module setup for development with composer <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html>`_
 * `Uninstall modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html>`_
 
 New functions
@@ -109,7 +105,7 @@ You have the following options on the OXID eShop console:
 
   It is technically not possible to replace existing license keys with new ones. Therefore, if you replace an existing license key with another one, delete all license keys first with ``oe:license:clear`` and then add the license keys again.
 
-For more information, see :doc:`setup via command line <../../installation/new-installation/setup-command-line>`.
+For more information, see :doc:`Setup via command line <../../installation/new-installation/setup-command-line>`.
 
 Clean Up
 --------
@@ -121,7 +117,7 @@ Test library
 
 Use the native PHPUnit and Codeception functionality instead of the test library.
 
-For more information, see the developer documentation under `Testing <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/testing/codeception/index.html>`_.
+For more information, see the developer documentation under `Testing <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
 RSS functionality
 ^^^^^^^^^^^^^^^^^
@@ -183,15 +179,15 @@ The compilation contains the following components:
 
 * `OXID eShop composer plugin 7.1.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.1.0/CHANGELOG.md>`_
 * `OXID eShop Views Generator 2.1.0 <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.1.0/CHANGELOG.md>`_
-* `OXID eShop DemoData installer 3.1.0 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.1.0/CHANGELOG.md>`_
-* `OXID eShop demodata CE/PE/EE 8.0.0 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.0/CHANGELOG.md>`_
+* `OXID eShop demo data installer 3.1.0 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.1.0/CHANGELOG.md>`_
+* `OXID eShop demo data CE/PE/EE 8.0.0 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.0/CHANGELOG.md>`_
 * `OXID eShop doctrine migration integration 5.1.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.1.0/CHANGELOG.md>`_
 * `OXID eShop facts 4.1.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.1.0/CHANGELOG.md>`_
 * `Unified Namespace Generator 4.1.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v4.1.0/CHANGELOG.md>`_
 
 * `GDPR Opt-In 3.0.1 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v3.0.1/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics 2.0.2 <https://github.com/OXID-eSales/usercentrics/blob/v2.0.2/CHANGELOG.md>`_
-* `Visual CMS 4.0.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v4.0.1/CHANGELOG.md>`_
+* `Visual CMS 4.0.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v4.0.1/CHANGELOG.md>`_ (PE/EE)
 * `WYSIWYG Editor + Media Library 3.0.1 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v3.0.1/CHANGELOG.md>`_
 * `Makaira 2.1.0 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.0/CHANGELOG.md>`_
 
