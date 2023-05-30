@@ -1,3 +1,5 @@
+:orphan:
+
 Installing a patch update
 =========================
 

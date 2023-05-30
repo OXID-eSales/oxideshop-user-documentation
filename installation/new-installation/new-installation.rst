@@ -1,7 +1,11 @@
 ﻿New installation
 ================
 
-This section tells you how to install OXID eShop 7.0. The installation is no longer based on installation packages. The files required for the shop are provided by Composer, a dependency manager for PHP. After that, you can run the web-based setup and install the shop as usual.
+Learn how to install OXID eShop 7.0.
+
+To get the files required for the shop, use Composer, a dependency manager for PHP.
+
+After that, run the web-based setup and install the shop as usual.
 
 .. image:: ../../media/screenshots/oxbaae01.png
     :alt: Setup, Step 1
@@ -9,7 +13,7 @@ This section tells you how to install OXID eShop 7.0. The installation is no lon
     :height: 455
     :width: 650
 
-The installation guide in English can be found in the developer documentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
+Find the installation guide in English in the developer documentation under `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 
@@ -23,10 +27,10 @@ Preparing for installation
 **Contents**: installing Composer, providing shop files, configuring Apache, customizing file and directory permissions, creating a database |br|
 :doc:`Read article <preparing-for-installation>` |link|
 
-Web-based setup
----------------
+Running setup
+-------------
 **Contents**: web-based setup, checking system requirements, selecting main shipping country and shop’s language, license terms, database, database name, specifying database user and password, demo data, shop directories, defining login data for the Admin panel, shop administrator, entering license key (PE and EE) |br|
-:doc:`Read article <setup-web-based>` |link|
+:doc:`Read article <running-setup>` |link|
 
 Setup via command line
 ----------------------

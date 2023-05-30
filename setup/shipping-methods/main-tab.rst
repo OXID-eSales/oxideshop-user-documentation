@@ -1,7 +1,9 @@
 ﻿Main tab
 ========
 
-The :guilabel:`Main` tab contains several settings for the shipping method. Shipping cost rules and countries can be assigned here.
+On the :guilabel:`Main` tab, configure the shipping method.
+
+Assign, for example, shipping rules and countries to the shipping method. Set a tracking URL so that the system can send a tracking link to your customer.
 
 .. image:: ../../media/screenshots/oxbade01.png
    :alt: Shipping methods - Main tab
@@ -9,37 +11,86 @@ The :guilabel:`Main` tab contains several settings for the shipping method. Ship
    :width: 650
 
 :guilabel:`Name`
-   Enter the name of the shipping method. It will be displayed to the customer in ordering step 3. If multiple shipping methods are valid, one of them must be selected from a drop-down list.
+   Enter the name of the shipping method.
+
+   It will be displayed to the customer in ordering step 3.
+
+   If multiple shipping methods are valid, one of them must be selected from a drop-down list.
 
 :guilabel:`Active`
-   Check this box to make the shipping method active and useable.
+   For the shipping method to be active and usable, activate the checkbox.
 
 :guilabel:`Active for a period`
-   Specify a time period when the shipping method should be active. The input format should be YYY-MM-DD HH:MM:SS. To have the time period applied, don’t check the :guilabel:`Active` box.
+   Specify a time period when the shipping method should be active.
+
+   The input format is :code:`YYY-MM-DD HH:MM:SS`.
+
+   For the period to be taken into account, make sure that :guilabel:`Always active` is unchecked.
 
 :guilabel:`Sorting`
-   Sorting determines the order in which shipping methods appear in the drop-down list. The shipping method with the smallest number will be listed first and preselected.
+   Set the order of shipping types in the drop-down list.
 
-:guilabel:`Tracking URL`
-   A separate tracking URL can be defined for each shipping method. ##ID## serves as a placeholder, which is replaced by the respective package ID of the order (depending on the shipping service provider tracking code, parcel label number, package reference, shipment number, etc). If a shipping method does not have its own tracking URL, the one entered in the administration panel under :menuselection:`Master data --> Basic settings --> Settings. --> Other settings` will be used.
+   The shipping method with the smallest number will be listed first and preselected.
 
-   Tracking URL and specific package ID of the order are combined to the tracking link. It will be sent to the customer as a tracking link in the e-mail informing him/her of the shipment. The tracking link is also displayed in the customer's order history in the frontend.
+
+.. _tracking-url-shipping-method:
+
+:guilabel:`Tracking-URL`.
+   Specify a tracking URL.
+
+   Example (:ref:`oxbade02`, item 1): :code:`https://www.dhl.com/de-de/home/tracking/tracking-express.html?tracking-id=##ID##`
+
+   The system replaces the placeholder :code:`##ID##` with the respective package ID of the order (depending on the shipping service provider tracking code, package slip number, package reference, shipment number, etc.).
+
+   You enter the package ID when you process the respective order.
+   |br|
+   For more information, see :ref:`Shipping Information - Tracking Code <tracking-url-orders>`.
+
+   .. _oxbade02:
+
+   .. figure:: ../../media/screenshots/oxbade02.png
+      :alt: Setting the tracking URL for a shipping method
+      :width: 650
+      :class: with-shadow
+
+      Figure: Setting the tracking URL for a shipping method
+
+   Result: The tracking URL and the specific package ID of an order are merged into a tracking link. For tracking purposes, the tracking link is sent to the customer with the email informing them that the goods have been shipped.
+
+   The customer can also display the tracking link in the customer order history in the frontend under :menuselection:`My Account --> Order History`.
+
+   If you do not set a custom tracking URL for a shipping method, the system uses the tracking URL you set in :menuselection:`Master Data --> Basic Settings --> Settings. --> Other settings`.
 
 :guilabel:`In Language`
-   The shipping method can be edited in other active languages of the shop. To do this, select the desired language from the drop-down list.
+   If you want to edit the shipping method in another active language of the store, select the desired language from the drop-down list.
 
 :guilabel:`Copy to`
-   You will need to copy a shipping method before it can be edited in another active language. To do this, select the language from the drop-down list and click on :guilabel:`Copy to`. This button won’t be displayed if there are no other active languages in the shop.
+   To be able to edit a shipping method in another active language, copy the shipping method.
+
+   Choose the language from the drop-down list and press the :guilabel:`Copy` button. If there is no other active language in the store, this button is not displayed.
 
 :guilabel:`Assign Shipping Cost Rules`
-   You will need to assign at least one shipping cost rule to the shipping method. Clicking on :guilabel:`Assign Shipping Cost Rules` opens a new window. All available shipping cost rules will be displayed in the left-hand list. Shipping cost rules can be filtered by title, cost and/or type (absolute or percentage price) and sorted in the ascending or descending order. Drag and drop the shipping cost rules into the right-hand list to complete the assignment.
+   Assign at least one shipping cost rule to the shipping type.
+
+   Use the :guilabel:`Assign Shipping Cost Rules` button to open a new window. In this assignment window, all shipping cost rules are displayed in the left list.
+
+   Filter and sort the shipping cost rules by title, cost and/or type (absolute or percentage price).
+
+   Drag & drop the shipping rules to the right list. The assignment is complete.
 
 :guilabel:`Assign Countries`
-   Assigning countries to the shipping method ensures clear payment and shipping conditions. If countries have been assigned and a customer places an order from a country to which no shipping method has been assigned, he/she will receive the following notification: \"No shipping method has been defined for this country. We will try to find delivery options and inform you about shipping costs.\". The payment methods won’t be displayed to the customer.
+   To ensure clear payment and shipping terms, assign countries to the shipping method.
 
-   If no country has been assigned, the shipping method will apply to all countries.
+   If the countries are assigned and a customer orders from a country that does not have a shipping method assigned, the customer receives the following message: \"No shipping method has been defined for this country. We will try to find delivery options and inform you about shipping costs.\". The payment methods are not displayed to him.
 
-   Clicking on :guilabel:`Assign Countries` opens a new window with all active countries displayed in the left-hand list. Countries can be sorted and filtered by title and/or country abbreviation (ISO Alpha 2). Drag the desired countries into the right-hand list using the mouse. Hold down the Ctrl key to select multiple countries. The assignment to the shipping method is now completed.
+   Without country assignment, the shipping method applies to all countries.
+
+   With the :guilabel:`Assign Countries` button, open a new window: In the left list all active countries are displayed.
+
+   Sort and filter the countries by title and/or country abbreviation (ISO Alpha 2).
+
+   Drag the desired countries with the mouse into the list on the right side. Multiple selection is possible by holding down the Ctrl key. This completes the assignment to the shipping type.
+
 
 
 .. Intern: oxbade, Status:, F1: deliveryset_main.html, transL

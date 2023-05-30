@@ -1,14 +1,24 @@
 ﻿User groups
 ===========
 
-User groups are used to group users with specific characteristics. Such characteristics may include the user status, previous sales in the shop, signing up for the newsletter or special prices for specific products. Users belonging to a user group can be conveniently assigned elsewhere. You can also assign payment and shipping methods, shipping costs, discounts, coupon series, etc. to them with just a few mouse clicks.
+User groups are used to group users with specific characteristics.
+
+Such characteristics may include the user status, previous sales in the shop, signing up for the newsletter or special prices for specific products.
+
+Users belonging to a user group can be conveniently assigned elsewhere. You can also assign payment and shipping methods, shipping costs, discounts, coupon series, etc. to them with just a few mouse clicks.
 
 .. image:: ../../media/screenshots/oxbadz01.png
    :alt: User groups
    :height: 535
    :width: 650
 
-User groups can be edited in the Admin panel under :menuselection:`Administer Users --> User Groups`. Here, you will see a list of the user groups and the input area right below it. You can search for the name of the user group by using the available search field. For example, typing \"a\" will display all user groups that have this letter in their name. User groups can be sorted in the list by active/not active or name by clicking on the respective column heading. The user groups are thereby displayed in ascending order.
+User groups can be edited in the Admin panel under :menuselection:`Administer Users --> User Groups`.
+
+Here, you will see a list of the user groups and the input area right below it.
+
+You can search for the name of the user group by using the available search field. For example, typing \"a\" will display all user groups that have this letter in their name.
+
+User groups can be sorted in the list by active/not active or name by clicking on the respective column heading. The user groups are thereby displayed in ascending order.
 
 User groups can be permanently removed from the database by clicking on the trash icon at the end of the line. The only exception are the 16 predefined user groups that come with OXID eShop.
 
@@ -48,7 +58,15 @@ Users who register in your shop without having placed an order will be displayed
 
 Newsletter Recipients
 ^^^^^^^^^^^^^^^^^^^^^
-If the user checks the box :guilabel:`Subscribe to the newsletter` when placing an order or registering in the shop, he/she will be flagged as a newsletter subscriber. If the user clicks on a special confirmation link received by e-mail, he/she will be activated for receiving the newsletter and included in this user group. Such explicit confirmation is also called double opt-in. If the user unsubscribes from the newsletter later, he/she will still remain in this user group. The actual delivery of the newsletter to the user can be disabled in the :doc:`Extended tab <../users/extended-tab>`. This means that the user's data is no longer included in the .csv file, which can be exported for sending a newsletter.
+If the user checks the box :guilabel:`Subscribe to the newsletter` when placing an order or registering in the shop, he/she will be flagged as a newsletter subscriber.
+
+If the user clicks on a special confirmation link received by e-mail, he/she will be activated for receiving the newsletter and included in this user group.
+
+Such explicit confirmation is also called double opt-in.
+
+If the user unsubscribes from the newsletter later, he/she will still remain in this user group.
+
+The actual delivery of the newsletter to the user can be disabled in the :doc:`Extended tab <../users/extended-tab>`. This means that the user's data is no longer included in the .csv file, which can be exported for sending a newsletter.
 
 Price A/Price B/Price C
 ^^^^^^^^^^^^^^^^^^^^^^^

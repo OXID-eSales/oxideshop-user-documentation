@@ -1,3 +1,5 @@
+:orphan:
+
 Installing a minor update
 =========================
 
@@ -103,7 +105,7 @@ Before each update step, make sure that you have versions of Composer and PHP th
 
 #. If you have OXID eShop version 6.2.5 or higher, perform the update to the current version directly as described below in :ref:`installation/update/minor-update:Performing the update`.
 
-
+.. todo: #VL: dito 6.2.5 required for update to 7.0? 7.0 requires PHP 8.0; or update only from 6.5 to 7.0?
 
 Performing the update
 ---------------------
@@ -115,6 +117,8 @@ Update your OXID eShop to the latest version.
 You have performed the necessary incremental updates (see :ref:`installation/update/minor-update:Ensuring the prerequisites`).
 
 |procedure|
+
+.. todo: #VL: how do I upgrade to V. 7.0?
 
 1. Update the metapackage version in the :file:`composer.json` file.
    |br|

@@ -5,18 +5,26 @@ Payment and shipping are important functions in an online shop. They are determi
 
 Customers who shop in your shop can choose how they want to pay in the third ordering step. The choice of payment methods depends on whether there is a payment method for the country from which a customer orders. The customer should also belong to a user group to which this payment method applies.
 
-All required settings can be configured in the Admin panel under :menuselection:`Shop Settings --> Payment Methods`. You will see a list of all payment methods with their names and the input area right below it. You can search for payment methods by entering their name in the search field. Payment methods can be sorted in the list view by active/not active or name by clicking on the respective column heading. The payment methods are thereby displayed in ascending order.
+All required settings can be configured in the Admin panel under :menuselection:`Shop Settings --> Payment Methods`. You will see a list of all payment methods with their names and the input area right below it.
+
+You can search for payment methods by entering their name in the search field. Payment methods can be sorted in the list view by active/not active or name by clicking on the respective column heading. The payment methods are thereby displayed in ascending order.
 
 Newly created payment methods can also be deleted. They can be permanently removed from the database by clicking on the trash icon at the end of the line. Payment methods available in the shop can only be deactivated if they are not going to be used.
 
-When you select a payment method from the list, its information will be displayed in the input area. To create a new payment method, click on :guilabel:`Create new Payment Method` at the bottom of the screen.
+When you select a payment method from the list, its information will be displayed in the input area. To create a new payment method, click on :guilabel:`Create new Payment Method` at the bottom of the screen (:ref:`oxbacz01`, item 1).
 
-.. image:: ../../media/screenshots/oxbacz01.png
-   :alt: Payment methods
-   :height: 534
+.. _oxbacz01:
+
+.. figure:: ../../media/screenshots/oxbacz01.png
+   :alt: Creating a new payment method
+   :class: with-shadow
    :width: 650
 
-OXID eShop comes with the following payment methods: \"Direct Debit\", \"Empty\", \"COD (Cash on Delivery)\", \"Invoice\" and \"Cash in advance\". They can be used after being customised. Unused payment methods should be deactivated with the exception of \"Empty\". This is a sort of fall-back payment method that allows customers to complete the ordering process even if the defined payment and shipping conditions don’t apply to a country active in the shop. The customer will still be able to place an order. The seller will have to clarify the payment and shipping conditions with the customer afterwards.
+   Abb.: Creating a new payment method
+
+OXID eShop comes with the following payment methods: \"Direct Debit\", \"Empty\", \"COD (Cash on Delivery)\", \"Invoice\" and \"Cash in advance\". They can be used after being customised.
+
+Unused payment methods should be deactivated with the exception of \"Empty\". This is a sort of fall-back payment method that allows customers to complete the ordering process even if the defined payment and shipping conditions don’t apply to a country active in the shop. The customer will still be able to place an order. The seller will have to clarify the payment and shipping conditions with the customer afterwards.
 
 You can also create new payment methods. New payment methods, such as PayPal, may be added when installing payment modules, if necessary.
 

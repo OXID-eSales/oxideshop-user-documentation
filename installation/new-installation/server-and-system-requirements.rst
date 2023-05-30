@@ -27,11 +27,15 @@ Webserver
 
   ..  note::
 
-      Even with the *mod_rewrite* extension installed, the system health check may not meet the requirements.
+       After finishing the installation, you go to the web-based shop setup.
 
-      Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration.
+       Before you can start the setup, the system checks whether the system requirements are met.
 
-      This was changed to *AllowOverride None* with Apache 2.3.9.
+       Under :guilabel:`Server Configuration`, the *Apache mod_rewrite Module* bay be marked as defective, even with the *mod_rewrite* extension installed.
+
+       Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration.
+
+       If you have Apache 2.3.9, ensure that the *AllowOverride* parameter has the value *None*.
 
 * Cryptographically-sufficient configuration
 
@@ -46,12 +50,10 @@ Webserver
 
       However, if an exception is thrown by one of the PHP functions (`random_int()` or `random_bytes()`), start troubleshooting by looking through the documentation for the functions under `php.net/manual/en/function.random-bytes.php <https://www.php.net/manual/en/function.random-bytes.php>`_ and `php.net/manual/de/function.random-int.php <https://www.php.net/manual/de/function.random-int.php>`_.
 
-
-
 Database
 --------
 
-* MySQL 5.7 and 8.0
+* MySQL 5.7 or 8.0
 * MariaDB Support (tested with MariaDB 10.4)
 
 The database user needs sufficient permission to create a database during the installation if it doesn’t already exist. The user also needs permission to create views.
@@ -61,7 +63,7 @@ The transaction isolation level must be left with the default value *REPEATABLE 
 PHP
 ---
 
-* PHP version 8.0 and 8.1
+* PHP version 8.0 or higher
 * Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
 * PHP setting *session.auto_start* in :file:`php.ini` should be disabled (OFF)
 * File uploads should be enabled in PHP
@@ -82,25 +84,25 @@ PHP extensions that need to be installed:
 * *SOAP*
 * *DOM*
 
-.. note:: To run PHP 8 we strongly recommend to set the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` otherwise you will get a lot of warnings.
+.. note:: To run PHP 8, we strongly recommend to set the the error_reporting of PHP to ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED``. Otherwise you will get a lot of warnings.
 
 Composer
 --------
 
-* Composer 2.2
-
-.. attention::
-
-    Composer 2.3.x is not supported.
-
-    If you have Composer 2.3.x, for example, install Composer 2.2 as follows:
-
-    .. code:: bash
+* Composer 2.4
 
 Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
 
+Metadata
+--------
+
+* Metadata version 2.0 or higher
+
+For more information about metadata versions, in the Developer documentation, see `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+
 OpenSSL
 -------
+
 Compilation modules require OpenSSL.
 
 * *openssl* >= 1.0.1

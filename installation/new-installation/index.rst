@@ -7,6 +7,6 @@
    new-installation
    server-and-system-requirements
    preparing-for-installation
-   setup-web-based
-   setup-command-line
+   running-setup
+   setup-command-line.rst
    completing-installation

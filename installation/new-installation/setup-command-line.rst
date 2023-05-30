@@ -8,8 +8,8 @@ Certain values are written into :file:`.htaccess` and :file:`config.inc.php` dur
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
-|schritt| Creating and configuring shop
----------------------------------------
+|schritt| Creating and configuring the shop
+-------------------------------------------
 OXID eShop is created with the command ``oe:setup:shop`` for OXID eShop console. The following parameters are passed:
 
 * ``--db-host=`` - Host name or IP address of the database server. Default: ``localhost`` (database and web server on the same server)
@@ -22,8 +22,8 @@ OXID eShop is created with the command ``oe:setup:shop`` for OXID eShop console.
 * ``--compile-directory`` - Directory for the temporary files of the shop
 * ``--language`` - Language for the shop, language abbreviation according to ISO 639-1
 
-Example
-^^^^^^^
+Example: Creating and configuring the shop
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: bash
 
@@ -43,15 +43,15 @@ Example
 
    vendor/bin/oe-console oe:setup:demodata
 
-|schritt| Creating shop administrator
--------------------------------------
+|schritt| Creating a shop administrator
+---------------------------------------
 The command ``oe:admin:create-user`` creates the shop administrator and uses the following parameters:
 
 * ``--admin-email=`` - E-mail of the shop administrator, access data for the administration panel
 * ``--admin-password=`` - Password of the shop administrator, access data for the administration panel
 
-Example
-^^^^^^^
+Example: Creating a shop administrator
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: bash
 
