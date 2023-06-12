@@ -54,7 +54,7 @@ Webserver
 Datenbank
 ---------
 
-* MySQL 5.7 or 8.0
+* MySQL 5.7 oder 8.0
 * MariaDB (getestet mit MariaDB 10.4)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
