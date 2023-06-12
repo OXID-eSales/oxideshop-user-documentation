@@ -87,6 +87,8 @@ PHP-Erweiterungen, die installiert sein müssen:
 
 .. note:: Für den Betrieb von PHP 8 wird dringend empfohlen, das error_reporting von PHP auf ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` zu setzen, da Sie sonst eine Vielzahl von Warnungen erhalten werden.
 
+.. note:: Die PHP Funktion ``exec()`` verwendet die Standard PHP Installation des Servers. Unter Umständen unterscheidet sich diese gegenüber der CLI und Webserver PHP Version und kann zu Problemen beim Setup oder zur Laufzeit führen. In diesem Fall ist es notwendig Rücksprache mit dem Hoster zu halten, damit die Version den Systemvoraussetzungen entsprechend angepasst werden kann.
+
 Composer
 --------
 
