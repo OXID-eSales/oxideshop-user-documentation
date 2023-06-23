@@ -88,6 +88,8 @@ PHP extensions that need to be installed:
 
 .. note:: The PHP function ``exec()`` uses the standard PHP installation of the server. Under certain circumstances, this differs from the CLI and web server PHP version and can lead to problems during setup or at runtime. In this case it is necessary to consult with the hoster so that the version can be adapted to the system requirements.
 
+.. note:: The PHP function ``exec()`` uses the default PHP installation of the server. Under certain circumstances, this differs from the CLI and web server PHP version and can lead to problems during setup or at runtime. In this case it is necessary to consult with the hoster, so that the version can be adapted to the system requirements.
+
 Composer
 --------
 
