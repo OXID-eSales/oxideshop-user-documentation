@@ -54,7 +54,7 @@ Webserver
 Datenbank
 ---------
 
-* MySQL 5.7 or 8.0
+* MySQL 5.7 oder 8.0
 * MariaDB (getestet mit MariaDB 10.4)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
@@ -64,7 +64,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP Versionen 8.0 oder höher
+* PHP Versionen 8.0 oder 8.1
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
@@ -86,6 +86,8 @@ PHP-Erweiterungen, die installiert sein müssen:
 * *DOM*
 
 .. note:: Für den Betrieb von PHP 8 wird dringend empfohlen, das error_reporting von PHP auf ``error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED`` zu setzen, da Sie sonst eine Vielzahl von Warnungen erhalten werden.
+
+.. note:: Die PHP Funktion ``exec()`` verwendet die Standard PHP Installation des Servers. Unter Umständen unterscheidet sich diese gegenüber der CLI und Webserver PHP Version und kann zu Problemen beim Setup oder zur Laufzeit führen. In diesem Fall ist es notwendig Rücksprache mit dem Hoster zu halten, damit die Version den Systemvoraussetzungen entsprechend angepasst werden kann.
 
 Composer
 --------
