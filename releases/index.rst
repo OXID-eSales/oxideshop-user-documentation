@@ -6,10 +6,6 @@ Informieren Sie sich über Neuerungen und Änderungen der Versionen des OXID eSh
 .. toctree::
    :maxdepth: 1
 
-<<<<<<<<< Temporary merge branch 1
-   releases
-   Releases 2021 <releases-2021/index>
-=========
    30.05.2023 - OXID eShop 7.0.0 <releases-70/oxid-eshop-700>
    28.02.2022 - OXID eShop 6.5.2 <releases-65/oxid-eshop-652>
    06.12.2022 - OXID eShop 6.5.1 <releases-65/oxid-eshop-651>
@@ -18,4 +14,4 @@ Informieren Sie sich über Neuerungen und Änderungen der Versionen des OXID eSh
    31.05.2022 - OXID eShop 6.4.2 <releases-64/oxid-eshop-642>
    08.02.2022 - OXID eShop 6.4.1 <releases-64/oxid-eshop-641>
    15.12.2021 - OXID eShop 6.4.0 <releases-64/oxid-eshop-640>
->>>>>>>>> Temporary merge branch 2
+
