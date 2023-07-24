@@ -1,7 +1,7 @@
 OXID eShop 6.5.3
 ================
 
-Release date: 01-08-2023
+Release date: 25-07-2023
 
 With OXID eShop 6.5.3 we close a security vulnerability.
 
@@ -9,7 +9,7 @@ The package :technicalname:`guzzlehttp/psr7` version 2.4.3 affected by a securit
 
 Due to incorrect header parsing, it would be possible to pass additional values in a header after a line break in special cases.
 
-The vulnerability has been classified by CWE as CWE-20, and it is not known what the impact of an executed attack would be.
+The vulnerability has been classified by CWE as CWE-20, and it is not known what the impact of an attack would be.
 
 Other improvements:
 
@@ -24,6 +24,8 @@ Improvements and adjustments
 ----------------------------
 
 Display changes in the compilation in the metapackage under `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.5.2...v6.5.3>`_.
+
+Display corrections in the bugtracker under https://bugs.oxid-esales.com/changelog_page.php?version_id=725.
 
 Updated components
 ^^^^^^^^^^^^^^^^^^
