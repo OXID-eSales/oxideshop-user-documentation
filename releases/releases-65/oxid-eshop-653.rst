@@ -1,7 +1,7 @@
 OXID eShop 6.5.3
 ================
 
-Veröffentlichungstermin: 01.08.2023
+Veröffentlichungstermin: 25.07.2023
 
 Mit OXID eShop 6.5.3 schließen wir eine Sicherheitslücke.
 
@@ -9,7 +9,7 @@ Das von einer Sicherheitslücke (NVD - CVE-2022-24775) betroffene Paket :technic
 
 Durch fehlerhaftes Parsen von Headern wäre es in Spezialfällen möglich, in einem Header nach einem Zeilenumbruch zusätzliche Werte zu übergeben.
 
-Klassifiziert wurde die Schwachstelle durch CWE als CWE-20. Wie sich eine durchgeführte Attacke auswirken würde, ist nicht bekannt.
+Klassifiziert wurde die Schwachstelle durch CWE als CWE-20. Wie sich eine Attacke auswirken würde, ist nicht bekannt.
 
 Weitere Verbesserungen:
 
@@ -25,6 +25,7 @@ Verbesserungen und Anpassungen
 
 Änderungen in der Compilation finden Sie im Metapackage unter `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.5.2...v6.5.3>`_.
 
+Korrekturen finden Sie im Bugtracker unter https://bugs.oxid-esales.com/changelog_page.php?version_id=725.
 
 Aktualisierte Komponenten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
