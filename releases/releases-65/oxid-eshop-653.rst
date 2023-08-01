@@ -7,9 +7,7 @@ With OXID eShop 6.5.3 we close a security vulnerability.
 
 The package :technicalname:`guzzlehttp/psr7` version 2.4.3 affected by a security vulnerability (NVD - CVE-2022-24775) is no longer included in the OXID eShop EE compilation. The package became part of the EE compilation as a dependency by version 1.0.1 of the :productname:`Unzer Payment for OXID` payment module.
 
-Due to incorrect header parsing, it would be possible to pass additional values in a header after a line break in special cases.
-
-The vulnerability has been classified by CWE as CWE-20, and it is not known what the impact of an attack would be.
+For more informationen see our `Security-Bulletin 2023-002 <https://docs.oxid-esales.com/de/security/security-bulletins.html#security-bulletin-2023-002>`_.
 
 Other improvements:
 
@@ -17,7 +15,7 @@ Other improvements:
 * With Unzer 1.1.1, the new payment method Unzer Invoice (Paylater) is available. We have also made numerous improvements to the module.
 * Makaira 1.4.5 contains improvements.
 
-We have also improved minor bugs.
+We have also fixed minor bugs.
 
 
 Improvements and adjustments
