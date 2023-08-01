@@ -1,7 +1,7 @@
 OXID eShop 6.5.3
 ================
 
-Release date: 01-08.2023
+Release date: 01-08-2023
 
 With OXID eShop 6.5.3 we close a security vulnerability.
 
