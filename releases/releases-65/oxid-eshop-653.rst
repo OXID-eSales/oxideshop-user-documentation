@@ -7,9 +7,7 @@ Mit OXID eShop 6.5.3 schließen wir eine Sicherheitslücke.
 
 Das von einer Sicherheitslücke (NVD - CVE-2022-24775) betroffene Paket :technicalname:`guzzlehttp/psr7` Version 2.4.3 ist nicht mehr in der OXID eShop EE Compilation enthalten. Das Paket wurde als Abhängigkeit durch Version 1.0.1 des Zahlungsmoduls :productname:`Unzer Payment for OXID` Teil der EE Compilation.
 
-Durch fehlerhaftes Parsen von Headern wäre es in Spezialfällen möglich, in einem Header nach einem Zeilenumbruch zusätzliche Werte zu übergeben.
-
-Klassifiziert wurde die Schwachstelle durch CWE als CWE-20. Wie sich eine Attacke auswirken würde, ist nicht bekannt.
+Weitere Informationen finden Sie in unserem `Security-Bulletin 2023-002 <https://docs.oxid-esales.com/de/security/security-bulletins.html#security-bulletin-2023-002>`_.
 
 Weitere Verbesserungen:
 
