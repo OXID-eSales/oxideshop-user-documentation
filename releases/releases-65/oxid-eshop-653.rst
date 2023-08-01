@@ -1,7 +1,7 @@
 OXID eShop 6.5.3
 ================
 
-Veröffentlichungstermin: 25.07.2023
+Veröffentlichungstermin: 01.08.2023
 
 Mit OXID eShop 6.5.3 schließen wir eine Sicherheitslücke.
 
