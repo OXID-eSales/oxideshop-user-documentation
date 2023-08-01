@@ -6,6 +6,7 @@ Find out about innovations and changes in the versions of OXID eShop.
 .. toctree::
    :maxdepth: 1
 
+   01-08-2023 - OXID eShop 6.5.3 <releases-65/oxid-eshop-653>
    30-05-2023 - OXID eShop 7.0.0 <releases-70/oxid-eshop-700>
    28-02-2023 - OXID eShop 6.5.1 <releases-65/oxid-eshop-652>
    06-12-2022 - OXID eShop 6.5.1 <releases-65/oxid-eshop-651>
