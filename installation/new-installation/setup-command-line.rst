@@ -27,7 +27,7 @@ Example: Creating and configuring the shop
 
 .. code:: bash
 
-   bin/oe-console oe:setup:shop --db-host=localhost --db-port=3306 --db-name=CE700 --db-user=root --db-password=oxid --shop-url=http://ce700.local --shop-directory=/var/www/oxideshop/source --compile-directory=/var/www/oxideshop/source/tmp --language=de
+   ./vendor/bin/oe-console oe:setup:shop --db-host=localhost --db-port=3306 --db-name=CE700 --db-user=root --db-password=oxid --shop-url=http://ce700.local --shop-directory=/var/www/oxideshop/source --compile-directory=/var/www/oxideshop/source/tmp --language=de
 
 |schritt| Installing demo data
 ------------------------------
@@ -55,7 +55,7 @@ Example: Creating a shop administrator
 
 .. code:: bash
 
-   bin/oe-console oe:admin:create-user --admin-email=max.mustermann@oxid-esales.com --admin-password=******
+   ./vendor/bin/oe-console oe:admin:create-user --admin-email=max.mustermann@oxid-esales.com --admin-password=******
 
 |schritt| Deposit license for PE/EE
 -----------------------------------
@@ -63,7 +63,7 @@ OXID eShop Professional and Enterprise Edition require a valid license key for p
 
 .. code:: bash
 
-   vendor/bin/oe-console oe:license:add <license-key>
+   ./vendor/bin/oe-console oe:license:add <license-key>
 
 With the command ``oe:license:clear`` all license keys of a shop can be deleted.
 
