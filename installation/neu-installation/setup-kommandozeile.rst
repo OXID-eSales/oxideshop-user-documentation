@@ -27,7 +27,7 @@ Beispiel: Shop anlegen und konfigurieren
 
 .. code:: bash
 
-   bin/oe-console oe:setup:shop --db-host=localhost --db-port=3306 --db-name=CE700 --db-user=root --db-password=oxid --shop-url=http://ce700.local --shop-directory=/var/www/oxideshop/source --compile-directory=/var/www/oxideshop/source/tmp --language=de
+   ./vendor/bin/oe-console oe:setup:shop --db-host=localhost --db-port=3306 --db-name=CE700 --db-user=root --db-password=oxid --shop-url=http://ce700.local --shop-directory=/var/www/oxideshop/source --compile-directory=/var/www/oxideshop/source/tmp --language=de
 
 |schritt| Demodaten installieren
 --------------------------------
@@ -53,7 +53,7 @@ Beispiel: Shop-Administrator anlegen
 
 .. code:: bash
 
-   bin/oe-console oe:admin:create-user --admin-email=max.mustermann@oxid-esales.com --admin-password=******
+   ./vendor/bin/oe-console oe:admin:create-user --admin-email=max.mustermann@oxid-esales.com --admin-password=******
 
 |schritt| Lizenz für PE/EE hinterlegen
 --------------------------------------
@@ -61,7 +61,7 @@ OXID eShop Professional und Enterprise Edition benötigen für den produktiven B
 
 .. code:: bash
 
-   vendor/bin/oe-console oe:license:add <license-key>
+   ./vendor/bin/oe-console oe:license:add <license-key>
 
 Mit dem Kommando ``oe:license:clear`` können alle Lizenzschlüssel eines Shops gelöscht werden.
 
