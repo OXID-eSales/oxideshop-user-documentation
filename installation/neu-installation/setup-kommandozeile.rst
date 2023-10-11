@@ -38,10 +38,7 @@ Beispiel
 
 .. code:: bash
 
-   composer config repositories.oxid-esales/oxideshop-demodata-ce vcs https://github.com/OXID-eSales/oxideshop_demodata_ce
-   composer require oxid-esales/oxideshop-demodata-ce:v7.0.0
-
-   vendor/bin/oe-console oe:setup:demodata
+   ./vendor/bin/oe-console oe:setup:demodata
 
 |schritt| Shop-Administrator anlegen
 ------------------------------------
