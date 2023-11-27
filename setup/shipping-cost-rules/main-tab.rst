@@ -17,7 +17,7 @@ The :guilabel:`Main` tab of the shipping cost rules allows you to define terms a
 :guilabel:`Or, active for period` ... :guilabel:`(from)` ... :guilabel:`(to)`
    Alternatively, you can set a shipping rule to apply only to a specified time period defined here. The input format should be YYY-MM-DD HH:MM:SS. Don’t check the :guilabel:`Active` box for the time period to be taken into account, and don’t forget to specify the “To” date.
 
-:guilabel:`Condition \>=` ...\:guilabel:`and \<=` ...
+:guilabel:`Condition >=` ... :guilabel:`and <=` ...
    Shipping cost rules can be defined based on the amount, size, weight or price of the products ordered by using a small drop-down list. The condition must be formulated in such a way that it is valid. Make sure you always enter a “to” quantity, a “to” size, a “to” weight or a “to” price.
 
 :guilabel:`Price Surcharge/Discount (€)`
