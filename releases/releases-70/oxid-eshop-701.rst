@@ -6,7 +6,7 @@ Release date: 17-01-2024
 Changes
 -------
 
-This change set contains fixes and minor improvements.
+OXID eShop 7.0.1 contains fixes and minor improvements.
 
 Improvements and adjustments
 ----------------------------
