@@ -1,8 +1,6 @@
 Patch-Update installieren
 =========================
 
-.. todo: #tbd 7.x: evtl. reuse: Topic vorl. ausgeblendet
-
 Führen Sie bei Bedarf ein Patch-Update Ihres OXID eShops durch.
 
 Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 7.0.0 auf die Version 7.0.1.
