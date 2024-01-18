@@ -13,19 +13,7 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 
 |procedure|
 
-1. Aktualisieren Sie Composer auf Version 2.2.x.
-
-   .. attention::
-
-      Composer 2.3.x wird nicht unterstützt.
-
-      Wenn Sie Composer 2.3.x haben, installieren Sie Composer 2.2.x beispielsweise wie folgt:
-
-      .. code:: bash
-
-         sudo composer selfupdate 2.2.12
-
-#. Wechseln Sie ins Hauptverzeichnis des Shops (in unserem Beispiel `/var/www/oxideshop/`).
+1. Wechseln Sie ins Hauptverzeichnis des Shops (in unserem Beispiel `/var/www/oxideshop/`).
 
    .. code:: bash
 
@@ -41,11 +29,11 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 
          composer require --no-update oxid-esales/oxideshop-metapackage-<Typ der Edition: ce, pe oder ee>:v<Versions-Nummer>
 
-   b. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Community Edition 7.0.0 zu 7.0.1:
+   b. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Enterprise Edition 7.0.0 zu 7.0.1:
 
       .. code:: bash
 
-         composer require --no-update oxid-esales/oxideshop-metapackage-ce:v7.0.1
+         composer require --no-update oxid-esales/oxideshop-metapackage-ee:v7.0.1
 
 #. Aktualisieren Sie die benötigten Bibliotheken.
    |br|
