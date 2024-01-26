@@ -157,10 +157,10 @@ Choose :guilabel:`Save license key`.
 |schritt| Finish
 ----------------
 
-For reasons of security, set the :file:`config.inc.php` file into ``read-only`` mode. Test the shop.
+For reasons of security, set the :file:`config.inc.php` file into ``read-only`` mode. Activate a theme. Test the shop.
 
 1. Open the shell and go to the shop directory (by default, `/var/www/ocideshop/source/`).
-2. Execute the following command:
+#. Execute the following command:
 
    .. code:: bash
 
@@ -169,10 +169,14 @@ For reasons of security, set the :file:`config.inc.php` file into ``read-only`` 
    Setting :file:`config.inc.php` file to ``read-only`` ensures that the production system cannot be fatally compromised by changes of, for example, the
    database name or the shop URL.
 
-3. To test the shop, open it as a customer and as an administrator:
+#. Make sure that a theme is activated.
 
-* The link :guilabel:`To the shop` leads you to the shop's start page.
-* The link :guilabel:`To the shop administration` leads you to the the Admin panel.
+   a. To open the store as an administrator, choose the :guilabel:`To store administration` link.
+   b. Under :menuselection:`Extensions --> Themes`, activate a Twig-compatible theme (the APEX theme is installed by default).
+      |br|
+      If you do not use the default APEX theme, make sure that your custom theme is compatible with the Twig engine.
+
+#. To test the store, choose the :guilabel:`To shop` link.
 
 
 .. Intern: oxbaaf, Status:
