@@ -154,20 +154,22 @@ Wählen Sie :guilabel:`Lizenzschlüssel speichern`.
 |schritt| Fertigstellen
 -----------------------
 
-Setzen Sie aus Sicherheitsgründen die Datei `config.inc.php` in den `read-only`-Modus. Testen Sie den Shop.
+Setzen Sie aus Sicherheitsgründen die Datei `config.inc.php` in den `read-only`-Modus. Aktivieren Sie ein Theme. Testen Sie den Shop.
 
 1. Öffnen Sie die Konsole Ihres Systems und wechseln Sie in das Verzeichnis des Shops (`/var/www/ocideshop/source/`).
-2. Führen Sie folgenden Befehl aus:
+#. Führen Sie folgenden Befehl aus:
 
    .. code:: bash
 
       chmod 0444 config.inc.php
 
-3. Öffnen Sie den Shop als Kunde und als Administrator:
+#. Stellen Sie sicher, dass ein Theme aktiviert ist.
 
-* Der Link :guilabel:`Zum Shop` führt Sie zur Startseite Ihres Shops.
-* Der Link :guilabel:`Zur Shop Administration` führt Sie zum Administrationsbereich.
+   a. Um den Shop als Administrator zu öffnen, wählen Sie den Link :guilabel:`Zur Shop Administration`.
+   b. Aktivieren Sie unter :menuselection:`Erweiterungen --> Themes` ein Twig-kompatibles Theme (standardmäßig ist das APEX-Theme installiert).
+      |br|
+      Wenn Sie nicht das Standard-APEX-Theme verwenden, stellen Sie sicher, dass Ihr benutzerdefiniertes Theme mit der Twig-Engine kompatibel ist.
 
-
+#. Um den Shop zu testen, wählen Sie den Link :guilabel:`Zum Shop`.
 
 .. Intern: oxbaaf, Status:

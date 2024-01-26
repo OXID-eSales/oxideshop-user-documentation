@@ -65,6 +65,20 @@ OXID eShop Professional und Enterprise Edition benötigen für den produktiven B
 
 Mit dem Kommando ``oe:license:clear`` können alle Lizenzschlüssel eines Shops gelöscht werden.
 
+
+|schritt| Theme aktivieren
+--------------------------
+
+Stellen Sie sicher, dass ein Twig-kompatibles Theme aktiviert ist.
+
+Wenn Sie nicht das Standard-APEX-Theme verwenden, stellen Sie sicher, dass Ihr benutzerdefiniertes Theme mit der Twig-Engine kompatibel ist.
+
+Um beispielsweise das standardmäßig installierte Apex-Theme zu aktivieren, führen Sie folgenden Befehl aus:
+
+.. code:: bash
+
+   ./vendor/bin/oe-console oe:theme:activate apex
+
 |schritt| Module installieren
 -----------------------------
 Module können mit dem Kommando ``oe:module:install`` der OXID eShop console installiert werden. Das Kommando ``oe:module:uninstall`` entfernt ein angegebenes Modul aus dem Shop. Alle Informationen dazu finden Sie in der englischsprachigen Entwicklerdokumentation: https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html und https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
