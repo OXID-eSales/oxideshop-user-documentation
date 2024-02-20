@@ -11,8 +11,8 @@ OXID eShop 6.3.3 erfordert aus Sicherheitsgründen Composer Version 2.2.23.
 
 Weitere Informationen finden Sie unter
 
-* [Composer Version 2.2.23](https://github.com/composer/composer/releases/tag/2.2.23)
-* [CVE-2024-24821](https://nvd.nist.gov/vuln/detail/CVE-2024-24821).
+* `Composer Version 2.2.23 <https://github.com/composer/composer/releases/tag/2.2.23>`_
+* `CVE-2024-24821 <https://nvd.nist.gov/vuln/detail/CVE-2024-24821>`_
 
 .. note::
 
@@ -22,8 +22,8 @@ Weitere Informationen finden Sie unter
 
    Weitere Informationen finden Sie unter
 
-   * [CE Lizenzbedingungen Update](https://www.oxid-esales.com/ce-lizenzbedingungen-update/)
-   * [Auch für uns beginnt ein neues Zeitalter](https://www.oxid-esales.com/blog/auch-fuer-uns-beginnt-ein-neues-zeitalter/)
+   * `CE Lizenzbedingungen Update <https://www.oxid-esales.com/ce-lizenzbedingungen-update/>`_
+   * `Auch für uns beginnt ein neues Zeitalter <https://www.oxid-esales.com/blog/auch-fuer-uns-beginnt-ein-neues-zeitalter/>`_
 
 
 Allgemeines
