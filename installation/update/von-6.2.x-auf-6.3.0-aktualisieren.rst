@@ -12,17 +12,17 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 |schritt| Composer aktualisieren
 --------------------------------
 
-Aktualisieren Sie Composer auf Version 2.2.x.
+Aktualisieren Sie Composer auf Version 2.2.23.
 
 .. attention::
 
    Composer 2.3.x wird nicht unterstützt.
 
-   Wenn Sie Composer 2.3.x haben, installieren Sie Composer 2.2.x beispielsweise wie folgt:
+   Wenn Sie Composer 2.3.x haben, installieren Sie Composer 2.2.23 beispielsweise wie folgt:
 
    .. code:: bash
 
-      composer selfupdate 2.2.12
+      composer selfupdate 2.2.23
 
 
 |schritt| Update-Ziel vorgeben
