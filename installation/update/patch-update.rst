@@ -10,17 +10,17 @@ For example, use the following steps to update the compilation from an existing 
 
 |procedure|
 
-1. Upgrade Composer to version 2.2.x.
+1. Upgrade Composer to version 2.2.23
 
    .. attention::
 
       Composer 2.3.x is not supported.
 
-      If you have Composer 2.3.x, install Composer 2.2.x as follows, for example:
+      If you have Composer 2.3.x, install Composer 2.2.23 as follows:
 
       .. code:: bash
 
-         sudo composer selfupdate 2.2.12
+         sudo composer selfupdate 2.2.23
 
 #. Change to the main store directory (in our example `/var/www/oxideshop/`).
 
