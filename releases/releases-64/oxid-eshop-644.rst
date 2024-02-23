@@ -1,15 +1,35 @@
-OXID eShop 6.4.3
+OXID eShop 6.4.4
 ================
 
-Veröffentlichungstermin: 16.08.2022
+Veröffentlichungsdatum: 27.02.2024
 
-OXID eShop 6.4.3 behebt Bugs. Siehe :ref:`releases/releases-64/oxid-eshop-643:Korrekturen`.
+---------------------------------------
+
+Um eine Sicherheitslücke im Composer zu schließen, installieren Sie OXID eShop 6.4.4.
+
+Aus Sicherheitsgründen erfordert OXID eShop 6.4.4 die Composer-Version 2.2.23.
+
+Weitere Informationen finden Sie unter
+
+* `Composer Version 2.2.23 <https://github.com/composer/composer/releases/tag/2.2.23>`_
+* `CVE-2024-24821 <https://nvd.nist.gov/vuln/detail/CVE-2024-24821>`_
+
+.. Note::
+
+   **Neue Nutzungsbedingungen für die OXID eShop Community Edition (CE)**
+
+   Beachten Sie, dass Sie mit der Installation von OXID eShop 6.4.4 den neuen Nutzungsbedingungen zustimmen, die seit dem 15.08.2022 gelten.
+
+   Weitere Informationen finden Sie unter
+
+   * `Nutzungsbedingungen der OXID eShop Community Edition (CE) <https://www.oxid-esales.com/ce-lizenzbedingungen-update/>`_
+   * `Auch für uns beginnt eine neue Ära <https://www.oxid-esales.com/blog/auch-fuer-uns-beginnt-ein-neues-zeitalter/>`_
 
 
 Verbesserungen und Anpassungen
 ------------------------------
 
-Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.2…v6.4.3>`_.
+Sehen Sie Änderungen in der Compilation im Metapackage ein: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.4.3…v6.4.4>`_.
 
 Aktualisierte Komponenten
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -26,6 +46,8 @@ Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die Compilation enthält folgende Komponenten:
+
+.. todo: #HR: 644 Comp. klären
 
 * OXID eShop CE 6.10.2 `Changelog 6.10.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.2/CHANGELOG.md>`_
 * Theme "Flow" 3.8.1: `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
@@ -52,6 +74,7 @@ Folgende Module müssen Sie bei Bedarf manuell nachinstallieren:
 Korrekturen
 -----------
 
+.. todo: #HR Bug track klären: https://bugs.oxid-esales.com/changelog_page.php?version_id= ?
 
 Korrekturen finden Sie in unserem Bugtracking-System aufgelistet.
 |br|
