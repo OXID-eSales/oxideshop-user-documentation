@@ -1,12 +1,34 @@
-OXID eShop 6.3.2
+OXID eShop 6.3.3
 ================
 
-Release date: 31-05-2022
+Release date: 27-02-2024
+
+-----------------------------------------------------------------------------------------
+
+To close a security vulnerability in Composer, install OXID eShop 6.3.3.
+
+For security reasons, OXID eShop 6.3.3 requires Composer version 2.2.23.
+
+For more information, see
+
+* `Composer Version 2.2.23 <https://github.com/composer/composer/releases/tag/2.2.23>`_
+* `CVE-2024-24821 <https://nvd.nist.gov/vuln/detail/CVE-2024-24821>`_
+
+.. note::
+
+   **New terms of use of the OXID eShop Community Edition (CE)**
+
+   Note that by installing OXID eShop 6.3.3 you agree to the new terms of use, which are valid from 15.08.2022.
+
+   For more information, see
+
+   * `CE License Terms Update <https://www.oxid-esales.com/ce-lizenzbedingungen-update/>`_
+   * `A new era begins for us, too <https://www.oxid-esales.com/blog/auch-fuer-uns-beginnt-ein-neues-zeitalter/>`_
 
 General information
 -------------------
 
-OXID eShop 6.3.2 is provided as a compilation. The compilation contains among others the following components.
+OXID eShop 6.3.3 is provided as a compilation. The compilation contains among others the following components.
 
 * OXID eShop CE 6.9.1
 * OXID eShop PE 6.5.1
@@ -27,11 +49,13 @@ OXID eShop 6.3.2 is provided as a compilation. The compilation contains among ot
 Improvements and adjustments
 ----------------------------
 
-View the changes to the compilation in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.3.1...v6.3.2>`_.
+View the changes to the compilation in the following metapackage: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.3.2...v6.3.3>`_.
 
 The following component has been updated:
 
 * OXID eShop CE (update from 6.9.0 to 6.9.1) `Changelog 6.9.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.9.1/CHANGELOG.md>`_
+
+.. todo: #HR: klären
 
 Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: `<https://github.com/OXID-eSales/oxideshop_ce/compare/v6.9.0...v6.9.1>`_.
 |br|
@@ -41,7 +65,7 @@ Switch to the :guilabel:`Files changed` tab to see the list of all changed files
 System requirements
 -------------------
 
-OXID eShop 6.3.2 runs under PHP 8.0, 7.4 and 7.3.
+OXID eShop 6.3.3 runs under PHP 8.0, 7.4 and 7.3.
 
 The supported database is MySQL version 5.5 or 5.7 and MariaDB version 10.4. Using MySQL 5.6 is not recommended as it could cause issues with Enterprise Edition. Please refer to the blog post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
 

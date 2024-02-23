@@ -7,5 +7,6 @@ Section \"Releases\" summarises the most important information about the publish
    :maxdepth: 1
    
    releases
+   2024 releases <releases-2024/index>
    2022 releases <releases-2022/index>
    2021 releases <releases-2021/index>

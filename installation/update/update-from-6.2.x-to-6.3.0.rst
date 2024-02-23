@@ -11,17 +11,17 @@ Updates should always be installed in a test environment, a copy of your current
 |schritt| Updating Composer
 ---------------------------
 
-Update to composer 2.2.x.
+If you have Compose 1, update to Composer 2.2.23.
 
 .. attention::
 
    Composer 2.3.x is not supported.
 
-   If you have Composer 2.3.x, for example, install Composer 2.2.x as follows:
+   Install Composer 2.2.23 as follows:
 
    .. code:: bash
 
-      composer selfupdate 2.2.12
+      composer selfupdate 2.2.23
 
 
 
