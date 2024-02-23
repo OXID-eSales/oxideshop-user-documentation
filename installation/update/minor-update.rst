@@ -88,17 +88,17 @@ Before each update step, make sure that you have versions of Composer and PHP th
 
 #. If you have OXID eShop version :emphasis:`6.2.3` or :emphasis:`6.2.4`, do the following:
 
-   a. Make sure you have Composer version 2.0 to 2.2.x.
+   a. Make sure you have Composer version to 2.2.23
 
       .. attention::
 
          Composer version 2.3.x is not supported.
 
-         For example, if you have Composer version 2.3.x, install Composer version 2.2.x as follows:
+         For example, if you have Composer version 2.3.x, install Composer version 2.2.23 as follows:
 
          .. code:: bash
 
-            composer selfupdate 2.2.12
+            composer selfupdate 2.2.23
 
    #. Make sure you have PHP version 7.4.
    #. Without any further intermediate steps, perform the update to the desired target version.
@@ -120,7 +120,15 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
 
 .. todo: #VL: how do I upgrade to V. 7.0?
 
-1. Update the metapackage version in the :file:`composer.json` file.
+1. Update Composer to version 2.7.x.
+
+   Install Composer 2.7.x as follows, for example:
+
+   .. code:: bash
+
+      sudo composer selfupdate 2.7.1
+
+#. Update the metapackage version in the :file:`composer.json` file.
    |br|
    To do this, match the name of the metapackage to the desired store edition, as in the following example.
    |br|
