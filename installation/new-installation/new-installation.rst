@@ -20,7 +20,7 @@ The installation guide in English can be found in the developer documentation: `
 Ensure server and system requirements
 -------------------------------------
 
-**Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 8.0, 7.4 and 7.3, Composer, OpenSSL |br|
+**Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 8.0, 7.4 and 7.3, Composer 2.7.x, OpenSSL |br|
 :doc:`Read article <server-and-system-requirements>` |link|
 
 Preparing for installation
