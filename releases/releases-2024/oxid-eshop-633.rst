@@ -18,7 +18,7 @@ Weitere Informationen finden Sie unter
 
    **Neue Nutzungsbedingungen der OXID eShop Community Edition (CE)**
 
-   Beachten Sie, dass Sie mit Installieren von OXID eShop 6.3.3 den neuen Nutzungsbedingungen zustimmen, die seit 15.08.2022 gelten.
+   Beachten Sie, dass Sie mit Installieren von OXID eShop 6.3.3 den neuen Nutzungsbedingungen zustimmen, die seit dem 15.08.2022 gelten.
 
    Weitere Informationen finden Sie unter
 
@@ -50,9 +50,13 @@ OXID eShop 6.3.3 wird als Compilation bereitgestellt. Die Compilaton enthält un
 Verbesserungen und Anpassungen
 ------------------------------
 
-Sehen Sie sich die Änderungen an der Kompilierung im folgenden Metapackage an: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.3.1...v6.3.2>`_.
+.. todo: #HR: Welche neuen Versionen?
+
+Sehen Sie sich die Änderungen an der Kompilierung im folgenden Metapackage an: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.3.2...v6.3.3>`_.
 
 Folgende Komponente wurde auf eine neue Version aktualisiert:
+
+.. todo: #HR: Welche neuen Versionen?
 
 * OXID eShop CE (Update von 6.9.0 auf 6.9.1) `Changelog 6.9.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.9.1/CHANGELOG.md>`_
 
@@ -63,7 +67,7 @@ Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller ge�
 
 Systemvoraussetzungen
 ---------------------
-OXID eShop 6.3.2 läuft unter PHP 8.0, 7.4 und 7.3.
+OXID eShop 6.3.3 läuft unter PHP 8.0, 7.4 und 7.3.
 
 Als Datenbank wird MySQL in der Version 5.5 oder 5.7 und MariaDB in der Version 10.4 unterstützt. Der Einsatz von MySQL 5.6 wird nicht empfohlen, da es Probleme mit einer Enterprise Edition geben könnte. Beachten Sie dazu bitte den Blog-Post: `Set MySQL 5.6 optimizer setting "block_nested_loop = off" for OXID eShop Enterprise Edition <https://oxidforge.org/en/set-mysql-5-6-optimizer-setting-block_nested_loop-off-for-oxid-eshop-enterprise-edition.html>`_.
 

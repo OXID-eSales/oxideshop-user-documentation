@@ -8,31 +8,15 @@ Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
-|schritt| Composer aktualisieren
---------------------------------
-
-Aktualisieren Sie Composer auf Version 2.2.23.
-
-.. attention::
-
-   Composer 2.3.x wird nicht unterstützt.
-
-   Wenn Sie Composer 2.3.x haben, installieren Sie Composer 2.2.23 beispielsweise wie folgt:
-
-   .. code:: bash
-
-      composer selfupdate 2.2.23
-
-
 |schritt| Update-Ziel vorgeben
 ------------------------------
 In der Datei :file:`composer.json`, die sich im Hauptverzeichnis des Shops befindet, muss die Version des Metapackage aktualisiert werden.
 
-Beispiel für ein Update einer Community Edition 6.3.0 zu 6.3.1:
+Beispiel für ein Update einer Community Edition 6.3.0 zu 6.3.3:
 
 .. code:: bash
 
-   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.3.1
+   composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.3.3
 
 .. hint::
 
