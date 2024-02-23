@@ -79,19 +79,13 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-* Composer 2.2
+* Composer 2.7.x
 
-.. attention::
+  Installieren Sie die Composer Version 2.7.x beispielsweise wie folgt:
 
-   Eine Composer Version aktueller als 2.2 wird nicht unterstützt.
+  .. code:: bash
 
-   Bitte beachten Sie, dass zum Stand der OXID eShop Version 6.5.0 die Composer Version 2.2 getestet wurde.
-
-   Installieren Sie die Composer Version 2.2 beispielsweise wie folgt:
-
-   .. code:: bash
-
-      composer selfupdate --2.2
+     composer selfupdate --2.7.1
 
 
 Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.

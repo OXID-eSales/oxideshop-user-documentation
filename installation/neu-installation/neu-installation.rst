@@ -13,15 +13,13 @@ Danach führen Sie das webbasierte Setup aus und installieren den Shop.
     :height: 452
     :width: 650
 
-.. todo Check installation guide:
-
 Eine englischsprachige Anleitung zur Installation finden Sie in der Entwicklerdokumentation: `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 
 Server- und Systemvoraussetzungen sicherstellen
 -----------------------------------------------
-**Inhalte**: Server, Shared Hosting, Managed Server, Serverfarm mit Loadbalancing und Datenbankcluster, Linux, Webserver, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 8.1 und 7.4, Composer, OpenSSL |br|
+**Inhalte**: Server, Shared Hosting, Managed Server, Serverfarm mit Loadbalancing und Datenbankcluster, Linux, Webserver, Apache 2.2 + 2.4, MySQL 5.5 + 5.7, MariaDB 10.4, PHP 8.1 und 7.4, Composer 2.7.x, OpenSSL |br|
 :doc:`Artikel lesen <server-und-systemvoraussetzungen>` |link|
 
 Installation vorbereiten
