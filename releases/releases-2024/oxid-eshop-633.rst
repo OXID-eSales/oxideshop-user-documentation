@@ -29,7 +29,9 @@ Weitere Informationen finden Sie unter
 Allgemeines
 -----------
 
-OXID eShop 6.3.3 wird als Compilation bereitgestellt. Die Compilaton enthält unter anderen folgende Komponenten:
+OXID eShop 6.3.3 wird als Compilation bereitgestellt. Die Compilation enthält unter anderen folgende Komponenten:
+
+.. todo: #tbd: CE692
 
 * OXID eShop CE 6.9.1
 * OXID eShop PE 6.5.1
