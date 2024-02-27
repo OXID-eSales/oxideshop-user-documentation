@@ -20,37 +20,21 @@ Improvements and adjustments
 
 Display changes in the compilation in the metapackage under `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v7.0.1...v7.0.2>`_.
 
-
-.. todo: #HR: Corrections`?
-    Display corrections in the bugtracker under https://bugs.oxid-esales.com/changelog_page.php?version_id=764.
+Find corrections in the `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.3/CHANGELOG-7.0.md#v703---2024-02-20>`_.
 
 Updated components
 ^^^^^^^^^^^^^^^^^^
 
-.. todo: #HR: Komponenten aktualisiert?
-
 We have updated the following components and modules:
 
-* OXID eShop Composer Plugin (Update from 7.1.0 to 7.1.1): `Changelog 7.1.1 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.1.1/CHANGELOG.md#v711---2023-11-16>`_
-* OXID eShop CE (Update from 7.0.1 to 7.0.2): `Changelog 7.0.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.2/CHANGELOG-7.0.md#v702---2023-11-28>`_
-* OXID eShop EE (Update from 7.0.0 to 7.0.1)
-* OXID eShop Demodata Installer (Update from 3.1.0 to 3.1.1): `Changelog 3.1.1 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.1.1/CHANGELOG.md#v311---2023-11-30>`_
-* OXID eShop Demodata EE (Update from 8.0.0 to 8.0.1)
-* OXID eShop Twig engine component (Update from 2.1.0 to 2.2.0): `Changelog 2.2.0 <https://github.com/OXID-eSales/twig-component/blob/v2.2.0/CHANGELOG.md#v220---2023-11-16>`_
-* OXID eShop Twig engine component PE (Update from 2.1.0 to 2.2.0)
-* OXID eShop Twig engine component EE (Update from 2.1.0 to 2.2.0)
-* OXID eShop Twig admin theme (Update from 2.1.0 to 2.2.0): `Changelog 2.2.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.2.0/CHANGELOG.md#v220---2023-11-16>`_
-* APEX Theme (Update from 1.0.0 to 1.2.0): `Changelog 1.2.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.2.0/CHANGELOG-1.x.md#v120---2023-11-29>`_
-* Visual CMS (Update from 4.0.1 to 4.0.2)
-* WYSIWYG Editor + Mediathek module (Update from 4.0.1 to 4.0.2): `Changelog 4.0.2 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v3.0.2/CHANGELOG.md#302---2023-11-22>`_
-* Makaira (Update from 2.1.0 to 2.1.2): `Changelog 2.1.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.2/CHANGELOG.md>`_
+* OXID eShop CE (Update from 7.0.2 to 7.0.3): `Changelog 7.0.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.3/CHANGELOG-7.0.md#v703---2024-02-20>`_
 
 Components of the compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The compilation contains the following components: UPDATE VERSIONS
 
-* `OXID eShop CE 7.0.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.2/CHANGELOG.md>`_
+* `OXID eShop CE 7.0.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.3/CHANGELOG-7.0.md#v703---2024-02-20>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
 * `OXID eShop EE 7.0.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.1/CHANGELOG.md>`_
 * `Apex theme 1.2.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.2.0/CHANGELOG.md>`_
