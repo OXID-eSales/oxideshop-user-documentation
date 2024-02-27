@@ -91,15 +91,11 @@ Stellen Sie dabei vor jedem Update-Schritt sicher, dass Sie Versionen von Compos
 
    a. Stellen Sie sicher, dass Sie Composer Version 2.2.23 haben.
 
-      .. attention::
+      Installieren Sie Composer Version 2.2.23 wie folgt:
 
-         Composer Version 2.3.x wird nicht unterstützt.
+      .. code:: bash
 
-         Wenn Sie Composer Version 2.3.x haben, installieren Sie beispielsweise Composer Version 2.2.23 wie folgt:
-
-         .. code:: bash
-
-            composer selfupdate 2.2.23
+         composer selfupdate 2.2.23
 
    #. Stellen Sie sicher, dass Sie PHP Version 7.4 haben.
    #. Machen Sie ohne weitere Zwischenschritte das Update auf die gewünschte Zielversion.
