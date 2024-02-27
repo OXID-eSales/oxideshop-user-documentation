@@ -120,7 +120,7 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
 
    .. code:: bash
 
-      sudo composer selfupdate 2.7.1
+      composer selfupdate 2.7.1
 
 #. Aktualisieren Sie in der Datei :file:`composer.json` die Version des Metapackage.
    |br|
