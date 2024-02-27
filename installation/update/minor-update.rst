@@ -122,7 +122,7 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
 
    .. code:: bash
 
-      sudo composer selfupdate 2.7.1
+      composer selfupdate 2.7.1
 
 #. Update the metapackage version in the :file:`composer.json` file.
    |br|
