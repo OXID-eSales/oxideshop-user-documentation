@@ -43,8 +43,6 @@ Komponenten der Compilation
 
 Die Compilation enthält folgende Komponenten:
 
-.. todo: #HR: 644 Comp. klären
-
 * OXID eShop CE 6.10.4 `Changelog 6.10.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.4/CHANGELOG.md>`_
 * Theme "Flow" 3.8.1: `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" 1.6.2: `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
