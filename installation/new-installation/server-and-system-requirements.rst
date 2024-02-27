@@ -78,9 +78,9 @@ PHP extensions that need to be installed:
 Composer
 --------
 
-* Composer 2.7.x
+* Composer 2.7
 
-   Install Composer 2.7.x as follows, for example:
+   Install Composer 2.7 as follows, for example:
 
    .. code:: bash
 

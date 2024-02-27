@@ -5,7 +5,7 @@ Release date: 27-02-2024
 
 To close a security gap in Composer, install OXID eShop 6.5.4.
 
-For security reasons, OXID eShop 6.5.4 requires Composer version 2.7.x.
+For security reasons, OXID eShop 6.5.4 requires Composer version 2.7.
 
 For more information, see
 
