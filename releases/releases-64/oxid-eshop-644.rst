@@ -36,11 +36,7 @@ Aktualisierte Komponenten
 
 Folgende Komponenten wurden aktualisiert:
 
-* Theme "Flow" (Update von 3.8.0 zu 3.8.1): `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
-* Theme "Wave" (Update von 1.6.1 zu 1.6.2): `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
-* OXID Cookie Management powered by usercentrics (Update von 1.2.0 zu 1.2.1): `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
-* PAYONE (Update von 1.6.2 zu 1.7.0): `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
-* PayPal (Update von 6.4.0 zu 6.4.1): `Changelog 6.4.1 <https://github.com/OXID-eSales/paypal/blob/v6.4.1/CHANGELOG.md>`_
+OXID eShop CE (Update von 6.10.2 zu 6.10.4): `Changelog 6.10.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.4/CHANGELOG.md>`_
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -49,7 +45,7 @@ Die Compilation enthält folgende Komponenten:
 
 .. todo: #HR: 644 Comp. klären
 
-* OXID eShop CE 6.10.2 `Changelog 6.10.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.2/CHANGELOG.md>`_
+* OXID eShop CE 6.10.4 `Changelog 6.10.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.4/CHANGELOG.md>`_
 * Theme "Flow" 3.8.1: `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" 1.6.2: `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
 * PAYONE 1.7.0: `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
@@ -69,16 +65,6 @@ Folgende Module müssen Sie bei Bedarf manuell nachinstallieren:
 * Country VAT Administration 1.0.3: `Changelog 1.0.3 <https://github.com/OXID-eSales/country-vat-module/blob/v1.0.3/CHANGELOG.md>`_
 * OXID Econda Analytics (EE) 1.3.0: `Changelog 1.3.0 <https://github.com/OXID-eSales/econda-analytics-module/blob/v1.3.0/CHANGELOG.md>`_
 * GraphQL 6.0.1: `Changelog 6.0.1 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
-
-
-Korrekturen
------------
-
-.. todo: #HR Bug track klären: https://bugs.oxid-esales.com/changelog_page.php?version_id= ?
-
-Korrekturen finden Sie in unserem Bugtracking-System aufgelistet.
-|br|
-https://bugs.oxid-esales.com/changelog_page.php?version_id=698
 
 
 Installation
