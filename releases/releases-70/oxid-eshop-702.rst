@@ -1,7 +1,7 @@
 OXID eShop 7.0.2
 ================
 
-Release-Datum: 12.02.2024
+Release-Datum: 27.02.2024
 
 
 Änderungen
