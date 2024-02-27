@@ -22,14 +22,14 @@ Verbesserungen und Anpassungen
 
 Änderungen bei der Compilation im Metapackage finden Sie unter `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v7.0.1...v7.0.2>`_.
 
-.. todo: #HR: Korrekturen im Bugtracker?
+.. todo: #HR: Korrekturen im Bugtracker? Siehe changelog
 
 Die Korrekturen finden Sie im Bugtracker unter https://bugs.oxid-esales.com/changelog_page.php?version_id=764.
 
 Aktualisierte Komponenten
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #HR: Komponenten aktualisiert?
+.. todo: #HR: Komponenten aktualisiert? CE703
 
 Wir haben die folgenden Komponenten und Module aktualisiert:
 
