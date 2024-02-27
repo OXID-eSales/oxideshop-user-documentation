@@ -31,9 +31,7 @@ Allgemeines
 
 OXID eShop 6.3.3 wird als Compilation bereitgestellt. Die Compilation enthält unter anderen folgende Komponenten:
 
-.. todo: #tbd: CE692
-
-* OXID eShop CE 6.9.1
+* OXID eShop CE 6.9.2
 * OXID eShop PE 6.5.1
 * OXID eShop EE 6.6.1
 * Theme "Flow" 3.7.2
@@ -52,17 +50,13 @@ OXID eShop 6.3.3 wird als Compilation bereitgestellt. Die Compilation enthält u
 Verbesserungen und Anpassungen
 ------------------------------
 
-.. todo: #HR: Welche neuen Versionen?
-
 Sehen Sie sich die Änderungen an der Kompilierung im folgenden Metapackage an: `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.3.2...v6.3.3>`_.
 
 Folgende Komponente wurde auf eine neue Version aktualisiert:
 
-.. todo: #HR: Welche neuen Versionen?
+* OXID eShop CE (Update von 6.9.1 auf 6.9.2) `Changelog 6.9.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.9.2/CHANGELOG.md>`_
 
-* OXID eShop CE (Update von 6.9.0 auf 6.9.1) `Changelog 6.9.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.9.1/CHANGELOG.md>`_
-
-Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.9.0...v6.9.1.
+Änderungen gegenüber der vorhergehenden Version der Komponente OXID eShop CE können im Repository der Community Edition auf GitHub eingesehen werden: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.9.1...v6.9.2.
 |br|
 Wechseln Sie zur Registerkarte :guilabel:`Files changed`, um die Liste aller geänderten Dateien aufzurufen.
 
