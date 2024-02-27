@@ -90,11 +90,7 @@ Before each update step, make sure that you have versions of Composer and PHP th
 
    a. Make sure you have Composer version to 2.2.23
 
-      .. attention::
-
-         Composer version 2.3.x is not supported.
-
-         For example, if you have Composer version 2.3.x, install Composer version 2.2.23 as follows:
+      Install Composer version 2.2.23 as follows:
 
          .. code:: bash
 
