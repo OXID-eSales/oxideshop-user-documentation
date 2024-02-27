@@ -18,9 +18,6 @@ Improvements and adjustments
 
 Display changes in the compilation in the metapackage under `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.5.3...v6.5.4>`_.
 
-.. todo: #HR: Corrections`?
-    Display corrections in the bugtracker under https://bugs.oxid-esales.com/changelog_page.php?version_id=725.
-
 Updated components
 ^^^^^^^^^^^^^^^^^^
 
@@ -28,18 +25,14 @@ Updated components
 
 We have updated the following components and modules:
 
-* OXID eShop CE (Update from 6.14.0 to 6.14.1): `Changelog 6.14.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.1/CHANGELOG.md>`_
-* PAYONE (Update from 1.8.0 to 1.9.0): `Changelog 1.9.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.9.0/Changelog.txt>`_
-* Unzer Modul (Update from 1.0.1 to 1.1.1): `Changelog 1.1.1 <https://github.com/OXID-eSales/unzer-module/blob/v1.1.1/CHANGELOG.md>`_
-* Makaira (Update from 1.4.3 to 1.4.5): `Changelog 1.4.5 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.5/CHANGELOG.md>`_
-
+* OXID eShop CE (Update from 6.14.1 to 6.14.2): `Changelog 6.14.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.2/CHANGELOG.md>`_
 
 Components of the compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The compilation contains the following components:
 
-* OXID eShop CE 6.14.1: `Changelog 6.14.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.0/CHANGELOG.md>`_
+* OXID eShop CE 6.14.2: `Changelog 6.14.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.2/CHANGELOG.md>`_
 * OXID eShop composer plugin 5.2.2: `Changelog 5.2.2 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.2.2/CHANGELOG.md>`_
 * Theme "Flow" 3.8.1: `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" 1.8.0: `Changelog 1.8.0 <https://github.com/OXID-eSales/wave-theme/blob/v1.8.0/CHANGELOG.md>`_
