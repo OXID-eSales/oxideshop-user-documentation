@@ -17,7 +17,7 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 
    .. code:: bash
 
-      sudo composer selfupdate 2.7.1
+      composer selfupdate 2.7.1
 
 #. Wechseln Sie ins Hauptverzeichnis des Shops (in unserem Beispiel `/var/www/oxideshop/`).
 

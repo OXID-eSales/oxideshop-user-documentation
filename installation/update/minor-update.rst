@@ -118,7 +118,7 @@ Aktualisieren Sie Ihren OXID eShop auf die aktuelle Version.
 
    .. code:: bash
 
-      sudo composer selfupdate 2.7.1
+      composer selfupdate 2.7.1
 
 #. Aktualisieren Sie in der Datei :file:`composer.json` die Version des Metapackage.
    |br|
