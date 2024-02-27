@@ -20,7 +20,7 @@ For example, use the following steps to update the compilation from an existing 
 
       .. code:: bash
 
-         sudo composer selfupdate 2.2.23
+         composer selfupdate 2.2.23
 
 #. Change to the main store directory (in our example `/var/www/oxideshop/`).
 
