@@ -35,18 +35,14 @@ Updated Components
 
 The following components have been updated to a new version:
 
-* Theme "Flow" (Update from 3.8.0 to 3.8.1): `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
-* Theme "Wave" (Update from 1.6.1 to 1.6.2): `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
-* OXID Cookie Management powered by usercentrics (Update from 1.2.0 to 1.2.1): `Changelog 1.2.1 <https://github.com/OXID-eSales/usercentrics/blob/v1.2.1/CHANGELOG.md>`_
-* PAYONE (Update from 1.6.2 to 1.7.0): `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
-* PayPal (Update from 6.4.0 to 6.4.1): `Changelog 6.4.1 <https://github.com/OXID-eSales/paypal/blob/v6.4.1/CHANGELOG.md>`_
+* OXID eShop CE (Update from 6.10.2 to 6.10.4): `Changelog 6.10.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.4/CHANGELOG.md>`_
 
 Components of the compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The compilation contains the following components:
 
-* OXID eShop CE 6.10.2 `Changelog 6.10.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.2/CHANGELOG.md>`_
+* OXID eShop CE 6.10.4 `Changelog 6.10.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.10.4/CHANGELOG.md>`_
 * Theme "Flow" 3.8.1: `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" 1.6.2: `Changelog 1.6.2 <https://github.com/OXID-eSales/wave-theme/blob/v1.6.2/CHANGELOG.md>`_
 * PAYONE 1.7.0: `Changelog 1.7.0 <https://github.com/PAYONE-GmbH/oxid-6/blob/v1.7.0/Changelog.txt>`_
@@ -67,12 +63,6 @@ You have to install the following modules manually if required:
 * OXID Econda Analytics (EE) 1.3.0: `Changelog 1.3.0 <https://github.com/OXID-eSales/econda-analytics-module/blob/v1.3.0/CHANGELOG.md>`_
 * GraphQL 6.0.1: `Changelog 6.0.1 <https://github.com/OXID-eSales/graphql-base-module/blob/v6.0.1/CHANGELOG-v6.md>`_
 
-
-Corrections
------------
-
-Find the bugs fixed with this patch are listed in our bugtrack system. |br|
-https://bugs.oxid-esales.com/changelog_page.php?version_id=698
 
 Installation
 ------------
