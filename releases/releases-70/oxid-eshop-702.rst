@@ -8,7 +8,7 @@ Changes
 
 To close a security gap in Composer, install OXID eShop 7.0.2.
 
-For security reasons, OXID eShop 6.5.4 requires Composer version 2.7.x.
+For security reasons, OXID eShop 6.5.4 requires Composer version 2.7.
 
 For more information, see
 

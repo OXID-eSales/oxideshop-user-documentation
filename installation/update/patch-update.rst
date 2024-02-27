@@ -10,9 +10,9 @@ Use the following steps to update the compilation from an existing version 7.0.0
 
 |procedure|
 
-1. Upgrade Composer to version 2.7.x.
+1. Upgrade Composer to version 2.7.
 
-   Install Composer 2.7.x as follows, for example:
+   Install Composer 2.7 as follows, for example:
 
    .. code:: bash
 
