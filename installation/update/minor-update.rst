@@ -112,9 +112,9 @@ Aktualisieren Sie Ihren OXID eShop auf die aktuelle Version.
 
 |procedure|
 
-1. Aktualisieren Sie Composer auf Version 2.7.x.
+1. Aktualisieren Sie Composer auf Version 2.7.
 
-   Installieren Sie Composer 2.7.x beispielsweise wie folgt:
+   Installieren Sie Composer 2.7 beispielsweise wie folgt:
 
    .. code:: bash
 

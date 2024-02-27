@@ -79,9 +79,9 @@ PHP-Erweiterungen, die installiert sein müssen:
 Composer
 --------
 
-* Composer 2.7.x
+* Composer 2.7
 
-  Installieren Sie die Composer Version 2.7.x beispielsweise wie folgt:
+  Installieren Sie die Composer Version 2.7 beispielsweise wie folgt:
 
   .. code:: bash
 
