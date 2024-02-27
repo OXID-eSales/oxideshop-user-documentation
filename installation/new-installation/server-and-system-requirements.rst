@@ -55,17 +55,16 @@ Composer
 --------
 
 * Composer 1 until OXID eShop 6.2.2
-* Composer 1 or 2 for OXID eShop 6.2.3 and 6.2.4
-* Composer 2 since OXID eShop 6.2.5
+* Recommended: Composer 2.2.23 for OXID eShop as of OXID eShop 6.2.3
 
 .. attention::
 
-   Please note that the Composer Version 2.1.6 was up-to-date with the OXID eShop Version 6.2.5 and was tested with it.
+   If possible: For security reasons, do not use the originally recommended and tested Composer version 2.1.6, but Composer version 2.2.23 instead.
 
-   Use composer selfupdate command to install Composer 2.1.6:
+   This is due to a security vulnerability in Composer. For more information, see
 
-   .. code:: bash
-      composer selfupdate 2.1.6
+   * `Composer Version 2.2.23 <https://github.com/composer/composer/releases/tag/2.2.23>`_
+   * `CVE-2024-24821 <https://nvd.nist.gov/vuln/detail/CVE-2024-24821>`_
 
 Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). The requirements for Composer can be found in `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
 
