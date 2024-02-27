@@ -30,7 +30,7 @@ General information
 
 OXID eShop 6.3.3 is provided as a compilation. The compilation contains among others the following components.
 
-* OXID eShop CE 6.9.1
+* OXID eShop CE 6.9.2
 * OXID eShop PE 6.5.1
 * OXID eShop EE 6.6.1
 * Theme "Flow" 3.7.2
@@ -53,11 +53,9 @@ View the changes to the compilation in the following metapackage: `<https://gith
 
 The following component has been updated:
 
-* OXID eShop CE (update from 6.9.0 to 6.9.1) `Changelog 6.9.1 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.9.1/CHANGELOG.md>`_
+* OXID eShop CE (update from 6.9.1 to 6.9.2) `Changelog 6.9.2 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.9.2/CHANGELOG.md>`_
 
-.. todo: #HR: klären
-
-Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: `<https://github.com/OXID-eSales/oxideshop_ce/compare/v6.9.0...v6.9.1>`_.
+Changes from the previous version of the OXID eShop component can be viewed in the Community Edition repository on GitHub: `<https://github.com/OXID-eSales/oxideshop_ce/compare/v6.9.1...v6.9.2>`_.
 |br|
 Switch to the :guilabel:`Files changed` tab to see the list of all changed files.
 
