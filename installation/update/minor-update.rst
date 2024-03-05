@@ -1,7 +1,7 @@
 Minor Update installieren
 =========================
 
-Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
+Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.4.
 
 
 .. include:: /_static/reuse/note_dataloss.rst
@@ -87,17 +87,13 @@ Stellen Sie dabei vor jedem Update-Schritt sicher, dass Sie Versionen von Compos
 
 #. Wenn Sie OXID eShop Version :emphasis:`6.2.3` oder :emphasis:`6.2.4` haben, tun Sie Folgendes:
 
-   a. Stellen Sie sicher, dass Sie Composer Version 2.0 bis 2.2.x haben.
+   a. Stellen Sie sicher, dass Sie Composer Version 2.2.23 haben.
 
-      .. attention::
+      Installieren Sie Composer Version 2.2.23 wie folgt:
 
-         Composer Version 2.3.x wird nicht unterstützt.
+      .. code:: bash
 
-         Wenn Sie Composer Version 2.3.x haben, installieren Sie beispielsweise Composer Version 2.2.x wie folgt:
-
-         .. code:: bash
-
-            composer selfupdate 2.2.12
+         composer selfupdate 2.2.23
 
    #. Stellen Sie sicher, dass Sie PHP Version 7.4 haben.
    #. Machen Sie ohne weitere Zwischenschritte das Update auf die gewünschte Zielversion.
@@ -112,11 +108,19 @@ Aktualisieren Sie Ihren OXID eShop auf die aktuelle Version.
 
 |prerequisites|
 
-Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installation/update/minor-update:Voraussetzungen sicherstellen`).
+* Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installation/update/minor-update:Voraussetzungen sicherstellen`).
 
 |procedure|
 
-1. Aktualisieren Sie in der Datei :file:`composer.json` die Version des Metapackage.
+1. Aktualisieren Sie Composer auf Version 2.7.
+
+   Installieren Sie Composer 2.7 beispielsweise wie folgt:
+
+   .. code:: bash
+
+      composer selfupdate 2.7.1
+
+#. Aktualisieren Sie in der Datei :file:`composer.json` die Version des Metapackage.
    |br|
    Passen Sie dazu wie im folgenden Beispiel den Namen des Metapackage der gewünschten Shop-Edition an.
    |br|
