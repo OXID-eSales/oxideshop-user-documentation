@@ -11,17 +11,17 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 
 |procedure|
 
-1. Aktualisieren Sie Composer auf Version 2.2.x.
+1. Aktualisieren Sie Composer auf Version 2.2.23.
 
    .. attention::
 
       Composer 2.3.x wird nicht unterstützt.
 
-      Wenn Sie Composer 2.3.x haben, installieren Sie Composer 2.2.x beispielsweise wie folgt:
+      Wenn Sie Composer 2.3.x haben, installieren Sie Composer 2.2.23 wie folgt:
 
       .. code:: bash
 
-         composer selfupdate 2.2.12
+         composer selfupdate 2.2.23
 
 #. Wechseln Sie ins Hauptverzeichnis des Shops (in unserem Beispiel `/var/www/oxideshop/`).
 

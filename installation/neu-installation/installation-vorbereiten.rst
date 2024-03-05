@@ -6,8 +6,8 @@ Für die Neu-Installation des OXID eShop sind einige Vorbereitungen notwendig.
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
-|schritt| Composer installieren
--------------------------------
+|schritt| Composer 2.2.23 installieren
+--------------------------------------
 
 Die Installation des OXID eShop 6 basiert nicht mehr auf gepackten und herunterladbaren Installationspaketen, sondern wird mit Hilfe von Composer ausgeführt. Composer ist ein Dependency Manager für PHP, ein Tool, welches Abhängigkeiten von Programmbestandteilen eines Projektes berücksichtigt, während es die Dateien dieses Projekts in ein definiertes Verzeichnis installiert.
 
