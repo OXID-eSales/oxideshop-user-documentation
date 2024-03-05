@@ -3,24 +3,20 @@ Installing a patch update
 
 Perform a patch update of your OXID eShop if required.
 
-For example, use the following steps to update the compilation from an existing version 6.5.x to version 6.5.2.
+For example, use the following steps to update the compilation from an existing version 6.5.x to version 6.5.4.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
 
 |procedure|
 
-1. Upgrade Composer to version 2.2.x.
+1. Upgrade Composer to version 2.7.
 
-   .. attention::
+   Install Composer 2.7 as follows, for example:
 
-      Composer 2.3.x is not supported.
+   .. code:: bash
 
-      If you have Composer 2.3.x, install Composer 2.2.x as follows, for example:
-
-      .. code:: bash
-
-         composer selfupdate 2.2.12
+      composer selfupdate 2.7.1
 
 #. Change to the main store directory (in our example `/var/www/oxideshop/`).
 
@@ -38,11 +34,11 @@ For example, use the following steps to update the compilation from an existing 
 
          composer require --no-update oxid-esales/oxideshop-metapackage-<edition type: ce, pe, or ee>:v<version number>.
 
-   b. Run the command, in our example for updating a community edition 6.5.1 to 6.5.2:
+   b. Run the command, in our example for updating a community edition 6.5.1 to 6.5.4:
 
       .. code:: bash
 
-         composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.5.2
+         composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.5.4
 
 #. Update the required libraries.
    |br|

@@ -1,7 +1,7 @@
 Installing a minor update
 =========================
 
-For example, update the compilation from an existing version 6.3.x to version 6.5.0.
+For example, update the compilation from an existing version 6.3.x to version 6.5.4.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -86,17 +86,13 @@ Before each update step, make sure that you have versions of Composer and PHP th
 
 #. If you have OXID eShop version :emphasis:`6.2.3` or :emphasis:`6.2.4`, do the following:
 
-   a. Make sure you have Composer version 2.0 to 2.2.x.
+   a. Make sure you have Composer version 2.2.23.
 
-      .. attention::
+      Install Composer version 2.2.23 as follows:
 
-         Composer version 2.3.x is not supported.
+      .. code:: bash
 
-         For example, if you have Composer version 2.3.x, install Composer version 2.2.x as follows:
-
-         .. code:: bash
-
-            composer selfupdate 2.2.12
+         composer selfupdate 2.2.23
 
    #. Make sure you have PHP version 7.4.
    #. Without any further intermediate steps, perform the update to the desired target version.
@@ -116,7 +112,15 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
 
 |procedure|
 
-1. Update the metapackage version in the :file:`composer.json` file.
+1. Update Composer to version 2.7.
+
+   Install Composer 2.7 as follows, for example:
+
+   .. code:: bash
+
+      composer selfupdate 2.7.1
+
+#. Update the metapackage version in the :file:`composer.json` file.
    |br|
    To do this, match the name of the metapackage to the desired store edition, as in the following example.
    |br|
