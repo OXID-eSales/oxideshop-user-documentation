@@ -1,10 +1,7 @@
-:orphan:
 Minor Update installieren
 =========================
 
-.. todo: #tbd 7.x: evtl. reuse: Topic vorl. ausgeblendet
-
-Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 6.3.x auf Version 6.5.0.
+Aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 7.0.x auf Version 7.1.x.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -19,12 +16,16 @@ In Ausnahmefällen können sich Änderungen jedoch so auswirken, dass Module von
 |br|
 Beispiele:
 
+.. todo: #HR: Wissen wir etwas über solche Fälle in 7.1?
+
 * Drittanbieter-Module funktionieren beim Update von OXID eShop 6.1 auf 6.2 nicht mehr.
 * Das OXID eSales-Modul Amazon Pay 3.6.8 funktioniert in OXID eShop 6.5 nicht mehr (siehe :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
 
 
 Voraussetzungen sicherstellen
 -----------------------------
+
+.. todo: #Hr/#MK/#tbd: prüfen: ist dieser Abschnitt in 7.1 relevant?
 
 Bevor Sie ein Minor Update auf die gewünschte Zielversion von OXID eShop ausführen können, stellen Sie sicher, dass Sie die technischen Voraussetzungen für das Update erfüllen.
 
@@ -126,11 +127,13 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
    |br|
    Passen Sie dazu wie im folgenden Beispiel den Namen des Metapackage der gewünschten Shop-Edition an.
    |br|
-   Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``6.4.2``:
+   Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``7.1.0``:
+
+   .. todo: #HR/#MK: Verifizieren
 
    .. code:: bash
 
-      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.2
+      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v7.1.0
 
 #. Aktualisieren Sie die Abhängigkeiten.
    |br|

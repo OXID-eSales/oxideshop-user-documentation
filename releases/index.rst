@@ -6,6 +6,7 @@ Informieren Sie sich über Neuerungen und Änderungen der Versionen des OXID eSh
 .. toctree::
    :maxdepth: 1
 
+   OXID eShop 7.1.0 <releases-70/oxid-eshop-710>
    OXID eShop 7.0.2 <releases-70/oxid-eshop-702>
    OXID eShop 7.0.1 <releases-70/oxid-eshop-701>
    OXID eShop 7.0.0 <releases-70/oxid-eshop-700>
