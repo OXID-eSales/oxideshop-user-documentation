@@ -34,6 +34,9 @@ Registerkarte Stamm
 
 Registerkarte Erweitert
 -----------------------
+
+.. todo #tbd: Klären: "Bonuspunkte, Freunde einladen, Kunden werben, " obsolet?
+
 **Inhalte**: Zusatzinformationen zum Benutzer, Telefonnummer, Handynummer, Mobilfunknummer, Newsletter, Double-Opt-in, ungültige E-Mail-Adresse, Bonität, Kreditwürdigkeit, zugelassene Zahlungsarten, URL, Bonuspunkte, Freunde einladen, Kunden werben, Zuordnung zu Benutzergruppen, keine automatische Zuordnung |br|
 :doc:`Artikel lesen <registerkarte-erweitert>` |link|
 

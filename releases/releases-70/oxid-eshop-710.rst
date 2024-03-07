@@ -17,8 +17,8 @@ Technologien
 * Unterstützung für PHP Version 8.2
 * Unterstützung für PHPUnit Version 10
 
-.. todo: #SB: verifizieren: was fehlt?
-.. todo: #SB: Was folgt für den Entw. daraus, dass wir folgende Versionen nicht mehr unterstützen:
+.. todo: #HR: verifizieren: was fehlt?
+.. todo: #HR: Was folgt für den Entw. daraus, dass wir folgende Versionen nicht mehr unterstützen:
         PHP v8.0 support	DEV			#SB: how to mention
         PHPUnit v9 support	Dev			#SB: how to mention
 
@@ -101,9 +101,10 @@ Folgende veraltete (deprecated) Funktionen haben wir entfernt.
 Private Sales Invite functionality (User)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
+.. todo: #HR/#tbd: Klären: wo ist die Funktion dokumentiert? Die Einkaufs-Communities: Shop sendet E-mail: geht aus Datenschutz-/Spamschutzgründen nicht mehr
+        Öffentlicher Wunschzettel
 .. todo: #SB: What is the practical consequence for the shopowner/user of the function being outdated? Worum geht es dabei
-.. todo: #tbd: DK provides information: ask #SB about it: as of 7.1 deprecated: removed in 8.0, may be refactored in the furture
+.. todo: #tbd: DK provides information: as of 7.1 deprecated: removed in 8.0, may be refactored in the future
 
 
 

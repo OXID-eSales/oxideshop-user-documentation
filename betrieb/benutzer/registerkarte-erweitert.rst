@@ -42,12 +42,17 @@ Auf der Registerkarte :guilabel:`Erweitert` können ergänzende Informationen zu
 :guilabel:`URL`
    In diesem Feld kann eine Webadresse, beispielsweise die der Webseite eines Geschäftskunden, die einer privaten Webseite oder eines Blogs, gespeichert werden.
 
+
+
 :guilabel:`Bonuspunkte`
    Dem Benutzer können Bonuspunkte gutgeschrieben werden, wenn er Kunden für den Shop geworben hat.
 
    Auch ein geworbener Kunde kann Bonuspunkte erhalten, wenn er sich im Shop registriert.
 
    Die Funktion muss in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Einladungen` aktiviert worden sein.
+
+   .. todo: #DK: Bonus points deprecated with "Private Sales Invite functionality is outdated"
+
 
    Hier wird auch die Anzahl der Bonuspunkte für Neukunden und Registrierung festgelegt. Der Shopbetreiber bestimmt selbst, wie er die Bonuspunkte der Benutzer im Rahmen seines Geschäftsmodells einsetzt.
 
