@@ -6,165 +6,127 @@ Release date: 26-03-2024
 The most important changes at a glance
 ---------------------------------------
 
-* OXID eShop 7.0 natively supports the template engine Twig.
 
-  The previously used template engine Smarty is available as an alternative package.
+* #tbd
 
-  However, we recommend switching to the new standard Twig as soon as possible.
-
-* MySQL 8, Composer 2.4 and the image format WebP are supported.
-* Module handling has been optimized and adapted.
+  .. todo: #HR Was ist das wichtigste an 7.1?
 
 Technologies
 ------------
 
-* Support for MySQL version 8.0
+* Unterstützung für PHP Version 8.2
+* Unterstützung für PHPUnit Version 10
 
-* Support for Composer version 2.4
+.. todo: #SB: verifizieren: was fehlt?
+.. todo: #SB: Was folgt für den Entw. daraus, dass wir folgende Versionen nicht mehr unterstützen:
+    PHP v8.0 support	DEV			#SB: how to mention
+    PHPUnit v9 support	Dev			#SB: how to mention
 
-* Switching the default template engine from Smarty to Twig
+Neue Funktionen für Anwender
+----------------------------
 
-  For more information, see `Twig Template Engine <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/index.html>`_.
+* Time activated products have different status icons in the product list
 
-  Optionally, you can still use Smarty.
-  |br|
-  For more information, see `Switching to the legacy Smarty template engine <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/install_smarty_engine.html>`_.
+  automatic feature: Admin | core | Performance; sth time period;  actibvate producte to be activated in time range: now with icon;
 
-* Automatic HTML escaping in the frontend.
+  .. todo: #tbd: Install 7.1, test function, add screenshot in docu where applicable
+Weitere Informationen finden Sie unter :ref:`tbd <tbd>`.
 
-  For more information, see the developer documentation under `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
+Neue Funktionen für Entwickler
+------------------------------
 
-* Support for WebP image format.
 
-  For more information, see :ref:`configuration/images:image generation and quality`.
 
-* Updating Symfony components to version 6.
+Services für Subshops
+^^^^^^^^^^^^^^^^^^^^^
 
-Improvement of the module system
---------------------------------
+Shops can have their own service configuration (Services für Subshops)
 
-Composer
-^^^^^^^^
+.. todo: #tbd: Make draft: Determine benefit, provide example, how-to
 
-According to the philosophy of Composer, module files are read exclusively from the :file:`vendor/` directory.
+OXDEV-7468 Add documentation for shop configurable services: https://github.com/OXID-eSales/developer_documentation/commit/b638ffa84e172c8066ce35a68173fbc25d041026
 
-When installing modules, the files are no longer copied to the :file:`source/modules/` directory.
+Feature: You can create se. Configs, not only global; e.g. logging module;
 
-For more information, see our developer documentation at `Module skeleton: metadata, composer and structure <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/index.html>`_.
+Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
-YAML files
-^^^^^^^^^^
+Defining dependencies between modules
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We have adjusted the structure of the configuration files.
+Define dependencies between modules, if required.
 
-For more information, see
+Use this option if you have a base module with core functionalities which are mandatory to be active for other modules to work.
 
-* `Modules configuration and setup <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/module_configuration/modules_configuration.html>`_
-* `Troubleshooting <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/installation_setup/troubleshooting.html>`_
+For more information, see the developer documentation under `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
 
-When updating to version 7, it is therefore necessary that you transfer your custom modules to the new structure.
+.. todo: #tbd: URL verifizieren
 
-For more information, see `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
 
-Console
-^^^^^^^
+ContainerFacade
+^^^^^^^^^^^^^^^
 
-The commands for handling modules have changed.
+Short cut: If you need a service, you can facade,
 
-For more information, see
+.. todo: #DK sucht Example;
 
-* `Best practice module setup for development with composer <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/tutorials/module_setup.html>`_
-* `Uninstall modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/uninstall/index.html>`_
+Class ContainerFacade and method Base::getService() for quick access to the DI Container from the non-DI areas
 
-New functions
--------------
+Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
-Tracking URL per shipping method
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installing packages via the Command Line Interface
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Store one tracking URL per shipping method.
+Command bin/oe-console oe:theme:activate <theme> to activate a theme from CLI
 
-As soon as the parcel ID (depending on the shipping provider tracking code, parcel label number, parcel reference, shipment number, etc.) has been entered with the order, the tracking link consisting of the tracking URL and the parcel ID of the order will be available.
+Installing packages, muss nicht in admin, geht über cli
 
-For more information, see :ref:`Tracking-URL <tracking-url-shipping-method>`.
+.. todo: #DK sucht Example; define benefit
 
-Setup via command line
-^^^^^^^^^^^^^^^^^^^^^^
+Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
-To simplify the implementation of your project, as an alternative to the web-based setup, you can create and configure your OXID eShop via the command line.
-
-You have the following options on the OXID eShop console:
-
-* Use ``oe:setup:shop`` to create the database and configure your OXID eShop.
-  |br|
-  You pass the necessary information for this with parameters.
-
-* Install demo data with ``oe:setup:demodata``.
-* Create the store administrator with ``oe:admin:create-user``.
-* If you have OXID eShop Professional or Enterprise edition, add license keys with ``oe:license:add``.
-
-  It is technically not possible to replace existing license keys with new ones. Therefore, if you replace an existing license key with another one, delete all license keys first with ``oe:license:clear`` and then add the license keys again.
-
-For more information, see :doc:`Setup via command line <../../installation/new-installation/setup-command-line>`.
 
 Clean Up
 --------
 
-We have removed the following deprecated functions.
+Folgende veraltete (deprecated) Funktionen haben wir entfernt.
 
-Test library
-^^^^^^^^^^^^
+.. todo: Zur Info: getContainer() and dispatchEvent() methods in Core classes	Dev
+DK: not documented, so not to be mentioned; : deprecated as of 7.1, removed as of 8.0
 
-Use the native PHPUnit and Codeception functionality instead of the test library.
+.. todo: Zur Info: Global function \makeReadable(); DK: not to be mentioned in docu
 
-For more information, see the developer documentation under `Testing <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
+.. todo: Zur Info: TemplateFileResolverInterface is redundant and will be removed in the next major version, template extension resolving is already performed in TemplateRenderer
+DK: it's a leftover: will be reomoved, not to be mentioned; Smarty Überbleibsel, DK checks
 
-RSS functionality
-^^^^^^^^^^^^^^^^^
+Private Sales Invite functionality (User)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The RSS functionality has been dropped.
 
-Login via LDAP
-^^^^^^^^^^^^^^
+.. todo: #SB: What is the practical consequence for the shopowner/user of the function being outdated? Worum geht es dabei
+.. todo: #tbd: DK provides information: ask #SB about it: as of 7.1 deprecated: removed in 8.0, may be refactored in the furture
 
-If you have an LDAP environment, you need to implement your own login solution.
 
-Credit card as payment method
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We no longer support the credit card payment method implemented in OXID eShop for security reasons.
+Deprecated console classes
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Use the module of a payment provider to offer credit card payment to your customers.
+.. todo: #DK/HR: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them?
+.. todo: Info: DK: will be removed as of 8.0, as of 7.1 only deprecated: mark them as such
 
-Newsletter dispatch
-^^^^^^^^^^^^^^^^^^^
+Deprecate console classes from the Internal namespace:
 
-We have removed the rudimentary basic newsletter feature for sending a newsletter from OXID eShop.
-
-Customers can still subscribe to newsletters.
-
-To use the data in a professional marketing tool, export the list of your newsletter subscribers in the administration area.
-
-For more information, see :doc:`Newsletters <../../operation/newsletters/newsletters>`.
-
-News
-^^^^
-
-With the introduction of the Flow theme (OXID eShop 6.0.0), you could already access news under :menuselection:`Admin --> Customer information --> News` only via a link in the footer.
-
-To present news or offers, we recommend to implement landing pages with Visual CMS (for Professional and Enterprise Edition) in the future.
-
-Encrypted values in the database
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-We have removed the native encryption of the store configuration in the :code:`oxconfig` table, because MySQL 8.0 does not support this feature anymore.
-
+* Executor
+* ExecutorInterface
+* CommandsProvider
+* CommandsProviderInterface
 
 Components
 ----------
 
 Components of the compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #HR: Wann haben wir die Info?
 
 The compilation contains the following components: UPDATE VERSIONS
 
@@ -196,9 +158,21 @@ The compilation contains the following components: UPDATE VERSIONS
 Corrections
 -----------
 
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=344
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=630
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=728
+.. todo: #HR: Welche Tracking ID?
+Wrong property "_oUserData" used in ContactController PR-918	RN			Bug tacking
+
+* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
+
+.. todo: #HR: Welche Tracking ID?
+Can't use dot character for template file names	RN			Bug tacking
+
+* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
+
+.. todo: #HR: Executing oe-console command with an invalid shop-id value will be interrupted	RN			if shop id ivalid; will just stop to work, check whether it's in the bug tracker
+
+* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
+
+
 
 Installation
 ------------
