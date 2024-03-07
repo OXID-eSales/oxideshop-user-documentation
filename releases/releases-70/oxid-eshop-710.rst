@@ -35,6 +35,8 @@ Neue Funktionen für Anwender
 Neue Funktionen für Entwickler
 ------------------------------
 
+
+
 Services für Subshops
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -48,17 +50,16 @@ Feature: You can create se. Configs, not only global; e.g. logging module;
 
 Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
-Dependencies between modules
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Abhängigkeiten zwischen Modulen definieren
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Dependencies between modules feature is introduced
+Definieren Sie Abhängigkeiten zwischen Modulen, falls erforderlich.
 
-.. todo: #tbd: Make draft: Determine benefit, provide example, how-to
+Verwenden Sie diese Option, wenn Sie ein Basismodul mit Kernfunktionen haben, die zwingend aktiv sein müssen, damit andere Module funktionieren.
 
-Must have: module has requirements; in config define dependencies, nachrichten, wenn Module nicht vorher aktve ; e.g. grapgql admin is dependen taon base,
+Weitere Informationen finden Sie in der Entwicklerdokumentation unter `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
-https://github.com/OXID-eSales/developer_documentation/blob/b-7.1.x/development/modules_components_themes/module/module_dependencies.rst
+.. todo: #tbd: URL verifizieren
 
 
 ContainerFacade
