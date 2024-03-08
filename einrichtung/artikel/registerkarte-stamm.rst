@@ -16,8 +16,12 @@ Mit der Sprachumstellung, die erst nach Anlegen des Artikels unten im Eingabeber
 :guilabel:`Versteckt`
    Wenn dieses Kontrollkästchen aktiviert ist, wird der Artikel nicht im Shop-Frontend angezeigt, ist aber mit einem direkten Link aufrufbar. Dadurch kann der Artikel im Shop gefunden werden, auch wenn er momentan oder gar nicht mehr angeboten wird, der Link aber noch in den Suchmaschinen gelistet ist.
 
+.. _zeitaktivierung:
+
 :guilabel:`Oder aktiv von` ... :guilabel:`bis` ...
    Es kann ein Zeitraum definiert werden, in dem ein Artikel aktiv ist. Auf diese Weise lässt sich beispielsweise ein Angebot umsetzen, das nur für eine bestimmte Zeit gültig sein soll. Anfang und Ende müssen im Format JJJJ-MM-TT HH:MM:SS angegeben werden. Datum und Zeit des Endes der Aktivierung sind nicht optional. Wollen Sie einen Artikel im Grunde nur ab einem bestimmten Datum aktiv schalten, geben Sie einfach eine weit in der Zukunft liegende Endezeit ein.
+
+.. todo: #DK: What is the expected result (different icon) as of 7.1? What is the benefit?; pictures "C:\Users\christoph albrecht\OneDrive - OXID eSales AG\Dokumente\OXDEV-7841-eShop710\05 Time activated products have different status icons in the product list.docx"
 
 .. hint:: Damit diese Einstellung auf der Registerkarte sichtbar ist, muss :guilabel:`Beim Laden von Artikeln \"Aktiv von/bis\" berücksichtigen` unter :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Perform.` aktiv sein. Zusätzlich darf das Kontrollkästchen :guilabel:`Aktiv` beim Artikel nicht angehakt sein.
 

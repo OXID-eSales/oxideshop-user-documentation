@@ -25,12 +25,18 @@ Technologien
 Neue Funktionen für Anwender
 ----------------------------
 
+.. todo: #05
+
 * Time activated products have different status icons in the product list
 
   automatic feature: Admin | core | Performance; sth time period;  actibvate producte to be activated in time range: now with icon;
 
+  Weitere Informationen finden Sie ìn der Beschreibung, wie Sie :ref:`Artikel zeitgesteuert aktivieren <zeitaktivierung>`.
+
   .. todo: #tbd: Install 7.1, test function, add screenshot in docu where applicable
-     Weitere Informationen finden Sie unter :ref:`tbd <tbd>`.
+     Weitere Informationen finden Sie unter :ref:einrichtung/artikel/registerkarte-stamm#
+
+
 
 Neue Funktionen für Entwickler
 ------------------------------
@@ -98,23 +104,63 @@ Folgende veraltete (deprecated) Funktionen haben wir entfernt.
 .. todo: Zur Info: TemplateFileResolverInterface is redundant and will be removed in the next major version, template extension resolving is already performed in TemplateRenderer
         DK: it's a leftover: will be reomoved, not to be mentioned; Smarty Überbleibsel, DK checks
 
-Private Sales Invite functionality (User)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Einladungs-Funktion
+^^^^^^^^^^^^^^^^^^^
 
+.. todo: #04
 .. todo: #HR/#tbd: Klären: wo ist die Funktion dokumentiert? Die Einkaufs-Communities: Shop sendet E-mail: geht aus Datenschutz-/Spamschutzgründen nicht mehr
-        Öffentlicher Wunschzettel
-.. todo: #SB: What is the practical consequence for the shopowner/user of the function being outdated? Worum geht es dabei
+Öffentlicher Wunschzettel
 .. todo: #tbd: DK provides information: as of 7.1 deprecated: removed in 8.0, may be refactored in the future
+
+Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion Einladungen aktivieren.
+
+Aufgrund des Risikos von Missbrauch durch Spam-Attacken haben wir uns jedoch entschieden, diese Funktion zurückzubauen.
+
+Um eine solche Funktion sicher und effektiv zu nutzen, empfehlen wir die Entwicklung eines speziellen Moduls für den OXID eShop. Im Missbrauch vorzubeugen, integrieren Sie beispielsweise folgende Sicherheitsmaßnahmen:
+
+* Implementieren eines Captcha-Systems: Bevor ein registrierter Kunde jemanden einladen kann, muss er ein Captcha lösen. Dies verhindert automatisierte Bots von der Nutzung des Einladungssystems.
+* Begrenzung der Einladungen: Setzen Sie eine Höchstzahl an Einladungen fest, die ein Kunde innerhalb eines bestimmten Zeitraums senden kann. Dies vermindert die Wahrscheinlichkeit von Missbrauch, da es die Anzahl der möglichen Spam-Einladungen einschränkt.
+* Bestätigung durch den Eingeladenen: Statt direkt Bonuspunkte für das bloße Versenden einer Einladung zu vergeben, könnten Punkte erst gutgeschrieben werden, nachdem der Eingeladene die Einladung annimmt und bestimmte Kriterien erfüllt (z.B. eine Bestellung tätigt).
+* Überprüfung der E-Mail-Adressen: Implementieren Sie eine Prüfung der E-Mail-Adressen auf Gültigkeit und auf bekannte Spam-Domains, um zu verhindern, dass Einladungen an zufällig generierte oder für Spam bekannte Adressen gesendet werden.
+* Benutzerfeedback und Berichterstattung: Ermöglichen Sie Ihren Nutzern, Missbrauch zu melden. Dies hilft Ihnen, potentielle Schwachstellen im System schnell zu identifizieren und zu adressieren.
+* Anpassbare E-Mail-Vorlagen: Geben Sie den Nutzern die Möglichkeit, die Einladungs-E-Mails zu personalisieren, aber stellen Sie sicher, dass der Text bestimmte Richtlinien erfüllt und nicht missbräuchlich verwendet werden kann.
+* Monitoring und Analyse: Überwachen Sie die Nutzung des Einladungssystems aktiv, um Anomalien oder Missbrauchsmuster frühzeitig zu erkennen. Analysieren Sie die Daten regelmäßig, um die Sicherheitsmaßnahmen entsprechend anzupassen.
+
+
+To offer your registered customers the option of inviting friends and receiving bonus points in return, up to version 7.0 of the OXID eShop you could activate the Invitations function under :menuselection:`Master data --> Basic settings --> Settings --> Invitations`. --> Invitations` to activate the Invitations function.
+
+However, due to the risk of misuse by spam attacks, we have decided to remove this function.
+
+To use such a function safely and effectively, we recommend developing a special module for the OXID eShop. To prevent misuse, integrate the following security measures, for example:
+
+* Implementation of a captcha system: Before a registered customer can invite someone, they must solve a captcha. This prevents automated bots from using the invitation system.
+* Limitation the number of invitations: Set a maximum number of invitations that a customer can send within a certain period of time. This reduces the likelihood of abuse as it limits the number of possible spam invitations.
+* Confirmation by the invitee: Instead of directly awarding bonus points for simply sending an invitation, points could be credited only after the invitee accepts the invitation and fulfills certain criteria (e.g. places an order).
+* Verification of e-mail addresses: Implement email address validation and known spam domain checking to prevent invitations from being sent to randomly generated or known spam addresses.
+* User feedback and reporting: Allow your users to report abuse. This helps you to quickly identify and address potential weaknesses in the system.
+* Customizable email templates: Give users the ability to personalize the invitation emails, but make sure the text meets certain guidelines and cannot be misused.
+* Monitoring and analysis: Actively monitor the use of the invitation system to detect anomalies or abuse patterns at an early stage. Analyze the data regularly to adjust the security measures accordingly.
+
+
+
 
 
 
 Deprecated console classes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #DK/HR: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them?
+.. todo: #06
+.. todo: #DK/HR: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them? -- Are there ne/better Alternatives to use?
 .. todo: Info: DK: will be removed as of 8.0, as of 7.1 only deprecated: mark them as such
 
-Deprecate console classes from the Internal namespace:
+Wir haben die folgenden als veraltet markierten Konsolenklassen aus dem internen Namensraum entfernt:
+
+* Executor
+* ExecutorInterface
+* CommandsProvider
+* CommandsProviderInterface
+
+We have removed the following deprecated console classes from the Internal namespace:
 
 * Executor
 * ExecutorInterface
@@ -160,17 +206,17 @@ Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 Korrekturen
 -----------
 
-.. todo: #HR: Welche Tracking ID?
+.. todo: #08 #HR: Welche Tracking ID?
         Wrong property "_oUserData" used in ContactController PR-918	RN			Bug tacking
 
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
 
-.. todo: #HR: Welche Tracking ID?
+.. todo: #09 #HR: Welche Tracking ID?
         Can't use dot character for template file names	RN			Bug tacking
 
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
 
-.. todo: #HR: Executing oe-console command with an invalid shop-id value will be interrupted	RN			if shop id ivalid; will just stop to work, check whether it's in the bug tracker
+.. todo: #10 #HR: Executing oe-console command with an invalid shop-id value will be interrupted	RN			if shop id ivalid; will just stop to work, check whether it's in the bug tracker
 
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
 

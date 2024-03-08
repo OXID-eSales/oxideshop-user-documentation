@@ -52,6 +52,7 @@ Auf der Registerkarte :guilabel:`Erweitert` können ergänzende Informationen zu
    Die Funktion muss in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Einladungen` aktiviert worden sein.
 
    .. todo: #DK: Bonus points deprecated with "Private Sales Invite functionality is outdated"
+   .. todo: #DK: if Bonus points deprecated, why are they still displayed under User | :guilabel:`Erweitert` ?
 
 
    Hier wird auch die Anzahl der Bonuspunkte für Neukunden und Registrierung festgelegt. Der Shopbetreiber bestimmt selbst, wie er die Bonuspunkte der Benutzer im Rahmen seines Geschäftsmodells einsetzt.
