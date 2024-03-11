@@ -9,7 +9,12 @@ Die wichtigsten Änderungen im Überblick
 
 * #tbd
 
-  .. todo: #HR Was ist das wichtigste an 7.1?
+  .. todo: #HR Was ist das wichtigste an 7.1?: Barrierefreiheit; --> SB fragen: eye able assist Modul, Apay- und Demodaten
+    VCMS Bundle: Mikkel fragen: was ist neu
+    neue PHP-Version
+    Modulabhängigkeiten
+    Subshop-Services
+    Bugfixes, s.Changelog CE
 
 Technologien
 ------------
@@ -17,8 +22,10 @@ Technologien
 * Unterstützung für PHP Version 8.2
 * Unterstützung für PHPUnit Version 10
 
+.. todo: Sinfony 6.3
+
 .. todo: #HR: verifizieren: was fehlt?
-.. todo: #HR: Was folgt für den Entw. daraus, dass wir folgende Versionen nicht mehr unterstützen:
+.. todo: #HR: nö nix weiter Was folgt für den Entw. daraus, dass wir folgende Versionen nicht mehr unterstützen:
         PHP v8.0 support	DEV			#SB: how to mention
         PHPUnit v9 support	Dev			#SB: how to mention
 
@@ -71,6 +78,8 @@ Weitere Informationen finden Sie in der Entwicklerdokumentation unter `Defining 
 ContainerFacade
 ^^^^^^^^^^^^^^^
 
+Zentrale Stelle im Shop
+
 Short cut: If you need a service, you can facade,
 
 .. todo: #DK sucht Example;
@@ -86,7 +95,7 @@ Command bin/oe-console oe:theme:activate <theme> to activate a theme from CLI
 
 Installing packages, muss nicht in admin, geht über cli
 
-.. todo: #DK sucht Example; define benefit
+.. todo: #DK sucht Example; define benefit: Theme-Aktivierung ist im Shop: ohne dev components
 
 Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
@@ -150,10 +159,10 @@ Deprecated console classes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #06
-.. todo: #DK/HR: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them? -- Are there ne/better Alternatives to use?
+.. todo: #DK/HR: Wenn in Module benutzt Testen nötig: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them? -- Are there ne/better Alternatives to use?
 .. todo: Info: DK: will be removed as of 8.0, as of 7.1 only deprecated: mark them as such
 
-Wir haben die folgenden als veraltet markierten Konsolenklassen aus dem internen Namensraum entfernt:
+.. todo: Folgende sind als veraltet markiert, werden in in näch. Major Release entfernt en Konsolenklassen aus dem internen Namensraum entfernt:
 
 * Executor
 * ExecutorInterface
@@ -176,7 +185,8 @@ Komponenten der Compilation
 
 Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 
-.. todo: #HR: Wann haben wir die Info?
+.. todo: #HR: 703: Wann haben wir die Info? CE 704; Twig 230, final prüfen durch DK
+            710: Info kommen
 
 * `OXID eShop CE 7.0.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.3/CHANGELOG-7.0.md#v703---2024-02-20>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
@@ -206,17 +216,20 @@ Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 Korrekturen
 -----------
 
-.. todo: #08 #HR: Welche Tracking ID?
+.. todo: 703: keine Tracking IDs: https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.0.x/CHANGELOG-7.0.md
+
+
+.. todo: #08 #HR: Welche Tracking ID? HR: keine Itacking IDs, nur aufs Changelog verweisen
         Wrong property "_oUserData" used in ContactController PR-918	RN			Bug tacking
 
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
 
 .. todo: #09 #HR: Welche Tracking ID?
-        Can't use dot character for template file names	RN			Bug tacking
+        Can't use dot character for template file names	RN			Bug tacking: nein
 
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
 
-.. todo: #10 #HR: Executing oe-console command with an invalid shop-id value will be interrupted	RN			if shop id ivalid; will just stop to work, check whether it's in the bug tracker
+.. todo: #10 #HR: Executing oe-console command with an invalid shop-id value will be interrupted	RN			if shop id ivalid; will just stop to work, check whether it's in the bug tracker -- kein Bug tacker
 
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
 

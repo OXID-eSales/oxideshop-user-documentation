@@ -16,7 +16,7 @@ In Ausnahmefällen können sich Änderungen jedoch so auswirken, dass Module von
 |br|
 Beispiele:
 
-.. todo: #HR: Wissen wir etwas über solche Fälle in 7.1?
+.. todo: #HR: Wissen wir etwas über solche Fälle in 7.1?; Beispiele veralten: Beispiele raus, haben keine
 
 * Drittanbieter-Module funktionieren beim Update von OXID eShop 6.1 auf 6.2 nicht mehr.
 * Das OXID eSales-Modul Amazon Pay 3.6.8 funktioniert in OXID eShop 6.5 nicht mehr (siehe :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
@@ -25,7 +25,7 @@ Beispiele:
 Voraussetzungen sicherstellen
 -----------------------------
 
-.. todo: #Hr/#MK/#tbd: prüfen: ist dieser Abschnitt in 7.1 relevant?
+.. todo: #Hr/#MK/#tbd: prüfen: ist dieser Abschnitt in 7.1 relevant?: Support : HR: Michael soll prüfen
 
 Bevor Sie ein Minor Update auf die gewünschte Zielversion von OXID eShop ausführen können, stellen Sie sicher, dass Sie die technischen Voraussetzungen für das Update erfüllen.
 
