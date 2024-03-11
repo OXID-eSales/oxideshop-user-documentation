@@ -87,7 +87,9 @@ html_theme = 'sphinx_rtd_theme'
 html_context = {
     'current_version': '7.1',
     'versions':
-        [('6.2', 'https://docs.oxid-esales.com/eshop/de/6.2/'),
+        [('6.0', 'https://docs.oxid-esales.com/eshop/de/6.0/'),
+         ('6.1', 'https://docs.oxid-esales.com/eshop/de/6.1/'),
+         ('6.2', 'https://docs.oxid-esales.com/eshop/de/6.2/'),
          ('6.3', 'https://docs.oxid-esales.com/eshop/de/6.3/'),
          ('6.4', 'https://docs.oxid-esales.com/eshop/de/6.4/'),
          ('6.5', 'https://docs.oxid-esales.com/eshop/de/6.5/'),
