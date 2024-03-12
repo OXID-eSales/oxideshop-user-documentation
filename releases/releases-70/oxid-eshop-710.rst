@@ -82,11 +82,11 @@ Zentrale Stelle im Shop
 
 Short cut: If you need a service, you can facade,
 
-.. todo: #DK sucht Example;
+.. todo: #DK sucht Example; no documentation Example see in the link
 
 Class ContainerFacade and method Base::getService() for quick access to the DI Container from the non-DI areas
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
+Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.  https://github.com/OXID-eSales/developer_documentation/blob/b-7.1.x/development/modules_components_themes/module/module_services.rst#toc-entry-4
 
 Installing packages via the Command Line Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -95,7 +95,7 @@ Command bin/oe-console oe:theme:activate <theme> to activate a theme from CLI
 
 Installing packages, muss nicht in admin, geht über cli
 
-.. todo: #DK sucht Example; define benefit: Theme-Aktivierung ist im Shop: ohne dev components
+.. todo: #DK sucht Example; define benefit: Theme-Aktivierung ist im Shop: ohne dev components: DK: so that edevs can do it, See https://github.com/OXID-eSales/developer_documentation/tree/b-7.1.x-code-example-OXDEV-7842 -- rephrase it
 
 Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
@@ -159,7 +159,7 @@ Deprecated console classes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #06
-.. todo: #DK/HR: Wenn in Module benutzt Testen nötig: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them? -- Are there ne/better Alternatives to use?
+.. todo: #DK/HR: Wenn in Module benutzt Testen nötig: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them? -- Are there ne/better Alternatives to use? -- see comment of class to dind alternatives; not important: dev has to check
 .. todo: Info: DK: will be removed as of 8.0, as of 7.1 only deprecated: mark them as such
 
 .. todo: Folgende sind als veraltet markiert, werden in in näch. Major Release entfernt en Konsolenklassen aus dem internen Namensraum entfernt:
