@@ -9,8 +9,8 @@ Die wichtigsten Änderungen im Überblick
 
 * #tbd
 
-  .. todo: #HR Was ist das wichtigste an 7.1?: Barrierefreiheit; --> SB fragen: eye able assist Modul, Apay- und Demodaten
-    VCMS Bundle: Mikkel fragen: was ist neu
+  .. todo: #HR Was ist das wichtigste an 7.1?: Barrierefreiheit; --> #SB fragen: eye able assist Modul, Apay- und Demodaten
+    VCMS Bundle: #MF Mikkel fragen: was ist neu
     neue PHP-Version
     Modulabhängigkeiten
     Subshop-Services
@@ -19,15 +19,11 @@ Die wichtigsten Änderungen im Überblick
 Technologien
 ------------
 
-* Unterstützung für PHP Version 8.2
+Wir haben die Kompatibilität des OXID eShop verbessert, um Sicherheit und Performance sicherzustelen. Dazu gehört die Unterstützung für
+
+* PHP Version 8.2
 * Unterstützung für PHPUnit Version 10
-
-.. todo: Sinfony 6.3
-
-.. todo: #HR: verifizieren: was fehlt?
-.. todo: #HR: nö nix weiter Was folgt für den Entw. daraus, dass wir folgende Versionen nicht mehr unterstützen:
-        PHP v8.0 support	DEV			#SB: how to mention
-        PHPUnit v9 support	Dev			#SB: how to mention
+* Symfony 6.3
 
 Neue Funktionen für Anwender
 ----------------------------
@@ -66,6 +62,8 @@ Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <htt
 Abhängigkeiten zwischen Modulen definieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. todo: #04
+
 Definieren Sie Abhängigkeiten zwischen Modulen, falls erforderlich.
 
 Verwenden Sie diese Option, wenn Sie ein Basismodul mit Kernfunktionen haben, die zwingend aktiv sein müssen, damit andere Module funktionieren.
@@ -75,30 +73,40 @@ Weitere Informationen finden Sie in der Entwicklerdokumentation unter `Defining 
 .. todo: #tbd: URL verifizieren
 
 
-ContainerFacade
-^^^^^^^^^^^^^^^
+Symfony DI-Container nutzen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Zentrale Stelle im Shop
+* Symfony DI-Container zum Anpassen und Verwalten von Services
 
-Short cut: If you need a service, you can facade,
+  .. todo: #03
+  .. todo: #HR/#SB: Ist das neu?
 
-.. todo: #DK sucht Example; no documentation Example see in the link
+  Der Symfony DI Container im OXID eShop ermöglicht Ihnen ein flexibles und effizientes Verwalten von Services, unterstützt die Anpassung bestehender Services und fördert die Entwicklung wartbarer und erweiterbarer Anwendungen.
 
-Class ContainerFacade and method Base::getService() for quick access to the DI Container from the non-DI areas
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Use services in non-DI classes <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.  https://github.com/OXID-eSales/developer_documentation/blob/b-7.1.x/development/modules_components_themes/module/module_services.rst#toc-entry-4
+* Nutzung von Services in Non-DI-Klassen
 
-Installing packages via the Command Line Interface
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  .. todo: #01
 
-Command bin/oe-console oe:theme:activate <theme> to activate a theme from CLI
+  Greifen Sie auch in Bereichen, die nicht für Dependency Injection (DI) vorgesehen sind, auf den Symfony DI-Container zu.
 
-Installing packages, muss nicht in admin, geht über cli
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Use services in non-DI classes <https://docs.oxid-esales.com/development/modules_components_themes/module/module_services.rst#use-services-in-non-di-classes.html>`_.
 
-.. todo: #DK sucht Example; define benefit: Theme-Aktivierung ist im Shop: ohne dev components: DK: so that edevs can do it, See https://github.com/OXID-eSales/developer_documentation/tree/b-7.1.x-code-example-OXDEV-7842 -- rephrase it
+Installieren von Paketen über die Kommandozeilenschnittstelle
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
+.. todo: #02
+.. todo: #SB/#HR: Ist das ein neues Feature? So weit ich sehe, haben wir nur ein neues Kapitel in der Dev-Doku.
 
+Um ein Theme zu aktivieren, müssen Sie nicht die Administratoroberfläche im OXID eShop verwenden.
+
+Nutzen Sie den Befehl :code:`bin/oe-console oe:theme:activate <theme>`.
+
+Weitere Informationen finden Sie in der Entwickler-Dokumentation unter
+
+* `Activation <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/theme/theme_activation_via_cli.html>`_
+* `Activating the frontend theme <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/installation.html#after-twig-engine-installation>`_
 
 Clean Up
 --------
@@ -116,10 +124,11 @@ Folgende veraltete (deprecated) Funktionen haben wir entfernt.
 Einladungs-Funktion
 ^^^^^^^^^^^^^^^^^^^
 
-.. todo: #04
-.. todo: #HR/#tbd: Klären: wo ist die Funktion dokumentiert? Die Einkaufs-Communities: Shop sendet E-mail: geht aus Datenschutz-/Spamschutzgründen nicht mehr
+.. todo: #07
+.. todo: SB Shop sendet E-mail: geht aus Datenschutz-/Spamschutzgründen nicht mehr
 Öffentlicher Wunschzettel
-.. todo: #tbd: DK provides information: as of 7.1 deprecated: removed in 8.0, may be refactored in the future
+.. todo: #SB: if Bonus points deprecated, why are they still displayed under User | :guilabel:`Erweitert` ?
+.. todo: #tbd: Screenshot  DK provides information: as of 7.1 deprecated: removed in 8.0, may be refactored in the future
 
 Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion Einladungen aktivieren.
 
@@ -159,22 +168,20 @@ Deprecated console classes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #06
-.. todo: #DK/HR: Wenn in Module benutzt Testen nötig: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them? -- Are there ne/better Alternatives to use? -- see comment of class to dind alternatives; not important: dev has to check
-.. todo: Info: DK: will be removed as of 8.0, as of 7.1 only deprecated: mark them as such
+.. todo: #HR: prüfen
 
-.. todo: Folgende sind als veraltet markiert, werden in in näch. Major Release entfernt en Konsolenklassen aus dem internen Namensraum entfernt:
+`test <https://docs.oxid-esales.com/developer/en/latest/conventions.html#conventions_images>`_
 
-* Executor
-* ExecutorInterface
-* CommandsProvider
-* CommandsProviderInterface
+Folgende Konsolenklassen aus dem internen Namensraum sind als veraltet markiert und werden im nächsten Major Release entfernt.
 
-We have removed the following deprecated console classes from the Internal namespace:
+Prüfen Sie Ihren Code durchsuchen, um festzustellen, ob und wo die als veraltet markierten Klassen verwenden.
 
-* Executor
-* ExecutorInterface
-* CommandsProvider
-* CommandsProviderInterface
+Nachdem Sie gegebenenfalls Ihren Code aktualisiert haben, um die veralteten Klassen zu ersetzen, führen Sie Tests durch, um sicherzustellen, dass Ihre Anwendungen weiterhin wie erwartet funktionieren.
+
+* :code:`Executor`
+* :code:`ExecutorInterface`
+* :code:`CommandsProvider`
+* :code:`CommandsProviderInterface`
 
 
 Komponenten
