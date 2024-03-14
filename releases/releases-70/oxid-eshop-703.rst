@@ -8,34 +8,34 @@ Release-Datum: xx.03.2024
 Korrekturen
 -----------
 
-* Behobener Fehler: Getrennter Template-Cache für Subshops in der :productname:`OXID eShop Enterprise Edition`
+* Dedizierter Template-Cache für Subshops in der :productname:`OXID eShop Enterprise Edition`
 
-  Problem: In der :productname:`OXID eShop Enterprise Edition` konnte es zu Problemen kommen, weil Subshops denselben Template-Cache teilten.
+  Beschreibung: In der :productname:`OXID eShop Enterprise Edition` konnte es dazu kommen, dass der Template-Cache von den Subshops überschrieben wurde.
 
-  Dieses Problem trat auf, wenn die Modulinstallationen zwischen Haupt- und Subshops unterschiedlich waren und die Module eigene Templates mitbrachten. In einem Szenario, in dem ein Subshop ein Modul aktiviert hatte und seinen Template-Cache aufbaute, konnte der Hauptshop, beim Zugriff auf denselben Cache, feststellen, dass das entsprechende Modul bei ihm nicht aktiv war. Dies führte dazu, dass der eShop in den Wartungsmodus versetzt wurde.
+  Dieses Verhalten trat auf, wenn die Modulinstallationen zwischen Haupt- und Subshops unterschiedlich waren und die Module eigene Templates mitbrachten. In einem Szenario, in dem ein Subshop ein Modul aktiviert hatte und seinen Template-Cache aufbaute, konnte der Hauptshop, beim Zugriff auf denselben Cache, feststellen, dass das entsprechende Modul bei ihm nicht aktiv war. Dies führte dazu, dass der eShop in den Wartungsmodus versetzt wurde.
 
-  Lösung: Mit diesem Update stellen wir sicher, dass Subshops einen getrennten Template-Cache verwenden. Diese Änderung verhindert die beschriebenen Probleme, indem sie sicherstellt, dass Unterschiede in den Modulinstallationen und den verwendeten Templates zwischen Haupt- und Subshops keine Konflikte im Template-Cache verursachen. Dies gewährleistet eine stabilere und zuverlässigere Betriebsumgebung für Shops mit mehreren Subshops.
+  Lösung: Mit diesem Update stellen wir sicher, dass Subshops einen getrennten Template-Cache verwenden. Diese Änderung verhindert das beschriebene Verhalten, indem sie sicherstellt, dass Unterschiede in den Modulinstallationen und den verwendeten Templates zwischen Haupt- und Subshops keine Konflikte im Template-Cache verursachen. Dies gewährleistet eine stabilere und zuverlässigere Betriebsumgebung für Shops mit mehreren Subshops.
 
   Wir empfehlen allen Betreibern der :productname:`OXID eShop Enterprise Edition`, dieses Update zu implementieren, um die Integrität und Leistung ihrer Online-Shops zu optimieren.
 
-* Leistungsverbesserung: Modul-Erweiterungsketten aus dem Cache laden
+* Performanceverbesserung: Modul-Erweiterungsketten aus dem Cache laden
 
-  Problem: Wenn der OXID eShop Module hatte, wurde die Klassenkette (class chain) für diese Module aus YAML-Dateien konstruiert. Dieser Prozess führte zu Performance-Einbußen, da das Lesen von YAML-Dateien im Vergleich zum Zugriff auf bereits im Cache gespeicherte Daten langsamer ist.
+  Beschreibung: Wenn Module im OXID eShop installiert sind, wurde die Class Chain für diese Module aus YAML-Dateien konstruiert. Dieser Prozess führte zu Performance-Einbußen, da das Lesen von YAML-Dateien im Vergleich zum Zugriff auf bereits im Cache gespeicherte Daten langsamer ist.
 
-  Lösung: Mit dem aktuellen Update optimieren wir den Ladevorgang von Modul-Erweiterungsketten, indem wir diese nun direkt aus dem Cache beziehen, anstatt auf YAML-Dateien zurückzugreifen. Diese Änderung stellt eine Verbesserung der Shop-Performance sicher, da der Zugriff auf den Cache schneller und effizienter ist. Die Klassenketten für Module werden jetzt beim ersten Aufbau im Cache gespeichert und bei Bedarf von dort geladen. Dies reduziert die Lastzeiten und verbessert das allgemeine Nutzererlebnis im Shop.
+  Lösung: Wir optimieren das Laden von Modul-Erweiterungsketten, indem wir diese nun direkt aus dem Cache beziehen, anstatt auf YAML-Dateien zurückzugreifen. Dies verbessert die Shop-Performance, da der Zugriff auf den Cache schneller und effizienter ist. Die Class Chains für Module werden jetzt beim ersten Aufbau im Cache gespeichert und bei Bedarf von dort geladen. Dies reduziert die Lastzeiten und verbessert das allgemeine Nutzererlebnis im Shop.
 
-  Vorteile: Diese Optimierung führt zu einer Beschleunigung des Shops.
+  Vorteil: Diese Optimierung führt zu einer Beschleunigung des Shops.
 
   Wir empfehlen allen Shop-Betreibern, dieses Update zu implementieren, um von den Performance-Verbesserungen zu profitieren.
 
 Bereinigung veralteter Services und Methoden
 --------------------------------------------
 
-Wir haben festgestellt, dass wir bestimmte Services und Methoden nicht mehr verwenden. Diese Elemente sind veraltet und wurden durch leistungsfähigere und modernere Alternativen ersetzt.
+Bestimmte Services und Methoden sind veraltet. Wir haben sie durch leistungsfähigere und modernere Alternativen ersetzt.
 
 Im Zuge unserer laufenden Optimierungen haben wir daher folgende Komponenten entfernt:
 
-* :code:`TemplateCacheServiceInterface`: Dieser Service ist nun obsolet und wurde durch neuere Caching-Mechanismen ersetzt.
+* :code:`TemplateCacheServiceInterface`: Dieser Service ist nun obsolet, wir haben ihn durch neuere Caching-Mechanismen ersetzt.
 * :code:`BasicContextInterface::getTemplateCacheDirectory()`: Diese Methode wird nicht mehr benötigt, da der Template-Cache jetzt über verbesserte Methoden verwaltet wird.
 
 Diese Bereinigungsaktion hilft uns, die Wartbarkeit unseres Codes zu verbessern und die Performance des OXID eShops zu steigern.
