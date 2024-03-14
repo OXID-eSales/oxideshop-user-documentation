@@ -13,19 +13,11 @@ Wenn Sie Module oder Themes von Drittanbietern verwenden, fragen Sie den Drittan
 Hintergrund: Normalerweise enthält ein Minor Update keine breaking changes. Alle Module von Drittanbietern funktionieren nach dem Update wie zuvor.
 
 In Ausnahmefällen können sich Änderungen jedoch so auswirken, dass Module von Drittanbietern nicht mehr funktionieren.
-|br|
-Beispiele:
-
-.. todo: #HR: Wissen wir etwas über solche Fälle in 7.1?; Beispiele veralten: Beispiele raus, haben keine
-
-* Drittanbieter-Module funktionieren beim Update von OXID eShop 6.1 auf 6.2 nicht mehr.
-* Das OXID eSales-Modul Amazon Pay 3.6.8 funktioniert in OXID eShop 6.5 nicht mehr (siehe :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
-
 
 Voraussetzungen sicherstellen
 -----------------------------
 
-.. todo: #Hr/#MK/#tbd: prüfen: ist dieser Abschnitt in 7.1 relevant?: Support : HR: Michael soll prüfen
+.. todo: #MK/#tbd: prüfen: ist dieser Abschnitt in 7.1 relevant?: Support : HR: Michael soll prüfen
 
 Bevor Sie ein Minor Update auf die gewünschte Zielversion von OXID eShop ausführen können, stellen Sie sicher, dass Sie die technischen Voraussetzungen für das Update erfüllen.
 
@@ -129,7 +121,7 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
    |br|
    Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``7.1.0``:
 
-   .. todo: #HR/#MK: Verifizieren
+   .. todo: #MK: Verifizieren
 
    .. code:: bash
 

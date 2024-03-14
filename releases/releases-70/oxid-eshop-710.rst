@@ -7,9 +7,8 @@ Die wichtigsten Änderungen im Überblick
 ---------------------------------------
 
 
-* #tbd
-
-  .. todo: #HR Was ist das wichtigste an 7.1?: Barrierefreiheit; --> #SB fragen: eye able assist Modul, Apay- und Demodaten
+.. todo: https://oxidesalesag-my.sharepoint.com/:p:/g/personal/heike_reuter_oxid-esales_com/EX0qy6fbpnBDvo5AU_xO8ZMBbf_DXJpk6tpfUr6AGu4OAA?e=jpN2of
+  .. todo: #SB: HR Was ist das wichtigste an 7.1?: Barrierefreiheit; --> #SB fragen: eye able assist Modul, Apay- und Demodaten
     VCMS Bundle: #MF Mikkel fragen: was ist neu
     neue PHP-Version
     Modulabhängigkeiten
@@ -36,28 +35,13 @@ Neue Funktionen für Anwender
 
   Weitere Informationen finden Sie ìn der Beschreibung, wie Sie :ref:`Artikel zeitgesteuert aktivieren <zeitaktivierung>`.
 
-  .. todo: #tbd: Install 7.1, test function, add screenshot in docu where applicable
+  .. todo: #DK: tbd: Install 7.1, test function, add screenshot in docu where applicable
      Weitere Informationen finden Sie unter :ref:einrichtung/artikel/registerkarte-stamm#
 
 
 
 Neue Funktionen für Entwickler
 ------------------------------
-
-
-
-Services für Subshops
-^^^^^^^^^^^^^^^^^^^^^
-
-Shops can have their own service configuration (Services für Subshops)
-
-.. todo: #tbd: Make draft: Determine benefit, provide example, how-to
-
-OXDEV-7468 Add documentation for shop configurable services: https://github.com/OXID-eSales/developer_documentation/commit/b638ffa84e172c8066ce35a68173fbc25d041026
-
-Feature: You can create se. Configs, not only global; e.g. logging module;
-
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
 Abhängigkeiten zwischen Modulen definieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -76,20 +60,21 @@ Weitere Informationen finden Sie in der Entwicklerdokumentation unter `Defining 
 Symfony DI-Container nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Symfony DI-Container zum Anpassen und Verwalten von Services
+* Services pro Subshop individuelles konfigurieren
 
   .. todo: #03
-  .. todo: #HR/#SB: Ist das neu?
 
-  Der Symfony DI Container im OXID eShop ermöglicht Ihnen ein flexibles und effizientes Verwalten von Services, unterstützt die Anpassung bestehender Services und fördert die Entwicklung wartbarer und erweiterbarer Anwendungen.
+  Überschreiben Sie gezielt pro Subshop die vom Shop verwendeten Services.
 
-  Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Use services in non-DI classes <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
+  Der Symfony DI Container im OXID eShop ermöglicht Ihnen damit ein noch flexibleres und effizienteres Verwalten von Services.
 
-* Nutzung von Services in Non-DI-Klassen
+  Weitere Informationen über Symfony DI-Container zum Anpassen und Verwalten von Services finden Sie in der Entwickler-Dokumentation unter `Use services in non-DI classes <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
+
+* Services in Non-DI-Klassen nutzen
 
   .. todo: #01
 
-  Greifen Sie auch in Bereichen, die nicht für Dependency Injection (DI) vorgesehen sind, auf den Symfony DI-Container zu.
+  Erleichtern Sie Ihre Arbeit als Modul-Entwickler, indem Sie auch in Bereichen, die nicht für Dependency Injection (DI) vorgesehen sind, auf den zentralen Symfony DI-Container zugreifen.
 
   Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Use services in non-DI classes <https://docs.oxid-esales.com/development/modules_components_themes/module/module_services.rst#use-services-in-non-di-classes.html>`_.
 
@@ -97,7 +82,7 @@ Installieren von Paketen über die Kommandozeilenschnittstelle
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #02
-.. todo: #SB/#HR: Ist das ein neues Feature? So weit ich sehe, haben wir nur ein neues Kapitel in der Dev-Doku.
+.. todo: SB/HR: HR so OK: jetzt regulär; Ist das ein neues Feature? So weit ich sehe, haben wir nur ein neues Kapitel in der Dev-Doku.; vorher Dev-Komponente nachzuinstalieren
 
 Um ein Theme zu aktivieren, müssen Sie nicht die Administratoroberfläche im OXID eShop verwenden.
 
@@ -111,15 +96,6 @@ Weitere Informationen finden Sie in der Entwickler-Dokumentation unter
 Clean Up
 --------
 
-Folgende veraltete (deprecated) Funktionen haben wir entfernt.
-
-.. todo: Zur Info: getContainer() and dispatchEvent() methods in Core classes	Dev
-         DK: not documented, so not to be mentioned; : deprecated as of 7.1, removed as of 8.0
-
-.. todo: Zur Info: Global function \makeReadable(); DK: not to be mentioned in docu
-
-.. todo: Zur Info: TemplateFileResolverInterface is redundant and will be removed in the next major version, template extension resolving is already performed in TemplateRenderer
-        DK: it's a leftover: will be reomoved, not to be mentioned; Smarty Überbleibsel, DK checks
 
 Einladungs-Funktion
 ^^^^^^^^^^^^^^^^^^^
@@ -160,21 +136,15 @@ To use such a function safely and effectively, we recommend developing a special
 * Monitoring and analysis: Actively monitor the use of the invitation system to detect anomalies or abuse patterns at an early stage. Analyze the data regularly to adjust the security measures accordingly.
 
 
-
-
-
-
-Deprecated console classes
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Veraltete (deprecated) Konsolenklassen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #06
 .. todo: #HR: prüfen
 
-`test <https://docs.oxid-esales.com/developer/en/latest/conventions.html#conventions_images>`_
+Folgende Konsolenklassen (console classes) aus dem internen Namensraum sind als veraltet markiert und werden im nächsten Major Release entfernt.
 
-Folgende Konsolenklassen aus dem internen Namensraum sind als veraltet markiert und werden im nächsten Major Release entfernt.
-
-Prüfen Sie Ihren Code durchsuchen, um festzustellen, ob und wo die als veraltet markierten Klassen verwenden.
+Prüfen Sie Ihren Code, um festzustellen, ob und wo Sie die als veraltet markierten Klassen verwenden.
 
 Nachdem Sie gegebenenfalls Ihren Code aktualisiert haben, um die veralteten Klassen zu ersetzen, führen Sie Tests durch, um sicherzustellen, dass Ihre Anwendungen weiterhin wie erwartet funktionieren.
 
@@ -183,6 +153,13 @@ Nachdem Sie gegebenenfalls Ihren Code aktualisiert haben, um die veralteten Klas
 * :code:`CommandsProvider`
 * :code:`CommandsProviderInterface`
 
+.. todo: DK: not documented, so not to be mentioned; : deprecated as of 7.1, removed as of 8.0
+F       olgende zuvor als veraltet (deprecated) markierten Funktionen haben wir entfernt.
+        * getContainer()
+        * dispatchEvent() methods in Core classes	Dev
+.. todo: Zur Info: Global function \makeReadable(); DK: not to be mentioned in docu
+.. todo: Zur Info: TemplateFileResolverInterface is redundant and will be removed in the next major version, template extension resolving is already performed in TemplateRenderer
+        DK: it's a leftover: will be reomoved, not to be mentioned; Smarty Überbleibsel, DK checks
 
 Komponenten
 -----------
@@ -192,8 +169,7 @@ Komponenten der Compilation
 
 Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 
-.. todo: #HR: 703: Wann haben wir die Info? CE 704; Twig 230, final prüfen durch DK
-            710: Info kommen
+.. todo: #HR:  710: Infos abwarten
 
 * `OXID eShop CE 7.0.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.3/CHANGELOG-7.0.md#v703---2024-02-20>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
@@ -223,23 +199,11 @@ Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 Korrekturen
 -----------
 
-.. todo: 703: keine Tracking IDs: https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.0.x/CHANGELOG-7.0.md
+Die Korrekturen finden Sie im `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md>`_.
 
-
-.. todo: #08 #HR: Welche Tracking ID? HR: keine Itacking IDs, nur aufs Changelog verweisen
-        Wrong property "_oUserData" used in ContactController PR-918	RN			Bug tacking
-
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
-
-.. todo: #09 #HR: Welche Tracking ID?
-        Can't use dot character for template file names	RN			Bug tacking: nein
-
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
-
-.. todo: #10 #HR: Executing oe-console command with an invalid shop-id value will be interrupted	RN			if shop id ivalid; will just stop to work, check whether it's in the bug tracker -- kein Bug tacker
-
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
-
+.. todo: #08 https://github.com/OXID-eSales/oxideshop_ce/pull/918
+.. todo: #09 Can't use dot character for template file names
+.. todo: #10 #HR: https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md#changed
 
 
 Installation

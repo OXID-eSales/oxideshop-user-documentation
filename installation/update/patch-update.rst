@@ -46,7 +46,7 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
    |br|
    Optional: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
 
-   .. todo: #tbd 7.x: evtl. reuse: #HR: in welchem Fall brauche ich die entwicklungsbezogenen Dateien?
+   .. todo: #tbd 7.x: evtl. reuse: #MK: no-dev als Standardardfall? in welchem Fall brauche ich die entwicklungsbezogenen Dateien?
 
    .. code:: bash
 
