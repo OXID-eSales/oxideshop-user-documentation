@@ -15,28 +15,120 @@ Die wichtigsten Änderungen im Überblick
     Subshop-Services
     Bugfixes, s.Changelog CE
 
-Technologien
-------------
+Sicherheit und Zuverlässigkeit
+------------------------------
 
-Wir haben die Kompatibilität des OXID eShop verbessert, um Sicherheit und Performance sicherzustelen. Dazu gehört die Unterstützung für
+Wir haben die Kompatibilität des OXID eShop verbessert, um sowohl die Sicherheit als auch die Performance zu gewährleisten. Zu den Maßnahmen zählen:
 
-* PHP Version 8.2
-* Unterstützung für PHPUnit Version 10
-* Symfony 6.3
+* Die Unterstützung für PHP Version 8.2, um aktuelle und sichere Software-Umgebungen zu garantieren.
+
+  Weitere Informationen zum Lebenszyklus von PHP-Versionen finden Sie unter https://www.php.net/supported-versions.php.
+
+  Anmerkung: Der :productname:`OXID eShop` 7.1 unterstützt PHP 8.1/8.2.
+
+* Ein Update auf Symfony 6.3 gewährleistet die Kompatibilität mit PHP 8.2 und sorgt für eine zukunftssichere Basis unseres Systems.
+
+* Die Implementierung von PHPUnit Version 10 ermöglicht modernes Testing und Qualitätssicherung, um die Zuverlässigkeit des :productname:`OXID eShop` weiter zu erhöhen.
+
 
 Neue Funktionen für Anwender
 ----------------------------
 
+Visual CMS
+^^^^^^^^^^
+
+Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist jetzt standardmäßig in der Professional Edition enthalten.
+
+.. todo: #SB: D.h. nicht mehr bezahlpflichtig?
+.. todo: #MF: so korrekt und vollständig?:
+
+Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbessert, um das Modul leistungsfähiger für zukünftige Anforderungen zu machen:
+
+* Legen Sie sofort los: Um Ihnen den Einstieg zu erleichtern, haben wir unsere Dokumentation mit praktischen Beispielen angereichert.
+* Hinterlegen Sie für jedes Bild im Karussell einen Link, den der Besucher anklicken kann: Wir haben das Karussell-Widget entsprechend erweitert.
+
+  .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
+
+* Erzeugen Sie Bilder in besserer Qualität und auf einfachere Weise:
+
+  * Löschen Sie den Thumbnail-Ordner, dann werden die Thumbnails automatisch neu generiert.
+  * Generieren Sie Thumbnails für Ihre Bilder im SVG Format
+  * Generieren Sie Thumbnails für Ihre Bilder mit Transparenz
+  * Beeinflussen Sie die Darstellung Ihre Bilder über CSS-Klassen
+
+  .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
+  .. todo: #SB/#MF: Was heißt bedarfsorientiert?: "Wir haben das bedarfsorientierte Erstellen von Thumbnails verbessert."
+  .. todo: #SB/#MF Klären: Erwähnen wir folgendes? Auch das Hochladen und Verlinken von Dateien wie PDFs in Ihrem WYSIWYG-Editor ist nun möglich. Beachten Sie, dass diese Funktion noch experimentell und nicht vollständig ausgereift ist.
+  .. todo: #SB/#MF: Brauchen wir das: "- bei Speicherung von Inhalten werden nun Fehler im individuellen CSS/LESS gemeldet - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
+
+* Die Sicherheit beim Hochladen von Bildern habe wir erhöht, indem wir über die :file:`config.inc.php`-Datei die erlaubten Formate strikt definieren.
+
+ .. todo: #SB/#MF: Kann/soll der Shopbetreiber die :file:`config.inc.php`-Datei  evtl. anpassen?
+
+* Nutzen Sie folgende neuen Dateiformate:
+
+  * AVIF: Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP. Binden Sie über Widgets Animationen ein.
+  * PDF
+  * ZIP
+
+  .. todo: #SB/#MF: Was ist der use case für für PDF und ZIP?
+
+* Profitieren Sie von der verbesserten Unterstützung folgender Dateiformate:
+  * GIF
+  * SVG
+  * WebP
+
+  .. todo: #SB/#MF: Was haben wir verbessert?
+
+* Erweitern Sie Shortcodes leichter. Damit Sie sie leichter einbinden, haben wir die Schnittstelle zum Einbinden neuer Shortcodes übersichtlicher und einfacher gestaltet.
+
+  .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
+
+* Erstellen Sie Ordner, um Ihre Dateien besser zu organisieren.
+
+  Dazu haben wir das MediaLibrary-Modul zu einem eigenständigen Modul weiterentwickelt.
+
+  .. todo: #HB/#MF: Erwähnen wir Folgendes? Ist das Umbenennen fertig? "Benennen Sie Dateien und Ordner bei Bedarf um. Das erfordert jedoch vorerst noch etwas Arbeit, weil wir einfache Dateipfade verwenden. Das heißt, die Beziehungen im VisualCMS und WYSIWYG-Editor werden nicht automatisch aktualisiert."
+  .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
+
+* Profitieren Sie von einer verbesserten Bedienfreundlichkeit. Dazu haben wir Parsing-Fehler weiter verringert.
+
+Barrierefreien Zugang ermöglichen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihr :productname:`OXID eShop` nutzen können.
+
+Implementieren Sie dazu die Barrierefreiheitsrichtlinien gemäß des Behindertengleichstellungsgesetzes (BFSG) und der Web Content Accessibility Guidelines (WCAG).
+
+Installieren Sie dazu das Eye-Able Assist-Modul als kostenlose Teaserversion.
+
+.. todo: #SB: Wie kriege ich das Modul?
+
+Im Administratorbereich Ihres :productname:`OXID eShop` erscheint dann ein Vorschau-Bericht.
+
+.. todo: #SB: Wozu dient das Modul, was macht es, was ist das Ergebnis?
+
+.. todo: Screenshot Eye Able Kurzreport (report teaser) ergänzen
+.. todo: Evtl. Screenshot Eye Able Report ergänzen
+
+
+
 .. todo: #05
 
-* Time activated products have different status icons in the product list
+Zeitgesteuerte Artikel leichter unterscheiden
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  automatic feature: Admin | core | Performance; sth time period;  actibvate producte to be activated in time range: now with icon;
+Zeitgesteuerte Artikel haben in der Artikel-Liste ein gesondertes Status-Icon.
+.. todo: tbd: Screenshot, sobald Funktion verfügbar, siehe die Dokulinks unten
+     Admin | core | Performance; sth time period
 
-  Weitere Informationen finden Sie ìn der Beschreibung, wie Sie :ref:`Artikel zeitgesteuert aktivieren <zeitaktivierung>`.
+Weitere Informationen finden Sie
 
-  .. todo: #DK: tbd: Install 7.1, test function, add screenshot in docu where applicable
-     Weitere Informationen finden Sie unter :ref:einrichtung/artikel/registerkarte-stamm#
+* ìn der Beschreibung, wie Sie :ref:`Artikel zeitgesteuert aktivieren <zeitaktivierung>`.
+* unter :ref:einrichtung/artikel/registerkarte-stamm#
+
+.. todo: #HR/#DK: tbd: Install 7.1, test function, add screenshot in docu where applicable
+
 
 
 
@@ -48,11 +140,17 @@ Abhängigkeiten zwischen Modulen definieren
 
 .. todo: #04
 
-Definieren Sie Abhängigkeiten zwischen Modulen, falls erforderlich.
+Wir entwickeln Modul-Pakete, beispielsweise OXAPI, B2B und VisualCMS, bei denen Module aufeinander aufbauen und von bereitgestellten Services abhängig sind.
 
-Verwenden Sie diese Option, wenn Sie ein Basismodul mit Kernfunktionen haben, die zwingend aktiv sein müssen, damit andere Module funktionieren.
+* Wenn Sie als Administrator versuchen, ein Modul ohne erfüllte Abhängigkeiten zu aktivieren, wird angezeigt wird, welche Module vorher aktiviert werden müssen.
 
-Weitere Informationen finden Sie in der Entwicklerdokumentation unter `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
+  Ebenso können Sie ein Modul nicht deaktivieren, das von anderen benötigt wird.
+
+* Um unbeabsichtigte Fehlaktivierungen durch Administratoren zu vermeiden, definieren Sie als Modul-Entwickler Abhängigkeiten zwischen Modulen, falls erforderlich.
+
+  Verwenden Sie diese Option, wenn Sie ein Basismodul mit Kernfunktionen haben, die zwingend aktiv sein müssen, damit andere Module funktionieren.
+
+  Weitere Informationen finden Sie in der Entwicklerdokumentation unter `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
 
 .. todo: #tbd: URL verifizieren
 
