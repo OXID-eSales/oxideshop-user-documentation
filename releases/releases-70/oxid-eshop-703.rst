@@ -1,9 +1,7 @@
 OXID eShop 7.0.3
 ================
 
-Release-Datum: xx.03.2024
-
-.. todo #HR: Determine date: vermutlich nach B2B 26.3.
+Release-Datum: 26.03.2024
 
 Korrekturen
 -----------
