@@ -3,7 +3,7 @@ Installing a patch update
 
 Perform a patch update of your OXID eShop if required.
 
-Use the following steps to update the compilation from an existing version 7.0.0 to version 7.0.2, for example.
+Use the following steps to update the compilation from an existing version 7.0.2 to version 7.0.3, for example.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -34,11 +34,11 @@ Use the following steps to update the compilation from an existing version 7.0.0
 
          composer require --no-update oxid-esales/oxideshop-metapackage-<edition type: ce, pe, or ee>:v<version number>.
 
-   b. Run the command, in our example for updating an enterprise edition 7.0.0 to 7.0.2:
+   b. Run the command, in our example for updating an enterprise edition 7.0.2 to 7.0.3:
 
       .. code:: bash
 
-         composer require --no-update oxid-esales/oxideshop-metapackage-ee:v7.0.2
+         composer require --no-update oxid-esales/oxideshop-metapackage-ee:v7.0.3
 
 #. Update the required libraries.
    |br|
