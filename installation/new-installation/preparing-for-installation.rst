@@ -18,7 +18,9 @@ Installation instructions can be found in the “Getting Started” section of t
 |schritt| Providing shop files
 ------------------------------
 
-The shop files are provided by Composer. Depending on the shop edition, different commands have to be run in the shell. The shop files are stored in a subdirectory that is specified with :command:`your_project_name` in the command. This is based on the directory in which the command is run in the shell. Specify the :command:`--no-dev` parameter if the development-related files are not required.
+The shop files are provided by Composer. Depending on the shop edition, different commands have to be run in the shell. The shop files are stored in a subdirectory that is specified with :command:`your_project_name` in the command. This is based on the directory in which the command is run in the shell.
+
+Optional: If you need the development-related files, omit the :command:`--no-dev` parameter.
 
 .. hint:: For the installation of the Professional and Enterprise Edition you need additional credentials, which you have received by email at the time of purchase or when they were changed.
 

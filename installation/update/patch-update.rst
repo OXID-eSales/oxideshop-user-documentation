@@ -42,9 +42,9 @@ Use the following steps to update the compilation from an existing version 7.0.2
 
 #. Update the required libraries.
    |br|
-   To do this, run the following composer command.
+   To do so, run the following composer command.
    |br|
-   Optional: If you don't need the development-related files, use the :command:`--no-dev` parameter.
+   Optional: If you need the development-related files, omit the :command:`--no-dev` parameter.
 
    .. code:: bash
 
