@@ -138,7 +138,7 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
    |br|
    Dadurch werden alle benötigten Bibliotheken aktualisiert.
    |br|
-   Den Parameter :command:`--no-dev` geben Sie an, wenn Sie die entwicklungsbezogenen Dateien nicht brauchen.
+   Wenn Sie die entwicklungsbezogenen Dateien brauchen, führen Sie Befehl ohne den Parameter :command:`--no-dev` aus.
 
    .. code:: bash
 

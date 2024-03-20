@@ -18,7 +18,9 @@ Eine Anleitung zur Installation finden Sie im Abschnitt "Getting Started" der Co
 |schritt| Shop-Dateien bereitstellen
 ------------------------------------
 
-Die Shop-Dateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edition müssen dafür unterschiedliche Kommandos in der Shell ausgeführt werden. Die Shop-Dateien werden in einem Unterverzeichnis gespeichert, welches im Kommando mit :command:`your_project_name` angegeben wird. Dabei wird von dem Verzeichnis ausgegangen, in dem der Befehl in der Shell abgesetzt wird. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
+Die Shop-Dateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edition müssen dafür unterschiedliche Kommandos in der Shell ausgeführt werden. Die Shop-Dateien werden in einem Unterverzeichnis gespeichert, welches im Kommando mit :command:`your_project_name` angegeben wird. Dabei wird von dem Verzeichnis ausgegangen, in dem der Befehl in der Shell abgesetzt wird.
+
+Wenn Sie die entwicklungsbezogenen Dateien brauchen, führen Sie Befehl ohne den Parameter :command:`--no-dev` aus.
 
 .. hint:: Für die Installation der Professional und Enterprise Edition benötigen Sie zusätzlich Zugangsdaten, die Sie beim Kauf oder bei Änderung per E-Mail erhalten haben.
 
