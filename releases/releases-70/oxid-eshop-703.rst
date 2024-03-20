@@ -29,7 +29,7 @@ Korrekturen
 Änderungen
 ----------
 
-Mit dem Apex-Theme 1.2.1 können Sie als Entwickler von Zahlungsmodulen im Checkout auf das :code:`basketLoaded`-Ereignis zugreifen.
+Mit dem Apex-Theme 1.2.2 können Sie als Entwickler von Zahlungsmodulen im Checkout auf das :code:`basketLoaded`-Ereignis zugreifen.
 
 Weitere Informationen finden Sie im `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v1.2.2/CHANGELOG-1.x.md>`_.
 
