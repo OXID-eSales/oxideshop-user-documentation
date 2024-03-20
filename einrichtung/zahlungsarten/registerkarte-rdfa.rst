@@ -40,6 +40,6 @@ Tun Sie auf der Registerkarte :guilabel:`RDFa` für jede Zahlungsart, die Sie ko
 
 .. Intern: oxbadc, Status:, F1: payment_rdfa.html
 
-.. ToDo: #tbd 7x: #SB: Gibts Goodrelations noch?; Vasyl gefixed,Test steht aus, SB prüft (Wirkungsweise/Bug klären (geht es automatisch?) und in EN nachziehen, Bild mit HTML-Resulat ergänzen: typeof="gr:PaymentMethod)
+.. ToDo: #tbd 7.x: #SB: Gibts Goodrelations noch?; Vasyl gefixed,Test steht aus, SB prüft (Wirkungsweise/Bug klären (geht es automatisch?) und in EN nachziehen, Bild mit HTML-Resulat ergänzen: typeof="gr:PaymentMethod)
 
 

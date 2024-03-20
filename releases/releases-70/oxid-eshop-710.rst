@@ -8,7 +8,7 @@ Die wichtigsten Änderungen im Überblick
 
 
 .. todo: https://oxidesalesag-my.sharepoint.com/:p:/g/personal/heike_reuter_oxid-esales_com/EX0qy6fbpnBDvo5AU_xO8ZMBbf_DXJpk6tpfUr6AGu4OAA?e=jpN2of
-  .. todo: #SB: HR Was ist das wichtigste an 7.1?: Barrierefreiheit; --> #SB fragen: eye able assist Modul, Apay- und Demodaten
+  .. todo: Barrierefreiheit; eye able assist Modul, Apay- und Demodaten
     VCMS Bundle: #MF Mikkel fragen: was ist neu
     neue PHP-Version
     Modulabhängigkeiten
@@ -39,7 +39,7 @@ Visual CMS
 
 Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist jetzt standardmäßig in der Professional Edition enthalten.
 
-.. todo: #SB: D.h. nicht mehr bezahlpflichtig?
+.. todo: #HR: SB: -- HR fragenD.h. nicht mehr bezahlpflichtig? --
 .. todo: #MF: so korrekt und vollständig?:
 
 Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbessert, um das Modul leistungsfähiger für zukünftige Anforderungen zu machen:
@@ -57,28 +57,29 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
   * Beeinflussen Sie die Darstellung Ihre Bilder über CSS-Klassen
 
   .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
-  .. todo: #SB/#MF: Was heißt bedarfsorientiert?: "Wir haben das bedarfsorientierte Erstellen von Thumbnails verbessert."
-  .. todo: #SB/#MF Klären: Erwähnen wir folgendes? Auch das Hochladen und Verlinken von Dateien wie PDFs in Ihrem WYSIWYG-Editor ist nun möglich. Beachten Sie, dass diese Funktion noch experimentell und nicht vollständig ausgereift ist.
-  .. todo: #SB/#MF: Brauchen wir das: "- bei Speicherung von Inhalten werden nun Fehler im individuellen CSS/LESS gemeldet - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
+  .. todo: SB/#MF: Was heißt bedarfsorientiert?: "Wir haben das bedarfsorientierte Erstellen von Thumbnails verbessert."
+  .. todo: SB/#MF Klären: Erwähnen wir folgendes? Wann nicht mehr "experimentell", warum/was? Auch das Hochladen und Verlinken von Dateien wie PDFs in Ihrem WYSIWYG-Editor ist nun möglich. Beachten Sie, dass diese Funktion noch experimentell und nicht vollständig ausgereift ist.
+  .. todo: MF: Brauchen wir das: Checker, der Fehler verhindert: robuster: "- bei Speicherung von Inhalten werden nun Fehler im individuellen CSS/LESS gemeldet - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
+            SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-single-source
 
-* Die Sicherheit beim Hochladen von Bildern habe wir erhöht, indem wir über die :file:`config.inc.php`-Datei die erlaubten Formate strikt definieren.
+* Die Sicherheit beim Hochladen von Bildern haben wir erhöht, indem wir über die :file:`config.inc.php`-Datei die erlaubten Formate strikt definieren.
 
- .. todo: #SB/#MF: Kann/soll der Shopbetreiber die :file:`config.inc.php`-Datei  evtl. anpassen?
+ .. todo: #MF: Kann/soll der Shopbetreiber die :file:`config.inc.php`-Datei  evtl. anpassen? SB: MF/AF fragen: erhöht Robust: Formate nur erweitern:? oder auch einschränken?
 
 * Nutzen Sie folgende neuen Dateiformate:
 
   * AVIF: Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP. Binden Sie über Widgets Animationen ein.
-  * PDF
-  * ZIP
+  * PDF: Stellen Sie Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereit
 
-  .. todo: #SB/#MF: Was ist der use case für für PDF und ZIP?
+  .. todo #MF folgendes ergänzen? S. Anmerkung SB unten:   * ZIP: Erleichtern Sie das Herunterladen beispielsweise von Datenblättern, technischen Zeichnungen
+  .. todo: SB/#MF: Was ist der use case für für PDF und ZIP? Z.B. Datenblätter, techn. Zeichnungen, Werbematerial; wenn config.inc erweiterbar, dann zip nicht erwähnen: klären mit MF
 
 * Profitieren Sie von der verbesserten Unterstützung folgender Dateiformate:
   * GIF
   * SVG
   * WebP
 
-  .. todo: #SB/#MF: Was haben wir verbessert?
+  .. todo: SB/#MF: Was haben wir verbessert? Vorschau mit Transparenz gemeint?
 
 * Erweitern Sie Shortcodes leichter. Damit Sie sie leichter einbinden, haben wir die Schnittstelle zum Einbinden neuer Shortcodes übersichtlicher und einfacher gestaltet.
 
@@ -89,6 +90,7 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
   Dazu haben wir das MediaLibrary-Modul zu einem eigenständigen Modul weiterentwickelt.
 
   .. todo: #HB/#MF: Erwähnen wir Folgendes? Ist das Umbenennen fertig? "Benennen Sie Dateien und Ordner bei Bedarf um. Das erfordert jedoch vorerst noch etwas Arbeit, weil wir einfache Dateipfade verwenden. Das heißt, die Beziehungen im VisualCMS und WYSIWYG-Editor werden nicht automatisch aktualisiert."
+    SB: Feste Pfade werden eingefügt, wenn sich Pfad ändert, dann Bild weg: kommt erst in 7.2; ich kann also umbenenen/verschieben, aber Links führen zu problemen, müsste überall Dateipfad anpassen oder neu einfügen
   .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
 
 * Profitieren Sie von einer verbesserten Bedienfreundlichkeit. Dazu haben wir Parsing-Fehler weiter verringert.
@@ -100,16 +102,40 @@ Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihr
 
 Implementieren Sie dazu die Barrierefreiheitsrichtlinien gemäß des Behindertengleichstellungsgesetzes (BFSG) und der Web Content Accessibility Guidelines (WCAG).
 
-Installieren Sie dazu das Eye-Able Assist-Modul als kostenlose Teaserversion.
+Aktivieren Sie dazu das Eye-Able Assist-Modul als kostenlose Testversion.
 
-.. todo: #SB: Wie kriege ich das Modul?
+.. todo: SB: Wie kriege ich das Modul? , ja ist standardmäßig in Compilation und sollte nur noch aktiviert werden
+.. todo: #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen? Oder evtl. in dieser 7.1 Release Note für diejenigen, die nich nicht umsteigen wollen von 6.5? https://github.com/Tobias-Eye-Able/eye-able-oxid-module
 
-Im Administratorbereich Ihres :productname:`OXID eShop` erscheint dann ein Vorschau-Bericht.
+Im Administratorbereich Ihres :productname:`OXID eShop` erscheint dann ein Eye Able-Kurzreport, der die Anzahl der möglichen Verbesserungen anzeigt (:ref:`oxid-eshop-710-01`, Pos. 1).
 
-.. todo: #SB: Wozu dient das Modul, was macht es, was ist das Ergebnis?
+.. todo: #tbd: Screenshot neu: Steven fragen Academy shop ohne Lizenz: was wird angezeigt?
 
-.. todo: Screenshot Eye Able Kurzreport (report teaser) ergänzen
-.. todo: Evtl. Screenshot Eye Able Report ergänzen
+.. _oxid-eshop-710-01:
+
+.. figure:: ../../media/screenshots/oxid-eshop-710-01.png
+   :alt: Eye Able-Kurzreport
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Eye Able-Kurzreport
+
+Bei Bedarf kontaktieren Sie eye-able.com, um die Voll-Version zu lizenzieren. Mit Hilfe des Eye Able-Cockpits können Sie die Barrierefreiheit Ihres eShops erreichen.
+
+In der Testversion erhalten Ihre Kunden eine visuelle Hilfe, um die Lesbarkeit Ihres eShops bei Bedarf zu erhöhen (:ref:`oxid-eshop-710-02`).
+
+.. todo: #tbd: Screenshot neu: Steven fragen Academy shop ohne Lizenz: was wird angezeigt?
+
+.. _oxid-eshop-710-02:
+
+.. figure:: ../../media/screenshots/oxid-eshop-710-02.png
+   :alt: Eye Able: visuelle Hilfe
+   :width: 250
+   :class: with-shadow
+
+   Abb.: Eye Able: visuelle Hilfe
+
+.. todo: #HR: Evtl. Screenshot Eye Able Cockpit ergänzen; auf Marketing-Materiel verweisen, gibt es eine URL?
 
 
 
@@ -119,8 +145,7 @@ Zeitgesteuerte Artikel leichter unterscheiden
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Zeitgesteuerte Artikel haben in der Artikel-Liste ein gesondertes Status-Icon.
-.. todo: tbd: Screenshot, sobald Funktion verfügbar, siehe die Dokulinks unten
-     Admin | core | Performance; sth time period
+.. todo: tbd: Screenshot, sobald Funktion verfügbar, siehe die Dokulinks unten Admin | core | Performance; sth time period
 
 Weitere Informationen finden Sie
 
@@ -160,17 +185,17 @@ Symfony DI-Container nutzen
 
 * Services pro Subshop individuelles konfigurieren
 
-  .. todo: #03
+  .. todo: #03 #tbd: verify URLs when published
 
   Überschreiben Sie gezielt pro Subshop die vom Shop verwendeten Services.
 
   Der Symfony DI Container im OXID eShop ermöglicht Ihnen damit ein noch flexibleres und effizienteres Verwalten von Services.
 
-  Weitere Informationen über Symfony DI-Container zum Anpassen und Verwalten von Services finden Sie in der Entwickler-Dokumentation unter `Use services in non-DI classes <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
+  Weitere Informationen über Symfony DI-Container zum Anpassen und Verwalten von Services finden Sie in der Entwickler-Dokumentation unter `Service Container <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
 
 * Services in Non-DI-Klassen nutzen
 
-  .. todo: #01
+  .. todo: #01; #tbd: verify URLs when published
 
   Erleichtern Sie Ihre Arbeit als Modul-Entwickler, indem Sie auch in Bereichen, die nicht für Dependency Injection (DI) vorgesehen sind, auf den zentralen Symfony DI-Container zugreifen.
 
@@ -199,9 +224,7 @@ Einladungs-Funktion
 ^^^^^^^^^^^^^^^^^^^
 
 .. todo: #07
-.. todo: SB Shop sendet E-mail: geht aus Datenschutz-/Spamschutzgründen nicht mehr
-Öffentlicher Wunschzettel
-.. todo: #SB: if Bonus points deprecated, why are they still displayed under User | :guilabel:`Erweitert` ?
+.. todo: SB Shop sendet E-mail: geht aus Datenschutz-/Spamschutzgründen nicht mehr Öffentlicher Wunschzettel
 .. todo: #tbd: Screenshot  DK provides information: as of 7.1 deprecated: removed in 8.0, may be refactored in the future
 
 Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion Einladungen aktivieren.
@@ -218,20 +241,17 @@ Um eine solche Funktion sicher und effektiv zu nutzen, empfehlen wir die Entwick
 * Anpassbare E-Mail-Vorlagen: Geben Sie den Nutzern die Möglichkeit, die Einladungs-E-Mails zu personalisieren, aber stellen Sie sicher, dass der Text bestimmte Richtlinien erfüllt und nicht missbräuchlich verwendet werden kann.
 * Monitoring und Analyse: Überwachen Sie die Nutzung des Einladungssystems aktiv, um Anomalien oder Missbrauchsmuster frühzeitig zu erkennen. Analysieren Sie die Daten regelmäßig, um die Sicherheitsmaßnahmen entsprechend anzupassen.
 
-
-To offer your registered customers the option of inviting friends and receiving bonus points in return, up to version 7.0 of the OXID eShop you could activate the Invitations function under :menuselection:`Master data --> Basic settings --> Settings --> Invitations`. --> Invitations` to activate the Invitations function.
-
-However, due to the risk of misuse by spam attacks, we have decided to remove this function.
-
-To use such a function safely and effectively, we recommend developing a special module for the OXID eShop. To prevent misuse, integrate the following security measures, for example:
-
-* Implementation of a captcha system: Before a registered customer can invite someone, they must solve a captcha. This prevents automated bots from using the invitation system.
-* Limitation the number of invitations: Set a maximum number of invitations that a customer can send within a certain period of time. This reduces the likelihood of abuse as it limits the number of possible spam invitations.
-* Confirmation by the invitee: Instead of directly awarding bonus points for simply sending an invitation, points could be credited only after the invitee accepts the invitation and fulfills certain criteria (e.g. places an order).
-* Verification of e-mail addresses: Implement email address validation and known spam domain checking to prevent invitations from being sent to randomly generated or known spam addresses.
-* User feedback and reporting: Allow your users to report abuse. This helps you to quickly identify and address potential weaknesses in the system.
-* Customizable email templates: Give users the ability to personalize the invitation emails, but make sure the text meets certain guidelines and cannot be misused.
-* Monitoring and analysis: Actively monitor the use of the invitation system to detect anomalies or abuse patterns at an early stage. Analyze the data regularly to adjust the security measures accordingly.
+.. todo: EN
+        To offer your registered customers the option of inviting friends and receiving bonus points in return, up to version 7.0 of the OXID eShop you could activate the Invitations function under :menuselection:`Master data --> Basic settings --> Settings --> Invitations`. --> Invitations` to activate the Invitations function.
+        However, due to the risk of misuse by spam attacks, we have decided to remove this function.
+        To use such a function safely and effectively, we recommend developing a special module for the OXID eShop. To prevent misuse, integrate the following security measures, for example:
+        * Implementation of a captcha system: Before a registered customer can invite someone, they must solve a captcha. This prevents automated bots from using the invitation system.
+        * Limitation the number of invitations: Set a maximum number of invitations that a customer can send within a certain period of time. This reduces the likelihood of abuse as it limits the number of possible spam invitations.
+        * Confirmation by the invitee: Instead of directly awarding bonus points for simply sending an invitation, points could be credited only after the invitee accepts the invitation and fulfills certain criteria (e.g. places an order).
+        * Verification of e-mail addresses: Implement email address validation and known spam domain checking to prevent invitations from being sent to randomly generated or known spam addresses.
+        * User feedback and reporting: Allow your users to report abuse. This helps you to quickly identify and address potential weaknesses in the system.
+        * Customizable email templates: Give users the ability to personalize the invitation emails, but make sure the text meets certain guidelines and cannot be misused.
+        * Monitoring and analysis: Actively monitor the use of the invitation system to detect anomalies or abuse patterns at an early stage. Analyze the data regularly to adjust the security measures accordingly.
 
 
 Veraltete (deprecated) Konsolenklassen
@@ -252,7 +272,7 @@ Nachdem Sie gegebenenfalls Ihren Code aktualisiert haben, um die veralteten Klas
 * :code:`CommandsProviderInterface`
 
 .. todo: DK: not documented, so not to be mentioned; : deprecated as of 7.1, removed as of 8.0
-F       olgende zuvor als veraltet (deprecated) markierten Funktionen haben wir entfernt.
+        Folgende zuvor als veraltet (deprecated) markierten Funktionen haben wir entfernt.
         * getContainer()
         * dispatchEvent() methods in Core classes	Dev
 .. todo: Zur Info: Global function \makeReadable(); DK: not to be mentioned in docu
@@ -267,7 +287,7 @@ Komponenten der Compilation
 
 Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 
-.. todo: #HR:  710: Infos abwarten
+.. todo: #HR:  710: Infos abwarten; eye-able als neue Komponente?
 
 * `OXID eShop CE 7.0.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.3/CHANGELOG-7.0.md#v703---2024-02-20>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_

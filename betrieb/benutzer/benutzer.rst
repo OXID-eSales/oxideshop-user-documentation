@@ -35,9 +35,9 @@ Registerkarte Stamm
 Registerkarte Erweitert
 -----------------------
 
-.. todo #tbd: Klären: "Bonuspunkte, Freunde einladen, Kunden werben, " obsolet? -- Bonuspunktestehen noch auf Reg.-Karte "Erweitert"
+.. todo #tbd: OXDEV-7965, "Freunde einladen, Kunden werben, " obsolet, aber evtl. reaktivieren: Klären: "Bonuspunkte, "
 
-**Inhalte**: Zusatzinformationen zum Benutzer, Telefonnummer, Handynummer, Mobilfunknummer, Newsletter, Double-Opt-in, ungültige E-Mail-Adresse, Bonität, Kreditwürdigkeit, zugelassene Zahlungsarten, URL, Bonuspunkte, Freunde einladen, Kunden werben, Zuordnung zu Benutzergruppen, keine automatische Zuordnung |br|
+**Inhalte**: Zusatzinformationen zum Benutzer, Telefonnummer, Handynummer, Mobilfunknummer, Newsletter, Double-Opt-in, ungültige E-Mail-Adresse, Bonität, Kreditwürdigkeit, zugelassene Zahlungsarten, URL, Zuordnung zu Benutzergruppen, keine automatische Zuordnung |br|
 :doc:`Artikel lesen <registerkarte-erweitert>` |link|
 
 Registerkarte Artikel
