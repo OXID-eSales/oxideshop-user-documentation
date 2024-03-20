@@ -42,16 +42,13 @@ The :guilabel:`Extended` tab allows you to store additional information about th
 :guilabel:`URL`
    This field can be used to store a web address, such as a business customer's web page, a private web page or a blog.
 
-:guilabel:`Credit points`
-   Users can earn bonus points for bringing customers to the shop.
-
-   Newly recruited customers can also receive bonus points when they register in the shop.
-
-   You will need to first activate this function in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Invitations`.
-
-   This is where you can also specify the number of bonus points for inviting new customers and for registering in the shop.
-
-   The shop owner determines how to use the users’ bonus points in the context of his/her business model.
+.. todo: Zu klären ob obsolet: OXDEV-7965, evtl. reaktivieren
+    :guilabel:`Credit points`
+       Users can earn bonus points for bringing customers to the shop.
+       Newly recruited customers can also receive bonus points when they register in the shop.
+       You will need to first activate this function in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Invitations`.
+       This is where you can also specify the number of bonus points for inviting new customers and for registering in the shop.
+       The shop owner determines how to use the users’ bonus points in the context of his/her business model.
 
 
 .. Intern: oxbads, Status: transL, F1: user_extend.html

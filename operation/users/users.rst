@@ -35,7 +35,10 @@ Main tab
 
 Extended tab
 ------------
-**Contents**: additional user information, phone number, cell phone number, mobile phone number, newsletter, double opt-in, invalid e-mail address, credit rating, creditworthiness, approved payment methods, URL, bonus points, inviting friends, referring customers, assignment to user groups, no automatic assignment |br|
+
+.. todo OXDEV-7965, "inviting friends, referring customers," obsolete; aber evtl. reaktivieren: Klären: "bonus points "
+
+**Contents**: additional user information, phone number, cell phone number, mobile phone number, newsletter, double opt-in, invalid e-mail address, credit rating, creditworthiness, approved payment methods, URL, assignment to user groups, no automatic assignment |br|
 :doc:`Read article <extended-tab>` |link|
 
 Products tab
