@@ -50,7 +50,18 @@ Aktualisierte Komponenten
 
 Wir haben die folgenden Komponenten und Module aktualisiert:
 
-* OXID eShop CE (Update von 7.0.3 auf 7.0.4): `Changelog 7.0.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.4/CHANGELOG-7.0.md>`_
+* `OXID eShop CE (Update von 7.0.3 auf 7.0.4) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.4/CHANGELOG-7.0.md>`_
+
+* `Apex theme (Update von 1.2.0 auf 1.2.1) <https://github.com/OXID-eSales/apex-theme/blob/v1.2.1/CHANGELOG-1.x.md>`_
+
+* `Twig admin theme (Update von 1.2.0 auf 2.3.0) <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.3.0/CHANGELOG-2.x.md>`_
+* `Twig component CE (Update von 2.2.0 auf 2.3.0) <https://github.com/OXID-eSales/twig-component/blob/v2.3.0/CHANGELOG.md>`_
+* `Twig component PE (Update von 2.2.0 auf 2.3.0) <https://github.com/OXID-eSales/twig-component-pe/blob/v2.3.0/CHANGELOG.md>`_
+* `Twig component EE (Update von 2.2.0 auf 2.3.0) <https://github.com/OXID-eSales/twig-component-ee/blob/v2.3.0/CHANGELOG.md>`_
+
+* `OXID eShop demo data CE/PE (Update von 8.0.0 auf 8.0.1) <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
+* `OXID eShop demo data EE (Update von 8.0.1 auf 8.0.2) <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
+
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -60,8 +71,8 @@ Die Compilation enthält die folgenden Komponenten:
 * `OXID eShop CE 7.0.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.4/CHANGELOG-7.0.md>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
 * `OXID eShop EE 7.0.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.1/CHANGELOG.md>`_
-* `Apex theme 1.2.1 <https://github.com/OXID-eSales/apex-theme/blob/v1.2.1/CHANGELOG.md>`_
-* `Twig admin theme 2.3.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.3.0/CHANGELOG.md>`_
+* `Apex theme 1.2.1 <https://github.com/OXID-eSales/apex-theme/blob/v1.2.1/CHANGELOG-1.x.md>`_
+* `Twig admin theme 2.3.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.3.0/CHANGELOG-2.x.md>`_
 * `Twig component CE 2.3.0 <https://github.com/OXID-eSales/twig-component/blob/v2.3.0/CHANGELOG.md>`_
 * `Twig component PE 2.3.0 <https://github.com/OXID-eSales/twig-component-pe/blob/v2.3.0/CHANGELOG.md>`_
 * `Twig component EE 2.3.0 <https://github.com/OXID-eSales/twig-component-ee/blob/v2.3.0/CHANGELOG.md>`_
