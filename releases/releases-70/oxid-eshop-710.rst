@@ -37,6 +37,8 @@ Neue Funktionen für Anwender
 Visual CMS
 ^^^^^^^^^^
 
+.. todo: #tbd: Admin Funktion von VCMS verschieben unter Neuerungen für Admins
+
 Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist jetzt standardmäßig in der Professional Edition enthalten.
 
 .. todo: #HR: SB: -- HR fragenD.h. nicht mehr bezahlpflichtig? --
@@ -54,9 +56,10 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
   .. todo: #EN MediaLibrary-Modul
 
   * SVG
-  * AVIF: Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP.
+  * AVIF:
 
-    Binden Sie über Widgets Animationen ein.
+    * Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP.
+    * Binden Sie über Widgets Animationen ein.
 
 * Erzeugen Sie Bilder in besserer Qualität und auf einfachere Weise:
 
@@ -72,7 +75,7 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
     Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
 
   .. todo: MF kommt mit vorauss. mit 7.2 - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
-SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
+        SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
 
 * Stellen Sie Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereit.
 
@@ -104,15 +107,16 @@ SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bis
 
   .. todo: #MF: Sicherstellen, dass ein Hinweis daran erinnert, dass der Benutzer die Bilder manuell neu einbetten muss, wenn er ein Bild umbenennt oder in einen Ordner verschiebt.
 
-  Berücksichtigen Sie beim Aktivieren der Module die Reihenfolge:
+  .. note::
+     Berücksichtigen Sie beim Aktivieren der Module die Reihenfolge:
 
-  .. todo: EN: MediaLibrary-Modul
+     .. todo: EN: MediaLibrary-Modul
 
-  1. Mediathek
-  #. Summernote WYSIWYG Editor
-  #. Visual CMS
+     1. Mediathek
+     #. Summernote WYSIWYG Editor
+     #. Visual CMS
 
-  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
+     Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Neuinstallation <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
 
 * Erweitern Sie Shortcodes leichter. Damit Sie sie leichter einbinden, haben wir die Schnittstelle zum Einbinden neuer Shortcodes übersichtlicher und einfacher gestaltet.
 
@@ -125,7 +129,7 @@ SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bis
   Passen Sie dazu in der :file:`config.inc.php`-Datei den Parameter :code:`aAllowedUploadTypes` an.
 
   .. todo: #AF/#HR: Why xls, ppt? $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');
-.. todo: #AF:  Formate nur erweitern:? oder auch einschränken?  Kontrollieren, welche Formate hochgeladen werden können: Admins;
+  .. todo: #AF:  Formate nur erweitern:? oder auch einschränken?  Kontrollieren, welche Formate hochgeladen werden können: Admins;
 
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
 * Profitieren Sie von einer verbesserten Bedienfreundlichkeit. Dazu haben wir Parsing-Fehler weiter verringert.
@@ -168,16 +172,15 @@ In der Testversion erhalten Ihre Kunden eine visuelle Hilfe, um die Lesbarkeit I
 .. _oxid-eshop-710-02:
 
 .. figure:: ../../media/screenshots/oxid-eshop-710-02.png
-   :alt: Eye Able: visuelle Hilfe
+   :alt: Eye Able: Visuelle Hilfe
    :width: 250
    :class: with-shadow
 
-   Abb.: Eye Able: visuelle Hilfe
+   Abb.: Eye Able: Visuelle Hilfe
 
 .. todo: #HR: Evtl. Screenshot Eye Able Cockpit ergänzen; auf Marketing-Materiel verweisen, gibt es eine URL?
 
 Weitere Informationen finden Sie unter https://github.com/Tobias-Eye-Able/eye-able-oxid-module.
-
 
 
 .. todo: #05
@@ -194,8 +197,6 @@ Weitere Informationen finden Sie
 * unter :ref:einrichtung/artikel/registerkarte-stamm#
 
 .. todo: #HR/#DK: tbd: Install 7.1, test function, add screenshot in docu where applicable
-
-
 
 
 Neue Funktionen für Entwickler
