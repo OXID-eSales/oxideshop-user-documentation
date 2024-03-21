@@ -9,7 +9,7 @@ Die wichtigsten Änderungen im Überblick
 
 .. todo: https://oxidesalesag-my.sharepoint.com/:p:/g/personal/heike_reuter_oxid-esales_com/EX0qy6fbpnBDvo5AU_xO8ZMBbf_DXJpk6tpfUr6AGu4OAA?e=jpN2of
   .. todo: Barrierefreiheit; eye able assist Modul, Apay- und Demodaten
-    VCMS Bundle: #MF Mikkel fragen: was ist neu
+    VCMS
     neue PHP-Version
     Modulabhängigkeiten
     Subshop-Services
@@ -40,60 +40,97 @@ Visual CMS
 Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist jetzt standardmäßig in der Professional Edition enthalten.
 
 .. todo: #HR: SB: -- HR fragenD.h. nicht mehr bezahlpflichtig? --
-.. todo: #MF: so korrekt und vollständig?:
+.. todo: #MF: so korrekt und vollständig?
 
 Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbessert, um das Modul leistungsfähiger für zukünftige Anforderungen zu machen:
 
 * Legen Sie sofort los: Um Ihnen den Einstieg zu erleichtern, haben wir unsere Dokumentation mit praktischen Beispielen angereichert.
 * Hinterlegen Sie für jedes Bild im Karussell einen Link, den der Besucher anklicken kann: Wir haben das Karussell-Widget entsprechend erweitert.
 
-  .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
+  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Karussell/Slider <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
+
+* Profitieren Sie von der Unterstützung folgender Bild- und Bewegtbild-Formate durch die Mediathek:
+
+  .. todo: #EN MediaLibrary-Modul
+
+  * SVG
+  * AVIF: Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP.
+
+    Binden Sie über Widgets Animationen ein.
 
 * Erzeugen Sie Bilder in besserer Qualität und auf einfachere Weise:
 
-  * Löschen Sie den Thumbnail-Ordner, dann werden die Thumbnails automatisch neu generiert.
+  .. todo: MF: nicht neu:   * Löschen Sie den Thumbnail-Ordner, dann werden die Thumbnails automatisch neu generiert.
+
   * Generieren Sie Thumbnails für Ihre Bilder im SVG Format
   * Generieren Sie Thumbnails für Ihre Bilder mit Transparenz
-  * Beeinflussen Sie die Darstellung Ihre Bilder über CSS-Klassen
 
-  .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
-  .. todo: SB/#MF: Was heißt bedarfsorientiert?: "Wir haben das bedarfsorientierte Erstellen von Thumbnails verbessert."
-  .. todo: SB/#MF Klären: Erwähnen wir folgendes? Wann nicht mehr "experimentell", warum/was? Auch das Hochladen und Verlinken von Dateien wie PDFs in Ihrem WYSIWYG-Editor ist nun möglich. Beachten Sie, dass diese Funktion noch experimentell und nicht vollständig ausgereift ist.
-  .. todo: MF: Brauchen wir das: Checker, der Fehler verhindert: robuster: "- bei Speicherung von Inhalten werden nun Fehler im individuellen CSS/LESS gemeldet - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
-            SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-single-source
+    .. todo:   .. todo: MF: ist Transparenz neu? Bei welchen Formaten?
 
-* Die Sicherheit beim Hochladen von Bildern haben wir erhöht, indem wir über die :file:`config.inc.php`-Datei die erlaubten Formate strikt definieren.
+  * Beeinflussen Sie die Darstellung Ihrer Bilder über CSS-Klassen:
 
- .. todo: #MF: Kann/soll der Shopbetreiber die :file:`config.inc.php`-Datei  evtl. anpassen? SB: MF/AF fragen: erhöht Robust: Formate nur erweitern:? oder auch einschränken?
+    Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
 
-* Nutzen Sie folgende neuen Dateiformate:
+  .. todo: MF kommt mit vorauss. mit 7.2 - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
+SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
 
-  * AVIF: Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP. Binden Sie über Widgets Animationen ein.
-  * PDF: Stellen Sie Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereit
+* Stellen Sie Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereit.
 
-  .. todo #MF folgendes ergänzen? S. Anmerkung SB unten:   * ZIP: Erleichtern Sie das Herunterladen beispielsweise von Datenblättern, technischen Zeichnungen
-  .. todo: SB/#MF: Was ist der use case für für PDF und ZIP? Z.B. Datenblätter, techn. Zeichnungen, Werbematerial; wenn config.inc erweiterbar, dann zip nicht erwähnen: klären mit MF
+  Verwalten Sie dazu folgende Dateien folgender Formate in Ihrer Mediathek und binden Sie die Dateien im Quell-Code ein:
 
-* Profitieren Sie von der verbesserten Unterstützung folgender Dateiformate:
-  * GIF
-  * SVG
-  * WebP
+  * PDF
+  * ZIP
 
-  .. todo: SB/#MF: Was haben wir verbessert? Vorschau mit Transparenz gemeint?
+  Weitere Informationen finden Sie unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+
+* Sorgen Sie für Ordnung in Ihrer Mediathek. Dazu haben wir die Mediathek zu einem eigenständigen Modul weiterentwickelt und folgende Funktionen implementiert:
+
+  * Ordner anlegen, um Medien-Dateien übersichtlich zu sortieren (:ref:`oxid-eshop-710-03`, Pos. 1).
+
+  * Dateinamen bei Bedarf ändern  (:ref:`oxid-eshop-710-03`, Pos. 2).
+
+  .. todo: Bild neu machen
+
+  .. _oxid-eshop-710-03:
+
+  .. figure:: ../../media/screenshots/oxid-eshop-710-03.png
+     :alt: Medien in der Mediathek verwalten
+     :width: 650
+     :class: with-shadow
+
+     Abb.: Medien in der Mediathek verwalten
+
+  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+
+  .. todo: #MF: Sicherstellen, dass ein Hinweis daran erinnert, dass der Benutzer die Bilder manuell neu einbetten muss, wenn er ein Bild umbenennt oder in einen Ordner verschiebt.
+
+  Berücksichtigen Sie beim Aktivieren der Module die Reihenfolge:
+
+  .. todo: EN: MediaLibrary-Modul
+
+  1. Mediathek
+  #. Summernote WYSIWYG Editor
+  #. Visual CMS
+
+  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
 
 * Erweitern Sie Shortcodes leichter. Damit Sie sie leichter einbinden, haben wir die Schnittstelle zum Einbinden neuer Shortcodes übersichtlicher und einfacher gestaltet.
 
-  .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
+  .. todo: #AF: What exactly has been changed?
 
-* Erstellen Sie Ordner, um Ihre Dateien besser zu organisieren.
+  Weitere Informationen finden Sie in der VCMS-Entwickler-Dokumentation unter `Extending the shortcode <https://github.com/OXID-eSales/vcms-documentation/blob/5.0-en/developer.rst#extending-the-shortcode>`_.
 
-  Dazu haben wir das MediaLibrary-Modul zu einem eigenständigen Modul weiterentwickelt.
+* Erhöhen Sie Robustheit Ihres eShops, indem Sie als Administrator festlegen, welche Formate Sie zum Hochladen zulassen wollen.
 
-  .. todo: #HB/#MF: Erwähnen wir Folgendes? Ist das Umbenennen fertig? "Benennen Sie Dateien und Ordner bei Bedarf um. Das erfordert jedoch vorerst noch etwas Arbeit, weil wir einfache Dateipfade verwenden. Das heißt, die Beziehungen im VisualCMS und WYSIWYG-Editor werden nicht automatisch aktualisiert."
-    SB: Feste Pfade werden eingefügt, wenn sich Pfad ändert, dann Bild weg: kommt erst in 7.2; ich kann also umbenenen/verschieben, aber Links führen zu problemen, müsste überall Dateipfad anpassen oder neu einfügen
-  .. todo: #MF: Link auf Doku-Kapitel ergänzen: "Weitere Informationen finden Sie unter <URL>."
+  Passen Sie dazu in der :file:`config.inc.php`-Datei den Parameter :code:`aAllowedUploadTypes` an.
 
+  .. todo: #AF/#HR: Why xls, ppt? $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');
+.. todo: #AF:  Formate nur erweitern:? oder auch einschränken?  Kontrollieren, welche Formate hochgeladen werden können: Admins;
+
+* Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
 * Profitieren Sie von einer verbesserten Bedienfreundlichkeit. Dazu haben wir Parsing-Fehler weiter verringert.
+
+  .. todo: #MF: Was könnte mit Parsing-Fehlern gemeint sein?
 
 Barrierefreien Zugang ermöglichen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -108,6 +145,8 @@ Aktivieren Sie dazu das Eye-Able Assist-Modul als kostenlose Testversion.
 .. todo: #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen? Oder evtl. in dieser 7.1 Release Note für diejenigen, die nich nicht umsteigen wollen von 6.5? https://github.com/Tobias-Eye-Able/eye-able-oxid-module
 
 Im Administratorbereich Ihres :productname:`OXID eShop` erscheint dann ein Eye Able-Kurzreport, der die Anzahl der möglichen Verbesserungen anzeigt (:ref:`oxid-eshop-710-01`, Pos. 1).
+
+.. todo: #SB: Wozu dienen unter Einstell. die Eye-Able® report API url und der Eye-Able® API key: Was ist der USe case?
 
 .. todo: #tbd: Screenshot neu: Steven fragen Academy shop ohne Lizenz: was wird angezeigt?
 
@@ -136,6 +175,8 @@ In der Testversion erhalten Ihre Kunden eine visuelle Hilfe, um die Lesbarkeit I
    Abb.: Eye Able: visuelle Hilfe
 
 .. todo: #HR: Evtl. Screenshot Eye Able Cockpit ergänzen; auf Marketing-Materiel verweisen, gibt es eine URL?
+
+Weitere Informationen finden Sie unter https://github.com/Tobias-Eye-Able/eye-able-oxid-module.
 
 
 
