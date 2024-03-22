@@ -120,7 +120,7 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
 
 * Erweitern Sie Shortcodes leichter. Damit Sie sie leichter einbinden, haben wir die Schnittstelle zum Einbinden neuer Shortcodes übersichtlicher und einfacher gestaltet.
 
-  .. todo: #AF: What exactly has been changed?
+  .. todo: #AF: What exactly has been changed? short code decoration simplified (4 insted of 12 methods), example module to check how to extend with new shortcodes, shows how to extend existing shortcodes = current functions, e.g. new fields; see changelog for detailed changes and clean up work: there are 3 changelogs: VCMS, Wysiwyg, and Media lib -- #MF: sufficiently tested?
 
   Weitere Informationen finden Sie in der VCMS-Entwickler-Dokumentation unter `Extending the shortcode <https://github.com/OXID-eSales/vcms-documentation/blob/5.0-en/developer.rst#extending-the-shortcode>`_.
 
@@ -128,8 +128,9 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
 
   Passen Sie dazu in der :file:`config.inc.php`-Datei den Parameter :code:`aAllowedUploadTypes` an.
 
-  .. todo: #AF/#HR: Why xls, ppt? $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');
-  .. todo: #AF:  Formate nur erweitern:? oder auch einschränken?  Kontrollieren, welche Formate hochgeladen werden können: Admins;
+  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
+
+  .. todo: #AF/#HR: Why xls, ppt? $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');  --> is in shop; vcms reuses config.inc; ppt xls can be handled by medialib
 
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
 * Profitieren Sie von einer verbesserten Bedienfreundlichkeit. Dazu haben wir Parsing-Fehler weiter verringert.
@@ -139,13 +140,13 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
 Barrierefreien Zugang ermöglichen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihr :productname:`OXID eShop` nutzen können.
+Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihren :productname:`OXID eShop` nutzen können.
 
 Implementieren Sie dazu die Barrierefreiheitsrichtlinien gemäß des Behindertengleichstellungsgesetzes (BFSG) und der Web Content Accessibility Guidelines (WCAG).
 
 Aktivieren Sie dazu das Eye-Able Assist-Modul als kostenlose Testversion.
 
-.. todo: SB: Wie kriege ich das Modul? , ja ist standardmäßig in Compilation und sollte nur noch aktiviert werden
+
 .. todo: #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen? Oder evtl. in dieser 7.1 Release Note für diejenigen, die nich nicht umsteigen wollen von 6.5? https://github.com/Tobias-Eye-Able/eye-able-oxid-module
 
 Im Administratorbereich Ihres :productname:`OXID eShop` erscheint dann ein Eye Able-Kurzreport, der die Anzahl der möglichen Verbesserungen anzeigt (:ref:`oxid-eshop-710-01`, Pos. 1).
@@ -163,7 +164,7 @@ Im Administratorbereich Ihres :productname:`OXID eShop` erscheint dann ein Eye A
 
    Abb.: Eye Able-Kurzreport
 
-Bei Bedarf kontaktieren Sie eye-able.com, um die Voll-Version zu lizenzieren. Mit Hilfe des Eye Able-Cockpits können Sie die Barrierefreiheit Ihres eShops erreichen.
+Kontaktieren Sie eye-able.com, um die Voll-Version zu lizenzieren. Stellen Sie die Barrierefreiheit Ihres eShops mit Hilfe des Eye Able-Cockpits sicher.
 
 In der Testversion erhalten Ihre Kunden eine visuelle Hilfe, um die Lesbarkeit Ihres eShops bei Bedarf zu erhöhen (:ref:`oxid-eshop-710-02`).
 
@@ -249,7 +250,7 @@ Installieren von Paketen über die Kommandozeilenschnittstelle
 .. todo: #02
 .. todo: SB/HR: HR so OK: jetzt regulär; Ist das ein neues Feature? So weit ich sehe, haben wir nur ein neues Kapitel in der Dev-Doku.; vorher Dev-Komponente nachzuinstalieren
 
-Um ein Theme zu aktivieren, müssen Sie nicht die Administratoroberfläche im OXID eShop verwenden.
+Um ein Theme zu aktivieren, müssen Sie nicht die Administrator-Oberfläche im :productname:`OXID eShop` verwenden.
 
 Nutzen Sie den Befehl :code:`bin/oe-console oe:theme:activate <theme>`.
 
