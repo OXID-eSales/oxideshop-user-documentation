@@ -1,10 +1,9 @@
-:orphan:
 Patch-Update installieren
 =========================
 
 Führen Sie bei Bedarf ein Patch-Update Ihres OXID eShops durch.
 
-Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 7.0.0 auf die Version 7.0.2.
+Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von einer bestehenden Version 7.0.2 auf die Version 7.0.3.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -34,19 +33,17 @@ Mit den folgenden Schritten aktualisieren Sie die Compilation beispielsweise von
 
          composer require --no-update oxid-esales/oxideshop-metapackage-<Typ der Edition: ce, pe oder ee>:v<Versions-Nummer>
 
-   b. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Enterprise Edition 7.0.0 zu 7.0.2:
+   b. Führen Sie den Befehl aus, in unserem Beispiel für das Update einer Enterprise Edition 7.0.2 zu 7.0.3:
 
       .. code:: bash
 
-         composer require --no-update oxid-esales/oxideshop-metapackage-ee:v7.0.2
+         composer require --no-update oxid-esales/oxideshop-metapackage-ee:v7.0.3
 
 #. Aktualisieren Sie die benötigten Bibliotheken.
    |br|
    Führen Sie dazu den folgenden Composer-Befehl aus.
    |br|
-   Optional: Wenn Sie die entwicklungsbezogenen Dateien nicht brauchen, verwenden Sie den Parameter :command:`--no-dev`.
-
-   .. todo: #tbd 7.x: evtl. reuse: #MK: no-dev als Standardardfall? in welchem Fall brauche ich die entwicklungsbezogenen Dateien?
+   Optional: Wenn Sie die entwicklungsbezogenen Dateien brauchen, lassen Sie den Parameter :command:`--no-dev` weg.
 
    .. code:: bash
 

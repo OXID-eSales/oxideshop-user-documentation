@@ -107,7 +107,8 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
 
 |procedure|
 
-1. Aktualisieren Sie Composer auf Version 2.7.
+1. Deaktivieren Sie alle Module.
+#. Aktualisieren Sie Composer auf Version 2.7.
 
    Installieren Sie Composer 2.7 beispielsweise wie folgt:
 
@@ -209,5 +210,7 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
    .. code:: bash
 
       vendor/bin/oe-eshop-db_views_generate
+
+#. Aktivieren Sie alle Module.
 
 .. Intern: oxbajz, Status:

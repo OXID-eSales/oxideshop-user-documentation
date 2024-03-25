@@ -18,9 +18,9 @@ Die wichtigsten Änderungen im Überblick
 Sicherheit und Zuverlässigkeit
 ------------------------------
 
-Wir haben die Kompatibilität des OXID eShop verbessert, um sowohl die Sicherheit als auch die Performance zu gewährleisten. Zu den Maßnahmen zählen:
+Wir haben die Kompatibilität des OXID eShop verbessert, um sowohl die Sicherheit als auch die Performance zu gewährleisten:
 
-* Die Unterstützung für PHP Version 8.2, um aktuelle und sichere Software-Umgebungen zu garantieren.
+* Die Unterstützung für PHP Version 8.2 gewährleistet aktuelle und sichere Software-Umgebungen.
 
   Weitere Informationen zum Lebenszyklus von PHP-Versionen finden Sie unter https://www.php.net/supported-versions.php.
 
@@ -37,21 +37,19 @@ Neue Funktionen für Anwender
 Visual CMS
 ^^^^^^^^^^
 
-.. todo: #tbd: Admin Funktion von VCMS verschieben unter Neuerungen für Admins
+Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist standardmäßig in der :productname:`OXID eShop Professional Edition` enthalten.
 
-Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist jetzt standardmäßig in der Professional Edition enthalten.
+Wir haben die Mediathek zu einem eigenständigen Modul weiterentwickelt. Das Modul ist ebenso wie der WYSIWYG-Editor standardmäßig in der :productname:`OXID eShop Community Edition` enthalten.
 
-.. todo: #HR: SB: -- HR fragenD.h. nicht mehr bezahlpflichtig? --
 .. todo: #MF: so korrekt und vollständig?
 
-Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbessert, um das Modul leistungsfähiger für zukünftige Anforderungen zu machen:
+Um Ihnen den Einstieg zu erleichtern, haben wir unsere Dokumentation mit praktischen Beispielen angereichert.
 
-* Legen Sie sofort los: Um Ihnen den Einstieg zu erleichtern, haben wir unsere Dokumentation mit praktischen Beispielen angereichert.
-* Hinterlegen Sie für jedes Bild im Karussell einen Link, den der Besucher anklicken kann: Wir haben das Karussell-Widget entsprechend erweitert.
+**Mediathek**
 
-  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Karussell/Slider <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
+Durch die neue Mediathek haben Sie folgende Vorteile:
 
-* Profitieren Sie von der Unterstützung folgender Bild- und Bewegtbild-Formate durch die Mediathek:
+* Profitieren Sie von der Unterstützung folgender Bild- und Bewegtbild-Formate:
 
   .. todo: #EN MediaLibrary-Modul
 
@@ -68,9 +66,9 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
   * Generieren Sie Thumbnails für Ihre Bilder im SVG Format
   * Generieren Sie Thumbnails für Ihre Bilder mit Transparenz
 
-    .. todo:   .. todo: MF: ist Transparenz neu? Bei welchen Formaten?
+    .. todo:   #MF: ist Transparenz neu? Bei welchen Formaten?
 
-  * Beeinflussen Sie die Darstellung Ihrer Bilder über CSS-Klassen:
+  * Steuern Sie die Darstellung Ihrer Bilder über CSS-Klassen:
 
     Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
 
@@ -86,13 +84,11 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
 
   Weitere Informationen finden Sie unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
-* Sorgen Sie für Ordnung in Ihrer Mediathek. Dazu haben wir die Mediathek zu einem eigenständigen Modul weiterentwickelt und folgende Funktionen implementiert:
+* Sorgen Sie für Ordnung in Ihrer Mediathek. Dazu haben wir folgende Funktionen implementiert:
 
-  * Ordner anlegen, um Medien-Dateien übersichtlich zu sortieren (:ref:`oxid-eshop-710-03`, Pos. 1).
+  * Ordner anlegen, um Medien-Dateien per Drag&Drop übersichtlich zu sortieren (:ref:`oxid-eshop-710-03`, Pos. 1).
 
   * Dateinamen bei Bedarf ändern  (:ref:`oxid-eshop-710-03`, Pos. 2).
-
-  .. todo: Bild neu machen
 
   .. _oxid-eshop-710-03:
 
@@ -107,22 +103,19 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
 
   .. todo: #MF: Sicherstellen, dass ein Hinweis daran erinnert, dass der Benutzer die Bilder manuell neu einbetten muss, wenn er ein Bild umbenennt oder in einen Ordner verschiebt.
 
-  .. note::
-     Berücksichtigen Sie beim Aktivieren der Module die Reihenfolge:
+**Code-Verbesserungen**
 
-     .. todo: EN: MediaLibrary-Modul
+Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um das Modul leistungsfähiger für zukünftige Anforderungen zu machen.
 
-     1. Mediathek
-     #. Summernote WYSIWYG Editor
-     #. Visual CMS
+* Hinterlegen Sie für jedes Bild im Karussell einen Link, den der Besucher anklicken kann: Wir haben das Karussell-Widget entsprechend erweitert.
 
-     Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Neuinstallation <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
+  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Karussell/Slider <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
 
-* Erweitern Sie Shortcodes leichter. Damit Sie sie leichter einbinden, haben wir die Schnittstelle zum Einbinden neuer Shortcodes übersichtlicher und einfacher gestaltet.
-
-  .. todo: #AF: What exactly has been changed? short code decoration simplified (4 insted of 12 methods), example module to check how to extend with new shortcodes, shows how to extend existing shortcodes = current functions, e.g. new fields; see changelog for detailed changes and clean up work: there are 3 changelogs: VCMS, Wysiwyg, and Media lib -- #MF: sufficiently tested?
+* Erweitern Sie Shortcodes leichter. Damit Sie sie leichter einbinden, haben wir die Schnittstelle zum Einbinden neuer Shortcodes übersichtlicher und einfacher gestaltet (4 anstelle von 12 Methoden).
 
   Weitere Informationen finden Sie in der VCMS-Entwickler-Dokumentation unter `Extending the shortcode <https://github.com/OXID-eSales/vcms-documentation/blob/5.0-en/developer.rst#extending-the-shortcode>`_.
+
+  Nutzen Sie unser `Beispiel-Modul <https://github.com/OXID-eSales/vcms-examples/blob/b-7.1.x/src/DecorationExample.php>`_, um sich mit dem Erweitern existierender Shortcodes vertraut zu machen.
 
 * Erhöhen Sie Robustheit Ihres eShops, indem Sie als Administrator festlegen, welche Formate Sie zum Hochladen zulassen wollen.
 
@@ -130,58 +123,75 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir zudem den Code verbesser
 
   Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
 
-  .. todo: #AF/#HR: Why xls, ppt? $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');  --> is in shop; vcms reuses config.inc; ppt xls can be handled by medialib
+  .. todo: HR: bleibt so: $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');
 
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
 * Profitieren Sie von einer verbesserten Bedienfreundlichkeit. Dazu haben wir Parsing-Fehler weiter verringert.
 
   .. todo: #MF: Was könnte mit Parsing-Fehlern gemeint sein?
 
+**Weitere Informationen**
+
+Weitere Informationen zum Installieren finden Sie in der VCMS-Dokumentation unter `Neuinstallation <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
+
+Weitere Informationen zu Änderugen finden Sie in den folgenden Changelogs:
+
+* VCMS: https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.0/CHANGELOG.md
+* WYSIWYG-Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md
+* Mediathek: https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md
+
+
 Barrierefreien Zugang ermöglichen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihren :productname:`OXID eShop` nutzen können.
+Das APEX-Theme liefern haben wir entsprechend den `Web Content Accessibility Guidelines (WCAG) (Level AA) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ barrierefrei gemacht.
 
-Implementieren Sie dazu die Barrierefreiheitsrichtlinien gemäß des Behindertengleichstellungsgesetzes (BFSG) und der Web Content Accessibility Guidelines (WCAG).
+.. todo: HR: #SB: fragen: Fronend / APEX wird jetzt WCAG-konform ausgeliefert, Level AA: weiterer Input sinnvoll/nötig?; Marketing abstimmen
+
+Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden auch Ihren :productname:`OXID eShop` nutzen können.
+
+Implementieren Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstellungsgesetz (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ und der `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_.
 
 Aktivieren Sie dazu das Eye-Able Assist-Modul als kostenlose Testversion.
 
+.. todo: #SB: Wie soll es vermarktet werden, erwähnen wir es: Evtl. später #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen?
 
-.. todo: #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen? Oder evtl. in dieser 7.1 Release Note für diejenigen, die nich nicht umsteigen wollen von 6.5? https://github.com/Tobias-Eye-Able/eye-able-oxid-module
+Eye-Able stelt eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
 
-Im Administratorbereich Ihres :productname:`OXID eShop` erscheint dann ein Eye Able-Kurzreport, der die Anzahl der möglichen Verbesserungen anzeigt (:ref:`oxid-eshop-710-01`, Pos. 1).
-
-.. todo: #SB: Wozu dienen unter Einstell. die Eye-Able® report API url und der Eye-Able® API key: Was ist der USe case?
+.. todo: #Steven Testshop mit https: "Please wait some minutes while Eye-Able® Report is being created." Wie oder wann erscheint da die Anzahl der Fehler? Oder ist die Anzahl im Testshop = 0?: geht nicht von local host
 
 .. todo: #tbd: Screenshot neu: Steven fragen Academy shop ohne Lizenz: was wird angezeigt?
 
 .. _oxid-eshop-710-01:
 
 .. figure:: ../../media/screenshots/oxid-eshop-710-01.png
-   :alt: Eye Able-Kurzreport
+   :alt: Eye Able-Kurzreport-Generierung
    :width: 650
    :class: with-shadow
 
-   Abb.: Eye Able-Kurzreport
+   Abb.: Eye Able-Kurzreport-Generierung
 
-Kontaktieren Sie eye-able.com, um die Voll-Version zu lizenzieren. Stellen Sie die Barrierefreiheit Ihres eShops mit Hilfe des Eye Able-Cockpits sicher.
+In der Testversion erhalten Ihre Kunden eine visuelle Hilfe, um die Lesbarkeit Ihres eShops bei Bedarf zu erhöhen. Unten rechts im Bildschirm erscheint ein Icon :guilabel:`Visuelle Hilfe` (:ref:`oxid-eshop-710-02`, Pos. 1). Damit lässt sich ein Menü öffnen, das es beispielsweise erlaubt, die Zeichengröße, den Kontrast und so weiter anzupassen.
 
-In der Testversion erhalten Ihre Kunden eine visuelle Hilfe, um die Lesbarkeit Ihres eShops bei Bedarf zu erhöhen (:ref:`oxid-eshop-710-02`).
-
-.. todo: #tbd: Screenshot neu: Steven fragen Academy shop ohne Lizenz: was wird angezeigt?
+.. todo: #Steven: fragen Academy shop ohne Lizenz: was wird angezeigt?
 
 .. _oxid-eshop-710-02:
 
 .. figure:: ../../media/screenshots/oxid-eshop-710-02.png
-   :alt: Eye Able: Visuelle Hilfe
-   :width: 250
+   :alt: Eye Able: Icon Visuelle Hilfe
+   :width: 650
    :class: with-shadow
 
-   Abb.: Eye Able: Visuelle Hilfe
+   Abb.: Eye Able: Icon Visuelle Hilfe
 
-.. todo: #HR: Evtl. Screenshot Eye Able Cockpit ergänzen; auf Marketing-Materiel verweisen, gibt es eine URL?
+Um die Voll-Version zu lizenzieren, kontaktieren Sie eye-able.com.
 
-Weitere Informationen finden Sie unter https://github.com/Tobias-Eye-Able/eye-able-oxid-module.
+Sie können dann die Barrierefreiheit Ihres eShops mit Hilfe des Eye Able-Dashboards sicherstellen.
+
+Weitere Informationen finden Sie unter
+
+* https://github.com/Tobias-Eye-Able/eye-able-oxid-module
+* https://eye-able.com/software-services/
 
 
 .. todo: #05
@@ -190,7 +200,7 @@ Zeitgesteuerte Artikel leichter unterscheiden
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Zeitgesteuerte Artikel haben in der Artikel-Liste ein gesondertes Status-Icon.
-.. todo: tbd: Screenshot, sobald Funktion verfügbar, siehe die Dokulinks unten Admin | core | Performance; sth time period
+.. todo: #DK: tbd: Screenshot, sobald Funktion verfügbar, siehe die Dokulinks unten Admin | core | Performance; sth time period
 
 Weitere Informationen finden Sie
 
@@ -364,7 +374,7 @@ Die Korrekturen finden Sie im `Changelog <https://github.com/OXID-eSales/oxidesh
 
 .. todo: #08 https://github.com/OXID-eSales/oxideshop_ce/pull/918
 .. todo: #09 Can't use dot character for template file names
-.. todo: #10 #HR: https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md#changed
+.. todo: #10 https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md#changed
 
 
 Installation
