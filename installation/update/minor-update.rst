@@ -112,9 +112,8 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
 
 |procedure|
 
-.. todo: #VL: how do I upgrade to V. 7.0?
-
-1. Update Composer to version 2.7.
+1. Deactivate all modules.
+#. Update Composer to version 2.7.
 
    Install Composer 2.7 as follows, for example:
 
@@ -212,5 +211,7 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
    .. code:: bash
 
       vendor/bin/oe-eshop-db_views_generate
+
+#. Activate all modules.
 
 .. Intern: oxbajz, Status:
