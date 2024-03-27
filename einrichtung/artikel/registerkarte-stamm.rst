@@ -37,7 +37,7 @@ Mit der Sprachumstellung, die erst nach Anlegen des Artikels unten im Eingabeber
 
    1. Aktivieren Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` das Kontrollkästchen :guilabel:`Beim Laden von Artikeln \"Aktiv von/bis\" berücksichtigen`.
    #. Deaktivieren Sie beim Artikel das Kontrollkästchen :guilabel:`Aktiv` (:ref:`oxbaci02`, Pos. 2).
-   #. Geben Sie Anfang und Ende im Format JJJJ-MM-TT HH:MM:SS an (:ref:`oxbaci02`, Pos. 3). Datum und Zeit des Endes der Aktivierung sind nicht optional.
+   #. Geben Sie Anfang und Ende im Format :code:`JJJJ-MM-TT HH:MM:SS` an (:ref:`oxbaci02`, Pos. 3). Datum und Zeit des Endes der Aktivierung sind nicht optional.
 
       Wollen Sie einen Artikel im Grunde nur ab einem bestimmten Datum aktiv schalten, dann geben Sie eine weit in der Zukunft liegende Endezeit ein.
 
