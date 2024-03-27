@@ -17,7 +17,7 @@ In Ausnahmefällen können sich Änderungen jedoch so auswirken, dass Module von
 Voraussetzungen sicherstellen
 -----------------------------
 
-.. todo: #MK/#tbd: prüfen: ist dieser Abschnitt in 7.1 relevant?: Support : HR: Michael soll prüfen
+.. todo: #MK/#tbd: prüfen: ist dieser Abschnitt in 7.1 relevant?: Support : HR: Michael soll prüfen: MK: nein: Abschnitt streichen
 
 Bevor Sie ein Minor Update auf die gewünschte Zielversion von OXID eShop ausführen können, stellen Sie sicher, dass Sie die technischen Voraussetzungen für das Update erfüllen.
 
@@ -122,7 +122,7 @@ Sie haben die nötigen inkrementellen Updates ausgeführt (siehe :ref:`installat
    |br|
    Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``7.1.0``:
 
-   .. todo: #MK: Verifizieren
+   .. todo: #Dev: Verifizieren
 
    .. code:: bash
 
