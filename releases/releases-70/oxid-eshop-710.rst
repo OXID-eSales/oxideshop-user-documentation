@@ -30,7 +30,7 @@ Neue Funktionen für Anwender
   automatic feature: Admin | core | Performance; sth time period;  actibvate producte to be activated in time range: now with icon;
 
   .. todo: #tbd: Install 7.1, test function, add screenshot in docu where applicable
-Weitere Informationen finden Sie unter :ref:`tbd <tbd>`.
+    Weitere Informationen finden Sie unter :ref:`tbd <tbd>`.
 
 Neue Funktionen für Entwickler
 ------------------------------
