@@ -37,7 +37,7 @@ Die wichtigsten Änderungen im Überblick
 
   * Modulabhängigkeiten
   * Symfony DI-Container-Nutzung
-  * Befehl zur Theme-Aktivierung
+  * Konsolen-Befehl zur Theme-Aktivierung
 
 Sicherheit und Zuverlässigkeit
 ------------------------------
@@ -61,9 +61,9 @@ Neue Funktionen für Anwender
 Mit Visual CMS Texte editieren und Medien verwalten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist standardmäßig in der :productname:`OXID eShop Professional Edition` enthalten.
+Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist standardmäßig ab der :productname:`OXID eShop Professional Edition` enthalten.
 
-Wir haben die Mediathek zu einem eigenständigen Modul weiterentwickelt. Das Modul ist ebenso wie der WYSIWYG-Editor standardmäßig in der :productname:`OXID eShop Community Edition` enthalten.
+Wir haben die Mediathek zu einem eigenständigen Modul weiterentwickelt. Das Modul ist ebenso wie der WYSIWYG-Editor standardmäßig ab der :productname:`OXID eShop Community Edition` enthalten.
 
 .. todo: #MF: so korrekt und vollständig?
 
@@ -170,11 +170,11 @@ Barrierefreien Zugang ermöglichen
 
 **Barrierefreies APEX-Theme**
 
-Verbessern Sie mit dem verbesserten APEX-Theme die Benutzerfreundlichkeit und Zugänglichkeit Ihrer Webpräsenz für Sehbeeinträchtigte.
+Erhöhen Sie mit dem verbesserten APEX-Theme die Benutzerfreundlichkeit und Zugänglichkeit Ihres OXID eShop für Sehbeeinträchtigte.
 
-Wir haben dazu sichergestellt, dass das APEX-Theme `Web Content Accessibility Guidelines (WCAG) (Level AA) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ barrierefrei ist.
+Wir haben dazu sichergestellt, dass das APEX-Theme gemäß `Web Content Accessibility Guidelines (WCAG) (Level AA) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ barrierefrei ist.
 
-Unsere Verbesserungen umfassen beispielsweise einen erhöhten Kontrast für klarere Sicht, optimierte Alt-Attribute für aussagekräftigere Bildbeschreibungen, Rahmen mit lesbaren Namen, die die Navigation vereinfachen, und eine umfassende Screenreader-Kompatibilität, die ein flüssiges Surferlebnis für Sehbehinderte gewährleistet.
+Unsere Verbesserungen umfassen beispielsweise einen erhöhten Kontrast, optimierte Alt-Attribute für aussagekräftigere Bildbeschreibungen, Rahmen mit lesbaren Namen, die die Navigation vereinfachen, und eine umfassende Screenreader-Kompatibilität, die ein flüssiges Surferlebnis für Sehbehinderte gewährleistet.
 
 **Eye-Able Visuelle Hilfe**
 
@@ -221,15 +221,16 @@ Weitere Informationen finden Sie unter
 
 .. todo: #05
 
-Zeitgesteuerte Artikel leichter unterscheiden
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Zeitgesteuerte Produkte leichter unterscheiden
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Zeitgesteuerte Artikel haben in der Artikel-Liste ein gesondertes Status-Icon.
+Zeitgesteuerte  Produkte haben in der  Produkte-Liste ein gesondertes Status-Icon.
+
 .. todo: #DK: tbd: Screenshot, sobald Funktion verfügbar, siehe die Dokulinks unten Admin | core | Performance; sth time period
 
 Weitere Informationen finden Sie
 
-* in der Beschreibung, wie Sie :ref:`Artikel zeitgesteuert aktivieren <zeitaktivierung>`.
+* in der Beschreibung, wie Sie :ref:` Produkte zeitgesteuert aktivieren <zeitaktivierung>`.
 * unter :ref:einrichtung/artikel/registerkarte-stamm#
 
 .. todo: #HR/#DK: tbd: Install 7.1, test function, add screenshot in docu where applicable
@@ -261,7 +262,7 @@ Wir entwickeln Modul-Pakete, beispielsweise OXAPI, B2B und VisualCMS, bei denen 
 Symfony DI-Container nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Services pro Subshop individuelles konfigurieren
+* Services pro Subshop individuell konfigurieren
 
   .. todo: #03 #tbd: verify URLs when published
 
