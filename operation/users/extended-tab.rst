@@ -42,7 +42,7 @@ The :guilabel:`Extended` tab allows you to store additional information about th
 :guilabel:`URL`
    This field can be used to store a web address, such as a business customer's web page, a private web page or a blog.
 
-.. todo: Zu klären ob obsolet: OXDEV-7965, evtl. reaktivieren
+.. todo: SB klärt, ob obsolet: OXDEV-7965, evtl. reaktivieren
     :guilabel:`Credit points`
        Users can earn bonus points for bringing customers to the shop.
        Newly recruited customers can also receive bonus points when they register in the shop.
