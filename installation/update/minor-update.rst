@@ -19,88 +19,6 @@ Examples:
 * Third-party modules no longer work when updating from OXID eShop 6.1 to 6.2.
 * The OXID eSales payment module Amazon Pay 3.6.8 no longer works in OXID eShop 6.5 (see :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
 
-
-Ensuring the prerequisites
---------------------------
-
-Before you can perform a minor update to the desired target version of OXID eShop, ensure that you meet the technical prerequisites for the update.
-
-To do this, check the following:
-
-* Do I need to perform one or more incremental updates?
-  |br|
-  Incremental update means: You do not perform an update directly to the target version, but in a previous step you perform an update to a version between your source version and your target version.
-  |br|
-  Only in a following update you perform the update from the intermediate version to the target version.
-* In the update or incremental update, do I have a version of :emphasis:`Composer` that supports both my respective source and target versions?
-* When updating or incrementally updating, do I have a version of :emphasis:`PHP` that supports both my respective source and target versions?
-
-|procedure|
-
-Check step by step which incremental update you need to perform to finally get to the target version of OXID eShop.
-
-Before each update step, make sure that you have versions of Composer and PHP that are supported by both the source and the target versions.
-
-
-1. if you have OXID eShop version 5.x or lower, follow the instructions at `docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/index.html <https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/index.html>`_.
-   |br|
-   Alternatively: Install the latest version of OXID eShop and port only the important data.
-
-   .. note::
-
-      **Porting modules**
-
-      Your modules do not work under OXID eShop version 6 anymore.
-
-      To learn how to port your modules to OXID eShop version 6, visit https://docs.oxid-esales.com/developer/en/6.0/modules/tutorials/porting_tool.html.
-
-   .. note::
-
-      **Azure theme obsolete**.
-
-      The Azure theme is still supported in OXID eShop version 6, but is no longer maintained.
-
-#. If you have OXID eShop version :emphasis:`6.0.x`, do the following:
-
-   a. Make sure you have Composer version 1.
-   #. Make sure you have PHP version 7.0.
-   #. Perform an initial update from version 6.0.x to version 6.1.x.
-      |br|
-      For more information, see https://docs.oxid-esales.com/eshop/en/6.1/installation/installing-updates/installing-updates.html
-
-#. If you have OXID eShop version :emphasis:`6.1.x`, do the following:
-
-   a. Make sure you have Composer version 1.
-   #. Make sure you have PHP version 7.1.
-   #. Update from version 6.1.x to version 6.2.4.
-      |br|
-      For more information, see https://docs.oxid-esales.com/eshop/en/6.2/installation/update/update-from-6.1.x-to-6.2.0.html
-
-#. If you have OXID eShop version :emphasis:`6.2.0`, :emphasis:`6.2.1` or :emphasis:`6.2.2`, do the following:
-
-   a. Perform a patch update to OXID eShop version :emphasis:`6.2.4`.
-   #. Optional: Perform an update to from PHP version 7.1 to version 7.4.
-      |br|
-      Alternatively: Perform the update to PHP version 7.4 on the following OXID eShop updates.
-   #. Perform an update from Composer version 1 to Composer version 2.
-
-#. If you have OXID eShop version :emphasis:`6.2.3` or :emphasis:`6.2.4`, do the following:
-
-   a. Make sure you have Composer version to 2.2.23
-
-      Install Composer version 2.2.23 as follows:
-
-         .. code:: bash
-
-            composer selfupdate 2.2.23
-
-   #. Make sure you have PHP version 7.4.
-   #. Without any further intermediate steps, perform the update to the desired target version.
-
-#. If you have OXID eShop version 6.2.5 or higher, perform the update to the current version directly as described below in :ref:`installation/update/minor-update:Performing the update`.
-
-.. todo: #VL: dito 6.2.5 required for update to 7.0? 7.0 requires PHP 8.0; or update only from 6.5 to 7.0?
-
 Performing the update
 ---------------------
 
@@ -108,7 +26,7 @@ Update your OXID eShop to the latest version.
 
 |prerequisites|
 
-You have performed the necessary incremental updates (see :ref:`installation/update/minor-update:Ensuring the prerequisites`).
+You have :productname:`OXID eShop` 7.0.
 
 |procedure|
 
