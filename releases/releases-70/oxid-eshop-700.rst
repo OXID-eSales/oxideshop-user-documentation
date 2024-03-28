@@ -83,9 +83,6 @@ Neue Funktionen
 Tracking-URL je Versandart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #tbd: Doku im entspr. Kap. erg: :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Weitere Einstellungen`
-        :menuselection:`Master Settings --> Core Settings --> Settings --> Other Settings`, :guilabel:`Standard shipping provider tracking URL`
-
 Hinterlegen Sie pro Versandart eine Tracking-URL.
 
 Sobald die Paket-ID (je nach Versanddienstleister Tracking Code, Paketscheinnummer, Paketreferenz, Sendungsnummer usw.) bei der Bestellung eingetragen wurde, steht der Tracking-Link, bestehend aus der Tracking-URL und der Paket-ID der Bestellung, zur Verfügung.

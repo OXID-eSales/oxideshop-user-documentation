@@ -35,7 +35,7 @@ Registerkarte Stamm
 Registerkarte Erweitert
 -----------------------
 
-.. todo #tbd: OXDEV-7965, "Freunde einladen, Kunden werben, " obsolet, aber evtl. reaktivieren: Klären: "Bonuspunkte, "
+.. todo OXDEV-7965, "Freunde einladen, Kunden werben, " obsolet, aber evtl. reaktivieren: Klären: "Bonuspunkte, "
 
 **Inhalte**: Zusatzinformationen zum Benutzer, Telefonnummer, Handynummer, Mobilfunknummer, Newsletter, Double-Opt-in, ungültige E-Mail-Adresse, Bonität, Kreditwürdigkeit, zugelassene Zahlungsarten, URL, Zuordnung zu Benutzergruppen, keine automatische Zuordnung |br|
 :doc:`Artikel lesen <registerkarte-erweitert>` |link|

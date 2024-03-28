@@ -6,36 +6,60 @@ Release-Datum: 26.03.2024
 Die wichtigsten Änderungen im Überblick
 ---------------------------------------
 
-
 .. todo: https://oxidesalesag-my.sharepoint.com/:p:/g/personal/heike_reuter_oxid-esales_com/EX0qy6fbpnBDvo5AU_xO8ZMBbf_DXJpk6tpfUr6AGu4OAA?e=jpN2of
-  .. todo: Barrierefreiheit; eye able assist Modul, Apay- und Demodaten
-    VCMS
-    neue PHP-Version
-    Modulabhängigkeiten
-    Subshop-Services
-    Bugfixes, s.Changelog CE
+
+* Sicherheit & Zuverlässigkeit
+
+  * PHP 8.2-Unterstützung
+  * Symfony 6.3-Update
+  * PHPUnit 10-Implementierung
+
+* Barrierefreiheit
+
+  * APEX-Theme WCAG (Level AA) konform
+  * Eye-Able Assist Visuelle Hilfe für Anwender
+  * Eye-Able Assist-Dashboard für Entwickler
+
+* Neue Visual CMS-Anwenderfunktionen
+
+  * Erweiterte Mediathek (SVG, AVIF, PDF, ZIP)
+  * Ordnerfunktion & Dateiumbenennung in Mediathek
+  * CSS-Klassen für Bildsteuerung
+
+* VCMS-Code-Verbesserungen
+
+  * Karussell-Widget erweitert
+  * Vereinfachte Shortcode-Einbindung
+  * aAllowedUploadTypes-Konfiguration
+  * Syntaxprüfung für CSS/LESS
+
+* Entwicklerfunktionen
+
+  * Modulabhängigkeiten
+  * Symfony DI-Container-Nutzung
+  * Befehl zur Theme-Aktivierung
 
 Sicherheit und Zuverlässigkeit
 ------------------------------
 
 Wir haben die Kompatibilität des OXID eShop verbessert, um sowohl die Sicherheit als auch die Performance zu gewährleisten:
 
-* Die Unterstützung für PHP Version 8.2 gewährleistet aktuelle und sichere Software-Umgebungen.
+* Die Unterstützung für PHP 8.2 gewährleistet aktuelle und sichere Software-Umgebungen.
 
-  Weitere Informationen zum Lebenszyklus von PHP-Versionen finden Sie unter https://www.php.net/supported-versions.php.
+  Weitere Informationen zum Lebenszyklus von PHP-Versionen finden Sie unter `php.net/supported-versions.php <https://www.php.net/supported-versions.php>`_.
 
   Anmerkung: Der :productname:`OXID eShop` 7.1 unterstützt PHP 8.1/8.2.
 
 * Ein Update auf Symfony 6.3 gewährleistet die Kompatibilität mit PHP 8.2 und sorgt für eine zukunftssichere Basis unseres Systems.
 
-* Die Implementierung von PHPUnit Version 10 ermöglicht modernes Testing und Qualitätssicherung, um die Zuverlässigkeit des :productname:`OXID eShop` weiter zu erhöhen.
+* Die Implementierung von PHPUnit 10 ermöglicht modernes Testen und Qualitätssicherung, um die Zuverlässigkeit des :productname:`OXID eShop` weiter zu erhöhen.
 
 
 Neue Funktionen für Anwender
 ----------------------------
 
-Visual CMS
-^^^^^^^^^^
+Mit Visual CMS Texte editieren und Medien verwalten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist standardmäßig in der :productname:`OXID eShop Professional Edition` enthalten.
 
@@ -56,15 +80,15 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
   * SVG
   * AVIF:
 
-    * Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP.
+  * * Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP.
     * Binden Sie über Widgets Animationen ein.
 
 * Erzeugen Sie Bilder in besserer Qualität und auf einfachere Weise:
 
   .. todo: MF: nicht neu:   * Löschen Sie den Thumbnail-Ordner, dann werden die Thumbnails automatisch neu generiert.
 
-  * Generieren Sie Thumbnails für Ihre Bilder im SVG Format
-  * Generieren Sie Thumbnails für Ihre Bilder mit Transparenz
+  * Generieren Sie Thumbnails für Ihre Bilder im SVG-Format.
+  * Generieren Sie Thumbnails für Ihre Bilder mit Transparenz.
 
     .. todo:   #MF: ist Transparenz neu? Bei welchen Formaten?
 
@@ -77,7 +101,7 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
 
 * Stellen Sie Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereit.
 
-  Verwalten Sie dazu folgende Dateien folgender Formate in Ihrer Mediathek und binden Sie die Dateien im Quell-Code ein:
+  Verwalten Sie dazu folgende Dateien folgender Formate in Ihrer Mediathek. Binden Sie diese Dateien dann im Quell-Code ein:
 
   * PDF
   * ZIP
@@ -103,7 +127,7 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
 
   .. todo: #MF: Sicherstellen, dass ein Hinweis daran erinnert, dass der Benutzer die Bilder manuell neu einbetten muss, wenn er ein Bild umbenennt oder in einen Ordner verschiebt.
 
-**Code-Verbesserungen**
+**VCMS-Code-Verbesserungen**
 
 Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um das Modul leistungsfähiger für zukünftige Anforderungen zu machen.
 
@@ -134,7 +158,7 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um 
 
 Weitere Informationen zum Installieren finden Sie in der VCMS-Dokumentation unter `Neuinstallation <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
 
-Weitere Informationen zu Änderugen finden Sie in den folgenden Changelogs:
+Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
 
 * VCMS: https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.0/CHANGELOG.md
 * WYSIWYG-Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md
@@ -144,36 +168,19 @@ Weitere Informationen zu Änderugen finden Sie in den folgenden Changelogs:
 Barrierefreien Zugang ermöglichen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Das APEX-Theme liefern haben wir entsprechend den `Web Content Accessibility Guidelines (WCAG) (Level AA) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ barrierefrei gemacht.
+**Barrierefreies APEX-Theme**
 
-.. todo: HR: #SB: fragen: Fronend / APEX wird jetzt WCAG-konform ausgeliefert, Level AA: weiterer Input sinnvoll/nötig?; Marketing abstimmen
+Verbessern Sie mit dem verbesserten APEX-Theme die Benutzerfreundlichkeit und Zugänglichkeit Ihrer Webpräsenz für Sehbeeinträchtigte.
 
-Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden auch Ihren :productname:`OXID eShop` nutzen können.
+Wir haben dazu sichergestellt, dass das APEX-Theme `Web Content Accessibility Guidelines (WCAG) (Level AA) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ barrierefrei ist.
 
-Implementieren Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstellungsgesetz (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ und der `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_.
+Unsere Verbesserungen umfassen beispielsweise einen erhöhten Kontrast für klarere Sicht, optimierte Alt-Attribute für aussagekräftigere Bildbeschreibungen, Rahmen mit lesbaren Namen, die die Navigation vereinfachen, und eine umfassende Screenreader-Kompatibilität, die ein flüssiges Surferlebnis für Sehbehinderte gewährleistet.
 
-Aktivieren Sie dazu das Eye-Able Assist-Modul als kostenlose Testversion.
+**Eye-Able Visuelle Hilfe**
 
-.. todo: #SB: Wie soll es vermarktet werden, erwähnen wir es: Evtl. später #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen?
+Bieten Sie Ihren Kunden eine visuelle Hilfe, um die Lesbarkeit Ihres eShops bei Bedarf zu erhöhen.
 
-Eye-Able stelt eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
-
-.. todo: #Steven Testshop mit https: "Please wait some minutes while Eye-Able® Report is being created." Wie oder wann erscheint da die Anzahl der Fehler? Oder ist die Anzahl im Testshop = 0?: geht nicht von local host
-
-.. todo: #tbd: Screenshot neu: Steven fragen Academy shop ohne Lizenz: was wird angezeigt?
-
-.. _oxid-eshop-710-01:
-
-.. figure:: ../../media/screenshots/oxid-eshop-710-01.png
-   :alt: Eye Able-Kurzreport-Generierung
-   :width: 650
-   :class: with-shadow
-
-   Abb.: Eye Able-Kurzreport-Generierung
-
-In der Testversion erhalten Ihre Kunden eine visuelle Hilfe, um die Lesbarkeit Ihres eShops bei Bedarf zu erhöhen. Unten rechts im Bildschirm erscheint ein Icon :guilabel:`Visuelle Hilfe` (:ref:`oxid-eshop-710-02`, Pos. 1). Damit lässt sich ein Menü öffnen, das es beispielsweise erlaubt, die Zeichengröße, den Kontrast und so weiter anzupassen.
-
-.. todo: #Steven: fragen Academy shop ohne Lizenz: was wird angezeigt?
+Aktivieren Sie dazu das Eye-Able Assist-Modul. Unten rechts im Bildschirm erscheint dann ein Icon :guilabel:`Visuelle Hilfe` (:ref:`oxid-eshop-710-02`, Pos. 1). Damit lässt sich ein Menü öffnen, das es beispielsweise erlaubt, die Zeichengröße, den Kontrast und so weiter anzupassen.
 
 .. _oxid-eshop-710-02:
 
@@ -184,15 +191,33 @@ In der Testversion erhalten Ihre Kunden eine visuelle Hilfe, um die Lesbarkeit I
 
    Abb.: Eye Able: Icon Visuelle Hilfe
 
-Um die Voll-Version zu lizenzieren, kontaktieren Sie eye-able.com.
+**Eye-Able-Kurzreport und -Dashboard**
 
-Sie können dann die Barrierefreiheit Ihres eShops mit Hilfe des Eye Able-Dashboards sicherstellen.
+Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihren :productname:`OXID eShop` nutzen können.
+
+Setzen Sie dazu konsequent die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstellungsgesetz (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ und der `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ um.
+
+Dabei unterstützt Sie das Eye-Able Dashboard.
+
+.. todo: #SB: Wie soll es vermarktet werden Sarah fragen, erwähnen wir es: Evtl. später #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen?
+
+Ermitteln Sie zunächst mit der kostenlosen Testversion des Eye-Able Assist-Modul den möglichen Optimierungsbedarf. Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
+
+.. _oxid-eshop-710-01:
+
+.. figure:: ../../media/screenshots/oxid-eshop-710-01.png
+   :alt: Eye Able-Kurzreport-Generierung
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Eye Able-Kurzreport-Generierung
+
+Stellen Sie bei Bedarf die Barrierefreiheit Ihres eShops mit Hilfe des Eye Able-Dashboards sicher. Lizenzieren Sie dazu die Vollversion von Eye-Able Assist.
 
 Weitere Informationen finden Sie unter
 
-* https://github.com/Tobias-Eye-Able/eye-able-oxid-module
 * https://eye-able.com/software-services/
-
+* https://github.com/Tobias-Eye-Able/eye-able-oxid-module
 
 .. todo: #05
 
@@ -204,7 +229,7 @@ Zeitgesteuerte Artikel haben in der Artikel-Liste ein gesondertes Status-Icon.
 
 Weitere Informationen finden Sie
 
-* ìn der Beschreibung, wie Sie :ref:`Artikel zeitgesteuert aktivieren <zeitaktivierung>`.
+* in der Beschreibung, wie Sie :ref:`Artikel zeitgesteuert aktivieren <zeitaktivierung>`.
 * unter :ref:einrichtung/artikel/registerkarte-stamm#
 
 .. todo: #HR/#DK: tbd: Install 7.1, test function, add screenshot in docu where applicable
@@ -277,14 +302,12 @@ Einladungs-Funktion
 ^^^^^^^^^^^^^^^^^^^
 
 .. todo: #07
-.. todo: SB Shop sendet E-mail: geht aus Datenschutz-/Spamschutzgründen nicht mehr Öffentlicher Wunschzettel
-.. todo: #tbd: Screenshot  DK provides information: as of 7.1 deprecated: removed in 8.0, may be refactored in the future
 
 Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion Einladungen aktivieren.
 
 Aufgrund des Risikos von Missbrauch durch Spam-Attacken haben wir uns jedoch entschieden, diese Funktion zurückzubauen.
 
-Um eine solche Funktion sicher und effektiv zu nutzen, empfehlen wir die Entwicklung eines speziellen Moduls für den OXID eShop. Im Missbrauch vorzubeugen, integrieren Sie beispielsweise folgende Sicherheitsmaßnahmen:
+Um eine solche Funktion sicher und effektiv zu nutzen, empfehlen wir Ihnen, ein spezielles Modul für Ihren OXID eShop zu entwickeln. Um Missbrauch vorzubeugen, integrieren Sie beispielsweise folgende Sicherheitsmaßnahmen:
 
 * Implementieren eines Captcha-Systems: Bevor ein registrierter Kunde jemanden einladen kann, muss er ein Captcha lösen. Dies verhindert automatisierte Bots von der Nutzung des Einladungssystems.
 * Begrenzung der Einladungen: Setzen Sie eine Höchstzahl an Einladungen fest, die ein Kunde innerhalb eines bestimmten Zeitraums senden kann. Dies vermindert die Wahrscheinlichkeit von Missbrauch, da es die Anzahl der möglichen Spam-Einladungen einschränkt.
