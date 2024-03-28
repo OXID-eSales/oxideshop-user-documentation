@@ -21,7 +21,7 @@ Aktualisieren Sie Ihren OXID eShop auf die aktuelle Version.
 
 |prerequisites|
 
-Sie haben :productname:`OXID eShop` 7.0.
+Sie haben :productname:`OXID eShop` 7.0.x.
 
 |procedure|
 
@@ -40,7 +40,7 @@ Sie haben :productname:`OXID eShop` 7.0.
    |br|
    Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``7.1.0``:
 
-   .. todo: #Dev: Verifizieren
+   .. todo: #HR: Verifizieren
 
    .. code:: bash
 
@@ -97,7 +97,7 @@ Sie haben :productname:`OXID eShop` 7.0.
         |br|
         Hintergrund: Normalerweise enthält ein Minor Update keine breaking changes. Alle Module von Drittanbietern funktionieren nach dem Update wie zuvor.
         |br|
-        In Ausnahmefällen (beispielsweise beim Update von OXID eShop 6.1 auf 6.2) können sich Änderungen jedoch so auswirken, dass Module von Drittanbietern nicht mehr funktionieren.
+        In Ausnahmefällen können sich Änderungen jedoch so auswirken, dass Module von Drittanbietern nicht mehr funktionieren.
 
    .. code:: bash
 
