@@ -1,7 +1,7 @@
 Installing a minor update
 =========================
 
-For example, update the compilation from an existing version 6.3.x to version 6.5.0.
+Update the compilation from an existing version 6.0.x to version 7.1.x.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -13,11 +13,6 @@ If you use third-party modules or themes, ask the third-party vendor if these th
 Background: Typically, a minor update does not contain any breaking changes. All third-party modules will work as before after the update.
 
 However, in exceptional cases, changes can have such an impact that third-party modules no longer work.
-|br|
-Examples:
-
-* Third-party modules no longer work when updating from OXID eShop 6.1 to 6.2.
-* The OXID eSales payment module Amazon Pay 3.6.8 no longer works in OXID eShop 6.5 (see :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
 
 Performing the update
 ---------------------
@@ -26,7 +21,7 @@ Update your OXID eShop to the latest version.
 
 |prerequisites|
 
-You have :productname:`OXID eShop` 7.0.
+You have :productname:`OXID eShop` 7.0.x.
 
 |procedure|
 
@@ -43,11 +38,11 @@ You have :productname:`OXID eShop` 7.0.
    |br|
    To do this, match the name of the metapackage to the desired store edition, as in the following example.
    |br|
-   Example for an update of a community edition with the metapackage name ``6.4.2``:
+   Example for an update of a community edition with the metapackage name ``7.1.0``:
 
    .. code:: bash
 
-      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.2
+      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v7.1.0
 
 #. Update the dependencies.
    |br|
@@ -98,7 +93,7 @@ You have :productname:`OXID eShop` 7.0.
         |br|
         Background: Normally a minor update does not contain any breaking changes. All third-party modules will work as before after the update.
         |br|
-        However, in exceptional cases (for example, when updating from OXID eShop 6.1 to 6.2), changes can have an impact such that third-party modules no longer work.
+        However, in exceptional cases, changes can have an impact such that third-party modules no longer work.
 
    .. code:: bash
 
@@ -114,7 +109,7 @@ You have :productname:`OXID eShop` 7.0.
 
 #. Migrate the database.
    |br|
-   To do this, run the following command.
+   To do so, run the following command.
 
    .. code:: bash
 
