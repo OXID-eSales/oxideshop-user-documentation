@@ -6,7 +6,7 @@ Release-Datum: 26.03.2024
 Die wichtigsten Änderungen im Überblick
 ---------------------------------------
 
-.. todo: https://oxidesalesag-my.sharepoint.com/:p:/g/personal/heike_reuter_oxid-esales_com/EX0qy6fbpnBDvo5AU_xO8ZMBbf_DXJpk6tpfUr6AGu4OAA?e=jpN2of
+.. todo: #HR: Link öffnet sch nicht https://oxidesalesag-my.sharepoint.com/:p:/g/personal/heike_reuter_oxid-esales_com/EX0qy6fbpnBDvo5AU_xO8ZMBbf_DXJpk6tpfUr6AGu4OAA?e=jpN2of
 
 * Sicherheit & Zuverlässigkeit
 
@@ -29,8 +29,8 @@ Die wichtigsten Änderungen im Überblick
 * VCMS-Code-Verbesserungen
 
   * Karussell-Widget erweitert
+  * Konfigurieren erlaubter Formate
   * Vereinfachte Shortcode-Einbindung
-  * aAllowedUploadTypes-Konfiguration
   * Syntaxprüfung für CSS/LESS
 
 * Entwicklerfunktionen
@@ -94,7 +94,7 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
 
   * Steuern Sie die Darstellung Ihrer Bilder über CSS-Klassen:
 
-    Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
+    Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
 
   .. todo: MF kommt mit vorauss. mit 7.2 - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
         SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
@@ -199,9 +199,9 @@ Setzen Sie dazu konsequent die Barrierefreiheitsrichtlinien gemäß `Behinderten
 
 Dabei unterstützt Sie das Eye-Able Dashboard.
 
-.. todo: #SB: Wie soll es vermarktet werden Sarah fragen, erwähnen wir es: Evtl. später #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen?
+.. todo: SB: Wie soll es vermarktet werden Sarah fragen, erwähnen wir es: Evtl. später #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen?
 
-Ermitteln Sie zunächst mit der kostenlosen Testversion des Eye-Able Assist-Modul den möglichen Optimierungsbedarf. Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
+Ermitteln Sie zunächst mit der kostenlosen Testversion des Eye-Able Assist-Moduls den möglichen Optimierungsbedarf. Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
 
 .. _oxid-eshop-710-01:
 
@@ -224,17 +224,9 @@ Weitere Informationen finden Sie unter
 Zeitgesteuerte Produkte leichter unterscheiden
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Zeitgesteuerte  Produkte haben in der  Produkte-Liste ein gesondertes Status-Icon.
+Zeitgesteuerte  Produkte haben in der  Produkt-Liste ein gesondertes Status-Icon.
 
-.. todo: #DK: tbd: Screenshot, sobald Funktion verfügbar, siehe die Dokulinks unten Admin | core | Performance; sth time period
-
-Weitere Informationen finden Sie
-
-* in der Beschreibung, wie Sie :ref:` Produkte zeitgesteuert aktivieren <zeitaktivierung>`.
-* unter :ref:einrichtung/artikel/registerkarte-stamm#
-
-.. todo: #HR/#DK: tbd: Install 7.1, test function, add screenshot in docu where applicable
-
+Weitere Informationen finden Sie in der Beschreibung, wie Sie :ref:`Produkte zeitgesteuert aktivieren <zeitaktivierung>` (:ref:`oxbaci02`, Pos. 1).
 
 Neue Funktionen für Entwickler
 ------------------------------
@@ -266,7 +258,7 @@ Symfony DI-Container nutzen
 
   .. todo: #03 #tbd: verify URLs when published
 
-  Überschreiben Sie gezielt pro Subshop die vom Shop verwendeten Services.
+  Überschreiben Sie gezielt pro Subshop die vom OXID eShop verwendeten Services.
 
   Der Symfony DI Container im OXID eShop ermöglicht Ihnen damit ein noch flexibleres und effizienteres Verwalten von Services.
 
@@ -286,7 +278,7 @@ Installieren von Paketen über die Kommandozeilenschnittstelle
 .. todo: #02
 .. todo: SB/HR: HR so OK: jetzt regulär; Ist das ein neues Feature? So weit ich sehe, haben wir nur ein neues Kapitel in der Dev-Doku.; vorher Dev-Komponente nachzuinstalieren
 
-Um ein Theme zu aktivieren, müssen Sie nicht die Administrator-Oberfläche im :productname:`OXID eShop` verwenden.
+Um ein Theme zu aktivieren, müssen Sie nicht die Administrator-Oberfläche in Ihrem :productname:`OXID eShop` verwenden.
 
 Nutzen Sie den Befehl :code:`bin/oe-console oe:theme:activate <theme>`.
 

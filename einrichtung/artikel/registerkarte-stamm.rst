@@ -31,7 +31,7 @@ Mit der Sprachumstellung, die erst nach Anlegen des Artikels unten im Eingabeber
 :guilabel:`Oder aktiv von` ... :guilabel:`bis` ...
    Definieren Sie einen Zeitraum, in dem ein Artikel aktiv ist.
 
-   Auf diese Weise können Sie beispielsweise ein Angebot umsetzen, das nur für eine bestimmte Zeit gültig sein soll.
+   Durch solche zeitgesteuerten Artikel können Sie beispielsweise ein Angebot umsetzen, das nur für eine bestimmte Zeit gültig sein soll.
 
    **Vorgehen**
 

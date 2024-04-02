@@ -1,7 +1,7 @@
 ﻿Installation vorbereiten
 ========================
 
-Für die Neu-Installation des OXID eShop 7.0 sind einige Vorbereitungen notwendig.
+Für die Neu-Installation des OXID eShop 7.1 sind einige Vorbereitungen notwendig.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
@@ -25,17 +25,17 @@ Die Shop-Dateien werden durch Composer bereitgestellt. Abhängig von der Shop-Ed
 Community Edition
 ^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.0-ce`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.1-ce`
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.0-pe`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.1-pe`
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.0-ee`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.1-ee`
 
 Nachdem Composer seine Arbeit beendet hat, existiert das mit *your_project_name* benannte neue Verzeichnis. Dieses ist das Hauptverzeichnis (Root) des Projektes und enthält alle Dateien, die für die Installation des OXID eShop benötigt werden.
 
@@ -56,7 +56,7 @@ Der HTTP-Server benötigt zur Laufzeit Lese- und Schreibzugriff für folgende Ve
 :file:`/source/tmp/` |br|
 :file:`/var/`
 
-Zusätzlich benötigt auch der CLI-Benutzer (Command Line Interface) Lese- und Schreibzugriff für das Verzeichnis :file:`/var/`.
+Zusätzlich benötigt auch der CLI (Command Line Interface)-Benutzer Lese- und Schreibzugriff für das Verzeichnis :file:`/var/`.
 
 Für das webbasierte Setup muss der HTTP-Server auf folgendes Verzeichnis und diese Dateien schreibend zugreifen können:
 

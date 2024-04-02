@@ -52,7 +52,7 @@ Sie haben :productname:`OXID eShop` 7.0.x.
    |br|
    Dadurch werden alle benötigten Bibliotheken aktualisiert.
    |br|
-   Den Parameter :command:`--no-dev` geben Sie an, wenn Sie die entwicklungsbezogenen Dateien nicht brauchen.
+   Wenn Sie die entwicklungsbezogenen Dateien brauchen, lassen Sie den Parameter :command:`--no-dev` weg.
 
    .. code:: bash
 
