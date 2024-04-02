@@ -6,119 +6,316 @@ Release date: 26-03-2024
 The most important changes at a glance
 ---------------------------------------
 
+* Security & reliability
 
-* #tbd
+  * PHP 8.2 support
+  * Symfony 6.3 update
+  * PHPUnit 10 implementation
 
-  .. todo: #HR Was ist das wichtigste an 7.1?
+* Accessibility
 
-Technologies
-------------
+  * APEX theme WCAG (Level AA) compliant
+  * Eye-Able Assist visual help for users
+  * Eye-Able Assist dashboard for developers
 
-* Unterstützung für PHP Version 8.2
-* Unterstützung für PHPUnit Version 10
+* New Visual CMS user functions
 
-.. todo: #SB: verifizieren: was fehlt?
-.. todo: #SB: Was folgt für den Entw. daraus, dass wir folgende Versionen nicht mehr unterstützen:
-    PHP v8.0 support	DEV			#SB: how to mention
-    PHPUnit v9 support	Dev			#SB: how to mention
+  * Extended Media library (SVG, AVIF, PDF, ZIP)
+  * Folder function & file renaming in Media library
+  * CSS classes for image control
 
-Neue Funktionen für Anwender
+* VCMS code improvements
+
+  * Carousel widget extended
+  * Configuration of allowed file formats
+  * Simplified shortcode integration
+  * Syntax check for CSS/LESS
+
+* Developer functions
+
+  * Module dependencies
+  * Symfony DI container usage
+  * Console command for theme activation
+
+Safety and reliability
+----------------------
+
+We have improved the compatibility of the OXID eShop to ensure both security and performance:
+
+* Support for PHP 8.2 ensures up-to-date and secure software environments.
+
+  For more information on the lifecycle of PHP versions, please visit `php.net/supported-versions.php <https://www.php.net/supported-versions.php>`_.
+
+  Note: The :productname:`OXID eShop` 7.1 supports PHP 8.1/8.2.
+
+* An update to Symfony 6.3 ensures compatibility with PHP 8.2 and provides a future-proof basis for our system.
+
+* The implementation of PHPUnit 10 enables modern testing and quality assurance to further increase the reliability of the :productname:`OXID eShop`.
+
+New functions for users
 ----------------------------
 
-* Time activated products have different status icons in the product list
+Editing texts and managing media with Visual CMS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  automatic feature: Admin | core | Performance; sth time period;  actibvate producte to be activated in time range: now with icon;
+Format your texts conveniently. The :productname:`Visual CMS` module is included as standard from the :productname:`OXID eShop Professional Edition`.
 
-  .. todo: #tbd: Install 7.1, test function, add screenshot in docu where applicable
-    Weitere Informationen finden Sie unter :ref:`tbd <tbd>`.
+We have developed the media library into a stand-alone module. Like the WYSIWYG editor, the module is included as standard from the :productname:`OXID eShop Community Edition`.
 
-Neue Funktionen für Entwickler
+To make it easier for you to get started, we have enriched our documentation with practical examples.
+
+**Media Library Module for OXID eShop**
+
+The new media library offers you the following advantages:
+
+* Benefit from support for the following image and moving image formats:
+
+  .. todo: #EN MediaLibrary module
+
+  * SVG
+  * AVIF:
+
+  * Speed up the loading of your web pages thanks to the higher compression compared to WebP.
+    * Integrate animations via widgets.
+
+* Create images in better quality and in a simpler way:
+
+  * Generate thumbnails for your images in SVG format.
+  * Generate thumbnails for your images with transparency.
+  * Control the display of your images via CSS classes:
+
+    For more information, see the VCMS documentation under `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
+
+    .. todo: #tbd: URL anpassen, sobald Übersetzung da
+
+* Provide your customers with data sheets, technical drawings or advertising material, for example.
+
+  To do this, manage the following files in the following formats in your media library. Then include these files in the source code:
+
+  * PDF
+  * ZIP
+
+  For more information, see the VCMS documentation under `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+
+  .. todo: #tbd: URL anpassen, sobald Übersetzung da
+
+* Keep your media library tidy. For this purpose, we have implemented the following functions:
+
+  * Create folders to sort media files, using drag & drop (:ref:`oxid-eshop-710-03`, item 1).
+
+  * Change file names if required (:ref:`oxid-eshop-710-03`, item 2).
+
+  .. _oxid-eshop-710-03:
+
+  .. figure:: ../../media/screenshots/oxid-eshop-710-03.png
+     :alt: Managing media in the media library
+     :width: 650
+     :class: with-shadow
+
+     Managing media in the media library
+
+  For more information, see the VCMS documentation under `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+
+  .. todo: #tbd: URL anpassen, sobald Übersetzung da
+
+**VCMS code improvements**
+
+With :productname:`OXID eShop` version 7.1 we have improved the code to make the module more powerful for future requirements.
+
+* Provide a link for each image in the carousel that the visitor can click on: We have extended the carousel widget accordingly.
+
+  For more information, see the VCMS documentation under `Karussell/Slider <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
+
+  .. todo: #tbd: URL anpassen, sobald Übersetzung da
+
+* Extend shortcodes more easily. To make it easier for you to integrate them, we have made the interface for integrating new shortcodes clearer and simpler (4 instead of 12 methods).
+
+  For more information, see the VCMS developer documentation under `Extending the shortcode <https://github.com/OXID-eSales/vcms-documentation/blob/5.0-en/developer.rst#extending-the-shortcode>`_.
+
+  Use our `Example module <https://github.com/OXID-eSales/vcms-examples/blob/b-7.1.x/src/DecorationExample.php>`_ to familiarize yourself with extending existing shortcodes.
+
+* Increase the robustness of your eShop by specifying as administrator which formats you want to allow for uploading.
+
+  To do this, in the :file:`config.inc.php` file, adjust the :code:`aAllowedUploadTypes` parameter.
+
+  For more information, see the VCMS documentation under `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
+
+  .. todo: #tbd: URL anpassen, sobald Übersetzung da
+  .. todo: HR: stays like this: $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');
+
+* Optimize your content seamlessly: When saving, a check function detects possible syntax errors in your CSS/LESS.
+* Benefit from improved user-friendliness. We have further reduced parsing errors.
+
+  .. todo: #MF: What could be meant by parsing errors?
+
+**More information**
+
+For more information about installation, see the VCMS documentation under `Neuinstallation <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
+
+  .. todo: #tbd: URL anpassen, sobald Übersetzung da
+
+For more information on changes, see the following changelogs:
+
+* VCMS: https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.0/CHANGELOG.md
+* WYSIWYG editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md
+* Media Library: https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md
+
+Enabling barrier-free access
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Accessible APEX Theme**
+
+Increase the usability and accessibility of your OXID eShop for the visually impaired with the improved APEX theme.
+
+We have ensured that the APEX theme is accessible according to `Web Content Accessibility Guidelines (WCAG) (Level AA) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_.
+
+Our improvements include increased contrast, optimized alt attributes for more meaningful image descriptions, frames with readable names that simplify navigation, and comprehensive screen reader compatibility that ensures a smooth browsing experience for the visually impaired.
+
+**Eye-Able Visual Aid**
+
+Provide your customers with a visual aid to increase the readability of your eShop when needed.
+
+To do this, activate the Eye-Able Assist module. An icon :guilabel:`Visual Help` (:ref:`oxid-eshop-710-02`, item 1) will then appear at the bottom right of the screen. This opens a menu that allows you, for example, to adjust the character size, contrast and so on.
+
+.. _oxid-eshop-710-02:
+
+.. figure:: ../../media/screenshots/oxid-eshop-710-02.png
+   :alt: Eye-Able: Visual Help icon
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Eye-Able: Visual Help icon
+
+**Eye Able short report and dashboard**
+
+Ensure that more customers can use your :productname:`OXID eShop` by increasing digital accessibility.
+
+To do this, implement the accessibility guidelines in accordance with the `Disability Equality Act (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ and the `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_.
+
+The Eye-Able Dashboard supports you in this.
+
+First determine the possible need for optimization with the free trial version of the Eye-Able Assist module. Eye-Able Assist establishes a connection to your eShop, determines the number of possible improvements and displays them in the administrator area of your :productname:`OXID eShop` as an Eye Able teaser report (:ref:`oxid-eshop-710-01`, Pos. 1).
+
+.. _oxid-eshop-710-01:
+
+.. figure:: ../../media/screenshots/oxid-eshop-710-01.png
+   :alt: Eye Able teaser report generation
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Eye Able teaser report generation
+
+If required, ensure the accessibility of your eShop with the help of the Eye Able dashboard. To do this, license the full version of Eye-Able Assist.
+
+For more information, see
+
+* https://eye-able.com/software-services/
+* https://github.com/Tobias-Eye-Able/eye-able-oxid-module
+
+Distinguishing time-controlled products more easily
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Time-controlled products have a separate status icon in the product list.
+
+For more information, see the instructions about :ref:`activating time-controlled products <zeitaktivierung>` (:ref:`oxbaci02`, item 1).
+
+New functions for developers
 ------------------------------
-
-
-
-Services für Subshops
-^^^^^^^^^^^^^^^^^^^^^
-
-Shops can have their own service configuration (Services für Subshops)
-
-.. todo: #tbd: Make draft: Determine benefit, provide example, how-to
-
-OXDEV-7468 Add documentation for shop configurable services: https://github.com/OXID-eSales/developer_documentation/commit/b638ffa84e172c8066ce35a68173fbc25d041026
-
-Feature: You can create se. Configs, not only global; e.g. logging module;
-
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
 
 Defining dependencies between modules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Define dependencies between modules, if required.
+.. todo: #04
 
-Use this option if you have a base module with core functionalities which are mandatory to be active for other modules to work.
+We develop module packages, for example OXAPI, B2B and VisualCMS, in which modules build on each other and are dependent on provided services.
 
-For more information, see the developer documentation under `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
+* If you as an administrator try to activate a module without fulfilled dependencies, it is displayed which modules must be activated first.
 
-.. todo: #tbd: URL verifizieren
+  Similarly, you cannot deactivate a module that is required by others.
 
+* To avoid unintentional incorrect activations by administrators, as a module developer, define dependencies between modules, if necessary.
 
-ContainerFacade
-^^^^^^^^^^^^^^^
+  Use this option if you have a base module with core functions that must be active for other modules to work.
 
-Short cut: If you need a service, you can facade,
+  For more informationsee the the developer documentation under `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
 
-.. todo: #DK sucht Example;
+.. todo: #tbd: Verify URL
 
-Class ContainerFacade and method Base::getService() for quick access to the DI Container from the non-DI areas
+Using Symfony DI containers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
+* Configuring services individually for each subshop
 
-Installing packages via the Command Line Interface
+  .. todo: #03 #tbd: verify URLs when published
+
+  Overwrite the services used by the OXID eShop  for each subshop.
+
+  The Symfony DI container in the OXID eShop allows you to manage services even more flexibly and efficiently.
+
+  For more information about Symfony DI containers for customizing and managing services, see the developer documentation under `Service Container <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
+
+* Using services in non-DI classes
+
+  .. todo: #01; #tbd: verify URLs when published
+
+  Make your work as a module developer easier by accessing the central Symfony DI container even in areas that are not intended for dependency injection (DI).
+
+  For more information, see the developer documentation under `Use services in non-DI classes <https://docs.oxid-esales.com/development/modules_components_themes/module/module_services.rst#use-services-in-non-di-classes.html>`_.
+
+Installing packages via the command line interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Command bin/oe-console oe:theme:activate <theme> to activate a theme from CLI
+.. todo: #02
 
-Installing packages, muss nicht in admin, geht über cli
+To activate a theme, you do not need to use the administrator interface in your :productname:`OXID eShop`.
 
-.. todo: #DK sucht Example; define benefit
+Use the :code:`bin/oe-console oe:theme:activate <theme>` command.
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `tbd <https://docs.oxid-esales.com/developer/en/latest/development/testing/index.html>`_.
+For more information, see the developer documentation under
 
+* `Activation <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/theme/theme_activation_via_cli.html>`_
+* `Activating the frontend theme <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/installation.html#after-twig-engine-installation>`_
 
 Clean Up
 --------
 
-Folgende veraltete (deprecated) Funktionen haben wir entfernt.
 
-.. todo: Zur Info: getContainer() and dispatchEvent() methods in Core classes	Dev
-DK: not documented, so not to be mentioned; : deprecated as of 7.1, removed as of 8.0
+Einladungs-Funktion
+^^^^^^^^^^^^^^^^^^^
 
-.. todo: Zur Info: Global function \makeReadable(); DK: not to be mentioned in docu
+.. todo: #07
 
-.. todo: Zur Info: TemplateFileResolverInterface is redundant and will be removed in the next major version, template extension resolving is already performed in TemplateRenderer
-DK: it's a leftover: will be reomoved, not to be mentioned; Smarty Überbleibsel, DK checks
+.. todo: #tbd: Verify path: :menuselection:`Master Settings --> Core settings --> Settings --> Invitations`. --> Invitations`
 
-Private Sales Invite functionality (User)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To offer your registered customers the option of inviting friends and receiving bonus points in return, up to version 7.0 of the OXID eShop you could activate the Invitations function under :menuselection:`Master Settings --> Core settings --> Settings --> Invitations`. --> Invitations` to activate the Invitations function.
 
+However, due to the risk of misuse by spam attacks, we have decided to remove this function.
 
-.. todo: #SB: What is the practical consequence for the shopowner/user of the function being outdated? Worum geht es dabei
-.. todo: #tbd: DK provides information: ask #SB about it: as of 7.1 deprecated: removed in 8.0, may be refactored in the furture
+To use such a function safely and effectively, we recommend that you develop a special module for your OXID eShop. To prevent misuse, integrate the following security measures, for example:
 
-
+* Implementation of a captcha system: Before a registered customer can invite someone, they must solve a captcha. This prevents automated bots from using the invitation system.
+* Limitation the number of invitations: Set a maximum number of invitations that a customer can send within a certain period of time. This reduces the likelihood of abuse as it limits the number of possible spam invitations.
+* Confirmation by the invitee: Instead of directly awarding bonus points for simply sending an invitation, points could be credited only after the invitee accepts the invitation and fulfills certain criteria (e.g. places an order).
+* Verification of e-mail addresses: Implement email address validation and known spam domain checking to prevent invitations from being sent to randomly generated or known spam addresses.
+* User feedback and reporting: Allow your users to report abuse. This helps you to quickly identify and address potential weaknesses in the system.
+* Customizable email templates: Give users the ability to personalize the invitation emails, but make sure the text meets certain guidelines and cannot be misused.
+* Monitoring and analysis: Actively monitor the use of the invitation system to detect anomalies or abuse patterns at an early stage. Analyze the data regularly to adjust the security measures accordingly.
 
 Deprecated console classes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #DK/HR: What is the practical consequence of the classes being deprecated? Does the developer have to ensure that he no longer uses them?
-.. todo: Info: DK: will be removed as of 8.0, as of 7.1 only deprecated: mark them as such
+.. todo: #06
 
-Deprecate console classes from the Internal namespace:
+The following console classes from the internal namespace are marked as obsolete and will be removed in the next major release.
 
-* Executor
-* ExecutorInterface
-* CommandsProvider
-* CommandsProviderInterface
+Check your code to see if and where you are using the classes marked as obsolete.
+
+After updating your code to replace the deprecated classes, if necessary, run tests to ensure that your applications continue to work as expected.
+
+* :code:`Executor`
+* :code:`ExecutorInterface`
+* :code:`CommandsProvider`
+* :code:`CommandsProviderInterface`
 
 Components
 ----------
@@ -126,7 +323,7 @@ Components
 Components of the compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #HR: Wann haben wir die Info?
+.. todo: the following is not yet updated; #HR: Wann haben wir die Info?
 
 The compilation contains the following components: UPDATE VERSIONS
 
@@ -158,21 +355,7 @@ The compilation contains the following components: UPDATE VERSIONS
 Corrections
 -----------
 
-.. todo: #HR: Welche Tracking ID?
-Wrong property "_oUserData" used in ContactController PR-918	RN			Bug tacking
-
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
-
-.. todo: #HR: Welche Tracking ID?
-Can't use dot character for template file names	RN			Bug tacking
-
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
-
-.. todo: #HR: Executing oe-console command with an invalid shop-id value will be interrupted	RN			if shop id ivalid; will just stop to work, check whether it's in the bug tracker
-
-* https://bugs.oxid-esales.com/changelog_page.php?version_id=tbd
-
-
+Find the correkturen in the `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md>`_.
 
 Installation
 ------------

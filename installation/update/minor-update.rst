@@ -50,7 +50,7 @@ You have :productname:`OXID eShop` 7.0.x.
    |br|
    This will update all the required libraries.
    |br|
-   Specify the :command:`--no-dev` parameter if you don't need the development related files.
+   If you need the development-related files, omit the :command:`--no-dev` parameter.
 
    .. code:: bash
 

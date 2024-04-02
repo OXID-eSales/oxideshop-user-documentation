@@ -26,6 +26,8 @@ Use the language drop-down list displayed in the input area after creating a pro
 
    This way, you can find the product in the shop even if it is currently or no longer available but the link is still listed in the search engines.
 
+.. _zeitaktivierung:
+
 :guilabel:`Or active from` ... :guilabel:`to` ...
 
    Define a period in which a products is active.
