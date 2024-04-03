@@ -212,6 +212,12 @@ For more information, see
 * https://eye-able.com/software-services/
 * https://github.com/Tobias-Eye-Able/eye-able-oxid-module
 
+.. note::
+
+   You can install the Eye-Able module from :productname:`OXID eShop` 6.5.
+
+   For more information on manual installation, see the `Readme file <https://github.com/Tobias-Eye-Able/eye-able-oxid-module?tab=readme-ov-file#installation-process>`_.
+
 Distinguishing time-controlled products more easily
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
