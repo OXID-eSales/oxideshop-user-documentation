@@ -286,8 +286,8 @@ Clean Up
 --------
 
 
-Einladungs-Funktion
-^^^^^^^^^^^^^^^^^^^
+Invite function
+^^^^^^^^^^^^^^^
 
 .. todo: #07
 
@@ -329,6 +329,7 @@ Components
 Components of the compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. todo: #DK: list changed modules
 .. todo: the following is not yet updated; #HR: Wann haben wir die Info?
 
 The compilation contains the following components: UPDATE VERSIONS
