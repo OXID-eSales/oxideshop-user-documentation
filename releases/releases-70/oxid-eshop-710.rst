@@ -6,17 +6,18 @@ Release-Datum: 26.03.2024
 Die wichtigsten Änderungen im Überblick
 ---------------------------------------
 
-.. todo: #HR: Link öffnet sch nicht https://oxidesalesag-my.sharepoint.com/:p:/g/personal/heike_reuter_oxid-esales_com/EX0qy6fbpnBDvo5AU_xO8ZMBbf_DXJpk6tpfUr6AGu4OAA?e=jpN2of
-
 * Sicherheit & Zuverlässigkeit
 
   * PHP 8.2-Unterstützung
   * Symfony 6.3-Update
+
+    .. todo: #tbd: HR: 6.4?
+
   * PHPUnit 10-Implementierung
 
 * Barrierefreiheit
 
-  * APEX-Theme WCAG (Level AA) konform
+  * APEX-Theme WCAG (Level AA)-konform
   * Eye-Able Assist Visuelle Hilfe für Anwender
   * Eye-Able Assist-Dashboard für Entwickler
 
@@ -199,9 +200,9 @@ Setzen Sie dazu konsequent die Barrierefreiheitsrichtlinien gemäß `Behinderten
 
 Dabei unterstützt Sie das Eye-Able Dashboard.
 
-.. todo: SB: Wie soll es vermarktet werden Sarah fragen, erwähnen wir es: Evtl. später #HR eye-able lässt sich ab 6.5 nachinstallieren: wollen wir es rückwirkend in der Doku erwähnen?
-
 Ermitteln Sie zunächst mit der kostenlosen Testversion des Eye-Able Assist-Moduls den möglichen Optimierungsbedarf. Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
+
+.. todo: #tbd: Kurzreport kann sich ändern, Bild entsprechend, HR nachfragen
 
 .. _oxid-eshop-710-01:
 
@@ -218,6 +219,14 @@ Weitere Informationen finden Sie unter
 
 * https://eye-able.com/software-services/
 * https://github.com/Tobias-Eye-Able/eye-able-oxid-module
+
+.. note::
+
+   Sie können das Eye-Able-Modul ab :productname:`OXID eShop` 6.5 nachinstallieren.
+
+   Weitere Informationen zum manuellen Installieren finden Sie in der `Readme-Datei <https://github.com/Tobias-Eye-Able/eye-able-oxid-module?tab=readme-ov-file#installation-process>`_.
+
+
 
 .. todo: #05
 
@@ -356,7 +365,8 @@ Komponenten der Compilation
 
 Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 
-.. todo: #HR:  710: Infos abwarten; eye-able als neue Komponente?
+.. todo: #DK: list changed modules
+.. todo:  HR:  710: Infos abwarten; eye-able als neue Komponente?
 
 * `OXID eShop CE 7.0.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.3/CHANGELOG-7.0.md#v703---2024-02-20>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_

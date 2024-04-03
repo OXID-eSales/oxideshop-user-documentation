@@ -40,8 +40,6 @@ Sie haben :productname:`OXID eShop` 7.0.x.
    |br|
    Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``7.1.0``:
 
-   .. todo: #HR: Verifizieren
-
    .. code:: bash
 
       composer require --no-update oxid-esales/oxideshop-metapackage-ce:v7.1.0
