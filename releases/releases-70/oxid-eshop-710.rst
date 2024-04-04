@@ -9,10 +9,7 @@ Die wichtigsten Änderungen im Überblick
 * Sicherheit & Zuverlässigkeit
 
   * PHP 8.2-Unterstützung
-  * Symfony 6.3-Update
-
-    .. todo: #tbd: HR: 6.4?
-
+  * Symfony 6.4-Update
   * PHPUnit 10-Implementierung
 
 * Barrierefreiheit
@@ -51,7 +48,7 @@ Wir haben die Kompatibilität des OXID eShop verbessert, um sowohl die Sicherhei
 
   Anmerkung: Der :productname:`OXID eShop` 7.1 unterstützt PHP 8.1/8.2.
 
-* Ein Update auf Symfony 6.3 gewährleistet die Kompatibilität mit PHP 8.2 und sorgt für eine zukunftssichere Basis unseres Systems.
+* Ein Update auf Symfony 6.4 gewährleistet die Kompatibilität mit PHP 8.2 und sorgt für eine zukunftssichere Basis unseres Systems.
 
 * Die Implementierung von PHPUnit 10 ermöglicht modernes Testen und Qualitätssicherung, um die Zuverlässigkeit des :productname:`OXID eShop` weiter zu erhöhen.
 
