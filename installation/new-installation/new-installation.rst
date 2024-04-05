@@ -1,7 +1,7 @@
 ﻿New installation
 ================
 
-Learn how to install OXID eShop 7.0.
+Learn how to install OXID eShop.
 
 To get the files required for the shop, use Composer, a dependency manager for PHP.
 
@@ -19,7 +19,7 @@ Find the installation guide in English in the developer documentation under `<ht
 
 Server und system requirements
 ------------------------------
-**Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache 2.2 + 2.4, MySQL 5.7 + 8.0, MariaDB 10.4, PHP 8.0 + 8.1, Composer 2.7, Metadata 2.0 + 2.1, OpenSSL |br|
+**Contents**: server, shared hosting, managed server, server farm with load balancing and database cluster, Linux, web server, Apache, MySQL, MariaDB, PHP, Composer, Metadata, OpenSSL |br|
 :doc:`Read article <server-and-system-requirements>` |link|
 
 Preparing for installation

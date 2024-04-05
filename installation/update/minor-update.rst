@@ -1,7 +1,7 @@
 Installing a minor update
 =========================
 
-Update the compilation from an existing version 6.0.x to version 7.1.x.
+Update the compilation from an existing version 7.0.x to version 7.1.x.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
