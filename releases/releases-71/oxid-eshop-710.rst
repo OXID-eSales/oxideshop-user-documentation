@@ -300,6 +300,9 @@ Clean Up
 Einladungs-Funktion
 ^^^^^^^^^^^^^^^^^^^
 
+.. todo: #DK/#HR: Kapitel abspecken? Invite functionality got too much emphasis, it should be more concise, e.g.: It was removed because it’s unsafe. If it is need then contact our solution management.
+.. todo: #HR; Wie ist de offizielle Kontaktinfo für solution management?
+
 .. todo: #07
 
 Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion Einladungen aktivieren.
@@ -357,36 +360,78 @@ Nachdem Sie gegebenenfalls Ihren Code aktualisiert haben, um die veralteten Klas
 Komponenten
 -----------
 
+Geänderte und neue Komponenten der Compilation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: update changed modules: the following is per https://oxid-esales.atlassian.net/browse/OXDEV-7967?focusedCommentId=166652
+
+Wir haben die folgenden Komponenten und Module aktualisiert:
+
+* `OXID eShop CE (Update von 7.0.3 auf 7.1.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `Twig component (Update von 2.2.0 auf 2.4.0) <https://github.com/OXID-eSales/twig-component/blob/v2.4.0/CHANGELOG-2.x.md>`_
+* `OXID eShop composer plugin (Update von 7.1.1 auf 7.2.0) <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.2.0/CHANGELOG-7.x.md>`_
+* `OXID eShop Views Generator (Update von 2.1.0 auf 2.2.0) <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
+* `OXID eShop DemoData installer (Update von 3.1.1 auf 3.2.0) <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.2.0/CHANGELOG-3.x.md>`_
+* `OXID eShop demodata CE (Update von 8.0.0 auf 8.0.1) <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
+* `OXID eShop doctrine migration integration (Update von 5.1.0 auf 5.2.0) <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.2.0/CHANGELOG-5.x.md>`_
+* `OXID eShop facts (Update von 4.1.0 auf 4.2.0) <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.2.0/CHANGELOG-4.x.md>`_
+* `Unified Namespace Generator (Update von 4.1.0 auf 5.0.0) <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.0.0/CHANGELOG.md>`_
+
+
+* `OXID eShop PE (Update von 7.0.0 auf 7.1.0) <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `Twig component for Professional Edition (Update von 2.2.0 auf 2.4.0) <https://github.com/OXID-eSales/twig-component-pe/blob/v2.4.0/CHANGELOG-2.x.md>`_
+* `OXID eShop demodata PE (Update von 8.0.0 auf 8.0.1) <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
+
+* `OXID eShop EE (Update von 7.0.1 auf 7.1.0) <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `Twig component for Enterprise Edition (Update von 2.2.0 auf 2.4.0) <https://github.com/OXID-eSales/twig-component-ee/blob/v2.4.0/CHANGELOG-2.x.md>`_
+* `OXID eShop demodata EE (Update von 8.0.1 to auf 8.0.2) <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
+
+* `APEX Theme (Update von 1.2.1 auf 1.3.0) <https://github.com/OXID-eSales/apex-theme/blob/v1.3.0/CHANGELOG-1.x.md>`_
+
+* `WYSIWYG Editor (Update von 3.0.2 auf 4.0.0) <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
+* Neu (extrahiert aus WYSIWYG Editor): `Mediathek (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
+* `Visual CMS (Update von 4.0.2 auf 5.0.1) <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
+
+* `GDPR opt-in module (Update von 3.0.1 auf 4.0.0) <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.0.0/CHANGELOG.md>`_
+* `OXID Cookie Management powered by usercentrics (Update von 2.0.2 auf 3.0.0) <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
+
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 
-.. todo: #DK: list changed modules
-.. todo:  HR:  710: Infos abwarten; eye-able als neue Komponente?
+.. todo: update module versions: the following is per https://oxid-esales.atlassian.net/browse/OXDEV-7967?focusedCommentId=166652
+.. todo:  #HR:  kommt eye-able als neue Komponente hinzu?
+.. todo:  #HR:  `Mediathek (1.0.0) ergänzt
 
-* `OXID eShop CE 7.0.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.3/CHANGELOG-7.0.md#v703---2024-02-20>`_
-* `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
-* `OXID eShop EE 7.0.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.1/CHANGELOG.md>`_
-* `Apex theme 1.2.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.2.0/CHANGELOG.md>`_
+* `OXID eShop CE 7.1.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `OXID eShop PE 7.1.0 <ttps://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `OXID eShop EE 7.1.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.1.0/CHANGELOG-7.1.md>`_
+
+* `Apex theme 1.3.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.3.0/CHANGELOG-1.x.md>`_
+
 * `Twig admin theme 2.2.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.2.0/CHANGELOG.md>`_
-* `Twig component CE 2.2.0 <https://github.com/OXID-eSales/twig-component/blob/v2.2.0/CHANGELOG.md>`_
-* `Twig component PE 2.2.0 <https://github.com/OXID-eSales/twig-component-pe/blob/v2.2.0/CHANGELOG.md>`_
-* `Twig component EE 2.2.0 <https://github.com/OXID-eSales/twig-component-ee/blob/v2.2.0/CHANGELOG.md>`_
+* `Twig component CE 2.4.0 <https://github.com/OXID-eSales/twig-component/blob/v2.4.0/CHANGELOG-2.x.md>`_
+* `Twig component PE 2.4.0 <https://github.com/OXID-eSales/twig-component-pe/blob/v2.4.0/CHANGELOG-2.x.md>`_
+* `Twig component EE 2.4.0 <https://github.com/OXID-eSales/twig-component-ee/blob/v2.4.0/CHANGELOG-2.x.md>`_
 
-* `OXID eShop composer plugin 7.1.1 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.1.1/CHANGELOG.md>`_
-* `OXID eShop Views Generator 2.1.0 <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.1.0/CHANGELOG.md>`_
-* `OXID eShop demo data installer 3.1.1 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.1.1/CHANGELOG.md>`_
-* `OXID eShop demo data CE/PE/EE 8.0.0 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.0/CHANGELOG.md>`_
-* `OXID eShop demo data EE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop doctrine migration integration 5.1.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.1.0/CHANGELOG.md>`_
-* `OXID eShop facts 4.1.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.1.0/CHANGELOG.md>`_
-* `Unified Namespace Generator 4.1.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v4.1.0/CHANGELOG.md>`_
+* `OXID eShop composer plugin 7.2.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.2.0/CHANGELOG-7.x.md>`_
+* `OXID eShop Views Generator 2.2.0 <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
+* `OXID eShop demo data installer 3.2.0 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.2.0/CHANGELOG-3.x.md>`_
 
-* `GDPR Opt-In 3.0.1 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v3.0.1/CHANGELOG.md>`_
-* `OXID Cookie Management powered by usercentrics 2.0.2 <https://github.com/OXID-eSales/usercentrics/blob/v2.0.2/CHANGELOG.md>`_
-* `Visual CMS 4.0.2 <https://github.com/OXID-eSales/visual_cms_module/blob/v4.0.2/CHANGELOG-4.0.md>`_ (PE/EE)
-* `WYSIWYG Editor + Media Library 3.0.2 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v3.0.2/CHANGELOG.md>`_
+* `OXID eShop demo data CE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
+* `OXID eShop demo data PE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
+* `OXID eShop demo data EE 8.0.2 <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
+
+* `OXID eShop doctrine migration integration 5.2.0 <ttps://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.2.0/CHANGELOG-5.x.md>`_
+* `OXID eShop facts 4.2.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.2.0/CHANGELOG-4.x.md>`_
+* `Unified Namespace Generator 5.0.0 <ttps://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.0.0/CHANGELOG.md>`_
+
+* `GDPR Opt-In 4.0.0 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.0.0/CHANGELOG.md>`_
+* `OXID Cookie Management powered by usercentrics 3.0.0 <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
+* `Visual CMS 5.0.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_ (PE/EE)
+* `WYSIWYG Editor 4.0.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
+* `Mediathek (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
 * `Makaira 2.1.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.2/CHANGELOG.md>`_
 
 
