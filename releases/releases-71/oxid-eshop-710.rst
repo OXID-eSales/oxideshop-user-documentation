@@ -1,7 +1,7 @@
 OXID eShop 7.1.0
 ================
 
-Release date: 26-03-2024
+Release date: 09-04-2024
 
 The most important changes at a glance
 ---------------------------------------
@@ -24,7 +24,7 @@ The most important changes at a glance
   * Folder function & file renaming in Media library
   * CSS classes for image control
 
-* VCMS code improvements
+* Visual CMS code improvements
 
   * Carousel widget extended
   * Configuration of allowed file formats
@@ -70,8 +70,6 @@ The new media library offers you the following advantages:
 
 * Benefit from support for the following image and moving image formats:
 
-  .. todo: #EN MediaLibrary module
-
   * SVG
   * AVIF:
 
@@ -84,7 +82,7 @@ The new media library offers you the following advantages:
   * Generate thumbnails with transparency.
   * Control the display of your images via CSS classes:
 
-    For more information, see the VCMS documentation under `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
+    For more information, see the VCMS documentation under `Individuelles CSS/LESS (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
 
     .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
@@ -95,7 +93,7 @@ The new media library offers you the following advantages:
   * PDF
   * ZIP
 
-  For more information, see the VCMS documentation under `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+  For more information, see the VCMS documentation under `Mediathek (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
   .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
@@ -114,7 +112,7 @@ The new media library offers you the following advantages:
 
      Managing media in the media library
 
-  For more information, see the VCMS documentation under `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+  For more information, see the VCMS documentation under `Mediathek (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
   .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
@@ -124,7 +122,7 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
 
 * Provide a link for each image in the carousel that the visitor can click on: We have extended the carousel widget accordingly.
 
-  For more information, see the VCMS documentation under `Karussell/Slider <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
+  For more information, see the VCMS documentation under `Karussell/Slider (German) <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
 
   .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
@@ -138,7 +136,7 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
 
   To do this, in the :file:`config.inc.php` file, adjust the :code:`aAllowedUploadTypes` parameter.
 
-  For more information, see the VCMS documentation under `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
+  For more information, see the VCMS documentation under `Weitere Dateiformate zum Upload in die Mediathek erlauben (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
 
   .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
@@ -146,9 +144,9 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
 
 **More information**
 
-For more information about installation, see the VCMS documentation under `Neuinstallation <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
+For more information about installation, see the VCMS documentation under `Neuinstallation (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
 
-  .. todo: #tbd: URL anpassen, sobald Übersetzung da
+.. todo: #tbd: URL anpassen, sobald Übersetzung da
 
 For more information on changes, see the following changelogs:
 
@@ -326,13 +324,14 @@ After updating your code to replace the deprecated classes, if necessary, run te
 Components
 ----------
 
+Repositories without link are private.
+
 Changed Components of the compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: update changed modules: the following is per https://oxid-esales.atlassian.net/browse/OXDEV-7967?focusedCommentId=166652
+We have updated the following components and modules.
 
-We have updated the following components and modules:
-
+* New: `Eye-Able 3.0.1 <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/tree/v3.0.1>`_
 * `OXID eShop CE (update from 7.0.4 to 7.1.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
 * `Twig component (update from 2.2.0 to 2.4.0) <https://github.com/OXID-eSales/twig-component/blob/v2.4.0/CHANGELOG-2.x.md>`_
 * `OXID eShop composer plugin (update from 7.1.1 to 7.2.0) <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.2.0/CHANGELOG-7.x.md>`_
@@ -343,14 +342,13 @@ We have updated the following components and modules:
 * `OXID eShop facts (update from 4.1.0 to 4.2.0) <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.2.0/CHANGELOG-4.x.md>`_
 * `Unified Namespace Generator (update from 4.1.0 to 5.0.0) <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.0.0/CHANGELOG.md>`_
 
+* OXID eShop PE (update from 7.0.0 to 7.1.0)
+* Twig component for Professional Edition (update from 2.2.0 to 2.4.0)
+* OXID eShop demodata PE (update from 8.0.0 to 8.0.1)
 
-* `OXID eShop PE (update from 7.0.0 to 7.1.0) <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `Twig component for Professional Edition (update from 2.2.0 to 2.4.0) <https://github.com/OXID-eSales/twig-component-pe/blob/v2.4.0/CHANGELOG-2.x.md>`_
-* `OXID eShop demodata PE (update from 8.0.0 to 8.0.1) <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
-
-* `OXID eShop EE (update from 7.0.1 to 7.1.0) <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `Twig component for Enterprise Edition (update from 2.2.0 to 2.4.0) <https://github.com/OXID-eSales/twig-component-ee/blob/v2.4.0/CHANGELOG-2.x.md>`_
-* `OXID eShop demodata EE (update from 8.0.1 to to 8.0.2) <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
+* OXID eShop EE (update from 7.0.1 to 7.1.0)
+* Twig component for Enterprise Edition (update from 2.2.0 to 2.4.0)
+* OXID eShop demodata EE (update from 8.0.1 to to 8.0.2)
 
 * `APEX Theme (update from 1.2.1 to 1.3.0) <https://github.com/OXID-eSales/apex-theme/blob/v1.3.0/CHANGELOG-1.x.md>`_
 
@@ -358,37 +356,32 @@ We have updated the following components and modules:
 * New (extracted from the WYSIWYG Editor): `Media Library (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
 * Visual CMS (update from 4.0.2 to 5.0.1)
 
-  .. todo: #HR: Nur erwähnen? "Visual CMS (update from 4.0.2 to 5.0.1)" -- The changelogs for VCMS is not accessible as it is a private repo. <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
-
 * `GDPR opt-in module (update from 3.0.1 to 4.0.0) <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.0.0/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics (update from 2.0.2 to 3.0.0) <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
 
 Components of the compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #DK: list changed modules
-.. todo: the following is not yet updated; #HR: Wann haben wir die Info?
-
 The compilation contains the following components (current versions):
 
 * `OXID eShop CE 7.1.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `OXID eShop PE 7.1.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `OXID eShop EE 7.1.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* OXID eShop PE 7.1.0
+* OXID eShop EE 7.1.1
 
 * `Apex theme 1.3.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.3.0/CHANGELOG-1.x.md>`_
 
 * `Twig admin theme 2.2.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.2.0/CHANGELOG.md>`_
 * `Twig component CE 2.4.0 <https://github.com/OXID-eSales/twig-component/blob/v2.4.0/CHANGELOG-2.x.md>`_
-* `Twig component PE 2.4.0 <https://github.com/OXID-eSales/twig-component-pe/blob/v2.4.0/CHANGELOG-2.x.md>`_
-* `Twig component EE 2.4.0 <https://github.com/OXID-eSales/twig-component-ee/blob/v2.4.0/CHANGELOG-2.x.md>`_
+* Twig component PE 2.4.0
+* Twig component EE 2.4.0
 
 * `OXID eShop composer plugin 7.2.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.2.0/CHANGELOG-7.x.md>`_
 * `OXID eShop Views Generator 2.2.0 <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
 * `OXID eShop demo data installer 3.2.0 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.2.0/CHANGELOG-3.x.md>`_
 
 * `OXID eShop demo data CE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop demo data PE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop demo data EE 8.0.2 <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
+* OXID eShop demo data PE 8.0.1
+* OXID eShop demo data EE 8.0.2
 
 * `OXID eShop doctrine migration integration 5.2.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.2.0/CHANGELOG-5.x.md>`_
 * `OXID eShop facts 4.2.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.2.0/CHANGELOG-4.x.md>`_
@@ -398,11 +391,10 @@ The compilation contains the following components (current versions):
 * `OXID Cookie Management powered by usercentrics 3.0.0 <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
 * Visual CMS 5.0.1 (PE/EE)
 
-   .. todo: #HR, s.o.: <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
-
 * `WYSIWYG Editor 4.0.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
 * `Media Library (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
 * `Makaira 2.1.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.2/CHANGELOG.md>`_
+* `Eye-Able 3.0.1 <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/tree/v3.0.1>`_
 
 
 Corrections
