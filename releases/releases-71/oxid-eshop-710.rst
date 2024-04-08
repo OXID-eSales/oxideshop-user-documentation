@@ -183,39 +183,43 @@ Aktivieren Sie dazu das Eye-Able Assist-Modul. Unten rechts im Bildschirm ersche
 .. _oxid-eshop-710-02:
 
 .. figure:: ../../media/screenshots/oxid-eshop-710-02.png
-   :alt: Eye Able: Icon Visuelle Hilfe
+   :alt: Eye-Able: Icon Visuelle Hilfe
    :width: 650
    :class: with-shadow
 
-   Abb.: Eye Able: Icon Visuelle Hilfe
+   Abb.: Eye-Able: Icon Visuelle Hilfe
 
-**Eye-Able-Kurzreport und -Dashboard**
+**Eye-Able-Kurzreport und -Dashboard nutzen**
 
 Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihren :productname:`OXID eShop` nutzen können.
 
-Setzen Sie dazu konsequent die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstellungsgesetz (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ und der `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ um.
+Setzen Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstellungsgesetz (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ und der `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ um.
 
-Dabei unterstützt Sie das Eye-Able Dashboard.
+1. Ermitteln Sie mit der kostenlosen Testversion des Eye-Able Assist-Moduls den möglichen Optimierungsbedarf.
 
-Ermitteln Sie zunächst mit der kostenlosen Testversion des Eye-Able Assist-Moduls den möglichen Optimierungsbedarf. Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
+   Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
 
-.. todo: #tbd: Kurzreport kann sich ändern, Bild entsprechend, HR nachfragen
+   .. todo: #tbd: Kurzreport kann sich ändern, Bild entsprechend, HR nachfragen
 
-.. _oxid-eshop-710-01:
+   .. _oxid-eshop-710-01:
 
-.. figure:: ../../media/screenshots/oxid-eshop-710-01.png
-   :alt: Eye Able-Kurzreport-Generierung
-   :width: 650
-   :class: with-shadow
+   .. figure:: ../../media/screenshots/oxid-eshop-710-01.png
+      :alt: Eye-Able-Kurzreport-Generierung
+      :width: 650
+      :class: with-shadow
 
-   Abb.: Eye Able-Kurzreport-Generierung
+      Abb.: Eye-Able-Kurzreport-Generierung
 
-Stellen Sie bei Bedarf die Barrierefreiheit Ihres eShops mit Hilfe des Eye Able-Dashboards sicher. Lizenzieren Sie dazu die Vollversion von Eye-Able Assist.
+2. Wenn aus dem Eye-Able-Kurzreport hervorgeht, dass Ihr OXID eShop Optimierungspotential hinsichtlich der Barrierefreiheit hat, dann tun Sie Folgendes:
 
-Weitere Informationen finden Sie unter
+   1. Lizenzieren Sie dazu die Vollversion von Eye-Able Assist.
+   #. Stellen Sie die Barrierefreiheit Ihres OXID eShops mit Hilfe des Eye-Able-Dashboards sicher.
 
-* https://eye-able.com/software-services/
-* https://github.com/Tobias-Eye-Able/eye-able-oxid-module
+   Weitere Informationen finden Sie unter
+
+   * https://dashboard.eye-able.com/demo
+   * https://eye-able.com/software-services/
+   * https://github.com/Tobias-Eye-Able/eye-able-oxid-module
 
 .. note::
 
@@ -286,7 +290,7 @@ Installieren von Paketen über die Kommandozeilenschnittstelle
 
 Um ein Theme zu aktivieren, müssen Sie nicht die Administrator-Oberfläche in Ihrem :productname:`OXID eShop` verwenden.
 
-Nutzen Sie den Befehl :code:`bin/oe-console oe:theme:activate <theme>`.
+Nutzen Sie den Befehl :code:`./vendor/bin/oe-console oe:theme:activate <theme>`.
 
 Weitere Informationen finden Sie in der Entwickler-Dokumentation unter
 
@@ -367,7 +371,7 @@ Geänderte und neue Komponenten der Compilation
 
 Wir haben die folgenden Komponenten und Module aktualisiert:
 
-* `OXID eShop CE (Update von 7.0.3 auf 7.1.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `OXID eShop CE (Update von 7.0.4 auf 7.1.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
 * `Twig component (Update von 2.2.0 auf 2.4.0) <https://github.com/OXID-eSales/twig-component/blob/v2.4.0/CHANGELOG-2.x.md>`_
 * `OXID eShop composer plugin (Update von 7.1.1 auf 7.2.0) <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.2.0/CHANGELOG-7.x.md>`_
 * `OXID eShop Views Generator (Update von 2.1.0 auf 2.2.0) <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
@@ -390,7 +394,9 @@ Wir haben die folgenden Komponenten und Module aktualisiert:
 
 * `WYSIWYG Editor (Update von 3.0.2 auf 4.0.0) <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
 * Neu (extrahiert aus WYSIWYG Editor): `Mediathek (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
-* `Visual CMS (Update von 4.0.2 auf 5.0.1) <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
+* Visual CMS (update from 4.0.2 to 5.0.1)
+
+  .. todo: #HR: Nur erwähnen? "Visual CMS (update from 4.0.2 to 5.0.1)" -- The changelogs for VCMS is not accessible as it is a private repo. <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
 
 * `GDPR opt-in module (Update von 3.0.1 auf 4.0.0) <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.0.0/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics (Update von 2.0.2 auf 3.0.0) <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
@@ -405,7 +411,7 @@ Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 .. todo:  #HR:  `Mediathek (1.0.0) ergänzt
 
 * `OXID eShop CE 7.1.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `OXID eShop PE 7.1.0 <ttps://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `OXID eShop PE 7.1.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
 * `OXID eShop EE 7.1.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.1.0/CHANGELOG-7.1.md>`_
 
 * `Apex theme 1.3.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.3.0/CHANGELOG-1.x.md>`_
@@ -423,13 +429,16 @@ Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 * `OXID eShop demo data PE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
 * `OXID eShop demo data EE 8.0.2 <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
 
-* `OXID eShop doctrine migration integration 5.2.0 <ttps://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.2.0/CHANGELOG-5.x.md>`_
+* `OXID eShop doctrine migration integration 5.2.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.2.0/CHANGELOG-5.x.md>`_
 * `OXID eShop facts 4.2.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.2.0/CHANGELOG-4.x.md>`_
-* `Unified Namespace Generator 5.0.0 <ttps://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.0.0/CHANGELOG.md>`_
+* `Unified Namespace Generator 5.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.0.0/CHANGELOG.md>`_
 
 * `GDPR Opt-In 4.0.0 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.0.0/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics 3.0.0 <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
-* `Visual CMS 5.0.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_ (PE/EE)
+* Visual CMS 5.0.1 (PE/EE)
+
+   .. todo: #HR, s.o.: <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
+
 * `WYSIWYG Editor 4.0.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
 * `Mediathek (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
 * `Makaira 2.1.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.2/CHANGELOG.md>`_
