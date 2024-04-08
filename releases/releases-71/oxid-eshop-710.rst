@@ -81,7 +81,7 @@ The new media library offers you the following advantages:
 * Create images in better quality and in a simpler way:
 
   * Generate thumbnails for your images in SVG format.
-  * Generate thumbnails for your images with transparency.
+  * Generate thumbnails with transparency.
   * Control the display of your images via CSS classes:
 
     For more information, see the VCMS documentation under `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
@@ -141,12 +141,8 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
   For more information, see the VCMS documentation under `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
 
   .. todo: #tbd: URL anpassen, sobald Übersetzung da
-  .. todo: HR: stays like this: $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');
 
 * Optimize your content seamlessly: When saving, a check function detects possible syntax errors in your CSS/LESS.
-* Benefit from improved user-friendliness. We have further reduced parsing errors.
-
-  .. todo: #MF: What could be meant by parsing errors?
 
 **More information**
 
