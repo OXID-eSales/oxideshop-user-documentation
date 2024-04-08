@@ -24,7 +24,7 @@ Die wichtigsten Änderungen im Überblick
   * Ordnerfunktion & Dateiumbenennung in Mediathek
   * CSS-Klassen für Bildsteuerung
 
-* VCMS-Code-Verbesserungen
+* Visual CMS-Code-Verbesserungen
 
   * Karussell-Widget erweitert
   * Konfigurieren erlaubter Formate
@@ -138,8 +138,6 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um 
 
   Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
 
-  .. todo: HR: bleibt so: $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');
-
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
 
 **Weitere Informationen**
@@ -189,7 +187,7 @@ Setzen Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstell
 
    Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
 
-   .. todo: #tbd: Kurzreport kann sich ändern, Bild entsprechend, HR nachfragen
+   .. todo: #HR: #SB: Kurzreport kann sich ändern, Bild entsprechend, #HR nachfragen
 
    .. _oxid-eshop-710-01:
 
@@ -276,7 +274,6 @@ Installieren von Paketen über die Kommandozeilenschnittstelle
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #02
-.. todo: SB/HR: HR so OK: jetzt regulär; Ist das ein neues Feature? So weit ich sehe, haben wir nur ein neues Kapitel in der Dev-Doku.; vorher Dev-Komponente nachzuinstalieren
 
 Um ein Theme zu aktivieren, müssen Sie nicht die Administrator-Oberfläche in Ihrem :productname:`OXID eShop` verwenden.
 
@@ -295,7 +292,7 @@ Einladungs-Funktion
 ^^^^^^^^^^^^^^^^^^^
 
 .. todo: #DK/#HR: Kapitel abspecken? Invite functionality got too much emphasis, it should be more concise, e.g.: It was removed because it’s unsafe. If it is need then contact our solution management.
-.. todo: #HR; Wie ist de offizielle Kontaktinfo für solution management?
+.. todo: #HR; Wie ist de offizielle Kontaktinfo für solution management? -- SB fragen; an Sven wenden statt Funktionen
 
 .. todo: #07
 
@@ -330,7 +327,6 @@ Veraltete (deprecated) Konsolenklassen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: #06
-.. todo: #HR: prüfen
 
 Folgende Konsolenklassen (console classes) aus dem internen Namensraum sind als veraltet markiert und werden im nächsten Major Release entfernt.
 
@@ -343,25 +339,17 @@ Nachdem Sie gegebenenfalls Ihren Code aktualisiert haben, um die veralteten Klas
 * :code:`CommandsProvider`
 * :code:`CommandsProviderInterface`
 
-.. todo: DK: not documented, so not to be mentioned; : deprecated as of 7.1, removed as of 8.0
-        Folgende zuvor als veraltet (deprecated) markierten Funktionen haben wir entfernt.
-        * getContainer()
-        * dispatchEvent() methods in Core classes	Dev
-.. todo: Zur Info: Global function \makeReadable(); DK: not to be mentioned in docu
-.. todo: Zur Info: TemplateFileResolverInterface is redundant and will be removed in the next major version, template extension resolving is already performed in TemplateRenderer
-        DK: it's a leftover: will be reomoved, not to be mentioned; Smarty Überbleibsel, DK checks
-
 Komponenten
 -----------
+
+Repositories ohne Link sind private Repositories.
 
 Geänderte und neue Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: update changed modules: the following is per https://oxid-esales.atlassian.net/browse/OXDEV-7967?focusedCommentId=166652
-.. todo: #HR: kein Eye-Able-Modul?
+Wir haben die folgenden Komponenten und Module aktualisiert.
 
-Wir haben die folgenden Komponenten und Module aktualisiert:
-
+* Neu: `Eye-Able 3.0.1 <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/tree/v3.0.1>`_
 * `OXID eShop CE (Update von 7.0.4 auf 7.1.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
 * `Twig component (Update von 2.2.0 auf 2.4.0) <https://github.com/OXID-eSales/twig-component/blob/v2.4.0/CHANGELOG-2.x.md>`_
 * `OXID eShop composer plugin (Update von 7.1.1 auf 7.2.0) <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.2.0/CHANGELOG-7.x.md>`_
@@ -372,22 +360,19 @@ Wir haben die folgenden Komponenten und Module aktualisiert:
 * `OXID eShop facts (Update von 4.1.0 auf 4.2.0) <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.2.0/CHANGELOG-4.x.md>`_
 * `Unified Namespace Generator (Update von 4.1.0 auf 5.0.0) <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.0.0/CHANGELOG.md>`_
 
+* OXID eShop PE (Update von 7.0.0 auf 7.1.0)
+* Twig component for Professional Edition (Update von 2.2.0 auf 2.4.0)
+* OXID eShop demodata PE (Update von 8.0.0 auf 8.0.1)
 
-* `OXID eShop PE (Update von 7.0.0 auf 7.1.0) <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `Twig component for Professional Edition (Update von 2.2.0 auf 2.4.0) <https://github.com/OXID-eSales/twig-component-pe/blob/v2.4.0/CHANGELOG-2.x.md>`_
-* `OXID eShop demodata PE (Update von 8.0.0 auf 8.0.1) <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
-
-* `OXID eShop EE (Update von 7.0.1 auf 7.1.0) <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `Twig component for Enterprise Edition (Update von 2.2.0 auf 2.4.0) <https://github.com/OXID-eSales/twig-component-ee/blob/v2.4.0/CHANGELOG-2.x.md>`_
-* `OXID eShop demodata EE (Update von 8.0.1 to auf 8.0.2) <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
+* OXID eShop EE (Update von 7.0.1 auf 7.1.0)
+* Twig component for Enterprise Edition (Update von 2.2.0 auf 2.4.0)
+* OXID eShop demodata EE (Update von 8.0.1 to auf 8.0.2)
 
 * `APEX Theme (Update von 1.2.1 auf 1.3.0) <https://github.com/OXID-eSales/apex-theme/blob/v1.3.0/CHANGELOG-1.x.md>`_
 
 * `WYSIWYG Editor (Update von 3.0.2 auf 4.0.0) <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
 * Neu (extrahiert aus WYSIWYG Editor): `Mediathek (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
 * Visual CMS (update from 4.0.2 to 5.0.1)
-
-  .. todo: #HR: Nur erwähnen? "Visual CMS (update from 4.0.2 to 5.0.1)" -- The changelogs for VCMS is not accessible as it is a private repo. <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
 
 * `GDPR opt-in module (Update von 3.0.1 auf 4.0.0) <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.0.0/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics (Update von 2.0.2 auf 3.0.0) <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
@@ -397,28 +382,24 @@ Komponenten der Compilation
 
 Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 
-.. todo: update module versions: the following is per https://oxid-esales.atlassian.net/browse/OXDEV-7967?focusedCommentId=166652
-.. todo:  #HR:  kommt eye-able als neue Komponente hinzu?
-.. todo:  #HR:  `Mediathek (1.0.0) ergänzt
-
 * `OXID eShop CE 7.1.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `OXID eShop PE 7.1.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `OXID eShop EE 7.1.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* OXID eShop PE 7.1.0
+* OXID eShop EE 7.1.1
 
 * `Apex theme 1.3.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.3.0/CHANGELOG-1.x.md>`_
 
 * `Twig admin theme 2.2.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.2.0/CHANGELOG.md>`_
 * `Twig component CE 2.4.0 <https://github.com/OXID-eSales/twig-component/blob/v2.4.0/CHANGELOG-2.x.md>`_
-* `Twig component PE 2.4.0 <https://github.com/OXID-eSales/twig-component-pe/blob/v2.4.0/CHANGELOG-2.x.md>`_
-* `Twig component EE 2.4.0 <https://github.com/OXID-eSales/twig-component-ee/blob/v2.4.0/CHANGELOG-2.x.md>`_
+* Twig component PE 2.4.0
+* Twig component EE 2.4.0
 
 * `OXID eShop composer plugin 7.2.0 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.2.0/CHANGELOG-7.x.md>`_
 * `OXID eShop Views Generator 2.2.0 <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
 * `OXID eShop demo data installer 3.2.0 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.2.0/CHANGELOG-3.x.md>`_
 
 * `OXID eShop demo data CE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop demo data PE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop demo data EE 8.0.2 <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
+* OXID eShop demo data PE 8.0.1
+* OXID eShop demo data EE 8.0.2
 
 * `OXID eShop doctrine migration integration 5.2.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.2.0/CHANGELOG-5.x.md>`_
 * `OXID eShop facts 4.2.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.2.0/CHANGELOG-4.x.md>`_
@@ -428,11 +409,10 @@ Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 * `OXID Cookie Management powered by usercentrics 3.0.0 <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
 * Visual CMS 5.0.1 (PE/EE)
 
-   .. todo: #HR, s.o.: <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
-
 * `WYSIWYG Editor 4.0.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
 * `Mediathek (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
 * `Makaira 2.1.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.2/CHANGELOG.md>`_
+* `Eye-Able 3.0.1 <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/tree/v3.0.1>`_
 
 
 Korrekturen
@@ -449,8 +429,6 @@ Installation
 ------------
 
 Zum Installieren oder Aktualisieren folgen Sie den Anleitungen im Abschnitt *Installation*:
-
-.. todo: #HR which links don't work?
 
 :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`  |br|
 :doc:`Minor-Update installieren <../../installation/update/minor-update>`
