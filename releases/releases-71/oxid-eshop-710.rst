@@ -140,6 +140,9 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um 
 
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
 
+.. todo: #MF
+        * Nutzen Sie als englischsprachiger Benutzer den WYSIWYG-Editor mit englischer Lokalisierung.
+
 **Weitere Informationen**
 
 Weitere Informationen zum Installieren finden Sie in der VCMS-Dokumentation unter `Neuinstallation <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
