@@ -186,31 +186,35 @@ To do this, activate the Eye-Able Assist module. An icon :guilabel:`Visual Help`
 
    Fig.: Eye-Able: Visual Help icon
 
-**Eye Able short report and dashboard**
+**Using the Eye-Able short report and dashboard**
 
 Ensure that more customers can use your :productname:`OXID eShop` by increasing digital accessibility.
 
 To do this, implement the accessibility guidelines in accordance with the `Disability Equality Act (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ and the `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_.
 
-The Eye-Able Dashboard supports you in this.
+1. Determine the possible need for optimization with the free trial version of the Eye-Able Assist module.
 
-First determine the possible need for optimization with the free trial version of the Eye-Able Assist module. Eye-Able Assist establishes a connection to your eShop, determines the number of possible improvements and displays them in the administrator area of your :productname:`OXID eShop` as an Eye Able teaser report (:ref:`oxid-eshop-710-01`, Pos. 1).
+   Eye-Able Assist establishes a connection to your eShop, determines the number of possible improvements and displays them in the administrator area of your :productname:`OXID eShop` as an Eye-Able teaser report (:ref:`oxid-eshop-710-01`, item 1).
 
-.. _oxid-eshop-710-01:
+   .. _oxid-eshop-710-01:
 
-.. figure:: ../../media/screenshots/oxid-eshop-710-01.png
-   :alt: Eye Able teaser report generation
-   :width: 650
-   :class: with-shadow
+   .. figure:: ../../media/screenshots/oxid-eshop-710-01.png
+      :alt: Eye-Able teaser report generation
+      :width: 650
+      :class: with-shadow
 
-   Fig.: Eye Able teaser report generation
+      Fig.: Eye-Able teaser report generation
 
-If required, ensure the accessibility of your eShop with the help of the Eye Able dashboard. To do this, license the full version of Eye-Able Assist.
+2. If the Eye-Able teaser report shows that your OXID eShop has potential for optimization in terms of accessibility, do the following:
 
-For more information, see
+   1. License the Eye-Able Assist full version.
+   #. Ensure the accessibility of your OXID eShop with the help of the Eye-Able dashboard.
 
-* https://eye-able.com/software-services/
-* https://github.com/Tobias-Eye-Able/eye-able-oxid-module
+   For more information, see
+
+   * https://dashboard.eye-able.com/demo
+   * https://eye-able.com/software-services/
+   * https://github.com/Tobias-Eye-Able/eye-able-oxid-module
 
 .. note::
 
@@ -275,7 +279,7 @@ Installing packages via the command line interface
 
 To activate a theme, you do not need to use the administrator interface in your :productname:`OXID eShop`.
 
-Use the :code:`bin/oe-console oe:theme:activate <theme>` command.
+Use the :code:`./vendor/bin/oe-console oe:theme:activate <theme>` command.
 
 For more information, see the developer documentation under
 
@@ -333,7 +337,7 @@ Changed Components of the compilation
 
 We have updated the following components and modules:
 
-* `OXID eShop CE (update from 7.0.3 to 7.1.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `OXID eShop CE (update from 7.0.4 to 7.1.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
 * `Twig component (update from 2.2.0 to 2.4.0) <https://github.com/OXID-eSales/twig-component/blob/v2.4.0/CHANGELOG-2.x.md>`_
 * `OXID eShop composer plugin (update from 7.1.1 to 7.2.0) <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.2.0/CHANGELOG-7.x.md>`_
 * `OXID eShop Views Generator (update from 2.1.0 to 2.2.0) <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
@@ -356,7 +360,9 @@ We have updated the following components and modules:
 
 * `WYSIWYG Editor(update from 3.0.2 to 4.0.0): ) <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
 * New (extracted from the WYSIWYG Editor): `Media Library (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
-* `Visual CMS (update from 4.0.2 to 5.0.1) <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
+* Visual CMS (update from 4.0.2 to 5.0.1)
+
+  .. todo: #HR: Nur erwähnen? "Visual CMS (update from 4.0.2 to 5.0.1)" -- The changelogs for VCMS is not accessible as it is a private repo. <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
 
 * `GDPR opt-in module (update from 3.0.1 to 4.0.0) <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.0.0/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics (update from 2.0.2 to 3.0.0) <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
@@ -370,7 +376,7 @@ Components of the compilation
 The compilation contains the following components (current versions):
 
 * `OXID eShop CE 7.1.0 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.0/CHANGELOG-7.1.md>`_
-* `OXID eShop PE 7.1.0 <ttps://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
+* `OXID eShop PE 7.1.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.1.0/CHANGELOG-7.1.md>`_
 * `OXID eShop EE 7.1.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.1.0/CHANGELOG-7.1.md>`_
 
 * `Apex theme 1.3.0 <https://github.com/OXID-eSales/apex-theme/blob/v1.3.0/CHANGELOG-1.x.md>`_
@@ -388,13 +394,16 @@ The compilation contains the following components (current versions):
 * `OXID eShop demo data PE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
 * `OXID eShop demo data EE 8.0.2 <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
 
-* `OXID eShop doctrine migration integration 5.2.0 <ttps://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.2.0/CHANGELOG-5.x.md>`_
+* `OXID eShop doctrine migration integration 5.2.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.2.0/CHANGELOG-5.x.md>`_
 * `OXID eShop facts 4.2.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.2.0/CHANGELOG-4.x.md>`_
-* `Unified Namespace Generator 5.0.0 <ttps://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.0.0/CHANGELOG.md>`_
+* `Unified Namespace Generator 5.0.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.0.0/CHANGELOG.md>`_
 
 * `GDPR Opt-In 4.0.0 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.0.0/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics 3.0.0 <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
-* `Visual CMS 5.0.1 <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_ (PE/EE)
+* Visual CMS 5.0.1 (PE/EE)
+
+   .. todo: #HR, s.o.: <https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.1/CHANGELOG.md>`_
+
 * `WYSIWYG Editor 4.0.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md>`_
 * `Media Library (1.0.0) <https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md>`_
 * `Makaira 2.1.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.2/CHANGELOG.md>`_
