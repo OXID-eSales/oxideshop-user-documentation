@@ -73,8 +73,6 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
 
 * Profitieren Sie von der Unterstützung folgender Bild- und Bewegtbild-Formate:
 
-  .. todo: #EN MediaLibrary-Modul
-
   * SVG
   * AVIF:
 
@@ -83,13 +81,8 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
 
 * Erzeugen Sie Bilder in besserer Qualität und auf einfachere Weise:
 
-  .. todo: MF: nicht neu:   * Löschen Sie den Thumbnail-Ordner, dann werden die Thumbnails automatisch neu generiert.
-
   * Generieren Sie Thumbnails für Ihre Bilder im SVG-Format.
-  * Generieren Sie Thumbnails für Ihre Bilder mit Transparenz.
-
-    .. todo:   #MF: ist Transparenz neu? Bei welchen Formaten?
-
+  * Generieren Sie Thumbnails mit Transparenz.
   * Steuern Sie die Darstellung Ihrer Bilder über CSS-Klassen:
 
     Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
@@ -148,9 +141,6 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um 
   .. todo: HR: bleibt so: $this->aAllowedUploadTypes = array('jpg', 'gif', 'png', 'pdf', 'mp3', 'avi', 'mpg', 'mpeg', 'doc', 'xls', 'ppt');
 
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
-* Profitieren Sie von einer verbesserten Bedienfreundlichkeit. Dazu haben wir Parsing-Fehler weiter verringert.
-
-  .. todo: #MF: Was könnte mit Parsing-Fehlern gemeint sein?
 
 **Weitere Informationen**
 
@@ -368,6 +358,7 @@ Geänderte und neue Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: update changed modules: the following is per https://oxid-esales.atlassian.net/browse/OXDEV-7967?focusedCommentId=166652
+.. todo: #HR: kein Eye-Able-Modul?
 
 Wir haben die folgenden Komponenten und Module aktualisiert:
 
@@ -458,6 +449,8 @@ Installation
 ------------
 
 Zum Installieren oder Aktualisieren folgen Sie den Anleitungen im Abschnitt *Installation*:
+
+.. todo: #HR which links don't work?
 
 :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`  |br|
 :doc:`Minor-Update installieren <../../installation/update/minor-update>`
