@@ -200,7 +200,6 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um 
   Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
 
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
-* Nutzen Sie als englischsprachiger Benutzer den WYSIWYG-Editor mit englischer Lokalisierung.
 
 **Weitere Informationen**
 
