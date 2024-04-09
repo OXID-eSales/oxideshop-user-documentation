@@ -150,8 +150,6 @@ The new media library offers you the following advantages:
 
   For more information, see the VCMS documentation under `Mediathek (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
-  .. todo: #tbd: URL anpassen, sobald Übersetzung da
-
 * Keep your media library tidy. For this purpose, we have implemented the following functions:
 
   * Create folders to sort media files, using drag & drop (:ref:`oxid-eshop-710-03`, item 1).
@@ -169,15 +167,11 @@ The new media library offers you the following advantages:
 
   For more information, see the VCMS documentation under `Mediathek (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
-  .. todo: #tbd: URL anpassen, sobald Übersetzung da
-
 **Visual CMS**
 
 * Control the display of your images via CSS classes:
 
   For more information, see the VCMS documentation under `Individuelles CSS/LESS (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
-
-    .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
 **VCMS code improvements**
 
@@ -186,8 +180,6 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
 * Provide a link for each image in the carousel that the visitor can click on: We have extended the carousel widget accordingly.
 
   For more information, see the VCMS documentation under `Karussell/Slider (German) <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
-
-  .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
 * Extend shortcodes more easily. To make it easier for you to integrate them, we have made the interface for integrating new shortcodes clearer and simpler (4 instead of 12 methods).
 
@@ -199,9 +191,7 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
 
   To do this, in the :file:`config.inc.php` file, adjust the :code:`aAllowedUploadTypes` parameter.
 
-  For more information, see the VCMS documentation under `Weitere Dateiformate zum Upload in die Mediathek erlauben (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
-
-  .. todo: #tbd: URL anpassen, sobald Übersetzung da
+  For more information, see the VCMS documentation under `Weitere Dateiformate zum Upload in die Mediathek erlauben (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
 
 * Optimize your content seamlessly: When saving, a check function detects possible syntax errors in your CSS/LESS.
 * As an English-speaking user, use the WYSIWYG editor with English localization.
@@ -209,8 +199,6 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
 **More information**
 
 For more information about installation, see the VCMS documentation under `Neuinstallation (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
-
-.. todo: #tbd: URL anpassen, sobald Übersetzung da
 
 For more information on changes, see the following changelogs:
 
