@@ -203,7 +203,6 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
   .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
 * Optimize your content seamlessly: When saving, a check function detects possible syntax errors in your CSS/LESS.
-* As an English-speaking user, use the WYSIWYG editor with English localization.
 
 **More information**
 
