@@ -292,9 +292,7 @@ Invite function
 
 To offer your registered customers the option of inviting friends and receiving bonus points in return, up to version 7.0 of the OXID eShop you could activate the Invitations function under :menuselection:`Master Settings --> Core settings --> Settings --> Invitations`. --> Invitations` to activate the :guilabel:`Invitations` function.
 
-However, due to the risk of misuse by spam attacks, we have decided to remove this function.
-
-To use such a function safely, we recommend developing a special module for your OXID eShop.
+However, due to the risk of misuse by spam attacks, we have decided to remove this function from the user interface. It's still in the 7.x code base. It will be removed as of 8.0.
 
 Deprecated console classes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
