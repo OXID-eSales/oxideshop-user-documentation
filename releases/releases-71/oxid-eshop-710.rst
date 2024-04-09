@@ -122,8 +122,6 @@ Setzen Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstell
 Mit Visual CMS Texte editieren und Medien verwalten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist standardmäßig ab der :productname:`OXID eShop Professional Edition` enthalten.
-
 Wir haben die Mediathek zu einem eigenständigen Modul weiterentwickelt. Das Modul ist ebenso wie der WYSIWYG-Editor standardmäßig ab der :productname:`OXID eShop Community Edition` enthalten.
 
 Um Ihnen den Einstieg zu erleichtern, haben wir unsere Dokumentation mit praktischen Beispielen angereichert.
@@ -144,9 +142,6 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
 
   * Generieren Sie Thumbnails für Ihre Bilder im SVG-Format.
   * Generieren Sie Thumbnails mit Transparenz.
-  * Steuern Sie die Darstellung Ihrer Bilder über CSS-Klassen:
-
-    Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
 
   .. todo: MF kommt mit vorauss. mit 7.2 - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
         SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
@@ -179,6 +174,12 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
 
   .. todo: #MF: Sicherstellen, dass ein Hinweis daran erinnert, dass der Benutzer die Bilder manuell neu einbetten muss, wenn er ein Bild umbenennt oder in einen Ordner verschiebt.
 
+**Visual CMS**
+
+* Steuern Sie die Darstellung Ihrer Bilder über CSS-Klassen.
+
+  Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
+
 **VCMS-Code-Verbesserungen**
 
 Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um das Modul leistungsfähiger für zukünftige Anforderungen zu machen.
@@ -200,6 +201,7 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um 
   Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
 
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
+* Nutzen Sie den WYSIWYG-Editor als englischsprachiger Benutzer mit englischer Lokalisierung.
 
 **Weitere Informationen**
 
