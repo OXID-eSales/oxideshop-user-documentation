@@ -52,9 +52,72 @@ Wir haben die Kompatibilität des OXID eShop verbessert, um sowohl die Sicherhei
 
 * Die Implementierung von PHPUnit 10 ermöglicht modernes Testen und Qualitätssicherung, um die Zuverlässigkeit des :productname:`OXID eShop` weiter zu erhöhen.
 
-
 Neue Funktionen für Anwender
 ----------------------------
+
+Barrierefreien Zugang ermöglichen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Barrierefreies APEX-Theme**
+
+Erhöhen Sie mit dem verbesserten APEX-Theme die Benutzerfreundlichkeit und Zugänglichkeit Ihres OXID eShop für Sehbeeinträchtigte.
+
+Wir haben dazu sichergestellt, dass das APEX-Theme gemäß `Web Content Accessibility Guidelines (WCAG) (Level AA) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ barrierefrei ist.
+
+Unsere Verbesserungen umfassen beispielsweise einen erhöhten Kontrast, optimierte Alt-Attribute für aussagekräftigere Bildbeschreibungen, Rahmen mit lesbaren Namen, die die Navigation vereinfachen, und eine umfassende Screenreader-Kompatibilität, die ein flüssiges Surferlebnis für Sehbehinderte gewährleistet.
+
+**Eye-Able Visuelle Hilfe**
+
+Bieten Sie Ihren Kunden eine visuelle Hilfe, um die Lesbarkeit Ihres eShops bei Bedarf zu erhöhen.
+
+Aktivieren Sie dazu das Eye-Able Assist-Modul. Unten rechts im Bildschirm erscheint dann ein Icon :guilabel:`Visuelle Hilfe` (:ref:`oxid-eshop-710-02`, Pos. 1). Damit lässt sich ein Menü öffnen, das es beispielsweise erlaubt, die Zeichengröße, den Kontrast und so weiter anzupassen.
+
+.. _oxid-eshop-710-02:
+
+.. figure:: ../../media/screenshots/oxid-eshop-710-02.png
+   :alt: Eye-Able: Icon Visuelle Hilfe
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Eye-Able: Icon Visuelle Hilfe
+
+**Eye-Able-Kurzreport und -Dashboard nutzen**
+
+Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihren :productname:`OXID eShop` nutzen können.
+
+Setzen Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstellungsgesetz (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ und der `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ um.
+
+1. Ermitteln Sie mit der kostenlosen Testversion des Eye-Able Assist-Moduls den möglichen Optimierungsbedarf.
+
+   Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
+
+   .. todo: #tbd: #SB: Kurzreport kann sich ändern, Bild entsprechend, #HR nachfragen
+
+   .. _oxid-eshop-710-01:
+
+   .. figure:: ../../media/screenshots/oxid-eshop-710-01.png
+      :alt: Eye-Able-Kurzreport-Generierung
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Eye-Able-Kurzreport-Generierung
+
+2. Wenn aus dem Eye-Able-Kurzreport hervorgeht, dass Ihr OXID eShop Optimierungspotential hinsichtlich der Barrierefreiheit hat, dann tun Sie Folgendes:
+
+   1. Lizenzieren Sie dazu die Vollversion von Eye-Able Assist.
+   #. Stellen Sie die Barrierefreiheit Ihres OXID eShops mit Hilfe des Eye-Able-Dashboards sicher.
+
+   Weitere Informationen finden Sie unter
+
+   * https://dashboard.eye-able.com/demo
+   * https://eye-able.com/software-services/
+   * https://github.com/Tobias-Eye-Able/eye-able-oxid-module
+
+.. note::
+
+   Sie können das Eye-Able-Modul ab :productname:`OXID eShop` 6.5 nachinstallieren.
+
+   Weitere Informationen zum manuellen Installieren finden Sie in der `Readme-Datei <https://github.com/Tobias-Eye-Able/eye-able-oxid-module?tab=readme-ov-file#installation-process>`_.
 
 Mit Visual CMS Texte editieren und Medien verwalten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -62,8 +125,6 @@ Mit Visual CMS Texte editieren und Medien verwalten
 Formatieren Sie Ihre Texte komfortabel. Das :productname:`Visual CMS`-Modul ist standardmäßig ab der :productname:`OXID eShop Professional Edition` enthalten.
 
 Wir haben die Mediathek zu einem eigenständigen Modul weiterentwickelt. Das Modul ist ebenso wie der WYSIWYG-Editor standardmäßig ab der :productname:`OXID eShop Community Edition` enthalten.
-
-.. todo: #MF: so korrekt und vollständig?
 
 Um Ihnen den Einstieg zu erleichtern, haben wir unsere Dokumentation mit praktischen Beispielen angereichert.
 
@@ -139,9 +200,7 @@ Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um 
   Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.rst#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
 
 * Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
-
-.. todo: #MF
-        * Nutzen Sie als englischsprachiger Benutzer den WYSIWYG-Editor mit englischer Lokalisierung.
+* Nutzen Sie als englischsprachiger Benutzer den WYSIWYG-Editor mit englischer Lokalisierung.
 
 **Weitere Informationen**
 
@@ -153,70 +212,6 @@ Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
 * WYSIWYG-Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md
 * Mediathek: https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md
 
-
-Barrierefreien Zugang ermöglichen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-**Barrierefreies APEX-Theme**
-
-Erhöhen Sie mit dem verbesserten APEX-Theme die Benutzerfreundlichkeit und Zugänglichkeit Ihres OXID eShop für Sehbeeinträchtigte.
-
-Wir haben dazu sichergestellt, dass das APEX-Theme gemäß `Web Content Accessibility Guidelines (WCAG) (Level AA) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ barrierefrei ist.
-
-Unsere Verbesserungen umfassen beispielsweise einen erhöhten Kontrast, optimierte Alt-Attribute für aussagekräftigere Bildbeschreibungen, Rahmen mit lesbaren Namen, die die Navigation vereinfachen, und eine umfassende Screenreader-Kompatibilität, die ein flüssiges Surferlebnis für Sehbehinderte gewährleistet.
-
-**Eye-Able Visuelle Hilfe**
-
-Bieten Sie Ihren Kunden eine visuelle Hilfe, um die Lesbarkeit Ihres eShops bei Bedarf zu erhöhen.
-
-Aktivieren Sie dazu das Eye-Able Assist-Modul. Unten rechts im Bildschirm erscheint dann ein Icon :guilabel:`Visuelle Hilfe` (:ref:`oxid-eshop-710-02`, Pos. 1). Damit lässt sich ein Menü öffnen, das es beispielsweise erlaubt, die Zeichengröße, den Kontrast und so weiter anzupassen.
-
-.. _oxid-eshop-710-02:
-
-.. figure:: ../../media/screenshots/oxid-eshop-710-02.png
-   :alt: Eye-Able: Icon Visuelle Hilfe
-   :width: 650
-   :class: with-shadow
-
-   Abb.: Eye-Able: Icon Visuelle Hilfe
-
-**Eye-Able-Kurzreport und -Dashboard nutzen**
-
-Sorgen Sie durch erhöhte digitale Barrierefreiheit dafür, dass mehr Kunden Ihren :productname:`OXID eShop` nutzen können.
-
-Setzen Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstellungsgesetz (BFSG) <https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Rehabilitation-und-Teilhabe/behindertengleichstellungsgesetz.html>`_ und der `Web Content Accessibility Guidelines (WCAG) <https://www.w3.org/WAI/WCAG2AA-Conformance>`_ um.
-
-1. Ermitteln Sie mit der kostenlosen Testversion des Eye-Able Assist-Moduls den möglichen Optimierungsbedarf.
-
-   Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
-
-   .. todo: #HR: #SB: Kurzreport kann sich ändern, Bild entsprechend, #HR nachfragen
-
-   .. _oxid-eshop-710-01:
-
-   .. figure:: ../../media/screenshots/oxid-eshop-710-01.png
-      :alt: Eye-Able-Kurzreport-Generierung
-      :width: 650
-      :class: with-shadow
-
-      Abb.: Eye-Able-Kurzreport-Generierung
-
-2. Wenn aus dem Eye-Able-Kurzreport hervorgeht, dass Ihr OXID eShop Optimierungspotential hinsichtlich der Barrierefreiheit hat, dann tun Sie Folgendes:
-
-   1. Lizenzieren Sie dazu die Vollversion von Eye-Able Assist.
-   #. Stellen Sie die Barrierefreiheit Ihres OXID eShops mit Hilfe des Eye-Able-Dashboards sicher.
-
-   Weitere Informationen finden Sie unter
-
-   * https://dashboard.eye-able.com/demo
-   * https://eye-able.com/software-services/
-   * https://github.com/Tobias-Eye-Able/eye-able-oxid-module
-
-.. note::
-
-   Sie können das Eye-Able-Modul ab :productname:`OXID eShop` 6.5 nachinstallieren.
-
-   Weitere Informationen zum manuellen Installieren finden Sie in der `Readme-Datei <https://github.com/Tobias-Eye-Able/eye-able-oxid-module?tab=readme-ov-file#installation-process>`_.
 
 
 
@@ -290,41 +285,16 @@ Weitere Informationen finden Sie in der Entwickler-Dokumentation unter
 Clean Up
 --------
 
-
 Einladungs-Funktion
 ^^^^^^^^^^^^^^^^^^^
 
-.. todo: #DK/#HR: Kapitel abspecken? Invite functionality got too much emphasis, it should be more concise, e.g.: It was removed because it’s unsafe. If it is need then contact our solution management.
-.. todo: #HR; Wie ist de offizielle Kontaktinfo für solution management? -- SB fragen; an Sven wenden statt Funktionen
-
 .. todo: #07
 
-Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion Einladungen aktivieren.
+Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion :guilabel:`Einladungen` aktivieren.
 
 Aufgrund des Risikos von Missbrauch durch Spam-Attacken haben wir uns jedoch entschieden, diese Funktion zurückzubauen.
 
-Um eine solche Funktion sicher und effektiv zu nutzen, empfehlen wir Ihnen, ein spezielles Modul für Ihren OXID eShop zu entwickeln. Um Missbrauch vorzubeugen, integrieren Sie beispielsweise folgende Sicherheitsmaßnahmen:
-
-* Implementieren eines Captcha-Systems: Bevor ein registrierter Kunde jemanden einladen kann, muss er ein Captcha lösen. Dies verhindert automatisierte Bots von der Nutzung des Einladungssystems.
-* Begrenzung der Einladungen: Setzen Sie eine Höchstzahl an Einladungen fest, die ein Kunde innerhalb eines bestimmten Zeitraums senden kann. Dies vermindert die Wahrscheinlichkeit von Missbrauch, da es die Anzahl der möglichen Spam-Einladungen einschränkt.
-* Bestätigung durch den Eingeladenen: Statt direkt Bonuspunkte für das bloße Versenden einer Einladung zu vergeben, könnten Punkte erst gutgeschrieben werden, nachdem der Eingeladene die Einladung annimmt und bestimmte Kriterien erfüllt (z.B. eine Bestellung tätigt).
-* Überprüfung der E-Mail-Adressen: Implementieren Sie eine Prüfung der E-Mail-Adressen auf Gültigkeit und auf bekannte Spam-Domains, um zu verhindern, dass Einladungen an zufällig generierte oder für Spam bekannte Adressen gesendet werden.
-* Benutzerfeedback und Berichterstattung: Ermöglichen Sie Ihren Nutzern, Missbrauch zu melden. Dies hilft Ihnen, potentielle Schwachstellen im System schnell zu identifizieren und zu adressieren.
-* Anpassbare E-Mail-Vorlagen: Geben Sie den Nutzern die Möglichkeit, die Einladungs-E-Mails zu personalisieren, aber stellen Sie sicher, dass der Text bestimmte Richtlinien erfüllt und nicht missbräuchlich verwendet werden kann.
-* Monitoring und Analyse: Überwachen Sie die Nutzung des Einladungssystems aktiv, um Anomalien oder Missbrauchsmuster frühzeitig zu erkennen. Analysieren Sie die Daten regelmäßig, um die Sicherheitsmaßnahmen entsprechend anzupassen.
-
-.. todo: EN
-        To offer your registered customers the option of inviting friends and receiving bonus points in return, up to version 7.0 of the OXID eShop you could activate the Invitations function under :menuselection:`Master data --> Basic settings --> Settings --> Invitations`. --> Invitations` to activate the Invitations function.
-        However, due to the risk of misuse by spam attacks, we have decided to remove this function.
-        To use such a function safely and effectively, we recommend developing a special module for the OXID eShop. To prevent misuse, integrate the following security measures, for example:
-        * Implementation of a captcha system: Before a registered customer can invite someone, they must solve a captcha. This prevents automated bots from using the invitation system.
-        * Limitation the number of invitations: Set a maximum number of invitations that a customer can send within a certain period of time. This reduces the likelihood of abuse as it limits the number of possible spam invitations.
-        * Confirmation by the invitee: Instead of directly awarding bonus points for simply sending an invitation, points could be credited only after the invitee accepts the invitation and fulfills certain criteria (e.g. places an order).
-        * Verification of e-mail addresses: Implement email address validation and known spam domain checking to prevent invitations from being sent to randomly generated or known spam addresses.
-        * User feedback and reporting: Allow your users to report abuse. This helps you to quickly identify and address potential weaknesses in the system.
-        * Customizable email templates: Give users the ability to personalize the invitation emails, but make sure the text meets certain guidelines and cannot be misused.
-        * Monitoring and analysis: Actively monitor the use of the invitation system to detect anomalies or abuse patterns at an early stage. Analyze the data regularly to adjust the security measures accordingly.
-
+Um eine solche Funktion sicher zu nutzen, empfehlen wir Ihnen, ein spezielles Modul für Ihren OXID eShop zu entwickeln.
 
 Veraltete (deprecated) Konsolenklassen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
