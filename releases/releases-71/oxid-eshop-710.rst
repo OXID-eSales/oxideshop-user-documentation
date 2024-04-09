@@ -120,8 +120,6 @@ To do this, implement the accessibility guidelines in accordance with the `Disab
 Editing texts and managing media with Visual CMS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Format your texts conveniently. The :productname:`Visual CMS` module is included as standard from the :productname:`OXID eShop Professional Edition`.
-
 We have developed the media library into a stand-alone module. Like the WYSIWYG editor, the module is included as standard from the :productname:`OXID eShop Community Edition`.
 
 To make it easier for you to get started, we have enriched our documentation with practical examples.
@@ -142,11 +140,6 @@ The new media library offers you the following advantages:
 
   * Generate thumbnails for your images in SVG format.
   * Generate thumbnails with transparency.
-  * Control the display of your images via CSS classes:
-
-    For more information, see the VCMS documentation under `Individuelles CSS/LESS (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
-
-    .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
 * Provide your customers with data sheets, technical drawings or advertising material, for example.
 
@@ -178,6 +171,14 @@ The new media library offers you the following advantages:
 
   .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
+**Visual CMS**
+
+* Control the display of your images via CSS classes:
+
+  For more information, see the VCMS documentation under `Individuelles CSS/LESS (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
+
+    .. todo: #tbd: URL anpassen, sobald Übersetzung da
+
 **VCMS code improvements**
 
 With :productname:`OXID eShop` version 7.1 we have improved the code to make the module more powerful for future requirements.
@@ -203,6 +204,7 @@ With :productname:`OXID eShop` version 7.1 we have improved the code to make the
   .. todo: #tbd: URL anpassen, sobald Übersetzung da
 
 * Optimize your content seamlessly: When saving, a check function detects possible syntax errors in your CSS/LESS.
+* As an English-speaking user, use the WYSIWYG editor with English localization.
 
 **More information**
 
