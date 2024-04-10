@@ -3,8 +3,8 @@ OXID eShop 7.1.0
 
 Release-Datum: 09.04.2024
 
-Die wichtigsten Änderungen im Überblick
----------------------------------------
+Die Änderungen im Überblick
+---------------------------
 
 * Sicherheit & Zuverlässigkeit
 
@@ -25,7 +25,7 @@ Die wichtigsten Änderungen im Überblick
   * Syntaxprüfung für CSS/LESS
   * CSS-Klassen für Bildvorschauen
   * Vereinfachte Shortcode-Einbindung
-  * Englischsprachriger WYSIWYG Editor
+  * Englischsprachiger WYSIWYG Editor
   * Unterstützung weiterer Dateiformate (SVG, AVIF, PDF, ZIP)
   * Ordnerfunktion & Dateiumbenennung in Mediathek
 
@@ -127,21 +127,26 @@ Visual CMS
 
 **Verbesserungen für Redakteure & Designer**
 
-* Hinterlegen Sie für jedes Bild im `Karussell-Widget <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_ einen Link, den der Besucher anklicken kann.
+* Hinterlegen Sie für jedes Bild im Karussell-Widget einen Link, den der Besucher anklicken kann.
+
+  Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Karussell/Slider <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
  
-* `Steuern <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#vorschaubilder>`_ Sie die Darstellung Ihrer Vorschaubilder durch die Verwendung von CSS-Klassen.
-* Beim Speichern Ihrer CMS Inhalte macht eine Prüffunktion auf Syntaxfehler aufmerksam.
+* Steuern Sie die Darstellung Ihrer Vorschaubilder durch die Verwendung von CSS-Klassen.
+
+  Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Vorschaubilder <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#vorschaubilder>`_.
+
+* Vermeiden Sie durch eine Prüffunktion beim Speichern Ihrer CMS Inhalte mögliche Syntaxfehler.
 * Nutzen Sie den WYSIWYG-Editor als englischsprachiger Benutzer mit englischer Lokalisierung.
 
 **Verbesserungen für Entwickler & Administratoren**
 
-* Um Ihnen die Integration, Dekoration und Erweiterung bestehender Shortcodes zu erleichtern, haben wir die Schnittstelle für Shortcodes übersichtlicher und einfacher gestaltet (4 Methoden statt 12).
+* Vereinfachen Sie die Integration, Dekoration und Erweiterung Ihrer Shortcodes mit unserer neugestalteten, übersichtlicheren Schnittstelle (4 Methoden statt 12).
 
   Weitere Informationen finden Sie in der Entwickler-Dokumentation von Visual CMS unter `Extending the shortcode <https://docs.oxid-esales.com/modules/vcms/en/5.0/developer.html#extending-the-shortcode>`_.
 
   Nutzen Sie auch unser `Beispiel-Modul <https://github.com/OXID-eSales/vcms-examples/blob/b-7.1.x/src/DecorationExample.php>`_, um sich mit der Schnittstelle für Shortcodes vertraut zu machen.
 
-* Sie haben nun die Möglichkeit festzulegen, welche Dateiformate Redakteure in die Mediathek hochladen dürfen.
+* Legen Sie fest, welche Dateiformate Redakteure in die Mediathek hochladen dürfen.
 
   Passen Sie dazu in der Datei :file:`config.inc.php` den Parameter :code:`aAllowedUploadTypes` an.
 
@@ -156,31 +161,35 @@ Mediathek
   * AVIF:
 
     * Beschleunigen Sie das Laden Ihrer Webseiten durch eine um 20-30 % kleinere Dateigröße im Vergleich zu WebP, bei gleicher Qualität.
-    * Dank des Open-Source AV1 Videocodecs können Sie animierte Bilder über Bild-Widgets in Ihre Seiten integrieren. Im Vergleich zu anderen Formaten für animierte Bilder wie GIF, APNG und WebP sowie zu Videoformaten wie H.264/AVC und H.265/HEVC bietet AVIF in der Regel eine verbesserte Leistung und kleinere Dateigrößen.
-    * Das AVIF-Bildformat bietet weitere fortgeschrittene Funktionen wie HDR sowie Ebenen, um die Qualität und Auflösung des dekodierten Bildes zu verbessern und unabhängige Ebenen für spezifische Zwecke bereitzustellen.
+    * Integrieren Sie dank des Open-Source AV1 Videocodecs animierte Bilder über Bild-Widgets in Ihre Seiten.
+
+      Im Vergleich zu anderen Formaten für animierte Bilder wie GIF, APNG und WebP sowie zu Videoformaten wie H.264/AVC und H.265/HEVC bietet AVIF in der Regel eine verbesserte Leistung und kleinere Dateigrößen.
+
+    * Nutzen Sie mit dem AVIF-Bildformat weitere fortgeschrittene Funktionen wie HDR sowie Ebenen, um die Qualität und Auflösung des dekodierten Bildes zu verbessern und unabhängige Ebenen für spezifische Zwecke bereitzustellen.
 
   * SVG:
 
     * Nutzen Sie Bilder, die ohne Qualitätsverlust in beliebiger Größe skaliert werden können.
-    * SVG unterstützt interaktive Elemente wie Links, Animationen und JavaScript-Interaktionen direkt innerhalb der Grafik. Dies ermöglicht die Erstellung von interaktiven Diagrammen, Karten, Infografiken und anderen grafischen Elementen, die Benutzeraktionen ermöglichen.
-    * Da SVG-Dateien Text basiert sind, können sie leicht von Screenreadern und anderen Hilfstechnologien interpretiert werden. Dies erleichtert die Erstellung barrierefreier Inhalte.
+    * Nutzen Sie mit SVG interaktive Elemente wie Links, Animationen und JavaScript-Interaktionen direkt innerhalb der Grafik.
 
-* Sie können nun neben Bildern weitere Dateiformate verwalten, um Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereitzustellen:
+      Erstellen Sie damit interaktive Diagramme, Karten, Infografiken und anderen grafische Elemente, die Benutzeraktionen ermöglichen.
 
-  * PDF
-  * ZIP
+    * Erstellen Sie mit SVG-Dateien barrierefreie Inhalte.
 
-  Weitere Informationen finden Sie in der Visual CMS Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+      Hintergrund: SVG-Dateien sind textbasiert. Deshalb können sie leicht von Screenreadern und anderen Hilfstechnologien interpretiert werden.
 
-* Die Generierung von Bildvorschauen wurde verbessert, sodass diese das ursprüngliche Dateiformat und somit auch Transparenzen beibehalten.
+* Verwalten Sie neben Bildern die Dateiformate PDF und ZIP, um Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereitzustellen.
+
+  Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+
+* Erhalten Sie Dank des verbesserten Generierens von Bildvorschauen das ursprüngliche Dateiformat und somit auch Transparenzen von Grafiken.
 
   .. todo: MF kommt mit vorauss. mit 7.2 - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
         SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
 
-* Bringen Sie Ordnung in Ihre Mediathek mit den folgenden implementierten Funktionen:
+* Bringen Sie mit den folgenden Funktionen Ordnung in Ihre Mediathek:
 
   * Ordner anlegen, um Medien-Dateien per Drag-and-drop übersichtlich zu sortieren (:ref:`oxid-eshop-710-03`, Pos. 1).
-
   * Dateinamen bei Bedarf ändern  (:ref:`oxid-eshop-710-03`, Pos. 2).
 
   .. _oxid-eshop-710-03:
@@ -192,9 +201,11 @@ Mediathek
 
      Abb.: Medien in der Mediathek verwalten
 
-  Weitere Informationen finden Sie in der Visual CMS Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+  Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
   .. todo: #MF: Sicherstellen, dass ein Hinweis daran erinnert, dass der Benutzer die Bilder manuell neu einbetten muss, wenn er ein Bild umbenennt oder in einen Ordner verschiebt.
+
+**Weitere Informationen**
 
 Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
 
@@ -207,7 +218,7 @@ Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
 Verbesserung im Shop-Administrationsbereich
 -------------------------------------------
 
-* Zeitgesteuerte Produkte haben in der Produkt-Liste ein gesondertes Status-Icon.
+Erkennen Sie zeitgesteuerte Produkte in der Produkt-Liste an einem gesondertes Status-Icon.
 
 Weitere Informationen finden Sie in der Beschreibung, wie Sie :ref:`Produkte zeitgesteuert aktivieren <zeitaktivierung>` (:ref:`oxbaci02`, Pos. 1).
 
