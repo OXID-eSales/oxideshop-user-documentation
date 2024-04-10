@@ -3,8 +3,8 @@ OXID eShop 7.1.0
 
 Release date: 09-04-2024
 
-The most important changes at a glance
----------------------------------------
+The changes at a glance
+-----------------------
 
 * Security & reliability
 
@@ -18,18 +18,20 @@ The most important changes at a glance
   * Eye-Able Assist visual help for users
   * Eye-Able Assist dashboard for developers
 
-* New Visual CMS user functions
+* Visual CMS & Media Library
 
-  * Extended Media library (SVG, AVIF, PDF, ZIP)
-  * Folder function & file renaming in Media library
-  * CSS classes for image control
-
-* Visual CMS code improvements
-
+  * Control of allowed formats
   * Carousel widget extended
-  * Configuration of allowed file formats
-  * Simplified shortcode integration
   * Syntax check for CSS/LESS
+  * CSS classes for image previews
+  * Simplified shortcode integration
+  * English-language WYSIWYG editor
+  * Support for additional file formats (SVG, AVIF, PDF, ZIP)
+  * Folder function & file renaming in media library
+
+* Improvement in the shop administration area
+
+  * Timed-controlled products visualized
 
 * Developer functions
 
@@ -52,11 +54,8 @@ We have improved the compatibility of the OXID eShop to ensure both security and
 
 * The implementation of PHPUnit 10 enables modern testing and quality assurance to further increase the reliability of the :productname:`OXID eShop`.
 
-New functions for users
-----------------------------
-
-Enabling barrier-free access
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Barrier-free access
+-------------------
 
 **Accessible APEX Theme**
 
@@ -117,44 +116,73 @@ To do this, implement the accessibility guidelines in accordance with the `Disab
 
    For more information on manual installation, see the `Readme file <https://github.com/Tobias-Eye-Able/eye-able-oxid-module?tab=readme-ov-file#installation-process>`_.
 
-Editing texts and managing media with Visual CMS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Visual CMS & Mediathek
+----------------------
 
-We have developed the media library into a stand-alone module. Like the WYSIWYG editor, the module is included as standard from the :productname:`OXID eShop Community Edition`.
+Visual CMS
+^^^^^^^^^^
 
-To make it easier for you to get started, we have enriched our documentation with practical examples.
+**Improvements for editors & designers**
 
-**Media Library Module for OXID eShop**
+* Add a link for each image in the carousel widget that the visitor can click on.
 
-The new media library offers you the following advantages:
+  For more information, see the Visual CMS documentation under `Karussell/Slider (German) <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
 
-* Benefit from support for the following image and moving image formats:
+* Control the display of your thumbnails by using CSS classes.
 
-  * SVG
+  For more information, see the Visual CMS documentation under `Vorschaubilder (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#vorschaubilder>`_.
+
+* Avoid possible syntax errors by using a check function when saving your CMS content.
+* Use the WYSIWYG editor as an English-speaking user with English localization.
+
+**Improvements for developers & administrators**
+
+* Simplify the integration, decoration and extension of your shortcodes with our redesigned, clearer interface (4 methods instead of 12).
+
+  For more information, see the Visual CMS developer documentation under `Extending the shortcode <https://docs.oxid-esales.com/modules/vcms/en/5.0/developer.html#extending-the-shortcode>`_.
+
+  You can also use our `Example module <https://github.com/OXID-eSales/vcms-examples/blob/b-7.1.x/src/DecorationExample.php>`_ to familiarize yourself with the interface for shortcodes.
+
+* Specify which file formats editors are allowed to upload to the media library.
+
+  To do so, adjust the parameter :code:`aAllowedUploadTypes` in the file :file:`config.inc.php`.
+
+  For more information, see the Visual CMS documentation under `Weitere Dateiformate zum Upload in die Mediathek erlauben (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
+
+Media library
+^^^^^^^^^^^^^
+
+* Benefit from the extended support of the following moving image and vector formats:
+
   * AVIF:
 
-  * Speed up the loading of your web pages thanks to the higher compression compared to WebP.
-    * Integrate animations via widgets.
+    * Speed up the loading of your web pages by reducing the file size by 20-30% compared to WebP, while maintaining the same quality.
+    * Integrate animated images into your pages via image widgets thanks to the open-source AV1 video codec.
 
-* Create images in better quality and in a simpler way:
+      Compared to other formats for animated images such as GIF, APNG and WebP as well as video formats such as H.264/AVC and H.265/HEVC, AVIF generally offers improved performance and smaller file sizes.
 
-  * Generate thumbnails for your images in SVG format.
-  * Generate thumbnails with transparency.
+    * Use the AVIF image format for more advanced features such as HDR and layers to improve the quality and resolution of the decoded image and provide independent layers for specific purposes.
 
-* Provide your customers with data sheets, technical drawings or advertising material, for example.
+* SVG:
 
-  To do this, manage the following files in the following formats in your media library. Then include these files in the source code:
+  * Use images that can be scaled to any size without loss of quality.
+  * Use interactive elements such as links, animations and JavaScript interactions directly within the graphic with SVG.
 
-  * PDF
-  * ZIP
+    In this way, create interactive diagrams, maps, infographics and other graphic elements that enable user actions.
 
-  For more information, see the VCMS documentation under `Mediathek (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+  * Create accessible content with SVG files.
 
-* Keep your media library tidy. For this purpose, we have implemented the following functions:
+    Background: SVG files are text-based. Therefore, they can be easily interpreted by screen readers and other assistive technologies.
 
-  * Create folders to sort media files, using drag & drop (:ref:`oxid-eshop-710-03`, item 1).
+* To provide your customers with data sheets, technical drawings or advertising material, for example, manage PDF and ZIP file formats in addition to images.
 
-  * Change file names if required (:ref:`oxid-eshop-710-03`, item 2).
+  For more information, see the Visual CMS documentation under `Mediathek (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+
+* Thanks to the improved generation of image previews, retain the original file format and thus also the transparency of graphics.
+* Bring order to your media library with the following functions:
+
+  * Create folders to sort media files clearly using drag-and-drop (:ref:`oxid-eshop-710-03`, item 1).
+  * Change file names as required (:ref:`oxid-eshop-710-03`, item 2).
 
   .. _oxid-eshop-710-03:
 
@@ -165,40 +193,9 @@ The new media library offers you the following advantages:
 
      Managing media in the media library
 
-  For more information, see the VCMS documentation under `Mediathek (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
-
-**Visual CMS**
-
-* Control the display of your images via CSS classes:
-
-  For more information, see the VCMS documentation under `Individuelles CSS/LESS (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
-
-**VCMS code improvements**
-
-With :productname:`OXID eShop` version 7.1 we have improved the code to make the module more powerful for future requirements.
-
-* Provide a link for each image in the carousel that the visitor can click on: We have extended the carousel widget accordingly.
-
-  For more information, see the VCMS documentation under `Karussell/Slider (German) <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
-
-* Extend shortcodes more easily. To make it easier for you to integrate them, we have made the interface for integrating new shortcodes clearer and simpler (4 instead of 12 methods).
-
-  For more information, see the VCMS developer documentation under `Extending the shortcode <https://github.com/OXID-eSales/vcms-documentation/blob/5.0-en/developer.rst#extending-the-shortcode>`_.
-
-  Use our `Example module <https://github.com/OXID-eSales/vcms-examples/blob/b-7.1.x/src/DecorationExample.php>`_ to familiarize yourself with extending existing shortcodes.
-
-* Increase the robustness of your eShop by specifying as administrator which formats you want to allow for uploading.
-
-  To do this, in the :file:`config.inc.php` file, adjust the :code:`aAllowedUploadTypes` parameter.
-
-  For more information, see the VCMS documentation under `Weitere Dateiformate zum Upload in die Mediathek erlauben (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
-
-* Optimize your content seamlessly: When saving, a check function detects possible syntax errors in your CSS/LESS.
-* As an English-speaking user, use the WYSIWYG editor with English localization.
+  For more information, see the Visual CMS documentation under `Mediathek (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
 **More information**
-
-For more information about installation, see the VCMS documentation under `Neuinstallation (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
 
 For more information on changes, see the following changelogs:
 
@@ -206,15 +203,15 @@ For more information on changes, see the following changelogs:
 * WYSIWYG editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md
 * Media Library: https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md
 
-Distinguishing time-controlled products more easily
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Improvements in the OXID eShop administration area
+--------------------------------------------------
 
-Time-controlled products have a separate status icon in the product list.
+Recognize time-controlled products in the product list by a separate status icon.
 
 For more information, see the instructions about :ref:`activating time-controlled products <zeitaktivierung>` (:ref:`oxbaci02`, item 1).
 
 New functions for developers
-------------------------------
+----------------------------
 
 Defining dependencies between modules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -231,7 +228,7 @@ We develop module packages, for example OXAPI, B2B and VisualCMS, in which modul
 
   Use this option if you have a base module with core functions that must be active for other modules to work.
 
-  For more informationsee the the developer documentation under `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
+  For more information see the developer documentation under `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
 
 .. todo: #tbd: Verify URL
 
