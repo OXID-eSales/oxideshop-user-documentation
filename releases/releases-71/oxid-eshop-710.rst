@@ -18,27 +18,29 @@ Die wichtigsten Änderungen im Überblick
   * Eye-Able Assist Visuelle Hilfe für Anwender
   * Eye-Able Assist-Dashboard für Entwickler
 
-* Neue Visual CMS-Anwenderfunktionen
+* Visual CMS & Mediathek
 
-  * Erweiterte Mediathek (SVG, AVIF, PDF, ZIP)
-  * Ordnerfunktion & Dateiumbenennung in Mediathek
-  * CSS-Klassen für Bildsteuerung
-
-* Visual CMS-Code-Verbesserungen
-
+  * Steuerung erlaubter Formate
   * Karussell-Widget erweitert
-  * Konfigurieren erlaubter Formate
-  * Vereinfachte Shortcode-Einbindung
   * Syntaxprüfung für CSS/LESS
+  * CSS-Klassen für Bildvorschauen
+  * Vereinfachte Shortcode-Einbindung
+  * Englischsprachriger WYSIWYG Editor
+  * Unterstützung weiterer Dateiformate (SVG, AVIF, PDF, ZIP)
+  * Ordnerfunktion & Dateiumbenennung in Mediathek
 
-* Entwicklerfunktionen
+* Verbesserung im Shop-Administrationsbereich
+
+  * Zeitgesteuerte Produkte visualisiert
+
+* Neue Funktionen für Entwickler
 
   * Modulabhängigkeiten
   * Symfony DI-Container-Nutzung
   * Konsolen-Befehl zur Theme-Aktivierung
 
-Sicherheit und Zuverlässigkeit
-------------------------------
+Sicherheit & Zuverlässigkeit
+----------------------------
 
 Wir haben die Kompatibilität des OXID eShop verbessert, um sowohl die Sicherheit als auch die Performance zu gewährleisten:
 
@@ -52,11 +54,8 @@ Wir haben die Kompatibilität des OXID eShop verbessert, um sowohl die Sicherhei
 
 * Die Implementierung von PHPUnit 10 ermöglicht modernes Testen und Qualitätssicherung, um die Zuverlässigkeit des :productname:`OXID eShop` weiter zu erhöhen.
 
-Neue Funktionen für Anwender
-----------------------------
-
-Barrierefreien Zugang ermöglichen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Barrierefreiheit
+----------------
 
 **Barrierefreies APEX-Theme**
 
@@ -119,45 +118,68 @@ Setzen Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstell
 
    Weitere Informationen zum manuellen Installieren finden Sie in der `Readme-Datei <https://github.com/Tobias-Eye-Able/eye-able-oxid-module?tab=readme-ov-file#installation-process>`_.
 
-Mit Visual CMS Texte editieren und Medien verwalten
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Wir haben die Mediathek zu einem eigenständigen Modul weiterentwickelt. Das Modul ist ebenso wie der WYSIWYG-Editor standardmäßig ab der :productname:`OXID eShop Community Edition` enthalten.
+Visual CMS & Mediathek
+----------------------
 
-Um Ihnen den Einstieg zu erleichtern, haben wir unsere Dokumentation mit praktischen Beispielen angereichert.
+Visual CMS
+^^^^^^^^^^
 
-**Mediathek**
+**Verbesserungen für Redakteure & Designer**
 
-Durch die neue Mediathek haben Sie folgende Vorteile:
+* Hinterlegen Sie für jedes Bild im `Karussell-Widget <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_ einen Link, den der Besucher anklicken kann.
+ 
+* `Steuern <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#vorschaubilder>`_ Sie die Darstellung Ihrer Vorschaubilder durch die Verwendung von CSS-Klassen.
+* Beim Speichern Ihrer CMS Inhalte macht eine Prüffunktion auf Syntaxfehler aufmerksam.
+* Nutzen Sie den WYSIWYG-Editor als englischsprachiger Benutzer mit englischer Lokalisierung.
 
-* Profitieren Sie von der Unterstützung folgender Bild- und Bewegtbild-Formate:
+**Verbesserungen für Entwickler & Administratoren**
 
-  * SVG
+* Um Ihnen die Integration, Dekoration und Erweiterung bestehender Shortcodes zu erleichtern, haben wir die Schnittstelle für Shortcodes übersichtlicher und einfacher gestaltet (4 Methoden statt 12).
+
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation von Visual CMS unter `Extending the shortcode <https://docs.oxid-esales.com/modules/vcms/en/5.0/developer.html#extending-the-shortcode>`_.
+
+  Nutzen Sie auch unser `Beispiel-Modul <https://github.com/OXID-eSales/vcms-examples/blob/b-7.1.x/src/DecorationExample.php>`_, um sich mit der Schnittstelle für Shortcodes vertraut zu machen.
+
+* Sie haben nun die Möglichkeit festzulegen, welche Dateiformate Redakteure in die Mediathek hochladen dürfen.
+
+  Passen Sie dazu in der Datei :file:`config.inc.php` den Parameter :code:`aAllowedUploadTypes` an.
+
+  Weitere Informationen finden Sie in der Visual CMS Dokumentation unter `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
+
+
+Mediathek
+^^^^^^^^^
+
+* Profitieren Sie von der erweiterten Unterstützung folgender Bewegtbild- und Vektor-Formate:
+
   * AVIF:
 
-  * * Beschleunigen Sie das Laden Ihrer Webseiten durch die höhere Kompression im Vergleich zu WebP.
-    * Binden Sie über Widgets Animationen ein.
+    * Beschleunigen Sie das Laden Ihrer Webseiten durch eine um 20-30 % kleinere Dateigröße im Vergleich zu WebP, bei gleicher Qualität.
+    * Dank des Open-Source AV1 Videocodecs können Sie animierte Bilder über Bild-Widgets in Ihre Seiten integrieren. Im Vergleich zu anderen Formaten für animierte Bilder wie GIF, APNG und WebP sowie zu Videoformaten wie H.264/AVC und H.265/HEVC bietet AVIF in der Regel eine verbesserte Leistung und kleinere Dateigrößen.
+    * Das AVIF-Bildformat bietet weitere fortgeschrittene Funktionen wie HDR sowie Ebenen, um die Qualität und Auflösung des dekodierten Bildes zu verbessern und unabhängige Ebenen für spezifische Zwecke bereitzustellen.
 
-* Erzeugen Sie Bilder in besserer Qualität und auf einfachere Weise:
+  * SVG:
 
-  * Generieren Sie Thumbnails für Ihre Bilder im SVG-Format.
-  * Generieren Sie Thumbnails mit Transparenz.
+    * Nutzen Sie Bilder, die ohne Qualitätsverlust in beliebiger Größe skaliert werden können.
+    * SVG unterstützt interaktive Elemente wie Links, Animationen und JavaScript-Interaktionen direkt innerhalb der Grafik. Dies ermöglicht die Erstellung von interaktiven Diagrammen, Karten, Infografiken und anderen grafischen Elementen, die Benutzeraktionen ermöglichen.
+    * Da SVG-Dateien Text basiert sind, können sie leicht von Screenreadern und anderen Hilfstechnologien interpretiert werden. Dies erleichtert die Erstellung barrierefreier Inhalte.
 
-  .. todo: MF kommt mit vorauss. mit 7.2 - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
-        SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
-
-* Stellen Sie Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereit.
-
-  Verwalten Sie dazu folgende Dateien folgender Formate in Ihrer Mediathek. Binden Sie diese Dateien dann im Quell-Code ein:
+* Sie können nun neben Bildern weitere Dateiformate verwalten, um Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereitzustellen:
 
   * PDF
   * ZIP
 
-  Weitere Informationen finden Sie unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+  Weitere Informationen finden Sie in der Visual CMS Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
-* Sorgen Sie für Ordnung in Ihrer Mediathek. Dazu haben wir folgende Funktionen implementiert:
+* Die Generierung von Bildvorschauen wurde verbessert, sodass diese das ursprüngliche Dateiformat und somit auch Transparenzen beibehalten.
 
-  * Ordner anlegen, um Medien-Dateien per Drag&Drop übersichtlich zu sortieren (:ref:`oxid-eshop-710-03`, Pos. 1).
+  .. todo: MF kommt mit vorauss. mit 7.2 - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
+        SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
+
+* Bringen Sie Ordnung in Ihre Mediathek mit den folgenden implementierten Funktionen:
+
+  * Ordner anlegen, um Medien-Dateien per Drag-and-drop übersichtlich zu sortieren (:ref:`oxid-eshop-710-03`, Pos. 1).
 
   * Dateinamen bei Bedarf ändern  (:ref:`oxid-eshop-710-03`, Pos. 2).
 
@@ -170,58 +192,22 @@ Durch die neue Mediathek haben Sie folgende Vorteile:
 
      Abb.: Medien in der Mediathek verwalten
 
-  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
+  Weitere Informationen finden Sie in der Visual CMS Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
   .. todo: #MF: Sicherstellen, dass ein Hinweis daran erinnert, dass der Benutzer die Bilder manuell neu einbetten muss, wenn er ein Bild umbenennt oder in einen Ordner verschiebt.
 
-**Visual CMS**
-
-* Steuern Sie die Darstellung Ihrer Bilder über CSS-Klassen.
-
-  Weitere Informationen finden Sie unter `Individuelles CSS/LESS <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/grundfunktionen.html#individuelles-css-less>`_.
-
-**VCMS-Code-Verbesserungen**
-
-Mit der :productname:`OXID eShop` Version 7.1 haben wir den Code verbessert, um das Modul leistungsfähiger für zukünftige Anforderungen zu machen.
-
-* Hinterlegen Sie für jedes Bild im Karussell einen Link, den der Besucher anklicken kann: Wir haben das Karussell-Widget entsprechend erweitert.
-
-  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Karussell/Slider <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
-
-* Erweitern Sie Shortcodes leichter. Damit Sie sie leichter einbinden, haben wir die Schnittstelle zum Einbinden neuer Shortcodes übersichtlicher und einfacher gestaltet (4 anstelle von 12 Methoden).
-
-  Weitere Informationen finden Sie in der VCMS-Entwickler-Dokumentation unter `Extending the shortcode <https://github.com/OXID-eSales/vcms-documentation/blob/5.0-en/developer.rst#extending-the-shortcode>`_.
-
-  Nutzen Sie unser `Beispiel-Modul <https://github.com/OXID-eSales/vcms-examples/blob/b-7.1.x/src/DecorationExample.php>`_, um sich mit dem Erweitern existierender Shortcodes vertraut zu machen.
-
-* Erhöhen Sie Robustheit Ihres eShops, indem Sie als Administrator festlegen, welche Formate Sie zum Hochladen zulassen wollen.
-
-  Passen Sie dazu in der :file:`config.inc.php`-Datei den Parameter :code:`aAllowedUploadTypes` an.
-
-  Weitere Informationen finden Sie in der VCMS-Dokumentation unter `Weitere Dateiformate zum Upload in die Mediathek erlauben <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#weitere-dateiformate-zum-upload-in-die-mediathek-erlauben>`_.
-
-* Optimieren Sie Ihre Inhalte nahtlos: Beim Speichern erkennt eine Prüffunktion mögliche Syntaxfehler in Ihrem CSS/LESS.
-* Nutzen Sie den WYSIWYG-Editor als englischsprachiger Benutzer mit englischer Lokalisierung.
-
-**Weitere Informationen**
-
-Weitere Informationen zum Installieren finden Sie in der VCMS-Dokumentation unter `Neuinstallation <https://docs.oxid-esales.com/modules/vcms/de/5.0/installation.html#neuinstallation>`_.
-
 Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
 
-* VCMS: https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.0/CHANGELOG.md
+* Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.0/CHANGELOG.md
 * WYSIWYG-Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md
 * Mediathek: https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md
 
-
-
-
 .. todo: #05
 
-Zeitgesteuerte Produkte leichter unterscheiden
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Verbesserung im Shop-Administrationsbereich
+-------------------------------------------
 
-Zeitgesteuerte  Produkte haben in der  Produkt-Liste ein gesondertes Status-Icon.
+* Zeitgesteuerte Produkte haben in der Produkt-Liste ein gesondertes Status-Icon.
 
 Weitere Informationen finden Sie in der Beschreibung, wie Sie :ref:`Produkte zeitgesteuert aktivieren <zeitaktivierung>` (:ref:`oxbaci02`, Pos. 1).
 
@@ -233,9 +219,9 @@ Abhängigkeiten zwischen Modulen definieren
 
 .. todo: #04
 
-Wir entwickeln Modul-Pakete, beispielsweise OXAPI, B2B und VisualCMS, bei denen Module aufeinander aufbauen und von bereitgestellten Services abhängig sind.
+Wir entwickeln Modul-Pakete, beispielsweise OXAPI, B2B und Visual CMS, bei denen Module aufeinander aufbauen und von bereitgestellten Services abhängig sind.
 
-* Wenn Sie als Administrator versuchen, ein Modul ohne erfüllte Abhängigkeiten zu aktivieren, wird angezeigt wird, welche Module vorher aktiviert werden müssen.
+* Wenn Sie als Administrator versuchen, ein Modul ohne erfüllte Abhängigkeiten zu aktivieren, wird angezeigt, welche Module vorher aktiviert werden müssen.
 
   Ebenso können Sie ein Modul nicht deaktivieren, das von anderen benötigt wird.
 
@@ -259,7 +245,7 @@ Symfony DI-Container nutzen
 
   Der Symfony DI Container im OXID eShop ermöglicht Ihnen damit ein noch flexibleres und effizienteres Verwalten von Services.
 
-  Weitere Informationen über Symfony DI-Container zum Anpassen und Verwalten von Services finden Sie in der Entwickler-Dokumentation unter `Service Container <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
+  Weitere Informationen über Symfony DI-Container zum Anpassen und Verwalten von Services finden Sie in der Entwicklerdokumentation unter `Service Container <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
 
 * Services in Non-DI-Klassen nutzen
 
