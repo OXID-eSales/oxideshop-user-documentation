@@ -90,8 +90,6 @@ Setzen Sie dazu die Barrierefreiheitsrichtlinien gemäß `Behindertengleichstell
 
    Eye-Able Assist stellt dazu eine Verbindung zu Ihrem eShop her, ermittelt die Zahl möglicher Verbesserungen und zeigt sie in im Administratorbereich Ihres :productname:`OXID eShop` als Eye Able-Kurzreport an (:ref:`oxid-eshop-710-01`, Pos. 1).
 
-   .. todo: #tbd: #SB: Kurzreport kann sich ändern, Bild entsprechend, #HR nachfragen
-
    .. _oxid-eshop-710-01:
 
    .. figure:: ../../media/screenshots/oxid-eshop-710-01.png
@@ -183,10 +181,6 @@ Mediathek
   Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
 * Erhalten Sie Dank des verbesserten Generierens von Bildvorschauen das ursprüngliche Dateiformat und somit auch Transparenzen von Grafiken.
-
-  .. todo: MF kommt mit vorauss. mit 7.2 - erleichterte Kontrolle über Alt-Attributes für Bilder (wird vermutlich nicht mehr für 7.1 kommen)"
-        SB: "Alt-Attributes" **nicht** zu 7.1; für jedes Bild alt-Attr hinterlegen; bislang nur in Quelltext; Tabelle mit übersetzen, single-source
-
 * Bringen Sie mit den folgenden Funktionen Ordnung in Ihre Mediathek:
 
   * Ordner anlegen, um Medien-Dateien per Drag-and-drop übersichtlich zu sortieren (:ref:`oxid-eshop-710-03`, Pos. 1).
@@ -203,8 +197,6 @@ Mediathek
 
   Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
 
-  .. todo: #MF: Sicherstellen, dass ein Hinweis daran erinnert, dass der Benutzer die Bilder manuell neu einbetten muss, wenn er ein Bild umbenennt oder in einen Ordner verschiebt.
-
 **Weitere Informationen**
 
 Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
@@ -212,8 +204,6 @@ Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
 * Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/v5.0.0/CHANGELOG.md
 * WYSIWYG-Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.0.0/CHANGELOG.md
 * Mediathek: https://github.com/OXID-eSales/media-library-module/blob/v1.0.0/CHANGELOG.md
-
-.. todo: #05
 
 Verbesserung im Shop-Administrationsbereich
 -------------------------------------------
@@ -228,8 +218,6 @@ Neue Funktionen für Entwickler
 Abhängigkeiten zwischen Modulen definieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #04
-
 Wir entwickeln Modul-Pakete, beispielsweise OXAPI, B2B und Visual CMS, bei denen Module aufeinander aufbauen und von bereitgestellten Services abhängig sind.
 
 * Wenn Sie als Administrator versuchen, ein Modul ohne erfüllte Abhängigkeiten zu aktivieren, wird angezeigt, welche Module vorher aktiviert werden müssen.
@@ -242,7 +230,6 @@ Wir entwickeln Modul-Pakete, beispielsweise OXAPI, B2B und Visual CMS, bei denen
 
   Weitere Informationen finden Sie in der Entwicklerdokumentation unter `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
 
-.. todo: #tbd: URL verifizieren
 
 
 Symfony DI-Container nutzen
@@ -250,35 +237,26 @@ Symfony DI-Container nutzen
 
 * Services pro Subshop individuell konfigurieren
 
-  .. todo: #03 #tbd: verify URLs when published
-
   Überschreiben Sie gezielt pro Subshop die vom OXID eShop verwendeten Services.
 
   Der Symfony DI Container im OXID eShop ermöglicht Ihnen damit ein noch flexibleres und effizienteres Verwalten von Services.
 
-  Weitere Informationen über Symfony DI-Container zum Anpassen und Verwalten von Services finden Sie in der Entwicklerdokumentation unter `Service Container <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
+  Weitere Informationen über Symfony DI-Container zum Anpassen und Verwalten von Services finden Sie in der Entwicklerdokumentation unter `Service Container <https://docs.oxid-esales.com/developer/en/7.1/development/tell_me_about/service_container.html>`_.
 
 * Services in Non-DI-Klassen nutzen
 
-  .. todo: #01; #tbd: verify URLs when published
-
   Erleichtern Sie Ihre Arbeit als Modul-Entwickler, indem Sie auch in Bereichen, die nicht für Dependency Injection (DI) vorgesehen sind, auf den zentralen Symfony DI-Container zugreifen.
 
-  Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Use services in non-DI classes <https://docs.oxid-esales.com/development/modules_components_themes/module/module_services.rst#use-services-in-non-di-classes.html>`_.
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Use services in non-DI classes <https://docs.oxid-esales.com/developer/en/7.1/development/modules_components_themes/module/module_services.html#use-services-in-non-di-classes>`_.
 
 Installieren von Paketen über die Kommandozeilenschnittstelle
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #02
 
 Um ein Theme zu aktivieren, müssen Sie nicht die Administrator-Oberfläche in Ihrem :productname:`OXID eShop` verwenden.
 
 Nutzen Sie den Befehl :code:`./vendor/bin/oe-console oe:theme:activate <theme>`.
 
-Weitere Informationen finden Sie in der Entwickler-Dokumentation unter
-
-* `Activation <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/theme/theme_activation_via_cli.html>`_
-* `Activating the frontend theme <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/installation.html#after-twig-engine-installation>`_
+Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `After Twig Engine Installation <https://docs.oxid-esales.com/developer/en/7.1/development/modules_components_themes/project/twig_template_engine/installation.html#after-twig-engine-installation>`_
 
 Clean Up
 --------
@@ -286,16 +264,12 @@ Clean Up
 Einladungs-Funktion
 ^^^^^^^^^^^^^^^^^^^
 
-.. todo: #07
-
 Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion :guilabel:`Einladungen` aktivieren.
 
 Aufgrund des Risikos von Missbrauch durch Spam-Attacken haben wir jedoch beschlossen, diese Funktion aus der Benutzeroberfläche zu entfernen. Sie ist noch im 7.x-Code vorhanden. Ab Version 8.0 wird sie entfernt.
 
 Veraltete (deprecated) Konsolenklassen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #06
 
 Folgende Konsolenklassen (console classes) aus dem internen Namensraum sind als veraltet markiert und werden im nächsten Major Release entfernt.
 
@@ -388,11 +362,6 @@ Korrekturen
 -----------
 
 Die Korrekturen finden Sie im `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md>`_.
-
-.. todo: #08 https://github.com/OXID-eSales/oxideshop_ce/pull/918
-.. todo: #09 Can't use dot character for template file names
-.. todo: #10 https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md#changed
-
 
 Installation
 ------------
