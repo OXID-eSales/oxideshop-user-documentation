@@ -216,8 +216,6 @@ New functions for developers
 Defining dependencies between modules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #04
-
 We develop module packages, for example OXAPI, B2B and VisualCMS, in which modules build on each other and are dependent on provided services.
 
 * If you as an administrator try to activate a module without fulfilled dependencies, it is displayed which modules must be activated first.
@@ -230,33 +228,25 @@ We develop module packages, for example OXAPI, B2B and VisualCMS, in which modul
 
   For more information see the developer documentation under `Defining dependencies between modules <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/module_dependencies.html>`_.
 
-.. todo: #tbd: Verify URL
-
 Using Symfony DI containers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Configuring services individually for each subshop
 
-  .. todo: #03 #tbd: verify URLs when published
-
   Overwrite the services used by the OXID eShop  for each subshop.
 
   The Symfony DI container in the OXID eShop allows you to manage services even more flexibly and efficiently.
 
-  For more information about Symfony DI containers for customizing and managing services, see the developer documentation under `Service Container <https://docs.oxid-esales.com/development/tell_me_about/service_container.html>`_.
+  For more information about Symfony DI containers for customizing and managing services, see the developer documentation under `Service Container <https://docs.oxid-esales.com/developer/en/7.1/development/tell_me_about/service_container.html>`_.
 
 * Using services in non-DI classes
 
-  .. todo: #01; #tbd: verify URLs when published
-
   Make your work as a module developer easier by accessing the central Symfony DI container even in areas that are not intended for dependency injection (DI).
 
-  For more information, see the developer documentation under `Use services in non-DI classes <https://docs.oxid-esales.com/development/modules_components_themes/module/module_services.rst#use-services-in-non-di-classes.html>`_.
+  For more information, see the developer documentation under `Use services in non-DI classes <https://docs.oxid-esales.com/developer/en/7.1/development/modules_components_themes/module/module_services.html#use-services-in-non-di-classes>`_.
 
 Installing packages via the command line interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #02
 
 To activate a theme, you do not need to use the administrator interface in your :productname:`OXID eShop`.
 
@@ -274,16 +264,12 @@ Clean Up
 Invite function
 ^^^^^^^^^^^^^^^
 
-.. todo: #07
-
 To offer your registered customers the option of inviting friends and receiving bonus points in return, up to version 7.0 of the OXID eShop you could activate the Invitations function under :menuselection:`Master Settings --> Core settings --> Settings --> Invitations`. --> Invitations` to activate the :guilabel:`Invitations` function.
 
 However, due to the risk of misuse by spam attacks, we have decided to remove this function from the user interface. It's still in the 7.x code base. It will be removed as of 8.0.
 
 Deprecated console classes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #06
 
 The following console classes from the internal namespace are marked as obsolete and will be removed in the next major release.
 
