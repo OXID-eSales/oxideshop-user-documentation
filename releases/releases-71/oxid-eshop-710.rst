@@ -252,14 +252,10 @@ To activate a theme, you do not need to use the administrator interface in your 
 
 Use the :code:`./vendor/bin/oe-console oe:theme:activate <theme>` command.
 
-For more information, see the developer documentation under
-
-* `Activation <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/theme/theme_activation_via_cli.html>`_
-* `Activating the frontend theme <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/installation.html#after-twig-engine-installation>`_
+For more information, see the developer documentation under `After Twig Engine Installation <https://docs.oxid-esales.com/developer/en/7.1/development/modules_components_themes/project/twig_template_engine/installation.html#after-twig-engine-installation>`_.
 
 Clean Up
 --------
-
 
 Invite function
 ^^^^^^^^^^^^^^^
