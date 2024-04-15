@@ -129,7 +129,7 @@ Visual CMS
 
   Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Karussell/Slider <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
  
-* Steuern Sie die Darstellung Ihrer Vorschaubilder durch die Verwendung von CSS-Klassen.
+* Passen Sie die Größe und Darstellung Ihrer Vorschaubilder an.
 
   Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Vorschaubilder <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#vorschaubilder>`_.
 
