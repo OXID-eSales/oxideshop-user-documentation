@@ -23,7 +23,7 @@ The changes at a glance
   * Control of allowed formats
   * Carousel widget extended
   * Syntax check for CSS/LESS
-  * CSS classes for image previews
+  * Thumbnail customization
   * Simplified shortcode integration
   * English-language WYSIWYG editor
   * Support for additional file formats (SVG, AVIF, PDF, ZIP)
@@ -128,7 +128,7 @@ Visual CMS
 
   For more information, see the Visual CMS documentation under `Karussell/Slider (German) <https://docs.oxid-esales.com/modules/vcms/de/latest/funktionsbeschreibung/widgets-im-lieferumfang.html#karussell-slider>`_.
 
-* Control the display of your thumbnails by using CSS classes.
+* Customize the size and display of your thumbnails.
 
   For more information, see the Visual CMS documentation under `Vorschaubilder (German) <https://docs.oxid-esales.com/modules/vcms/de/5.0/konfiguration.html#vorschaubilder>`_.
 
