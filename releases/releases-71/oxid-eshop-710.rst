@@ -23,7 +23,7 @@ Die Änderungen im Überblick
   * Steuerung erlaubter Formate
   * Karussell-Widget erweitert
   * Syntaxprüfung für CSS/LESS
-  * CSS-Klassen für Bildvorschauen
+  * Anpassen von Vorschaubildern
   * Vereinfachte Shortcode-Einbindung
   * Englischsprachiger WYSIWYG Editor
   * Unterstützung weiterer Dateiformate (SVG, AVIF, PDF, ZIP)
@@ -208,7 +208,7 @@ Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
 Verbesserung im Shop-Administrationsbereich
 -------------------------------------------
 
-Erkennen Sie zeitgesteuerte Produkte in der Produkt-Liste an einem gesondertes Status-Icon.
+Erkennen Sie zeitgesteuerte Produkte in der Produkt-Liste an einem gesonderten Status-Icon.
 
 Weitere Informationen finden Sie in der Beschreibung, wie Sie :ref:`Produkte zeitgesteuert aktivieren <zeitaktivierung>` (:ref:`oxbaci02`, Pos. 1).
 
