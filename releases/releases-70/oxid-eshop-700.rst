@@ -12,7 +12,7 @@ The most important changes at a glance
 
   However, we recommend switching to the new standard Twig as soon as possible.
 
-* MySQL 8, Composer 2.4 and the image format WebP are supported.
+* MySQL 8, Composer 2.7 and the image format WebP are supported.
 * Module handling has been optimized and adapted.
 
 Technologies
@@ -20,7 +20,7 @@ Technologies
 
 * Support for MySQL version 8.0
 
-* Support for Composer version 2.4
+* Support for Composer version 2.7
 
 * Switching the default template engine from Smarty to Twig
 
