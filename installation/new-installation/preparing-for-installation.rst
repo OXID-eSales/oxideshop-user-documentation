@@ -6,8 +6,8 @@ Some preparations are necessary for the new installation of OXID eShop 7.1.
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
 
-|schritt| Installing Composer
------------------------------
+|schritt| Installing Composer 2.2.23
+------------------------------------
 
 As of version 6, OXID eShop is no longer installed based on packaged and downloadable installation packages but with the help of Composer. Composer is a dependency manager for PHP, a tool that takes into account the dependencies of a project’s program components while installing the files of that project in a defined directory.
 
@@ -18,7 +18,9 @@ Installation instructions can be found in the “Getting Started” section of t
 |schritt| Providing shop files
 ------------------------------
 
-The shop files are provided by Composer. Depending on the shop edition, different commands have to be run in the shell. The shop files are stored in a subdirectory that is specified with :command:`your_project_name` in the command. This is based on the directory in which the command is run in the shell. Specify the :command:`--no-dev` parameter if the development-related files are not required.
+The shop files are provided by Composer. Depending on the shop edition, different commands have to be run in the shell. The shop files are stored in a subdirectory that is specified with :command:`your_project_name` in the command. This is based on the directory in which the command is run in the shell.
+
+Optional: If you need the development-related files, omit the :command:`--no-dev` parameter.
 
 .. hint:: For the installation of the Professional and Enterprise Edition you need additional credentials, which you have received by email at the time of purchase or when they were changed.
 
