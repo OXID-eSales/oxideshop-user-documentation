@@ -25,6 +25,16 @@ Example of an update for a Community Edition 6.3.0 to 6.3.3:
 
    The name of the metapackage must be adapted to the used shop edition.
 
+If you are using Composer 2, what is possible with an update to OXID eShop 6.2.3 or higher, you need to update the IDE Helper in ``require-dev`` section as well.
+
+.. code:: bash
+
+   composer require --dev --no-update oxid-esales/oxideshop-ide-helper:^v4.0.0
+
+.. warning::
+
+   Even if you do not install the dev requirements, Composer verifies their dependencies. Therefore this change is mandatory, if you are using Composer 2.
+
 |schritt| Updating dependencies
 -------------------------------
 Open a shell in the shop's main directory and execute the following Composer command. This will update all required libraries. Specify the :command:`--no-dev` parameter if the development-related files are not required.

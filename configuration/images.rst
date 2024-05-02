@@ -7,7 +7,7 @@ Information on image generation and the directory structure of product images st
 
 Image generation and quality
 ----------------------------
-The settings required for image generation and image sizes for all products can be found in the Admin panel. Go to :menuselection:`Master Settings --> Core Settings`, :guilabel:`Settings` tab and click on :guilabel:`Pictures` to view the settings. The first setting is “Installed GDLib Version”, a server software for the dynamic generation of graphics. Version 2 is the latest version. You can also see that the automatic generation of icons is activated. Leave these settings unchanged.
+The settings required for image generation and image sizes for all products can be found in the Admin panel. Go to :menuselection:`Master Settings --> Core Settings`, :guilabel:`Settings` tab and click on :guilabel:`Pictures` to view the settings. The first setting is "Installed GDLib Version", a server software for the dynamic generation of graphics. Version 2 is the latest version. You can also see that the automatic generation of icons is activated. Leave these settings unchanged.
 
 There is also a small :guilabel:`Pictures` section in the :guilabel:`System` tab. Specifying the image quality is important for image generation. The default setting is 75, which is a good compromise between the image quality and the file size. At a much smaller value, product images will be highly compressed, having a small file size but a poor image quality (blurring and compression artefacts). If the value is greater than 75, the image quality will increase, but the file size will also (longer loading times).
 

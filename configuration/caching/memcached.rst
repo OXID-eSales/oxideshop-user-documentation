@@ -9,7 +9,7 @@ Installation
 ------------
 Install Memcached on a server. The software can be found on the manufacturer's website: `http://memcached.org <http://memcached.org/>`_. Installation instructions and further information about Memcached can be found in the PHP manual: `http://php.net/manual/en/book.memcached.php <http://php.net/manual/en/book.memcached.php>`_ .
 
-Make sure that the PHP library, \"php5-memcached\" is active.
+Make sure that the PHP library, \"memcached\" is active.
 
 
 .. Intern: oxbacc, Status:

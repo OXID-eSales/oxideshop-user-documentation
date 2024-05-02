@@ -1,7 +1,7 @@
 ﻿Mall function
 =============
 
-The Mall function is a feature of OXID eShop Enterprise Edition. The multi-client capability allows you to create multiple shops and build a multishop structure. The shops and their assignments to each other can be edited via the Admin panel. Shop assignments are defined upon shop creation and can later be changed and customised. Depending on the license purchased, Enterprise Edition allows you to create and edit up to 1,500 shops. This way, you can implement product-, target group- and country-specific online shops with various content, language and design.
+The Mall function is a feature of OXID eShop Enterprise Edition. The multi-client capability allows you to create multiple shops and build a multi-shop structure. The shops and their assignments to each other can be edited via the Admin panel. Shop assignments are defined upon shop creation and can later be changed and customised. Depending on the license purchased, Enterprise Edition allows you to create and edit up to 1,500 shops. This way, you can implement product-, target group- and country-specific online shops with various content, language and design.
 
 .. image:: ../../media/screenshots/oxbaeu01.png
    :alt: Master Settings - Core Settings
