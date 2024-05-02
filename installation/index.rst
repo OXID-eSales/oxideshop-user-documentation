@@ -5,7 +5,7 @@ Installation
    :maxdepth: 1
    
    Neu-Installation <neu-installation/index>
-   Update von Version 6.x auf 7.1 (Developer Documentation, Englisch) <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/update-to-7.1.html>
+   Update von Version 6.x auf 7.1 (Developer Documentation, Englisch) <https://docs.oxid-esales.com/developer/en/7.1/update/eshop_from_65_to_7/update-to-7.1.html>
    Minor-Update installieren <update/minor-update>
 
 ..
