@@ -12,4 +12,5 @@ Users are only shared with all shops if the :guilabel:`Allow users from other sh
 
 .. seealso:: :doc:`Configuration <../../../configuration/configuration>` | :doc:`Payment methods <../../../setup/payment-methods/payment-methods>` | :doc:`Users <../../../operation/users/users>` | :doc:`User groups <../../../operation/user-groups/user-groups>`
 
+
 .. Intern: oxbagr, Status:
