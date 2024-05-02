@@ -15,6 +15,6 @@ In this entry, all server addresses of the slave databases are specified as an a
 
 .. code:: php
 
-   $this->SlaveHosts = array('slave1host', '10.2.3.12');
+   $this->aSlaveHosts = array('slave1host', '10.2.3.12');
 
 .. Intern: oxbaca, Status:
