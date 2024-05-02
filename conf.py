@@ -135,8 +135,8 @@ html_theme = 'sphinx_rtd_theme'
 
 html_context = {
     'current_version': '6.5',
-    'versions':
-         [('6.0', 'https://docs.oxid-esales.com/eshop/de/6.0/'),
+    'versions': [
+          ('6.0', 'https://docs.oxid-esales.com/eshop/de/6.0/'),
           ('6.1', 'https://docs.oxid-esales.com/eshop/en/6.1/'),
           ('6.2', 'https://docs.oxid-esales.com/eshop/en/6.2/'),
           ('6.3', 'https://docs.oxid-esales.com/eshop/en/6.3/'),
@@ -144,7 +144,7 @@ html_context = {
           ('6.5', 'https://docs.oxid-esales.com/eshop/en/6.5/'),
           ('7.0', 'https://docs.oxid-esales.com/eshop/en/7.0/'),
           ('7.1', 'https://docs.oxid-esales.com/eshop/en/7.1/'),
-          ],
+     ],
     'languages':
          [('EN', 'https://docs.oxid-esales.com/eshop/en/6.5/'),
           ('DE', 'https://docs.oxid-esales.com/eshop/de/6.5/')],

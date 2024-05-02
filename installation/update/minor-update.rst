@@ -124,11 +124,11 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
    |br|
    To do this, match the name of the metapackage to the desired store edition, as in the following example.
    |br|
-   Example for an update of a community edition with the metapackage name ``6.4.2``:
+   Example for an update of a community edition with the metapackage name ``6.4.4``:
 
    .. code:: bash
 
-      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.2
+      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.4
 
 #. Update the dependencies.
    |br|
