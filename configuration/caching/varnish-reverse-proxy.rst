@@ -36,9 +36,12 @@ Varnish version 3.0 is no longer supported because the software has reached the 
 
 If this behaviour takes place in your shop and you can’t upgrade to a newer version of Varnish, you should try the following workaround. This has not been explicitly tested, so please check the shop’s behaviour thoroughly before applying the change to the production environment.
 
-In the :file:`default.vcl` configuration file, replace line 463 |br|
+In the :file:`default.vcl` configuration file, replace line 463
+
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@][^,|$]+\",\"\");``
-with the following line |br|
+
+with the following line:
+
 ``set beresp.http.Set-Cookie = regsuball(beresp.http.Set-Cookie,\"(, |^)[^@]\",\"\");``
 
 Configuration files
