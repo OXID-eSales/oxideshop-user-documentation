@@ -4,7 +4,7 @@
 
    Um mögliche Datenverluste zu vermeiden, tun Sie Folgendes:
 
-   * Führen Sie das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, aus.
+   * Führen Sie das Update immer zuerst in einer Testumgebung durch, die eine Kopie Ihres aktuellen Shops ist.
 
    * Gehen Sie beim Update grundsätzlich wie folgt vor:
 

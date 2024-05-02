@@ -6,8 +6,8 @@ Für die Neu-Installation des OXID eShop 7.1 sind einige Vorbereitungen notwendi
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
-|schritt| Composer installieren
--------------------------------
+|schritt| Composer 2.2.23 installieren
+--------------------------------------
 
 Mit Version 6 basiert die Installation des OXID eShop nicht mehr auf gepackten und herunterladbaren Installationspaketen, sondern wird mit Hilfe von Composer ausgeführt. Composer ist ein Dependency Manager für PHP, ein Tool, welches Abhängigkeiten von Programmbestandteilen eines Projektes berücksichtigt, während es die Dateien dieses Projekts in ein definiertes Verzeichnis installiert.
 
@@ -18,7 +18,9 @@ Eine Anleitung zur Installation finden Sie im Abschnitt "Getting Started" der Co
 |schritt| Shop-Dateien bereitstellen
 ------------------------------------
 
-Die Shop-Dateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edition müssen dafür unterschiedliche Kommandos in der Shell ausgeführt werden. Die Shop-Dateien werden in einem Unterverzeichnis gespeichert, welches im Kommando mit :command:`your_project_name` angegeben wird. Dabei wird von dem Verzeichnis ausgegangen, in dem der Befehl in der Shell abgesetzt wird. Der Parameter :command:`--no-dev` wird angegeben, wenn die entwicklungsbezogenen Dateien nicht benötigt werden.
+Die Shop-Dateien werden durch Composer bereitgestellt. Abhängig von der Shop-Edition müssen dafür unterschiedliche Kommandos in der Shell ausgeführt werden. Die Shop-Dateien werden in einem Unterverzeichnis gespeichert, welches im Kommando mit :command:`your_project_name` angegeben wird. Dabei wird von dem Verzeichnis ausgegangen, in dem der Befehl in der Shell abgesetzt wird.
+
+Wenn Sie die entwicklungsbezogenen Dateien brauchen, führen Sie Befehl ohne den Parameter :command:`--no-dev` aus.
 
 .. hint:: Für die Installation der Professional und Enterprise Edition benötigen Sie zusätzlich Zugangsdaten, die Sie beim Kauf oder bei Änderung per E-Mail erhalten haben.
 
@@ -84,6 +86,7 @@ Sie haben folgenden Möglichkeiten:
  Diese Daten benötigen Sie, um nach dem Installieren das Setup ausführen.
 
 * Alternativ: Legen Sie die Datenbank während des Setup an.
+
 
 
 .. Intern: oxbaad, Status:
