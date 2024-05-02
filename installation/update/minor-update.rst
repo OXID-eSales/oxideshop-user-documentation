@@ -124,11 +124,11 @@ Aktualisieren Sie Ihren OXID eShop auf die aktuelle Version.
    |br|
    Passen Sie dazu wie im folgenden Beispiel den Namen des Metapackage der gewünschten Shop-Edition an.
    |br|
-   Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``6.4.2``:
+   Beispiel für ein Update einer Community Edition mit dem Metapackage-Namen ``6.4.4``:
 
    .. code:: bash
 
-      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.2
+      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.4
 
 #. Aktualisieren Sie die Abhängigkeiten.
    |br|
