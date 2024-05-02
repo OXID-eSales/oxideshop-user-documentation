@@ -61,7 +61,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'OXID eShop 7.0'
-copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
+copyright = '2023 - {}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The version info for the project you're documenting, acts as replacement for

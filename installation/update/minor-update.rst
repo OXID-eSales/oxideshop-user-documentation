@@ -15,12 +15,6 @@ If you use third-party modules or themes, ask the third-party vendor if these th
 Background: Typically, a minor update does not contain any breaking changes. All third-party modules will work as before after the update.
 
 However, in exceptional cases, changes can have such an impact that third-party modules no longer work.
-|br|
-Examples:
-
-* Third-party modules no longer work when updating from OXID eShop 6.1 to 6.2.
-* The OXID eSales payment module Amazon Pay 3.6.8 no longer works in OXID eShop 6.5 (see :ref:`releases/releases-65/oxid-eshop-650:OXID eShop 6.5.0`).
-
 
 Ensuring the prerequisites
 --------------------------
