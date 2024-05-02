@@ -57,7 +57,7 @@ Composer
 * Composer 1 bis OXID eShop 6.2.2
 * Empfohlen: Composer 2.2.23 für OXID eShop ab OXID eShop 6.2.3
 
-.. attention:: 
+.. attention::
 
    Wenn möglich: Nutzen Sie aus Sicherheitsgründen nicht die ursprünglich empfohlene und getestete Composer Version 2.1.6, sondern Composer Version 2.2.23.
 
@@ -65,7 +65,7 @@ Composer
 
    * `Composer Version 2.2.23 <https://github.com/composer/composer/releases/tag/2.2.23>`_
    * `CVE-2024-24821 <https://nvd.nist.gov/vuln/detail/CVE-2024-24821>`_
-   
+
    Installieren Sie Composer 2.2.23 wie folgt:
 
    .. code:: bash

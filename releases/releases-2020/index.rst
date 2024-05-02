@@ -1,4 +1,4 @@
-Releases 2020
+﻿Releases 2020
 =============
 
 .. toctree::

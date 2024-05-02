@@ -1,4 +1,4 @@
-Übersicht aller Releases ab 2020
+﻿Übersicht aller Releases ab 2020
 ================================
 
 Releases 2021
