@@ -17,8 +17,9 @@ Die Schaltfläche :guilabel:`Artikel sortieren` auf der Registerkarte :guilabel:
 
 Die Artikel können per Drag \& Drop in die rechte Liste verschoben und dabei in eine neue Reihenfolge gebracht werden. Die neue Sortierung lässt sich erst speichern, wenn alle Artikel einer Kategorie in die Liste :guilabel:`Neue Sortierung` verschoben wurden.
 
-Ist bei der Sortierung einmal ein Fehler aufgetreten, lässt diese sich einfach löschen. Sind alle Artikel in der gewünschten Reihenfolge, wird diese über die Schaltfläche :guilabel:`Neue Sortierung` speichern` in die Datenbank geschrieben. Wenn Sie das Fenster schließen und erneut öffnen, wird in der linken Liste die nun aktuelle Sortierung angezeigt. Die Artikel haben in der Positionsspalte aufsteigende Zahlenwerte.
+Ist bei der Sortierung einmal ein Fehler aufgetreten, lässt diese sich einfach löschen. Sind alle Artikel in der gewünschten Reihenfolge, wird diese über die Schaltfläche :guilabel:`Neue Sortierung speichern` in die Datenbank geschrieben. Wenn Sie das Fenster schließen und erneut öffnen, wird in der linken Liste die nun aktuelle Sortierung angezeigt. Die Artikel haben in der Positionsspalte aufsteigende Zahlenwerte.
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`
+
 
 .. Intern: oxbabn, Status:, F1: category_order.html

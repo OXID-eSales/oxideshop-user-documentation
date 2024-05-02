@@ -5,6 +5,10 @@ Dieses Dokument beschreibt Patch-Updates des OXID eShop. Mit den folgenden Schri
 
 Das Update sollte immer erst in einer Testumgebung, einer Kopie Ihres aktuellen Shops, ausgeführt werden. Erstellen Sie zuvor eine Sicherung der Shopdateien und der Datenbank. Deaktivieren Sie alle Module und prüfen Sie, ob der Shop prinzipiell funktioniert. Testen Sie nach dem Update den Shop erneut und legen Sie dabei besonderen Wert auf die Funktionen des Bestellprozesses, auf Zahlungs- und Versandarten.
 
+.. warning::
+
+   Beim Update von OXID eShop 6.2.0 bis 6.2.4 auf OXID eShop 6.2.5 oder höher, muss zuvor Composer auf Version 2 aktualisiert werden.
+
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
@@ -20,7 +24,17 @@ Beispiel für ein Update einer Community Edition 6.3.0 zu 6.3.3:
 
 .. hint::
 
-   Der Name des Metapackage muss an die verwendeten Shop Edition angepasst werden.
+   Der Name des Metapackage muss an die verwendete Shop-Edition angepasst werden.
+
+Wenn Sie Composer 2 verwenden, was möglich ist ab einem Update auf OXID eShop 6.2.3, muss der IDE Helper im ``require-dev`` Bereich ebenfalls aktualisiert werden.
+
+.. code:: bash
+
+   composer require --dev --no-update oxid-esales/oxideshop-ide-helper:^v4.0.0
+
+.. warning::
+
+   Auch wenn die Dev-Pakete nicht installiert werden, prüft Composer deren Abhängigkeiten. Diese Anpassung ist somit zwingend notwendig, wenn Sie Composer 2 verwenden.
 
 |schritt| Abhängigkeiten aktualisieren
 --------------------------------------

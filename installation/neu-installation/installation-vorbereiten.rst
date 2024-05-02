@@ -70,4 +70,5 @@ OXID eShop benötigt eine MySQL-Datenbank, um darin alle Artikel, Kategorien, Ku
 Legen Sie jetzt eine neue MySQL-Datenbank an. Der Name der Datenbank ist frei wählbar und könnte beispielsweise :db:`oxid_eshop` lauten. Merken Sie sich den Namen der Datenbank und die vergebenen Zugangsdaten zur Datenbank (Benutzername und Passwort). Diese Daten werden benötigt, wenn Sie das Setup ausführen.
 
 
+
 .. Intern: oxbaad, Status:

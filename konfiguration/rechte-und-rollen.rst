@@ -82,4 +82,5 @@ Für die Bearbeitung von Artikeln und Kategorien können die Rechte sehr differe
    :height: 335
    :width: 650
 
+
 .. Intern: oxbaev, Status:
