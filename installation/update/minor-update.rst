@@ -3,7 +3,7 @@
 Installing a minor update
 =========================
 
-For example, update the compilation from an existing version 6.3.x to version 6.5.0.
+For example, update the compilation from an existing version 6.3.x to version 6.5.4.
 
 .. include:: /_static/reuse/note_dataloss.rst
 
@@ -92,7 +92,7 @@ Before each update step, make sure that you have versions of Composer and PHP th
 
       Install Composer version 2.2.23 as follows:
 
-         .. code:: bash
+      .. code:: bash
 
             composer selfupdate 2.2.23
 
@@ -114,8 +114,6 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
 
 |procedure|
 
-.. todo: #VL: how do I upgrade to V. 7.0?
-
 1. Update Composer to version 2.7.
 
    Install Composer 2.7 as follows, for example:
@@ -128,11 +126,11 @@ You have performed the necessary incremental updates (see :ref:`installation/upd
    |br|
    To do this, match the name of the metapackage to the desired store edition, as in the following example.
    |br|
-   Example for an update of a community edition with the metapackage name ``6.4.2``:
+   Example for an update of a community edition with the metapackage name ``6.4.4``:
 
    .. code:: bash
 
-      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.2
+      composer require --no-update oxid-esales/oxideshop-metapackage-ce:v6.4.4
 
 #. Update the dependencies.
    |br|

@@ -93,14 +93,14 @@ Composer
 
 * Composer 2.7
 
-Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
+  Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
 
 Metadata
 --------
 
 * Metadata version 2.0 or higher
 
-For more information about metadata versions, in the Developer documentation, see `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+  For more information about metadata versions, in the Developer documentation, see `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
 OpenSSL
 -------
