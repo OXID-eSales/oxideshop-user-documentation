@@ -24,7 +24,7 @@ When you select an order from the list, its information will be displayed in the
 
 Overview tab
 ------------
-**Contents**: order overview, billing address, shipping address, ordered products, total price with individual items, payment method, shipping method, order notification, order number, customer number, folder for orders, new, processed, problems, today’s orders, total orders, shipping orders, shipping confirmation, XML export, invoice and delivery note as PDF |br|
+**Contents**: order overview, billing address, shipping address, ordered products, total price with individual items, payment method, shipping method, order notification, order number, customer number, folder for orders, new, processed, problems, today’s orders, total orders, shipping orders, shipping confirmation, invoice and delivery note as PDF |br|
 :doc:`Read article <overview-tab>` |link|
 
 Main tab
