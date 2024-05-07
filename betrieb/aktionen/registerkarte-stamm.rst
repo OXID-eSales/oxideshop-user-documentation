@@ -60,6 +60,8 @@ Typ Banner
 :guilabel:`Link hinter Banner`
    Für eine gezielte Werbung auf der Startseite kann ein Link für das Bild hinterlegt werden. Das kann eine URL in der Form ``http://www.meineurl.de`` sein oder ein relativer Pfad ausgehend von der Struktur der Kategorien.
 
+   .. todo: #SP: Wie identifiziere ich den relativen Pfad? Wie gebe ich den Pfad an? z.B. /Autos/OX7-Coup.html ?
+
 :guilabel:`Zugeordnetes Produkt`
    Zeigt Artikelnummer und Titel eines Artikels an, der dem Banner zugeordnet wurde. Auf der Startseite werden über dem Banner der Preis und der Titel eingeblendet. Ein Klick darauf öffnet die Detailseite des beworbenen Artikels.
 

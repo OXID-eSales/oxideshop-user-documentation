@@ -1,14 +1,43 @@
 ﻿Aktionen
 ========
 
-Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop. Dafür stehen drei Aktionstypen zur Verfügung, mit denen hauptsächlich das Aussehen der Startseite des Shops gestaltet und aktualisiert werden kann: Aktion, Banner und Promotion. Das Theme \"Flow\" unterstützt Aktion und Banner. Promotion und einige Möglichkeiten vom Typ Aktion werden vom neuen Standard-Theme nicht verwendet. Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden, weil sie das Theme \"Azure\" nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
+Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop.
 
-.. image:: ../../media/screenshots/oxbagv01.png
-   :alt: Aktionen
-   :height: 529
+Dafür stehen drei Aktionstypen zur Verfügung, mit denen hauptsächlich das Aussehen der Startseite des Shops gestaltet und aktualisiert werden kann:
+
+* Aktion
+* Banner
+* Promotion
+
+.. todo: #SP: Funktionalität APEX klären; stimmt das noch? "Das Theme \"APEX\" unterstützt Aktion und Banner." -- woran merke ich das?
+
+
+Das Theme \"APEX\" unterstützt Aktion und Banner.
+
+
+
+Promotion und einige Möglichkeiten vom Typ Aktion werden vom Standard-Theme nicht verwendet.
+
+.. todo: #SP: Was ist eine Promotion, wie lege ich sie an: bei mir erscheint nichts.
+
+.. todo: #SP: Was bedeutet der Satz: Kann ich die beiden Aktionstypen in APEX einbinden? Was heißt "vom Standard-Theme nicht verwendet" -- gibt es ein Nicht-Standard-Theme mit Promo und Banner? Unter welchen Voraussetzungen kann ich diese Typen nutzen, warum werden sie überhaupt angeboten?
+
+Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden (:ref:`oxbagv01`), weil sie das Theme \"Azure\" nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
+
+.. _oxbagv01:
+
+.. figure:: ../../media/screenshots/oxbagv01.png
+   :alt: Aktionen verwalten
    :width: 650
+   :class: with-shadow
 
-Aktionen können unter :menuselection:`Kundeninformationen --> Aktionen verwalten` bearbeitet werden. Es gibt eine Liste der Aktionen und darunter den Eingabebereich für die Aktionen. Dieser unterscheidet sich für den Typ Banner von Aktion und Promotion, indem es die Möglichkeit gibt, ein Foto für das Banner hochzuladen und zu verlinken.
+   Abb.: Aktionen verwalten
+
+
+
+Aktionen können unter :menuselection:`Kundeninformationen --> Aktionen verwalten` bearbeitet werden (:ref:`oxbagv01`).
+
+Es gibt eine Liste der Aktionen und darunter den Eingabebereich für die Aktionen. Dieser unterscheidet sich für den Typ Banner von Aktion und Promotion, indem es die Möglichkeit gibt, ein Foto für das Banner hochzuladen und zu verlinken.
 
 Alle Aktionen werden in alphabetischer Reihenfolge angezeigt. Nach Aktionen kann gesucht werden, indem das Suchfeld für deren Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"ba\" ein, würden Ihnen die vier Banner der Startseite angezeigt. Zusätzlich können per Auswahlliste Aktionen gefiltert werden, die aktiv sind, demnächst aktiv werden oder abgelaufen sind. Die Auswahl berücksichtigt einen bei den Aktionen definierten Zeitraum für deren Aktivität.
 
