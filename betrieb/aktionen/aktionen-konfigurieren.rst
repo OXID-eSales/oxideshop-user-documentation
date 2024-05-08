@@ -25,13 +25,13 @@ Die Aktionstypen Promotion und Banner, sowie die Aktionen \"Kategorien-Topangebo
 
 .. todo: #SP: Was bedeutet der folgende Satz: Kann ich die beiden Aktionstypen in APEX einbinden? Was heißt "vom Standard-Theme nicht verwendet" -- gibt es ein Nicht-Standard-Theme mit Promo und Banner? Unter welchen Voraussetzungen kann ich diese Typen nutzen, warum werden sie überhaupt angeboten?
 
-Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden (:ref:`oxbagv01`), weil sie das Theme \"Azure\" nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
+Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden (:ref:`oxbagw00`), weil sie das Theme \"Azure\" nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
 
 .. todo: #SP: Kann ich Aktionen auch auf anderen Seiten verwenden?
 
-.. _oxbagv01:
+.. _oxbagw00:
 
-.. figure:: ../../media/screenshots/oxbagv01.png
+.. figure:: ../../media/screenshots/oxbagw00.png
    :alt: Aktionen verwalten
    :width: 650
    :class: with-shadow

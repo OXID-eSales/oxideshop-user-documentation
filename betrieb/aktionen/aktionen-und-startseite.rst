@@ -140,4 +140,4 @@ Eigene Aktionen einbinden
             #SP: Wie konfiguriere ich Banner und Promotionen?
 
 
-.. Intern: oxbagw, Status:
+.. Intern: oxbagw-alt, Status:

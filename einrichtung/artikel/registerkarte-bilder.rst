@@ -1,12 +1,26 @@
 ﻿Registerkarte Bilder
 ====================
 
-Artikel können bis zu zwölf Artikelbilder haben, die sehr wichtig für die optimale Präsentation der Artikel im Shop sind. Die Bilder sollten den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen. Artikelbilder werden in der Detailansicht des Artikels angezeigt. Hinzu kommen die Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Kleinere Artikelbilder - Thumbnails und Icons - zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Die Standardgrößen der Artikel werden in den Einstellungen des Themes festgelegt. Eine detaillierte Beschreibung dazu finden Sie in :doc:`Bilder <../../konfiguration/bilder>` im Abschnitt \"Konfiguration\".
+Artikel können bis zu zwölf Artikelbilder haben.
 
-.. image:: ../../media/screenshots/oxbacp01.png
+Artikelbilder sind sehr wichtig für die optimale Präsentation der Artikel im Shop sind. Sie sollten den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen.
+
+Artikelbilder werden in der Detailansicht des Artikels angezeigt.
+
+Hinzu kommen die Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind.
+
+Kleinere Artikelbilder - Thumbnails und Icons - zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb.
+
+.. todo: #SP: Gibt es
+
+Die Standardgrößen der Artikel werden in den Einstellungen des Themes festgelegt. Eine detaillierte Beschreibung dazu finden Sie in :doc:`Bilder <../../konfiguration/bilder>` im Abschnitt \"Konfiguration\".
+
+.. figure:: ../../media/screenshots/oxbacp01.png
    :alt: Artikel - Registerkarte Bilder
-   :height: 342
    :width: 650
+   :class: with-shadow
+
+   Abb.: Artikel - Registerkarte Bilder
 
 Die Registerkarte :guilabel:`Bilder` bietet die Möglichkeit, sieben Artikelbilder auf den Webserver zu laden. Ein Blick in die Verzeichnisstruktur lässt aber erkennen, dass bis zu 12 Artikelbilder möglich sind. Die zusätzlichen Artikelbilder müssen entweder per FTP auf den Webserver geladen oder das Template für den Administrationsbereich muss für die größere Zahl von Uploads angepasst werden.
 
@@ -22,7 +36,7 @@ Wurde das erste Artikelbild hochgeladen, wird das daraus generierte Thumbnail un
    Anstelle des automatisch generierten Thumbnails und/oder Icons kann ein anderes Bild für diese Artikelansichten verwendet werden.
 
 :guilabel:`Thumbnail (max. 2 MB, max. 1500*1500 px)`
-   Wenn Sie ein anderes, als das beim Hochladen des ersten Artikelbildes generierte Thumbnail möchten, laden Sie es hier hoch. Dabei wird das automatisch erzeugte Thumbnail überschrieben und das neue als Vorschau auf der linken Seite angezeigt.
+   Wenn Sie ein anderes als das beim Hochladen des ersten Artikelbildes generierte Thumbnail möchten, laden Sie es hier hoch. Dabei wird das automatisch erzeugte Thumbnail überschrieben und das neue als Vorschau auf der linken Seite angezeigt.
 
 :guilabel:`Icon (max. 2 MB, max. 1500*1500 px)`
    Möchten Sie ein spezielles Artikelbild als Icon verwenden, kann es hier hochgeladen werden. Es wird dabei das automatisch erzeugte Icon überschrieben. Eine Vorschau zeigt das neue Icon auf der linken Seite der Registerkarte.

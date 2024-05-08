@@ -15,50 +15,83 @@ Für den Shop können verschiedene Berechtigungen erteilt werden. Die Definition
 
 Anzeigen von Artikeln und Kategorien
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Sie können festlegen, dass nur bestimmte Benutzergruppen ausgewählte Artikel und Kategorien sehen dürfen. Die Definition erfolgt auf der Registerkarte :guilabel:`Rechte` von Artikeln und Kategorien, indem eine oder mehrere Benutzergruppen zugewiesen werden. Es handelt sich dabei um ein ausschließliches Recht. Nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, sind die jeweiligen Artikel und Kategorien nach Anmeldung am Shop sichtbar. Allen übrigen Benutzern und Benutzergruppen werden diese Bestandteile des Warenkatalogs niemals angezeigt.
+Sie können festlegen, dass nur bestimmte Benutzergruppen ausgewählte Artikel und Kategorien sehen dürfen.
+
+Die Definition erfolgt auf der Registerkarte :guilabel:`Rechte` von Artikeln und Kategorien, indem eine oder mehrere Benutzergruppen zugewiesen werden.
+
+Es handelt sich dabei um ein ausschließliches Recht. Nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, sind die jeweiligen Artikel und Kategorien nach Anmeldung am Shop sichtbar. Allen übrigen Benutzern und Benutzergruppen werden diese Bestandteile des Warenkatalogs niemals angezeigt.
 
 Kaufen von Artikeln und Kategorien
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Für Artikel und Kategorien kann auch definiert werden, dass sie ausschließlich für bestimmte Benutzergruppen kaufbar sein sollen. Auch hier erfolgt die Definition durch Zuweisung der jeweiligen Benutzergruppen auf der Registerkarte :guilabel:`Rechte` von Artikeln oder Kategorien. Der Screenshot zeigt, dass es für nicht berechtigte Benutzer in der Artikelübersicht keine Möglichkeit gibt, zum Beispiel Kites in den Warenkorb zu legen. Mit der Schaltfläche :guilabel:`Mehr Informationen` kann lediglich die Detailseite des Artikels aufgerufen werden.
+Definieren Sie für Artikel und Kategorien, dass sie ausschließlich für bestimmte Benutzergruppen kaufbar sein sollen.
 
-.. image:: ../media/screenshots/oxbaev01.png
-   :alt: Artikelübersicht (Rechte und Rollen)
-   :height: 360
+Auch hier erfolgt die Definition durch Zuweisung der jeweiligen Benutzergruppen auf der Registerkarte :guilabel:`Rechte` von Artikeln oder Kategorien (siehe :ref:`einrichtung/artikel/registerkarte-rechte:Registerkarte Rechte`).
+
+Bei Benutzern ohne Berechtigung fehlt in der Artikelübersicht die Schaltfläche :guilabel:`In den Warenkorb` (:ref:`oxbaev01`).
+
+Mit der Schaltfläche :guilabel:`Mehr Informationen` können diese Benutzer lediglich die Detailseite des Artikels aufrufen.
+
+.. todo: EN: Schaltfläche :guilabel:`To cart`, Schaltfläche :guilabel:`Details`
+
+.. _oxbaev01:
+
+.. figure:: ../media/screenshots/oxbaev01.png
+   :alt: Artikelübersicht ohne Warenkorb
    :width: 650
+   :class: with-shadow
 
-Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und der berechtigten Benutzergruppe angehört.
+   Abb.: Artikelübersicht ohne Warenkorb
 
-.. image:: ../media/screenshots/oxbaev02.png
-   :alt: Detailansicht Artikel (Rechte und Rollen)
-   :height: 307
-   :width: 609
+Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, wenn der Kunde nicht am Shop angemeldet ist und der berechtigten Benutzergruppe angehört (:ref:`oxbaev02`).
+
+.. _oxbaev02:
+
+.. figure:: ../media/screenshots/oxbaev02.png
+   :alt: Detailansicht Artikel ohne Warenkorb
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Detailansicht mit Artikel ohne Warenkorb
 
 Zugriff auf Funktionen und Bereiche der Detailseite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Rechte und Rollen können auch auf den gesamten Warenkatalog bezogen vergeben werden. Der Shop wird mit folgenden Rechten für den Shop ausgeliefert, die zu Rollen zusammengefasst den gewünschten Benutzergruppen zugeordnet werden können:
+
+Rechte und Rollen können auch auf den gesamten Warenkatalog bezogen vergeben werden.
+
+Der Shop wird mit folgenden Rechten für den Shop ausgeliefert, die zu Rollen zusammengefasst den gewünschten Benutzergruppen zugeordnet werden können (:ref:`oxbaev03`):
 
 * Artikel in den Warenkorb legen (TOBASKET)
 * Artikelpreis anzeigen (SHOWARTICLEPRICE)
 * Kurzbeschreibung des Artikels anzeigen (SHOWSHORTDESCRIPTION)
 * Langbeschreibung des Artikels anzeigen (SHOWLONGDESCRIPTION)
 
-Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop Rollen` definiert. Verschiedene Rechtekombinationen können in Rollen zusammengefasst und Benutzergruppen zugeordnet werden. Sobald für eine Benutzergruppe ein Recht erteilt wurde, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr.
+Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop Rollen` definiert.
+
+Verschiedene Rechtekombinationen können in Rollen zusammengefasst und Benutzergruppen zugeordnet werden. Sobald für eine Benutzergruppe ein Recht erteilt wurde, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr.
 
 .. hint:: Initial haben alle Nutzer alle Rechte. Ein Recht wird erst eingeschränkt, sobald mindestens eine Rolle dieses Recht explizit erhält und dieser Rolle mindestens eine Benutzergruppe zugewiesen ist. Der zugewiesenen Benutzergruppe müssen keine Benutzer angehören. Es kann also beispielsweise eine Benutzergruppe *Vollzugriff* eingerichtet werden, die der passenden Rolle *Vollzugriff* zugeordnet wird, bei welcher wiederum alle Rechte aktiv sind. Somit werden im ersten Schritt alle Rechte eingeschränkt und können anschließend im zweiten Schritt für einzelne Benutzergruppen durch geeignete Rollen wieder aktiviert werden.
 
 Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident lässt sich in Templates eine rechteabhängige Anzeige realisieren.
 
-.. image:: ../media/screenshots/oxbaev03.png
+.. _oxbaev03:
+
+.. figure:: ../media/screenshots/oxbaev03.png
    :alt: Rechte für Detailansicht (Rechte und Rollen)
-   :height: 158
-   :width: 319
+   :width: 650
+   :class: with-shadow
 
-Auf der Detailseite, auf dem Screenshot als Beispiel zu sehen, und auch in den Artikelübersichten werden keine Preise für nicht berechtigte Benutzer angezeigt.
+   Abb.: Rechte für Detailansicht (Rechte und Rollen)
 
-.. image:: ../media/screenshots/oxbaev04.png
+Auf der Detailseite, auf dem Screenshot als Beispiel zu sehen, und auch in den Artikelübersichten werden keine Preise für nicht berechtigte Benutzer angezeigt (:ref:`oxbaev04`).
+
+.. _oxbaev04:
+
+.. figure:: ../media/screenshots/oxbaev04.png
    :alt: Detailansicht Artikel (Rechte und Rollen)
-   :height: 310
-   :width: 612
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Detailansicht Artikel (Rechte und Rollen)
 
 Rechte und Rollen für den Administrationsbereich (Backend)
 ----------------------------------------------------------

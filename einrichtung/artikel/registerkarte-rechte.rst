@@ -3,14 +3,20 @@
 
 Die Registerkarte :guilabel:`Rechte` bei Artikeln gibt es nur in der Enterprise Edition.
 
-Auf der Registerkarte :guilabel:`Rechte` können einem Artikel Benutzergruppen zugeordnet werden, deren Benutzer diesen Artikel im Shop sehen dürfen und/oder kaufen können. Diese Zuordnung ist Teil der Rechte- und Rollenverwaltung der Enterprise Edition.
+Ordnen Sie auf der Registerkarte :guilabel:`Rechte` einem Artikel Benutzergruppen zu, deren Benutzer diesen Artikel im Shop sehen dürfen und/oder kaufen können (:ref:`oxbact01`). Diese Zuordnung ist Teil der Rechte- und Rollenverwaltung der Enterprise Edition.
 
-.. image:: ../../media/screenshots/oxbact01.png
+.. _oxbact01:
+
+.. figure:: ../../media/screenshots/oxbact01.png
    :alt: Artikel - Registerkarte Rechte
-   :height: 334
    :width: 650
+   :class: with-shadow
 
-Das ausschließliche Recht legt zum einen fest, dass der Artikel nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, nach Anmeldung am Shop sichtbar ist. Allen übrigen Benutzern und Benutzergruppen wird dieser Artikel niemals angezeigt. Wurden Benutzergruppen als ausschließlich kaufbar zugewiesen, gibt es zum anderen für nicht berechtigte Benutzer keine Möglichkeit, den Artikel in den Warenkorb zu legen. Mit der Schaltfläche :guilabel:`Mehr Informationen` kann lediglich die Detailseite des Artikels aus einer Artikelübersicht heraus aufgerufen werden. Auch dort fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und er der berechtigten Benutzergruppe angehört.
+   Abb.: Artikel - Registerkarte Rechte
+
+Das ausschließliche Recht legt zum einen fest, dass der Artikel nur für Benutzer, die den zugewiesenen Benutzergruppen angehören, nach Anmeldung am Shop sichtbar ist. Allen übrigen Benutzern und Benutzergruppen wird dieser Artikel niemals angezeigt.
+
+Sind Benutzergruppen als ausschließlich kaufbar zugewiesen, gibt es zum anderen für nicht berechtigte Benutzer keine Möglichkeit, den Artikel in den Warenkorb zu legen. Mit der Schaltfläche :guilabel:`Mehr Informationen` kann lediglich die Detailseite des Artikels aus einer Artikelübersicht heraus aufgerufen werden. Auch dort fehlt die Schaltfläche :guilabel:`In den Warenkorb legen`, solange der Kunde nicht am Shop angemeldet ist und er der berechtigten Benutzergruppe angehört (siehe :ref:`konfiguration/rechte-und-rollen:Kaufen von Artikeln und Kategorien`).
 
 Um einem Artikel Benutzergruppen zuzuweisen, betätigen Sie die Schaltfläche :guilabel:`Benutzergruppen zuordnen (Ausschließlich sichtbar)` bzw. :guilabel:`Benutzergruppen zuordnen (Ausschließlich kaufbar)`. Es öffnet sich jeweils ein Zuordnungsfenster, in dem Sie Artikel aus der Liste :guilabel:`Alle Benutzergruppen` auswählen können.
 
