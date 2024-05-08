@@ -1,4 +1,5 @@
-﻿Registerkarte Stamm
+﻿:orphan:
+Registerkarte Stamm
 ===================
 
 Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Einstellungen zur Aktion vorgenommen. Erstellen oder bearbeiten Sie hier die Aktion. Beim Anlegen einer Aktion muss deren Typ festgelegt werden. Je nachdem, ob Aktion, Promotion oder Banner ausgewählt wurde, unterscheiden sich die Einstellungen auf der Registerkarte mehr oder weniger voneinander.

@@ -1,4 +1,5 @@
-﻿Aktionen
+﻿:orpahn:
+Aktionen
 ========
 
 Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop.

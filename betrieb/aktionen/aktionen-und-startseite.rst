@@ -1,13 +1,31 @@
-﻿Aktionen und Startseite
-=======================
+﻿:orphan:
+Aktionen auf der Startseite
+===========================
 
 Zeigen Sie Aktionen auf der Startseite des Shops an.
 
-Markieren Sie dazu unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` das Kontrollkästchen :guilabel:`Aktionen laden`.
-
-Die Registerkarte enthält noch andere für Aktionen wichtige Einstellungen, auf die hier eingegangen wird.
+.. todo: #SP: Kann ich Aktionen auch auf anderen Seiten verwenden?
 
 Dieses Dokument beschreibt die Aktionen auf der Startseite einer Standardinstallation des OXID eShop mit dem Theme \"APEX\".
+
+Generelles Vorgehen
+-------------------
+
+1. Markieren Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` das Kontrollkästchen :guilabel:`Aktionen laden`.
+
+   Die Registerkarte enthält noch andere für Aktionen wichtige Einstellungen, auf die hier eingegangen wird.
+
+2. Konfigurieren Sie die jeweilige Aktion unter :menuselection:`Kundeninformation --> Aktionen verwalten --> <Aktion> --> Stamm`:
+
+   * Ordnen Sie die betreffenden Artkel zu.
+   * Legen Sie fest, wie lang die Aktion auf der Startseite erscheinen soll.
+   * Legen Sie die Sprache fest.
+
+     .. todo: #SP: Was genau bewirkt die Spracheinstellung?
+
+
+Aktionen einer Standardinstallation
+-----------------------------------
 
 
 .. todo: #SP: Wie lege ich ein Banner an? Bei mir erscheint es nicht auf der Startseite
@@ -22,10 +40,12 @@ Dieses Dokument beschreibt die Aktionen auf der Startseite einer Standardinstall
     Ein Bild kann mit der Detailseite eines Artikels verbunden werden, so dass sich diese beim Anklicken des Bildes öffnet.
     Es ist auch möglich, den Titel und die Kurzbeschreibung des Artikels am unteren Bildrand anzuzeigen. Das muss in den Einstellungen für Bilder des Themes \"APEX\" aktiviert werden. Markieren Sie dazu unter :menuselection:`Erweiterungen --> Themes` auf der Registerkarte :guilabel:`Einstell.` unter :guilabel:`Bilder`das Kontrollkästchen :guilabel:`Bildunterschriften im Slider auf der Startseite aktivieren`.
 
-Angebote der Woche anzeigen
----------------------------
+Angebote der Woche
+^^^^^^^^^^^^^^^^^^
 
 Die Angebote der Woche werden auf der Startseite unterhalb des Banners angezeigt. Es werden Artikel mit Titel und Bild präsentiert, welche der Aktion zugewiesen wurden (:ref:`oxbagw02`).
+
+Vom Angebot aus kann der Kunde die Detailseite eines beworbenen Artikels aufrufen. Er kann den Artikel aber auch über die Schaltfläche :guilabel:`In den Warenkorb` direkt in den Warenkorb legen.
 
 .. _oxbagw02:
 
@@ -36,10 +56,12 @@ Die Angebote der Woche werden auf der Startseite unterhalb des Banners angezeigt
 
    Abb.: Angebote der Woche anzeigen
 
-Vom Angebot aus kann über einen Link und die Schaltfläche :guilabel:`Mehr Informationen` die Detailseite eines beworbenen Artikels aufgerufen werden. Er kann aber auch über eine Schaltfläche direkt in den Warenkorb gelegt werden. Die Angebote der Woche können immer oder nur für einen definierten Zeitraum aktiv sein. Über den Zeitraum lassen sich beispielsweise wöchentlich wechselnde Angebote steuern.
+Steuern Sie unter :menuselection:`Kundeninformation --> Aktionen verwalten --> <Aktion> --> Stamm`  Themes` Sie den fest, ob die Angebote der Woche können immer oder nur für einen definierten Zeitraum aktiv sein sollen.
 
-Unsere Marken anzeigen
-----------------------
+Über den Zeitraum lassen sich beispielsweise wöchentlich wechselnde Angebote steuern.
+
+Unsere Marken
+^^^^^^^^^^^^^
 
 Ein weiterer Slider wird unter den Angeboten der Woche angezeigt. Er präsentiert alle Hersteller mit ihren Logos in alphabetischer Reihenfolge (:ref:`oxbagw03`).
 
@@ -58,8 +80,8 @@ Markieren Sie dazu unter :menuselection:`Erweiterungen --> Themes` auf der Regis
 
    Abb.: Unsere Marken anzeigen
 
-Frisch eingetroffen anzeigen
-----------------------------
+Frisch eingetroffen
+^^^^^^^^^^^^^^^^^^^
 
 Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge des Shops präsentiert werden. Die Anzeige ist eine vierspaltige Artikelübersicht (:ref:`oxbagw04`).
 
@@ -91,7 +113,7 @@ Um festzulegen, welche Artikel in der Rubrik angezeigt werden, wählen Sie unter
 Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` auf der Registerkarte :guilabel:`Perform.` beeinflusst die Anzeige der Artikelpreise für diese und eine weitere Aktion.
 
 Topseller
----------
+^^^^^^^^^
 
 Weiter unten auf der Startseite werden dem Kunden die meistverkauften Artikel des Shops angezeigt. Die Anzeige ist analog der zweispaltigen Galerie einer Artikelübersicht. Es kann die Detailseite eines Artikels aufgerufen oder ein Artikel direkt in den Warenkorb gelegt werden (:ref:`oxbagw05`).
 
@@ -109,6 +131,13 @@ Welche Artikel als \"Topseller\" präsentiert werden, wird über eine Einstellun
 Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` bestimmt die Anzeige der Artikelpreise für diese und eine weitere Aktion.
 
 .. seealso:: :doc:`Aktionen <aktionen>` | :doc:`Registerkarte Stamm <registerkarte-stamm>`
+
+
+Eigene Aktionen einbinden
+-------------------------
+
+.. todo: #SP: wie konfiguriere ich eigene Aktionen ein, die ich ja anlegen kann?
+            #SP: Wie konfiguriere ich Banner und Promotionen?
 
 
 .. Intern: oxbagw, Status:
