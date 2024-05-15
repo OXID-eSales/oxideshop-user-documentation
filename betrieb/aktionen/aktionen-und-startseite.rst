@@ -4,7 +4,7 @@ Aktionen auf der Startseite
 
 Zeigen Sie Aktionen auf der Startseite des Shops an.
 
-.. todo: #SP: Kann ich Aktionen auch auf anderen Seiten verwenden?
+
 
 Dieses Dokument beschreibt die Aktionen auf der Startseite einer Standardinstallation des OXID eShop mit dem Theme \"APEX\".
 

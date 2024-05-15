@@ -3,6 +3,13 @@ Aktionen konfigurieren
 
 .. todo: fasst aktionen-und-startseite und registerkarte stamm zusammen
 
+.. todo: #SP: Kann ich Aktionen auch auf anderen Seiten verwenden?
+.. todo: #SP: Werden die Widgets noch verwendet, dokumentieren wie man sie einbaut, wenn sie im Theme nicht mehr drin sind: SB: Doku für jedes Widget, wie man sie einbaut.; nix in DEV-Doku.
+    Welche Controller es gibt es? Was ist ein Widget? Wann wird es verwendet? Siehe https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/twig_extensions.html#includewidgetextension
+    Folgende müssten dokuemntiert werden: Wozu gut, wo standarm. eingebunden, welchen Paraeter haben sie, z.B. Categorie tree wie tif? https://github.com/OXID-eSales/oxideshop_ce/tree/b-8.0.x/source/Application/Component/Widget
+    Die Templates gibt es unter: https://github.com/OXID-eSales/apex-theme/tree/b-8.0.x/tpl/widget
+    #HR: Wer liefert Beschreibung der Widgets? -- fehlt offenbar
+
 Zeigen Sie Aktionen auf der Startseite des Shops an.
 
 Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop.

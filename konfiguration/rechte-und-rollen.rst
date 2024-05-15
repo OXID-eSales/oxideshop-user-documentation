@@ -1,13 +1,26 @@
 ﻿Rechte und Rollen
 =================
 
-Ein Feature der Enterprise Edition ist die Rechte- und Rollenverwaltung. Mit Rechte und Rollen kann der Zugriff auf anzuzeigende Elemente und verfügbare Funktionen des OXID eShop für einzelne Benutzer und Benutzergruppen gesteuert werden.
+Ein Feature der Enterprise Edition ist die Rechte- und Rollenverwaltung.
 
-Dabei wird zwischen den Rechten und den Rollen für den eigentlichen Shop, hier auch als Frontend bezeichnet, und dem Administrationsbereich, dem so genannten Backend, unterschieden. Front- und Backend werden in diesem Dokument als Begriffe zur Verdeutlichung der verschiedenen Bereiche der Rechte- und Rollenverwaltung verwendet.
+Steuern Sie mit Rechten und Rollen den Zugriff auf anzuzeigende Elemente und verfügbare Funktionen des OXID eShop für einzelne Benutzer und Benutzergruppen.
 
-Das Recht regelt den Zugriff auf bestimmte Funktionen, wie den Zugriff auf Artikel und Kategorien oder die Anzeige bestimmter Bereiche der Detailseite von Artikeln. In Rollen werden mehrere Rechte zusammengefasst und Benutzern und Benutzergruppen zugeordnet.
+Dabei unterscheiden wir zwischen den Rechten und den Rollen für den eigentlichen Shop, hier auch als :emphasis:`Frontend bezeichnet, und dem Administrationsbereich, dem :emphasis:`Backend`.
 
-Die Rechte- und Rollenverwaltung kann in der Konfigurationsdatei :file:`config.inc.php` über die Einstellung ``$this->blUseRightsRoles = 3`` aktiviert werden.
+Ein :emphasis:`Recht` regelt den Zugriff auf bestimmte Funktionen, wie den Zugriff auf Artikel und Kategorien oder die Anzeige bestimmter Bereiche der Detailseite von Artikeln.
+
+In :emphasis:`Rollen` werden mehrere Rechte zusammengefasst und Benutzern und Benutzergruppen zugeordnet.
+
+Konfigurieren Sie die Rechte- und Rollenverwaltung in der Konfigurationsdatei :file:`config.inc.php` über den Parameter ``$this->blUseRightsRoles``.
+
+Sie haben folgende Optionen:
+
+* 0 - Rechteverwaltung deaktiviert
+* 1 - nur um Backend
+* 2 - nur um Frontend
+* 3 - in Backend und Frontend
+
+.. todo: #SP: Einstellung ``$this->blUseRightsRoles = 3`` Ist das standardmäßig aktiviert?
 
 Rechte und Rollen für den Shop (Frontend)
 -----------------------------------------
@@ -15,6 +28,9 @@ Für den Shop können verschiedene Berechtigungen erteilt werden. Die Definition
 
 Anzeigen von Artikeln und Kategorien
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #SP: Was ist der typische Anwendungsfall?
+
 Sie können festlegen, dass nur bestimmte Benutzergruppen ausgewählte Artikel und Kategorien sehen dürfen.
 
 Die Definition erfolgt auf der Registerkarte :guilabel:`Rechte` von Artikeln und Kategorien, indem eine oder mehrere Benutzergruppen zugewiesen werden.
@@ -23,6 +39,9 @@ Es handelt sich dabei um ein ausschließliches Recht. Nur für Benutzer, die den
 
 Kaufen von Artikeln und Kategorien
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #SP: Was ist der typische Anwendungsfall?
+
 Definieren Sie für Artikel und Kategorien, dass sie ausschließlich für bestimmte Benutzergruppen kaufbar sein sollen.
 
 Auch hier erfolgt die Definition durch Zuweisung der jeweiligen Benutzergruppen auf der Registerkarte :guilabel:`Rechte` von Artikeln oder Kategorien (siehe :ref:`einrichtung/artikel/registerkarte-rechte:Registerkarte Rechte`).
@@ -58,6 +77,10 @@ Zugriff auf Funktionen und Bereiche der Detailseite
 
 Rechte und Rollen können auch auf den gesamten Warenkatalog bezogen vergeben werden.
 
+Beispiel: Zeigen Sie nur angemeldeten Kunden Preise an.
+
+.. todo: #SP: Was ist der typische Anwendungsfall? "Zeigen Sie nur angemeldeten Kunden Preise an."?
+
 Der Shop wird mit folgenden Rechten für den Shop ausgeliefert, die zu Rollen zusammengefasst den gewünschten Benutzergruppen zugeordnet werden können (:ref:`oxbaev03`):
 
 * Artikel in den Warenkorb legen (TOBASKET)
@@ -70,6 +93,8 @@ Diese Rechte und Rollen werden unter :menuselection:`Benutzer verwalten --> Shop
 Verschiedene Rechtekombinationen können in Rollen zusammengefasst und Benutzergruppen zugeordnet werden. Sobald für eine Benutzergruppe ein Recht erteilt wurde, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr.
 
 .. hint:: Initial haben alle Nutzer alle Rechte. Ein Recht wird erst eingeschränkt, sobald mindestens eine Rolle dieses Recht explizit erhält und dieser Rolle mindestens eine Benutzergruppe zugewiesen ist. Der zugewiesenen Benutzergruppe müssen keine Benutzer angehören. Es kann also beispielsweise eine Benutzergruppe *Vollzugriff* eingerichtet werden, die der passenden Rolle *Vollzugriff* zugeordnet wird, bei welcher wiederum alle Rechte aktiv sind. Somit werden im ersten Schritt alle Rechte eingeschränkt und können anschließend im zweiten Schritt für einzelne Benutzergruppen durch geeignete Rollen wieder aktiviert werden.
+
+.. todo: SB: Wie geht das folgende?
 
 Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident lässt sich in Templates eine rechteabhängige Anzeige realisieren.
 
