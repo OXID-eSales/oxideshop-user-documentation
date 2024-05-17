@@ -8,9 +8,12 @@ Die wichtigsten Änderungen im Überblick
 
 * OXID eShop 7.0 unterstützt nativ die Template Engine Twig.
 
-  Die bisher verwendete Template Engine Smarty steht als alternatives Paket zur Verfügung.
+  .. important::
+     Um Ihnen den Umstieg zu erleichtern, stellen wir die bisher verwendete Template-Engine Smarty für :productname:`OXID eShop` 7.0 noch als alternatives Paket zur Verfügung.
 
-  Wir empfehlen jedoch einen baldigen Umstieg auf den neuen Standard Twig.
+     Bereits :productname:`OXID eShop` 7.1 wird jedoch die Smarty-Engine nicht mehr unterstützen.
+
+     Steigen Sie deshalb so bald wie möglich auf den neuen Standard Twig um.
 
 * MySQL 8, Composer 2.7 und das Bildformat WebP werden unterstützt.
 * Das Module-Handling wurde optimiert und angepasst.
