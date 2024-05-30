@@ -11,8 +11,6 @@ Hinzu kommen die Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind.
 
 Kleinere Artikelbilder - Thumbnails und Icons - zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb.
 
-.. todo: #SP: Gibt es
-
 Die Standardgrößen der Artikel werden in den Einstellungen des Themes festgelegt. Eine detaillierte Beschreibung dazu finden Sie in :doc:`Bilder <../../konfiguration/bilder>` im Abschnitt \"Konfiguration\".
 
 .. figure:: ../../media/screenshots/oxbacp01.png
