@@ -1,37 +1,49 @@
-﻿Gewichtsabhängige Versandkosten
-===============================
+﻿Gewichtsabhängige Versandkosten festlegen
+=========================================
 
 OXID eShop kann so eingerichtet werden, dass für die Berechnung der Versandkosten das Gewicht der Artikel berücksichtigt wird.
 
-Dafür werden Versandkostenregeln verwendet, deren Bedingung das Gewicht von Artikeln ist. Im Bestellprozess entscheidet sich der Kunde für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Gewicht) hinsichtlich des Gesamtgewichts der Artikel im Warenkorb erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
+Dafür werden Versandkostenregeln verwendet, deren Bedingung das Gewicht von Artikeln ist. Im Bestellprozess entscheidet sich der Kunde für eine Versandart.
 
-Damit gewichtsabhängige Versandkosten funktionieren, muss bei den Artikeln das Gewicht eingetragen sein. Das hat auch zur Folge, dass das Gewicht auf dessen Detailseite unterhalb des Artikelpreises ausgewiesen wird.
+Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Gewicht) hinsichtlich des Gesamtgewichts der Artikel im Warenkorb erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
 
-Das Gewicht eines Artikels wird in der Artikelverwaltung festgelegt.
+Gewichtsabhängige Versandkosten festlegen
+-----------------------------------------
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Geben Sie auf der Registerkarte :guilabel:`Erweitert` das Gewicht ein.
-* Speichern Sie die Änderungen.
+Damit gewichtsabhängige Versandkosten funktionieren, müssen Sie bei den Artikeln das Gewicht eintragen. Das hat auch zur Folge, dass das Gewicht auf dessen Detailseite unterhalb des Artikelpreises ausgewiesen wird.
 
-In den Versandkostenregeln wird Gewicht als Bedingung definiert.
+.. hint::
+   Ordnen Sie der Versandart mindestens eine Versandkostenregel und eine Zahlungsart zu.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
-* Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
-* Auf der Registerkarte :guilabel:`Stamm` finden Sie die Dropdown-Liste :guilabel:`Bedingung`.
-* Wählen Sie die Bedingung Gewicht und tragen Sie Werte für :guilabel:`=\>` und :guilabel:`\<=` ein.
-* Komplettieren Sie alle weiteren Einstellungen der Versandkostenregel.
-* Speichern Sie die Änderungen.
+   Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
 
-Die Versandkostenregel wird einer Versandart zugeordnet.
+|procedure|
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
-* Wählen Sie die Versandart aus der Liste der Versandarten.
-* Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+1. Legen Sie das Gewicht eines Artikels fest.
 
-.. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
+   a. Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
+   #. Wählen Sie den gewünschten Artikel aus der Artikelliste.
+   #. Geben Sie auf der Registerkarte :guilabel:`Erweitert` das Gewicht ein.
+   #. Speichern Sie Ihre Einstellungen.
+
+#. Legen Sie in den Versandkostenregeln das Gewicht als Bedingung fest.
+
+   a. Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
+   #. Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
+
+      Auf der Registerkarte :guilabel:`Stamm` finden Sie die Dropdown-Liste :guilabel:`Bedingung`.
+
+   #. Wählen Sie die Bedingung Gewicht und tragen Sie Werte für :guilabel:`=\>` und :guilabel:`\<=` ein.
+   #. Komplettieren Sie alle weiteren Einstellungen der Versandkostenregel.
+   #. Speichern Sie Ihre Einstellungen.
+
+3. Ordnen Sie die Versandkostenregel einer Versandart zu
+
+   a. Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
+   #. Wählen Sie die Versandart aus der Liste der Versandarten.
+   #. Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
+   #. Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
+   #. Schließen Sie das Zuordnungsfenster.
 
 Beispiel
 --------

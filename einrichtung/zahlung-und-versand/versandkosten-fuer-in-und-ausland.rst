@@ -1,29 +1,37 @@
-﻿Versandkosten für In- und Ausland
-=================================
+﻿Versandkosten nach Lieferland differenzieren
+============================================
 
-Für den Versand von Waren in das Ausland fallen höhere Versandkosten, als für den Versand im Inland an. Dies lässt sich durch Versandkostenregeln abbilden, die nur für bestimmte Länder gültig sind.
+Für den Versand von Waren in das Ausland fallen höhere Versandkosten als für den Versand im Inland an. Dies lässt sich durch Versandkostenregeln abbilden, die nur für bestimmte Länder gültig sind.
 
 Der Kunde entscheidet sich beim Kauf im Online-Shop für eine Versandart. Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Land, in das versendet werden soll) erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
 
-In den Versandkostenregeln werden die gültigen Länder zugeordnet.
+Vorgehen
+--------
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
-* Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
-* Betätigen Sie die Schaltfläche :guilabel:`Länder zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Länder per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+1. Ordnen Sie in den Versandkostenregeln die gültigen Länder zu.
 
-.. hint:: Damit die Definition von Versand und Zahlung stringent ist, sollte die Länderzuordnung mit der in der zugehörigen Zahlungsart und der Versandart übereinstimmen. Wurde kein Land zugewiesen, gilt die Versandkostenregel immer für alle Länder.
+   .. hint:: Damit die Definition von Versand und Zahlung stringent ist, sollte die Länderzuordnung mit der in der zugehörigen Zahlungsart und der Versandart übereinstimmen.
 
-Die Versandkostenregel wird einer Versandart zugeordnet.
+      Ist kein Land zugewiesen, gilt die Versandkostenregel immer für alle Länder.
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
-* Wählen Sie die Versandart aus der Liste der Versandarten.
-* Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
-* Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Schließen Sie das Zuordnungsfenster.
+   a. Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
+   #. Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
+   #. Betätigen Sie die Schaltfläche :guilabel:`Länder zuordnen` auf der Registerkarte :guilabel:`Stamm`.
+   #. Verschieben Sie die Länder per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
+   #. Schließen Sie das Zuordnungsfenster.
 
-.. hint:: Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein. Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
+2. Ordnen Sie die Versandkostenregel einer Versandart zu.
+
+   .. hint::
+      Der Versandart müssen mindestens eine Versandkostenregel und eine Zahlungsart zugeordnet worden sein.
+
+      Länder sollten zugewiesen sein, damit die Definition von Versand und Zahlung stringent ist. Ohne Länderzuordnung gilt die Versandart für alle Länder.
+
+   a. Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
+   #. Wählen Sie die Versandart aus der Liste der Versandarten.
+   #. Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
+   #. Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
+   #. Schließen Sie das Zuordnungsfenster.
 
 Beispiel
 --------

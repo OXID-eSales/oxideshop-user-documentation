@@ -141,9 +141,13 @@ Diese Rechte und Rollen definieren Sie unter :menuselection:`Benutzer verwalten 
 Verschiedene Rechtekombinationen können Sie in Rollen zusammenfassen und Benutzergruppen zuordnen. Sobald Sie für eine Benutzergruppe ein Recht erteilt haben, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr.
 
 
-.. todo: SG: Wie geht das folgende? Was genau bedeutet der Satz?
+.. todo: #SG: Wie geht das folgende? Was genau bedeutet der Satz?
     Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident können Sie in Templates eine rechteabhängige Anzeige realisieren.
 
+.. todo: #SG:  Wie geht "Feld hinzufügen"? Beispiel: IDENT[&class1;class2;function1;function2...]
+        In Template: [{ oxhasrights ident='IDENT' }] ... [{ /oxhasrights }]
+
+Rechte: (A)usführen
 
 Das folgende Beispiel illustriert das Prinzip der selektiven Rechteeinschränkung.
 
