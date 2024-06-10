@@ -34,36 +34,11 @@ Vorgehen
 
 Beispiel
 --------
-Im Beispiel werden zwei Versandkostenregeln verwendet, um höhere Versandkosten zu berechnen, sobald bestimmte Artikel in den Warenkorb gelegt werden.
 
-Für beide Versandkostenregeln gilt Menge als Bedingung und es wird ein Mengenbereich von 1 bis 99999999 vorgegeben. Dadurch wird sichergestellt, dass die Bedingung immer zutrifft.
+Folgen Sie analog dem Vorgehen für Kategorien.
 
-Die Berechnung erfolgt einmal pro Warenkorb. Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregel muss aktiv sein.
+Weitere Informationen finden Sie unter :ref:`einrichtung/zahlung-und-versand/versandkosten-fuer-artikel-aus-bestimmten-kategorien:Beispiel: Kategorien und Versandkostenregeln im Demo-Shop`.
 
-Die erste Versandkostenregel mit 5,99 € Versandkosten gilt für alle Artikel, die zweite mit einem Preisaufschlag von 22,50 € für alle Wakeboards, die aufgrund ihrer Länge als Sperrgut verschickt werden müssen.
-
-.. image:: ../../media/screenshots/oxbafy01.png
-   :alt: Versandkosten DHL GoGreen, Sperrgut: +22,50 Euro
-   :height: 341
-   :width: 650
-
-Der im Screenshot gezeigten Versandkostenregel wurden drei Wakeboards zugeordnet. Beide Versandkostenregeln gehören zur Versandart \"DHL GoGreen\". Wird diese Versandart beim Kauf ausgewählt, werden beide Versandkostenregeln geprüft.
-
-Liegt ein Artikel im Warenkorb, der kein Wakeboard ist, greift die erste Versandkostenregel. Der Versand kostet 5,99 €.
-
-.. image:: ../../media/screenshots/oxbafy02.png
-   :alt: Warenkorb mit einer Wakeboard-Bindung
-   :height: 261
-   :width: 550
-
-Wird zusätzlich ein Wakeboard in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 28,49 €.
-
-.. image:: ../../media/screenshots/oxbafy03.png
-   :alt: Warenkorb mit Wakeboard und Bindung
-   :height: 311
-   :width: 550
-
-28,49 € kostet auch der Versand eines einzelnen Wakeboards, da beide Versandkostenregeln - die für alle Artikel und die für die Wakeboards - zutreffen.
 
 .. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 

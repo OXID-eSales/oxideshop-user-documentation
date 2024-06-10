@@ -1,9 +1,11 @@
 ﻿Versandkosten nach Kategorien differenzieren
 ============================================
 
+.. todo: #SB: prüfen
+
 In einem Online-Shop gibt es in der Regel einen Warenkatalog aus ganz verschiedenen Artikeln.
 
-Sie können den Versand so eingerichten, dass Artikel aus bestimmten Kategorien besonders günstig verschickt werden.
+Richten Sie beispielsweise den Versand so ein, dass Artikel aus bestimmten Kategorien besonders günstig verschickt werden.
 
 Werden zusätzlich Artikel aus anderen Kategorien in den Warenkorb gelegt, fallen höhere Versandkosten an. Dafür werden Versandkostenregeln verwendet, die abhängig von Kategorien funktionieren.
 
@@ -18,7 +20,7 @@ Vorgehen
 
    a. Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandkostenregeln`.
    #. Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
-   #. Betätigen Sie die Schaltfläche :guilabel:`Kategorien zuordnen` auf der Registerkarte :guilabel:`Artikel`.
+   #. Betätigen Sie auf der Registerkarte :guilabel:`Artikel` die Schaltfläche :guilabel:`Kategorien zuordnen`.
    #. Verschieben Sie die Kategorien per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
    #. Schließen Sie das Zuordnungsfenster.
    #. Tragen Sie einen Preis auf der Registerkarte :guilabel:`Stamm` ein.
@@ -33,47 +35,41 @@ Vorgehen
 
    a. Gehen Sie zu :menuselection:`Shopeinstellungen --> Versandarten`.
    #. Wählen Sie die Versandart aus der Liste der Versandarten.
-   #. Betätigen Sie die Schaltfläche :guilabel:`Versandkostenregeln zuordnen` auf der Registerkarte :guilabel:`Stamm`.
+   #. Betätigen Sie auf der Registerkarte :guilabel:`Stamm` die Schaltfläche :guilabel:`Versandkostenregeln zuordnen`.
    #. Verschieben Sie die Versandkostenregel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
    #. Schließen Sie das Zuordnungsfenster.
 
+Beispiel: Kategorien und Versandkostenregeln im Demo-Shop
+---------------------------------------------------------
 
-Beispiel
---------
-Unser Beispiel zeigt, wie Artikel einer bestimmten Kategorie zu günstigeren Versandkosten als alle anderen Artikel verschickt werden können.
+In unseren Demoshop-Daten sind Kategorien beispielsweise wie folgt den Versandkostenregeln zugeordnet und priorisiert (:ref:`oxbafz01`, Pos. 2):
 
-Dafür werden zwei Versandkostenregeln verwendet, deren Bedingung die Menge ist. Ein Mengenbereich von 1 bis 99999999 stellt sicher, dass diese Bedingung immer zutrifft.
+======================== ================================================= ====================
+Kategorie                Versandregel                                      Priorität
+======================== ================================================= ====================
+Fahrzeuge                Versandregel Zustellung PKW                       0
+Achsen, Achteile,        Versandregel Spedition                            5
+Karosserie, Räder
+Alle übrigen Kategorien  Versandregeln Standard und Express                10
+======================== ================================================= ====================
 
-Die Berechnung erfolgt einmal pro Warenkorb.
 
-Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregel muss aktiv sein.
+Durch das Aktivieren der Einstellung :guilabel:`Keine weiteren Regeln nach dieser berechnen` (:ref:`oxbafz01`, Pos. 3) ist sichergestellt, dass ein Kunde jeweils nur die höchste Versandkosten bezahlt.
 
-Die erste Versandkostenregel wird mit einem Preis von 4,99 € angelegt. Für alle Artikel außer denen der Kategorie \"Zubehör\" gibt es eine zweite Versandkostenregel mit einem Preisaufschlag von 2,50 €.
+.. _oxbafz01:
 
-.. image:: ../../media/screenshots/oxbafz01.png
-   :alt: Versandkosten DHL - Standardartikel: +2,50 Euro
-   :height: 342
+.. figure:: ../../media/screenshots/oxbafz01.png
+   :alt: Beispiel: Versandkostenregel für Kategorie Fahrzeuge
    :width: 650
+   :class: with-shadow
 
-Der im Screenshot gezeigten Versandkostenregel wurden alle Kategorien mit Ausnahme der Kategorie \"Zubehör\ "zugeordnet. Beide Versandkostenregeln gehören zur Versandart \"DHL GoGreen\".
+   Abb.: Beispiel: Versandkostenregel für Kategorie Fahrzeuge
 
-Wird diese Versandart beim Kauf ausgewählt, werden beide Versandkostenregeln geprüft.
+Dies würde in unserem einfachen Beispiel den Fall abdecken, dass Sie Fahrzeuge verkaufen, die dann bei der Überführung beispielsweise auch einen Satz Winterräder sowie Merchandise-Waren transportieren könnten.
 
-Liegt ein Artikel aus dem Kiteboarding-Zubehör im Warenkorb, greift die erste Versandkostenregel. Der Versand kostet 4,99 €.
+Wenn die Artikel dagegen getrennt transportiert werden, dann deaktivieren Sie die Einstellung :guilabel:`Keine weiteren Regeln nach dieser berechnen`. In diesem Fall werden beide Versandkostenregeln angewendet, und die Versandkosten werden addiert.
 
-.. image:: ../../media/screenshots/oxbafz02.png
-   :alt: Warenkorb mit Kite-Leinen
-   :height: 261
-   :width: 550
-
-Wird zusätzlich ein Trapez in den Warenkorb gelegt, ist auch die zweite Versandkostenregel gültig. Die Versandkosten summieren sich auf 7,49 €.
-
-.. image:: ../../media/screenshots/oxbafz03.png
-   :alt: Warenkorb mit Kite-Leinen und Trapez
-   :height: 310
-   :width: 550
-
-7,49 € kostet auch der Versand eines einzelnen Trapezes, da beide Versandkostenregeln zutreffen. Die erste Versandkostenregel gilt für alle Artikel und die zweite Versandkostenregel schließt nur die Artikel aus dem Kiteboarding-Zubehör aus.
+In unserem Beispiel wird entsprechend die Überführung für jede Überführung separat abgerechnet (:ref:`oxbafz01`, Pos.1), die Kosten für die Spedition oder den Paketversand dagegen werden einmalig pro Warenkorb berechnet.
 
 .. seealso:: :doc:`Versandkostenregeln - Registerkarte Artikel <../versandkostenregeln/registerkarte-artikel>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 
