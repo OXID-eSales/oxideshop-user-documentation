@@ -39,7 +39,7 @@ Beispiel
 --------
 Zwei Versandkostenregeln dienen als Beispiel für eine Lieferung mit höheren Versandkosten, wenn Artikel ins Ausland geliefert werden.
 
-Dafür erstellen Sie zwei Versandkostenregeln, denen Sie unterschiedliche Länder zugeordnen. Die eine ist für den Versand von Artikeln innerhalb von Deutschlands zum Preis von 3,90 € (:ref:`oxbafx01`), die andere für die Lieferung nach Österreich und in die Schweiz für 6,90 €.
+Dafür erstellen Sie zwei Versandkostenregeln, denen Sie unterschiedliche Länder zuordnen. Die eine ist für den Versand von Artikeln innerhalb von Deutschlands zum Preis von 3,90 € (:ref:`oxbafx01`), die andere für die Lieferung nach Österreich und in die Schweiz für 6,90 €.
 
 Sie definieren die Versandkostenregeln so, dass die Berechnung nur einmal pro Warenkorb erfolgt. Länder müssen zugewiesen sein. Für die eine Versandkostenregel ist das Deutschland, für die andere sind das Österreich und die Schweiz.
 
