@@ -1,7 +1,11 @@
 ﻿Promotions and start page
 =========================
 
-To display promotions on the shop’s start page, you will need to check the :guilabel:`Load Promotions` box in the :guilabel:`Perform.` tab under :menuselection:`Master Settings --> Core Settings`. This tab also contains other settings that are important for promotions and are discussed here.
+Dsplay promotions on the shop’s start page.
+
+To do so, under :menuselection:`Master Settings --> Core Settings`, on the :guilabel:`Perform.` tab, check the :guilabel:`Load Promotions` checkbox.
+
+This tab also contains other settings that are important for promotions and are discussed here.
 
 This document describes the promotions on the start page of OXID eShop default installation with the \"Flow\" theme.
 
@@ -14,7 +18,13 @@ The banner is a large area that stretches horizontally across the start page. It
    :height: 208
    :width: 650
 
-If several images have been defined as banners, they will be changed into in a sequence of images which are displayed as a slideshow. An image can be linked to the product’s details page so that it opens when the customer clicks on the image. The product’s title and a short description can also be displayed at the bottom of the screen. This must be enabled in the image settings of the \"Flow\" theme. To do this, check the box :guilabel:`Activate captions for slider on home page` in the :guilabel:`Settings` tab under :menuselection:`Extensions --> Themes`.
+If several images have been defined as banners, they will be changed into in a sequence of images which are displayed as a slideshow.
+
+An image can be linked to the product’s details page so that it opens when the customer clicks on the image.
+
+The product’s title and a short description can also be displayed at the bottom of the screen.
+
+This must be enabled in the image settings of the \"APEX\" theme. To do this, under :menuselection:`Extensions --> Themes`, on the :guilabel:`Settings` under :guilabel:`Pictures`, check the :guilabel:`Activate captions for slider on home page` checkbox.
 
 Week's Specials
 ---------------
