@@ -12,3 +12,4 @@ Zahlung und Versand
    versandkosten-fuer-in-und-ausland
    versandkosten-fuer-bestimmte-artikel
    versandkosten-fuer-artikel-aus-bestimmten-kategorien
+   versandkosten-berechnen
