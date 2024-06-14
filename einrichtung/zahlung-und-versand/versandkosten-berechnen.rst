@@ -1,56 +1,78 @@
-Standard-Versandkosten berechnen
-================================
+Versandkosten in der Warenkorbübersicht anzeigen
+================================================
 
-.. todo: #SB: Use case klären: Für welche Zahlungsarten? Was genau ist der Benefit?
-.. todo: #SB: Ab welche Version haben wir die Funktion?
+.. todo: #SB: Ab welcher Version haben wir die Funktion? -- seit immer drin
 
-Um Zahlungen mit Zahlungsdienstleistern zu optimieren, stellen Sie durch Standardversandkosten sicher, dass der Wert des Warenkorbs ungefähr dem Wert entspricht, der beim Checkout vom PayPal-Konto des Kunden eingezogen wird.
+Zeigen Sie die Versandkosten bereits in der Warenkorbübersicht an (:ref:`oxbaka02`, Pos. 1).
 
+Tun Sie das jedoch :emphasis:`nur dann`, wenn es technisch möglich ist, die Versandkosten korrekt zu bestimmen, ohne dass sich der Kunde in Ihrem OXID eShop angemeldet hat.
 
-|background|
-
-Wenn ein Kunde beispielsweise PayPal Express nutzt und einen Artikel in den Warenkorb legt, autorisiert er eine Zahlung in Höhe des Warenkorbwerts zuzüglich einer Toleranz von etwa 5 % für Versandkosten.
-
-Im Fall von niedrigpreisigen Artikeln kann es sein, dass der Anteil der Versandkosten mehr als 5 % des Artikelpreises beträgt.
-
-Beispiel: Der Artikelpreis ist 5 Euro, die Versandkosten betragen 4 Euro. Die Toleranz ist bei weitem überschritten.
-
-Wenn PayPal dauerhaft finanzielle Reserven vorhalten muss, weil die realen Versandkosten dauerhaft von den Versandkosten abweichen, die PayPal schätzt und die PayPal Express autorisiert, dann kann es für PayPal schwierig werden, Ihnen weiterhin die Zahlungsart PayPal Express bereitzustellen.
-
+Beispiel: Sie haben für alle Produkte und Lieferländer eine Versandkostenpauschale. In solchen Fällen kennen Sie die Versandkosten, ohne beispielsweise die Lieferadresse des Kunden zu wissen.
 
 |procedure|
 
-.. todo: #SB: Wie genau gehe ich vor?
+.. attention::
 
-1. Legen Sie unter :menuselection:`Shopeinstellungen --> Versandarten` eine Standard-Versandart an.
+   **Preisangabenverordnung**
 
-   Dies ist die Versandart, welche die typischen Käufe in Ihrem OXID eShop (also etwa 80 % der Fälle) abdeckt.
+   Stellen Sie sicher, dass Sie nicht gegen die Preisangabenverordnung oder andere rechtliche Rahmenbedingungen verstoßen.
 
+   Stellen Sie deshalb sicher, dass Sie die tatsächlichen Versandkosten anzeigen, wenn Sie die Funktion nutzen.
+
+   Wenn das nicht möglich ist, bevor sich der Kunde im Checkout angemeldet und eine Versandart gewählt hat, dann vermeiden Sie es, die Funktion zu nutzen und die Versandkosten in der Warenkorbübersicht anzuzeigen.
+
+   Zeigen Sie stattdessen beispielsweise einen Link zu einer Seite mit einer Versandkostenübersicht an (:ref:`oxbaka03`, Pos. 1), damit sich der Kunde vorab informieren kann. Passen Sie dazu das Template an. Im Demo-Shop ab OXID eShop Version lenkt ein Link auf der Produkt-Detailseite auf die Seite :guilabel:`Zahlung und Lieferung`, die Sie unter :menuselection:`Kundeninformation --> CMS-Seiten --> Zahlung und Lieferung` (Seie :technicalname:`oxdeliveryinfo`) bearbeiten könnnen.
+
+   .. _oxbaka03:
+
+   .. figure:: /media/screenshots/oxbaka03.png
+      :alt: Link zur Versandkostenübersicht
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Link zur Versandkostenübersicht
+
+1. Legen Sie unter :menuselection:`Shopeinstellungen --> Versandarten` eine Standard-Versandart oder mehrere Versandarten mit identischen Versandkosten für den Versand an.
+#. Legen Sie die Versandkostenregeln an und ordnen Sie die Versandarten zu.
 #. Wählen Sie :menuselection:`Stammdaten --> Grundeinstellungen`.
 #. Öffnen Sie auf der Registerkarte :guilabel:`Einstell.` den Bereich :guilabel:`Weitere Einstellungen`.
-#. Markieren Sie das Kontrollkästchen :guilabel:`Versandkosten auch dann berechnen, wenn der Kunde noch nicht eingeloggt ist` (:ref:`oxbaka01`).
+#. Markieren Sie das Kontrollkästchen :guilabel:`Versandkosten auch dann berechnen, wenn der Kunde noch nicht eingeloggt ist` (:ref:`oxbaka01`, Pos. 1).
 
    .. _oxbaka01:
 
    .. figure:: /media/screenshots/oxbaka01.png
-      :alt: Berechnen von Standard-Versandkosten aktivieren
+      :alt: Anzeigen von Standard-Versandkosten aktivieren
       :width: 650
       :class: with-shadow
 
-      Abb.: Berechnen von Standard-Versandkosten aktivieren
+      Abb.: Anzeigen von Standard-Versandkosten aktivieren
 
 |result|
 
-Um die Versandkosten und den gesamten Wert eines Warenkorb eines nicht angemeldeten Kunden zu schätzen, verwendet Ihr Zahlungsdienstleister diejenige Zahlungsart, die laut Versandkostenregel als erstes zutrifft.
+Die Versandkosten werden angezeigt (:ref:`oxbaka02`, Pos. 1).
 
-Das ist in den meisten Fällen die von Ihnen definierte Standard-Versandart.
+.. note::
 
-.. todo: #SB: Use case aus Kundensicht: Wie wird dadurch die Shop-Experience verbessert und damit indirekt der Nutzen des Shopbetreibers
-.. todo: #SB: In welchem Fall will ich die Option NICHT aktivieren?
+   **Mehrere Versandarten**
+
+   Technisch ist es so, dass die Versandkosten der :emphasis:`ersten` Versandart, die entsprechend Ihrer Versandkostenregeln anwendbar ist, angezeigt werden.
+
+   Weil Sie die Versandarten so konfiguriert haben, dass die Versandkosten immer gleich sind, ist es möglich, dass der Kunde im Checkout nach der Anmeldung eine andere Versandart wählt. Es wird in jedem Fall der korrekte Endpreis wie im Checkout angezeigt.
+
+.. _oxbaka02:
+
+.. figure:: /media/screenshots/oxbaka02.png
+   :alt: Versandkosten in der Warenkorbübersicht anzeigen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Versandkosten in der Warenkorbübersicht anzeigen
+
+
 
 .. todo: EN:
-1. Wählen Sie :menuselection:`Master Settings --> Core Settings`.
-#. Öffnen Sie auf der Registerkarte :guilabel:`Settings.` den Bereich :guilabel:`Other settings`.
-#. Markieren Sie das Kontrollkästchen :guilabel:`Calculate default Shipping costs when ser is not logged in yet`.
+    1. Wählen Sie :menuselection:`Master Settings --> Core Settings`.
+    #. Öffnen Sie auf der Registerkarte :guilabel:`Settings.` den Bereich :guilabel:`Other settings`.
+    #. Markieren Sie das Kontrollkästchen :guilabel:`Calculate default Shipping costs when ser is not logged in yet`.
 
 .. Intern: oxbaka, Status:
