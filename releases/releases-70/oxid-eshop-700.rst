@@ -200,11 +200,6 @@ System requirements
 
 For the system requirements, see :ref:`installation/new-installation/server-and-system-requirements:Server and system requirements`.
 
-Installation
-^^^^^^^^^^^^
-
-To install, follow the instructions under :ref:`installation/index:Installation`.
-
 Corrections
 -----------
 
@@ -212,8 +207,13 @@ Corrections
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=630
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=728
 
+Installation
+------------
+
+To install, follow the instructions under :ref:`installation/index:Installation`.
+
 Credits
-^^^^^^^
+-------
 
 Many thanks to your merge requests published with this release!
 

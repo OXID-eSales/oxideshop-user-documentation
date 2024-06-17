@@ -61,9 +61,6 @@ The compilation contains the following components: UPDATE VERSIONS
 Installation
 ------------
 
-To install or upgrade, follow the instructions in the *Installation* section:
-
-:doc:`New installation <../../installation/new-installation/new-installation>` |br|
-:doc:`Installing a patch update <../../installation/update/patch-update>`
+To install or update, follow the instructions under :ref:`installation/index:Installation`.
 
 .. Intern: , Status:
