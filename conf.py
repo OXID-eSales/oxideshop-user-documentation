@@ -152,13 +152,18 @@ html_static_path = ['_static']
 # A string of reStructuredText that will be included at the beginning of every source file that is read.
 rst_prolog = """
 .. role:: db
-
+.. role:: productname
+.. role:: technicalname
 """
 
 rst_epilog = """
 .. |link| image:: /media/icons/link.png
            :class: no-shadow
-
+.. |procedure| replace:: **Vorgehen**
+.. |prerequisites| replace:: **Voraussetzungen**
+.. |result| replace:: **Resultat**
+.. |background| replace:: **Hintergrund**
+.. |example| replace:: **Beispiel**
 .. |br| raw:: html
 
    <br />
