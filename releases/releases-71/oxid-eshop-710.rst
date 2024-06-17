@@ -366,9 +366,7 @@ Die Korrekturen finden Sie im `Changelog <https://github.com/OXID-eSales/oxidesh
 Installation
 ------------
 
-Zum Installieren oder Aktualisieren folgen Sie den Anleitungen im Abschnitt *Installation*:
+Zum Installieren oder Aktualisieren folgen Sie den Anleitungen unter :doc:`Installation <../../installation/index>`.
 
-:doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`  |br|
-:doc:`Minor-Update installieren <../../installation/update/minor-update>`
 
 .. Intern: , Status:
