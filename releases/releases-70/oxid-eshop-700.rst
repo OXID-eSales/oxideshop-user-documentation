@@ -203,10 +203,6 @@ Systemvoraussetzungen
 
 Die Systemvoraussetzungen finden Sie unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server- und Systemvoraussetzungen`.
 
-Installation
-^^^^^^^^^^^^
-
-Folgen Sie zum Installieren den Anleitungen unter :ref:`installation/index:Installation`.
 
 Korrekturen
 -----------
@@ -215,9 +211,13 @@ Korrekturen
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=630
 * https://bugs.oxid-esales.com/changelog_page.php?version_id=728
 
+Installation
+------------
+
+Folgen Sie zum Installieren den Anleitungen unter :ref:`installation/index:Installation`.
 
 Dank
-^^^^
+----
 
 Vielen Dank für die Merge Requests, die mit dieser Version veröffentlicht wurden!
 

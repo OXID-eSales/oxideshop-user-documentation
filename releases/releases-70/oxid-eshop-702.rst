@@ -62,9 +62,6 @@ Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 Installation
 ------------
 
-Zum Installieren oder Aktualisieren folgen Sie den Anleitungen im Abschnitt *Installation*:
-
-:doc:`Neu-Installation <../../installation/neu-installation/neu-installation>`  |br|
-:doc:`Patch-Update installieren <../../installation/update/patch-update>`
+Folgen Sie zum Installieren oder Aktualisieren den Anleitungen unter :ref:`installation/index:Installation`.
 
 .. Intern: , Status:
