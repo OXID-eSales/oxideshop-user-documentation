@@ -108,6 +108,10 @@
     {%- endif %}
   {%- endblock %}
   {%- block extrahead %} {% endblock %}
+
+  <!-- EOL note based on cookie note https://github.com/Wruczek/Bootstrap-Cookie-Alert -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+
 </head>
 
 <body class="wy-body-for-nav">
@@ -239,6 +243,18 @@
   {% endif %}
 
   {%- block footer %} {% endblock %}
+
+  <!-- EOL note based on cookie note https://github.com/Wruczek/Bootstrap-Cookie-Alert -->
+  <!-- in <head> einfügen: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">  -->
+  <!-- Für einen roten Button style="background-color:#C02124" -->
+  <div class="alert wy-text-center cookiealert" role="alert">
+    Dies ist die Dokumentation für OXID eShop 6.2, der End of Life (EOL) erreicht hat und nicht mehr unterstützt wird.
+    <button type="button" class="btn btn-primary btn-sm acceptcookies" style="background-color:#C02124 aria-label="Close">
+      Ich habe verstanden
+    </button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 
 </body>
 </html>
