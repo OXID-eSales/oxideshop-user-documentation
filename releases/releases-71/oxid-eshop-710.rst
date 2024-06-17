@@ -362,9 +362,6 @@ Find the corrections in the `Changelog <https://github.com/OXID-eSales/oxideshop
 Installation
 ------------
 
-To install or upgrade, follow the instructions in the *Installation* section:
-
-:doc:`New installation <../../installation/new-installation/new-installation>` |br|
-:doc:`Installing a minor update <../../installation/update/minor-update>`
+To install or upgrade, follow the instructions under :doc:`Installation <../../installation/index>`.
 
 .. Intern: , Status:
