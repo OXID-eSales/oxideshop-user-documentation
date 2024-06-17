@@ -134,7 +134,7 @@ todo_include_todos = True
 html_theme = 'sphinx_rtd_theme'
 
 html_context = {
-    'current_version': '7.1',
+    'current_version': '7.2',
     'versions': [
           ('6.0', 'https://docs.oxid-esales.com/eshop/de/6.0/'),
           ('6.1', 'https://docs.oxid-esales.com/eshop/en/6.1/'),
@@ -144,10 +144,10 @@ html_context = {
           ('6.5', 'https://docs.oxid-esales.com/eshop/en/6.5/'),
           ('7.0', 'https://docs.oxid-esales.com/eshop/en/7.0/'),
           ('7.1', 'https://docs.oxid-esales.com/eshop/en/7.1/'),
-     ],
+          ('7.2', 'https://docs.oxid-esales.com/eshop/en/7.2/'),     ],
     'languages':
-         [('EN', 'https://docs.oxid-esales.com/eshop/en/7.1/'),
-          ('DE', 'https://docs.oxid-esales.com/eshop/de/7.1/')],
+         [('EN', 'https://docs.oxid-esales.com/eshop/en/7.2/'),
+          ('DE', 'https://docs.oxid-esales.com/eshop/de/7.2/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
@@ -156,7 +156,7 @@ html_context = {
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'OXID-eSales',
     'github_repo': 'oxideshop-user-documentation',
-    'github_version': 'b-7.1-en/'
+    'github_version': 'b-7.2.x-en/'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -171,7 +171,7 @@ html_theme_path = ['_themes']
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-html_title = 'OXID eShop 7.1 | User documentation'
+html_title = 'OXID eShop 7.2 | User documentation'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #

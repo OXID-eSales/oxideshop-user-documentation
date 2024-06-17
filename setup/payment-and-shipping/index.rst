@@ -12,3 +12,4 @@
    domestic-and-foreign-shipping-costs
    shipping-costs-for-specific-products
    shipping-costs-for-products-from-specific-categories
+   displaying-shipping-costs
