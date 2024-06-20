@@ -10,7 +10,7 @@ Dafür stehen drei Aktionstypen zur Verfügung, mit denen hauptsächlich das Aus
 * Banner
 * Promotion
 
-.. todo: #SP: Funktionalität APEX klären; stimmt das noch? "Das Theme \"APEX\" unterstützt Aktion und Banner." -- woran merke ich das?
+.. todo: #SB: Funktionalität APEX klären; stimmt das noch? "Das Theme \"APEX\" unterstützt Aktion und Banner." -- woran merke ich das?
 
 
 Das Theme \"APEX\" unterstützt Aktion und Banner.
@@ -19,9 +19,9 @@ Das Theme \"APEX\" unterstützt Aktion und Banner.
 
 Promotion und einige Möglichkeiten vom Typ Aktion werden vom Standard-Theme nicht verwendet.
 
-.. todo: #SP: Was ist eine Promotion, wie lege ich sie an: bei mir erscheint nichts.
+.. todo: #SB: Was ist eine Promotion, wie lege ich sie an: bei mir erscheint nichts.
 
-.. todo: #SP: Was bedeutet der Satz: Kann ich die beiden Aktionstypen in APEX einbinden? Was heißt "vom Standard-Theme nicht verwendet" -- gibt es ein Nicht-Standard-Theme mit Promo und Banner? Unter welchen Voraussetzungen kann ich diese Typen nutzen, warum werden sie überhaupt angeboten?
+.. todo: #SB: Was bedeutet der Satz: Kann ich die beiden Aktionstypen in APEX einbinden? Was heißt "vom Standard-Theme nicht verwendet" -- gibt es ein Nicht-Standard-Theme mit Promo und Banner? Unter welchen Voraussetzungen kann ich diese Typen nutzen, warum werden sie überhaupt angeboten?
 
 Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden (:ref:`oxbagv01`), weil sie das Theme \"Azure\" nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
 

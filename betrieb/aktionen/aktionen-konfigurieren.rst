@@ -3,8 +3,8 @@ Aktionen konfigurieren
 
 .. todo: fasst aktionen-und-startseite und registerkarte stamm zusammen
 
-.. todo: #SP: Kann ich Aktionen auch auf anderen Seiten verwenden?
-.. todo: #SP: Werden die Widgets noch verwendet, dokumentieren wie man sie einbaut, wenn sie im Theme nicht mehr drin sind: SB: Doku für jedes Widget, wie man sie einbaut.; nix in DEV-Doku.
+.. todo: #SB: Kann ich Aktionen auch auf anderen Seiten verwenden?
+.. todo: #SB: Werden die Widgets noch verwendet, dokumentieren wie man sie einbaut, wenn sie im Theme nicht mehr drin sind: SB: Doku für jedes Widget, wie man sie einbaut.; nix in DEV-Doku.
     Welche Controller es gibt es? Was ist ein Widget? Wann wird es verwendet? Siehe https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/twig_extensions.html#includewidgetextension
     Folgende müssten dokuemntiert werden: Wozu gut, wo standarm. eingebunden, welchen Paraeter haben sie, z.B. Categorie tree wie tif? https://github.com/OXID-eSales/oxideshop_ce/tree/b-8.0.x/source/Application/Component/Widget
     Die Templates gibt es unter: https://github.com/OXID-eSales/apex-theme/tree/b-8.0.x/tpl/widget
@@ -20,21 +20,21 @@ Es gibt drei Aktionstypen, mit denen Sie hauptsächlich das Aussehen der Startse
 * Banner
 * Promotion
 
-.. todo: #SP: "hauptsächlich das Aussehen der Startseite": Wo noch?
-.. todo: #SP: Funktionalität APEX klären; stimmt das noch und die folgenden Aussagen ? "Das Theme \"APEX\" unterstützt Aktion und Banner." -- woran merke ich das?
+.. todo: #SB: "hauptsächlich das Aussehen der Startseite": Wo noch?
+.. todo: #SB: Funktionalität APEX klären; stimmt das noch und die folgenden Aussagen ? "Das Theme \"APEX\" unterstützt Aktion und Banner." -- woran merke ich das?
 
 Das Theme \"APEX\" unterstützt nur den Aktionstyp \"Aktion\".
 
 Die Aktionstypen Promotion und Banner, sowie die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" werden vom Theme \"APEX\" nicht verwendet.
 
-.. todo: #SP: Wozu gibt es dann Banner und Promotion, bzw. wie lege ich sie an?
-.. todo: #SP: Was ist eine Promotion, wie lege ich sie an: bei mir erscheint nichts.
+.. todo: #SB: Wozu gibt es dann Banner und Promotion, bzw. wie lege ich sie an?
+.. todo: #SB: Was ist eine Promotion, wie lege ich sie an: bei mir erscheint nichts.
 
-.. todo: #SP: Was bedeutet der folgende Satz: Kann ich die beiden Aktionstypen in APEX einbinden? Was heißt "vom Standard-Theme nicht verwendet" -- gibt es ein Nicht-Standard-Theme mit Promo und Banner? Unter welchen Voraussetzungen kann ich diese Typen nutzen, warum werden sie überhaupt angeboten?
+.. todo: #SB: Was bedeutet der folgende Satz: Kann ich die beiden Aktionstypen in APEX einbinden? Was heißt "vom Standard-Theme nicht verwendet" -- gibt es ein Nicht-Standard-Theme mit Promo und Banner? Unter welchen Voraussetzungen kann ich diese Typen nutzen, warum werden sie überhaupt angeboten?
 
 Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden (:ref:`oxbagw00`), weil sie das Theme \"Azure\" nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
 
-.. todo: #SP: Kann ich Aktionen auch auf anderen Seiten verwenden?
+.. todo: #SB: Kann ich Aktionen auch auf anderen Seiten verwenden?
 
 .. _oxbagw00:
 
@@ -79,7 +79,7 @@ Generelles Vorgehen
     :guilabel:`In Sprache`
        Die Aktion lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
 
-        .. todo: #SP: "Die Aktion lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten." Das heißt doch nur: Ich konfiguriere den Namen der Aktion pro Sprache, korrekt? Oder hat es noch andere Auswirkungen?
+        .. todo: #SB: "Die Aktion lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten." Das heißt doch nur: Ich konfiguriere den Namen der Aktion pro Sprache, korrekt? Oder hat es noch andere Auswirkungen?
 
     :guilabel:`Artikel zuordnen`
        Der Aktion kann ein Artikel, wie beispielsweise bei der Aktion \"Angebote der Woche\", oder können mehrere Artikel, wie bei den Aktionen \"Frisch eingetroffen\" und \"Topseller\", zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Aktion zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
@@ -87,10 +87,10 @@ Generelles Vorgehen
 
     **Typ Banner**
 
-.. todo: #SP: Was machen wir dait?
+.. todo: #SB: Was machen wir dait?
 
-..  #SP: Banner ist nicht in APEX, korrekt?
-        .. todo: #SP: Fehlt in Standard-Installation? Wie würde ich es einbinden?
+..  #SB: Banner ist nicht in APEX, korrekt?
+        .. todo: #SB: Fehlt in Standard-Installation? Wie würde ich es einbinden?
         .. figure:: ../../media/screenshots/oxbagy02.png
            :alt: Banner konfigurieren
            :width: 650
@@ -113,7 +113,7 @@ Generelles Vorgehen
            Die Schaltfläche :guilabel:`Durchsuchen...` öffnet einen Dateidialog, in dem Sie die entsprechende Datei auf Ihrem Rechner auswählen können. Wenn Sie nun die Schaltfläche :guilabel:`Öffnen` drücken, wird der Dateinamen direkt übernommen. Speichern startet das Hochladen des Bildes. Dabei wird ein bereits vorhandenes Bild ersetzt. Ein zugeordnetes Foto kann auch gelöscht werden.
         :guilabel:`Link hinter Banner`
            Für eine gezielte Werbung auf der Startseite kann ein Link für das Bild hinterlegt werden. Das kann eine URL in der Form ``http://www.meineurl.de`` sein oder ein relativer Pfad ausgehend von der Struktur der Kategorien.
-           .. todo: #SP: Wie identifiziere ich den relativen Pfad? Wie gebe ich den Pfad an? z.B. /Autos/OX7-Coup.html ?
+           .. todo: #SB: Wie identifiziere ich den relativen Pfad? Wie gebe ich den Pfad an? z.B. /Autos/OX7-Coup.html ?
         :guilabel:`Zugeordnetes Produkt`
            Zeigt Artikelnummer und Titel eines Artikels an, der dem Banner zugeordnet wurde. Auf der Startseite werden über dem Banner der Preis und der Titel eingeblendet. Ein Klick darauf öffnet die Detailseite des beworbenen Artikels.
         :guilabel:`Produkt zuordnen`
@@ -126,7 +126,7 @@ Generelles Vorgehen
 
     **Typ Promotion**
 
-    .. todo: #SP: Warum fehlt Typ Promotion?
+    .. todo: #SB: Warum fehlt Typ Promotion?
 
 3. Machen Sie zusätzliche Konfigurationseinstellungen, die spezifisch sind für den Aktionstyp.
 
@@ -135,7 +135,7 @@ Aktionen einer Standardinstallation konfigurieren
 
 Wir beschreiben im Folgenden, wie die Aktionen auf der Startseite einer Standardinstallation des OXID eShop mit dem Theme \"APEX\" aussehen, und wie Sie sie im einzelnen konfigurieren.
 
-    .. todo: #SP: Wie lege ich ein Banner an? Bei mir erscheint es nicht auf der Startseite
+    .. todo: #SB: Wie lege ich ein Banner an? Bei mir erscheint es nicht auf der Startseite
 
 ..  Banner
     ------
@@ -177,7 +177,7 @@ Der Slider \"Unsere Marken\" erscheint unter den Angeboten der Woche . Er präse
 
 
 
-.. todo: #SP: Wie kann ich den Text "Wir präsentieren Ihnen hier unsere sorgsam ausgewählten Marken, deren Produkte Sie in unserem Shop finden."
+.. todo: #SB: Wie kann ich den Text "Wir präsentieren Ihnen hier unsere sorgsam ausgewählten Marken, deren Produkte Sie in unserem Shop finden."
 
 .. _oxbagw03:
 
@@ -197,7 +197,7 @@ Markieren Sie dazu unter :menuselection:`Erweiterungen --> Themes --> APEX Theme
 Frisch eingetroffen
 ^^^^^^^^^^^^^^^^^^^
 
-.. todo: #SP: Was soll "Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge..." bedeuten?
+.. todo: #SB: Was soll "Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge..." bedeuten?
 
 Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge des Shops präsentiert werden.
 
@@ -234,7 +234,7 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
     * Damit der Shop keine Zeit verbraucht, um die Aktion aufzubereiten, können Sie die Aktion hier auch ganz abschalteten.
 
-      .. todo: #SP: zusätzlich zu nicht aktiv?
+      .. todo: #SB: zusätzlich zu nicht aktiv?
 
 
 2. Legen Sie unter unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit dem Kontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
@@ -244,7 +244,7 @@ Topseller
 
 Weiter unten auf der Startseite können Sie die meistverkauften Artikel des Shops (Topseller) anzeigen.
 
-.. todo: #SP: War das früher so: "Die Anzeige ist analog der zweispaltigen Galerie einer Artikelübersicht. "
+.. todo: #SB: War das früher so: "Die Anzeige ist analog der zweispaltigen Galerie einer Artikelübersicht. "
 
 Die Anzeige ist eine vierspaltige Artikelübersicht (:ref:`oxbagw05`).
 
@@ -271,7 +271,7 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
           Lassen Sie die Artikel vom Shop automatisch bereitstellen
 
-          .. todo: #SP: Geht das nach Umsatzahlen? Wie viele Artikel werden automatich bereitgestellt? Die Liste der neusten Artikel wird automatisch berechnet.
+          .. todo: #SB: Geht das nach Umsatzahlen? Wie viele Artikel werden automatich bereitgestellt? Die Liste der neusten Artikel wird automatisch berechnet.
 
         * Manuell
 
@@ -281,16 +281,16 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
         * Damit der Shop keine Zeit verbraucht, um die Aktion aufzubereiten, können Sie die Aktion hier auch ganz abschalteten.
 
-            .. todo: #SP: zusätzlich zu nicht aktiv?
+            .. todo: #SB: zusätzlich zu nicht aktiv?
 
 2. Legen Sie unter unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit demnKontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
 
 Eigene Aktionen einbinden
 -------------------------
 
-.. todo: #SP: wie konfiguriere ich eigene Aktionen ein, die ich ja anlegen kann?
-    #SP: Wie konfiguriere ich Banner?
-    #SP: Wie konfiguriere ich Promotionen?
+.. todo: #SB: wie konfiguriere ich eigene Aktionen ein, die ich ja anlegen kann?
+    #SB: Wie konfiguriere ich Banner?
+    #SB: Wie konfiguriere ich Promotionen?
 
 
 .. Intern: oxbagw, Status:

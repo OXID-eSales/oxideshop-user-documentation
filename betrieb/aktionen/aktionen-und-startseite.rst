@@ -21,14 +21,14 @@ Generelles Vorgehen
    * Legen Sie fest, wie lang die Aktion auf der Startseite erscheinen soll.
    * Legen Sie die Sprache fest.
 
-     .. todo: #SP: Was genau bewirkt die Spracheinstellung?
+     .. todo: #SB: Was genau bewirkt die Spracheinstellung?
 
 
 Aktionen einer Standardinstallation
 -----------------------------------
 
 
-.. todo: #SP: Wie lege ich ein Banner an? Bei mir erscheint es nicht auf der Startseite
+.. todo: #SB: Wie lege ich ein Banner an? Bei mir erscheint es nicht auf der Startseite
     Banner
     ------
     Das Banner ist ein großer Bereich, der sich oben horizontal über die Startseite zieht. Darin können ein Bild oder auch mehrere Bilder angezeigt werden, die Artikel und Kategorien herausstellen.
@@ -69,7 +69,7 @@ Die Anzeige unter der Überschrift \"Unsere Marken\" muss in den Anzeige-Einstel
 
 Markieren Sie dazu unter :menuselection:`Erweiterungen --> Themes` auf der Registerkarte :guilabel:`Einstell.` unter :guilabel:`Startseite` das Kontrollkästchen :guilabel:`Hersteller auf Startseite anzeigen`.
 
-.. todo: #SP: Wie kann ich den Text "Wir präsentieren Ihnen hier unsere sorgsam ausgewählten Marken, deren Produkte Sie in unserem Shop finden."
+.. todo: #SB: Wie kann ich den Text "Wir präsentieren Ihnen hier unsere sorgsam ausgewählten Marken, deren Produkte Sie in unserem Shop finden."
 
 .. _oxbagw03:
 
@@ -136,8 +136,8 @@ Die zusätzliche Einstellung :guilabel:`Preise anzeigen bei \"Top of the Shop\" 
 Eigene Aktionen einbinden
 -------------------------
 
-.. todo: #SP: wie konfiguriere ich eigene Aktionen ein, die ich ja anlegen kann?
-            #SP: Wie konfiguriere ich Banner und Promotionen?
+.. todo: #SB: wie konfiguriere ich eigene Aktionen ein, die ich ja anlegen kann?
+            #SB: Wie konfiguriere ich Banner und Promotionen?
 
 
 .. Intern: oxbagw-alt, Status:

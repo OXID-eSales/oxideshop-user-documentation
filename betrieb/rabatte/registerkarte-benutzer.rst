@@ -1,19 +1,27 @@
-﻿Registerkarte Benutzer
-======================
+﻿Registerkarte Benutzer: Rabatte auf Benutzer oder Gruppen einschränken
+======================================================================
 
-Rabatte können für bestimmte Benutzergruppen und/oder Benutzer gelten. Diese Festlegung kann auf der Registerkarte Benutzer vorgenommen werden. Ohne Zuordnung von Benutzergruppen und/oder Benutzer gilt der Rabatt für alle Kunden des Online-Shops.
+Schränken Sie den Geltungsbereich eines Rabatts auf einzelne Benutzer, Benutzergruppen oder eine Kombination ein.
 
-.. image:: ../../media/screenshots/oxbahk01.png
-   :alt: Rabatte - Registerkarte Benutzer
-   :height: 334
-   :width: 650
+Dadurch ist es beispielsweise möglich, bestimmten Kunden Ihres Online-Shops günstigere Preise anzubieten.
 
-:guilabel:`Benutzergruppen zuordnen`
-   Das Zuordnungsfenster, welches über diese Schaltfläche geöffnet wird, zeigt die beiden Listen :guilabel:`Alle Benutzergruppen` und :guilabel:`Zugeordnete Benutzergruppen`. Die Benutzergruppen lassen sich nach Titel filtern und sortieren. Ziehen Sie die gewünschten Benutzergruppen mit der Maus von der linken in die rechte Liste. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich. Die Zuordnung ist abgeschlossen.
+Sind dem Rabatt keine Benutzer oder Benutzergruppen zugeordnet, gilt er für alle Kunden.
 
-:guilabel:`Benutzer zuordnen`
-   Um einzelne Benutzer für den Rabatt festzulegen, betätigen Sie die Schaltfläche :guilabel:`Benutzer zuordnen`. Im Zuordnungsfenster, welches sich öffnet, werden die beiden Listen :guilabel:`Alle Benutzer` und :guilabel:`Zugeordnete Benutzer` angezeigt. In der linken Liste kann die Anzeige auf alle Benutzer einer Benutzergruppe eingeschränkt werden, indem eine Benutzergruppe aus der Dropdown-Liste ausgewählt wird. In beiden Listen können Benutzer nach Login (E-Mail des Benutzers) gefiltert und/oder sortiert werden.
+Sind hingegen Benutzer und Benutzergruppen zugeordnet, müssen Kunden sowohl in mindestens einer der zugewiesenen Benutzergruppen als auch unter den zugewiesenen Benutzern sein. Nur dann ist der Rabatt für sie gültig.
 
-Auch in diesem Zuordnungsfenster ist eine Mehrfachauswahl möglich. Die gewünschten Benutzer werden per Drag \& Drop in die rechte Liste verschoben. Die Zuordnung ist abgeschlossen.
+|procedure|
+
+1. Wählen Sie :menuselection:`Shopeinstellungen --> Rabatte`.
+#. Wählen Sie einen Rabatt aus der Liste der Rabatte oder legen Sie einen neuen an.
+#. Bei einem neuen Rabatt vergeben Sie einen aussagekräftigen Namen und legen fest, um wie viel der reguläre Preis reduziert werden soll.
+#. Wählen Sie auf der Registerkarte :guilabel:`Benutzer` die Schaltfläche :guilabel:`Benutzer zuordnen` oder die Schaltfläche :guilabel:`Benutzergruppen zuordnen`.
+#. Verschieben Sie einen oder mehrere Benutzer oder Benutzergruppen per Drag \& Drop in die rechte Liste des Zuordnungsfensters. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+#. Schließen Sie das Zuordnungsfenster.
+#. Speichern Sie die Änderungen.
+
+|result|
+
+Der Rabatt gilt für alle zugeordneten Benutzer und/oder Benutzergruppen.
+
 
 .. Intern: oxbahk, Status:, F1: discount_users.html

@@ -1,60 +1,145 @@
-﻿Rabatte
-=======
+﻿Rabatte: Übersicht
+==================
 
-Rabattangebote sind neben Gutscheinserien, Newslettern oder Aktionen ein wichtiges Marketinginstrument in Ihrem OXID eShop. Mit einem Rabatt gewähren Sie einen Nachlass auf den sonst üblichen Preis eines Artikels, wenn bestimmte Bedingungen erfüllt sind. Günstigere Artikelpreise können für bestimmte Artikel, Kategorien, Benutzer, Benutzergruppen, Einkaufswerte oder -mengen festgelegt werden. Mit den vielfältigen Möglichkeiten der Rabatte bieten Sie Ihren Kunden Einkaufsvorteile und fördern so die Kundenbindung.
+Rabattangebote sind neben Gutscheinserien, Newslettern oder Aktionen ein wichtiges Marketinginstrument in Ihrem OXID eShop.
 
-Rabatte lassen sich für einen bestimmten Zeitraum oder gar länderspezifisch definieren. Sie können so eingestellt werden, dass das Angebot direkt mit den ermäßigten Preisen angezeigt wird. Es ist aber auch möglich, dass der Rabatt erst im Warenkorb berechnet und ausgewiesen wird. Rabatte können prozentual oder absolut zum Artikelpreis vergeben werden. Neben der Ermäßigung des Artikelpreises gibt es auch die Möglichkeit, bei jedem Kauf, der den Rabattkriterien entspricht, einen Gratisartikel in den Warenkorb zu legen.
+Mit einem Rabatt gewähren Sie einen Nachlass auf den sonst üblichen Preis eines Artikels, wenn bestimmte Bedingungen erfüllt sind.
 
-.. image:: ../../media/screenshots/oxbahh01.png
-   :alt: Rabatte
-   :height: 517
+Günstigere Artikelpreise können Sie für bestimmte Artikel, Kategorien, Benutzer, Benutzergruppen, Einkaufswerte oder -mengen festlegen.
+
+Mit den vielfältigen Möglichkeiten der Rabatte bieten Sie Ihren Kunden Einkaufsvorteile und fördern so die Kundenbindung.
+
+Arten von Rabatten
+------------------
+
+* Den Wert des Rabatts können Sie wie folgt festlegen:
+
+  * prozentual zum Artikelpreis
+  * absolut
+  * als Gratisartikel, der automatisch in den Warenkorb gelegt wird
+
+* Schränken Sie die Gültigkeit ein
+
+  * nach Kategorien oder Artikeln
+  * nach Benutzern oder Benutzergruppen
+  * für einen bestimmten Zeitraum
+  * länderspezifisch
+
+* Einen Mengennachlass oder Staffelrabatt können Sie mit Staffelpreisen bei den Artikeln umsetzen.
+
+  Damit können Sie definieren, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird.
+
+  Weitere Informationen finden Sie unter :doc:`Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`
+
+.. _oxbahh01:
+
+.. figure:: ../../media/screenshots/oxbahh01.png
+   :alt: Beispiel: Zeitlich begrenzten Rabatt von 10% anlegen
    :width: 650
+   :class: with-shadow
 
-Mengennachlass oder Staffelrabatt können mit Staffelpreisen bei den Artikeln umgesetzt werden. Damit kann definiert werden, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird. Siehe: :doc:`Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`
+   Abb.: Beispiel: Zeitlich begrenzten Rabatt von 10% anlegen
+
+Anzeigen von Rabatten
+---------------------
+
+.. todo: #SB: OXDEV-tbd Wie geht das Folgende: Siehe unten, ich kriegs nicht hin.
+.. todo: #SB: OXDEV-tbd: Wenn es geht, was sind typische USe Cases? : k.A., evtl. techn. Gründe, zu klären
+.. todo: #SB: OXDEV-?Das Folgende funktioniert nicht richtig: Rabatte Einkaufswert und oder Menge = 0 OX5: kein Rabatt im Shop, OK: Einkaufswert in Warenkorb von 1 Achskörper Roadurance
+
+   .. todo: alter Text:
+    * Steht in beiden Feldern 0, werden alle Artikel, für die dieser Rabatt gilt, im Shop direkt mit dem rabattierten Preis angezeigt.
+    * Beginnt die Einkaufsmenge und/oder der Einkaufswert mit 1, wird der Rabatt erst im Warenkorb ausgewiesen.
+
+* Bestimmen Sie die Plazierung:
+
+  * Zeigen Sie das Angebot direkt mit den ermäßigten Preisen an.
+  * Weisen Sie den Rabatt erst im Warenkorb aus.
+
+    Beispiel: Sie wollen, dass die Rabattart Zugabe im Warenkorb angezeigt wird und nicht (siehe :ref:`betrieb/rabatte/artikel-als-zugabe:Gratisartikel als Rabatt anlegen`).
+
+  Weitere Informationen finden Sie im Schritt :ref:`Plazierung bestimmen <Rabatt-Plazierung-bestimmen>` (unter :ref:`betrieb/rabatte/rabatte:Anlegen und Verwalten von Rabatten`).
+
+* Aktivieren Sie in Ihrem OXID eShop bei Bedarf verschiedene Rabatte gleichzeitig, so dass unter bestimmten Bedingungen mehrere Rabatte beim Einkauf berücksichtigt und im Warenkorb ausgewiesen werden.
+
+  Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht.
+
+  .. todo: #SB: OXDEV-? "Dabei werden Rabatte, die für bestimmte Artikel gelten" -- Wie mache ich das? Z.B. Lagerräumungsrabatt 5000 € für OX7 Coupé zeigt an durchgestrichen, falsch: 115.000,00 €statt 120k, rabattierter Pries korrekt 115.000,00 €
+
+  Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt.
+
+.. todo: "eine Zeile bei der Auflistung": OK: in meinem Fall "Rabatt 5% ab 500 € Einkaufswert"
+.. todo: #SB: OXDEV-? Sonnenbrille Ocean Eyes 95,85: Summer Sale 10% : rabattierter Preis 95,85: kein Rabatt angewendet, unabhängig von Sortierreihenfolge -- geht -- Bug ist: Rabattierter Preis wird nicht in Übersicht angezeigt
+
+
+.. todo:
+
+.. _oxbahh02:
+
+.. figure:: ../../media/screenshots/oxbahh02.png
+   :alt: Beispiel: Artikel mit 2 Rabatten im Warenkorb
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Beispiel: Artikel mit 2 Rabatten im Warenkorb
+
+
+Verwalten von Rabatten in der Bestellverwaltung
+-----------------------------------------------
+
+.. todo: #SB: Kann ich das Folgende einfach so machen, z.B. Rabatt streichen. Was ist der USe CAse? -- Geht nicht juristisch, höchsetens neue Ordner machen , alte Order als annulliert markieren; löschen! In Bestellverwaltung prüfen, ob es technisch überhaupt ginge; system speicher nur Gesamtsumme, aber nicht Rabatte und Gutscheine
 
 Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`
 
-Im OXID eShop können natürlich verschiedene Rabatte aktiv sein, so dass unter bestimmten Bedingungen mehrere Rabatte beim Einkauf berücksichtigt und im Warenkorb ausgewiesen werden. Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht. Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt.
 
-.. image:: ../../media/screenshots/oxbahh02.png
-   :alt: Kite mit 2 Rabatten im Warenkorb
-   :height: 317
-   :width: 650
+Anlegen und Verwalten von Rabatten
+----------------------------------
 
-Der Abschnitt \"Rabatte\" informiert Sie darüber, wie Rabatte erstellt und mit welchen Einstellungen sie individualisiert und für bestimmte Kundengruppen genutzt werden können. In ihm werden auch einige typische Beispiele für Rabatte aufgezeigt.
+Erstellen und bearbeiten Sie Rabatte Administrationsbereich unter :menuselection:`Shopeinstellungen --> Rabatte`.
 
-Rabatte können im Administrationsbereich unter :menuselection:`Shopeinstellungen --> Rabatte` bearbeitet werden. Es werden eine Liste mit den vorhandenen Rabatten und darunter der Eingabebereich für die Rabatte angezeigt.
+|procedure|
 
-In der Liste der Rabatte symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Rabatt. Wurde ein Rabatt nicht aktiviert, fehlt dieses Symbol. Die Liste zeigt ausschließlich den Namen des Rabattes an. Nach Rabatten kann gesucht werden, indem Zeichen in das Suchfeld eingegeben werden. Die Namen der Rabatte werden nach diesen Zeichen durchsucht, sobald die Eingabe mit einem Enter abgeschlossen oder das Lupen-Symbol angeklickt wurde.
+1. Wenn Sie die Oxid eShop Enterprise Edition haben: Pflegen Sie Rabatte zentral und vererben Sie sie alle oder einzeln an Subshops.
 
-Rabatte können in der Liste nach aktiv/nicht aktiv, Sortierung und Name sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Rabatte werden dadurch in aufsteigender Reihenfolge angezeigt.
+   Weitere Informationen finden Sie unter :doc:`Registerkarte Mall: Rabatte an Subshops vererben <registerkarte-mall>`.
 
-Rabatte lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Soll der Rabatt nur nicht aktiv sein, entfernen Sie das Häkchen bei :guilabel:`Immer aktiv` und achten Sie darauf, dass kein Zeitraum eingetragen ist. Ein Eintrag würde den Rabatt ansonsten für den angegebenen Zeitraum aktivieren.
+#. Legen Sie den Rabatt an.
 
-Wird ein Rabatt aus der Liste der Rabatte gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Rabattes klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuen Rabatt anlegen`.
+   Sie haben folgende Möglichkeiten:
 
------------------------------------------------------------------------------------------
+   * Optional: Begrenzen Sie Rabatte zeitlich.
 
-Registerkarte Stamm
--------------------
-**Inhalte**: aktiver Rabatt, immer aktiv, aktiv für Zeitraum, Einkaufsmenge, Einkaufswert, absoluter Rabatt, prozentualer Rabatt, Dreingabe, Zugabe, kostenfreier Artikel |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
+     Weitere Informationenfinden Sie unter :doc:`Rabatte zeitlich begrenzen <zeitlich-begrenzte-rabatte>`.
+   * Optional: Legen Sie statt einem absoluten oder relativen Preisnachlass einen Gratisartikel als Rabatt an.
 
-Registerkarte Artikel
----------------------
-**Inhalte**: Artikel und Kategorien zuordnen |br|
-:doc:`Artikel lesen <registerkarte-artikel>` |link|
+     Weitere Informationenfinden Sie unter :doc:`Gratisartikel als Rabatt anlegen <artikel-als-zugabe>`.
+   * Bestimmen Sie die Plazierung.
 
-Registerkarte Benutzer
-----------------------
-**Inhalte**: Benutzer und Benutzergruppen zuordnen |br|
-:doc:`Artikel lesen <registerkarte-benutzer>` |link|
+     .. _Rabatt-Plazierung-bestimmen:
 
-Registerkarte Mall
-------------------
-Nur in der Enterprise Edition vorhanden |br|
-**Inhalte**: Rabatte vererben, Rabatte verknüpfen, Elternshop, Subshop, Supershop, Multishop, Mall |br|
-:doc:`Artikel lesen <registerkarte-mall>` |link|
+     Legen Sie im Eingabefeld :guilabel:`Einkaufswert` oder :guilabel:`Einkaufmenge` fest, wann der Rabatt vom Preis abgezogen werden soll:
+
+     .. todo: #SB: OXDEV-? Das Folgende funktioniert nicht, siehe Rabatte Einkaufswert von 0 OX5, Einkaufswert von 1 Achskörper Roadurance
+
+     * Um den Artikel bereits im Online-Shop mit dem rabattierten Preis anzuzeigen, geben Sie den Wert im Feld :guilabel:`Von` mit ``0`` an.
+     * Um den Rabatt erst im Warenkorb auszuweisen, geben Sie den Wert im Feld :guilabel:`Von` mit ``1`` an.
+
+#. Ordnen Sie die betreffenden Kategorien oder Artikel zu.
+
+   Weitere Informationenfinden Sie unter :doc:`Registerkarte Artikel: Kategorie oder Artikel zuordnen <registerkarte-artikel>`.
+#. Optional: Schränken Sie den Rabatt auf bestimmte Benutzergruppen ein.
+
+   Weitere Informationenfinden Sie unter :doc:`Registerkarte Benutzer: Rabatte auf Benutzer oder Gruppen einschränken <registerkarte-benutzer>`.
+
+
+|result|
+
+In der Liste der Rabatte symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Rabatt.
+
+Deaktivieren von Rabatten
+-------------------------
+
+Um einen Rabatt zu deaktivieren, entfernen Sie das Häkchen bei :guilabel:`Immer aktiv` und achten Sie darauf, dass kein Zeitraum eingetragen ist. Ein Eintrag würde den Rabatt ansonsten für den angegebenen Zeitraum aktivieren.
 
 
 .. Intern: oxbahh, Status:

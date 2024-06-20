@@ -58,7 +58,7 @@ Sie definieren die Berechtigungen im Administrationsbereich.
 Anzeigen von Artikeln und Kategorien einschränken
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #SG: Was ist der typische Anwendungsfall?
+.. todo: #SB: Was ist der typische Anwendungsfall?
 
 Legen Sie fest, dass nur bestimmte Benutzergruppen ausgewählte Artikel und Kategorien :emphasis:`sehen` dürfen.
 
@@ -86,7 +86,7 @@ Allen übrigen Benutzern und Benutzergruppen werden diese Bestandteile des Waren
 Kaufen von Artikeln und Kategorien einschränken
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #SG: Was ist der typische Anwendungsfall?
+.. todo: #SB: Was ist der typische Anwendungsfall?
 
 Definieren Sie für Artikel und Kategorien, dass sie ausschließlich für bestimmte Benutzergruppen kaufbar sein sollen.
 
@@ -141,10 +141,10 @@ Diese Rechte und Rollen definieren Sie unter :menuselection:`Benutzer verwalten 
 Verschiedene Rechtekombinationen können Sie in Rollen zusammenfassen und Benutzergruppen zuordnen. Sobald Sie für eine Benutzergruppe ein Recht erteilt haben, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr.
 
 
-.. todo: #SG: Wie geht das folgende? Was genau bedeutet der Satz?
+.. todo: #SB: Wie geht das folgende? Was genau bedeutet der Satz?
     Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident können Sie in Templates eine rechteabhängige Anzeige realisieren.
 
-.. todo: #SG:  Wie geht "Feld hinzufügen"? Beispiel: IDENT[&class1;class2;function1;function2...]
+.. todo: #SB:  Wie geht "Feld hinzufügen"? Beispiel: IDENT[&class1;class2;function1;function2...]
         In Template: [{ oxhasrights ident='IDENT' }] ... [{ /oxhasrights }]
 
 Rechte: (A)usführen

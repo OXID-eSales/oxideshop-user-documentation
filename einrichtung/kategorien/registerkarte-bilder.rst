@@ -10,7 +10,7 @@ Wurden für die Kategorie ein Bild und/oder ein Icon hochgeladen, werden die Bil
 
    Abb.: Kategorien - Registerkarte Bilder
 
-.. todo: #SP: Kein Banner mehr im Standard-Shop, deswegen kein Thumbnail angezeigt?
+.. todo: #SB: Kein Banner mehr im Standard-Shop, deswegen kein Thumbnail angezeigt?
 
 .. Als :guilabel:`Thumbnail` ist dabei das Bild zu sehen, welches in der Kategorieansicht als Banner angezeigt wird, sobald die Kategorie im Shop aufgerufen wird. Das :guilabel:`Icon` stellt eine Unterkategorie in der Kategorieansicht dar.
  .. image:: ../../media/screenshots/oxbabm02.png
