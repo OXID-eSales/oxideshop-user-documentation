@@ -13,13 +13,13 @@ Der Preis des Artikels, der als Zugabe in den Warenkorb gelegt wird, wird automa
 
 1. Wählen Sie :menuselection:`Shopeinstellungen --> Rabatte`.
 #. Legen Sie einen neuen Rabatt an, vergeben Sie einen aussagekräftigen Namen und wählen Sie aus der Dropdown-Liste :guilabel:`Rabatt` den Eintrag :guilabel:`itm`.
+#. Wählen Sie :guilabel:`Speichern`.
 #. Wählen Sie die Schaltfläche :guilabel:`Artikel auswählen` auf der Registerkarte :guilabel:`Stamm`.
 #. Verschieben Sie den Artikel, der als Gratisartikel dienen soll, per Drag \& Drop in die rechte Liste des Zuordnungsfensters und schließen Sie das Zuordnungsfenster.
-#. Legen Sie im Feld :guilabel:`Menge` fest, wie oft der Artikel in den Warenkorb gelegt wird.
+#. Optional: Legen Sie im Feld :guilabel:`Menge` fest, wie oft der Artikel in den Warenkorb gelegt wird.
 #. Optional: Setzen Sie ein Häkchen bei :guilabel:`Multiplizieren`, wenn die Anzahl des Gratisartikels abhängig von der Anzahl der gekauften Artikel sein soll.
-#. Definieren Sie die übrigen Bedingungen für den Rabatt, wie beispielsweise Einkaufsmenge oder -wert.
+#. Wählen Sie :guilabel:`Speichern`.
 
-   Weitere Informationen finden Sie unter :doc:`Registerkarte Stamm: Rabatt anlegen <registerkarte-stamm>`.
 
 #. Legen Sie fest, wo der Rabatt angezeigt werden soll: in der Artikelübersicht oder Detailansicht oder erst im Warenkorb.
 

@@ -56,7 +56,7 @@ Anzeigen von Rabatten
   * Zeigen Sie das Angebot direkt mit den ermäßigten Preisen an.
   * Weisen Sie den Rabatt erst im Warenkorb aus.
 
-    Beispiel: Sie wollen, dass die Rabattart Zugabe im Warenkorb angezeigt wird und nicht (siehe :ref:`betrieb/rabatte/artikel-als-zugabe:Gratisartikel als Rabatt anlegen`).
+    Beispiel: Sie wollen, dass die Rabattart Zugabe im Warenkorb angezeigt wird und nicht in der Artikelübersicht oder auf der Detailseite (siehe :ref:`betrieb/rabatte/artikel-als-zugabe:Gratisartikel als Rabatt anlegen`).
 
   Weitere Informationen finden Sie im Schritt :ref:`Plazierung bestimmen <Rabatt-Plazierung-bestimmen>` (unter :ref:`betrieb/rabatte/rabatte:Anlegen und Verwalten von Rabatten`).
 
@@ -64,7 +64,7 @@ Anzeigen von Rabatten
 
   Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht.
 
-  .. todo: #SB: OXDEV-? "Dabei werden Rabatte, die für bestimmte Artikel gelten" -- Wie mache ich das? Z.B. Lagerräumungsrabatt 5000 € für OX7 Coupé zeigt an durchgestrichen, falsch: 115.000,00 €statt 120k, rabattierter Pries korrekt 115.000,00 €
+  .. todo: #SB: Multiple Rabatte werden nicht aufgeschlüsselt: https://oxid-esales.atlassian.net/browse/OXDEV-8435?focusedCommentId=168711 "Dabei werden Rabatte, die für bestimmte Artikel gelten" -- Wie mache ich das? Z.B. Lagerräumungsrabatt 5000 € für OX7 Coupé zeigt an durchgestrichen, falsch: 115.000,00 €statt 120k, rabattierter Pries korrekt 115.000,00 €
 
   Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt.
 
@@ -72,24 +72,22 @@ Anzeigen von Rabatten
 .. todo: #SB: OXDEV-? Sonnenbrille Ocean Eyes 95,85: Summer Sale 10% : rabattierter Preis 95,85: kein Rabatt angewendet, unabhängig von Sortierreihenfolge -- geht -- Bug ist: Rabattierter Preis wird nicht in Übersicht angezeigt
 
 
-.. todo:
-
-.. _oxbahh02:
-
-.. figure:: ../../media/screenshots/oxbahh02.png
-   :alt: Beispiel: Artikel mit 2 Rabatten im Warenkorb
-   :width: 650
-   :class: with-shadow
-
-   Abb.: Beispiel: Artikel mit 2 Rabatten im Warenkorb
+.. todo: #tbd: Bild neu, sobald APEX-Bugs gefixt: 2 Rabatte
+    .. _oxbahh02:
+    .. figure:: ../../media/screenshots/oxbahh02.png
+       :alt: Beispiel: Artikel mit 2 Rabatten im Warenkorb
+       :width: 650
+       :class: with-shadow
+       Abb.: Beispiel: Artikel mit 2 Rabatten im Warenkorb
 
 
-Verwalten von Rabatten in der Bestellverwaltung
------------------------------------------------
-
+.. Verwalten von Rabatten in der Bestellverwaltung
+.. -----------------------------------------------
 .. todo: #SB: Kann ich das Folgende einfach so machen, z.B. Rabatt streichen. Was ist der USe CAse? -- Geht nicht juristisch, höchsetens neue Ordner machen , alte Order als annulliert markieren; löschen! In Bestellverwaltung prüfen, ob es technisch überhaupt ginge; system speicher nur Gesamtsumme, aber nicht Rabatte und Gutscheine
+.. todo: #SB: Neun, das geht offenbar gar nicht:
+.. todo: #SB: Was auch auffällt: Endpreis mit Rabatt wird richtig berechnet, z.B. Cpoupé: Artikel brutto	108.000,00	  EUR, aber angezeigt als "Rabatt  	- 0,00	  EUR"
 
-Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`
+.. Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`
 
 
 Anlegen und Verwalten von Rabatten
@@ -119,7 +117,7 @@ Erstellen und bearbeiten Sie Rabatte Administrationsbereich unter :menuselection
 
      Legen Sie im Eingabefeld :guilabel:`Einkaufswert` oder :guilabel:`Einkaufmenge` fest, wann der Rabatt vom Preis abgezogen werden soll:
 
-     .. todo: #SB: OXDEV-? Das Folgende funktioniert nicht, siehe Rabatte Einkaufswert von 0 OX5, Einkaufswert von 1 Achskörper Roadurance
+     .. todo: #SB: OXDEV-OXDEV-8435, https://oxid-esales.atlassian.net/browse/OXDEV-8435?focusedCommentId=168704  Das Folgende funktioniert nicht, siehe Rabatte Einkaufswert von 0 OX5, Einkaufswert von 1 Achskörper Roadurance
 
      * Um den Artikel bereits im Online-Shop mit dem rabattierten Preis anzuzeigen, geben Sie den Wert im Feld :guilabel:`Von` mit ``0`` an.
      * Um den Rabatt erst im Warenkorb auszuweisen, geben Sie den Wert im Feld :guilabel:`Von` mit ``1`` an.
@@ -134,12 +132,21 @@ Erstellen und bearbeiten Sie Rabatte Administrationsbereich unter :menuselection
 
 |result|
 
-In der Liste der Rabatte symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Rabatt.
+In der Liste der Rabatte symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen immer aktiven Rabatt.
+
+ .. note::
+
+    :emphasis:`Zeitgesteuerte` Rabatte sind :emphasis:`nicht` markiert.
+
+    .. todo: #SB: Wird evtl. feature request: https://oxid-esales.atlassian.net/browse/OXDEV-8435?focusedCommentId=168679
 
 Deaktivieren von Rabatten
 -------------------------
 
-Um einen Rabatt zu deaktivieren, entfernen Sie das Häkchen bei :guilabel:`Immer aktiv` und achten Sie darauf, dass kein Zeitraum eingetragen ist. Ein Eintrag würde den Rabatt ansonsten für den angegebenen Zeitraum aktivieren.
+Um einen Rabatt zu deaktivieren, tun Sie Folgendes:
+
+* Entfernen Sie das Häkchen bei :guilabel:`Immer aktiv`.
+* Stellen Sie sicher, dass kein Zeitraum eingetragen ist. Ein Eintrag würde den Rabatt ansonsten für den angegebenen Zeitraum aktivieren.
 
 
 .. Intern: oxbahh, Status:
