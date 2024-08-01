@@ -6,14 +6,10 @@ Für die Neu-Installation des OXID eShop 7.1 sind einige Vorbereitungen notwendi
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
-|schritt| Composer 2.2.23 installieren
+|schritt| Composer
 --------------------------------------
 
-Mit Version 6 basiert die Installation des OXID eShop nicht mehr auf gepackten und herunterladbaren Installationspaketen, sondern wird mit Hilfe von Composer ausgeführt. Composer ist ein Dependency Manager für PHP, ein Tool, welches Abhängigkeiten von Programmbestandteilen eines Projektes berücksichtigt, während es die Dateien dieses Projekts in ein definiertes Verzeichnis installiert.
-
-Für die Neu-Installation des OXID eShop brauchen Sie Composer. Siehe unter :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Server- und Systemvoraussetzungen` Abschnitt :ref:`installation/neu-installation/server-und-systemvoraussetzungen:Composer`.
-
-Eine Anleitung zur Installation finden Sie im Abschnitt "Getting Started" der Composer-Seiten unter: http://getcomposer.org.
+Für den :doc:`Betrieb des OXID eShop </installation/neu-installation/server-und-systemvoraussetzungen>` benötigen Sie das Dependency Management Tool `Composer <https://getcomposer.org/>`_.
 
 |schritt| Shop-Dateien bereitstellen
 ------------------------------------
