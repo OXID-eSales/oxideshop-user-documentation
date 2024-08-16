@@ -45,8 +45,8 @@ Anzeigen von Rabatten
 
 .. todo: #SB: OXDEV-tbd Wie geht das Folgende: Siehe unten, ich kriegs nicht hin.
 .. todo: #SB: OXDEV-tbd: Wenn es geht, was sind typische USe Cases? : k.A., evtl. techn. Gründe, zu klären
-.. todo: #SB: OXDEV-?Das Folgende funktioniert nicht richtig: Rabatte Einkaufswert und oder Menge = 0 OX5: kein Rabatt im Shop, OK: Einkaufswert in Warenkorb von 1 Achskörper Roadurance
-
+.. todo: #SB: OXDEV-tbd Das Folgende funktioniert nicht richtig: Rabatte Einkaufswert und oder Menge = 0 OX5: kein Rabatt im Shop, OK: Einkaufswert in Warenkorb von 1 Achskörper Roadurance
+.. todo: Info: Gemäß OXDEV-8191 haben wir bei Rabatttyp = itm festgelegt, dass die Mindestmenge 1 sein muss
    .. todo: alter Text:
     * Steht in beiden Feldern 0, werden alle Artikel, für die dieser Rabatt gilt, im Shop direkt mit dem rabattierten Preis angezeigt.
     * Beginnt die Einkaufsmenge und/oder der Einkaufswert mit 1, wird der Rabatt erst im Warenkorb ausgewiesen.
