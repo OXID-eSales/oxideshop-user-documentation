@@ -10,6 +10,7 @@ Defining the free product in the discount management section
 * Go to :menuselection:`Shop Settings --> Discounts`.
 * Select a discount from the list of discounts or create a new one.
 * If the discount is new, enter a descriptive name and select :guilabel:`itm` from the :guilabel:`Discount` drop-down list.
+* In the :guilabel:`Quantity` field, make sure that the purchase quantity is at least 1.
 * Click on :guilabel:`Choose product` in the :guilabel:`Main` tab.
 * Drag and drop the desired product into the right-hand list of the assignment window.
 * Close the assignment window.
