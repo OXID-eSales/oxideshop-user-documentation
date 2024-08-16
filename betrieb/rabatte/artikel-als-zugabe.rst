@@ -10,6 +10,7 @@ Der Gratisartikel wird in der Rabattverwaltung festgelegt.
 * Gehen Sie zu :menuselection:`Shopeinstellungen --> Rabatte`.
 * Wählen Sie einen Rabatt aus der Liste der Rabatte oder legen Sie einen neuen an.
 * Bei einem neuen Rabatt vergeben Sie einen aussagekräftigen Namen und wählen Sie :guilabel:`itm` aus der Dropdown-Liste :guilabel:`Rabatt` aus.
+* Stellen Sie sicher, dass die Einkaufsmenge mindestens 1 ist.
 * Betätigen Sie die Schaltfläche :guilabel:`Artikel auswählen` auf der Registerkarte :guilabel:`Stamm`.
 * Verschieben Sie den gewünschten Artikel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
 * Schließen Sie das Zuordnungsfenster.
