@@ -1,15 +1,20 @@
 ﻿Attribute
 =========
 
-Artikel haben standardmäßig eine Reihe von Eigenschaften, mit denen sie charakterisiert werden können. Dazu gehören beispielsweise die Standard-Attribute Gewicht, Abmessungen oder Menge.
+Artikel haben standardmäßig eine Reihe von Eigenschaften, mit denen sie charakterisiert werden können. Dazu gehören beispielsweise die Standardattribute Gewicht, Abmessungen oder Menge.
 
 Mit benutzerdefinierten Attributen können Sie als Shopbetreiber eigene Artikeleigenschaften definieren und diese dem jeweiligen Artikel mit einem entsprechenden Wert zuweisen.
 
+Mit Attributen haben Sie folgende Möglichkeiten:
+
+* Zeigen Sie Informationen übersichtlich an.
+* Geben Sie den Kunden die Möglichkeit, Produkte zu filtern.
+* Zeigen Sie ähnliche Produkte an.
+
 Attribute anzeigen
 ------------------
-.. todo: Folgendes geht zur Zeit nicht im APEX-Theme: OXDEV-8565
 
-Zeigen Sie Attribute auf der Detailseite oder im Bestellprozess an.
+Zeigen Sie Attribute auf der Detailseite oder im Bestellprozess zusätzlich zur Beschreibung an.
 
 |procedure|
 
@@ -19,26 +24,60 @@ Zeigen Sie Attribute auf der Detailseite oder im Bestellprozess an.
   a. Wählen Sie unter :menuselection:`Artikel verwalten --> Attribute` das Attribut.
   #. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Wert des Attributs für Artikel im Bestellprozess anzeigen` markiert ist.
 
+|result|
 
-Filtern mit Attribut-Werten ermöglichen
----------------------------------------
-.. todo: Folgendes geht zur Zeit nicht im APEX-Theme: OXDEV-8571; klären: kann ich mehrere Filter anlegen?
+Die Attribute erscheinen unter :guilabel:`Spezifikation` (:ref:`oxbaff02`).
 
-Um das Filtern von Produkten zu ermöglichen, blenden Sie in der Kategorieübersicht des Shops eine Dropdown-Liste aller Werte des Attributes ein.
+.. _oxbaff01:
+
+.. figure:: ../../media/screenshots/oxbaff01.png
+   :alt: Attribute auf der Detailseite anzeigen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Attribute auf der Detailseite anzeigen
+
+Filtern mit Attributwerten ermöglichen
+--------------------------------------
+
+Um das Filtern von Produkten zu ermöglichen, blenden Sie in der Kategorie-Übersicht des Shops eine Dropdown-Liste aller Werte des Attributes ein (:ref:`oxbaff02`).
+
+.. todo: #SB: OXDEV-8601: Filter werden nur zufällig angezeigt. Gibt es eine nicht-dokumentierte Einstellung, die fehlt?
 
 |procedure|
 
 1. Wählen Sie unter :menuselection:`Artikel verwalten --> Attribute` das Attribut.
 #. Wählen Sie auf der Registerkarte :guilabel:`Kategorien` die Schaltfläche :guilabel:`Kategorien zuordnen`.
+#. Tun Sie unter :menuselection:`Artikel verwalten --> Artikel` für jeden Artikel der Kategorie Folgendes:
+
+   a. Wählen Sie auf der Registerkarte :guilabel:`Auswahl` die Schaltfläche :guilabel:`Attribute zuordnen`.
+   #. Wählen Sie das Attribut.
+
+      Ein Eingabefeld für den Wert erscheint.
+
+   #. Geben Sie den Wert ein und speichern Sie Ihre Eingabe.
+
+|result|
+
+In der Kategorieübersicht finden Ihre Kunden den entsprechenden Filter (:ref:`oxbaff02`).
+
+.. _oxbaff02:
+
+.. figure:: ../../media/screenshots/oxbaff02.png
+   :alt: Filter mit AttributwWerten anzeigen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Filter mit Attributwerten anzeigen
 
 Ähnliche Produkte anzeigen
 --------------------------
 
-Nutzen Sie Attribute, um ähnliche Artikel zu erkennen und auf der Detailseite zu präsentieren (:ref:`oxbaff01`).
+Nutzen Sie Attribute, um ähnliche Artikel zu erkennen und auf der Detailseite zu präsentieren (:ref:`oxbaff03`).
 
-.. _oxbaff01:
+.. _oxbaff03:
 
-.. figure:: ../../media/screenshots/oxbaff01.png
+.. figure:: ../../media/screenshots/oxbaff03.png
    :alt: Ähnliche Produkte anzeigen
    :width: 300
    :class: with-shadow
@@ -65,9 +104,9 @@ Nutzen Sie Attribute, um ähnliche Artikel zu erkennen und auf der Detailseite z
       Die größte Ähnlichkeit haben Produkte, die ein spezifisches Merkmal teilen, beispielsweise bei Fahrzeugen die Beschleunigung.
 
       .. note::
-         Die spezifischen :emphasis:`Werte`, die Sie den Attributen pro Produkt zuordnen, beeinflussen :emphasis:`nicht` die Ähnlichkeit.
+         Die spezifischen :emphasis:`Werte`, die Sie den Attributen für jedes Produkt zuordnen, beeinflussen :emphasis:`nicht` die Ähnlichkeit.
 
-         Beispiel: Ihre Produkte haben nur das Attribut :technicalname:`Gewicht` gemeinsam. Fahrzeuge wiegen zwischen 1600 kg und 2500 kg, Regenschirme zwischen 1 kg und 1,5 kg. Ein Fahrzeug mit 2000 kg ist einem Regenschirm mit 1 kg genau so ähnlich wie einem anderen Fahrzeug.
+         Beispiel: Ihre Produkte haben nur das Attribut :technicalname:`Gewicht` gemeinsam. Fahrzeuge wiegen zwischen 1600 kg und 2500 kg, Regenschirme zwischen 1 kg und 1,5 kg. Ein Fahrzeug mit 2000 kg ist einem Regenschirm mit 1 kg genauso ähnlich wie einem anderen Fahrzeug.
 
    #. Ordnen Sie den benutzerdefinierten Attributen jeweils die betreffenden Produkte zu.
 
@@ -89,20 +128,32 @@ Nutzen Sie Attribute, um ähnliche Artikel zu erkennen und auf der Detailseite z
      #. Ordnen Sie dem Artikel das Attribut zu.
      #. Klicken Sie auf den Namen des Attributs.
 
-        Ein Eingabefeld für das Eingeben des Attribut-Werts erscheint (:ref:`oxbaff02`, Pos. 3).
+        Ein Eingabefeld für das Eingeben des Attributwerts erscheint (:ref:`oxbaff04`, Pos. 3).
 
      #. Geben Sie den Wert ein und speichern Sie Ihre Eingabe.
 
 
-     .. _oxbaff02:
+     .. _oxbaff04:
 
-     .. figure:: ../../media/screenshots/oxbaff02.png
+     .. figure:: ../../media/screenshots/oxbaff04.png
         :alt: Benutzerdefiniertes Attribut zuweisen und Wert festlegen
         :width: 650
         :class: with-shadow
 
         Abb.: Benutzerdefiniertes Attribut zuweisen und Wert festlegen
 
+|result|
+
+Auf der Detailseite wird der Bereich ähnliche Produkte angezeigt (:ref:`oxbaff03a`).
+
+.. _oxbaff03a:
+
+.. figure:: ../../media/screenshots/oxbaff03.png
+   :alt: Ähnliche Produkte anzeigen
+   :width: 300
+   :class: with-shadow
+
+   Abb.: Ähnliche Produkte anzeigen
 
 -----------------------------------------------------------------------------------------
 
