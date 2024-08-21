@@ -1,26 +1,159 @@
 ﻿Attribute
 =========
 
-Artikel verfügen standardmäßig über eine Reihe von Eigenschaften, mit denen sie charakterisiert werden können. Dazu gehören beispielsweise das Gewicht, die Abmessungen oder die Menge. Mit den Attributen haben Shopbetreiber eine flexible Lösung, um eigene Artikeleigenschaften zu definieren und diese dem jeweiligen Artikel mit einem entsprechenden Wert zuzuweisen.
+Artikel haben standardmäßig eine Reihe von Eigenschaften, mit denen sie charakterisiert werden können. Dazu gehören beispielsweise die Standardattribute Gewicht, Abmessungen oder Menge.
 
-In der Detailansicht des Artikels wird dadurch eine neue Registerkarte :guilabel:`SPEZIFIKATION` mit den Attributen und deren Werten eingeblendet. Zusätzlich kann der Wert des Attributes beim Artikel im Warenkorb und beim Bestellabschluss angezeigt werden.
+Mit benutzerdefinierten Attributen können Sie als Shopbetreiber eigene Artikeleigenschaften definieren und diese dem jeweiligen Artikel mit einem entsprechenden Wert zuweisen.
 
-Werden Attribute zu Kategorien zugeordnet, lassen sich die Kategorien nach diesen Attributen filtern. In der Kategorieübersicht des Shops können in einer Dropdown-Liste alle Werte des Attributes ausgewählt werden.
+Mit Attributen haben Sie folgende Möglichkeiten:
 
-Attribute dienen auch dazu, ähnliche Artikel zu erkennen und auf der Detailseite zu offerieren. Die Anzahl ähnlicher Artikel, die bei einem Artikel angezeigt werden, kann im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` definiert werden. Achten Sie bitte darauf, dass das Kontrollkästchen bei :guilabel:`Ähnliche Artikel laden` auf der Registerkarte :guilabel:`Perform.` gesetzt ist.
+* Zeigen Sie Informationen übersichtlich an.
+* Geben Sie den Kunden die Möglichkeit, Produkte zu filtern.
+* Zeigen Sie ähnliche Produkte an.
 
-.. image:: ../../media/screenshots/oxbaff01.png
-   :alt: Attribute
-   :height: 530
+Attribute anzeigen
+------------------
+
+Zeigen Sie Attribute auf der Detailseite oder im Bestellprozess zusätzlich zur Beschreibung an.
+
+|procedure|
+
+* Um Attribute in der Detailansicht des Produkts unter :guilabel:`Spezifikation` einzublenden, stellen Sie sicher, dass den Attributen Werte zugewiesen sind.
+* Um Attribute beim Artikel im Warenkorb und beim Bestellabschluss anzuzeigen, tun Sie Folgendes:
+
+  a. Wählen Sie unter :menuselection:`Artikel verwalten --> Attribute` das Attribut.
+  #. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Wert des Attributs für Artikel im Bestellprozess anzeigen` markiert ist.
+
+|result|
+
+Die Attribute erscheinen unter :guilabel:`Spezifikation` (:ref:`oxbaff01`, Pos. 1).
+
+.. _oxbaff01:
+
+.. figure:: ../../media/screenshots/oxbaff01.png
+   :alt: Attribute auf der Detailseite anzeigen
    :width: 650
+   :class: with-shadow
 
-Attribute können im Administrationsbereich unter :menuselection:`Artikel verwalten --> Attribute` bearbeitet werden. Es werden eine Liste der Attribute und darunter der Eingabebereich für die Attribute angezeigt.
+   Abb.: Attribute auf der Detailseite anzeigen
 
-Die Attributliste zeigt alle verfügbaren Attribute in alphabetischer Reihenfolge. Nach Attributen kann gesucht werden, indem das Suchfeld für dessen Namen und das Lupensymbol verwendet wird. Geben Sie beispielsweise in das Suchfeld ein \"z\" ein, werden Ihnen die Attribute \"Anzeige\" und \"Einsatzbereich\" angezeigt.
+Filtern mit Attributwerten ermöglichen
+--------------------------------------
 
-Attribute lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
+Um das Filtern von Produkten zu ermöglichen, blenden Sie in der Kategorie-Übersicht des Shops eine Dropdown-Liste aller Werte des Attributes ein (:ref:`oxbaff02`, Pos. 1).
 
-Wird ein Attribut aus der Attributliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Attributes klicken Sie am unteren Bildschirmrand auf :guilabel:`Neues Attribut anlegen`.
+.. todo: #SB: OXDEV-8601: Filter werden nur zufällig angezeigt. Gibt es eine nicht-dokumentierte Einstellung, die fehlt?
+
+|procedure|
+
+1. Wählen Sie unter :menuselection:`Artikel verwalten --> Attribute` das Attribut.
+#. Wählen Sie auf der Registerkarte :guilabel:`Kategorien` die Schaltfläche :guilabel:`Kategorien zuordnen` und ordnen Sie die Produkt-Kategorie zu.
+#. Tun Sie unter :menuselection:`Artikel verwalten --> Artikel` für jeden Artikel der Kategorie Folgendes:
+
+   a. Wählen Sie auf der Registerkarte :guilabel:`Auswahl` die Schaltfläche :guilabel:`Attribute zuordnen`.
+   #. Wählen Sie das Attribut.
+
+      Ein Eingabefeld für den Wert erscheint (:ref:`oxbaff04`, Pos. 3).
+
+   #. Geben Sie den Wert ein und speichern Sie Ihre Eingabe.
+
+|result|
+
+In der Kategorieübersicht finden Ihre Kunden den entsprechenden Filter (:ref:`oxbaff02`, Pos. 1).
+
+.. _oxbaff02:
+
+.. figure:: ../../media/screenshots/oxbaff02.png
+   :alt: Filter mit AttributwWerten anzeigen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Filter mit Attributwerten anzeigen
+
+Ähnliche Produkte anzeigen
+--------------------------
+
+Nutzen Sie Attribute, um ähnliche Artikel zu erkennen und auf der Detailseite zu präsentieren (:ref:`oxbaff03`).
+
+.. _oxbaff03:
+
+.. figure:: ../../media/screenshots/oxbaff03.png
+   :alt: Ähnliche Produkte anzeigen
+   :width: 300
+   :class: with-shadow
+
+   Abb.: Ähnliche Produkte anzeigen
+
+|procedure|
+
+1. Legen Sie die Anzahl ähnlicher Artikel fest, die bei einem Artikel angezeigt werden.
+
+   Legen Sie dazu den gewünschten Wert im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` im Eingabefeld :guilabel:`Anzahl ähnlicher Artikel, die bei einem Artikel angezeigt werden` fest.
+
+#. Stellen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` auf der Registerkarte :guilabel:`Perform.` sicher, dass das Kontrollkästchen :guilabel:`Ähnliche Artikel laden` markiert ist.
+#. Tun Sie unter :menuselection:`Artikel verwalten --> Attribute` Folgendes:
+
+   a. Legen Sie benutzerdefinierte Attribute an, um möglichst viele charakteristische Merkmale Ihrer Produkte abzubilden.
+
+      Hintergrund: Je größer die Schnittmenge gemeinsamer Attribute, desto "ähnlicher" sind die Produkte.
+
+      Beispiel: Koffer und Fahrzeuge werden als ähnliche Produkte angezeigt, wenn sie lediglich das Attribut :technicalname:`Gewicht` gemeinsam haben.
+
+      Damit bei einem Fahrzeug nur andere :emphasis:`Fahrzeuge` als ähnliche Produkte erscheinen, müssen Sie weitere Attribute zuordnen.
+
+      Die größte Ähnlichkeit haben Produkte, die ein spezifisches Merkmal teilen, beispielsweise bei Fahrzeugen die Beschleunigung.
+
+      .. note::
+         Die spezifischen :emphasis:`Werte`, die Sie den Attributen für jedes Produkt zuordnen, beeinflussen :emphasis:`nicht` die Ähnlichkeit.
+
+         Beispiel: Ihre Produkte haben nur das Attribut :technicalname:`Gewicht` gemeinsam. Fahrzeuge wiegen zwischen 1600 kg und 2500 kg, Regenschirme zwischen 1 kg und 1,5 kg. Ein Fahrzeug mit 2000 kg ist einem Regenschirm mit 1 kg genauso ähnlich wie einem anderen Fahrzeug.
+
+   #. Ordnen Sie den benutzerdefinierten Attributen jeweils die betreffenden Produkte zu.
+
+      Wählen Sie dazu das Attribut und wählen Sie :guilabel:`Produkte zuordnen`.
+
+#. Ordnen Sie den betreffenden Produkten möglichst viele charakterisierende Merkmale (Attribute) zu.
+
+   Um einem Produkt ein Standard-Attribut zuzuordnen, tun Sie Folgendes:
+
+   a. Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt.
+   #. Wählen Sie :guilabel:`Erweitert`.
+   #. Legen Sie Gewicht, Maße oder Menge fest.
+
+   Um ein benutzerdefiniertes Attribut zuzuweisen, tun Sie Folgendes:
+
+   a. Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt.
+   #. Wählen Sie :guilabel:`Auswahl` (:ref:`oxbaff04`, Pos. 1).
+   #. Wählen Sie :guilabel:`Attribute zuordnen` (:ref:`oxbaff04`, Pos. 2).
+   #. Ordnen Sie dem Artikel das Attribut zu.
+   #. Klicken Sie auf den Namen des Attributs.
+
+      Ein Eingabefeld für das Eingeben des Attributwerts erscheint (:ref:`oxbaff04`, Pos. 3).
+
+   #. Geben Sie den Wert ein und speichern Sie Ihre Eingabe.
+
+
+   .. _oxbaff04:
+
+   .. figure:: ../../media/screenshots/oxbaff04.png
+      :alt: Benutzerdefiniertes Attribut zuweisen und Wert festlegen
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Benutzerdefiniertes Attribut zuweisen und Wert festlegen
+
+|result|
+
+Auf der Detailseite wird der Bereich ähnliche Produkte angezeigt (:ref:`oxbaff03a`).
+
+.. _oxbaff03a:
+
+.. figure:: ../../media/screenshots/oxbaff03.png
+   :alt: Ähnliche Produkte anzeigen
+   :width: 300
+   :class: with-shadow
+
+   Abb.: Ähnliche Produkte anzeigen
 
 -----------------------------------------------------------------------------------------
 
