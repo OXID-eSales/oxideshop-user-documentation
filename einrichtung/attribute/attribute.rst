@@ -26,7 +26,7 @@ Zeigen Sie Attribute auf der Detailseite oder im Bestellprozess zusätzlich zur 
 
 |result|
 
-Die Attribute erscheinen unter :guilabel:`Spezifikation` (:ref:`oxbaff02`).
+Die Attribute erscheinen unter :guilabel:`Spezifikation` (:ref:`oxbaff01`, Pos. 1).
 
 .. _oxbaff01:
 
@@ -40,26 +40,26 @@ Die Attribute erscheinen unter :guilabel:`Spezifikation` (:ref:`oxbaff02`).
 Filtern mit Attributwerten ermöglichen
 --------------------------------------
 
-Um das Filtern von Produkten zu ermöglichen, blenden Sie in der Kategorie-Übersicht des Shops eine Dropdown-Liste aller Werte des Attributes ein (:ref:`oxbaff02`).
+Um das Filtern von Produkten zu ermöglichen, blenden Sie in der Kategorie-Übersicht des Shops eine Dropdown-Liste aller Werte des Attributes ein (:ref:`oxbaff02`, Pos. 1).
 
 .. todo: #SB: OXDEV-8601: Filter werden nur zufällig angezeigt. Gibt es eine nicht-dokumentierte Einstellung, die fehlt?
 
 |procedure|
 
 1. Wählen Sie unter :menuselection:`Artikel verwalten --> Attribute` das Attribut.
-#. Wählen Sie auf der Registerkarte :guilabel:`Kategorien` die Schaltfläche :guilabel:`Kategorien zuordnen`.
+#. Wählen Sie auf der Registerkarte :guilabel:`Kategorien` die Schaltfläche :guilabel:`Kategorien zuordnen` und ordnen Sie die Produkt-Kategorie zu.
 #. Tun Sie unter :menuselection:`Artikel verwalten --> Artikel` für jeden Artikel der Kategorie Folgendes:
 
    a. Wählen Sie auf der Registerkarte :guilabel:`Auswahl` die Schaltfläche :guilabel:`Attribute zuordnen`.
    #. Wählen Sie das Attribut.
 
-      Ein Eingabefeld für den Wert erscheint.
+      Ein Eingabefeld für den Wert erscheint (:ref:`oxbaff04`, Pos. 3).
 
    #. Geben Sie den Wert ein und speichern Sie Ihre Eingabe.
 
 |result|
 
-In der Kategorieübersicht finden Ihre Kunden den entsprechenden Filter (:ref:`oxbaff02`).
+In der Kategorieübersicht finden Ihre Kunden den entsprechenden Filter (:ref:`oxbaff02`, Pos. 1).
 
 .. _oxbaff02:
 
@@ -88,7 +88,7 @@ Nutzen Sie Attribute, um ähnliche Artikel zu erkennen und auf der Detailseite z
 
 1. Legen Sie die Anzahl ähnlicher Artikel fest, die bei einem Artikel angezeigt werden.
 
-   Wählen Sie dazu im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` das Eingabefeld :guilabel:`Anzahl ähnlicher Artikel, die bei einem Artikel angezeigt werden`.
+   Legen Sie dazu den gewünschten Wert im Administrationsbereich unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` im Eingabefeld :guilabel:`Anzahl ähnlicher Artikel, die bei einem Artikel angezeigt werden` fest.
 
 #. Stellen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Artikel` auf der Registerkarte :guilabel:`Perform.` sicher, dass das Kontrollkästchen :guilabel:`Ähnliche Artikel laden` markiert ist.
 #. Tun Sie unter :menuselection:`Artikel verwalten --> Attribute` Folgendes:
@@ -114,33 +114,33 @@ Nutzen Sie Attribute, um ähnliche Artikel zu erkennen und auf der Detailseite z
 
 #. Ordnen Sie den betreffenden Produkten möglichst viele charakterisierende Merkmale (Attribute) zu.
 
-   * Um einem Produkt ein Standard-Attribut zuzuordnen, tun Sie Folgendes:
+   Um einem Produkt ein Standard-Attribut zuzuordnen, tun Sie Folgendes:
 
-     a. Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt.
-     #. Wählen Sie :guilabel:`Erweitert`.
-     #. Legen Sie Gewicht, Maße oder Menge fest.
+   a. Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt.
+   #. Wählen Sie :guilabel:`Erweitert`.
+   #. Legen Sie Gewicht, Maße oder Menge fest.
 
-   * Um ein benutzerdefiniertes Attribut zuzuweisen, tun Sie Folgendes:
+   Um ein benutzerdefiniertes Attribut zuzuweisen, tun Sie Folgendes:
 
-     a. Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt.
-     #. Wählen Sie :guilabel:`Auswahl` (:ref:`oxbaff02`, Pos. 1).
-     #. Wählen Sie :guilabel:`Attribute zuordnen` (:ref:`oxbaff02`, Pos. 2).
-     #. Ordnen Sie dem Artikel das Attribut zu.
-     #. Klicken Sie auf den Namen des Attributs.
+   a. Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt.
+   #. Wählen Sie :guilabel:`Auswahl` (:ref:`oxbaff04`, Pos. 1).
+   #. Wählen Sie :guilabel:`Attribute zuordnen` (:ref:`oxbaff04`, Pos. 2).
+   #. Ordnen Sie dem Artikel das Attribut zu.
+   #. Klicken Sie auf den Namen des Attributs.
 
-        Ein Eingabefeld für das Eingeben des Attributwerts erscheint (:ref:`oxbaff04`, Pos. 3).
+      Ein Eingabefeld für das Eingeben des Attributwerts erscheint (:ref:`oxbaff04`, Pos. 3).
 
-     #. Geben Sie den Wert ein und speichern Sie Ihre Eingabe.
+   #. Geben Sie den Wert ein und speichern Sie Ihre Eingabe.
 
 
-     .. _oxbaff04:
+   .. _oxbaff04:
 
-     .. figure:: ../../media/screenshots/oxbaff04.png
-        :alt: Benutzerdefiniertes Attribut zuweisen und Wert festlegen
-        :width: 650
-        :class: with-shadow
+   .. figure:: ../../media/screenshots/oxbaff04.png
+      :alt: Benutzerdefiniertes Attribut zuweisen und Wert festlegen
+      :width: 650
+      :class: with-shadow
 
-        Abb.: Benutzerdefiniertes Attribut zuweisen und Wert festlegen
+      Abb.: Benutzerdefiniertes Attribut zuweisen und Wert festlegen
 
 |result|
 
