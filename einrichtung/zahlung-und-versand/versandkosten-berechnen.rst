@@ -21,7 +21,9 @@ Beispiel: Sie haben für alle Produkte und Lieferländer eine Versandkostenpausc
 
    Wenn das nicht möglich ist, bevor sich der Kunde im Checkout angemeldet und eine Versandart gewählt hat, dann vermeiden Sie es, die Funktion zu nutzen und die Versandkosten in der Warenkorbübersicht anzuzeigen.
 
-   Zeigen Sie stattdessen beispielsweise einen Link zu einer Seite mit einer Versandkostenübersicht an (:ref:`oxbaka03`, Pos. 1), damit sich der Kunde vorab informieren kann. Passen Sie dazu das Template an. Im Demo-Shop ab OXID eShop Version lenkt ein Link auf der Produkt-Detailseite auf die Seite :guilabel:`Zahlung und Lieferung`, die Sie unter :menuselection:`Kundeninformation --> CMS-Seiten --> Zahlung und Lieferung` (Seie :technicalname:`oxdeliveryinfo`) bearbeiten könnnen.
+   Zeigen Sie stattdessen beispielsweise einen Link zu einer Seite mit einer Versandkostenübersicht an (:ref:`oxbaka03`, Pos. 1), damit sich der Kunde vorab informieren kann. Passen Sie dazu das Template an.
+
+   Im Demo-Shop ab OXID eShop Version 7 lenkt der Link :guilabel:`Versandkosten` (:ref:`oxbaka03`, Pos. 1) auf der Produkt-Detailseite auf die Seite :guilabel:`Zahlung und Lieferung`. Diese Seite wiederum bearbeiten Sie unter :menuselection:`Kundeninformation --> CMS-Seiten`. Der Titel ist :technicalname:`Zahlung und Lieferung`, Ident ist :technicalname:`oxdeliveryinfo`).
 
    .. _oxbaka03:
 
