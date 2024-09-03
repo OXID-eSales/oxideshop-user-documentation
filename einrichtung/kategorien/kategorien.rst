@@ -54,7 +54,7 @@ Nur in der Enterprise Edition vorhanden |br|
 
 Registerkarte SEO
 -----------------
-**Inhalte**: Suchmaschinenoptimierung, SEO, URL fixieren, SEO URL, Seitentitel, Titel Suffix, Metadaten, Meta-Tags, meta name=\"description\", meta name=\"keywords\" |br| 
+**Inhalte**: Suchmaschinenoptimierung, SEO, URL fixieren, SEO URL, Seitentitel, Titel Suffix, Metadaten, Meta-Tags, META Keywords, META Description, meta name=\"description\", meta name=\"keywords\" |br|
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>`

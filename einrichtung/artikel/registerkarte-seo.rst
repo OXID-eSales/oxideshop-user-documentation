@@ -1,12 +1,16 @@
 ﻿Registerkarte SEO
 =================
 
-Die Registerkarte :guilabel:`SEO` des Artikels beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
+Pflegen Sie auf der Registerkarte :guilabel:`SEO` des Artikels Informationen und Einstellungen, die für Suchmaschinen relevant sind.
 
-.. image:: ../../media/screenshots/oxbacu01.png
+.. _oxbacu01:
+
+.. figure:: ../../media/screenshots/oxbacu01.png
    :alt: Artikel - Registerkarte SEO
-   :height: 342
    :width: 650
+   :class: with-shadow
+
+   Abb.: Artikel - Registerkarte SEO
 
 Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Informationen und Einstellungen auch in einer weiteren aktiven Sprache bearbeiten.
 
@@ -19,10 +23,10 @@ Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Inf
 :guilabel:`SEO URL`
    Die ausgewählte URL des Artikels wird angezeigt. Sie kann geändert und auch fixiert werden.
 
-:guilabel:`Stichworte für Meta-Tags`
+:guilabel:`META Keywords`
    Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta Keywords) eingebunden. Wenn Sie nichts eingeben, werden die Stichwörter automatisch, beispielsweise aus dem Titel des Artikels, den Kategorien und den Suchbegriffen erzeugt.
 
-:guilabel:`Beschreibungstext für Meta-Tags`
+:guilabel:`META Description`
    Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden. Dieser Text wird von vielen Suchmaschinen bei den Suchergebnissen angezeigt. Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Langtext des Artikels erzeugt.
 
 :guilabel:`In Sprache`

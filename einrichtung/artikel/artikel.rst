@@ -85,7 +85,7 @@ Nur in der Enterprise Edition vorhanden |br|
 
 Registerkarte SEO
 -----------------
-**Inhalte**: Suchmaschinenoptimierung, SEO, URL auswählen, URL fixieren, SEO URL, Meta-Tags, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\" |br|
+**Inhalte**: Suchmaschinenoptimierung, SEO, URL auswählen, URL fixieren, SEO URL, Meta-Tags, META Keywords, META Description, Stichwörter, meta name=\"keywords\", Beschreibung, meta name=\"description\" |br|
 :doc:`Artikel lesen <registerkarte-seo>` |link|
 
 .. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Artikel und Kategorien <../artikel-und-kategorien/artikel-und-kategorien>` | :doc:`Hersteller <../hersteller/hersteller>` | :doc:`Lieferanten <../lieferanten/lieferanten>`
