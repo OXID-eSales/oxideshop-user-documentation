@@ -54,7 +54,7 @@ Available only in Enterprise Edition |br|
 
 SEO tab
 -------
-**Contents**: search engine optimisation, SEO, fixing URL, SEO URL, page title, title suffix, meta data, meta tags, meta name=\"description\", meta name=\"keywords\" |br| 
+**Contents**: search engine optimisation, SEO, fixing URL, SEO URL, page title, title suffix, meta data, meta tags, META Keywords, META Description, meta name=\"description\", meta name=\"keywords\" |br|
 :doc:`Read article <seo-tab>` |link|
 
 .. seealso:: :doc:`Products <../products/products>` | :doc:`Products and categories <../products-and-categories/products-and-categories>`

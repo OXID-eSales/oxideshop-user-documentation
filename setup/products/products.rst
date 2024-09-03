@@ -86,7 +86,7 @@ Available only in Enterprise Edition |br|
 
 SEO tab
 -------
-**Contents**: search engine optimisation, SEO, selecting URL, fixed URL, SEO URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\" |br|
+**Contents**: search engine optimisation, SEO, selecting URL, fixed URL, SEO URL, meta tags, META Keywords, META Description, meta name=\"keywords\", description, meta name=\"description\" |br|
 :doc:`Read article <seo-tab>` |link|
 
 .. seealso:: :doc:`Attributes <../attributes/attributes>` | :doc:`Selection lists <../selection-lists/selection-lists>` | :doc:`Categories <../categories/categories>` | :doc:`Products and categories <../products-and-categories/products-and-categories>` | :doc:`Manufacturers <../manufacturers/manufacturers>` | :doc:`Distributors <../distributors/distributors>`
