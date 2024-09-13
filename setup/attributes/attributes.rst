@@ -40,33 +40,8 @@ The attributes appear under :guilabel:`Specification` (:ref:`oxbaff01`, item 1).
 Enabling filtering with attribute values
 ----------------------------------------
 
-To enable the filtering of products, display a drop-down list of all attribute values in the category overview of the store (:ref:`oxbaff02`, item 1).
+.. include:: /_static/reuse/filter-by-attributes.rst
 
-|procedure|
-
-1. Under :menuselection:`Administer Products --> Attributes`, choose the attribute.
-#. On the :guilabel:`Category` tab, choose the :guilabel:`Assign Categories` button and assign the product category.
-#. Under :menuselection:`Administer Products --> Products`, do the following for each product in the category:
-
-   a. On the :guilabel:`Selection` tab, choose the :guilabel:`Assign Attributes` button.
-   #. Choose the product's attribute.
-
-      An input field for the value appears (:ref:`oxbaff04`, item 3).
-
-   #. Enter the value and save your entry.
-
-|result|
-
-In the category overview, your customers will find the corresponding filter (:ref:`oxbaff02`, item 1).
-
-.. _oxbaff02:
-
-.. figure:: ../../media/screenshots/oxbaff02.png
-   :alt: Displaying filters with attribute values
-   :width: 650
-   :class: with-shadow
-
-   Fig.: Displaying filters with attribute values
 
 Displaying similar products
 ---------------------------
@@ -88,7 +63,7 @@ Use attributes to identify similar items and present them on the detail page (:r
 
    To do so, specify the value in the administration area under :menuselection:`Master Settings --> Core Settings --> Settings --> Products`, choose the :guilabel:`Number of similar Products which are shown with a Product`.
 
-#. Under :menuselection:`Master Settings --> Core Settings --> Settings --> Products`, on the :guilabel:`Perform.` tab, make sure that the :guilabel:`Load similar Products` checkbox is activated.
+#. Under :menuselection:`Master Settings --> Core Settings`, on the :guilabel:`Perform.` tab, make sure that the :guilabel:`Load similar Products` checkbox is activated.
 #. Under :menuselection:`Administer Products --> Attributes`, do the following:
 
    a. Create user-defined attributes to map as many characteristic features of your products as possible.
