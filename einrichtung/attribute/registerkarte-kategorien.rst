@@ -40,6 +40,9 @@ Verwenden Sie dafür die kleinen Schaltflächen mit den Pfeilsymbolen, um ein ma
 
 Mit der Sortierung kann beeinflusst werden, in welcher Reihenfolge die auf den Attributen und ihren Werten basierenden Filter in der Kategorieübersicht angeordnet sind. Die im Zuordnungsfenster festgelegte Reihenfolge der Attribute überschreibt die Sortierung, die Sie bei den Attributen definiert haben.
 
-.. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`
+.. seealso::
+
+   * :doc:`Kategorien <../kategorien/kategorien>`
+   * :doc:`Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`
 
 .. Intern: oxbafh, Status:, F1: attribute_category.html

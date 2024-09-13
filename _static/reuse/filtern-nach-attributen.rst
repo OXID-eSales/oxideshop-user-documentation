@@ -2,7 +2,7 @@ Um das Filtern von Produkten zu ermöglichen, blenden Sie in der Kategorie-Über
 
 |procedure|
 
-1. Überlegen Sie sich die Reihenfolge der anzuwendenden Filter.
+1. Wenn Sie mehrere Filter verwenden wollen, überlegen Sie sich die Reihenfolge der anzuwendenden Filter.
 
    Die richtige Reihenfolge der Filter ist entscheidend, da sie die Produktauswahl Schritt für Schritt eingrenzt und so den Auswahlprozess optimiert.
 

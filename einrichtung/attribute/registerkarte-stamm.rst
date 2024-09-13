@@ -42,9 +42,9 @@ Erstellen oder bearbeiten Sie auf der Registerkarte :guilabel:`Stamm` das Attrib
 
    Beim Artikel müssen Sie für das zugewiesene Attribut noch einen Wert setzen.
 
-Weitere Informationen finden Sie unter
+.. seealso::
 
-* :ref:`einrichtung/attribute/attribute:Filtern mit Attributwerten ermöglichen`
-* :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
+   * :ref:`einrichtung/attribute/attribute:Filtern mit Attributwerten ermöglichen`
+   * :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
 
 .. Intern: oxbafg, Status:, F1: attribute_main.html
