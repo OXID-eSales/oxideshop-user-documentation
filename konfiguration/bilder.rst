@@ -146,19 +146,17 @@ Die Einstellungen sind daher beim aktiven Theme hinterlegt.
 Zoom wählen
 -----------
 
-.. todo: #HR: Müsen wir als technische Voraussetzung erwähnen, dass es nur mit dem APEX Theme geht?
+Beeinflussen Sie je nach Anwendung und Produkt die Kaufbereitschaft positiv, indem Sie beim APEX-Theme mit einer von drei Arten, Bilder zu vergrößern, unterschiedliche psychologische Bedürfnisse der Kunden ansprechen.
 
-Beeinflussen Sie je nach Anwendung und Produkt die Kaufbereitschaft positiv, indem sie mit einem von drei Arten, Bilder zu vergrößern, unterschiedliche psychologische Bedürfnisse der Kunden ansprechen.
-
-* Hover Zoom: Diese Funktion bietet eine interaktive Möglichkeit, Produktbilder im Detail zu betrachten.
+* Hover-Zoom: Diese Funktion bietet eine interaktive Möglichkeit, Produktbilder im Detail zu betrachten.
 
   Wenn der Mauszeiger über das Bild fährt, wird es vergrößert, und die Vergrößerung folgt der Mausbewegung.
 
-  Der Hover Zoom bietet sich an für Shops mit einer breiten Produktpalette, in denen Kunden häufig zwischen verschiedenen Produkten wechseln. Die interaktive Natur des Hover Zooms kann das Nutzererlebnis verbessern und die Verweildauer erhöhen.
+  Der Hover-Zoom bietet sich an für Shops mit einer breiten Produktpalette, in denen Kunden häufig zwischen verschiedenen Produkten wechseln. Die interaktive Natur des Hover-Zooms kann das Nutzererlebnis verbessern und die Verweildauer erhöhen.
 
-  Der Hover Zoom fördert Neugier und Engagement, was zu schnelleren, emotional getriebenen Kaufentscheidungen führen kann.
+  Der Hover-Zoom fördert Neugier und Engagement, was zu schnelleren, emotional getriebenen Kaufentscheidungen führen kann.
 
-* Modal-Zoom: Bei einem Klick auf das Produktbild wird dieses in einem größeren Modal-Fenster geöffnet, in dem weitere Details sichtbar werden.
+* Modal-Zoom: Beim Klick auf das Produktbild wird dieses in einem größeren Modal-Fenster geöffnet, in dem weitere Details sichtbar werden.
 
   Zusätzlich kann der Nutzer innerhalb des Modals nochmals in das Bild hineinzoomen, um besonders feine Details zu erkennen.
 
@@ -172,7 +170,7 @@ Beeinflussen Sie je nach Anwendung und Produkt die Kaufbereitschaft positiv, ind
 
   Dies ermöglicht eine präzise Betrachtung spezifischer Produktdetails, ohne das gesamte Bild zu vergrößern.
 
-  Der Lupen-Zoom betont Präzision und Qualität, was besonders bei Kunden ankommt, die auf Details und Spezifikationen achten, und kann so das Vertrauen in spezifische Produkteigenschaften stärken.
+  Der Lupen-Zoom betont Präzision und Qualität, was besonders bei Kunden gut ankommt, die auf Details und Spezifikationen achten, und kann so das Vertrauen in spezifische Produkteigenschaften stärken.
 
   .. _oxbaaz01:
 
@@ -192,16 +190,16 @@ Wählen Sie die Art des Zooms global für Ihren eShop.
 
 |procedure|
 
-1. Wählen Sie unter :menuselection:`Erweiterungen --> Themes` das APEX Theme.
+1. Wählen Sie unter :menuselection:`Erweiterungen --> Themes` das APEX-Theme.
 #. Expandieren Sie auf der Registerkarte :guilabel:`Einstell.` den Bereich :guilabel:`Produktdetailseite`.
 #. Wählen Sie unter :guilabel:`Zoom type for product detail page` die gewünschte Art des Zooms.
 #. Speichern Sie Ihre Einstellungen.
 
 
-Zoom für individuelle Produkte oder Kategorien festlegen
+Zoom für individuelle Produkte festlegen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Erstellen Sie bei Bedarf alternative Templates, um einzelnen Produkten oder Produkt-Kategorien eine individuelle Zoom-Option zuzuweisen.
+Weisen Sie Sie bei Bedarf einzelnen Produkten eine individuelle Zoom-Option zu.
 
 Zusätzlich zur Einstellung einer Standard-Bild-Zoom-Option in den Theme-Einstellungen können Sie damit die drei Zoom-Optionen individuell für jedes Produkt anwenden.
 
@@ -209,25 +207,8 @@ Damit haben Sie eine größere Flexibilität für verschiedene Produkte.
 
 |procedure|
 
-1. Erstellen Sie Sie ein alternatives Template für das Produkt und speichern Sie es im Root-Verzeichnis Ihres OXID eShops.
-
-   Verwenden Sie die folgenden Pfade:
-
-   * Hover-Zoom: ``custom/hover_zoom.html.twig``
-   * Modal-Zoom: ``custom/modal_zoom.html.twig``
-   * Lupen-Zoom: ``custom/magnifier_lens.html.twig``
-
-   .. todo: #TK/#HR: Where do we describe how to create such a template?
-      Weitere Informationen finden Sie in der Oxid eShop Entwickler-Dokumentation unter
-      * Using Twig in module templates — OXID eShop developer documentation 7.1 documentation (oxid-esales.com)
-      * Extend twig compatible theme with a child theme — OXID eShop developer documentation 7.1 documentation (oxid-esales.com)
-
-#. Sie haben folgende Möglichkeiten:
-
-   * Artikel-Ebene: Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt und wählen Sie die Registerkarte :guilabel:`Einstell.`.
-   * Kategorie-Ebene: Wählen Sie :menuselection:`Artikel verwalten --> Kategorien`.
-
-#. Geben Sie im Eingabefeld :guilabel:`Alternatives Template` (:ref:`oxbaaz02`, Pos. 1) den Pfad an, in dem Sie Ihr Template gespeichert haben:
+1. Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt und wählen Sie die Registerkarte :guilabel:`Einstell.`.
+#. Legen Sie den gewünschten Zoom fest, indem Sie im Eingabefeld :guilabel:`Alternatives Template` (:ref:`oxbaaz02`, Pos. 1) den Pfad des entsprechenden Templates eingeben.
 
    * Hover-Zoom: ``custom/hover_zoom.html.twig``
    * Modal-Zoom: ``custom/modal_zoom.html.twig``
@@ -236,15 +217,16 @@ Damit haben Sie eine größere Flexibilität für verschiedene Produkte.
    .. _oxbaaz02:
 
    .. figure:: ../media/screenshots/oxbaaz02.png
-      :alt: Beispiel: Alternatives Template für eine Produkt-Kategorie festlegen
+      :alt: Alternatives Template für ein Produkt festlegen
       :width: 650
       :class: with-shadow
 
-      Abb.: Beispiel: Alternatives Template für eine Produkt-Kategorie festlegen
+      Abb.: Alternatives Template für ein Produkt festlegen
 
 #. Speichern Sie Ihre Einstellungen.
+#. Optional: Um die Einheitlichkeit der Darstellung zu gewährleisten, wiederholen Sie die Schritte für alle Produkte einer Kategorie.
 
-
+   Hintergrund: Es ist nicht möglich, die Zoom-Templates auf Kategorieebene anzuwenden.
 
 
 

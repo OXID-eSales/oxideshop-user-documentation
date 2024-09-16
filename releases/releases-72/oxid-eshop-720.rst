@@ -17,24 +17,22 @@ Verbessern Sie mit drei neuen Zoom-Optionen das Einkaufserlebnis für Ihre Kunde
 
   Wenn der Mauszeiger über das Bild fährt, wird es vergrößert, und die Vergrößerung folgt der Mausbewegung.
 
-  Dies erlaubt den Nutzern, verschiedene Bildbereiche genau zu untersuchen und erhöht die Interaktivität und das Engagement.
+  Dies erlaubt es den Nutzern, verschiedene Bildbereiche genau zu untersuchen und erhöht die Interaktivität und das Engagement.
 
-* Modal-Zoom: Bei einem Klick auf das Produktbild wird dieses in einem größeren Modal-Fenster geöffnet, in dem weitere Details sichtbar werden.
+* Modal-Zoom: Beim Klick auf das Produktbild wird dieses in einem größeren Modal-Fenster geöffnet, in dem weitere Details sichtbar werden.
 
-  Zusätzlich kann der Nutzer innerhalb des Modals nochmals in das Bild hineinzoomen, um besonders feine Details zu erkennen.
+  Zusätzlich kann der Nutzer innerhalb des Modals in das Bild hineinzoomen, um besonders feine Details zu erkennen.
 
   Dies bietet eine umfassende Möglichkeit, Produkte genau unter die Lupe zu nehmen.
 
-* Magnifier Zoom: Hier wird eine Lupenfunktion aktiviert, wenn der Mauszeiger über das Bild fährt.
+* Magnifier-Zoom: Hier wird eine Lupenfunktion aktiviert, wenn der Mauszeiger über das Bild fährt.
 
   Ein separater Bereich zeigt eine stark vergrößerte Ansicht des Bildausschnitts direkt unter dem Mauszeiger.
 
   Dies ermöglicht eine präzise Betrachtung spezifischer Produktdetails, ohne das gesamte Bild zu vergrößern.
 
 
-Sie können den gewünschten Zoom global für Ihren OXID eShop einstellen.
-
-Mit speziellen Templates können Sie die Art des Zooms für einzelne Artikel oder Kategorien festlegen.
+Sie können den gewünschten Zoom global für Ihren OXID eShop einstellen. Zusätzlich können Sie für einzelne Artikel eine individuelle Zoom-Art festlegen.
 
 Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Zoom wählen`.
 
