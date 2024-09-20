@@ -24,9 +24,9 @@ OXID eShop offers the possibility to export a list of newsletter subscribers, wh
 
 To start the export, go to :menuselection:`Customer Info --> Newsletter` in the Admin panel. Press the :guilabel:`Export recipients` button.
 
-The records are written to a CSV file whose file name consists of :file:`Export_recipients_`, an appended date in the format YYYY-MM-DD and the file extension :file:`.csv`.
+The records are written to a CSV file whose file name consists of :file:`Export_user_recipient_status_`, an appended date in the format YYYY-MM-DD and the file extension :file:`.csv`.
 
-The file contains salutation, first name, last name, e-mail address, opt-in status and assigned user groups for each subscriber. Opt-in status can be subscribed, not subscribed or not confirmed. The file can be opened directly in the browser used or saved locally on the computer.
+The file contains salutation, first name, last name, e-mail address, opt-in status, country and assigned user groups for each subscriber. Opt-in status can be subscribed, not subscribed or not confirmed. The file can be opened directly in the browser used or saved locally on the computer.
 
 
 .. Intern: oxbaie, Status: transL
