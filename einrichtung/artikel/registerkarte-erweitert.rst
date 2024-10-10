@@ -47,9 +47,9 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 
    Die Pfadangabe ist relativ zum Templateverzeichnis des verwendeten Themes.
 
-   Beispiel: Der Eintrag page/details/mydetails.tpl würde beim Theme \"Flow\" das Template :file:`mydetails.tpl` aus dem Verzeichnis :file:`/application/views/flow/tpl/page/details` aufrufen.
+   Beispiel: Der Eintrag custom/page/details/mydetails.html.twig würde beim Theme \"apex\" das Template :file:`mydetails.html.twig` aus dem Verzeichnis :file:`/application/views/apex/tpl/custom/page/details` aufrufen.
 
-   .. todo: #TK/#HR: Für das Theme APEX wäre das was?
+   .. todo: #TK/#HR: Für das Theme APEX wäre das was? siehe oben
 
    Weitere Informationen, wie Sie beispielsweise die Art des Zooms für einzelne Produkte festlegen können, finden Sie unter :ref:`konfiguration/bilder:Zoom für individuelle Produkte oder Kategorien festlegen`.
 
