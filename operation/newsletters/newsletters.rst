@@ -1,32 +1,87 @@
 ﻿Newsletters
 ===========
 
-Newsletters are a fast and easy way to notify online shop customers of current topics, give tips, announce campaigns and promote products.
+Inform your OXID eShop customers about current topics with a newsletter. Give tips, announce promotions and advertise articles.
 
-They serve to inform customers and at the same time create customer loyalty.
+Newsletters inform customers and contribute to customer loyalty.
 
-Customers must have subscribed to the newsletter, for example, by confirming this during registration or by filling out and sending the newsletter form.
+Newsletter from the customer's perspective
+------------------------------------------
 
-In addition, customers must explicitly agree to the sending of newsletters to their own e-mail address. This procedure is called double opt-in. It ensures that no unauthorised person subscribes someone else to the newsletter.
+Customers subscribe to the newsletter either when they register or by filling out and sending the newsletter form.
 
-.. image:: ../../media/screenshots/oxbaie01.png
-   :alt: Subscribing newsletter
-   :height: 413
+Customers receive a confirmation e-mail and must explicitly agree to the sending of newsletters. This procedure is known as double opt-in and ensures that no unauthorized person can subscribe to the newsletter.
+
+.. figure:: ../../media/screenshots/oxbaie01.png
+   :alt: Subscribing to a newsletter
    :width: 650
+   :class: with-shadow
 
-Users who have subscribed to the newsletter will automatically be assigned to the "Newsletter Recipients" user group. They can be viewed in the Admin panel under :menuselection:`Administer Users --> User Groups`.
+   Fig.: Subscribing to a newsletter
 
-Customers can unsubscribe by filling out the newsletter form and selecting :guilabel:`Unsubscribe`.
+Customers can unsubscribe from the newsletter by filling out the newsletter form and selecting :guilabel:`unsubscribe` (:ref:`oxbaie02`).
 
-Newsletters can be sent to customers by e-mail at regular or irregular intervals. There are countless providers of newsletter services, cloud-based newsletter tools or newsletter software.
+.. _oxbaie02:
 
-OXID eShop offers the possibility to export a list of newsletter subscribers, which can then be transferred to an external provider.
+.. figure:: ../../media/screenshots/oxbaie02.png
+   :alt: Editing the newsletter form
+   :width: 650
+   :class: with-shadow
 
-To start the export, go to :menuselection:`Customer Info --> Newsletter` in the Admin panel. Press the :guilabel:`Export recipients` button.
+   Fig.: Editing the newsletter form
 
-The records are written to a CSV file whose file name consists of :file:`Export_user_recipient_status_`, an appended date in the format YYYY-MM-DD and the file extension :file:`.csv`.
+Using the newsletter function
+-----------------------------
 
-The file contains salutation, first name, last name, e-mail address, opt-in status, country and assigned user groups for each subscriber. Opt-in status can be subscribed, not subscribed or not confirmed. The file can be opened directly in the browser used or saved locally on the computer.
+Displaying newsletter subscribers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Users who have subscribed to the newsletter (and have the opt-in status `subscribed`, see :ref:`oxbaie03`) are automatically assigned to the user group “Newsletter subscribers”.
+
+|procedure|
+
+To display the newsletter subscribers, do the following:
+
+1. In the administration area, chose :menuselection:`Manage users --> User groups`.
+#. Choose :guilabel:`Assign users`.
+
+   The members of the user group are displayed.
+
+Sending newsletter
+^^^^^^^^^^^^^^^^^^
+
+Newsletters are sent to customers by email at regular or irregular intervals.
+
+Use one of the many providers of newsletter services, cloud-based newsletter tools or newsletter software.
+
+To do so, export a list of newsletter subscribers to the external provider.
+
+|procedure|
+
+1. In the administration area of the store, choose :menuselection:`Customer info --> Newsletter`.
+#. Choose the :guilabel:`Export users` button.
+
+   The data records :emphasis:`all` users are written to a CSV file whose file name consists of :file:`Export_user_recipient_status_`, an appended date in the format YYYY-MM-DD and the file extension :file:`.csv`.
+
+   For each user, the file contains title, first name, last name, e-mail address, opt-in status, country and assigned user groups (:ref:`oxbaie03`).
+
+   The opt-in status can be:
+
+   * `not subscribed`: Registered customers who do not subscribe to a newsletter
+   * `not confirmed`: Interested parties who have filled out the newsletter form but have not yet confirmed the confirmation email
+   * `subscribed`: Newsletter subscribers
+
+#. Open the CSV file in MS Excel with the text import tool, for example, and filter for users who have the opt-in status `subscribed`.
+
+.. _oxbaie03:
+
+.. figure:: ../../media/screenshots/oxbaie02.png
+   :alt: Exporting users
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Exporting users
 
 
-.. Intern: oxbaie, Status: transL
+.. Intern: oxbaie, Status:
+

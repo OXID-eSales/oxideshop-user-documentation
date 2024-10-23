@@ -1,4 +1,5 @@
-﻿Newsletters
+﻿:orphan:
+Newsletters
 ===========
 
 .. toctree::
