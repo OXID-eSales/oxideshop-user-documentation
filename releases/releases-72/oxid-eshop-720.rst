@@ -21,6 +21,7 @@ Die Änderungen im Überblick
 
 * Verbesserung im Shop-Administrationsbereich
 
+.. todo: OXDEV-7028: Newsletter export data enhanced · OXID-eSales/oxideshop-user-documentation@a19e24b -- keine neue Funktion, nur Doku erweitert: betrieb/newsletter/newsletter.rst
 
 
 * Neue Funktionen für Entwickler
