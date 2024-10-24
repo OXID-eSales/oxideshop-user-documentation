@@ -1,6 +1,40 @@
 OXID eShop 7.2.0
 ================
 
+Release-Datum: tbd
+
+Änderungen im Überblick
+-----------------------
+
+tbd
+
+User Experience
+---------------
+
+Verbessern Sie mit drei neuen Zoom-Optionen das Einkaufserlebnis für Ihre Kunden in Ihrem OXID eShop.
+
+* Hover Zoom: Diese Funktion bietet eine interaktive Möglichkeit, Produktbilder im Detail zu betrachten.
+
+  Wenn der Mauszeiger über das Bild fährt, wird es vergrößert, und die Vergrößerung folgt der Mausbewegung.
+
+  Dies erlaubt es den Nutzern, verschiedene Bildbereiche genau zu untersuchen und erhöht die Interaktivität und das Engagement.
+
+* Modal-Zoom: Beim Klick auf das Produktbild wird dieses in einem größeren Modal-Fenster geöffnet, in dem weitere Details sichtbar werden.
+
+  Zusätzlich kann der Nutzer innerhalb des Modals in das Bild hineinzoomen, um besonders feine Details zu erkennen.
+
+  Dies bietet eine umfassende Möglichkeit, Produkte genau unter die Lupe zu nehmen.
+
+* Magnifier-Zoom: Hier wird eine Lupenfunktion aktiviert, wenn der Mauszeiger über das Bild fährt.
+
+  Ein separater Bereich zeigt eine stark vergrößerte Ansicht des Bildausschnitts direkt unter dem Mauszeiger.
+
+  Dies ermöglicht eine präzise Betrachtung spezifischer Produktdetails, ohne das gesamte Bild zu vergrößern.
+
+
+Sie können den gewünschten Zoom global für Ihren OXID eShop einstellen. Zusätzlich können Sie für einzelne Artikel eine individuelle Zoom-Art festlegen.
+
+Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Zoom wählen`.
 Release-Datum: 09.04.2024
 
 Die Änderungen im Überblick
@@ -158,30 +192,21 @@ Neue Funktionen für Entwickler
 Abhängigkeiten zwischen Modulen definieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+#tbd
+
+
+Verbesserung im Shop-Administrationsbereich
+-------------------------------------------
+
+tbd
+Neue Funktionen für Entwickler
+------------------------------
+
 
 Clean Up
 --------
 
-Einladungs-Funktion
-^^^^^^^^^^^^^^^^^^^
 
-Um Ihren registrierten Kunden die Möglichkeit zu bieten, Freunde einzuladen und dafür Bonuspunkte zu erhalten, konnten Sie bis zur Version 7.0 des OXID eShops unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Einladungen` die Funktion :guilabel:`Einladungen` aktivieren.
-
-Aufgrund des Risikos von Missbrauch durch Spam-Attacken haben wir jedoch beschlossen, diese Funktion aus der Benutzeroberfläche zu entfernen. Sie ist noch im 7.x-Code vorhanden. Ab Version 8.0 wird sie entfernt.
-
-Veraltete (deprecated) Konsolenklassen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Folgende Konsolenklassen (console classes) aus dem internen Namensraum sind als veraltet markiert und werden im nächsten Major Release entfernt.
-
-Prüfen Sie Ihren Code, um festzustellen, ob und wo Sie die als veraltet markierten Klassen verwenden.
-
-Nachdem Sie gegebenenfalls Ihren Code aktualisiert haben, um die veralteten Klassen zu ersetzen, führen Sie Tests durch, um sicherzustellen, dass Ihre Anwendungen weiterhin wie erwartet funktionieren.
-
-* :code:`Executor`
-* :code:`ExecutorInterface`
-* :code:`CommandsProvider`
-* :code:`CommandsProviderInterface`
 
 Komponenten
 -----------

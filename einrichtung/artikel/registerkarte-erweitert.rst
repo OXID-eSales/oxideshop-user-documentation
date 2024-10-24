@@ -43,9 +43,15 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
    Eine zusätzliche Datei zum Artikel, beispielsweise ein Datenblatt oder eine Bedienungsanleitung, lässt sich hier hochladen. Nach dem Speichern steht der Dateiname im Eingabefeld :guilabel:`Datei`. Die Datei kann in der Detailansicht des Artikels, Registerkarte :guilabel:`MEDIEN` heruntergeladen werden. Um mehrere Dateien bereitzustellen und auch eine Beschreibung anstatt nur des Dateinamens zu haben, verwenden Sie bitte :guilabel:`Mediendateien`.
 
 :guilabel:`Alt. Template`
-   Die Detailansicht des Artikels kann von der anderer Artikel abweichen, um ihn mit einer besonderen Aufmachung zu präsentieren. Grundlage dessen ist ein eigens dafür erstelltes Template, dessen Pfad und Namen hier eingetragen werden kann. Die Pfadangabe ist relativ zum Templateverzeichnis des verwendeten Themes.
+   Die Detailansicht des Artikels kann von der anderer Artikel abweichen, um ihn mit einer besonderen Aufmachung zu präsentieren. Grundlage dessen ist ein eigens dafür erstelltes Template, dessen Pfad und Namen hier eingetragen werden kann.
+
+   Die Pfadangabe ist relativ zum Templateverzeichnis des verwendeten Themes.
 
    Beispiel: Der Eintrag page/details/mydetails.tpl würde beim Theme \"Flow\" das Template :file:`mydetails.tpl` aus dem Verzeichnis :file:`/application/views/flow/tpl/page/details` aufrufen.
+
+   .. todo: #TK/#HR: Für das Theme APEX wäre das was?
+
+   Weitere Informationen, wie Sie beispielsweise die Art des Zooms für einzelne Produkte festlegen können, finden Sie unter :ref:`konfiguration/bilder:Zoom für individuelle Produkte oder Kategorien festlegen`.
 
 :guilabel:`Alt. Anspr.partn.`
    Standardmäßig werden Fragen, die ein Kunde über die Detailansicht eines Artikels als E-Mail senden kann, an die E-Mail-Adresse geschickt, die unter :menuselection:`Stammdaten --> Grundeinstellungen` für die Info definiert wurde. Soll für einen bestimmten Artikel ein direkter Ansprechpartner zuständig sein, tragen Sie dessen E-Mail-Adresse hier ein. Alle Anfragen zum Artikel werden direkt an diesen Mitarbeiter versandt.
