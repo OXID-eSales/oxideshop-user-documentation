@@ -21,7 +21,6 @@ Die Änderungen im Überblick
 
 * Verbesserung im Shop-Administrationsbereich
 
-.. todo: OXDEV-7028: Newsletter export data enhanced · OXID-eSales/oxideshop-user-documentation@a19e24b -- keine neue Funktion, nur Doku erweitert: betrieb/newsletter/newsletter.rst
 
 
 * Neue Funktionen für Entwickler
@@ -32,13 +31,31 @@ Die Änderungen im Überblick
 Verbesserung im Shop-Administrationsbereich
 -------------------------------------------
 
+Newsletter
+^^^^^^^^^^
+.. todo: OXDEV-7028: Newsletter export data enhanced · OXID-eSales/oxideshop-user-documentation@a19e24b -- keine neue Funktion, nur Doku erweitert: betrieb/newsletter/newsletter.rst
+
 As a shop owner I want to know exactly what Export users function does: https://oxid-esales.atlassian.net/browse/OXDEV-7028
 
 Statt
 Die Datensätze werden in eine CSV-Datei geschrieben, deren Dateinamen aus :file:`Export_recipients_`, einem angehängten Datum im Format JJJJ-MM-TT und der Dateiendung :file:`.csv` besteht. Die Datei enthält Anrede, Vorname, Nachname, E-Mail-Adresse, Opt-in-Status und zugeordnete Benutzergruppen für jeden Abonnenten. Opt-in-Status kann abonniert, nicht abonniert oder nicht bestätigt sein. Die Datei kann direkt im verwendeten Browser geöffnet oder lokal auf dem Rechner gespeichert werden.
 Die Datensätze werden in eine CSV-Datei geschrieben, deren Dateinamen aus :file:`Export_user_recipient_status_`, einem angehängten Datum im Format JJJJ-MM-TT und der Dateiendung :file:`.csv` besteht. Die Datei enthält Anrede, Vorname, Nachname, E-Mail-Adresse, Opt-in-Status, Land und zugeordnete Benutzergruppen für jeden Abonnenten. Opt-in-Status kann abonniert, nicht abonniert oder nicht bestätigt sein. Die Datei kann direkt im verwendeten Browser geöffnet oder lokal auf dem Rechner gespeichert werden.
 
-:ref:betrieb/newsletter/newsletter:Newsletter`
+:ref:`betrieb/newsletter/newsletter:Newsletter`
+
+
+Make mail sending optional (configuration option)
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+New parameter oxid_esales.email.disable_order_emails to enable and disable sending order emails
+
+.. todo: https://oxid-esales.atlassian.net/browse/OXDEV-6846
+.. todo: https://github.com/OXID-eSales/developer_documentation/commit/5c970ea708e2f2b9dd67a2cfcd0129acb5df9c1a
+
+.. todo: Ref testen: https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/parameters.html`_
+
+
+
 
 Neue Funktionen für Entwickler
 ------------------------------
