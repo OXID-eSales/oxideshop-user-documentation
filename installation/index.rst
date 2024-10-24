@@ -1,6 +1,9 @@
 Installation
 ============
 
+.. todo: Update von Version 6.x auf 7.2 as soon as dev docu is updated
+.. todo: #HR: link to dev docu update/eshop_from_65_to_7/modules/index.rst? -- "module installation section links to some RC developer documentation, let’s check if that is still correct"
+
 .. toctree::
    :maxdepth: 1
    

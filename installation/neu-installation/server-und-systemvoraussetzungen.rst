@@ -54,8 +54,8 @@ Webserver
 Datenbank
 ---------
 
-* MySQL 5.7 oder 8.0
-* MariaDB (getestet mit MariaDB 10.4)
+* MySQL 8.0 (MySQL 5.7 wird unterstützt, aber wir empfehlen es sicht)
+* MariaDB (getestet mit MariaDB 11)
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
 
@@ -64,7 +64,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP Versionen 8.1 oder 8.2
+* PHP Versionen 8.2 oder 8.3
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein

@@ -35,7 +35,7 @@ Verbessern Sie mit drei neuen Zoom-Optionen das Einkaufserlebnis für Ihre Kunde
 Sie können den gewünschten Zoom global für Ihren OXID eShop einstellen. Zusätzlich können Sie für einzelne Artikel eine individuelle Zoom-Art festlegen.
 
 Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Zoom wählen`.
-Release-Datum: 09.04.2024
+
 
 Die Änderungen im Überblick
 ---------------------------
@@ -94,8 +94,12 @@ New parameter oxid_esales.email.disable_order_emails to enable and disable sendi
 Neue Funktionen für Entwickler
 ------------------------------
 
-Abhängigkeiten zwischen Modulen definieren
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Systemvoraussetzungen
+^^^^^^^^^^^^^^^^^^^^^
+
+* MySQL 8.0 (MySQL 5.7 wird unterstützt, aber wir empfehlen es sicht)
+* MariaDB (getestet mit MariaDB 11)
+* PHP Versionen 8.2 oder 8.3
 
 
 
@@ -121,57 +125,7 @@ Barrierefreiheit
 Visual CMS & Mediathek
 ----------------------
 
-Visual CMS
-^^^^^^^^^^
-
-
-Mediathek
-^^^^^^^^^
-
-* Profitieren Sie von der erweiterten Unterstützung folgender Bewegtbild- und Vektor-Formate:
-
-  * AVIF:
-
-    * Beschleunigen Sie das Laden Ihrer Webseiten durch eine um 20-30 % kleinere Dateigröße im Vergleich zu WebP, bei gleicher Qualität.
-    * Integrieren Sie dank des Open-Source AV1 Videocodecs animierte Bilder über Bild-Widgets in Ihre Seiten.
-
-      Im Vergleich zu anderen Formaten für animierte Bilder wie GIF, APNG und WebP sowie zu Videoformaten wie H.264/AVC und H.265/HEVC bietet AVIF in der Regel eine verbesserte Leistung und kleinere Dateigrößen.
-
-    * Nutzen Sie mit dem AVIF-Bildformat weitere fortgeschrittene Funktionen wie HDR sowie Ebenen, um die Qualität und Auflösung des dekodierten Bildes zu verbessern und unabhängige Ebenen für spezifische Zwecke bereitzustellen.
-
-  * SVG:
-
-    * Nutzen Sie Bilder, die ohne Qualitätsverlust in beliebiger Größe skaliert werden können.
-    * Nutzen Sie mit SVG interaktive Elemente wie Links, Animationen und JavaScript-Interaktionen direkt innerhalb der Grafik.
-
-      Erstellen Sie damit interaktive Diagramme, Karten, Infografiken und anderen grafische Elemente, die Benutzeraktionen ermöglichen.
-
-    * Erstellen Sie mit SVG-Dateien barrierefreie Inhalte.
-
-      Hintergrund: SVG-Dateien sind textbasiert. Deshalb können sie leicht von Screenreadern und anderen Hilfstechnologien interpretiert werden.
-
-* Verwalten Sie neben Bildern die Dateiformate PDF und ZIP, um Ihren Kunden beispielsweise Datenblätter, technische Zeichnungen oder Werbematerial bereitzustellen.
-
-  Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
-
-* Erhalten Sie Dank des verbesserten Generierens von Bildvorschauen das ursprüngliche Dateiformat und somit auch Transparenzen von Grafiken.
-* Bringen Sie mit den folgenden Funktionen Ordnung in Ihre Mediathek:
-
-  * Ordner anlegen, um Medien-Dateien per Drag-and-drop übersichtlich zu sortieren (:ref:`oxid-eshop-710-03`, Pos. 1).
-  * Dateinamen bei Bedarf ändern  (:ref:`oxid-eshop-710-03`, Pos. 2).
-
-  .. _oxid-eshop-710-03:
-
-  .. figure:: ../../media/screenshots/oxid-eshop-710-03.png
-     :alt: Medien in der Mediathek verwalten
-     :width: 650
-     :class: with-shadow
-
-     Abb.: Medien in der Mediathek verwalten
-
-  Weitere Informationen finden Sie in der Visual CMS-Dokumentation unter `Mediathek <https://docs.oxid-esales.com/modules/vcms/de/5.0/funktionsbeschreibung/mediathek.html#mediathek>`_.
-
-**Weitere Informationen**
+.. todo: Input MF
 
 Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
 
@@ -215,6 +169,8 @@ Repositories ohne Link sind private Repositories.
 
 Geänderte und neue Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: aktualisieren
 
 Wir haben die folgenden Komponenten und Module aktualisiert.
 

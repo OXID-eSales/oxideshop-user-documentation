@@ -47,7 +47,7 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 
    Die Pfadangabe ist relativ zum Templateverzeichnis des verwendeten Themes.
 
-   Beispiel: Der Eintrag page/details/mydetails.tpl würde beim Theme \"Flow\" das Template :file:`mydetails.tpl` aus dem Verzeichnis :file:`/application/views/flow/tpl/page/details` aufrufen.
+   Beispiel: Der Eintrag ``page/details/mydetails.tpl`` würde beim Theme \"Flow\" das Template :file:`mydetails.tpl` aus dem Verzeichnis :file:`/application/views/flow/tpl/page/details` aufrufen.
 
    .. todo: #TK/#HR: Für das Theme APEX wäre das was?
 

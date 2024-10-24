@@ -1,13 +1,15 @@
 ﻿Installation vorbereiten
 ========================
 
-Für die Neu-Installation des OXID eShop 7.1 sind einige Vorbereitungen notwendig.
+Für die Neu-Installation des OXID eShop 7.2 sind einige Vorbereitungen notwendig.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
 
 |schritt| Composer 2.2.23 installieren
 --------------------------------------
+
+.. todo: #HR: Composer 2.2.23 noch aktuell?
 
 Mit Version 6 basiert die Installation des OXID eShop nicht mehr auf gepackten und herunterladbaren Installationspaketen, sondern wird mit Hilfe von Composer ausgeführt. Composer ist ein Dependency Manager für PHP, ein Tool, welches Abhängigkeiten von Programmbestandteilen eines Projektes berücksichtigt, während es die Dateien dieses Projekts in ein definiertes Verzeichnis installiert.
 
@@ -27,17 +29,17 @@ Wenn Sie die entwicklungsbezogenen Dateien brauchen, führen Sie Befehl ohne den
 Community Edition
 ^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.1-ce`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.2-ce`
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.1-pe`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.2-pe`
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.1-ee`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.2-ee`
 
 Nachdem Composer seine Arbeit beendet hat, existiert das mit *your_project_name* benannte neue Verzeichnis. Dieses ist das Hauptverzeichnis (Root) des Projektes und enthält alle Dateien, die für die Installation des OXID eShop benötigt werden.
 
