@@ -1,11 +1,11 @@
 ﻿Bilder
 ======
 
-Ordnen Sie Artikeln bis zu zwölf Artikelbilder zu, die in der Detailansicht des Artikels angezeigt werden.
+Ordnen Sie jedem Artikel bis zu zwölf Bilder zu, die in der Detailansicht des Artikels angezeigt werden.
 
-Artikel haben Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Legen Sie global oder auf Kategorienebene oder für individuelle Produkte fest, welche Art von Zoom Sie nutzen wollen.
+Artikel haben Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Legen Sie global, auf Kategorienebene oder für individuelle Produkte fest, welche Art von Zoom Sie nutzen wollen.
 
-Kleinere Artikelbilder zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Alle benötigten Bildarten werden automatisch generiert. Legen Sie die gewünschten Bildgrößen und die Bildqualität fest.
+Kleinere Artikelbilder zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Alle benötigten Bildarten werden automatisch generiert. Legen Sie maximale Bildgrößen und die Bildqualität fest, um das Laden der Bilder im Browser zu optimieren.
 
 Legen Sie fest, ob Bestellbestätigungen mit Bildern gesendet werden sollen.
 
@@ -23,7 +23,7 @@ Prüfen Sie bei Bedarf die Version der Software, die für das dynamische Erzeuge
 1. Wählen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` die Registerkarte :guilabel:`Einstell.`
 #. Klicken Sie auf :guilabel:`Bilder`, um die Einstellungen anzuzeigen.
 
-   * Prüfen Sie Version der GDLib, der Software auf dem Server, die Grafiken dynamisch erzeugt.
+   * Prüfen Sie die Version der GDLib, der Software auf dem Server, die Grafiken dynamisch erzeugt.
    * Prüfen Sie, ob das automatische Generieren von Icons aktiviert ist.
 
    Lassen Sie beide Einstellungen unverändert.
@@ -31,7 +31,7 @@ Prüfen Sie bei Bedarf die Version der Software, die für das dynamische Erzeuge
 Bildqualität festlegen
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Erhöhen Sie bei Bedarf die Geschwindigkeit, mit der Seiten im Browser geladen werden.
+Erhöhen Sie bei Bedarf die Geschwindigkeit, mit der Seiten im Browser geladen werden, indem Sie die Bildqualität anpassen.
 
 |procedure|
 
@@ -72,11 +72,38 @@ Die Artikelbilder werden beim Lesen der E-Mail durch das Mail-Programm des Kunde
 #. Um Artikelbilder in Bestellbestätigung zu senden, aktivieren Sie das Kontrollkästchen :guilabel:`E-Mails mitsamt Bildern versenden`.
 
 
-Bildgrößen festlegen
---------------------
-Die Größe der Bilder für Artikel, Kategorien und für Hersteller- und Markenlogos ist abhängig vom Design Ihres OXID eShops.
+Bildgrößen optimieren
+---------------------
 
-Die Einstellungen sind daher beim aktiven Theme hinterlegt.
+Um die Geschwindigkeit zu optimieren, mit der Seiten geladen werden, legen Sie möglichst kleine Bildgrößen fest. Ihre Bilder werden dann vor dem Laden durch den Browser auf diese maximale Bildgröße heruntergerechnet.
+
+Die tatsächlich :emphasis:`angezeigte` Größe der Bilder für Artikel und Kategorien sowie der Hersteller- und Markenlogos ist abhängig vom Design Ihres OXID eShops. Diese Werte legen Sie mit Ihrem CSS fest.
+
+|example|
+
+In unserem Demo-Shop werden die Bilder für die Anzeige von Unterkategorien (:ref:`oxbaaz03a`) auf eine Größe von 400x300 Pixel heruntergerechnet (:ref:`oxbaaz04`, Pos. 1). Dies ist die Größe, die der Browser auf dem Endgerät herunterladen würde.
+
+.. _oxbaaz04:
+
+.. figure:: ../media/screenshots/oxbaaz04.png
+   :alt: Beispiel: Maximale Bildgröße 400x300 Pixel festlegen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Beispiel: Maximale Bildgröße 400x300 Pixel festlegen
+
+Das Stylesheet wiederum verkleinert das Bild auf 62x62 Pixel. Dies ist die tatsächlich angezeigte (gerenderte) Größe gegenüber der intrinsischen Größe des vom Browser heruntergeladenen Bilds (:ref:`oxbaaz05`, Pos. 1).
+
+Die angezeigte intrinsische Größe 300 x 300 Pixel weicht von der maximalen Größe ab, weil es sich um ein quadratisches Bild handelt. In diesem Fall legt das System die kleinste Seitenlänge zugrunde, in diesem Beispiel also 300 Pixel.
+
+.. _oxbaaz05:
+
+.. figure:: ../media/screenshots/oxbaaz05.png
+   :alt: Gerenderte Bildgröße 62x62 Pixel im Stylesheet
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Gerenderte Bildgröße 62x62 Pixel im Stylesheet
 
 |procedure|
 
@@ -85,63 +112,205 @@ Die Einstellungen sind daher beim aktiven Theme hinterlegt.
 
    Sie haben folgende Möglichkeiten, die Bildgrößen anzupassen:
 
-   * :guilabel:`Größe des Icons in Pixeln (Breite*Höhe)`
-
-     Icons sind die kleinsten Artikelbilder und werden im Warenkorb und in Produktboxen (Beispiel: Top of the Shop) verwendet.
-
-     Standardgröße: 87 Pixel breit und 87 Pixel hoch.
-
-   * :guilabel:`Größe des Thumbnails in Pixeln (Breite*Höhe)`
-
-     Thumbnails sind Vorschaubilder und werden in Artikellisten, wie Kategorie-Übersichten und Suchergebnisse, und in Aktionen (Beispiel: Frisch eingetroffen!) angezeigt.
-
-     Standardgröße: 185 Pixel breit und 150 Pixel hoch.
-
-   * :guilabel:`Größe des Kategoriebildes in Pixeln (Breite*Höhe)`
-
-     Bild für die Anzeige der Kategorie-Übersicht.
-
-     Standardgröße: 784 Pixel breit und 150 Pixel hoch.
-
-   * :guilabel:`Größe der Zoom-Bilder (Zoom 1-4) in Pixeln (Breite*Höhe)`
-
-     Vergrößerte Anzeige eines Artikelbildes, die sich auf der Detailseite aufrufen lässt.
-
-     Standardgröße: 665 Pixel breit und 665 Pixel hoch.
-
    * :guilabel:`Größe der Artikelbilder (Bild 1-12) in Pixeln (Breite*Höhe)`
 
-     Artikelbild, welches auf der Detailseite angezeigt wird.
+   Artikelbild, das auf der Detailseite angezeigt wird.
 
-     Die Größe von bis zu 12 Artikelbilder kann definiert werden.
+   Definieren Sie die maximale Größe von bis zu 12 Artikelbildern.
 
-     Dadurch sind Artikelbilder mit unterschiedlichen Größen möglich.
+   Dadurch sind Artikelbilder mit unterschiedlichen Größen möglich.
 
-     Für jedes Artikelbild gibt es eine Zeile, an deren Anfang ``oxpic`` und eine Zahl steht. ``oxpic1`` steht für das erste Artikelbild, ``oxpic2`` für das zweite Artikelbild usw.
+   Für jedes Artikelbild gibt es eine Zeile, an deren Anfang ``oxpic`` und eine Zahl steht. ``oxpic1`` steht für das erste Artikelbild, ``oxpic2`` für das zweite Artikelbild usw.
 
-     Standardgröße: 380 Pixel breit und 340 Pixel hoch.
+   .. hint:: Verwenden Sie die Möglichkeit unterschiedlicher Bildgrößen mit Umsicht.
 
-     .. hint:: Verwendden Sie die Möglichkeit unterschiedlicher Bildgrößen mit Umsicht
+      Verschieden große Artikelbilder könnten eventuell zu einer eher unprofessionell wirkenden Präsentation der Artikel führen.
 
-        Verschieden große Artikelbilder könnten eventuell zu einer eher unprofessionell wirkenden Präsentation der Artikel führen.
-
-   * :guilabel:`Größe des Hersteller-/Markenlogos in Pixeln (Breite*Höhe)`
-
-     Logo, das in der Marken-Übersicht auf der Startseite angezeigt wird.
-
-     Standardgröße: 100 Pixel breit und 100 Pixel hoch.
+   .. todo: #1: sCatIconsize , Icon: auch bei Listenansihten
 
    * :guilabel:`Größe des Kategoriebildes einer Unterkategorie in Pixeln (Breite*Höhe)`
 
      Bild für die Anzeige von Unterkategorien in der Kategorie-Übersicht.
 
-     Standardgröße: 168 Pixel breit und 100 Pixel hoch.
+     Name der Funktion: ``category.getIconUrl``
+     |br|
+     Name des Parameters: ``sCatIconsize``
+     |br|
+     Standardgröße: 400 Pixel breit und 300 Pixel hoch.
+
+     .. _oxbaaz03a:
+
+     .. figure:: ../media/screenshots/oxbaaz03a.png
+        :alt: Kategoriebild einer Unterkategorie
+        :width: 650
+        :class: with-shadow
+
+        Abb.: Kategoriebild einer Unterkategorie
+
+   .. todo #2 zur Zeit auf der Startseite nicht verwendet
 
    * :guilabel:`Größe des Kategoriebildes für die Startseite in Pixeln (Breite*Höhe)`
 
+     Bild für die Anzeige der Kategorie-Übersicht. Dieser Bildtyp wird derzeit nicht verwendet, bleibt jedoch erhalten, um die Abwärtskompatibilität sicherzustellen, eine zukünftige Nutzung zu ermöglichen und Ihnen bei Bedarf die Einbindung in eigene Templates zu erlauben.
+
+     Name der Funktion: ``category.getPromotionIconUrl``
+     |br|
+     Name des Parameters: ``sCatPromotionsize``
+     |br|
+     Standardgröße: 370 Pixel breit und 107 Pixel hoch.
+
+   .. todo #3: nicht im Demoshop, aber lässt sich einfügen: - category.getThumbUrl -> tpl/page/list/list.html.twig  , sCatThumbnailsize
+
+   * :guilabel:`Größe des Kategoriebildes (Breite*Höhe)`
+
      Bild der Kategorie, die auf der Startseite beworben wird.
 
-     Standardgröße: 370 Pixel breit und 107 Pixel hoch.
+     Dieser Bild-Typ ist im Demo-Shop zur Zeit nicht umgesetzt, ließe sich aber umsetzen (Beispiel: :ref:`oxbaaz03c`).
+
+     Name der Funktion: ``category.getThumbUrl``
+     |br|
+     Name des Parameters: ``sCatThumbnailsize``
+     |br|
+     Standardgröße: 1600 Pixel breit und 500 Pixel hoch.
+
+     .. _oxbaaz03c:
+
+     .. figure:: ../media/screenshots/oxbaaz03c.png
+        :alt: Kategoriebild
+        :width: 650
+        :class: with-shadow
+
+        Abb.: Kategoriebild
+
+   .. todo #4: article.getIconUrl; sIconsize
+
+   * :guilabel:`Größe des Icons in Pixeln (Breite*Höhe)`
+
+     Icons sind die kleinsten Artikelbilder. Sie werden verwendet
+
+     * in der Warenkorb-Vorschau (Minibasket) (:ref:`oxbaaz03d`, Pos. 1)
+     * im Warenkorb (:ref:`oxbaaz03d`, Pos. 2)
+     * als Bildumschalter (:ref:`oxbaaz03d`, Pos. 3)
+     * als Bildumschalter für den Modal-Zoom (siehe :ref:`konfiguration/bilder:Zoom wählen`)
+     * für die Größe der Geschenkverpackung
+
+     Name der Funktion: ``article.getIconUrl``
+     |br|
+     Name des Parameters: ``sIconsize``
+     |br|
+     Standardgröße: 100 Pixel breit und 100 Pixel hoch.
+
+     .. _oxbaaz03d:
+
+     .. figure:: ../media/screenshots/oxbaaz03d.png
+        :alt: Icon in verschiedenen Funktionen
+        :width: 650
+        :class: with-shadow
+
+        Abb.: Icon in verschiedenen Funktionen
+
+   .. todo #5: vendor.getIconUrl
+
+   * :guilabel:`Größe des Hersteller-/Markenlogos in Pixeln (Breite*Höhe)`
+
+     Logo, das angezeigt wird
+
+     * in der Marken-Übersicht auf der Startseite (:ref:`oxbaaz03e`, Pos. 1)
+     * in der Produktübersicht pro Hersteller (:ref:`oxbaaz03e`, Pos. 1)
+     * auf der Produkdetalseite (:ref:`oxbaaz03e`, Pos. 1)
+
+     Name der Funktion: ``vendor.getIconUrl``
+     |br|
+     Name des Parameters: ``sManufacturerIconsize``
+     |br|
+     Standardgröße: 100 Pixel breit und 100 Pixel hoch.
+
+     .. _oxbaaz03e:
+
+     .. figure:: ../media/screenshots/oxbaaz03e.png
+        :alt: Hersteller-/Markenlogo in verschiedenen Funktionen
+        :width: 650
+        :class: with-shadow
+
+        Abb.: Hersteller-/Markenlogo in verschiedenen Funktionen
+
+   .. todo: #6
+
+   * :guilabel:`Größe des Hersteller-/Markenbildes`
+
+     Dieser Bildtyp wird derzeit nicht verwendet, bleibt jedoch erhalten, um die Abwärtskompatibilität sicherzustellen, eine zukünftige Nutzung zu ermöglichen und Ihnen bei Bedarf die Einbindung in eigene Templates zu erlauben.
+
+     Name der Funktion: ``manufacturer.getPictureUrl``
+     |br|
+     Name des Parameters: ``sManufacturerPicturesize``
+     |br|
+     Standardgröße: 1140 Pixel breit und 1140 Pixel hoch.
+
+   .. todo #7
+
+   * :guilabel:`Größe des Hersteller Promotionicons in Pixeln (Breite*Höhe)`
+
+     Dieser Bildtyp wird derzeit nicht verwendet, bleibt jedoch erhalten, um die Abwärtskompatibilität sicherzustellen, eine zukünftige Nutzung zu ermöglichen und Ihnen bei Bedarf die Einbindung in eigene Templates zu erlauben.
+
+     Name der Funktion: ``manufacturer.getPromotionIconUrl``
+     |br|
+     Name des Parameters: ``sManufacturerPromotionsize``
+     |br|
+     Standardgröße: 370 Pixel breit und 107 Pixel hoch
+
+   .. todo #8
+
+   * :guilabel:`Größe des Hersteller-/Marken-Thumbnails`
+
+     Dieser Bildtyp wird derzeit nicht verwendet, bleibt jedoch erhalten, um die Abwärtskompatibilität sicherzustellen, eine zukünftige Nutzung zu ermöglichen und Ihnen bei Bedarf die Einbindung in eigene Templates zu erlauben.
+
+     Name der Funktion: ``manufacturer.getPromotionIconUrl``
+     |br|
+     Name des Parameters: ``sManufacturerThumbnailsize``
+     |br|
+     Standardgröße: 370 Pixel breit und 370 Pixel hoch
+
+
+   .. todo #9: sThumbnailsize; article.getThumbnailUrl: kommt in 3 templates vor: bei Vergleichen, überall wo Produkte aufgelistet werden: -> tpl/page/compare/inc/compareitem.html.twig, tpl/widget/product/listitem_grid.html.twig, tpl/widget/product/listitem_line.html.twig
+
+   * :guilabel:`Größe des Thumbnails in Pixeln (Breite*Höhe)`
+
+     Thumbnails sind Vorschaubilder und werden überall dort angezeigt, wo Produkte aufgelistet werden, beispielsweise in
+
+     * Produktvergleichsseiten
+     * Artikellisten, wie Kategorie-Übersichten und Suchergebnisse
+     * Aktionen (Beispiel: Frisch eingetroffen!)
+
+     Sie können vorkommen in Gitter- (:ref:`oxbaaz03i`, Pos. 1) oder Listenansicht (:ref:`oxbaaz03i`, Pos. 2).
+
+     Name der Funktion: ``article.getThumbnailUrl``
+     |br|
+     Name des Parameters: ``sThumbnailsize``
+     |br|
+     Standardgröße: 500 Pixel breit und 500 Pixel hoch.
+
+     .. _oxbaaz03i:
+
+     .. figure:: ../media/screenshots/oxbaaz03i.png
+        :alt: Thumbnails in Gitter- und Listenansicht
+        :width: 650
+        :class: with-shadow
+
+        Abb.: Thumbnails in Gitter- und Listenansicht
+
+   .. todo #10
+
+   * :guilabel:`Größe der modalen Zoom-Bilder (Zoom 1-4) in Pixeln (Breite*Höhe)`
+
+     Vergrößerte Anzeige modaler Artikelbilder, die sich auf der Detailseite aufrufen lässt.
+
+     Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Zoom wählen`.
+
+     Name der Funktion: ``article.getZoomPictureUrl``
+     |br|
+     Name des Parameters: ``sZoomImageSize``
+     |br|
+     Standardgröße: 1200 Pixel breit und 1200 Pixel hoch.
 
 Zoom wählen
 -----------
@@ -197,7 +366,7 @@ Wählen Sie die Art des Zooms global für Ihren eShop.
 
 
 Zoom für individuelle Produkte festlegen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Weisen Sie Sie bei Bedarf einzelnen Produkten eine individuelle Zoom-Option zu.
 
@@ -208,7 +377,7 @@ Damit haben Sie eine größere Flexibilität für verschiedene Produkte.
 |procedure|
 
 1. Wählen Sie unter :menuselection:`Artikel verwalten --> Artikel` das Produkt und wählen Sie die Registerkarte :guilabel:`Einstell.`.
-#. Legen Sie den gewünschten Zoom fest, indem Sie im Eingabefeld :guilabel:`Alternatives Template` (:ref:`oxbaaz02`, Pos. 1) den Pfad des entsprechenden Templates eingeben.
+#. Legen Sie den gewünschten Zoom fest, indem Sie im Eingabefeld :guilabel:`Alternatives Template` (in unserem Beispiel: Lupen-Zoom festlegen, :ref:`oxbaaz02`, Pos. 1) den Pfad des entsprechenden Templates eingeben.
 
    * Hover-Zoom: ``custom/hover_zoom.html.twig``
    * Modal-Zoom: ``custom/modal_zoom.html.twig``

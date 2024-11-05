@@ -43,13 +43,11 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
    Eine zusätzliche Datei zum Artikel, beispielsweise ein Datenblatt oder eine Bedienungsanleitung, lässt sich hier hochladen. Nach dem Speichern steht der Dateiname im Eingabefeld :guilabel:`Datei`. Die Datei kann in der Detailansicht des Artikels, Registerkarte :guilabel:`MEDIEN` heruntergeladen werden. Um mehrere Dateien bereitzustellen und auch eine Beschreibung anstatt nur des Dateinamens zu haben, verwenden Sie bitte :guilabel:`Mediendateien`.
 
 :guilabel:`Alt. Template`
-   Die Detailansicht des Artikels kann von der anderer Artikel abweichen, um ihn mit einer besonderen Aufmachung zu präsentieren. Grundlage dessen ist ein eigens dafür erstelltes Template, dessen Pfad und Namen hier eingetragen werden kann.
+   Die Detailansicht des Artikels kann von der anderer Artikel abweichen, um ihn mit einer besonderen Aufmachung zu präsentieren. Erstellen Sie dazu ein eigenes Template, dessen Pfad und Namen Sie hier eintragen.
 
-   Die Pfadangabe ist relativ zum Templateverzeichnis des verwendeten Themes.
+   Der Pfad ist relativ zum Templateverzeichnis des verwendeten Themes.
 
-   Beispiel: Der Eintrag custom/page/details/mydetails.html.twig würde beim Theme \"apex\" das Template :file:`mydetails.html.twig` aus dem Verzeichnis :file:`/application/views/apex/tpl/custom/page/details` aufrufen.
-
-   .. todo: #TK/#HR: Für das Theme APEX wäre das was? siehe oben
+   Beispiel: Der Eintrag ``custom/page/details/mydetails.html.twig`` würde beim Theme \"apex\" das Template :file:`mydetails.html.twig` aus dem Verzeichnis :file:`/application/views/apex/tpl/custom/page/details` aufrufen.
 
    Weitere Informationen, wie Sie beispielsweise die Art des Zooms für einzelne Produkte festlegen können, finden Sie unter :ref:`konfiguration/bilder:Zoom für individuelle Produkte oder Kategorien festlegen`.
 
