@@ -49,7 +49,7 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 
    Beispiel: Der Eintrag ``custom/page/details/mydetails.html.twig`` würde beim Theme \"apex\" das Template :file:`mydetails.html.twig` aus dem Verzeichnis :file:`/application/views/apex/tpl/custom/page/details` aufrufen.
 
-   Weitere Informationen, wie Sie beispielsweise die Art des Zooms für einzelne Produkte festlegen können, finden Sie unter :ref:`konfiguration/bilder:Zoom für individuelle Produkte oder Kategorien festlegen`.
+   Weitere Informationen, wie Sie beispielsweise die Art des Zooms für einzelne Produkte festlegen können, finden Sie unter :ref:`konfiguration/bilder:Zoom für individuelle Produkte festlegen`.
 
 :guilabel:`Alt. Anspr.partn.`
    Standardmäßig werden Fragen, die ein Kunde über die Detailansicht eines Artikels als E-Mail senden kann, an die E-Mail-Adresse geschickt, die unter :menuselection:`Stammdaten --> Grundeinstellungen` für die Info definiert wurde. Soll für einen bestimmten Artikel ein direkter Ansprechpartner zuständig sein, tragen Sie dessen E-Mail-Adresse hier ein. Alle Anfragen zum Artikel werden direkt an diesen Mitarbeiter versandt.
