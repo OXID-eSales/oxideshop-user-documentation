@@ -183,6 +183,7 @@ Verbesserung im Shop-Administrationsbereich
 -------------------------------------------
 
 tbd
+
 Neue Funktionen für Entwickler
 ------------------------------
 
@@ -192,10 +193,28 @@ Clean Up
 
 
 
-Komponenten
------------
+Aktualisierte Komponenten
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Repositories ohne Link sind private Repositories.
+Wir haben die folgenden Komponenten und Module aktualisiert:
+
+* `OXID eShop CE (Update von v7.1.0 auf v7.2.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.2.0/CHANGELOG-7.2.md>`_
+* OXID eShop PE (Update von v7.1.0 auf v7.2.0)
+* OXID eShop EE (Update von v7.1.0 auf v7.2.0)
+* `Apex theme (Update von v1.4.0 auf v2.0.0) <https://github.com/OXID-eSales/apex-theme/blob/v2.0.0/CHANGELOG-2.x.md#v200---2024-10-14>`_
+* `Twig admin theme (Update von v2.4.0 auf v2.5.0) <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.5.0/CHANGELOG-2.x.md>`_
+* `Twig component CE (Update von v2.4.0 auf v2.5.0) <https://github.com/OXID-eSales/twig-component/blob/v2.5.0/CHANGELOG-2.x.md>`_
+* Twig component PE (Update von v2.4.0 auf v2.5.0)
+* Twig component EE (Update von v2.4.0 auf v2.5.0)
+* `OXID eShop demo data CE (Update von v8.0.1 auf v8.0.2) <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
+* OXID eShop demo data PE (update from v8.0.1 to v8.0.2)
+* OXID eShop demo data EE (Update von v8.0.2 auf v8.0.3)
+* `OXID eShop Demodata Installer (Update von 3.2.0 auf 3.3.0) <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.3.0/CHANGELOG-3.x.md>`_
+* `OXID eShop doctrine migration integration (Update von v5.2.0 auf v5.3.0) <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.3.0/CHANGELOG-5.x.md>`_
+* `WYSIWYG Editor + Mediathek (Update von v4.1.0 auf v4.2.0) <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.2.0/CHANGELOG.md>`_
+* `GDPR opt-in (Update von v4.0.0 auf v4.1.0) <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.1.0/CHANGELOG.md#v410---2024-10-14>`_
+* `Media Library Module (Update von v2.0.0 auf v2.1.1) <https://github.com/OXID-eSales/media-library-module/blob/v2.1.1/CHANGELOG.md>`_
+* Visual CMS (Update von v6.0.0 auf v7.0.2)
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -208,7 +227,7 @@ Die Compilation enthält die folgenden Komponenten:
 
 * `Apex theme 2.0.0 <https://github.com/OXID-eSales/apex-theme/blob/v2.0.0/CHANGELOG-2.x.md>`_
 
-* `Twig admin theme 2.5.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.5.0/CHANGELOG.md>`_
+* `Twig admin theme 2.5.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.5.0/CHANGELOG-2.x.md>`_
 * `Twig component CE 2.5.0 <https://github.com/OXID-eSales/twig-component/blob/v2.5.0/CHANGELOG-2.x.md>`_
 * Twig component PE 2.5.0
 * Twig component EE 2.5.0
@@ -227,7 +246,7 @@ Die Compilation enthält die folgenden Komponenten:
 
 * `GDPR Opt-In 4.1.0 <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.1.0/CHANGELOG.md>`_
 * `OXID Cookie Management powered by usercentrics 3.0.0 <https://github.com/OXID-eSales/usercentrics/blob/v3.0.0/CHANGELOG.md>`_
-* Visual CMS 7.0.1 (PE/EE)
+* Visual CMS 7.0.2 (PE/EE)
 
 * `WYSIWYG Editor 4.2.0 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.2.0/CHANGELOG.md>`_
 * `Mediathek 2.1.1 <https://github.com/OXID-eSales/media-library-module/blob/v2.1.1/CHANGELOG.md>`_
