@@ -6,47 +6,51 @@ Release-Datum: tbd
 Änderungen im Überblick
 -----------------------
 
-* Core: Veraltete Demodaten-Bilder aus der CE Komponente entfernt
-* Core: Support von PHP 8.2/8.3
-* Core: Support von MySQL 8.0 und MariaDB11
-* Core: Order mail disable via parameter
-* Core: Verbesserung der Password-Vergessen/Passwort-Änderungs Funktionalität.
+Core
+^^^^
+* Entfernung veralteter Demodaten-Bilder aus der CE-Komponente
+* Unterstützung von PHP 8.2/8.3
+* Unterstützung von MySQL 8.0 und MariaDB 11
+* :ref:`Möglichkeit des Deaktivierens von Bestell-E-Mails <E-Mail-Benachrichtigungen_deaktivieren>`
+* Verbesserung der Password-Vergessen/Passwort-Änderungs-Funktionalität
 
-* APEX: flexible Zoompics (feature)
-* APEX: script in ajax call (feature)
-* APEX: Google Analytics 4 (Pageaccess, orders)
-* APEX: SEO Microdata Update
+APEX
+^^^^
+* `Flexible Zoom-Bilder (Feature) <https://docs.oxid-esales.com/eshop/de/7.2/releases/releases-72/oxid-eshop-720.html#user-experience>`_
+* :ref:`Skript in AJAX-Aufruf (Feature) <loading-dynamic-content>`
+* Google Analytics 4 (Seitenzugriff, Bestellungen)
+* SEO-Mikrodaten-Update
 
-* GDPR user data export in admin
+Administration
+^^^^^^^^^^^^^^
 
-* VCMS Bundle migration to new layout, improvements siehe changelogs
+`DSGVO-konformes Exportieren von Benutzerdaten <https://docs.oxid-esales.com/eshop/de/7.2/oxid-eshop-720.html#dsgvo-konformes-exportieren-von-benutzerdaten>`_
 
+VCMS
+^^^^
+
+Das VCMS-Bundle wurde auf ein neues Layout migriert und enthält verschiedene Verbesserungen.
 
 Korrekturen
 -----------
-* Die Compilation 7.2.0 beinhaltet die Korrekturen aus Compilation 7.0.4/7.1.1:
-  - Netto-Preise im Frontend
-  - Optimierte ShopId-Berechnung
 
-* User registration in the Private Sales mode - Emailbestätigung zur Aktivierung ist zwingend benötigt
+* Die Compilation 7.2.0 enthält die Korrekturen aus Compilation 7.0.4/7.1.1:
 
-* New item in basket message display `#0007548 <https://bugs.oxid-esales.com/view.php?id=7548>`_, `PR-964 <https://github.com/OXID-eSales/oxideshop_ce/pull/964>`_
+  * Netto-Preise im Frontend
+  * Optimierte ShopId-Berechnung
 
-* Multiple language creation `#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_
-
-* Twig Component ifcontent extension `#0007231 <https://bugs.oxid-esales.com/view.php?id=7231>`_
-
+* Benutzerregistrierung im Private-Sales-Modus – E-Mail-Bestätigung zur Aktivierung ist zwingend erforderlich.
+* Neue Meldung bei Artikeln im Warenkorb anzeigen: `#0007548 <https://bugs.oxid-esales.com/view.php?id=7548>`_, `PR-964 <https://github.com/OXID-eSales/oxideshop_ce/pull/964>`_
+* Mehrsprachigkeitserstellung: `#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_
+* Twig-Komponente ``ifcontent``-Erweiterung: `#0007231 <https://bugs.oxid-esales.com/view.php?id=7231>`_
 * Visual CMS 7.0.1 enthält die Korrekturen aus Visual CMS 4.1.1/6.0.1
+* APEX: siehe `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.2.x/CHANGELOG-7.2.md>`_.
 
-* APEX siehe changelog
-
-
-
-En Detail
-=========
+Im Detail
+---------
 
 User Experience
----------------
+^^^^^^^^^^^^^^^
 
 Verbessern Sie mit drei neuen Zoom-Optionen das Einkaufserlebnis für Ihre Kunden in Ihrem OXID eShop.
 
@@ -73,126 +77,85 @@ Sie können den gewünschten Zoom global für Ihren OXID eShop einstellen. Zusä
 
 Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Zoom wählen`.
 
-
-Die Änderungen im Überblick
----------------------------
-
-* Sicherheit & Zuverlässigkeit
-
-    Aus Sicherheitsgründen erfordert OXID eShop 7.2.0 die Composer-Version 2.7.7
-    Weitere Informationen finden Sie unter
-    * `Composer Version 2.7.7 <https://github.com/composer/composer/releases/tag/2.7.7>`_
-    * `CVE-2024-35241 <https://github.com/advisories/GHSA-47f6-5gq3-vx9c>`_
-    * `CVE-2024-35242 <https://github.com/advisories/GHSA-v9qv-c7wm-wgmf>`_
-
-   Verbesserung der Password-Vergessen/Passwort-Änderungs Funktionalität.
-
-
-* Barrierefreiheit
-  Kleinere Verbesserungen im APEX-Theme, siehe Changelog
-
-
-* Visual CMS & Mediathek
-  Siehe Changelog
-
-* Neue Funktionen für Entwickler
-
-  Bestellbestätigungsemaio kann per Parameter ausgeschaltet werden:
-  https://github.com/OXID-eSales/developer_documentation/blob/b-7.2.x/development/modules_components_themes/project/parameters.rst
-
-  APEX: Javascript execution on ajax call, am besten auf Doku verlinken
-
-
-Verbesserung im Shop-Administrationsbereich
--------------------------------------------
-
-Newsletter
-^^^^^^^^^^
-.. todo: OXDEV-7028: Newsletter export data enhanced · OXID-eSales/oxideshop-user-documentation@a19e24b -- keine neue Funktion, nur Doku erweitert: betrieb/newsletter/newsletter.rst
-
-As a shop owner I want to know exactly what Export users function does: https://oxid-esales.atlassian.net/browse/OXDEV-7028
-
-Statt
-
-Die Datensätze werden in eine CSV-Datei geschrieben, deren Dateinamen aus :file:`Export_recipients_`, einem angehängten Datum im Format JJJJ-MM-TT und der Dateiendung :file:`.csv` besteht. Die Datei enthält Anrede, Vorname, Nachname, E-Mail-Adresse, Opt-in-Status und zugeordnete Benutzergruppen für jeden Abonnenten. Opt-in-Status kann abonniert, nicht abonniert oder nicht bestätigt sein. Die Datei kann direkt im verwendeten Browser geöffnet oder lokal auf dem Rechner gespeichert werden.
-Die Datensätze werden in eine CSV-Datei geschrieben, deren Dateinamen aus :file:`Export_user_recipient_status_`, einem angehängten Datum im Format JJJJ-MM-TT und der Dateiendung :file:`.csv` besteht. Die Datei enthält Anrede, Vorname, Nachname, E-Mail-Adresse, Opt-in-Status, Land und zugeordnete Benutzergruppen für jeden Abonnenten. Opt-in-Status kann abonniert, nicht abonniert oder nicht bestätigt sein. Die Datei kann direkt im verwendeten Browser geöffnet oder lokal auf dem Rechner gespeichert werden.
-
-:ref:`betrieb/newsletter/newsletter:Newsletter`
-
-
-Make mail sending optional (configuration option)
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-New parameter oxid_esales.email.disable_order_emails to enable and disable sending order emails
-
-.. todo: https://oxid-esales.atlassian.net/browse/OXDEV-6846
-.. todo: https://github.com/OXID-eSales/developer_documentation/commit/5c970ea708e2f2b9dd67a2cfcd0129acb5df9c1a
-
-.. todo: Ref testen: https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/parameters.html`_
-
-
-
-
-Neue Funktionen für Entwickler
-------------------------------
-
-Systemvoraussetzungen
-^^^^^^^^^^^^^^^^^^^^^
-
-* MySQL 8.0 (MySQL 5.7 wird unterstützt, aber wir empfehlen es sicht)
-* MariaDB (getestet mit MariaDB 11)
-* PHP Versionen 8.2 oder 8.3
-
-
-
 Sicherheit & Zuverlässigkeit
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* Aus Sicherheitsgründen erfordert OXID eShop 7.2.0 die Composer-Version 2.7.7.
+
+   Weitere Informationen finden Sie unter
+
+   * `Composer Version 2.7.7 <https://github.com/composer/composer/releases/tag/2.7.7>`_
+   * `CVE-2024-35241 <https://github.com/advisories/GHSA-47f6-5gq3-vx9c>`_
+   * `CVE-2024-35242 <https://github.com/advisories/GHSA-v9qv-c7wm-wgmf>`_
+
+* Verbesserung der Password-Vergessen/Passwort-Änderungs-Funktionalität.
 
 Barrierefreiheit
-----------------
+^^^^^^^^^^^^^^^^
 
-
+Kleinere Verbesserungen im APEX-Theme, siehe `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.2.x/CHANGELOG-7.2.md>`_
 
 Visual CMS & Mediathek
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: Input MF
+.. todo: #MF: Was wurde geändert?
 
-Weitere Informationen zu Änderungen finden Sie in den folgenden Changelogs:
+Siehe Changelogs:
 
-* Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/v7.0.1/CHANGELOG-7.x.md
-* WYSIWYG-Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.2.0/CHANGELOG.md
+* Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/v7.2.0/CHANGELOG-7.2.md
 * Mediathek: https://github.com/OXID-eSales/media-library-module/blob/v2.1.1/CHANGELOG.md
 
-Verbesserung im Shop-Administrationsbereich
--------------------------------------------
-
-
-
-
 Neue Funktionen für Entwickler
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Abhängigkeiten zwischen Modulen definieren
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* Berücksichtigen Sie folgende Systemvoraussetzungen:
 
-#tbd
+  * MySQL 8.0 (MySQL 5.7 wird unterstützt, aber wir empfehlen es sicht)
+  * MariaDB (getestet mit MariaDB 11)
+  * PHP Versionen 8.2 oder 8.3
 
+  .. _E-Mail-Benachrichtigungen_deaktivieren:
 
-Verbesserung im Shop-Administrationsbereich
--------------------------------------------
+* Deaktivieren Sie bei Bedarf den Versand von E-Mail-Benachrichtigungen für Bestellungen.
 
-tbd
+  Standardmäßig wird bei Eingang einer neuen Bestellung eine E-Mail an den Kunden und den Shop-Betreiber gesendet.
 
-Neue Funktionen für Entwickler
-------------------------------
+  .. todo: #HR: Use case verifizieren:
 
+  Das Deaktivieren der E-Mail-Benachrichtigungen kann nützlich sein, wenn Sie beispielsweise ein ERP-System verwenden oder ein Testsystem haben. In diesem Fall wird nur ein Log-Eintrag erstellt.
 
-Clean Up
---------
+  .. todo: URL verifizieren:
 
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation (Englisch) unter `Disabling order notification e-mails <https://docs.oxid-esales.com/developer/en/7.2/development/modules_components_themes/project/parameters.html#disabling-order-notification-e-mails>`_.
 
+  .. todo: https://oxid-esales.atlassian.net/browse/OXDEV-6846
+  .. todo: https://github.com/OXID-eSales/developer_documentation/commit/5c970ea708e2f2b9dd67a2cfcd0129acb5df9c1a
+  .. todo: Ref testen: https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/parameters.html`_
+
+  .. todo: Javascript execution on ajax call:
+
+  .. _loading-dynamic-content:
+
+* Verwenden Sie bei der Arbeit mit dynamischen Inhalten, die über Ajax geladen werden, die Methode ``setOuterHtmlAndExecuteScripts``, um Elemente im DOM durch neue Inhalte zu ersetzen und gleichzeitig die Ausführung von eingebettetem JavaScript in diesen Inhalten zu handhaben.
+
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation (Englisch) unter `Loading dynamic content via AJAX <https://docs.oxid-esales.com/developer/en/7.2/development/modules_components_themes/theme/twig/loading-dynamic-content.html>`_.
+
+DSGVO-konformes Exportieren von Benutzerdaten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Um Newsletter zu senden, exportieren Sie eine Liste der Newsletter-Abonnenten, die Sie dem externen Anbieter übergeben.
+
+Unsere Dokumentation beschreibt präziser den Aufbau der CSV-Datei.
+
+Weitere Informationen finden Sie unter `Newsletter <https://docs.oxid-esales.com/eshop/de/7.2/betrieb/newsletter/newsletter.html#newsletter-senden>`_.
+
+.. todo: OXDEV-7028: Newsletter export data enhanced · OXID-eSales/oxideshop-user-documentation@a19e24b -- keine neue Funktion, nur Doku erweitert: betrieb/newsletter/newsletter.rst
+   As a shop owner I want to know exactly what Export users function does: https://oxid-esales.atlassian.net/browse/OXDEV-7028
+   Die Datensätze werden in eine CSV-Datei geschrieben, deren Dateinamen aus :file:`Export_recipients_`, einem angehängten Datum im Format JJJJ-MM-TT und der Dateiendung :file:`.csv` besteht. Die Datei enthält Anrede, Vorname, Nachname, E-Mail-Adresse, Opt-in-Status und zugeordnete Benutzergruppen für jeden Abonnenten. Opt-in-Status kann abonniert, nicht abonniert oder nicht bestätigt sein. Die Datei kann direkt im verwendeten Browser geöffnet oder lokal auf dem Rechner gespeichert werden.
+   Die Datensätze werden in eine CSV-Datei geschrieben, deren Dateinamen aus :file:`Export_user_recipient_status_`, einem angehängten Datum im Format JJJJ-MM-TT und der Dateiendung :file:`.csv` besteht. Die Datei enthält Anrede, Vorname, Nachname, E-Mail-Adresse, Opt-in-Status, Land und zugeordnete Benutzergruppen für jeden Abonnenten. Opt-in-Status kann abonniert, nicht abonniert oder nicht bestätigt sein. Die Datei kann direkt im verwendeten Browser geöffnet oder lokal auf dem Rechner gespeichert werden.
+
+Komponenten
+-----------
 
 Aktualisierte Komponenten
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -254,11 +217,6 @@ Die Compilation enthält die folgenden Komponenten:
 * `Makaira 2.1.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.2/CHANGELOG.md>`_
 * `Eye-Able 3.0.3 <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/blob/v3.0.3/CHANGELOG.md>`_
 
-
-Korrekturen
------------
-
-Die Korrekturen finden Sie im `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.2.x/CHANGELOG-7.2.md>`_.
 
 Installation
 ------------
