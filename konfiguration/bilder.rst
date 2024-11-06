@@ -165,7 +165,7 @@ Die angezeigte intrinsische Größe 300 x 300 Pixel weicht von der maximalen Gr�
 
      Bild der Kategorie, die auf der Startseite beworben wird.
 
-     Dieser Bild-Typ ist im Demo-Shop zur Zeit nicht umgesetzt, ließe sich aber umsetzen (Beispiel: :ref:`oxbaaz03c`).
+     Dieser Bild-Typ wird in den aktuellen Demodaten nicht verwendet. Er ist aber Teil des APEX-Themes und kann jederzeit eingesetzt werden (Beispiel: :ref:`oxbaaz03c`).
 
      Name der Funktion: ``category.getThumbUrl``
      |br|
