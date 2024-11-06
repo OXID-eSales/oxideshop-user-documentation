@@ -3,8 +3,6 @@ OXID eShop 7.0.4
 
 Release-Datum: xx.xx.2024
 
-Korrekturen
------------
 
 Änderungen
 ----------
@@ -19,6 +17,8 @@ Weitere Informationen finden Sie unter
 * `CVE-2024-35241 <https://github.com/advisories/GHSA-47f6-5gq3-vx9c>`_
 * `CVE-2024-35242 <https://github.com/advisories/GHSA-v9qv-c7wm-wgmf>`_
 
+Korrekturen
+-----------
 
 * Darstellung von Netto-Preisen im Frontend
 
