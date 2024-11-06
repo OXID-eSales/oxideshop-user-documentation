@@ -189,7 +189,7 @@ Die angezeigte intrinsische Größe 300 x 300 Pixel weicht von der maximalen Gr�
      * in der Warenkorb-Vorschau (Minibasket) (:ref:`oxbaaz03d`, Pos. 1)
      * im Warenkorb (:ref:`oxbaaz03d`, Pos. 2)
      * als Bildumschalter (:ref:`oxbaaz03d`, Pos. 3)
-     * als Bildumschalter für den Modal-Zoom (siehe :ref:`konfiguration/bilder:Zoom wählen`)
+     * als Bildumschalter für den Modal-Zoom
      * für die Größe der Geschenkverpackung
 
      Name der Funktion: ``article.getIconUrl``
@@ -302,10 +302,10 @@ Die angezeigte intrinsische Größe 300 x 300 Pixel weicht von der maximalen Gr�
 
      Vergrößerte Anzeige modaler Artikelbilder, die sich auf der Detailseite aufrufen lässt.
 
-     Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Zoom wählen`.
-
      Name der Funktion: ``article.getZoomPictureUrl``
      |br|
      Name des Parameters: ``sZoomImageSize``
      |br|
      Standardgröße: 1200 Pixel breit und 1200 Pixel hoch.
+
+.. Intern: oxbaaz, Status:

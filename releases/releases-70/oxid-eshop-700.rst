@@ -39,7 +39,7 @@ Technologien
 
 * Unterstützung des Bildformats WebP
 
-  Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Bildgenerierung und -qualität`.
+  Weitere Informationen finden Sie unter :ref:`konfiguration/bilder:Bildqualität festlegen`.
 
 * Aktualisierung der Symfony-Komponenten auf Version 6
 
