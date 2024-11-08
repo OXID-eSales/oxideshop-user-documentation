@@ -9,8 +9,6 @@ Aus Sicherheitsgründen erfordert OXID eShop 6.5.5 die Composer-Version 2.7.7
 
 Weitere Informationen finden Sie unter
 
-Weitere Informationen finden Sie unter
-
 * `Composer Version 2.7.7 <https://github.com/composer/composer/releases/tag/2.7.7>`_
 * `CVE-2024-35241 <https://github.com/advisories/GHSA-47f6-5gq3-vx9c>`_
 * `CVE-2024-35242 <https://github.com/advisories/GHSA-v9qv-c7wm-wgmf>`_
@@ -21,11 +19,11 @@ Verbesserungen und Anpassungen
 Änderungen in der Compilation finden Sie im Metapackage unter `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.5.4...v6.5.5>`_.
 
 Aktualisierte Komponenten
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Folgende Komponenten und Module haben wir aktualisiert:
 
-* OXID eShop CE (Update von 6.14.2 zu 6.14.3): `Changelog 6.14.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.3/CHANGELOG.md>`_
+* OXID eShop CE (Update von 6.14.2 auf 6.14.3): `Changelog 6.14.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.3/CHANGELOG.md>`_
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
