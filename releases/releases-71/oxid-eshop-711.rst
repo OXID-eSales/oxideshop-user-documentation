@@ -3,15 +3,15 @@ OXID eShop 7.1.1
 
 Release-Datum: xx.xx.2024
 
-Die Änderungen im Überblick
----------------------------
+Sicherheits-Updates
+-------------------
 
-Änderungen
-----------
+Composer
+^^^^^^^^
 
-Um eine Sicherheitslücke im Composer zu schließen, installieren Sie OXID eShop 7.1.1.
+Sicherheitslücke geschlossen: Installation von OXID eShop 7.1.1 erforderlich, um eine Schwachstelle im Composer zu beheben.
 
-Aus Sicherheitsgründen erfordert OXID eShop 7.1.1 die Composer-Version 2.7.7
+Voraussetzung: OXID eShop 7.1.1 benötigt Composer Version 2.7.7 zur Erhöhung der Sicherheit.
 
 Weitere Informationen finden Sie unter
 
@@ -20,36 +20,33 @@ Weitere Informationen finden Sie unter
 * `CVE-2024-35242 <https://github.com/advisories/GHSA-v9qv-c7wm-wgmf>`_
 
 
-Wysiwig-Editor:
+WYSIWYG-Editor
+^^^^^^^^^^^^^^
 
-Verbesserung der Sicherheit: CMS content wird vorgefiltert, so dass Javascript im Content nicht mehr im
-Shop-Backoffice ausgeführt wird.
-
+Verbesserung der Sicherheit: JavaScript im CMS-Content wird im Shop-Backoffice nicht mehr ausgeführt, da eine Vorfilterung implementiert wurde.
 
 Korrekturen
 -----------
 
-* Die Compilation 7.1.1 beinhaltet die Korrekturen aus Compilation 7.0.4:
-  - Netto-Preise im Frontend
-  - Optimierte ShopId-Berechnung
+* Die Compilation 7.1.1 enthält die Korrekturen aus Compilation 7.0.4:
 
-* PR #962 Rückgabewert beim Löschen von Usergruppen `<https://github.com/OXID-eSales/oxideshop_ce/pull/962>`_.
+  * Frontend: Korrekte Darstellung von Netto-Preisen
+  * Backend: Optimierung der Performance durch Verbesserung der `ShopId``-Berechnung
 
-* PR #963 Laden von Übersetzungsfiles für Custom Themes  `<https://github.com/OXID-eSales/oxideshop_ce/pull/963>`_.
+  Weitere Informationen finden Sie in den `Release Notes für OXID eShop 7.0.4 <https://docs.oxid-esales.com/eshop/de/7.0/releases/releases-70/oxid-eshop-704.html#Korrekturen>`_.
 
-* APEX Theme enthält einige Korrekturen, Details im Changelog
+* Benutzergruppen: PR #962 korrigiert den Rückgabewert beim Löschen von Benutzergruppen. Details finden Sie unter `GitHub-PR #962 <https://github.com/OXID-eSales/oxideshop_ce/pull/962>`_.
+* Übersetzungsdateien: PR #963 ermöglicht das Laden von Übersetzungsdateien für benutzerdefinierte Themes. Details finden Sie unter `GitHub-PR #963 <https://github.com/OXID-eSales/oxideshop_ce/pull/963>`_.
+* APEX Theme: Verschiedene Korrekturen (Details siehe Changelog).
+* Mediathek: Verschiedene Korrekturen (Details siehe Changelog).
+* VisualCMS (nur PE/EE): Automatische Migration auf neue Layout-Klassen (Details siehe Changelog).
 
-* Mediathek enthält einige Korrekturen, Details im Changelog
+Das Changelog finden Sie unter `Changelog 7.1.x <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md>`_.
 
-* VisualCMS: (nur Professional und Enterprise Edition) Automatische Migration auf neue Layout-Klassen, Details im Changelog.
+Komponenten
+-----------
 
-
-Neuerungen und Optimierungen im Detail
---------------------------------------
-
-Änderungen bei der Compilation im Metapackage finden Sie unter `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v7.1.0...v7.1.1>`_.
-
-Die Korrekturen finden Sie im `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.1.1/CHANGELOG-7.1.md>`_.
+Änderungen in der Compilation sind im Metapackage einsehbar. Details finden Sie auf Github im Vergleich der Versionen `v7.1.0...v7.1.1 <https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v7.1.0...v7.1.1>`_.
 
 Aktualisierte Komponenten
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -101,12 +98,6 @@ Die Compilation enthält die folgenden Komponenten (aktualisierte Versionen):
 * `Mediathek 2.0.1 <https://github.com/OXID-eSales/media-library-module/blob/v2.0.1/CHANGELOG.md>`_
 * `Makaira 2.1.2 <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.2/CHANGELOG.md>`_
 * `Eye-Able 3.0.3 <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/tree/v3.0.3>`_
-
-
-Korrekturen
------------
-
-Die Korrekturen finden Sie im `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.1.x/CHANGELOG-7.1.md>`_.
 
 Installation
 ------------
