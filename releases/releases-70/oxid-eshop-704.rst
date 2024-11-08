@@ -3,7 +3,6 @@ OXID eShop 7.0.4
 
 Release-Datum: xx.xx.2024
 
-
 Änderungen
 ----------
 
@@ -22,24 +21,21 @@ Korrekturen
 
 * Darstellung von Netto-Preisen im Frontend
 
-  Beschreibung: Es konnte dazu kommen, dass im Frontend Prozentzeischen anstelle von 0% Mehrwertsteer ausgewiesen wurde.
+  Es konnte dazu kommen, dass bei Netto-Preisen im Frontend ein Platzhalter anstelle von 0% Mehrwertsteuer ausgewiesen wurde.
 
-  .. todo:: https://oxid-esales.atlassian.net/browse/OXDEV-7907 für mehr Infos
+* Performance-Verbesserung: ``ShopId``-Berechnung nur einmal pro Request
 
-* Performanceverbesserung: ShopId-Berechnung nur einmal pro Request
+  Während eines Requests wurde unter Umständen mehrfach die ``ShopId`` berechnet.
 
-  Beschreibung: Während eines Requests wurde unter Umständen mehrfach die ShopId berechnet
+  Lösung: ``ShopId`` wird im Context Object als private Property gespeichert.
 
-  Lösung: ShopId wird im COntext Object als private Property gespeichert.
-
-  Vorteil: Diese Optimierung führt zu einer Beschleunigung des Shops.
+  Vorteil: Diese Optimierung führt zu einer Beschleunigung Ihres OXID eShops.
 
   Wir empfehlen allen Shop-Betreibern, dieses Update zu implementieren, um von den Performance-Verbesserungen zu profitieren.
 
-* VisualCMS: (nur Professional und Enterprise Edition)
-  Automatische Migration auf neue Layout-Klassen.
+* Visual CMS: (nur Professional und Enterprise Edition): Automatische Migration auf neue Layout-Klassen.
 
-  .. todo:: Informationen von Mikkel einholen
+  .. todo:: #MF: Informationen von Mikkel einholen
 
 
 Neuerungen und Optimierungen im Detail
@@ -55,7 +51,6 @@ Aktualisierte Komponenten
 Wir haben die folgenden Komponenten und Module aktualisiert:
 
 * `OXID eShop CE (Update von 7.0.4 auf 7.0.5) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.5/CHANGELOG-7.0.md>`_
-
 * `Visual CMS (Update von 4.0.2 auf 4.1.1) <https://github.com/OXID-eSales/visual_cms_module/blob/v4.1.1/CHANGELOG-4.x.md>`_
 
 
