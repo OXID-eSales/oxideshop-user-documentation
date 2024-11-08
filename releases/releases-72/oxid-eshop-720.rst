@@ -102,8 +102,10 @@ Visual CMS & Mediathek
 
 Siehe Changelogs:
 
-* Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/v7.2.0/CHANGELOG-7.2.md
-* Mediathek: https://github.com/OXID-eSales/media-library-module/blob/v2.1.1/CHANGELOG.md
+* Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/b-7.2.x/CHANGELOG-7.x.md
+* Mediathek: https://github.com/OXID-eSales/media-library-module/blob/b-7.2.x/CHANGELOG.md
+* WYSIWYG-Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/b-7.2.x/CHANGELOG.md
+
 
 Neue Funktionen für Entwickler
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
