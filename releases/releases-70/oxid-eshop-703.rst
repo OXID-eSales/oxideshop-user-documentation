@@ -65,10 +65,6 @@ Wir haben die folgenden Komponenten und Module aktualisiert:
 * `Twig component PE (Update von 2.2.0 auf 2.3.0) <https://github.com/OXID-eSales/twig-component-pe/blob/v2.3.0/CHANGELOG.md>`_
 * `Twig component EE (Update von 2.2.0 auf 2.3.0) <https://github.com/OXID-eSales/twig-component-ee/blob/v2.3.0/CHANGELOG.md>`_
 
-* `OXID eShop demo data CE (Update von 8.0.0 auf 8.0.1) <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop demo data PE (update from 8.0.0 to 8.0.1) <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop demo data EE (Update von 8.0.1 auf 8.0.2) <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
-
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -77,7 +73,8 @@ Die Compilation enthält die folgenden Komponenten:
 
 * `OXID eShop CE 7.0.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.0.4/CHANGELOG-7.0.md>`_
 * `OXID eShop PE 7.0.0 <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.0.0/CHANGELOG.md>`_
-* `OXID eShop EE 7.0.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.1/CHANGELOG.md>`_
+* `OXID eShop EE 7.0.1 <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.0.1/CHANGELOG-7.0.md>`_
+
 * `Apex theme 1.2.2 <https://github.com/OXID-eSales/apex-theme/blob/v1.2.2/CHANGELOG-1.x.md>`_
 * `Twig admin theme 2.3.0 <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.3.0/CHANGELOG-2.x.md>`_
 * `Twig component CE 2.3.0 <https://github.com/OXID-eSales/twig-component/blob/v2.3.0/CHANGELOG.md>`_
@@ -87,9 +84,9 @@ Die Compilation enthält die folgenden Komponenten:
 * `OXID eShop composer plugin 7.1.1 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.1.1/CHANGELOG.md>`_
 * `OXID eShop Views Generator 2.1.0 <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.1.0/CHANGELOG.md>`_
 * `OXID eShop demo data installer 3.1.1 <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.1.1/CHANGELOG.md>`_
-* `OXID eShop demo data CE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop demo data PE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.1/CHANGELOG.md>`_
-* `OXID eShop demo data EE 8.0.2 <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.2/CHANGELOG.md>`_
+* `OXID eShop demo data CE 8.0.0 <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.0/CHANGELOG.md>`_
+* `OXID eShop demo data PE 8.0.0 <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.0/CHANGELOG.md>`_
+* `OXID eShop demo data EE 8.0.1 <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.0.1/CHANGELOG.md>`_
 * `OXID eShop doctrine migration integration 5.1.0 <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.1.0/CHANGELOG.md>`_
 * `OXID eShop facts 4.1.0 <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.1.0/CHANGELOG.md>`_
 * `Unified Namespace Generator 4.1.0 <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v4.1.0/CHANGELOG.md>`_
