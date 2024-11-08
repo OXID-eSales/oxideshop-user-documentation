@@ -33,7 +33,7 @@ Korrekturen
   * Frontend: Korrekte Darstellung von Netto-Preisen
   * Backend: Optimierung der Performance durch Verbesserung der `ShopId``-Berechnung
 
-  Weitere Informationen finden Sie in den `Release Notes für OXID eShop 7.0.4 <https://docs.oxid-esales.com/eshop/de/7.0/releases/releases-70/oxid-eshop-704.html#Korrekturen>`_.
+  Weitere Informationen finden Sie in den `Release Notes für OXID eShop 7.0.4 <https://docs.oxid-esales.com/eshop/de/7.0/releases/releases-70/oxid-eshop-704.html#korrekturen>`_.
 
 * Benutzergruppen: PR #962 korrigiert den Rückgabewert beim Löschen von Benutzergruppen. Details finden Sie unter `GitHub-PR #962 <https://github.com/OXID-eSales/oxideshop_ce/pull/962>`_.
 * Übersetzungsdateien: PR #963 ermöglicht das Laden von Übersetzungsdateien für benutzerdefinierte Themes. Details finden Sie unter `GitHub-PR #963 <https://github.com/OXID-eSales/oxideshop_ce/pull/963>`_.
