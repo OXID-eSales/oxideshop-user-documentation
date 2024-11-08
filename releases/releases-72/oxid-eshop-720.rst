@@ -122,7 +122,7 @@ Neue Funktionen für Entwickler
 
   .. todo: #HR: Use case verifizieren:
 
-  Das Deaktivieren der E-Mail-Benachrichtigungen kann nützlich sein, wenn Sie beispielsweise ein ERP-System verwenden oder ein Testsystem haben. In diesem Fall wird nur ein Log-Eintrag erstellt.
+  Das Deaktivieren der E-Mail-Benachrichtigungen kann beispielsweise dann sinnvoll sein, wenn Ihr ERP-System die Nachrichten sendet. In diesem Fall wird nur ein Log-Eintrag erstellt.
 
   .. todo: URL verifizieren:
 
