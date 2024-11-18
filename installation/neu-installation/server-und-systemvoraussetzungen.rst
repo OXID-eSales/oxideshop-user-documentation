@@ -81,13 +81,6 @@ Composer
 
 * Composer 2.7
 
-  Installieren Sie die Composer Version 2.7 beispielsweise wie folgt:
-
-  .. code:: bash
-
-     composer selfupdate --2.7.1
-
-
 Composer wird für die Installation des OXID eShop und Änderungen im Autoloading von Dateien (nicht zur Laufzeit) benötigt. Die Anforderungen an Composer finden sich unter `https://getcomposer.org/doc/00-intro.md#system-requirements <https://getcomposer.org/doc/00-intro.md#system-requirements>`_.
 
 OpenSSL
