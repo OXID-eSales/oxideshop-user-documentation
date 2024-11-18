@@ -31,11 +31,11 @@ Technologien
 
   Optional können Sie weiterhin Smarty verwenden.
   |br|
-  Weitere Informationen finden Sie unter `Switching to the legacy Smarty template engine <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/install_smarty_engine.html>`_.
+  Weitere Informationen finden Sie unter `Switching to the legacy Smarty template engine <https://docs.oxid-esales.com/developer/en/7.0/update/eshop_from_65_to_7/install_smarty_engine.html>`_.
 
 * Automatisches HTML-Escaping im Frontend
 
-  Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#check-html-escaping>`_.
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation unter `Check HTML escaping <https://docs.oxid-esales.com/developer/en/7.0/update/eshop_from_65_to_7/modules/modules.html#port-to-v7-html-escaping-20221123>`_.
 
 * Unterstützung des Bildformats WebP
 
@@ -67,7 +67,7 @@ Weitere Informationen finden Sie unter
 
 Bei einem Update auf die Version 7 ist es daher notwendig, dass Sie eigene Module in die neue Struktur überführen.
 
-Weitere Informationen finden Sie unter `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/latest/update/eshop_from_65_to_7/modules.html#port-to-v7-module-handler-20221123>`_.
+Weitere Informationen finden Sie unter `Check changes in the module handler <https://docs.oxid-esales.com/developer/en/7.0/update/eshop_from_65_to_7/modules/modules.html#port-to-v7-module-handler-20221123>`_.
 
 Console
 ^^^^^^^
