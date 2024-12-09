@@ -1,7 +1,7 @@
 OXID eShop 6.5.5
 ================
 
-Veröffentlichungstermin: xx.xx.2024
+Veröffentlichungstermin: 02.12.2024
 
 Um eine Sicherheitslücke im Composer zu schließen, installieren Sie OXID eShop 6.5.5.
 
