@@ -1,7 +1,7 @@
 OXID eShop 7.1.1
 ================
 
-Release-Datum: xx.xx.2024
+Release-Datum: 02.11.2024
 
 Sicherheits-Updates
 -------------------
