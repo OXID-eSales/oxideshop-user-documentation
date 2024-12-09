@@ -8,10 +8,10 @@ Installation
    :maxdepth: 1
    
    Neu-Installation <neu-installation/index>
-   Update von Version 6.x auf 7.1 (Developer Documentation, Englisch) <https://docs.oxid-esales.com/developer/en/7.1/update/eshop_from_65_to_7/update-to-7.1.html>
-   Minor Update (Developer Documentation, Englisch) <https://docs.oxid-esales.com/developer/en/7.1/update/minor-update.html>
 
 ..
+   Update von Version 6.x auf 7.1 (Developer Documentation, Englisch) <https://docs.oxid-esales.com/developer/en/7.1/update/eshop_from_65_to_7/update-to-7.1.html>
+   Minor Update (Developer Documentation, Englisch) <https://docs.oxid-esales.com/developer/en/7.1/update/minor-update.html>
    Patch-Update installieren <update/patch-update>
 
 .. todo: Patch-Update installieren <update/patch-update> zu 7.1.1 wieder reaktivieren
