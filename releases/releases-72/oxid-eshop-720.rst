@@ -1,7 +1,7 @@
 OXID eShop 7.2.0
 ================
 
-Release-Datum: tbd
+Release-Datum: 14.10.2024
 
 Änderungen im Überblick
 -----------------------
@@ -16,6 +16,7 @@ Core
 
 APEX
 ^^^^
+
 * `Flexible Zoom-Bilder (Feature) <https://docs.oxid-esales.com/eshop/de/7.2/releases/releases-72/oxid-eshop-720.html#user-experience>`_
 * :ref:`Skript in AJAX-Aufruf (Feature) <loading-dynamic-content>`
 * Google Analytics 4 (Seitenzugriff, Bestellungen)
@@ -24,7 +25,13 @@ APEX
 Administration
 ^^^^^^^^^^^^^^
 
-`DSGVO-konformes Exportieren von Benutzerdaten <https://docs.oxid-esales.com/eshop/de/7.2/oxid-eshop-720.html#dsgvo-konformes-exportieren-von-benutzerdaten>`_
+:ref:`DSGVO-konformes Exportieren von Benutzerdaten <GDPR-compliant-export>`
+
+Neue Module für Professional und Enterprise Edition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* :productname:`OXID Security-Modul`
+* :productname:`OXID Modul Gutscheine für Versandkosten-Ausgleich`
 
 VCMS
 ^^^^
@@ -93,12 +100,26 @@ Sicherheit & Zuverlässigkeit
 Barrierefreiheit
 ^^^^^^^^^^^^^^^^
 
-Kleinere Verbesserungen im APEX-Theme, siehe `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.2.x/CHANGELOG-7.2.md>`_
+Kleinere Verbesserungen im APEX-Theme
+
+Weitere Informationen finden Sie im `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.2.x/CHANGELOG-7.2.md>`_.
+
+Neue Module
+^^^^^^^^^^^
+
+Für die die Professional Edition und die Enterprise Edition stehen folgende neuen Module zur Verfügung:
+
+* :productname:`OXID Security-Modul`: Konfigurieren Sie Passwortrichtlinien, um die Sicherheit der Passwörter von Shop-Benutzern zu erzwingen.
+
+  Weitere Informationen finden Sie unter `Was ist eine Passwortrichtlinie? <https://docs.oxid-esales.com/modules/security/de/1.0/einfuehrung.html#was-ist-eine-passwortrichtlinie>`_.
+
+* :productname:`OXID Modul Gutscheine für Versandkosten-Ausgleich`: Generieren Sie Gutscheine mit flexiblem Betrag zum Ausgleich für Versandkosten.
+
+  Weitere Informationen finden Sie unter `OXID Modul Gutscheine für Versandkosten-Ausgleich: Wofür/Wofür nicht? <https://docs.oxid-esales.com/modules/freeshipping-coupons/de/1.0/einfuehrung.html>`_.
+
 
 Visual CMS & Mediathek
 ^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #MF: Was wurde geändert?
 
 Siehe Changelogs:
 
@@ -122,25 +143,20 @@ Neue Funktionen für Entwickler
 
   Standardmäßig wird bei Eingang einer neuen Bestellung eine E-Mail an den Kunden und den Shop-Betreiber gesendet.
 
-  .. todo: #HR: Use case verifizieren:
-
   Das Deaktivieren der E-Mail-Benachrichtigungen kann beispielsweise dann sinnvoll sein, wenn Ihr ERP-System die Nachrichten sendet. In diesem Fall wird nur ein Log-Eintrag erstellt.
 
-  .. todo: URL verifizieren:
+  .. todo: URL verifizieren: https://docs.oxid-esales.com/developer/en/7.2/development/modules_components_themes/project/parameters.html#disabling-order-notification-e-mails
 
   Weitere Informationen finden Sie in der Entwickler-Dokumentation (Englisch) unter `Disabling order notification e-mails <https://docs.oxid-esales.com/developer/en/7.2/development/modules_components_themes/project/parameters.html#disabling-order-notification-e-mails>`_.
-
-  .. todo: https://oxid-esales.atlassian.net/browse/OXDEV-6846
-  .. todo: https://github.com/OXID-eSales/developer_documentation/commit/5c970ea708e2f2b9dd67a2cfcd0129acb5df9c1a
-  .. todo: Ref testen: https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/parameters.html`_
-
-  .. todo: Javascript execution on ajax call:
 
   .. _loading-dynamic-content:
 
 * Verwenden Sie bei der Arbeit mit dynamischen Inhalten, die über Ajax geladen werden, die Methode ``setOuterHtmlAndExecuteScripts``, um Elemente im DOM durch neue Inhalte zu ersetzen und gleichzeitig die Ausführung von eingebettetem JavaScript in diesen Inhalten zu handhaben.
 
   Weitere Informationen finden Sie in der Entwickler-Dokumentation (Englisch) unter `Loading dynamic content via AJAX <https://docs.oxid-esales.com/developer/en/7.2/development/modules_components_themes/theme/twig/loading-dynamic-content.html>`_.
+
+
+.. _GDPR-compliant-export:
 
 DSGVO-konformes Exportieren von Benutzerdaten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -149,12 +165,9 @@ Um Newsletter zu senden, exportieren Sie eine Liste der Newsletter-Abonnenten, d
 
 Unsere Dokumentation beschreibt präziser den Aufbau der CSV-Datei.
 
-Weitere Informationen finden Sie unter `Newsletter <https://docs.oxid-esales.com/eshop/de/7.2/betrieb/newsletter/newsletter.html#newsletter-senden>`_.
+.. tofo: URL verif. : https://docs.oxid-esales.com/eshop/de/7.2/betrieb/newsletter/newsletter.html#newsletter-senden
 
-.. todo: OXDEV-7028: Newsletter export data enhanced · OXID-eSales/oxideshop-user-documentation@a19e24b -- keine neue Funktion, nur Doku erweitert: betrieb/newsletter/newsletter.rst
-   As a shop owner I want to know exactly what Export users function does: https://oxid-esales.atlassian.net/browse/OXDEV-7028
-   Die Datensätze werden in eine CSV-Datei geschrieben, deren Dateinamen aus :file:`Export_recipients_`, einem angehängten Datum im Format JJJJ-MM-TT und der Dateiendung :file:`.csv` besteht. Die Datei enthält Anrede, Vorname, Nachname, E-Mail-Adresse, Opt-in-Status und zugeordnete Benutzergruppen für jeden Abonnenten. Opt-in-Status kann abonniert, nicht abonniert oder nicht bestätigt sein. Die Datei kann direkt im verwendeten Browser geöffnet oder lokal auf dem Rechner gespeichert werden.
-   Die Datensätze werden in eine CSV-Datei geschrieben, deren Dateinamen aus :file:`Export_user_recipient_status_`, einem angehängten Datum im Format JJJJ-MM-TT und der Dateiendung :file:`.csv` besteht. Die Datei enthält Anrede, Vorname, Nachname, E-Mail-Adresse, Opt-in-Status, Land und zugeordnete Benutzergruppen für jeden Abonnenten. Opt-in-Status kann abonniert, nicht abonniert oder nicht bestätigt sein. Die Datei kann direkt im verwendeten Browser geöffnet oder lokal auf dem Rechner gespeichert werden.
+Weitere Informationen finden Sie unter `Newsletter senden <https://docs.oxid-esales.com/eshop/de/7.2/betrieb/newsletter/newsletter.html#newsletter-senden>`_.
 
 Komponenten
 -----------
@@ -173,7 +186,7 @@ Wir haben die folgenden Komponenten und Module aktualisiert:
 * Twig component PE (Update von v2.4.0 auf v2.5.0)
 * Twig component EE (Update von v2.4.0 auf v2.5.0)
 * `OXID eShop demo data CE (Update von v8.0.1 auf v8.0.2) <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.1/CHANGELOG.md>`_
-* OXID eShop demo data PE (update from v8.0.1 to v8.0.2)
+* OXID eShop demo data PE (update von v8.0.1 auf v8.0.2)
 * OXID eShop demo data EE (Update von v8.0.2 auf v8.0.3)
 * `OXID eShop Demodata Installer (Update von 3.2.0 auf 3.3.0) <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.3.0/CHANGELOG-3.x.md>`_
 * `OXID eShop doctrine migration integration (Update von v5.2.0 auf v5.3.0) <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.3.0/CHANGELOG-5.x.md>`_
