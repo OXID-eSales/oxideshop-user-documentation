@@ -1,15 +1,14 @@
-:orphan:
 OXID eShop 7.0.4
 ================
 
-Release-Datum: xx.xx.2024
+Release-Datum: 02.12.2024
 
 Änderungen
 ----------
 
 Um eine Sicherheitslücke im Composer zu schließen, installieren Sie OXID eShop 7.0.4.
 
-Aus Sicherheitsgründen erfordert OXID eShop 7.0.4 die Composer-Version 2.7.7
+Aus Sicherheitsgründen erfordert OXID eShop 7.0.4 die Composer-Version 2.7.7.
 
 Weitere Informationen finden Sie unter
 
