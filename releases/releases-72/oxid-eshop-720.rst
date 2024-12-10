@@ -43,7 +43,7 @@ Korrekturen
 
 * Die Compilation 7.2.0 enthält die Korrekturen aus Compilation 7.0.4/7.1.1:
 
-  * Netto-Preise im Frontend
+  * Darstellung von Netto-Preisen im Frontend
   * Optimierte ShopId-Berechnung
 
 * Benutzerregistrierung im Private-Sales-Modus – E-Mail-Bestätigung zur Aktivierung ist zwingend erforderlich.
@@ -133,7 +133,7 @@ Neue Funktionen für Entwickler
 
 * Berücksichtigen Sie folgende Systemvoraussetzungen:
 
-  * MySQL 8.0 (MySQL 5.7 wird unterstützt, aber wir empfehlen es sicht)
+  * MySQL 8.0 (MySQL 5.7 wird unterstützt, aber wir empfehlen es nicht)
   * MariaDB (getestet mit MariaDB 11)
   * PHP Versionen 8.2 oder 8.3
 
@@ -177,7 +177,7 @@ Aktualisierte Komponenten
 
 Wir haben die folgenden Komponenten und Module aktualisiert:
 
-* `OXID eShop CE (Update von v7.1.0 auf v7.2.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.2.0/CHANGELOG-7.2.md>`_
+* `OXID eShop CE (Update von v7.1.1 auf v7.2.0) <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.2.0/CHANGELOG-7.2.md>`_
 * OXID eShop PE (Update von v7.1.0 auf v7.2.0)
 * OXID eShop EE (Update von v7.1.0 auf v7.2.0)
 * `Apex theme (Update von v1.4.0 auf v2.0.0) <https://github.com/OXID-eSales/apex-theme/blob/v2.0.0/CHANGELOG-2.x.md#v200---2024-10-14>`_
@@ -192,8 +192,8 @@ Wir haben die folgenden Komponenten und Module aktualisiert:
 * `OXID eShop doctrine migration integration (Update von v5.2.0 auf v5.3.0) <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.3.0/CHANGELOG-5.x.md>`_
 * `WYSIWYG Editor + Mediathek (Update von v4.1.0 auf v4.2.0) <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v4.2.0/CHANGELOG.md>`_
 * `GDPR opt-in (Update von v4.0.0 auf v4.1.0) <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.1.0/CHANGELOG.md#v410---2024-10-14>`_
-* `Media Library Module (Update von v2.0.0 auf v2.1.1) <https://github.com/OXID-eSales/media-library-module/blob/v2.1.1/CHANGELOG.md>`_
-* Visual CMS (Update von v6.0.0 auf v7.0.2)
+* `Media Library Module (Update von v2.0.1 auf v2.1.1) <https://github.com/OXID-eSales/media-library-module/blob/v2.1.1/CHANGELOG.md>`_
+* Visual CMS (Update von v6.0.1 auf v7.0.2)
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
