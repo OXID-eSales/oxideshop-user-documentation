@@ -161,13 +161,9 @@ Neue Funktionen für Entwickler
 DSGVO-konformes Exportieren von Benutzerdaten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Um Newsletter zu senden, exportieren Sie eine Liste der Newsletter-Abonnenten, die Sie dem externen Anbieter übergeben.
+Exportieren Sie als Administrator alle Daten, die mit einem bestimmten Benutzer in Verbindung stehen, gemäß den GDPR-Vorschriften.
 
-Unsere Dokumentation beschreibt präziser den Aufbau der CSV-Datei.
-
-.. tofo: URL verif. : https://docs.oxid-esales.com/eshop/de/7.2/betrieb/newsletter/newsletter.html#newsletter-senden
-
-Weitere Informationen finden Sie unter `Newsletter senden <https://docs.oxid-esales.com/eshop/de/7.2/betrieb/newsletter/newsletter.html#newsletter-senden>`_.
+Weitere Informationen finden Sie unter `Benutzerdaten GDPR-konform exportieren <https://docs.oxid-esales.com/modules/gdpr-optin/de/latest/funktionsbeschreibung.html#benutzerdaten-gdpr-konform-exportieren>`_.
 
 Komponenten
 -----------
