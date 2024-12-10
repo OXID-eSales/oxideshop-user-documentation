@@ -163,7 +163,7 @@ DSGVO-konformes Exportieren von Benutzerdaten
 
 Exportieren Sie als Administrator alle Daten, die mit einem bestimmten Benutzer in Verbindung stehen, gemäß den GDPR-Vorschriften.
 
-Weitere Informationen finden Sie unter `Benutzerdaten GDPR-konform exportieren <https://docs.oxid-esales.com/modules/gdpr-optin/de/latest/funktionsbeschreibung.html#benutzerdaten-gdpr-konform-exportieren>`_.
+Weitere Informationen finden Sie in der GDPR Opt-in-Dokumentation unter `Benutzerdaten GDPR-konform exportieren <https://docs.oxid-esales.com/modules/gdpr-optin/de/latest/funktionsbeschreibung.html#benutzerdaten-gdpr-konform-exportieren>`_.
 
 Komponenten
 -----------
