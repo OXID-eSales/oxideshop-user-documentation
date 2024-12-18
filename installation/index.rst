@@ -5,7 +5,7 @@ Installation
    :maxdepth: 1
    
    Neu-Installation <neu-installation/index>
-   Standard Update (Developer Documentation, Englisch) <https://docs.oxid-esales.com/developer/en/7.1/update/standard-update.html>
+   Standard Update (Developer Documentation, Englisch) <https://docs.oxid-esales.com/developer/en/7.2/update/standard-update.html>
 
 ..
    Patch-Update installieren <update/patch-update>
