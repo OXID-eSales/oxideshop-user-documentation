@@ -9,7 +9,7 @@ Release-Datum: 02.12.2024
 Core
 ^^^^
 * Entfernung veralteter Demodaten-Bilder aus der CE-Komponente
-* Unterstützung von PHP 8.2/8.3
+* Unterstützung von PHP 8.2 und 8.3
 * Unterstützung von MySQL 8.0 und MariaDB 11
 * :ref:`Möglichkeit des Deaktivierens von Bestell-E-Mails <E-Mail-Benachrichtigungen_deaktivieren>`
 * Verbesserung der Password-Vergessen/Passwort-Änderungs-Funktionalität
@@ -133,9 +133,9 @@ Neue Funktionen für Entwickler
 
 * Berücksichtigen Sie folgende Systemvoraussetzungen:
 
-  * MySQL 8.0 (MySQL 5.7 wird unterstützt, aber wir empfehlen es nicht)
-  * MariaDB (getestet mit MariaDB 11)
-  * PHP Versionen 8.2 oder 8.3
+  * MySQL 8.0
+  * MariaDB 11
+  * PHP 8.2 oder 8.3
 
   .. _E-Mail-Benachrichtigungen_deaktivieren:
 
