@@ -72,15 +72,7 @@ Anzeigen von Rabatten
 
      Abb.: Beispiel: Artikel mit 2 Rabatten im Warenkorb
 
-
-.. Verwalten von Rabatten in der Bestellverwaltung
-.. -----------------------------------------------
-.. todo: #SB: Kann ich das Folgende einfach so machen, z.B. Rabatt streichen. Was ist der USe CAse? -- Geht nicht juristisch, höchsetens neue Ordner machen , alte Order als annulliert markieren; löschen! In Bestellverwaltung prüfen, ob es technisch überhaupt ginge; system speicher nur Gesamtsumme, aber nicht Rabatte und Gutscheine
-.. todo: #SB: Neun, das geht offenbar gar nicht:
-.. todo: #SB: Was auch auffällt: Endpreis mit Rabatt wird richtig berechnet, z.B. Cpoupé: Artikel brutto	108.000,00	  EUR, aber angezeigt als "Rabatt  	- 0,00	  EUR"
-
-.. Ein beim Kauf gewährter Rabatt lässt sich nachträglich in der Bestellverwaltung ändern. Ebenso kann ein Rabatt nach erfolgter Bestellung auf den Warenkorbwert gegeben werden. Siehe: :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`
-
+  Für Sie als Shopbetreiber wird der Rabatt in der Bestellverwaltung angezeigt (siehe :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`).
 
 Anlegen und Verwalten von Rabatten
 ----------------------------------
