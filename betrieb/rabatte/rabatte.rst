@@ -59,23 +59,18 @@ Anzeigen von Rabatten
 
 * Aktivieren Sie in Ihrem OXID eShop bei Bedarf verschiedene Rabatte gleichzeitig, die bei entsprechenden Bedingungen im Warenkorb berücksichtigt werden.
 
-  Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht.
+  Dabei werden Rabatte, die für bestimmte Artikel gelten, im Warenkorb durch den jetzt gültigen rabattierten Preis und den durchgestrichenen, ursprünglichen Artikelpreis kenntlich gemacht (:ref:`oxbahh02`, Pos. 1).
 
-  .. todo: #SB: Multiple Rabatte werden nicht aufgeschlüsselt: https://oxid-esales.atlassian.net/browse/OXDEV-8435?focusedCommentId=168711 "Dabei werden Rabatte, die für bestimmte Artikel gelten" -- Wie mache ich das? Z.B. Lagerräumungsrabatt 5000 € für OX7 Coupé zeigt an durchgestrichen, falsch: 115.000,00 €statt 120k, rabattierter Pries korrekt 115.000,00 €
+  Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt (:ref:`oxbahh02`, Pos. 2).
 
-  Rabatte, die für den gesamten Warenkatalog gelten, werden als jeweils eine Zeile bei der Auflistung des Gesamtbetrages für den Warenkorb angezeigt.
+  .. _oxbahh02:
 
-.. todo: "eine Zeile bei der Auflistung": OK: in meinem Fall "Rabatt 5% ab 500 € Einkaufswert"
-.. todo: #SB: OXDEV-? Sonnenbrille Ocean Eyes 95,85: Summer Sale 10% : rabattierter Preis 95,85: kein Rabatt angewendet, unabhängig von Sortierreihenfolge -- geht -- Bug ist: Rabattierter Preis wird nicht in Übersicht angezeigt
+  .. figure:: ../../media/screenshots/oxbahh02.png
+     :alt: Beispiel: Artikel mit 2 Rabatten im Warenkorb
+     :width: 650
+     :class: with-shadow
 
-
-.. todo: #tbd: Bild neu, sobald APEX-Bugs gefixt: 2 Rabatte
-    .. _oxbahh02:
-    .. figure:: ../../media/screenshots/oxbahh02.png
-       :alt: Beispiel: Artikel mit 2 Rabatten im Warenkorb
-       :width: 650
-       :class: with-shadow
-       Abb.: Beispiel: Artikel mit 2 Rabatten im Warenkorb
+     Abb.: Beispiel: Artikel mit 2 Rabatten im Warenkorb
 
 
 .. Verwalten von Rabatten in der Bestellverwaltung
