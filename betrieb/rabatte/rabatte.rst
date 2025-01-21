@@ -43,11 +43,6 @@ Arten von Rabatten
 Anzeigen von Rabatten
 ---------------------
 
-.. todo: Info: Gemäß OXDEV-8191 haben wir bei Rabatttyp = itm festgelegt, dass die Mindestmenge 1 sein muss
-   .. todo: alter Text:
-    * Steht in beiden Feldern 0, werden alle Artikel, für die dieser Rabatt gilt, im Shop direkt mit dem rabattierten Preis angezeigt.
-    * Beginnt die Einkaufsmenge und/oder der Einkaufswert mit 1, wird der Rabatt erst im Warenkorb ausgewiesen.
-
 * Bestimmen Sie die Plazierung:
 
   * Zeigen Sie das Angebot direkt mit den ermäßigten Preisen an.
