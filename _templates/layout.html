@@ -28,9 +28,7 @@
   <link rel="canonical" href="{{ theme_canonical_url }}{{ pagename }}.html"/>
   {% endif %}
 
-  {# JAVASCRIPTS #}
-  {# Usercentrics CMP Script Tag #}
-  <script type="application/javascript" src="https://app.usercentrics.eu/latest/main.js" id="FTseB8ZRL" ></script>
+  {# CSS #}
 
   {# OPENSEARCH #}
   {% if not embedded %}
@@ -38,31 +36,7 @@
   <link rel="search" type="application/opensearchdescription+xml" title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}" href="{{ pathto('_static/opensearch.xml', 1) }}"/>
   {% endif %}
 
-   <script type="text/javascript" src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
-  {%- if not embedded %}
-  {# XXX Sphinx 1.8.0 made this an external js-file, quick fix until we refactor the template to inherert more blocks directly from sphinx #}
-    {% if sphinx_version >= "1.8.0" %}
-      <script type="text/javascript" id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
-      {%- for scriptfile in script_files %}
-        {{ js_tag(scriptfile) }}
-      {%- endfor %}
-    {% else %}
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'{{ url_root }}',
-              VERSION:'{{ release|e }}',
-              LANGUAGE:'{{ language }}',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'{{ '' if no_search_suffix else file_suffix }}',
-              HAS_SOURCE:  {{ has_source|lower }},
-              SOURCELINK_SUFFIX: '{{ sourcelink_suffix }}'
-          };
-      </script>
-      {%- for scriptfile in script_files %}
-        <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
-      {%- endfor %}
-    {% endif %}
-    <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
+  {% endif %}
 
   {# RTD hosts this file, so just load on non RTD builds #}
   {% if not READTHEDOCS %}
@@ -105,6 +79,12 @@
   {%- endblock %}
   {%- block extrahead %} {% endblock %}
 
+  {# Usercentrics CMP Script Tag #}
+  <script type="application/javascript" src="https://app.usercentrics.eu/latest/main.js" id="FTseB8ZRL" ></script>
+
+  {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
+  <script src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
+
   <!-- EOL note based on cookie note https://github.com/Wruczek/Bootstrap-Cookie-Alert -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
   <!-- EOL note: Sicherstellen, dass das Banner nicht die Navigation verdeckt -->
@@ -130,7 +110,7 @@
 
 </head>
 
-<body class="wy-body-for-nav">
+<body class="wy-body-for-nav" role="document">
 
 {% block extrabody %} {% endblock %}
 <div class="wy-grid-for-nav">
@@ -195,7 +175,7 @@
 
     <div class="alert wy-text-center cookiealert show" role="alert">
 
-      Dies ist die Dokumentation für OXID eShop 6.2, der End of Life (EOL) erreicht hat und nicht mehr unterstützt wird.
+      Dies ist die Dokumentation für OXID eShop 6.2 der End of Life (EOL) erreicht hat und nicht mehr unterstützt wird.
       <!--
       <button type="button" class="btn btn-primary btn-sm acceptcookies" style="background-color:#C02124" aria-label="Close">
         Ich habe verstanden
