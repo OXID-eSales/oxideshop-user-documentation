@@ -3,11 +3,11 @@
 
 Für Artikel, die nach Gewicht, Volumen, Länge oder Fläche angeboten werden, müssen Sie den Grundpreis angeben.
 
-Dies ist im Paragraph 2 der `Preisangabeverordnung <http://www.gesetze-im-internet.de/pangv/>`_ geregelt.
+Dies ist im § 2 der `Preisangabeverordnung <http://www.gesetze-im-internet.de/pangv/>`_ geregelt.
 
-Beim Artikel ist daher nicht nur der Endpreis, sondern auch der Preis je Mengeneinheit auszuweisen.
+Für den Artikel ist daher nicht nur der Endpreis, sondern auch der Preis je Mengeneinheit auszuweisen.
 
-Der Grundpreis wird berechnet und auf der Detailseite des Artikels zusamen mit dem Endpreis angezeigt (:ref:`oxbafl01`).
+Der Grundpreis wird automatisch berechnet und auf der Detailseite des Artikels zusammen mit dem Endpreis angezeigt (:ref:`oxbafl01`, Pos. 1).
 
 .. _oxbafl01:
 
@@ -26,17 +26,33 @@ Um den Grundpreis eines Artikels zu berechnen und anzuzeigen, tun Sie Folgendes:
 1. Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
 #. Wählen Sie den gewünschten Artikel aus der Artikelliste.
 #. Wählen Sie die Registerkarte :guilabel:`Erweitert`.
-#. Geben Sie in die finden Sie die Eingabefelder :guilabel:`Menge` und :guilabel:`Mengeneinheit` die Menge des Artikels ein und legen Sie die Mengeneinheit fest.
+#. Geben Sie im Eingabefeld :guilabel:`Menge` die Artikelmenge ein und legen Sie im Feld :guilabel:`Mengeneinheit` die Einheit fest (:ref:`oxbafl02`, Pos. 1).
    |br|
-   Wählen Sie die Mengeneinheit aus der Dropdown-Liste oder tragen Sie diese ein, ohne eine Mengeneinheit auszuwählen (\"-\").
+   Wählen Sie die Mengeneinheit aus der Dropdown-Liste oder tragen Sie sie ein, ohne eine Mengeneinheit auszuwählen (\"-\").
+
+   .. _oxbafl02:
+
+   .. figure:: ../../media/screenshots/oxbafl02.png
+      :alt: Grundpreis automatisch berechnen
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Grundpreis automatisch berechnen
+
 #. Speichern Sie die Änderungen.
 
-Beispiel
---------
+|result|
+
+Der Grundpreis wird automatisch berechnet und auf der Detailseite des Artikels zusammen mit dem Endpreis angezeigt (:ref:`oxbafl01`, Pos. 1).
+
+Beispiele
+---------
 
 Bei einem Artikel, der in einer 500 g-Packung angeboten wird, tragen Sie 0,5 bei Menge ein und wählen kg als Mengeneinheit.
 
 Angenommen, der Artikel hat einen Preis von 6,99 €, wäre der Grundpreis 13,98 €/kg.
+
+Ein Artikel von 2 m² Größe kostet 39,90 €. Der Grundpreis pro m² beträgt 19,95 €.
 
 .. todo: #SB: für welchen Anwendungsfall brauche ich die folgende Info?
 
