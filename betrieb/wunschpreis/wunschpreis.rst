@@ -1,7 +1,21 @@
 Wunschpreis
 ===========
 
-Kunden können für Artikel aus dem Shop einen Preis angeben, zu dem sie diesen gern kaufen würden. Der Shopbetreiber kann die Kunden per E-Mail informieren, sobald dieser Wunschpreis erreicht oder unterschritten wurde. Die Funktion wird in den Einstellungen des Themes in der Sektion :guilabel:`Funktionen` für den Shop global aktiviert oder deaktiviert. Sie lässt sich aber auch auf einzelne Artikel anwenden. Aktivieren Sie das Kontrollkästchen :guilabel:`Wunschpreis deaktivieren` auf der Registerkarte :guilabel:`Erweitert` eines Artikels, um die Funktion für den jeweiligen Artikel abzuschalten. Wunschpreis hieß bis OXID eShop 6.2.1 Preisalarm.
+Kunden können für Artikel aus dem Shop einen Preis angeben, zu dem sie diesen gern kaufen würden.
+
+Der Shopbetreiber kann die Kunden per E-Mail informieren, sobald dieser Wunschpreis erreicht oder unterschritten wurde.
+
+.. attention::
+
+   Die Funktion Wunschpreis ist im APEX-Theme ausgeblendet.
+
+   Um die Funktion zu verwenden, wenden Sie sich an Ihren Implementierungspartner.
+
+Die Funktion wird in den Einstellungen des Themes in der Sektion :guilabel:`Funktionen` für den Shop global aktiviert oder deaktiviert.
+
+Sie lässt sich aber auch auf einzelne Artikel anwenden.
+
+Aktivieren Sie das Kontrollkästchen :guilabel:`Wunschpreis deaktivieren` auf der Registerkarte :guilabel:`Erweitert` eines Artikels, um die Funktion für den jeweiligen Artikel abzuschalten. Wunschpreis hieß bis OXID eShop 6.2.1 Preisalarm.
 
 .. image:: ../../media/screenshots/oxbajm01.png
    :alt: Detailansicht Artikel, Wunschpreis
