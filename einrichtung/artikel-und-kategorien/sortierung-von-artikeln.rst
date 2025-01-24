@@ -1,48 +1,96 @@
-﻿Sortierung von Artikeln
-=======================
-Die Reihenfolge, in der Artikel in einer Kategorie angezeigt werden, kann festgelegt werden. Dafür gibt es die Schnellsortierung auf Basis eines einzelnen Artikelmerkmals auf- oder absteigend und die manuelle Sortierung. Darüber hinaus können Sie den Kunden Ihres OXID eShop ermöglichen, die Artikel einer Kategorie nach vorgegebenen Kriterien zu sortieren.
+﻿Artikelreihenfolge festlegen
+============================
 
-Die Schnellsortierung basiert auf einer Einstellung bei der Kategorie. Aus einer Dropdown-Liste kann ein Artikelmerkmal, wie beispielsweise :guilabel:`Titel`, :guilabel:`Preis` oder :guilabel:`Angelegt am` ausgewählt werden. Zusätzlich muss festgelegt werden, ob die Artikel nach diesem Artikelmerkmal auf- oder absteigend sortiert werden sollen.
+Legen Sie die Reihenfolge fest, in der Artikel in einer Kategorie angezeigt werden.
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Kategorien`.
-* Wählen Sie die gewünschte Kategorie aus der Kategorieliste.
-* Öffnen Sie die Dropdown-Liste :guilabel:`Schnellsortierung` auf der Registerkarte :guilabel:`Stamm`.
-* Wählen Sie ein Artikelmerkmal für die Schnellsortierung aus.
-* Aktivieren Sie :guilabel:`asc` oder :guilabel:`desc` für eine aufsteigende oder eine absteigende Sortierung.
-* Speichern Sie die Einstellungen.
+* eine Schnellsortierung basierend auf einem einzelnen Artikelmerkmal in auf- oder absteigender Reihenfolge durchführen.
+* eine manuelle Sortierung vornehmen.
+* den Kunden Ihres OXID eShops ermöglichen, die Artikel einer Kategorie nach vorgegebenen Kriterien zu sortieren.
 
-Mit der manuellen Sortierung können die Artikel einer Kategorie in eine ganz bestimmte Reihenfolge gebracht werden.
+Artikel automatisch sortieren
+-----------------------------
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Kategorien`.
-* Wählen Sie die gewünschte Kategorie aus der Kategorieliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Artikel sortieren` auf der Registerkarte :guilabel:`Sortierung`.
-* Verschieben Sie alle Artikel per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Bringen Sie die Artikel damit in eine geänderte Reihenfolge.
-* Speichern Sie die neue Sortierung.
+Wählen Sie ein Artikelmerkmal, beispielsweise :guilabel:`Titel`, :guilabel:`Preis` oder :guilabel:`Angelegt am`, nach dem automatisch sortiert werden soll.
 
-In der linken Liste wird die nun aktuelle Sortierung angezeigt. Die Artikel haben in der Positionsspalte die für die Sortierung zuständigen Werte.
+Legen Sie fest, ob die Artikel nach diesem Artikelmerkmal auf- oder absteigend sortiert werden sollen.
 
-.. image:: ../../media/screenshots/oxbafq01.png
-   :alt: Artikel sortieren
-   :height: 313
-   :width: 400
+|procedure|
 
-Mit einer Einstellung in den Stammdaten können Sie festlegen, ob und wonach Ihre Kunden in Kategorien sortieren dürfen.
+1. Wählen Sie :menuselection:`Artikel verwalten --> Kategorien`.
+#. Wählen Sie in der Kategorieliste die gewünschte Kategorie.
+#. Öffnen Sie auf der Registerkarte :guilabel:`Stamm` die Dropdown-Liste :guilabel:`Schnellsortierung`.
+#. Wählen Sie ein Artikelmerkmal für die Schnellsortierung.
+#. Wählen Sie :guilabel:`asc` oder :guilabel:`desc` für eine aufsteigende oder eine absteigende Sortierung.
+#. Speichern Sie Ihre Einstellungen.
 
-* Gehen Sie zu :menuselection:`Stammdaten --> Grundeinstellungen`.
-* Öffnen Sie die Registerkarte :guilabel:`Einstell.` und wählen Sie den Abschnitt :guilabel:`Artikel`.
-* Aktivieren Sie das Kontrollkästchen :guilabel:`Benutzer können Artikellisten sortieren`.
-* Legen Sie die Felder für die Sortierung fest.
-* Speichern Sie die Einstellungen.
+Artikel manuell anordnen
+------------------------
 
-Die Felder, nach denen Artikel sortiert werden können, entsprechen den Datenbankfeldern der Tabelle *oxarticles* . Jedes Feld muss in einer Zeile stehen.
+Bringen Sie die Artikel einer Kategorie manuell in eine bestimmte Reihenfolge.
 
-.. image:: ../../media/screenshots/oxbafq02.png
-   :alt: Sortierungsmöglichkeiten
-   :height: 269
+|procedure|
+
+1. Wählen Sie :menuselection:`Artikel verwalten --> Kategorien`.
+#. Wählen Sie die gewünschte Kategorie aus der Kategorieliste.
+#. Stellen Sie sicher, dass auf der Registerkarte :guilabel:`Stamm` in der Dropdown-Liste :guilabel:`Schnellsortierung` die Option :guilabel:`keine Sortierung` gewählt ist.
+#. Wählen Sie auf der Registerkarte :guilabel:`Sortierung`die Schaltfläche :guilabel:`Artikel sortieren`.
+#. Verschieben Sie die Artikel in der gewünschten Reihenfolge in die rechte Liste des Zuordnungsfensters.
+#. Wählen Sie :guilabel:`Neue Sortierung` speichern.
+
+|result|
+
+In der linken Liste wird die nun aktuelle Sortierung angezeigt (:ref:`oxbafq01`, Pos. 1). In der Spalte :guilabel:`Position` stehen die für die Sortierung zuständigen Werte.
+
+.. _oxbafq01:
+
+.. figure:: ../../media/screenshots/oxbafq01.png
+   :alt: Artikelreihenfolge manuell festlegen
    :width: 650
+   :class: with-shadow
 
-Der Screenshot zeigt als Beispiel, dass Artikel außer nach Name und Preis auch nach der Artikelnummer sortiert werden können. Dafür wurde in den Stammdaten den standardmäßig eingetragenen Feldern *oxtitle*  und *oxvarprice*  das Feld *oxartnum*  hinzugefügt.
+   Abb.: Artikelreihenfolge manuell festlegen
+
+Kundenseitiges Sortieren ermöglichen
+------------------------------------
+
+Legen Sie fest, ob und nach welchen Kriterien Ihre Kunden die Artikel in Kategorien sortieren können.
+
+|procedure|
+
+1. Wählen Sie zu :menuselection:`Stammdaten --> Grundeinstellungen`.
+#. Wählen Sie auf der Registerkarte :guilabel:`Einstell.` den Abschnitt :guilabel:`Artikel`.
+#. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Benutzer können Artikellisten sortieren` aktiviert ist (:ref:`oxbafq02`, Pos. 1).
+#. Legen Sie die Felder für die Sortierung fest (:ref:`oxbafq02`, Pos. 2).
+
+   Sie haben folgenden Möglichkeiten:
+
+   * ``oxtitle``: Titel (Name) der Artikel
+   * ``oxprice``: Preis der Artikel
+   * ``xvarminprice``: Der niedrigste Preis der Artikel, wenn Varianten mit verschiedenen Preisen verwendet werden.
+   * ``oxartnum``: Artikelnummern
+   * ``oxrating``: Die Bewertung der Artikel
+   * ``oxstock``: Lagerbestand der Artikel
+
+   Jedes Feld muss in einer Zeile stehen.
+
+   Die Sortierfelder entsprechen den Datenbankfeldern der Tabelle ``oxarticles``.
+
+   .. _oxbafq02:
+
+   .. figure:: ../../media/screenshots/oxbafq02.png
+      :alt: Kundenseitiges Sortieren konfigurieren
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Kundenseitiges Sortieren konfigurieren
+
+#. Speichern Sie Ihre Einstellungen.
+
+|result|
+
+In unserem Beispiel können die Kunden zusätzlich zu Titel und Preis auch nach der Artikelnummer sortieren (:ref:`oxbafq02`, Pos. 3).
+
+Dafür haben wir in den Stammdaten den standardmäßig eingetragenen Feldern ``oxtitle``  und ``oxvarminprice``  das Feld ``oxartnum``  hinzugefügt (:ref:`oxbafq02`, Pos. 2).
 
 .. seealso:: :doc:`Kategorien - Registerkarte Stamm <../kategorien/registerkarte-stamm>` | :doc:`Kategorien - Registerkarte Sortierung <../kategorien/registerkarte-sortierung>`
 
