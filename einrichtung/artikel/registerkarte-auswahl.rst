@@ -3,7 +3,11 @@
 
 Auf der Registerkarte :guilabel:`Auswahl` können einem Artikel Attribute und/oder Auswahllisten zugeordnet werden.
 
-Artikel können viele Eigenschaften haben. Für etliche Eigenschaften, wie beispielsweise Gewicht oder Abmessungen, bietet der OXID eShop Eingabe- und Einstellmöglichkeiten. Sie können sofort verwendet werden. Benötigen Sie weitere Eigenschaften, um Ihre Artikel zu charakterisieren, können Sie dafür Attribute erstellen und diese den Artikeln zuweisen. In der Detailansicht des Artikels wird eine neue Registerkarte :guilabel:`SPEZIFIKATION` eingeblendet, in der die Attribute und deren Werte angezeigt werden.
+Artikel können viele Eigenschaften haben. Für etliche Eigenschaften, wie beispielsweise Gewicht oder Abmessungen, bietet der OXID eShop Eingabe- und Einstellmöglichkeiten. Sie können sofort verwendet werden.
+
+Benötigen Sie weitere Eigenschaften, um Ihre Artikel zu charakterisieren, können Sie dafür Attribute erstellen und diese den Artikeln zuweisen.
+
+In der Detailansicht des Artikels wird eine neue Registerkarte :guilabel:`Spezifikation` eingeblendet, in der die Attribute und deren Werte angezeigt werden.
 
 .. image:: ../../media/screenshots/oxbacm01.png
    :alt: Artikel - Registerkarte Auswahl
@@ -26,6 +30,6 @@ Ein weiteres Zuordnungsfenster wird mit der Schaltfläche :guilabel:`Auswahllist
    :height: 320
    :width: 400
 
-.. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Filtern von Artikeln <../artikel-und-kategorien/filtern-von-artikeln>`
+.. seealso:: :doc:`Attribute <../attribute/attribute>` | :doc:`Auswahllisten <../auswahllisten/auswahllisten>` | :doc:`Artikel filtern <../artikel-und-kategorien/filtern-von-artikeln>`
 
 .. Intern: oxbacm, Status:, F1: article_attribute.html

@@ -1,43 +1,90 @@
-﻿Filtern von Artikeln
-====================
-Die Artikel einer Kategorie können gefiltert werden. Sie können den Besuchern Ihres Onlineshops damit die Möglichkeit geben, die Anzeige von Artikeln einer Kategorie nach speziellen Artikeleigenschaften einzuschränken. Dies wird mit Attributen umgesetzt, die einerseits der Kategorie zugeordnet werden müssen. Andererseits benötigen die Artikel der Kategorie die Zuweisung des Attributes inklusive eines Wertes. OXID eShop wird mit einer Reihe von Attributen, wie beispielsweise Farbe, Größe oder Material ausgeliefert. Es können neue Attribute angelegt werden, die spezielle Artikeleigenschaften abbilden.
+﻿Artikel filtern
+===============
 
-Ein bestehendes Attribut wird einer Kategorie zugeordnet.
+Ermöglichen Sie Besuchern Ihres Onlineshops, die Artikel einer Kategorie nach speziellen Eigenschaften zu filtern (:ref:`oxbafr03`, Pos. 1).
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Attribute`.
-* Wählen Sie das gewünschte Attribut aus der Attributliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Kategorien zuordnen` auf der Registerkarte :guilabel:`Kategorien`.
-* Legen Sie eine Kategorie fest, die das Attribut verwenden soll.
-* Verschieben Sie die Kategorie per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Wiederholen Sie dies ggf. für weitere Kategorien.
-* Schließen Sie das Zuordnungsfenster.
+Nutzen Sie dazu Standard-Attribute (z.B. Farbe, Größe oder Material usw.) oder legen Sie eigene Attribute an.
 
-.. image:: ../../media/screenshots/oxbafr01.png
-   :alt: Attributfilter in der Kategorieansicht
-   :height: 330
-   :width: 400
+|procedure|
 
-Damit der Attributfilter in der Kategorieansicht angezeigt wird, muss das Attribut auch den Artikeln der jeweiligen Kategorie zugewiesen werden. Wurden der Kategorie mehrere Attribute zugeordnet, ist die Kategorie nach mehreren Artikeln filterbar. Attribute filtern nur die Kategorie, denen sie zugewiesen wurden, nicht aber deren Unterkategorien.
+1. Optional: Legen Sie eigene Filter-Attribute an.
 
-Ein Attribut wird einem Artikel zugeordnet.
+   Beispiel: Sie verkaufen Handtaschen mit dem Attribut ``Innenmaterial``.
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Attribute zuordnen` auf der Registerkarte :guilabel:`Auswahl`.
-* Verschieben Sie das Attribut per Drag \& Drop in die rechte Liste des Zuordnungsfensters.
-* Markieren Sie das Attribut in der rechten Liste.
-* Weisen Sie dem Attribut einen Wert für diesen Artikel zu.
-* Wiederholen Sie die Schritte ggf. für weitere Attribute.
-* Schließen Sie das Zuordnungsfenster.
+   a. Wählen Sie :menuselection:`Artikel verwalten --> Attribute`.
+   #. Wählen Sie :guilabel:`Neues Attribut anlegen`.
+   #. Speichern Sie Ihre Einstellungen.
 
-Die einzelnen Werte, die bei den Artikeln für dieses Attribut vergeben werden, stellen die Filtermöglichkeiten in der Kategorieansicht dar. Wenn Artikel das Attribut nicht verwenden, dann werden sie immer angezeigt, auch wenn nach dem Attribut gefiltert wird. Zusätzlich wird auf der Detailseite des Artikels eine neue Registerkarte :guilabel:`SPEZIFIKATION` mit seinen Attributen und deren Werten eingeblendet.
+2. Ordnen Sie das Attribut einer Kategorie zu.
 
-.. image:: ../../media/screenshots/oxbafr02.png
-   :alt: Attributfilter in der Kategorieansicht
-   :height: 121
+   a. Wählen Sie zu :menuselection:`Artikel verwalten --> Attribute`.
+   #. Wählen Sie das gewünschte Attribut aus der Attributliste.
+   #. Wählen Sie auf der Registerkarte :guilabel:`Kategorien` die Schaltfläche :guilabel:`Kategorien zuordnen`.
+   #. Um eine Kategorie festzulegen, die das Attribut verwenden soll, verschieben Sie die Kategorie per Drag \& Drop in die rechte Liste des Zuordnungsfensters (:ref:`oxbafr01`).
+   #. Optional: Wiederholen Sie das Vorgehen für weitere Kategorien.
+   #. Schließen Sie das Zuordnungsfenster.
+
+   .. _oxbafr01:
+
+   .. figure:: ../../media/screenshots/oxbafr01.png
+      :alt: Filter-Attribute Kategorien zuordnen
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Filter-Attribute Kategorien zuordnen
+
+3. Damit der Attributfilter in der Kategorieansicht angezeigt wird, ordnen Sie das Attribut den Artikeln der jeweiligen Kategorie zu.
+
+   Wenn Sie der Kategorie mehrere Attribute zuordnen, können die Artikel dieser Kategorie anhand mehrerer Eigenschaften gefiltert werden.
+
+   Attribute stehen nur für die Kategorien zur Verfügung, denen sie zugewiesen wurden, nicht jedoch für deren Unterkategorien.
+
+   a. Wählen Sie :menuselection:`Artikel verwalten --> Artikel`.
+   #. Wählen Sie die Kategorie, in unserem Beispiel Handtaschen.
+   #. Wählen Sie den ersten Artikel.
+   #. Wählen Sie auf der Registerkarte :guilabel:`Auswahl` die Schaltfläche :guilabel:`Attribute zuordnen`.
+   #. Verschieben Sie das Attribut in die rechte Liste des Zuordnungsfensters.
+   #. Markieren Sie das Attribut in der rechten Liste.
+   #. Weisen Sie dem Attribut einen Wert für diesen Artikel zu (:ref:`oxbafr02`, Pos. 1) und wählen Sie :guilabel:`Speichern`.
+   #. Optional: Wiederholen Sie die Schritte für weitere Attribute.
+   #. Schließen Sie das Zuordnungsfenster.
+   #. Wiederholen Sie den Vorgang für die übrigen Artikel der Kategorie.
+
+   .. _oxbafr02:
+
+   .. figure:: ../../media/screenshots/oxbafr02.png
+      :alt: Filter-Attribute für Artikel festlegen
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Filter-Attribute für Artikel festlegen
+
+|result|
+
+Die einzelnen Werte, die bei den Artikeln für dieses Attribut vergeben werden, werden als Filtermöglichkeiten in der Kategorieansicht angezeigt (:ref:`oxbafr03`, Pos. 1).
+
+Artikel ohne dieses Attribut werden unabhängig vom Filter immer angezeigt.
+
+.. _oxbafr03:
+
+.. figure:: ../../media/screenshots/oxbafr03.png
+   :alt: Artikel in der Kategorieansicht filtern
    :width: 650
+   :class: with-shadow
 
-Im Screenshot wird als Beispiel gezeigt, dass die Kategorie mit den Shirts nach dem Material der Artikel sortiert werden kann. Baumwolle und Stretch-Jersey sind die möglichen Filter, um die gezeigten Artikel einschränken zu können.
+   Abb.: Artikel in der Kategorieansicht filtern
+
+Auf der Detailseite eines Artikels erscheint die neue Registerkarte :guilabel:`Spezifikation` mit den Attributen und deren Werten, sofern Attribute definiert und Werte zugewiesen wurden (:ref:`oxbafr04`, Pos. 1).
+
+.. _oxbafr04:
+
+.. figure:: ../../media/screenshots/oxbafr04.png
+   :alt: Produkt-Eigenschaften auf der Registerkarte Spezifikation anzeigen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Produkt-Eigenschaften auf der Registerkarte Spezifikation anzeigen
+
 
 .. seealso:: :doc:`Attribute - Registerkarte Kategorien <../attribute/registerkarte-kategorien>` | :doc:`Artikel - Registerkarte Auswahl <../artikel/registerkarte-auswahl>`
 
