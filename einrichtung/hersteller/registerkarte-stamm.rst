@@ -1,7 +1,10 @@
-﻿Registerkarte Stamm
+﻿:orphan:
+Registerkarte Stamm
 ===================
 
-Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Informationen zum Hersteller hinterlegt und Einstellungen vorgenommen. Erstellen oder bearbeiten Sie hier den Hersteller.
+Auf der Registerkarte :guilabel:`Stamm` werden die wenigen Informationen zum Hersteller hinterlegt und Einstellungen vorgenommen.
+
+Erstellen oder bearbeiten Sie hier den Hersteller.
 
 .. image:: ../../media/screenshots/oxbagc01.png
    :alt: Hersteller - Registerkarte Stamm
