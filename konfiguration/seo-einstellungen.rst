@@ -1,80 +1,227 @@
 ﻿SEO-Einstellungen
 =================
 
-Kunden beginnen die Suche nach Artikeln sehr oft mit Anfragen bei Suchmaschinen und -portalen. Damit sie dabei genau Ihren Shop, die Artikel und speziellen Angebote finden, müssen die entsprechenden Informationen optimal aufbereitet und indiziert sein. Der OXID eShop beherrscht seit der 4er Version die Suchmaschinenoptimierung, englisch: Search Engine Optimization (SEO). Die SEO-Implementierung erzeugt automatisch sprechende URLs für Kategorien und Artikel. Dabei werden reservierte Wörter und Sonderzeichen ebenso berücksichtigt, wie unterschiedliche Sprachen des Shops.
+Optimieren Sie die Startseite Ihres OXID eShops für Suchmaschinen
 
-Shopbetreiber müssen lediglich einige Einstellungen vornehmen, um konkrete Inhalte für die Suchmaschinenoptimierung vorzugeben. Dabei handelt es sich um den Seitentitel, den Aufbau der URLs und die sogenannten Metadaten. Die Inhalte können in jeder Sprache des Shops definiert werden.
+|background|
 
-Seitentitel
------------
-Der Seitentitel wird bei einigen Browsern noch in der Titelleiste angezeigt und beim Abspeichern einer Seite als Lesezeichen oder Favorit verwendet. Obwohl der Seitentitel im Shop also nahezu unsichtbar ist, spielt er für Suchmaschinen eine wichtige Rolle. Suchmaschinen entnehmen dem Seitentitel die Information, welcher Inhalt auf einer Webseite zu finden ist. Die Seitentitel, außer der für die Startseite des Shops, werden automatisch aus dem Titel eines Artikels oder einer Kategorie generiert und mit einem Präfix und einem Suffix versehen.
+Kunden beginnen die Suche nach Artikeln oft mit Anfragen bei Suchmaschinen und -portalen. Damit sie dabei genau Ihren Shop, die Artikel und speziellen Angebote finden, müssen Sie die entsprechenden Informationen optimal aufbereiten und indizieren.
 
-Beispiel für den Aufbau eines Seitentitels: OXID Surf- und Kiteshop | Transportcontainer THE BARREL | online kaufen
+Nutzen Sie dazu die Suchmaschinenoptimierung, englisch: Search Engine Optimization (SEO). Die SEO-Implementierung erstellt automatisch sprechende URLs für Kategorien und Artikel. Dabei werden reservierte Wörter und Sonderzeichen ebenso berücksichtigt wie unterschiedliche Sprachen des Shops.
 
-Die Einstellungen für den Seitentitel befinden sich unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO`. Achten Sie darauf, dass die gewünschte Sprache ausgewählt ist.
+Nehmen Sie als Shopbetreiber die nötigen Einstellungen vor, um konkrete Inhalte für die Suchmaschinenoptimierung vorzugeben.
 
-:guilabel:`Titel Präfix`
-   Text, der vor den generierten Teil des Seitentitels gestellt wird. Tragen Sie hier am besten den Namen Ihres Shops ein. Beispiel aus dem Demoshop: OXID Surf- und Kiteshop.
+Dabei handelt es sich um
 
-:guilabel:`Titel Suffix`
-   Text, der an den generierten Teil des Seitentitels angehangen wird. Ergänzen Sie hier, was für alle Seiten des Shops charakteristisch ist. Beispiel aus dem Deomshop: online kaufen.
+* den Seitentitel
+* den Aufbau der URLs
+* die sogenannten Metadaten (:ref:`oxbabi01`).
 
-:guilabel:`Titel der Startseite`
-   Für die Startseite wird der Text des Seitentitels festgelegt. Er sollte das Angebot Ihres Onlineshops mit prägnanten Worten beschreiben. Abweichend von allen anderen Seiten, besteht der Seitentitel der Startseite aus Präfix und definiertem Text. Der Suffix wird nicht verwendet. Beispiel aus dem Demoshop: OXID Surf- und Kiteshop | Der Onlineshop für Wassersport und Sommerspass.
+Definieren Sie die Inhalte für jede Sprache Ihres OXID eShops.
 
-Aufbau der URLs
----------------
-Sogenannte sprechende URLs sind ebenfalls ein wichtiger Teil der Suchmaschinenoptimierung. Anstatt URLs mit Parametern und kryptischen Werten anzuzeigen, wird die URL umgeschrieben und zeigt stattdessen den Namen der Kategorie und des Artikels. Das ist gut für Suchmaschinen und für Besucher Ihres Onlineshops allemal.
+Seitentitel festlegen
+---------------------
+Der Seitentitel wird bei einigen Browsern noch in der Titelleiste angezeigt und beim Abspeichern einer Seite als Lesezeichen oder Favorit verwendet.
 
-Beispiel für intern verwendete URL: ``www.ihreshopurl.de/index.php?`` |br|
-``cl=details\&anid=f4f73033cf5045525644042325355732\&cnid=fadcb6dd70b9f6248efa425bd159684e``
+Obwohl der Seitentitel im Shop nahezu unsichtbar ist, spielt er für Suchmaschinen dennoch eine wichtige Rolle. Suchmaschinen entnehmen dem Seitentitel die Information, welcher Inhalt auf einer Webseite zu finden ist.
 
-Beispiel für umgeschriebene, sprechende URL: ``www.ihreshopurl.de/Angebote/Transportcontainer-THE-BARREL.html``
+Die Seitentitel, außer der für die Startseite des OXID eShops, werden automatisch aus dem Titel eines Artikels oder einer Kategorie generiert und mit einem Präfix und einem Suffix versehen.
 
-Ebenso wie die Festlegungen für den Seitentitel sind die für die URLs sprachabhängig. Achten Sie darauf, dass die gewünschte Sprache ausgewählt ist.
+Beispiel für den Aufbau eines Seitentitels (:ref:`oxbabi01`, Pos. 1, 2, 3): OXID eShop | VisControl LCD | online kaufen
 
-:guilabel:`Standardsprache für SEO URLs`
-   Für die hier eingestellte Standardsprache werden keine Sprachkürzel (de, en usw.) in den URLs verwendet. In den URLs der anderen Sprachen wird das entsprechende Sprachkürzel eingefügt.
 
-:guilabel:`SEO IDs Trennzeichen (z. B.\"+\",\"-\")`
-   Das Trennzeichen wird verwendet, wenn Kategorie- oder Artikeltitel aus mehreren Worten bestehen. Es wird anstelle eines Leerzeichens in die URL eingefügt. Der Bindestrich ist der Standard für das Trennzeichen.
+.. todo: Struktur des Titels auf Startseite: OXDEV-6802
 
-   Beispiel: ``www.ihreshopurl.de/Kategorie-aus-mehreren-Worten/Artikel-aus-mehreren-Worten.html``.
+|procedure|
 
-:guilabel:`SEO Suffix um gleiche Artikel zu unterscheiden`
-   Wenn mehrere Artikel den gleichen Titel haben und in der gleichen Kategorie sind, würden sie die gleiche URL erhalten. Damit das nicht passiert, wird das SEO Suffix angehängt. Dadurch werden gleiche URLs vermieden. Wenn Sie kein SEO Suffix angeben, wird ``-oxid`` als Standard verwendet.
+1. Um die Einstellungen für den Seitentitel Ihres OXID eShops vorzunehmen, wählen Sie :menuselection:`Stammdaten --> Grundeinstellungen --> SEO`.
+#. Stellen Sie sicher, dass die gewünschte Sprache ausgewählt ist.
+#. Nehmen Sie die folgenden Einstellungen vor:
 
-:guilabel:`Zeichen, die in SEO URLs ersetzt werden`
-   Bestimmte Sonderzeichen wie Umlaute (Ä, Ö, Ü) sollten in URLs nicht vorkommen, da Sie Probleme verursachen können. In dem Eingabefeld wird angegeben, mit welchen Zeichen die Sonderzeichen ersetzt werden. Die Syntax ist Sonderzeichen =\>Ersatzzeichen, zum Beispiel Ü =\>Ue. Für die deutsche Sprache sind die Ersetzungen bereits eingetragen. Falls Sie Sonderzeichen und Ersetzungen, beispielsweise für eine neue Sprache, eintragen oder ergänzen wollen, verwenden Sie dafür jeweils eine separate Zeile.
+   * :guilabel:`Titel Präfix` :ref:`oxbabi01`, Pos. 1): Text, der :emphasis:`vor` den generierten Teil des Seitentitels gestellt wird ().
 
-.. hint:: Seit der Shopversion 4.7.0/5.0.0 wird die Liste der Zeichen, die in der URL durch andere Zeichen zu ersetzen sind (Transliteration), in der Datei :file:`/application/translation/{local}/translit_lang.php` definiert. Der Eingabebereich auf der Registerkarte :guilabel:`SEO` wurde entfernt.
+     Empfehlung: Tragen Sie den Namen Ihres OXID eShops ein. Beispiel aus dem Demoshop: "OXID eShop".
 
-:guilabel:`Reservierte Wörter (werden automatisch mit dem SEO Suffix versehen)`
-   Bestimmte URLs sind im eShop festgelegt, zum Beispiel ``www.ihreshopurl.de/admin``, um den Administrationsbereich zu öffnen. Wenn eine Kategorie\"admin\"heißen würde, wäre deren URL ebenfalls ``www.ihreshopurl.de/admin``. Die Kategorie könnte nicht geöffnet werden. Deswegen wird an solche URLs automatisch das SEO Suffix angehängt. Standardmäßig behandelt der OXID eShop alle Verzeichnisse des Shops, auch selbst hinzugefügte, wie reservierte Wörter. Im Eingabefeld können Sie weitere reservierte Wörter hinzufügen.
+   * :guilabel:`Titel Suffix` (:ref:`oxbabi01`, Pos. 2): Text, der an den generierten Teil des Seitentitels angehängt wird.
 
-:guilabel:`Wörter, die bei der Erzeugung der Meta-Tags für Suchmaschinen ignoriert werden`
-   Wenn bei Artikeln oder Kategorien keine eigenen Meta-Tags vorhanden sind, werden diese Informationen aus der Beschreibung generiert. Dabei sollten Wörter weggelassen werden, die keinen Informationswert haben. Alle Wörter die im Eingabefeld aufgelistet sind, werden bei der automatischen Generierung ignoriert.
+     Ergänzen Sie hier, was für alle Seiten des OXID eShops charakteristisch ist. Beispiel aus dem Demoshop: "online kaufen".
 
-:guilabel:`Statische URLs`
-   Für eine Reihe von Seiten wurden statische URLs definiert. Diese ersetzen die internen URLs mit den verschiedenen Parametern. Sie können neue statische URLs anlegen oder bestehende, auch in verschiedenen Sprachen, ändern.
+   * :guilabel:`Titel der Startseite` (:ref:`oxbabi01`, Pos. 1): Legen Sie den Seitentitel für die Startseite fest.
 
-Metadaten
----------
-Obwohl Metadaten nicht mehr die entscheidende Bedeutung für Suchmaschinen haben, gibt es die Möglichkeit, auf deren Inhalte Einfluß zu nehmen. Es gibt Metadaten für die Startseite und Metadaten für Artikel und Kategorien. Das sind Formulierungen und Begriffe, die als Bescheibung oder Schlüsselworte mit der jeweiligen Seite ausgeliefert werden.
+     Beschreiben Sie das Angebot Ihres Onlineshops prägnant.
 
-Beispiel aus dem Demoshop:
+   .. _oxbabi01:
 
-.. code::
+   .. figure:: ../media/screenshots/oxbabi01.png
+      :alt: Metadaten: Seitentitel festlegen
+      :width: 650
+      :class: with-shadow
 
-   <meta name="description "content=\"Alles zum Thema Wassersport, Sportbekleidung und Mode. Umfangreiches Produktsortiment mit den neusten Trendprodukten. Blitzschneller Versand.">
-   <meta name="keywords "content="kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards, boards, strand, sommer, wassersport, mode, fashion, style, shirts, jeans, accessoires, angebote">
+      Abb.: Metadaten: Seitentitel festlegen
 
-Startseite
-^^^^^^^^^^
-Die Metadaten für die Startseite des Shops können unter :menuselection:`Kundeninformationen --> CMS-Seiten` eingetragen werden. Die CMS-Seite "META Description Startseite" (Ident: oxstartmetadescription) nimmt dabei die Beschreibung des Shops, die CMS-Seite "META Keywords Startseite" (Ident: oxstartmetakeywords) die Keywörter auf.
+|result|
 
-Kategorien und Artikel
-^^^^^^^^^^^^^^^^^^^^^^
-Die Metadaten für Kategorien und Artikel werden automatisch aus deren Beschreibung generiert. Sie können durch selbst formulierte Bescheibungen und Schlüsselworte für jede einzelne Kategorie oder jeden einzelnen Artikel überschrieben werden. Die Metadaten werden auf der Registerkarte :guilabel:`SEO` bei der Kategorie oder beim Artikel eingetragen.
+Das System setzt den Seitentitel im Metadaten-Tag ``<title>`` zusammen.
+
+Das passiert bei der Startseite Ihres OXID eShops anders als bei den übrigen Seiten.
+
+Bei der Startseite setzt sich der Seitentitel aus dem Präfix (:ref:`oxbabi02`, Pos. 1 entspricht :ref:`oxbabi01`, Pos. 1) und dem Titel der Startseite (:ref:`oxbabi02`, Pos. 3 entspricht entspricht :ref:`oxbabi01`, Pos. 1) zusammen. Der mittlere Ausdruck `Startseite` (:ref:`oxbabi02`, Pos. 2) ist fest vorgegeben.
+
+Anders als bei allen anderen Seiten besteht der Seitentitel der Startseite also aus Präfix und definiertem Text.
+
+Das Suffix wird nicht verwendet. Beispiel aus dem Demoshop: "Der Onlineshop".
+
+.. todo: META-Title of the startpage to be configurable: OXDEV-6802
+
+.. _oxbabi02:
+
+.. figure:: ../media/screenshots/oxbabi02.png
+   :alt: Seitentitel der Startseite
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Seitentitel der Startseite
+
+Der Seitentitel der übrigen Seiten besteht aus Präfix (:ref:`oxbabi03`, Pos. 1 entspricht :ref:`oxbabi01`, Pos. 1) und Suffix (:ref:`oxbabi03`, Pos. 3 entspricht :ref:`oxbabi01`, Pos. 2).
+
+Der mittlere Teil in unserem Beispiel `VisControl LCD`,  :ref:`oxbabi03`, Pos. 2) entspricht dem Titel des Produkts, der Kategorie, der CMS-Seite, des Herstellers oder des Lieferanten.
+
+.. _oxbabi03:
+
+.. figure:: ../media/screenshots/oxbabi03.png
+   :alt: Seitentitel und Metadaten einer untergeordneten Seite
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Seitentitel und Metadaten einer untergeordneten Seite
+
+Sprechende URLs bilden
+----------------------
+Sogenannte sprechende URLs sind ebenfalls ein wichtiger Teil der Suchmaschinenoptimierung.
+
+Anstatt URLs mit Parametern und kryptischen Werten anzuzeigen, wird die URL umgeschrieben und zeigt stattdessen den Namen der Kategorie und des Artikels. Das verbessert sowohl die Sichtbarkeit in Suchmaschinen als auch die Benutzerfreundlichkeit für Besucher Ihres Onlineshops.
+
+Beispiel:
+
+* Intern verwendete URL: ``www.ihreshopurl.de/index.php?cl=details\&anid=f4f73033cf5045525644042325355732\&cnid=fadcb6dd70b9f6248efa425bd159684e``
+* Umgeschriebene, sprechende URL: ``www.ihreshopurl.de/Nach-Hersteller/Eng-Depot/VisControl-LCD.html``
+
+|procedure|
+
+Um sprechende URLs zu konfigurieren, tun Sie Folgendes:
+
+1. Nehmen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO` folgende Einstellungen vor.
+
+   Ebenso wie die Festlegungen für den Seitentitel sind auch die für die URLs sprachabhängig. Achten Sie darauf, dass die gewünschte Sprache ausgewählt ist.
+
+   * :guilabel:`Standardsprache für SEO URLs`: Für die hier eingestellte Standardsprache werden keine Sprachkürzel (de, en usw.) in den URLs verwendet.
+
+     In den URLs der anderen Sprachen wird das entsprechende Sprachkürzel eingefügt.
+
+   * :guilabel:`SEO IDs Trennzeichen (z. B. +, -)`: Das Trennzeichen wird verwendet, wenn Kategorie- oder Artikeltitel aus mehreren Worten bestehen. Es wird anstelle eines Leerzeichens in die URL eingefügt. Der Bindestrich ist das Standard-Trennzeichen.
+
+     Beispiel: ``www.ihreshopurl.de/Kategorie-aus-mehreren-Worten/Artikel-aus-mehreren-Worten.html``.
+
+   * :guilabel:`SEO-Suffix, um gleiche Artikel zu unterscheiden`: Wenn mehrere Artikel den gleichen Titel haben und in der gleichen Kategorie sind, würden sie die gleiche URL erhalten.
+
+     Damit das nicht passiert, wird das SEO-Suffix angehängt. Dadurch werden gleiche URLs vermieden.
+
+     Wenn Sie kein SEO-Suffix angeben, wird ``-oxid`` als Standard verwendet.
+
+   *  :guilabel:`Zeichen, die in SEO URLs ersetzt werden`: Bestimmte Sonderzeichen wie Umlaute (Ä, Ö, Ü) sollten in URLs nicht vorkommen, da Sie Probleme verursachen können. In dem Eingabefeld wird angegeben, mit welchen Zeichen die Sonderzeichen ersetzt werden.
+
+     Die Syntax ist Sonderzeichen =\>Ersatzzeichen, zum Beispiel Ü =\>Ue.
+
+     Für die deutsche Sprache sind die Ersetzungen bereits eingetragen. Falls Sie Sonderzeichen und Ersetzungen, beispielsweise für eine neue Sprache, eintragen oder ergänzen wollen, verwenden Sie dafür jeweils eine separate Zeile.
+
+   * :guilabel:`Reservierte Wörter (werden automatisch mit dem SEO-Suffix versehen)`: Bestimmte URLs sind im eOXID eShop festgelegt, zum Beispiel ``www.ihreshopurl.de/admin``, um den Administrationsbereich zu öffnen.
+
+     Wenn eine Kategorie \"admin\" heißen würde, wäre deren URL ebenfalls ``www.ihreshopurl.de/admin``. Die Kategorie könnte nicht geöffnet werden. Deswegen wird an solche URLs automatisch das SEO-Suffix angehängt.
+
+     Standardmäßig behandelt der OXID eShop alle Verzeichnisse, auch selbst hinzugefügte, wie reservierte Wörter.
+
+     Im Eingabefeld können Sie weitere reservierte Wörter hinzufügen.
+
+   * :guilabel:`Wörter, die bei der Erzeugung der Meta-Tags für Suchmaschinen ignoriert werden`: Wenn für Artikel oder Kategorien keine eigenen Meta-Tags definiert sind, werden sie aus der Beschreibung erstellt.
+
+     Lassen Sie Wörter weg, die keinen Mehrwert für Suchmaschinen bieten.
+
+     Alle Wörter, die im Eingabefeld aufgelistet sind, werden bei der automatischen Generierung ignoriert.
+
+   * :guilabel:`Statische URLs`: Für eine Reihe von Seiten wurden statische URLs definiert. Diese ersetzen die internen URLs mit den verschiedenen Parametern.
+
+     Sie können neue statische URLs anlegen oder bestehende, auch in verschiedenen Sprachen, ändern.
+
+   .. _oxbabi04:
+
+   .. figure:: ../media/screenshots/oxbabi04.png
+      :alt: URL-Einstellungen vornehmen
+      :width: 650
+      :class: with-shadow
+
+      Abb.: URL-Einstellungen vornehmen
+
+#. Speichern Sie Ihre Einstellungen.
+#. Damit die Einstellungen wirksam werden, wählen Sie :guilabel:`SEO-URLs neu berechnen`.
+
+Metadaten pflegen
+-----------------
+
+Metadaten sind für Suchmaschinen nicht mehr so entscheidend wie früher. Trotzdem ist es sinnvoll, sie zu pflegen.
+
+Definieren Sie Metadaten für die Startseite und Metadaten für Artikel und Kategorien. Das sind Formulierungen und Begriffe, die als Description :ref:`oxbabi03`, Pos. 4) und Keywords (:ref:`oxbabi03`, Pos. 5) mit der jeweiligen Seite ausgeliefert werden.
+
+
+Metadaten für die Startseite erfassen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Definieren Sie Description und Keywords für die Startseite Ihres OXID eShops.
+
+|procedure|
+
+1. Wählen Sie :menuselection:`Kundeninformationen --> CMS-Seiten`.
+
+#. Wählen Sie die betreffende Seite:
+
+   * Um die Description Ihres OXID eShops einzugeben, wählen Sie die CMS-Seite ``META Description Startseite`` (Ident: ``oxstartmetadescription``) (:ref:`oxbabi05`).
+   * Um die Keywords einzugeben, wählen Sie die CMS-Seite "META Keywords Startseite" (Ident: ``oxstartmetakeywords``).
+#. Geben Sie die Metadaten auf der Registerkarte :guilabel:`Stamm` ein.
+#. Speichern Sie Ihre Einstellungen
+
+.. _oxbabi05:
+
+.. figure:: ../media/screenshots/oxbabi05.png
+   :alt: Beispiel: Description für die Startseite erfassen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Beispiel: Description für die Startseite erfassen
+
+Metadaten für Kategorien und Artikel erfassen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Standardmäßig werden die Metadaten für Kategorien und Artikel automatisch aus deren Beschreibung generiert.
+
+Sie können durch selbst formulierte Beschreibungen und Schlüsselworte für jede einzelne Kategorie oder jeden einzelnen Artikel überschreiben.
+
+|procedure|
+
+Um die Metadaten manuell zu erfassen, tun Sie Folgendes:
+
+1. Wählen Sie den Artikel oder Kategorie.
+2. Geben Sie auf der Registerkarte :guilabel:`SEO` die Metadaten ein (:ref:`oxbabi06`).
+#. Speichern Sie Ihre Einstellungen.
+
+.. _oxbabi06:
+
+.. figure:: ../media/screenshots/oxbabi06.png
+   :alt: Beispiel: Metadaten für einen Artikel erfassen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Beispiel: Metadaten für einen Artikel erfassen
+
+|result|
+
+Die Metadaten werden in die betreffende Seite eingebettet (:ref:`oxbabi03`, Pos. 4, 5).
 
 .. Intern: oxbabi, Status:
