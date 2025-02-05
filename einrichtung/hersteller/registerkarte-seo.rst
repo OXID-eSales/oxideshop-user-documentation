@@ -7,9 +7,9 @@ Optimieren Sie auf der Registerkarte :guilabel:`SEO` (:ref:`oxbagd01`) die SEO-E
 
 * Vergeben Sie eine sprechende SEO-URL, damit die Herstellerseite leichter gefunden wird.
 * Hinterlegen Sie einen aussagekräftigen Meta-Titel und eine Meta-Beschreibung, um die Klickrate in den Suchergebnissen zu steigern.
-* Definieren Sie relevante Stichwörter (Meta-Keywords), damit die Seite für passende Suchanfragen erscheint.
-* Fixieren Sie die SEO-URL, um unerwünschte Änderungen zu vermeiden und Duplicate Content zu reduzieren.
-* Nutzen Sie die Sprachoptionen, um die SEO-Informationen für jede aktive Sprache individuell anzupassen.
+* Definieren Sie relevante Stichwörter (Meta-Keywords), damit die Seite bei passenden Suchanfragen erscheint.
+* Fixieren Sie die SEO-URL, um unerwünschte Änderungen zu vermeiden und doppelten Inhalt zu reduzieren.
+* Nutzen Sie die Sprachoptionen, um die SEO-Informationen für jede aktivierte Sprache individuell anzupassen.
 
 .. _oxbagd01:
 
@@ -20,18 +20,33 @@ Optimieren Sie auf der Registerkarte :guilabel:`SEO` (:ref:`oxbagd01`) die SEO-E
 
    Abb.: Hersteller - Registerkarte SEO
 
-Durch die Sprachumstellung am unteren Ende des Eingabebereichs können Sie die Informationen und Einstellungen in jeder weiteren aktiven Sprache bearbeiten.
+Durch die Sprachumstellung am unteren Rand des Eingabebereichs können Sie die Informationen und Einstellungen in jeder weiteren aktiven Sprache bearbeiten.
 
 :guilabel:`URL fixiert`
-   Ändert sich der Titel eines Herstellers, wird die SEO-URL neu berechnet. Sie können die automatische Neuberechnung der URL deaktivieren, indem Sie dieses Kontrollkästchen aktivieren. Eine bestehende SEO-URL bleibt dadurch unverändert.
+   Wenn sich der Titel eines Herstellers ändert, wird die SEO-URL neu berechnet.
+
+   Um die automatische Neuberechnung der URL zu deaktivieren, aktivieren Sie das Kontrollkästchen. Eine bestehende SEO-URL bleibt dadurch unverändert.
 
 :guilabel:`Titel-Suffix in Kategorie anzeigen`
-   Aktivieren Sie diese Einstellung, um das Titel-Suffix im Seitentitel anzuzeigen. Wird die Übersicht aller Artikel dieser Marke aufgerufen, enthält der Seitentitel auch den Titel-Suffix, der unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel-Suffix` definiert wurde. Beispiel Demoshop:\<title\>OXID Surf- und Kiteshop | www.true-fashion.com | online kaufen\</title\>.
+   Aktivieren Sie diese Einstellung, um das Titel-Suffix im Seitentitel anzuzeigen.
+
+   Wird die Übersicht aller Artikel dieser Marke aufgerufen, enthält der Seitentitel auch den Titel-Suffix, den Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel-Suffix` definiert haben.
+
+   In unserem Demoshop ``online kaufen``: \<title\>OXID eShop | Imperial | online kaufen\</title\> (:ref:`oxbagd02`, Pos. 1).
+
+   .. _oxbagd02:
+
+   .. figure:: ../../media/screenshots/oxbagd02.png
+      :alt: Titel-Suffix anzeigen (Beispiel: Hersteller)
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Titel-Suffix anzeigen (Beispiel: Hersteller)
 
    Weitere Informationen finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
 
 :guilabel:`SEO-URL`
-   Die SEO-URL des Herstellers wird angezeigt und kann geändert oder fixiert werden.
+   Die SEO-URL des Herstellers wird angezeigt und kann bearbeitet oder fixiert werden.
 
 :guilabel:`Stichworte für Meta-Tags`
    Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta-Keywords) eingebunden.
@@ -39,9 +54,9 @@ Durch die Sprachumstellung am unteren Ende des Eingabebereichs können Sie die I
    Wenn Sie nichts eingeben, werden die Stichwörter automatisch beispielsweise aus dem Titel des Herstellers, der Kategorie (Nach-Hersteller) und den Suchbegriffen der zugeordneten Artikel erzeugt.
 
 :guilabel:`Beschreibungstext für Meta-Tags`
-   Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden und von vielen Suchmaschinen in den Suchergebnissen angezeigt.
+   Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden und in den Suchergebnissen vieler Suchmaschinen angezeigt.
 
-   Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Titel des Herstellers, der Kategorie (Nach-Hersteller) und den Titeln der zugeordneten Artikel gebildet.
+   Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Titel des Herstellers, der Kategorie (Nach-Hersteller) und den Titeln der zugeordneten Artikel erstellt.
 
 :guilabel:`In Sprache`
    Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
