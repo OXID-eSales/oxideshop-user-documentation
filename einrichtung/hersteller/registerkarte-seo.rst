@@ -20,7 +20,7 @@ Optimieren Sie auf der Registerkarte :guilabel:`SEO` (:ref:`oxbagd01`) die SEO-E
 
    Abb.: Hersteller - Registerkarte SEO
 
-Durch die Sprachumstellung am unteren Rand des Eingabebereichs können Sie die Informationen und Einstellungen in jeder weiteren aktiven Sprache bearbeiten.
+Um die Informationen und Einstellungen in jeder weiteren aktivierten Sprache zu bearbeiten, verwenden Sie die Sprachumstellung am unteren Rand des Eingabebereichs.
 
 :guilabel:`URL fixiert`
    Wenn sich der Titel eines Herstellers ändert, wird die SEO-URL neu berechnet.
