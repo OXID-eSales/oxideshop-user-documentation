@@ -1,29 +1,56 @@
-﻿Hauptkategorie eines Artikels
-=============================
-Ein Artikel kann beliebig vielen Kategorien zugeordnet werden. In diesem Fall muss eine Kategorie als Hauptkategorie festgelegt werden. Das ist notwendig, damit der Shop in bestimmten Situationen entscheiden kann, in welcher Kategorie der Artikel angezeigt werden soll. Ruft der Kunde beispielsweise einen Artikel über die shopeigene Suche oder über die Tags auf, wird dieser in der definierten Hauptkategorie angezeigt.
+﻿Hauptkategorie festlegen
+========================
 
-Es spielt auch der sogenannte Duplicate Content eine Rolle. Ein Artikel, der in mehreren Kategorien vorkommt, hat mehrere URLs. Diese zeigen auf dessen Detailseite und würden so identischen Inhalt präsentieren. Suchmaschinen wie Google, Bing und Yahoo! wollen ihren Nutzern Suchergebnisse ohne Redundanzen auflisten. Die Lösung sind Canonical Tags oder Canonical Links, die bei inhaltlich gleichen Seiten auf die originale Seite verweisen. Im OXID eShop ist das die Detailseite des Artikels mit der Hauptkategorie in der URL.
+Ordnen Sie einen Artikel mehr als einer Kategorie zu.
 
-Die Canonical Tags werden im OXID eShop prinzipiell, also auch für nur eine Kategorie, gesetzt. Wurde keine Hauptkategorie festgelegt, wird die Kategorie verwendet, welcher der Artikel als Erstes zugeordnet wurde.
+Legen Sie jedoch in diesem Fall eine Kategorie als Hauptkategorie fest.
 
-Beispiel aus dem Seitenquelltext eines Artikels in einem Demoshop:
+|background|
 
-``<link rel="canonical "href="http://demoshop.oxid-esales.com/pe/Kiteboarding/Trapeze/Trapez-ION-MADTRIXX.html">``
+Das Festlegen einer Hauptkategorie ist aus folgenden Gründen notwendig:
 
-Die Hauptkategorie eines Artikels wird festgelegt.
+* Ihr OXID eShop kann in bestimmten Situationen entscheiden, in welcher Kategorie der Artikel angezeigt wird.
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Betätigen Sie die Schaltfläche :guilabel:`Kategorien zuordnen` auf der Registerkarte :guilabel:`Erweitert`.
-* Legen Sie eine Hauptkategorie fest, wenn der Artikel in mehreren Kategorien vorkommt.
-* Markieren Sie dafür die vorgesehene Kategorie in der rechten Liste.
-* Betätigen Sie die Schaltfläche :guilabel:`Als Hauptkat. setzen`.
-* Schließen Sie das Zuordnungsfenster.
+  Ruft der Kunde beispielsweise einen Artikel über die shop-eigene Suche oder über die Tags auf, wird dieser Artikel in der definierten Hauptkategorie angezeigt.
 
-.. image:: ../../media/screenshots/oxbafp01.png
-   :alt: Als Hauptkategorie setzen
-   :height: 314
-   :width: 400
+* Sie vermeiden sogenannten Duplicate Content.
+
+  Ein Artikel, der in mehreren Kategorien vorkommt, hat mehrere URLs. Diese zeigen auf dessen Detailseite und würden so identischen Inhalt präsentieren. Suchmaschinen wie Google, Bing und Yahoo! wollen ihren Nutzern Suchergebnisse jedoch ohne Redundanzen auflisten.
+
+  Die Lösung sind Canonical Tags oder Canonical Links, die bei inhaltlich identischen Seiten auf die Originalseite verweisen. Im OXID eShop ist das die Detailseite des Artikels mit der Hauptkategorie in der URL.
+
+  Die Canonical Tags werden im OXID eShop grundsätzlich gesetzt – auch wenn ein Artikel nur einer Kategorie zugeordnet ist.
+
+  Wenn Sie keine Hauptkategorie festgelegt haben, wird diejenige Kategorie verwendet, welcher der Artikel als Erstes zugeordnet wurde.
+
+
+|procedure|
+
+Um die Hauptkategorie eines Artikels festzulegen, tun Sie Folgendes.
+
+1. Wählen Sie :menuselection:`Artikel verwalten --> Artikel`.
+#. Wählen Sie den gewünschten Artikel aus der Artikelliste.
+#. Wählen Sie auf der Registerkarte :guilabel:`Erweitert` die Schaltfläche :guilabel:`Kategorien zuordnen`.
+#. Markieren Sie die als Hauptkategorie vorgesehene Kategorie.
+#. Wählen Sie die Schaltfläche :guilabel:`Als Hauptkat. setzen` (:ref:`oxbafp01`, Pos. 1: in unserem Beispiel ordnen wir den Regenschirm dem Zubehör als Hauptkategorie zu).
+#. Schließen Sie das Zuordnungsfenster.
+
+.. _oxbafp01:
+
+.. figure:: ../../media/screenshots/oxbafp01.png
+   :alt: Hauptkategorie festlegen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Hauptkategorie festlegen
+
+|result|
+
+In unserem Beispiel enthält der Canonical Link im Seitenquelltext der Detailseite des Regenschirms die Zuordnung zur Kategorie Zubehör:
+
+``<link rel="canonical" href="http://localhost.local/Ersatzteile/Zubehoer/Royal.html">``
+
+.. todo: EN: <link rel="canonical" href="http://localhost.local/en/Spare-parts/Accessories/Royal.html">
 
 .. seealso:: :doc:`Artikel - Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | `Canonical Link <http://de.wikipedia.org/wiki/Canonical_Link>`_ (Wikipedia)
 

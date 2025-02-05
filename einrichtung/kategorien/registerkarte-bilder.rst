@@ -1,7 +1,7 @@
 ﻿Registerkarte Bilder
 ====================
 
-Wurden für die Kategorie ein Bild und/oder ein Icon hochgeladen, werden die Bilder auf dieser Registerkarte in der Vorschau angezeigt (:ref:`oxbabm01`).
+Wenn Sie für die Kategorie ein Bild und/oder ein Icon hochgeladen haben, werden die Bilder auf dieser Registerkarte in der Vorschau angezeigt (:ref:`oxbabm01`).
 
 .. _oxbabm01:
 

@@ -1,17 +1,28 @@
 ﻿Artikel
 =======
-Artikel sind neben den Kategorien die eigentliche Basis des Warenkatalogs. Schließlich geht es in einem Onlineshop darum, Artikel gut zu präsentieren und zu verkaufen. Titel, Kurz- und Langbeschreibung sind die wichtigsten Artikeleigenschaften, aber es gibt viele weitere, mit denen sich Artikel detailliert beschreiben lassen. Dazu kommen Artikelbilder, welche den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen sollten. Hochwertige Fotos sind wichtig, um den Artikel optimal zu präsentieren, und können kaufentscheidend sein.
+Artikel sind neben den Kategorien die eigentliche Basis des Warenkatalogs. Schließlich geht es in einem Onlineshop darum, Artikel gut zu präsentieren und zu verkaufen.
 
-.. image:: ../../media/screenshots/oxbach01.png
+Titel, Kurz- und Langbeschreibung sind die wichtigsten Artikeleigenschaften, aber es gibt viele weitere, mit denen sich Artikel detailliert beschreiben lassen.
+
+Dazu kommen Artikelbilder, welche den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen sollten. Hochwertige Fotos sind wichtig, um den Artikel optimal zu präsentieren, und können kaufentscheidend sein.
+
+.. _oxbach01:
+
+.. figure:: ../../media/screenshots/oxbach01.png
    :alt: Artikel
-   :height: 536
    :width: 650
-   
-Der Abschnitt \"Artikel\" informiert Sie über das Erstellen und Verwalten von Artikeln. Es werden alle Einstellungen erläutert, die Sie bei Artikeln vornehmen können. Der Abschnitt geht auf Attribute und Auswahllisten ebenso ein, wie auf Varianten und multidimensionale Varianten.
+   :class: with-shadow
+
+   Abb.: Artikel
+
+
+Der Abschnitt \"Artikel\" informiert Sie über das Erstellen und Verwalten von Artikeln.
+
+Es werden alle Einstellungen erläutert, die Sie bei Artikeln vornehmen können. Der Abschnitt geht auf Attribute und Auswahllisten ebenso ein, wie auf Varianten und multidimensionale Varianten.
 
 Artikel können im Administrationsbereich unter :menuselection:`Artikel verwalten -->  Artikel` bearbeitet werden. Es werden die Artikelliste und darunter der Eingabebereich für die Artikel angezeigt.
 
-In der Artikelliste symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Artikel. Wurde ein Artikel nicht aktiviert, fehlt dieses Symbol. Die Artikelliste zeigt die Artikelnummer, den Artikeltitel und die Kurzbeschreibung des Artikels. Nach Artikeln kann gesucht werden, indem Suchfelder und/oder Filter für Kategorien und Artikeleigenschaften verwendet werden. Geben Sie beispielsweise in das Suchfeld Art.-Nr. die Zahl 13 ein, so bekommen Sie alle Artikel aufgelistet, bei denen 13 in der Artikelnummer vorkommt. In den Demodaten sind das Kiteboards mit den Artikelnummern 1301, 1302, 1303 und 1304.
+In der Artikelliste symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Artikel. Wurde ein Artikel nicht aktiviert, fehlt dieses Symbol. Die Artikelliste zeigt die Artikelnummer, den Artikeltitel und die Kurzbeschreibung des Artikels. Nach Artikeln kann gesucht werden, indem Suchfelder und/oder Filter für Kategorien und Artikeleigenschaften verwendet werden. Geben Sie beispielsweise in das Suchfeld Art.-Nr. die Zahl 13 ein, so bekommen Sie alle Artikel aufgelistet, bei denen 13 in der Artikelnummer vorkommt.
 
 Artikel können in der Artikelliste nach aktiv/nicht aktiv, Artikelnummer, Titel oder Kurzbeschreibung sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Artikel werden dadurch in aufsteigender Reihenfolge angezeigt.
 
