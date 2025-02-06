@@ -1,5 +1,5 @@
-﻿Rabatte: Übersicht
-==================
+﻿Rabatte anlegen, verwalten und plazieren
+========================================
 
 Rabatte gehören neben Gutscheinserien, Newslettern und Aktionen zu den zentralen Marketinginstrumenten in Ihrem OXID eShop
 
@@ -40,8 +40,8 @@ Arten von Rabatten
 
    Abb.: Beispiel: Zeitlich begrenzten Rabatt von 10% anlegen
 
-Anzeigen von Rabatten
----------------------
+Rabatten plazieren
+------------------
 
 * Bestimmen Sie die Plazierung:
 
@@ -69,14 +69,16 @@ Anzeigen von Rabatten
 
   Für Sie als Shopbetreiber wird der Rabatt in der Bestellverwaltung angezeigt (siehe :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`).
 
-Anlegen und Verwalten von Rabatten
-----------------------------------
+Rabatte anlegen und verwalten
+-----------------------------
 
-Erstellen und bearbeiten Sie Rabatte Administrationsbereich unter :menuselection:`Shopeinstellungen --> Rabatte`.
+Erstellen und bearbeiten Sie Rabatte.
 
 |procedure|
 
-1. Wenn Sie die Oxid eShop Enterprise Edition haben: Pflegen Sie Rabatte zentral und vererben Sie sie alle oder einzeln an Subshops.
+1. Wählen Sie :menuselection:`Shopeinstellungen --> Rabatte`.
+
+#. Wenn Sie die Oxid eShop Enterprise Edition haben: Pflegen Sie Rabatte zentral und vererben Sie sie alle oder einzeln an Subshops.
 
    Weitere Informationen finden Sie unter :doc:`Registerkarte Mall: Rabatte an Subshops vererben <registerkarte-mall>`.
 
@@ -145,12 +147,12 @@ In der Liste der Rabatte symbolisiert ein kleiner grüner Kreis mit Häkchen am 
 
     .. todo: #SB: Wird evtl. feature request: https://oxid-esales.atlassian.net/browse/OXDEV-8435?focusedCommentId=168679
 
-Deaktivieren von Rabatten
--------------------------
+Rabatte deaktivieren
+--------------------
 
 Um einen Rabatt zu deaktivieren, tun Sie Folgendes:
 
-* Entfernen Sie das Häkchen bei :guilabel:`Immer aktiv`.
+* Entfernen Sie die MArkierung bei :guilabel:`Immer aktiv`.
 * Stellen Sie sicher, dass kein Zeitraum eingetragen ist. Ein Eintrag würde den Rabatt ansonsten für den angegebenen Zeitraum aktivieren.
 
 

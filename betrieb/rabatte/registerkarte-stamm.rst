@@ -1,7 +1,7 @@
-﻿Registerkarte Stamm: Rabatt anlegen
-===================================
+﻿Grundsätzliche Eigenschaften eines Rabatts festlegen
+====================================================
 
-Nehmen Sie auf der Registerkarte :guilabel:`Stamm` die grundsätzlichen Einstellungen für Rabatte vorgenommen.
+Nehmen Sie auf der Registerkarte :guilabel:`Stamm` die grundsätzlichen Einstellungen für Rabatte vor.
 
 .. figure:: ../../media/screenshots/oxbahi01.png
    :alt: Rabatte - Registerkarte Stamm
@@ -10,12 +10,12 @@ Nehmen Sie auf der Registerkarte :guilabel:`Stamm` die grundsätzlichen Einstell
 
    Abb.: Rabatte - Registerkarte Stamm
 
-Mit der Sprachumstellung am unteren linken Ende des Eingabebereichs lässt sich der Name des Rabattes auch direkt in einer weiteren Sprache bearbeiten.
+Mit der Sprachumstellung am unteren linken Rand des Eingabebereichs lässt sich der Name des Rabatts auch direkt in einer weiteren Sprache bearbeiten.
 
-Beachten Sie, dass die Einstellungen und die Sprachumstellung erst nach Anlegen des Rabattes verfügbar sind.
+Die Einstellungen und die Sprachumstellung sind erst nach Anlegen des Rabatts verfügbar.
 
 :guilabel:`Name`
-   Name des Rabattes. Dieser wird im Warenkorb als eine Zeile in der Auflistung des Gesamtbetrages angezeigt, wenn der Rabatt global für den kompletten Warenkatalog des Shops gilt.
+   Name des Rabatts. Dieser wird im Warenkorb als eine Zeile in der Auflistung des Gesamtbetrages angezeigt, wenn der Rabatt global für den kompletten Warenkatalog des Shops gilt.
 
 :guilabel:`Sortierung`
    Legen Sie mit numerischen Werten fest, in welcher Reihenfolge die Rabatte auf Artikel oder den Warenkorb angewendet werden. Der Rabatt mit der kleinsten Zahl wird zuerst berücksichtigt, der mit der größten Zahl zuletzt.
@@ -24,46 +24,50 @@ Beachten Sie, dass die Einstellungen und die Sprachumstellung erst nach Anlegen 
    Aktivieren Sie dieses Kontrollkästchen, damit der Rabatt dauerhaft gewährt wird. Ist das Kontrollkästchen nicht angehakt, wird für den Rabatt ein eingetragener Zeitraum berücksichtigt.
 
 :guilabel:`Aktiv für Zeitraum` ... :guilabel:`(von)` ... :guilabel:`(bis)`
-   Um Rabattaktionen vorbereiten und zeitlich steuern zu können, kann ein Zeitraum definiert werden, in dem ein Rabatt gültig ist. Anfang und Ende müssen im Format JJJJ-MM-TT HH:MM:SS angegeben werden. Datum und Zeit des Endes der Aktivierung sind nicht optional.
+   Um Rabattaktionen vorzubereiten und zeitlich zu steuern, definieren Sie einen Zeitraum, in dem ein Rabatt gültig ist.
+
+   Geben Sie Anfang und Ende im Format JJJJ-MM-TT HH:MM:SS an. Datum und Zeit des Endes der Aktivierung sind Pflichtangaben.
 
 :guilabel:`Einkaufsmenge von` ... :guilabel:`bis` ...
-   Soll der Rabatt nur dann gewährt werden, wenn eine bestimmte Menge von Artikeln im Warenkorb liegt, kann hier die minimale und maximale Einkaufsmenge vorgegeben werden. Wenn beide Werte 0 sind, gilt der Rabatt für alle Einkaufsmengen.
+   Soll der Rabatt nur dann gewährt werden, wenn eine bestimmte Menge von Artikeln im Warenkorb liegt, geben Sie die minimale und maximale Einkaufsmenge vor.
 
-   Legen Sie mit Hilfe des Eingabefelds :guilabel:`Einkaufswert (€) von` oder :guilabel:`Einkaufsmenge von` auch fest, wie der Rabatt vom Preis abgezogen werden soll.
+   Wenn beide Werte 0 sind, gilt der Rabatt für alle Einkaufsmengen.
 
-   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Anzeigen von Rabatten`.
+   Legen Sie im Eingabefeld :guilabel:`Einkaufswert (€) von` oder :guilabel:`Einkaufsmenge von` fest, wie der Rabatt vom Preis abgezogen werden soll.
+
+   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Rabatten plazieren`.
 
 :guilabel:`Einkaufswert (€) von` ... :guilabel:`bis` ...
-   Geben Sie eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt werden soll. Sind beide Werte 0, gilt der Rabatt für jeden Einkaufswert.
+   Geben Sie eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt werden soll.
 
-   Legen Sie mit Hilfe des Eingabefelds :guilabel:`Einkaufswert (€) von` oder :guilabel:`Einkaufsmenge von` auch fest, wie der Rabatt vom Preis abgezogen werden soll.
+   Sind beide Werte 0, gilt der Rabatt für jeden Einkaufswert.
 
-   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Anzeigen von Rabatten`.
+   Legen Sie Eingabefeld :guilabel:`Einkaufswert (€) von` oder :guilabel:`Einkaufsmenge von` fest, wie der Rabatt vom Preis abgezogen werden soll.
+
+   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Rabatten plazieren`.
 
 :guilabel:`Rabatt`
-   Definieren Sie hier den Rabatt, der gewährt werden soll.
+   Definieren Sie den Rabatt, der gewährt werden soll.
 
-   Dieser kann prozentual, absolut oder als Stückzahl angegeben werden. Mit der Auswahlliste hinter dem Eingabefeld wird die Art des Rabattes ausgewählt.
+   Sie haben folgende Möglichkeiten:
 
-   :guilabel:`abs`: Der Rabatt ist absolut, beispielsweise 5 €. |br|
-   :guilabel:`%`: Der Rabatt ist prozentual, beispielsweise 10 Prozent vom Einkaufswert. |br|
-   :guilabel:`itm`: Der Rabatt wird in Form eines kostenlosen Artikels (Dreingabe/Zugabe) gewährt.
+   * :guilabel:`abs`: Der Rabatt ist absolut, beispielsweise 5 €.
+   * :guilabel:`%`: Der Rabatt ist prozentual, beispielsweise 10 Prozent vom Einkaufswert.
+   * :guilabel:`itm`: Der Rabatt wird in Form eines kostenlosen Artikels (Dreingabe/Zugabe) gewährt.
 
 :guilabel:`Artikel auswählen`
-   Die Schaltfläche wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist.
+   Die Schaltfläche erscheint nur, wenn der Rabatt ein kostenloser Artikel ist.
 
-   Sie öffnet ein neues Fenster, in dem ein Artikel ausgewählt werden kann. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt.
+   Sie öffnet ein neues Fenster, in dem Sie den Artikel wählen, der als kostenloser Artikel dienst.
 
-   Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird.
-
-   Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Der Artikel wird per Drag \& Drop in die rechte Liste verschoben. Es kann nur ein Artikel zugeordnet werden. Dessen Preis wird automatisch auf Null gesetzt, wenn er im Rahmen des Rabattes als Zugabe in den Warenkorb kommt.
+   Es kann nur ein Artikel zugeordnet werden. Dessen Preis wird automatisch auf Null gesetzt, wenn er im Rahmen des Rabatts als Zugabe in den Warenkorb kommt.
 
 :guilabel:`Drein/Zugabe` - :guilabel:`Menge`
    Das Eingabefeld wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist.
 
    Geben Sie an, in welcher Menge der kostenlose Artikel als Rabatt gewährt wird.
 
-   Wird beispielsweise 2 als Menge eingetragen, werden insgesamt zwei kostenlose Artikel in den Warenkorb gelegt, unabhängig davon, wie viele Artikel gekauft wurden.
+   Wenn Sie die Menge beispielsweise auf 2 setzen, werden unabhängig von der gekauften Artikelanzahl zwei kostenlose Artikel in den Warenkorb gelegt.
 
    .. figure:: ../../media/screenshots/oxbahi03.png
       :alt: Artikel mit Gratisartikel im Warenkorb
@@ -71,8 +75,6 @@ Beachten Sie, dass die Einstellungen und die Sprachumstellung erst nach Anlegen 
       :class: with-shadow
 
       Abb.: Artikel mit Gratisartikel im Warenkorb
-
-      .. todo: #tbd: Bild neu
 
 :guilabel:`Drein/Zugabe` - :guilabel:`Multiplizieren`
    Das Kontrollkästchen wird nur angezeigt, wenn der Rabatt ein kostenloser Artikel ist. Setzen Sie ein Häkchen, wenn die Menge der kostenlosen Artikel von der Anzahl der gekauften Artikel abhängen soll.

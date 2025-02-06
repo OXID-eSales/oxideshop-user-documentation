@@ -1,27 +1,27 @@
-﻿Registerkarte Benutzer: Rabatte auf Benutzer oder Gruppen einschränken
-======================================================================
+﻿Rabatte auf Benutzer oder Gruppen begrenzen
+===========================================
 
 Schränken Sie den Geltungsbereich eines Rabatts auf einzelne Benutzer, Benutzergruppen oder eine Kombination ein.
 
-Dadurch ist es beispielsweise möglich, bestimmten Kunden Ihres Online-Shops günstigere Preise anzubieten.
+So können Sie bestimmten Kunden in Ihrem Online-Shop vergünstigte Preise anbieten.
 
-Sind dem Rabatt keine Benutzer oder Benutzergruppen zugeordnet, gilt er für alle Kunden.
+Sind dem Rabatt keine Benutzer oder Benutzergruppen zugeordnet, so gilt er für alle Kunden.
 
-Sind hingegen Benutzer und Benutzergruppen zugeordnet, müssen Kunden sowohl in mindestens einer der zugewiesenen Benutzergruppen als auch unter den zugewiesenen Benutzern sein. Nur dann ist der Rabatt für sie gültig.
+Wenn sowohl Benutzer als auch Benutzergruppen zugeordnet sind, gilt der Rabatt nur für Kunden, die beiden Kategorien angehören.
 
 |procedure|
 
 1. Wählen Sie :menuselection:`Shopeinstellungen --> Rabatte`.
-#. Wählen Sie einen Rabatt aus der Liste der Rabatte oder legen Sie einen neuen an.
-#. Bei einem neuen Rabatt vergeben Sie einen aussagekräftigen Namen und legen fest, um wie viel der reguläre Preis reduziert werden soll.
+#. Wählen Sie einen bestehenden Rabatt oder erstellen Sie einen neuen.
+#. Geben Sie dem Rabatt einen aussagekräftigen Namen und legen Sie fest, um wie viel der reguläre Preis reduziert wird.
 #. Wählen Sie auf der Registerkarte :guilabel:`Benutzer` die Schaltfläche :guilabel:`Benutzer zuordnen` oder die Schaltfläche :guilabel:`Benutzergruppen zuordnen`.
-#. Verschieben Sie einen oder mehrere Benutzer oder Benutzergruppen per Drag \& Drop in die rechte Liste des Zuordnungsfensters. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+#. Ziehen Sie die gewünschten Benutzer oder Benutzergruppen per Drag & Drop in die rechte Liste des Zuordnungsfensters.
 #. Schließen Sie das Zuordnungsfenster.
 #. Speichern Sie die Änderungen.
 
 |result|
 
-Der Rabatt gilt für alle zugeordneten Benutzer und/oder Benutzergruppen.
+Der Rabatt wird nur für die zugeordneten Benutzer und Benutzergruppen angewendet.
 
 
 .. Intern: oxbahk, Status:, F1: discount_users.html

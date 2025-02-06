@@ -285,10 +285,12 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
 2. Legen Sie unter unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit demnKontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
 
-Eigene Aktionen einbinden
--------------------------
 
-.. todo: #SB: wie konfiguriere ich eigene Aktionen ein, die ich ja anlegen kann?
+
+.. todo:
+    Eigene Aktionen einbinden
+    -------------------------
+    #SB: wie konfiguriere ich eigene Aktionen ein, die ich ja anlegen kann?
     #SB: Wie konfiguriere ich Banner?
     #SB: Wie konfiguriere ich Promotionen?
 

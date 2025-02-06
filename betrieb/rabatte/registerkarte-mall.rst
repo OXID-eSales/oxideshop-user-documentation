@@ -1,11 +1,11 @@
-﻿Registerkarte Mall: Einzelne Rabatte in Subshops verwenden
-==========================================================
+﻿Einzelne Rabatte in Subshops verwenden
+======================================
 
-Konfigurieren Sie Rabatte zentral in einem Eltern-Shop und steuern Sie, welche einzelnen Rabatte Sie in welchen Subshops anwenden wollen.
+Verwalten Sie Rabatte zentral im Elternshop und legen Sie fest, welche Rabatte in welchen Subshops gelten sollen.
 
-Diese Funktion ist (mit der Registerkarte :guilabel:`Mall`) nur in der Enterprise Edition vorhanden.
+Diese Funktion ist mit der Registerkarte :guilabel:`Mall` nur in der Enterprise Edition vorhanden.
 
-Die Funktion ist nur für Subshops verfügbar. Multishops verwenden ohne eine derartige Verknüpfung Rabatte aus :emphasis:`allen` Shops.
+Die Funktion ist nur für Subshops verfügbar. Multishops verwenden Rabatte aus :emphasis:`allen` Shops.
 
 Rabatte an Subshops vererben
 ----------------------------
@@ -52,7 +52,7 @@ Rabatte an Subshops vererben
 
       Abb.: Registerkarte Mall: Verknüpfungen zu Subshops und Supershops verwalten
 
-#. Je nach dem, wie Sie Ihren Subshop in :ref:`Schritt 1 <Rabatte-verwalten-Schritt1>` angelegt haben, deaktivieren Sie den Rabatt oder aktivieren ihn für die gewünschten Subshops.
+#. Je nachdem, wie Sie Ihren Subshop in :ref:`Schritt 1 <Rabatte-verwalten-Schritt1>` angelegt haben, deaktivieren Sie den Rabatt oder aktivieren ihn für die gewünschten Subshops.
 #. Speichern Sie Ihre Einstellungen.
 #. Optional: Legen Sie unter :menuselection:`Shopeinstellungen --> Rabatte` zusätzliche Rabatte an, die nur für den Subshop gültig sind.
 
@@ -63,7 +63,7 @@ Deaktivieren Sie bei Bedarf die ererbten Rabatte.
 
 |procedure|
 
-#. Wechseln Sie in den Subshop.
+#. Wechseln Sie in den gewünschten Subshop.
 #. Wählen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` die Registerkarte :guilabel:`Mall`.
 #. Deaktivieren Sie das Kontrollkästchen :guilabel:`Alle Rabatte vom Elternshop erben`.
 
@@ -80,7 +80,7 @@ Deaktivieren Sie bei Bedarf die ererbten Rabatte.
 
 |result|
 
-Der Rabatt ist im Elternshop vorhanden, aber nicht im jeweiligen Subshop oder Supershop.
+Der Rabatt bleibt im Elternshop bestehen, wird aber im jeweiligen Subshop oder Supershop nicht mehr angewendet.
 
 
 .. Intern: oxbahl, Status:, F1: discount_mall.html
