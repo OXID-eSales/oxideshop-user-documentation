@@ -1,60 +1,157 @@
-﻿Discounts
-=========
+﻿Creating, managing, and placing discounts
+=========================================
 
-Apart from coupon series, newsletters or promotions, discounts are an important marketing tool in your OXID eShop. You can grant a discount on the regular price of a product if certain conditions are met. Cheaper product prices can be set for specific products, categories, users, user groups, and purchase values or quantities. The wide variety of discounts allows you to offer shopping benefits to your customers and promote customer loyalty.
+Discounts are among the central marketing tools in your OXID eShop, alongside voucher series, newsletters, and promotions.
 
-Discounts can be defined for a specific time period or even for a specific country. They can be set to display the offer directly with the discounted prices. However, you can also specify that the discount is first calculated and shown in the shopping cart. Discounts can be given as a percentage or in absolute terms in relation to the product price. In addition to the reduction of the product price, there is also the option of adding a free products to the shopping cart for every purchase that meets the discount criteria.
+The discount reduces the price of an item if certain conditions are met.
 
-.. image:: ../../media/screenshots/oxbahh01.png
-   :alt: Discounts
-   :height: 535
+You can grant lower item prices for certain items, categories, users, user groups, purchase values or quantities.
+
+Discounts help attract customers and increase loyalty.
+
+Types of discounts
+------------------
+
+* You can define the value of the discount as follows:
+
+  * as a percentage of the item price (:ref:`oxbahh01`, item 2)
+  * absolutely
+  * as a free item that is automatically added to the shopping cart
+
+* Restrict the discount’s validity
+
+  * by category or item
+  * by user or user group
+  * for a specific period
+  * country-specific
+
+* You can apply quantity or tiered discounts using the graduated pricing feature.
+
+  This allows you to define that an item becomes cheaper as soon as a certain quantity of this item is purchased.
+
+  For more information, see :doc:`Article - Warehouse tab <../../installation/article/warehouse-tab>`.
+
+.. _oxbahh01:
+
+.. figure:: ../../media/screenshots/oxbahh01.png
+   :alt: Example: Creating a limited-time discount of 10%
    :width: 650
+   :class: with-shadow
 
-Quantity or scale discounts can be implemented with scale prices for the products. This way, the product will be cheaper if the customer buys a certain quantity. See: :doc:`Products - Stock tab <../../setup/products/stock-tab>`
+   Fig.: Example: Creating a limited-time discount of 10%
 
-A discount granted at the time of purchase can be changed later in the order management section. Likewise, a discount on the shopping cart value can be given after the order has been placed. See: :doc:`Orders - Main tab <../orders/main-tab>`
+Displaying discounts
+--------------------
 
-Naturally, various discounts can be active in OXID eShop so that, under certain conditions, several discounts are taken into account when buying a product and displayed in the shopping cart. In this case, discounts that apply to specific products are indicated in the shopping cart by the now valid discounted price and the crossed-out, original product price. Discounts that apply to the entire product catalogue are displayed as one line when listing the total amount for the shopping cart.
+* Define where the discount is displayed:
 
-.. image:: ../../media/screenshots/oxbahh02.png
-   :alt: Kite with 2 discounts in the shopping cart
-   :height: 331
-   :width: 650
+  * Display the offer directly with the discounted prices.
+  * Show the discount only in the shopping cart.
 
-The \"Discounts\" section tells you how to create discounts and what settings to use to customise and apply them to specific groups of customers. It also shows some typical examples of discounts.
+    Example: You want to display the discount type ‘free gift’ in the shopping cart and not in the item overview or on the details page (see :ref:`operation/discounts/item-as-discount:Create free item as discount`).
 
-Discounts can be edited in the Admin panel under :menuselection:`Shop Settings --> Discounts`. Here, you will see a list of the available discounts and the input area right below it.
+    For more information, see step :ref:`Determine placement <Determine discount placement>` (under :ref:`operation/discounts/discounts:Create and manage discounts`).
 
-A small green circle with a check mark at the beginning of the line in the discounts list symbolises an active discount. It is not displayed for inactive discounts. The list shows only the name of the discount. To search for discounts, enter characters in the search field and then press Enter or click on the magnifying glass icon.
+* Activate multiple discounts simultaneously in your OXID eShop if required. If the conditions are met, they will be applied in the shopping cart.
 
-Discounts can be sorted in the list by active/not active, sorting and name by clicking on the respective column heading. The discounts are thereby displayed in ascending order.
+  Discounts that apply to specific items are indicated in the shopping cart by the current discounted price and the crossed-out original item price (:ref:`oxbahh02`, item 1).
 
-Discounts can be permanently removed from the database by clicking on the trash icon at the end of the line. To deactivate the discount, uncheck the :guilabel:`Always active` box and make sure that no time period is specified as otherwise the discount would be activated for the specified period.
+  Discounts that apply to the entire product catalog are displayed as a single line when listing the total amount for the shopping cart (:ref:`oxbahh02`, item 2).
 
-When you select a discount from the list, its information will be displayed in the input area. To create a new discount, click on :guilabel:`Create new Discount` at the bottom of the screen.
+  .. _oxbahh02:
 
------------------------------------------------------------------------------------------
+  .. figure:: ../../media/screenshots/oxbahh02.png
+     :alt: Example: Discounted item in the shopping cart
+     :width: 650
+     :class: with-shadow
 
-Main tab
---------
-**Contents**: active discount, always active, active for a time period, purchase quantity, purchase value, absolute discount, percentage discount, gift, add-on, free product |br|
-:doc:`Read article <main-tab>` |link|
+     Fig.: Example: Discounted item in the shopping cart
 
-Products tab
-------------
-**Contents**: Assigning products and categories |br|
-:doc:`Read article <products-tab>` |link|
+  For you as the shop owner, the discount is displayed in the order management (see :doc:`Orders - Master tab <../orders/master-tab>`).
 
-Users tab
----------
-**Contents**: Assigning users and user groups |br|
-:doc:`Read article <users-tab>` |link|
+Creating and managing discounts
+-------------------------------
 
-Mall tab
---------
-Available only in Enterprise Edition |br|
-**Contents**: inheriting discounts, assigning discounts, parent shop, subshop, supershop, multishop, Mall |br|
-:doc:`Read article <mall-tab>` |link|
+Create and edit discounts.
+
+|procedure|
+
+1. Choose :menuselection:`Shop Settings --> Discounts`.
+
+#. If you have the Oxid eShop Enterprise Edition: Maintain discounts centrally and inherit them all or individually to subshops.
+
+   For more information, see :doc:`Mall tab: Inherit discounts to subshops <tab-mall>`.
+
+#. Create the discount.
+
+   You have the following options:
+
+   * Optional: Set a time limit for discounts.
+
+     For more information, see :doc:`Limit discounts for a limited time <limited-time-discounts>`.
+   * Optional: Create a free item as a discount instead of an absolute or relative discount.
+
+     For more information, see :doc:`Create free item as discount <item-as-discount>`.
+   * Determine the placement.
+
+     .. _Discount-placement-determine:
+
+     In the input field :guilabel:`Purchase value` or :guilabel:`Purchase quantity`, specify when the discount should be deducted from the price:
+
+     * To display the item in the online store with the discounted price, enter the value in the :guilabel:`From` field as ``0`` (:ref:`oxbahh03`, item 1).
+
+       The value in the :guilabel:`To` field can also be ``0``.
+
+       .. _oxbahh03:
+
+       .. figure:: ../../media/screenshots/oxbahh03.png
+          :alt: Displaying the discounted price in the online store
+          :width: 650
+          :class: with-shadow
+
+          Fig.: Displaying the discounted price in the online store
+
+       In our example, the 10% discounted price of € 108,000 is displayed instead of the list price of € 120,000 (:ref:`oxbahh03`, item 2).
+
+     * To display the discount only in the :emphasis:`shopping cart` (:ref:`oxbahh04`, Pos. 4, 5), enter the value in the :guilabel:`From` field as ``1`` (:ref:`oxbahh04`, Pos. 1).
+
+       .. attention::
+
+          The value in the :guilabel:`To` field must not be ``0`` in this case. (:ref:`oxbahh04`, pos. 2).
+
+       .. _oxbahh04:
+
+       .. figure:: ../../media/screenshots/oxbahh04.png
+          :alt: Displaying the discounted price in the shopping cart
+          :width: 650
+          :class: with-shadow
+
+          Fig.: Displaying the discounted price in the shopping cart
+
+#. Assign the relevant categories or items.
+
+   For more information, see :doc:`Article tab: Assign category or article <tab-article>`.
+#. Optional: Restrict the discount to certain user groups.
+
+   For more information, see :doc:`User tab: Restrict discounts to users or groups <tab-user>`.
+
+|result|
+
+In the list of discounts, a small green circle with a tick at the beginning of the line symbolizes a discount that is always active.
+
+.. note::
+
+   :emphasis:`Time-controlled` discounts are :emphasis:`not` marked separately in the list.
+
+.. todo: #SB: May be feature request: https://oxid-esales.atlassian.net/browse/OXDEV-8435?focusedCommentId=168679
+
+Deactivating discounts
+----------------------
+
+To deactivate a discount, do the following:
+
+* Remove the :guilabel:`Always active` check mark.
+* Make sure that no time period is entered. An entry would otherwise activate the discount for the specified period.
 
 
 .. Intern: oxbahh, Status: transL
