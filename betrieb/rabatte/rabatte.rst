@@ -25,11 +25,11 @@ Arten von Rabatten
   * für einen bestimmten Zeitraum
   * länderspezifisch
 
-* Mengenrabatte oder Staffelrabatte können Sie mit Staffelpreisen direkt in den Artikeln umsetzen.“
+* Mengenrabatte oder Staffelrabatte können Sie mit Staffelpreisen direkt in den Artikeln umsetzen.
 
   Damit können Sie definieren, dass ein Artikel günstiger wird, sobald eine bestimmte Menge dieses Artikels gekauft wird.
 
-  Weitere Informationen finden Sie unter :doc:`Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`
+  Weitere Informationen finden Sie unter :doc:`Artikel - Registerkarte Lager <../../einrichtung/artikel/registerkarte-lager>`.
 
 .. _oxbahh01:
 
@@ -61,11 +61,11 @@ Rabatten plazieren
   .. _oxbahh02:
 
   .. figure:: ../../media/screenshots/oxbahh02.png
-     :alt: Beispiel: Artikel mit 2 Rabatten im Warenkorb
+     :alt: Beispiel: Rabattierter Artikel im Warenkorb
      :width: 650
      :class: with-shadow
 
-     Abb.: Beispiel: Artikel mit 2 Rabatten im Warenkorb
+     Abb.: Beispiel: Rabattierter Artikel im Warenkorb
 
   Für Sie als Shopbetreiber wird der Rabatt in der Bestellverwaltung angezeigt (siehe :doc:`Bestellungen - Registerkarte Stamm <../bestellungen/registerkarte-stamm>`).
 
