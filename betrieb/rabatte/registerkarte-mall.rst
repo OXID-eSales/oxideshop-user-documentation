@@ -22,7 +22,7 @@ Rabatte an Subshops vererben
 
      Später wählen Sie diejenigen Rabatte einzeln ab, die Sie im Subshop nicht benötigen. (Oder Sie deaktivieren alle ererbten Rabatte: Siehe :ref:`betrieb/rabatte/registerkarte-mall:Ererben von Rabatten in Subshops aufheben`.)
 
-     Markieren Sie dazu das Kontrollkästchen :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` (:ref:`oxbahl02`).
+     Markieren Sie dazu das Kontrollkästchen :guilabel:`Dieser Shop erbt alle Artikel und Einstellungen vom Elternshop` (:ref:`oxbahl02`, Pos. 1).
 
    * Verzichten Sie auf das Vererben der Artikel und Rabatte und wählen Sie in Ihrem Subshop nachträglich diejenigen Rabatte einzeln, die Sie anwenden wollen.
 
@@ -54,7 +54,7 @@ Rabatte an Subshops vererben
 
 #. Je nachdem, wie Sie Ihren Subshop in :ref:`Schritt 1 <Rabatte-verwalten-Schritt1>` angelegt haben, deaktivieren Sie den Rabatt oder aktivieren ihn für die gewünschten Subshops.
 #. Speichern Sie Ihre Einstellungen.
-#. Optional: Legen Sie unter :menuselection:`Shopeinstellungen --> Rabatte` zusätzliche Rabatte an, die nur für den Subshop gültig sind.
+#. Optional: Um zusätzliche Rabatte anzulegen, die nur für den Subshop gültig sind, wählen Sie :menuselection:`Shopeinstellungen --> Rabatte`.
 
 Ererben von Rabatten in Subshops aufheben
 -----------------------------------------
@@ -65,7 +65,7 @@ Deaktivieren Sie bei Bedarf die ererbten Rabatte.
 
 #. Wechseln Sie in den gewünschten Subshop.
 #. Wählen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` die Registerkarte :guilabel:`Mall`.
-#. Deaktivieren Sie das Kontrollkästchen :guilabel:`Alle Rabatte vom Elternshop erben`.
+#. Deaktivieren Sie das Kontrollkästchen :guilabel:`Alle Rabatte vom Elternshop erben` (:ref:`oxbahl03`, Pos. 1).
 
    .. todo: EN: Inherit all discounts from parent shop
 
