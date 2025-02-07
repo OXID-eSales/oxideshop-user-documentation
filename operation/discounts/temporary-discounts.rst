@@ -1,19 +1,34 @@
-﻿Temporary discounts
-===================
+﻿Creating time-limited discounts
+===============================
 
-OXID eShop allows you to create discounts that apply for a defined period of time. This can be special discount promotions, such as Sunday or late night offers, and seasonal discounts, such as a summer sale or a Christmas special. A start and an end date must be specified for such a discount. For special discounts, the start and end time can be even specified down to the minute or second.
+Create discounts that are valid for a defined period.
 
-Temporary discounts are edited in the discount management section.
+This allows you to create special discount campaigns, such as Sunday specials, moonlight sales, or seasonal discounts like a summer sale or Christmas special.
 
-* Go to :menuselection:`Shop Settings --> Discounts`.
-* Select a discount from the list of discounts or create a new one.
-* If the discount is new, enter a descriptive name and specify by how much the regular price should be reduced.
-* Enter date and time in fields :guilabel:`Active for a period (From)` and :guilabel:`(To)` in the YYYY-MM-DD HH-MM-SS format.
-* Make sure to leave the :guilabel:`Always active` box unchecked.
-* Save the changes.
+To do this, set a start and end date.
 
-The discount will only apply to the entered time period and the specified conditions. Without the assignment of user groups or users, the discount will apply to all customers of your online shop. In addition, if neither products nor categories have been assigned, the discount will apply to the entire range of products.
+If necessary, specify the start and end time down to the minute or second.
 
-.. seealso:: :doc:`Discounts - Main tab <main-tab>`
+|procedure|
+
+Manage time-limited discounts in the discount settings.
+
+1. Choose :menuselection:`Shop Settings --> Discounts`.
+#. Choose an existing discount from the list or create a new one.
+#. Enter a meaningful discount name and define the price reduction.
+#. In the :guilabel:`Active for a period (From)` and :guilabel:`(To)` fields, enter the desired start and end date in the format ``YYYY-MM-DD HH-MM-SS``.
+#. Make sure that the :guilabel:`Always active` checkbox is unchecked.
+#. Save your settings.
+
+|result|
+
+The discount is valid for the specified period and applies under the defined conditions.
+
+If no users or user groups are assigned, the discount applies to all customers.
+
+If no items or categories are assigned, the discount applies to the entire product range.
+
+For more information, see :doc:`Discounts - Master tab <tab-master>`.
+
 
 .. Intern: oxbahn, Status:
