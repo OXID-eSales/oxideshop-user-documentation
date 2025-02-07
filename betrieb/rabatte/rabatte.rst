@@ -40,8 +40,8 @@ Arten von Rabatten
 
    Abb.: Beispiel: Zeitlich begrenzten Rabatt von 10% anlegen
 
-Rabatten plazieren
-------------------
+Rabatte plazieren
+-----------------
 
 * Bestimmen Sie die Plazierung:
 
@@ -50,7 +50,7 @@ Rabatten plazieren
 
     Beispiel: Sie wollen, dass die Rabattart Zugabe im Warenkorb angezeigt wird und nicht in der Artikelübersicht oder auf der Detailseite (siehe :ref:`betrieb/rabatte/artikel-als-zugabe:Gratisartikel als Rabatt anlegen`).
 
-  Weitere Informationen finden Sie im Schritt :ref:`Plazierung bestimmen <Rabatt-Plazierung-bestimmen>` (unter :ref:`betrieb/rabatte/rabatte:Anlegen und Verwalten von Rabatten`).
+  Weitere Informationen finden Sie im Schritt :ref:`Plazierung bestimmen <Rabatt-Plazierung-bestimmen>` (unter :ref:`betrieb/rabatte/rabatte:Rabatte anlegen und verwalten`).
 
 * Aktivieren Sie in Ihrem OXID eShop bei Bedarf verschiedene Rabatte gleichzeitig, die bei entsprechenden Bedingungen im Warenkorb berücksichtigt werden.
 

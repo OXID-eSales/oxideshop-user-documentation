@@ -26,25 +26,25 @@ Die Einstellungen und die Sprachumstellung sind erst nach Anlegen des Rabatts ve
 :guilabel:`Aktiv für Zeitraum` ... :guilabel:`(von)` ... :guilabel:`(bis)`
    Um Rabattaktionen vorzubereiten und zeitlich zu steuern, definieren Sie einen Zeitraum, in dem ein Rabatt gültig ist.
 
-   Geben Sie Anfang und Ende im Format JJJJ-MM-TT HH:MM:SS an. Datum und Zeit des Endes der Aktivierung sind Pflichtangaben.
+   Geben Sie Anfang und Ende im Format ``JJJJ-MM-TT HH:MM:SS`` an. Datum und Zeit des Endes der Aktivierung sind Pflichtangaben.
 
 :guilabel:`Einkaufsmenge von` ... :guilabel:`bis` ...
    Soll der Rabatt nur dann gewährt werden, wenn eine bestimmte Menge von Artikeln im Warenkorb liegt, geben Sie die minimale und maximale Einkaufsmenge vor.
 
-   Wenn beide Werte 0 sind, gilt der Rabatt für alle Einkaufsmengen.
+   Wenn beide Werte ``0`` sind, gilt der Rabatt für alle Einkaufsmengen.
 
    Legen Sie im Eingabefeld :guilabel:`Einkaufswert (€) von` oder :guilabel:`Einkaufsmenge von` fest, wie der Rabatt vom Preis abgezogen werden soll.
 
-   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Rabatten plazieren`.
+   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Rabatte plazieren`.
 
 :guilabel:`Einkaufswert (€) von` ... :guilabel:`bis` ...
    Geben Sie eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt werden soll.
 
-   Sind beide Werte 0, gilt der Rabatt für jeden Einkaufswert.
+   Sind beide Werte ``0``, gilt der Rabatt für jeden Einkaufswert.
 
    Legen Sie Eingabefeld :guilabel:`Einkaufswert (€) von` oder :guilabel:`Einkaufsmenge von` fest, wie der Rabatt vom Preis abgezogen werden soll.
 
-   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Rabatten plazieren`.
+   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Rabatte plazieren`.
 
 :guilabel:`Rabatt`
    Definieren Sie den Rabatt, der gewährt werden soll.
@@ -69,6 +69,8 @@ Die Einstellungen und die Sprachumstellung sind erst nach Anlegen des Rabatts ve
 
    Wenn Sie die Menge beispielsweise auf 2 setzen, werden unabhängig von der gekauften Artikelanzahl zwei kostenlose Artikel in den Warenkorb gelegt.
 
+   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/artikel-als-zugabe:Gratisartikel als Rabatt anlegen`.
+
    .. figure:: ../../media/screenshots/oxbahi03.png
       :alt: Artikel mit Gratisartikel im Warenkorb
       :width: 650
@@ -82,6 +84,8 @@ Die Einstellungen und die Sprachumstellung sind erst nach Anlegen des Rabatts ve
    Die Anzahl der Zugaben wird im Warenkorb berechnet. Dabei wird die Anzahl der rabattfähigen Artikel zunächst durch den Wert der Mindesteinkaufsmenge (Feld :guilabel:`Einkaufsmenge von ... bis`) geteilt und anschließend mit dem Wert multipliziert, der bei :guilabel:`Drein/Zugabe - Menge` eingetragen ist.
 
    Beispiel: Wurden 10 Artikel gekauft, auf die der Rabatt gewährt wird, die Mindesteinkaufsmenge ist 5 und die Menge der Zugabe 1, wird die Zugabe (10/5)*1 = 2 mal in den Warenkorb gelegt. Ist die Menge der Zugabe 2, erhöht sich die Anzahl der Zugaben auf 4.
+
+   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/artikel-als-zugabe:Gratisartikel als Rabatt anlegen`.
 
 :guilabel:`In Sprache`
    Der Rabatt lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
