@@ -16,7 +16,7 @@ Verwalten Sie zeitlich begrenzte Rabatte in der Rabattverwaltung.
 1. Wählen Sie :menuselection:`Shopeinstellungen --> Rabatte`.
 #. Wählen Sie einen Rabatt aus der Liste der Rabatte oder legen Sie einen neuen an.
 #. Geben Sie dem Rabatt einen aussagekräftigen Namen und definieren Sie die Preisreduzierung.
-#. Tragen Sie in die Felder :guilabel:`Aktiv für Zeitraum (von)` und :guilabel:`(bis)` das gewünschte Start- und Enddatum im Format JJJJ-MM-TT HH-MM-SS ein.
+#. Tragen Sie in die Felder :guilabel:`Aktiv für Zeitraum (von)` und :guilabel:`(bis)` das gewünschte Start- und Enddatum im Format ``JJJJ-MM-TT HH-MM-SS`` ein.
 #. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Immer aktiv` nicht markiert ist.
 #. Speichern Sie Ihre Einstellungen.
 
