@@ -23,7 +23,7 @@ Sobald der Artikel als Zugabe in den Warenkorb gelegt wird, setzt das System sei
 
    Typischerweise wollen Sie, dass der Gratisartikel erst im Warenkorb erscheint.
 
-   Um das umzusetzen, folgen Sie der Anleitung im Schritt :ref:`Plazierung bestimmen <Rabatt-Plazierung-bestimmen>` (unter :ref:`betrieb/rabatte/rabatte:Anlegen und Verwalten von Rabatten`).
+   Um das umzusetzen, folgen Sie der Anleitung im Schritt :ref:`Plazierung bestimmen <Rabatt-Plazierung-bestimmen>` (unter :ref:`betrieb/rabatte/rabatte:Rabatte anlegen, verwalten und plazieren`).
 
 #. Stellen Sie sicher, dass der Rabatt aktiv ist.
 #. Speichern Sie die Einstellungen.
