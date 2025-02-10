@@ -28,6 +28,6 @@ Wenn keine Benutzer oder Benutzergruppen zugeordnet sind, gilt der Rabatt für a
 
 Wenn weder Artikel noch Kategorien zugewiesen sind, gilt der Rabatt für das gesamte Warensortiment.
 
-Weitere Informationen finden Sie unter :doc:`Rabatte - Registerkarte Stamm <registerkarte-stamm>`.
+Weitere Informationen finden Sie unter :doc:`Grundsätzliche Eigenschaften eines Rabatts festlegen <registerkarte-stamm>`.
 
 .. Intern: oxbahn, Status:
