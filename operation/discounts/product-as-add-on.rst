@@ -23,7 +23,7 @@ When the item is added to the shopping cart as a free gift, its price is automat
 
    Typically, you want the free item to appear in the shopping cart first.
 
-   To implement this, under :ref:`operation/discounts/discounts:Create and manage discounts`, follow the instructions in step :ref:`Determine placement <Determine discount placement>`.
+   To implement this, under :ref:`operation/discounts/discounts:Creating, managing, and placing discounts`, follow the instructions in step :ref:`Determine placement <Discount-placement-determination>`.
 
 #. Make sure that the discount is active.
 #. Save the settings.

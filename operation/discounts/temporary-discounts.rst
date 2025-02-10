@@ -28,7 +28,7 @@ If no users or user groups are assigned, the discount applies to all customers.
 
 If no items or categories are assigned, the discount applies to the entire product range.
 
-For more information, see :doc:`Discounts - Master tab <tab-master>`.
+For more information, see :doc:`Defining the Basic Properties of a Discount <main-tab>`.
 
 
 .. Intern: oxbahn, Status:
