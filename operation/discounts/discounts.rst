@@ -29,7 +29,8 @@ Types of discounts
 
   This allows you to define that an item becomes cheaper as soon as a certain quantity of this item is purchased.
 
-  For more information, see :doc:`Article - Warehouse tab <../../installation/article/warehouse-tab>`.
+  For more information, see :doc:`Article - Stock tab <../../setup/products/stock-tab>`.
+
 
 .. _oxbahh01:
 
@@ -48,9 +49,9 @@ Displaying discounts
   * Display the offer directly with the discounted prices.
   * Show the discount only in the shopping cart.
 
-    Example: You want to display the discount type ‘free gift’ in the shopping cart and not in the item overview or on the details page (see :ref:`operation/discounts/item-as-discount:Create free item as discount`).
+    Example: You want to display the discount type ‘free item’ in the shopping cart and not in the item overview or on the details page (see :ref:`operation/discounts/product-as-add-on:Creating free items as a discount`).
 
-    For more information, see step :ref:`Determine placement <Determine discount placement>` (under :ref:`operation/discounts/discounts:Create and manage discounts`).
+    For more information, see step :ref:`Determine placement <Discount-placement-determination>` (under :ref:`operation/discounts/discounts:Creating and managing discounts`).
 
 * Activate multiple discounts simultaneously in your OXID eShop if required. If the conditions are met, they will be applied in the shopping cart.
 
@@ -67,7 +68,7 @@ Displaying discounts
 
      Fig.: Example: Discounted item in the shopping cart
 
-  For you as the shop owner, the discount is displayed in the order management (see :doc:`Orders - Master tab <../orders/master-tab>`).
+  For you as the shop owner, the discount is displayed in the order management (see :doc:`Orders - Main tab <../orders/main-tab>`).
 
 Creating and managing discounts
 -------------------------------
@@ -80,7 +81,7 @@ Create and edit discounts.
 
 #. If you have the Oxid eShop Enterprise Edition: Maintain discounts centrally and inherit them all or individually to subshops.
 
-   For more information, see :doc:`Mall tab: Inherit discounts to subshops <tab-mall>`.
+   For more information, see :ref:`operation/discounts/mall-tab:Inheriting Discounts to Subshops`.
 
 #. Create the discount.
 
@@ -88,13 +89,13 @@ Create and edit discounts.
 
    * Optional: Set a time limit for discounts.
 
-     For more information, see :doc:`Limit discounts for a limited time <limited-time-discounts>`.
+     For more information, see :doc:`Creating time-limited discounts <temporary-discounts>`.
    * Optional: Create a free item as a discount instead of an absolute or relative discount.
 
-     For more information, see :doc:`Create free item as discount <item-as-discount>`.
+     For more information, see :doc:`Creating free items as a discount <product-as-add-on>`.
    * Determine the placement.
 
-     .. _Discount-placement-determine:
+     .. _Discount-placement-determination:
 
      In the input field :guilabel:`Purchase value` or :guilabel:`Purchase quantity`, specify when the discount should be deducted from the price:
 
@@ -130,10 +131,10 @@ Create and edit discounts.
 
 #. Assign the relevant categories or items.
 
-   For more information, see :doc:`Article tab: Assign category or article <tab-article>`.
+   For more information, see :doc:`Restricting Discounts to Categories or Items <products-tab>`.
 #. Optional: Restrict the discount to certain user groups.
 
-   For more information, see :doc:`User tab: Restrict discounts to users or groups <tab-user>`.
+   For more information, see :doc:`Restricting Discounts to Users or Groups <users-tab>`.
 
 |result|
 
