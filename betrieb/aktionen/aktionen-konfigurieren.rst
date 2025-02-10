@@ -8,7 +8,7 @@ Aktionen konfigurieren
     Welche Controller es gibt es? Was ist ein Widget? Wann wird es verwendet? Siehe https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/project/twig_template_engine/twig_extensions.html#includewidgetextension
     Folgende müssten dokuemntiert werden: Wozu gut, wo standarm. eingebunden, welchen Paraeter haben sie, z.B. Categorie tree wie tif? https://github.com/OXID-eSales/oxideshop_ce/tree/b-8.0.x/source/Application/Component/Widget
     Die Templates gibt es unter: https://github.com/OXID-eSales/apex-theme/tree/b-8.0.x/tpl/widget
-    #HR: Wer liefert Beschreibung der Widgets? -- fehlt offenbar
+    HR: Wer liefert Beschreibung der Widgets? -- fehlt offenbar -- evtl. SB fragen; Liste: Aufn. 20250210_11.00
 
 Zeigen Sie Aktionen auf der Startseite des Shops an.
 
