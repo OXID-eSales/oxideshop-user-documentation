@@ -63,13 +63,20 @@ The transaction isolation level must be left with the default value *REPEATABLE 
 PHP
 ---
 
-* PHP version 8.2 or 8.3
+* PHP version from 8.2 up to 8.4
 * Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
 * PHP setting *session.auto_start* in :file:`php.ini` should be disabled (OFF)
 * File uploads should be enabled in PHP
 * Enabled *allow_url_fopen* and *fsockopen* on port 80
 * Apache server variables *REQUEST_URI* or *SCRIPT_URI* must be available
 * *ini_set* allowed
+
+.. warning::
+    Alongside with improvements and bug-fixes, PHP v8.4 introduced a breaking change into the process of floating numbers' rounding:
+    `Migrating from PHP 8.3.x to PHP 8.4.x <https://www.php.net/manual/en/migration84.other-changes.php#:~:text=Rounding%20with%20round()>`__
+    Practically speaking, it means, that certain calculations will produce different results for different PHP versions
+    (e.g. `round(7380/28800*100), 2)` will output `float(25.63)` when executed with PHP8.3 and `float(25.62)` with PHP8.4).
+    Please take this fact into consideration before migrating your system to the latest PHP version.
 
 PHP extensions that need to be installed:
 
