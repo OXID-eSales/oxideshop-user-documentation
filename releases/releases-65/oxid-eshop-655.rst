@@ -6,7 +6,7 @@ Release date: tbd
 
 To close a security vulnerability in Composer, install OXID eShop 6.5.5.
 
-For security reasons, OXID eShop 6.5.5 requires Composer version 2.7.7
+For security reasons, OXID eShop 6.5.5 requires Composer version 2.7.7.
 
 For more information, see
 
@@ -16,7 +16,6 @@ For more information, see
 
 Improvements and adjustments
 ----------------------------
-
 For more information about changes in the compilation, see `<https://github.com/OXID-eSales/oxideshop_metapackage_ce/compare/v6.5.4...v6.5.5>`_.
 
 Updated components
@@ -42,8 +41,7 @@ The compilation contains the following components:
 * PayPal 6.5.0: `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
 * WYSIWYG Editor + Mediathek 2.4.2: `Changelog 2.4.2 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.2/CHANGELOG.md>`_
 * Makaira 1.4.5: `Changelog 1.4.5 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.5/CHANGELOG.md>`_
-* Unzer Payment für OXID 1.1.1 (EE): `Changelog 1.1.1 <https://github.com/OXID-eSales/unzer-module/blob/v1.1.1/CHANGELOG.md>`_
-
+* Unzer Payment for OXID 1.2.1 (EE): `Changelog 1.2.1 <https://github.com/OXID-eSales/unzer-module/blob/v1.2.1/CHANGELOG.md>`_
 
 Installation
 ------------
@@ -55,5 +53,4 @@ To install or upgrade, follow the instructions in the *Installation* section:
 :doc:`Installing a patch update <../../installation/update/patch-update>`
 
 .. Intern: , Status:
-
 
