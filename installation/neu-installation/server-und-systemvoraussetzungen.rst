@@ -64,7 +64,20 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP 8.2 oder 8.3
+* PHP 8.2 bis 8.4
+
+  .. Attention::
+
+     **Runden von Gleitkommazahlen bei PHP 8.4**
+
+     Neben Verbesserungen und Fehlerbehebungen führt PHP v8.4 eine bahnbrechende Änderung in den Prozess des Rundens von Gleitkommazahlen ein (siehe `Migrating from PHP 8.3.x to PHP 8.4.x: Rounding with round() <https://www.php.net/manual/en/migration84.other-changes.php#:~:text=Rounding%20with%20round()>`_).
+
+     Praktisch bedeutet dies, dass bestimmte Berechnungen unterschiedliche Ergebnisse für verschiedene PHP-Versionen liefern werden.
+
+     Beispielsweise ergibt `round(7380/28800*100), 2)` bei Ausführung mit PHP 8.3 `float(25.63)` und mit PHP 8.4 `float(25.62)`).
+
+     Berücksichtigen Sie diese Tatsache, bevor Sie Ihr System auf die neueste PHP-Version migrieren.
+
 * Empfohlen wird ein *memory_limit* von 60 MB, mindestens aber 32 MB
 * Die PHP-Einstellung *session.auto_start* in der Datei :file:`php.ini` sollte deaktiviert sein (OFF)
 * Datei-Uploads sollten in PHP aktiviert sein
