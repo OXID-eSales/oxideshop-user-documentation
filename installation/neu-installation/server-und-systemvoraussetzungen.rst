@@ -66,6 +66,8 @@ PHP
 
 * PHP 8.2 bis 8.4
 
+.. _php84:
+
   .. Attention::
 
      **Runden von Gleitkommazahlen bei PHP 8.4**

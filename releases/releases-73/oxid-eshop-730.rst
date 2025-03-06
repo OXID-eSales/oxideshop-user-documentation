@@ -54,7 +54,7 @@ User Experience
 
 Verbessern Sie mit ...
 
-Weitere Informationen finden Sie unter :ref:`:`.
+Weitere Informationen finden Sie unter :ref:`tbd:tbd`.
 
 Sicherheit & Zuverlässigkeit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -93,11 +93,37 @@ Siehe Changelogs:
 Neue Funktionen für Entwickler
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Berücksichtigen Sie folgende Systemvoraussetzungen:
+* Nutzen Sie die volle Kompatibilität mit PHP 8.2 bis 8.4.
 
-  * PHP 8.2 bis 8.4
+  Die Software unterstützt PHP-Versionen bis einschließlich PHP 8.4, jedoch müssen Sie beim Runden von Gleitkommazahlen die Änderungen in PHP 8.4 beachten, da sie zu unterschiedlichen Berechnungsergebnissen im Vergleich zu PHP 8.3 führen können.
 
-    .. todo: Rundungshinweis bei PHP 8.4 ergänzen
+  Weitere Informationen finden Sie im Abschnitt `Server- und Systemvoraussetzungen <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html>`_ unter `PHP <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html#php>`_.
+
+* Erhöhen Sie mit der Twig Sandbox Extension die Sicherheit Ihrer Templates.
+
+  Nutzen Sie die Twig Sandbox Extension, um mit dem {% sandbox %}-Tag die erlaubten Tags, Filter und Funktionen in Ihren Templates zu kontrollieren und so die Sicherheit beim dynamischen Template-Rendering zu verbessern.
+
+  .. todo: #tbd: verify link
+
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation (Englisch) unter `Using the Twig Sandbox Extension <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/theme/twig_sandbox.html>`_.
+
+* Optimieren Sie die Verwaltung von OXID-Controllern.
+
+  Registrieren Sie OXID-Controller als Dienste im Dependency Injection Container (DIC), um eine einfachere Handhabung, verbesserte Testbarkeit und eine flexiblere Erweiterung Ihrer Controller zu ermöglichen.
+
+  .. todo: #tbd: verify link
+
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation (Englisch) unter `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
+
+* Vereinfachen Sie die Verwaltung von Umgebungsvariablen.
+
+  Verwenden Sie eine `.env`-Datei, um Umgebungsvariablen zu definieren und sicher in Ihre OXID eShop-Anwendung zu integrieren und auf diese Weise sensible Konfigurationswerte und umgebungsspezifische Einstellungen einfach zu verwalten.
+
+  .. todo: #tbd: verify link
+
+  Weitere Informationen finden Sie in der Entwickler-Dokumentation (Englisch) unter `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
+
+
 
 Komponenten
 -----------
