@@ -54,7 +54,7 @@ Database
 --------
 
 * MySQL 8.0 (5.7 is supported but not recommended)
-* MariaDB Support (tested with MariaDB 11)
+* MariaDB 11
 
 The database user needs sufficient permission to create a database during the installation if it doesn’t already exist. The user also needs permission to create views.
 
