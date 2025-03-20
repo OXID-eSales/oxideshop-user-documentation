@@ -4,8 +4,6 @@ Aktionen auf der Startseite
 
 Zeigen Sie Aktionen auf der Startseite des Shops an.
 
-
-
 Dieses Dokument beschreibt die Aktionen auf der Startseite einer Standardinstallation des OXID eShop mit dem Theme \"APEX\".
 
 Generelles Vorgehen
@@ -47,7 +45,7 @@ Die Angebote der Woche werden auf der Startseite unterhalb des Banners angezeigt
 
 Vom Angebot aus kann der Kunde die Detailseite eines beworbenen Artikels aufrufen. Er kann den Artikel aber auch über die Schaltfläche :guilabel:`In den Warenkorb` direkt in den Warenkorb legen.
 
-.. _oxbagw02:
+
 
 .. figure:: ../../media/screenshots/oxbagw02.png
    :alt: Angebote der Woche anzeigen
@@ -87,7 +85,7 @@ Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge des Sh
 
 Es werden Bild, Titel und Preis der Artikel angezeigt. Es lässt sich die Detailseite des Artikels aufrufen oder der Artikel direkt in den Warenkorb legen.
 
-.. _oxbagw04:
+
 
 .. figure:: ../../media/screenshots/oxbagw04.png
    :alt: Frisch eingetroffen anzeigen
@@ -117,7 +115,7 @@ Topseller
 
 Weiter unten auf der Startseite werden dem Kunden die meistverkauften Artikel des Shops angezeigt. Die Anzeige ist analog der zweispaltigen Galerie einer Artikelübersicht. Es kann die Detailseite eines Artikels aufgerufen oder ein Artikel direkt in den Warenkorb gelegt werden (:ref:`oxbagw05`).
 
-.. _oxbagw05:
+
 
 .. figure:: ../../media/screenshots/oxbagw05.png
    :alt: Topseller anzeigen

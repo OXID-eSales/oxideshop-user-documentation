@@ -62,7 +62,7 @@ Um die Hersteller als Marken im Frontend anzuzeigen, tun Sie Folgendes:
 
       Um die Hersteller bei Bedarf anders zu sortieren, implementieren Sie eine Lösung, welche die ``oxManufacturerList`` nach ``oxsort`` sortiert statt standardmäßig nach ``oxtitle``.
 
-      .. todo: #SB/#HR: Funktion in Klärung: OXDEV-9113
+      .. todo: #SB/#HR: Funktion in Klärung: OXDEV-9113: kommt evtl. mit 8.x
 
    .. _oxbagb04:
 

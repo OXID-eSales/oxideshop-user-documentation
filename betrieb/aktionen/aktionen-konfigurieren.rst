@@ -1,7 +1,7 @@
 Aktionen konfigurieren
 ======================
 
-.. todo: dieser topic fasst aktionen-und-startseite und registerkarte stamm sowie /aktionen.rst zusammen und ersetzt sie
+.. todo: dieser topic fasst aktionen-und-startseite und registerkarte stamm sowie /aktionen.rst zusammen und ersetzt sie.
 
 Zeigen Sie Aktionen auf der Startseite des Shops an.
 
@@ -9,17 +9,11 @@ Zeigen Sie Aktionen auf der Startseite des Shops an.
 
 Aktionen sind neben Rabatten, Gutscheinen oder Newslettern ein wichtiges Marketinginstrument in Ihrem OXID eShop.
 
-Es gibt drei Aktionstypen, mit denen Sie hauptsächlich das Aussehen der Startseite des Shops gestalten und aktualisieren können:
-
-* Aktion
-* Banner
-* Promotion
-
 .. todo: #SB: "hauptsächlich das Aussehen der Startseite": Wo noch?
 
 Das Theme \"APEX\" unterstützt nur den Aktionstyp \"Aktion\".
 
-Die Aktionstypen Promotion und Banner, sowie die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" werden vom Theme \"APEX\" nicht verwendet.
+Die Aktionstypen Promotion und Banner sowie die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" werden vom Theme \"APEX\" nicht verwendet.
 
 .. todo: #SB: Wozu gibt es dann Banner und Promotion, bzw. wie lege ich sie an?
 .. todo: #SB: Was ist eine Promotion, wie lege ich sie an: bei mir erscheint nichts.
@@ -28,7 +22,7 @@ Die Aktionstypen Promotion und Banner, sowie die Aktionen \"Kategorien-Topangebo
 
 .. todo: #SB: Gilt das folgende analog für Promo und Banner?
 
-Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden (:ref:`oxbagw00`), weil das Theme \"Azure\" sie nutzt. Sie könnten bei Bedarf in ein auf \"Flow\" basierendes Theme integriert werden.
+Die Aktionen \"Kategorien-Topangebot\" und \"Topangebot Startseite\" sind aber im Administrationsbereich vorhanden (:ref:`oxbagw00`), weil das Theme \"Azure\" sie nutzt. Bei Bedarf können Sie sie in ein auf \"Flow\" basierendes Theme integrieren.
 
 .. todo: #SB: Kann ich Aktionen auch auf anderen Seiten verwenden?
 
@@ -45,56 +39,46 @@ Generelles Vorgehen
 -------------------
 
 1. Damit Aktionen auf der Startseite angezeigt werden, stellen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` sicher, dass das Kontrollkästchen :guilabel:`Aktionen laden` markiert ist.
-
 2. Konfigurieren Sie die jeweilige Aktion unter :menuselection:`Kundeninformation --> Aktionen verwalten --> <Aktion> --> Stamm`:
 
    * Ordnen Sie die betreffenden Artikel zu.
-   * Legen Sie fest, wie lang die Aktion auf der Startseite erscheinen soll.
+   * Legen Sie fest, wie lange die Aktion auf der Startseite erscheinen soll.
    * Legen Sie die Sprache fest.
 
-   Konfigurieren Sie die Aktionen je nach Typ wie folgt:
+   Banner und Promotions werden vom APEX-Theme nicht unterstützt. Aktionen konfigurieren Sie wie folgt (:ref:`oxbagw00`):
 
-   * Typ Aktion (:ref:`oxbagw00`)
-
-     :guilabel:`Name`
+   :guilabel:`Name`
        Name der Aktion, wie er im Administrationsbereich und auf der Startseite des Shops angezeigt wird.
 
-     :guilabel:`Immer aktiv`
+   :guilabel:`Immer aktiv`
        Aktivieren Sie dieses Kontrollkästchen, damit die Aktion ständig im Shop angezeigt wird. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Aktionen laden` auf der Registerkarte :guilabel:`Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` angehakt ist und achten Sie auf die Einstellung, welche die Aktionen \"Topseller\" und \"Frisch eingetroffen\" betreffen.
 
-     :guilabel:`Aktiv für Zeitraum von` ... :guilabel:`bis` ...
+   :guilabel:`Aktiv für Zeitraum von` ... :guilabel:`bis` ...
        Legen Sie den Zeitraum fest, in dem die Aktion aktiv ist. Dieser wird nur berücksichtigt, wenn das Kontrollkästchen :guilabel:`Immer aktiv` nicht angehakt ist.
 
-     :guilabel:`In Sprache`
-       Die Aktion lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
+   :guilabel:`In Sprache`
+       Bearbeiten Sie die Aktion auch in weiteren aktiven Sprachen Ihres OXID eShops. Wählen Sie die Sprache aus der Liste.
 
-        .. todo: #SB: "Die Aktion lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten." Das heißt doch nur: Ich konfiguriere den Namen der Aktion pro Sprache, korrekt? Oder hat es noch andere Auswirkungen?
+   .. todo: #SB: "Die Aktion lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten." Das heißt doch nur: Ich konfiguriere den Namen der Aktion pro Sprache, korrekt? Oder hat es noch andere Auswirkungen?
 
-     :guilabel:`Artikel zuordnen`
-       Der Aktion kann ein Artikel, wie beispielsweise bei der Aktion \"Angebote der Woche\", oder können mehrere Artikel, wie bei den Aktionen \"Frisch eingetroffen\" und \"Topseller\", zugeordnet werden. Die Schaltfläche :guilabel:`Artikel zuordnen` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel angezeigt. Die Anzeige kann auf eine Kategorie beschränkt werden, indem diese aus einer Dropdown-Liste ausgewählt wird. Artikel können auch nach Artikelnummer, Titel und/oder EAN gefiltert und sortiert werden. Die Artikel werden per Drag \& Drop in die rechte Liste verschoben und damit der Aktion zugeordnet. Eine Mehrfachauswahl ist bei gedrückter Strg-Taste möglich.
+   :guilabel:`Artikel zuordnen`
+       Ordnen Sie der Aktion einen oder mehrere Artikel zu.
 
-   * Typ Promotion (:ref:`oxbagw02`)
+#. Speichern Sie Ihre Einstellungen.
 
-     Nutzen Sie für die Typen Banner und Promotion zusätzlich folgenden Parameter:
-
-     :guilabel:`Benutzergruppen zuordnen`
+  .. todo: Ggf. später reakticvieren:
+        * Typ Promotion (:ref:`oxbagw02`)
+         Nutzen Sie für die Typen Banner und Promotion zusätzlich folgenden Parameter:
+         :guilabel:`Benutzergruppen zuordnen`
            Promotion und Banner können verschiedenen Benutzergruppen zugeordnet werden. Auf der Startseite können dadurch unterschiedliche Artikel und Kategorien beworben werden, je nachdem, welcher Benutzergruppe ein Kunde angehört. Ist das Banner beispielsweise der Benutzergruppe \"Händler\" zugeordnet, sieht ein normaler Kunde dessen Bild in der Slideshow nicht.
-
-   * Typ Banner (:ref:`oxbagw01`)
-
-     Nutzen Sie für den Typ Banner zusätzlich folgende Parameter:
-
-     .. _oxbagw01:
-
-     .. figure:: ../../media/screenshots/oxbagw01.png
-        :alt: Banner konfigurieren
-        :width: 650
-        :class: with-shadow
-
-        Abb.: Banner konfigurieren
-
-        .. todo: #SB: Was machen wir damit?
-
+        * Typ Banner (:ref:`oxbagw01`)
+          Nutzen Sie für den Typ Banner zusätzlich folgende Parameter:
+         .. _oxbagw01:
+         .. figure:: ../../media/screenshots/oxbagw01.png
+            :alt: Banner konfigurieren
+            :width: 650
+            :class: with-shadow
+            Abb.: Banner konfigurieren
         .. todo:  #SB: Banner ist nicht in APEX, korrekt?
                 .. todo: #SB: Fehlt in Standard-Installation? Wie würde ich es einbinden?
                 .. figure:: ../../media/screenshots/oxbagy02.png
@@ -110,16 +94,13 @@ Generelles Vorgehen
                    Definieren Sie hier einen Zeitraum, in dem das Banner aktiv ist. Dieser wird nur berücksichtigt, wenn das Kontrollkästchen :guilabel:`Immer aktiv` nicht angehakt ist. Auch zugeordnete Benutzergruppen beeinflussen die Anzeige des Banners auf der Startseite.
                 :guilabel:`In Sprache`
                    Das Banner lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
-
-     :guilabel:`Sortierung`
+         :guilabel:`Sortierung`
            Legt die Reihenfolge fest, in der die Bilder der Banner auf der Startseite angezeigt werden. Im Eingabefeld wird eine Zahl zwischen 0 und 9999 erwartet. Das Banner mit der kleinsten Zahl stellt das erste Bild der Slideshow, das mit der größten Zahl das letzte. Ohne Vorgaben für die Sortierung werden die Namen der Banner in ihrer alphabetischen Reihenfolge herangezogen.
-
-     :guilabel:`Bild auswählen (max. 2 MB, max. 1500*1500 px)`
+         :guilabel:`Bild auswählen (max. 2 MB, max. 1500*1500 px)`
            Laden Sie hier das Bild für das Banner hoch. Auf der Startseite wird dieses standardmäßig mit einer Größe von 940px × 220px angezeigt. Ist das Bild größer, wird es für die Anzeige angepasst. Die Bilder sollten allerdings maximal 2 MB groß sein oder eine Auflösung bis höchstens 1500*1500 Pixel haben.
            Die Schaltfläche :guilabel:`Durchsuchen...` öffnet einen Dateidialog, in dem Sie die entsprechende Datei auf Ihrem Rechner auswählen können. Wenn Sie nun die Schaltfläche :guilabel:`Öffnen` drücken, wird der Dateinamen direkt übernommen. Speichern startet das Hochladen des Bildes. Dabei wird ein bereits vorhandenes Bild ersetzt. Ein zugeordnetes Foto kann auch gelöscht werden.
-
-     :guilabel:`Link hinter Banner`
-           Für eine gezielte Werbung auf der Startseite kann ein Link für das Bild hinterlegt werden. Das kann eine URL in der Form ``http://www.meineurl.de`` sein oder ein relativer Pfad ausgehend von der Struktur der Kategorien.
+         :guilabel:`Link hinter Banner`
+           Für eine gezielte Werbung auf der Startseite können Sie einen Link für das Bild hinterlegen. Das kann eine URL in der Form ``http://www.meineurl.de`` sein oder ein relativer Pfad ausgehend von der Struktur der Kategorien.
 
            .. todo: #SB: Wie identifiziere ich den relativen Pfad? Wie gebe ich den Pfad an? z.B. /Autos/OX7-Coup.html ?
                 :guilabel:`Zugeordnetes Produkt`
@@ -132,17 +113,12 @@ Generelles Vorgehen
                    :width: 400
                 Mit der Schaltfläche :guilabel:`Produkt zuordnen` wird das Banner mit dem in der Liste markierten Artikel verbunden. Mit der Schaltfläche :guilabel:`Produktzuordnung löschen` wird eine bestehende Verbindung zwischen Banner und Artikel getrennt.
 
-
-3. Binden Sie Aktionen vom Typ Banner und Promotion in Ihr Theme ein.
-
-   .. todo: #SB: Wie würde ich Banner und Promotion einbinden?
-
 Aktionen einer Standardinstallation konfigurieren
 -------------------------------------------------
 
 Wir beschreiben im Folgenden, wie die Aktionen auf der Startseite einer Standardinstallation des OXID eShop mit dem Theme \"APEX\" aussehen, und wie Sie sie im einzelnen konfigurieren.
 
-Unser Demoshop implementiert folgende typische Aktionen:
+Unser Demoshop implementiert beispielsweise folgende typische Aktionen:
 
 * Angebot der Woche
 * Neu im Shop
@@ -180,16 +156,16 @@ Vom Angebot aus kann der Kunde die Detailseite eines beworbenen Artikels aufrufe
 
 |procedure|
 
-Steuern Sie unter :menuselection:`Kundeninformation --> Aktionen verwalten --> Angebot der Woche --> Stamm`, ob die Angebote der Woche können immer oder nur für einen definierten Zeitraum aktiv sein sollen.
+Steuern Sie unter :menuselection:`Kundeninformation --> Aktionen verwalten --> Angebot der Woche --> Stamm`, ob die Angebote der Woche immer oder nur für einen definierten Zeitraum aktiv sein sollen.
 
-Über den Zeitraum lassen sich beispielsweise wöchentlich wechselnde Angebote steuern.
+Steuern Sie mithilfe des Zeitraums beispielsweise wöchentlich wechselnde Angebote.
 
 Frisch eingetroffen
 ^^^^^^^^^^^^^^^^^^^
 
 .. todo: #SB: Was soll "Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge..." bedeuten?
 
-Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge des Shops präsentiert werden.
+Ein großer Teil der Startseite zeigt Artikel, die als Neuzugänge des Shops präsentiert werden.
 
 Die Anzeige ist eine vierspaltige Artikelübersicht (:ref:`oxbagw04`).
 
@@ -210,7 +186,7 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
 1. Legen Sie fest, welche Artikel in der Rubrik angezeigt werden.
 
-   Wählen Sie dazu unter unter :menuselection:`Stammdaten --> Grundeinstellungen` die Registerkarte :guilabel:`Perform.` Unter :guilabel:`Liste der neusten Artikel (Frisch eingetroffen!)` haben Sie folgende Optionen:
+   Wählen Sie dazu unter :menuselection:`Stammdaten --> Grundeinstellungen` die Registerkarte :guilabel:`Perform.` Unter :guilabel:`Liste der neusten Artikel (Frisch eingetroffen!)` haben Sie folgende Optionen:
 
     * Artikel vom Shop automatisch bereitstellen lassen
 
@@ -222,12 +198,12 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
        .. todo: #SB: Die Aktion :guilabel:`Frisch eingetroffen` heißt jetzt "Neu im Shop"
 
-    * Damit der Shop keine Zeit verbraucht, um die Aktion aufzubereiten, können Sie die Aktion hier auch ganz abschalteten.
+    * Damit der Shop keine Zeit verbraucht, um die Aktion aufzubereiten, können Sie die Aktion hier auch ganz abschalten.
 
       .. todo: #SB: zusätzlich zu nicht aktiv?
 
 
-2. Legen Sie unter unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit dem Kontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
+2. Legen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit dem Kontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
 
 Topseller
 ^^^^^^^^^
@@ -255,25 +231,25 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
 1. Legen Sie fest, welche Artikel in der Rubrik angezeigt werden.
 
-    Wählen Sie dazu unter unter :menuselection:`Stammdaten --> Grundeinstellungen` die Registerkarte :guilabel:`Perform.` Unter :guilabel:`Liste der meistverkauften Artikel (Top of the Shop)` haben Sie folgende Optionen:
+   Wählen Sie dazu unter :menuselection:`Stammdaten --> Grundeinstellungen` die Registerkarte :guilabel:`Perform.` Unter :guilabel:`Liste der meistverkauften Artikel (Top of the Shop)` haben Sie folgende Optionen:
 
-        * Automatisch
+   * Automatisch
 
-          Lassen Sie die Artikel vom Shop automatisch bereitstellen
+     Lassen Sie die Artikel vom Shop automatisch bereitstellen
 
-          .. todo: #SB: Geht das nach Umsatzahlen? Wie viele Artikel werden automatich bereitgestellt? Die Liste der neusten Artikel wird automatisch berechnet.
+     .. todo: #SB: Geht das nach Umsatzahlen? Wie viele Artikel werden automatich bereitgestellt? Die Liste der neusten Artikel wird automatisch berechnet.
 
-        * Manuell
+   * Manuell
 
-          Legen Sie unter :menuselection:`Kundeninformationen --> Aktionen verwalten` in der Aktion :guilabel:`Unsre Topseller` fest, welche Artikel in der Liste angezeigt werden.
+     Legen Sie unter :menuselection:`Kundeninformationen --> Aktionen verwalten` in der Aktion :guilabel:`Unsere Topseller` fest, welche Artikel in der Liste angezeigt werden.
 
-           .. todo: #SB: Die Aktion :guilabel:`Frisch eingetroffen` heißt jetzt "Neu im Shop"
+     .. todo: #SB: Die Aktion :guilabel:`Frisch eingetroffen` heißt jetzt "Neu im Shop"
 
-        * Damit der Shop keine Zeit verbraucht, um die Aktion aufzubereiten, können Sie die Aktion hier auch ganz abschalteten.
+   * Damit der Shop keine Zeit verbraucht, um die Aktion aufzubereiten, können Sie die Aktion hier auch ganz abschalteten.
 
-            .. todo: #SB: zusätzlich zu nicht aktiv?
+     .. todo: #SB: zusätzlich zu nicht aktiv?
 
-2. Legen Sie unter unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit demnKontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
+2. Legen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit dem Kontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
 
 .. todo: SB: Folgende Aktionen sind im Backend aktiv, ich kann sie aber nicht auf der Startseite identifizieren:
     * Kategorien-Topangebot
