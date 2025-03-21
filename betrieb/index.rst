@@ -18,4 +18,4 @@ Betrieb
 
    Newsletter <newsletter/index>
    Links <links/index>
-   Wunschpreis <wunschpreis/index>
+   Wunschpreis <wunschpreis/wunschpreis>

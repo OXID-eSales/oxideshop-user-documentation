@@ -1,55 +1,130 @@
-Wunschpreis
-===========
+Wunschpreis verwenden
+=====================
 
-Kunden können für Artikel aus dem Shop einen Preis angeben, zu dem sie diesen gern kaufen würden.
-
-Der Shopbetreiber kann die Kunden per E-Mail informieren, sobald dieser Wunschpreis erreicht oder unterschritten wurde.
+Mit der Wunschpreis-Funktion können Kunden einen Preis angeben, zu dem sie ein Produkt gerne kaufen würden. Wird dieser Preis erreicht oder unterschritten, kann eine automatische Benachrichtigung per E-Mail erfolgen.
 
 .. attention::
 
-   Die Funktion Wunschpreis ist im APEX-Theme ausgeblendet.
+   Die Wunschpreis-Funktion ist im APEX-Theme standardmäßig deaktiviert.
 
-   Um die Funktion zu verwenden, wenden Sie sich an Ihren Implementierungspartner.
+   Um sie zu verwenden, wenden Sie sich an Ihren Implementierungspartner.
 
-Die Funktion wird in den Einstellungen des Themes in der Sektion :guilabel:`Funktionen` für den Shop global aktiviert oder deaktiviert.
+Funktion konfigurieren
+----------------------
 
-Sie lässt sich aber auch auf einzelne Artikel anwenden.
+Funktion global aktivieren
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Aktivieren Sie das Kontrollkästchen :guilabel:`Wunschpreis deaktivieren` auf der Registerkarte :guilabel:`Erweitert` eines Artikels, um die Funktion für den jeweiligen Artikel abzuschalten. Wunschpreis hieß bis OXID eShop 6.2.1 Preisalarm.
+|procedure|
 
-.. image:: ../../media/screenshots/oxbajm01.png
-   :alt: Detailansicht Artikel, Wunschpreis
-   :height: 390
+1. Öffnen Sie die Einstellungen des verwendeten Themes.
+2. Aktivieren Sie unter :guilabel:`Funktionen` das Kontrollkästchen für Wunschpreis.
+
+Funktion für einzelne Produkte deaktivieren
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|procedure|
+
+1. Wählen Sie :menuselection:`Artikel verwalten`.
+2. Öffnen Sie den gewünschten Artikel.
+3. Wechseln Sie zur Registerkarte :guilabel:`Erweitert`.
+4. Aktivieren Sie :guilabel:`Wunschpreis deaktivieren`, um die Funktion für diesen Artikel abzuschalten.
+
+Anzeige im Shop
+---------------
+
+Ist die Funktion aktiv:
+
+* Im Artikel-Detail wird die Registerkarte :guilabel:`[!] Wunschpreis` angezeigt.
+* Kunden können dort einen gewünschten Preis und ihre E-Mail-Adresse angeben.
+* Nach dem Absenden des Formulars erhalten sie eine Bestätigung.
+
+.. figure:: ../../media/screenshots/oxbajm01.png
+   :alt: Detailansicht Artikel, Registerkarte Wunschpreis
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Detailansicht Artikel, Registerkarte Wunschpreis
+
+E-Mail-Vorlage erstellen
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Erstellen Sie eine E-Mail-Vorlage für die Wunschpreis-Benachrichtigung.
+
+|procedure|
+
+1. Öffnen Sie die CMS-Seite :guilabel:`Wunschpreis` (Ident: ``oxpricealarmemail``).
+2. Bearbeiten Sie den Text nach Bedarf.
+
+.. figure:: ../../media/screenshots/oxbajm02.png
+   :alt: Vorlage für Wunschpreis-E-Mail bearbeiten
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Vorlage für Wunschpreis-E-Mail bearbeiten
+
+Wunschpreise im Administrationsbereich verwalten
+------------------------------------------------
+
+Wunschpreis-Anfragen verarbeiten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|procedure|
+
+1. Wählen Sie :menuselection:`Kundeninformationen --> Wunschpreis`.
+
+|result|
+
+Sie sehen eine Liste aller eingegangenen Wunschpreis-Anfragen mit folgenden Angaben:
+
+* E-Mail-Adresse der Kundin / des Kunden (wie im Formular angegeben)
+* Name (sofern der Kunde registriert ist)
+* Sprache, in der der Kunde den Shop genutzt hat
+* Datum der Anfrage
+* Datum der Benachrichtigung
+* Produktname
+* Regulärer Preis
+* Wunschpreis des Kunden
+
+Benachrichtigung bearbeiten und versenden
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|procedure|
+
+1. Wählen Sie einen Eintrag aus der Liste.
+   Die Detailansicht wird im Eingabebereich geladen.
+
+#. Wählen Sie die Registerkarte :guilabel:`Stamm`, um den E-Mail-Text individuell anzupassen.
+
+   .. figure:: ../../media/screenshots/oxbajn01.png
+      :alt: Wunschpreis - E-Mail-Text individuell anpassen
+      :class: with-shadow
+      :width: 650
+
+      Abb.: Wunschpreis - E-Mail-Text individuell anpassen
+
+   Auf der Registerkarte :guilabel:`Stamm` sehen Sie alle zur Anfrage gehörenden Daten und einen bearbeitbaren Textvorschlag für die E-Mail. Dieser Text kann angepasst und formatiert werden.
+
+   .. note::
+
+      Der Editor funktioniert nach dem WYSIWYG-Prinzip („What You See Is What You Get“). Er zeigt den Text so an, wie er später in der Benachrichtigungsmail erscheint. Es sind Formatierungen, Links, Bilder, Videos und HTML-Bearbeitung möglich.
+
+      Der Standardtext basiert auf den Sprachkonstanten ``EMAIL_PRICEALARM_CUSTOMER_*`` des Administrationsbereichs.
+
+#. Wählen Sie die Registerkarte :guilabel:`E-Mail`, um die Nachricht zu senden.
+
+.. figure:: ../../media/screenshots/oxbajo01.png
+   :alt: Wunschpreis - Nachricht versenden
+   :class: with-shadow
    :width: 650
 
-Ist die Funktion Wunschpreis aktiv, wird in der Detailansicht des Artikels die Registerkarte :guilabel:`[!] Wunschpreis` angezeigt, welche ein kleines Formular enthält. Hier kann der Kunde den Wunschpreis und seine E-Mail-Adresse eintragen. Nach dem Abschicken der Informationen erhält er eine Bestätigung, dass er benachrichtigt wird, sobald der Wunschpreis erreicht ist. Der Shopbetreiber wird per E-Mail darüber informiert, dass der Kunde sich einen Artikel zu einem bestimmten Preis wünscht. Die Vorlage zur E-Mail ist die CMS-Seite "Wunschpreis" (Ident: oxpricealarmemail).
+   Abb.: Wunschpreis - Nachricht versenden
 
-.. image:: ../../media/screenshots/oxbajm02.png
-   :alt: Wunschpreis
-   :height: 522
-   :width: 650
+|result|
 
-Die von den Kunden angefragten Wunschpreise werden im Administrationsbereich unter :menuselection:`Kundeninformationen --> Wunschpreis` gesammelt. Dort werden alle Eingänge für einen Wunschpreis aufgelistet.
+Beim Öffnen der Registerkarte :guilabel:`E-Mail` prüft der Shop automatisch alle offenen Wunschpreis-Einträge. Wenn der gewünschte Preis für einen Artikel erreicht oder unterschritten wurde, wird dies angezeigt.
 
-Die Liste mit den Wunschpreis-Eingängen zeigt jeweils die E-Mail-Adresse, den Namen des Kunden, das Datum des Eingangs, das Datum der E-Mail-Benachrichtigung, den Namen des Artikels, seinen regulären Preis und den Wunschpreis des Kunden. Nach Wunschpreis-Eingängen kann gesucht werden, indem die Suchfelder oberhalb der Liste verwendet werden.
-
-Die Wunschpreis-Eingänge können in der Liste sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Sie werden dadurch in aufsteigender Reihenfolge angezeigt. Wunschpreis-Eingänge lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
-
-Wird ein Eintrag aus der Liste ausgewählt, werden die Details in den Eingabebereich geladen. Auf der Registerkarte  :guilabel:`Stamm` kann der Text der E-Mail bearbeitet werden, die den Kunden über den Wunschpreis informieren soll. Die Registerkarte :guilabel:`E-Mail` ermöglicht es, die E-Mails an die Kunden zu verschicken.
-
------------------------------------------------------------------------------------------
-
-Registerkarte Stamm
--------------------
-**Inhalte**: E-Mail-Adresse, Name des Kunden, Sprache, Datum des Eingangs, Datum der Benachrichtigung, Artikel, Wunschpreis, regulärer Preis, Text der E-Mail, Preisalarm bis OXID eShop 6.2.1 |br|
-:doc:`Artikel lesen <registerkarte-stamm>` |link|
-
-Registerkarte E-Mail
---------------------
-**Inhalte**: Wunschpreis erreicht, Benachrichtigungsmail(s) versenden
-Artikel lesen |br| :doc:`Artikel lesen <registerkarte-e-mail>` |link|
-
-.. seealso:: :doc:`Artikel, Registerkarte Erweitert <../../einrichtung/artikel/registerkarte-erweitert>`
+Wenn mindestens ein Wunschpreis erfüllt wurde, erscheint ein Hinweis, dass E-Mails versendet werden können. Mit einem Klick auf den eingeblendeten Link beginnt der Versand der Benachrichtigungen.
 
 
 .. Intern: oxbajm, Status: Latitute-images
