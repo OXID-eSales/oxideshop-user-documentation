@@ -17,4 +17,4 @@
    :maxdepth: 1
 
    Newsletters <newsletters/index>
-   Wished price <wished-price/index>
+   Wished price <wished-price/wished-price>
