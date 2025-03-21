@@ -5,9 +5,9 @@ Ein Merkmal der Enterprise Edition ist die Rechte- und Rollenverwaltung.
 
 Steuern Sie mit Rechten und Rollen den Zugriff auf anzuzeigende Elemente und verfügbare Funktionen des OXID eShop für einzelne Benutzer und Benutzergruppen.
 
-Dabei unterscheiden wir zwischen den Rechten und den Rollen für den eigentlichen Shop, hier auch als :emphasis:`Frontend bezeichnet, und dem Administrationsbereich, dem :emphasis:`Backend`.
+Dabei unterscheiden wir zwischen den Rechten und den Rollen für den eigentlichen Shop (:emphasis:`Frontend`) und dem Administrationsbereich (:emphasis:`Backend`).
 
-Ein :emphasis:`Recht` regelt den Zugriff auf bestimmte Funktionen, wie den Zugriff auf Artikel und Kategorien oder die Anzeige bestimmter Bereiche der Detailseite von Artikeln.
+Ein :emphasis:`Recht` regelt den Zugriff auf bestimmte Funktionen, etwa auf Artikel und Kategorien oder die Anzeige bestimmter Bereiche der Detailseite von Artikeln.
 
 In :emphasis:`Rollen` werden mehrere Rechte zusammengefasst und Benutzern und Benutzergruppen zugeordnet.
 
@@ -15,6 +15,8 @@ Anwendungsbereich für Rechte und Rollen festlegen
 -------------------------------------------------
 
 Schränken Sie bei Bedarf den Anwendungsbereich der Rechte- und Rollenverwaltung ein.
+
+Standardmäßig sind keine Einschränkungen aktiviert (``$this->blUseRightsRoles = 3``).
 
 |procedure|
 
@@ -28,7 +30,6 @@ Schränken Sie bei Bedarf den Anwendungsbereich der Rechte- und Rollenverwaltung
    * 2 - nur im Frontend
    * 3 - im Backend und Frontend
 
-   Die Einstellung ``$this->blUseRightsRoles = 3`` ist standardmäßig aktiviert.
 
 Rechte und Rollen für den Shop (Frontend) festlegen
 ---------------------------------------------------
@@ -47,7 +48,7 @@ Sie definieren die Berechtigungen im Administrationsbereich.
 
   **Prinzip der selektiven Rechteeinschränkung**
 
-  Initial haben alle Besucher Ihres OXID eShops alle Rechte.
+  Standardmäßig haben alle Besucher Ihres OXID eShops uneingeschränkten Zugriff.
 
   Ein Recht wird erst eingeschränkt, sobald mindestens eine Rolle dieses Recht explizit erhält und dieser Rolle mindestens eine Benutzergruppe zugewiesen ist.
 
@@ -64,7 +65,7 @@ Legen Sie fest, dass nur bestimmte Benutzergruppen ausgewählte Artikel und Kate
 
 |procedure|
 
-1. Wählen Sie unter :guilabel:`Artikel verwalten` den Artikel oder die Kategorie.
+1. Wählen Sie unter :guilabel:`Artikel verwalten` den gewünschten Artikel oder die gewünschte Kategorie.
 #. Wählen Sie die Registerkarte :guilabel:`Rechte`.
 #. Wählen Sie die Schaltfläche :guilabel:`Benutzergruppen zuordnen (Ausschließlich sichtbar)` (:ref:`oxbaev03`, Pos. 1) und ordnen Sie die gewünschten Benutzergruppen zu (:ref:`oxbaev03`, Pos. 3).
 
@@ -90,8 +91,6 @@ Kaufen von Artikeln und Kategorien einschränken
 
 Definieren Sie für Artikel und Kategorien, dass sie ausschließlich für bestimmte Benutzergruppen kaufbar sein sollen.
 
-Auch hier erfolgt die Definition durch Zuweisung der jeweiligen Benutzergruppen auf der Registerkarte :guilabel:`Rechte` von Artikeln oder Kategorien (siehe :ref:`einrichtung/artikel/registerkarte-rechte:Registerkarte Rechte`).
-
 |procedure|
 
 1. Wählen Sie unter :guilabel:`Artikel verwalten` den Artikel oder die Kategorie.
@@ -100,7 +99,7 @@ Auch hier erfolgt die Definition durch Zuweisung der jeweiligen Benutzergruppen 
 
 |result|
 
-Bei Benutzern ohne Berechtigung :emphasis:`fehlt` in Artikelübersicht die Schaltfläche :guilabel:`In den Warenkorb` (:ref:`oxbaev01`, Pos. 2).
+Bei Benutzern ohne Berechtigung :emphasis:`fehlt` in der Artikelübersicht die Schaltfläche :guilabel:`In den Warenkorb` (:ref:`oxbaev01`, Pos. 2).
 
 Mit der Schaltfläche :guilabel:`Details` (:ref:`oxbaev01`, Pos. 1) können diese Benutzer lediglich die Detailseite des Artikels aufrufen.
 
@@ -113,7 +112,7 @@ Mit der Schaltfläche :guilabel:`Details` (:ref:`oxbaev01`, Pos. 1) können dies
 
    Abb.: Artikelübersicht mit und ohne Warenkorb
 
-Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb`, wenn der Kunde nicht am Shop angemeldet ist und der berechtigten Benutzergruppe angehört (:ref:`oxbaev02`).
+Auch in der Detailansicht fehlt die Schaltfläche :guilabel:`In den Warenkorb`, wenn der Kunde nicht am eShop angemeldet ist oder der berechtigten Benutzergruppe angehört (:ref:`oxbaev02`).
 
 .. _oxbaev02:
 
@@ -136,22 +135,11 @@ Der Shop wird mit folgenden Rechten für den Shop ausgeliefert, die zu Rollen zu
 * Kurzbeschreibung des Artikels anzeigen (:code:`SHOWSHORTDESCRIPTION`)
 * Langbeschreibung des Artikels anzeigen (:code:`SHOWLONGDESCRIPTION`)
 
-Diese Rechte und Rollen definieren Sie unter :menuselection:`Benutzer verwalten --> Shop Rollen`.
-
-Verschiedene Rechtekombinationen können Sie in Rollen zusammenfassen und Benutzergruppen zuordnen. Sobald Sie für eine Benutzergruppe ein Recht erteilt haben, gilt für alle anderen Benutzergruppen dieses Recht nicht mehr.
-
-
 .. todo: #SB: Wie geht das folgende? Was genau bedeutet der Satz?
     Es ist möglich, eigene Rechte zu definieren, die auf View-Klassen und deren Methoden basieren. Über einen vergebenen Ident können Sie in Templates eine rechteabhängige Anzeige realisieren.
 
 .. todo: #SB:  Wie geht "Feld hinzufügen"? Beispiel: IDENT[&class1;class2;function1;function2...]
         In Template: [{ oxhasrights ident='IDENT' }] ... [{ /oxhasrights }]
-
-Rechte: (A)usführen
-
-Das folgende Beispiel illustriert das Prinzip der selektiven Rechteeinschränkung.
-
-Es basiert darauf, dass Rechte standardmäßig allen Benutzern gewährt werden. Ein Recht wird erst eingeschränkt, wenn es explizit einer bestimmten Rolle zugewiesen wird. Nur Benutzergruppen, denen diese Rolle zugewiesen wurde, behalten dieses Recht.
 
 Sie entscheiden sich in unserem Beispiel, dass die Schaltfläche :guilabel:`Warenkorb` bei nicht angemeldeten Benutzern ("Gästen") ausgeblendet ist.
 
@@ -159,7 +147,7 @@ Sie entscheiden sich in unserem Beispiel, dass die Schaltfläche :guilabel:`Ware
 
 1. Erstellen Sie eine Rolle, der Sie später alle Benutzergruppen zuordnen werden.
 
-   Hintergrund: Benutzergruppen enthalten Benutzer. Benutzer sind Besucher Ihres OXID eShops, die eine E-MAul-Adresse haben, mit der sie sich anmelden.
+   Hintergrund: Benutzergruppen enthalten Benutzer. Benutzer sind registrierte Besucher Ihres OXID eShops. Sie haben eine E-Mail-Adresse, mit der sie sich anmelden.
 
    Alle anderen Besucher Ihres OXID eShops sind Gäste. Gäste sind Besucher, die sich im Gegensatz zu Benutzern nicht anmelden.
 
@@ -185,13 +173,13 @@ Sie entscheiden sich in unserem Beispiel, dass die Schaltfläche :guilabel:`Ware
 
       Resultat dieser Einstellung ist:
 
-      Diejenigen Benutzergruppen, denen die Rolle :technicalname:`angemeldet` zugeordnet ist, gaben das Recht :technicalname:`TOBASKET`. Bei ihnen wird die Schaltfläche :guilabel:`Warenkorb` angezeigt.
+      Diejenigen Benutzergruppen, denen die Rolle :technicalname:`angemeldet` zugeordnet ist, haben das Recht :technicalname:`TOBASKET`. Bei ihnen wird die Schaltfläche :guilabel:`Warenkorb` angezeigt.
 
-      Allen anderen Benutzergruppen ist das Recht :technicalname:`TOBASKET` entzogen.
+      Für alle anderen Benutzergruppen ist das Recht :technicalname:`TOBASKET` deaktiviert.
 
       Verallgemeinert: Alle Rechte gelten standardmäßig, solange sie nicht eingeschränkt sind.
 
-      In unserem Beispiel sind das die Ident-Parameter zum Steuern von Langbeschreibung und Kurzbeschreibung und Preis, :ref:`oxbaev10`, Pos. 3). Sie sind keiner Rolle ausdrücklich zugewiesen und deshalb für alle Benutzer oder Gäste gültig.
+      In unserem Beispiel betrifft das die Ident-Parameter zur Steuerung der Lang- und Kurzbeschreibung sowie des Preises (:ref:`oxbaev10`, Pos. 3). Sie sind keiner Rolle ausdrücklich zugewiesen und deshalb für alle Benutzer oder Gäste gültig.
 
 #. Damit Ihre Einstellungen wirksam werden, ordnen Sie der Rolle Benutzergruppen zu.
 
@@ -242,14 +230,13 @@ Prüfen Sie das Ergebnis, indem Sie einen Artikel in Ihrem OXID eShop anzeigen.
 Rechte und Rollen für den Administrationsbereich (Backend) festlegen
 --------------------------------------------------------------------
 
-Für den Administrationsbereich lassen sich ebenfalls Rollen definieren.
+Definieren Sie Rollen und Rechte auch für den Administrationsbereich.
 
 Bilden Sie damit die verschiedenen Aufgabenbereiche bei der Administration des OXID eShop ab.
 
-Zugriff auf Menüs, Untermenüs, Registerkarten steuern
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Steuern Sie dazu den Zugriff auf Menüs, Untermenüs, Registerkarten.
 
-Rollen erlauben unterschiedliche Zugriffe auf Menüs und Untermenüs der Navigation und auch auf einzelne Registerkarten des Eingabebereichs.
+Rollen erlauben dabei unterschiedliche Zugriffe auf Menüs und Untermenüs der Navigation und auch auf einzelne Registerkarten des Eingabebereichs.
 
 Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich.
 
@@ -263,8 +250,9 @@ Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich
    .. figure::  ../media/screenshots/oxbaev05.png
       :alt: Zugriffsregeln für Navigationselemente festlegen
       :width: 650
+      :class: with-shadow
 
-      Abb.: Zugriffsregeln für den Navigationselemente festlegen
+      Abb.: Zugriffsregeln für Navigationselemente festlegen
 
 #. Legen Sie auf der Registerkarte :guilabel:`Objekte` den Zugriff auf Kategorien und Artikel fest.
 
@@ -275,8 +263,9 @@ Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich
    .. _oxbaev06:
 
    .. figure::  ../media/screenshots/oxbaev06.png
-      :alt: Abb.: Zugriffsregeln für Artikel und Kategorien festlegen
+      :alt: Zugriffsregeln für Artikel und Kategorien festlegen
       :width: 650
+      :class: with-shadow
 
       Abb.: Beispiel: Zugriffsregeln für Kategorien festlegen
 
@@ -285,12 +274,13 @@ Damit erhält jeder Bearbeiter seinen benutzerdefinierten Administrationsbereich
    .. _oxbaev07:
 
    .. figure::  ../media/screenshots/oxbaev07.png
-      :alt: Abb.: Beispiel Steuerelemente zum Beschreiben von Kategorien
+      :alt: Abb.: Beispiel: Steuerelemente zum Beschreiben von Kategorien
       :width: 650
+      :class: with-shadow
 
       Abb.: Beispiel: Steuerelemente zum Beschreiben von Kategorien
 
-#. Ordnen Sie der Rolle auf der Registerkarte :guilabel:`Benutzer` die jeweiligen Benutzer oder die Benutzergruppe zu.
+#. Ordnen Sie der Rolle auf der Registerkarte :guilabel:`Benutzer` die jeweiligen Benutzer oder Benutzergruppen zu.
 
 
 .. Intern: oxbaev, Status:
