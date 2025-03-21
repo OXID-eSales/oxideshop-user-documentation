@@ -51,7 +51,7 @@ Generelles Vorgehen
        Name der Aktion, wie er im Administrationsbereich und auf der Startseite des Shops angezeigt wird.
 
    :guilabel:`Immer aktiv`
-       Aktivieren Sie dieses Kontrollkästchen, damit die Aktion ständig im Shop angezeigt wird. Stellen Sie sicher, dass das Kontrollkästchen :guilabel:`Aktionen laden` auf der Registerkarte :guilabel:`Perform.` unter :menuselection:`Stammdaten --> Grundeinstellungen` angehakt ist und achten Sie auf die Einstellung, welche die Aktionen \"Topseller\" und \"Frisch eingetroffen\" betreffen.
+       Aktivieren Sie dieses Kontrollkästchen, damit die Aktion ständig im Shop angezeigt wird.
 
    :guilabel:`Aktiv für Zeitraum von` ... :guilabel:`bis` ...
        Legen Sie den Zeitraum fest, in dem die Aktion aktiv ist. Dieser wird nur berücksichtigt, wenn das Kontrollkästchen :guilabel:`Immer aktiv` nicht angehakt ist.
@@ -165,9 +165,7 @@ Frisch eingetroffen
 
 .. todo: #SB: Was soll "Einen großen Teil der Startseite nehmen Artikel ein, die als Neuzugänge..." bedeuten?
 
-Ein großer Teil der Startseite zeigt Artikel, die als Neuzugänge des Shops präsentiert werden.
-
-Die Anzeige ist eine vierspaltige Artikelübersicht (:ref:`oxbagw04`).
+Die Startseite zeigt Artikel, die als Neuzugänge des Shops präsentiert werden, in einem Slider (:ref:`oxbagw04`).
 
 Es werden Bild, Titel und optional der Preis der Artikel angezeigt.
 
@@ -198,21 +196,15 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
        .. todo: #SB: Die Aktion :guilabel:`Frisch eingetroffen` heißt jetzt "Neu im Shop"
 
-    * Damit der Shop keine Zeit verbraucht, um die Aktion aufzubereiten, können Sie die Aktion hier auch ganz abschalten.
+    * Um zu verhindern, dass der eShop Rechenleistung für die Ermittlung der neuesten Produkte verschwendet, deaktivieren Sie die Aktion.
 
-      .. todo: #SB: zusätzlich zu nicht aktiv?
-
-
-2. Legen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit dem Kontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
+#. Legen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit dem Kontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
+#. Speichern Sie Ihre Einstellungen.
 
 Topseller
 ^^^^^^^^^
 
-Weiter unten auf der Startseite können Sie die meistverkauften Artikel des Shops (Topseller) anzeigen.
-
-.. todo: #SB: War das früher so: "Die Anzeige ist analog der zweispaltigen Galerie einer Artikelübersicht. "
-
-Die Anzeige ist eine vierspaltige Artikelübersicht (:ref:`oxbagw05`).
+Weiter unten auf der Startseite können Sie die meistverkauften Artikel des Shops (Topseller) anzeigen (:ref:`oxbagw05`).
 
 Es werden Bild, Titel und optional der Preis der Artikel angezeigt.
 
@@ -245,9 +237,7 @@ Der Kunde kann die Detailseite des Artikels aufrufen oder den Artikel direkt in 
 
      .. todo: #SB: Die Aktion :guilabel:`Frisch eingetroffen` heißt jetzt "Neu im Shop"
 
-   * Damit der Shop keine Zeit verbraucht, um die Aktion aufzubereiten, können Sie die Aktion hier auch ganz abschalteten.
-
-     .. todo: #SB: zusätzlich zu nicht aktiv?
+   * Damit der Shop keine Zeit verbraucht, um die Topseller zu bestimmen, deaktivieren Sie die Aktion.
 
 2. Legen Sie unter :menuselection:`Stammdaten --> Grundeinstellungen` auf der Registerkarte :guilabel:`Perform.` mit dem Kontrollkästchen  :guilabel:`Preise anzeigen bei \"Top of the Shop\" und \"Frisch eingetroffen!\"` fest, ob die Preise angezeigt werden sollen.
 
