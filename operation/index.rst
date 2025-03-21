@@ -7,7 +7,7 @@
    Users <users/index>
    User groups <user-groups/index>
    Orders <orders/index>
-   Promotions <promotions/index>
+   Promotions <promotions/configuring-promotions>
    Discounts <discounts/index>
    Coupon series <coupon-series/index>
 
