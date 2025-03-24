@@ -1,9 +1,9 @@
 ﻿Artikel filtern
 ===============
 
-Ermöglichen Sie Besuchern Ihres Onlineshops, die Artikel einer Kategorie nach speziellen Eigenschaften zu filtern (:ref:`oxbafr03`, Pos. 1).
+Ermöglichen Sie Besuchern Ihres Onlineshops, die Artikel einer Kategorie nach bestimmten Produktmerkmalen zu filtern (:ref:`oxbafr03`, Pos. 1).
 
-Nutzen Sie dazu Standard-Attribute (z.B. Farbe, Größe oder Material usw.) oder legen Sie eigene Attribute an.
+Nutzen Sie dazu Standard-Attribute (z.B. Farbe, Größe oder Material) oder legen Sie eigene Attribute an.
 
 |procedure|
 
@@ -17,7 +17,7 @@ Nutzen Sie dazu Standard-Attribute (z.B. Farbe, Größe oder Material usw.) oder
 
 2. Ordnen Sie das Attribut einer Kategorie zu.
 
-   a. Wählen Sie zu :menuselection:`Artikel verwalten --> Attribute`.
+   a. Wählen Sie :menuselection:`Artikel verwalten --> Attribute`.
    #. Wählen Sie das gewünschte Attribut aus der Attributliste.
    #. Wählen Sie auf der Registerkarte :guilabel:`Kategorien` die Schaltfläche :guilabel:`Kategorien zuordnen`.
    #. Um eine Kategorie festzulegen, die das Attribut verwenden soll, verschieben Sie die Kategorie per Drag \& Drop in die rechte Liste des Zuordnungsfensters (:ref:`oxbafr01`).
@@ -37,7 +37,7 @@ Nutzen Sie dazu Standard-Attribute (z.B. Farbe, Größe oder Material usw.) oder
 
    Wenn Sie der Kategorie mehrere Attribute zuordnen, können die Artikel dieser Kategorie anhand mehrerer Eigenschaften gefiltert werden.
 
-   Attribute stehen nur für die Kategorien zur Verfügung, denen sie zugewiesen wurden, nicht jedoch für deren Unterkategorien.
+   Attribute gelten ausschließlich für die zugewiesenen Kategorien, nicht automatisch auch für Unterkategorien.
 
    a. Wählen Sie :menuselection:`Artikel verwalten --> Artikel`.
    #. Wählen Sie die Kategorie, in unserem Beispiel Handtaschen.
@@ -74,7 +74,7 @@ Artikel ohne dieses Attribut werden unabhängig vom Filter immer angezeigt.
 
    Abb.: Artikel in der Kategorieansicht filtern
 
-Auf der Detailseite eines Artikels erscheint die neue Registerkarte :guilabel:`Spezifikation` mit den Attributen und deren Werten, sofern Attribute definiert und Werte zugewiesen wurden (:ref:`oxbafr04`, Pos. 1).
+Auf der Detailseite eines Artikels erscheint die Registerkarte :guilabel:`Spezifikation` mit den Attributen und deren Werten, sofern Attribute definiert und Werte zugewiesen wurden (:ref:`oxbafr04`, Pos. 1).
 
 .. _oxbafr04:
 
