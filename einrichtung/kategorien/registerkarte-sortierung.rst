@@ -5,14 +5,14 @@ Im Gegensatz zur Schnellsortierung können die Artikel einer Kategorie auch manu
 
 .. image:: ../../media/screenshots/oxbabn01.png
    :alt: Kategorien - Registerkarte Sortierung
-   :height: 342
+   :class: with-shadow
    :width: 650
 
 Die Schaltfläche :guilabel:`Artikel sortieren` auf der Registerkarte :guilabel:`Sortierung` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel der Kategorie angezeigt. Der Wert 0 in der Positionsspalte bei allen Artikeln zeigt an, dass es bisher keine manuelle Sortierung gibt.
 
 .. image:: ../../media/screenshots/oxbabn02.png
    :alt: Artikel sortieren
-   :height: 323
+   :class: with-shadow
    :width: 400
 
 Die Artikel können per Drag \& Drop in die rechte Liste verschoben und dabei in eine neue Reihenfolge gebracht werden. Die neue Sortierung lässt sich erst speichern, wenn alle Artikel einer Kategorie in die Liste :guilabel:`Neue Sortierung` verschoben wurden.
