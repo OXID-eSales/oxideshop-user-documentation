@@ -5,7 +5,7 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
 
 .. image:: ../../media/screenshots/oxbacj01.png
    :alt: Products - Extended tab
-   :height: 345
+   :class: with-shadow
    :width: 650
 
 :guilabel:`Weight`

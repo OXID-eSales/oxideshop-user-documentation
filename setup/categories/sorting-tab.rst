@@ -5,14 +5,14 @@ Unlike fast sorting, the products in a category can also be manually arranged in
 
 .. image:: ../../media/screenshots/oxbabn01.png
    :alt: Categories - Sorting tab
-   :height: 343
+   :class: with-shadow
    :width: 650
 
 Clicking on :guilabel:`Sort Categories` in the :guilabel:`Sorting` tab opens a new window. All available products in the category will be displayed in the left-hand list. A value of 0 in the “Position” column for all products indicates that they haven’t been manually sorted yet.
 
 .. image:: ../../media/screenshots/oxbabn02.png
    :alt: Sorting products
-   :height: 311
+   :class: with-shadow
    :width: 400
 
 Drag and drop the products into the right-hand list to rearrange them. The new order can be saved only after all products in a category have been moved to the :guilabel:`New Sorting` list.
