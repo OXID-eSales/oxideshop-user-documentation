@@ -5,7 +5,7 @@ Discounts are among the central marketing tools in your OXID eShop, alongside vo
 
 The discount reduces the price of an item if certain conditions are met.
 
-You can grant lower item prices for certain items, categories, users, user groups, purchase values or quantities.
+You can offer lower item prices for certain items, categories, users, user groups, purchase values or quantities.
 
 Discounts help attract customers and increase loyalty.
 
@@ -44,7 +44,7 @@ Types of discounts
 Displaying discounts
 --------------------
 
-* Define where the discount is displayed:
+* Determine how and where the discount is shown:
 
   * Display the offer directly with the discounted prices.
   * Show the discount only in the shopping cart.
