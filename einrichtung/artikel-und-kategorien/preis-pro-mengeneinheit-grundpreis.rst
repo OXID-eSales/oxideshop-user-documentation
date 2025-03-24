@@ -3,7 +3,7 @@
 
 Für Artikel, die nach Gewicht, Volumen, Länge oder Fläche angeboten werden, müssen Sie den Grundpreis angeben.
 
-Dies ist im § 2 der `Preisangabeverordnung <http://www.gesetze-im-internet.de/pangv/>`_ geregelt.
+Dies ist in § 2 der `Preisangabeverordnung <http://www.gesetze-im-internet.de/pangv/>`_ geregelt.
 
 Für den Artikel ist daher nicht nur der Endpreis, sondern auch der Preis je Mengeneinheit auszuweisen.
 
@@ -26,7 +26,7 @@ Um den Grundpreis eines Artikels zu berechnen und anzuzeigen, tun Sie Folgendes:
 1. Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
 #. Wählen Sie den gewünschten Artikel aus der Artikelliste.
 #. Wählen Sie die Registerkarte :guilabel:`Erweitert`.
-#. Geben Sie im Eingabefeld :guilabel:`Menge` die Artikelmenge ein und legen Sie im Feld :guilabel:`Mengeneinheit` die Einheit fest (:ref:`oxbafl02`, Pos. 1).
+#. Tragen Sie im Eingabefeld :guilabel:`Menge` den Wert ein, und wählen Sie im Feld :guilabel:`Mengeneinheit` die Einheit fest (:ref:`oxbafl02`, Pos. 1).
    |br|
    Wählen Sie die Mengeneinheit aus der Dropdown-Liste oder tragen Sie sie ein, ohne eine Mengeneinheit auszuwählen (\"-\").
 
@@ -48,7 +48,7 @@ Der Grundpreis wird automatisch berechnet und auf der Detailseite des Artikels z
 Beispiele
 ---------
 
-Bei einem Artikel, der in einer 500 g-Packung angeboten wird, tragen Sie 0,5 bei Menge ein und wählen kg als Mengeneinheit.
+Bei einem Artikel, der in einer 500 g-Packung angeboten wird, tragen Sie im Feld :guilabel:`Menge` den Wert 0,5 ein und wählen kg als Mengeneinheit.`
 
 Angenommen, der Artikel hat einen Preis von 6,99 €, wäre der Grundpreis 13,98 €/kg.
 
