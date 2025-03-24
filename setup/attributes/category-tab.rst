@@ -1,18 +1,25 @@
 ﻿Category tab
 ============
 
-The :guilabel:`Category` tab allows you to assign an attribute to one or more categories. If several attributes have been assigned to a category, you will also be able to change their sorting and the display order.
+Assigning Categories
+====================
 
-The assignment allows you to filter categories by attributes. A drop-down list with all attribute values will be displayed in the shop’s category overview. Selecting a value from this list applies the filter and updates the products displayed in the category.
+In the :guilabel:`Categories` tab, you assign an attribute to one or more categories. If a category uses multiple attributes, you can also define their sort order.
+
+This assignment enables filtering of products by attribute values within the category. For more information, see :doc:`Filtering products <../products-and-categories/filtering-products>`.
+
+In the category view of the shop, a dropdown menu appears that lists all values of the assigned attribute. When a customer selects a value from the list, the shop applies the filter and updates the displayed products accordingly.
 
 .. image:: ../../media/screenshots/oxbafh01.png
-   :alt: Attributes - Category tab
-   :height: 343
+   :alt: Attributes – Categories tab
+   :class: with-shadow
    :width: 650
 
-Clicking on :guilabel:`Assign Categories` opens a new window where you can assign the attribute to different categories. All available categories will be displayed in the left-hand list. The desired categories can be dragged and dropped into the middle list, which shows all categories that use this attribute. Hold down the Ctrl key to select multiple categories. The right-hand list allows you to change the sorting of the attributes for a category if there are multiple attributes for this category. Use the small buttons with the arrow icons to move the selected attribute to the desired position.
+Click :guilabel:`Assign Categories` to open a new window where you can assign the attribute to categories. The left-hand list displays all available categories. Drag and drop the desired categories into the middle list. This list contains all categories currently using the attribute. To select multiple categories, hold the Ctrl key.
 
-Sorting can affect the order in which the filters, based on the attributes and their values, are arranged in the category overview. The order of the attributes defined in the assignment window overwrites the order defined for the attributes.
+If a category includes several attributes, use the right-hand list to adjust the attribute order. Use the arrow buttons to move the selected attribute to the desired position.
+
+The defined order determines how attribute-based filters are displayed in the category view. This order overrides the sort order defined in the attribute settings.
 
 .. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Filtering products <../products-and-categories/filtering-products>`
 
