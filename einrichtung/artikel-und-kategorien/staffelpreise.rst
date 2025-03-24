@@ -1,15 +1,15 @@
 ﻿Staffelpreise definieren
 ========================
 
-Gewähren Sie durch Staffelpreise für ausgewählte Artikel einen Mengenrabatt.
+Gewähren Sie für ausgewählte Artikel einen Mengenrabatt durch Staffelpreise.
 
-Ab einer bestimmten Menge eines Artikels reduziert sich der Preis.
+Ab bestimmten Mengen greifen automatisch niedrigere Preise.
 
-Für eine bestimmte Mengenstaffel legen Sie entweder einen festen Preis oder einen prozentualen Rabatt fest.
+Für jede Staffel legen Sie entweder einen festen Preis oder einen prozentualen Rabatt fest.
 
-Mehrere Mengenstaffeln definieren verschiedene Preisstufen für den Artikel.
+Mit mehreren Mengenstaffeln definieren Sie unterschiedliche Preisstufen für den Artikel.
 
-Im OXID eShop werden die Staffelpreise auf der Artikeldetailseite angezeigt (:ref:`oxbafm01`, Pos. 2), sobald der Kunde auf die Schaltfläche Mengenstaffelpreise klickt (:ref:`oxbafm01`, Pos. 1).
+Im OXID eShop werden die Staffelpreise auf der Artikeldetailseite angezeigt (:ref:`oxbafm01`, Pos. 2), sobald der Kunde die Schaltfläche :guilabel:`Mengenstaffelpreise` wählt (:ref:`oxbafm01`, Pos. 1).
 
 Der im Warenkorb angezeigte Preis richtet sich nach der beim Kauf angegebenen Menge.
 
@@ -30,9 +30,9 @@ Legen Sie Staffelpreise in der Artikelverwaltung fest.
 #. Wählen Sie den gewünschten Artikel aus der Artikelliste.
 #. Legen Sie auf der Registerkarte :guilabel:`Lager` unter :guilabel:`Staffelpreise` eine Mengenstaffel sowie den dazugehörigen Preis fest (:ref:`oxbafm02`, Pos. 1).
 
-   Beispiel: Für Bestellmengen zwischen 5 und 10 ist der Preis 33,99 € statt des regulären Preises von 35,99 €, den Sie unter :guilabel:`Stamm` festgelegt haben.
+   Beispiel: Für Mengen zwischen 5 und 10 ist der Preis 33,99 € statt des regulären Preises von 35,99 €, den Sie unter :guilabel:`Stamm` festgelegt haben.
 
-#. Speichern Sie Ihre Eingaben und wiederholen Sie den Vorgang für zusätzliche Mengenstaffeln.
+#. Speichern Sie Ihre Eingaben und fügen Sie weitere Mengenstaffeln nach demselben Muster hinzu.
 
    Beispiel: Für alle Bestellmengen über 10 ist der Preis 30 €.
 
