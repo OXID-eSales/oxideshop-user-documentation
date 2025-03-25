@@ -1,38 +1,39 @@
 ﻿Registerkarte SEO
 =================
 
-.. todo: SB: vorerst noch gültig
+.. todo:: SB: vorerst noch gültig
 
-Optimieren Sie auf der Registerkarte :guilabel:`SEO` (:ref:`oxbagd01`) die SEO-Einstellungen der Herstellerseite, um deren Sichtbarkeit in Suchmaschinen zu verbessern.
+Optimieren Sie auf der Registerkarte :guilabel:`SEO` (:ref:`oxbagd01`) die Sichtbarkeit der Herstellerseiten in Suchmaschinen.
 
-* Vergeben Sie eine sprechende SEO-URL, damit die Herstellerseite leichter gefunden wird.
-* Hinterlegen Sie einen aussagekräftigen Meta-Titel und eine Meta-Beschreibung, um die Klickrate in den Suchergebnissen zu steigern.
-* Definieren Sie relevante Stichwörter (Meta-Keywords), damit die Seite bei passenden Suchanfragen erscheint.
-* Fixieren Sie die SEO-URL, um unerwünschte Änderungen zu vermeiden und doppelten Inhalt zu reduzieren.
-* Nutzen Sie die Sprachoptionen, um die SEO-Informationen für jede aktivierte Sprache individuell anzupassen.
+* Vergeben Sie eine sprechende SEO-URL, damit Nutzer die Seite besser finden.
+* Hinterlegen Sie einen präzisen Meta-Titel und eine aussagekräftige Meta-Beschreibung, um die Klickrate in den Suchergebnissen zu erhöhen.
+* Definieren Sie relevante Stichworte (Meta-Keywords), damit die Seite bei passenden Suchanfragen erscheint.
+* Fixieren Sie die SEO-URL, um automatische Änderungen zu verhindern und Duplicate Content zu vermeiden.
+* Nutzen Sie die Sprachoptionen, um SEO-Daten für jede aktivierte Sprache individuell anzupassen.
 
 .. _oxbagd01:
 
 .. figure:: ../../media/screenshots/oxbagd01.png
-   :alt: Hersteller - Registerkarte SEO
+   :alt: Hersteller – Registerkarte SEO
    :width: 650
    :class: with-shadow
 
-   Abb.: Hersteller - Registerkarte SEO
+   Abb.: Hersteller – Registerkarte SEO
 
-Um die Informationen und Einstellungen in jeder weiteren aktivierten Sprache zu bearbeiten, verwenden Sie die Sprachumstellung am unteren Rand des Eingabebereichs.
+Verwenden Sie die Sprachumschaltung am unteren Rand des Eingabebereichs, um die SEO-Einstellungen in weiteren aktivierten Sprachen zu bearbeiten.
 
 :guilabel:`URL fixiert`
-   Wenn sich der Titel eines Herstellers ändert, wird die SEO-URL neu berechnet.
+   Standardmäßig aktualisiert der Shop die SEO-URL automatisch, wenn sich der Titel eines Herstellers ändert.
 
-   Um die automatische Neuberechnung der URL zu deaktivieren, aktivieren Sie das Kontrollkästchen. Eine bestehende SEO-URL bleibt dadurch unverändert.
+   Aktivieren Sie das Kontrollkästchen, um die aktuelle SEO-URL beizubehalten. So vermeiden Sie unbeabsichtigte Änderungen.
 
 :guilabel:`Titel-Suffix in Kategorie anzeigen`
-   Aktivieren Sie diese Einstellung, um das Titel-Suffix im Seitentitel anzuzeigen.
+   Aktivieren Sie diese Option, um das Titel-Suffix im Seitentitel anzuzeigen.
 
-   Wird die Übersicht aller Artikel dieser Marke aufgerufen, enthält der Seitentitel auch den Titel-Suffix, den Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel-Suffix` definiert haben.
+   Wenn Kunden die Produktübersicht einer Marke aufrufen, ergänzt der Shop den Seitentitel um das unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel-Suffix` definierte Suffix.
 
-   In unserem Demoshop ``online kaufen``: \<title\>OXID eShop | Imperial | online kaufen\</title\> (:ref:`oxbagd02`, Pos. 1).
+   Beispiel aus dem Demoshop: ``online kaufen``
+   Titel: ``OXID eShop | Imperial | online kaufen`` (:ref:`oxbagd02`, Pos. 1)
 
    .. _oxbagd02:
 
@@ -46,19 +47,25 @@ Um die Informationen und Einstellungen in jeder weiteren aktivierten Sprache zu 
    Weitere Informationen finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
 
 :guilabel:`SEO-URL`
-   Die SEO-URL des Herstellers wird angezeigt und kann bearbeitet oder fixiert werden.
+   Tragen Sie eine SEO-freundliche URL ein oder bearbeiten Sie die automatisch generierte Adresse.
+
+   Optional: Fixieren Sie die URL, um automatische Änderungen zu verhindern.
 
 :guilabel:`Stichworte für Meta-Tags`
-   Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta-Keywords) eingebunden.
+   Geben Sie relevante Suchbegriffe ein, die in den HTML-Quelltext als Meta-Keywords eingebunden werden.
 
-   Wenn Sie nichts eingeben, werden die Stichwörter automatisch beispielsweise aus dem Titel des Herstellers, der Kategorie (Nach-Hersteller) und den Suchbegriffen der zugeordneten Artikel erzeugt.
+   Wenn Sie keine Stichworte eintragen, generiert der Shop diese automatisch – z. B. aus dem Herstellertitel, der Kategorie (Nach-Hersteller) und den Suchbegriffen zugeordneter Produkte.
 
 :guilabel:`Beschreibungstext für Meta-Tags`
-   Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden und in den Suchergebnissen vieler Suchmaschinen angezeigt.
+   Hinterlegen Sie hier die Meta-Beschreibung für Suchmaschinen. Sie erscheint häufig in den Suchergebnissen.
 
-   Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Titel des Herstellers, der Kategorie (Nach-Hersteller) und den Titeln der zugeordneten Artikel erstellt.
+   Ohne eigenen Eintrag erstellt der Shop die Beschreibung automatisch – z. B. aus dem Titel des Herstellers, der Kategorie (Nach-Hersteller) und den Titeln zugeordneter Produkte.
 
 :guilabel:`In Sprache`
-   Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
+   Wählen Sie die Sprache, für die Sie die SEO-Angaben bearbeiten möchten.
+
+
 
 .. Intern: oxbagd, Status:, F1: manufacturer_seo.html
+
+
