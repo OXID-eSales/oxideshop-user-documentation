@@ -11,7 +11,7 @@ Sobald ein Artikel Attribute hat, blendet die Detailansicht die Registerkarte :g
 
 .. image:: ../../media/screenshots/oxbacm01.png
    :alt: Artikel – Registerkarte Auswahl
-   :class: with-shadow
+   :class: with-shado
    :width: 650
 
 Nutzen Sie Auswahllisten, um typische Varianten eines Artikels wie Farbe oder Größe zu definieren. Diese Listen lassen sich mehrfach verwenden – etwa bei allen Artikeln einer Produktlinie. Wenn Sie eine Auswahlliste zuweisen, erscheint in der Artikeldetailansicht eine Dropdown-Liste. Ihre Kundinnen und Kunden wählen dort die gewünschte Variante aus. Der Shop speichert diese Auswahl (z. B. die Farbe oder Größe) mit der Bestellung.
