@@ -45,8 +45,6 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
 :guilabel:`Alt. Template`
    You can change the product’s detailed view to present it differently from the other products in the shop. To do this, you will need to use a specially created template whose path and name can be entered here. The path is relative to the template directory of the theme used.
 
-   Example: The page/details/mydetails.tpl entry for the \"Flow\" theme would call the :file:`mydetails.tpl` template from the :file:`/application/views/flow/tpl/page/details` directory.
-
 :guilabel:`Alt. Contact`
    By default, questions that customers can send via e-mail through the product’s detailed view are sent to the e-mail address specified under :menuselection:`Master Settings --> Core Settings`. If you have a direct contact person for a specific product, you will need to enter his/her e-mail address here. All product-related enquiries will be sent directly to this employee.
 
