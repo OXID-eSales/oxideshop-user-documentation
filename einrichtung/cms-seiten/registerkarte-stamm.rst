@@ -1,11 +1,13 @@
 Registerkarte Stamm
 ===================
 
+.. todo: #tbd: Seite in EN übers.
+
 Auf der Registerkarte :guilabel:`Stamm` werden Einstellungen zur CMS-Seite vorgenommen und deren Inhalt gepflegt. Es können bestehende CMS-Seiten bearbeitet oder neue erstellt werden. Um eine neue CMS-Seite zu erstellen, verwenden Sie den Link :guilabel:`Neue CMS-Seite anlegen` in der Fußzeile des Eingabebereiches. Mit der Sprachumstellung in der Mitte des linken Eingabebereichs lassen sich die Einstellungen und Inhalte zur CMS-Seite auch direkt in einer weiteren Sprache bearbeiten.
 
 .. image:: ../../media/screenshots/oxbajj01.png
    :alt: CMS-Seiten
-   :height: 343
+   :class: with-shadow
    :width: 650
 
 :guilabel:`Aktiv`
@@ -27,7 +29,7 @@ Auf der Registerkarte :guilabel:`Stamm` werden Einstellungen zur CMS-Seite vorge
    Wird diese Option gewählt, kann die CMS-Seite als Textbaustein in Shopseiten oder E-Mails verwendet werden. Dabei täuscht der Begriff Snippet, zu deutsch Schnipsel, ein wenig darüber hinweg, dass die CMS-Seite auch den Inhalt einer kompletten Shopseite bereistellen kann. Beispiele dafür sind auf der einen Seite die Fußzeile des Shops, auf der anderen Seite die AGB oder das Impressum. Die CMS-Seite wird in den Templates mit ihrem Ident angesprochen. Beispiel: ``[{ oxcontent ident=oxagb }]``
 
 :guilabel:`Hauptmenü`
-   Diese Option war ursprünglich dafür vorgesehen, die CMS-Seite als Link im Menü anzuzeigen. Im nicht mehr unterstützten Theme "Basic" tauchte der Link im Shop rechts oben neben AGB und Impressum auf. Die Themes "Azure", "Flow" und "Wave" sind anders aufgebaut und haben für diese Option keine Verwendung mehr.
+   Diese Option war ursprünglich dafür vorgesehen, die CMS-Seite als Link im Menü anzuzeigen. Im nicht mehr unterstützten Theme "Basic" tauchte der Link im Shop rechts oben neben AGB und Impressum auf. Die neueren Themes sind anders aufgebaut und haben für diese Option keine Verwendung mehr.
 
 :guilabel:`Kategorie`
    Damit eine CMS-Seite als Link in der Kategorienavigation auftaucht, muss diese Option aktiviert sein. Nach dem Speichern wird die Auswahlliste :guilabel:`Eingefügt vor` eingeblendet, mit der die genaue Position der CMS-Seite zwischen den Kategorien festgelegt werden kann.
