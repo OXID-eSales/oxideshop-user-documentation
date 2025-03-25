@@ -1,7 +1,9 @@
 ﻿Category tab
 ============
 
-In the :guilabel:`Categories` tab, you assign an attribute to one or more categories. If a category uses multiple attributes, you can also define their sort order.
+In the :guilabel:`Categories` tab, assign an attribute to one or more categories.
+
+If a category uses multiple attributes, you can also define their sort order.
 
 This assignment enables filtering of products by attribute values within the category. For more information, see :doc:`Filtering products <../products-and-categories/filtering-products>`.
 
