@@ -1,11 +1,11 @@
 ﻿SEO-Einstellungen
 =================
 
-Optimieren Sie die Startseite Ihres OXID eShops für Suchmaschinen
+Optimieren Sie Ihren OXID eShop für Suchmaschinen, indem Sie Seitentitel, URLs und Metadaten gezielt anpassen.
 
 |background|
 
-Kunden beginnen die Suche nach Artikeln oft mit Anfragen bei Suchmaschinen und -portalen. Damit sie dabei genau Ihren Shop, die Artikel und speziellen Angebote finden, müssen Sie die entsprechenden Informationen optimal aufbereiten und indizieren.
+Viele Kunden gelangen über Suchmaschinen zu Ihrem Shop. Um dort besser sichtbar zu sein, nehmen Sie die folgenden SEO-Einstellungen vor.
 
 Nutzen Sie dazu die Suchmaschinenoptimierung, englisch: Search Engine Optimization (SEO). Die SEO-Implementierung erstellt automatisch sprechende URLs für Kategorien und Artikel. Dabei werden reservierte Wörter und Sonderzeichen ebenso berücksichtigt wie unterschiedliche Sprachen des Shops.
 
@@ -23,7 +23,7 @@ Seitentitel festlegen
 ---------------------
 Der Seitentitel wird bei einigen Browsern noch in der Titelleiste angezeigt und beim Abspeichern einer Seite als Lesezeichen oder Favorit verwendet.
 
-Obwohl der Seitentitel im Shop nahezu unsichtbar ist, spielt er für Suchmaschinen dennoch eine wichtige Rolle. Suchmaschinen entnehmen dem Seitentitel die Information, welcher Inhalt auf einer Webseite zu finden ist.
+Suchmaschinen werten den Seitentitel als eines der wichtigsten Signale zur Seiteninhalte. Suchmaschinen entnehmen dem Seitentitel die Information, welcher Inhalt auf einer Webseite zu finden ist.
 
 Die Seitentitel, außer der für die Startseite des OXID eShops, werden automatisch aus dem Titel eines Artikels oder einer Kategorie generiert und mit einem Präfix und einem Suffix versehen.
 
@@ -69,7 +69,7 @@ Bei der Startseite setzt sich der Seitentitel aus dem Präfix (:ref:`oxbabi02`, 
 
 Anders als bei allen anderen Seiten besteht der Seitentitel der Startseite also aus Präfix und definiertem Text.
 
-Das Suffix wird nicht verwendet. Beispiel aus dem Demoshop: "Der Onlineshop".
+Das Suffix wird :emphasis:`nicht` verwendet. Beispiel aus dem Demoshop: "Der Onlineshop".
 
 .. todo: META-Title of the startpage to be configurable: OXDEV-6802
 
@@ -99,7 +99,7 @@ Sprechende URLs bilden
 ----------------------
 Sogenannte sprechende URLs sind ebenfalls ein wichtiger Teil der Suchmaschinenoptimierung.
 
-Anstatt URLs mit Parametern und kryptischen Werten anzuzeigen, wird die URL umgeschrieben und zeigt stattdessen den Namen der Kategorie und des Artikels. Das verbessert sowohl die Sichtbarkeit in Suchmaschinen als auch die Benutzerfreundlichkeit für Besucher Ihres Onlineshops.
+Statt technisch generierter URLs mit Parametern zeigt der Shop sprechende URLs mit Artikelnamen und Kategorien an. Das verbessert sowohl die Sichtbarkeit in Suchmaschinen als auch die Benutzerfreundlichkeit für Besucher Ihres Onlineshops.
 
 Beispiel:
 
@@ -167,7 +167,7 @@ Um sprechende URLs zu konfigurieren, tun Sie Folgendes:
 Metadaten pflegen
 -----------------
 
-Metadaten sind für Suchmaschinen nicht mehr so entscheidend wie früher. Trotzdem ist es sinnvoll, sie zu pflegen.
+Metadaten tragen zur besseren Darstellung in Suchergebnissen bei. Daher empfiehlt es sich, sie manuell zu pflegen.
 
 Definieren Sie Metadaten für die Startseite und Metadaten für Artikel und Kategorien. Das sind Formulierungen und Begriffe, die als Description :ref:`oxbabi03`, Pos. 4) und Keywords (:ref:`oxbabi03`, Pos. 5) mit der jeweiligen Seite ausgeliefert werden.
 
@@ -201,7 +201,7 @@ Metadaten für Kategorien und Artikel erfassen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Standardmäßig werden die Metadaten für Kategorien und Artikel automatisch aus deren Beschreibung generiert.
 
-Sie können durch selbst formulierte Beschreibungen und Schlüsselworte für jede einzelne Kategorie oder jeden einzelnen Artikel überschreiben.
+Sie können die automatisch erzeugten Metadaten durch eigene Texte ersetzen.
 
 |procedure|
 
