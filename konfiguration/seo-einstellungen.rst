@@ -54,7 +54,7 @@ Beispiel für den Aufbau eines Seitentitels (:ref:`oxbabi01`, Pos. 1, 2, 3): OXI
 
    .. figure:: ../media/screenshots/oxbabi01.png
       :alt: Metadaten: Seitentitel festlegen
-      :width: 650
+      :width: 650..
       :class: with-shadow
 
       Abb.: Metadaten: Seitentitel festlegen

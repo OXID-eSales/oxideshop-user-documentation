@@ -1,7 +1,7 @@
 ﻿Registerkarte SEO
 =================
 
-.. todo:: SB: vorerst noch gültig
+.. todo: SB: vorerst noch gültig
 
 Optimieren Sie auf der Registerkarte :guilabel:`SEO` (:ref:`oxbagd01`) die Sichtbarkeit der Herstellerseiten in Suchmaschinen.
 
