@@ -1,34 +1,34 @@
 ﻿Artikel
 =======
-Artikel sind neben den Kategorien die eigentliche Basis des Warenkatalogs. Schließlich geht es in einem Onlineshop darum, Artikel gut zu präsentieren und zu verkaufen.
 
-Titel, Kurz- und Langbeschreibung sind die wichtigsten Artikeleigenschaften, aber es gibt viele weitere, mit denen sich Artikel detailliert beschreiben lassen.
+Verwalten Sie Ihre Artikel zentral unter :menuselection:`Artikel verwalten --> Artikel`. Artikel bilden – zusammen mit den Kategorien – die Grundlage Ihres Warenkatalogs. Im Mittelpunkt steht dabei, Produkte anschaulich zu präsentieren und effizient zu verkaufen.
 
-Dazu kommen Artikelbilder, welche den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen sollten. Hochwertige Fotos sind wichtig, um den Artikel optimal zu präsentieren, und können kaufentscheidend sein.
+Vergeben Sie Titel, Kurz- und Langbeschreibung, um Artikel klar zu beschreiben. Ergänzen Sie weitere Eigenschaften, um Produkte gezielt zu differenzieren – etwa Maße, Gewicht oder Herstellerinformationen.
+
+Laden Sie hochwertige Bilder hoch, die den Artikel aus unterschiedlichen Perspektiven zeigen. Gute Produktfotos fördern die Kaufentscheidung Ihrer Kundschaft.
+
+.. todo: #tbd: Install HTML-Editor and update picture
 
 .. _oxbach01:
 
 .. figure:: ../../media/screenshots/oxbach01.png
-   :alt: Artikel
+   :alt: Artikel verwalten
    :width: 650
    :class: with-shadow
 
-   Abb.: Artikel
+   Abb.: Artikel verwalten
 
+Im unteren Bereich sehen Sie den Eingabebereich für den gewählten Artikel. Klicken Sie auf :guilabel:`Neuen Artikel anlegen`, um ein neues Produkt hinzuzufügen.
 
-Der Abschnitt \"Artikel\" informiert Sie über das Erstellen und Verwalten von Artikeln.
+Verwalten Sie bestehende Artikel direkt über die Artikelliste. Ein grüner Kreis mit Häkchen kennzeichnet aktive Artikel. Fehlt dieses Symbol, ist der Artikel inaktiv.
 
-Es werden alle Einstellungen erläutert, die Sie bei Artikeln vornehmen können. Der Abschnitt geht auf Attribute und Auswahllisten ebenso ein, wie auf Varianten und multidimensionale Varianten.
+Verwenden Sie die Suchfelder oder Filter (z. B. nach Kategorie oder Artikelnummer), um gezielt nach Artikeln zu suchen. Geben Sie z. B. „13“ in das Feld :guilabel:`Art.-Nr.` ein, um alle Artikel mit dieser Zeichenfolge in der Artikelnummer aufzulisten.
 
-Artikel können im Administrationsbereich unter :menuselection:`Artikel verwalten -->  Artikel` bearbeitet werden. Es werden die Artikelliste und darunter der Eingabebereich für die Artikel angezeigt.
+Sortieren Sie die Artikelliste durch Klick auf die jeweilige Spaltenüberschrift – etwa nach Aktivität, Artikelnummer, Titel oder Kurzbeschreibung. Der Shop zeigt die Einträge dann aufsteigend an.
 
-In der Artikelliste symbolisiert ein kleiner grüner Kreis mit Häkchen am Anfang der Zeile einen aktiven Artikel. Wurde ein Artikel nicht aktiviert, fehlt dieses Symbol. Die Artikelliste zeigt die Artikelnummer, den Artikeltitel und die Kurzbeschreibung des Artikels. Nach Artikeln kann gesucht werden, indem Suchfelder und/oder Filter für Kategorien und Artikeleigenschaften verwendet werden. Geben Sie beispielsweise in das Suchfeld Art.-Nr. die Zahl 13 ein, so bekommen Sie alle Artikel aufgelistet, bei denen 13 in der Artikelnummer vorkommt.
+Entfernen Sie Artikel per Klick auf das :guilabel:`Löschen`-Symbol endgültig aus der Datenbank. Möchten Sie einen Artikel nur vorübergehend aus dem Shop nehmen, setzen Sie ihn auf inaktiv. So bleibt der Artikel gespeichert und kann bei Bedarf reaktiviert werden.
 
-Artikel können in der Artikelliste nach aktiv/nicht aktiv, Artikelnummer, Titel oder Kurzbeschreibung sortiert werden, indem die jeweilige Spaltenüberschrift angeklickt wird. Die Artikel werden dadurch in aufsteigender Reihenfolge angezeigt.
-
-Artikel lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen. Wollen Sie einen Artikel nur zeitweise aus dem Shop nehmen, weil er derzeit nicht lieferbar ist, setzen Sie ihn auf inaktiv. Der Vorteil dabei ist, dass der Artikel nicht wieder neu angelegt werden muss, sobald er wieder auf Lager ist.
-
-Wird ein Artikel aus der Artikelliste gewählt, werden dessen Informationen in den Eingabebereich geladen. Zum Erstellen eines neuen Artikels klicken Sie am unteren Bildschirmrand auf :guilabel:`Neuen Artikel anlegen`.
+Sobald Sie einen Artikel aus der Liste wählen, lädt der Shop dessen Daten in den Eingabebereich.
 
 -----------------------------------------------------------------------------------------
 
