@@ -15,3 +15,5 @@
    Payment and shipping <payment-and-shipping/index>
    Manufacturers <manufacturers/index>
    Distributors <distributors/index>
+   CMS pages <cms-pages/index>
+
