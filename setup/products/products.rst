@@ -1,24 +1,32 @@
 ﻿Products
 ========
 
-Besides categories, products are the very basis of the product catalogue. After all, an online shop is all about presenting and selling the products. Titles and short or long descriptions are the most important product characteristics, but there are many more that allow products to be described in detail. There are also product images that should display the product in different views and from different angles. High-quality photos are important to present the product in the best way possible and can be decisive for the purchase.
+Besides categories, products are the core of your product catalogue. After all, the goal of an online shop is to present and sell products effectively.
 
-.. image:: ../../media/screenshots/oxbach01.png
-   :alt: Products
-   :height: 535
+Assign a clear title and provide both short and long descriptions to highlight key product details. Add more attributes to describe your products precisely — such as dimensions, weight, or manufacturer data.
+
+Upload high-quality product images showing the item from different angles. Good product photos help showcase the product and can influence the buying decision.
+
+.. figure:: ../../media/screenshots/oxbach01.png
+   :alt: Managing Products
    :width: 650
-   
-The \"Products\" section tells you how to create and manage products. It explains all the settings that can be configured for the products. The section also discusses attributes and selection lists as well as variants and multidimensional variants.
+   :class: with-shadow
 
-Products can be edited in the Admin panel under :menuselection:`Administer Products --> Products`. Here, you will see the product list and the input area right below it.
+   Fig.: Managing Products
 
-A small green circle with a check mark at the beginning of the line in the product list symbolises an active product. It is not displayed for inactive products. The product list shows the number, the title and the short description of the product. You can search for products by using search fields and/or filters for categories and product characteristics. For example, if you enter the number 13 the "Prod.No." search field, you will see all the products listed with 13 in the product number. In the demo data, these are the kiteboards with the product numbers 1301, 1302, 1303 and 1304.
+Use the **Products** section to learn how to create and manage products. This section explains all available configuration options and covers topics such as attributes, selection lists, variants, and multidimensional variants.
 
-Products can be sorted in the product list by active/inactive, product number, title or short description by clicking on the respective column heading. The products are displayed in ascending order.
+Manage products in the Admin panel under :menuselection:`Administer Products --> Products`. You will see the product list at the top and the input area below it.
 
-Products can be permanently removed from the database by clicking on the trash icon at the end of the line. If you just want to temporarily remove a product from the shop because it is currently out of stock, you can set it to inactive. The advantage of this is that you don’t have to recreate the product as soon as it is back in stock.
+In the product list, a small green circle with a check mark at the beginning of the line indicates that the product is active. This symbol is missing for inactive products. The list displays the product number, title, and short description.
 
-When you select a product from the product list, the product information will be displayed in the input area. To create a new product, click on :guilabel:`Create New Product` at the bottom of the screen.
+Use the search fields or filters (e.g., category, product number, or attributes) to find specific products. For example, enter “13” in the :guilabel:`Prod.No.` field to see all products containing “13” in the product number.
+
+Sort the product list by clicking the column headers — such as Active, Product Number, Title, or Short Description. The system will display products in ascending order.
+
+To permanently delete a product from the database, click the trash icon at the end of the line. To temporarily remove a product from the shop (e.g., due to stock unavailability), simply set it to inactive. This way, you can reactivate the product later without re-creating it.
+
+When you select a product in the list, the system loads its data into the input area. To add a new product, click :guilabel:`Create New Product` at the bottom of the screen.
 
 -----------------------------------------------------------------------------------------
 
