@@ -1,51 +1,67 @@
 Registerkarte Stamm
 ===================
 
-.. todo: #tbd: Seite in EN übers.
+Verwalten Sie in der Registerkarte :guilabel:`Stamm` die Grundeinstellungen und Inhalte einer CMS-Seite. Erstellen Sie neue CMS-Seiten oder bearbeiten Sie bestehende Inhalte komfortabel über das integrierte Editorfeld.
 
-Auf der Registerkarte :guilabel:`Stamm` werden Einstellungen zur CMS-Seite vorgenommen und deren Inhalt gepflegt. Es können bestehende CMS-Seiten bearbeitet oder neue erstellt werden. Um eine neue CMS-Seite zu erstellen, verwenden Sie den Link :guilabel:`Neue CMS-Seite anlegen` in der Fußzeile des Eingabebereiches. Mit der Sprachumstellung in der Mitte des linken Eingabebereichs lassen sich die Einstellungen und Inhalte zur CMS-Seite auch direkt in einer weiteren Sprache bearbeiten.
-
-.. image:: ../../media/screenshots/oxbajj01.png
-   :alt: CMS-Seiten
-   :class: with-shadow
+.. figure:: ../../media/screenshots/oxbajj01.png
+   :alt: CMS-Seiten – Registerkarte Stamm
    :width: 650
+   :class: with-shadow
 
-:guilabel:`Aktiv`
-   Ein aktiviertes Kontrollkästchen bewirkt, dass die CMS-Seite für die Anzeige im Shop oder als jeweilige E-Mail verfügbar ist. Eine nicht aktive CMS-Seite ist in der Datenbank gespeichert, wird aber nirgends verwendet.
+   Abb.: CMS-Seiten – Registerkarte Stamm
 
-:guilabel:`Titel`
-   Der Titel der CMS-Seite ist deren kurze und eindeutige Beschreibung. Er wird, wenn CMS-Seiten als ganze Seiten des Frontends angezeigt werden, als Seitenüberschrift verwendet. Nach Titel können CMS-Seiten auch im Administrationsbereich gesucht werden.
+|procedure|
 
-:guilabel:`Ident.`
-   Eine eindeutige Kennung für die CMS-Seite, mit der diese intern aufgerufen wird. Mit dem Ident wird die CMS-Seite in Templates angesprochen und damit ihr Inhalt angezeigt. Beim Erstellen einer neuen CMS-Seite wird als Ident ein alphanumerischer Code wie beispielsweiser dieser erzeugt: ``67ae4e9e4538360cb4d22320e9742466``. Für die Verwendung der CMS-Seite empfiehlt sich eher ein lesbarer, aber dennoch eindeutiger Ident.
+1. Öffnen Sie im Adminbereich den Menüpunkt :menuselection:`Kundeninformationen --> CMS-Seiten`.
+#. Wählen Sie eine CMS-Seite aus der Liste oder klicken Sie auf :guilabel:`Neue CMS-Seite anlegen`, um eine neue Seite zu erstellen.
+#. Pflegen Sie die folgenden Einstellungen und Felder:
 
-:guilabel:`Ordner`
-   CMS-Seiten lassen sich einem Ordner zuweisen, um sie zu kategorisieren und damit besser in der Liste der CMS-Seiten finden zu können. Standardmäßig gibt es im Shop die Ordner E-Mails, Kunden-Infos, Artikel-Information und Keine. Neue Ordner können, wie im Dokument :doc:`cms-seiten` beschrieben, einfach hinzugefügt werden. Damit ist es möglich, die CMS-Seiten nach eigenen Anforderungen zu organisieren.
+   :guilabel:`Aktiv`
+      Aktivieren Sie dieses Kontrollkästchen, um die CMS-Seite im Shop oder in E-Mails anzuzeigen. Eine deaktivierte Seite bleibt gespeichert, wird aber nicht angezeigt.
 
-:guilabel:`In Sprache`
-   Die CMS-Seite lässt sich auch in weiteren aktiven Sprachen des Shops bearbeiten. Wählen Sie eine Sprache aus der Liste aus.
+   :guilabel:`Titel`
+      Vergeben Sie einen eindeutigen und aussagekräftigen Titel. Der Titel erscheint bei Seiten im Frontend als Überschrift und dient als Suchkriterium im Adminbereich.
 
-:guilabel:`Snippet`
-   Wird diese Option gewählt, kann die CMS-Seite als Textbaustein in Shopseiten oder E-Mails verwendet werden. Dabei täuscht der Begriff Snippet, zu deutsch Schnipsel, ein wenig darüber hinweg, dass die CMS-Seite auch den Inhalt einer kompletten Shopseite bereistellen kann. Beispiele dafür sind auf der einen Seite die Fußzeile des Shops, auf der anderen Seite die AGB oder das Impressum. Die CMS-Seite wird in den Templates mit ihrem Ident angesprochen. Beispiel: ``[{ oxcontent ident=oxagb }]``
+   :guilabel:`Ident.`
+      Vergeben Sie eine eindeutige Kennung, um die Seite intern anzusprechen. Verwenden Sie einen sprechenden Wert anstelle des automatisch generierten alphanumerischen Codes.
 
-:guilabel:`Hauptmenü`
-   Diese Option war ursprünglich dafür vorgesehen, die CMS-Seite als Link im Menü anzuzeigen. Im nicht mehr unterstützten Theme "Basic" tauchte der Link im Shop rechts oben neben AGB und Impressum auf. Die neueren Themes sind anders aufgebaut und haben für diese Option keine Verwendung mehr.
+   :guilabel:`Ordner`
+      Ordnen Sie die CMS-Seite einem Ordner zu, um sie thematisch zu gruppieren. Standardordner sind z. B. „E-Mails“, „Kunden-Infos“, „Artikel-Information“. Neue Ordner definieren Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstellungen --> Administrationsbereich`.
 
-:guilabel:`Kategorie`
-   Damit eine CMS-Seite als Link in der Kategorienavigation auftaucht, muss diese Option aktiviert sein. Nach dem Speichern wird die Auswahlliste :guilabel:`Eingefügt vor` eingeblendet, mit der die genaue Position der CMS-Seite zwischen den Kategorien festgelegt werden kann.
+   :guilabel:`In Sprache`
+      Wählen Sie eine aktive Sprache aus der Liste, um die Inhalte sprachspezifisch zu pflegen.
 
-:guilabel:`Manuell`
-   Die Option erlaubt das Einbinden einer CMS-Seite in eine andere. Dafür wird nach dem Speichern ein Link angezeigt, mit dem sich die CMS-Seite inkludieren lässt. Beispiel: ``[{ oxgetseourl ident="oxcredits" type="oxcontent" }]``
+   :guilabel:`Snippet`
+      Aktivieren Sie diese Option, um die CMS-Seite als Textbaustein (Snippet) in Templates oder E-Mails zu verwenden. Beispiel: ``[{ oxcontent ident="oxagb" }]``
 
-:guilabel:`Eingefügt vor`
-   Auswahlliste, mit der die Position der CMS-Seite in der Kategorienavigation festgelegt werden kann. Nur sichtbar bei Option :guilabel:`Kategorie`.
+   :guilabel:`Hauptmenü`
+      Diese Option ist veraltet und wird in aktuellen Themes nicht mehr verwendet.
 
-:guilabel:`Link`
-    Anzeige eines Links, mit der eine CMS-Seite in eine andere inkludiert werden kann. Nur sichtbar bei Option :guilabel:`Manuell`.
+   :guilabel:`Kategorie`
+      Aktivieren Sie diese Einstellung, um die CMS-Seite als Link in der Kategorienavigation anzuzeigen. Nach dem Speichern erscheint das Feld :guilabel:`Eingefügt vor`.
 
----------------------------------------------------------------------------------------------------
+   :guilabel:`Eingefügt vor`
+      Legen Sie hier fest, an welcher Position zwischen den Kategorien der CMS-Link angezeigt werden soll. Nur sichtbar, wenn :guilabel:`Kategorie` aktiviert ist.
 
-Der Text der CMS-Seite kann komfortabel in einen Editor eingegeben werden, der den rechten Teil des Eingabebereiches ausfüllt. Der Editor arbeitet nach dem Prinzip WYSIWYG (What You See Is What You Get), er zeigt also Text so an, wie er später im Shop zu sehen sein wird. Der Editor bietet die Möglichkeit der Textformatierung, des Einfügens von Links, Bildern und Videos. Für spezielle und darüber hinausgehende Anforderungen kann der HTML-Code angezeigt und bearbeitet werden. Es ist auch möglich, Smarty-Ausdrücke zu verwenden, um dynamische Inhalte anzeigen. Ein Beispiel dafür finden Sie in der CMS-Seite "Ihr Passwort im eShop", die als E-Mail auf Anforderung an den Kunden verschickt wird.
+   :guilabel:`Manuell`
+      Ermöglicht das Einbinden der CMS-Seite in eine andere. Nach dem Speichern erscheint ein Link wie: ``[{ oxgetseourl ident="oxcredits" type="oxcontent" }]``.
 
+   :guilabel:`Link`
+      Zeigt den Einbindungscode der CMS-Seite an. Nur sichtbar, wenn :guilabel:`Manuell` aktiviert ist.
+
+#. Pflegen Sie den Textinhalt der CMS-Seite im Editor auf der rechten Seite. Der Editor unterstützt WYSIWYG („What You See Is What You Get“) und zeigt den Text wie im Shop an.
+
+   Verwenden Sie Formatierungen, fügen Sie Links, Bilder oder Videos ein, oder wechseln Sie in den HTML-Modus für erweiterte Anpassungen.
+
+   Auch Smarty-Ausdrücke sind möglich – etwa in der CMS-Seite ``Ihr Passwort im eShop``, die im Rahmen des Passwort-Resets an Kunden gesendet wird.
+
+#. Speichern Sie Ihre Einstellungen.
+
+|result|
+
+Nach dem Speichern stehen die CMS-Seiteninhalte im Frontend, in E-Mails oder in Templates zur Verfügung – abhängig von den gesetzten Optionen.
+
+.. seealso:: :doc:`CMS-Seiten <cms-seiten>` | :doc:`Registerkarte SEO <registerkarte-seo>`
 
 .. Intern: oxbajj, Status:
+
