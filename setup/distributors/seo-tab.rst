@@ -1,33 +1,62 @@
 ﻿SEO tab
 =======
 
-The distributor’s :guilabel:`SEO` tab contains information and settings that are relevant to search engines.
+Use the :guilabel:`SEO` tab (:ref:`oxbagg01`) to configure the distributor’s SEO settings and improve the visibility of their page in search engines.
 
-.. image:: ../../media/screenshots/oxbagg01.png
-   :alt: Distributors - SEO tab
-   :height: 343
+* Define a speaking SEO URL so the distributor page is easier to find.
+* Add a meaningful meta title and meta description to increase the click-through rate in search results.
+* Enter relevant keywords (meta keywords) to ensure the page appears for relevant search queries.
+* Fix the SEO URL to prevent unwanted changes and reduce duplicate content.
+* Use the language selection to manage SEO data for each active shop language individually.
+
+.. _oxbagg01:
+
+.. figure:: ../../media/screenshots/oxbagg01.png
+   :alt: Distributors – SEO tab
    :width: 650
+   :class: with-shadow
 
-The language selection list at the bottom of the input area allows you to edit distributor’s information and settings in another active language.
+   Fig.: Distributors – SEO tab
+
+The language selection list at the bottom of the input area allows you to edit the SEO information for any other active language.
 
 :guilabel:`Fixed URL`
-   If distributor’s title changes, the SEO URL will be recalculated. Check the box to disable this feature for the distributor’s URL. The existing SEO URL will remain unchanged.
+   If the distributor’s title changes, the SEO URL will be recalculated.
+
+   Check this box to prevent automatic updates of the URL. The current SEO URL will remain unchanged.
 
 :guilabel:`Show SEO Suffix in Category`
-   This setting determines whether the title suffix will be displayed in the page title. If the overview of all products of this distributor is called up via the URL, the page title will also contain the title suffix defined under :menuselection:`Master Settings --> Core Settings --> SEO --> Title Suffix`. Demo shop example:\<title\>OXID Surf and Kite Shop | www.true-fashion.com | purchase online\</title\>. More information can be found in :doc:`SEO settings <../../configuration/seo-settings>`.
+   This setting determines whether the title suffix is shown in the page title (title suffix example from a manufacturer page: :ref:`oxbagg02`, Pos. 1).
 
-By default, the overview of all the distributor’s products is not displayed in the front end.
+   The overview of all products of a distributor is not displayed in the front end by default.
+
+   For more information on defining the title suffix, see :doc:`SEO settings <../../configuration/seo-settings>`.
+
+.. _oxbagg02:
+
+.. figure:: ../../media/screenshots/oxbagd02.png
+   :alt: Show title suffix (example: Manufacturer)
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Show title suffix (example: Manufacturer)
 
 :guilabel:`SEO URL`
-   Shows the displayed distributor’s URL which can also be changed and fixed.
+   The distributor’s SEO URL is displayed here. You can change or fix the URL.
 
 :guilabel:`META Keywords`
-   The keywords evaluated by search engines are integrated into the HTML source code (meta keywords). If you leave this field empty, they will be generated automatically, e.g. from the distributor’s title, the category (by distributor), and the search terms of the assigned products.
+   These keywords, evaluated by search engines, are embedded in the HTML source code as meta keywords.
+
+   If you leave this field empty, keywords will be generated automatically from the distributor title, the category (by distributor), and the search terms of the assigned products.
 
 :guilabel:`META Description`
-   This descriptive text is included in the HTML source code (meta description). It is displayed in the search results by many search engines. If you leave this field empty, the description will be generated automatically from the distributor’s title, the category (By distributor), and the titles of the assigned products.
+   This descriptive text is added to the HTML source code (meta description) and displayed by many search engines in the search results.
+
+   If you do not enter a description, it will be generated automatically from the distributor title, the category (by distributor), and the titles of the assigned products.
 
 :guilabel:`In Language`
-   Select the desired language from the list for which you want to edit the SEO information and settings.
+   Select the desired language from the list to edit the SEO information and settings for that language.
 
 .. Intern: oxbagg, Status:, F1: vendor_seo.html
+
+
