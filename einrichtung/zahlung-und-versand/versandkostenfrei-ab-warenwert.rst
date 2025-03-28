@@ -1,15 +1,15 @@
 ﻿Kostenfreien Versand abhängig vom Warenwert einrichten
 ======================================================
 
-Bei vielen Shops basieren die Versandkosten auf dem Gesamtpreis der gekauften Waren. Ab einem bestimmten Warenwert erfolgt meistens auch eine kostenlose Lieferung.
+In vielen Shops richten sich die Versandkosten nach dem Gesamtwert der gekauften Artikel. Ab einem bestimmten Warenwert erfolgt meistens auch eine kostenlose Lieferung.
 
 Die mit dem OXID eShop ausgelieferten Versandkostenregeln verwenden durchweg den Preis der Artikel als Bedingung.
 
-Mit einer Versandkostenregel kann auch festgelegt werden, dass die Versandkosten ab einem bestimmten Warenwert entfallen.
+Sie können eine Versandkostenregel so konfigurieren, dass ab einem bestimmten Warenwert keine Versandkosten anfallen
 
 Der Kunde entscheidet sich beim Kauf im Online-Shop für eine Versandart.
 
-Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Es wird geprüft, ob die festgelegte Bedingung (Preis) bezogen auf den Gesamtpreis der Artikel im Warenkorb erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
+Alle Versandkostenregeln, die zu dieser Versandart gehören, werden abgearbeitet. Dabei wird geprüft, ob die festgelegte Bedingung (Preis) in Bezug auf den Gesamtwert der Artikel im Warenkorb erfüllt ist. Nur wenn die Bedingung zutrifft, wird die Versandkostenregel bei der Berechnung der Versandkosten angewandt.
 
 Vorgehen
 --------
@@ -27,7 +27,7 @@ Vorgehen
    #. Wählen Sie die Versandkostenregel aus der Liste der Versandkostenregeln.
    #. Auf der Registerkarte :guilabel:`Stamm` finden Sie die Dropdown-Liste :guilabel:`Bedingung`.
    #. Wählen Sie die Bedingung Preis und tragen Sie Werte für :guilabel:`=\>` und :guilabel:`\<=` ein.
-   #. Komplettieren Sie alle weiteren Einstellungen der Versandkostenregel.
+   #. Vervollständigen Sie die restlichen Einstellungen der Versandkostenregel.
    #. Speichern Sie die Änderungen.
 
 #. Ordnen Sie die Versandkostenregel einer Versandart zu.
@@ -46,7 +46,7 @@ Vorgehen
 
 Beispiel
 --------
-Zwei Versandkostenregeln dienen als Beispiel für eine versandkostenfreie Lieferung, wenn Artikel für 80 € und mehr gekauft werden.
+Zwei Versandkostenregeln veranschaulichen die versandkostenfreie Lieferung ab einem Warenwert von 80 €.
 
 Dafür werden zwei Versandkostenregeln erstellt, deren Bedingung der Preis ist. Die eine ist für Artikel im Warenkorb mit einem Warenwert bis 79,99 €, die andere für Artikel ab 80 € Warenwert.
 
@@ -54,28 +54,34 @@ Die Versandkostenregeln werden so definiert, dass die Berechnung nur einmal pro 
 
 Länder können, aber müssen nicht zugewiesen sein. Die Versandkostenregeln müssen aktiv sein.
 
-.. image:: ../../media/screenshots/oxbafw01.png
+.. figure:: ../../media/screenshots/oxbafw01.png
    :alt: Versandkostenregel ab 80 € Warenwert
-   :height: 341
+   :class: with-shadow
    :width: 650
+
+   Abb.: Versandkostenregel ab 80 € Warenwert
 
 Die Versandkostenregeln müssen einer Versandart zugeordnet sein. Wird diese Versandart beim Kauf eines Artikels ausgewählt, werden alle zugehörigen Versandkostenregeln geprüft.
 
 Liegen Artikel mit einem Einkaufswert unter 80 € im Warenkorb, dann greift die erste Versandkostenregel.
 
-Es werden 3,90 € Versandkosten im Warenkorb ausgewiesen.
+Im Warenkorb werden Versandkosten in Höhe von 3,90 € angezeigt.
 
-.. image:: ../../media/screenshots/oxbafw02.png
+.. figure:: ../../media/screenshots/oxbafw02.png
    :alt: Warenkorb mit Artikeln unter 80 € Warenwert
-   :height: 261
+   :class: with-shadow
    :width: 550
 
-Wurden Artikel eingekauft, deren Einkaufswert 80 € ist oder darüberliegt, gilt die zweite Versandkostenregel. Die Ware wird ohne Versandkosten geliefert.
+   Abb.: Warenkorb mit Artikeln unter 80 € Warenwert
 
-.. image:: ../../media/screenshots/oxbafw03.png
+Wurden Artikel eingekauft, deren Einkaufswert 80 € ist oder darüberliegt, gilt die zweite Versandkostenregel. Die Lieferung erfolgt versandkostenfrei.
+
+.. figure:: ../../media/screenshots/oxbafw03.png
    :alt: Warenkorb mit Artikel über 80 € Warenwert
-   :height: 261
+   :class: with-shadow
    :width: 550
+
+   Abb.: Warenkorb mit Artikel über 80 € Warenwert
 
 .. seealso:: :doc:`Artikel - Registerkarte Stamm <../artikel/registerkarte-stamm>` | :doc:`Versandkostenregeln - Registerkarte Stamm <../versandkostenregeln/registerkarte-stamm>` | :doc:`Versandarten - Registerkarte Stamm <../versandarten/registerkarte-stamm>`
 
