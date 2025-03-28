@@ -1,11 +1,11 @@
 ﻿Zahlungsarten für bestimmte Benutzer festlegen
 ==============================================
 
-Treffen Sie Shopbetreiber eine grundsätzliche Entscheidung darüber, welche Zahlungsarten Ihre Kunden nutzen können.
+Treffen Sie Shopbetreiber eine grundsätzliche Entscheidung darüber, welche Zahlungsarten Sie Ihren Kunden anbieten möchten.
 
 Legen Sie fest, bei welchen Kunden es akzeptabel ist, die Ware vor dem Zahlungseingang zu verschicken, und bei welchen Kunden diese Vorleistung nicht sinnvoll ist.
 
-Die Zahlung auf Rechnung beispielsweise ist eine bei den Kunden sehr beliebte Zahlungsart, da dieser die Ware vor der Bezahlung anschauen oder ausprobieren kann. Für den Shopbetreiber bedeutet dieser Vorteil des Kunden aber ein erhöhtes Risiko, denn nicht alle Kunden zahlen eine Rechnung pünktlich oder überhaupt.
+Die Zahlung auf Rechnung ist bei Kunden sehr beliebt, da sie die Ware vor der Bezahlung prüfen oder testen können. Für den Shopbetreiber entsteht dadurch ein Risiko – denn nicht jeder Kunde zahlt pünktlich oder überhaupt.
 
 Im OXID eShop haben Sie zwei Möglichkeiten, Zahlungsarten nur für bestimmte Benutzer anzubieten:
 
@@ -19,7 +19,7 @@ Eine davon ist der Bonitätsindex, den Sie bei den Zahlungsarten hinterlegen kö
 
 Diese Einstellung steuert, dass nur Kunden diese Zahlungsart im Bestellprozess angezeigt bekommen, deren Bonität größer gleich dem Bonitätsindex der Zahlungsart ist.
 
-Diese Möglichkeit kann sehr aufwändig werden, da die Bonität für jeden einzelnen Benutzer definiert und aktuell gehalten werden muss.
+Diese Option ist mit hohem Aufwand verbunden, da Sie die Bonität für jeden Benutzer individuell pflegen müssen.
 
 1. Definieren Sie für die Zahlungsart die vorausgesetzte Bonität.
 

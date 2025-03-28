@@ -1,16 +1,19 @@
 ﻿Zahlung und Versand
-===================
+====================
 
-Zahlung und Versand sind wichtige Funktionen im Online-Shop und ermöglichen dem Kunden, eine passende Bezahlmethode und die gewünschte Liefermöglichkeit auszuwählen.
+Bieten Sie Ihren Kunden im OXID eShop passende Zahlungsmethoden und Versandoptionen an. Diese Funktionen gehören zu den zentralen Bestandteilen des Bestellprozesses und beeinflussen Kaufentscheidungen maßgeblich.
 
-Im Abschnitt \"Zahlung und Versand\" werden konkrete Einstellungen bei den Zahlungsarten und Anwendungsbeispiele für Versandkostenregeln dargestellt, welche verschiedene Besonderheiten im Bestellprozess berücksichtigen.
+Im Abschnitt \"Zahlung und Versand\" konfigurieren Sie verfügbare Zahlungsarten und definieren Versandkostenregeln.
+
+Anwendungsbeispiele zeigen, wie Sie unterschiedliche Anforderungen im Checkout-Prozess abbilden – etwa länderspezifische Versandkosten, Zuschläge für Zahlungsarten oder Kombinationen aus Gewicht und Warenwert.
+
 
 -----------------------------------------------------------------------------------------
 
 Zahlungsarten
 -------------
 
-Sie haben folgende Möglichkeiten
+Sie haben folgende Möglichkeiten:
 
 Preisauf- und abschläge festlegen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
