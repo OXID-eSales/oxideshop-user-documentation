@@ -48,7 +48,7 @@ In our example, we assume a product with a weight of 2 kg.
 
 |procedure|
 
-1. Enter a weight of 2 kilograms for the product in the :guilabel:`Extended` tab of the product management section (:ref:`oxbafv01`).
+1. In the :guilabel:`Extended` tab of the product management section (:ref:`oxbafv01`), enter a weight of 2 kilograms for the product.
 
    .. _oxbafv01:
 
