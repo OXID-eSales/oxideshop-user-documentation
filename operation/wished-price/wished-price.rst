@@ -1,39 +1,130 @@
-Wished price
-============
+Using the Requested Price Feature
+=================================
 
-Customers can specify a price for products from the shop at which they would like to buy them. The shop owner can inform customers by e-mail as soon as this wished price is reached or undercut. The function is globally enabled or disabled for the shop in the :guilabel:`Functions` section of the theme's settings. But it can also be applied to individual products. Select the :guilabel:`Deactivate Wished Price` checkbox on the :guilabel:`Extended` tab of a product to disable the function for that product. Until OXID eShop 6.2.1, wished price was called price alert.
+The requested price feature allows customers to enter a price at which they would like to buy a product. If this price is reached or undercut, the customer can receive an automatic email notification.
 
-.. image:: ../../media/screenshots/oxbajm01.png
-   :alt: Product's details page, Wished price
-   :height: 414
+.. attention::
+
+   The requested price feature is disabled by default in the APEX theme.
+
+   To use it, please contact your implementation partner.
+
+Configuring the Feature
+-----------------------
+
+Enabling the Feature Globally
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|procedure|
+
+1. Choose the settings of the active theme.
+2. In the :guilabel:`Functions` section, enable the checkbox for requested price.
+
+Disabling the Feature for Individual Products
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|procedure|
+
+1. Choose :menuselection:`Manage Products`.
+2. Choose the product you want to configure.
+3. Choose the :guilabel:`Extended` tab.
+4. Enable :guilabel:`Disable requested price` to deactivate the feature for this product.
+
+Displaying the Feature in the Storefront
+----------------------------------------
+
+If the feature is active:
+
+* The product detail page shows the tab :guilabel:`[!] Requested Price`.
+* Customers can enter a desired price and their email address.
+* After submitting the form, they receive a confirmation.
+
+.. figure:: ../../media/screenshots/oxbajm01.png
+   :alt: Product detail view, Requested Price tab
    :width: 650
+   :class: with-shadow
 
-If the wished price function is active, the :guilabel:`[!] Wished price` tab is displayed in the details page of the product, which contains a small form. Here the customer can enter the wished price and his e-mail address. After sending the information, he will receive a confirmation that he will be notified when the wished price is achieved. The shop owner is informed by e-mail that the customer wishes to purchase a product at a certain price. The template for the e-mail is the CMS page "wished price" (Ident: oxpricealarmemail).
+   Fig.: Product detail view, Requested Price tab
 
-.. image:: ../../media/screenshots/oxbajm02.png
-   :alt: Wished price
-   :height: 521
+Creating the Email Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create an email template for the requested price notification.
+
+|procedure|
+
+1. Choose the CMS page :guilabel:`Requested Price` (Ident: ``oxpricealarmemail``).
+2. Edit the text as needed.
+
+.. figure:: ../../media/screenshots/oxbajm02.png
+   :alt: Editing the requested price email template
    :width: 650
+   :class: with-shadow
 
-The wished prices requested by customers are collected in the administration panel under :menuselection:`Customer Info --> Wished Price`. There all enquiries for a wished price are listed.
+   Fig.: Editing the requested price email template
 
-The list of wished price enquiries shows the e-mail address, the name of the customer, the date of receipt, the date of e-mail notification, the name of the product, its regular price and the customer's wished price. You can search for wished price enquiries by using the search fields above the list.
+Managing Requested Prices in the Admin Area
+-------------------------------------------
 
-The wished price enquiries can be sorted in the list by clicking on the respective column header. They are thus displayed in ascending order. Wished price enquiries can be permanently removed from the database by clicking on the trash icon at the end of the line.
+Processing Incoming Requests
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When you select an entry from the list, the detailed information will be displayed in the input area. On the :guilabel:`Main` tab, you can edit the text of the e-mail that should inform the customer about the wished price. The :guilabel:`Mail` tab allows you to send the e-mails to the customers.
+|procedure|
 
-Main tab
---------
-**Contents**: e-mail address, name of customer, in language, date of receipt, date of e-mail notification, product, wished price, regular price, text of the e-mail, Price alert up to OXID eShop 6.2.1 |br|
-:doc:`Read article <main-tab>` |link|
+Choose :menuselection:`Customer Information --> Requested Price`.
 
-Mail tab
---------
-**Contents**: Wished price achieved, send notification mail(s)  |br|
-:doc:`Read article <mail-tab>` |link|
+|result|
 
-.. seealso:: :doc:`Products, Extended tab <../../setup/products/extended-tab>`
+You see a list of all requested price entries with the following information:
+
+* Customer's email address (as entered in the form)
+* Name (if the customer is registered)
+* Language used when the request was submitted
+* Date of the request
+* Date of the notification
+* Product name
+* Regular price
+* Requested price
+
+Editing and Sending Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|procedure|
+
+1. Choose an entry from the list.
+   The detail view is loaded into the input area.
+
+#. Choose the :guilabel:`Main` tab to customize the email text.
+
+   .. figure:: ../../media/screenshots/oxbajn01.png
+      :alt: Customizing the requested price email text
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Customizing the requested price email text
+
+   The :guilabel:`Main` tab displays all relevant request data along with a prefilled message text, which can be edited and formatted.
+
+   .. note::
+
+      The editor is WYSIWYG-based (What You See Is What You Get). It shows the text exactly as it will appear in the email. You can apply formatting, insert links, images, or videos, and edit the HTML source if needed.
+
+      The default text is based on the language constants ``EMAIL_PRICEALARM_CUSTOMER_*`` defined in the admin area.
+
+#. Choose the :guilabel:`Email` tab to send the message.
+
+.. figure:: ../../media/screenshots/oxbajo01.png
+   :alt: Sending the requested price email
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Sending the requested price email
+
+|result|
+
+When the :guilabel:`Email` tab is opened, the shop automatically checks all open requested price entries. If the desired price for a product has been reached or undercut, this is displayed.
+
+If at least one requested price condition is met, a message appears offering to send the notifications. Click the displayed link to start the email dispatch process.
 
 
 .. Intern: oxbajm, Status: transL, Latitute-images

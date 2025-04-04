@@ -1,61 +1,88 @@
-﻿Free shipping from certain product value
-========================================
+﻿Setting up free shipping based on cart value
+============================================
 
-For many shops, the shipping costs are based on the total price of the purchased products. Shipping is usually free starting from a certain value of products in the shopping cart.
+In many shops, shipping costs are based on the total value of the purchased items. From a certain cart value onward, shipping is usually free.
 
-Shipping cost rules that come with OXID eShop always use the price of the product as a condition. You can also use a shipping cost rule to specify that shipping costs don’t apply above a certain product value. The customer selects a shipping method when buying something in the online shop. All shipping costs that belong to this shipping method will be processed. The system will check whether the specified condition (price) is met in terms of the total product price in the shopping cart. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
+The shipping cost rules included in OXID eShop consistently use the product price as a condition.
 
-The price of a product is defined in the product management section.
+You can configure a shipping cost rule so that shipping fees are waived above a certain cart value.
 
-* Go to :menuselection:`Administer Products --> Products`.
-* Select the desired product from the product list.
-* Enter the price in the :guilabel:`Main` tab.
-* Save the changes.
+During checkout, the customer selects a shipping method.
 
-Defining the price as a condition in the shipping cost rules
+All shipping cost rules assigned to that method will be evaluated. The system checks whether the defined condition (price) is fulfilled based on the total value of the items in the shopping cart. Only if this condition is met will the rule be applied.
 
-* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
-* Select the desired shipping cost rule from the list.
-* Find the :guilabel:`Condition` field in the :guilabel:`Main` tab.
-* Select “Price” and enter the values for :guilabel:`=\>` and :guilabel:`\<=`.
-* Configure all other settings of the shipping cost rule.
-* Save the changes.
+Procedure
+---------
 
-The shipping cost rule is assigned to a shipping method.
+1. Define the product price in the product management section.
 
-* Go to :menuselection:`Shop Settings --> Shipping Methods`.
-* Select the desired shipping method from the list.
-* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
-* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
-* Close the assignment window.
+   a. Go to :menuselection:`Administer Products --> Products`.
+   #. Select the desired product from the product list.
+   #. In the :guilabel:`Main` tab, enter the product price.
+   #. Save the changes.
 
-.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
+#. Define the price as a condition in the shipping cost rule.
+
+   a. Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+   #. Select the desired shipping cost rule from the list.
+   #. In the :guilabel:`Main` tab, locate the dropdown field :guilabel:`Condition`.
+   #. Select “Price” and enter values for :guilabel:`=\>` and :guilabel:`\<=`.
+   #. Complete all remaining settings of the shipping cost rule.
+   #. Save the changes.
+
+#. Assign the shipping cost rule to a shipping method.
+
+   .. hint::
+
+      At least one shipping cost rule and one payment method must be assigned to the shipping method.
+
+      Countries should also be assigned to ensure consistent shipping and payment logic. If no countries are assigned, the shipping method applies to all countries.
+
+   a. Go to :menuselection:`Shop Settings --> Shipping Methods`.
+   #. Select the desired shipping method from the list.
+   #. In the :guilabel:`Main` tab, click :guilabel:`Assign Shipping Cost Rules`.
+   #. Drag and drop the shipping cost rule into the right-hand list in the assignment window.
+   #. Close the assignment window.
 
 Example
---------
-Using two shipping rules as an example of free shipping when the customer buys products worth €80.
+-------
 
-Create two shipping rules with the price as the condition. One is for products in the shopping cart with a value up to €79.99, and the other one is for products with a value of €80 and above. The shipping cost rules for the calculation are defined so that they take place only once per shopping cart. The assignment of countries is optional. Activate the shipping cost rules.
+Two shipping cost rules illustrate how to offer free shipping for orders of €80 or more.
 
-.. image:: ../../media/screenshots/oxbafw01.png
-   :alt: Shipping cost rule from €80 product value
-   :height: 343
+Create two shipping cost rules using price as the condition. One rule applies to cart values up to €79.99, the other to values of €80 or more.
+
+The rules are configured so that the shipping cost is calculated only once per shopping cart.
+
+Assigning countries is optional. The shipping cost rules must be active.
+
+.. figure:: ../../media/screenshots/oxbafw01.png
+   :alt: Shipping cost rule for orders of €80 or more
+   :class: with-shadow
    :width: 650
 
-Assign shipping cost rules to a shipping method. If the customer selects this shipping method when purchasing a product, all associated shipping cost rules will be checked. If the shopping cart contains products with a purchase value below €80, the first shipping cost rule will apply. €3.90 shipping costs will be displayed in the shopping cart.
+   Fig.: Shipping cost rule for orders of €80 or more
 
-.. image:: ../../media/screenshots/oxbafw02.png
-   :alt: Shopping cart with products valued under €80
-   :height: 262
+Make sure the shipping cost rules are assigned to a shipping method. When the customer selects this shipping method, all related shipping cost rules will be processed.
+
+If the cart contains products with a value below €80, the first rule applies.
+
+The cart will display a shipping cost of €3.90.
+
+.. figure:: ../../media/screenshots/oxbafw02.png
+   :alt: Shopping cart with items under €80
+   :class: with-shadow
    :width: 550
 
-If the customer buys products with a purchase value of €80 or above, the second shipping rule will apply. In this case, the products will be shipped for free.
+   Fig.: Shopping cart with items under €80
 
-.. image:: ../../media/screenshots/oxbafw03.png
-   :alt: Shopping cart with products valued over €80
-   :height: 262
+If the cart contains products valued at €80 or more, the second rule applies. Shipping is free in this case.
+
+.. figure:: ../../media/screenshots/oxbafw03.png
+   :alt: Shopping cart with items over €80
+   :class: with-shadow
    :width: 550
+
+   Fig.: Shopping cart with items over €80
 
 .. seealso:: :doc:`Products - Main tab <../products/main-tab>` | :doc:`Shipping cost rules - Main tab <../shipping-cost-rules/main-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
 
-.. Intern: oxbafw, Status:

@@ -11,10 +11,14 @@ When a coupon is applied, its entire value will be used up. Unlike gift certific
 
 Besides promotions, discounts and newsletters, coupons are another marketing tool in your OXID eShop. They can be used to create buying incentives and attract new customers.
 
-.. image:: ../../media/screenshots/oxbahr01.png
-   :alt: Coupon series
-   :height: 535
+.. _oxbahr01:
+
+.. figure:: ../../media/screenshots/oxbahr01.png
+   :alt: Creating a coupon series
    :width: 650
+   :class: with-shadow
+
+   Fig..: Creating a coupon series
 
 After the customer has added products to the shopping cart, he/she can enter a coupon code or a coupon number in the appropriate field in the first ordering step.
 
@@ -26,11 +30,15 @@ If the coupon code has been accepted by the shop, the coupon will be marked as r
 
 Coupons can also be removed from the cart overview.
 
-.. image:: ../../media/screenshots/oxbahr02.png
+.. _oxbahr02:
+
+.. figure:: ../../media/screenshots/oxbahr02.png
    :alt: Using a coupon in the shopping cart
-   :class: with-shadow
-   :height: 290
    :width: 650
+   :class: with-shadow
+
+   Fig.: Using a coupon in the shopping cart
+
 
 Section \"Coupon series\" explains how to create and set up coupon series and how to generate and export the associated coupons.
 

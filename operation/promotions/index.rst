@@ -1,4 +1,5 @@
-﻿Promotions
+﻿:orphan:
+Promotions
 ==========
 
 .. toctree::

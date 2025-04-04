@@ -1,26 +1,64 @@
 ﻿Rights tab
 ==========
 
-The :guilabel:`Rights` tab is only available for products in Enterprise Edition.
+Use the :guilabel:`Rights` tab to control which user groups are allowed to view and/or purchase a product in the shop. This tab is only available in OXID eShop Enterprise Edition.
 
-The :guilabel:`Rights` tab allows you to assign user groups whose users are allowed to view and/or buy this product in the shop. This assignment is part of the rights and roles management feature in Enterprise Edition.
+Assign specific user groups to the product to define access and purchase permissions. This function is part of the Enterprise Edition's rights and roles management system.
 
-.. image:: ../../media/screenshots/oxbact01.png
-   :alt: Products - Rights tab
-   :height: 343
+.. _oxbact01:
+
+.. figure:: ../../media/screenshots/oxbact01.png
+   :alt: Products – Rights tab
    :width: 650
+   :class: with-shadow
 
-On the one hand, the exclusive right means that only users who belong to the assigned user groups will be able to see the product after logging into the shop. All other users and user groups will never be able to see this product. On the other hand, if user groups have been assigned as exclusively buyable, unauthorised users won’t be able to add the product to the shopping cart. By clicking on :guilabel:`More information`, they will only be able to open the product’s details page from the product overview. The :guilabel:`To cart` button won’t be displayed there either unless the customer is logged in to the shop and belongs to the authorised user group.
+   Fig.: Products – Rights tab
 
-Click on :guilabel:`Assign User Groups (Exclusively visible)` or :guilabel:`Assign User Groups (Exclusively buyable)` to assign user groups to a product. This opens an assignment window where you can select products from the :guilabel:`All User Groups` list.
+|background|
 
-.. image:: ../../media/screenshots/oxbact02.png
-   :alt: Assign User Groups (Exclusively visible)
-   :height: 311
-   :width: 400
+Exclusive visibility means: Only customers who belong to the assigned user groups will see the product after logging in. The product remains invisible to all other users and groups.
 
-User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.
+Exclusive purchasing rights go one step further. If the customer is not part of an authorised user group, they won’t be able to place the product in the cart. The button :guilabel:`More information` will still be available to access the product details page. However, the button :guilabel:`To cart` will be missing – even on the product page.
+
+This restriction remains in place until the customer logs in and belongs to a group with appropriate rights. For more information, see :ref:`configuration/rights-and-roles:Restricting Purchase of Articles and Categories`.
+
+|prerequisites|
+
+To assign a user group, you have created it already.
+
+To create new user groups, choose :menuselection:`Administer Users --> User Groups`.
+
+|procedure|
+
+1. Go to :menuselection:`Administer Products --> Products` in the Admin panel.
+2. Select the desired product from the product list.
+3. Open the :guilabel:`Rights` tab.
+4. Click one of the following buttons depending on the type of restriction:
+
+   * :guilabel:`Assign User Groups (Exclusively visible)`
+   * :guilabel:`Assign User Groups (Exclusively buyable)`
+
+5. In the assignment window, select the required user groups from the :guilabel:`All User Groups` list.
+
+   .. figure:: ../../media/screenshots/oxbact02.png
+      :alt: Assigning User Groups (Exclusively visible)
+      :width: 400
+      :class: with-shadow
+
+      Fig.: Assigning User Groups (Exclusively visible)
+
+6. Filter or sort the list of groups by title, if necessary.
+7. Drag and drop the selected user groups into the right-hand list.
+
+   Hold down the Ctrl key to select multiple groups.
+8. Close the window to complete the assignment.
+
+
+|result|
+
+Once saved, the product becomes visible or buyable only to the assigned user groups – depending on the settings. Other customers will no longer see the product or be able to purchase it.
 
 .. seealso:: :doc:`Rights and roles <../../configuration/rights-and-roles>`
 
 .. Intern: oxbact, Status:, F1: article_rights.html
+

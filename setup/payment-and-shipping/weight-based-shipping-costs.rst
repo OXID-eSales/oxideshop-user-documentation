@@ -1,68 +1,90 @@
-﻿Weight-based shipping costs
-===========================
+﻿Defining weight-based shipping costs
+====================================
 
-OXID eShop can be set up to take the weight of the products into account when calculating the shipping costs.
+Take the weight of the products into account when calculating shipping costs.
 
-To do this, you will need to use the shipping rules with the weight of the products as a condition. The customer selects a shipping method in the ordering process. All shipping costs that belong to this shipping method will be processed. The system will check whether the specified condition (weight) is met in terms of the total weight of the products in the shopping cart. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
+To do this, create shipping cost rules where the condition is based on the product weight.
 
-In order for weight-based shipping costs to work, you will need to enter the weight for the products. This also means that the weight will be displayed on the details page below the product price.
+During the ordering process, the customer selects a shipping method. All shipping cost rules associated with this method will be processed.
 
-Defining the weight of a product in the product management section
+The system checks whether the defined condition (weight) is met with regard to the total weight of the products in the shopping cart. The shipping cost rule is applied only if the condition is satisfied.
 
-* Go to :menuselection:`Administer Products --> Products`.
-* Select the desired product from the product list.
-* Enter the weight in the :guilabel:`Extended` tab.
-* Save the changes.
+Procedure
+---------
 
-Defining the weight as a condition in shipping cost rules
+1. Define the weight of a product.
 
-* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
-* Select the desired shipping cost rule from the list.
-* Find the :guilabel:`Condition` field in the :guilabel:`Main` tab.
-* Select “Weight” and enter the values for :guilabel:`=\>` and :guilabel:`\<=`.
-* Configure all other settings of the shipping cost rule.
-* Save the changes.
+   a. Go to :menuselection:`Administer Products --> Products`.
+   #. Select the desired product from the product list.
+   #. In the :guilabel:`Extended` tab, enter the weight.
 
-The shipping cost rule is assigned to a shipping method.
+      Once the product weight is entered, it will be displayed on the product detail page below the product price.
 
-* Go to :menuselection:`Shop Settings --> :guilabel:`Shipping Methods``.
-* Select the desired shipping method from the list.
-* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
-* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
-* Close the assignment window.
+   #. Save your settings.
 
-.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
+#. Define the weight as a condition in a shipping cost rule.
+
+   a. Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+   #. Select the shipping cost rule from the list of available rules.
+
+      In the :guilabel:`Main` tab, you'll find the dropdown list :guilabel:`Condition`.
+
+   #. Select the condition "Weight" and enter values for :guilabel:`=\>` and :guilabel:`\<=`.
+   #. Complete the remaining settings for the shipping cost rule.
+   #. Save your settings.
+
+3. Assign the shipping cost rule to a shipping method.
+
+   a. Go to :menuselection:`Shop Settings --> Shipping Methods`.
+   #. Select the desired shipping method from the list.
+   #. In the :guilabel:`Main` tab, click the :guilabel:`Assign Shipping Cost Rules` button.
+   #. Drag & drop the shipping cost rule into the right-hand list in the assignment window.
+   #. Close the assignment window.
 
 Example
---------
-Using one product and two shipping rules as an example of weight-based shipping costs. You will need a product with the weight of 2 kg. Enter 2 kg as the product weight in the :guilabel:`Extended` tab of the product’s management section.
+-------
 
-.. image:: ../../media/screenshots/oxbafv01.png
-   :alt: Product with the weight of 2 kg
-   :height: 343
-   :width: 650
+In our example, we assume a product with a weight of 2 kg.
 
-Create two shipping rules with the weight as the condition. One is for products in the cart with total weight under 3 kg that will be shipped for €3.90, and the other one is for products with bigger weight and shipping costs of €5.50. The shipping cost rules for the calculation are defined so that they take place only once per shopping cart. The assignment of countries is optional. Make sure to activate the shipping cost rule.
+|procedure|
 
-.. image:: ../../media/screenshots/oxbafv02.png
-   :alt: Shipping cost rule starting from 3 kg total weight
-   :height: 343
-   :width: 650
+1. In the :guilabel:`Extended` tab of the product management section (:ref:`oxbafv01`), enter a weight of 2 kilograms for the product.
 
-Assign shipping cost rules to a shipping method. If the customer selects this shipping method when purchasing a product, all associated shipping cost rules will be checked. If there is one product with the weight of 2 kg in the shopping cart, the first shipping cost rule will apply.
+   .. _oxbafv01:
 
-.. image:: ../../media/screenshots/oxbafv03.png
-   :alt: Shopping cart with 1 product
-   :height: 245
-   :width: 550
+   .. figure:: ../../media/screenshots/oxbafv01.png
+      :alt: Example: Product with 2 kg weight
+      :width: 650
+      :class: with-shadow
 
-If there are two or more products weighing 2 kg each in the shopping cart, the second shipping cost rule will apply to the calculation of shipping costs.
+      Fig.: Example: Product with 2 kg weight
 
-.. image:: ../../media/screenshots/oxbafv04.png
-   :alt: Shopping cart with 2 products
-   :height: 246
-   :width: 550
+#. Create two shipping cost rules with weight as the condition:
+
+   * The first applies to carts with a total weight under 3 kg, and charges €3.90.
+   * The second applies to heavier carts and charges €5.50 (:ref:`oxbafv02`).
+
+   Define the shipping cost rules to apply only once per cart.
+
+   Assigning countries is optional.
+
+   .. _oxbafv02:
+
+   .. figure:: ../../media/screenshots/oxbafv02.png
+      :alt: Example: Shipping cost rule for total weight from 3 kg
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Example: Shipping cost rule for total weight from 3 kg
+
+#. Assign the shipping cost rules to a shipping method.
+
+|result|
+
+If the customer selects this shipping method during purchase, all related shipping cost rules will be evaluated.
+
+* If the cart contains one item weighing 2 kg, the first rule applies.
+* If the cart contains two or more items each weighing 2 kg, the second rule applies.
 
 .. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | :doc:`Shipping cost rules - Main tab <../shipping-cost-rules/main-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
 
-.. Intern: oxbafv, Status:
