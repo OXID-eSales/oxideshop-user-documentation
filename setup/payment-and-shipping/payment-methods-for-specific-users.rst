@@ -1,34 +1,55 @@
-﻿Payment methods for specific users
-==================================
+﻿Defining payment methods for specific users
+===========================================
 
-Shop owners have to make a fundamental decision about which payment methods their customers can use. They need to decide for which customers it is acceptable to ship the products before receiving the payment and for which customers such advanced shipping is not efficient. For example, payment against invoice is very popular with customers since it allows them to look at the products or try them out before paying. However, for shop owners, this means an increased risk because not all customers pay their bill on time or at all.
+As a shop owner, you make a fundamental decision about which payment methods to offer your customers.
 
-OXID eShop allows you to offer payment methods only for specific users in two different ways. One of these is the credit rating that can be stored for payment methods. This setting ensures that the payment method in the ordering process will only be displayed to customers whose credit rating is greater or equal to the credit rating of the payment method. This option can be very time-consuming because the credit rating will need to be defined and kept up to date for each individual user.
+Decide for which customers it is acceptable to ship goods before receiving payment—and for which customers such advance delivery is not appropriate.
 
-The required credit rating for the payment method is defined.
+Payment by invoice is very popular with customers, as it allows them to inspect or test the goods before paying. However, this creates a risk for shop owners: not every customer pays their invoice on time—or at all.
 
-* Go to :menuselection:`Shop Settings --> Payment Methods`.
-* Select the desired payment method from the list.
-* Enter the required credit rating in the :guilabel:`Main` tab.
-* Save the settings.
+In OXID eShop, you can restrict payment methods to specific users in two ways:
 
-The credit rating must be defined for each individual user.
+* Assign a credit rating to the payment method
+* Assign the payment method to a user group
 
-* Go to :menuselection:`Administer Users --> Users`.
-* Select the desired user from the user list.
-* Enter a value in the :guilabel:`Credit Rating` field in the :guilabel:`Extended` tab.
-* Save the settings.
+Assigning a credit rating to a payment method
+---------------------------------------------
 
-The second option for customer-related payment methods in the ordering process is to assign user groups to payment methods. For example, you can specify that only the “Retailer” user group can use payment against invoice as the payment method.
+One option is to assign a required credit rating to the payment method.
 
-Assigning user groups to a payment method
+This setting ensures that only customers whose credit rating is greater than or equal to the defined value will see the payment method during checkout.
 
-* Go to :menuselection:`Shop Settings --> Payment Methods`.
-* Select the desired payment method from the list.
-* Click on :guilabel:`Assign User Groups` in the :guilabel:`Main` tab.
-* Drag and drop the user group into the right-hand list of the assignment window.
-* Close the assignment window.
+Keep in mind: this approach can be time-consuming, as each user's credit rating must be individually defined and maintained.
 
-.. seealso:: :doc:`Payment methods - Main tab <../payment-methods/main-tab>` | :doc:`Users - Extended tab <../../operation/users/extended-tab>`
+1. Define the required credit rating for the payment method.
+
+   a. Go to :menuselection:`Shop Settings --> Payment Methods`.
+   #. Select the desired payment method from the list.
+   #. In the :guilabel:`Main` tab, enter a credit rating value.
+   #. Save your changes.
+
+2. Assign a credit rating to each individual user.
+
+   a. Go to :menuselection:`Administer Users --> Users`.
+   #. Select the desired user from the list.
+   #. In the :guilabel:`Extended` tab, enter a value in the :guilabel:`Credit Rating` field.
+   #. Save your changes.
+
+Assigning payment methods to user groups
+----------------------------------------
+
+The second option is to assign payment methods to specific user groups.
+
+For example, you can allow payment by invoice only for the user group "Retailers".
+
+|procedure|
+
+1. Go to :menuselection:`Shop Settings --> Payment Methods`.
+#. Select the desired payment method from the list.
+#. In the :guilabel:`Main` tab, click :guilabel:`Assign User Groups`.
+#. Drag and drop the user group into the right-hand list of the assignment window.
+#. Close the assignment window.
+
+.. seealso:: :doc:`Payment Methods - Main tab <../payment-methods/main-tab>` | :doc:`Users - Extended tab <../../operation/users/extended-tab>`
 
 .. Intern: oxbafu, Status:

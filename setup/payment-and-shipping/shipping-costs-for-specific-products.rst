@@ -1,60 +1,47 @@
-﻿Shipping costs for specific products
-====================================
+﻿Defining individual shipping costs for specific products
+========================================================
 
-Each online shop usually has a catalogue of various products. Some products may have significantly higher shipping costs because they can only be shipped under special conditions, such as bulky goods. Shipping can therefore be set up in such a way that a surcharge is added to the standard shipping costs if the customer adds certain products to the shopping cart. This can be represented by shipping cost rules that relate to specific products.
+Most online shops offer a wide product range. Some items incur significantly higher shipping costs—for example, if they must be shipped as bulky goods or under special conditions.
 
-The customer selects a shipping method in the ordering process. All shipping costs that belong to this shipping method will be processed. The system will check whether the specified condition (the assigned product) is met in terms of the products in the shopping cart. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
+Configure shipping so that a surcharge is added to the standard shipping costs whenever specific products are placed in the shopping cart. You can achieve this by creating shipping cost rules and assigning them to the relevant products.
 
-All products are defined as a condition in the shipping cost rules.
+During the checkout process, the customer selects a shipping method. The shop processes all shipping cost rules assigned to this method. It checks whether the defined condition (assigned products) applies to the items in the cart. The rule will only be applied to the shipping calculation if the condition is met.
 
-* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
-* Select the desired shipping cost rule from the list.
-* Click on :guilabel:`Assign Products` in the :guilabel:`Products` tab.
-* Drag and drop the products into the right-hand list of the assignment window.
-* Close the assignment window.
-* Enter a surcharge in the :guilabel:`Main` tab.
-* Configure all other settings of the shipping cost rule.
-* Save the changes.
+Procedure
+---------
 
-The shipping cost rule is assigned to a shipping method.
+1. Define the products as a condition in the shipping cost rule.
 
-* Go to :menuselection:`Shop Settings --> Shipping Methods`.
-* Select the desired shipping method from the list.
-* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
-* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
-* Close the assignment window.
+   a. Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+   #. Select the relevant rule from the list of shipping cost rules.
+   #. In the :guilabel:`Products` tab, click :guilabel:`Assign Products`.
+   #. Use drag & drop to move the products into the right-hand list of the assignment window.
+   #. Close the assignment window.
+   #. In the :guilabel:`Main` tab, define a shipping surcharge.
+   #. Complete the remaining settings of the shipping cost rule.
+   #. Save your changes.
 
-.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
+2. Assign the shipping cost rule to a shipping method.
+
+   .. hint::
+      You must assign at least one shipping cost rule and one payment method to the shipping method.
+      For consistency, assign countries as well. If no countries are assigned, the shipping method will apply globally.
+
+   a. Go to :menuselection:`Shop Settings --> Shipping Methods`.
+   #. Select the desired shipping method from the list.
+   #. In the :guilabel:`Main` tab, click :guilabel:`Assign Shipping Cost Rules`.
+   #. Use drag & drop to move the shipping cost rule into the right-hand list.
+   #. Close the assignment window.
 
 Example
---------
-Using two shipping cost rules to calculate higher shipping costs once certain products are added to the shopping cart. Set “Quantity” as a condition for both shipping cost rules and specify a quantity range of 1 to 99999999. This ensures that the condition will always apply. The calculation takes place once per cart. The assignment of countries is optional. Make sure to activate the shipping cost rule.
+-------
 
-The first shipping cost rule with €5.99 shipping costs will apply to all products, and the second one with a surcharge of €22.50 to all wakeboards that must be shipped as bulky goods because of their length.
+Proceed in the same way as with product categories.
 
-.. image:: ../../media/screenshots/oxbafy01.png
-   :alt: Shipping costs DHL GoGreen, bulky goods: +22.50 euros
-   :height: 343
-   :width: 650
+For details, see :ref:`setup/payment-and-shipping/shipping-costs-for-products-from-specific-categories:Example: Categories and shipping cost rules in the demo shop`.
 
-Three wakeboards have been assigned to the shipping cost rule shown in the screenshot. Both shipping rules belong to the \"DHL GoGreen\" shipping method. If the customer selects this shipping method when placing an order, both shipping cost rules will be checked.
-
-If the shopping cart contains a product that is not a wakeboard, the first shipping cost rule will apply. The shipping will cost €5.99.
-
-.. image:: ../../media/screenshots/oxbafy02.png
-   :alt: Shopping cart with a wakeboard binding
-   :height: 262
-   :width: 550
-
-If the customer adds a wakeboard to the shopping cart, the second shipping cost rule will also apply. The total shipping costs will be €28.49.
-
-.. image:: ../../media/screenshots/oxbafy03.png
-   :alt: Shopping cart with wakeboard and binding
-   :height: 312
-   :width: 550
-
-The shipping of a single wakeboard will also cost €28.49 because both shipping cost rules - those applying to all products and those applying to the wakeboard - will apply.
-
-.. seealso:: :doc:`Shipping cost rules - Products tab <../shipping-cost-rules/products-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
+.. seealso::
+   :doc:`Shipping Cost Rules – Products tab <../shipping-cost-rules/products-tab>` |
+   :doc:`Shipping Methods – Main tab <../shipping-methods/main-tab>`
 
 .. Intern: oxbafy, Status:

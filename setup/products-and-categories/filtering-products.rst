@@ -1,45 +1,91 @@
-﻿Filtering products
+﻿Filtering Products
 ==================
 
-The products of a category can be filtered. By using this feature, you can allow your online shop visitors to limit the display of products in a category according to specific product characteristics. This is done with the help of attributes that must be assigned to the category. In addition, attributes including their values must also be assigned to the products in the category. OXID eShop comes with a number of attributes, such as colour, size or material. You can also create new attributes that represent special product characteristics.
+Allow visitors of your online store to filter the products in a category by specific product characteristics (:ref:`oxbafr03`, item 1).
 
-Assigning an existing attribute to a category
+You can use standard attributes (such as colour, size, or material) or create your own custom attributes.
 
-* Go to :menuselection:`Administer Products --> Attributes`.
-* Select the desired attribute from the attribute list.
-* Click on :guilabel:`Assign Categories` in the :guilabel:`Category` tab.
-* Specify a category that should use the attribute.
-* Drag and drop the category into the right-hand list of the assignment window.
-* Repeat as necessary for other categories.
-* Close the assignment window.
+|procedure|
 
-.. image:: ../../media/screenshots/oxbafr01.png
-   :alt: Attribute filter in the category view
-   :height: 324
-   :width: 400
+1. Optional: Create custom filter attributes.
 
-In order for the attribute filter to be displayed in the category view, the attribute must also be assigned to the products of the respective category. If the category has multiple attributes, it can be filtered by several products. Attributes only filter the category to which they have been assigned, but not its subcategories.
+   Example: You sell handbags and want to filter them by the attribute ``Lining Material``.
 
-Assigning an attribute to a product
+   a. Choose :menuselection:`Administer Products --> Attributes`.
+   #. Select :guilabel:`Create new attribute`.
+   #. Save your changes.
 
-* Go to :menuselection:`Administer Products --> Products`.
-* Select the desired product from the product list.
-* Click on :guilabel:`Assign Attributes` in the :guilabel:`Selection` tab.
-* Drag and drop the attribute into the right-hand list of the assignment window.
-* Highlight the attribute in the right-hand list.
-* Assign a value for this product to the attribute.
-* Repeat the steps as necessary for other attributes.
-* Close the assignment window.
+2. Assign the attribute to a category.
 
-The individual values that are assigned to products for this attribute represent the filter options in the category view. If products don’t use the attribute, they will always be displayed even if filtered by the attribute. In addition, a new :guilabel:`SPECIFICATION` tab with product’s attributes and their values will be displayed on the product’s details page.
+   a. Choose :menuselection:`Administer Products --> Attributes`.
+   #. Select the desired attribute from the attribute list.
+   #. In the :guilabel:`Categories` tab, click on :guilabel:`Assign Categories`.
+   #. To assign a category that should use the attribute, drag and drop it into the right-hand list of the assignment window (:ref:`oxbafr01`).
+   #. Optional: Repeat this step for additional categories.
+   #. Close the assignment window.
 
-.. image:: ../../media/screenshots/oxbafr02.png
-   :alt: Attribute filter in the category view
-   :height: 123
+   .. _oxbafr01:
+
+   .. figure:: ../../media/screenshots/oxbafr01.png
+      :alt: Assigning filter attributes to categories
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Assigning filter attributes to categories
+
+3. To display the attribute filter in the category view, assign the attribute to the products of that category.
+
+   If a category has several attributes assigned, its products can be filtered by multiple characteristics.
+
+   Attributes only apply to the categories they are assigned to — not automatically to their subcategories.
+
+   a. Choose :menuselection:`Administer Products --> Products`.
+   #. Select the category, e.g. "Handbags".
+   #. Choose the first product from the list.
+   #. In the :guilabel:`Selection` tab, click on :guilabel:`Assign Attributes`.
+   #. Move the attribute to the right-hand list of the assignment window.
+   #. Choose the attribute in the right-hand list.
+   #. Enter a value for the attribute for this product (:ref:`oxbafr02`, item 1), then click :guilabel:`Save`.
+   #. Optional: Repeat these steps for other attributes.
+   #. Close the assignment window.
+   #. Repeat the process for the remaining products in the category.
+
+   .. _oxbafr02:
+
+   .. figure:: ../../media/screenshots/oxbafr02.png
+      :alt: Assigning filter attributes to products
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Assigning filter attributes to products
+
+|result|
+
+The values assigned to products for this attribute are shown as filter options in the category view (:ref:`oxbafr03`, item 1).
+
+Products without this attribute are always shown, regardless of the selected filter.
+
+.. _oxbafr03:
+
+.. figure:: ../../media/screenshots/oxbafr03.png
+   :alt: Filtering products in the category view
    :width: 650
+   :class: with-shadow
 
-The screenshot in the example shows that the category with the shirts can be sorted by the product’s material. Cotton and Stretch Jersey are the available filters to limit the number of products shown.
+   Fig.: Filtering products in the category view
 
-.. seealso:: :doc:`Attributes - Category tab <../attributes/category-tab>` | :doc:`Products - Selection tab <../products/selection-tab>`
+If attributes and their values have been assigned, the :guilabel:`Specification` tab is displayed on the product details page. It lists the product’s attributes and their assigned values (:ref:`oxbafr04`, item 1).
+
+.. _oxbafr04:
+
+.. figure:: ../../media/screenshots/oxbafr04.png
+   :alt: Showing product attributes in the Specification tab
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Showing product attributes in the Specification tab
+
+.. seealso:: :doc:`Attributes – Categories tab <../attributes/category-tab>` | :doc:`Products – Selection tab <../products/selection-tab>`
 
 .. Intern: oxbafr, Status:
+

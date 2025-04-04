@@ -5,7 +5,7 @@ OXID eShop has an integrated stock management system that shows the availability
 
 .. image:: ../../media/screenshots/oxback01.png
    :alt: Products - Stock tab
-   :height: 343
+   :class: with-shadow
    :width: 650
 
 To use :doc:`Stock Management<../../configuration/stock-management>`, you will need to first activate and configure this feature in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Stock`.
