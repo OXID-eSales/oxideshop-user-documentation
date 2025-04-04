@@ -1,31 +1,55 @@
-﻿Main category of a product
-==========================
+﻿Defining the main category of a product
+=======================================
 
-A product can be assigned to any number of categories. In this case, one of the categories must be defined as the main category. This is necessary to allow the shop to decide in certain situations, in which category the product should be displayed. For example, if the customer accesses a product via the shop’s search or using the tags, it will be displayed in the defined main category.
+Assign a product to more than one category if needed. In this case, make sure to define one of them as the main category.
 
-The so-called duplicate content is also important. A product that appears in multiple categories has multiple URLs. These point to the product’s details page and would therefore present identical content. Search engines like Google, Bing and Yahoo! want to list search results for their users without any redundancies. The solution is canonical tags or canonical links that refer to the original page if the content is the same. In OXID eShop, this is the product’s details page with the main category in the URL.
+|background|
 
-In OXID eShop, canonical tags are also set for just one category. If no main category has been defined, the category to which the product was assigned first will be used.
+Setting a main category is important for the following reasons:
 
-Example from the page source text of a product in a demo shop:
+* OXID eShop uses the main category in specific contexts to determine where to display the product.
 
-``\<link rel=\"canonical\"href=\"http://demoshop.oxid-esales.com/pe/Kiteboarding/Trapeze/Trapez-ION-MADTRIXX.html\"\>``
+  For example, if a customer finds a product via the shop’s search or through tags, the product will be shown in the defined main category.
 
-Setting the main category of a product
+* You avoid what is known as duplicate content.
 
-* Go to :menuselection:`Administer Products --> Products`.
-* Select the desired product from the product list.
-* Click on :guilabel:`Assign Categories` in the :guilabel:`Extended` tab.
-* Specify the main category if the product appears in multiple categories.
-* To do this, highlight the required category in the right-hand list.
-* Click on :guilabel:`Set as Main Category`.
-* Close the assignment window.
+  A product assigned to multiple categories has multiple URLs pointing to the same details page. This means the same content is accessible through different URLs, which search engines like Google, Bing or Yahoo! typically penalise in ranking.
 
-.. image:: ../../media/screenshots/oxbafp01.png
-   :alt: Setting as main category
-   :height: 315
-   :width: 400
+  The solution is to use canonical tags (also known as canonical links), which identify the original version of a page with identical content. In OXID eShop, the canonical tag points to the product’s details page with the main category in the URL.
+
+  Canonical tags are always automatically set in OXID eShop—even if a product is only assigned to a single category.
+
+  If no main category is explicitly defined, the shop will use the first assigned category as the main category.
+
+|procedure|
+
+To set the main category for a product, proceed as follows:
+
+1. Go to :menuselection:`Administer Products --> Products`.
+#. Select the desired product from the product list.
+#. Open the :guilabel:`Extended` tab and click on :guilabel:`Assign Categories`.
+#. Highlight the category that should be used as the main category.
+#. Click on :guilabel:`Set as Main Category` (:ref:`oxbafp01`, Pos. 1 – in our example, we assign the umbrella to "Accessories" as its main category).
+#. Close the assignment window.
+
+.. _oxbafp01:
+
+.. figure:: ../../media/screenshots/oxbafp01.png
+   :alt: Setting the main category
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Setting the main category
+
+|result|
+
+In our example, the canonical tag in the page source of the product details page for the umbrella includes the "Accessories" category:
+
+``<link rel="canonical" href="http://myshop.com/en/Spare-parts/Accessories/Royal.html">``
 
 .. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | `Canonical link <https://en.wikipedia.org/wiki/Canonical_link_element>`_ (Wikipedia)
+
+.. Intern: oxbafp, Status:
+
 
 .. Intern: oxbafp, Status:

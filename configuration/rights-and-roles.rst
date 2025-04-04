@@ -1,86 +1,279 @@
-﻿Rights and roles
+﻿Rights and Roles
 ================
 
-One of the features of Enterprise Edition is rights and roles management. Rights and roles allow you to control access to the elements to be displayed and available functions of OXID eShop for individual users and user groups.
+A feature of the Enterprise Edition is the rights and roles management.
 
-There is a distinction between the rights and the roles for the actual shop, here also referred to as front end, and the Admin panel, the so-called back end. In this document, front and back end are used as terms to clarify the various aspects of rights and roles management.
+Use rights and roles to control access to visible elements and available functions of the OXID eShop for individual users and user groups.
 
-Rights regulate access to certain functions, such as access to products and categories or the display of certain areas of the product’s details page. Multiple rights can be grouped together in roles and assigned to users and user groups.
+We distinguish between rights and roles for the actual shop (:emphasis:`frontend`) and the administration area (:emphasis:`backend`).
 
-The rights and roles management can be activated in the configuration file :file:`config.inc.php` via the setting ``$this->blUseRightsRoles = 3``.
+A :emphasis:`right` governs access to specific functions, such as articles and categories or the display of certain sections of an article’s detail page.
 
-Rights and roles for the shop (front end)
------------------------------------------
-Different permissions can be granted for the shop. This can be defined in the products’ and categories’ management section in the Admin panel as well as under :menuselection:`Administer Users --> Shop Roles`.
+:emphasis:`Roles` combine multiple rights and are assigned to users and user groups.
 
-Displaying products and categories
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-You can choose to allow only certain user groups to see selected products and categories. This can be defined in the :guilabel:`Rights` tab of products and categories by assigning one or more user groups. This is an exclusive right. This means that only users who belong to the assigned user groups will be able to see the respective products and categories after logging into the shop. All other users and user groups will never be able to see these parts of the product catalogue.
+Defining the Scope of Rights and Roles
+--------------------------------------
 
-Buying products and categories
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-You can also define specific user groups that will be able to buy certain products and categories. This can also be done by assigning the respective user groups in the :guilabel:`Rights` tab of products or categories. The screenshot shows that unauthorised users don’t have the option of adding, for example, kites to the shopping cart in the product overview. By clicking on :guilabel:`More information`, they can only open the product’s details page.
+Restrict the scope of rights and roles management as needed.
 
-.. image:: ../media/screenshots/oxbaev01.png
-   :alt: Product overview (rights and roles)
-   :height: 363
-   :width: 650
+By default, no restrictions are enabled (``$this->blUseRightsRoles = 3``).
 
-The :guilabel:`To cart` button also doesn’t display in the detailed view, as long as the customer is not logged in to the shop and belongs to the authorised user group.
+|procedure|
 
-.. image:: ../media/screenshots/oxbaev02.png
-   :alt: Product detailed view (rights and roles)
-   :height: 284
-   :width: 650
+1. Open the configuration file :file:`config.inc.php`.
+#. Configure the ``$this->blUseRightsRoles`` parameter.
 
-Access to functions and areas of the details page
+   You have the following options:
+
+   * 0 – Rights management disabled
+   * 1 – Backend only
+   * 2 – Frontend only
+   * 3 – Backend and frontend
+
+Assigning Rights and Roles for the Shop (Frontend)
+--------------------------------------------------
+
+Assign different permissions for the shop.
+
+Define the permissions in the administration area:
+
+* in the article and category management
+
+  as well as
+
+* under :menuselection:`Users --> Manage Users --> Shop Roles`
+
+.. important::
+
+  **Principle of Selective Rights Restriction**
+
+  By default, all visitors to your OXID eShop have full access.
+
+  A right is only restricted once at least one role explicitly includes that right, and at least one user group is assigned to that role.
+
+  The assigned user group does not have to contain any users. For example, you could create a user group *Vollzugriff* and assign it to the corresponding role *Vollzugriff*, in which all rights are activated.
+
+  In the first step, all rights are restricted and can then be selectively re-enabled for specific user groups via appropriate roles.
+
+Restricting Visibility of Articles and Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Rights and roles can also be assigned for the entire product catalogue. The shop comes with the following rights that can be combined into roles and assigned to the desired user groups:
 
-* Add product to shopping cart (TOBASKET)
-* Show product price (SHOWARTICLEPRICE)
-* Show product’s short description (SHOWSHORTDESCRIPTION)
-* Show product’s long description (SHOWLONGDESCRIPTION)
+.. todo: #SB: What is the typical use case?
 
-These rights and roles can be defined under :menuselection:`Administer Users --> Shop Roles`. You can combine different rights combinations in roles and assign them to user groups. Once a right has been granted for one user group, this right will no longer apply to all other user groups.
+Define that only specific user groups are allowed to :emphasis:`view` certain articles and categories.
 
-.. hint:: Initially all users have all rights. A right is first restricted as soon as a minimum of one role gets this right activated explicitly and this role has at least one usergroup assigned. This usergroup does not need any users attached. Therefore you may create a usergroup *Full Access* that is related to the matching role *Full Access*, which has all rights set to active. Then all users get restricted in the first step and in the second step you can grant rights to other specific usergroups by adding matching roles.
+|procedure|
 
-You can also define your own rights based on view classes and their methods. Rights-based display can be implemented in templates using an assigned ident.
+1. Under :guilabel:`Manage Products`, choose the desired article or category.
+#. Choose the :guilabel:`Rights` tab.
+#. Choose the :guilabel:`Assign user groups (Visible to selected only)` button (:ref:`oxbaev03`, Pos. 1) and assign the desired user groups (:ref:`oxbaev03`, Pos. 3).
 
-.. image:: ../media/screenshots/oxbaev03.png
-   :alt: Rights for detailed view (rights and roles)
-   :height: 188
-   :width: 387
+.. _oxbaev03:
 
-As you can see in the screenshot, prices are not displayed for unauthorised users on the details page and in the product overview.
-
-.. image:: ../media/screenshots/oxbaev04.png
-   :alt: Product detailed view (rights and roles)
-   :height: 285
+.. figure:: ../media/screenshots/oxbaev03.png
+   :alt: Restricting article/category visibility or purchase
    :width: 650
+   :class: with-shadow
 
-Rights and roles for the Admin panel (back end)
------------------------------------------------
-Roles can also be defined for the Admin panel to represent the various responsibilities in the administration of OXID eShop.
+   Fig.: Restricting article/category visibility or purchase
 
-Access to menus, submenus and tabs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The roles allow you to define access to menus and submenus of the navigation panel as well as to individual tabs of the input area. This will give each editor his/her own custom Admin panel. These rights and roles can be defined and assigned to the respective users under :menuselection:`Administer Users --> Admin Roles`.
+|result|
 
-.. image:: ../media/screenshots/oxbaev05.png
-   :alt: Access in the Admin panel
-   :height: 343
+Only users who belong to the assigned user groups will be able to view the respective articles and categories after logging into the shop.
+
+These parts of the catalog will not be visible to all other users and user groups.
+
+Restricting Purchase of Articles and Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #SB: What is the typical use case?
+
+Define that specific articles and categories are only purchasable by certain user groups.
+
+|procedure|
+
+1. Under :guilabel:`Manage Products`, choose the desired article or category.
+#. Choose the :guilabel:`Rights` tab.
+#. Choose the :guilabel:`Assign user groups (Purchasable by selected only)` button (:ref:`oxbaev03`, Pos. 2) and assign the desired user groups (:ref:`oxbaev03`, Pos. 3).
+
+|result|
+
+For users without the required permissions, the :guilabel:`To Cart` button is :emphasis:`not shown` in the article list (:ref:`oxbaev01`, Pos. 2).
+
+With the :guilabel:`Details` button (:ref:`oxbaev01`, Pos. 1), these users can only view the article detail page.
+
+.. _oxbaev01:
+
+.. figure:: ../media/screenshots/oxbaev01.png
+   :alt: Article list with and without add-to-cart button
    :width: 650
+   :class: with-shadow
 
-Access to products and categories
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The rights can be defined very differently for the editing of products and categories. For example, they regulate the creation, modification and deletion of products and categories as a whole and, if necessary, access to each control element (field, check box, or option) of the respective input area.
+   Fig.: Article list with and without add-to-cart button
 
-.. image:: ../media/screenshots/oxbaev06.png
-   :alt: Access in the Admin panel
-   :height: 343
+The :guilabel:`To Cart` button is also missing in the detail view if the user is not logged in or does not belong to the authorized user group (:ref:`oxbaev02`).
+
+.. _oxbaev02:
+
+.. figure:: ../media/screenshots/oxbaev02.png
+   :alt: Article detail page without add-to-cart button
    :width: 650
+   :class: with-shadow
+
+   Fig.: Article detail page without add-to-cart button
+
+Controlling Access to Functions and Sections of the Detail Page
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Assign rights and roles that apply to the entire product catalog.
+
+The shop is delivered with the following rights for the frontend, which can be combined into roles and assigned to specific user groups (:ref:`oxbaev10`, Pos. 1):
+
+* Add articles to the cart (:code:`TOBASKET`)
+* Show article price (:code:`SHOWARTICLEPRICE`)
+* Show short description of the article (:code:`SHOWSHORTDESCRIPTION`)
+* Show long description of the article (:code:`SHOWLONGDESCRIPTION`)
+
+In this example, you decide to hide the :guilabel:`To Cart` button for users who are not logged in ("guests").
+
+|procedure|
+
+1. Create a role that you will later assign to all user groups.
+
+   Background: User groups contain users. Users are visitors to your OXID eShop who have an email address and use it to log in.
+
+   All other visitors to your OXID eShop are guests. Guests differ from users in that they do not log in.
+
+   a. Choose :menuselection:`Users --> Manage Users --> Shop Roles`
+   #. In the :guilabel:`Title` field, enter the name of the role, for example :technicalname:`angemeldet`, check :guilabel:`Active`, and save.
+
+      .. _oxbaev10:
+
+      .. figure:: ../media/screenshots/oxbaev10.png
+         :alt: Creating a new role
+         :width: 650
+         :class: with-shadow
+
+         Fig.: Creating a new role
+
+      So-called ident parameters are displayed (:ref:`oxbaev10`, Pos. 1).
+
+   #. Choose the ident parameter you want to control.
+
+      In this example, you want the cart button to be shown to logged-in users, but hidden from guests (non-logged-in users).
+
+      Therefore, check the box for :guilabel:`TOBASKET (tobasket;basket)` (:ref:`oxbaev10`, Pos. 2), and save your settings.
+
+      The result of this configuration:
+
+      The user groups to which the role :technicalname:`angemeldet` is assigned will have the right :technicalname:`TOBASKET`. For them, the :guilabel:`To Cart` button is visible.
+
+      For all other user groups, the right :technicalname:`TOBASKET` is disabled.
+
+      General rule: All rights apply by default unless they are restricted.
+
+      In this example, the ident parameters that control the long and short descriptions and the price (:ref:`oxbaev10`, Pos. 3) are not explicitly assigned to any role, so they apply to all users, including guests.
+
+#. To apply your settings, assign user groups to the role.
+
+   a. On the :guilabel:`Users` tab, choose the button :guilabel:`Assign user groups`.
+   #. In this example, assign :emphasis:`all` user groups (:ref:`oxbaev11`).
+
+      Background: Guests are not users and are therefore not included in any user group.
+
+      .. _oxbaev11:
+
+      .. figure:: ../media/screenshots/oxbaev11.png
+         :alt: Assigning user groups to a role
+         :width: 650
+         :class: with-shadow
+
+         Fig.: Assigning user groups to a role
+
+|result|
+
+Check the result by viewing a product in your OXID eShop.
+
+   * Logged-in users will see the :guilabel:`To Cart` button (:ref:`oxbaev12`, Pos. 1).
+
+     .. _oxbaev12:
+
+     .. figure:: ../media/screenshots/oxbaev12.png
+        :alt: Cart button for logged-in users
+        :width: 650
+        :class: with-shadow
+
+        Fig.: Cart button for logged-in users
+
+   * Guests (not logged-in visitors) will not see the :guilabel:`To Cart` button (:ref:`oxbaev13`).
+
+     .. _oxbaev13:
+
+     .. figure:: ../media/screenshots/oxbaev13.png
+        :alt: No cart button for guests
+        :width: 650
+        :class: with-shadow
+
+        Fig.: No cart button for guests
+
+   * The result is not as expected?
+
+     Clear your browser cache and try again.
+
+Assigning Rights and Roles for the Administration Area (Backend)
+----------------------------------------------------------------
+
+Define roles and rights for the administration area as well.
+
+This allows you to reflect different responsibilities in the management of the OXID eShop.
+
+Use roles to control access to menus, submenus, and tabs.
+
+Roles can allow varying levels of access to navigation menus, submenus, and even individual tabs in the input area.
+
+This way, each administrator gets their customized admin view.
+
+|procedure|
+
+1. Under :menuselection:`Users --> Manage Users --> Admin Roles`, create a new role.
+#. Activate the desired rights (:ref:`oxbaev05`).
+
+   .. _oxbaev05:
+
+   .. figure::  ../media/screenshots/oxbaev05.png
+      :alt: Defining access rules for navigation elements
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Defining access rules for navigation elements
+
+#. On the :guilabel:`Objects` tab, define access to categories and products.
+
+   For example, control who can create, edit, or delete articles and categories globally, and—if needed—at the level of each individual control (fields, checkboxes, or options) in the input area.
+
+   To open the selection menu, choose the arrow icon (:ref:`oxbaev06`, Pos. 1).
+
+   .. _oxbaev06:
+
+   .. figure::  ../media/screenshots/oxbaev06.png
+      :alt: Specifying access rules for categories
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Specifying access rules for categories
+
+   In our example, you control access to the controls for describing categories (:ref:`oxbaev07`, Pos. 1).
+
+   .. _oxbaev07:
+
+   .. figure::  ../media/screenshots/oxbaev07.png
+      :alt: Example: Controls for describing categories
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Example: Controls for describing categories
+
+#. On the :guilabel:`Users` tab, assign the relevant users or user groups to the role.
 
 
 .. Intern: oxbaev, Status:

@@ -1,30 +1,47 @@
 ﻿Pictures tab
 ============
 
-Products can have up to twelve images that are very important for their optimal presentation in the shop. Images should display the product in different views and from different angles. Product images are displayed in the product’s detailed view. In addition, there are zoom images that are also available on the product’s details page. Smaller product images - thumbnails und icons - show the product in product lists, product boxes and in the shopping cart. Product default size can be defined in the theme settings. A detailed description can be found under :doc:`Images <../../configuration/images>` in the \"Configuration\" section.
+Manage product images directly via the :guilabel:`Pictures` tab.
 
-.. image:: ../../media/screenshots/oxbacp01.png
-   :alt: Products - Pictures tab
-   :height: 343
+Present your products in an appealing way by uploading up to twelve images showing different views and angles. These images appear in the product’s detailed view. Additional zoom images are also available. Smaller versions — thumbnails and icons — are used in product lists, product boxes, and the shopping cart.
+
+Define the standard image dimensions in the theme settings. For detailed instructions, see the “Configuration” section under :doc:`Images <../../configuration/images>`.
+
+.. figure:: ../../media/screenshots/oxbacp01.png
+   :alt: Products – Pictures tab
    :width: 650
+   :class: with-shadow
 
-The :guilabel:`Pictures` tab allows you to load seven product images onto the web server. However, by looking at the directory structure, you can see that you can actually load up to 12 product images. To do this, you will need to either download additional product images to the web server via FTP or customise the template for the Admin panel for the larger number of uploads. Information on working with images and the directory structure of product images starting with OXID eShop 4.5.1 and later versions can be found in the English-language tutorial `Image handling changes <https://oxidforge.org/en/image-handling-changes-since-version-4-5-1.html>`_ on the OXIDforge page.
+   Fig.: Products – Pictures tab
 
-Once the first product image has been uploaded, the generated thumbnail and icon will be displayed on the left side of the tab. You can preview the product images. Those that are no longer required can be deleted. This will not only remove the product images from the tab but also delete them from the web server.
+|procedure|
 
-:guilabel:`Product pictures (max. 2 MB, max. 1500*1500 px)`
-   Uploading product images is subject to file size restrictions. By default, the images should be no more than 2 MB in size or have a maximum resolution of 1500*1500 pixels. If you allow larger images to be uploaded, PHP memory limit issues may occur when generating the various product images. The upload_max_filesize and memory_limit parameters in the :file:`php.ini` configuration file are important for uploading and generating product images.
+1. In the Admin panel, open the desired product detail page.
+#. Switch to the :guilabel:`Pictures` tab.
+#. Upload up to seven product images directly using the interface. To use more than seven images, either upload them via FTP or customise the Admin panel template.
 
-:guilabel:`#1` - :guilabel:`#7`
-   You can upload a maximum of seven product images to the web server. Clicking on :guilabel:`Browse...` opens a file dialog where you can select the relevant file on your computer. Click on :guilabel:`Open` to have the path and file name loaded directly. Clicking on “Save” starts uploading the product image after which the file name will be displayed, e.g., in field :guilabel:`#1`. The thumbnail and the icon will be created at the same time.
+   :guilabel:`Product pictures (max. 2 MB, max. 1500 × 1500 px)`
+      When uploading, follow the standard limits: max. 2 MB per file and max. 1500 × 1500 pixels. Exceeding these values may cause memory issues during thumbnail or icon generation. If needed, adjust the parameters ``upload_max_filesize`` and ``memory_limit`` in the :file:`php.ini` file.
 
-:guilabel:`Custom pictures`
-   Instead of the automatically generated thumbnail and/or icon, you can use a different image for these product views.
+   :guilabel:`#1` – :guilabel:`#7`
+      Use fields :guilabel:`#1` to :guilabel:`#7` to select images from your local system. Click :guilabel:`Browse...`, choose an image, then confirm with :guilabel:`Open`. Click :guilabel:`Save` to upload the image. The system will automatically generate a thumbnail and an icon.
 
-:guilabel:`Thumbnail (max. 2 MB, max. 1500*1500 px)`
-   Upload the thumbnail you want to use instead of the thumbnail generated when uploading the first product image. This overwrites the automatically generated thumbnail and displays the new one as a preview on the left side.
+   :guilabel:`Custom pictures`
+      Overwrite the automatically generated thumbnail or icon with your own files. The custom images will be shown in the preview on the left side.
 
-:guilabel:`Icon (max. 2 MB, max. 1500*1500 px)`
-   Upload the special product image you want to use as the icon. The automatically generated icon will be overwritten. The new icon will be displayed in the preview on the left side of the tab.
+   :guilabel:`Thumbnail (max. 2 MB, max. 1500 × 1500 px)`
+      Upload an alternative thumbnail here if the one generated automatically does not meet your requirements.
+
+   :guilabel:`Icon (max. 2 MB, max. 1500 × 1500 px)`
+      Upload a specific icon image to replace the automatically created one.
+
+#. Use the preview feature to verify the uploaded images.
+#. To remove an image, click the trash icon. The system will delete the image from both the tab and the web server.
+
+|result|
+
+After saving, the product detail view displays the uploaded image, the product list shows the corresponding thumbnail, and the shopping cart shows the icon.
+
+.. seealso:: :doc:`Products – Extended tab <../products/extended-tab>` | :doc:`Images <../../configuration/images>`
 
 .. Intern: oxbacp, Status:, F1: article_pictures.html

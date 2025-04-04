@@ -1,25 +1,64 @@
-﻿Price per unit (base price)
-===========================
+﻿Specifying the Unit Price (Base Price)
+======================================
 
-Entering the basic price is mandatory for products that are offered by weight, volume, length or area. This is stated in paragraph 2 of the `German Price Indication Ordinance <http://www.gesetze-im-internet.de/pangv/>`, according to which not only the final price but also the price per unit must be displayed for the product. The base price is calculated and displayed on the product’s details page directly below the final price.
+For products sold by weight, volume, length, or area, you are required to specify the base price per unit.
 
-.. image:: ../../media/screenshots/oxbafl01.png
-   :alt: Base price, product’s details page
-   :height: 244
-   :width: 500
+This requirement is regulated in §2 of the `German Price Indication Ordinance (PAngV) <http://www.gesetze-im-internet.de/pangv/>`_.
 
-The base price is defined in the product management section.
+Therefore, both the final price and the unit price must be shown for the product.
 
-* Go to :menuselection:`Administer Products --> Products`.
-* Select the desired product from the product list.
-* The :guilabel:`Extended` tab contains the :guilabel:`Quantity` and :guilabel:`Unit` input fields.
-* Enter the product’s quantity and specify the unit of measure. You can select the unit of measure from the drop-down list or enter it without selecting (\"-\").
-* Save the changes.
+The base price is calculated automatically and displayed on the product detail page along with the final price (:ref:`oxbafl01`, item 1).
 
-Example: For a product that is offered in a 500 kg package, enter 0.5 in the “Quantity” field and select kg as the unit of measure. Assuming the product costs €6.99, the base price will be €13.98/kg.
+.. _oxbafl01:
 
-The units kg, g, l, ml, cm, mm, m, m², m³, piece and item are stored in the :file:`lang.php` language file in the :file:`/application/translations/de` directory.
+.. figure:: ../../media/screenshots/oxbafl01.png
+   :alt: Displaying the base price on the product detail page
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Displaying the base price on the product detail page
+
+Procedure
+---------
+
+To calculate and display the base price of a product, do the following:
+
+1. Choose :menuselection:`Administer Products --> Products`.
+#. Choose the desired product from the product list.
+#. Choose the :guilabel:`Extended` tab.
+#. In the :guilabel:`Quantity` field, enter the quantity value, and in the :guilabel:`Unit` field, select or enter the unit (:ref:`oxbafl02`, item 1).
+   |br|
+   Choose the unit from the dropdown list or enter it manually. To leave the unit field empty, choose “-”.
+
+   .. _oxbafl02:
+
+   .. figure:: ../../media/screenshots/oxbafl02.png
+      :alt: Automatically calculating the base price
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Automatically calculating the base price
+
+#. Save your changes.
+
+|result|
+
+The base price is automatically calculated and displayed on the product detail page along with the final price (:ref:`oxbafl01`, item 1).
+
+Examples
+--------
+
+For a product sold in a 500 g package, enter `0.5` in the :guilabel:`Quantity` field and select `kg` as the unit.
+
+If the product is priced at €6.99, the base price would be €13.98/kg.
+
+A product with an area of 2 m² costs €39.90. The base price per square meter is €19.95/m².
+
+.. todo: #SB: In which use case is the following information relevant?
+
+The units `kg`, `g`, `l`, `ml`, `cm`, `mm`, `m`, `m²`, `m³`, `piece`, and `unit` are defined in the language file :file:`lang.php` in the directory :file:`/application/translations/de`.
 
 .. seealso:: :doc:`Products - Extended tab <../products/extended-tab>` | `Information sheet for specifying base prices in the online shop <http://www.haendlerbund.de/hinweisblaetter/finish/1-hinweisblaetter/114-grundpreisangabe-im-online-handel>`_ (Händlerbund)
 
 .. Intern: oxbafl, Status:
+

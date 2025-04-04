@@ -1,4 +1,5 @@
-﻿Main tab
+﻿:orphan:
+Main tab
 ========
 
 The :guilabel:`Main` tab contains a few settings that can be configured for the promotion. This is where you can create or edit a promotion. When creating a promotion, you will need to specify its type. Depending on whether you have selected Action, Promotion or Banner, the settings in the tab will be more or less different from each other.

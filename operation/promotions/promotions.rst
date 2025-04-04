@@ -1,4 +1,5 @@
-﻿Promotions
+﻿:orphan:
+Promotions
 ==========
 
 Apart from discounts, coupons or newsletters, promotions are an important marketing tool in your OXID eShop. There are three types of promotions that can be used to design and update the appearance of the shop’s start page: Action, Banner, and Promotion. The \"Flow\" theme supports Action and Banner. Promotion and some Action types are not used by the new default theme. However, the actions \"Top offer in categories\" and \"Top offer start page\" are available in the Admin panel since they are used by the \"Azure\" theme. They could be integrated into a \"Flow\"-based theme as needed.
