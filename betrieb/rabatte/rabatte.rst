@@ -152,7 +152,7 @@ Rabatte deaktivieren
 
 Um einen Rabatt zu deaktivieren, tun Sie Folgendes:
 
-* Entfernen Sie die MArkierung bei :guilabel:`Immer aktiv`.
+* Entfernen Sie die Markierung bei :guilabel:`Immer aktiv`.
 * Stellen Sie sicher, dass kein Zeitraum eingetragen ist. Ein Eintrag würde den Rabatt ansonsten für den angegebenen Zeitraum aktivieren.
 
 
