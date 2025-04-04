@@ -1,24 +1,54 @@
-﻿Staffelpreise
-=============
-Mit den Staffelpreisen kann für ausgesuchte Artikel ein Mengenrabatt gewährt werden. Sobald eine bestimmte Menge eines Artikels gekauft wird, wird der Artikel günstiger. Für einen bestimmten Mengenbereich wird ein absoluter Preis oder ein prozentualer Rabatt definiert. Mehrere Mengenbereiche bilden so eine Staffel mit unterschiedlichen Artikelpreisen.
+﻿Staffelpreise definieren
+========================
 
-Im OXID eShop werden die Staffelpreise auf der Detailseite des Artikels angezeigt, sobald der Kunde auf die Schaltfläche :guilabel:`Mengenstaffelpreise` klickt. Abhängig von der beim Kauf angegebenen Menge wird der dafür vorgesehene Staffelpreis im Warenkorb verwendet und angezeigt.
+Gewähren Sie für ausgewählte Artikel einen Mengenrabatt durch Staffelpreise.
 
-.. image:: ../../media/screenshots/oxbafm01.png
-   :alt: Staffelpreise, Detailseite des Artikels
-   :height: 318
-   :width: 500
+Ab bestimmten Mengen greifen automatisch niedrigere Preise.
 
-Der Staffelpreis wird in der Artikelverwaltung festgelegt.
+Für jede Staffel legen Sie entweder einen festen Preis oder einen prozentualen Rabatt fest.
 
-* Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
-* Wählen Sie den gewünschten Artikel aus der Artikelliste.
-* Auf der Registerkarte :guilabel:`Lager` finden Sie die Eingabefelder :guilabel:`Menge von`, :guilabel:`bis` und :guilabel:`Preis`.
-* Geben Sie einen Mengenbereich an und legen Sie einen Preis fest. Wählen Sie aus, ob die Preisangabe absolut oder prozentual ist.
-* Speichern Sie den Staffelpreis.
-* Sie können weitere Staffelpreise hinzufügen.
+Mit mehreren Mengenstaffeln definieren Sie unterschiedliche Preisstufen für den Artikel.
 
-.. hint:: Bitte beachten Sie, dass bei der Staffel mit der größten Artikelanzahl immer eine ausreichend große Menge im Feld :guilabel:`bis` steht, beispielsweise 999999. Anderenfalls würde bei der Überschreitung der obersten Staffelmenge wieder der Originalpreis des Artikels gelten.
+Im OXID eShop werden die Staffelpreise auf der Artikeldetailseite angezeigt (:ref:`oxbafm01`, Pos. 2), sobald der Kunde die Schaltfläche :guilabel:`Mengenstaffelpreise` wählt (:ref:`oxbafm01`, Pos. 1).
+
+Der im Warenkorb angezeigte Preis richtet sich nach der beim Kauf angegebenen Menge.
+
+.. _oxbafm01:
+
+.. figure:: ../../media/screenshots/oxbafm01.png
+   :alt: Staffelpreise anzeigen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Staffelpreise anzeigen
+
+|procedure|
+
+Legen Sie Staffelpreise in der Artikelverwaltung fest.
+
+1. Wählen Sie :menuselection:`Artikel verwalten --> Artikel`.
+#. Wählen Sie den gewünschten Artikel aus der Artikelliste.
+#. Legen Sie auf der Registerkarte :guilabel:`Lager` unter :guilabel:`Staffelpreise` eine Mengenstaffel sowie den dazugehörigen Preis fest (:ref:`oxbafm02`, Pos. 1).
+
+   Beispiel: Für Mengen zwischen 5 und 10 ist der Preis 33,99 € statt des regulären Preises von 35,99 €, den Sie unter :guilabel:`Stamm` festgelegt haben.
+
+#. Speichern Sie Ihre Eingaben und fügen Sie weitere Mengenstaffeln nach demselben Muster hinzu.
+
+   Beispiel: Für alle Bestellmengen über 10 ist der Preis 30 €.
+
+   Stellen Sie sicher, dass bei der Staffel mit der höchsten Artikelanzahl im Feld :guilabel:`bis` ein ausreichend hoher Wert eingetragen ist, beispielsweise 999999.
+
+   Andernfalls gilt bei Überschreitung der höchsten Staffelmenge der reguläre Artikelpreis.
+
+.. _oxbafm02:
+
+.. figure:: ../../media/screenshots/oxbafm02.png
+   :alt: Staffelpreise festlegen
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Staffelpreise festlegen
+
 
 .. seealso:: :doc:`Artikel - Registerkarte Lager <../artikel/registerkarte-lager>`
 

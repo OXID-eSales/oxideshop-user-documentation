@@ -1,33 +1,63 @@
 ﻿Registerkarte SEO
 =================
 
-Die Registerkarte :guilabel:`SEO` des Lieferanten beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
+Optimieren Sie auf der Registerkarte :guilabel:`SEO` (:ref:`oxbagg01`) die SEO-Einstellungen der Lieferantenseite, um deren Sichtbarkeit in Suchmaschinen zu verbessern.
 
-.. image:: ../../media/screenshots/oxbagg01.png
+* Vergeben Sie eine sprechende SEO-URL, damit die Lieferantenseite leichter gefunden wird.
+* Hinterlegen Sie einen aussagekräftigen Meta-Titel und eine Meta-Beschreibung, um die Klickrate in den Suchergebnissen zu steigern.
+* Definieren Sie relevante Stichwörter (Meta-Keywords), damit die Seite bei passenden Suchanfragen erscheint.
+* Fixieren Sie die SEO-URL, um unerwünschte Änderungen zu vermeiden und doppelten Inhalt zu reduzieren.
+* Nutzen Sie die Sprachoptionen, um die SEO-Informationen für jede aktivierte Sprache individuell anzupassen.
+
+.. _oxbagg01:
+
+.. figure:: ../../media/screenshots/oxbagg01.png
    :alt: Lieferanten - Registerkarte SEO
-   :height: 342
    :width: 650
+   :class: with-shadow
 
-Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Informationen und Einstellungen auch in einer weiteren aktiven Sprache bearbeiten.
+   Abb.: Lieferanten - Registerkarte SEO
+
+
+Um die Informationen und Einstellungen in jeder weiteren aktivierten Sprache zu bearbeiten, verwenden Sie die Sprachumstellung am unteren Rand des Eingabebereichs.
 
 :guilabel:`URL fixiert`
-   Ändert sich der Titel eines Lieferanten, wird die SEO URL neu berechnet. Sie können das für die URL des Lieferanten deaktivieren, indem dieses Kontrollkästchen angehakt wurde. Eine bestehende SEO URL bleibt dadurch unverändert.
+   Wenn sich der Titel eines Lieferanten ändert, wird die SEO-URL neu berechnet.
 
-:guilabel:`Titel Suffix in Kategorie anzeigen`
-   Diese Einstellung bestimmt, ob das Titel-Suffix im Seitentitel angezeigt wird. Würde die Übersicht aller Artikel dieses Lieferanten über die URL aufgerufen, enthielte der Seitentitel auch den Titel-Suffix, der unter :menuselection:`Stammdaten --> Grundeinstellungen --> SEO --> Titel Suffix` definiert wurde. Beispiel Demoshop:\<title\>OXID Surf- und Kiteshop | www.true-fashion.com | online kaufen\</title\>. Mehr Informationen dazu finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
+   Um die automatische Neuberechnung der URL zu deaktivieren, aktivieren Sie das Kontrollkästchen. Eine bestehende SEO-URL bleibt dadurch unverändert.
 
-Im Frontend gibt es standardmäßig keinen Aufruf der Übersicht aller Artikel eines Lieferanten.
+:guilabel:`Titel-Suffix in Kategorie anzeigen`
+   Aktivieren Sie diese Einstellung, um das Titel-Suffix im Seitentitel anzuzeigen (Titel-Suffix am Beispiel einer Lieferanten-Seite: :ref:`oxbagg02`, Pos. 1).
 
-:guilabel:`SEO URL`
-   Die angezeigte URL des Lieferanten wird angezeigt. Sie kann geändert und auch fixiert werden.
+   Weitere Informationen zum Festlegen des Titel-Suffixes finden Sie unter :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>`.
+
+   Im Frontend gibt es standardmäßig keinen Aufruf der Übersicht aller Artikel eines Lieferanten.
+
+   .. _oxbagg02:
+
+   .. figure:: ../../media/screenshots/oxbagd02.png
+      :alt: Titel-Suffix anzeigen (Beispiel: Hersteller)
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Titel-Suffix anzeigen (Beispiel: Hersteller)
+
+
+:guilabel:`SEO-URL`
+   Die SEO-URL des Lieferanten wird angezeigt und kann bearbeitet oder fixiert werden.
 
 :guilabel:`Stichworte für Meta-Tags`
-   Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta Keywords) eingebunden. Wenn Sie nichts eingeben, werden die Stichwörter automatisch, beispielsweise aus dem Titel des Lieferanten, der Kategorie (Nach-Lieferant) und den Suchbegriffen der zugeordneten Artikel erzeugt.
+   Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta-Keywords) eingebunden.
+
+   Wenn Sie nichts eingeben, werden die Stichwörter automatisch beispielsweise aus dem Titel des Lieferanten, der Kategorie (Nach-Lieferant) und den Suchbegriffen der zugeordneten Artikel erzeugt.
 
 :guilabel:`Beschreibungstext für Meta-Tags`
-   Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden. Dieser Text wird von vielen Suchmaschinen bei den Suchergebnissen angezeigt. Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Titel des Lieferanten, der Kategorie (Nach-Lieferant) und den Titeln der zugeordneten Artikel gebildet.
+   Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden und in den Suchergebnissen vieler Suchmaschinen angezeigt.
+
+   Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Titel des Lieferanten, der Kategorie (Nach-Lieferant) und den Titeln der zugeordneten Artikel erstellt.
 
 :guilabel:`In Sprache`
    Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
 
 .. Intern: oxbagg, Status:, F1: vendor_seo.html
+

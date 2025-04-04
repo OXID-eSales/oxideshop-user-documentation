@@ -43,8 +43,6 @@ Handelt es sich bei den bestellten Artikeln um Download-Artikel, können Sie ein
 :guilabel:`Rabatt` ... :guilabel:`(EUR)`
    Wurde für die bestellten Artikel ein Rabatt wirksam, wird dieser hier angezeigt.
 
-   Sie können einen Rabatt nachträglich ändert oder gewähren. Tragen Sie den Wert in das Eingabefeld ein und speichern Sie die Änderungen. Der Gesamtpreis der Bestellung wird neu berechnet.
-
 :guilabel:`Bezahlinformationen`
    Dokumentieren Sie den Zahlungseingang zur Bestellung.
 
