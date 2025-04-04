@@ -1,50 +1,100 @@
-﻿Sorting products
-================
+﻿Defining the Display Order of Products in Categories
+====================================================
 
-You can define the order in which products are displayed in a category by using the fast sorting feature - based on a single product characteristic (ascending or descending) - and the manual sorting feature. In addition, you can allow the customers of your OXID eShop to sort the products of a category according to the predetermined criteria.
+Define the order in which products are displayed within a category.
 
-Fast sorting is based on a certain category setting. Use the drop-down list to select a product characteristic, such as :guilabel:`Title`, :guilabel:`Price` or :guilabel:`Created on`. You will also need to specify whether the products should be sorted in the ascending or descending order according to this characteristic.
+You can control the display order of products in categories in three different ways:
 
-* Go to :menuselection:`Administer Products --> Categories`.
-* Select the desired category from the category list.
-* Open the :guilabel:`Fast Sorting` drop-down list in the :guilabel:`Main` tab.
-* Select a product characteristic for fast sorting.
-* Select :guilabel:`asc` or :guilabel:`desc` for the ascending or descending order.
-* Save the settings.
+* **Automatic sorting** – Let the products be sorted automatically based on a selected field, such as title, price, or creation date, in ascending or descending order.
+* **Manual sorting** – Arrange products in a specific order manually using the assignment window.
+* **Customer-defined sorting** – Specify which sorting options are available to customers in the frontend, such as by price, rating, or article number.
 
-Manual sorting allows you to arrange the products of a category in a certain way.
+Automatically sorting products
+------------------------------
 
-* Go to :menuselection:`Administer Products --> Categories`.
-* Select the desired category from the category list.
-* Click on :guilabel:`Sort Categories` in the :guilabel:`Sorting` tab.
-* Drag and drop all the products into the right-hand list of the assignment window.
-* Change the order of the products as needed.
-* Save the new order.
+Select a sorting criterion, such as :guilabel:`Title`, :guilabel:`Price`, or :guilabel:`Date Created`, to automatically sort the products.
 
-The current sort order will be displayed in the left-hand list. Product values that are relevant for sorting will be displayed in the "Position" column.
+Define whether the products should be sorted in ascending or descending order based on that field.
 
-.. image:: ../../media/screenshots/oxbafq01.png
-   :alt: Sorting products
-   :height: 311
-   :width: 400
+|procedure|
 
-One of the settings in the master data allows you to specify whether your customers can use the sorting feature in categories and what fields they can sort by.
+1. Choose :menuselection:`Administer Products --> Categories`.
+#. In the category list, select the desired category.
+#. In the :guilabel:`Main` tab, open the dropdown list :guilabel:`Fast sorting`.
+#. Select a sorting criterion for the quick sorting.
+#. Choose :guilabel:`asc` or :guilabel:`desc` for ascending or descending order.
+#. Save your settings.
 
-* Go to :menuselection:`Master Settings --> Core Settings`.
-* Open the :guilabel:`Settings` tab and select the :guilabel:`Products` section.
-* Check the :guilabel:`Users can sort Product Lists` box.
-* Define the fields for sorting.
-* Save the settings.
+Manually sorting products
+-------------------------
 
-The fields by which products can be sorted correspond to the database fields of the *oxarticles* table. Each field must be in a separate line.
+Arrange the products of a category manually in a specific order.
 
-.. image:: ../../media/screenshots/oxbafq02.png
-   :alt: Sorting options
-   :height: 272
+|procedure|
+
+1. Choose :menuselection:`Administer Products --> Categories`.
+#. Select the desired category from the category list.
+#. In the :guilabel:`Main` tab, make sure that the :guilabel:`Fast sorting` option is set to :guilabel:`no sorting`.
+#. In the :guilabel:`Sorting` tab, choose the :guilabel:`Sort Categories` button.
+#. Move the products into the desired order in the right-hand list of the assignment window.
+#. Choose the button :guilabel:`Save new sorting`.
+
+|result|
+
+The left-hand list now shows the current sort order (:ref:`oxbafq01`, item 1). The :guilabel:`Position` column displays the values that determine the order.
+
+.. _oxbafq01:
+
+.. figure:: ../../media/screenshots/oxbafq01.png
+   :alt: Manually defining the product order
    :width: 650
+   :class: with-shadow
 
-The screenshot in the example shows that besides the name and the price, products can also be sorted by the product number. For this purpose, the *oxartnum* field was added to the standard *oxtitle* and *oxvarprice* fields.
+   Fig.: Manually defining the product order
+
+Enabling customer-defined sorting
+---------------------------------
+
+Specify whether and how customers can sort the products within categories.
+
+|procedure|
+
+1. Choose :menuselection:`Master Settings --> Core Settings`.
+#. In the :guilabel:`Settings` tab, go to the :guilabel:`Products` section.
+#. Make sure the :guilabel:`Users can sort product lists` checkbox is selected (:ref:`oxbafq02`, item 1).
+#. Define the fields used for sorting (:ref:`oxbafq02`, item 2).
+
+   You can use the following options:
+
+   * ``oxtitle``: Product title
+   * ``oxprice``: Product price
+   * ``oxvarminprice``: Lowest variant price (if variants with different prices are used)
+   * ``oxartnum``: Article number
+   * ``oxrating``: Product rating
+   * ``oxstock``: Available stock
+
+   Each field must be listed in a separate line.
+
+   The sorting fields correspond to the database fields of the table ``oxarticles``.
+
+   .. _oxbafq02:
+
+   .. figure:: ../../media/screenshots/oxbafq02.png
+      :alt: Configuring customer-defined sorting
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Configuring customer-defined sorting
+
+#. Save your settings.
+
+|result|
+
+In our example, customers can now sort products not only by title and price, but also by article number (:ref:`oxbafq02`, item 3).
+
+To achieve this, we added the field ``oxartnum`` to the default sorting fields ``oxtitle`` and ``oxvarminprice`` in the core settings (:ref:`oxbafq02`, item 2).
 
 .. seealso:: :doc:`Categories - Main tab <../categories/main-tab>` | :doc:`Categories - Sorting tab <../categories/sorting-tab>`
 
 .. Intern: oxbafq, Status:
+

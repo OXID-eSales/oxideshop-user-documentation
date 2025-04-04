@@ -38,9 +38,6 @@ The :guilabel:`Main` tab allows you to add or change the order information. This
 :guilabel:`Discount` ... :guilabel:`(EUR)`
    If a discount was effective for the ordered items, it will be displayed here.
 
-   You can change or grant a discount afterwards. Enter the value in the input field and save the changes. The total price of the order will be recalculated.
-
-
 :guilabel:`Payment Information`
    Document the receipt of payment for the order.
 

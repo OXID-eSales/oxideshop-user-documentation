@@ -1,11 +1,12 @@
-﻿Main tab
+﻿:orphan:
+Main tab
 ========
 
 The :guilabel:`Main` tab contains some information about manufacturers and allows you to configure their settings. This is where you can create or edit a manufacturer.
 
 .. image:: ../../media/screenshots/oxbagc01.png
    :alt: Manufacturers - Main tab
-   :height: 343
+   :class: with-shadow
    :width: 650
 
 The language selection list at the bottom of the input area allows you to edit information and settings for manufacturers in another language directly.

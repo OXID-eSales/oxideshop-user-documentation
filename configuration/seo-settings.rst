@@ -1,81 +1,201 @@
-﻿SEO settings
+﻿SEO Settings
 ============
 
-Customers often start searching for products by entering queries in search engines and portals. To make sure that they find your shop, products and special offers, you will need to optimise and index the relevant information. Search Engine Optimisation (SEO) is supported in OXID eShop starting with version 4. SEO implementation automatically generates “speaking URLs” for categories and products, taking into consideration reserved words and special characters as well as different shop’s languages.
+Optimise your OXID eShop for search engines by configuring page titles, URLs, and metadata.
 
-Shop owners only need to change a few settings to specify content for SEO. These are the page title, the structure of the URLs and the so-called metadata. The content can be defined in any shop’s language.
+|background|
 
-Page title
-----------
-The page title is displayed in the title bar of some browsers and is used as a bookmark or favourite when saving a page. Although the page title in the shop is almost invisible, it plays an important role in search engines. Search engines extract information from the page title indicating which content can be found on a website. Except for the shop's start page, page titles are automatically generated from the title of a product or category and are extended with a prefix and a suffix.
+Many customers access your shop via search engines. To improve your shop’s visibility, configure the following SEO settings.
 
-Example of a page title structure: OXID Surf and Kite Shop | Transportcontainer THE BARREL | purchase online
+OXID eShop supports Search Engine Optimization (SEO) and automatically generates “speaking URLs” for categories and products. It considers reserved words, special characters, and the languages used in your shop.
 
-The settings for the page title can be found under :menuselection:`Master Settings --> Core Settings --> SEO`. Make sure to select the desired language.
+As a shop owner, you can adjust the following settings to define SEO-relevant content:
 
-:guilabel:`Title Prefix` |br|
-Text placed before the generated part of the page title. It is best to enter your shop’s name here. Demoshop example: OXID Surf and Kite Shop
+* Page title
+* URL structure
+* Metadata (:ref:`oxbabi01`)
 
-:guilabel:`Title Suffix` |br|
-Text attached to the generated part of the page title. Here, you can add the characteristics for all the shop pages. Demoshop example: purchase online
+Configure these values individually for each shop language.
 
-:guilabel:`Front Page Title` |br|
-You can specify the title text for the start page. It should precisely describe your online shop offer. Unlike other pages, the start page title consists of a prefix and a defined text, without using the suffix. Demoshop example: OXID Surf and Kite Shop | Online Shop for water sports and summertime
+Defining Page Titles
+--------------------
 
-URL structure
--------------
-The so-called “speaking URLs” are also an important part of SEO. Instead of displaying URLs with parameters and cryptic values, the URL is rewritten to show the name of the category and the product instead. This is good for search engines and visitors of your online shop.
+The page title appears in some browser title bars and is used when saving a page as a bookmark or favourite.
 
-Example of internally used URL: ``www.yourshopurl.com/index.php?`` |br|
-``cl=details\&anid=f4f73033cf5045525644042325355732\&cnid=fadcb6dd70b9f6248efa425bd159684e``
+Search engines evaluate the page title as one of the most important indicators of a page’s content. They extract information from it to understand the purpose of a webpage.
 
-Example of rewritten speaking URL: ``www.yourshopurl.com/offers/transport-container-THE-BARREL.html``
+Except for the shop’s start page, all page titles are automatically generated from the product or category title and extended with a prefix and suffix.
 
-Just like the specifications for the page title, those for the URLs are language-dependent. Make sure to select the desired language.
+Example title structure (:ref:`oxbabi01`, Pos. 1, 2, 3): OXID eShop | VisControl LCD | purchase online
 
-:guilabel:`Default language for SEO URLs` |br|
-Language codes (de, en, etc.) are not used in the URLs for the default language set here. The corresponding language codes will be added to the URLs of the other languages.
+.. todo: Define how title structure behaves on the start page: OXDEV-6802
 
-:guilabel:`SEO IDs Separator (e.g.\"+\",\"-\")` |br|
-The separator is used when category or product titles consist of several words. It is inserted in the URL instead of a space. The hyphen is used as the default separator.
+|procedure|
 
-Example: ``www.yourshopurl.com/multiple-word-category/multiple-word-product.html``.
+1. Go to :menuselection:`Master Settings --> Core Settings --> SEO`.
+2. Make sure the correct language is selected.
+3. Configure the following settings:
 
-:guilabel:`SEO Suffix for differing Similar SEO URLs` |br|
-If several products have the same title and belong to the same category, they would be assigned the same URL. The SEO suffix is attached to prevent this from happening and to avoid using the same URLs. If you don’t specify a SEO suffix, ``-oxid`` will be used by default.
+   * :guilabel:`Title Prefix` (:ref:`oxbabi01`, Pos. 1): Text added *before* the generated title part.
 
-:guilabel:`Characters that will be replaced in SEO URLs` |br|
-Certain special characters such as umlauts (Ä, Ö, Ü) should not be used in URLs as they can cause problems. Enter the characters replacing the special characters in the input field. The syntax is as follows: special character =\> replacement character, for example Ü =\> Ue. Replacement characters are already set for the German language. If you want to enter or add special characters and replacement characters, for example, for a new language, you will need to use a separate line for each.
+     Recommendation: Use your shop’s name. Example from the demo shop: "OXID eShop".
 
-.. hint:: Starting with shop version 4.7.0/5.0.0, the list of characters to be replaced in the URL by other characters (transliteration) is defined in the :file:`/application/translation/{local}/translit_lang.php` file. The input area in the :guilabel:`SEO` tab has been removed.
+   * :guilabel:`Title Suffix` (:ref:`oxbabi01`, Pos. 2): Text appended to the generated title part.
 
-:guilabel:`Reserved Words (are automatically suffixed)` |br|
-Certain URLs are specified in eShop, for example ``www.yourshopurl.com/admin``, for opening the Admin panel. A category named \"admin\" would also have the URL ``www.yourshopurl.com/admin``, and you wouldn’t be able to open it. That's why the SEO suffix is automatically appended to such URLs. By default, OXID eShop treats all shop’s directories – even the added ones – as reserved words. You can enter additional reserved words in the input field.
+     Example from the demo shop: "purchase online".
 
-:guilabel:`Words which are ignored in automatic Creation of Meta-tags` |br|
-If products or categories don’t have their own meta tags, this information will be generated from the description. Words without any information value should be omitted. All words listed in the input field are ignored during automatic generation.
+   * :guilabel:`Front Page Title` (:ref:`oxbabi01`, Pos. 1): Define the page title for the start page.
 
-:guilabel:`Static URLs` |br|
-Static URLs have been defined for a number of pages. These replace the internal URLs with different parameters. You can create new static URLs or change the existing ones, even in different languages.
+     Use a concise phrase describing your shop offering.
 
-Metadata
---------
-Although metadata is no longer critical for search engines, there is a way to change its content. There is metadata for the start page and metadata for products and categories. These are phrases and terms that are provided as a description or keywords with the respective page.
+.. _oxbabi01:
 
-Demoshop example:
+.. figure:: ../media/screenshots/oxbabi01.png
+   :alt: Defining metadata: Page title
+   :width: 650
+   :class: with-shadow
 
-.. code::
+   Fig.: Defining metadata: Page title
 
-   <meta name="description "content=\"All about water sports, sportswear and fashion. Comprehensive product range with the latest trending products. Fast shipping.">
-   <meta name="keywords "content="kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards, boards, beach, summer, water sports, fashion, style, shirts, jeans, accessories, offers">
+|result|
 
-Start page
-^^^^^^^^^^
-The metadata for the shop’s start page can be entered under :menuselection:`Customer Info --> CMS Pages`. The CMS page “META description start page” (ID: oxstartmetakeywords) includes the shop description and the CMS page “META keywords start page” (oxstartmetadescription) includes the keywords.
+The system inserts the page title into the HTML ``<title>`` tag.
 
-Categories and products
-^^^^^^^^^^^^^^^^^^^^^^^
-Metadata for categories and products is automatically generated from their description. It can be overwritten by self-penned descriptions and keywords for each category or product. Metadata is entered in the :guilabel:`SEO` tab of the Categories or Products sections.
+This works differently for the start page compared to other pages:
 
+The start page title consists of the prefix (:ref:`oxbabi02`, Pos. 1) and the defined start page title (:ref:`oxbabi02`, Pos. 3). The middle part `Startseite` (:ref:`oxbabi02`, Pos. 2) is static and always included.
+
+The suffix is :emphasis:`not` used on the start page. Demo example: "Online Shop".
+
+.. _oxbabi02:
+
+.. figure:: ../media/screenshots/oxbabi02.png
+   :alt: Start page title
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Start page title
+
+Other pages use a structure consisting of prefix (:ref:`oxbabi03`, Pos. 1), dynamic title (e.g. product name), and suffix (:ref:`oxbabi03`, Pos. 3).
+
+.. _oxbabi03:
+
+.. figure:: ../media/screenshots/oxbabi03.png
+   :alt: Title and metadata of a subpage
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Title and metadata of a subpage
+
+Generating Speaking URLs
+------------------------
+
+“Speaking URLs” are another important element of SEO.
+
+Instead of showing technical URLs with parameters, OXID eShop rewrites them to include category and product names. This improves both search engine visibility and user-friendliness.
+
+Example:
+
+* Internal URL: ``www.yourshopurl.com/index.php?cl=details&anid=f4f73033cf5045525644042325355732&cnid=fadcb6dd70b9f6248efa425bd159684e``
+* Speaking URL: ``www.yourshopurl.com/by-manufacturer/eng-depot/VisControl-LCD.html``
+
+|procedure|
+
+To configure speaking URLs, do the following:
+
+1. Go to :menuselection:`Master Settings --> Core Settings --> SEO`.
+
+   Like title settings, SEO URLs are language-dependent. Ensure the correct language is selected.
+
+   * :guilabel:`Default language for SEO URLs`: The default language will not include a language prefix (e.g., "de", "en") in the URL. Other languages will.
+
+   * :guilabel:`SEO IDs Separator (e.g. "+", "-")`: Separator for multi-word category or product names. Default is a hyphen.
+
+     Example: ``.../multi-word-category/multi-word-product.html``
+
+   * :guilabel:`SEO Suffix for differing Similar SEO URLs`: Prevents duplicate URLs for identical titles in the same category by appending a suffix.
+
+     Default: ``-oxid``
+
+   * :guilabel:`Characters that will be replaced in SEO URLs`: Define replacement characters for special characters (e.g., Ü => Ue). Each mapping must be entered in a separate line.
+
+   * :guilabel:`Reserved Words (are automatically suffixed)`: Prevents conflicts with internal shop routes (e.g., ``/admin``). A suffix is automatically added to such URLs.
+
+   * :guilabel:`Words which are ignored in automatic Creation of Meta-tags`: Words that are ignored when auto-generating meta tags from descriptions.
+
+   * :guilabel:`Static URLs`: You can define static URLs to replace internal parameter-based ones. You may edit or create them in multiple languages.
+
+.. _oxbabi04:
+
+.. figure:: ../media/screenshots/oxbabi04.png
+   :alt: Configuring SEO URL settings
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Configuring SEO URL settings
+
+2. Save your settings.
+3. To apply the changes, click :guilabel:`Recalculate SEO URLs`.
+
+Maintaining Metadata
+--------------------
+
+While metadata is no longer a major ranking factor, it still improves how your shop pages appear in search results. That’s why you should manage them manually.
+
+There are two types of metadata:
+
+* Metadata for the start page
+* Metadata for categories and products
+
+These include the HTML meta description (:ref:`oxbabi03`, Pos. 4) and meta keywords (:ref:`oxbabi03`, Pos. 5).
+
+Metadata for the Start Page
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|procedure|
+
+1. Go to :menuselection:`Customer Info --> CMS Pages`.
+2. Select the CMS pages for the start page:
+
+   * For the meta description: ``META Description Startseite`` (Ident: ``oxstartmetadescription``) (:ref:`oxbabi05`)
+   * For the meta keywords: ``META Keywords Startseite`` (Ident: ``oxstartmetakeywords``)
+
+3. Enter the metadata in the :guilabel:`Main` tab.
+4. Save your settings.
+
+.. _oxbabi05:
+
+.. figure:: ../media/screenshots/oxbabi05.png
+   :alt: Example: Meta description for the start page
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Example: Meta description for the start page
+
+Metadata for Categories and Products
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+By default, OXID eShop generates meta tags for categories and products based on their descriptions.
+
+You can override these with your own descriptions and keywords for each product or category.
+
+|procedure|
+
+1. Select a product or category.
+2. Enter the metadata in the :guilabel:`SEO` tab (:ref:`oxbabi06`).
+3. Save your settings.
+
+.. _oxbabi06:
+
+.. figure:: ../media/screenshots/oxbabi06.png
+   :alt: Example: Defining metadata for a product
+   :width: 650
+   :class: with-shadow
+
+   Fig.: Example: Defining metadata for a product
+
+|result|
+
+The defined metadata will be embedded in the corresponding page (:ref:`oxbabi03`, Pos. 4, 5).
 
 .. Intern: oxbabi, Status: transL
