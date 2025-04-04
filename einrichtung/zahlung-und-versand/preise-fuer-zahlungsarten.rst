@@ -1,29 +1,56 @@
-﻿Preise für Zahlungsarten
-========================
+﻿Preisaufschläge oder -abschläge festlegen
+=========================================
 
-Für Zahlungsarten können Preisauf- und -abschläge definiert werden. So können Kosten, die für eine Zahlungsart entstehen, auf die Kunden umgelegt werden. Ein Beispiel dafür ist die Zahlungsarten Nachnahme, bei der Gebühren anfallen. Für Zahlungsarten, wie beispielsweise Vorauskasse, kann aber auch ein Preisnachlass gewährt werden, da die Ware erst nach Zahlungseingang geliefert wird. Eine Art Skonto, denn das Zahlungsziel wird bei Vorauskasse immer eingehalten.
+Legen Sie Preisaufschläge oder -abschläge für Zahlungsarten fest, um entstehende Kosten direkt an Ihre Kundschaft weiterzugeben oder Preisvorteile anzubieten.
 
-Der Preisaufschlag oder Preisabschlag kann absolut oder prozentual festgelegt werden. Ein absoluter Preisaufschlag ist eine Position im Warenkorb, die zum Warenwert dazugerechnet wird.
+Beispiel: Bei der Zahlungsart :guilabel:`Nachnahme` fallen Gebühren an, die etwa vom Paketdienst erhoben werden können (:ref:`oxbaft01`). Für :guilabel:`Vorauskasse` können Sie einen Preisnachlass einräumen, da der Zahlungseingang vor Lieferung erfolgt und somit das Zahlungsziel immer eingehalten wird – vergleichbar mit einem Skonto.
 
-.. image:: ../../media/screenshots/oxbaft01.png
-   :alt: Bestellung mit Zahlungsart Nachnahme
-   :height: 278
-   :width: 550
+Definieren Sie den Preisaufschlag oder -abschlag als absoluten Betrag oder in Prozent. Ein absoluter Wert wird direkt zum Warenwert im Warenkorb addiert. Prozentuale Werte berechnet der Shop beim Bestellvorgang auf Basis definierter Warenkorbpositionen.
 
-Wurde der Preisauf- oder -abschlag in Prozent angegeben, muss dieser bei der Bestellung berechnet werden. Basis dafür ist der Warenkorb. Folgende Warenkorbpositionen können bei der Berechnung berücksichtigt werden: Warenwert aller Artikel im Warenkorb, Rabatte, Gutscheine, Versandkosten und Geschenkverpackung/Grußkarte. Die Angabe eines negativen Preises führt zu einem Preisnachlass.
+Folgende Positionen können Sie zur Berechnung heranziehen – einzeln oder kombiniert:
 
-Preisauf- und abschläge werden bei der jeweiligen Zahlungsart festgelegt.
+* Warenwert der Artikel
+* Rabatte
+* Gutscheine
+* Versandkosten
+* Geschenkverpackungen und Grußkarten
 
-* Gehen Sie zu :menuselection:`Shopeinstellungen --> Zahlungsarten`.
-* Wählen Sie die gewünschte Zahlungsart aus der Zahlungsartenliste.
-* Erstellen Sie alternativ eine neue Zahlungsart.
-* Auf der Registerkarte :guilabel:`Stamm` finden Sie :guilabel:`Preisauf-/abschlag (€)`.
-* Legen Sie einen absoluten oder prozentualen Preis fest.
-* Ein positiver Wert bewirkt einen Preisaufschlag, ein negativer einen Preisabschlag.
-* Legen Sie die Kosten für die Berechnung des Warenkorbwertes fest.
-* Die ausgewählten Kosten gelten nur bei einem prozentualen Preisauf- und -abschlag.
-* Speichern Sie die Änderungen.
+.. note::
+   Ein negativer Betrag reduziert den Gesamtpreis und entspricht einem Nachlass.
 
-.. seealso:: :doc:`Zahlungsarten - Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>`
+|procedure|
+
+1. Wählen Sie :menuselection:`Shopeinstellungen --> Zahlungsarten`.
+#. Wählen Sie eine bestehende Zahlungsart oder legen Sie eine neue an.
+#. Geben Sie auf der Registerkarte :guilabel:`Stamm` im Feld :guilabel:`Preisauf-/abschlag (€)` (:ref:`oxbaft02`, Pos. 1) den gewünschten Betrag ein – positiv für einen Aufschlag, negativ für einen Abschlag.
+
+   .. _oxbaft02:
+
+   .. figure:: ../../media/screenshots/oxbaft02.png
+      :alt: Preisaufschlag oder -abschlag festlegen
+      :width: 650
+      :class: with-shadow
+
+      Abb.: Preisaufschlag oder -abschlag festlegen
+
+#. Wenn Sie einen prozentualen Wert verwenden, legen Sie im Feld :guilabel:`Basis für Preisauf-/abschlag` (:ref:`oxbaft01`, Pos. 2) fest, welche Warenkorbpositionen berücksichtigt werden sollen.
+#. Speichern Sie Ihre Einstellungen.
+
+|result|
+
+Im Warenkorb zeigt der Shop den Preisaufschlag für die gewählte Zahlungsart an. In unserem Beispiel berechnet der Shop bei Nachnahme einen Zuschlag von 7,50 € (:ref:`oxbaft01`, Pos. 1).
+
+.. _oxbaft01:
+
+.. figure:: ../../media/screenshots/oxbaft01.png
+   :alt: Bestellung mit Zuschlag für Nachnahme
+   :width: 650
+   :class: with-shadow
+
+   Abb.: Bestellung mit Zuschlag für Nachnahme
+
+.. seealso:: :doc:`Zahlungsarten – Registerkarte Stamm <../zahlungsarten/registerkarte-stamm>`
 
 .. Intern: oxbaft, Status:
+
+

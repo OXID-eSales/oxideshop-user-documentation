@@ -1,31 +1,56 @@
 CMS-Seiten
 ==========
 
-CMS steht für Content-Management-System, zu deutsch Inhaltsverwaltungssystem. Im Kontext des Shops bedeutet das, dass sich Textinhalte komfortabel im Administrationsbereich bearbeiten und ohne Programmierkenntnisse in verschiedenen Bereichen des OXID eShop anzeigen lassen. Dafür gibt es verschiedene CMS-Seiten. Deren Texte werden für ganze Seiten des Frontends, wie beispielsweise das Impressum, die AGB oder Hinweise zu Zahlung und Versand, verwendet.
+Verwalten Sie die Textinhalte Ihres Shops zentral über die CMS-Seiten im Administrationsbereich. CMS steht für Content-Management-System und ermöglicht Ihnen, Inhalte ohne Programmierkenntnisse im Frontend des OXID eShop anzuzeigen.
 
-.. image:: ../../media/screenshots/oxbaji01.png
-   :alt: CMS-Seiten
-   :height: 541
-   :width: 650
+Nutzen Sie CMS-Seiten für vollständige Informationsseiten wie `Impressum`, `AGB` oder Hinweise zu `Zahlung und Versand`. Darüber hinaus lassen sich CMS-Seiten auch in spezifischen Bereichen des Shops integrieren – etwa im Footer oder in automatisch versendeten E-Mails.
 
-Sie werden auch für einzelne Seitenbereiche, die den Kunden informieren, genutzt. Ein Beispiel dafür ist der Footer, der den Slogan enthält, welcher ganz unten im Shop angezeigt wird.
+Im unteren Bereich des Shops (Footer) erscheint beispielsweise der über eine CMS-Seite definierte Slogan (:ref:`oxbaji02`, Pos. 1):
 
-.. image:: ../../media/screenshots/oxbaji02.png
+.. _oxbaji02:
+
+.. figure:: ../../media/screenshots/oxbaji02.png
    :alt: Footer im Frontend
-   :height: 89
    :width: 650
+   :class: with-shadow
 
-Auch in vielen E-Mails, die standardmäßig an die Kunden verschickt werden, kommen die Texte der CMS-Seiten zum Einsatz.
+   Abb.: Footer im Frontend
 
-CMS-Seiten können im Administrationsbereich unter :menuselection:`Kundeninformationen --> CMS-Seiten` bearbeitet werden. Es werden alle CMS-Seiten und darunter der Eingabebereich angezeigt.
+|procedure|
 
-In der Liste der CMS-Seiten symbolisiert ein kleines grünes Symbol mit Häkchen am Anfang der Zeile eine aktive CMS-Seite. Ist eine CMS-Seite nicht aktiv, fehlt dieses Symbol. Die Liste der CMS-Seiten zeigt den Titel und deren Ident. Nach CMS-Seiten kann gesucht werden, indem die beiden Suchfelder verwendet werden und/oder nach Ordner gefiltert wird. Die Standard-Ordner sind E-Mails, Kunden- und Artikelinformationen. Wird `Kein` gewählt, werden ein paar spezielle CMS-Seiten angezeigt. Die Ordner, denen CMS-Seiten zugeordnet werden können, werden unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Administrationsbereich` definiert. Der Eintrag ``CMSFOLDER_EMAILS => #706090`` legt beispielsweise fest, dass der Ordner für E-Mails in dunkelvioletter Schriftfarbe vorhanden ist und ausgewählt werden kann. Die eigentliche Bezeichnung des Ordners ist in der jeweiligen Sprachdatei des Administrationsbereiches hinterlegt.
+1. Öffnen Sie den Administrationsbereich.
+2. Wählen Sie :menuselection:`Kundeninformationen --> CMS-Seiten`.
 
-CMS-Seiten lassen sich durch einen Klick auf das Löschsymbol am Ende der Zeile endgültig aus der Datenbank entfernen.
+   Die Liste zeigt alle CMS-Seiten mit ihrem :guilabel:`Titel` und ihrer :guilabel:`Ident`. Ein grünes Häkchen markiert aktive Seiten.
 
-Wird eine CMS-Seite aus der Liste gewählt, werden deren Informationen in den Eingabebereich geladen. Zum Erstellen einer neuen CMS-Seite klicken Sie am unteren Bildschirmrand auf :guilabel:`Neue CMS-Seite anlegen`.
+   * Suchen Sie gezielt nach CMS-Seiten über die verfügbaren Suchfelder.
+   * Filtern Sie die Liste nach Ordnern (z. B. :guilabel:`E-Mails`, :guilabel:`Kundeninformationen`, :guilabel:`Artikelinformationen`).
+   * Wählen Sie :guilabel:`Kein`, um spezielle CMS-Seiten anzuzeigen, die keinem Ordner zugeordnet sind.
 
-.. seealso:: `Content-Management-System (Wikipedia) <https://de.wikipedia.org/wiki/Content-Management-System>`_
+3. Bearbeiten Sie eine vorhandene Seite (:ref:`oxbaji01`) oder klicken Sie auf :guilabel:`Neue CMS-Seite anlegen`, um eine neue Seite zu erstellen.
+
+   .. _oxbaji01:
+
+   .. figure:: ../../media/screenshots/oxbaji01.png
+      :alt: CMS-Seite bearbeiten
+      :width: 650
+      :class: with-shadow
+
+      Abb.: CMS-Seite bearbeiten
+
+#. Speichern Sie Ihre Einstellungen.
+
+|background|
+
+Die verfügbaren Ordner definieren Sie unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Administrationsbereich`.
+
+Beispiel: Der Eintrag ``CMSFOLDER_EMAILS => #706090`` erzeugt den Ordner :guilabel:`E-Mails` mit der Schriftfarbe Dunkelviolett. Die eigentlichen Ordnernamen sind sprachabhängig und stammen aus den Sprachdateien des Adminbereichs.
+
+|result|
+
+Nach dem Speichern stehen die CMS-Inhalte im Shop oder in System-E-Mails zur Verfügung – abhängig vom Einsatzzweck der jeweiligen Seite (in unserem Beispiel der Footer: :ref:`oxbaji02`, Pos. 1).
+
+Um eine CMS-Seite endgültig zu löschen, klicken Sie auf das Papierkorb-Symbol am Ende der jeweiligen Zeile.
 
 -----------------------------------------------------------------------------------------
 

@@ -3,7 +3,7 @@
 
 Gutscheinserien sind eine definierte Anzahl von Gutscheinen mit identischer Gültigkeit und den selben Bedingungen zum Einlösen.
 
-Die Gutscheine können nach dem Anlegen einer Gutscheinserie mit gleichem Gutscheincode oder individuellen Gutscheinnummern generiert werden.
+Die Gutscheine können nach dem Anlegen einer Gutscheinserie mit gleichem Gutscheincode oder individuellen Gutscheinnummern generiert werden (:ref:`oxbahr01`).
 
 Nachdem die Gutscheine den Weg zum Kunden gefunden haben, beispielsweise über einen Newsletter, kann der Gutscheincode beim Onlinekauf verwendet werden.
 
@@ -11,10 +11,14 @@ Der Kunde gibt seinen Gutscheincode im ersten Bestellschritt ein und erhält ein
 
 Gutscheine sind neben Aktionen, Rabatten und Newslettern ein weiteres Marketinginstrument in Ihrem OXID eShop. Sie können Gutscheine einsetzen, um Kaufanreize zu schaffen und neue Kunden zu gewinnen.
 
-.. image:: ../../media/screenshots/oxbahr01.png
-   :alt: Gutscheinserien
-   :height: 516
+.. _oxbahr01:
+
+.. figure:: ../../media/screenshots/oxbahr01.png
+   :alt: Gutscheinserie anlegen
    :width: 650
+   :class: with-shadow
+
+   Abb.: Gutscheinserie anlegen
 
 Nachdem der Kunde Artikel in den Warenkorb gelegt und diesen angezeigt hat, kann er im ersten Bestellschritt einen Gutscheincode oder eine Gutscheinnummer in das entsprechende Feld eingeben.
 
@@ -26,12 +30,16 @@ Beim Absenden des Gutscheins überprüft der Shop dessen Gültigkeit, schreibt d
 
 Wurde der Gutscheincode vom Shop akzeptiert, wird der Gutschein in der Datenbank als reserviert markiert. Beim Abschluss der Bestellung wird der Gutschein als verwendet markiert und erhält Verweise auf die Bestellung, den Kunden und einen Zeitstempel.
 
-Ein angegebener Gutschein kann auch wieder aus der Warenkorbübersicht entfernt werden.
+Ein angegebener Gutschein kann auch wieder aus der Warenkorbübersicht entfernt werden (:ref:`oxbahr02`).
 
-.. image:: ../../media/screenshots/oxbahr02.png
-   :alt: Verwendung eines Gutscheins im Warenkorb
-   :height: 294
+.. _oxbahr02:
+
+.. figure:: ../../media/screenshots/oxbahr02.png
+   :alt: Gutschein im Warenkorb verwenden
    :width: 650
+   :class: with-shadow
+
+   Abb.: Gutschein im Warenkorb verwenden
 
 Im Abschnitt \"Gutscheinserien\" wird erläutert, wie Gutscheinserien erstellt und eingerichtet sowie die dazugehörigen Gutscheine generiert und exportiert werden.
 

@@ -5,7 +5,7 @@ Eine in den OXID eShop integrierte Lagerverwaltung zeigt den Kunden die Verfügb
 
 .. image:: ../../media/screenshots/oxback01.png
    :alt: Artikel - Registerkarte Lager
-   :height: 342
+   :class: with-shadow
    :width: 650
 
 Um die :doc:`Lagerverwaltung <../../konfiguration/lagerverwaltung>` nutzen zu können, muss diese in :menuselection:`Stammdaten --> Grundeinstellungen`, Registerkarte :guilabel:`Einstell.` unter :guilabel:`Lager` aktiviert und konfiguriert werden.

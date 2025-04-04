@@ -6,10 +6,8 @@ Rabatte
       
    rabatte
    registerkarte-stamm
-   registerkarte-artikel
    registerkarte-benutzer
-   registerkarte-mall
+   registerkarte-artikel
    zeitlich-begrenzte-rabatte
-   rabatte-auf-ausgewaehlte-artikel
-   rabatte-fuer-bestimmte-benutzer
    artikel-als-zugabe
+   registerkarte-mall

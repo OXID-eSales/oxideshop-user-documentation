@@ -5,7 +5,7 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 
 .. image:: ../../media/screenshots/oxbacj01.png
    :alt: Artikel - Registerkarte Erweitert
-   :height: 344
+   :class: with-shadow
    :width: 650
 
 :guilabel:`Gewicht`
