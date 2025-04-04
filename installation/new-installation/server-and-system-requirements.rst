@@ -53,8 +53,8 @@ Webserver
 Database
 --------
 
-* MySQL 5.7 or 8.0
-* MariaDB Support (tested with MariaDB 10.4)
+* MySQL 8.0 (5.7 is supported but not recommended)
+* MariaDB 11
 
 The database user needs sufficient permission to create a database during the installation if it doesn’t already exist. The user also needs permission to create views.
 
@@ -63,7 +63,20 @@ The transaction isolation level must be left with the default value *REPEATABLE 
 PHP
 ---
 
-* PHP version 8.1 or 8.2
+* PHP version from 8.2 up to 8.4
+
+  .. Attention::
+
+     **Rounding of Floating-Point Numbers in PHP 8.4**
+
+     Alongside improvements and bug fixes, PHP v8.4 introduces a breaking change in the process of rounding floating-point numbers (see `Migrating from PHP 8.3.x to PHP 8.4.x: Rounding with round() <https://www.php.net/manual/en/migration84.other-changes.php#:~:text=Rounding%20with%20round()>`_).
+
+     Practically speaking, this means that certain calculations will produce different results for different PHP versions.
+
+     For example, `round(7380/28800*100), 2)` will output `float(25.63)` when executed with PHP 8.3 and `float(25.62)` with PHP 8.4.
+
+     Take this fact into consideration before migrating your system to the latest PHP version.
+
 * Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
 * PHP setting *session.auto_start* in :file:`php.ini` should be disabled (OFF)
 * File uploads should be enabled in PHP
@@ -91,7 +104,7 @@ PHP extensions that need to be installed:
 Composer
 --------
 
-* Composer 2.7
+* Composer 2.7.7
 
   Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
 
