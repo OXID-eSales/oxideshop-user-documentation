@@ -1,30 +1,49 @@
 ﻿Registerkarte Bilder
 ====================
 
-Artikel können bis zu zwölf Artikelbilder haben, die sehr wichtig für die optimale Präsentation der Artikel im Shop sind. Die Bilder sollten den Artikel in unterschiedlichen Ansichten und aus verschiedenen Blickwinkeln zeigen. Artikelbilder werden in der Detailansicht des Artikels angezeigt. Hinzu kommen die Zoombilder, die ebenfalls auf der Detailseite aufrufbar sind. Kleinere Artikelbilder - Thumbnails und Icons - zeigen den Artikel in den Artikellisten, in Produktboxen und im Warenkorb. Die Standardgrößen der Artikel werden in den Einstellungen des Themes festgelegt. Eine detaillierte Beschreibung dazu finden Sie in :doc:`Bilder <../../konfiguration/bilder>` im Abschnitt \"Konfiguration\".
+Verwalten Sie Artikelbilder direkt über die Registerkarte :guilabel:`Bilder`.
 
-.. image:: ../../media/screenshots/oxbacp01.png
-   :alt: Artikel - Registerkarte Bilder
-   :height: 342
+Präsentieren Sie Ihre Produkte ansprechend, indem Sie bis zu zwölf Artikelbilder in verschiedenen Ansichten und Perspektiven bereitstellen. Die Bilder erscheinen in der Detailansicht des Artikels. Zusätzlich stehen Zoombilder zur Verfügung. Kleinere Bildversionen – Thumbnails und Icons – nutzt der Shop in Artikellisten, Produktboxen und im Warenkorb.
+
+Definieren Sie die Standardgrößen der Bilder in den Theme-Einstellungen. Eine ausführliche Anleitung dazu finden Sie im Abschnitt „Konfiguration“ unter :doc:`Bilder <../../konfiguration/bilder>` .
+
+.. figure:: ../../media/screenshots/oxbacp01.png
+   :alt: Artikel – Registerkarte Bilder
    :width: 650
+   :class: with-shadow
 
-Die Registerkarte :guilabel:`Bilder` bietet die Möglichkeit, sieben Artikelbilder auf den Webserver zu laden. Ein Blick in die Verzeichnisstruktur lässt aber erkennen, dass bis zu 12 Artikelbilder möglich sind. Die zusätzlichen Artikelbilder müssen entweder per FTP auf den Webserver geladen oder das Template für den Administrationsbereich muss für die größere Zahl von Uploads angepasst werden.
+   Abb.: Artikel – Registerkarte Bilder
 
-Wurde das erste Artikelbild hochgeladen, wird das daraus generierte Thumbnail und das Icon auf der linken Seite der Registerkarte angezeigt. Für das Artikelbild selbst ist eine Vorschau verfügbar. Nicht mehr benötigte Artikelbilder können gelöscht werden. Damit werden sie nicht nur von der Registerkarte entfernt, sondern auch vom Webserver gelöscht.
+|procedure|
 
-:guilabel:`Artikelbilder (max. 2 MB, max. 1500*1500 px)`
-   Für das Hochladen der Artikelbilder gelten Einschränkungen hinsichtlich der Dateigröße. Die Bilder sollten standardmäßig maximal 2 MB groß sein oder eine Auflösung bis höchstens 1500*1500 Pixel haben. Wird das Hochladen größerer Bilder erlaubt, kann es beim Generieren der verschiedenen Artikelbilder zu Problemen mit dem PHP-Speicherlimit kommen. Für das Hochladen und Generieren der Artikelbilder sind u.a. die Parameter upload_max_filesize und memory_limit in der Konfigurationsdatei :file:`php.ini` von Bedeutung.
+1. Öffnen Sie im Adminbereich die gewünschte Produktdetailseite.
+#. Wechseln Sie zur Registerkarte :guilabel:`Bilder`.
+#. Laden Sie bis zu sieben Bilder direkt über das Interface hoch. Wenn Sie mehr als sieben Bilder verwenden möchten, laden Sie diese per FTP hoch oder erweitern Sie das Template des Administrationsbereichs.
 
-:guilabel:`#1` - :guilabel:`#7`
-   Laden Sie hier maximal sieben Artikelbilder auf den Webserver. Die Schaltfläche :guilabel:`Durchsuchen...` öffnet einen Dateidialog, in dem Sie die entsprechende Datei auf Ihrem Rechner auswählen können. Wenn Sie nun die Schaltfläche :guilabel:`Öffnen` drücken, werden Pfad und Dateinamen direkt übernommen. Speichern startet das Hochladen des Artikelbildes und schließt damit ab, dass der Dateiname beispielsweise im Feld :guilabel:`#1` steht. Gleichzeitig wurde das Thumbnail und das Icon erzeugt.
+   :guilabel:`Artikelbilder (max. 2 MB, max. 1500 x 1500 px)`
+      Halten Sie sich beim Hochladen an die Standardgrenzen: maximal 2 MB pro Datei und maximal 1500 × 1500 Pixel. Höhere Werte können beim Generieren von Thumbnails oder Icons zu Speicherproblemen führen. Passen Sie gegebenenfalls die Werte ``upload_max_filesize`` und ``memory_limit`` in der :file:`php.ini` an.
 
-:guilabel:`Thumbnail/Icon manuell hochladen`
-   Anstelle des automatisch generierten Thumbnails und/oder Icons kann ein anderes Bild für diese Artikelansichten verwendet werden.
+   :guilabel:`#1` – :guilabel:`#7`
+      Nutzen Sie die Felder :guilabel:`#1` bis :guilabel:`#7`, um Bilder vom lokalen System auszuwählen. Klicken Sie auf :guilabel:`Durchsuchen...`, wählen Sie ein Bild, und bestätigen Sie mit :guilabel:`Öffnen`. Speichern Sie anschließend, um den Upload durchzuführen. Das System erzeugt automatisch ein Thumbnail und ein Icon.
 
-:guilabel:`Thumbnail (max. 2 MB, max. 1500*1500 px)`
-   Wenn Sie ein anderes, als das beim Hochladen des ersten Artikelbildes generierte Thumbnail möchten, laden Sie es hier hoch. Dabei wird das automatisch erzeugte Thumbnail überschrieben und das neue als Vorschau auf der linken Seite angezeigt.
+   :guilabel:`Thumbnail/Icon manuell hochladen`
+      Überschreiben Sie das automatisch erzeugte Thumbnail oder Icon durch eigene Dateien. Diese erscheinen ebenfalls in der Vorschau auf der linken Seite.
 
-:guilabel:`Icon (max. 2 MB, max. 1500*1500 px)`
-   Möchten Sie ein spezielles Artikelbild als Icon verwenden, kann es hier hochgeladen werden. Es wird dabei das automatisch erzeugte Icon überschrieben. Eine Vorschau zeigt das neue Icon auf der linken Seite der Registerkarte.
+   :guilabel:`Thumbnail (max. 2 MB, max. 1500*1500 px)`
+      Laden Sie hier ein alternatives Thumbnail hoch, falls das automatisch generierte Bild nicht Ihren Anforderungen entspricht.
+
+   :guilabel:`Icon (max. 2 MB, max. 1500*1500 px)`
+      Verwenden Sie hier ein eigenes Iconbild, wenn Sie nicht das automatisch erzeugte Icon verwenden möchten.
+
+#. Nutzen Sie die Vorschaufunktion, um die hochgeladenen Bilder zu überprüfen.
+#. Entfernen Sie nicht mehr benötigte Bilder über das Papierkorb-Symbol. Das System löscht die Dateien sowohl aus dem Shop als auch vom Webserver.
+
+|result|
+
+Nach dem Speichern zeigt der Shop das neue Artikelbild in der Detailansicht, das zugehörige Thumbnail in der Artikelliste und das Icon im Warenkorb an.
+
+
+.. seealso:: :doc:`Artikel – Registerkarte Erweitert <../artikel/registerkarte-erweitert>` | :doc:`Bilder <../../konfiguration/bilder>`
 
 .. Intern: oxbacp, Status:, F1: article_pictures.html
+
