@@ -7,7 +7,7 @@
    Users <users/index>
    User groups <user-groups/index>
    Orders <orders/index>
-   Promotions <promotions/index>
+   Promotions <promotions/configuring-promotions>
    Discounts <discounts/index>
    Coupon series <coupon-series/index>
 
@@ -17,4 +17,4 @@
    :maxdepth: 1
 
    Newsletters <newsletters/index>
-   Wished price <wished-price/index>
+   Wished price <wished-price/wished-price>

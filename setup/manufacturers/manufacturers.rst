@@ -1,51 +1,106 @@
-﻿Manufacturers
-=============
+﻿Presenting products by brand
+============================
 
-OXID eShop allows you to manage manufacturers, to which products can be assigned. This way, you can combine products by brand affiliation regardless of the categories in the shop. Products can be filtered and displayed according to the manufacturer ID in the Admin panel. Shop brands are presented in a slider, listed in the footer and can be displayed in an overview in the front end.
+Showcase the brands (manufacturers) of your OXID eShop in the storefront.
 
-.. image:: ../../media/screenshots/oxbagb01.png
-   :alt: By manufacturer | All brands
-   :height: 395
+This allows you to present products by brand, independently of their category assignment.
+
+How does it look?
+
+In the storefront, your OXID eShop displays all available brands in a brand slider (carousel, brand bar) (:ref:`oxbagb01`, item 1).
+
+.. _oxbagb01:
+
+.. figure:: ../../media/screenshots/oxbagb01.png
+   :alt: Brand slider
    :width: 650
+   :class: with-shadow
 
-In addition, an overview of all brands or an overview of all the products of a particular brand can be displayed. For the manufacturers to be displayed as brands in the front end, you will need to activate the “Load and display Manufacturer List” function in the Performance settings. To do this, check the box under :menuselection:`Master Settings --> Core Settings` --> :guilabel:`Perform.` tab.
+   Fig.: Brand slider
 
-Go to :menuselection:`Core Settings --> Brands/Manufacturers` in the shop’s Admin panel to create or edit manufacturers.
+By clicking on a brand in the slider (:ref:`oxbagb01`, item 2), customers are taken to an overview of all products assigned to that brand (:ref:`oxbagb02`, item 1).
 
-.. image:: ../../media/screenshots/oxbagb02.png
-   :alt: Manufacturers
-   :height: 535
+.. _oxbagb02:
+
+.. figure:: ../../media/screenshots/oxbagb02.png
+   :alt: Product overview by brand
    :width: 650
+   :class: with-shadow
 
-Here, you will see a list of manufacturers and the input area right below it. The manufacturer list contains the title and short description of the manufacturer. You can search for manufacturers by using the search fields. For example, if you type \"er\" in the search field above :guilabel:`Title`, you will see three manufacturers with \"er\" in their title listed in the demo shop.
+   Fig.: Product overview by brand
 
-Manufacturers can be sorted in the list by active/not active, title and short description by clicking on the respective column heading. The manufacturers are thereby displayed in ascending order.
+From the product overview of a brand (:ref:`oxbagb02`, item 4), customers can access a full brand directory (:ref:`oxbagb03`, item 1).
 
-To delete manufacturers, use the trash icon at the end of the line in the manufacturer list.
+.. _oxbagb03:
 
-When you select a manufacturer from the list, its information will be displayed in the input area. The footer contains the following links: :guilabel:`Create new Manufacturer`, :guilabel:`Reset Number of Products in Manufacturers` and :guilabel:`Start Help`.
+.. figure:: ../../media/screenshots/oxbagb03.png
+   :alt: Brand overview
+   :width: 650
+   :class: with-shadow
 
-.. hint:: To search for manufacturers in the product list, you will need the manufacturer ID. It will be displayed at the bottom of the screen when you select a manufacturer from the list of manufacturers. Right-click to copy this link and obtain the relevant manufacturer ID. Example of a link: javascript:top.oxid.admin.editThis('9434afb379a46d6c141de9c9e5b94fcf'); The manufacturer ID for Kuyichi from the demo data is 9434afb379a46d6c141de9c9e5b94fcf.
+   Fig.: Brand overview
 
------------------------------------------------------------------------------------------
+|procedure|
 
-Main tab
---------
-**Contents**: active manufacturer, brand, title, short description, icon, manufacturer’s logo, uploading, uploading to web server, automatically generated, assigning products |br|
-:doc:`Read article <main-tab>` |link|
+To display manufacturers as brands in the storefront, follow these steps:
 
-Mall tab
---------
-Available only in Enterprise Edition |br|
-**Contents**: inheriting manufacturers, assigning manufacturers, parent shop, subshop, supershop, multishop, Mall, Enterprise Edition |br|
-:doc:`Read article <mall-tab>` |link|
+1. Choose :menuselection:`Master Settings --> Brands/Manufacturers`.
+2. Click on :guilabel:`Create new Manufacturer`.
+3. In the :guilabel:`Main` tab (:ref:`oxbagb04`):
 
-SEO tab
--------
-**Contents**: search engine optimisation, SEO, SEO URL, title suffix, fixing URL, meta tags, keywords, meta name=\"keywords\", description, meta name=\"description\"\ |br|
-:doc:`Read article <seo-tab>` |link|
+   a. In the :guilabel:`Title` field, enter the brand name.
+   b. In the :guilabel:`Short Description` field, enter a tagline. This will appear on the brand's product overview page (:ref:`oxbagb02`, item 3).
+   c. Assign products to this brand.
+   d. Ensure the brand is set to active, and save your changes.
 
-.. seealso:: :doc:`Products <../products/products>` | :doc:`Distributors <../distributors/distributors>`
+   .. note::
+
+      Brands are sorted alphabetically by default using the :guilabel:`Title` field.
+
+      Values entered in the :guilabel:`Sorting` field have no effect unless you override the default behavior.
+
+      To change the sort order, you need to implement a custom solution that sorts the ``oxManufacturerList`` by ``oxsort`` instead of ``oxtitle``.
 
 
-.. Intern: oxbagb, Status: transL
+   .. _oxbagb04:
+
+   .. figure:: ../../media/screenshots/oxbagb04.png
+      :alt: Creating a brand (manufacturer)
+      :width: 650
+      :class: with-shadow
+
+      Fig.: Creating a brand (manufacturer)
+
+4. If you use the OXID eShop Enterprise Edition, use the :guilabel:`Mall` tab to link the brand to subshops and supershops.
+
+   See :doc:`Mall tab <mall-tab>` for more information.
+
+5. Optimize SEO in the :guilabel:`SEO` tab by adding suitable keywords, meta descriptions, and SEO-friendly URLs.
+
+   See :doc:`SEO tab <seo-tab>` for more details.
+
+6. In the :guilabel:`Pictures` tab, do the following:
+
+   a. Assign a brand icon. This will appear in the brand slider (:ref:`oxbagb01`, item 1), the brand overview (:ref:`oxbagb02`, item 2), and the product overview (:ref:`oxbagb03`, item 2).
+
+      Set the image size for the brand icon (width × height in pixels) in your theme settings.
+
+   b. Optionally, upload additional images:
+
+      * Alternative Icon – Use an inverted logo if your theme uses a slider with a dark background.
+
+      The following image types are not included in the APEX theme by default. You may use them by extending the theme:
+
+      * Product image (displayed on the product detail page)
+      * Thumbnail
+      * Promotional icon
+
+7. Enable brand display in the storefront.
+
+   a. Choose :menuselection:`Master Settings --> Core Settings`.
+   b. Go to the :guilabel:`Perform.` tab.
+   c. Enable the checkbox :guilabel:`Load and display Manufacturer List`.
+
+
+.. Intern: oxbagb, Status:
+
