@@ -1,31 +1,40 @@
 Registerkarte SEO
 =================
 
-Die Registerkarte :guilabel:`SEO` der CMS-Seite beinhaltet Informationen und Einstellungen, die für Suchmaschinen relevant sind.
+Optimieren Sie die Sichtbarkeit Ihrer CMS-Seiten in Suchmaschinen über die Registerkarte :guilabel:`SEO`. Hier definieren Sie gezielt URL-Strukturen sowie Meta-Informationen, die in den HTML-Quelltext übernommen werden.
 
-.. image:: ../../media/screenshots/oxbajk01.png
-   :alt: CMS-Seiten
-   :height: 343
+.. figure:: ../../media/screenshots/oxbajk01.png
+   :alt: CMS-Seiten – Registerkarte SEO
    :width: 650
+   :class: with-shadow
 
-Mit der Sprachumstellung am unteren Ende des Eingabebereichs lassen sich die Informationen und Einstellungen auch in einer weiteren aktiven Sprache bearbeiten.
+   Abb.: CMS-Seiten – Registerkarte SEO
 
-:guilabel:`URL fixiert`
-   Ändern sich Daten einer CMS-Seite, wie beispielsweise deren Titel, wird die SEO URL neu berechnet. Die Änderung wird in der Datenbanktabelle :db:`oxseohistory` protokolliert. Damit kann auf den Aufruf der bisherigen URL, die beispielsweise noch in einem Suchindex oder einer älteren E-Mail an Kunden enthalten ist, mit einer Weiterleitung (301-Header) reagiert werden.
+|procedure|
 
-Ist dieses Kontrollkästchen aktiviert, wird die ursprüngliche SEO URL nicht geändert.
+1. Öffnen Sie im Adminbereich die gewünschte CMS-Seite.
+#. Wechseln Sie zur Registerkarte :guilabel:`SEO`.
+#. Bearbeiten Sie bei Bedarf die folgenden Felder:
 
-:guilabel:`SEO URL`
-   Die URL der CMS-Seite wird angezeigt. Sie kann geändert und auch fixiert werden.
+   :guilabel:`SEO URL`
+      Passen Sie die automatisch generierte URL der CMS-Seite an. Ändern Sie diese nur, wenn Sie eine gezielte Struktur für Ihre Seiten-URLs benötigen.
 
-:guilabel:`Stichworte für Meta-Tags`
-   Die Stichwörter, die von Suchmaschinen ausgewertet werden, sind in den HTML-Quelltext (Meta Keywords) eingebunden. Wenn Sie nichts eingeben, werden die Stichwörter automatisch aus dem Titel der CMS-Seite erzeugt.
+   :guilabel:`URL fixiert`
+      Verhindern Sie, dass sich die SEO-URL bei Änderungen am Seitentitel automatisch anpasst. Aktivieren Sie dieses Kontrollkästchen, um die bestehende URL beizubehalten. Änderungen werden sonst in der Tabelle :db:`oxseohistory` dokumentiert und mit einem 301-Redirect weitergeleitet.
 
-:guilabel:`Beschreibungstext für Meta-Tags`
-   Dieser Beschreibungstext wird in den HTML-Quelltext (Meta Description) eingebunden. Dieser Text wird von vielen Suchmaschinen bei den Suchergebnissen angezeigt. Wenn Sie nichts eingeben, wird die Beschreibung automatisch aus dem Titel der CMS-Seite erzeugt.
+   :guilabel:`Stichworte für Meta-Tags`
+      Tragen Sie relevante Keywords ein, die im HTML-Quelltext als Meta-Tags erscheinen. Wenn Sie dieses Feld leer lassen, generiert der Shop automatisch Stichwörter auf Basis des Titels der CMS-Seite.
 
-:guilabel:`In Sprache`
-   Wählen Sie eine Sprache aus der Liste aus, für die Sie die SEO-Informationen und -Einstellungen bearbeiten möchten.
+   :guilabel:`Beschreibungstext für Meta-Tags`
+      Geben Sie hier eine prägnante Beschreibung der Seite ein. Diese erscheint in vielen Suchmaschinen in den Suchergebnissen. Ohne Eintrag generiert der Shop die Beschreibung automatisch.
 
+#. Wählen Sie im Feld :guilabel:`In Sprache` die gewünschte Sprache, um die SEO-Einstellungen sprachspezifisch zu hinterlegen.
+#. Speichern Sie Ihre Einstellungen.
+
+|result|
+
+Nach dem Speichern verwendet der Shop die eingegebenen SEO-Daten für die CMS-Seite – sowohl im HTML-Code als auch bei der Anzeige in Suchmaschinen.
+
+.. seealso:: :doc:`SEO-Einstellungen <../../konfiguration/seo-einstellungen>` | :doc:`CMS-Seiten <cms-seiten>`
 
 .. Intern: oxbajk, Status:

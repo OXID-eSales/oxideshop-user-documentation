@@ -7,7 +7,7 @@ Betrieb
    Benutzer <benutzer/index>
    Benutzergruppen <benutzergruppen/index>
    Bestellungen <bestellungen/index>
-   Aktionen <aktionen/index>
+   Aktionen <aktionen/aktionen-konfigurieren>
    Rabatte <rabatte/index>
    Gutscheinserien <gutscheinserien/index>
 
@@ -18,4 +18,4 @@ Betrieb
 
    Newsletter <newsletter/index>
    Links <links/index>
-   Wunschpreis <wunschpreis/index>
+   Wunschpreis <wunschpreis/wunschpreis>

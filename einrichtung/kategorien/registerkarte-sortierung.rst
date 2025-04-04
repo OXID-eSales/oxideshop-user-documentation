@@ -1,25 +1,50 @@
 ﻿Registerkarte Sortierung
-========================
+=========================
 
-Im Gegensatz zur Schnellsortierung können die Artikel einer Kategorie auch manuell in eine bestimmte Reihenfolge gebracht werden.
+Nutzen Sie die Registerkarte :guilabel:`Sortierung`, um die Artikel einer Kategorie manuell in eine feste Reihenfolge zu bringen.
 
-.. image:: ../../media/screenshots/oxbabn01.png
-   :alt: Kategorien - Registerkarte Sortierung
-   :height: 342
+Diese manuelle Sortierung unterscheidet sich von der dynamischen Schnellsortierung, da Sie hier die Reihenfolge gezielt festlegen und dauerhaft speichern können.
+
+.. figure:: ../../media/screenshots/oxbabn01.png
+   :alt: Kategorien – Registerkarte Sortierung
    :width: 650
+   :class: with-shadow
 
-Die Schaltfläche :guilabel:`Artikel sortieren` auf der Registerkarte :guilabel:`Sortierung` öffnet ein neues Fenster. In diesem Zuordnungsfenster werden in der linken Liste alle Artikel der Kategorie angezeigt. Der Wert 0 in der Positionsspalte bei allen Artikeln zeigt an, dass es bisher keine manuelle Sortierung gibt.
+   Abb.: Kategorien – Registerkarte Sortierung
 
-.. image:: ../../media/screenshots/oxbabn02.png
-   :alt: Artikel sortieren
-   :height: 323
-   :width: 400
+|procedure|
 
-Die Artikel können per Drag \& Drop in die rechte Liste verschoben und dabei in eine neue Reihenfolge gebracht werden. Die neue Sortierung lässt sich erst speichern, wenn alle Artikel einer Kategorie in die Liste :guilabel:`Neue Sortierung` verschoben wurden.
+1. Öffnen Sie im Adminbereich den Menüpunkt :menuselection:`Artikel verwalten --> Kategorien`.
+#. Wählen Sie die gewünschte Kategorie.
+#. Wechseln Sie zur Registerkarte :guilabel:`Sortierung`.
+#. Klicken Sie auf die Schaltfläche :guilabel:`Artikel sortieren`.
 
-Ist bei der Sortierung einmal ein Fehler aufgetreten, lässt diese sich einfach löschen. Sind alle Artikel in der gewünschten Reihenfolge, wird diese über die Schaltfläche :guilabel:`Neue Sortierung speichern` in die Datenbank geschrieben. Wenn Sie das Fenster schließen und erneut öffnen, wird in der linken Liste die nun aktuelle Sortierung angezeigt. Die Artikel haben in der Positionsspalte aufsteigende Zahlenwerte.
+   Das System öffnet ein Zuordnungsfenster mit zwei Spalten:
 
-.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Sortierung von Artikeln <../artikel-und-kategorien/sortierung-von-artikeln>`
+   * Links: aktuelle Artikelliste der Kategorie.
+   * Rechts: die Liste :guilabel:`Neue Sortierung`, zunächst leer.
 
+   .. figure:: ../../media/screenshots/oxbabn02.png
+      :alt: Artikel sortieren
+      :width: 400
+      :class: with-shadow
+
+      Abb.: Artikel sortieren
+
+#. Ziehen Sie die Artikel per Drag & Drop aus der linken in die rechte Liste und bringen Sie sie dabei in die gewünschte Reihenfolge.
+
+   Achten Sie darauf, dass Sie **alle** Artikel verschieben – nur dann lässt sich die Sortierung speichern.
+
+#. Klicken Sie auf :guilabel:`Neue Sortierung speichern`, um die neue Reihenfolge zu sichern.
+#. Schließen Sie das Fenster.
+
+|result|
+
+Beim erneuten Öffnen des Sortierfensters zeigt die Positionsspalte in der linken Liste aufsteigende Zahlen – beginnend mit 1. Diese Reihenfolge wird im Frontend für die jeweilige Kategorie übernommen.
+
+Wenn eine fehlerhafte Sortierung vorliegt, löschen Sie alle Einträge in der Liste :guilabel:`Neue Sortierung` und speichern Sie erneut.
+
+.. seealso:: :doc:`Artikel <../artikel/artikel>` | :doc:`Anzeigereihenfolge von Artikeln in Kategorien festlegen <../artikel-und-kategorien/sortierung-von-artikeln>`
 
 .. Intern: oxbabn, Status:, F1: category_order.html
+
