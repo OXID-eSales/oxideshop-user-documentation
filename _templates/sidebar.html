@@ -1,0 +1,29 @@
+<div class="wy-side-nav-search">
+    {% block sidebartitle %}
+    <a href="{{ pathto(master_doc) }}">
+        {% if logo and theme_logo_only %}
+        <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
+        {% else %}
+        {{ project }}
+        {% endif %}
+    </a>
+    {% if theme_display_version %}
+    <div class="version">v{{ version }}</div>
+    {% endif %}
+    {% include "searchbox.html" %}
+    {% endblock %}
+</div>
+
+<!-- DEINE VERSION VOR DER NAVIGATION -->
+{% include "versions.html" %}
+
+<nav class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+    {% block menu %}
+    {% set global_toc = toctree(maxdepth=theme_navigation_depth|int, collapse=theme_collapse_navigation, includehidden=True) %}
+    {% if global_toc %}
+    {{ global_toc }}
+    {% else %}
+    <div class="local-toc">{{ toc }}</div>
+    {% endif %}
+    {% endblock %}
+</nav>
