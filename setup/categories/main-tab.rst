@@ -48,8 +48,6 @@ The language selection list at the bottom left of the input area allows you to e
 :guilabel:`Alt Template`
    In OXID eShop, each category can have a different appearance. You can assign a separate template to present certain categories unlike any other in the shop. To do this, enter the template’s path and name here. The path is relative to the template directory of the theme used.
 
-   Example: The page/list/mylist.tpl entry for the \"Flow\" theme would call up the :file:`mylist.tpl` template from the :file:`/application/views/flow/tpl/page/list` directory.
-
 :guilabel:`Fast Sorting`
    Sorting by a certain product characteristic can be specified for products in a category. Use the drop-down list to select a particular product characteristic, such as :guilabel:`Title`, :guilabel:`Price` or :guilabel:`Last Modification`. You can sort in the :guilabel:`asc` (ascending) or in the :guilabel:`desc` (descending) order.
 

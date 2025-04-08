@@ -1,19 +1,24 @@
-﻿Products tab
-============
+﻿Restricting Discounts to Categories or Items
+=============================================
 
-Discounts can apply to categories and/or products. The :guilabel:`Products` tab allows you to configure the necessary assignments. The discount will only be granted when assigned products or products from assigned categories are added to the shopping cart. Without assignment of categories and/or products, the discount will apply globally to the entire product catalogue.
+Restrict a discount to individual items, a single category, or multiple categories.
 
-.. image:: ../../media/screenshots/oxbahj01.png
-   :alt: Discounts - Products tab
-   :height: 343
-   :width: 650
+This allows you to promote specific items or entire product groups within a discount campaign.
 
-:guilabel:`Assign Categories`
-   Clicking on this button will open the assignment window and display the two lists - :guilabel:`All Categories` and :guilabel:`Assigned Categories`. Categories can be filtered and sorted by title and short description. Drag the desired categories from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple categories. The assignment is now completed.
+|procedure|
 
-:guilabel:`Assign Products`
-   Click on :guilabel:`Assign Products` to define individual products for the discount. The assignment window opens and displays the two lists :guilabel:`All Products` and :guilabel:`Assigned Products`. Select a category from the drop-down list if you only want to display products from this category. You can also filter and sort products by product number, title and/or EAN. Drag and drop the products into the right-hand list to assign them to the discount. Hold down the Ctrl key to select multiple products.
+1. Choose :menuselection:`Shop Settings --> Discounts`.
+#. Choose an existing discount or create a new one.
+#. Enter a meaningful name for the discount and define the price reduction.
+#. In the :guilabel:`Products` tab, choose the :guilabel:`Assign Products` button or :guilabel:`Assign Categories` button.
+#. Drag and drop the desired items or categories into the right-hand list of the assignment window.
+#. Close the assignment window.
+#. Save the changes.
 
-.. seealso:: :doc:`Discounts on selected products <discounts-on-selected-products>`
+|result|
+
+The discount is applied only to the assigned items or categories.
+
+If no users or user groups are assigned, the discount applies to all customers of your OXID eShop.
 
 .. Intern: oxbahj, Status:, F1: discount_articles.html

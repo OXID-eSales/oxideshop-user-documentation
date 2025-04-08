@@ -1,60 +1,77 @@
-﻿Shipping costs for products from specific categories
-====================================================
+﻿Defining shipping costs by category
+===================================
 
-Each online shop usually has a catalogue of various products. The shipping can be set in such a way that products from specific categories are shipped at lower costs. If additional products from other categories are added to the shopping cart, higher shipping costs will apply. To do this, you will need to use the shipping cost rules that depend on the categories.
+.. todo: #SB: check
 
-When the customer selects a shipping method in the ordering process, all shipping cost rules belonging to the shipping method will be processed. The system will check whether the specified condition (the assigned categories) is met in terms of the products in the shopping cart. Only if the condition is met will the shipping cost rule be applied in the calculation of the shipping costs.
+An online shop typically offers a wide variety of products.
 
-Defining the categories as a condition in the shipping cost rules.
+You can configure shipping so that products from specific categories are shipped at reduced rates.
 
-* Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
-* Select the desired shipping cost rule from the list.
-* Click on :guilabel:`Assign Categories` in the :guilabel:`Products` tab.
-* Drag and drop the categories into the right-hand list of the assignment window.
-* Close the assignment window.
-* Enter a price in the :guilabel:`Main` tab.
-* Configure all other settings of the shipping cost rule.
-* Save the changes.
+If products from other categories are also added to the shopping cart, higher shipping costs will apply. To handle this, shipping cost rules are used that work based on assigned categories.
 
-The shipping cost rule is assigned to a shipping method.
+During the checkout process, the customer selects a shipping method. All shipping cost rules assigned to this shipping method will be evaluated. The system checks whether the defined condition (assigned categories) is met for the products in the shopping cart.
 
-* Go to :menuselection:`Shop Settings --> Shipping Methods`.
-* Select the desired shipping method from the list.
-* Click on :guilabel:`Assign Shipping Cost Rules` in the :guilabel:`Main` tab.
-* Drag and drop the shipping cost rule into the right-hand list of the assignment window.
-* Close the assignment window.
+The shipping cost rule is only taken into account if the condition is fulfilled.
 
-.. hint:: At least one payment method and one shipping cost rule must be assigned to the shipping method. Countries should also be assigned to ensure that the definition of shipping and payment is stringent. If no country has been assigned, the shipping method will apply to all countries.
+Procedure
+---------
 
-Example
---------
-The example shows how products from a certain category can be shipped at cheaper rates than other products. You will need to use two shipping rules with the quantity as the condition. A quantity range from 1 to 99999999 ensures that this condition will always apply. The calculation takes place once per cart. The assignment of countries is optional. Make sure to activate the shipping cost rule.
+1. Define categories as a condition.
 
-Create the first shipping cost rule with a price of €4.99. All products except from the \"Accessories\" category will be subject to the second shipping cost rule with a surcharge of €2.50.
+   a. Go to :menuselection:`Shop Settings --> Shipping Cost Rules`.
+   #. Select the desired shipping cost rule from the list.
+   #. In the :guilabel:`Products` tab, click :guilabel:`Assign Categories`.
+   #. Drag and drop the categories into the right-hand list of the assignment window.
+   #. Close the assignment window.
+   #. In the :guilabel:`Main` tab, enter a price.
+   #. Complete the remaining settings of the shipping cost rule.
+   #. Save the changes.
 
-.. image:: ../../media/screenshots/oxbafz01.png
-   :alt: Shipping costs DHL - standard product: +2.50 euros
-   :height: 343
+#. Assign a shipping cost rule to a shipping method.
+
+   .. hint:: At least one shipping cost rule and one payment method must be assigned to the shipping method.
+
+      Countries should also be assigned to ensure a consistent definition of shipping and payment. If no countries are assigned, the shipping method will apply to all countries.
+
+   a. Go to :menuselection:`Shop Settings --> Shipping Methods`.
+   #. Select the desired shipping method from the list.
+   #. In the :guilabel:`Main` tab, click :guilabel:`Assign Shipping Cost Rules`.
+   #. Drag and drop the shipping cost rule into the right-hand list of the assignment window.
+   #. Close the assignment window.
+
+Example: Categories and shipping cost rules in the demo shop
+-------------------------------------------------------------
+
+In the demo shop, the categories are assigned to shipping cost rules and prioritized as follows (:ref:`oxbafz01`, Pos. 2):
+
+======================== ================================================ ====================
+Category                 Shipping cost rule                               Priority
+======================== ================================================ ====================
+Vehicles                 Shipping cost rule Car Delivery                  0
+Axles, axle parts,       Shipping cost rule Freight forwarding            5
+body, wheels
+All other categories     Shipping cost rules Standard and Express         10
+======================== ================================================ ====================
+
+By activating the setting :guilabel:`Don't calculate further Rules if this Rule matches` (:ref:`oxbafz01`, Pos. 3), you ensure that the customer is charged only the highest applicable shipping cost.
+
+.. _oxbafz01:
+
+.. figure:: ../../media/screenshots/oxbafz01.png
+   :alt: Example: Shipping cost rule for the Vehicles category
    :width: 650
+   :class: with-shadow
 
-All categories except the \"Accessories” category have been assigned to the shipping cost rule shown in the screenshot. Both shipping rules belong to the \"DHL GoGreen\" shipping method. If the customer selects this shipping method when placing an order, both shipping cost rules will be checked.
+   Fig.: Example: Shipping cost rule for the Vehicles category
 
-If the shopping cart contains a product from kiteboarding accessories, the first shipping cost rule will apply. The shipping will cost €4.99.
+This covers the use case where, for example, vehicles are sold that may be shipped along with winter tires or merchandise during transportation.
 
-.. image:: ../../media/screenshots/oxbafz02.png
-   :alt: Shopping cart with kite lines
-   :height: 263
-   :width: 550
+If, on the other hand, the products are shipped separately, deactivate the setting :guilabel:
+. In that case, both shipping cost rules will be applied, and the shipping costs will be added together.
 
-If the customer adds a harness to the shopping cart, the second shipping cost rule will also apply. The total shipping costs will be €7.49.
+In our example, vehicle delivery is billed separately for each shipment (:ref:`oxbafz01`, Pos. 1), whereas the costs for freight forwarding or parcel shipping are only charged once per shopping cart.
 
-.. image:: ../../media/screenshots/oxbafz03.png
-   :alt: Shopping cart with kite lines and harness
-   :height: 313
-   :width: 550
+.. seealso:: :doc:`Shipping Cost Rules - Products tab <../shipping-cost-rules/products-tab>` | :doc:`Shipping Methods - Main tab <../shipping-methods/main-tab>`
 
-The shipping of a single harness will also cost €7.49 because both shipping cost rules will apply. The first shipping cost rule will apply to all products, and the second shipping cost rule will exclude only products from kiteboarding accessories.
-
-.. seealso:: :doc:`Shipping cost rules - Products tab <../shipping-cost-rules/products-tab>` | :doc:`Shipping methods - Main tab <../shipping-methods/main-tab>`
 
 .. Intern: oxbafz, Status:

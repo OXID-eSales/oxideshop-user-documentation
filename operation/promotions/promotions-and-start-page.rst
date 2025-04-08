@@ -1,4 +1,5 @@
-﻿Promotions and start page
+﻿:orphan:
+Promotions and start page
 =========================
 
 Dsplay promotions on the shop’s start page.
