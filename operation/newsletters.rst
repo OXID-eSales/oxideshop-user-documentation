@@ -75,7 +75,7 @@ To do so, export a list of newsletter subscribers to the external provider.
 
 .. _oxbaie03:
 
-.. figure:: ../media/screenshots/oxbaie02.png
+.. figure:: ../media/screenshots/oxbaie03.png
    :alt: Exporting users
    :width: 650
    :class: with-shadow

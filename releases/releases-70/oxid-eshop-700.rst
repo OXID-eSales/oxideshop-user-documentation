@@ -148,7 +148,7 @@ Customers can still subscribe to newsletters.
 
 To use the data in a professional marketing tool, export the list of your newsletter subscribers in the administration area.
 
-For more information, see :doc:`Newsletters <../../operation/newsletters/newsletters>`.
+For more information, see :doc:`Newsletters <../../operation/newsletters>`.
 
 News
 ^^^^
