@@ -12,7 +12,7 @@ Customers subscribe to the newsletter either when they register or by filling ou
 
 Customers receive a confirmation e-mail and must explicitly agree to the sending of newsletters. This procedure is known as double opt-in and ensures that no unauthorized person can subscribe to the newsletter.
 
-.. figure:: ../../media/screenshots/oxbaie01.png
+.. figure:: ../media/screenshots/oxbaie01.png
    :alt: Subscribing to a newsletter
    :width: 650
    :class: with-shadow
@@ -23,7 +23,7 @@ Customers can unsubscribe from the newsletter by filling out the newsletter form
 
 .. _oxbaie02:
 
-.. figure:: ../../media/screenshots/oxbaie02.png
+.. figure:: ../media/screenshots/oxbaie02.png
    :alt: Editing the newsletter form
    :width: 650
    :class: with-shadow
@@ -75,7 +75,7 @@ To do so, export a list of newsletter subscribers to the external provider.
 
 .. _oxbaie03:
 
-.. figure:: ../../media/screenshots/oxbaie02.png
+.. figure:: ../media/screenshots/oxbaie03.png
    :alt: Exporting users
    :width: 650
    :class: with-shadow
@@ -84,4 +84,5 @@ To do so, export a list of newsletter subscribers to the external provider.
 
 
 .. Intern: oxbaie, Status:
+
 

@@ -16,5 +16,5 @@
 .. toctree::
    :maxdepth: 1
 
-   Newsletters <newsletters/index>
+   Newsletters <newsletters>
    Wished price <wished-price/wished-price>
