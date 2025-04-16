@@ -14,7 +14,7 @@ Die Kunden erhalten eine Bestätigungs-E-Mail und müssen dem Versand von Newsle
 
 .. _oxbaie01:
 
-.. figure:: ../../media/screenshots/oxbaie01.png
+.. figure:: ../media/screenshots/oxbaie01.png
    :alt: Newsletter abonnieren
    :width: 650
    :class: with-shadow
@@ -25,7 +25,7 @@ Kunden können den Newsletter abbestellen, indem sie das Newsletter-Formular aus
 
 .. _oxbaie02:
 
-.. figure:: ../../media/screenshots/oxbaie02.png
+.. figure:: ../media/screenshots/oxbaie02.png
    :alt: Newsletter-Formular bearbeiten
    :width: 650
    :class: with-shadow
@@ -77,7 +77,7 @@ Exportieren Sie eine Liste der Newsletter-Abonnenten, die Sie dem externen Anbie
 
 .. _oxbaie03:
 
-.. figure:: ../../media/screenshots/oxbaie03.png
+.. figure:: ../media/screenshots/oxbaie03.png
    :alt: Benutzer als CSV-Datei exportieren
    :width: 650
    :class: with-shadow
@@ -86,3 +86,4 @@ Exportieren Sie eine Liste der Newsletter-Abonnenten, die Sie dem externen Anbie
 
 
 .. Intern: oxbaie, Status:
+
