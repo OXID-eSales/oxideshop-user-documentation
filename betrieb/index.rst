@@ -16,6 +16,6 @@ Betrieb
 .. toctree::
    :maxdepth: 1
 
-   Newsletter <newsletter/newsletter>
+   Newsletter <newsletter>
    Links <links/index>
    Wunschpreis <wunschpreis/wunschpreis>

@@ -24,20 +24,20 @@ Diese Einschränkung gilt so lange, bis sich der Kunde anmeldet **und** einer be
 
 |prerequisites|
 
-Um eine Benutzergruppe zuzuweisen, müssen Sie sie zuvor erstellt haben.
+* Um eine Benutzergruppe zuzuweisen, haben Sie sie zuvor erstellt.
 
-Um neue Benutzergruppen anzulegen, wählen Sie :menuselection:`Benutzer verwalten --> Benutzergruppen`.
+  Um neue Benutzergruppen anzulegen, wählen Sie :menuselection:`Benutzer verwalten --> Benutzergruppen`.
 
 |procedure|
 
 1. Öffnen Sie im Adminbereich den gewünschten Artikel unter :menuselection:`Artikel verwalten --> Artikel`.
-2. Wechseln Sie zur Registerkarte :guilabel:`Rechte`.
-3. Klicken Sie auf eine der folgenden Schaltflächen, je nach gewünschter Einschränkung:
+#. Wechseln Sie zur Registerkarte :guilabel:`Rechte`.
+#. Klicken Sie auf eine der folgenden Schaltflächen, je nach gewünschter Einschränkung:
 
    * :guilabel:`Benutzergruppen zuordnen (Ausschließlich sichtbar)`
    * :guilabel:`Benutzergruppen zuordnen (Ausschließlich kaufbar)`
 
-4. Wählen Sie im Zuordnungsfenster die entsprechenden Benutzergruppen aus der Liste :guilabel:`Alle Benutzergruppen`.
+#. Wählen Sie im Zuordnungsfenster die entsprechenden Benutzergruppen aus der Liste :guilabel:`Alle Benutzergruppen`.
 
    .. figure:: ../../media/screenshots/oxbact02.png
       :alt: Benutzergruppen zuordnen (Ausschließlich sichtbar)
@@ -46,12 +46,12 @@ Um neue Benutzergruppen anzulegen, wählen Sie :menuselection:`Benutzer verwalte
 
       Abb.: Benutzergruppen zuordnen (Ausschließlich sichtbar)
 
-5. Filtern oder sortieren Sie die Gruppen bei Bedarf.
-6. Ziehen Sie die gewünschten Gruppen per Drag & Drop in die rechte Liste.
+#. Filtern oder sortieren Sie die Gruppen bei Bedarf.
+#. Ziehen Sie die gewünschten Gruppen per Drag & Drop in die rechte Liste.
 
    Nutzen Sie die Strg-Taste, um mehrere Gruppen gleichzeitig auszuwählen.
 
-8. Schließen Sie das Fenster, um die Zuordnung zu speichern.
+#. Schließen Sie das Fenster, um die Zuordnung zu speichern.
 
 |result|
 
