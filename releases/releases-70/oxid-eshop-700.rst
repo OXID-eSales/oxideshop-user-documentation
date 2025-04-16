@@ -152,7 +152,7 @@ Kunden können Newsletter nach wie vor abonnieren.
 
 Um die Daten in einem professionellen Marketing-Tool zu verwenden, exportieren Sie die Liste Ihrer Newsletter-Abonnenten im Administrationsbereich.
 
-Weitere Informationen finden Sie unter :doc:`Newsletter <../../betrieb/newsletter/newsletter>`.
+Weitere Informationen finden Sie unter :doc:`Newsletter <../../betrieb/newsletter>`.
 
 Nachrichten (News)
 ^^^^^^^^^^^^^^^^^^
