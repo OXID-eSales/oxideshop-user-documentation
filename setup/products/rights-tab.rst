@@ -24,9 +24,9 @@ This restriction remains in place until the customer logs in and belongs to a gr
 
 |prerequisites|
 
-To assign a user group, you have created it already.
+* To assign a user group, you have created it already.
 
-To create new user groups, choose :menuselection:`Administer Users --> User Groups`.
+  To create new user groups, choose :menuselection:`Administer Users --> User Groups`.
 
 |procedure|
 
