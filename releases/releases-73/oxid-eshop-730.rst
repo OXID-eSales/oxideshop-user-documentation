@@ -12,7 +12,6 @@ Core
 * Unterstützung von PHP 8.4
 
 
-
 APEX
 ^^^^
 
@@ -131,7 +130,7 @@ Komponenten
 Aktualisierte Komponenten
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #HR: Versionsnummern aktualisieren
+.. todo: #HR: Versionsnummern der Komponenten aktualisieren
 
 Wir haben die folgenden Komponenten und Module aktualisiert:
 

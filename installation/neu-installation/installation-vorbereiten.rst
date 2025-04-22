@@ -1,7 +1,7 @@
 ﻿Installation vorbereiten
 ========================
 
-Für die Neu-Installation des OXID eShop 7.2 sind einige Vorbereitungen notwendig.
+Für die Neu-Installation des OXID eShop 7.3 sind einige Vorbereitungen notwendig.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
               :class: no-shadow
@@ -23,17 +23,17 @@ Wenn Sie die entwicklungsbezogenen Dateien brauchen, führen Sie Befehl ohne den
 Community Edition
 ^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.2-ce`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.3-ce`
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.2-pe`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.3-pe`
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.2-ee`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.3-ee`
 
 Nachdem Composer seine Arbeit beendet hat, existiert das mit *your_project_name* benannte neue Verzeichnis. Dieses ist das Hauptverzeichnis (Root) des Projektes und enthält alle Dateien, die für die Installation des OXID eShop benötigt werden.
 
