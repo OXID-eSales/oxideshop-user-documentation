@@ -9,7 +9,9 @@ Für die Neu-Installation des OXID eShop 7.3 sind einige Vorbereitungen notwendi
 |schritt| Composer
 --------------------------------------
 
-Für den :doc:`Betrieb des OXID eShop </installation/neu-installation/server-und-systemvoraussetzungen>` benötigen Sie das Dependency Management Tool `Composer <https://getcomposer.org/>`_.
+Um OXID eShop zu installieren, muss Composer installiert sein.
+
+Weitere Informationen zum Installieren von Composer finde Sie im Abschnitt „Erste Schritte“ auf der Composer-Website: `getcomposer.org <http://getcomposer.org>`_.
 
 |schritt| Shop-Dateien bereitstellen
 ------------------------------------
