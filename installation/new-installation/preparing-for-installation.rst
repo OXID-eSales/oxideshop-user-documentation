@@ -6,14 +6,12 @@ Some preparations are necessary for the new installation of OXID eShop 7.3.
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
 
-|schritt| Installing Composer 2.2.23
-------------------------------------
+|schritt| Installing Composer
+-----------------------------
 
-As of version 6, OXID eShop is no longer installed based on packaged and downloadable installation packages but with the help of Composer. Composer is a dependency manager for PHP, a tool that takes into account the dependencies of a project’s program components while installing the files of that project in a defined directory.
+To install OXID eShop, install Composer.
 
-You need Composer for the new installation of OXID eShop. See :ref:`installation/new-installation/server-and-system-requirements:Server and system requirements` section :ref:`installation/new-installation/server-and-system-requirements:Composer`.
-
-Installation instructions can be found in the “Getting Started” section of the Composer website: http://getcomposer.org.
+For more information about installing Composer, see the “Getting Started” section of the Composer website: `getcomposer.org <http://getcomposer.org>`_.
 
 |schritt| Providing shop files
 ------------------------------
