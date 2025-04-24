@@ -22,13 +22,33 @@ Administration
 
 .. todo: #HR: Neuerungen ergänzen
 
-Neue Module für Professional und Enterprise Edition
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Neue und aktualisierte Module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #HR: Neuerungen im :productname:`OXID Security-Modul` ergänzen
+.. todo: OXDEV-9193 (Cache clear button)?
 
-* :productname:`OXID Security-Modul`
+* Nutzen Sie das neue Admin-Tool, um ...
 
+Nutzen Sie mit OXID eShop 7.3 die Funktionen folgenderr aktualisierter Module:
+
+.. todo: #HR: Neuerungen im :productname:`OXID Security-Modul` ergänzen: V. 2.0 = OXDEV-8930 CAPTCHA)
+
+* :productname:`OXID Security-Modul` 2.0
+
+  .. todo: #tbd: Verify URLs:
+  .. todo: #HR: Kommen die Module alle gleichzeitig, sodass es sinnvoll ist, auf den Release Notes zu verweisen?
+
+  Weitere Informationen finden Sie unter `OXID Security-Modul <https://docs.oxid-esales.com/modules/security/de/2.0/releases/security-module-200.html>`_.
+
+* :productname:`OXID eShop Enterprise B2B Edition` 7.3
+
+  Weitere Informationen finden Sie unter `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_.
+
+* ERP
+* Usercentrics
+* GDPR
+* Geoblocking
+* eVAT
 
 VCMS
 ^^^^
@@ -49,7 +69,7 @@ Im Detail
 User Experience
 ^^^^^^^^^^^^^^^
 
-.. todo: #HR:
+.. todo: #HR: kommt da etwas?
 
 Verbessern Sie mit ...
 
@@ -57,6 +77,8 @@ Weitere Informationen finden Sie unter :ref:`tbd:tbd`.
 
 Sicherheit & Zuverlässigkeit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #HR: kommt da etwas?
 
 * Aus Sicherheitsgründen erfordert OXID eShop 7.3.0 ...
 
@@ -69,18 +91,10 @@ Kleinere Verbesserungen ....
 
 Weitere Informationen finden Sie im `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x/CHANGELOG-7.3.md>`_.
 
-Neue Module
-^^^^^^^^^^^
-
-Für die die Professional Edition und die Enterprise Edition stehen folgende neuen Module zur Verfügung:
-
-* :productname:`OXID Security-Modul`: Konfigurieren Sie ...
-
-  Weitere Informationen finden Sie unter `... <https://docs.oxid-esales.com/modules/security/de/1.0/einfuehrung.html#was-ist-eine-passwortrichtlinie>`_.
-
-
 Visual CMS & Mediathek
 ^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #HR: kommt da noch Info?
 
 Siehe Changelogs:
 
