@@ -29,7 +29,7 @@ Neue und aktualisierte Module
 
 * Nutzen Sie das neue Admin-Tool, um ...
 
-Nutzen Sie mit OXID eShop 7.3 die Funktionen folgenderr aktualisierter Module:
+Nutzen Sie mit OXID eShop 7.3 die Funktionen folgender aktualisierter Module:
 
 .. todo: #HR: Neuerungen im :productname:`OXID Security-Modul` ergänzen: V. 2.0 = OXDEV-8930 CAPTCHA)
 
@@ -44,14 +44,12 @@ Nutzen Sie mit OXID eShop 7.3 die Funktionen folgenderr aktualisierter Module:
 
   Weitere Informationen finden Sie unter `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_.
 
-* ERP
-* Usercentrics
-* GDPR
-* Geoblocking
-* eVAT
-
-VCMS
-^^^^
+* :productname:`OXID ERP Interface` 4.2
+* :productname:`OXID eShop eVAT` 4.2
+* :productname:`Visual CMS`
+* :productname:`OXID Cookie Management powered by usercentrics` 3.1
+* :productname:`GDPR Opt-in` 4.2
+* :productname:`Geo-blocking` 2.3
 
 .. todo: #HR/#MF: VCMS-Neuerungen erg.
 
