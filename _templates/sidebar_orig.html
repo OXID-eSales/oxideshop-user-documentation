@@ -11,8 +11,12 @@
     <div class="version">v{{ version }}</div>
     {% endif %}
     {% include "searchbox.html" %}
+    <!-- DEINE VERSION VOR DER NAVIGATION -->
+    {% include "versions.html" %}
     {% endblock %}
 </div>
+
+
 
 <nav class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
     {% block menu %}

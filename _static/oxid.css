@@ -20,11 +20,11 @@
     padding: 0;
 }
 
-.rst-content .docutils{
+.rst-content .docutils {
     padding: 0;
 }
 
-.file .pre{
+.file .pre {
     border: 0px;
     background: none;
     color: black;
@@ -33,22 +33,23 @@
     font-weight: bold;
 }
 
-.pre{
-   color: #00008B; 
-   background-color: #F8F8FF;
+.pre {
+    color: #00008B;
+    background-color: #F8F8FF;
 }
 
-code, .rst-content code{
+code, .rst-content code {
     background: none;
     border: 0px;
     font-size: 90%;
 }
+
 /* Screenshots mit Schatten */
 .with-shadow {
     box-shadow: 0 4px 10px #bababa;
 }
 
-/* Tabellen mit viel Text ohne horizontale Scrollbars  */
+/* Tabellen mit viel Text ohne horizontale Scrollbars */
 .wy-table-responsive table td {
     white-space: normal;
 }
@@ -58,8 +59,6 @@ code, .rst-content code{
     border-right: solid 2px #e1e4e5;
     background-color: #bfbfbf;
     padding: 5px;
-/*  background-color: #c6d9ec;
-    color: #00008B; */
 }
 
 /* Kompaktere Tabellen, horizontale und vertikale Ausrichtung in der Tabelle */
@@ -75,7 +74,7 @@ code, .rst-content code{
     font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
-/* neue Formatierung der Beschreibung von Steuerelementen (dafür wird Definition list verwendet) */
+/* Neue Formatierung der Beschreibung von Steuerelementen (dafür wird Definition list verwendet) */
 dl.docutils dd {
     margin-left: unset;
     margin-bottom: 24px;
@@ -86,11 +85,150 @@ dl.docutils dd {
 div.section img {
     box-shadow: 0 4px 10px #bababa;
 }
+
 .no-shadow {
     box-shadow: initial !important;
 }
 
-/* vertikale Zentrierung der Texte next/prev in den Buttons der Fußzeile */
+/* Vertikale Zentrierung der Texte next/prev in den Buttons der Fußzeile */
 a.btn.btn-neutral {
     padding-bottom: 4px;
+}
+
+/* Versions-Switcher */
+.rst-versions {
+    margin-top: 10px; /* Abstand zum vorherigen Element */
+    margin-bottom: 10px; /* Abstand zum nächsten Element */
+    width: 100%;
+    background-color: #212327; /* Schwarze/Dunkelgraue Hintergrundfarbe */
+    color: #ffffff; /* Weißer Text für Lesbarkeit */
+    padding: 10px; /* Innenabstand für besseres Aussehen */
+    position: relative; /* Für relative Positionierung des Dropdowns */
+}
+
+/* Aktuelle Version im Switcher */
+.rst-versions .rst-current-version,
+.rst-versions .rst-current-version span,
+.rst-versions .rst-current-version .fa-book,
+.rst-versions .rst-current-version .fa-caret-down,
+.rst-versions .rst-current-version .version-text,
+.rst-versions .rst-current-version .version-number {
+    background-color: #212327; /* Gleiche Hintergrundfarbe wie .rst-versions */
+    color: #ffffff;
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Extrem spezifische Regeln für version-number und version-text */
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"] .version-number,
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"] .version-text {
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Sicherstellen, dass übergeordnete Elemente keine Serifenschrift vererben */
+.wy-nav-side .rst-versions,
+.wy-nav-side .rst-versions .rst-current-version {
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Links-Ausrichtung für Versions-Switcher-Elemente */
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"] {
+    text-align: left !important; /* Erzwinge linksbündige Ausrichtung */
+}
+
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"] .fa-book,
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"] .version-text,
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"] .version-number {
+    display: inline-block !important;
+    text-align: left !important;
+    float: left !important;
+    margin-right: 5px; /* Abstand zwischen Elementen */
+}
+
+/* Sicherstellen, dass das Caret-Down-Icon rechts bleibt */
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"] .fa-caret-down {
+    float: right !important;
+}
+
+/* Erzwinge Schriftart für Text innerhalb von .fa-book */
+.rst-versions .rst-current-version .fa-book {
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+
+/* Stelle sicher, dass FontAwesome nur für Icons verwendet wird */
+.rst-versions .rst-current-version .fa-book::before {
+    font-family: FontAwesome !important;
+    content: "\f02d"; /* Font Awesome Code für das Buch-Icon */
+}
+
+.rst-versions .rst-current-version .fa-caret-down::before {
+    font-family: FontAwesome !important;
+    content: "\f0d7"; /* Font Awesome Code für das Caret-Down-Icon */
+}
+
+/* Dropdown-Menü */
+.rst-other-versions {
+    display: none; /* Standardmäßig ausgeblendet */
+    position: absolute; /* Relativ zum .rst-versions-Container */
+    top: 100%; /* Direkt unter dem Versions-Switcher */
+    left: 0;
+    width: 100%;
+    background: #212327; /* Gleiche Hintergrundfarbe wie Versions-Switcher */
+    color: #ffffff; /* Weißer Text */
+    z-index: 1000; /* Über anderen Elementen */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Schatten für Sichtbarkeit */
+}
+
+/* Dropdown sichtbar machen, wenn shift-up aktiv ist */
+.rst-versions.shift-up .rst-other-versions {
+    display: block;
+}
+
+/* Links im Dropdown */
+.rst-other-versions a {
+    color: #ffffff; /* Weiße Links für Lesbarkeit */
+    text-decoration: none;
+}
+
+.rst-other-versions a:hover {
+    color: #cccccc; /* Hellgrau beim Hover */
+}
+
+
+
+
+/* 1) Flex-Container auf exakt das gleiche Element setzen */
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"] {
+    display: flex !important;
+    align-items: center;
+    white-space: nowrap; /* verhindert Umbruch */
+}
+
+/* 2) floats abschalten & etwas Abstand geben */
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"]
+.fa-book,
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"]
+.version-text,
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"]
+.version-number,
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"]
+.fa-caret-down {
+    float: none !important;
+    margin: 0 0.25em;
+}
+
+/* 3) Version-Nummer nach rechts schieben */
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"]
+.version-number {
+    margin-left: auto !important; /* schiebt alles nach rechts */
+    font-family: "Lato", Arial, sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+
+/* 4) Caret-Icon sitzt direkt neben der Nummer */
+.wy-nav-side .rst-versions .rst-current-version[data-toggle="rst-current-version"]
+.fa-caret-down {
+    margin-left: 0 !important;
 }
