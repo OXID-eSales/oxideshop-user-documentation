@@ -1,18 +1,24 @@
-:orphan:
 OXID eShop 6.5.5
 ================
 
-Veröffentlichungstermin: 02.12.2024
+Veröffentlichungstermin: 13.05.2025
 
-Um eine Sicherheitslücke im Composer zu schließen, installieren Sie OXID eShop 6.5.5.
+Um zwei Sicherheitslücken zu schließen, installieren Sie OXID eShop 6.5.5.
 
-Aus Sicherheitsgründen erfordert OXID eShop 6.5.5 die Composer-Version 2.7.7
+* Schwachstelle im Smarty‑basierten Rendering
 
-Weitere Informationen finden Sie unter
+  Wenn in einer HTML‑Vorlage während des Renderns ein Fehler auftritt, wird der bereits aufgebaute Seiteninhalt nicht verworfen, sondern ungefiltert ausgegeben. Dadurch können zwischengespeicherte Daten – etwa ein Passwort‑Reset‑Link – unerlaubt im Frontend sichtbar werden.
 
-* `Composer Version 2.7.7 <https://github.com/composer/composer/releases/tag/2.7.7>`_
-* `CVE-2024-35241 <https://github.com/advisories/GHSA-47f6-5gq3-vx9c>`_
-* `CVE-2024-35242 <https://github.com/advisories/GHSA-v9qv-c7wm-wgmf>`_
+  Weitere Informationen finden Sie im `Security Bulletin 2025-001 <https://docs.oxid-esales.com/en/security/security-bulletins.html#security-bulletin-2025-001>`_.
+* Sicherheitslücke im Composer
+
+  Aus Sicherheitsgründen erfordert OXID eShop 6.5.5 die Composer-Version 2.7.7
+
+  Weitere Informationen finden Sie unter
+
+  * `Composer Version 2.7.7 <https://github.com/composer/composer/releases/tag/2.7.7>`_
+  * `CVE-2024-35241 <https://github.com/advisories/GHSA-47f6-5gq3-vx9c>`_
+  * `CVE-2024-35242 <https://github.com/advisories/GHSA-v9qv-c7wm-wgmf>`_
 
 Verbesserungen und Anpassungen
 ------------------------------
@@ -24,14 +30,14 @@ Aktualisierte Komponenten
 
 Folgende Komponenten und Module haben wir aktualisiert:
 
-* OXID eShop CE (Update von 6.14.2 auf 6.14.3): `Changelog 6.14.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.3/CHANGELOG.md>`_
+* OXID eShop CE (Update von 6.14.2 auf 6.14.4): `Changelog 6.14.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.4/CHANGELOG.md>`_
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Die Compilation enthält folgende Komponenten:
 
-* OXID eShop CE 6.14.3: `Changelog 6.14.3 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.3/CHANGELOG.md>`_
+* OXID eShop CE 6.14.4: `Changelog 6.14.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.44/CHANGELOG.md>`_
 * OXID eShop composer plugin 5.2.2: `Changelog 5.2.2 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.2.2/CHANGELOG.md>`_
 * Theme "Flow" 3.8.1: `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" 1.8.0: `Changelog 1.8.0 <https://github.com/OXID-eSales/wave-theme/blob/v1.8.0/CHANGELOG.md>`_
@@ -42,19 +48,15 @@ Die Compilation enthält folgende Komponenten:
 * PayPal 6.5.0: `Changelog 6.5.0 <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>`_
 * WYSIWYG Editor + Mediathek 2.4.2: `Changelog 2.4.2 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.2/CHANGELOG.md>`_
 * Makaira 1.4.5: `Changelog 1.4.5 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.5/CHANGELOG.md>`_
-* Unzer Payment für OXID 1.2.1 (EE): `Changelog 1.2.1 <https://github.com/OXID-eSales/unzer-module/blob/v1.2.1/CHANGELOG.md>`_
-
+* Unzer Payment für OXID 1.1.1 (EE): `Changelog 1.1.1 <https://github.com/OXID-eSales/unzer-module/blob/v1.1.1/CHANGELOG.md>`_
 
 Installation
 ------------
 
 Zum Installieren oder Aktualisieren folgen Sie den Anleitungen im Abschnitt *Installation*:
 
-
 :doc:`Neu-Installation <../../installation/neu-installation/neu-installation>` |br|
 :doc:`Minor Update installieren <../../installation/update/minor-update>` |br|
 :doc:`Patch-Update installieren <../../installation/update/patch-update>`
 
 .. Intern: , Status:
-
-
