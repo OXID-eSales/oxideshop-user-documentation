@@ -37,7 +37,7 @@ Komponenten der Compilation
 
 Die Compilation enthält folgende Komponenten:
 
-* OXID eShop CE 6.14.4: `Changelog 6.14.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.44/CHANGELOG.md>`_
+* OXID eShop CE 6.14.4: `Changelog 6.14.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.4/CHANGELOG.md>`_
 * OXID eShop composer plugin 5.2.2: `Changelog 5.2.2 <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v5.2.2/CHANGELOG.md>`_
 * Theme "Flow" 3.8.1: `Changelog 3.8.1 <https://github.com/OXID-eSales/flow_theme/blob/v3.8.1/CHANGELOG.md>`_
 * Theme "Wave" 1.8.0: `Changelog 1.8.0 <https://github.com/OXID-eSales/wave-theme/blob/v1.8.0/CHANGELOG.md>`_
