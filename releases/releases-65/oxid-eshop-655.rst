@@ -31,6 +31,7 @@ Aktualisierte Komponenten
 Folgende Komponenten und Module haben wir aktualisiert:
 
 * OXID eShop CE (Update von 6.14.2 auf 6.14.4): `Changelog 6.14.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.4/CHANGELOG.md>`_
+* Visual CMS 3.7.0 (Update von 3.6.1 auf 3.7.0): `Changelog 3.7.0 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.7.0/CHANGELOG.md>`_
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -49,6 +50,7 @@ Die Compilation enthält folgende Komponenten:
 * WYSIWYG Editor + Mediathek 2.4.2: `Changelog 2.4.2 <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v2.4.2/CHANGELOG.md>`_
 * Makaira 1.4.5: `Changelog 1.4.5 <https://github.com/MakairaIO/oxid-connect-essential/blob/1.4.5/CHANGELOG.md>`_
 * Unzer Payment für OXID 1.2.1 (EE): `Changelog 1.2.1 <https://github.com/OXID-eSales/unzer-module/blob/v1.2.1/CHANGELOG.md>`_
+* Visual CMS 3.7.0 (PE/EE): `Changelog 3.7.0 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.7.0/CHANGELOG.md>`_
 
 Installation
 ------------
