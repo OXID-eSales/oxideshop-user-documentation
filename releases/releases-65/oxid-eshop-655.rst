@@ -32,6 +32,7 @@ Folgende Komponenten und Module haben wir aktualisiert:
 
 * OXID eShop CE (Update von 6.14.2 auf 6.14.4): `Changelog 6.14.4 <https://github.com/OXID-eSales/oxideshop_ce/blob/v6.14.4/CHANGELOG.md>`_
 * Visual CMS 3.7.0 (Update von 3.6.1 auf 3.7.0): `Changelog 3.7.0 <https://github.com/OXID-eSales/visual_cms_module/blob/v3.7.0/CHANGELOG.md>`_
+* Unzer Payment für OXID 1.2.1 (Update von 1.1.1 auf 1.2.1): `Changelog 1.2.1 <https://github.com/OXID-eSales/unzer-module/blob/v1.2.1/CHANGELOG.md>`_
 
 Komponenten der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
