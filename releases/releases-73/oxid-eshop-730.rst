@@ -1,27 +1,23 @@
 OXID eShop 7.3.0
 ================
 
-Release date: 2025-04-15
+.. todo: #HR: Release date: tbd
+
 
 Changes at a glance
 -------------------
 
+.. todo: #HR/#DK: check the following draft, items as per changelog https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x-release/CHANGELOG-7.3.md
+
 Core
 ^^^^
 
-* Support for PHP 8.4
+* Support for PHP 8.4 and PHPUnit 11
+* Registration of environment variables via `.env` file
+* Controllers can now be registered as dependency injection services
+* Raised the minimum required version of Symfony components to 6.4
+* Default value of blSkipDebitOldBankInfo set to true
 
-.. todo: #HR/#DK: Add new features
-
-APEX
-^^^^
-
-.. todo: #HR/#DK: Add new features
-
-Administration
-^^^^^^^^^^^^^^
-
-.. todo: #HR/#DK: Add new features
 
 New and updated modules
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -30,69 +26,55 @@ New and updated modules
 
 * Install the new OXID Admin Tools Module to manually clear the template cache by klicking a button in the admin backend.
 
-  For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/###tbd###/de/1.0/introduction.html>`_.
+  .. todo: #tbd: add URL:
 
+  For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/###tbd###/de/1.0/introduction.html>`_ documentation.
 
-With OXID eShop 7.3, you can benefit from the features of the following updated modules:
-
-.. todo: #HR: Add new features in :productname:`OXID Security Module`: v2.0 = OXDEV-8930 CAPTCHA)
+  .. todo: #HR: Add new features in :productname:`OXID Security Module`: v2.0 = OXDEV-8930 CAPTCHA)
 
 * :productname:`OXID Security Module` 2.0
 
   With CAPTCHA protection, secure your OXID eShop form areas against automated bot attacks.
 
   .. todo: #tbd: Verify URLs:
-  .. todo: #HR: Will all modules be released at the same time, so it makes sense to refer to the release notes?
 
-  For more information, see `OXID Security Module <https://docs.oxid-esales.com/modules/security/de/2.0/releases/security-module-200.html>`_.
+  For more information, see `OXID Security Module <https://docs.oxid-esales.com/modules/security/de/2.0/releases/security-module-200.html>`_ documentation.
 
 * :productname:`OXID eShop Enterprise B2B Edition` 7.3
 
-  For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_.
+  For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
 
-* :productname:`OXID ERP Interface` 4.2
-* :productname:`OXID eShop eVAT` 4.2
-* :productname:`Visual CMS`
-* :productname:`OXID Cookie Management powered by usercentrics` 3.1
-* :productname:`GDPR Opt-in` 4.2
-* :productname:`Geo-blocking` 2.3
+  .. todo: #tbd: Add URLs:
 
-.. todo: #HR/#MF: Add VCMS updates
+* The following modules have been updated to be compatible with OXID eShop 7.3:
+
+  * :productname:`OXID Module Shipping Cost Compensation` `1.1 <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/introduction.html>`_
+  * :productname:`OXID eShop eVAT`: `4.2 <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.2>`_
+  * :productname:`OXID ERP Interface`: `4.2 <https://docs.oxid-esales.com/interfaces/erp/en/4.2>`_
+  * :productname:`OXID Cookie Management powered by usercentrics`: `3.1 (German) <https://docs.oxid-esales.com/modules/usercentrics/de/3.1/>`_
+  * :productname:`GDPR Opt-in`: `4.2 (German) <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.2/>`_
+  * :productname:`Geo-blocking`: `2.3 <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
+  * :productname:`Visual CMS`: 7.3
+
+
 
 Fixes
 -----
 
-.. todo: #HR: Add bug IDs and changelog references:
-`#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_
-`Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x/CHANGELOG-7.3.md>`_.
+.. todo: #HR/#DK: check: the following as per https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x/CHANGELOG-7.3.md#fixed
+
+* Shop ID resolution now considers SSL language URLs
+* Email existence check when switching from customer to guest account `#0006860 <https://bugs.oxid-esales.com/view.php?id=6860>`_
+* Shipping cost calculation corrected after login in cart and checkout `#0007682 <https://bugs.oxid-esales.com/view.php?id=7682>`_
+* Correct order totals display in admin when using a non-default base currency `#0005922 <https://bugs.oxid-esales.com/view.php?id=5922>`_
+* Exception handling if a product is deleted while it is in someone's cart `#0007391 <https://bugs.oxid-esales.com/view.php?id=7391>`_
+* Improved module file cache under heavy load
+* Fixed class loading error after module removal
+* "Add to basket" no longer forces refresh of the order confirmation step `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
+
 
 In detail
 ---------
-
-User Experience
-^^^^^^^^^^^^^^^
-
-.. todo: #HR/#DK: Is there anything coming?
-
-Improve your ...
-
-More information is available at :ref:`tbd:tbd`.
-
-Security & Reliability
-^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #HR/#DK: Is there anything coming?
-
-* For security reasons, OXID eShop 7.3.0 requires ...
-
-   More information is available at ...
-
-Accessibility
-^^^^^^^^^^^^^
-
-Minor improvements ...
-
-Further information can be found in the `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x/CHANGELOG-7.3.md>`_.
 
 Visual CMS & Media Library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -108,13 +90,17 @@ See changelogs:
 New features for developers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #HR/#DK: Is there anything additioal coming?
+  .. todo: #DK: check: PHP v8.4 support:
 
 * Leverage full compatibility with PHP 8.2 to 8.4.
 
   The software supports PHP versions up to and including PHP 8.4. However, note changes in floating-point rounding behavior in PHP 8.4, which may result in different calculation outcomes compared to PHP 8.3.
 
-  More details can be found in the section `Server and System Requirements <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html>`_, under `PHP <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html#php>`_.
+  .. todo: #tbd: verify URLs:
+
+  For more information, see the `Server and System Requirements <https://docs.oxid-esales.com/eshop/de/7.3/installation/new-installation/server-and-system-requirements.html>`_ under `PHP <https://docs.oxid-esales.com/eshop/de/7.3/installation/new-installation/server-and-system-requirements.rst.html#php>`_.
+
+  .. todo: #DK: check: Missing in changelog https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x-release/CHANGELOG-7.3.md ?
 
 * Improve template security with the Twig Sandbox Extension.
 
@@ -122,7 +108,9 @@ New features for developers
 
   .. todo: #tbd: verify link
 
-  Learn more in the developer documentation (English) under `Using the Twig Sandbox Extension <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/theme/twig_sandbox.html>`_.
+  For more information, see the developer documentation (English) under `Using the Twig Sandbox Extension <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/theme/twig_sandbox.html>`_.
+
+  .. todo: #DK: check: Controllers can be registered as DI services
 
 * Optimize OXID controller management.
 
@@ -130,7 +118,9 @@ New features for developers
 
   .. todo: #tbd: verify link
 
-  Further information is available in the developer documentation (English) under `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
+  For more information, see the developer documentation (English) under `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
+
+  .. todo: #DK: check: Registration of environment variables via .env file
 
 * Simplify environment variable management.
 
@@ -138,7 +128,7 @@ New features for developers
 
   .. todo: #tbd: verify link
 
-  Further information is available in the developer documentation (English) under `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
+  For more information, see the developer documentation (English) under `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
 
 Components
 ----------
