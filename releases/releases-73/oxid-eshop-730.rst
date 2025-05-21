@@ -60,19 +60,17 @@ New and updated modules
 
 Fixes
 -----
-
-`#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_
 .. todo: #HR/#DK: check: the following as per https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x/CHANGELOG-7.3.md#fixed
 
 * Shop ID resolution now considers SSL language URLs
 * Email existence check when switching from customer to guest account `#0006860 <https://bugs.oxid-esales.com/view.php?id=6860>`_
 * Shipping cost calculation corrected after login in cart and checkout `#0007682 <https://bugs.oxid-esales.com/view.php?id=7682>`_
+* Resolved issues when adding a fifth language to the shop `#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_
 * Correct order totals display in admin when using a non-default base currency `#0005922 <https://bugs.oxid-esales.com/view.php?id=5922>`_
 * Exception handling if a product is deleted while it is in someone's cart `#0007391 <https://bugs.oxid-esales.com/view.php?id=7391>`_
 * Improved module file cache under heavy load
 * Fixed class loading error after module removal
 * "Add to basket" no longer forces refresh of the order confirmation step `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
-
 
 In detail
 ---------
