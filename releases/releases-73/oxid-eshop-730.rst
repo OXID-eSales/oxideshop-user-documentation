@@ -15,8 +15,12 @@ Core
 * Support for PHP 8.4 and PHPUnit 11
 * Registration of environment variables via `.env` file
 * Controllers can now be registered as dependency injection services
-* Raised the minimum required version of Symfony components to 6.4
-* Default value of blSkipDebitOldBankInfo set to true
+
+.. todo: #DK,/#HR: are we going to mention the items in the changelog under changed (https://github.com/OXID-eSales/oxideshop-user-documentation/blob/b-7.3.x-en/releases/releases-73/oxid-eshop-730.rst)?
+    * Raised the minimum required version of Symfony components to 6.4
+    * Default value of `blSkipDebitOldBankInfo` set to true
+    * Add to basket does not force a refresh of order confirmation step #0007254
+    * Optimized module installation/uninstallation process
 
 
 New and updated modules
@@ -55,8 +59,6 @@ New and updated modules
   * :productname:`GDPR Opt-in`: `4.2 (German) <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.2/>`_
   * :productname:`Geo-blocking`: `2.3 <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
   * :productname:`Visual CMS`: 7.3
-
-
 
 Fixes
 -----
