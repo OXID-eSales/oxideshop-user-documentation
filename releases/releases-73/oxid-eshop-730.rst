@@ -4,17 +4,11 @@ OXID eShop 7.3.0
 .. todo: #HR: Release date: tbd
 
 
-Changes at a glance
--------------------
-
-.. todo: #HR/#DK: check the following draft, items as per changelog https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x-release/CHANGELOG-7.3.md
+Changes
+-------
 
 Core
 ^^^^
-
-* Support for PHP 8.4 and PHPUnit 11
-* Registration of environment variables via `.env` file
-* Controllers can now be registered as dependency injection services
 
 .. todo: #DK,/#HR: are we going to mention the items in the changelog under changed (https://github.com/OXID-eSales/oxideshop-user-documentation/blob/b-7.3.x-en/releases/releases-73/oxid-eshop-730.rst)?
     * Raised the minimum required version of Symfony components to 6.4
@@ -22,11 +16,49 @@ Core
     * Add to basket does not force a refresh of order confirmation step #0007254
     * Optimized module installation/uninstallation process
 
+* Leverage full compatibility with PHP 8.2 to 8.4.
 
-New and updated modules
-^^^^^^^^^^^^^^^^^^^^^^^^
+  .. todo: Support for PHP 8.4 and PHPUnit 11
+  .. todo: #DK: check: PHP v8.4 support:
 
-.. todo: OXDEV-9193 (Cache clear button)?
+  The software supports PHP versions up to and including PHP 8.4. However, note changes in floating-point rounding behavior in PHP 8.4, which may result in different calculation outcomes compared to PHP 8.3.
+
+  .. todo: #tbd: verify URLs:
+
+  For more information, see the `Server and System Requirements <https://docs.oxid-esales.com/eshop/de/7.3/installation/new-installation/server-and-system-requirements.html>`_ under `PHP <https://docs.oxid-esales.com/eshop/de/7.3/installation/new-installation/server-and-system-requirements.rst.html#php>`_.
+
+* Optimize OXID controller management.
+
+  .. todo: #DK: Check: Controllers can now be registered as dependency injection services
+
+  For easier handling, better testability, and more flexible controller extension, register OXID controllers as services in the Dependency Injection Container (DIC).
+
+  .. todo: #tbd: verify link
+
+  For more information, see the developer documentation (English) under `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
+
+* Simplify environment variable management.
+
+  .. todo: #DK: check: Registration of environment variables via .env file
+
+  Use a `.env` file to define environment variables and securely integrate them into your OXID eShop application, making it easier to manage sensitive configuration values and environment-specific settings.
+
+  .. todo: #tbd: verify link
+
+  For more information, see the developer documentation (English) under `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
+
+
+* To improve template security with the Twig Sandbox Extension, use the documentation we have have created.
+
+  .. todo: #tbd: verify link
+
+  For more information, see the developer documentation (English) under `Using the Twig Sandbox Extension <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/theme/twig_sandbox.html>`_.
+
+
+Modules
+^^^^^^^
+
+.. todo: OXDEV-9193 (Cache clear button)
 
 * Install the new OXID Admin Tools Module to manually clear the template cache by klicking a button in the admin backend.
 
@@ -34,7 +66,7 @@ New and updated modules
 
   For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/###tbd###/de/1.0/introduction.html>`_ documentation.
 
-  .. todo: #HR: Add new features in :productname:`OXID Security Module`: v2.0 = OXDEV-8930 CAPTCHA)
+  .. todo: Add new features in :productname:`OXID Security Module`: v2.0 = OXDEV-8930 CAPTCHA
 
 * :productname:`OXID Security Module` 2.0
 
@@ -46,9 +78,21 @@ New and updated modules
 
 * :productname:`OXID eShop Enterprise B2B Edition` 7.3
 
+  Allow the the chief buyer to set a secondary limit to allow buyers to place smaller orders directly without requiring approval, thereby reducing your workload.
+
   For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
 
   .. todo: #tbd: Add URLs:
+
+* Visual CMS & Media Library
+
+  .. todo: #HR/#MF: Will more info be added?
+
+  See changelogs:
+
+  * Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/b-7.3.x/CHANGELOG-7.x.md
+  * Media Library: https://github.com/OXID-eSales/media-library-module/blob/b-7.3.x/CHANGELOG.md
+  * WYSIWYG Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/b-7.3.x/CHANGELOG.md
 
 * The following modules have been updated to be compatible with OXID eShop 7.3:
 
@@ -73,63 +117,6 @@ Fixes
 * Improved module file cache under heavy load
 * Fixed class loading error after module removal
 * "Add to basket" no longer forces refresh of the order confirmation step `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
-
-In detail
----------
-
-Visual CMS & Media Library
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #HR/#MF: Will more info be added?
-
-See changelogs:
-
-* Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/b-7.3.x/CHANGELOG-7.x.md
-* Media Library: https://github.com/OXID-eSales/media-library-module/blob/b-7.3.x/CHANGELOG.md
-* WYSIWYG Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/b-7.3.x/CHANGELOG.md
-
-New features for developers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-  .. todo: #DK: check: PHP v8.4 support:
-
-* Leverage full compatibility with PHP 8.2 to 8.4.
-
-  The software supports PHP versions up to and including PHP 8.4. However, note changes in floating-point rounding behavior in PHP 8.4, which may result in different calculation outcomes compared to PHP 8.3.
-
-  .. todo: #tbd: verify URLs:
-
-  For more information, see the `Server and System Requirements <https://docs.oxid-esales.com/eshop/de/7.3/installation/new-installation/server-and-system-requirements.html>`_ under `PHP <https://docs.oxid-esales.com/eshop/de/7.3/installation/new-installation/server-and-system-requirements.rst.html#php>`_.
-
-  .. todo: #DK: check: Missing in changelog https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x-release/CHANGELOG-7.3.md ?
-
-* Improve template security with the Twig Sandbox Extension.
-
-  Use the Twig Sandbox Extension with the {% sandbox %} tag to control which tags, filters, and functions are allowed in your templates, enhancing the security of dynamic template rendering.
-
-  .. todo: #tbd: verify link
-
-  For more information, see the developer documentation (English) under `Using the Twig Sandbox Extension <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/theme/twig_sandbox.html>`_.
-
-  .. todo: #DK: check: Controllers can be registered as DI services
-
-* Optimize OXID controller management.
-
-  Register OXID controllers as services in the Dependency Injection Container (DIC) for easier handling, better testability, and more flexible controller extension.
-
-  .. todo: #tbd: verify link
-
-  For more information, see the developer documentation (English) under `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
-
-  .. todo: #DK: check: Registration of environment variables via .env file
-
-* Simplify environment variable management.
-
-  Use a `.env` file to define environment variables and securely integrate them into your OXID eShop application, making it easier to manage sensitive configuration values and environment-specific settings.
-
-  .. todo: #tbd: verify link
-
-  For more information, see the developer documentation (English) under `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
 
 Components
 ----------
