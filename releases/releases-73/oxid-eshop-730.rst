@@ -60,11 +60,11 @@ Modules
 
 .. todo: OXDEV-9193 (Cache clear button)
 
-* Install the new OXID Admin Tools Module to manually clear the template cache by klicking a button in the admin backend.
+* Install the new OXID Admin Tools Module to clear the template cache, for example, manually by clicking a button in the admin backend, or automatically via the ``OXAPI``.
 
   .. todo: #tbd: add URL:
 
-  For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/###tbd###/de/1.0/introduction.html>`_ documentation.
+  For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/admin-tools-module/de/1.0/betrieb.html>`_ documentation.
 
   .. todo: Add new features in :productname:`OXID Security Module`: v2.0 = OXDEV-8930 CAPTCHA
 
