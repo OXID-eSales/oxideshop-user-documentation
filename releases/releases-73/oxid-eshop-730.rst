@@ -62,7 +62,7 @@ Modules
 
 * Install the new OXID Admin Tools Module to clear the template cache, for example, manually by clicking a button in the admin backend, or automatically via the ``OXAPI``.
 
-  .. todo: #tbd: add URL:
+  .. todo: #tbd: verify URL:
 
   For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/admin-tools-module/de/1.0/betrieb.html>`_ documentation.
 
@@ -102,7 +102,7 @@ Modules
   * :productname:`OXID Cookie Management powered by usercentrics`: `3.1 (German) <https://docs.oxid-esales.com/modules/usercentrics/de/3.1/>`_
   * :productname:`GDPR Opt-in`: `4.2 (German) <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.2/>`_
   * :productname:`Geo-blocking`: `2.3 <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
-  * :productname:`Visual CMS`: 7.3
+  * :productname:`Visual CMS`: `7.3 <https://docs.oxid-esales.com/modules/vcms/de/7.3/>`_
 
 Fixes
 -----
