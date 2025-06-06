@@ -1,5 +1,5 @@
-OXID eShop 7.3.0
-================
+OXID eShop Compilation 7.3.0
+============================
 
 .. todo: #HR: Release date: tbd
 
@@ -47,62 +47,6 @@ Core
 
   For more information, see the developer documentation (English) under `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
 
-
-* To improve template security with the Twig Sandbox Extension, use the documentation we have have created.
-
-  .. todo: #tbd: verify link
-
-  For more information, see the developer documentation (English) under `Using the Twig Sandbox Extension <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/theme/twig_sandbox.html>`_.
-
-
-Modules
-^^^^^^^
-
-.. todo: OXDEV-9193 (Cache clear button)
-
-* Install the new OXID Admin Tools Module to clear the template cache, for example, manually by clicking a button in the admin backend, or automatically via the ``OXAPI``.
-
-  .. todo: #tbd: verify URL:
-
-  For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/admin-tools-module/de/1.0/betrieb.html>`_ documentation.
-
-  .. todo: Add new features in :productname:`OXID Security Module`: v2.0 = OXDEV-8930 CAPTCHA
-
-* :productname:`OXID Security Module` 2.0
-
-  With CAPTCHA protection, secure your OXID eShop form areas against automated bot attacks.
-
-  .. todo: #tbd: Verify URLs:
-
-  For more information, see `OXID Security Module <https://docs.oxid-esales.com/modules/security/de/2.0/releases/security-module-200.html>`_ documentation.
-
-* :productname:`OXID eShop Enterprise B2B Edition` 7.3
-
-  Allow the the chief buyer to set a secondary limit to allow buyers to place smaller orders directly without requiring approval, thereby reducing your workload.
-
-  For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
-
-  .. todo: #tbd: Add URLs:
-
-* Visual CMS & Media Library
-
-  .. todo: #HR/#MF: Will more info be added?
-
-  See changelogs:
-
-  * Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/b-7.3.x/CHANGELOG-7.x.md
-  * Media Library: https://github.com/OXID-eSales/media-library-module/blob/b-7.3.x/CHANGELOG.md
-  * WYSIWYG Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/b-7.3.x/CHANGELOG.md
-
-* The following modules have been updated to be compatible with OXID eShop 7.3:
-
-  * :productname:`OXID Module Shipping Cost Compensation` `1.1 <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/introduction.html>`_
-  * :productname:`OXID eShop eVAT`: `4.2 <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.2>`_
-  * :productname:`OXID ERP Interface`: `4.2 <https://docs.oxid-esales.com/interfaces/erp/en/4.2>`_
-  * :productname:`OXID Cookie Management powered by usercentrics`: `3.1 (German) <https://docs.oxid-esales.com/modules/usercentrics/de/3.1/>`_
-  * :productname:`GDPR Opt-in`: `4.2 (German) <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.2/>`_
-  * :productname:`Geo-blocking`: `2.3 <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
-  * :productname:`Visual CMS`: `7.3 <https://docs.oxid-esales.com/modules/vcms/de/7.3/>`_
 
 Fixes
 -----
