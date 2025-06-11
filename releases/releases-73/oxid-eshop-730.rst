@@ -60,7 +60,7 @@ Fixes
 * Exception handling if a product is deleted while it is in someone's cart `#0007391 <https://bugs.oxid-esales.com/view.php?id=7391>`_
 * Improved module file cache under heavy load
 * Fixed class loading error after module removal
-* "Add to basket" no longer forces refresh of the order confirmation step `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
+* "Add to basket" now forces refresh of the order confirmation step `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
 
 Components
 ----------
