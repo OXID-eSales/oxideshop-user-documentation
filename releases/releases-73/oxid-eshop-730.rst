@@ -1,4 +1,4 @@
-OXID eShop 7.3.0 Compilation
+OXID eShop Compilation 7.3.0
 ============================
 
 .. todo: #HR: Release date: tbd
@@ -44,6 +44,7 @@ Changes
 
   For more information, see the developer documentation (English) under `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
 
+
 Fixes
 -----
 .. todo: #HR/#DK: check: the following as per https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x/CHANGELOG-7.3.md#fixed
@@ -55,8 +56,7 @@ Fixes
 * Correct order totals display in admin when using a non-default base currency `#0005922 <https://bugs.oxid-esales.com/view.php?id=5922>`_
 * Exception handling if a product is deleted while it is in someone's cart `#0007391 <https://bugs.oxid-esales.com/view.php?id=7391>`_
 * Improved module file cache under heavy load
-* Fixed class loading error after module removal
-* "Add to basket" no longer forces refresh of the order confirmation step `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
+* "Add to basket" now forces refresh of the order confirmation step `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
 
 Components
 ----------
