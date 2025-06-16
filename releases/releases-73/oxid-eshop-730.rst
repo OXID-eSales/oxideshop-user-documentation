@@ -1,13 +1,12 @@
 OXID eShop Compilation 7.3.0
 ============================
 
-.. todo: #HR: Release date: tbd
-
+Release date: 10-04-2025
 
 Changes
 -------
 
-* Leverage full compatibility with PHP 8.2 to 8.4.
+* Ensure secure and future-proof operation by leveraging full compatibility with PHP 8.2 to 8.4.
 
   The software supports PHP versions up to and including PHP 8.4. However, note changes in floating-point rounding behavior in PHP 8.4, which may result in different calculation outcomes compared to PHP 8.3.
 
@@ -17,17 +16,13 @@ Changes
 
 * Optimize OXID controller management.
 
-  For easier handling, better testability, and more flexible controller extension, register OXID controllers as services in the Dependency Injection Container (DIC).
-
-  .. todo: #tbd: verify link
+  For easier handling, better testability, and more flexible controller extension, register OXID controllers as services.
 
   For more information, see the developer documentation (English) under `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
 
 * Simplify environment variable management.
 
   Use a `.env` file to define environment variables and securely integrate them into your OXID eShop application, making it easier to manage sensitive configuration values and environment-specific settings.
-
-  .. todo: #tbd: verify link
 
   For more information, see the developer documentation (English) under `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
 

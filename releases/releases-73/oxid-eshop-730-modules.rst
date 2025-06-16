@@ -22,6 +22,8 @@ New and updated Modules (available for PE and EE)
 
 * :productname:`Consistency Check Tool` 1.0
 
+  Optimize data maintenance by identifying unused image files and missing assignments.
+
   .. todo: short description, it's not a public repo and we have no documentation so far
 
 * :productname:`OXID eShop Enterprise B2B Edition` 7.3
