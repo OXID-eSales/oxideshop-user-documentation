@@ -26,7 +26,9 @@ Neue und aktualisierte Module für EE und PE
 
   Optimieren Sie die Datenpflege, indem Sie ungenutzte Bilddateien und fehlende Zuordnungen identifizieren.
 
-  .. todo: #HR: Auf readme verlinken, wird evtl. public Wie installiere ich es? Warum erwähnen, wenn nicht public und dokumentiert? short description, it's not a public repo and we have no documentation so far
+  For more information, see `OXID eShop Consistency Check Component <https://github.com/OXID-eSales/consistency-check-tool/tree/v1.0.0>`_.
+
+  .. todo: #HR: to be adjused: Wird evtl. public
 
 * :productname:`OXID eShop Enterprise B2B Edition` 7.3
 
