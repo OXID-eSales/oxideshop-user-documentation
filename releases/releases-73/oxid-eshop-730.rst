@@ -64,11 +64,10 @@ Folgende Komponenten und Module wurden aktualisiert:
 * Twig Admin Theme: v2.5.0 → v2.6.1 `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.6.1/CHANGELOG-2.x.md>`__
 * Twig-Komponente: v2.5.0 → v2.6.0 `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.6.0/CHANGELOG-2.x.md>`__
 * OXID Cookie Management powered by usercentrics: v3.0.0 → v3.1.0 `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.1.0/CHANGELOG.md>`__
-* Visual CMS: v7.0.3 → v8.0.1
-* OXID eShop PE: v7.2.0 → v7.3.0
-* Demodaten EE: v8.0.3 → v8.1.0
-* OXID eShop EE: v7.2.0 → v7.3.0
-
+* Visual CMS: v7.0.3 → v8.0.1 `Changelog <https://github.com/OXID-eSales/visual_cms_module/blob/v8.0.1/CHANGELOG-8.x.md>`_
+* OXID eShop PE: v7.2.0 → v7.3.0 `Changelog <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.3.0/CHANGELOG-7.3.md>`_
+* Demodaten EE: v8.0.3 → v8.1.0 `Changelog <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.1.0/CHANGELOG.md>`_
+* OXID eShop EE: v7.2.0 → v7.3.0 `Changelog <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.3.0/CHANGELOG-7.3.md>`_
 
 Bestandteile der Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
