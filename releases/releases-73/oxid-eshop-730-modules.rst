@@ -41,19 +41,19 @@ New and updated Modules (available for PE and EE)
   * Media Library: https://github.com/OXID-eSales/media-library-module/blob/v3.0.0/CHANGELOG.md (available for all editions)
   * WYSIWYG Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v5.0.0/CHANGELOG.md (available for all editions)
 
-  .. todo: link to vcms docs https://docs.oxid-esales.com/modules/vcms/en/latest/
+  For more information, see `Visual CMS <https://docs.oxid-esales.com/modules/vcms/en/8.0/>`_.
 
 Modules updated to be compatible with OXID eShop 7.3
 ----------------------------------------------------
 
-* :productname:`OXID Module Shipping Cost Compensation` 1.1
+* :productname:`OXID Module Shipping Cost Compensation Coupons`: 1.1
 * :productname:`OXID eShop eVAT`: 4.2
 * :productname:`OXID ERP Interface`: 4.2
 * :productname:`OXID Cookie Management powered by usercentrics`: 3.1
 * :productname:`GDPR Opt-in`: 4.2
 * :productname:`Geo-blocking`: 2.3
-* :productname:`Shipping Cost Compensation Coupons`: 1.1
-* :productname:`OXAPI`
+* :productname:`OXAPI`:
+
      * `GraphQL Base Module`: 11.0
      * `GraphQL Storefront Module`: 4.1
      * `GraphQL Configuration Access Module`: 2.1
@@ -68,6 +68,6 @@ Modules updated to be compatible with OXID eShop 7.3
   * :productname:`OXID Cookie Management powered by usercentrics`: `3.1 (German) <https://docs.oxid-esales.com/modules/usercentrics/de/3.1/>`_
   * :productname:`GDPR Opt-in`: `4.2 (German) <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.2/>`_
   * :productname:`Geo-blocking`: `2.3 <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
-  * :productname:`Visual CMS`: `8.0 <https://docs.oxid-esales.com/modules/vcms/en/8.0/>`_
+
 
 
