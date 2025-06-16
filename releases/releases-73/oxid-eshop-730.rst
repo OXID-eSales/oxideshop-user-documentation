@@ -7,16 +7,7 @@ OXID eShop Compilation 7.3.0
 Changes
 -------
 
-.. todo: #DK,/#HR: are we going to mention the items in the changelog under changed (https://github.com/OXID-eSales/oxideshop-user-documentation/blob/b-7.3.x-en/releases/releases-73/oxid-eshop-730.rst)?
-    * Raised the minimum required version of Symfony components to 6.4
-    * Default value of `blSkipDebitOldBankInfo` set to true
-    * Add to basket does not force a refresh of order confirmation step #0007254
-    * Optimized module installation/uninstallation process
-
 * Leverage full compatibility with PHP 8.2 to 8.4.
-
-  .. todo: Support for PHP 8.4 and PHPUnit 11
-  .. todo: #DK: check: PHP v8.4 support:
 
   The software supports PHP versions up to and including PHP 8.4. However, note changes in floating-point rounding behavior in PHP 8.4, which may result in different calculation outcomes compared to PHP 8.3.
 
@@ -26,8 +17,6 @@ Changes
 
 * Optimize OXID controller management.
 
-  .. todo: #DK: Check: Controllers can now be registered as dependency injection services
-
   For easier handling, better testability, and more flexible controller extension, register OXID controllers as services in the Dependency Injection Container (DIC).
 
   .. todo: #tbd: verify link
@@ -35,8 +24,6 @@ Changes
   For more information, see the developer documentation (English) under `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
 
 * Simplify environment variable management.
-
-  .. todo: #DK: check: Registration of environment variables via .env file
 
   Use a `.env` file to define environment variables and securely integrate them into your OXID eShop application, making it easier to manage sensitive configuration values and environment-specific settings.
 
@@ -47,7 +34,6 @@ Changes
 
 Fixes
 -----
-.. todo: #HR/#DK: check: the following as per https://github.com/OXID-eSales/oxideshop_ce/blob/b-7.3.x/CHANGELOG-7.3.md#fixed
 
 * Shop ID resolution now considers SSL language URLs
 * Email existence check when switching from customer to guest account `#0006860 <https://bugs.oxid-esales.com/view.php?id=6860>`_
@@ -78,10 +64,10 @@ We have updated the following components and modules:
 * Twig Admin Theme from v2.5.0 to v2.6.1 `Changelog file <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.6.1/CHANGELOG-2.x.md>`__
 * Twig component from v2.5.0 to v2.6.0 `Changelog file <https://github.com/OXID-eSales/twig-component/blob/v2.6.0/CHANGELOG-2.x.md>`__
 * OXID Cookie Management powered by usercentrics from v3.0.0 to v3.1.0 `Changelog file <https://github.com/OXID-eSales/usercentrics/blob/v3.1.0/CHANGELOG.md>`__
-* Visual CMS from v7.0.3 to v8.0.1
-* OXID eShop PE from v7.2.0 to v7.3.0
-* OXID eShop demodata EE from v8.0.3 to v8.1.0
-* OXID eShop EE from v7.2.0 to v7.3.0
+* Visual CMS from v7.0.3 to v8.0.1 `Changelog file <https://github.com/OXID-eSales/visual_cms_module/blob/v8.0.1/CHANGELOG-8.x.md>`_
+* OXID eShop PE from v7.2.0 to v7.3.0 `Changelog file <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.3.0/CHANGELOG-7.3.md>`_
+* OXID eShop demodata EE from v8.0.3 to v8.1.0 `Changelog file <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.1.0/CHANGELOG.md>`_
+* OXID eShop EE from v7.2.0 to v7.3.0 `Changelog file <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.3.0/CHANGELOG-7.3.md>`_
 
 Compilation components
 ^^^^^^^^^^^^^^^^^^^^^^
