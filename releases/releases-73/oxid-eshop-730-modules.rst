@@ -21,9 +21,12 @@ Neue und aktualisierte Module für EE und PE
 
   Weitere Informationen finden Sie in der Dokumentation zum `OXID Security Modul <https://docs.oxid-esales.com/modules/security/de/2.0/releases/security-module-200.html>`_.
 
+
 * :productname:`Consistency Check Tool` 1.0
 
-  .. todo: #HR: Wozu ist es? Wie installiere ich es? Warum erwähnen? short description, it's not a public repo and we have no documentation so far
+  Optimieren Sie die Datenpflege, indem Sie ungenutzte Bilddateien und fehlende Zuordnungen identifizieren.
+
+  .. todo: #HR: Auf readme verlinken, wird evtl. public Wie installiere ich es? Warum erwähnen, wenn nicht public und dokumentiert? short description, it's not a public repo and we have no documentation so far
 
 * :productname:`OXID eShop Enterprise B2B Edition` 7.3
 
