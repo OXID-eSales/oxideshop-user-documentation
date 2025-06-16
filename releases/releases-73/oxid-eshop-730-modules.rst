@@ -24,7 +24,7 @@ New and updated Modules (available for PE and EE)
 
   Optimize data maintenance by identifying unused image files and missing assignments.
 
-  .. todo: short description, it's not a public repo and we have no documentation so far
+  For more information, see `OXID eShop Consistency Check Component <https://github.com/OXID-eSales/consistency-check-tool/tree/v1.0.0>`_.
 
 * :productname:`OXID eShop Enterprise B2B Edition` 7.3
 
