@@ -31,7 +31,8 @@ New and updated Modules (available for PE and EE)
   Allow the the chief buyer to set a secondary limit to allow buyers to place smaller orders directly without requiring approval, thereby reducing your workload.
 
   .. todo: #tbd: Verify URLs:
-    For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
+
+  For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
 
   .. todo: #tbd: Add URLs:
 
@@ -48,28 +49,17 @@ New and updated Modules (available for PE and EE)
 Modules updated to be compatible with OXID eShop 7.3
 ----------------------------------------------------
 
-* :productname:`OXID Module Shipping Cost Compensation Coupons`: 1.1
-* :productname:`OXID eShop eVAT`: 4.2
-* :productname:`OXID ERP Interface`: 4.2
-* :productname:`OXID Cookie Management powered by usercentrics`: 3.1
-* :productname:`GDPR Opt-in`: 4.2
-* :productname:`Geo-blocking`: 2.3
+* :productname:`OXID Module Shipping Cost Compensation` `1.1 <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/introduction.html>`_
+* :productname:`OXID eShop eVAT`: `4.2 <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.2>`_
+* :productname:`OXID ERP Interface`: `4.2 <https://docs.oxid-esales.com/interfaces/erp/en/4.2>`_
+* :productname:`OXID Cookie Management powered by usercentrics`: `3.1 (German) <https://docs.oxid-esales.com/modules/usercentrics/de/3.1/>`_
+* :productname:`GDPR Opt-in`: `4.2 (German) <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.2/>`_
+* :productname:`Geo-blocking`: `2.3 <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
 * :productname:`OXAPI`:
 
      * `GraphQL Base Module`: 11.0
      * `GraphQL Storefront Module`: 4.1
      * `GraphQL Configuration Access Module`: 2.1
 
-.. todo: will be mentioned later
-     * `GraphQL Storefront Administration Module`: v2.0.
-
-.. todo: #Links to be retored later
-  * :productname:`OXID Module Shipping Cost Compensation` `1.1 <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/introduction.html>`_
-  * :productname:`OXID eShop eVAT`: `4.2 <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.2>`_
-  * :productname:`OXID ERP Interface`: `4.2 <https://docs.oxid-esales.com/interfaces/erp/en/4.2>`_
-  * :productname:`OXID Cookie Management powered by usercentrics`: `3.1 (German) <https://docs.oxid-esales.com/modules/usercentrics/de/3.1/>`_
-  * :productname:`GDPR Opt-in`: `4.2 (German) <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.2/>`_
-  * :productname:`Geo-blocking`: `2.3 <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
-
-
-
+.. todo: #HR: #tbd: will be mentioned later
+    * `GraphQL Storefront Administration Module`: v2.0.
