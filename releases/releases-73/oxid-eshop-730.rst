@@ -12,7 +12,7 @@ Changes
 
   .. todo: #tbd: verify URLs:
 
-  For more information, see the `Server and System Requirements <https://docs.oxid-esales.com/eshop/de/7.3/installation/new-installation/server-and-system-requirements.html>`_ under `PHP <https://docs.oxid-esales.com/eshop/de/7.3/installation/new-installation/server-and-system-requirements.rst.html#php>`_.
+  For more information, see the `Server and System Requirements <https://docs.oxid-esales.com/eshop/en/7.3/installation/new-installation/server-and-system-requirements.html>`_ under `PHP <https://docs.oxid-esales.com/eshop/en/7.3/installation/new-installation/server-and-system-requirements.html#php>`_.
 
 * Optimize OXID controller management.
 
