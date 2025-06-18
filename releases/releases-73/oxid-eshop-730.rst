@@ -10,8 +10,6 @@ Veröffentlichungsdatum: 10.04.2025
 
   Die Software unterstützt PHP-Versionen bis einschließlich PHP 8.4. Beachten Sie jedoch die Änderungen im Rundungsverhalten von Gleitkommazahlen in PHP 8.4, da diese im Vergleich zu PHP 8.3 zu abweichenden Berechnungsergebnissen führen können.
 
-  .. todo: #tbd: URLs prüfen
-
   Weitere Informationen finden Sie unter `Server- und Systemvoraussetzungen <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html>`_ im Abschnitt `PHP <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html#php>`_.
 
 * Optimieren Sie die Verwaltung von OXID-Controllern.
