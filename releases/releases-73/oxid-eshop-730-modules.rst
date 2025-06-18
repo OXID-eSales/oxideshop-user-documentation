@@ -57,11 +57,12 @@ Für OXID eShop 7.3 angepasste Module
 * :productname:`OXID Cookie Management powered by usercentrics`: `3.1 (Deutsch) <https://docs.oxid-esales.com/modules/usercentrics/de/3.1/>`_
 * :productname:`GDPR Opt-in`: `4.2 (Deutsch) <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.2/>`_
 * :productname:`Geo-Blocking`: `2.3 <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
+* :productname:`Country VAT administration`: `2.3 <https://github.com/OXID-eSales/country-vat-module/blob/v2.3.0/README.md>`_
 * :productname:`OXAPI`:
 
-     * `GraphQL Base Module`: 11.0
-     * `GraphQL Storefront Module`: 4.1
-     * `GraphQL Configuration Access Module`: 2.1
+     * `GraphQL Base Module`: `11.0 <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
+     * `GraphQL Storefront Module`: `4.1 <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
+     * `GraphQL Configuration Access Module`: `2.1 <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
 
 .. todo: #HR: #tbd: will be mentioned later
     * `GraphQL Storefront Administration Module`: v2.0.
