@@ -8,13 +8,13 @@ Changes
 
 * Ensure secure and future-proof operation by leveraging full compatibility with PHP 8.2 to 8.4.
 
-  The software supports PHP versions up to and including PHP 8.4. However, note changes in floating-point rounding behavior in PHP 8.4, which may result in different calculation outcomes compared to PHP 8.3.
+  Please note changes in floating-point rounding behavior in PHP 8.4, which may result in different calculation outcomes compared to PHP 8.2 and 8.3.
 
   For more information, see the `Server and System Requirements <https://docs.oxid-esales.com/eshop/en/7.3/installation/new-installation/server-and-system-requirements.html>`_ under `PHP <https://docs.oxid-esales.com/eshop/en/7.3/installation/new-installation/server-and-system-requirements.html#php>`_.
 
 * Optimize OXID controller management.
 
-  For easier handling, better testability, and more flexible controller extension, register OXID controllers as services.
+  For easier handling, better testability, and more flexible controller extension, alternatively register new OXID controllers as services.
 
   For more information, see the developer documentation (English) under `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
 

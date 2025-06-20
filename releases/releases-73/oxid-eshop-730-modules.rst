@@ -1,16 +1,15 @@
 OXID eShop 7.3.0 compatible OXID modules
 ========================================
 
-New and updated Modules (available for PE and EE)
--------------------------------------------------
+New and updated Modules
+-----------------------
 .. todo: OXDEV-9193 (Cache clear button)
 
 * :productname:`OXID Admin Tools Module` 1.0
 
   Install the new OXID Admin Tools Module to clear the template cache, for example, manually by clicking a button in the admin backend, or via the ``OXAPI``.
 
-  .. todo: #tbd: verify URL:
-    For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/admin-tools-module/de/1.0/betrieb.html>`_ documentation.
+  For more information, see `OXID Admin Tools Module <https://docs.oxid-esales.com/modules/admin-tools/en/1.0/>`_ documentation.
 
   .. todo: Add new features in :productname:`OXID Security Module`: v2.0 = OXDEV-8930 CAPTCHA
 
@@ -26,7 +25,20 @@ New and updated Modules (available for PE and EE)
 
   For more information, see `OXID eShop Consistency Check Component <https://github.com/OXID-eSales/consistency-check-tool/tree/v1.0.0>`_.
 
-* :productname:`OXID eShop Enterprise B2B Edition` 7.3
+  .. todo: #tbd: Add URLs:
+
+* Visual CMS, WYSIWYG Editor & Media Library
+
+  See changelogs:
+
+  * Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/v8.0.1/CHANGELOG-8.x.md (available for Professional and Enterprise Edition)
+  * Media Library: https://github.com/OXID-eSales/media-library-module/blob/v3.0.0/CHANGELOG.md
+  * WYSIWYG Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v5.0.0/CHANGELOG.md
+
+  For more information, see `Visual CMS <https://docs.oxid-esales.com/modules/vcms/en/8.0/>`_.
+
+OXID eShop Enterprise B2B Edition 7.3
+-------------------------------------
 
   Allow the the chief buyer to set a secondary limit to allow buyers to place smaller orders directly without requiring approval, thereby reducing your workload.
 
@@ -34,17 +46,6 @@ New and updated Modules (available for PE and EE)
 
   For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
 
-  .. todo: #tbd: Add URLs:
-
-* Visual CMS, WYSIWYG Editor & Media Library
-
-  See changelogs:
-
-  * Visual CMS: https://github.com/OXID-eSales/visual_cms_module/blob/v8.0.1/CHANGELOG-8.x.md
-  * Media Library: https://github.com/OXID-eSales/media-library-module/blob/v3.0.0/CHANGELOG.md (available for all editions)
-  * WYSIWYG Editor: https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v5.0.0/CHANGELOG.md (available for all editions)
-
-  For more information, see `Visual CMS <https://docs.oxid-esales.com/modules/vcms/en/8.0/>`_.
 
 Modules updated to be compatible with OXID eShop 7.3
 ----------------------------------------------------
