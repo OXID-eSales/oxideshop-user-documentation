@@ -8,13 +8,13 @@ Veröffentlichungsdatum: 17.06.2025
 
 * Gewährleisten Sie sicheren und zukunftsfähigen Betrieb durch volle Kompatibilität mit PHP 8.2 bis 8.4.
 
-  Die Software unterstützt PHP-Versionen bis einschließlich PHP 8.4. Beachten Sie jedoch die Änderungen im Rundungsverhalten von Gleitkommazahlen in PHP 8.4, da diese im Vergleich zu PHP 8.3 zu abweichenden Berechnungsergebnissen führen können.
+  Beachten Sie bitte die Änderungen im Rundungsverhalten von Gleitkommazahlen in PHP 8.4, da diese im Vergleich zu PHP 8.2 und 8.3 zu abweichenden Berechnungsergebnissen führen können.
 
   Weitere Informationen finden Sie unter `Server- und Systemvoraussetzungen <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html>`_ im Abschnitt `PHP <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html#php>`_.
 
 * Optimieren Sie die Verwaltung von OXID-Controllern.
 
-  Registrieren Sie OXID-Controller als Services, um eine einfachere Handhabung, bessere Testbarkeit und flexiblere Erweiterbarkeit zu ermöglichen.
+  Registrieren Sie neue OXID-Controller alternativ als Services, um eine einfachere Handhabung, bessere Testbarkeit und flexiblere Erweiterbarkeit zu ermöglichen.
 
   Weitere Informationen finden Sie in der Entwicklerdokumentation (Englisch) unter `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
 
