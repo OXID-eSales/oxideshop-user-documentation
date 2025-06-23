@@ -34,14 +34,16 @@ For more information, see `Environment variables <https://docs.oxid-esales.com/d
 Fixes
 -----
 
-* Shop ID resolution now considers SSL language URLs
-* Email existence check when switching from customer to guest account `#0006860 <https://bugs.oxid-esales.com/view.php?id=6860>`_
-* Shipping cost calculation corrected after login in cart and checkout `#0007682 <https://bugs.oxid-esales.com/view.php?id=7682>`_
-* Resolved issues when adding a fifth language to the shop `#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_
-* Correct order totals display in admin when using a non-default base currency `#0005922 <https://bugs.oxid-esales.com/view.php?id=5922>`_
-* Exception handling if a product is deleted while it is in someone's cart `#0007391 <https://bugs.oxid-esales.com/view.php?id=7391>`_
-* Improved module file cache under heavy load
-* "Add to basket" now forces refresh of the order confirmation step `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
+* SSL configuration usage on shop ID calculation from language URL:
+.. OXDEV-7963, waiting for bugtracker entry
+* Email existence check when switching from guest to customer account: `#0006860 <https://bugs.oxid-esales.com/view.php?id=6860>`_.
+* Shipping cost calculation after login in shopping cart or checkout: `#0007682 <https://bugs.oxid-esales.com/view.php?id=7682>`_.
+* Adding a fifth language: `#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_.
+* Affection of currency list order on total order sum: `#0005922 <https://bugs.oxid-esales.com/view.php?id=5922>`_.
+* Exception handling if a product is deleted while it's in someone's shopping cart: `#0007391 <https://bugs.oxid-esales.com/view.php?id=7391>`_.
+* Order confirmation handling when adding something to basket: `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_.
+* Module file cache performance under heavy load:
+.. OXDEV-9165, waiting for bugtracker entry
 
 Components
 ----------
