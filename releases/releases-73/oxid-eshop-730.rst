@@ -3,26 +3,32 @@ OXID eShop Compilation 7.3.0
 
 Release date: 17-06-2025
 
-Changes
--------
+What's New
+----------
 
-* Ensure secure and future-proof operation by leveraging full compatibility with PHP 8.2 to 8.4.
+PHP Support
+^^^^^^^^^^^
 
-  Please note changes in floating-point rounding behavior in PHP 8.4, which may result in different calculation outcomes compared to PHP 8.2 and 8.3.
+Support for PHP 8.2, 8.3 and 8.4
 
-  For more information, see the `Server and System Requirements <https://docs.oxid-esales.com/eshop/en/7.3/installation/new-installation/server-and-system-requirements.html>`_ under `PHP <https://docs.oxid-esales.com/eshop/en/7.3/installation/new-installation/server-and-system-requirements.html#php>`_.
+.. hint::
+  Please note changes in floating-point rounding behavior in PHP 8.4 which may result in different calculation outcomes compared to PHP 8.2 and 8.3.
+  
+For more information, see `Server and System Requirements <https://docs.oxid-esales.com/eshop/en/7.3/installation/new-installation/server-and-system-requirements.html#php>`_.
 
-* Optimize OXID controller management.
+Controller Management
+^^^^^^^^^^^^^^^^^^^^^
 
-  For easier handling, better testability, and more flexible controller extension, alternatively register new OXID controllers as services.
+For easier handling, better testability and more flexible controller extensions, alternatively register new OXID controllers as services.
 
-  For more information, see the developer documentation (English) under `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_.
+For more information, see `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_ in the developer documentation.
 
-* Simplify environment variable management.
+Environment Variables
+^^^^^^^^^^^^^^^^^^^^^
 
-  Use a `.env` file to define environment variables and securely integrate them into your OXID eShop application, making it easier to manage sensitive configuration values and environment-specific settings.
+Use a `.env` file to define environment variables and securely integrate them into your OXID eShop application, making it easier to manage sensitive configuration values and environment-specific settings.
 
-  For more information, see the developer documentation (English) under `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_.
+For more information, see `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_ in the developer documentation.
 
 
 Fixes
