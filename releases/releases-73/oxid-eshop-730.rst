@@ -34,16 +34,14 @@ For more information, see `Environment variables <https://docs.oxid-esales.com/d
 Fixes
 -----
 
-* SSL configuration usage on shop ID calculation from language URL:
-.. OXDEV-7963, waiting for bugtracker entry
-* Email existence check when switching from guest to customer account: `#0006860 <https://bugs.oxid-esales.com/view.php?id=6860>`_.
-* Shipping cost calculation after login in shopping cart or checkout: `#0007682 <https://bugs.oxid-esales.com/view.php?id=7682>`_.
-* Adding a fifth language: `#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_.
-* Affection of currency list order on total order sum: `#0005922 <https://bugs.oxid-esales.com/view.php?id=5922>`_.
-* Exception handling if a product is deleted while it's in someone's shopping cart: `#0007391 <https://bugs.oxid-esales.com/view.php?id=7391>`_.
-* Order confirmation handling when adding something to basket: `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_.
-* Module file cache performance under heavy load:
-.. OXDEV-9165, waiting for bugtracker entry
+* SSL configuration usage on shop ID calculation from language URL: `#0007803 <https://bugs.oxid-esales.com/view.php?id=7803>`_
+* Email existence check when switching from guest to customer account: `#0006860 <https://bugs.oxid-esales.com/view.php?id=6860>`_
+* Shipping cost calculation after login in shopping cart or checkout: `#0007682 <https://bugs.oxid-esales.com/view.php?id=7682>`_
+* Adding a fifth language: `#0007683 <https://bugs.oxid-esales.com/view.php?id=7683>`_
+* Affection of currency list order on total order sum: `#0005922 <https://bugs.oxid-esales.com/view.php?id=5922>`_
+* Exception handling if a product is deleted while it's in someone's shopping cart: `#0007391 <https://bugs.oxid-esales.com/view.php?id=7391>`_
+* Order confirmation handling when adding something to basket: `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
+* Module file cache performance under heavy load: `#0007804 <https://bugs.oxid-esales.com/view.php?id=7804>`_
 
 Components
 ----------
