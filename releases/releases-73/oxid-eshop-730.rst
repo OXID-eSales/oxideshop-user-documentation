@@ -51,33 +51,33 @@ OXID eShop CE Compilation
 
 The OXID eShop CE compilation includes the following packages:
 
-* WYSIWYG Editor Module from v4.2.0 to v5.0.0: `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v5.0.0/CHANGELOG.md>`_
-* Eye Able for OXID v3.0.3: `Changelog <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/blob/v3.0.3/CHANGELOG.md>`_
-* Makaira Connect Essential 2.1.3: `Changelog <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.3/CHANGELOG.md>`_
 * APEX Theme from v2.0.0 to v2.1.0: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v2.1.0/CHANGELOG-2.x.md>`_
+* Eye-Able Assist v3.0.3: `Changelog <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/blob/v3.0.3/CHANGELOG.md>`_
 * GDPR Opt-In Module from v4.1.0 to v4.2.0: `Changelog <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.2.0/CHANGELOG.md>`_
+* Makaira Connect Essential 2.1.3: `Changelog <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.3/CHANGELOG.md>`_
 * Media Library Module from v2.1.1 to v3.0.0: `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v3.0.0/CHANGELOG.md>`_
+* OXID Cookie Management powered by Usercentrics from v3.0.0 to v3.1.0: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.1.0/CHANGELOG.md>`_
 * OXID eShop CE from v7.2.0 to v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.3.0/CHANGELOG-7.3.md>`_
 * OXID eShop Composer Plugin from v7.2.0 to v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.3.0/CHANGELOG-7.x.md>`_
-* OXID eShop Views Generator v2.2.0: `Changelog <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
 * OXID eShop Demodata CE v8.0.2: `Changelog <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.0.2/CHANGELOG.md>`_
 * OXID eShop Demodata Installer v3.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop-demodata-installer/blob/v3.3.0/CHANGELOG-3.x.md>`_
 * OXID eShop Doctrine Migration Wrapper from v5.3.0 to v5.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.4.0/CHANGELOG-5.x.md>`_
 * OXID eShop Facts from v4.2.0 to v4.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.3.0/CHANGELOG-4.x.md>`_
 * OXID eShop Unified Namespace Generator from v5.1.0 to v5.2.0: `Changelog <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.2.0/CHANGELOG.md>`_
+* OXID eShop Views Generator v2.2.0: `Changelog <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
 * Twig Admin Theme from v2.5.0 to v2.6.1: `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v2.6.1/CHANGELOG-2.x.md>`_
 * Twig Component from v2.5.0 to v2.6.0: `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.6.0/CHANGELOG-2.x.md>`_
-* OXID Cookie Management powered by Usercentrics from v3.0.0 to v3.1.0: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.1.0/CHANGELOG.md>`_
+* WYSIWYG Editor Module from v4.2.0 to v5.0.0: `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v5.0.0/CHANGELOG.md>`_
 
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The OXID eShop PE compilation includes the following packages additionally:
 
-* Visual CMS Module from v7.0.3 to v8.0.1: `Changelog <https://github.com/OXID-eSales/visual_cms_module/blob/v8.0.1/CHANGELOG-8.x.md>`_
 * OXID eShop Demodata PE v8.0.2: `Changelog <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.2/CHANGELOG.md>`_
 * OXID eShop PE from v7.2.0 to v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.3.0/CHANGELOG-7.3.md>`_
 * Twig Component PE v2.5.0: `Changelog <https://github.com/OXID-eSales/twig-component-pe/blob/v2.5.0/CHANGELOG-2.x.md>`_
+* Visual CMS Module from v7.0.3 to v8.0.1: `Changelog <https://github.com/OXID-eSales/visual_cms_module/blob/v8.0.1/CHANGELOG-8.x.md>`_
 
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
