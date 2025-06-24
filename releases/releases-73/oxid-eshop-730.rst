@@ -43,13 +43,13 @@ Fixes
 * Order confirmation handling when adding something to basket: `#0007254 <https://bugs.oxid-esales.com/view.php?id=7254>`_
 * Module file cache performance under heavy load: `#0007804 <https://bugs.oxid-esales.com/view.php?id=7804>`_
 
-Components
-----------
+Packages
+--------
 
 OXID eShop CE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop CE compilation includes the following components:
+The OXID eShop CE compilation includes the following packages:
 
 * WYSIWYG Editor Module from v4.2.0 to v5.0.0: `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v5.0.0/CHANGELOG.md>`_
 * Eye Able for OXID v3.0.3: `Changelog <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/blob/v3.0.3/CHANGELOG.md>`_
@@ -72,7 +72,7 @@ The OXID eShop CE compilation includes the following components:
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop PE compilation includes the following components additionally:
+The OXID eShop PE compilation includes the following packages additionally:
 
 * Visual CMS Module from v7.0.3 to v8.0.1: `Changelog <https://github.com/OXID-eSales/visual_cms_module/blob/v8.0.1/CHANGELOG-8.x.md>`_
 * OXID eShop Demodata PE v8.0.2: `Changelog <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.2/CHANGELOG.md>`_
@@ -82,7 +82,7 @@ The OXID eShop PE compilation includes the following components additionally:
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop EE compilation includes the following components additionally:
+The OXID eShop EE compilation includes the following packages additionally:
 
 * OXID eShop Demodata EE from v8.0.3 to v8.1.0: `Changelog <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.1.0/CHANGELOG.md>`_
 * OXID eShop EE from v7.2.0 to v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.3.0/CHANGELOG-7.3.md>`_
