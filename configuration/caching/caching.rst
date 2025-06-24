@@ -1,11 +1,22 @@
 ﻿Caching
 =======
 
-Database table structures, contents of the language files used and templates compiled by the Smarty template engine are saved in all shop editions by default. Queries to the OXSEO database table are also written to files, if enabled in the performance settings, to avoid repeated database access. Files are saved in the shop’s :file:`/tmp` directory and its subdirectories, e.g. :file:`/tmp/smarty`. Caching allows the system to use the contents from the cache and send them to the inquiring web clients, whenever possible. This reduces database access and significantly reduces OXID eShop response times.
+.. todo: #Ashraf: check whether the following content is still correct or whether some of it might be obsolete.
+.. todo: #Ashraf: How is Varnish, Memcached and the regular settings related to each other, mutually exclusive, additive?
+
+Database table structures, contents of the language files used and templates compiled by the Smarty template engine are saved in all shop editions by default.
+
+Queries to the OXSEO database table are also written to files, if enabled in the performance settings, to avoid repeated database access.
+
+Files are saved in the shop’s :file:`/tmp` directory and its subdirectories, e.g. :file:`/tmp/smarty`.
+
+Caching allows the system to use the contents from the cache and send them to the inquiring web clients, whenever possible. This reduces database access and significantly reduces OXID eShop response times.
 
 OXID eShop Enterprise Edition offers far more capabilities for caching.
 
-Dynamic Content Cache has been an integral part of Enterprise Edition from the very beginning. It's a caching solution that caches the generated HTML pages, including their dynamic content. For this, the technical capabilities of the Zend Server or simply the file system of the server where the shop is running can be used. If a page is requested by the browser, the system will first check whether this page is still in the cache and still valid. The validity is determined by the set lifetime (TTL, Time To Live). If the page is in the cache and contains dynamic content, it will be reloaded and then the complete page will be sent to the browser. If the requested page is not in the cache, it will be created, displayed and cached.
+Dynamic Content Cache has been an integral part of Enterprise Edition from the very beginning. It's a caching solution that caches the generated HTML pages, including their dynamic content. For this, the technical capabilities of the Zend Server or simply the file system of the server where the shop is running can be used. If a page is requested by the browser, the system will first check whether this page is still in the cache and still valid.
+
+The validity is determined by the set lifetime (TTL, Time To Live). If the page is in the cache and contains dynamic content, it will be reloaded and then the complete page will be sent to the browser. If the requested page is not in the cache, it will be created, displayed and cached.
 
 Caching has been enhanced with Enterprise Edition version 5.0.0.
 

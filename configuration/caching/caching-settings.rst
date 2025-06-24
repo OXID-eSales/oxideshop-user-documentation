@@ -1,15 +1,15 @@
 ﻿Caching settings
 ================
 
-Configure the caching settings in the OXID eShop Admin panel under :menuselection:`Master Settings --> Core Settings --> Caching`.
+Configure the caching settings.
 
-The :guilabel:`Caching` tab (:ref:`oxbacd01`) is divided into three sections:
+.. todo: the following is obsolete:
+    The :guilabel:`Caching` tab (:ref:`oxbacd01`) is divided into three sections:
+    * :guilabel:`Default Cache Backend`
+    * :guilabel:`Reverse Proxy`
+    * :guilabel:`Dynamic Content Caching`.
 
-* :guilabel:`Default Cache Backend`
-* :guilabel:`Reverse Proxy`
-* :guilabel:`Dynamic Content Caching`.
 
-To expand the settings views, click the headings .
 
 .. _oxbacd01:
 
@@ -20,18 +20,24 @@ To expand the settings views, click the headings .
 
    Fig.: Caching tab
 
-Enabling caching
-----------------
+Enabling Static Content Caching
+-------------------------------
 
 Ensure that static content, such as products, categories, the category tree, volume prices, contents of CMS pages, etc., is cached by default.
 
-.. todo: #Ashraf: is it activated by default? What us the use of default caching? Why is it called "default" caching, is there a non-default caching? In which case would I deactivate default caching?
+.. todo: #Ashraf: is this the correct definition of "data" cached: static content, such as products, categories, the category tree, volume prices, contents of CMS pages, etc.
+.. todo: #Ashraf: Data caching seems not to be activated by default. Shouldn't it?
+.. todo: default caching now obsolete ? Why is it called "default" caching, is there a non-default caching? In which case would I deactivate default caching?
+.. todo: #Ahriaf: In which case is it advisiable or necessary?  In which case not?
 
 |procedure|
 
-1. Ensure that the :guilabel:`Enable caching` checkbox is activated (:ref:`oxbacd01`, item 1).
+1. In the OXID eShop Admin panel, choose :menuselection:`Master Settings --> Core Settings --> Caching`.
+#. Under :guilabel:`Data cache`, ensure that the :guilabel:`Enable caching` checkbox is activated (:ref:`oxbacd01`, item 1).
 #. Save your settings.
 
+Enabling Dynamic Content Caching
+--------------------------------
 
 .. todo: #Ahraf: the following can be removed totally, correct?
     :guilabel:`Cache lifetime (TTL)` |br|
@@ -58,22 +64,35 @@ Ensure that static content, such as products, categories, the category tree, vol
 
 .. todo: #Ahraf: the English 7.2 docu contains a Varnish reverse proxy chapter that is removed in the German version: is it no longer relevant?
 
-Dynamic Content Caching
------------------------
-This section contains the settings for dynamic content caching, which used to be the only kind of caching in Enterprise Edition.
+Activate dynamic content caching, which used to be the only kind of caching in Enterprise Edition.
+
+.. todo: #Ahraf: what does it mean: "which used to be the only kind of caching in Enterprise Edition" -- is it also available in CE and PE?
+.. todo: #Ahraf: How do I use the information provided in the table? What are typical values and corresponding actions? In which case would I activate dynamic caching, in which cases not, what are possible downsides?
 
 A table provides an overview of the data requested by the cache, such as cache hits for data in the cache or cache miss for data that is no longer in the cache.
 
-.. todo: #Agraf: Is the following still somehow relevant?
+Adjust the duration and specify the content to be cached.
+
+.. todo: #Agraf: Is the following reverse proxy thing still somehow relevant?
     Please don’t use dynamic content caching with reverse proxy because both methods essentially cache pages and dynamic content. That could adversely affect the performance.
 
-:guilabel:`Enable caching` |br|
-Check this box if you want to use dynamic content caching.
+|procedure|
 
-:guilabel:`Cache lifetime (TTL)` |br|
-Duration in seconds after which the cache is cleared. The default value is 3,600 seconds. After this time, the page layout becomes invalid. This information is sent via the HTTP header using the \"Age\" header value.
+1. In the OXID eShop Admin panel, choose :menuselection:`Master Settings --> Core Settings --> Caching`.
+#. Under :guilabel:`Dynamic Content Caching`, ensure that the :guilabel:`Enable caching` checkbox is activated (:ref:`oxbacd01`, item 2).
+#. If required, in the :guilabel:`Cache lifetime (TTL)`field, adjust the duration.
 
-:guilabel:`Cacheable classes` |br|
-List of classes which are cached by default: info, start, details, alist and vendorlist.
+   Specify the duration in seconds after which the cache is cleared.
+
+   The default value is 3,600 seconds. After this time, the page layout becomes invalid. This information is sent via the HTTP header using the \"Age\" header value.
+
+   .. todo: #Ashraf: In which case would I adjust the duration?
+
+#. In the :guilabel:`Cacheable classes` field, add custom classes to be cached.
+
+   By default, the following classes are cached: ``info``, ``start``, ``details``, ``alist``, and ``vendorlist``.
+
+#. Save your settings.
+
 
 .. Intern: oxbacd, Status:
