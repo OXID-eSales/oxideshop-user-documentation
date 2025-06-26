@@ -104,13 +104,13 @@ Compatible OXID Extensions
 
 OXID eShop Enterprise B2B Edition 7.3
 -------------------------------------
-.. todo: move to other section/page
+.. todo: move to other section/page:
 
-  Allow the the chief buyer to set a secondary limit to allow buyers to place smaller orders directly without requiring approval, thereby reducing your workload.
+Allow the the chief buyer to set a secondary limit to allow buyers to place smaller orders directly without requiring approval, thereby reducing your workload.
 
-  .. todo: #tbd: Verify URLs:
+.. todo: #tbd: Verify URLs:
 
-  For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
+For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
 
 Installation
 ------------
