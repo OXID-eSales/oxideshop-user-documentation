@@ -112,13 +112,13 @@ Compatible OXID Extensions
 * OXAPI GraphQL Base Module 11.0: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
 * OXAPI GraphQL Configuration Access Module 2.1: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
 * OXAPI GraphQL Storefront Module 4.1: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
-* OXID ERP Interface 4.2: `Documentation <https://docs.oxid-esales.com/interfaces/erp/en/4.2>`_
+* OXID ERP Interface 4.2: `Documentation (password-protected) <https://docs.oxid-esales.com/interfaces/erp/en/4.2>`_
 * [NEW] OXID eShop Admin Tools 1.0: `Documentation <https://docs.oxid-esales.com/modules/admin-tools/en/1.0/>`_
-* [NEW] OXID eShop Consistency Check Tool 1.0: `Documentation <https://github.com/OXID-eSales/consistency-check-tool/tree/v1.0.0>`_
-* OXID eShop Country VAT Administration 2.3: `Documentation <https://github.com/OXID-eSales/country-vat-module/blob/v2.3.0/README.md>`_
+* [NEW] OXID eShop Consistency Check Tool 1.0: `Documentation (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v1.0.0/README.md>`_
+* OXID eShop Country VAT Administration 2.3: `Documentation (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.3.0/README.md>`_
 * OXID eShop Geo-Blocking Module 2.3: `Documentation <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
-* [NEW] OXID eShop Security Module 2.0: `Documentation <https://docs.oxid-esales.com/modules/security/de/2.0/releases/security-module-200.html>`_
-* OXID eShop Shipping Cost Compensation Module 1.1: `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/introduction.html>`_
+* [NEW] OXID eShop Security Module 2.0: `Documentation <https://docs.oxid-esales.com/modules/security/en/2.0/>`_
+* OXID eShop Shipping Cost Compensation Module 1.1: `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/>`_
 * OXID eShop eVAT Module 4.2: `Documentation <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.2>`_
 
 Installation
