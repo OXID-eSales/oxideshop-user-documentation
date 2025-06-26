@@ -73,19 +73,19 @@ OXID eShop PE Compilation
 
 The OXID eShop PE compilation includes the following packages additionally:
 
-* OXID eShop Demodata PE v8.0.2: `Changelog <https://github.com/OXID-eSales/oxideshop_demodata_pe/blob/v8.0.2/CHANGELOG.md>`_
-* OXID eShop PE from v7.2.0 to v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_pe/blob/v7.3.0/CHANGELOG-7.3.md>`_
-* Twig Component PE v2.5.0: `Changelog <https://github.com/OXID-eSales/twig-component-pe/blob/v2.5.0/CHANGELOG-2.x.md>`_
-* Visual CMS Module from v7.0.3 to v8.0.1: `Changelog <https://github.com/OXID-eSales/visual_cms_module/blob/v8.0.1/CHANGELOG-8.x.md>`_
+* OXID eShop Demodata PE v8.0.2
+* OXID eShop PE from v7.2.0 to v7.3.0
+* Twig Component PE v2.5.0
+* Visual CMS Module from v7.0.3 to v8.0.1
 
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The OXID eShop EE compilation includes the following packages additionally:
 
-* OXID eShop Demodata EE from v8.0.3 to v8.1.0: `Changelog <https://github.com/OXID-eSales/oxideshop_demodata_ee/blob/v8.1.0/CHANGELOG.md>`_
-* OXID eShop EE from v7.2.0 to v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.3.0/CHANGELOG-7.3.md>`_
-* Twig Component EE v2.5.0: `Changelog <https://github.com/OXID-eSales/twig-component-ee/tree/v2.5.0>`_
+* OXID eShop Demodata EE from v8.0.3 to v8.1.0
+* OXID eShop EE from v7.2.0 to v7.3.0
+* Twig Component EE v2.5.0
 
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
