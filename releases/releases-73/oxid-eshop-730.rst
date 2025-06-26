@@ -3,8 +3,8 @@ OXID eShop Compilation 7.3.0
 
 Release date: 17-06-2025
 
-What's New
-----------
+New
+---
 
 PHP Support
 ^^^^^^^^^^^
@@ -21,15 +21,14 @@ Controller Management
 
 For easier handling, better testability and more flexible controller extensions, alternatively register new OXID controllers as services.
 
-For more information, see `Controller as a service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_ in the developer documentation.
+For more information, see `Controller as a Service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_ in the developer documentation.
 
 Environment Variables
 ^^^^^^^^^^^^^^^^^^^^^
 
 Use a `.env` file to define environment variables and securely integrate them into your OXID eShop application, making it easier to manage sensitive configuration values and environment-specific settings.
 
-For more information, see `Environment variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_ in the developer documentation.
-
+For more information, see `Environment Variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_ in the developer documentation.
 
 Fixes
 -----
