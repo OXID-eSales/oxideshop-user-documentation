@@ -9,7 +9,7 @@ New
 PHP Support
 ^^^^^^^^^^^
 
-Support for PHP 8.2, 8.3 and 8.4
+Support for PHP 8.2, 8.3 and 8.4.
 
 .. hint::
   Please note changes in floating-point rounding behavior in PHP 8.4 which may result in different calculation outcomes compared to PHP 8.2 and 8.3.
