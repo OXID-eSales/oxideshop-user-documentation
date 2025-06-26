@@ -87,6 +87,25 @@ The OXID eShop EE compilation includes the following packages additionally:
 * OXID eShop EE from v7.2.0 to v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_ee/blob/v7.3.0/CHANGELOG-7.3.md>`_
 * Twig Component EE v2.5.0: `Changelog <https://github.com/OXID-eSales/twig-component-ee/tree/v2.5.0>`_
 
+OXID eShop EE B2B Compilation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The OXID eShop EE B2B compilation includes the following packages additionally:
+
+* OXID eShop B2B Approval Procedure Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Basket Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Budget Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Bulk Orders Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Buying Agent Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Custom Prices Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Offers Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Quick Orders Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Scheduled Orders Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Service Products Module from v7.2.0 to v7.3.0
+* OXID eShop B2B Services Module from v7.2.0 to v7.3.0
+
+For more information about B2B edition releases, see the (password-protected) documentation `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/en/7.3/releases/b2b-edition-730.html>`_.
+
 Compatible OXID Extensions
 --------------------------
 
@@ -101,16 +120,6 @@ Compatible OXID Extensions
 * [NEW] OXID eShop Security Module 2.0: `Documentation <https://docs.oxid-esales.com/modules/security/de/2.0/releases/security-module-200.html>`_
 * OXID eShop Shipping Cost Compensation Module 1.1: `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/introduction.html>`_
 * OXID eShop eVAT Module 4.2: `Documentation <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.2>`_
-
-OXID eShop Enterprise B2B Edition 7.3
--------------------------------------
-.. todo: move to other section/page:
-
-Allow the the chief buyer to set a secondary limit to allow buyers to place smaller orders directly without requiring approval, thereby reducing your workload.
-
-.. todo: #tbd: Verify URLs:
-
-For more information, see `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ documentation.
 
 Installation
 ------------
