@@ -1,9 +1,37 @@
 ﻿Konfiguration
 =============
 
-Im Abschnitt \"Konfiguration\" werden die wichtigsten Einstellungen vorgestellt, die für den Betrieb Ihres OXID eShop notwendig sind.
+Nehmen Sie Einstellungen vor, die für den Betrieb Ihres OXID eShop notwendig sind.
 
-Die Einstellungen werden im Administrationsbereich vorgenommen. Rufen Sie den Administrationsbereich Ihres OXID eShop unter ``www.ihreshopurl.de/admin`` auf. Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL Ihres Shops. Die Login-Seite des Administrationsbereichs wird geöffnet. Melden Sie sich mit den Zugangsdaten an, die Sie bei der Installation des Shops vergeben haben. Bei der Anmeldung können Sie entscheiden, in welcher Sprache der Administrationsbereich angezeigt werden soll. Es stehen auch mehrere Profile zur Auswahl, die den Administrationsbereich für verschiedene Monitorauflösungen darstellen.
+|procedure|
+
+1. Rufen Sie den Administrationsbereich Ihres OXID eShop unter ``www.ihreshopurl.de/admin`` auf.
+2. Ersetzen Sie dabei ``www.ihreshopurl.de`` durch die URL Ihres Shops.
+
+   Die Login-Seite des Administrationsbereichs wird geöffnet.
+
+#. Melden Sie sich mit den Zugangsdaten an, die Sie bei der Installation des Shops vergeben haben.
+
+   Bei der Anmeldung können Sie entscheiden, in welcher Sprache der Administrationsbereich angezeigt werden soll.
+
+   Es stehen auch mehrere Profile zur Auswahl, die den Administrationsbereich für verschiedene Monitorauflösungen darstellen.
+
+.. toctree::
+   :maxdepth: 1
+
+   konfiguration
+   firmendaten
+   e-mails
+   kundeninformationen
+   seo-einstellungen
+   mehrwertsteuer
+   laender
+   bestellprozess
+   lagerverwaltung
+   bilder
+   Mall-Funktion <mall-funktion/index>
+   rechte-und-rollen
+
 
 -----------------------------------------------------------------------------------------
 
