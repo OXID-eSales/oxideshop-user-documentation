@@ -41,8 +41,16 @@ Mit dieser Option können Sie einstellen, ob Kunden Gutscheine verschiedener Gut
 :guilabel:`Gültig mit gleicher Serie bei einer anderen Bestellung` |br|
 Soll ein Kunde Gutscheine dieser Gutscheinserie bei mehreren Bestellungen verwenden können, muss diese Option auf :guilabel:`Ja` stehen. Gutscheine dieser Serie können nur bei einer Bestellung eingelöst werden, wenn die Option auf :guilabel:`Nein` gesetzt ist.
 
+.. _Calculate-only-once:
+
 :guilabel:`Nur einmalig berechnen (gültig nur bei zugewiesenen Gutscheinen)` |br|
-Diese Einstellung hat nur Auswirkung auf Gutscheine einer Gutscheinserie, denen Artikel und/oder Kategorien zugeordnet sind. Ist das Kontrollkästchen angehakt, wird der Gutschein für nur einen der Gutscheinserie zugewiesenen Artikel eingelöst, auch wenn mehrere solcher Artikel im Warenkorb liegen. Ist diese Einstellung nicht aktiv, wird der Gutschein auf jeden dieser Artikel angerechnet.
+Diese Einstellung wirkt sich nur auf Gutscheine einer Gutscheinserie aus, denen Produkte zugeordnet sind.
+
+Wenn das Kontrollkästchen :emphasis:`aktiviert` ist, wird der Gutschein nur für eines der der Gutscheinserie zugeordneten Produkte eingelöst, selbst wenn der Warenkorb mehrere dieser Produkte oder mehrere Einheiten desselben Produkts enthält.
+
+Der Gutschein wirkt sich immer auf das erste passende Produkt im Warenkorb aus. Das bedeutet, dass, wenn zwei oder mehr Produkte zugeordnet sind, der Gutschein auf das Produkt angewendet wird, das der Benutzer zuerst in den Warenkorb legt. Preise oder andere Produkteigenschaften werden nicht berücksichtigt.
+
+Wenn das Kontrollkästchen :emphasis:`nicht` aktiviert ist, wird der Gutschein auf alle zugeordneten Produkte sowie auf mehrere Einheiten dieser Produkte angewendet.
 
 :guilabel:`Gutscheine - Anzahl` |br|
 Anzahl der erzeugten, zur Gutscheinserie gehörenden Gutscheine.
