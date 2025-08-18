@@ -8,7 +8,9 @@ Coupon series can apply to user groups, categories or individual products, or an
    :height: 334
    :width: 650
 
-If categories and/or products have been assigned, you will need to consider the option :guilabel:`Calculate only once (valid only for assigned vouchers)` in the :guilabel:`Main` tab. This setting controls whether a coupon will be applied just once or to all assigned products in the shopping cart.
+.. hint:: If products have been assigned, consider the :guilabel:`Calculate only once` option in the :guilabel:`Main tab`.
+
+   For more information, see :ref:`Calculate only once <Calculate-only-once>`.
 
 :guilabel:`Assign User Groups` |br|
 Clicking on this button will open the assignment window which displays the two lists - :guilabel:`All User Groups` and :guilabel:`Available for User Groups`. User groups can be filtered and sorted by title. Drag the desired user groups from the left-hand list into the right-hand list using the mouse. Hold down the Ctrl key to select multiple user groups. The assignment is now completed.

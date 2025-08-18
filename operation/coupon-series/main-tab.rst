@@ -41,8 +41,18 @@ Use this option to specify whether customers may combine coupons of different se
 :guilabel:`Valid with same Series, different Order` |br|
 Select :guilabel:`Yes` to allow your customers to use coupons from this coupon series for several orders. Select :guilabel:`No` to specify that coupons in this series can only be redeemed for one order.
 
+.. _Calculate-only-once:
+
 :guilabel:`Calculate only once (valid only for product or category vouchers)` |br|
-This setting only affects coupons of a coupon series that have products and/or categories assigned to them. If the box is checked, the coupon will be redeemed for only one of the products assigned to the coupon series even if the shopping cart contains several such products. If the box is not checked, the coupon will be applied to each of these products.
+This setting only affects coupons of a coupon series that have products assigned to them.
+
+.. attention:: Even though the description of the setting refers to category vouchers, it only applies to product-specific coupon series.
+
+If the box is checked, the coupon will be redeemed for only one of the products assigned to the coupon series even if the shopping cart contains several such products. his also includes product quantities of two or more. The coupon is applied to only one product, even if multiple units of that product are purchased.
+
+.. hint:: The coupon always affects the first matching product in the shopping cart. This means if you have assigned two or more products, the coupon is applied for the product the user puts into the shopping cart first. Prices or other product attributes are not considered.
+
+If the box is :emphasis:`not` checked, the coupon will be applied to each of these products. This applies to all assigned products and multiple units of those products.
 
 :guilabel:`Coupons - Quantity` |br|
 Number of coupons generated for the coupon series.
