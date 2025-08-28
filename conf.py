@@ -269,14 +269,22 @@ htmlhelp_basename = 'OXIDeShop6doc'
 
 # A string of reStructuredText that will be included at the beginning of every source file that is read.
 rst_prolog = """
-
-.. |link| image:: /media/icons-de/link.png
-
 .. role:: db
+.. role:: productname
+.. role:: technicalname
+"""
 
+rst_epilog = """
+.. |link| image:: /media/icons-de/link.png
+           :class: no-shadow
+.. |procedure| replace:: **Vorgehen**
+.. |prerequisites| replace:: **Voraussetzungen**
+.. |result| replace:: **Resultat**
+.. |background| replace:: **Hintergrund**
+.. |example| replace:: **Beispiel**
 .. |br| raw:: html
 
-   <br>
+   <br />
 """
 
 # -- Options for LaTeX output ---------------------------------------------
