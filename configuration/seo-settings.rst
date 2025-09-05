@@ -64,7 +64,7 @@ Although metadata is no longer critical for search engines, there is a way to ch
 
 Demoshop example:
 
-.. code:: html
+.. code::
 
    <meta name="description "content=\"All about water sports, sportswear and fashion. Comprehensive product range with the latest trending products. Fast shipping.">
    <meta name="keywords "content="kite, kites, kiteboarding, kiteboards, wakeboarding, wakeboards, boards, beach, summer, water sports, fashion, style, shirts, jeans, accessories, offers">
