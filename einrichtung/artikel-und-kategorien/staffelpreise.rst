@@ -1,8 +1,9 @@
 ﻿Staffelpreise
 =============
-Mit den Staffelpreisen kann für ausgesuchte Artikel ein Mengenrabatt gewährt werden. Sobald eine bestimmte Menge eines Artikels gekauft wird, wird der Artikel günstiger. Für einen bestimmten Mengenbereich wird ein absoluter Preis oder ein prozentualer Rabatt definiert. Mehrere Mengenbereiche bilden so eine Staffel mit unterschiedlichen Artikelpreisen.
 
-Im OXID eShop werden die Staffelpreise auf der Detailseite des Artikels angezeigt, sobald der Kunde auf die Schaltfläche :guilabel:`Mengenstaffelpreise` klickt. Abhängig von der beim Kauf angegebenen Menge wird der dafür vorgesehene Staffelpreis im Warenkorb verwendet und angezeigt.
+Legen Sie mit Staffelpreisen für ausgesuchte Artikel einen rabattierten Preis basierend auf der gekauften Menge fest, entweder als absoluten Preis oder als prozentualen Rabatt. Mehrere Mengenbereiche bilden eine Staffel mit unterschiedlichen Artikelpreisen.
+
+Im OXID eShop werden die Staffelpreise auf der Detailseite des Artikels angezeigt, sobald der Kunde auf die Schaltfläche :guilabel:`Mengenstaffelpreise` klickt. Das System wendet den entsprechenden Staffelpreis im Warenkorb basierend auf der beim Kauf eingegebenen Menge an und zeigt ihn an.
 
 .. image:: ../../media/screenshots-de/oxbafm01.png
    :alt: Staffelpreise, Detailseite des Artikels
@@ -18,37 +19,45 @@ Der Staffelpreis wird in der Artikelverwaltung festgelegt.
 * Gehen Sie zu :menuselection:`Artikel verwalten --> Artikel`.
 * Wählen Sie den gewünschten Artikel aus der Artikelliste.
 * Auf der Registerkarte :guilabel:`Lager` finden Sie die Eingabefelder :guilabel:`Menge von`, :guilabel:`bis` und :guilabel:`Preis`.
-* Geben Sie einen Mengenbereich an und legen Sie einen Preis fest. Wählen Sie aus, ob die Preisangabe absolut oder prozentual ist.
+* Geben Sie einen Mengenbereich an und legen Sie einen Preis fest. Legen Sie fest, ob der Preis als absoluter Betrag oder als prozentualer Rabatt angegeben wird.
 * Speichern Sie den Staffelpreis.
 * Sie können weitere Staffelpreise hinzufügen.
 
-.. hint:: Bitte beachten Sie, dass bei der Staffel mit der größten Artikelanzahl immer eine ausreichend große Menge im Feld :guilabel:`bis` steht, beispielsweise 999999. Anderenfalls würde bei der Überschreitung der obersten Staffelmenge wieder der Originalpreis des Artikels gelten.
+.. important::
+
+   Stellen Sie sicher, dass das Feld :guilabel:`bis` der höchsten Staffel eine ausreichend große Menge enthält (z. B. 999999).
+
+   So verhindern Sie, dass bei Überschreitung der maximalen Staffelmenge der Originalpreis angewendet wird.
 
 Staffelpreise in Kombination mit Rabatten verwenden
 ---------------------------------------------------
 
 Staffelpreise ähneln Rabatten.
 
-Die Kombination von Staffelpreisen mit Rabatten hängt von der Art des Rabatts ab. Produkt- und kategoriespezifische Rabatte prüfen den Einkaufspreis gegen den Originalpreis, während allgemeine Rabatte die staffelbereinigte Gesamtbestellsumme berücksichtigen.
+Die Kombination von Staffelpreisen mit Rabatten hängt von der Art des Rabatts ab. Produkt- und kategoriespezifische Rabatte prüfen den Mindestbestellwert, ab welchem ein Rabatt gilt, gegen den Originalpreis, während allgemeine Rabatte die staffelbereinigte Gesamtbestellsumme berücksichtigen. Die staffelbereinigte Summe bezeichnet die Gesamtbestellsumme nach Anwendung der Staffelpreise, aber vor Anwendung zusätzlicher Rabatte.
 
 Produkt- und kategorie-spezifische Rabatte
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Wenn Sie Rabatte für Produkte mit Staffelpreisen konfigurieren, wird der :emphasis:`Einkaufspreis` des Rabatts mit dem ursprünglichen :emphasis:`Produktpreis` verglichen, nicht mit dem Staffelpreis.
+Wenn Sie Rabatte für Produkte mit Staffelpreisen konfigurieren, wird der im Feld :guilabel:`Einkaufswert` festgelegte Mindestbestellwert mit dem Originalpreis (dem ursprünglichen Preis des Produkts ohne Mengenrabatt) verglichen, nicht mit dem Staffelpreis.
 
-.. todo: #SP: "ursprünglichen :emphasis:`Produktpreis`" -- sonst sprechen wir von "Originalpreis" oder?
+.. todo: Orig: When you configure discounts for products that have scale prices, the discount's :guilabel:`Purchase Price` is compared to the original product price and not to the scale price.
 
 |example|
 
-* Sie haben ein Produkt mit einem ursprünglichen Preis von 10,00 EUR.
+* Sie haben ein Produkt mit einem Originalpreis von 10,00 EUR.
 * Das Produkt hat einen Staffelpreis für Mengen von 10 bis 99 Stück in Höhe von 9,00 EUR.
-* Sie fügen einen Rabatt von 50 % für das Produkt hinzu, der an einen :guilabel:`Einkaufspreis` von 100,00 EUR gebunden ist.
+* Sie fügen einen Rabatt von 50 % hinzu, der bei einer Preissumme von 100,00 EUR (dem im Feld :guilabel:`Einkaufswert` festgelegten Mindestbestellwert, ab welchem ein Rabatt gilt), ausgelöst wird.
 
 Wenn Sie zehn Artikel in den Warenkorb legen, beträgt die ursprüngliche Preissumme 100,00 EUR, wodurch der 50 %-Rabatt ausgelöst wird. Da die Menge von zehn Artikeln den Staffelpreis von 9,00 EUR aktiviert, ergibt sich eine Gesamtbestellsumme von 45,00 EUR (nach Anwendung des Rabatts auf die staffelbereinigte Summe).
 
+Sie können auch ein weiteres Produkt in Ihren Warenkorb legen, was zu elf Mal demselben Produkt führt. Mit dem Mengenrabatt erreichen Sie EUR 99,00. Allerdings beträgt die ursprüngliche Preissumme – nicht der Staffelpreis – EUR 110,00, weshalb der 50%-Rabatt angewendet wird. Sie zahlen EUR 49,50.
+
+Dieses Verhalten gilt für produktspezifische und kategoriespezifische Rabatte. Allgemeine Rabatte vergleichen den im Feld :guilabel:`Einkaufswert` festgelegten Mindestbestellwert mit der Gesamtsumme der Bestellung, die unter Einbeziehung der Mengenrabatte berechnet wird.
+
 **Erläuterung des Rechenwegs (produkt- oder kategoriespezifischer Rabatt mit 10 Artikeln):**
 
-Das System priorisiert die Prüfung des :emphasis:`Einkaufspreises` auf Basis der ursprünglichen Preissumme, um die Rabattbedingung auszulösen. Anschließend wird der Staffelpreis auf die Menge angewendet, und der Rabatt wirkt sich auf die staffelbereinigte Summe aus. Der detaillierte Ablauf ist wie folgt:
+Das System priorisiert die Prüfung des im Feld :guilabel:`Einkaufswert` festgelegten Mindestbestellwerts, ab welchem ein Rabatt gilt, auf Basis der ursprünglichen Preissumme, um die Rabattbedingung auszulösen. Anschließend wird der Staffelpreis auf die Menge angewendet, und der Rabatt wirkt sich auf die staffelbereinigte Summe aus. Der detaillierte Ablauf ist wie folgt:
 
 .. list-table::
    :header-rows: 1
@@ -79,7 +88,7 @@ Fügen Sie einen weiteren Artikel hinzu, so dass insgesamt elf gleiche Produkte 
 
 **Erläuterung des Rechenwegs (produkt- oder kategoriespezifischer Rabatt mit 11 Artikeln):**
 
-Ähnlich wie oben wird die Rabattbedingung auf der ursprünglichen Summe geprüft, der Staffelpreis separat angewendet und der Rabatt dann auf die staffelbereinigte Summe angewendet:
+Ähnlich wie oben wird die Rabattbedingung auf der ursprünglichen Preissumme geprüft, der Staffelpreis separat angewendet und der Rabatt dann auf die staffelbereinigte Summe angewendet:
 
 .. list-table::
    :header-rows: 1
@@ -95,7 +104,7 @@ Fügen Sie einen weiteren Artikel hinzu, so dass insgesamt elf gleiche Produkte 
      - 110,00 EUR
    * - 2
      - Rabattbedingung prüfen und Rabattfaktor anwenden (da Summe ≥ 100,00 EUR)
-     - Rabatt triggern: 50 % (Faktor 0,5)
+     - Rabatt auslösen: 50 % (Faktor 0,5)
      - Rabatt aktiviert
    * - 3
      - Staffelpreis anwenden (Menge 11 passt zu 10–99)
@@ -110,7 +119,7 @@ Fügen Sie einen weiteren Artikel hinzu, so dass insgesamt elf gleiche Produkte 
 Allgemeine Rabatte
 ^^^^^^^^^^^^^^^^^^
 
-Allgemeine Rabatte vergleichen den konfigurierten :emphasis:`Einkaufspreis` mit der Gesamtbestellsumme, die unter Berücksichtigung der Staffelpreise berechnet wird.
+Allgemeine Rabatte vergleichen den im Feld :guilabel:`Einkaufswert` festgelegten Mindestbestellwert, ab welchem ein Rabatt gilt, mit der Gesamtbestellsumme, die unter Berücksichtigung der Staffelpreise berechnet wird.
 
 |example|
 
@@ -141,7 +150,7 @@ Bei allgemeinen Rabatten erfolgt die Prüfung der Bedingung nach Anwendung der S
      - Keine weitere Anpassung
      - 90,00 EUR (Gesamtsumme)
 
-Fügen Sie nun ein weiteres Produkt in den Warenkorb hinzu, z. B. ein Produkt mit einem Preis von 15,00 EUR. Die Gesamtbestellsumme beträgt nun 105,00 EUR. Der :emphasis:`Einkaufspreis` wird erreicht, und der 50 %-Rabatt wird angewendet.
+Fügen Sie nun ein weiteres Produkt in den Warenkorb hinzu, z. B. ein Produkt mit einem Preis von 15,00 EUR. Die Gesamtbestellsumme beträgt nun 105,00 EUR. Der im Feld :guilabel:`Einkaufswert` festgelegte Mindestbestellwert wird erreicht, und der 50 %-Rabatt wird angewendet.
 
 **Erläuterung des Rechenwegs (allgemeiner Rabatt mit 10 Artikeln + Zusatzprodukt):**
 
@@ -169,7 +178,7 @@ Die Staffelpreise werden zuerst auf die relevanten Produkte angewendet, dann die
      - 52,50 EUR (Gesamtsumme)
 
 
-.. hint:: Rabatte aus Gutscheinserien werden stets auf Basis der Gesamtbestellsumme berechnet, da sie nur die Option :guilabel:`Min. Bestellsumme` verwenden und keinen :guilabel:`Einkaufspreis`, der mit Staffelpreisen in Konflikt geraten könnte.
+.. hint:: Rabatte aus Gutscheinserien werden stets auf Basis der Gesamtbestellsumme berechnet, da sie nur die Option :guilabel:`Min. Bestellsumme` verwenden und keinen Mindestbestellwert (Feld :guilabel:`Einkaufswert`), der mit Staffelpreisen in Konflikt geraten könnte.
 
   Weitere Informationen finden Sie unter :doc:`Gutscheinserien <../../betrieb/gutscheinserien/gutscheinserien>`.
 
