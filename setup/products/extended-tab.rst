@@ -15,7 +15,7 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
    Enter product’s length, width and height in meters if the shipping costs must be calculated based on product dimensions.
 
 :guilabel:`Quantity` ... :guilabel:`Unit`
-   Specifying quantity and unit of measure is required for products for which a base price must be specified.
+   Specifying quantity and unit of measure is required for products for which a unit price must be specified.
    |br|
    The unit price is the price relative to a specific unit of measure, such as kilograms or litres.
    |br|
@@ -122,7 +122,7 @@ Until OXID eShop 6.2.1, wished price was called price alert.
    The prices of a product can be changed at a set time. You can set the date and time when the defined default prices should be updated.
 
 :guilabel:`Update price at defined time` - :guilabel:`Base price (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C` ... |br|
-Enter the unit prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
+Enter the unit ("base") prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
 
 :guilabel:`Update price on defined time` - :guilabel:`Start time`
    Set the time for the price update.
