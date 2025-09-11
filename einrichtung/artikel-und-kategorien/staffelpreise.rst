@@ -45,8 +45,6 @@ Produkt- und kategorie-spezifische Rabatte
 
 Wenn Sie Rabatte für Produkte mit Staffelpreisen konfigurieren, wird der im Feld :guilabel:`Einkaufswert` festgelegte Mindestbestellwert mit dem Originalpreis (dem ursprünglichen Preis des Produkts ohne Mengenrabatt) verglichen, nicht mit dem Staffelpreis.
 
-.. todo: Orig: When you configure discounts for products that have scale prices, the discount's :guilabel:`Purchase Price` is compared to the original product price and not to the scale price.
-
 |example|
 
 * Sie haben ein Produkt mit einem Originalpreis von 10,00 EUR.
