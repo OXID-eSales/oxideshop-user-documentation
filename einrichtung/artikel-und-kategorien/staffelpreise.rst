@@ -1,7 +1,12 @@
-Staffelpreise definieren
-========================
+Staffelpreise anbieten
+======================
 
 Gewähren Sie für ausgewählte Artikel einen Mengenrabatt durch Staffelpreise.
+
+Beachten Sie, wie Staffelpreise sich in Kombination mit Rabatten verhalten
+
+Staffelpreise definieren
+------------------------
 
 Ab bestimmten Mengen greifen automatisch niedrigere Preise.
 
