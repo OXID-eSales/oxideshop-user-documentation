@@ -25,7 +25,7 @@ Die dynamischen Inhalte werden mit *Smarty*, einer Template-Engine für PHP, umg
 
 Die Funktionsweise der Smarty-Anweisungen wird an einem Beispiel aus dem Beispiel-Newsletter deutlich. Beim Versenden des Newsletters werden die Smarty-Anweisungen, die wie Platzhalter fungieren, durch reale Daten aus dem Shop ersetzt.
 
-.. code:: html
+.. code::
 
    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;"
       Hallo [{ $myuser->oxuser__oxsal->value|oxmultilangsal }] [{ $myuser->oxuser__oxfname->value }] [{ $myuser->oxuser__oxlname->value }],
