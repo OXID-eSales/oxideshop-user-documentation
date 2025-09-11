@@ -47,13 +47,7 @@ Legen Sie Staffelpreise in der Artikelverwaltung fest.
    :width: 650
    :class: with-shadow
 
-.. important::
-
    Abb.: Staffelpreise festlegen
-
-   Stellen Sie sicher, dass das Feld :guilabel:`bis` der höchsten Staffel eine ausreichend große Menge enthält (z. B. 999999).
-
-   So verhindern Sie, dass bei Überschreitung der maximalen Staffelmenge der Originalpreis angewendet wird.
 
 Staffelpreise in Kombination mit Rabatten verwenden
 ---------------------------------------------------
