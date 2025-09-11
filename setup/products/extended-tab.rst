@@ -28,7 +28,7 @@ Link to an external website, such as the manufacturer's website, with additional
 If you have added a link to an external website, you will need to enter the text for the link here. This text will be displayed in the product’s detailed view, together with the link to the external URL, at the end of the description.
 
 :guilabel:`Purchase Price (€)` ... :guilabel:`RRP` ... |br|
-Enter the product’s purchase price here. It won’t be displayed in the shop but can be useful for future analyses.
+Enter the product’s wholesale price here. It won’t be displayed in the shop but can be useful for future analyses.
 
 RRP (Recommended Retail Price) allows you to offer products at a lower price than the manufacturer recommends. If the RRP, i.e., the price specified by the manufacturer, is greater than the product price, the normal price indication in the detailed view of the article is supplemented by a \"Statt\" with a crossed out RRP.
 
