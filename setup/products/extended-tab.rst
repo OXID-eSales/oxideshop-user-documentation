@@ -15,11 +15,11 @@ Weight entered here is taken into account in the calculation of shipping costs. 
 Enter product’s length, width and height in meters if the shipping costs must be calculated based on product dimensions.
 
 :guilabel:`Quantity` ... :guilabel:`Unit` |br|
-Specifying quantity and unit of measure is required for products for which a base price must be specified. The base price is the price relative to a specific unit of measure, such as kilograms or litres. Enter the product quantity per unit of measure. You can select a unit of measure from the list or enter a unit of measure that’s not in the list.
+Specifying quantity and unit of measure is required for products for which a unit price must be specified. The unit price is the price relative to a specific unit of measure, such as kilograms or litres. Enter the product quantity per unit of measure. You can select a unit of measure from the list or enter a unit of measure that’s not in the list.
 
-The base price will be displayed in the product’s detailed view.
+The unit price will be displayed in the product’s detailed view.
 
-Example: For a product that is offered in a 1.5 kg package, enter 1.5 in the Quantity field and select :guilabel:`kg` as the unit of measure. Assuming the product costs €3.00, the base price would be €2.00/kg.
+Example: For a product that is offered in a 1.5 kg package, enter 1.5 in the Quantity field and select :guilabel:`kg` as the unit of measure. Assuming the product costs €3.00, the unit price would be €2.00/kg.
 
 :guilabel:`External URL` |br|
 Link to an external website, such as the manufacturer's website, with additional information about the product.
@@ -105,11 +105,11 @@ Upload a file that will be available for download to the customer in the :guilab
 The prices of a product can be changed at a set time. You can set the date and time when the defined default prices should be updated.
 
 :guilabel:`Update price at defined time` - :guilabel:`Base price (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C` ... |br|
-Enter the prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
+Enter the unit prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
 
 :guilabel:`Update price on defined time` - :guilabel:`Start time` |br|
 Set the time for the price update.
 
-.. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Assigning products to categories <../products-and-categories/assigning-products-to-categories>` | :doc:`Product’s main category <../products-and-categories/main-category-of-a-product>` | :doc:`Price per unit (base price) <../products-and-categories/price-per-unit-base-price>` | :doc:`Add-on product <../../operation/discounts/product-as-add-on>`
+.. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Assigning products to categories <../products-and-categories/assigning-products-to-categories>` | :doc:`Product’s main category <../products-and-categories/main-category-of-a-product>` | :doc:`Price per unit (unit price) <../products-and-categories/price-per-unit-base-price>` | :doc:`Add-on product <../../operation/discounts/product-as-add-on>`
 
 .. Intern: oxbacj, Status:, F1: article_extend.html

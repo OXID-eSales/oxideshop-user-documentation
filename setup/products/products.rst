@@ -27,7 +27,7 @@ Main tab
 
 Extended tab
 ------------
-**Contents**: weight, dimensions, quantity, basic price, external URL, purchase price, RRP, alternative template, searchable and customisable, intangible product (service), free shipping, EU Consumer Rights Directive 2013, waiving the right of withdrawal for intangible and downloadable products, free product, assigning categories, media files as URL or for download, updating prices |br| 
+**Contents**: weight, dimensions, quantity, basic price, external URL, wholesale price, RRP, alternative template, searchable and customisable, intangible product (service), free shipping, EU Consumer Rights Directive 2013, waiving the right of withdrawal for intangible and downloadable products, free product, assigning categories, media files as URL or for download, updating prices |br|
 :doc:`Read article <extended-tab>` |link|
 
 Stock tab
