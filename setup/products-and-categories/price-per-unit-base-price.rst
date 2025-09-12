@@ -1,5 +1,5 @@
-Specifying the Unit Price (Base Price)
-======================================
+Specifying the Unit Price
+=========================
 
 For products sold by weight, volume, length, or area, you are required to specify the unit price (basic price per unit).
 

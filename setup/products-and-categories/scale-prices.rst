@@ -1,7 +1,12 @@
-Defining Scale Prices
+Offering Scale Prices
 =====================
 
 Use scale prices to offer quantity discounts for selected products.
+
+Observe how scale prices behave in combination with discounts.
+
+Defining Scale Prices
+---------------------
 
 Lower prices are automatically applied when a customer orders larger quantities.
 
