@@ -15,15 +15,15 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
    Enter product’s length, width and height in meters if the shipping costs must be calculated based on product dimensions.
 
 :guilabel:`Quantity` ... :guilabel:`Unit`
-   Specifying quantity and unit of measure is required for products for which a base price must be specified.
+   Specifying quantity and unit of measure is required for products for which a unit price must be specified.
    |br|
-   The base price is the price relative to a specific unit of measure, such as kilograms or litres.
+   The unit price is the price relative to a specific unit of measure, such as kilograms or litres.
    |br|
    Enter the product quantity per unit of measure. You can select a unit of measure from the list or enter a unit of measure that’s not in the list.
    |br|
-   The base price will be displayed in the product’s detailed view.
+   The unit price will be displayed in the product’s detailed view.
    |br|
-   Example: For a product that is offered in a 1.5 kg package, enter 1.5 in the Quantity field and select :guilabel:`kg` as the unit of measure. Assuming the product costs €3.00, the base price would be €2.00/kg.
+   Example: For a product that is offered in a 1.5 kg package, enter 1.5 in the Quantity field and select :guilabel:`kg` as the unit of measure. Assuming the product costs €3.00, the unit price would be €2.00/kg.
 
 :guilabel:`External URL`
    Link to an external website, such as the manufacturer's website, with additional information about the product.
@@ -31,8 +31,8 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
 :guilabel:`Text for external URL`
    If you have added a link to an external website, you will need to enter the text for the link here. This text will be displayed in the product’s detailed view, together with the link to the external URL, at the end of the description.
 
-:guilabel:`Purchase Price (€)` ... :guilabel:`RRP` ...
-   Enter the product’s purchase price here. It won’t be displayed in the shop but can be useful for future analyses.
+:guilabel:`Purchase Price (€)` ... :guilabel:`RRP` ... |br|
+Enter the product’s wholesale price here. It won’t be displayed in the shop but can be useful for future analyses.
 
    RRP (Recommended Retail Price) allows you to offer products at a lower price than the manufacturer recommends. If the RRP, i.e., the price specified by the manufacturer, is greater than the product price, the normal price indication in the detailed view of the article is supplemented by a \"Statt\" with a crossed out RRP.
 
@@ -125,12 +125,12 @@ Until OXID eShop 6.2.1, wished price was called price alert.
 :guilabel:`Update price at defined time`
    The prices of a product can be changed at a set time. You can set the date and time when the defined default prices should be updated.
 
-:guilabel:`Update price at defined time` - :guilabel:`Base price (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C` ...
-   Enter the prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
+:guilabel:`Update price at defined time` - :guilabel:`Base price (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C` ... |br|
+Enter the unit ("base") prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
 
 :guilabel:`Update price on defined time` - :guilabel:`Start time`
    Set the time for the price update.
 
-.. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Assigning products to categories <../products-and-categories/assigning-products-to-categories>` | :doc:`Product’s main category <../products-and-categories/main-category-of-a-product>` | :doc:`Price per unit (base price) <../products-and-categories/price-per-unit-base-price>` | :doc:`Add-on product <../../operation/discounts/product-as-add-on>`
+.. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Assigning products to categories <../products-and-categories/assigning-products-to-categories>` | :doc:`Product’s main category <../products-and-categories/main-category-of-a-product>` | :doc:`Price per unit (unit price) <../products-and-categories/price-per-unit-base-price>` | :doc:`Add-on product <../../operation/discounts/product-as-add-on>`
 
 .. Intern: oxbacj, Status:, F1: article_extend.html
