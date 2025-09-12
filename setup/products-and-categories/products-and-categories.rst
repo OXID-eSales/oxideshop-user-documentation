@@ -12,9 +12,9 @@ Alternative prices for user groups
 **Contents**: price, alternative price, products, users, user groups, price A, price B, price C |br|
 :doc:`Read article <alternative-prices-for-user-groups>` |link|
 
-Price per unit (base price)
+Price per unit (unit price)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Contents**: price, basic price information, product’s details page, price per unit, weight, volume, length, area, kg, g, l, ml, cm, mm, m, m², m³, piece and item, German Price Indication Ordinance |br|
+**Contents**: price, unit price information, product’s details page, price per unit, weight, volume, length, area, kg, g, l, ml, cm, mm, m, m², m³, piece and item, German Price Indication Ordinance |br|
 :doc:`Read article <price-per-unit-base-price>` |link|
 
 Scale prices
