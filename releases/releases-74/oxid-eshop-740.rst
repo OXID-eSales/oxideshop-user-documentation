@@ -1,10 +1,14 @@
-OXID eShop Compilation 7.3.0
+OXID eShop Compilation 7.4.0
 ============================
 
-Veröffentlichungsdatum: 2025-06-17
+Veröffentlichungsdatum: 2025-10-14
+
+.. todo: #HR: Release date
 
 Neu
 ---
+
+.. todo: #HR: New functions to be dertemined
 
 PHP Support
 ^^^^^^^^^^^
@@ -33,6 +37,8 @@ Für weitere Informationen, siehe `Environment Variables <https://docs.oxid-esal
 Fixes
 -----
 
+.. todo: #HR: fixes to be dertemined
+
 * #0005922 Einfluss der Reihenfolge der Währungsliste auf die Bestellsumme: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5922>`_
 * #0006860 E-Mail Existenzprüfung beim Wechsel von Gast zu registriertem Nutzer: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6860>`_
 * #0007254 Verhalten der Bestellbestätigung, wenn etwas zum Warenkorb hinzugefügt wird: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7254>`_
@@ -47,6 +53,8 @@ Packages
 
 OXID eShop CE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #HR: comp to be determined
 
 Die OXID eShop CE Compilation beinhaltet die folgenden Pakete:
 
@@ -71,6 +79,8 @@ Die OXID eShop CE Compilation beinhaltet die folgenden Pakete:
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. todo: #HR: comp to be determined
+
 Die OXID eShop PE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 
 * OXID eShop Demodata PE v8.0.2
@@ -81,6 +91,8 @@ Die OXID eShop PE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. todo: #HR: comp to be determined
+
 Die OXID eShop EE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 
 * OXID eShop Demodata EE from v8.0.3 to v8.1.0
@@ -89,6 +101,8 @@ Die OXID eShop EE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo: #HR: comp to be determined
 
 Die OXID eShop EE B2B Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 
@@ -108,6 +122,8 @@ Für weitere Informationen zu Veröffentlichungen der B2B Edition, siehe die (pa
 
 Kompatible OXID Erweiterungen
 -----------------------------
+
+.. todo: #HR: modules to be determined
 
 * OXAPI GraphQL Base Module 11.0: `Dokumentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
 * OXAPI GraphQL Configuration Access Module 2.1: `Dokumentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
