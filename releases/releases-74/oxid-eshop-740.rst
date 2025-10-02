@@ -8,31 +8,12 @@ Veröffentlichungsdatum: 2025-10-14
 Neu
 ---
 
-.. todo: #HR: New functions to be dertemined
+.. todo: #HR: New functions to be dertermined
 
-PHP Support
-^^^^^^^^^^^
+MySQL Support
+^^^^^^^^^^^^^
 
-Support für PHP 8.2, 8.3 und 8.4.
-
-.. hint::
-  Vorsicht beim Rundungsverhalten in PHP 8.4, welches in unterschiedlichen Ergebnissen im Vergleich zu PHP 8.2 und 8.3 enden kann.
-  
-Für weitere Informationen, siehe `Server- und Systemvoraussetzungen <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html#php>`_.
-
-Controller Management
-^^^^^^^^^^^^^^^^^^^^^
-
-Für einfachere Verwaltung, bessere Testmöglichkeit und mehr Flexibilität können OXID Controller nun als Service registriert werden.
-
-Für weitere Informationen, siehe `Controller as a Service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_ in der Entwicklerdokumentation.
-
-Umgebungsvariablen
-^^^^^^^^^^^^^^^^^^
-
-Nutzen Sie eine `.env`-Datei, um Umgebungsvariablen zu definieren und diese sicher in die eigene OXID eShop Applikation zu integrieren. Das macht es einfacher sensible Konfigurationswerte und umgebungsspezifische Einstellungen zu verwalten.
-
-Für weitere Informationen, siehe `Environment Variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_ in der Entwicklerdokumentation.
+Alle Module sind auf Kompatibilität mit der MySQL Long Term Support Version 8.4. getestet.
 
 Fixes
 -----
