@@ -78,7 +78,7 @@ Tabs at a glance
 
 Overview tab
 ^^^^^^^^^^^^
-**Contents**: order overview, billing address, shipping address, ordered products, total price with individual items, payment method, shipping method, order notification, order number, customer number, folder for orders, new, processed, problems, today’s orders, total orders, shipping orders, shipping confirmation, invoice and delivery note as PDF |br|
+**Contents**: order overview, billing address, shipping address, ordered products, total price with individual items, payment method, shipping method, order notification, order number, customer number, folder for orders, new, processed, problems, today’s orders, total orders, shipping orders, shipping confirmation |br|
 :doc:`Read article <overview-tab>` |link|
 
 Main tab
