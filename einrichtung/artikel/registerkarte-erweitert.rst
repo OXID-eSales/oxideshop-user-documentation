@@ -3,10 +3,12 @@
 
 Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigenschaften von Artikeln festzulegen und ihnen Informationsquellen, wie beispielsweise Dokumente, Videos oder Audiodateien hinzuzufügen.
 
-.. image:: ../../media/screenshots/oxbacj01.png
+.. figure:: ../../media/screenshots/oxbacj01.png
    :alt: Artikel - Registerkarte Erweitert
    :class: with-shadow
    :width: 650
+
+   Abb.: Artikel - Registerkarte Erweitert
 
 :guilabel:`Gewicht`
    Ein hier eingetragenes Gewicht wird bei der Berechnung der Versandkosten berücksichtigt. Die Maßeinheit für das Gewicht ist Kilogramm.
@@ -32,9 +34,19 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
    Haben Sie auf eine externe Internetseite verlinkt, wird hier der Text für den Link eingetragen. Der Text wird, verlinkt mit der externen URL, in der Detailansicht des Artikels am Ende der Beschreibung angezeigt.
 
 :guilabel:`Einkaufspreis (€)` ... :guilabel:`UVP` ...
-   Sie können hier den Einkaufspreis des Artikels erfassen. Dieser wird nicht im Shop angezeigt, kann aber sinnvoll für zu erstellende Auswertungen sein.
+   Erfassen Sie optional den Einkaufspreis des Artikels. Dieser wird nicht im Shop angezeigt, kann aber sinnvoll für zu erstellende Auswertungen sein.
 
-   Über den UVP (Unverbindlicher Verbraucherpreis) haben Sie die Möglichkeit, einen Artikel günstiger anzubieten, als der Hersteller empfiehlt. Ist der UVP, also die Herstellervorgabe, größer als der Artikelpreis, wird in der Detailansicht des Artikels die normale Preisangabe um ein \"Statt\" mit durchgestrichenem UVP ergänzt.
+   Über den UVP (Unverbindlicher Verbraucherpreis) können Sie einen Artikel günstiger anbieten, als der Hersteller empfiehlt.
+
+   Ist der UVP, also die Herstellervorgabe, größer als der Artikelpreis, wird in der Detailansicht des Artikels die normale Preisangabe mit durchgestrichenem UVP ergänzt (:ref:`oxbacj03`, Pos. 1).
+
+   .. _oxbacj03:
+   .. figure:: ../../media/screenshots/oxbacj03.png
+      :alt: Durchgestrichener UVP
+      :height: 314
+      :width: 400
+
+      Abb.: Durchgestrichener UVP
 
 :guilabel:`Datei`
    Nach dem Hochladen einer Datei, steht hier deren Dateiname. Durch Löschen des Dateinamens und anschließendem Speichern wird diese Datei wieder aus der Detailansicht des Artikels in der Registerkarte :guilabel:`MEDIEN` entfernt.
@@ -98,10 +110,12 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 :guilabel:`Kategorien zuordnen`
    Ein Artikel kann zu einer oder zu mehreren Kategorien gehören. Die Schaltfläche :guilabel:`Kategorien zuordnen` öffnet ein neues Fenster.
 
-   .. image:: ../../media/screenshots/oxbacj02.png
+   .. figure:: ../../media/screenshots/oxbacj02.png
       :alt: Kategorien zuordnen
       :height: 314
       :width: 400
+
+      Abb.: Kategorien zuordnen
 
    |br|
    In diesem Zuordnungsfenster werden in der linken Liste alle Kategorie angezeigt.

@@ -64,7 +64,9 @@ Die Kombination von Staffelpreisen mit Rabatten hängt von der Art des Rabatts a
 Produkt- und kategorie-spezifische Rabatte
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Wenn Sie Rabatte für Produkte mit Staffelpreisen konfigurieren, wird der im Feld :guilabel:`Einkaufswert` festgelegte Mindestbestellwert mit dem Originalpreis (dem ursprünglichen Preis des Produkts ohne Mengenrabatt) verglichen, nicht mit dem Staffelpreis.
+Wenn Sie Rabatte für Produkte mit Staffelpreisen konfigurieren, wird der Mindestbestellwert (den Sie unter :menuselection:`Shopeinstellungen -> Rabatte -> Stamm` im Feld :guilabel:`Einkaufswert` festgelegt haben, siehe :ref:`Einkaufswert <Einkaufswert>`)  mit dem Originalpreis (dem ursprünglichen Preis des Produkts ohne Mengenrabatt) verglichen, nicht mit dem Staffelpreis.
+
+, in the :guilabel:`Purchase Price` field (see )
 
 |example|
 

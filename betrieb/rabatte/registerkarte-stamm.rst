@@ -37,6 +37,8 @@ Die Einstellungen und die Sprachumstellung sind erst nach Anlegen des Rabatts ve
 
    Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Rabatte plazieren`.
 
+.. _Einkaufswert:
+
 :guilabel:`Einkaufswert (€) von` ... :guilabel:`bis` ...
    Geben Sie eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt werden soll.
 
