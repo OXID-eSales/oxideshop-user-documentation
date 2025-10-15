@@ -64,7 +64,7 @@ The combination of scale prices with discounts depends on the type of discount. 
 Product-Specific and Category-Specific Discounts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When configuring discounts for products with scale prices, the minimum purchase amount defined in the :guilabel:`Purchase Price` field is compared to the original price (the product's original price without quantity discount), not to the scale price.
+When configuring discounts for products with scale prices, the minimum purchase amount defined under :menuselection:`Shop Settings -> Discounts -> Main`, in the :guilabel:`Purchase Price` field (see :ref:`Purchase Price <purchase-price>`), is compared to the original price (the product's original price without quantity discount), not to the scale price.
 
 |example|
 

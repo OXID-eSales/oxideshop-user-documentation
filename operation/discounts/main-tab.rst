@@ -40,6 +40,8 @@ The settings and the language selection are only available after the discount ha
 
    For more information, see :ref:`operation/discounts/discounts:Displaying discounts`.
 
+.. _purchase-price:
+
 :guilabel:`Purchase Price (€) From` ... :guilabel:`To` ...
    Define a range for the total price on which a discount should be granted.
 

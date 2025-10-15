@@ -3,19 +3,21 @@
 
 The :guilabel:`Extended` tab allows you to set specific product characteristics and add sources of information, such as documents, videos, or audio files.
 
-.. image:: ../../media/screenshots/oxbacj01.png
+.. figure:: ../../media/screenshots/oxbacj01.png
    :alt: Products - Extended tab
    :class: with-shadow
    :width: 650
 
+   Fig.: Products - Extended tab
+
 :guilabel:`Weight`
-   Weight entered here is taken into account in the calculation of shipping costs. It’s measured in kilograms.
+   The weight entered here is taken into account in the calculation of shipping costs. It’s measured in kilograms.
 
 :guilabel:`Dimensions L:` ... :guilabel:`m W:` ... :guilabel:`m H:` ... :guilabel:`m`
-   Enter product’s length, width and height in meters if the shipping costs must be calculated based on product dimensions.
+   Enter the product’s length, width and height in meters if the shipping costs must be calculated based on product dimensions.
 
 :guilabel:`Quantity` ... :guilabel:`Unit`
-   Specifying quantity and unit of measure is required for products for which a unit price must be specified.
+   Specifying a quantity and unit of measure is required for products for which a unit price must be specified.
    |br|
    The unit price is the price relative to a specific unit of measure, such as kilograms or litres.
    |br|
@@ -29,18 +31,39 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
    Link to an external website, such as the manufacturer's website, with additional information about the product.
 
 :guilabel:`Text for external URL`
-   If you have added a link to an external website, you will need to enter the text for the link here. This text will be displayed in the product’s detailed view, together with the link to the external URL, at the end of the description.
+   If you have added a link to an external website, you will need to enter the text for the link here.
 
-:guilabel:`Purchase Price (€)` ... :guilabel:`RRP` ... |br|
-Enter the product’s wholesale price here. It won’t be displayed in the shop but can be useful for future analyses.
+   This text will be displayed in the product’s detailed view, together with the link to the external URL, at the end of the description.
 
-   RRP (Recommended Retail Price) allows you to offer products at a lower price than the manufacturer recommends. If the RRP, i.e., the price specified by the manufacturer, is greater than the product price, the normal price indication in the detailed view of the article is supplemented by a \"Statt\" with a crossed out RRP.
+:guilabel:`Wholesale Price (€)` ... :guilabel:`RRP` ...
+   The product’s wholesale won’t be displayed in the shop but can be useful for future analyses.
+
+   The RRP (Recommended Retail Price) allows you to offer products at a lower price than the manufacturer recommends.
+
+   If the RRP, i.e., the price specified by the manufacturer, is greater than the product price, the normal price indication in the detailed view of the article is supplemented with a crossed out RRP (:ref:`oxbacj03`, item 1).
+
+   .. _oxbacj03:
+
+   .. figure:: ../../media/screenshots/oxbacj03.png
+      :alt: Crossed out recommended retail price
+      :class: with-shadow
+      :width: 650
+
+      Fig.: Crossed out recommended retail price
 
 :guilabel:`File`
-   After you upload a file, the file name will be displayed here. Deleting the file name and then saving will remove this file from the product’s detailed view in the :guilabel:`MEDIA` tab.
+   After you upload a file, the file name will be displayed here.
+
+   Deleting the file name and then saving will remove this file from the product’s detailed view in the :guilabel:`MEDIA` tab.
 
 :guilabel:`File Upload: (max. 2 MB)`
-   Here, you can upload an additional file for the product, for example, a datasheet or a user manual. After saving, the file name will be displayed in the :guilabel:`File` input field. The file can be downloaded in the :guilabel:`MEDIA` tab in the product’s detailed view. Use the :guilabel:`Media URLs` field to add multiple files and a description instead of just the file name.
+   Upload an additional file for the product, a datasheet or a user manual, for example.
+
+   After saving, the file name will be displayed in the :guilabel:`File` input field.
+
+   The file can be downloaded in the :guilabel:`MEDIA` tab in the product’s detailed view.
+
+   Use the :guilabel:`Media URLs` field to add multiple files and a description instead of just the file name.
 
 :guilabel:`Alt. Template`
    The detailed view of the article can differ from that of other articles in order to present it in a special way. To do this, create your own template and enter its path and name here.
@@ -52,32 +75,44 @@ Enter the product’s wholesale price here. It won’t be displayed in the shop 
    For more information on how to set the type of zoom for individual products, for example, see :ref:`configuration/images:Specifying the zoom for individual products`.
 
 :guilabel:`Alt. Contact`
-   By default, questions that customers can send via e-mail through the product’s detailed view are sent to the e-mail address specified under :menuselection:`Master Settings --> Core Settings`. If you have a direct contact person for a specific product, you will need to enter his/her e-mail address here. All product-related enquiries will be sent directly to this employee.
+   By default, questions that customers can send via e-mail through the product’s detailed view are sent to the e-mail address specified under :menuselection:`Master Settings --> Core Settings`.
+
+   If you have a direct contact person for a specific product, you will need to enter his/her e-mail address here. All product-related enquiries will be sent directly to this employee.
 
 :guilabel:`Searchable`
-   This checkbox is selected by default so that customers can search for products in the shop. However, sometimes you might not want them to be able to search for a certain product in the shop, for example, if this is a free product that is added when they purchase something else. This needs to be done to prevent them from adding this product to the shopping cart multiple times.
+   This checkbox is selected by default so that customers can search for products in the shop.
+
+   However, sometimes you might not want them to be able to search for a certain product in the shop, for example, if this is a free product that is added when they purchase something else.
+
+   This needs to be done to prevent them from adding this product to the shopping cart multiple times.
 
 :guilabel:`Product can be customized`
-   If this box is checked, an additional input field will be displayed on the product’s details page and in the shopping cart. Customers can enter text in this input field to provide individual information when purchasing products. This could be the text that is printed on a T-shirt or a mug or an engraved in a ring.
+   If this box is checked, an additional input field will be displayed on the product’s details page and in the shopping cart.
+
+   Customers can enter text in this input field to provide individual information when purchasing products.
+
+   This could be the text that is printed on a T-shirt or a mug or engraved on a ring.
 
 :guilabel:`Intangible Product`
    Intangible products are products that are not packaged and sent to customers, for example, seminars or services.
    |br|
-   If no shipping costs have to be calculated for all intangible products, you will need to select :guilabel:`Don't consider intangible Products (e.g. Gift Certificates) in Shipping Costs Calculation` in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Other settings`.
+   If no shipping costs need to be calculated for all intangible products, select :guilabel:`Don't consider intangible Products (e.g. Gift Certificates) in Shipping Costs Calculation` in :menuselection:`Master Settings --> Core Settings`, the :guilabel:`Settings` tab, under :guilabel:`Other settings`.
    |br|
    If you offer software, under :menuselection:`Master Settings --> Core Settings --> Settings --> Download articles` you have configured the \"Download articles\" function.
    |br|
-   For more Informationen,see :doc:`Downloads tab <../../setup/products/downloads-tab>`.
+   For more information, see :doc:`Downloads tab <../../setup/products/downloads-tab>`.
 
 :guilabel:`Free Shipping`
    If this box is checked, the product won’t be included in the shipping cost calculation. However, even when this product is added to the shopping cart together with other products, this doesn’t mean that the entire order will ship for free.
 
 :guilabel:`Deactivate wished Price`
-   Customers can use the wished price function in the product’s detailed view by entering a price at which they would buy the product. Customer enquiries are collected under :menuselection:`Customer Info --> Price Alert` in the Admin panel. The shop owner can notify the customer by e-mail, prepared by the shop, once the desired price has been reached. Use this field to turn off the wished price for a specific product.
+  Customers can use the wished price function in the product’s detailed view by entering a price at which they would buy the product.
 
-The function can also be globally enabled or disabled for the shop in the :guilabel:`Functions` section of the theme’s settings.
+  Customer enquiries are collected under :menuselection:`Customer Info --> Price Alert` in the Admin panel. The shop owner can notify the customer by e-mail, prepared by the shop, once the desired price has been reached.
 
-Until OXID eShop 6.2.1, wished price was called price alert.
+  Use this field to turn off the wished price for a specific product.
+
+  You can also enable or disable the function globally for the shop in the :guilabel:`Functions` section of the theme’s settings.
 
 :guilabel:`Skip all negative Discounts (Discounts, Vouchers, Delivery ...)`
    If this box is checked, no negative discounts, such as discounts and coupons, will be calculated for this product.
@@ -88,7 +123,7 @@ Until OXID eShop 6.2.1, wished price was called price alert.
 :guilabel:`Bundled Product`
    Use this button to assign a free product to the selected product. It will be added to the shopping cart when customers purchase the product.
 
-.. hint:: This function is currently available only for Community and Professional Edition.
+   .. hint:: This function is currently available only for Community and Professional Edition.
 
 :guilabel:`In Language`
    The product can also be edited in other active languages of the shop. To do this, select the desired language from the list.
@@ -96,10 +131,12 @@ Until OXID eShop 6.2.1, wished price was called price alert.
 :guilabel:`Assign Categories`
    A product can belong to one or more categories. Clicking on :guilabel:`Assign Categories` opens a new window.
 
-   .. image:: ../../media/screenshots/oxbacj02.png
-      :alt: Assign Categories
+   .. figure:: ../../media/screenshots/oxbacj02.png
+      :alt: Assigning Categories
       :height: 311
       :width: 400
+
+      Fig.: Assigning Categories
 
    |br|
    All available categories will be displayed in the left-hand list.
@@ -126,9 +163,9 @@ Until OXID eShop 6.2.1, wished price was called price alert.
    The prices of a product can be changed at a set time. You can set the date and time when the defined default prices should be updated.
 
 :guilabel:`Update price at defined time` - :guilabel:`Base price (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C` ... |br|
-Enter the unit ("base") prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
+   Enter the unit ("base") prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
 
-:guilabel:`Update price on defined time` - :guilabel:`Start time`
+:guilabel:`Update price at defined time` - :guilabel:`Start time`
    Set the time for the price update.
 
 .. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Assigning products to categories <../products-and-categories/assigning-products-to-categories>` | :doc:`Product’s main category <../products-and-categories/main-category-of-a-product>` | :doc:`Price per unit (unit price) <../products-and-categories/price-per-unit-base-price>` | :doc:`Add-on product <../../operation/discounts/product-as-add-on>`
