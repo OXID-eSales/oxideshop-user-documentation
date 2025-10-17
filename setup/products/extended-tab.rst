@@ -36,7 +36,7 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
    This text will be displayed in the product’s detailed view, together with the link to the external URL, at the end of the description.
 
 :guilabel:`Wholesale Price (€)` ... :guilabel:`RRP` ...
-   The product’s wholesale won’t be displayed in the shop but can be useful for future analyses.
+   The product’s wholesale price won’t be displayed in the shop but can be useful for future analyses.
 
    The RRP (Recommended Retail Price) allows you to offer products at a lower price than the manufacturer recommends.
 
@@ -159,14 +159,15 @@ The :guilabel:`Extended` tab allows you to set specific product characteristics 
 :guilabel:`Media URLs` - :guilabel:`Or upload the file (large files should be uploaded via ftp) (file name may only contain letters, numbers, underscore (_) and dot (.))`
    Upload a file that will be available for download to the customer in the :guilabel:`MEDIA` tab of the product’s detailed view.
 
-:guilabel:`Update price at defined time`
-   The prices of a product can be changed at a set time. You can set the date and time when the defined default prices should be updated.
+:guilabel:`Update price at defined time` - :guilabel:`Base price (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C`
+   Automatically update the product's base price and customer-group-specific prices (A, B, C) at a predefined time set in the :guilabel:`Start time` field.
 
-:guilabel:`Update price at defined time` - :guilabel:`Base price (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C` ... |br|
-   Enter the unit ("base") prices that should replace the previously set prices. If a price is set at \"0\", it won’t be updated.
+   This feature supports multiple prices for customer groups: Group A (e.g., premium customers) can receive discounted rates, while groups B and C have standard or higher prices. Use it for scheduled adjustments like promotions, supplier updates, or seasonal changes without manual intervention.
 
-:guilabel:`Update price at defined time` - :guilabel:`Start time`
-   Set the time for the price update.
+   The updates overwrite the corresponding prices set on the :guilabel:`Main` tab.
+
+   To skip updating a specific price, set it to ``0`` (the existing price remains unchanged).
+
 
 .. seealso:: :doc:`Categories <../categories/categories>` | :doc:`Assigning products to categories <../products-and-categories/assigning-products-to-categories>` | :doc:`Product’s main category <../products-and-categories/main-category-of-a-product>` | :doc:`Price per unit (unit price) <../products-and-categories/price-per-unit-base-price>` | :doc:`Add-on product <../../operation/discounts/product-as-add-on>`
 
