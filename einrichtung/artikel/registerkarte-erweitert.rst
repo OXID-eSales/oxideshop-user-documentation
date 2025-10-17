@@ -147,6 +147,16 @@ Die Registerkarte :guilabel:`Erweitert` bietet die Möglichkeit, spezielle Eigen
 :guilabel:`Preis zur festgesetzten Zeit aktualisieren` - :guilabel:`Startzeit`
    Legen Sie hier den Zeitpunkt der Preisaktualisierung fest.
 
+
+:guilabel:`Preis zur festgesetzten Zeit aktualisieren` - :guilabel:`Basispreis (€)` ... :guilabel:`A` ... :guilabel:`B` ... :guilabel:`C`
+   Aktualisieren Sie den Basispreis des Artikels sowie die kundengruppenspezifischen Preise (A, B, C) automatisch zu einem vordefinierten Zeitpunkt, den Sie im Feld :guilabel:`Startzeit` festlegen.
+
+   Diese Funktion unterstützt mehrere Preise für Kundengruppen: Gruppe A (z. B. Premiumkunden) kann ermäßigte Preise erhalten, während Gruppen B und C Standard- oder höhere Preise haben. Verwenden Sie sie für zeitgesteuerte Anpassungen wie Promotionen, Lieferantenpreisaktualisierungen oder saisonale Änderungen ohne manuelle Eingriffe.
+
+   Die Aktualisierungen überschreiben die entsprechenden Preise, die Sie auf der Registerkarte :guilabel:`Stamm` festgelegt haben.
+
+   Um die Aktualisierung eines bestimmten Preises zu überspringen, setzen Sie ihn auf ``0`` (der bestehende Preis bleibt unverändert).
+
 .. seealso:: :doc:`Kategorien <../kategorien/kategorien>` | :doc:`Zuordnung von Artikeln zu Kategorien <../artikel-und-kategorien/zuordnung-von-artikeln-zu-kategorien>` | :doc:`Hauptkategorie eines Artikels <../artikel-und-kategorien/hauptkategorie-eines-artikels>` | :doc:`Preis pro Mengeneinheit (Grundpreis) <../artikel-und-kategorien/preis-pro-mengeneinheit-grundpreis>` | :doc:`Artikel als Zugabe <../../betrieb/rabatte/artikel-als-zugabe>`
 
 
