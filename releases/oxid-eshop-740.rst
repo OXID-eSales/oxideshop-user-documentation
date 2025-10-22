@@ -15,7 +15,7 @@ OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to ve
 * WYSIWYG Editor 6
 * Visual CMS 9 (Enterprise and Professional Edition only)
 
-This update bring in several new features, changes and fixes:
+The update contains numerous feature enhancements, structural changes, and necessary bug fixes:
 
 * a
 * b
@@ -119,7 +119,12 @@ Compatible OXID Extensions
 * OXID eShop Shipping Cost Compensation Module 1.1: `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/>`_
 * OXID eShop eVAT Module 4.2: `Documentation <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.2>`_
 
+Update
+------
+
+The update procedure is described step-by-step in our :doc:`Update Manual <../installation/update>`.
+
 Installation
 ------------
 
-To install or update, follow the instructions at :doc:`Installation <../../installation/index>`.
+If you prefer to do a new installation of OXID eShop 7.4, follow our :doc:`Installation Manual <../installation/new-installation/index>`.
