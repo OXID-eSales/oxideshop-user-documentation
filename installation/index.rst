@@ -6,7 +6,7 @@
    :maxdepth: 1
    
    New installation <new-installation/index>
-   Standard Update (Developer Documentation) <https://docs.oxid-esales.com/developer/en/7.3/update/standard-update.html>
+   Update from 7.x to 7.4 <update>
 
 ..
    Installing a patch update <update/patch-update>
