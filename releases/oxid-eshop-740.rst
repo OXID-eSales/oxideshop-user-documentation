@@ -1,4 +1,4 @@
-OXID eShop Compilation 7.3.0
+OXID eShop Compilation 7.4.0
 ============================
 
 Release date: 2025-11-04
@@ -6,8 +6,23 @@ Release date: 2025-11-04
 New
 ---
 
-TBD
-^^^
+Forward-Looking Content & Media Bundle
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to version 9. This includes the following extensions:
+
+* Media Library 4
+* WYSIWYG Editor 6
+* Visual CMS 9 (Enterprise and Professional Edition only)
+
+This update bring in several new features, changes and fixes:
+
+* a
+* b
+* c
+
+.. hint::
+    The update to **Content & Media Bundle 9** requires migration of existing content. If you wish to stay on previous version, **Content & Media Bundle 8**, you can do so by preconfigurinh your update. Please see our update manual for the necessary steps.
 
 Fixes
 -----
