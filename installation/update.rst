@@ -43,18 +43,20 @@ Step 1: Preconfigure the Content & Media Bundle
 
 If you decide for the new **Content & Media Bundle 9**, you can skip this step and continue with :ref:`Step 2: Set the Target Version <step-2-set-the-target-version>`.
 
-If you decide to keep the **Content & Media Bundle 8**, run the following commands:
+If you decide to keep the **Content & Media Bundle 8** and you have an **OXID eShop Enterprise or Professional Edition**, run the following three commands:
 
 .. code:: shell
 
    composer require oxid-esales/media-library-module:^3.0 --no-update
    composer require ddoe/wysiwyg-editor-module:^5.0 --no-update
+   composer require ddoe/visualcms-module:^8.0 --no-update
 
-If you have an **OXID eShop Enterprise or Professional Edition**, run the following command as well:
+If you decide to keep the **Content & Media Bundle 8** and you have an **OXID eShop Community Edition**, run the following two commands:
 
 .. code:: shell
 
-   composer require ddoe/visualcms-module:^8.0 --no-update
+   composer require oxid-esales/media-library-module:^3.0 --no-update
+   composer require ddoe/wysiwyg-editor-module:^5.0 --no-update
 
 .. _step-2-set-the-target-version:
 
@@ -101,6 +103,6 @@ Step 4: Migrate Content and Media
 
 If you decided to keep the **Content & Media Bundle 8**, you can skip this step. Your Update is finished.
 
-If you decided for the new **Content & Media Bundle 9** and you are running an **OXID eShop Community Edition**, please see the section `Introduction of Media IDs <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/update.rst#introduction-of-media-ids>`__ in our **Content & Media Bundle** documentation to finish your update.
-
 If you decided for the new **Content & Media Bundle 9** and you are running an **OXID eShop Enterprise or Professional Edition**, please see the section `Update <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/update.rst#update>`__ in our **Content & Media Bundle** documentation to finish your update.
+
+If you decided for the new **Content & Media Bundle 9** and you are running an **OXID eShop Community Edition**, please see the section `Introduction of Media IDs <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/update.rst#introduction-of-media-ids>`__ in our **Content & Media Bundle** documentation to finish your update.
