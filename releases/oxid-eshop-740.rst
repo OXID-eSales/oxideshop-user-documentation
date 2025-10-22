@@ -6,8 +6,8 @@ Release date: 2025-11-04
 New
 ---
 
-Forward-Looking Content & Media Bundle
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Future-Forming Content & Media Bundle
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to version 9. This includes the following extensions:
 
@@ -17,12 +17,23 @@ OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to ve
 
 The update contains numerous feature enhancements, structural changes, and necessary bug fixes:
 
-* a
-* b
-* c
+* New alt text feature.
+* New configuration option to set a default media file (fallback media file).
+* Switch to media IDs instead of URLs.
+* New activity settings for timed widgets.
+* New row element for layouting.
+* Additional button to create new content.
+* Switch from parse to tree structure.
+* Row and column elements automatically adjust their height.
+* Optimizations and several bug fixes.
 
 .. hint::
     The update to **Content & Media Bundle 9** requires migration of existing content. If you wish to stay on previous version, **Content & Media Bundle 8**, you can do so by preconfigurinh your update. Please see our update manual for the necessary steps.
+
+For more information about the updated **Content & Media Bundle 9**, you can check out our news section or dive deeper into the corresponding documentation sections.
+
+.. note::
+    The major update of our **Content & Media Bundle**, especially the update to Visual CMS 9, is a huge step forward and provides a more stable and better maintainable base for future changes. We are already working on the next versions. Due to the large architectual optimizations, the current **Content & Media Bundle 9** may have some undetected issues. We are happy to get feedback from you to improve the extensions continously.
 
 Fixes
 -----
