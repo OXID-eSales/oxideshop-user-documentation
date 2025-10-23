@@ -17,23 +17,25 @@ OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to ve
 
 The update contains numerous feature enhancements, structural changes, and necessary bug fixes:
 
-* New alt text feature.
-* New configuration option to set a default media file (fallback media file).
-* Switch to media IDs instead of URLs.
-* New activity settings for timed widgets.
-* New row element for layouting.
-* Additional button to create new content.
-* Switch from parse to tree structure.
-* Row and column elements automatically adjust their height.
-* Optimizations and several bug fixes.
+* New alt text feature: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
+* New configuration option to set a default/fallback media file: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
+* Switch to media IDs instead of URLs: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
+* New activity settings for timed widgets: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
+* New row element for layouting: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
+* Additional button to create new content: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
+* Switch from parse- to tree-style structure: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
+* Row and column elements automatically adjust their height: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
 
-.. hint::
-    The update to **Content & Media Bundle 9** requires migration of existing content. If you wish to stay on previous version, **Content & Media Bundle 8**, you can do so by preconfigurinh your update. Please see our update manual for the necessary steps.
+The update to **Content & Media Bundle 9** requires migration of existing content. If you wish to stay on previous version, **Content & Media Bundle 8**, you can do so by preconfiguring your update. Please see our `Update Manual <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__ for the necessary steps.
 
 For more information about the updated **Content & Media Bundle 9**, you can check out our news section or dive deeper into the corresponding documentation sections.
 
 .. note::
-    The major update of our **Content & Media Bundle**, especially the update to Visual CMS 9, is a huge step forward and provides a more stable and better maintainable base for future changes. We are already working on the next versions. Due to the large architectual optimizations, the current **Content & Media Bundle 9** may have some undetected issues. We are happy to get feedback from you to improve the extensions continously.
+    The major update of our **Content & Media Bundle** is a huge step forward and provides a more stable and better maintainable base for future changes.
+    
+    Due to further architectual optimizations in Visual CMS, we suggest to postpone highly customized modifications to **OXID eShop 7.5** which will include **Visual CMS 10**.
+
+    We are happy to get feedback from you to improve the extensions continously.
 
 Fixes
 -----
