@@ -17,14 +17,16 @@ OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to ve
 
 The update contains numerous feature enhancements, structural changes, and necessary bug fixes:
 
-* New alt text feature: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
-* New configuration option to set a default/fallback media file: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
-* Switch to media IDs instead of URLs: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
-* New activity settings for timed widgets: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
-* New row element for layouting: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
-* Additional button to create new content: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
-* Switch from parse- to tree-style structure: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
-* Row and column elements automatically adjust their height: `Documentation <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__
+* New alt text feature: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#alt-text>`__
+* New configuration option to set a default media file: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#allgemein:~:text=hochgeladen%20werden%20k%C3%B6nnen.-,Standard%2DMedien%2DID,-(Ersatzanzeige)%20(ab%20Mediathek>`__
+* Switch to media IDs instead of URLs: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#introduction-of-media-ids>`__
+* New activity settings for timed widgets: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
+* New row element for layouting: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/functional-description.html#adding-content>`__
+* Additional button to create new content: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/functional-description.html#creating-new-pages>`__
+* Switch from parse- to tree-style structure: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#changed-code-base>`__, `developer information <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
+* Row and column elements automatically adjust their height.
+* Bootstrap 5 for Visual CMS workspace in admin area.
+* Refactoring and separation of some large files.
 
 The update to **Content & Media Bundle 9** requires migration of existing content. If you wish to stay on previous version, **Content & Media Bundle 8**, you can do so by preconfiguring your update. Please see our `Update Manual <https://github.com/OXID-eSales/vcms-documentation/blob/9.0-en/developer.rst#preparetemplateparams-method>`__ for the necessary steps.
 
