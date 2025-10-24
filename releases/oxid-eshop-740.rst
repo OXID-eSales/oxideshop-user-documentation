@@ -18,7 +18,7 @@ OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to ve
 The update contains numerous feature enhancements, structural changes, and necessary bug fixes:
 
 * New alt text feature: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#alt-text>`__
-* New configuration option to set a default media file: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#allgemein:~:text=hochgeladen%20werden%20k%C3%B6nnen.-,Standard%2DMedien%2DID,-(Ersatzanzeige)%20(ab%20Mediathek>`__
+* New configuration option to set a default media file: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#standard-media-id>`__
 * Switch to media IDs instead of URLs: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#introduction-of-media-ids>`__
 * New activity settings for timed widgets: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
 * New row element for layouting: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/functional-description.html#adding-content>`__
