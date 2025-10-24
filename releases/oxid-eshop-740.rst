@@ -6,8 +6,8 @@ Release date: 2025-11-04
 New
 ---
 
-Future-Forming Content & Media Bundle
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Major Changes in our Content & Media Bundle 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to version 9. This includes the following extensions:
 
@@ -28,7 +28,7 @@ The update contains numerous feature enhancements, structural changes, and neces
 * Bootstrap 5 for Visual CMS workspace in admin area.
 * Refactoring and separation of some large files.
 
-The update to **Content & Media Bundle 9** requires migration of existing content. If you wish to stay on previous version, **Content & Media Bundle 8**, you can do so by preconfiguring your update. Please see our `Update Manual <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html>`__ for the necessary steps.
+The update to **Content & Media Bundle 9** requires migration of existing content. If you wish to stay on the previous version, **Content & Media Bundle 8**, you can do so by preconfiguring your update. Please see our `Update Manual <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html>`__ for the necessary steps.
 
 For more information about the updated **Content & Media Bundle 9**, you can check out our news section or dive deeper into the corresponding documentations.
 
@@ -38,6 +38,30 @@ For more information about the updated **Content & Media Bundle 9**, you can che
     Due to further architectual optimizations in Visual CMS, we suggest to postpone highly customized modifications to **OXID eShop 7.5** which will include **Visual CMS 10**.
 
     We are happy to get feedback from you to improve the extensions continously.
+
+Better User Experience
+^^^^^^^^^^^^^^^^^^^^^^
+
+Several improvements were done to enhance the **customer's experience** when visiting the shop. Some examples are:
+
+* Increased visibility for contact form submission.
+* No checkout interruption when using the browser's back button.
+* Correct feedback on wrong password when changing the email address.
+* Updated explanations and translations.
+
+For more details, please follow the links in the sections :ref:`Fixes <fixes>` and :ref:`Packages <packages>`.
+
+Vite for APEX
+^^^^^^^^^^^^^
+
+While Visual CMS already moved from Grunt to `Vite <https://vite.dev/>`_, OXID eShop's standard theme **APEX** now uses Vite, too. 
+
+MySQL 8.4 Support
+^^^^^^^^^^^^^^^^^
+
+**OXID eShop 7.4 Compilation** and all listed extensions are now fully tested and confirmed to successfully support MySQL 8.4 (LTS).
+
+.. _fixes:
 
 Fixes
 -----
@@ -71,6 +95,8 @@ Fixes
 * #0005244 Method getAvailableInLangs cannot handle lowercase database fields: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5244>`_
 * #0005242 Rewrite rule can break e.g. brand names: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5242>`_
 * #0002777 When resubscribing to the newsletter, database value is incorrect: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=2777>`_
+
+.. _packages:
 
 Packages
 --------
