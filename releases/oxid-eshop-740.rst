@@ -141,17 +141,18 @@ The OXID eShop Enterprise B2B Edition 7.4 is currently not release. It will foll
 Compatible OXID Extensions
 --------------------------
 
-* OXAPI GraphQL Base Module 11.0: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
-* OXAPI GraphQL Configuration Access Module 2.1: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
-* OXAPI GraphQL Storefront Module 4.1: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
-* OXID ERP Interface 4.2: `Documentation (password-protected) <https://docs.oxid-esales.com/interfaces/erp/en/4.2>`_
-* [NEW] OXID eShop Admin Tools 1.0: `Documentation <https://docs.oxid-esales.com/modules/admin-tools/en/1.0/>`_
-* [NEW] OXID eShop Consistency Check Tool 1.0: `Documentation (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v1.0.0/README.md>`_
-* OXID eShop Country VAT Administration 2.3: `Documentation (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.3.0/README.md>`_
-* OXID eShop Geo-Blocking Module 2.3: `Documentation <https://docs.oxid-esales.com/modules/geo-blocking/en/2.3>`_
-* [NEW] OXID eShop Security Module 2.0: `Documentation <https://docs.oxid-esales.com/modules/security/en/2.0/>`_
-* OXID eShop Shipping Cost Compensation Module 1.1: `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.1/>`_
-* OXID eShop eVAT Module 4.2: `Documentation <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.2>`_
+* OXAPI GraphQL Base Module 11.1: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.1/>`_
+* OXAPI GraphQL Configuration Access Module 3.0: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.1/>`_
+* OXAPI GraphQL Storefront Module 4.2: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.1/>`_
+* OXAPI GraphQL Storefront Administration Module 2.1: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.1/>`_
+* OXID ERP Interface 4.3: `Documentation (password-protected) <https://docs.oxid-esales.com/interfaces/erp/en/4.3>`_
+* OXID eShop Admin Tools 1.1(?TBD): `Documentation <https://docs.oxid-esales.com/modules/admin-tools/en/1.1/>`_
+* OXID eShop Consistency Check Tool 1.1(?TBD): `Documentation (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v1.1.0/README.md>`_
+* OXID eShop Country VAT Administration 2.4(?TBD): `Documentation (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.4.0/README.md>`_
+* OXID eShop Geo-Blocking Module 2.4: `Documentation <https://docs.oxid-esales.com/modules/geo-blocking/en/2.4>`_
+* OXID eShop Security Module 2.1: `Documentation <https://docs.oxid-esales.com/modules/security/en/2.1/>`_
+* OXID eShop Shipping Cost Compensation Module 1.2(?TBD): `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.2/>`_
+* OXID eShop eVAT Module 4.3(?TBD): `Documentation <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.3>`_
 
 Update
 ------
