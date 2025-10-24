@@ -35,9 +35,9 @@ For more information about the updated **Content & Media Bundle 9**, you can che
 .. note::
     The major update of our **Content & Media Bundle** is a huge step forward and provides a more stable and better maintainable base for future changes.
     
-    Due to further architectual optimizations in Visual CMS, we suggest to postpone highly customized modifications to **OXID eShop 7.5** which will include **Visual CMS 10**.
+    Due to further architectural optimizations in Visual CMS, we suggest to postpone highly customized modifications to **OXID eShop 7.5** which will include **Visual CMS 10**.
 
-    We are happy to get feedback from you to improve the extensions continously.
+    We are happy to get feedback from you to improve the extensions continuously.
 
 Better User Experience
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -54,7 +54,7 @@ For more details, please follow the links in the sections :ref:`Fixes <fixes>` a
 Vite for APEX
 ^^^^^^^^^^^^^
 
-While Visual CMS already moved from Grunt to `Vite <https://vite.dev/>`_, OXID eShop's standard theme **APEX** now uses Vite, too. 
+While Visual CMS already moved from Grunt to `Vite <https://vite.dev/>`_, OXID eShop's standard theme, **APEX**, now uses Vite, too.
 
 MySQL 8.4 Support
 ^^^^^^^^^^^^^^^^^
@@ -146,7 +146,7 @@ The OXID eShop EE compilation includes the following packages additionally:
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop Enterprise B2B Edition 7.4 is currently not release. It will follow in the next weeks.
+The OXID eShop Enterprise B2B Edition 7.4 is not yet released. It will follow in the next weeks.
 
 ..
     The OXID eShop EE B2B compilation includes the following packages additionally:
