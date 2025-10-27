@@ -23,7 +23,7 @@ Das Update enthält zahlreiche Funktionserweiterungen, strukturelle Änderungen 
 * Neue Aktivitätseinstellungen für zeitgesteuerte Widgets: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
 * Neues Zeilenelement für das Layouting: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/umgang-mit-widgets.html#widget-hinzufugen>`__
 * Zusätzlicher Button zum Erstellen neuer Inhalte: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/grundfunktionen.html#neuen-cms-inhalt-anlegen>`__
-* Umstellung von Parse- auf Tree-Struktur: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#geanderte-codebasis>`__, `Entwicklerinformationen [en] <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
+* Umstellung von der Parse- auf die Tree-Struktur: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#geanderte-codebasis>`__, `Entwicklerinformationen [en] <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
 * Zeilen- und Spaltenelemente passen ihre Höhe automatisch an.
 * Bootstrap 5 für den Visual CMS Arbeitsbereich im Administrationsbereich.
 * Refactoring und Aufteilung einiger großer Dateien.
@@ -45,7 +45,7 @@ Besseres Nutzererlebnis
 
 Es wurden mehrere Verbesserungen vorgenommen, um das **Nutzererlebnis** im Shop zu verbessern. Einige Beispiele sind:
 
-* Verbesserte Sichtbarkeit der Bestätigung zum Abesenden des Kontaktformulars.
+* Verbesserte Sichtbarkeit der Bestätigung zum Absenden des Kontaktformulars.
 * Kein Abbruch des Bestellvorgangs bei Verwendung des Zurück-Buttons des Browsers.
 * Korrekte Rückmeldung bei falschem Passwort beim Ändern der E-Mail-Adresse.
 * Aktualisierte Erklärungen und Übersetzungen.
@@ -55,7 +55,7 @@ Weitere Informationen finden Sie in den Abschnitten :ref:`Fixes <fixes>` und :re
 Vite für APEX
 ^^^^^^^^^^^^^
 
-Das Frontend-Build-Tool Grunt wurde bereits bei Visual CMS durch `Vite <https://vite.dev/>`_ ersetzt. Das Standard-Theme des OXID eShops, APEX, verwendet absofort ebenfalls Vite.
+Das Frontend-Build-Tool Grunt wurde bereits bei Visual CMS durch `Vite <https://vite.dev/>`_ ersetzt. Das Standard-Theme des OXID eShops, APEX, verwendet ab sofort ebenfalls Vite.
 
 MySQL 8.4 Unterstützung
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -104,7 +104,7 @@ Packages
 OXID eShop CE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop CE Compilation beinhaltet die folgenden Pakete:
+Die OXID eShop CE Compilation enthält die folgenden Pakete:
 
 * APEX Theme von v2.1.0 auf v3.0.1: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v3.0.1/CHANGELOG-3.x.md>`_
 * Eye-Able Assist v3.0.3: `Changelog <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/blob/v3.0.3/CHANGELOG.md>`_
@@ -127,7 +127,7 @@ Die OXID eShop CE Compilation beinhaltet die folgenden Pakete:
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop PE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
+Die OXID eShop PE Compilation enthält zusätzlich dazu die folgenden Pakete:
 
 * OXID eShop Demodata PE von v8.0.2 auf v8.1.0
 * OXID eShop PE von v7.3.0 auf v7.4.0
@@ -137,7 +137,7 @@ Die OXID eShop PE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop EE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
+Die OXID eShop EE Compilation enthält zusätzlich dazu die folgenden Pakete:
 
 * OXID eShop Demodata EE von v8.1.0 auf v8.2.0
 * OXID eShop EE von v7.3.0 auf v7.4.0
@@ -146,13 +146,13 @@ Die OXID eShop EE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop Enterprise B2B Edition 7.4 ist noch nicht veröffentlicht. Sie wird in den nächsten Wochen folgen.
+Die OXID eShop Enterprise B2B Edition 7.4 ist noch nicht veröffentlicht. Sie folgt in den nächsten Wochen.
 
 ..
     OXID eShop EE B2B Compilation
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Die OXID eShop EE B2B Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
+    Die OXID eShop EE B2B Compilation enthält zusätzlich dazu die folgenden Pakete:
 
     * OXID eShop B2B Approval Procedure Module von v7.2.0 auf v7.3.0
     * OXID eShop B2B Basket Module von v7.2.0 auf v7.3.0
