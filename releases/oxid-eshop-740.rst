@@ -43,7 +43,7 @@ Weitere Informationen zum aktualisierten **Content & Medien Bundle 9** finden Si
 Besseres Nutzererlebnis
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Es wurden mehrere Verbesserungen vorgenommen, um das **Nutzererlebnis** im Shop zu verbessern. Einige Beispiele sind:
+Es wurden mehrere Verbesserungen vorgenommen, um das **Nutzererlebnis** im Shop zu steigern. Einige Beispiele sind:
 
 * Verbesserte Sichtbarkeit der Bestätigung zum Absenden des Kontaktformulars.
 * Kein Abbruch des Bestellvorgangs bei Verwendung des Zurück-Buttons des Browsers.
@@ -127,7 +127,7 @@ Die OXID eShop CE Compilation enthält die folgenden Pakete:
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop PE Compilation enthält zusätzlich dazu die folgenden Pakete:
+Die OXID eShop PE Compilation enthält zusätzlich die folgenden Pakete:
 
 * OXID eShop Demodata PE von v8.0.2 auf v8.1.0
 * OXID eShop PE von v7.3.0 auf v7.4.0
@@ -137,7 +137,7 @@ Die OXID eShop PE Compilation enthält zusätzlich dazu die folgenden Pakete:
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop EE Compilation enthält zusätzlich dazu die folgenden Pakete:
+Die OXID eShop EE Compilation enthält zusätzlich die folgenden Pakete:
 
 * OXID eShop Demodata EE von v8.1.0 auf v8.2.0
 * OXID eShop EE von v7.3.0 auf v7.4.0
@@ -152,7 +152,7 @@ Die OXID eShop Enterprise B2B Edition 7.4 ist noch nicht veröffentlicht. Sie fo
     OXID eShop EE B2B Compilation
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Die OXID eShop EE B2B Compilation enthält zusätzlich dazu die folgenden Pakete:
+    Die OXID eShop EE B2B Compilation enthält zusätzlich die folgenden Pakete:
 
     * OXID eShop B2B Approval Procedure Module von v7.2.0 auf v7.3.0
     * OXID eShop B2B Basket Module von v7.2.0 auf v7.3.0

@@ -30,8 +30,8 @@ Nutzen Sie eine `.env`-Datei, um Umgebungsvariablen zu definieren und diese sich
 
 Für weitere Informationen, siehe `Environment Variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_ in der Entwicklerdokumentation.
 
-Fixes
------
+Optimierungen & Fehlerbehebungen
+--------------------------------
 
 * #0005922 Einfluss der Reihenfolge der Währungsliste auf die Bestellsumme: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5922>`_
 * #0006860 E-Mail Existenzprüfung beim Wechsel von Gast zu registriertem Nutzer: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6860>`_
@@ -71,7 +71,7 @@ Die OXID eShop CE Compilation beinhaltet die folgenden Pakete:
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop PE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
+Die OXID eShop PE Compilation beinhaltet zusätzlich die folgenden Pakete:
 
 * OXID eShop Demodata PE v8.0.2
 * OXID eShop PE from v7.2.0 to v7.3.0
@@ -81,7 +81,7 @@ Die OXID eShop PE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop EE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
+Die OXID eShop EE Compilation beinhaltet zusätzlich die folgenden Pakete:
 
 * OXID eShop Demodata EE from v8.0.3 to v8.1.0
 * OXID eShop EE from v7.2.0 to v7.3.0
@@ -90,7 +90,7 @@ Die OXID eShop EE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die OXID eShop EE B2B Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
+Die OXID eShop EE B2B Compilation beinhaltet zusätzlich die folgenden Pakete:
 
 * OXID eShop B2B Approval Procedure Module from v7.2.0 to v7.3.0
 * OXID eShop B2B Basket Module from v7.2.0 to v7.3.0
