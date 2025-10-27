@@ -1,7 +1,7 @@
 OXID eShop Compilation 7.4.0
 ============================
 
-Release date: 2025-11-04
+Release date: 2025-11-DD
 
 New
 ---
