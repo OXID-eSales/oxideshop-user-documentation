@@ -124,4 +124,4 @@ Kompatible OXID Erweiterungen
 Installation
 ------------
 
-Zum Installation oder Aktualisieren folgen Sie der Anleitung unter :doc:`Installation <../../installation/index>`.
+Zum Installieren oder Aktualisieren folgen Sie der Anleitung unter :doc:`Installation <../../installation/index>`.
