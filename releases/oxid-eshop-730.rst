@@ -1,10 +1,10 @@
 OXID eShop Compilation 7.3.0
 ============================
 
-Release date: 2025-06-17
+Release date: June 17, 2025
 
-New
----
+Highlights
+----------
 
 PHP Support
 ^^^^^^^^^^^
@@ -30,8 +30,8 @@ Use a `.env` file to define environment variables and securely integrate them in
 
 For more information, see `Environment Variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_ in the developer documentation.
 
-Fixes
------
+Tweaks & Bugfixes
+-----------------
 
 * #0005922 Affection of currency list order on total order sum: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5922>`_
 * #0006860 Email existence check when switching from guest to customer account: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6860>`_
@@ -71,7 +71,7 @@ The OXID eShop CE compilation includes the following packages:
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop PE compilation includes the following packages additionally:
+The OXID eShop PE compilation includes the following additional packages:
 
 * OXID eShop Demodata PE v8.0.2
 * OXID eShop PE from v7.2.0 to v7.3.0
@@ -81,7 +81,7 @@ The OXID eShop PE compilation includes the following packages additionally:
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop EE compilation includes the following packages additionally:
+The OXID eShop EE compilation includes the following additional packages:
 
 * OXID eShop Demodata EE from v8.0.3 to v8.1.0
 * OXID eShop EE from v7.2.0 to v7.3.0
@@ -90,7 +90,7 @@ The OXID eShop EE compilation includes the following packages additionally:
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop EE B2B compilation includes the following packages additionally:
+The OXID eShop EE B2B compilation includes the following additional packages:
 
 * OXID eShop B2B Approval Procedure Module from v7.2.0 to v7.3.0
 * OXID eShop B2B Basket Module from v7.2.0 to v7.3.0
@@ -124,4 +124,4 @@ Compatible OXID Extensions
 Installation
 ------------
 
-To install or update, follow the instructions at :doc:`Installation <../../installation/index>`.
+To install or update, follow the instructions at :doc:`Installation <../installation/index>`.
