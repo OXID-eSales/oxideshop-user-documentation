@@ -45,7 +45,7 @@ Besseres Nutzererlebnis
 
 Es wurden mehrere Verbesserungen vorgenommen, um das **Nutzererlebnis** im Shop zu verbessern. Einige Beispiele sind:
 
-* Besser sichtbare Rückmeldung beim Absenden des Kontaktformulars.
+* Verbesserte Sichtbarkeit der Bestätigung zum Abesenden des Kontaktformulars.
 * Kein Abbruch des Bestellvorgangs bei Verwendung des Zurück-Buttons des Browsers.
 * Korrekte Rückmeldung bei falschem Passwort beim Ändern der E-Mail-Adresse.
 * Aktualisierte Erklärungen und Übersetzungen.
@@ -55,14 +55,12 @@ Weitere Informationen finden Sie in den Abschnitten :ref:`Fixes <fixes>` und :re
 Vite für APEX
 ^^^^^^^^^^^^^
 
-Visual CMS ist bereits vom Frontend Build Tool Grunt auf `Vite <https://vite.dev/>`_ umgestiegen, und auch das Standard-Theme von OXID eShop, **APEX**, verwendet nun Vite.
+Das Frontend-Build-Tool Grunt wurde bereits bei Visual CMS durch `Vite <https://vite.dev/>`_ ersetzt. Das Standard-Theme des OXID eShops, APEX, verwendet absofort ebenfalls Vite.
 
 MySQL 8.4 Unterstützung
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Die **OXID eShop 7.4 Compilation** und alle unten aufgeführten Erweiterungen wurden erfolgreich mit MySQL 8.4 (LTS) getestet. Es ist somit bestätigt, dass sie diese Long-Term-Support-Version unterstützen.
-
-
+Die OXID eShop 7.4 Compilation und alle unten aufgeführten Erweiterungen wurden erfolgreich mit **MySQL 8.4 (LTS)** getestet. Es ist somit bestätigt, dass sie diese Long-Term-Support-Version von MySQL unterstützen.
 
 .. _fixes:
 
