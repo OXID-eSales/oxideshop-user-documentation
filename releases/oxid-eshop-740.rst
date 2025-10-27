@@ -1,12 +1,12 @@
 OXID eShop Compilation 7.4.0
 ============================
 
-Release date: 2025-11-DD
+Release date: November DD, 2025
 
 Highlights
 ----------
 
-Major Changes in our Content & Media Bundle 
+Major Changes to the Content & Media Bundle 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to version 9. This includes the following extensions:
@@ -25,24 +25,24 @@ The update contains numerous feature enhancements, structural changes, and neces
 * Additional button to create new content: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/functional-description.html#creating-new-pages>`__
 * Switch from parse- to tree-style structure: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#changed-code-base>`__, `developer information <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
 * Row and column elements automatically adjust their height.
-* Bootstrap 5 for Visual CMS workspace in admin area.
+* Bootstrap 5 for the Visual CMS workspace in the administration area.
 * Refactoring and separation of some large files.
 
 The update to **Content & Media Bundle 9** requires migration of existing content. If you wish to stay on the previous version, **Content & Media Bundle 8**, you can do so by preconfiguring your update. Please see our `Update Manual <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html>`__ for the necessary steps.
 
-For more information about the updated **Content & Media Bundle 9**, you can check out our news section or dive deeper into the corresponding documentations.
+For more information about the updated **Content & Media Bundle 9**, you can check out our news section or dive deeper into the corresponding documentation.
 
 .. note::
     The major update of our **Content & Media Bundle** is a huge step forward and provides a more stable and better maintainable base for future changes.
     
-    Due to further architectural optimizations in Visual CMS, we suggest to postpone highly customized modifications to **OXID eShop 7.5** which will include **Visual CMS 10**.
+    Due to further architectural optimizations in Visual CMS, we suggest postponing highly customized modifications to **OXID eShop 7.5**, which will include **Visual CMS 10**.
 
     We are happy to get feedback from you to improve the extensions continuously.
 
 Better User Experience
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Several improvements were done to enhance the **user experience** of customers when visiting the shop. Some examples are:
+Several improvements were done to enhance the **user experience** for customers visiting the shop. Some examples are:
 
 * Increased visibility for contact form submission confirmation.
 * No checkout interruption when using the browser's back button.
@@ -54,7 +54,7 @@ For more details, please follow the links in the sections :ref:`Fixes <fixes>` a
 Vite for APEX
 ^^^^^^^^^^^^^
 
-The frontend build tool Grunt was already replaced with `Vite <https://vite.dev/>`_ for Visual CMS. Now OXID eShop's standard theme, **APEX**, also uses Vite.
+The frontend build tool Grunt was already replaced with `Vite <https://vite.dev/>`_ for Visual CMS. From now on OXID eShop's standard theme, **APEX**, also uses Vite.
 
 MySQL 8.4 Support
 ^^^^^^^^^^^^^^^^^
@@ -79,7 +79,7 @@ Tweaks & Fixes
 * #0007838 The OE Console command to create an admin user does not check if the user already exists: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7838>`_
 * #0007721 The order comment is always 1 if no input is sent: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7721>`_
 * #0007708 The product's dropdown is not working in checkout step 4: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7708>`_
-* #0007689 The Visual CMS product widget ignores the state active/inactive: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7689>`_
+* #0007689 The Visual CMS product widget ignores the active/inactive state: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7689>`_
 * #0007622 A text overflow in Visual CMS breaks the shop: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7622>`_
 * #0007293 Notice and wish lists are lost when the shopping cart reservation is activated and the reservation expires: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7293>`_
 * #0007205 VAT-ID Check not working for added countries: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7205>`_
@@ -126,7 +126,7 @@ The OXID eShop CE compilation includes the following packages:
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop PE compilation includes the following packages additionally:
+The OXID eShop PE compilation includes the following additional packages:
 
 * OXID eShop Demodata PE from v8.0.2 to v8.1.0
 * OXID eShop PE from v7.3.0 to v7.4.0
@@ -136,7 +136,7 @@ The OXID eShop PE compilation includes the following packages additionally:
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop EE compilation includes the following packages additionally:
+The OXID eShop EE compilation includes the following additional packages:
 
 * OXID eShop Demodata EE from v8.1.0 to v8.2.0
 * OXID eShop EE from v7.3.0 to v7.4.0
@@ -148,7 +148,7 @@ OXID eShop EE B2B Compilation
 The OXID eShop Enterprise B2B Edition 7.4 is not yet released. It will follow in the next weeks.
 
 ..
-    The OXID eShop EE B2B compilation includes the following packages additionally:
+    The OXID eShop EE B2B compilation includes the following additional packages:
 
 
     * OXID eShop B2B Approval Procedure Module from v7.2.0 to v7.3.0
