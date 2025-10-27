@@ -36,7 +36,7 @@ Weitere Informationen zum aktualisierten **Content & Medien Bundle 9** finden Si
 .. note::
     Das umfangreiche Update unseres **Content & Medien Bundles** ist ein großer Fortschritt und bietet eine stabilere und besser wartbare Basis für zukünftige Änderungen.
 
-    Aufgrund weiterer Architekturoptimierungen in Visual CMS empfehlen wir, stark individualisierte Anpassungen auf **OXID eShop 7.5** zu verschieben, welches **Visual CMS 10** enthalten wird.
+    Aufgrund weiterer Architekturoptimierungen in Visual CMS empfehlen wir, stark individualisierte Anpassungen auf **OXID eShop 7.5** zu verschieben, der **Visual CMS 10** enthalten wird.
 
     Wir freuen uns über jedes Feedback, um die Erweiterungen kontinuierlich zu verbessern.
 
@@ -92,7 +92,7 @@ Fixes
 * #0006917 Der Haftungsausschluss für Downloads wird nicht korrekt angezeigt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6917>`_
 * #0006144 Fehlendes Div-Element im Setup: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6144>`_
 * #0006031 Es ist schlecht ersichtlich, dass das Kontaktformular gesendet wurde: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6031>`_
-* #0006026 Ein falsches Passwort beim Ändern der E-Mail-Adresse führt zur irreführenden Meldung, die E-Mail sei nicht korrekt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6026>`_
+* #0006026 Ein falsches Passwort beim Ändern der E-Mail-Adresse führt zur irreführenden Meldung, die E-Mail sei inkorrekt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6026>`_
 * #0005798 Attributerstellung in neuem Fenster funktioniert nicht: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5798>`_
 * #0005244 Die Methode getAvailableInLangs kann Datenbankfelder in Kleinbuchstaben nicht verarbeiten: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5244>`_
 * #0005242 Die Rewrite-Regeln verhindern die Nutzung mancher Markennamen: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5242>`_
