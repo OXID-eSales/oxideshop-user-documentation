@@ -3,11 +3,11 @@ OXID eShop Compilation 7.4.0
 
 Veröffentlichungsdatum: DD.11.2025
 
-Neu
----
+Neuheiten
+---------
 
-Wesentliche Änderungen in unserem Content & Medien Bundle
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Wesentliche Änderungen im Content & Medien Bundle
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OXID eShop 7.4 bringt ein umfangreiches Update unseres **Content & Medien Bundles** auf Version 9 mit sich. Dieses enthält folgende Erweiterungen:
 
@@ -18,32 +18,32 @@ OXID eShop 7.4 bringt ein umfangreiches Update unseres **Content & Medien Bundle
 Das Update enthält zahlreiche Funktionserweiterungen, strukturelle Änderungen und notwendige Fehlerbehebungen:
 
 * Neue Alt-Text-Funktion: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#alt-text>`__
-* Neue Konfigurationsoption zum Festlegen einer Standard-Mediendatei: `Dokumentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#standard-media-id>`__
-* Umstellung auf Medien-IDs statt URLs: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#introduction-of-media-ids>`__
-* Neue Aktivitätseinstellungen für zeitgesteuerte Widgets: `Dokumentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
-* Neues Zeilenelement für das Layout: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/functional-description.html#adding-content>`__
-* Zusätzlicher Button zum Erstellen neuer Inhalte: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/functional-description.html#creating-new-pages>`__
-* Umstellung von Parse- auf Tree-Struktur: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#changed-code-base>`__, `Entwicklerinformationen <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
+* Neue Konfigurationsoption zum Festlegen einer Standard-Mediendatei: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#standard-media-id>`__
+* Umstellung auf Medien-IDs statt URLs: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#einfuhrung-von-medien-ids>`__
+* Neue Aktivitätseinstellungen für zeitgesteuerte Widgets: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
+* Neues Zeilenelement für das Layouting: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/umgang-mit-widgets.html#widget-hinzufugen>`__
+* Zusätzlicher Button zum Erstellen neuer Inhalte: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/grundfunktionen.html#neuen-cms-inhalt-anlegen>`__
+* Umstellung von Parse- auf Tree-Struktur: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#geanderte-codebasis>`__, `Entwicklerinformationen [en] <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
 * Zeilen- und Spaltenelemente passen ihre Höhe automatisch an.
 * Bootstrap 5 für den Visual CMS Arbeitsbereich im Administrationsbereich.
 * Refactoring und Aufteilung einiger großer Dateien.
 
-Das Update auf das **Content & Medien Bundle 9** erfordert die Migration bestehender Inhalte. Wenn Sie die Vorgängerversion, **Content & Medien Bundle 8**, beibehalten möchten, können Sie dies tun, indem Sie Ihr Update vorkonfigurieren. Die erforderlichen Schritte finden Sie in unserer `Update-Anleitung <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html>`_.
+Das Update auf das **Content & Medien Bundle 9** erfordert die Migration bestehender Inhalte. Wenn Sie die Vorgängerversion, **Content & Medien Bundle 8**, beibehalten möchten, können Sie dies tun, indem Sie Ihr Update vorkonfigurieren. Die erforderlichen Schritte finden Sie in unserer `Update-Anleitung <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html>`_.
 
 Weitere Informationen zum aktualisierten **Content & Medien Bundle 9** finden Sie in unserem News-Bereich oder in den entsprechenden Dokumentationen.
 
 
-.. hint::
+.. note::
     Das umfangreiche Update unseres **Content & Medien Bundles** ist ein großer Fortschritt und bietet eine stabilere und besser wartbare Basis für zukünftige Änderungen.
 
-    Aufgrund weiterer Architekturoptimierungen in Visual CMS empfehlen wir, stark individualisierte Anpassungen auf **OXID eShop 7.5** zu verschieben, welcher **Visual CMS 10** enthalten wird.
+    Aufgrund weiterer Architekturoptimierungen in Visual CMS empfehlen wir, stark individualisierte Anpassungen auf **OXID eShop 7.5** zu verschieben, welches **Visual CMS 10** enthalten wird.
 
     Wir freuen uns über jedes Feedback, um die Erweiterungen kontinuierlich zu verbessern.
 
 Besseres Nutzererlebnis
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Es wurden mehrere Verbesserungen vorgenommen, um das **Nutzererlebnis** im Shop zu verbessern. Ein paar Beispiele sind:
+Es wurden mehrere Verbesserungen vorgenommen, um das **Nutzererlebnis** im Shop zu verbessern. Einige Beispiele sind:
 
 * Besser sichtbare Rückmeldung beim Absenden des Kontaktformulars.
 * Kein Abbruch des Bestellvorgangs bei Verwendung des Zurück-Buttons des Browsers.
@@ -60,7 +60,9 @@ Visual CMS ist bereits vom Frontend Build Tool Grunt auf `Vite <https://vite.dev
 MySQL 8.4 Unterstützung
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Die **OXID eShop 7.4 Compilation** und alle unten aufgeführten Erweiterungen wurden erfolgreich mit MySQL 8.4 (LTS) getestet und sind somit bestätigt diese Long-Term-Support-Version zu unterstützen .
+Die **OXID eShop 7.4 Compilation** und alle unten aufgeführten Erweiterungen wurden erfolgreich mit MySQL 8.4 (LTS) getestet. Es ist somit bestätigt, dass sie diese Long-Term-Support-Version unterstützen.
+
+
 
 .. _fixes:
 
@@ -76,23 +78,23 @@ Fixes
 * #0007842 YUI Bibliothek wird nicht mehr unterstützt und ist veraltet: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7842>`_
 * #0007841 TemplateChainResolver ist ineffizient: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7841>`_
 * #0007840 Im GraphQL products Query fehlt ein Filter für die Pagination: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7840>`_
-* #0007839 Das APEX Theme verwendet weiterhin Grunt, während Visual CMS jetzt auf Vite läuft: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7839>`_
+* #0007839 Das APEX Theme verwendet weiterhin Grunt, statt Vite: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7839>`_
 * #0007838 Der OE Console Befehl zum Erstellen eines Benutzers prüft nicht, ob ein Benutzer bereits vorhanden ist: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7838>`_
-* #0007721 Die Bestellbemerkung ist immer 1, wenn im Frontend nichts eingegeben wurde: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7721>`_
-* #0007708 Das Dropdown-Menü zur Produktauswahl funktioniert im vierten Bestellvorgang nicht: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7708>`_
-* #0007689 Das Visual CMS Artikel Widget ignoriert den Status aktiv/inaktiv des Produkts: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7689>`_
+* #0007721 Die Bestellbemerkung ist bei fehlender Eingabe immer 1: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7721>`_
+* #0007708 Das Dropdown bei Produkten funktioniert im vierten Bestellschritt nicht: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7708>`_
+* #0007689 Das Visual CMS Artikel Widget ignoriert den Status aktiv/inaktiv: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7689>`_
 * #0007622 Ein Text-Overflow im Visual CMS stoppt den Shop: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7622>`_
-* #0007293 Merklisten- und Wunschlistenartikel gehen bei aktivierter Warenkorbreservierung verloren: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7293>`_
+* #0007293 Merk- und Wunschlisten gehen bei aktivierter Warenkorbreservierung verloren, wenn die Reservierung abläuft: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7293>`_
 * #0007205 USt-IdNr.-Prüfung funktioniert nicht für hinzugefügte Länder: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7205>`_
 * #0007104 WYSIWYG-Editor stiehlt bei Initialisierung den Fokus: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7104>`_
 * #0007097 Duplizierter URL-Parameter editlanguage im AJAX-Aufruf: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7097>`_
 * #0007004 Der Zurück-Button des Browsers stoppt den Bestellvorgang: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7004>`_
-* #0006917 Haftungsausschluss für herunterladbare Produkte wird nicht korrekt angezeigt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6917>`_
+* #0006917 Der Haftungsausschluss für Downloads wird nicht korrekt angezeigt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6917>`_
 * #0006144 Fehlendes Div-Element im Setup: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6144>`_
-* #0006031 Für Benutzer ist nicht gut ersichtlich, dass das Kontaktformular gesendet wurde: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6031>`_
-* #0006026 Falsches Passwort führt zu irreführender Nachricht, die E-Mail sei inkorrekt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6026>`_
+* #0006031 Es ist schlecht ersichtlich, dass das Kontaktformular gesendet wurde: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6031>`_
+* #0006026 Ein falsches Passwort beim Ändern der E-Mail-Adresse führt zur irreführenden Meldung, die E-Mail sei nicht korrekt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6026>`_
 * #0005798 Attributerstellung in neuem Fenster funktioniert nicht: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5798>`_
-* #0005244 Methode getAvailableInLangs kann Datenbankfelder in Kleinbuchstaben nicht verarbeiten: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5244>`_
+* #0005244 Die Methode getAvailableInLangs kann Datenbankfelder in Kleinbuchstaben nicht verarbeiten: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5244>`_
 * #0005242 Die Rewrite-Regeln verhindern die Nutzung mancher Markennamen: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5242>`_
 * #0002777 Beim erneuten Abonnieren des Newsletters ist der Datenbankwert falsch: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=2777>`_
 
