@@ -34,7 +34,8 @@ Abhängig von Ihrer Edition und Ihrer Entscheidung bezüglich des **Content & Me
 * :ref:`Schritt 1: Das Content & Medien Bundle vorkonfigurieren <step-1-preconfigure-the-content-and-media-bundle>`
 * :ref:`Schritt 2: Die Zielversion festlegen <step-2-set-the-target-version>`
 * :ref:`Schritt 3: Den Update-Vorgang ausführen <step-3-run-the-update-process>`
-* :ref:`Schritt 4: Inhalte und Medien migrieren <step-4-migrate-content-and-media>`
+* :ref:`Schritt 4: Die Rewrite-Bedingungen anpassen <step-4-adjust-the-rewrite-conditions>`
+* :ref:`Schritt 5: Die Inhalte und Medien migrieren <step-5-migrate-content-and-media>`
 
 .. _step-1-preconfigure-the-content-and-media-bundle:
 
@@ -96,10 +97,33 @@ Führen Sie in jedem Fall die folgenden Befehle aus, um Ihren OXID eSho* zu aktu
     ./vendor/bin/oe-eshop-db_migrate migrations:migrate
     ./vendor/bin/oe-eshop-db_views_generate
 
-.. _step-4-migrate-content-and-media:
+.. _step-4-adjust-the-rewrite-conditions:
 
-Schritt 4: Inhalte und Medien migrieren
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Schritt 4: Die Rewrite-Bedingungen anpassen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Eine Rewrite-Bedingung in vorherigen OXID eShop Versionen schränkt die Verwendung bestimmter Markennamen ein. Das Update-Verhalten des OXID eShops ersetzt Ihre **.htaccess**-Datei nicht durch eine neue, da diese Datei in der Regel angepasst ist. Sie müssen die Datei daher manuell ändern.
+
+#. Öffnen Sie die Datei **source/.htaccess**.
+#. Suchen Sie nach der betroffenen Rewrite-Bedingung:
+
+    .. code::
+
+        RewriteCond %{REQUEST_URI} !(\/admin\/|\/Core\/|\/Application\/|\/export\/|\/modules\/|\/out\/|\/Setup\/|\/tmp\/|\/views\/)
+
+#. Ersetzen Sie die erste betroffene Bedingung durch die folgende Bedingung:
+
+    .. code::
+
+        RewriteCond %{REQUEST_URI} !^(\/admin\/|\/Core\/|\/Application\/|\/export\/|\/modules\/|\/out\/|\/Setup\/|\/tmp\/|\/views\/)
+
+#. Wiederholen Sie dies für die zweite betroffene Bedingung.
+#. Speichern Sie die Datei.
+
+.. _step-5-migrate-content-and-media:
+
+Schritt 5: Die Inhalte und Medien migrieren
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Wenn Sie sich entschieden haben, das **Content & Medien Bundle 8** zu behalten, können Sie diesen Schritt überspringen. Ihr Update ist abgeschlossen.
 
