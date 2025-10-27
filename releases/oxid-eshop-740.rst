@@ -3,8 +3,8 @@ OXID eShop Compilation 7.4.0
 
 Release date: 2025-11-DD
 
-New
----
+Highlights
+----------
 
 Major Changes in our Content & Media Bundle 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -42,9 +42,9 @@ For more information about the updated **Content & Media Bundle 9**, you can che
 Better User Experience
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Several improvements were done to enhance the **customer's experience** when visiting the shop. Some examples are:
+Several improvements were done to enhance the **user experience** of customers when visiting the shop. Some examples are:
 
-* Increased visibility for contact form submission.
+* Increased visibility for contact form submission confirmation.
 * No checkout interruption when using the browser's back button.
 * Correct feedback on wrong password when changing the email address.
 * Updated explanations and translations.
@@ -54,47 +54,46 @@ For more details, please follow the links in the sections :ref:`Fixes <fixes>` a
 Vite for APEX
 ^^^^^^^^^^^^^
 
-While Visual CMS already moved from Grunt to `Vite <https://vite.dev/>`_, OXID eShop's standard theme, **APEX**, now uses Vite, too.
+The frontend build tool Grunt was already replaced with `Vite <https://vite.dev/>`_ for Visual CMS. Now OXID eShop's standard theme, **APEX**, also uses Vite.
 
 MySQL 8.4 Support
 ^^^^^^^^^^^^^^^^^
 
-**OXID eShop 7.4 Compilation** and all listed extensions are now fully tested and confirmed to successfully support MySQL 8.4 (LTS).
+The OXID eShop 7.4 Compilation and all extensions listed below have been successfully tested with **MySQL 8.4 (LTS)**. This confirms that they support this long-term support MySQL version.
 
 .. _fixes:
 
-Fixes
------
+Tweaks & Fixes
+--------------
 
-* #0007848 Demodata misses design information: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7848>`_
+* #0007848 Visual CMS Demodata misses design information: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7848>`_
 * #0007847 Translations for skipping discounts are incorrect: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7847>`_
 * #0007846 Visual CMS setup fails during npm install and build: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7846>`_
-* #0007845 Preview mode always uses default language: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7845>`_
+* #0007845 Visual CMS preview mode always uses default language: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7845>`_
 * #0007844 Coupon option Calculate only once is only for products: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7844>`_
 * #0007843 Large space under menu: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7843>`_
 * #0007842 YUI library is discontinued and outdated: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7842>`_
 * #0007841 TemplateChainResolver is inefficient: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7841>`_
-* #0007840 Products query is missing a pagination filter: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7840>`_
-* #0007839 APEX theme still uses Grunt, whereas Visual CMS is on Vite now: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7839>`_
-* #0007838 OE Console command to create user does not check for existing user: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7838>`_
-* #0007721 Order remark is always 1 when no remark input is in frontend: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7721>`_
-* #0007708 Product's selection dropdown is not working in checkout step 4: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7708>`_
-* #0007689 Visual CMS article widget ignores product active/inactive state: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7689>`_
-* #0007622 Visual CMS text overflow will break the shop: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7622>`_
-* #0007616 Missing navigation links on B2B's My Account page: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7616>`_
-* #0007293 Noticelist and wishlist items are lost with basket reservation enabled: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7293>`_
+* #0007840 GraphQL products query is missing a pagination filter: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7840>`_
+* #0007839 APEX theme still uses Grunt instead of Vite: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7839>`_
+* #0007838 The OE Console command to create an admin user does not check if the user already exists: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7838>`_
+* #0007721 The order comment is always 1 if no input is sent: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7721>`_
+* #0007708 The product's dropdown is not working in checkout step 4: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7708>`_
+* #0007689 The Visual CMS product widget ignores the state active/inactive: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7689>`_
+* #0007622 A text overflow in Visual CMS breaks the shop: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7622>`_
+* #0007293 Notice and wish lists are lost when the shopping cart reservation is activated and the reservation expires: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7293>`_
 * #0007205 VAT-ID Check not working for added countries: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7205>`_
 * #0007104 WYSIWYG Editor steals focus when initialized: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7104>`_
 * #0007097 Duplicated URL param editlanguage in AJAX call: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7097>`_
 * #0007004 Browser's back button stops checkout process: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7004>`_
-* #0006917 Disclaimer for downloadable products is not correctly displayed: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6917>`_
-* #0006144 Missing div-element in setup template: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6144>`_
+* #0006917 The disclaimer for downloads is not displayed correctly: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6917>`_
+* #0006144 Missing div-element in setup: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6144>`_
 * #0006031 It's not clear for users that contact form has been sent: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6031>`_
-* #0006026 Wrong password leads to invalid email message: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6026>`_
+* #0006026 An incorrect password when changing the email address leads to a misleading message that the email is incorrect: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6026>`_
 * #0005798 Attribute creation in new window doesn't work: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5798>`_
 * #0005244 Method getAvailableInLangs cannot handle lowercase database fields: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5244>`_
-* #0005242 Rewrite rule can break e.g. brand names: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5242>`_
-* #0002777 When resubscribing to the newsletter, database value is incorrect: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=2777>`_
+* #0005242 The rewrite rules prevent the use of some brand names: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5242>`_
+* #0002777 When resubscribing to the newsletter, the database value is incorrect: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=2777>`_
 
 .. _packages:
 
