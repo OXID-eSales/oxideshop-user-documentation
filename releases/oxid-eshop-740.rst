@@ -49,7 +49,7 @@ Several improvements were done to enhance the **user experience** for customers 
 * Correct feedback on wrong password when changing the email address.
 * Updated explanations and translations.
 
-For more details, please follow the links in the sections :ref:`Fixes <fixes>` and :ref:`Packages <packages>`.
+For more details, please follow the links in the sections :ref:`Tweaks & Bugfixes <fixes>` and :ref:`Packages <packages>`.
 
 Vite for APEX
 ^^^^^^^^^^^^^
@@ -63,8 +63,8 @@ The OXID eShop 7.4 Compilation and all extensions listed below have been success
 
 .. _fixes:
 
-Tweaks & Fixes
---------------
+Tweaks & Bugfixes
+-----------------
 
 * #0007848 Visual CMS Demodata misses design information: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7848>`_
 * #0007847 Translations for skipping discounts are incorrect: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7847>`_
