@@ -28,7 +28,7 @@ Das Update enthält zahlreiche Funktionserweiterungen, strukturelle Änderungen 
 * Bootstrap 5 für den Visual CMS Arbeitsbereich im Administrationsbereich.
 * Refactoring und Aufteilung einiger großer Dateien.
 
-Das Update auf das **Content & Medien Bundle 9** erfordert die Migration bestehender Inhalte. Wenn Sie die Vorgängerversion, **Content & Medien Bundle 8**, beibehalten möchten, können Sie dies tun, indem Sie Ihr Update vorkonfigurieren. Die erforderlichen Schritte finden Sie in unserer `Update-Anleitung <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html>`_.
+Das Update auf das **Content & Medien Bundle 9** erfordert die Migration bestehender Inhalte. Wenn Sie die Vorgängerversion, **Content & Medien Bundle 8**, beibehalten möchten, können Sie dies tun, indem Sie Ihr Update vorkonfigurieren. Die erforderlichen Schritte finden Sie in unserer :doc:`Update-Anleitung <../installation/update>`.
 
 Weitere Informationen zum aktualisierten **Content & Medien Bundle 9** finden Sie in unserem News-Bereich oder in den entsprechenden Dokumentationen.
 
