@@ -50,7 +50,7 @@ Es wurden mehrere Verbesserungen vorgenommen, um das **Nutzererlebnis** im Shop 
 * Korrekte Rückmeldung bei falschem Passwort beim Ändern der E-Mail-Adresse.
 * Aktualisierte Erklärungen und Übersetzungen.
 
-Weitere Informationen finden Sie in den Abschnitten :ref:`Fixes <fixes>` und :ref:`Packages <packages>`.
+Weitere Informationen finden Sie in den Abschnitten :ref:`Optimierungen & Fehlerbehebungen <fixes>` und :ref:`Packages <packages>`.
 
 Vite für APEX
 ^^^^^^^^^^^^^
@@ -64,8 +64,8 @@ Die OXID eShop 7.4 Compilation und alle unten aufgeführten Erweiterungen wurden
 
 .. _fixes:
 
-Fixes
------
+Optimierungen & Fehlerbehebungen
+--------------------------------
 
 * #0007848 Visual CMS Demodaten enthalten keine Designinformationen: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7848>`_
 * #0007847 Übersetzungen zum Überspringen von Rabatten sind falsch: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7847>`_
