@@ -30,8 +30,8 @@ Use a `.env` file to define environment variables and securely integrate them in
 
 For more information, see `Environment Variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_ in the developer documentation.
 
-Tweaks & Fixes
---------------
+Tweaks & Bugfixes
+-----------------
 
 * #0005922 Affection of currency list order on total order sum: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5922>`_
 * #0006860 Email existence check when switching from guest to customer account: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6860>`_
