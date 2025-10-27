@@ -29,12 +29,13 @@ Preparation
 Procedure
 ---------
 
-Depending on your edition and decision about the **Content & Media Bundle**, the update procedure consists of up to four steps:
+Depending on your edition and decision about the **Content & Media Bundle**, the update procedure consists of up to five steps:
 
 * :ref:`Step 1: Preconfigure the Content & Media Bundle <step-1-preconfigure-the-content-and-media-bundle>`
 * :ref:`Step 2: Set the Target Version <step-2-set-the-target-version>`
 * :ref:`Step 3: Run the Update Process <step-3-run-the-update-process>`
-* :ref:`Step 4: Migrate Content and Media <step-4-migrate-content-and-media>`
+* :ref:`Step 4: Adjust the Rewrite Conditions <step-4-adjust-the-rewrite-conditions>`
+* :ref:`Step 5: Migrate Content and Media <step-5-migrate-content-and-media>`
 
 .. _step-1-preconfigure-the-content-and-media-bundle:
 
@@ -96,9 +97,32 @@ In any case, run the following commands to update your OXID eShop:
    ./vendor/bin/oe-eshop-db_migrate migrations:migrate
    ./vendor/bin/oe-eshop-db_views_generate
 
-.. _step-4-migrate-content-and-media:
+.. _step-4-adjust-the-rewrite-conditions:
 
-Step 4: Migrate Content and Media
+Step 4: Adjust the Rewrite Conditions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A rewrite condition in previous OXID eShop versions restricts the use of specific brand names. The OXID eShop's update behavior does not replace your **.htaccess** file with a new one, since this file is typically customized. Therefore, you must modify the file manually.
+
+#. Open the file **source/.htaccess**.
+#. Search for the affected rewrite condition:
+
+    .. code::
+
+        RewriteCond %{REQUEST_URI} !(\/admin\/|\/Core\/|\/Application\/|\/export\/|\/modules\/|\/out\/|\/Setup\/|\/tmp\/|\/views\/)
+
+#. Replace the first instance with the following condition:
+
+    .. code::
+
+        RewriteCond %{REQUEST_URI} !^(\/admin\/|\/Core\/|\/Application\/|\/export\/|\/modules\/|\/out\/|\/Setup\/|\/tmp\/|\/views\/)
+
+#. Repeat this for the second affected instance.
+#. Save the file.
+
+.. _step-5-migrate-content-and-media:
+
+Step 5: Migrate Content and Media
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you decided to keep the **Content & Media Bundle 8**, you can skip this step. Your Update is finished.
