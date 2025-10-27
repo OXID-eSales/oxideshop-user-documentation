@@ -154,17 +154,17 @@ Die OXID eShop Enterprise B2B Edition 7.4 ist noch nicht veröffentlicht. Sie fo
 
     Die OXID eShop EE B2B Compilation enthält zusätzlich die folgenden Pakete:
 
-    * OXID eShop B2B Approval Procedure Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Basket Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Budget Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Bulk Orders Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Buying Agent Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Custom Prices Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Offers Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Quick Orders Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Scheduled Orders Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Service Products Module von v7.2.0 auf v7.3.0
-    * OXID eShop B2B Services Module von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Approval Procedure Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Basket Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Budget Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Bulk Orders Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Buying Agent Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Custom Prices Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Offers Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Quick Orders Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Scheduled Orders Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Service Products Modul von v7.2.0 auf v7.3.0
+    * OXID eShop B2B Services Modul von v7.2.0 auf v7.3.0
 
     Für weitere Informationen zu Veröffentlichungen der B2B Edition, siehe die (passwortgeschützte) `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/de/7.3/releases/b2b-edition-730.html>`_ Dokumentation.
 
