@@ -1,24 +1,37 @@
-OXID eShop Compilation 7.4.0
+OXID eShop Compilation 7.3.0
 ============================
 
-Veröffentlichungsdatum: 2025-10-14
-
-.. todo: #HR: Release date
+Veröffentlichungsdatum: 2025-06-17
 
 Neu
 ---
 
-.. todo: #HR: New functions to be dertermined
+PHP Support
+^^^^^^^^^^^
 
-MySQL Support
-^^^^^^^^^^^^^
+Support für PHP 8.2, 8.3 und 8.4.
 
-Alle Module sind auf Kompatibilität mit der MySQL Long Term Support Version 8.4. getestet.
+.. hint::
+  Vorsicht beim Rundungsverhalten in PHP 8.4, welches in unterschiedlichen Ergebnissen im Vergleich zu PHP 8.2 und 8.3 enden kann.
+  
+Für weitere Informationen, siehe `Server- und Systemvoraussetzungen <https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html#php>`_.
+
+Controller Management
+^^^^^^^^^^^^^^^^^^^^^
+
+Für einfachere Verwaltung, bessere Testmöglichkeit und mehr Flexibilität können OXID Controller nun als Service registriert werden.
+
+Für weitere Informationen, siehe `Controller as a Service <https://docs.oxid-esales.com/developer/en/7.3/development/tell_me_about/controller_as_service.html>`_ in der Entwicklerdokumentation.
+
+Umgebungsvariablen
+^^^^^^^^^^^^^^^^^^
+
+Nutzen Sie eine `.env`-Datei, um Umgebungsvariablen zu definieren und diese sicher in die eigene OXID eShop Applikation zu integrieren. Das macht es einfacher sensible Konfigurationswerte und umgebungsspezifische Einstellungen zu verwalten.
+
+Für weitere Informationen, siehe `Environment Variables <https://docs.oxid-esales.com/developer/en/7.3/development/modules_components_themes/project/environment.html>`_ in der Entwicklerdokumentation.
 
 Fixes
 -----
-
-.. todo: #HR: fixes to be dertemined
 
 * #0005922 Einfluss der Reihenfolge der Währungsliste auf die Bestellsumme: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=5922>`_
 * #0006860 E-Mail Existenzprüfung beim Wechsel von Gast zu registriertem Nutzer: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=6860>`_
@@ -34,8 +47,6 @@ Packages
 
 OXID eShop CE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #HR: comp to be determined
 
 Die OXID eShop CE Compilation beinhaltet die folgenden Pakete:
 
@@ -60,8 +71,6 @@ Die OXID eShop CE Compilation beinhaltet die folgenden Pakete:
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #HR: comp to be determined
-
 Die OXID eShop PE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 
 * OXID eShop Demodata PE v8.0.2
@@ -72,8 +81,6 @@ Die OXID eShop PE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. todo: #HR: comp to be determined
-
 Die OXID eShop EE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 
 * OXID eShop Demodata EE from v8.0.3 to v8.1.0
@@ -82,8 +89,6 @@ Die OXID eShop EE Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. todo: #HR: comp to be determined
 
 Die OXID eShop EE B2B Compilation beinhaltet zusätzlich dazu die folgenden Pakete:
 
@@ -103,8 +108,6 @@ Für weitere Informationen zu Veröffentlichungen der B2B Edition, siehe die (pa
 
 Kompatible OXID Erweiterungen
 -----------------------------
-
-.. todo: #HR: modules to be determined
 
 * OXAPI GraphQL Base Module 11.0: `Dokumentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
 * OXAPI GraphQL Configuration Access Module 2.1: `Dokumentation <https://docs.oxid-esales.com/interfaces/graphql/en/11.0/>`_
