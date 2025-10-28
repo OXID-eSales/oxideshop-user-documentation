@@ -87,7 +87,7 @@ Wenn Sie die **OXID eShop Community Edition** verwenden, führen Sie den folgend
 Schritt 3: Den Update-Vorgang ausführen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Führen Sie in jedem Fall die folgenden Befehle aus, um Ihren OXID eSho* zu aktualisieren:
+Führen Sie in jedem Fall die folgenden Befehle aus, um Ihren OXID eShop zu aktualisieren:
 
 .. code:: shell
 
