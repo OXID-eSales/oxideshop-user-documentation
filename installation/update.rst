@@ -102,7 +102,7 @@ Führen Sie in jedem Fall die folgenden Befehle aus, um Ihren OXID eShop zu aktu
 Schritt 4: Die Rewrite-Bedingungen anpassen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Eine Rewrite-Bedingung in vorherigen OXID eShop Versionen schränkt die Verwendung bestimmter Markennamen ein. Das Update-Verhalten des OXID eShops ersetzt Ihre **.htaccess**-Datei nicht durch eine neue, da diese Datei in der Regel angepasst ist. Sie müssen die Datei daher manuell ändern.
+Eine Rewrite-Bedingung in vorherigen OXID eShop Versionen schränkt die Verwendung bestimmter Markennamen ein. Da die **.htaccess-Datei** typischerweise dem Projekt und seiner Umgebung angepasst wird, ersetzt der OXID eShop sie beim Update nicht. Sie müssen die Datei daher manuell ändern.
 
 #. Öffnen Sie die Datei **source/.htaccess**.
 #. Suchen Sie nach der zu ändernden Rewrite-Bedingung:
