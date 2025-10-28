@@ -29,7 +29,7 @@ Vorbereitung
 Vorgehen
 --------
 
-Abhängig von Ihrer Edition und Ihrer Entscheidung bezüglich des **Content & Medien Bundles** besteht der Update-Vorgang aus bis zu vier Schritten:
+Abhängig von Ihrer Edition und Ihrer Entscheidung bezüglich des **Content & Medien Bundles** besteht der Update-Vorgang aus bis zu fünf Schritten:
 
 * :ref:`Schritt 1: Das Content & Medien Bundle vorkonfigurieren <step-1-preconfigure-the-content-and-media-bundle>`
 * :ref:`Schritt 2: Die Zielversion festlegen <step-2-set-the-target-version>`
@@ -105,19 +105,19 @@ Schritt 4: Die Rewrite-Bedingungen anpassen
 Eine Rewrite-Bedingung in vorherigen OXID eShop Versionen schränkt die Verwendung bestimmter Markennamen ein. Das Update-Verhalten des OXID eShops ersetzt Ihre **.htaccess**-Datei nicht durch eine neue, da diese Datei in der Regel angepasst ist. Sie müssen die Datei daher manuell ändern.
 
 #. Öffnen Sie die Datei **source/.htaccess**.
-#. Suchen Sie nach der betroffenen Rewrite-Bedingung:
+#. Suchen Sie nach der zu ändernden Rewrite-Bedingung:
 
     .. code::
 
         RewriteCond %{REQUEST_URI} !(\/admin\/|\/Core\/|\/Application\/|\/export\/|\/modules\/|\/out\/|\/Setup\/|\/tmp\/|\/views\/)
 
-#. Ersetzen Sie die erste betroffene Bedingung durch die folgende Bedingung:
+#. Ersetzen Sie das erste Vorkommnis durch die folgende Bedingung:
 
     .. code::
 
         RewriteCond %{REQUEST_URI} !^(\/admin\/|\/Core\/|\/Application\/|\/export\/|\/modules\/|\/out\/|\/Setup\/|\/tmp\/|\/views\/)
 
-#. Wiederholen Sie dies für die zweite betroffene Bedingung.
+#. Wiederholen Sie dies für die zweite gefundene Stelle.
 #. Speichern Sie die Datei.
 
 .. _step-5-migrate-content-and-media:
