@@ -35,9 +35,9 @@ For more information about the updated **Content & Media Bundle 9**, you can che
 .. note::
     The major update of our **Content & Media Bundle** is a huge step forward and provides a more stable and better maintainable base for future changes.
     
-    Due to further architectural optimizations in Visual CMS, we suggest postponing highly customized modifications to **OXID eShop 7.5**, which will include **Visual CMS 10**.
+    The architectural improvements in Visual CMS 9 may require adjustments to Visual CMS extensions, such as custom widgets. **Visual CMS 10** (included in **OXID eShop 7.5**) will bring further architectural changes to complete the modernization.
 
-    We are happy to get feedback from you to improve the extensions continuously.
+    We are happy to get **feedback** from you to improve the extensions continuously.
 
 Better User Experience
 ^^^^^^^^^^^^^^^^^^^^^^
