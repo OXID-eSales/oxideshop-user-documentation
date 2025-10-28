@@ -6,8 +6,8 @@ Veröffentlichungsdatum: DD.11.2025
 Neuheiten
 ---------
 
-Wesentliche Änderungen im Content & Medien Bundle
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Umfangreiche Änderungen im Content & Medien Bundle
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OXID eShop 7.4 bringt ein umfangreiches Update unseres **Content & Medien Bundles** auf Version 9 mit sich. Dieses enthält folgende Erweiterungen:
 
@@ -36,9 +36,9 @@ Weitere Informationen zum aktualisierten **Content & Medien Bundle 9** finden Si
 .. note::
     Das umfangreiche Update unseres **Content & Medien Bundles** ist ein großer Fortschritt und bietet eine stabilere und besser wartbare Basis für zukünftige Änderungen.
 
-    Aufgrund weiterer Architekturoptimierungen in Visual CMS empfehlen wir, stark individualisierte Anpassungen auf **OXID eShop 7.5** zu verschieben, der **Visual CMS 10** enthalten wird.
+    Die architektonischen Verbesserungen in Visual CMS 9 können Anpassungen an Visual CMS Erweiterungen wie z. B. eigene Widgets erfordern. **Visual CMS 10** (enthalten in **OXID eShop 7.5**) wird weitere Architekturänderungen mit sich bringen, um die Modernisierung abzuschließen.
 
-    Wir freuen uns über jedes Feedback, um die Erweiterungen kontinuierlich zu verbessern.
+    Wir freuen uns über jedes **Feedback**, um die Erweiterungen kontinuierlich zu verbessern.
 
 Besseres Nutzererlebnis
 ^^^^^^^^^^^^^^^^^^^^^^^
