@@ -1,12 +1,22 @@
 ﻿Main tab
 ========
 
-Coupon series combine a number of coupons. They can be created and edited in the :guilabel:`Main` tab. You can define the validity of a coupon series which also determines the validity of the coupons belonging to the series. An absolute or relative discount represents the actual value of a coupon, which will be applied in the shopping cart. The coupons of a series can be generated with a fixed or a random coupon code and exported as a file in CSV format. A small overview shows the number of all generated, redeemed and unused coupons.
+Coupon series combine a number of coupons. They can be created and edited in the :guilabel:`Main` tab.
 
-.. image:: ../../media/screenshots/oxbahs01.png
+You can define the validity of a coupon series which also determines the validity of the coupons belonging to the series.
+
+An absolute or relative discount represents the actual value of a coupon, which will be applied in the shopping cart.
+
+The coupons of a series can be generated with a fixed or a random coupon code and exported as a file in CSV format.
+
+A small overview shows the number of all generated, redeemed and unused coupons.
+
+.. figure:: ../../media/screenshots/oxbahs01.png
    :alt: Coupon series - Main tab
    :height: 343
    :width: 650
+
+   Fig.: Coupon series - Main tab
 
 The assignment of user groups, categories and/or products takes place in the next tab.
 
@@ -25,33 +35,41 @@ The assignment of user groups, categories and/or products takes place in the nex
 :guilabel:`Discount`
    Define the coupon value that will be applied when the customer redeems the coupon in the shopping cart. This can be expressed as a percentage or in absolute terms. Select the type of the coupon value in the selection list following the input field.
 
-:guilabel:`abs`: The coupon value is absolute, e.g. €10. |br|
-:guilabel:`%`: The coupon value is based on a percent, e.g. 10% of the purchase value.
+   :guilabel:`abs`: The coupon value is absolute, e.g. €10. |br|
+   :guilabel:`%`: The coupon value is based on a percent, e.g. 10% of the purchase value.
 
-.. hint:: If multiple coupons are used for an order, the coupon value may be duplicated depending on the other settings.
+   .. note:: If multiple coupons are used for an order, the coupon value may be duplicated depending on the other settings.
 
 :guilabel:`Valid with purchase amount`
-   A coupon in this series will only be accepted by the shop when a defined purchase value has been reached. If you leave this field empty, the purchase value of the products in the shopping cart won’t be taken into account.
+   A coupon in this series will only be accepted by the shop when a defined purchase value has been reached.
+
+   If you leave this field empty, the purchase value of the products in the shopping cart won’t be taken into account.
 
 :guilabel:`Valid with same Series`
-   Specify whether your customers may use multiple coupons from the same coupon series when placing an order. If multiple coupons can be used for an order, they will only be accepted if the total order amount is greater than €0.00. If you select :guilabel:`No`, they will only be able to redeem one coupon in this series per order.
+   Specify whether your customers may use multiple coupons from the same coupon series when placing an order. If multiple coupons can be used for an order, they will only be accepted if the total order sum is greater than €0.00.
+
+   If you select :guilabel:`No`, they will only be able to redeem one coupon in this series per order.
 
 :guilabel:`Valid with different Series`
-   Use this option to specify whether customers may combine coupons of different series within one order. If you select :guilabel:`No`, they won’t be able to combine coupons from this series with coupons from other series. If you select :guilabel:`Yes`, you will also need to select :guilabel:`Yes` for the coupon series to be combined.
+   Use this option to specify whether customers may combine coupons of different series within one order.
+
+   If you select :guilabel:`No`, they won’t be able to combine coupons from this series with coupons from other series.
+
+   If you select :guilabel:`Yes`, you will also need to select :guilabel:`Yes` for the coupon series to be combined.
 
 :guilabel:`Valid with same Series, different Order`
-   Select :guilabel:`Yes` to allow your customers to use coupons from this coupon series for several orders. Select :guilabel:`No` to specify that coupons in this series can only be redeemed for one order.
+   Select :guilabel:`Yes` to allow your customers to use coupons from this coupon series for several orders.
+
+   Select :guilabel:`No` to specify that coupons in this series can only be redeemed for one order.
 
 .. _Calculate-only-once:
 
-:guilabel:`Calculate only once (valid only for product or category vouchers)` |br|
+:guilabel:`Calculate only once (valid only for product-specific coupons)`
    This setting only affects coupons of a coupon series that have products assigned to them.
 
-   .. attention:: Even though the description of the setting refers to category vouchers, it only applies to product-specific coupon series.
+   If the box is checked, the coupon will be redeemed for only :emphasis:`one` of the products assigned to the coupon series even if the shopping cart contains several such products. This also includes product quantities of two or more.
 
-   If the box is checked, the coupon will be redeemed for only one of the products assigned to the coupon series even if the shopping cart contains several such products. his also includes product quantities of two or more. The coupon is applied to only one product, even if multiple units of that product are purchased.
-
-   .. hint:: The coupon always affects the first matching product in the shopping cart. This means if you have assigned two or more products, the coupon is applied for the product the user puts into the shopping cart first. Prices or other product attributes are not considered.
+   The coupon always affects the :emphasis:`first` matching product in the shopping cart. This means if you have assigned two or more products, the coupon is applied for the product the user puts into the shopping cart first. Prices or other product attributes are not considered.
 
    If the box is :emphasis:`not` checked, the coupon will be applied to each of these products. This applies to all assigned products and multiple units of those products.
 
@@ -77,9 +95,17 @@ The assignment of user groups, categories and/or products takes place in the nex
    Specify how many coupons in the coupon series should be generated.
 
 :guilabel:`Generate`
-   Press this button to generate the coupons. If necessary, you can also add new coupons to the coupon series. Coupons with their coupon code will be stored in the oxvoucher table of the database.
+   Press this button to generate the coupons.
+
+   If necessary, you can also add new coupons to the coupon series.
+
+   Coupons with their coupon code will be stored in the :technicalname:`oxvoucher` table of the database.
 
 :guilabel:`Export`
-   The button allows you to write the generated coupons with the coupon codes in a file. This is especially necessary if coupons have been generated with random coupon codes as they are not displayed in the Admin panel. The file will list all coupons, including those already redeemed. It will be saved in the shop’s :file:`/export` directory and can be opened with any text editor or spreadsheet program.
+   The button allows you to write the generated coupons with the coupon codes in a file.
+
+   This is especially necessary if coupons have been generated with random coupon codes as they are not displayed in the Admin panel.
+
+   The file will list all coupons, including those already redeemed. It will be saved in the shop’s :file:`/export` directory and can be opened with any text editor or spreadsheet program.
 
 .. Intern: oxbahs, Status:, F1: voucherserie_main.html
