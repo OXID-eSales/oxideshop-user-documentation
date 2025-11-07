@@ -17,13 +17,13 @@ OXID eShop 7.4 introduces a major update of our **Content & Media Bundle** to ve
 
 The update contains numerous feature enhancements, structural changes, and necessary bug fixes:
 
-* New alt text feature: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#alt-text>`__
-* New configuration option to set a default media file: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#standard-media-id>`__
-* Switch to media IDs instead of URLs: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#introduction-of-media-ids>`__
-* New activity settings for timed widgets: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
-* New row element for layouting: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/functional-description.html#adding-content>`__
-* Additional button to create new content: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/functional-description.html#creating-new-pages>`__
-* Switch from parse- to tree-style structure: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#changed-code-base>`__, `developer information <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
+* New alt text feature: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.1/mediathek.html#alt-text>`__
+* New configuration option to set a default media file: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.1/mediathek.html#standard-media-id>`__
+* Switch to media IDs instead of URLs: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.1/update.html#introduction-of-media-ids>`__
+* New activity settings for timed widgets: `Documentation [de] <https://docs.oxid-esales.com/modules/vcms/de/9.1/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
+* New row element for layouting: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.1/functional-description.html#adding-content>`__
+* Additional button to create new content: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.1/functional-description.html#creating-new-pages>`__
+* Switch from parse- to tree-style structure: `Documentation <https://docs.oxid-esales.com/modules/vcms/en/9.1/update.html#changed-code-base>`__, `developer information <https://docs.oxid-esales.com/modules/vcms/en/9.1/developer.html#preparetemplateparams-method>`__
 * Row and column elements automatically adjust their height.
 * Bootstrap 5 for the Visual CMS workspace in the administration area.
 * Refactoring and separation of some large files.
@@ -131,7 +131,7 @@ The OXID eShop PE compilation includes the following additional packages:
 * OXID eShop Demodata PE from v8.0.2 to v8.1.0
 * OXID eShop PE from v7.3.0 to v7.4.0
 * Twig Component PE v2.5.0
-* Visual CMS Module from v8.0.1 to v9.0.0 (or to v8.0.2)
+* Visual CMS Module from v8.0.1 to v9.1.0 (or to v8.0.2)
 
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^

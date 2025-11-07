@@ -127,6 +127,6 @@ Step 5: Migrate Content and Media
 
 If you decided to keep the **Content & Media Bundle 8**, you can skip this step. Your Update is finished.
 
-If you decided for the new **Content & Media Bundle 9** and you are running an **OXID eShop Enterprise or Professional Edition**, please see the section `Update <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html>`__ in our **Content & Media Bundle** documentation to finish your update.
+If you decided for the new **Content & Media Bundle 9** and you are running an **OXID eShop Enterprise or Professional Edition**, please see the section `Update <https://docs.oxid-esales.com/modules/vcms/en/9.1/update.html>`__ in our **Content & Media Bundle** documentation to finish your update.
 
-If you decided for the new **Content & Media Bundle 9** and you are running an **OXID eShop Community Edition**, please see the section `Introduction of Media IDs <https://docs.oxid-esales.com/modules/vcms/en/9.0/update.html#introduction-of-media-ids>`__ in our **Content & Media Bundle** documentation to finish your update.
+If you decided for the new **Content & Media Bundle 9** and you are running an **OXID eShop Community Edition**, please see the section `Introduction of Media IDs <https://docs.oxid-esales.com/modules/vcms/en/9.1/update.html#introduction-of-media-ids>`__ in our **Content & Media Bundle** documentation to finish your update.
