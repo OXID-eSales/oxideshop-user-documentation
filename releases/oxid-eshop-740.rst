@@ -172,11 +172,11 @@ Kompatible OXID Erweiterungen
 -----------------------------
 
 * OXAPI GraphQL Base Modul 12.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
-* OXAPI GraphQL Configuration Access Modul 3.0(?TBD): `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
+* OXAPI GraphQL Configuration Access Modul 3.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
 * OXAPI GraphQL Storefront Modul 4.2: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
 * OXAPI GraphQL Storefront Administration Modul 2.1(?TBD): `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
 * OXID ERP Schnittstelle 4.3: `Dokumentation [en] (passwortgeschützt) <https://docs.oxid-esales.com/interfaces/erp/en/4.3>`_
-* OXID eShop Admin Tools 1.1(?TBD): `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/1.1/>`_
+* OXID eShop Admin Tools 1.1: `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/1.1/>`_
 * OXID eShop Consistency Check Tool 1.1(?TBD): `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v1.1.0/README.md>`_
 * OXID eShop Country VAT Administration 2.4: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.4.0/README.md>`_
 * OXID eShop Geo-Blocking Modul 2.4: `Dokumentation <https://docs.oxid-esales.com/modules/geo-blocking/de/2.4>`_
