@@ -17,13 +17,13 @@ OXID eShop 7.4 bringt ein umfangreiches Update unseres **Content & Medien Bundle
 
 Das Update enthält zahlreiche Funktionserweiterungen, strukturelle Änderungen und notwendige Fehlerbehebungen:
 
-* Neue Alt-Text-Funktion: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#alt-text>`__
-* Neue Konfigurationsoption zum Festlegen einer Standard-Mediendatei: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#standard-media-id>`__
-* Umstellung auf Medien-IDs statt URLs: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#einfuhrung-von-medien-ids>`__
-* Neue Aktivitätseinstellungen für zeitgesteuerte Widgets: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
-* Neues Zeilenelement für das Layouting: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/umgang-mit-widgets.html#widget-hinzufugen>`__
-* Zusätzlicher Button zum Erstellen neuer Inhalte: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/grundfunktionen.html#neuen-cms-inhalt-anlegen>`__
-* Umstellung von der Parse- auf die Tree-Struktur: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#geanderte-codebasis>`__, `Entwicklerinformationen [en] <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
+* Neue Alt-Text-Funktion: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/mediathek.html#alt-text>`__
+* Neue Konfigurationsoption zum Festlegen einer Standard-Mediendatei: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/mediathek.html#standard-media-id>`__
+* Umstellung auf Medien-IDs statt URLs: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/update.html#einfuhrung-von-medien-ids>`__
+* Neue Aktivitätseinstellungen für zeitgesteuerte Widgets: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
+* Neues Zeilenelement für das Layouting: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/funktionsbeschreibung/umgang-mit-widgets.html#widget-hinzufugen>`__
+* Zusätzlicher Button zum Erstellen neuer Inhalte: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/funktionsbeschreibung/grundfunktionen.html#neuen-cms-inhalt-anlegen>`__
+* Umstellung von der Parse- auf die Tree-Struktur: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/update.html#geanderte-codebasis>`__, `Entwicklerinformationen [en] <https://docs.oxid-esales.com/modules/vcms/en/9.1/developer.html#preparetemplateparams-method>`__
 * Zeilen- und Spaltenelemente passen ihre Höhe automatisch an.
 * Bootstrap 5 für den Visual CMS Arbeitsbereich im Administrationsbereich.
 * Refactoring und Aufteilung einiger großer Dateien.
@@ -132,7 +132,7 @@ Die OXID eShop PE Compilation enthält zusätzlich die folgenden Pakete:
 * OXID eShop Demodata PE von v8.0.2 auf v8.1.0
 * OXID eShop PE von v7.3.0 auf v7.4.0
 * Twig Component PE v2.5.0
-* Visual CMS Module von v8.0.1 auf v9.0.0 (oder auf v8.0.2)
+* Visual CMS Module von v8.0.1 auf v9.1.0 (oder auf v8.0.2)
 
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
