@@ -17,13 +17,13 @@ OXID eShop 7.4 bringt ein umfangreiches Update unseres **Content & Medien Bundle
 
 Das Update enthält zahlreiche Funktionserweiterungen, strukturelle Änderungen und notwendige Fehlerbehebungen:
 
-* Neue Alt-Text-Funktion: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#alt-text>`__
-* Neue Konfigurationsoption zum Festlegen einer Standard-Mediendatei: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/mediathek.html#standard-media-id>`__
-* Umstellung auf Medien-IDs statt URLs: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#einfuhrung-von-medien-ids>`__
-* Neue Aktivitätseinstellungen für zeitgesteuerte Widgets: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
-* Neues Zeilenelement für das Layouting: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/umgang-mit-widgets.html#widget-hinzufugen>`__
-* Zusätzlicher Button zum Erstellen neuer Inhalte: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/funktionsbeschreibung/grundfunktionen.html#neuen-cms-inhalt-anlegen>`__
-* Umstellung von der Parse- auf die Tree-Struktur: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#geanderte-codebasis>`__, `Entwicklerinformationen [en] <https://docs.oxid-esales.com/modules/vcms/en/9.0/developer.html#preparetemplateparams-method>`__
+* Neue Alt-Text-Funktion: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/mediathek.html#alt-text>`__
+* Neue Konfigurationsoption zum Festlegen einer Standard-Mediendatei: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/mediathek.html#standard-media-id>`__
+* Umstellung auf Medien-IDs statt URLs: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/update.html#einfuhrung-von-medien-ids>`__
+* Neue Aktivitätseinstellungen für zeitgesteuerte Widgets: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/funktionsbeschreibung/aktivitatszeitraum-fur-widgets.html>`__
+* Neues Zeilenelement für das Layouting: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/funktionsbeschreibung/umgang-mit-widgets.html#widget-hinzufugen>`__
+* Zusätzlicher Button zum Erstellen neuer Inhalte: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/funktionsbeschreibung/grundfunktionen.html#neuen-cms-inhalt-anlegen>`__
+* Umstellung von der Parse- auf die Tree-Struktur: `Dokumentation <https://docs.oxid-esales.com/modules/vcms/de/9.1/update.html#geanderte-codebasis>`__, `Entwicklerinformationen [en] <https://docs.oxid-esales.com/modules/vcms/en/9.1/developer.html#preparetemplateparams-method>`__
 * Zeilen- und Spaltenelemente passen ihre Höhe automatisch an.
 * Bootstrap 5 für den Visual CMS Arbeitsbereich im Administrationsbereich.
 * Refactoring und Aufteilung einiger großer Dateien.
@@ -106,11 +106,11 @@ OXID eShop CE Compilation
 
 Die OXID eShop CE Compilation enthält die folgenden Pakete:
 
-* APEX Theme von v2.1.0 auf v3.0.1: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v3.0.1/CHANGELOG-3.x.md>`_
+* APEX Theme von v2.1.0 auf v3.0.2: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v3.0.2/CHANGELOG-3.x.md>`_
 * Eye-Able Assist v3.0.3: `Changelog <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/blob/v3.0.3/CHANGELOG.md>`_
 * GDPR Opt-In Module von v4.2.0 auf v4.3.0: `Changelog <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.3.0/CHANGELOG.md>`_
 * Makaira Connect Essential von 2.1.3 auf 2.1.4: `Changelog <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.4/CHANGELOG.md>`_
-* Media Library Module von v3.0.0 auf v4.0.0 (oder auf v3.0.0 bleibend): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v4.0.0/CHANGELOG.md>`_
+* Media Library Module von v3.0.0 auf v4.1.0 (oder auf v3.0.0 bleibend): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v4.1.0/CHANGELOG.md>`_
 * OXID Cookie Management powered by Usercentrics von v3.1.0 auf v3.2.1: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.2.1/CHANGELOG.md>`_
 * OXID eShop CE von v7.3.0 auf v7.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.4.0/CHANGELOG-7.4.md>`_
 * OXID eShop Composer Plugin v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.3.0/CHANGELOG-7.x.md>`_
@@ -120,9 +120,9 @@ Die OXID eShop CE Compilation enthält die folgenden Pakete:
 * OXID eShop Facts v4.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.3.0/CHANGELOG-4.x.md>`_
 * OXID eShop Unified Namespace Generator v5.2.0: `Changelog <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.2.0/CHANGELOG.md>`_
 * OXID eShop Views Generator v2.2.0: `Changelog <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
-* Twig Admin Theme von v2.6.1 auf v3.0.0: `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v3.0.0/CHANGELOG-3.x.md>`_
+* Twig Admin Theme von v2.6.1 auf v3.0.1 `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v3.0.1/CHANGELOG-3.x.md>`_
 * Twig Component von v2.6.0 auf v2.7.0: `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.7.0/CHANGELOG-2.x.md>`_
-* WYSIWYG Editor Module von v5.0.0 auf v6.0.0 (oder auf v5.0.1): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v6.0.0/CHANGELOG.md>`_
+* WYSIWYG Editor Module von v5.0.0 auf v6.0.1 (oder auf v5.0.1): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v6.0.1/CHANGELOG.md>`_
 
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -132,7 +132,7 @@ Die OXID eShop PE Compilation enthält zusätzlich die folgenden Pakete:
 * OXID eShop Demodata PE von v8.0.2 auf v8.1.0
 * OXID eShop PE von v7.3.0 auf v7.4.0
 * Twig Component PE v2.5.0
-* Visual CMS Module von v8.0.1 auf v9.0.0 (oder auf v8.0.2)
+* Visual CMS Modul von v8.0.1 auf v9.1.0 (oder auf v8.0.2)
 
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -171,18 +171,18 @@ Die OXID eShop Enterprise B2B Edition 7.4 ist noch nicht veröffentlicht. Sie fo
 Kompatible OXID Erweiterungen
 -----------------------------
 
-* OXAPI GraphQL Base Modul 11.1: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/11.1/>`_
-* OXAPI GraphQL Configuration Access Modul 3.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/11.1/>`_
-* OXAPI GraphQL Storefront Modul 4.2: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/11.1/>`_
-* OXAPI GraphQL Storefront Administration Modul 2.1: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/11.1/>`_
+* OXAPI GraphQL Base Modul 12.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
+* OXAPI GraphQL Configuration Access Modul 3.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
+* OXAPI GraphQL Storefront Modul 4.2: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
+* OXAPI GraphQL Storefront Administration Modul 2.1(?TBD): `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
 * OXID ERP Schnittstelle 4.3: `Dokumentation [en] (passwortgeschützt) <https://docs.oxid-esales.com/interfaces/erp/en/4.3>`_
-* OXID eShop Admin Tools 1.1(?TBD): `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/1.1/>`_
+* OXID eShop Admin Tools 1.1: `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/1.1/>`_
 * OXID eShop Consistency Check Tool 1.1(?TBD): `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v1.1.0/README.md>`_
-* OXID eShop Country VAT Administration 2.4(?TBD): `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.4.0/README.md>`_
+* OXID eShop Country VAT Administration 2.4: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.4.0/README.md>`_
 * OXID eShop Geo-Blocking Modul 2.4: `Dokumentation <https://docs.oxid-esales.com/modules/geo-blocking/de/2.4>`_
-* OXID eShop Security Modul 2.1: `Dokumentation <https://docs.oxid-esales.com/modules/security/de/2.1/>`_
-* OXID eShop Shipping Cost Compensation Modul 1.2(?TBD): `Dokumentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/de/1.2/>`_
-* OXID eShop eVAT Modul 4.3(?TBD): `Dokumentation <https://docs.oxid-esales.com/modules/vat-tbe-services/de/4.3>`_
+* OXID eShop Security Modul 2.1(?TBD): `Dokumentation <https://docs.oxid-esales.com/modules/security/de/2.1/>`_
+* OXID eShop Shipping Cost Compensation Modul 1.2: `Dokumentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/de/1.2/>`_
+* OXID eShop eVAT Modul 4.3: `Dokumentation <https://docs.oxid-esales.com/modules/vat-tbe-services/de/4.3>`_
 
 Update
 ------

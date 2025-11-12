@@ -127,6 +127,6 @@ Schritt 5: Die Inhalte und Medien migrieren
 
 Wenn Sie sich entschieden haben, das **Content & Medien Bundle 8** zu behalten, können Sie diesen Schritt überspringen. Ihr Update ist abgeschlossen.
 
-Wenn Sie sich für das neue **Content & Medien Bundle 9** entschieden haben und eine **OXID eShop Enterprise oder Professional Edition** verwenden, lesen Sie bitte den Abschnitt `Update <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html>`__ in unserer **Content & Medien Bundle**-Dokumentation, um Ihr Update abzuschließen.
+Wenn Sie sich für das neue **Content & Medien Bundle 9** entschieden haben und eine **OXID eShop Enterprise oder Professional Edition** verwenden, lesen Sie bitte den Abschnitt `Update <https://docs.oxid-esales.com/modules/vcms/de/9.1/update.html>`__ in unserer **Content & Medien Bundle**-Dokumentation, um Ihr Update abzuschließen.
 
-Wenn Sie sich für das neue **Content & Medien Bundle 9** entschieden haben und eine **OXID eShop Community Edition** verwenden, lesen Sie bitte den Abschnitt `Einführung von Medien-IDs <https://docs.oxid-esales.com/modules/vcms/de/9.0/update.html#einfuhrung-von-medien-ids>`__ in unserer **Content & Medien Bundle**-Dokumentation, um Ihr Update abzuschließen.
+Wenn Sie sich für das neue **Content & Medien Bundle 9** entschieden haben und eine **OXID eShop Community Edition** verwenden, lesen Sie bitte den Abschnitt `Einführung von Medien-IDs <https://docs.oxid-esales.com/modules/vcms/de/9.1/update.html#einfuhrung-von-medien-ids>`__ in unserer **Content & Medien Bundle**-Dokumentation, um Ihr Update abzuschließen.
