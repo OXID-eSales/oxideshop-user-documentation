@@ -105,11 +105,11 @@ OXID eShop CE Compilation
 
 The OXID eShop CE compilation includes the following packages:
 
-* APEX Theme from v2.1.0 to v3.0.1: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v3.0.1/CHANGELOG-3.x.md>`_
+* APEX Theme from v2.1.0 to v3.0.2: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v3.0.2/CHANGELOG-3.x.md>`_
 * Eye-Able Assist v3.0.3: `Changelog <https://github.com/Tobias-Eye-Able/eye-able-oxid-module/blob/v3.0.3/CHANGELOG.md>`_
 * GDPR Opt-In Module from v4.2.0 to v4.3.0: `Changelog <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.3.0/CHANGELOG.md>`_
 * Makaira Connect Essential from 2.1.3 to 2.1.4: `Changelog <https://github.com/MakairaIO/oxid-connect-essential/blob/2.1.4/CHANGELOG.md>`_
-* Media Library Module from v3.0.0 to v4.0.0 (or stay on v3.0.0): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v4.0.0/CHANGELOG.md>`_
+* Media Library Module from v3.0.0 to v4.1.0 (or stay on v3.0.0): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v4.1.0/CHANGELOG.md>`_
 * OXID Cookie Management powered by Usercentrics from v3.1.0 to v3.2.1: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.2.1/CHANGELOG.md>`_
 * OXID eShop CE from v7.3.0 to v7.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.4.0/CHANGELOG-7.4.md>`_
 * OXID eShop Composer Plugin v7.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.3.0/CHANGELOG-7.x.md>`_
@@ -119,9 +119,9 @@ The OXID eShop CE compilation includes the following packages:
 * OXID eShop Facts v4.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.3.0/CHANGELOG-4.x.md>`_
 * OXID eShop Unified Namespace Generator v5.2.0: `Changelog <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.2.0/CHANGELOG.md>`_
 * OXID eShop Views Generator v2.2.0: `Changelog <https://github.com/OXID-eSales/oxideshop-db-views-generator/blob/v2.2.0/CHANGELOG.md>`_
-* Twig Admin Theme from v2.6.1 to v3.0.0: `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v3.0.0/CHANGELOG-3.x.md>`_
+* Twig Admin Theme from v2.6.1 to v3.0.1: `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v3.0.1/CHANGELOG-3.x.md>`_
 * Twig Component from v2.6.0 to v2.7.0: `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.7.0/CHANGELOG-2.x.md>`_
-* WYSIWYG Editor Module from v5.0.0 to v6.0.0 (or to v5.0.1): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v6.0.0/CHANGELOG.md>`_
+* WYSIWYG Editor Module from v5.0.0 to v6.0.1 (or to v5.0.1): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v6.0.1/CHANGELOG.md>`_
 
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
