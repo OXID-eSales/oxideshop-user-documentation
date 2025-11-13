@@ -55,7 +55,10 @@ Datenbank
 ---------
 
 * MySQL 8.0
-* MariaDB 11
+
+  MySQL 5.7 wird ebenfalls unterstützt, hat jedoch den End-of-Life (EOL)-Status erreicht.
+
+* MariaDB 11.4
 
 Der Datenbankbenutzer benötigt ausreichende Berechtigung, um während der Installation eine Datenbank erstellen zu können, sofern diese nicht bereits existiert. Die Berechtigung muss auch das Erstellen von Views erlauben.
 
