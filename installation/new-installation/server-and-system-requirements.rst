@@ -53,11 +53,8 @@ Webserver
 Database
 --------
 
-* MySQL 8.0
-
-  MySQL 5.7 is also supported, but it has reached End-of-Life (EOL) status.
-
-* MariaDB 11.4
+* MySQL 8.4 or 8.0
+* MariaDB 11.8
 
 The database user needs sufficient permission to create a database during the installation if it doesn’t already exist. The user also needs permission to create views.
 
