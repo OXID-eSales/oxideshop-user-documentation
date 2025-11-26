@@ -21,7 +21,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'OXID eShop 6.2'
-copyright = '2003 - {}, OXID eSales AG'.format(dt.date.today().year)
+copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The short X.Y version
