@@ -1,8 +1,6 @@
 ﻿Versandkosten nach Kategorien differenzieren
 ============================================
 
-.. todo: #SB: prüfen
-
 Ein Online-Shop bietet in der Regel einen vielfältigen Warenkatalog.
 
 Richten Sie beispielsweise den Versand so ein, dass Artikel aus bestimmten Kategorien besonders günstig verschickt werden.
@@ -48,7 +46,7 @@ Im Demo-Shop sind die Kategorien beispielsweise wie folgt den Versandkostenregel
 Kategorie                Versandkostenregel                                Priorität
 ======================== ================================================= ====================
 Fahrzeuge                Versandkostenregel Zustellung PKW                 0
-Achsen, Achteile,        Versandkostenregel Spedition                      5
+Achsen, Achsteile,       Versandkostenregel Spedition                      5
 Karosserie, Räder
 Alle übrigen Kategorien  Versandkostenregel Standard und Express           10
 ======================== ================================================= ====================
