@@ -61,7 +61,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'OXID eShop 8.0'
-copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
+copyright = '2003 \u2013 {}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -146,7 +146,9 @@ html_context = {
           ('7.1', 'https://docs.oxid-esales.com/eshop/en/7.1/'),
           ('7.2', 'https://docs.oxid-esales.com/eshop/en/7.2/'),
           ('7.3', 'https://docs.oxid-esales.com/eshop/en/7.3/'),
+          ('7.4', 'https://docs.oxid-esales.com/eshop/en/7.4/'),
           ('8.0', 'https://docs.oxid-esales.com/eshop/en/8.0/'),
+
           ],
     'languages':
          [('EN', 'https://docs.oxid-esales.com/eshop/en/8.0/'),
