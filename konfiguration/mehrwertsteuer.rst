@@ -71,7 +71,6 @@ Spezielle MwSt.-Einstellungen vornehmen
 
 Legen Sie die Mehrwertsteuer-Sätze fest, die abweichend von den global gültigen MwSt.-Sätzen für bestimmte Kategorien oder einzelne Artikel gelten sollen.
 
-
 |prerequisites|
 
 * Sie haben unter :menuselection:`Stammdaten --> Grundeinstellungen --> Einstell. --> Mehrwertsteuer --> Standard-MwSt.-Satz für alle Artikel` den global gültigen Standard-MwSt.-Satz festgelegt (siehe :ref:`konfiguration/mehrwertsteuer:Globale MwSt.-Einstellungen vornehmen`).
