@@ -38,7 +38,11 @@ The settings and the language selection are only available after the discount ha
 
    Use the input field :guilabel:`Purchase value (€) from` or :guilabel:`Purchase quantity from` to define how the discount is deducted from the price.
 
-   For more information, see :ref:`operation/discounts/discounts:Displaying discounts`.
+   Consider the various use cases, for example:
+
+   * :ref:`operation/discounts/discounts:Displaying discounts`
+   * :ref:`operation/discounts/discounts:Creating and managing discounts`
+   * :ref:`operation/discounts/product-as-add-on:Creating free items as a discount`
 
 :guilabel:`Purchase Price (€) From` ... :guilabel:`To` ...
    Define a range for the total price on which a discount should be granted.
