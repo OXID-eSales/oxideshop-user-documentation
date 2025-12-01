@@ -35,7 +35,11 @@ Die Einstellungen und die Sprachumstellung sind erst nach Anlegen des Rabatts ve
 
    Legen Sie im Eingabefeld :guilabel:`Einkaufswert (€) von` oder :guilabel:`Einkaufsmenge von` fest, wie der Rabatt vom Preis abgezogen werden soll.
 
-   Weitere Informationen finden Sie unter :ref:`betrieb/rabatte/rabatte:Rabatte plazieren`.
+   Beachten Sie die verschiedenen Anwendungsfälle, beispielsweise:
+
+   * :ref:`betrieb/rabatte/rabatte:Rabatte plazieren`
+   * :ref:`betrieb/rabatte/rabatte:Rabatte anlegen und verwalten`
+   * :ref:`betrieb/rabatte/artikel-als-zugabe:Gratisartikel als Rabatt anlegen`
 
 :guilabel:`Einkaufswert (€) von` ... :guilabel:`bis` ...
    Geben Sie eine Spanne für den Gesamtpreis vor, auf den ein Rabatt gewährt werden soll.

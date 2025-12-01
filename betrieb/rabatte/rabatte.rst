@@ -88,7 +88,7 @@ Erstellen und bearbeiten Sie Rabatte.
 
    * Optional: Begrenzen Sie Rabatte zeitlich.
 
-     Weitere Informationenfinden Sie unter :doc:`Rabatte zeitlich begrenzen <zeitlich-begrenzte-rabatte>`.
+     Weitere Informationen finden Sie unter :doc:`Rabatte zeitlich begrenzen <zeitlich-begrenzte-rabatte>`.
    * Optional: Legen Sie statt eines absoluten oder relativen Preisnachlasses einen Gratisartikel als Rabatt an.
 
      Weitere Informationenfinden Sie unter :doc:`Gratisartikel als Rabatt anlegen <artikel-als-zugabe>`.
