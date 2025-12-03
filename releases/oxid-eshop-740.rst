@@ -61,6 +61,8 @@ MySQL 8.4 Support
 
 The OXID eShop 7.4 Compilation and all extensions listed below have been successfully tested with **MySQL 8.4 (LTS)**. This confirms that they support this long-term support MySQL version.
 
+Additionally OXID eShop 7.4 also supports MariaDB 11.8.
+
 .. _fixes:
 
 Tweaks & Bugfixes
