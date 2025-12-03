@@ -145,25 +145,21 @@ The OXID eShop EE compilation includes the following additional packages:
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop Enterprise B2B Edition 7.4 is not yet released. It will follow in the next weeks.
+The OXID eShop EE B2B compilation includes the following additional packages:
 
-..
-    The OXID eShop EE B2B compilation includes the following additional packages:
+* OXID eShop B2B Approval Procedure Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Basket Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Budget Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Bulk Orders Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Buying Agent Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Custom Prices Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Offers Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Quick Orders Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Scheduled Orders Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Service Products Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Services Module from v7.3.0 to v7.4.0
 
-
-    * OXID eShop B2B Approval Procedure Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Basket Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Budget Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Bulk Orders Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Buying Agent Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Custom Prices Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Offers Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Quick Orders Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Scheduled Orders Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Service Products Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Services Module from v7.2.0 to v7.3.0
-
-    For more information about B2B edition releases, see the (password-protected) documentation `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/en/7.3/releases/b2b-edition-730.html>`_.
+For more information about B2B edition releases, see the (password-protected) documentation `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/en/7.4/releases/b2b-edition-740.html>`_.
 
 Compatible OXID Extensions
 --------------------------
@@ -171,15 +167,15 @@ Compatible OXID Extensions
 * OXAPI GraphQL Base Module 12.0: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
 * OXAPI GraphQL Configuration Access Module 3.0: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
 * OXAPI GraphQL Storefront Module 4.2: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
-* OXAPI GraphQL Storefront Administration Module 2.1(?TBD): `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
+* OXAPI GraphQL Storefront Administration Module 3.0.1: `Documentation <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
 * OXID ERP Interface 4.3: `Documentation (password-protected) <https://docs.oxid-esales.com/interfaces/erp/en/4.3>`_
 * OXID eShop Admin Tools 1.1: `Documentation <https://docs.oxid-esales.com/modules/admin-tools/en/1.1/>`_
-* OXID eShop Consistency Check Tool 1.1(?TBD): `Documentation (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v1.1.0/README.md>`_
 * OXID eShop Country VAT Administration 2.4: `Documentation (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.4.0/README.md>`_
 * OXID eShop Geo-Blocking Module 2.4: `Documentation <https://docs.oxid-esales.com/modules/geo-blocking/en/2.4>`_
-* OXID eShop Security Module 2.1(?TBD): `Documentation <https://docs.oxid-esales.com/modules/security/en/2.1/>`_
 * OXID eShop Shipping Cost Compensation Module 1.2: `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.2/>`_
 * OXID eShop eVAT Module 4.3: `Documentation <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.3>`_
+* OXID Module Template 5.1.0: `Documentation (GitHub) <https://github.com/OXID-eSales/module-template/blob/v5.1.0/README.md>`_
+* OXID Examples Module 2.0.0: `Documentation (GitHub) <https://github.com/OXID-eSales/examples-module/blob/v2.0.0/README.md>`_
 
 Update
 ------
