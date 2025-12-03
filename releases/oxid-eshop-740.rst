@@ -171,10 +171,8 @@ Kompatible OXID Erweiterungen
 * OXAPI GraphQL Storefront Administration Modul 3.0.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/12.0/>`_
 * OXID ERP Schnittstelle 4.3: `Dokumentation [en] (passwortgeschützt) <https://docs.oxid-esales.com/interfaces/erp/en/4.3>`_
 * OXID eShop Admin Tools 1.1: `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/1.1/>`_
-* OXID eShop Consistency Check Tool 1.1(?TBD): `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v1.1.0/README.md>`_
 * OXID eShop Country VAT Administration 2.4: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.4.0/README.md>`_
 * OXID eShop Geo-Blocking Modul 2.4: `Dokumentation <https://docs.oxid-esales.com/modules/geo-blocking/de/2.4>`_
-* OXID eShop Security Modul 2.1(?TBD): `Dokumentation <https://docs.oxid-esales.com/modules/security/de/2.1/>`_
 * OXID eShop Shipping Cost Compensation Modul 1.2: `Dokumentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/de/1.2/>`_
 * OXID eShop eVAT Modul 4.3: `Dokumentation <https://docs.oxid-esales.com/modules/vat-tbe-services/de/4.3>`_
 * OXID Modul Template 5.1.0: `Documentation (GitHub) <https://github.com/OXID-eSales/module-template/blob/v5.1.0/README.md>`_
