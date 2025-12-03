@@ -159,7 +159,7 @@ The OXID eShop EE B2B compilation includes the following additional packages:
 * OXID eShop B2B Service Products Module from v7.3.0 to v7.4.0
 * OXID eShop B2B Services Module from v7.3.0 to v7.4.0
 
-For more information about B2B edition releases, see the (password-protected) documentation `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/en/7.3/releases/b2b-edition-730.html>`_.
+For more information about B2B edition releases, see the (password-protected) documentation `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/en/7.4/releases/b2b-edition-740.html>`_.
 
 Compatible OXID Extensions
 --------------------------
