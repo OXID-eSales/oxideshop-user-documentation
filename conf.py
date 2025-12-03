@@ -141,6 +141,7 @@ html_context = {
          ('7.1', 'https://docs.oxid-esales.com/eshop/de/7.1/'),
          ('7.2', 'https://docs.oxid-esales.com/eshop/de/7.2/'),
          ('7.3', 'https://docs.oxid-esales.com/eshop/de/7.3/'),
+         ('7.4', 'https://docs.oxid-esales.com/eshop/de/7.4/'),
          ],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
@@ -392,4 +393,5 @@ from pygments.lexers.web import PhpLexer
 lexers['php'] = PhpLexer(startinline=True, linenos=1)
 lexers['php-annotations'] = PhpLexer(startinline=True, linenos=1)
 # Use PHP syntax highlighting in code examples by default
+
 highlight_language='php'
