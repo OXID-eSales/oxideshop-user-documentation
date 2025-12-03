@@ -145,25 +145,21 @@ The OXID eShop EE compilation includes the following additional packages:
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The OXID eShop Enterprise B2B Edition 7.4 is not yet released. It will follow in the next weeks.
+The OXID eShop EE B2B compilation includes the following additional packages:
 
-..
-    The OXID eShop EE B2B compilation includes the following additional packages:
+* OXID eShop B2B Approval Procedure Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Basket Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Budget Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Bulk Orders Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Buying Agent Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Custom Prices Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Offers Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Quick Orders Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Scheduled Orders Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Service Products Module from v7.3.0 to v7.4.0
+* OXID eShop B2B Services Module from v7.3.0 to v7.4.0
 
-
-    * OXID eShop B2B Approval Procedure Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Basket Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Budget Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Bulk Orders Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Buying Agent Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Custom Prices Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Offers Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Quick Orders Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Scheduled Orders Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Service Products Module from v7.2.0 to v7.3.0
-    * OXID eShop B2B Services Module from v7.2.0 to v7.3.0
-
-    For more information about B2B edition releases, see the (password-protected) documentation `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/en/7.3/releases/b2b-edition-730.html>`_.
+For more information about B2B edition releases, see the (password-protected) documentation `OXID eShop Enterprise B2B Edition <https://docs.oxid-esales.com/b2b/en/7.3/releases/b2b-edition-730.html>`_.
 
 Compatible OXID Extensions
 --------------------------
