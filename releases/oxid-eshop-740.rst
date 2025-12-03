@@ -180,6 +180,8 @@ Compatible OXID Extensions
 * OXID eShop Security Module 2.1(?TBD): `Documentation <https://docs.oxid-esales.com/modules/security/en/2.1/>`_
 * OXID eShop Shipping Cost Compensation Module 1.2: `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.2/>`_
 * OXID eShop eVAT Module 4.3: `Documentation <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.3>`_
+* OXID Module Template 5.1.0: `Documentation (GitHub) <https://github.com/OXID-eSales/module-template/blob/v5.1.0/README.md>`_
+* OXID Examples Module 2.0.0: `Documentation (GitHub) <https://github.com/OXID-eSales/examples-module/blob/v2.0.0/README.md>`_
 
 Update
 ------
