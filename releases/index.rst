@@ -7,4 +7,3 @@ Find out about innovations and changes in the versions of OXID eShop and the com
    :maxdepth: 1
 
    OXID eShop 7.4.0<oxid-eshop-740>
-   OXID eShop 7.3.0<oxid-eshop-730>
