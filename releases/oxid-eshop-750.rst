@@ -16,13 +16,53 @@ mit sich. Dieses enthält folgende Erweiterungen:
 * WYSIWYG-Editor 7
 * Visual CMS 10 (nur Enterprise und Professional Edition)
 
+Visual CMS 10 ist die konsequente Weiterentwicklung der mit
+Visual CMS 9 eingeführten Architektur. Die wichtigsten
+Neuerungen:
+
+**Visual CMS 10** (nur Professional und Enterprise Edition):
+
+* **"Anything-First"-Bearbeitung:** Wählen Sie ein beliebiges
+  Gerät als Ausgangspunkt für das Design. Passen Sie die
+  Widget-Größen explizit für jedes Gerät an — volle
+  Kontrolle über alle Breakpoints.
+* **Gerätetypabhängige Widget-Größen:** Separate
+  Konfiguration für Smartphone, Tablet (Hoch-/Querformat),
+  Desktop und große Bildschirme.
+* **Gerätetyp-Umschalter** im Editor zum schnellen Wechsel
+  zwischen Viewports.
+* **Verschachtelte Aktivitätsgruppen:** UND/ODER-Logik für
+  komplexe zeitbasierte Sichtbarkeitsregeln von Widgets,
+  einschließlich Ausschlusszeiträumen.
+* **Lokalisierte Datums-/Zeitanzeige** in den
+  Aktivitätseinstellungen, 12h/24h-Unterstützung.
+* **TypeScript:** JavaScript-Dateien auf TypeScript migriert.
+* **Bootstrap Icons** ersetzen Font Awesome im Admin-Bereich.
+
+**WYSIWYG-Editor 7:**
+
+* **Erweiterbar durch Module:** Neue Twig-Blöcke
+  ``ddoe_wysiwyg_plugins`` und
+  ``ddoe_wysiwyg_summernote_options`` erlauben es Modulen,
+  den Editor mit eigenen Plugins und Optionen zu erweitern.
+* **Alt-Text-Migration:** Neuer Befehl
+  ``ddoewysiwyg:migrate:alt-texts`` ersetzt fehlende oder
+  leere Alt-Attribute auf Medienbildern.
+* **Bootstrap Icons** ersetzen Font Awesome.
+
+**Mediathek 5:**
+
+* **Suche nach Medien-ID:** Das Suchfeld findet Medien
+  nun auch anhand der Medien-ID, nicht nur anhand des
+  Dateinamens.
+* **QueryBuilder:** Repository-Schicht auf QueryBuilder
+  umgestellt.
+* **Bootstrap Icons** ersetzen Font Awesome.
+
 Wenn Sie die Vorgängerversionen beibehalten möchten, können
 Sie Ihr Update vorkonfigurieren. Weitere Informationen
 finden Sie in unserer
 :doc:`Update-Anleitung <../installation/update>`.
-
-.. todo:: Neuheiten des Content & Medien Bundles 10 ergänzen
-   (Änderungen, Migration, neue Funktionen)
 
 PHP 8.5 Unterstützung
 ^^^^^^^^^^^^^^^^^^^^^
@@ -31,42 +71,6 @@ Die OXID eShop 7.5 Compilation und alle unten aufgeführten
 Erweiterungen wurden mit **PHP 8.3, 8.4 und 8.5** getestet.
 Die Mindestversion ist PHP 8.3. PHP 8.2 wird nicht mehr
 unterstützt.
-
-Neuer Such-Service
-^^^^^^^^^^^^^^^^^^
-
-OXID eShop 7.5 bietet eine neue, austauschbare Sucharchitektur.
-Das neue ``ProductSearchServiceInterface`` ermöglicht es, die
-eingebaute SQL-Suche durch externe Suchmaschinen wie
-Meilisearch, Elasticsearch oder Typesense zu ersetzen. Bei
-einem Ausfall der externen Suche greift der Shop automatisch
-auf die SQL-Suche zurück.
-
-Weitere Informationen finden Sie in der
-`Entwicklerdokumentation <https://docs.oxid-esales.com/developer/en/7.5/>`_.
-
-HTML-Sanitizer
-^^^^^^^^^^^^^^
-
-Ein neuer, auf dem Symfony HtmlSanitizer basierender
-Sicherheitsfilter bereinigt HTML-Inhalte automatisch, bevor
-sie im Shop angezeigt werden. Der neue Twig-Filter
-``sanitize_html`` entfernt potenziell gefährliche
-HTML-Elemente wie Script-Tags, Event-Handler und unsichere
-Iframes. Die erlaubten HTML-Elemente und -Attribute sind
-konfigurierbar. Module können die Konfiguration bei Bedarf
-anpassen.
-
-Neuer E-Mail-Service
-^^^^^^^^^^^^^^^^^^^^
-
-OXID eShop 7.5 enthält einen neuen E-Mail-Service, der auf
-dem Symfony Mailer basiert. Der Service bietet saubere
-Schnittstellen und eine erweiterbare Architektur, die
-moderne E-Mail-Transporte (API-basierte Anbieter,
-OAuth2-Authentifizierung, warteschlangenbasierter Versand)
-ermöglicht. In der 7.x-Serie läuft der neue Service
-parallel zum bestehenden System.
 
 API-Entrypoint
 ^^^^^^^^^^^^^^
@@ -83,6 +87,42 @@ Zusammen mit OXAPI (GraphQL) bietet der Shop damit zwei
 komplementäre Schnittstellen: OXAPI für das umfangreiche
 Produkt- und Commerce-Datenmodell und benutzerdefinierte
 API-Endpunkte für individuelle Anforderungen.
+
+Neuer Such-Service
+^^^^^^^^^^^^^^^^^^
+
+OXID eShop 7.5 bietet eine neue, austauschbare Sucharchitektur.
+Das neue ``ProductSearchServiceInterface`` ermöglicht es, die
+eingebaute SQL-Suche durch externe Suchmaschinen wie
+Meilisearch oder Elasticsearch zu ersetzen. Bei
+einem Ausfall der externen Suche greift der Shop automatisch
+auf die SQL-Suche zurück.
+
+Weitere Informationen finden Sie in der
+`Entwicklerdokumentation <https://docs.oxid-esales.com/developer/en/7.5/>`_.
+
+Neuer E-Mail-Service
+^^^^^^^^^^^^^^^^^^^^
+
+OXID eShop 7.5 enthält einen neuen E-Mail-Service, der auf
+dem Symfony Mailer basiert. Der Service bietet saubere
+Schnittstellen und eine erweiterbare Architektur, die
+moderne E-Mail-Transporte (API-basierte Anbieter,
+OAuth2-Authentifizierung, warteschlangenbasierter Versand)
+ermöglicht. In der 7.x-Serie läuft der neue Service
+alternativ zum bestehenden System.
+
+HTML-Sanitizer
+^^^^^^^^^^^^^^
+
+Ein neuer, auf dem Symfony HtmlSanitizer basierender
+Sicherheitsfilter bereinigt HTML-Inhalte automatisch, bevor
+sie im Shop angezeigt werden. Der neue Twig-Filter
+``sanitize_html`` entfernt potenziell gefährliche
+HTML-Elemente wie Script-Tags, Event-Handler und unsichere
+Iframes. Die erlaubten HTML-Elemente und -Attribute sind
+konfigurierbar. Module können die Konfiguration bei Bedarf
+anpassen.
 
 Sicherheitsverbesserungen
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -111,25 +151,22 @@ Mehrere gezielte Optimierungen verbessern die Ladezeiten:
   Storefront nicht mehr.
 * Unnötige Instanziierungen der Warenkorb-Komponente
   wurden eliminiert.
-* Das APEX Theme rendert keine Dropdown-Elemente mehr
-  für Kategorien ohne sichtbare Unterkategorien.
-
-Modul-zu-Modul Template-Erweiterung
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Module können nun die Templates anderer Module zuverlässig
-erweitern. Der Twig Template-Loader löst Modul-Namespace-
-Pfade korrekt auf, wenn ein Modul auf Templates eines
-anderen Moduls verweist. Ein manuelles Bearbeiten der
-``template_extension_chain.yaml`` ist nicht mehr
-erforderlich.
 
 .. _fixes:
 
 Optimierungen & Fehlerbehebungen
 --------------------------------
 
-.. todo:: Fehlerbehebungen für 7.5 ergänzen
+* #0007881 Model extension chain bypass: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7881>`_
+* #0007877 composer/composer fälschlicherweise in require statt require-dev: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7877>`_
+* #0007907 Hilfetext für Rabattmengen verdeutlicht: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7907>`_
+* #0007178 Kategorie-Dropdown wird für Kategorien ohne sichtbare Unterkategorien nicht mehr angezeigt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7178>`_
+* #0007921 Template-Erweiterungen für Modul-Templates rendern korrekt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7921>`_
+
+* Menü-Zähler für herstellerspezifische Menübereiche korrigiert: `PR-10 <https://github.com/OXID-eSales/twig-admin-theme/pull/10>`_
+* Falsche Produktbild-Anzahl 13 statt 12 korrigiert: `PR-14 <https://github.com/OXID-eSales/twig-admin-theme/pull/14>`_
+
+* #0007922 Produktgalerie und Grid-Bilder respektieren nun die Einstellung blConvertImagesToWebP, Hover-Bild auf mobilen Viewports nicht mehr defekt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7922>`_
 
 .. _packages:
 
