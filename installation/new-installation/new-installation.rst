@@ -13,7 +13,7 @@ After that, run the web-based setup and install the shop as usual.
     :height: 455
     :width: 650
 
-Find the installation guide in English in the developer documentation under `<https://docs.oxid-esales.com/developer/en/latest/getting_started/installation/index.html>`_.
+Find the installation guide in English in the developer documentation under `<https://docs.oxid-esales.com/developer/en/7.4/getting_started/installation/index.html>`_.
 
 -----------------------------------------------------------------------------------------
 
