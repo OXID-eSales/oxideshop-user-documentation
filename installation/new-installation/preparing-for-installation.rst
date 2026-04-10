@@ -1,7 +1,7 @@
 ﻿Preparing for installation
 ==========================
 
-Some preparations are necessary for the new installation of OXID eShop 7.4.
+Some preparations are necessary for the new installation of OXID eShop 7.5.
 
 .. |schritt| image:: ../../media/icons/schritt.jpg
                :class: no-shadow
@@ -25,17 +25,17 @@ Optional: If you need the development-related files, omit the :command:`--no-dev
 Community Edition
 ^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.4-ce`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.5-ce`
 
 Professional Edition
 ^^^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.4-pe`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.5-pe`
 
 Enterprise Edition
 ^^^^^^^^^^^^^^^^^^
 
-:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.4-ee`
+:command:`composer create-project --no-dev oxid-esales/oxideshop-project your_project_name dev-b-7.5-ee`
 
 Once Composer has finished, the new directory named with *your_project_name* will be available. This is the main (root) directory of the project that contains all the files needed to install OXID eShop.
 

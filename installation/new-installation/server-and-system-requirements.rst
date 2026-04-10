@@ -63,13 +63,13 @@ The transaction isolation level must be left with the default value *REPEATABLE 
 PHP
 ---
 
-* PHP version from 8.2 up to 8.4
+* PHP version from 8.3 up to 8.5
 
   .. Attention::
 
      **Rounding of Floating-Point Numbers in PHP 8.4**
 
-     Alongside improvements and bug fixes, PHP v8.4 introduces a breaking change in the process of rounding floating-point numbers (see `Migrating from PHP 8.3.x to PHP 8.4.x: Rounding with round() <https://www.php.net/manual/en/migration84.other-changes.php#:~:text=Rounding%20with%20round()>`_).
+     PHP v8.4 introduces a change in the process of rounding floating-point numbers (see `Migrating from PHP 8.3.x to PHP 8.4.x: Rounding with round() <https://www.php.net/manual/en/migration84.other-changes.php#:~:text=Rounding%20with%20round()>`_).
 
      Practically speaking, this means that certain calculations will produce different results for different PHP versions.
 
@@ -113,7 +113,7 @@ Metadata
 
 * Metadata version 2.0 or higher
 
-  For more information about metadata versions, in the Developer documentation, see `metadata.php <https://docs.oxid-esales.com/developer/en/7.4/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+  For more information about metadata versions, in the Developer documentation, see `metadata.php <https://docs.oxid-esales.com/developer/en/7.5/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
 OpenSSL
 -------
