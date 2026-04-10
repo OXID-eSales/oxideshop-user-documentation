@@ -68,19 +68,26 @@ If you have **OXID eShop Enterprise Edition**, run the following command:
 
 .. code:: shell
 
-   composer require oxid-esales/oxideshop-metapackage-ee:v7.4.0 --no-update
+   composer require oxid-esales/oxideshop-metapackage-ee:^7.4 --no-update
 
 If you have **OXID eShop Professional Edition**, run the following command:
 
 .. code:: shell
 
-   composer require oxid-esales/oxideshop-metapackage-pe:v7.4.0 --no-update
+   composer require oxid-esales/oxideshop-metapackage-pe:^7.4 --no-update
 
 If you have **OXID eShop Community Edition**, run the following command:
 
 .. code:: shell
 
-   composer require oxid-esales/oxideshop-metapackage-ce:v7.4.0 --no-update
+   composer require oxid-esales/oxideshop-metapackage-ce:^7.4 --no-update
+
+.. hint::
+   The constraint ``^7.4`` automatically installs the latest
+   available patch version (e.g., 7.4.1). If you need a
+   specific patch version, specify it explicitly, e.g.,
+   ``v7.4.0`` or ``v7.4.1``. We recommend using the latest
+   patch version.
 
 .. _step-3-run-the-update-process:
 
