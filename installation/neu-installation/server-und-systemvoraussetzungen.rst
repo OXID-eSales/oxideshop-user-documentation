@@ -64,7 +64,7 @@ Das Transaction Isolation Level muss serverseitig beim Standardwert *REPEATABLE 
 PHP
 ---
 
-* PHP 8.2 bis 8.4
+* PHP 8.3 bis 8.5
 
 .. _php84:
 
@@ -72,7 +72,7 @@ PHP
 
      **Runden von Gleitkommazahlen bei PHP 8.4**
 
-     Neben Verbesserungen und Fehlerbehebungen führt PHP v8.4 eine bahnbrechende Änderung in den Prozess des Rundens von Gleitkommazahlen ein (siehe `Migrating from PHP 8.3.x to PHP 8.4.x: Rounding with round() <https://www.php.net/manual/en/migration84.other-changes.php#:~:text=Rounding%20with%20round()>`_).
+     PHP v8.4 führt eine Änderung in den Prozess des Rundens von Gleitkommazahlen ein (siehe `Migrating from PHP 8.3.x to PHP 8.4.x: Rounding with round() <https://www.php.net/manual/en/migration84.other-changes.php#:~:text=Rounding%20with%20round()>`_).
 
      Praktisch bedeutet dies, dass bestimmte Berechnungen unterschiedliche Ergebnisse für verschiedene PHP-Versionen liefern werden.
 
@@ -116,7 +116,7 @@ Metadata
 
 * Metadata Version 2.0 oder höher
 
-Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/latest/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+Weitere Informationen über Metadaten finden Sie in der Entwickler-Dokumentation unter `metadata.php <https://docs.oxid-esales.com/developer/en/7.5/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
 OpenSSL
 -------
