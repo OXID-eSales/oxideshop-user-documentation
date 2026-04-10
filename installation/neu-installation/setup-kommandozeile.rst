@@ -81,7 +81,7 @@ Um beispielsweise das standardmäßig installierte Apex-Theme zu aktivieren, fü
 
 |schritt| Module installieren
 -----------------------------
-Module können mit dem Kommando ``oe:module:install`` der OXID eShop console installiert werden. Das Kommando ``oe:module:uninstall`` entfernt ein angegebenes Modul aus dem Shop. Alle Informationen dazu finden Sie in der englischsprachigen Entwicklerdokumentation: https://docs.oxid-esales.com/developer/en/7.4/development/modules_components_themes/module/tutorials/module_setup.html und https://docs.oxid-esales.com/developer/en/7.4/development/modules_components_themes/module/uninstall/index.html.
+Module können mit dem Kommando ``oe:module:install`` der OXID eShop console installiert werden. Das Kommando ``oe:module:uninstall`` entfernt ein angegebenes Modul aus dem Shop. Alle Informationen dazu finden Sie in der englischsprachigen Entwicklerdokumentation: https://docs.oxid-esales.com/developer/en/7.5/development/modules_components_themes/module/tutorials/module_setup.html und https://docs.oxid-esales.com/developer/en/7.5/development/modules_components_themes/module/uninstall/index.html.
 
 
 .. Intern: oxbaju, Status:
