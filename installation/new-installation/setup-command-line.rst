@@ -79,7 +79,7 @@ To activate the Apex theme installed by default, for example, execute the follow
 
 |schritt| Installing modules
 ----------------------------
-Modules can be installed using the ``oe:module:install`` command of the OXID eShop console. The ``oe:module:uninstall`` command removes a specified module from the shop. All information about this can be found in the developer documentation: https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/tutorials/module_setup.html and https://docs.oxid-esales.com/developer/en/7.0-rc.1/development/modules_components_themes/module/uninstall/index.html.
+Modules can be installed using the ``oe:module:install`` command of the OXID eShop console. The ``oe:module:uninstall`` command removes a specified module from the shop. All information about this can be found in the developer documentation: https://docs.oxid-esales.com/developer/en/7.5/development/modules_components_themes/module/tutorials/module_setup.html and https://docs.oxid-esales.com/developer/en/7.5/development/modules_components_themes/module/uninstall/index.html.
 
 
 .. Intern: oxbaju, Status: transL
