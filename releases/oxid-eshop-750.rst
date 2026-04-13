@@ -160,6 +160,10 @@ Improvements & Bug Fixes
 
 * #0007922 Product gallery and grid listing images now respect the blConvertImagesToWebP setting, hover image on mobile viewports no longer broken: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7922>`_
 
+* #0007751 Adding license keys via the command line no longer drops previously added keys (PE and EE): `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7751>`_
+
+* #0007182 Wrong subquery in PE to EE migration for xxx2shop tables fixed (EE only): `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7182>`_
+
 .. _packages:
 
 Packages
