@@ -168,6 +168,10 @@ Optimierungen & Fehlerbehebungen
 
 * #0007922 Produktgalerie und Grid-Bilder respektieren nun die Einstellung blConvertImagesToWebP, Hover-Bild auf mobilen Viewports nicht mehr defekt: `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7922>`_
 
+* #0007751 Hinzufügen von Lizenzschlüsseln über die Kommandozeile löscht keine bereits hinzugefügten Schlüssel mehr (PE und EE): `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7751>`_
+
+* #0007182 Falsche Subquery in PE-zu-EE-Migration für xxx2shop-Tabellen behoben (nur EE): `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7182>`_
+
 .. _packages:
 
 Packages
