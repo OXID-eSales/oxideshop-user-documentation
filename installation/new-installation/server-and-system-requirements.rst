@@ -20,7 +20,7 @@ The following system requirements must be met to operate OXID eShop version 7.
 Webserver
 ---------
 
-* Apache version 2.2 or 2.4 (on Linux)
+* Apache version 2.4 (on Linux)
 * 500 MB of free webspace for Community and Professional Edition
 * 750 MB of free webspace for Enterprise Edition
 * *mod_rewrite* extension installed
@@ -31,11 +31,9 @@ Webserver
 
        Before you can start the setup, the system checks whether the system requirements are met.
 
-       Under :guilabel:`Server Configuration`, the *Apache mod_rewrite Module* bay be marked as defective, even with the *mod_rewrite* extension installed.
+       Under :guilabel:`Server Configuration`, the *Apache mod_rewrite Module* may be marked as defective, even with the *mod_rewrite* extension installed.
 
        Often, one of the reasons for this is the setting for *AllowOverride* in the Apache vhost configuration.
-
-       If you have Apache 2.3.9, ensure that the *AllowOverride* parameter has the value *None*.
 
 * Cryptographically-sufficient configuration
 
@@ -77,7 +75,7 @@ PHP
 
      Take this fact into consideration before migrating your system to the latest PHP version.
 
-* Recommended *memory_limit* is 60 MB, but it should be no less than 32 MB
+* Recommended *memory_limit* is 512 MB, but it should be no less than 256 MB
 * PHP setting *session.auto_start* in :file:`php.ini` should be disabled (OFF)
 * File uploads should be enabled in PHP
 * Enabled *allow_url_fopen* and *fsockopen* on port 80
@@ -104,7 +102,7 @@ PHP extensions that need to be installed:
 Composer
 --------
 
-* Composer 2.7.7
+* Composer 2.8 or 2.9
 
   Composer is required for the installation of OXID eShop and changes in autoloading of files (not at runtime). OXID eShop 7.0.0 has been tested with Composer version 2.
 
@@ -120,7 +118,7 @@ OpenSSL
 
 Compilation modules require OpenSSL.
 
-* *openssl* >= 1.0.1
+* *openssl* >= 1.1.1
 
 
 .. Intern: oxbaac, Status:
