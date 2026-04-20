@@ -95,6 +95,8 @@ Standard-CE-Compilation sind im Core-Edition-Metapackage
    ``composer update`` ausführen, wird Composer alle
    Pakete **entfernen**, die — direkt oder transitiv —
    nicht mehr im neuen Abhängigkeitsbaum benötigt werden.
+   Das betrifft auch **aktive, im Shop laufende Module**
+   — nicht nur deaktivierte.
 
    Betroffen sind die Module und deren Abhängigkeiten,
    die über das Standard-Compilation-Metapackage
