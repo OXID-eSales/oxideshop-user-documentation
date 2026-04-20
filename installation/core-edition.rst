@@ -86,7 +86,8 @@ Edition metapackage:
    When you switch the metapackage and run
    ``composer update``, Composer will **remove** any package
    that is no longer required — directly or transitively —
-   by the new dependency tree.
+   by the new dependency tree. This includes **active,
+   running modules** — not just deactivated ones.
 
    This affects the modules and their dependencies that
    were bundled with the standard compilation metapackage.
