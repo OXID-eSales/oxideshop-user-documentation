@@ -53,10 +53,8 @@ den Modulen trennt:
    nicht sofort auf 7.x migrieren können, aber einzelne
    Module warten oder aktualisieren müssen.
 
-   Informationen zum Update auf die aktuelle Version finden
-   Sie in unserer `Update-Dokumentation
-   <https://docs.oxid-esales.com/developer/en/latest/update/
-   index.html>`_.
+   Informationen zum Update auf die aktuelle Version
+   finden Sie in der `Update-Anleitung <https://docs.oxid-esales.com/developer/en/7.0/update/eshop_from_65_to_7/index.html>`_.
 
 Was ist enthalten
 -----------------
@@ -172,13 +170,7 @@ entfernen.
    aktualisieren.
 
 Die detaillierte Schritt-für-Schritt-Anleitung mit exakten
-Composer-Befehlen finden Sie in der Entwicklerdokumentation.
-
-.. todo::
-
-   Link zur Entwicklerdokumentation-Migrationsanleitung
-   (Branch ``b-6.5.x-OXDEV-10133``) ergänzen, sobald die
-   Anleitung fertiggestellt ist.
+Composer-Befehlen finden Sie in der `Entwicklerdokumentation <https://docs.oxid-esales.com/developer/en/6.5/update/migrate-to-core-edition.html>`_.
 
 Module nach der Migration verwalten
 ------------------------------------
