@@ -47,10 +47,8 @@ the modules:
    migrate to 7.x immediately but need to maintain or update
    individual modules.
 
-   For information about updating to the current version, see
-   our `Update documentation
-   <https://docs.oxid-esales.com/developer/en/latest/update/
-   index.html>`_.
+   For information about updating to the current version,
+   see the `update guide <https://docs.oxid-esales.com/developer/en/7.0/update/eshop_from_65_to_7/index.html>`_.
 
 What is included
 ----------------
@@ -154,14 +152,8 @@ Overview
 6. **Test** the shop thoroughly — frontend, checkout, payment,
    admin — before deploying to production.
 
-The detailed step-by-step procedure with exact Composer commands
-is described in the developer documentation.
-
-.. todo::
-
-   Add link to developer documentation migration guide
-   (branch ``b-6.5.x-OXDEV-10133``) once the procedure is
-   finalized.
+The detailed step-by-step procedure with exact Composer
+commands is described in the `developer documentation <https://docs.oxid-esales.com/developer/en/6.5/update/migrate-to-core-edition.html>`_.
 
 Managing modules after migration
 ----------------------------------
