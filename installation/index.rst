@@ -7,3 +7,4 @@ Installation
    
    Neu-Installation <neu-installation/index>
    Update <update/index>
+   Core Edition <core-edition>
