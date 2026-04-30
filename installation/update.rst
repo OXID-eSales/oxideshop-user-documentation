@@ -131,16 +131,14 @@ Führen Sie in jedem Fall die folgenden Befehle aus, um Ihren OXID eShop zu aktu
 
 .. _step-4-adjust-the-rewrite-conditions:
 
-Schritt 4: Die Rewrite-Bedingungen anpassen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Schritt 4: Die .htaccess-Datei anpassen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. note::
-   Wenn Sie bereits von einer Version 7.4.x oder höher
-   aktualisieren, haben Sie diesen Schritt vermutlich schon
-   durchgeführt. Prüfen Sie dennoch, ob die Änderung in
-   Ihrer **.htaccess**-Datei vorhanden ist.
+Da die **.htaccess-Datei** typischerweise dem Projekt und seiner Umgebung angepasst wird, ersetzt der OXID eShop sie beim Update nicht. Sie müssen die Datei daher manuell ändern. Mit OXID eShop 7.5 sind zwei Änderungen relevant:
 
-Eine Rewrite-Bedingung in OXID eShop Versionen vor 7.4 schränkt die Verwendung bestimmter Markennamen ein. Da die **.htaccess-Datei** typischerweise dem Projekt und seiner Umgebung angepasst wird, ersetzt der OXID eShop sie beim Update nicht. Sie müssen die Datei daher manuell ändern.
+**4a) Rewrite-Bedingung mit Anker**
+
+Eine Rewrite-Bedingung in älteren OXID eShop Versionen schränkt die Verwendung bestimmter Markennamen ein. Die korrigierte Bedingung ist in der ausgelieferten **.htaccess**-Vorlage seit 7.4 enthalten — da Ihre projektspezifisch angepasste **.htaccess**-Datei beim Update nicht ersetzt wird, ist die Korrektur in vielen Bestands-Shops dennoch nicht eingespielt. Prüfen Sie daher, ob die Änderung vorhanden ist, und nehmen Sie sie gegebenenfalls vor.
 
 #. Öffnen Sie die Datei **source/.htaccess**.
 #. Suchen Sie nach der zu ändernden Rewrite-Bedingung:
@@ -157,6 +155,43 @@ Eine Rewrite-Bedingung in OXID eShop Versionen vor 7.4 schränkt die Verwendung 
 
 #. Wiederholen Sie dies für die zweite gefundene Stelle.
 #. Speichern Sie die Datei.
+
+**4b) Neue Regeln für den API-Entrypoint (neu in 7.5)**
+
+OXID eShop 7.5 fügt einen neuen REST-API-Entrypoint hinzu (``api.php``). Damit Anfragen an ``https://<ihr-shop>/api/...`` korrekt an diesen Entrypoint geroutet werden und der ``Authorization``-Header (für JWT-basierte Authentifizierung) PHP erreicht, sind zwei zusätzliche Bereiche in der **.htaccess-Datei** erforderlich. Ohne diese Regeln funktionieren der API-Entrypoint und die darauf aufbauenden Funktionen (JWT-Authentifizierung, Rate-Limiting) nicht.
+
+#. Öffnen Sie die Datei **source/.htaccess**.
+#. Prüfen Sie, ob die folgenden Zeilen innerhalb des ``<IfModule mod_rewrite.c>``-Blocks bereits enthalten sind:
+
+    .. code::
+
+        RewriteCond %{HTTP:Authorization} .
+        RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+        RewriteRule ^api/(.*)$ api.php/$1 [QSA,NC,L]
+
+#. Falls die Zeilen fehlen, fügen Sie sie wie folgt ein. Die ``Authorization``-Passthrough-Regel gehört direkt nach ``RewriteBase /``, die API-Rewrite-Regel direkt nach der bestehenden ``graphql``-Regel:
+
+    .. code::
+
+        <IfModule mod_rewrite.c>
+            Options +FollowSymLinks
+            RewriteEngine On
+            RewriteBase /
+
+            RewriteCond %{HTTP:Authorization} .
+            RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+            RewriteRule ^graphql/?$    widget.php?cl=graphql&skipSession=1   [QSA,NC,L]
+
+            RewriteRule ^api/(.*)$ api.php/$1 [QSA,NC,L]
+
+            ...
+
+#. Speichern Sie die Datei.
+
+.. note::
+   Die ``RewriteCond``- und ``RewriteRule``-Zeilen für die ``Authorization``-Weitergabe sind notwendig, weil viele Apache- und FastCGI-Konfigurationen den ``Authorization``-Header per Default nicht an PHP weiterreichen. Die zwei Zeilen kopieren den Header in eine Umgebungsvariable, die PHP auswerten kann. Ohne sie schlägt jede JWT-Authentifizierung mit ``401 Unauthorized`` fehl.
 
 .. _step-5-migrate-content-and-media:
 
