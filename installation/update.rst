@@ -40,7 +40,7 @@ Depending on your edition and decision about the **Content & Media Bundle**, the
 * :ref:`Step 1: Preconfigure the Content & Media Bundle <step-1-preconfigure-the-content-and-media-bundle>`
 * :ref:`Step 2: Set the Target Version <step-2-set-the-target-version>`
 * :ref:`Step 3: Run the Update Process <step-3-run-the-update-process>`
-* :ref:`Step 4: Adjust the Rewrite Conditions <step-4-adjust-the-rewrite-conditions>`
+* :ref:`Step 4: Adjust the .htaccess File <step-4-adjust-the-rewrite-conditions>`
 * :ref:`Step 5: Migrate Content and Media <step-5-migrate-content-and-media>`
 
 .. _step-1-preconfigure-the-content-and-media-bundle:
@@ -130,15 +130,14 @@ In any case, run the following commands to update your OXID eShop:
 
 .. _step-4-adjust-the-rewrite-conditions:
 
-Step 4: Adjust the Rewrite Conditions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Step 4: Adjust the .htaccess File
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. note::
-   If you are already updating from version 7.4.x or higher,
-   you have likely already completed this step. Still, verify
-   that the change is present in your **.htaccess** file.
+The OXID eShop update process does not replace your **.htaccess** file, because that file is typically customized for the project and its environment. You must therefore apply the following changes manually. With OXID eShop 7.5, two adjustments are relevant:
 
-A rewrite condition in OXID eShop versions before 7.4 restricts the use of specific brand names. The OXID eShop's update behavior does not replace your **.htaccess** file with a new one, since this file is typically customized. Therefore, you must modify the file manually.
+**4a) Rewrite Condition with Anchor**
+
+A rewrite condition in older OXID eShop versions restricts the use of specific brand names. The corrected condition has been part of the shipped **.htaccess** template since 7.4 — but because your project-customized **.htaccess** file is not replaced during updates, the fix is often missing in existing shops. Verify whether the change is present, and apply it if not.
 
 #. Open the file **source/.htaccess**.
 #. Search for the affected rewrite condition:
@@ -155,6 +154,43 @@ A rewrite condition in OXID eShop versions before 7.4 restricts the use of speci
 
 #. Repeat this for the second affected instance.
 #. Save the file.
+
+**4b) New Rules for the API Entrypoint (new in 7.5)**
+
+OXID eShop 7.5 introduces a new REST API entrypoint (``api.php``). For requests to ``https://<your-shop>/api/...`` to be routed correctly to this entrypoint, and for the ``Authorization`` header (used for JWT-based authentication) to reach PHP, two additional sections are required in the **.htaccess** file. Without these rules, the API entrypoint and any features built on top of it (JWT authentication, rate limiting) will not work.
+
+#. Open the file **source/.htaccess**.
+#. Verify whether the following lines are already present inside the ``<IfModule mod_rewrite.c>`` block:
+
+    .. code::
+
+        RewriteCond %{HTTP:Authorization} .
+        RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+        RewriteRule ^api/(.*)$ api.php/$1 [QSA,NC,L]
+
+#. If the lines are missing, add them as shown below. The ``Authorization`` passthrough belongs immediately after ``RewriteBase /``, the API rewrite rule immediately after the existing ``graphql`` rule:
+
+    .. code::
+
+        <IfModule mod_rewrite.c>
+            Options +FollowSymLinks
+            RewriteEngine On
+            RewriteBase /
+
+            RewriteCond %{HTTP:Authorization} .
+            RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+            RewriteRule ^graphql/?$    widget.php?cl=graphql&skipSession=1   [QSA,NC,L]
+
+            RewriteRule ^api/(.*)$ api.php/$1 [QSA,NC,L]
+
+            ...
+
+#. Save the file.
+
+.. note::
+   The ``RewriteCond`` and ``RewriteRule`` lines for ``Authorization`` passthrough are needed because many Apache and FastCGI configurations do not forward the ``Authorization`` header to PHP by default. The two lines copy the header into an environment variable that PHP can read. Without them, every JWT authentication attempt fails with ``401 Unauthorized``.
 
 .. _step-5-migrate-content-and-media:
 
