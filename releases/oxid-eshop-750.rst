@@ -143,6 +143,13 @@ Several targeted optimizations improve page load times:
   rendering time.
 * Unnecessary instantiations of the basket component
   have been eliminated.
+* Configuration lookups no longer trigger a full shop
+  bootstrap.
+* Module lookups as well as edition and cache directory
+  lookups are cached to avoid repeated filesystem access.
+* The template chain cache speeds up resolution of
+  template extension chains — particularly relevant for
+  shops with many active modules that override templates.
 
 .. _fixes:
 
