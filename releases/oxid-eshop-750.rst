@@ -151,6 +151,15 @@ Mehrere gezielte Optimierungen verbessern die Ladezeiten:
   Storefront nicht mehr.
 * Unnötige Instanziierungen der Warenkorb-Komponente
   wurden eliminiert.
+* Konfigurationsabfragen lösen keinen vollständigen
+  Shop-Bootstrap mehr aus.
+* Modul-Lookups sowie Editions- und Cache-Pfad-Abfragen
+  werden zwischengespeichert, um wiederholte
+  Dateisystemzugriffe zu vermeiden.
+* Der Template-Chain-Cache verkürzt das Auflösen von
+  Template-Erweiterungs-Ketten — relevant insbesondere
+  in Shops mit vielen aktiven Modulen, die Templates
+  überschreiben.
 
 .. _fixes:
 
