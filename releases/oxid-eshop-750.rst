@@ -38,6 +38,19 @@ Neuerungen:
   Aktivitätseinstellungen, 12h/24h-Unterstützung.
 * **TypeScript:** JavaScript-Dateien auf TypeScript migriert.
 * **Bootstrap Icons** ersetzen Font Awesome im Admin-Bereich.
+* **Behoben:** WidgetModal — interne Referenz korrigiert
+  (``public $modal`` → ``private #$modal``).
+* **Behoben:** Responsive Layout-Einstellungen werden im
+  Widget-Bearbeitungsdialog ausgeblendet, wenn eine Zeile
+  bearbeitet wird.
+* **Behoben:** CMS-Seiten mit abgelaufenem
+  "Aktiv bis"-Datum werden im Frontend nicht mehr angezeigt.
+* **Behoben:** Datumsauswahl-Felder respektieren die im Shop
+  konfigurierte Datumsformat-Einstellung (aus v9.2.1
+  übernommen).
+* **Behoben:** Karussell-Widget behält Bilder und Links
+  nach erneutem Öffnen des Bearbeitungsdialogs (aus v9.2.1
+  übernommen).
 
 **WYSIWYG-Editor 7:**
 
@@ -45,10 +58,17 @@ Neuerungen:
   ``ddoe_wysiwyg_plugins`` und
   ``ddoe_wysiwyg_summernote_options`` erlauben es Modulen,
   den Editor mit eigenen Plugins und Optionen zu erweitern.
+* **DOMPurify-Integration:** Normalisiert HTML-Inhalte im
+  Editor.
+* **Konfigurierbar:** Neuer Twig-Block
+  ``ddoe_wysiwyg_dompurify_config`` erlaubt Modulen, die
+  DOMPurify-Optionen anzupassen.
 * **Alt-Text-Migration:** Neuer Befehl
   ``ddoewysiwyg:migrate:alt-texts`` ersetzt fehlende oder
   leere Alt-Attribute auf Medienbildern.
 * **Bootstrap Icons** ersetzen Font Awesome.
+* **Behoben:** Fehlerhafte Bootstrap-Style-Imports, die
+  Shop-Styles beeinflussten (aus v6.0.3 übernommen).
 
 **Mediathek 5:**
 
@@ -58,6 +78,36 @@ Neuerungen:
 * **QueryBuilder:** Repository-Schicht auf QueryBuilder
   umgestellt.
 * **Bootstrap Icons** ersetzen Font Awesome.
+* **Datei-Upload-Validierung:** Inhalts- und MIME-Typ-
+  Prüfung beim Upload. SVGs mit Skripten, Foreign
+  Objects, ``on*``-Event-Handlern oder ``javascript:``/
+  ``data:``-URLs werden abgelehnt; Rasterbilder
+  (jpg, jpeg, gif, png, webp, avif) müssen als gültiges
+  Bild parsen.
+* **Pfad-Sicherheit:** Path-Traversal-Zeichen (``/``,
+  ``\``, ``..``-Segmente, Null-Bytes) in Upload-
+  Dateinamen werden abgelehnt; einheitliche Dateinamen-
+  Bereinigung bei Upload und Umbenennen.
+* **FileFormatRegistry und ContentValidatorInterface:**
+  Integratoren können zusätzliche Dateiformate per
+  Service-Konfiguration registrieren und formatspezifische
+  Inhaltsprüfungen einhängen.
+* **Behoben:** Strg+Klick-Mehrfachauswahl funktioniert
+  wieder (war durch falsche Event-Button-Prüfung defekt).
+
+Hinweis für Integratoren der Mediathek:
+
+* Die Upload-Validator-Kette enthält jetzt
+  ``MimeTypeValidator`` und ``ContentValidatorDispatcher``
+  nach dem ``FileExtensionValidator``. Module, die
+  ``UploadedFileValidatorChainInterface`` vollständig
+  ersetzen, müssen beide Validatoren in derselben
+  Reihenfolge auflisten, um den Upload-Inhaltsschutz zu
+  erhalten.
+* ``FilePathInterface`` enthält die neue Methode
+  ``getExtension()``. Module, die dieses Interface selbst
+  implementieren, müssen die Methode ergänzen — sie gibt
+  die kleingeschriebene Dateiendung zurück.
 
 Wenn Sie die Vorgängerversionen beibehalten möchten, können
 Sie Ihr Update vorkonfigurieren. Weitere Informationen
@@ -181,6 +231,11 @@ Optimierungen & Fehlerbehebungen
 
 * #0007182 Falsche Subquery in PE-zu-EE-Migration für xxx2shop-Tabellen behoben (nur EE): `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7182>`_
 
+* Unified Namespace Generator: Dateipfad-Normalisierung für Sub-Namespaces, die Backslashes enthalten, korrigiert
+
+* Neu: ``ClearShopCacheEvent`` wird beim Leeren des Shop-Caches ausgelöst und ermöglicht es Abonnenten, zusätzliche Caches zu invalidieren
+* Behoben: Template-Chain-Cache wird beim Leeren des Shop-Caches mitgeleert
+
 .. _packages:
 
 Packages
@@ -195,7 +250,7 @@ Die OXID eShop CE Compilation enthält die folgenden Pakete:
 * Eye-Able Assist v3.0.3
 * GDPR Opt-In Module von v4.3.0 auf v4.4.0: `Changelog <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.4.0/CHANGELOG.md>`_
 * Makaira Connect Essential von 2.1.4 auf 2.2.0: `Changelog <https://github.com/MakairaIO/oxid-connect-essential/blob/2.2.0/CHANGELOG.md>`_
-* Media Library Module von v4.1.0 auf v5.0.0 (oder v4.1.0 oder v3.0.0 bleibend): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v5.0.0/CHANGELOG.md>`_
+* Media Library Module von v4.2.0 auf v5.1.0 (oder v4.2.0 oder v3.0.0 bleibend): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v5.1.0/CHANGELOG.md>`_
 * OXID Cookie Management powered by Usercentrics von v3.2.1 auf v3.3.0: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.3.0/CHANGELOG.md>`_
 * OXID eShop CE von v7.4.0 auf v7.5.0: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.5.0/CHANGELOG-7.5.md>`_
 * OXID eShop Composer Plugin von v7.3.0 auf v7.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.4.0/CHANGELOG-7.x.md>`_
@@ -203,11 +258,11 @@ Die OXID eShop CE Compilation enthält die folgenden Pakete:
 * OXID eShop Demodata Installer v3.3.0
 * OXID eShop Doctrine Migration Wrapper von v5.4.0 auf v5.5.0: `Changelog <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.5.0/CHANGELOG-5.x.md>`_
 * OXID eShop Facts von v4.3.0 auf v4.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.4.0/CHANGELOG-4.x.md>`_
-* OXID eShop Unified Namespace Generator von v5.2.0 auf v5.3.0: `Changelog <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.3.0/CHANGELOG.md>`_
+* OXID eShop Unified Namespace Generator von v5.2.1 auf v5.3.1: `Changelog <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.3.1/CHANGELOG.md>`_
 * OXID eShop Views Generator v2.2.0
 * Twig Admin Theme von v3.0.1 auf v3.1.0: `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v3.1.0/CHANGELOG-3.x.md>`_
-* Twig Component von v2.7.0 auf v2.8.0: `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.8.0/CHANGELOG-2.x.md>`_
-* WYSIWYG Editor Module von v6.0.2 auf v7.0.0 (oder v6.0.2 oder v5.0.1 bleibend): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v7.0.0/CHANGELOG.md>`_
+* Twig Component von v2.7.0 auf v2.8.1: `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.8.1/CHANGELOG-2.x.md>`_
+* WYSIWYG Editor Module von v6.0.3 auf v7.0.1 (oder v6.0.3 oder v5.0.1 bleibend): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v7.0.1/CHANGELOG.md>`_
 
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -218,7 +273,7 @@ folgenden Pakete:
 * OXID eShop Demodata PE v8.1.0
 * OXID eShop PE von v7.4.0 auf v7.5.0
 * Twig Component PE von v2.5.0 auf v2.6.0
-* Visual CMS Modul von v9.2.0 auf v10.0.0 (oder v9.2.0 oder v8.0.2 bleibend)
+* Visual CMS Modul von v9.2.1 auf v10.0.1 (oder v9.2.1 oder v8.0.2 bleibend)
 
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -262,7 +317,7 @@ Kompatible OXID Erweiterungen
 * OXAPI GraphQL Storefront Modul: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXAPI GraphQL Storefront Administration Modul: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXID ERP Schnittstelle 4.4: `Dokumentation [en] (passwortgeschützt) <https://docs.oxid-esales.com/interfaces/erp/en/4.4>`_
-* OXID eShop Admin Tools 1.2: `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/1.2/>`_
+* OXID eShop Admin Tools 2.0: `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/2.0/>`_
 * OXID eShop Country VAT Administration 2.5: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.5.0/README.md>`_
 * OXID eShop Geo-Blocking Modul 2.5: `Dokumentation <https://docs.oxid-esales.com/modules/geo-blocking/de/2.5>`_
 * OXID eShop Shipping Cost Compensation Modul 1.3: `Dokumentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/de/1.3/>`_
