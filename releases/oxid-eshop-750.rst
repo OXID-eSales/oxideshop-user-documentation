@@ -185,7 +185,7 @@ Several targeted optimizations improve page load times:
 
 * Empty baskets are detected early — no unnecessary
   calculations on every page load.
-* Deactivated modules no longer affect storefront
+* Deactivated modules no longer affect shop frontend
   rendering time.
 * Unnecessary instantiations of the basket component
   have been eliminated.
@@ -196,6 +196,8 @@ Several targeted optimizations improve page load times:
 * The template chain cache speeds up resolution of
   template extension chains — particularly relevant for
   shops with many active modules that override templates.
+  The cache is automatically cleared when the shop cache is
+  cleared via ``./vendor/bin/oe-console oe:cache:clear``.
 
 .. _fixes:
 
@@ -218,9 +220,6 @@ Improvements & Bug Fixes
 * #0007182 Wrong subquery in PE to EE migration for xxx2shop tables fixed (EE only): `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7182>`_
 
 * Unified Namespace Generator: File path normalizing for sub-namespaces containing backslashes fixed
-
-* New: ``ClearShopCacheEvent`` is dispatched when the shop cache is cleared, allowing subscribers to invalidate additional caches
-* Fixed: Template chain cache is now cleared when the shop cache is cleared
 
 .. _packages:
 
@@ -298,9 +297,9 @@ documentation.
 Compatible OXID Extensions
 --------------------------
 
-* OXAPI GraphQL Base Module: `Documentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
-* OXAPI GraphQL Configuration Access Module: `Documentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
-* OXAPI GraphQL Storefront Module: `Documentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
+* OXAPI GraphQL Base Module 13.0: `Documentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
+* OXAPI GraphQL Configuration Access Module 4.0: `Documentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
+* OXAPI GraphQL Storefront Module 5.0: `Documentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXAPI GraphQL Storefront Administration Module: `Documentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXID ERP Interface 4.4: `Documentation [en] (password-protected) <https://docs.oxid-esales.com/interfaces/erp/en/4.4>`_
 * OXID eShop Admin Tools 2.0: `Documentation <https://docs.oxid-esales.com/modules/admin-tools/en/2.0/>`_
@@ -310,14 +309,12 @@ Compatible OXID Extensions
 * OXID eShop eVAT Module 4.4: `Documentation <https://docs.oxid-esales.com/modules/vat-tbe-services/en/4.4>`_
 * OXID Cookie Management powered by Usercentrics 3.3: `Documentation <https://docs.oxid-esales.com/modules/usercentrics/de/3.3/>`_
 * GDPR Opt-In Module 4.4: `Documentation <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.4/>`_
-* OXID Security Module: `Documentation <https://docs.oxid-esales.com/modules/security/en/latest/>`_
-* OXID eShop Consistency Check Component: `Documentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool>`_
-* OXID Module Template: `Documentation (GitHub) <https://github.com/OXID-eSales/module-template>`_
-* OXID Examples Module: `Documentation (GitHub) <https://github.com/OXID-eSales/examples-module>`_
+* OXID eShop Consistency Check Component 3.0: `Documentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v3.0.0/README.md>`_
+* OXID Module Template 5.2: `Documentation (GitHub) <https://github.com/OXID-eSales/module-template/blob/v5.2.0/README.md>`_
+* OXID Examples Module 2.1: `Documentation (GitHub) <https://github.com/OXID-eSales/examples-module/blob/v2.1.0/README.md>`_
 
-.. todo:: Add version numbers: GraphQL modules, Security
-   Module, Consistency Check, Module Template, Examples
-   Module — once the modules are released
+.. todo:: Add version number for GraphQL Storefront
+   Administration once released
 
 Update
 ------
