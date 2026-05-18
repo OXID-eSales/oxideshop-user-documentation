@@ -197,8 +197,8 @@ Mehrere gezielte Optimierungen verbessern die Ladezeiten:
 
 * Leere Warenkörbe werden frühzeitig erkannt — keine
   unnötigen Berechnungen mehr bei jedem Seitenaufruf.
-* Deaktivierte Module beeinflussen die Renderzeit der
-  Storefront nicht mehr.
+* Deaktivierte Module beeinflussen die Renderzeit des
+  Shop-Frontends nicht mehr.
 * Unnötige Instanziierungen der Warenkorb-Komponente
   wurden eliminiert.
 * Konfigurationsabfragen lösen keinen vollständigen
@@ -209,7 +209,10 @@ Mehrere gezielte Optimierungen verbessern die Ladezeiten:
 * Der Template-Chain-Cache verkürzt das Auflösen von
   Template-Erweiterungs-Ketten — relevant insbesondere
   in Shops mit vielen aktiven Modulen, die Templates
-  überschreiben.
+  überschreiben. Der Cache wird beim Leeren des
+  Shop-Caches über
+  ``./vendor/bin/oe-console oe:cache:clear``
+  automatisch mitgeleert.
 
 .. _fixes:
 
@@ -232,9 +235,6 @@ Optimierungen & Fehlerbehebungen
 * #0007182 Falsche Subquery in PE-zu-EE-Migration für xxx2shop-Tabellen behoben (nur EE): `Bugtracker <https://bugs.oxid-esales.com/view.php?id=7182>`_
 
 * Unified Namespace Generator: Dateipfad-Normalisierung für Sub-Namespaces, die Backslashes enthalten, korrigiert
-
-* Neu: ``ClearShopCacheEvent`` wird beim Leeren des Shop-Caches ausgelöst und ermöglicht es Abonnenten, zusätzliche Caches zu invalidieren
-* Behoben: Template-Chain-Cache wird beim Leeren des Shop-Caches mitgeleert
 
 .. _packages:
 
@@ -312,9 +312,9 @@ Dokumentation.
 Kompatible OXID Erweiterungen
 -----------------------------
 
-* OXAPI GraphQL Base Modul: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
-* OXAPI GraphQL Configuration Access Modul: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
-* OXAPI GraphQL Storefront Modul: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
+* OXAPI GraphQL Base Modul 13.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
+* OXAPI GraphQL Configuration Access Modul 4.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
+* OXAPI GraphQL Storefront Modul 5.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXAPI GraphQL Storefront Administration Modul: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXID ERP Schnittstelle 4.4: `Dokumentation [en] (passwortgeschützt) <https://docs.oxid-esales.com/interfaces/erp/en/4.4>`_
 * OXID eShop Admin Tools 2.0: `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/2.0/>`_
@@ -324,14 +324,12 @@ Kompatible OXID Erweiterungen
 * OXID eShop eVAT Modul 4.4: `Dokumentation <https://docs.oxid-esales.com/modules/vat-tbe-services/de/4.4>`_
 * OXID Cookie Management powered by Usercentrics 3.3: `Dokumentation <https://docs.oxid-esales.com/modules/usercentrics/de/3.3/>`_
 * GDPR Opt-In Module 4.4: `Dokumentation <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.4/>`_
-* OXID Security Modul: `Dokumentation <https://docs.oxid-esales.com/modules/security/de/latest/>`_
-* OXID eShop Consistency Check Component: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool>`_
-* OXID Modul Template: `Dokumentation (GitHub) <https://github.com/OXID-eSales/module-template>`_
-* OXID Examples Modul: `Dokumentation (GitHub) <https://github.com/OXID-eSales/examples-module>`_
+* OXID eShop Consistency Check Component 3.0: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v3.0.0/README.md>`_
+* OXID Modul Template 5.2: `Dokumentation (GitHub) <https://github.com/OXID-eSales/module-template/blob/v5.2.0/README.md>`_
+* OXID Examples Modul 2.1: `Dokumentation (GitHub) <https://github.com/OXID-eSales/examples-module/blob/v2.1.0/README.md>`_
 
-.. todo:: Versionsnummern nachziehen: GraphQL-Module,
-   Security Modul, Consistency Check, Modul Template,
-   Examples Modul — sobald die Module released sind
+.. todo:: Versionsnummer für GraphQL Storefront Administration
+   nachziehen, sobald released
 
 Update
 ------
