@@ -173,6 +173,7 @@ Compatible OXID Extensions
 * OXID ERP Interface 4.3: `Documentation (password-protected) <https://docs.oxid-esales.com/interfaces/erp/en/4.3>`_
 * OXID eShop Admin Tools 1.1: `Documentation <https://docs.oxid-esales.com/modules/admin-tools/en/1.1/>`_
 * OXID eShop Consistency Check Tool 2.0: `Documentation (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v2.0.1/README.md>`_
+* OXID eShop Security Module 3.0: `Dokumentation <https://docs.oxid-esales.com/modules/security/en/3.0>`_
 * OXID eShop Country VAT Administration 2.4: `Documentation (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.4.0/README.md>`_
 * OXID eShop Geo-Blocking Module 2.4: `Documentation <https://docs.oxid-esales.com/modules/geo-blocking/en/2.4>`_
 * OXID eShop Shipping Cost Compensation Module 1.2: `Documentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/en/1.2/>`_
