@@ -20,9 +20,9 @@ Vorbereitung
 
     Alternativ können Sie beim **Content & Medien Bundle 9** bleiben:
 
-        * Media Library 4.1.0
-        * WYSIWYG Editor 6.0.2
-        * Visual CMS 9.2.0 (ausschließlich Enterprise und Professional Edition)
+        * Media Library 4.2.0
+        * WYSIWYG Editor 6.0.3
+        * Visual CMS 9.2.1 (ausschließlich Enterprise und Professional Edition)
 
     Oder beim **Content & Medien Bundle 8** bleiben:
 
