@@ -246,23 +246,23 @@ OXID eShop CE Compilation
 
 Die OXID eShop CE Compilation enthält die folgenden Pakete:
 
-* APEX Theme von v3.0.2 auf v3.1.0: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v3.1.0/CHANGELOG-3.x.md>`_
+* APEX Theme v3.1.0: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v3.1.0/CHANGELOG-3.x.md>`_
 * Eye-Able Assist v3.0.3
-* GDPR Opt-In Module von v4.3.0 auf v4.4.0: `Changelog <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.4.0/CHANGELOG.md>`_
-* Makaira Connect Essential von 2.1.4 auf 2.2.0: `Changelog <https://github.com/MakairaIO/oxid-connect-essential/blob/2.2.0/CHANGELOG.md>`_
-* Media Library Module von v4.2.0 auf v5.1.0 (oder v4.2.0 oder v3.0.0 bleibend): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v5.1.0/CHANGELOG.md>`_
-* OXID Cookie Management powered by Usercentrics von v3.2.1 auf v3.3.0: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.3.0/CHANGELOG.md>`_
-* OXID eShop CE von v7.4.0 auf v7.5.1: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.5.1/CHANGELOG-7.5.md>`_
-* OXID eShop Composer Plugin von v7.3.0 auf v7.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.4.0/CHANGELOG-7.x.md>`_
+* GDPR Opt-In Module v4.4.0: `Changelog <https://github.com/OXID-eSales/gdpr-optin-module/blob/v4.4.0/CHANGELOG.md>`_
+* Makaira Connect Essential 2.2.0: `Changelog <https://github.com/MakairaIO/oxid-connect-essential/blob/2.2.0/CHANGELOG.md>`_
+* Media Library Module v5.1.0 (oder v4.2.0 oder v3.0.0 bleibend): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v5.1.0/CHANGELOG.md>`_
+* OXID Cookie Management powered by Usercentrics v3.3.0: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.3.0/CHANGELOG.md>`_
+* OXID eShop CE v7.5.1: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.5.1/CHANGELOG-7.5.md>`_
+* OXID eShop Composer Plugin v7.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.4.0/CHANGELOG-7.x.md>`_
 * OXID eShop Demodata CE v8.1.0
 * OXID eShop Demodata Installer v3.3.0
-* OXID eShop Doctrine Migration Wrapper von v5.4.0 auf v5.5.0: `Changelog <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.5.0/CHANGELOG-5.x.md>`_
-* OXID eShop Facts von v4.3.0 auf v4.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.4.0/CHANGELOG-4.x.md>`_
-* OXID eShop Unified Namespace Generator von v5.2.1 auf v5.3.1: `Changelog <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.3.1/CHANGELOG.md>`_
+* OXID eShop Doctrine Migration Wrapper v5.5.0: `Changelog <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v5.5.0/CHANGELOG-5.x.md>`_
+* OXID eShop Facts v4.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop-facts/blob/v4.4.0/CHANGELOG-4.x.md>`_
+* OXID eShop Unified Namespace Generator v5.3.1: `Changelog <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.3.1/CHANGELOG.md>`_
 * OXID eShop Views Generator v2.2.0
-* Twig Admin Theme von v3.0.1 auf v3.1.0: `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v3.1.0/CHANGELOG-3.x.md>`_
-* Twig Component von v2.7.0 auf v2.8.1: `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.8.1/CHANGELOG-2.x.md>`_
-* WYSIWYG Editor Module von v6.0.3 auf v7.0.1 (oder v6.0.3 oder v5.0.1 bleibend): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v7.0.1/CHANGELOG.md>`_
+* Twig Admin Theme v3.1.0: `Changelog <https://github.com/OXID-eSales/twig-admin-theme/blob/v3.1.0/CHANGELOG-3.x.md>`_
+* Twig Component v2.8.1: `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.8.1/CHANGELOG-2.x.md>`_
+* WYSIWYG Editor Module v7.0.1 (oder v6.0.3 oder v5.0.1 bleibend): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v7.0.1/CHANGELOG.md>`_
 
 OXID eShop PE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -271,9 +271,9 @@ Die OXID eShop PE Compilation enthält zusätzlich die
 folgenden Pakete:
 
 * OXID eShop Demodata PE v8.1.0
-* OXID eShop PE von v7.4.0 auf v7.5.1
-* Twig Component PE von v2.5.0 auf v2.6.0
-* Visual CMS Modul von v9.2.1 auf v10.0.1 (oder v9.2.1 oder v8.0.2 bleibend)
+* OXID eShop PE v7.5.1
+* Twig Component PE v2.6.0
+* Visual CMS Modul v10.0.1 (oder v9.2.1 oder v8.0.2 bleibend)
 
 OXID eShop EE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -282,8 +282,8 @@ Die OXID eShop EE Compilation enthält zusätzlich die
 folgenden Pakete:
 
 * OXID eShop Demodata EE v8.2.0
-* OXID eShop EE von v7.4.0 auf v7.5.1
-* Twig Component EE von v2.5.0 auf v2.6.0
+* OXID eShop EE v7.5.1
+* Twig Component EE v2.6.0
 
 OXID eShop EE B2B Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -291,17 +291,17 @@ OXID eShop EE B2B Compilation
 Die OXID eShop EE B2B Compilation enthält zusätzlich die
 folgenden Pakete:
 
-* OXID eShop B2B Approval Procedure Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Basket Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Budget Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Bulk Orders Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Buying Agent Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Custom Prices Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Offers Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Quick Orders Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Scheduled Orders Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Service Products Modul von v7.4.0 auf v7.5.0
-* OXID eShop B2B Services Modul von v7.4.0 auf v7.5.0
+* OXID eShop B2B Approval Procedure Modul v7.5.0
+* OXID eShop B2B Basket Modul v7.5.0
+* OXID eShop B2B Budget Modul v7.5.0
+* OXID eShop B2B Bulk Orders Modul v7.5.0
+* OXID eShop B2B Buying Agent Modul v7.5.0
+* OXID eShop B2B Custom Prices Modul v7.5.0
+* OXID eShop B2B Offers Modul v7.5.0
+* OXID eShop B2B Quick Orders Modul v7.5.0
+* OXID eShop B2B Scheduled Orders Modul v7.5.0
+* OXID eShop B2B Service Products Modul v7.5.0
+* OXID eShop B2B Services Modul v7.5.0
 
 Für weitere Informationen zu Veröffentlichungen der
 B2B Edition, siehe die (passwortgeschützte)
