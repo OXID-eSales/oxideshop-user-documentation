@@ -98,7 +98,7 @@ Neuerungen:
 Hinweis für Integratoren der Mediathek:
 
 * Die Upload-Validator-Kette enthält jetzt
-  ``MimeTypeValidator`` und ``ContentValidatorDispatcher``
+  ``MimeTypeValidator`` und ``ContentValidatorChain``
   nach dem ``FileExtensionValidator``. Module, die
   ``UploadedFileValidatorChainInterface`` vollständig
   ersetzen, müssen beide Validatoren in derselben
@@ -252,7 +252,7 @@ Die OXID eShop CE Compilation enthält die folgenden Pakete:
 * Makaira Connect Essential von 2.1.4 auf 2.2.0: `Changelog <https://github.com/MakairaIO/oxid-connect-essential/blob/2.2.0/CHANGELOG.md>`_
 * Media Library Module von v4.2.0 auf v5.1.0 (oder v4.2.0 oder v3.0.0 bleibend): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v5.1.0/CHANGELOG.md>`_
 * OXID Cookie Management powered by Usercentrics von v3.2.1 auf v3.3.0: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.3.0/CHANGELOG.md>`_
-* OXID eShop CE von v7.4.0 auf v7.5.0: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.5.0/CHANGELOG-7.5.md>`_
+* OXID eShop CE von v7.4.0 auf v7.5.1: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.5.1/CHANGELOG-7.5.md>`_
 * OXID eShop Composer Plugin von v7.3.0 auf v7.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.4.0/CHANGELOG-7.x.md>`_
 * OXID eShop Demodata CE v8.1.0
 * OXID eShop Demodata Installer v3.3.0
@@ -271,7 +271,7 @@ Die OXID eShop PE Compilation enthält zusätzlich die
 folgenden Pakete:
 
 * OXID eShop Demodata PE v8.1.0
-* OXID eShop PE von v7.4.0 auf v7.5.0
+* OXID eShop PE von v7.4.0 auf v7.5.1
 * Twig Component PE von v2.5.0 auf v2.6.0
 * Visual CMS Modul von v9.2.1 auf v10.0.1 (oder v9.2.1 oder v8.0.2 bleibend)
 
@@ -282,7 +282,7 @@ Die OXID eShop EE Compilation enthält zusätzlich die
 folgenden Pakete:
 
 * OXID eShop Demodata EE v8.2.0
-* OXID eShop EE von v7.4.0 auf v7.5.0
+* OXID eShop EE von v7.4.0 auf v7.5.1
 * Twig Component EE von v2.5.0 auf v2.6.0
 
 OXID eShop EE B2B Compilation
