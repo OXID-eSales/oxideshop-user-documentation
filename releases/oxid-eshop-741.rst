@@ -64,7 +64,7 @@ Content & Medien Bundle
 
 Hinweis für Integratoren:
 
-* Die Upload-Validator-Kette enthält jetzt ``MimeTypeValidator`` und ``ContentValidatorDispatcher`` nach dem ``FileExtensionValidator``. Module, die ``UploadedFileValidatorChainInterface`` vollständig ersetzen, müssen beide Validatoren in derselben Reihenfolge auflisten, um den Upload-Inhaltsschutz zu erhalten.
+* Die Upload-Validator-Kette enthält jetzt ``MimeTypeValidator`` und ``ContentValidatorChain`` nach dem ``FileExtensionValidator``. Module, die ``UploadedFileValidatorChainInterface`` vollständig ersetzen, müssen beide Validatoren in derselben Reihenfolge auflisten, um den Upload-Inhaltsschutz zu erhalten.
 * ``FilePathInterface`` enthält die neue Methode ``getExtension()``. Module, die dieses Interface selbst implementieren, müssen die Methode ergänzen — sie gibt die kleingeschriebene Dateiendung zurück.
 
 Entwickler-Werkzeuge
@@ -90,7 +90,7 @@ Die OXID eShop CE Compilation enthält die folgenden Pakete:
 * Makaira Connect Essential 2.1.4
 * Media Library Module v4.2.0 (oder v3.0.0 bleibend)
 * OXID Cookie Management powered by Usercentrics v3.2.1
-* OXID eShop CE von v7.4.0 auf v7.4.1
+* OXID eShop CE von v7.4.0 auf v7.4.2
 * OXID eShop Composer Plugin v7.3.0
 * OXID eShop Demodata CE v8.1.0
 * OXID eShop Demodata Installer v3.3.0
@@ -109,7 +109,7 @@ Die OXID eShop PE Compilation enthält zusätzlich die
 folgenden Pakete:
 
 * OXID eShop Demodata PE v8.1.0
-* OXID eShop PE von v7.4.0 auf v7.4.1
+* OXID eShop PE von v7.4.0 auf v7.4.2
 * Twig Component PE v2.5.0
 * Visual CMS Modul von v9.1.0 auf v9.2.1 (oder v8.0.2 bleibend)
 
@@ -120,7 +120,7 @@ Die OXID eShop EE Compilation enthält zusätzlich die
 folgenden Pakete:
 
 * OXID eShop Demodata EE v8.2.0
-* OXID eShop EE von v7.4.0 auf v7.4.1
+* OXID eShop EE von v7.4.0 auf v7.4.2
 * Twig Component EE v2.5.0
 
 OXID eShop EE B2B Compilation
