@@ -91,7 +91,7 @@ remaining):
 Note for integrators:
 
 * The upload validator chain now adds ``MimeTypeValidator``
-  and ``ContentValidatorDispatcher`` after
+  and ``ContentValidatorChain`` after
   ``FileExtensionValidator``. Modules that fully replace
   ``UploadedFileValidatorChainInterface`` need to list both
   validators in the same order to retain the upload-content
@@ -126,7 +126,7 @@ packages:
 * Makaira Connect Essential 2.1.4
 * Media Library Module v4.2.0 (or v3.0.0 remaining)
 * OXID Cookie Management powered by Usercentrics v3.2.1
-* OXID eShop CE from v7.4.0 to v7.4.1
+* OXID eShop CE from v7.4.0 to v7.4.2
 * OXID eShop Composer Plugin v7.3.0
 * OXID eShop Demodata CE v8.1.0
 * OXID eShop Demodata Installer v3.3.0
@@ -145,7 +145,7 @@ The OXID eShop PE compilation additionally contains the
 following packages:
 
 * OXID eShop Demodata PE v8.1.0
-* OXID eShop PE from v7.4.0 to v7.4.1
+* OXID eShop PE from v7.4.0 to v7.4.2
 * Twig Component PE v2.5.0
 * Visual CMS Module from v9.1.0 to v9.2.1 (or v8.0.2 remaining)
 
@@ -156,7 +156,7 @@ The OXID eShop EE compilation additionally contains the
 following packages:
 
 * OXID eShop Demodata EE v8.2.0
-* OXID eShop EE from v7.4.0 to v7.4.1
+* OXID eShop EE from v7.4.0 to v7.4.2
 * Twig Component EE v2.5.0
 
 OXID eShop EE B2B Compilation
