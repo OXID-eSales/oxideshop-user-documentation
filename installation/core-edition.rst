@@ -142,10 +142,13 @@ Migration zur Core Edition
 
 Die Migration erfordert zwei Dinge in einem Schritt: das
 Ersetzen des Metapackages **und** das explizite Anfordern
-aller Module, die Ihr Shop benötigt. Führen Sie
+jedes Moduls, das aktuell in Ihrem Shop installiert ist —
+auch Module, die Sie später entfernen möchten. Führen Sie
 ``composer update`` nicht aus, nachdem Sie nur das
 Metapackage gewechselt haben — dies würde Ihre Module
-entfernen.
+entfernen. Nach Abschluss der Migration entfernen Sie nicht
+benötigte Module sauber mit ``composer remove`` (siehe
+„Module nach der Migration verwalten" unten).
 
 Übersicht
 ^^^^^^^^^
@@ -157,9 +160,11 @@ entfernen.
    Pakete und deren exakte Versionen.
 3. **Bearbeiten** Sie ``composer.json``: Ersetzen Sie das
    Standard-Metapackage durch das Core-Edition-Metapackage
-   und fügen Sie jedes Modul, das Sie behalten möchten,
-   als explizite Anforderung mit seiner aktuellen Version
-   hinzu.
+   und fügen Sie jedes Modul, das aktuell in Ihrem Shop
+   installiert ist, als explizite Anforderung mit seiner
+   aktuellen Version hinzu — auch Module, die Sie später
+   entfernen möchten. Diese können Sie nach Abschluss der
+   Migration sauber mit ``composer remove`` entfernen.
 4. **Führen** Sie ``composer update`` auf Ihrer
    Entwicklungs- oder Staging-Umgebung aus.
 5. **Überprüfen** Sie, dass alle erwarteten Pakete in den
