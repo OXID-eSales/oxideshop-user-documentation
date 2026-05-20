@@ -150,21 +150,25 @@ New Email Service
 
 OXID eShop 7.5 includes a new email service based on
 Symfony Mailer. The service provides clean interfaces and
-an extensible architecture that enables modern email
-transports (API-based providers, OAuth2 authentication,
-queued delivery). In the 7.x series, the new service runs
-as an alternative to the existing system.
+an extensible architecture that enables the integration of
+additional mail transports via the available Symfony Mailer
+configurations — without core modifications. In the 7.x
+series, the new service runs as an alternative to the
+existing system; ``Core/Email`` continues to work, and new
+modules can use the ``MailerInterface`` directly.
 
 HTML Sanitizer
 ^^^^^^^^^^^^^^
 
-A new security filter based on Symfony HtmlSanitizer
-automatically cleans HTML content before it is displayed in
-the shop. The new Twig filter ``sanitize_html`` removes
-potentially dangerous HTML elements such as script tags,
-event handlers, and unsafe iframes. The allowed HTML
-elements and attributes are configurable. Modules can
-customize the configuration as needed.
+OXID eShop 7.5 includes an integrated HTML sanitizer as a
+framework building block for cleaning HTML content. It is
+based on the Symfony HtmlSanitizer and is **disabled by
+default** — projects activate it explicitly via a service
+parameter, define allow/deny rules, and use the new Twig
+filter ``sanitize_html`` in the templates where it should
+take effect. This allows the XSS attack vector for CMS
+content to be addressed systematically, without
+automatically changing existing shops.
 
 Security Improvements
 ^^^^^^^^^^^^^^^^^^^^^
