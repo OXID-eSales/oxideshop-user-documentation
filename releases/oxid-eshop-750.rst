@@ -16,11 +16,71 @@ mit sich. Dieses enthält folgende Erweiterungen:
 * WYSIWYG-Editor 7
 * Visual CMS 10 (nur Enterprise und Professional Edition)
 
+**Mediathek 5:**
+
+* **Suche nach Medien-ID:** Das Suchfeld findet Medien
+  nun auch anhand der Medien-ID, nicht nur anhand des
+  Dateinamens.
+* **QueryBuilder:** Repository-Schicht auf QueryBuilder
+  umgestellt.
+* **Bootstrap Icons** ersetzen Font Awesome.
+* **Datei-Upload-Validierung:** Inhalts- und MIME-Typ-
+  Prüfung beim Upload. SVGs mit Skripten, Foreign
+  Objects, ``on*``-Event-Handlern oder ``javascript:``/
+  ``data:``-URLs werden abgelehnt; Rasterbilder
+  (jpg, jpeg, gif, png, webp, avif) müssen als gültiges
+  Bild parsen.
+* **Pfad-Sicherheit:** Path-Traversal-Zeichen (``/``,
+  ``\``, ``..``-Segmente, Null-Bytes) in Upload-
+  Dateinamen werden abgelehnt; einheitliche Dateinamen-
+  Bereinigung bei Upload und Umbenennen.
+* **FileFormatRegistry und ContentValidatorInterface:**
+  Integratoren können zusätzliche Dateiformate per
+  Service-Konfiguration registrieren und formatspezifische
+  Inhaltsprüfungen einhängen.
+* **Behoben (durch die obigen Validierungen):**
+  `#0007937 <https://bugs.oxid-esales.com/view.php?id=7937>`_
+  und `#0007938 <https://bugs.oxid-esales.com/view.php?id=7938>`_.
+* **Behoben:** Strg+Klick-Mehrfachauswahl funktioniert
+  wieder (war durch falsche Event-Button-Prüfung defekt).
+
+Hinweis für Integratoren der Mediathek:
+
+* Die Upload-Validator-Kette enthält jetzt
+  ``MimeTypeValidator`` und ``ContentValidatorChain``
+  nach dem ``FileExtensionValidator``. Module, die
+  ``UploadedFileValidatorChainInterface`` vollständig
+  ersetzen, müssen beide Validatoren in derselben
+  Reihenfolge auflisten, um den Upload-Inhaltsschutz zu
+  erhalten.
+* ``FilePathInterface`` enthält die neue Methode
+  ``getExtension()``. Module, die dieses Interface selbst
+  implementieren, müssen die Methode ergänzen — sie gibt
+  die kleingeschriebene Dateiendung zurück.
+
+**WYSIWYG-Editor 7:**
+
+* **Erweiterbar durch Module:** Neue Twig-Blöcke
+  ``ddoe_wysiwyg_plugins`` und
+  ``ddoe_wysiwyg_summernote_options`` erlauben es Modulen,
+  den Editor mit eigenen Plugins und Optionen zu erweitern.
+* **DOMPurify-Integration:** Normalisiert HTML-Inhalte im
+  Editor.
+* **Konfigurierbar:** Neuer Twig-Block
+  ``ddoe_wysiwyg_dompurify_config`` erlaubt Modulen, die
+  DOMPurify-Optionen anzupassen.
+* **Alt-Text-Migration:** Neuer Befehl
+  ``ddoewysiwyg:migrate:alt-texts`` ersetzt fehlende oder
+  leere Alt-Attribute auf Medienbildern.
+* **Bootstrap Icons** ersetzen Font Awesome.
+* **Behoben:** Fehlerhafte Bootstrap-Style-Imports, die
+  Shop-Styles beeinflussten (aus v6.0.3 übernommen).
+
+**Visual CMS 10** (nur Professional und Enterprise Edition):
+
 Visual CMS 10 ist die konsequente Weiterentwicklung der mit
 Visual CMS 9 eingeführten Architektur. Die wichtigsten
 Neuerungen:
-
-**Visual CMS 10** (nur Professional und Enterprise Edition):
 
 * **"Anything-First"-Bearbeitung:** Wählen Sie ein beliebiges
   Gerät als Ausgangspunkt für das Design. Passen Sie die
@@ -51,63 +111,6 @@ Neuerungen:
 * **Behoben:** Karussell-Widget behält Bilder und Links
   nach erneutem Öffnen des Bearbeitungsdialogs (aus v9.2.1
   übernommen).
-
-**WYSIWYG-Editor 7:**
-
-* **Erweiterbar durch Module:** Neue Twig-Blöcke
-  ``ddoe_wysiwyg_plugins`` und
-  ``ddoe_wysiwyg_summernote_options`` erlauben es Modulen,
-  den Editor mit eigenen Plugins und Optionen zu erweitern.
-* **DOMPurify-Integration:** Normalisiert HTML-Inhalte im
-  Editor.
-* **Konfigurierbar:** Neuer Twig-Block
-  ``ddoe_wysiwyg_dompurify_config`` erlaubt Modulen, die
-  DOMPurify-Optionen anzupassen.
-* **Alt-Text-Migration:** Neuer Befehl
-  ``ddoewysiwyg:migrate:alt-texts`` ersetzt fehlende oder
-  leere Alt-Attribute auf Medienbildern.
-* **Bootstrap Icons** ersetzen Font Awesome.
-* **Behoben:** Fehlerhafte Bootstrap-Style-Imports, die
-  Shop-Styles beeinflussten (aus v6.0.3 übernommen).
-
-**Mediathek 5:**
-
-* **Suche nach Medien-ID:** Das Suchfeld findet Medien
-  nun auch anhand der Medien-ID, nicht nur anhand des
-  Dateinamens.
-* **QueryBuilder:** Repository-Schicht auf QueryBuilder
-  umgestellt.
-* **Bootstrap Icons** ersetzen Font Awesome.
-* **Datei-Upload-Validierung:** Inhalts- und MIME-Typ-
-  Prüfung beim Upload. SVGs mit Skripten, Foreign
-  Objects, ``on*``-Event-Handlern oder ``javascript:``/
-  ``data:``-URLs werden abgelehnt; Rasterbilder
-  (jpg, jpeg, gif, png, webp, avif) müssen als gültiges
-  Bild parsen.
-* **Pfad-Sicherheit:** Path-Traversal-Zeichen (``/``,
-  ``\``, ``..``-Segmente, Null-Bytes) in Upload-
-  Dateinamen werden abgelehnt; einheitliche Dateinamen-
-  Bereinigung bei Upload und Umbenennen.
-* **FileFormatRegistry und ContentValidatorInterface:**
-  Integratoren können zusätzliche Dateiformate per
-  Service-Konfiguration registrieren und formatspezifische
-  Inhaltsprüfungen einhängen.
-* **Behoben:** Strg+Klick-Mehrfachauswahl funktioniert
-  wieder (war durch falsche Event-Button-Prüfung defekt).
-
-Hinweis für Integratoren der Mediathek:
-
-* Die Upload-Validator-Kette enthält jetzt
-  ``MimeTypeValidator`` und ``ContentValidatorChain``
-  nach dem ``FileExtensionValidator``. Module, die
-  ``UploadedFileValidatorChainInterface`` vollständig
-  ersetzen, müssen beide Validatoren in derselben
-  Reihenfolge auflisten, um den Upload-Inhaltsschutz zu
-  erhalten.
-* ``FilePathInterface`` enthält die neue Methode
-  ``getExtension()``. Module, die dieses Interface selbst
-  implementieren, müssen die Methode ergänzen — sie gibt
-  die kleingeschriebene Dateiendung zurück.
 
 Wenn Sie die Vorgängerversionen beibehalten möchten, können
 Sie Ihr Update vorkonfigurieren. Weitere Informationen
