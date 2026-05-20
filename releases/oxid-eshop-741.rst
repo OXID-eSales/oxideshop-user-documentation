@@ -32,6 +32,20 @@ mit Composer CLI 2.9 problemlos installiert werden.
 Content & Medien Bundle
 ^^^^^^^^^^^^^^^^^^^^^^^
 
+**Media Library Module** (v4.1.0 auf v4.2.0, oder v3.0.0 bleibend):
+
+* Neu: SVG-Upload-Inhaltsvalidierung — Dateien mit Skripten, Foreign Objects, ``on*``-Event-Handlern oder ``javascript:``/``data:``-URLs werden abgelehnt
+* Neu: MIME-Typ-Validierung bei jedem Upload — Dateien, deren erkannter Content-Type nicht zur deklarierten Dateiendung passt, werden abgelehnt
+* Neu: Inhaltsvalidierung für Rasterbilder (jpg, jpeg, gif, png, webp, avif) — Dateien, die nicht als gültiges Bild geparst werden können, werden abgelehnt
+* Neu: ``FileFormatRegistry`` zur Zuordnung erlaubter Dateiendungen zu akzeptierten MIME-Typen; Integratoren können zusätzliche Formate per Service-Konfiguration registrieren
+* Neu: ``ContentValidatorInterface`` für formatspezifische Inhaltsprüfungen; getaggte Services werden von der Upload-Kette automatisch erkannt
+* Neu: ``FilePathInterface::getExtension()`` liefert die kleingeschriebene Dateiendung
+* Geändert: Einheitliche Dateinamen-Bereinigung bei Upload und Umbenennen
+* Geändert: ``composer.json`` deklariert nun ``ext-dom``
+* Sicherheit: Path-Traversal-Zeichen (``/``, ``\``, ``..``-Segmente, Null-Bytes) in Upload-Dateinamen werden abgelehnt
+* Behoben (durch die obigen Validierungen): `#0007937 <https://bugs.oxid-esales.com/view.php?id=7937>`_ und `#0007938 <https://bugs.oxid-esales.com/view.php?id=7938>`_
+* Behoben: Strg+Klick-Mehrfachauswahl funktionierte aufgrund einer falschen Event-Button-Prüfung nicht
+
 **WYSIWYG Editor** (v6.0.1 auf v6.0.3):
 
 * Behoben: Summernote-Toolbar-Dropdowns öffneten sich nicht aufgrund eines Bootstrap-5-Event-Delegation-Konflikts
@@ -48,19 +62,6 @@ Content & Medien Bundle
 * Behoben: Medien-URLs in Text-Widgets werden nun beim Befehl ``ddoevisualcms:migrate:urls-to-ids`` migriert
 * Behoben: Datumsauswahl-Felder respektieren jetzt die im Shop konfigurierte Datumsformat-Einstellung
 * Behoben: Karussell-Widget verlor Bilder und Links nach erneutem Öffnen des Bearbeitungsdialogs
-
-**Media Library Module** (v4.1.0 auf v4.2.0, oder v3.0.0 bleibend):
-
-* Neu: SVG-Upload-Inhaltsvalidierung — Dateien mit Skripten, Foreign Objects, ``on*``-Event-Handlern oder ``javascript:``/``data:``-URLs werden abgelehnt
-* Neu: MIME-Typ-Validierung bei jedem Upload — Dateien, deren erkannter Content-Type nicht zur deklarierten Dateiendung passt, werden abgelehnt
-* Neu: Inhaltsvalidierung für Rasterbilder (jpg, jpeg, gif, png, webp, avif) — Dateien, die nicht als gültiges Bild geparst werden können, werden abgelehnt
-* Neu: ``FileFormatRegistry`` zur Zuordnung erlaubter Dateiendungen zu akzeptierten MIME-Typen; Integratoren können zusätzliche Formate per Service-Konfiguration registrieren
-* Neu: ``ContentValidatorInterface`` für formatspezifische Inhaltsprüfungen; getaggte Services werden von der Upload-Kette automatisch erkannt
-* Neu: ``FilePathInterface::getExtension()`` liefert die kleingeschriebene Dateiendung
-* Geändert: Einheitliche Dateinamen-Bereinigung bei Upload und Umbenennen
-* Geändert: ``composer.json`` deklariert nun ``ext-dom``
-* Sicherheit: Path-Traversal-Zeichen (``/``, ``\``, ``..``-Segmente, Null-Bytes) in Upload-Dateinamen werden abgelehnt
-* Behoben: Strg+Klick-Mehrfachauswahl funktionierte aufgrund einer falschen Event-Button-Prüfung nicht
 
 Hinweis für Integratoren:
 
