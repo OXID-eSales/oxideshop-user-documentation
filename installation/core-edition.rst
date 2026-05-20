@@ -128,9 +128,13 @@ Migrating to Core Edition
    production system.
 
 The migration requires two things in a single step: replacing
-the metapackage **and** explicitly requiring all modules your
-shop needs. Do not run ``composer update`` after only swapping
-the metapackage — this will remove your modules.
+the metapackage **and** explicitly requiring every module your
+shop currently has installed — even modules you eventually want
+to remove. Do not run ``composer update`` after only swapping
+the metapackage — this will remove your modules. Once the
+migration is complete, drop unwanted modules cleanly with
+``composer remove`` (see "Managing modules after migration"
+below).
 
 Overview
 ^^^^^^^^
@@ -141,9 +145,11 @@ Overview
    record of all currently installed packages and their
    exact versions.
 3. **Edit** ``composer.json``: replace the standard metapackage
-   with the Core Edition metapackage, and add every module you
-   want to keep as an explicit requirement with its current
-   version.
+   with the Core Edition metapackage, and add every module
+   currently installed in your shop as an explicit requirement
+   with its current version — even modules you eventually want
+   to remove. You can drop those cleanly with ``composer remove``
+   after the migration is complete.
 4. **Run** ``composer update`` on your development or staging
    system.
 5. **Verify** that all expected packages are still present
