@@ -157,25 +157,29 @@ Weitere Informationen finden Sie in der
 Neuer E-Mail-Service
 ^^^^^^^^^^^^^^^^^^^^
 
-OXID eShop 7.5 enthält einen neuen E-Mail-Service, der auf
-dem Symfony Mailer basiert. Der Service bietet saubere
-Schnittstellen und eine erweiterbare Architektur, die
-moderne E-Mail-Transporte (API-basierte Anbieter,
-OAuth2-Authentifizierung, warteschlangenbasierter Versand)
-ermöglicht. In der 7.x-Serie läuft der neue Service
-alternativ zum bestehenden System.
+OXID eShop 7.5 enthält einen neuen E-Mail-Service auf Basis
+des Symfony Mailers. Saubere Schnittstellen und eine
+erweiterbare Architektur ermöglichen die Anbindung weiterer
+Mail-Transports über die verfügbaren
+Symfony-Mailer-Konfigurationen — ohne Core-Eingriff. In der
+7.x-Serie läuft der neue Service parallel zum bestehenden
+System; ``Core/Email`` funktioniert weiterhin, und neue
+Module können die Schnittstelle ``MailerInterface`` direkt
+verwenden.
 
 HTML-Sanitizer
 ^^^^^^^^^^^^^^
 
-Ein neuer, auf dem Symfony HtmlSanitizer basierender
-Sicherheitsfilter bereinigt HTML-Inhalte automatisch, bevor
-sie im Shop angezeigt werden. Der neue Twig-Filter
-``sanitize_html`` entfernt potenziell gefährliche
-HTML-Elemente wie Script-Tags, Event-Handler und unsichere
-Iframes. Die erlaubten HTML-Elemente und -Attribute sind
-konfigurierbar. Module können die Konfiguration bei Bedarf
-anpassen.
+OXID eShop 7.5 enthält einen integrierten HTML-Sanitizer als
+Framework-Baustein zur Bereinigung von HTML-Inhalten. Er
+basiert auf dem Symfony HtmlSanitizer und ist
+**standardmäßig deaktiviert** — Projekte aktivieren ihn
+gezielt über einen Service-Parameter, definieren
+Allow-/Deny-Regeln und setzen den neuen Twig-Filter
+``sanitize_html`` in den Templates ein, in denen er greifen
+soll. Damit lässt sich der XSS-Angriffsvektor bei
+CMS-Inhalten systematisch adressieren, ohne dass bestehende
+Shops automatisch verändert werden.
 
 Sicherheitsverbesserungen
 ^^^^^^^^^^^^^^^^^^^^^^^^^
