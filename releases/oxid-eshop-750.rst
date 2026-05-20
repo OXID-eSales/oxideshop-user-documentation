@@ -16,10 +16,67 @@ Bundle 10**. This includes the following extensions:
 * WYSIWYG Editor 7
 * Visual CMS 10 (Professional and Enterprise Edition only)
 
-Visual CMS 10 is the consistent evolution of the
-architecture introduced with Visual CMS 9. Key highlights:
+**Media Library 5:**
+
+* **Search by media ID:** The search field now matches
+  against media ID in addition to filename.
+* **QueryBuilder:** Repository layer migrated to
+  QueryBuilder.
+* **Bootstrap Icons** replace Font Awesome.
+* **File upload validation:** Content and MIME-type checks
+  on every upload. SVGs containing scripts, foreign
+  objects, ``on*`` event handlers, or ``javascript:``/
+  ``data:`` URLs are rejected; raster images (jpg, jpeg,
+  gif, png, webp, avif) must parse as a valid image.
+* **Path safety:** Path-traversal characters (``/``, ``\``,
+  ``..`` segments, null bytes) in upload filenames are
+  rejected; consistent filename sanitization across upload
+  and rename.
+* **FileFormatRegistry and ContentValidatorInterface:**
+  Integrators can register additional file formats via
+  service configuration and hook in per-format content
+  checks.
+* **Fixed (by the validations above):**
+  `#0007937 <https://bugs.oxid-esales.com/view.php?id=7937>`_
+  and `#0007938 <https://bugs.oxid-esales.com/view.php?id=7938>`_.
+* **Fixed:** Ctrl+click multi-select now works again (was
+  broken due to a wrong event-button check).
+
+Note for Media Library integrators:
+
+* The upload validator chain now adds ``MimeTypeValidator``
+  and ``ContentValidatorChain`` after
+  ``FileExtensionValidator``. Modules that fully replace
+  ``UploadedFileValidatorChainInterface`` need to list both
+  validators in the same order to retain the upload-content
+  protection.
+* ``FilePathInterface`` adds a new method
+  ``getExtension()``. Modules implementing this interface
+  themselves need to add the method, returning the
+  lowercased file extension.
+
+**WYSIWYG Editor 7:**
+
+* **Extensible by modules:** New Twig blocks
+  ``ddoe_wysiwyg_plugins`` and
+  ``ddoe_wysiwyg_summernote_options`` allow modules to
+  extend the editor with custom plugins and options.
+* **DOMPurify integration:** Normalizes HTML content in the
+  editor.
+* **Configurable:** New Twig block
+  ``ddoe_wysiwyg_dompurify_config`` lets modules customize
+  DOMPurify options.
+* **Alt text migration:** New command
+  ``ddoewysiwyg:migrate:alt-texts`` replaces missing or
+  empty alt attributes on media images.
+* **Bootstrap Icons** replace Font Awesome.
+* **Fixed:** Incorrect Bootstrap style imports that affected
+  shop styles (carried over from v6.0.3).
 
 **Visual CMS 10** (Professional and Enterprise Edition only):
+
+Visual CMS 10 is the consistent evolution of the
+architecture introduced with Visual CMS 9. Key highlights:
 
 * **"Anything-First" editing:** Choose any device as your
   starting point for design. Adjust widget sizes explicitly
@@ -47,60 +104,6 @@ architecture introduced with Visual CMS 9. Key highlights:
 * **Fixed:** Carousel widget now retains images and links
   after re-opening the edit dialog (carried over from
   v9.2.1).
-
-**WYSIWYG Editor 7:**
-
-* **Extensible by modules:** New Twig blocks
-  ``ddoe_wysiwyg_plugins`` and
-  ``ddoe_wysiwyg_summernote_options`` allow modules to
-  extend the editor with custom plugins and options.
-* **DOMPurify integration:** Normalizes HTML content in the
-  editor.
-* **Configurable:** New Twig block
-  ``ddoe_wysiwyg_dompurify_config`` lets modules customize
-  DOMPurify options.
-* **Alt text migration:** New command
-  ``ddoewysiwyg:migrate:alt-texts`` replaces missing or
-  empty alt attributes on media images.
-* **Bootstrap Icons** replace Font Awesome.
-* **Fixed:** Incorrect Bootstrap style imports that affected
-  shop styles (carried over from v6.0.3).
-
-**Media Library 5:**
-
-* **Search by media ID:** The search field now matches
-  against media ID in addition to filename.
-* **QueryBuilder:** Repository layer migrated to
-  QueryBuilder.
-* **Bootstrap Icons** replace Font Awesome.
-* **File upload validation:** Content and MIME-type checks
-  on every upload. SVGs containing scripts, foreign
-  objects, ``on*`` event handlers, or ``javascript:``/
-  ``data:`` URLs are rejected; raster images (jpg, jpeg,
-  gif, png, webp, avif) must parse as a valid image.
-* **Path safety:** Path-traversal characters (``/``, ``\``,
-  ``..`` segments, null bytes) in upload filenames are
-  rejected; consistent filename sanitization across upload
-  and rename.
-* **FileFormatRegistry and ContentValidatorInterface:**
-  Integrators can register additional file formats via
-  service configuration and hook in per-format content
-  checks.
-* **Fixed:** Ctrl+click multi-select now works again (was
-  broken due to a wrong event-button check).
-
-Note for Media Library integrators:
-
-* The upload validator chain now adds ``MimeTypeValidator``
-  and ``ContentValidatorChain`` after
-  ``FileExtensionValidator``. Modules that fully replace
-  ``UploadedFileValidatorChainInterface`` need to list both
-  validators in the same order to retain the upload-content
-  protection.
-* ``FilePathInterface`` adds a new method
-  ``getExtension()``. Modules implementing this interface
-  themselves need to add the method, returning the
-  lowercased file extension.
 
 If you want to keep a previous version, you can preconfigure
 your update. For more information, see our
