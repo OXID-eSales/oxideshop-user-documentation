@@ -30,6 +30,37 @@ Composer CLI 2.8 and Composer CLI 2.9.
 Content & Media Bundle
 ^^^^^^^^^^^^^^^^^^^^^^
 
+**Media Library Module** (v4.1.0 to v4.2.0, or v3.0.0
+remaining):
+
+* New: SVG upload content validation — files containing
+  scripts, foreign objects, ``on*`` event handlers, or
+  ``javascript:``/``data:`` URLs are rejected
+* New: MIME-type validation on every upload — files whose
+  sniffed content type does not match the declared
+  extension are rejected
+* New: Raster-image content validation for jpg, jpeg, gif,
+  png, webp, avif — files that do not parse as a valid
+  image are rejected
+* New: ``FileFormatRegistry`` mapping allowed extensions to
+  accepted MIME types; integrators can register additional
+  formats via service configuration
+* New: ``ContentValidatorInterface`` for per-format content
+  checks; tagged services are auto-discovered by the upload
+  chain
+* New: ``FilePathInterface::getExtension()`` returns the
+  lowercased file extension
+* Changed: Consistent filename sanitization across upload
+  and rename
+* Changed: ``composer.json`` now declares ``ext-dom``
+* Security: Reject path-traversal characters (``/``, ``\``,
+  ``..`` segments, null bytes) in upload filenames
+* Fixed (by the validations above):
+  `#0007937 <https://bugs.oxid-esales.com/view.php?id=7937>`_
+  and `#0007938 <https://bugs.oxid-esales.com/view.php?id=7938>`_
+* Fixed: Ctrl+click multi-select was not working due to
+  wrong event button check
+
 **WYSIWYG Editor** (v6.0.1 to v6.0.3):
 
 * Fixed: Summernote toolbar dropdowns not opening due to
@@ -59,34 +90,6 @@ Enterprise Edition only):
   date format setting
 * Fixed: Carousel widget loses images and links after
   re-opening the edit dialog
-
-**Media Library Module** (v4.1.0 to v4.2.0, or v3.0.0
-remaining):
-
-* New: SVG upload content validation — files containing
-  scripts, foreign objects, ``on*`` event handlers, or
-  ``javascript:``/``data:`` URLs are rejected
-* New: MIME-type validation on every upload — files whose
-  sniffed content type does not match the declared
-  extension are rejected
-* New: Raster-image content validation for jpg, jpeg, gif,
-  png, webp, avif — files that do not parse as a valid
-  image are rejected
-* New: ``FileFormatRegistry`` mapping allowed extensions to
-  accepted MIME types; integrators can register additional
-  formats via service configuration
-* New: ``ContentValidatorInterface`` for per-format content
-  checks; tagged services are auto-discovered by the upload
-  chain
-* New: ``FilePathInterface::getExtension()`` returns the
-  lowercased file extension
-* Changed: Consistent filename sanitization across upload
-  and rename
-* Changed: ``composer.json`` now declares ``ext-dom``
-* Security: Reject path-traversal characters (``/``, ``\``,
-  ``..`` segments, null bytes) in upload filenames
-* Fixed: Ctrl+click multi-select was not working due to
-  wrong event button check
 
 Note for integrators:
 
