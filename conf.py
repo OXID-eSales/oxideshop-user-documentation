@@ -142,6 +142,7 @@ html_context = {
          ('7.2', 'https://docs.oxid-esales.com/eshop/de/7.2/'),
          ('7.3', 'https://docs.oxid-esales.com/eshop/de/7.3/'),
          ('7.4', 'https://docs.oxid-esales.com/eshop/de/7.4/'),
+         ('7.5', 'https://docs.oxid-esales.com/eshop/de/7.5/'),
          ],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
