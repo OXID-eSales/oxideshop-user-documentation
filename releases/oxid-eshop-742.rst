@@ -71,8 +71,9 @@ Kompatible OXID Erweiterungen
 
 Die kompatiblen OXID Erweiterungen entsprechen denen der
 Version 7.4.0 bzw. 7.4.1. Weitere Informationen finden Sie in den Release Notes der
-OXID eShop Compilation `7.4.0 <oxid-eshop-740>` bzw.
-`7.4.1 <oxid-eshop-741>`.
+OXID eShop Compilation
+`7.4.0 <https://docs.oxid-esales.com/eshop/de/7.4/releases/oxid-eshop-740.html>`_ bzw.
+`7.4.1 <https://docs.oxid-esales.com/eshop/de/7.4/releases/oxid-eshop-741.html>`_.
 
 Update
 ------
