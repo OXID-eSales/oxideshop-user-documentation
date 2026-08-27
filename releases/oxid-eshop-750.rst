@@ -322,11 +322,12 @@ Kompatible OXID Erweiterungen
 * OXAPI GraphQL Base Modul 13.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXAPI GraphQL Configuration Access Modul 4.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXAPI GraphQL Storefront Modul 5.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
-* OXAPI GraphQL Storefront Administration Modul: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
+* OXAPI GraphQL Storefront Administration Modul 4.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/7.5/>`_
 * OXID ERP Schnittstelle 4.4: `Dokumentation [en] (passwortgeschützt) <https://docs.oxid-esales.com/interfaces/erp/en/4.4>`_
 * OXID eShop Admin Tools 2.0: `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/2.0/>`_
 * OXID eShop Country VAT Administration 2.5: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.5.0/README.md>`_
 * OXID eShop Geo-Blocking Modul 2.5: `Dokumentation <https://docs.oxid-esales.com/modules/geo-blocking/de/2.5>`_
+* OXID eShop Security-Modul 4.0: `Dokumentation <https://docs.oxid-esales.com/modules/security/de/4.0/>`_
 * OXID eShop Shipping Cost Compensation Modul 1.3: `Dokumentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/de/1.3/>`_
 * OXID eShop eVAT Modul 4.4: `Dokumentation <https://docs.oxid-esales.com/modules/vat-tbe-services/de/4.4>`_
 * OXID Cookie Management powered by Usercentrics 3.3: `Dokumentation <https://docs.oxid-esales.com/modules/usercentrics/de/3.3/>`_
@@ -334,9 +335,6 @@ Kompatible OXID Erweiterungen
 * OXID eShop Consistency Check Component 3.0: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v3.0.0/README.md>`_
 * OXID Modul Template 5.2: `Dokumentation (GitHub) <https://github.com/OXID-eSales/module-template/blob/v5.2.0/README.md>`_
 * OXID Examples Modul 2.1: `Dokumentation (GitHub) <https://github.com/OXID-eSales/examples-module/blob/v2.1.0/README.md>`_
-
-.. todo:: Versionsnummer für GraphQL Storefront Administration
-   nachziehen, sobald released
 
 Update
 ------
