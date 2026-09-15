@@ -28,11 +28,12 @@ CE-Metapackage daher weiter aktualisiert:
 * ``composer/composer`` von 2.9.8 auf 2.10.2
 
 Da die Compilation-Version über die eShop-Kernkomponente
-ausgewiesen wird, wurden die CE-, PE- und EE-Pakete zur
-Bereitstellung der Compilation 7.4.2 auf v7.4.4 neu getaggt.
-Diese Neu-Taggings enthalten **keine funktionalen Änderungen**;
-die Aktualisierung von ``composer/composer`` erfolgt im Zuge
-dieses Releases.
+ausgewiesen wird, wurde das CE-Paket v7.4.4 zur Bereitstellung
+der Compilation-Information 7.4.2 veröffentlicht. Die PE- und
+EE-Pakete wurden ebenfalls auf v7.4.4 getaggt, damit alle drei
+Editionen zusammenpassen. Diese Komponenten enthalten **keine
+funktionalen Änderungen**; die Aktualisierung von
+``composer/composer`` erfolgt im Zuge dieses Releases.
 
 .. _packages-742:
 
