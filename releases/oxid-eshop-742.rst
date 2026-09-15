@@ -28,10 +28,12 @@ metapackage is therefore updated further:
 * ``composer/composer`` from 2.9.8 to 2.10.2
 
 Since the compilation version is exposed via the eShop core
-component, the CE, PE, and EE packages were re-tagged to
-v7.4.4 in order to provide the 7.4.2 compilation. These
-re-tags contain **no functional changes**; the update of
-``composer/composer`` is part of this release.
+component, the CE package v7.4.4 was released to
+provide the 7.4.2 compilation information. The PE and EE packages were
+tagged v7.4.4 as well, so that all three editions stay in sync.
+These components contain **no functional
+changes**; the update of ``composer/composer`` is part of this
+release.
 
 .. _packages-742:
 
@@ -39,8 +41,8 @@ Packages
 --------
 
 Compared to the 7.4.1 compilation, the package versions are
-unchanged — except for the eShop core (CE/PE/EE), re-tagged
-to v7.4.4, and the updated ``composer/composer`` package
+unchanged — except for the eShop core (CE/PE/EE), newly tagged
+as v7.4.4, and the updated ``composer/composer`` package
 (see above).
 
 OXID eShop CE Compilation
