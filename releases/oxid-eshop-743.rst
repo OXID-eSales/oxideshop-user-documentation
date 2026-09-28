@@ -1,7 +1,7 @@
 OXID eShop Compilation 7.4.3
 ============================
 
-Release date: TBD
+Release date: September 28, 2026
 
 
 Improvements & Bug Fixes
