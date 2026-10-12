@@ -111,7 +111,7 @@ Metadata
 
 * Metadata version 2.0 or higher
 
-  For more information about metadata versions, in the Developer documentation, see `metadata.php <https://docs.oxid-esales.com/developer/en/7.5/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
+  For more information about metadata versions, in the Developer documentation, see `metadata.php <https://docs.oxid-esales.com/developer/en/7.6/development/modules_components_themes/module/skeleton/metadataphp/index.html>`_.
 
 OpenSSL
 -------
