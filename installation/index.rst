@@ -5,7 +5,7 @@
    :maxdepth: 1
    
    Neu-Installation <neu-installation/index>
-   Update von 7.x auf 7.5 <update>
+   Update von 7.x auf 7.6 <update>
 
 ..
    Patch-Update installieren <update/patch-update>
