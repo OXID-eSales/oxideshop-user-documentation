@@ -25,13 +25,13 @@ aus folgenden Komponenten:
 
 Highlights:
 
-* **Visual CMS 12 — dynamische Blöcke (zentrale Neuerung):** Mit den dynamischen Blöcken
+* **Visual CMS 12 - dynamische Blöcke (zentrale Neuerung):** Mit den dynamischen Blöcken
   lassen sich CMS-Inhalte an fest definierten Positionen im Theme („Blöcken") einblenden.
-  Welcher Inhalt an einem Block erscheint, weisen Sie im Admin-Bereich zu — ohne das
+  Welcher Inhalt an einem Block erscheint, weisen Sie im Admin-Bereich zu - ohne das
   Template zu bearbeiten; bestimmend ist der **Kontext** der Zuordnung: global oder gebunden
   an einen bestimmten Artikel, eine Kategorie oder einen Hersteller; spezifische Zuordnungen
   haben dabei Vorrang vor allgemeinen. Innerhalb des Blocks greifen die gewohnten
-  Sichtbarkeits-Steuerungen des Visual CMS unverändert weiter — **zeitgesteuert** (Datum und
+  Sichtbarkeits-Steuerungen des Visual CMS unverändert weiter - **zeitgesteuert** (Datum und
   Uhrzeit, je Zeile/Widget) und **gerätespezifisch** (Sichtbarkeit je Bildschirmgröße, je
   Widget).
 
@@ -41,14 +41,14 @@ Highlights:
   vorkonfiguriert; weitere Blöcke lassen sich einrichten. Die Funktion ist ab Werk
   deaktiviert und wird in den Moduleinstellungen aktiviert. Ausführliche Anleitung und
   Beispiele finden Sie in der Visual-CMS-Dokumentation.
-* **Visual CMS 12 — individuelle Styles jetzt als SCSS:** eigene Styles in CMS-Inhalten
+* **Visual CMS 12 - individuelle Styles jetzt als SCSS:** eigene Styles in CMS-Inhalten
   werden ab Visual CMS 12 als **SCSS** statt LESS interpretiert. Bestehende Inhalte können
   Sie vorab mit ``./vendor/bin/oe-console ddoevisualcms:migrate:less-to-scss --dry-run`` prüfen.
-* **Mediathek 6 — fehlerfreie Inhalte ab Werk:** Ein mitgeliefertes Fallback-Bild wird
+* **Mediathek 6 - fehlerfreie Inhalte ab Werk:** Ein mitgeliefertes Fallback-Bild wird
   automatisch gesetzt, sodass Seiten auch bei fehlenden oder gelöschten Medien sauber
-  rendern — ohne eigene Einrichtung. Das Fallback-Medium ist gegen versehentliches Löschen
+  rendern - ohne eigene Einrichtung. Das Fallback-Medium ist gegen versehentliches Löschen
   geschützt; fehlende Medien lassen sich über Diagnose-Meldungen schneller auffinden.
-* **WYSIWYG-Editor 8 — stabilere CMS-Links & Medien-URLs:** CMS-Ident-Links werden korrekt
+* **WYSIWYG-Editor 8 - stabilere CMS-Links & Medien-URLs:** CMS-Ident-Links werden korrekt
   aufgelöst (kein 404), Twig-Ausdrücke im Filter bleiben erhalten, Medien-URLs werden
   als ``oeMediaUrl`` statt hartkodiert gespeichert.
 
@@ -57,14 +57,14 @@ Highlights:
    Beim Update wählen Sie eine der drei angebotenen Bundle-Versionen (12, 11 oder 8); das
    lässt sich wie in der :doc:`Update-Anleitung <../installation/update>` beschrieben
    vorkonfigurieren. Ältere Linien (z. B. Visual CMS 9.x/10.x, Mediathek 4.x, WYSIWYG 6.x)
-   werden nicht weitergeführt — Bestandsinstallationen wechseln auf eine der angebotenen
+   werden nicht weitergeführt - Bestandsinstallationen wechseln auf eine der angebotenen
    Versionen.
 
 .. note::
 
    **Hinweis für Erweiterungen:** Mediathek 6 ist ein Major-Release. Die Methoden
    ``MediaFacadeInterface::getMedia()`` und ``getMediaUrl()`` haben einen zusätzlichen
-   optionalen Parameter erhalten — aufrufender Code bleibt kompatibel; Module, die dieses
+   optionalen Parameter erhalten - aufrufender Code bleibt kompatibel; Module, die dieses
    Interface implementieren oder dekorieren, müssen angepasst werden.
 
 Konfigurierbarer Rate Limiter fürs Storefront
@@ -72,7 +72,7 @@ Konfigurierbarer Rate Limiter fürs Storefront
 
 Neu in 7.6 (in CE v7.6.0 enthalten): ein optionaler Storefront-Request-Rate-Limiter,
 standardmäßig deaktiviert. Er begrenzt regelbasiert die Aufruf-Häufigkeit von
-Storefront-Aktionen — von einer groben, globalen Begrenzung (bremst einzelne, zu häufig
+Storefront-Aktionen - von einer groben, globalen Begrenzung (bremst einzelne, zu häufig
 aufrufende Clients) bis zu gezielten Regeln für sensible Aktionen wie den Login. Antwortet
 mit ``429`` + ``Retry-After`` / ``X-RateLimit-*``; Erweiterungs-Hook ``RateLimitExceededEvent``;
 Konsolen-Befehl ``oe:rate-limiter:prune`` (Cron). Er ist ein eigenständiger Limiter zusätzlich
@@ -91,16 +91,16 @@ Mehrere Verbesserungen härten den Shop über die gesamte Compilation hinweg:
   ``oxid_esales.request.trusted_proxies`` konfiguriert.
 * **HTTPS hinter SSL-Offloadern** wird über Forwarded-Header vertrauenswürdiger
   Proxies erkannt.
-* **APEX — externe Produkt-URL abgesichert:** externe URLs werden escaped und das
+* **APEX - externe Produkt-URL abgesichert:** externe URLs werden escaped und das
   Schema geprüft (XSS-/Scheme-Injection-Härtung).
 * **DSGVO-konforme Löschung:** Beim Löschen eines Benutzers per ID werden jetzt alle
   zugehörigen Datensätze per Cascade entfernt
   (`#0007138 <https://bugs.oxid-esales.com/view.php?id=7138>`_).
 
-Modernes Fundament — Migrationen, Modul-Lifecycle, Console
+Modernes Fundament - Migrationen, Modul-Lifecycle, Console
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die technische Basis wird in einem planbaren Rahmen weiter modernisiert — alte
+Die technische Basis wird in einem planbaren Rahmen weiter modernisiert - alte
 Methoden bleiben nutzbar, der neue Weg ist aufgezeigt:
 
 * **Datenbank-Migrationen über DI registrierbar:** Doctrine-Migrationen lassen sich
@@ -109,17 +109,17 @@ Methoden bleiben nutzbar, der neue Weg ist aufgezeigt:
   ist auch für Module der zukünftig bevorzugte Weg.
 * **Neuer Konsolen-Befehl** ``oe:database:migrate`` zum Ausführen der Migrationen.
 * **Services vor Aktivierung:** Module können über eine optionale
-  ``bootstrap-services.yaml`` ausgewählte Services bereitstellen — geladen für jedes
+  ``bootstrap-services.yaml`` ausgewählte Services bereitstellen - geladen für jedes
   installierte Modul, unabhängig vom Aktivierungszustand.
 * **Saubere Console-Rückgabewerte:** Konsolen-Befehle liefern konsistente Exit-Codes
-  (0 = Erfolg, 1 = Fehler) — CI-/Automatisierungs-tauglich.
+  (0 = Erfolg, 1 = Fehler) - CI-/Automatisierungs-tauglich.
 
 .. note::
 
    **Hinweis für Theme- und Modul-Entwickler:** Der Vite-basierte Asset-Build wurde
    aktualisiert (Vite-Versionssprung, Sass 1.80). Dadurch steigt die für den
    **Asset-Build** benötigte Node-Version: **APEX-Theme** Node 20.19+, die Module des
-   Content & Medien Bundles — **Mediathek**, **WYSIWYG-Editor** und **Visual CMS** —
+   Content & Medien Bundles - **Mediathek**, **WYSIWYG-Editor** und **Visual CMS** -
    Node 22.12+ bzw. 22.13+. Dies betrifft ausschließlich den Asset-Build; der
    Shop-Betrieb selbst ändert sich dadurch nicht.
 
@@ -132,7 +132,7 @@ Methoden bleiben nutzbar, der neue Weg ist jeweils benannt. Auszug:
 * Modul-``metadata.php``-Events (``onActivate`` / ``onDeactivate``) → DI-Event-Subscriber.
 * ``oxid-esales/oxideshop-doctrine-migration-wrapper`` / ``oe-eshop-db_migrate`` →
   ``oe:database:migrate``.
-* BC-Autoloader für Legacy-Klassennamen (z. B. ``oxarticle``, ``oxorder``) — ebenso die
+* BC-Autoloader für Legacy-Klassennamen (z. B. ``oxarticle``, ``oxorder``) - ebenso die
   Generierung der zugehörigen BC-Klassen-Aliase im Unified-Namespace-Generator.
 * ``Argon2IPasswordHashService``; ``UtilsServer::getRemoteAddress()`` /
   ``ViewConfig::getRemoteAddress()``.
@@ -191,10 +191,10 @@ OXID eShop CE Compilation
 * Unified Namespace Generator **v5.3.1 → v5.4.0**: `Changelog <https://github.com/OXID-eSales/oxideshop-unified-namespace-generator/blob/v5.4.0/CHANGELOG.md>`_
 * OXID Cookie Management powered by Usercentrics **v3.3.0 → v3.4.0** *(nur 7.6-Kompatibilität)*: `Changelog <https://github.com/OXID-eSales/usercentrics/blob/v3.4.0/CHANGELOG.md>`_
 * Demodata CE **v8.1.0 → v8.1.1**: `Changelog <https://github.com/OXID-eSales/oxideshop_demodata_ce/blob/v8.1.1/CHANGELOG.md>`_
-* Doctrine Migration Wrapper **v5.5.0 → v6.0.0** *(Paket ist deprecated — ersetzt durch* ``oe:database:migrate``\ *)*: `Changelog <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v6.0.0/CHANGELOG-6.x.md>`_
+* Doctrine Migration Wrapper **v5.5.0 → v6.0.0** *(Paket ist deprecated - ersetzt durch* ``oe:database:migrate``\ *)*: `Changelog <https://github.com/OXID-eSales/oxideshop-doctrine-migration-wrapper/blob/v6.0.0/CHANGELOG-6.x.md>`_
 
 **Ohne funktionale 7.6-Änderung** (nur Branch-Initialisierung / Workflow / Test-Anpassungen)
-— bleiben auf ihrer 7.5-Version:
+bleiben auf ihrer 7.5-Version:
 
 * OXID eShop Composer Plugin v7.4.0: `Changelog <https://github.com/OXID-eSales/oxideshop_composer_plugin/blob/v7.4.0/CHANGELOG-7.x.md>`_
 * Twig Component v2.8.1: `Changelog <https://github.com/OXID-eSales/twig-component/blob/v2.8.1/CHANGELOG-2.x.md>`_
@@ -226,12 +226,12 @@ Die OXID eShop EE Compilation enthält zusätzlich die folgenden Pakete:
 * OXID eShop Demodata EE **v8.2.0 → v8.2.1**
 * Twig Component EE **v2.6.0 → v2.7.0**
 
-.. COMMENTED OUT — does NOT render:
+.. COMMENTED OUT - does NOT render:
    B2B is not part of the initial 7.6 compilation (hence no EE-B2B section).
 
-.. COMMENTED OUT — PROVISIONAL, does NOT render (not even in preview):
+.. COMMENTED OUT - PROVISIONAL, does NOT render (not even in preview):
    Compatible extensions are released AFTER the compilation; no final 7.6 tags exist yet.
-   Versions below are PROSPECTIVE — taken from the "Unreleased" changelog headers on each
+   Versions below are PROSPECTIVE - taken from the "Unreleased" changelog headers on each
    module's b-7.6.x branch (graphql-base → v14.0.0, confirmed by PO). The changelog links
    point at these prospective tags and will 404 until the module is actually tagged.
    When a module is provably released: verify its final version, then uncomment its line

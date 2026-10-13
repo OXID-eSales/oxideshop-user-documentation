@@ -131,8 +131,8 @@ Führen Sie in jedem Fall die folgenden Befehle aus, um Ihren OXID eShop zu aktu
 
 .. important::
    Die Reihenfolge ist wichtig: Führen Sie ``oe-eshop-db_views_generate`` **nach**
-   ``oe:database:migrate`` aus. Die Migration kann das Datenbankschema ändern — zum Beispiel
-   legt das Visual CMS 12 Bundle Tabellen für dynamische Blöcke an —, und die Datenbank-Views
+   ``oe:database:migrate`` aus. Die Migration kann das Datenbankschema ändern (zum Beispiel
+   legt das Visual CMS 12 Bundle Tabellen für dynamische Blöcke an), und die Datenbank-Views
    müssen anschließend gegen das aktualisierte Schema neu generiert werden. Werden die Views
    vor der Migration generiert, sind sie veraltet.
 
@@ -145,7 +145,7 @@ Da die **.htaccess-Datei** typischerweise dem Projekt und seiner Umgebung angepa
 
 **4a) Rewrite-Bedingung mit Anker**
 
-Eine Rewrite-Bedingung in älteren OXID eShop Versionen schränkt die Verwendung bestimmter Markennamen ein. Die korrigierte Bedingung ist in der ausgelieferten **.htaccess**-Vorlage seit 7.4 enthalten — da Ihre projektspezifisch angepasste **.htaccess**-Datei beim Update nicht ersetzt wird, ist die Korrektur in vielen Bestands-Shops dennoch nicht eingespielt. Prüfen Sie daher, ob die Änderung vorhanden ist, und nehmen Sie sie gegebenenfalls vor.
+Eine Rewrite-Bedingung in älteren OXID eShop Versionen schränkt die Verwendung bestimmter Markennamen ein. Die korrigierte Bedingung ist in der ausgelieferten **.htaccess**-Vorlage seit 7.4 enthalten - da Ihre projektspezifisch angepasste **.htaccess**-Datei beim Update nicht ersetzt wird, ist die Korrektur in vielen Bestands-Shops dennoch nicht eingespielt. Prüfen Sie daher, ob die Änderung vorhanden ist, und nehmen Sie sie gegebenenfalls vor.
 
 #. Öffnen Sie die Datei **source/.htaccess**.
 #. Suchen Sie nach der zu ändernden Rewrite-Bedingung:
@@ -211,5 +211,5 @@ Wenn Sie sich für das neue **Content & Medien Bundle 12** entschieden haben und
 
 Bei der **OXID eShop Community Edition** ist für den Wechsel auf Bundle 12 keine Inhalts-Migration erforderlich; Ihr Update ist mit Schritt 3 abgeschlossen.
 
-.. COMMENTED OUT — internal note, does NOT render:
+.. COMMENTED OUT - internal note, does NOT render:
    Verify the Visual CMS 12.0 docs link (vcms/de/12.0/update.html) once the VCMS 12 docs are published.
