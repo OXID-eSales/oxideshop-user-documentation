@@ -130,8 +130,8 @@ In any case, run the following commands to update your OXID eShop:
 
 .. important::
    The order matters: run ``oe-eshop-db_views_generate`` **after** ``oe:database:migrate``.
-   The migration can change the database schema — for example, the Visual CMS 12 bundle adds
-   tables for Dynamic Blocks — and the database views must be regenerated against the updated
+   The migration can change the database schema (for example, the Visual CMS 12 bundle adds
+   tables for Dynamic Blocks) and the database views must be regenerated against the updated
    schema afterwards. Generating the views before the migration leaves them out of date.
 
 .. _step-4-adjust-the-htaccess-file-760:
@@ -143,7 +143,7 @@ The OXID eShop update process does not replace your **.htaccess** file, because 
 
 **4a) Rewrite Condition with Anchor**
 
-A rewrite condition in older OXID eShop versions restricts the use of specific brand names. The corrected condition has been part of the shipped **.htaccess** template since 7.4 — but because your project-customized **.htaccess** file is not replaced during updates, the fix is often missing in existing shops. Verify whether the change is present, and apply it if not.
+A rewrite condition in older OXID eShop versions restricts the use of specific brand names. The corrected condition has been part of the shipped **.htaccess** template since 7.4 - but because your project-customized **.htaccess** file is not replaced during updates, the fix is often missing in existing shops. Verify whether the change is present, and apply it if not.
 
 #. Open the file **source/.htaccess**.
 #. Search for the affected rewrite condition:
@@ -209,5 +209,5 @@ If you decided to use the new **Content & Media Bundle 12** and are using an **O
 
 For the **OXID eShop Community Edition**, no content migration is required to switch to Bundle 12; your update is complete after Step 3.
 
-.. COMMENTED OUT — internal note, does NOT render:
+.. COMMENTED OUT - internal note, does NOT render:
    Verify the Visual CMS 12.0 docs link (vcms/en/12.0/update.html) once the VCMS 12 docs are published.
