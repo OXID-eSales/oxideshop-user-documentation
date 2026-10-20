@@ -7,25 +7,19 @@ Release date: TBD
 Improvements & Bug Fixes
 -------------------------
 
-Symfony Security Update (CVE-2026-109449)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Updated Symfony Components
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The 7.4.4 compilation is a maintenance release and fixes a
-security vulnerability in the Symfony component
-``symfony/expression-language``.
+The 7.4.4 compilation is a maintenance release. It updates three
+Symfony components to version v6.4.48 each. The updates contain the
+fixes for the following Symfony security advisories:
 
-The security advisory **CVE-2026-109449** (advisory
-PKSA-vq1j-sc3k-jzzk, "Unbounded Nesting in the Expression
-Parser") affects the expression parser: untrusted expressions
-with unbounded nesting can crash the process.
-
-To fix this, ``symfony/expression-language`` is updated; in the
-course of this, the other affected Symfony components are brought
-to the same version:
-
-* ``symfony/expression-language`` from v6.4.24 to v6.4.48
-* ``symfony/http-foundation`` from v6.4.41 to v6.4.48
-* ``symfony/yaml`` from v6.4.40 to v6.4.48
+* ``symfony/expression-language`` from v6.4.24 to v6.4.48:
+  `CVE-2026-109449 <https://symfony.com/cve-2026-109449>`_
+* ``symfony/http-foundation`` from v6.4.41 to v6.4.48:
+  `CVE-2026-108082 <https://symfony.com/cve-2026-108082>`_
+* ``symfony/yaml`` from v6.4.40 to v6.4.48:
+  `CVE-2026-109413 <https://symfony.com/cve-2026-109413>`_
 
 Since the compilation version is exposed via the eShop core
 component, the CE package v7.4.6 was released to provide the
