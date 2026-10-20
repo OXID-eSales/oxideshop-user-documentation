@@ -6,26 +6,19 @@ Veröffentlichungsdatum: TBD
 Optimierungen & Fehlerbehebungen
 --------------------------------
 
-Symfony Sicherheitsaktualisierung (CVE-2026-109449)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aktualisierte Symfony-Komponenten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die Compilation 7.5.1 ist ein Wartungs-Release und behebt eine
-Sicherheitslücke in der Symfony-Komponente
-``symfony/expression-language``.
+Die Compilation 7.5.1 ist ein Wartungs-Release. Sie aktualisiert drei
+Symfony-Komponenten jeweils auf die Version v6.4.48. Die Updates enthalten die Korrekturen
+zu den folgenden Sicherheitshinweisen von Symfony:
 
-Der Sicherheitshinweis **CVE-2026-109449** (Advisory
-PKSA-vq1j-sc3k-jzzk, "Unbounded Nesting in the Expression Parser")
-betrifft den Ausdrucks-Parser: nicht vertrauenswürdige Ausdrücke
-mit unbegrenzter Verschachtelung können den Prozess zum Absturz
-bringen.
-
-Zur Behebung wird ``symfony/expression-language`` aktualisiert; im
-Zuge dessen werden die weiteren betroffenen Symfony-Komponenten auf
-denselben Stand gebracht:
-
-* ``symfony/expression-language`` von v6.4.32 auf v6.4.48
-* ``symfony/http-foundation`` von v6.4.41 auf v6.4.48
-* ``symfony/yaml`` von v6.4.40 auf v6.4.48
+* ``symfony/expression-language`` von v6.4.32 auf v6.4.48:
+  `CVE-2026-109449 <https://symfony.com/cve-2026-109449>`_
+* ``symfony/http-foundation`` von v6.4.41 auf v6.4.48:
+  `CVE-2026-108082 <https://symfony.com/cve-2026-108082>`_
+* ``symfony/yaml`` von v6.4.40 auf v6.4.48:
+  `CVE-2026-109413 <https://symfony.com/cve-2026-109413>`_
 
 Da die Compilation-Version über die eShop-Kernkomponente
 ausgewiesen wird, wurde das CE-Paket v7.5.2 zur Bereitstellung der
