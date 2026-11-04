@@ -6,6 +6,7 @@ Find out about innovations and changes in the versions of OXID eShop and the com
 .. toctree::
    :maxdepth: 1
 
+   OXID eShop 7.4.5<oxid-eshop-745>
    OXID eShop 7.4.4<oxid-eshop-744>
    OXID eShop 7.4.3<oxid-eshop-743>
    OXID eShop 7.4.2<oxid-eshop-742>
