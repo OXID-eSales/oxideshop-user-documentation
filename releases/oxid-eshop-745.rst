@@ -10,7 +10,7 @@ Improvements & Bug Fixes
 Updated Symfony Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The 7.4.5 compilation is a maintenance release. It updates five
+The 7.4.5 compilation is a maintenance release. It updates
 Symfony components. The updates contain the fixes for the following
 Symfony security advisories:
 
