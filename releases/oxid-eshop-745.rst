@@ -7,22 +7,32 @@ Release date: TBD
 Improvements & Bug Fixes
 -------------------------
 
-Updated Symfony Component
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Updated Symfony Components
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The 7.4.5 compilation is a maintenance release. It updates the
-Symfony component ``symfony/mime`` to version v6.4.49. The update contains the
-fix for the following Symfony security advisory:
+The 7.4.5 compilation is a maintenance release. It updates five
+Symfony components. The updates contain the fixes for the following
+Symfony security advisories:
 
+* ``symfony/config`` from v6.4.26 to v6.4.50:
+  `GHSA-5jff-8h8q-r5qx <https://github.com/symfony/symfony/security/advisories/GHSA-5jff-8h8q-r5qx>`_
+* ``symfony/filesystem`` from v6.4.24 to v6.4.50:
+  `GHSA-6prc-h956-hxjq <https://github.com/symfony/symfony/security/advisories/GHSA-6prc-h956-hxjq>`_
+* ``symfony/http-foundation`` from v6.4.48 to v6.4.50:
+  `CVE-2026-118514 <https://symfony.com/cve-2026-118514>`_,
+  `GHSA-3h27-hjv7-fqjx <https://github.com/symfony/symfony/security/advisories/GHSA-3h27-hjv7-fqjx>`_,
+  `GHSA-5mx8-mwrp-5693 <https://github.com/symfony/symfony/security/advisories/GHSA-5mx8-mwrp-5693>`_
 * ``symfony/mime`` from v6.4.40 to v6.4.49:
   `CVE-2026-45070 <https://symfony.com/cve-2026-45070>`_
+* ``symfony/yaml`` from v6.4.48 to v6.4.50:
+  `GHSA-hwfg-qwvh-2wfx <https://github.com/symfony/symfony/security/advisories/GHSA-hwfg-qwvh-2wfx>`_
 
 Since the compilation version is exposed via the eShop core
 component, the CE package v7.4.7 was released to provide the
 7.4.5 compilation information. The PE and EE packages were tagged
 v7.4.7 as well, so that all three editions stay in sync. These
 components contain **no functional changes**; the update of the
-Symfony component is part of this release.
+Symfony components is part of this release.
 
 .. _packages-745:
 
@@ -31,7 +41,7 @@ Packages
 
 Compared to the 7.4.4 compilation, the package versions are
 unchanged, except for the eShop core (CE/PE/EE), newly tagged as
-v7.4.7, and the updated Symfony component mentioned above.
+v7.4.7, and the updated Symfony components mentioned above.
 
 OXID eShop CE Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
