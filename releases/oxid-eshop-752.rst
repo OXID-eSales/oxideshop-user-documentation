@@ -9,7 +9,7 @@ Optimierungen & Fehlerbehebungen
 Aktualisierte Symfony-Komponenten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die Compilation 7.5.2 ist ein Wartungs-Release. Sie aktualisiert acht
+Die Compilation 7.5.2 ist ein Wartungs-Release. Sie aktualisiert
 Symfony-Komponenten. Die Updates enthalten die Korrekturen zu den folgenden
 Sicherheitshinweisen von Symfony:
 
