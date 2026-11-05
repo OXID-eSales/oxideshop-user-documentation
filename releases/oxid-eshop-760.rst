@@ -169,6 +169,34 @@ Optimierungen & Fehlerbehebungen
 * GDPR Opt-In: exportierte Dateien erhalten eine Dateiendung.
 * Demodata CE: korrekte SEO-Identifier für „Passwort vergessen"-Seiten.
 
+Aktualisierte Symfony-Komponenten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Gegenüber der Compilation 7.5.1 aktualisiert die Compilation 7.6.0 die
+folgenden Symfony-Komponenten. Die Updates enthalten die Korrekturen zu den
+folgenden Sicherheitshinweisen von Symfony:
+
+* ``symfony/config`` von v6.4.34 auf v6.4.50:
+  `GHSA-5jff-8h8q-r5qx <https://github.com/symfony/symfony/security/advisories/GHSA-5jff-8h8q-r5qx>`_
+* ``symfony/filesystem`` von v6.4.34 auf v6.4.50:
+  `GHSA-6prc-h956-hxjq <https://github.com/symfony/symfony/security/advisories/GHSA-6prc-h956-hxjq>`_
+* ``symfony/html-sanitizer`` von v6.4.41 auf v6.4.50:
+  `CVE-2026-118517 <https://symfony.com/cve-2026-118517>`_,
+  `GHSA-q8jq-xrf4-v5j8 <https://github.com/symfony/symfony/security/advisories/GHSA-q8jq-xrf4-v5j8>`_,
+  `GHSA-wm2w-4mgj-vw33 <https://github.com/symfony/symfony/security/advisories/GHSA-wm2w-4mgj-vw33>`_
+* ``symfony/http-foundation`` von v6.4.48 auf v6.4.50:
+  `CVE-2026-118514 <https://symfony.com/cve-2026-118514>`_,
+  `GHSA-3h27-hjv7-fqjx <https://github.com/symfony/symfony/security/advisories/GHSA-3h27-hjv7-fqjx>`_,
+  `GHSA-5mx8-mwrp-5693 <https://github.com/symfony/symfony/security/advisories/GHSA-5mx8-mwrp-5693>`_
+* ``symfony/http-kernel`` von v6.4.36 auf v6.4.50:
+  `GHSA-wg5q-m2ww-f3c9 <https://github.com/symfony/symfony/security/advisories/GHSA-wg5q-m2ww-f3c9>`_
+* ``symfony/mime`` von v6.4.40 auf v6.4.49:
+  `CVE-2026-45070 <https://symfony.com/cve-2026-45070>`_
+* ``symfony/routing`` von v6.4.41 auf v6.4.50:
+  `CVE-2026-118516 <https://symfony.com/cve-2026-118516>`_
+* ``symfony/yaml`` von v6.4.48 auf v6.4.50:
+  `GHSA-hwfg-qwvh-2wfx <https://github.com/symfony/symfony/security/advisories/GHSA-hwfg-qwvh-2wfx>`_
+
 .. _packages-760:
 
 Packages
