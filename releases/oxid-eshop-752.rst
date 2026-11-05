@@ -1,7 +1,7 @@
 OXID eShop Compilation 7.5.2
 ============================
 
-Veröffentlichungsdatum: TBD
+Veröffentlichungsdatum: 05.11.2026
 
 Optimierungen & Fehlerbehebungen
 --------------------------------
