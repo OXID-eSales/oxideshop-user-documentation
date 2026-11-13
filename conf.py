@@ -99,6 +99,7 @@ html_context = {
          ('7.3', 'https://docs.oxid-esales.com/eshop/de/7.3/'),
          ('7.4', 'https://docs.oxid-esales.com/eshop/de/7.4/'),
          ('7.5', 'https://docs.oxid-esales.com/eshop/de/7.5/'),
+         ('7.6', 'https://docs.oxid-esales.com/eshop/de/7.6/'),
          ],
     'languages':
         [('DE', 'https://docs.oxid-esales.com/eshop/de/7.3/'),
