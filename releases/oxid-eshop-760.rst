@@ -174,7 +174,7 @@ OXID eShop CE Compilation
 
 **With functional 7.6 change:**
 
-* OXID eShop CE **v7.5.1 → v7.6.0**: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.6.0/CHANGELOG-7.6.md>`_
+* OXID eShop CE **v7.5.3 → v7.6.0**: `Changelog <https://github.com/OXID-eSales/oxideshop_ce/blob/v7.6.0/CHANGELOG-7.6.md>`_
 * APEX Theme **v3.1.0 → v3.2.0**: `Changelog <https://github.com/OXID-eSales/apex-theme/blob/v3.2.0/CHANGELOG-3.x.md>`_
 * WYSIWYG Editor Module **v7.0.1 → v8.0.1** (Content & Media Bundle 12; alternatively v7.1.1 for Bundle 11 or v5.0.1 for Bundle 8): `Changelog <https://github.com/OXID-eSales/ddoe-wysiwyg-editor-module/blob/v8.0.1/CHANGELOG.md>`_
 * Media Library Module **v5.1.0 → v6.0.0** (Content & Media Bundle 12; alternatively v5.2.0 for Bundle 11 or v3.0.0 for Bundle 8): `Changelog <https://github.com/OXID-eSales/media-library-module/blob/v6.0.0/CHANGELOG.md>`_
@@ -204,7 +204,7 @@ OXID eShop PE Compilation
 
 The OXID eShop PE Compilation additionally contains the following packages:
 
-* OXID eShop PE **v7.5.1 → v7.6.0**
+* OXID eShop PE **v7.5.3 → v7.6.0**
 * OXID eShop Demodata PE **v8.1.0 → v8.1.1**
 * Twig Component PE v2.6.0 (unchanged)
 * Visual CMS Module **v10.0.1 → v12.0.0** (Content & Media Bundle 12; alternatively v11.1.0 for Bundle 11 or v8.0.2 for Bundle 8)
@@ -214,7 +214,7 @@ OXID eShop EE Compilation
 
 The OXID eShop EE Compilation additionally contains the following packages:
 
-* OXID eShop EE **v7.5.1 → v7.6.0**
+* OXID eShop EE **v7.5.3 → v7.6.0**
 * OXID eShop Demodata EE **v8.2.0 → v8.2.1**
 * Twig Component EE **v2.6.0 → v2.7.0**
 
