@@ -1,9 +1,7 @@
 OXID eShop Compilation 7.6.0
 ============================
 
-Veröffentlichungsdatum: TBD
-
-.. todo: release date
+Veröffentlichungsdatum: 16.11.2026
 
 .. note::
 
