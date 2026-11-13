@@ -227,35 +227,32 @@ Die OXID eShop EE Compilation enthält zusätzlich die folgenden Pakete:
 .. COMMENTED OUT - does NOT render:
    B2B is not part of the initial 7.6 compilation (hence no EE-B2B section).
 
+Kompatible OXID Erweiterungen
+-----------------------------
+
+* OXAPI GraphQL Base Modul 14.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/14.0/>`_
+* OXAPI GraphQL Configuration Access Modul 4.1: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/14.0/>`_
+* OXAPI GraphQL Storefront Modul 6.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/14.0/>`_
+* OXAPI GraphQL Orders Information Modul 2.3: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/14.0/>`_
+* OXID ERP Schnittstelle 4.5: `Dokumentation [en] (passwortgeschützt) <https://docs.oxid-esales.com/interfaces/erp/en/4.5>`_
+* OXID eShop Admin Tools 2.1: `Dokumentation <https://docs.oxid-esales.com/modules/admin-tools/de/2.1/>`_
+* OXID eShop Country VAT Administration 2.6: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/country-vat-module/blob/v2.6.0/README.md>`_
+* OXID eShop Geo-Blocking Modul 2.6: `Dokumentation <https://docs.oxid-esales.com/modules/geo-blocking/de/2.6>`_
+* OXID eShop Shipping Cost Compensation Modul 1.4: `Dokumentation <https://docs.oxid-esales.com/modules/freeshipping-coupons/de/1.4/>`_
+* OXID eShop eVAT Modul 4.5: `Dokumentation <https://docs.oxid-esales.com/modules/vat-tbe-services/de/4.5>`_
+* OXID Cookie Management powered by Usercentrics 3.4: `Dokumentation <https://docs.oxid-esales.com/modules/usercentrics/de/3.4/>`_
+* GDPR Opt-In Module 4.5: `Dokumentation <https://docs.oxid-esales.com/modules/gdpr-optin/de/4.5/>`_
+* OXID eShop Consistency Check Component 3.1: `Dokumentation [en] (GitHub) <https://github.com/OXID-eSales/consistency-check-tool/blob/v3.1.0/README.md>`_
+* OXID Modul Template 5.3: `Dokumentation (GitHub) <https://github.com/OXID-eSales/module-template/blob/v5.3.0/README.md>`_
+* OXID Examples Modul 2.2: `Dokumentation (GitHub) <https://github.com/OXID-eSales/examples-module/blob/v2.2.1/README.md>`_
+
 .. COMMENTED OUT - PROVISIONAL, does NOT render (not even in preview):
-   Compatible extensions are released AFTER the compilation; no final 7.6 tags exist yet.
-   Versions below are PROSPECTIVE - taken from the "Unreleased" changelog headers on each
-   module's b-7.6.x branch (graphql-base → v14.0.0, confirmed by PO). The changelog links
-   point at these prospective tags and will 404 until the module is actually tagged.
-   When a module is provably released: verify its final version, then uncomment its line
-   (adjust version/link if the released tag differs). Raw (German) content below:
+   Not released yet (2026-11-13). Uncomment and move into the list above once tagged:
+   - graphql-storefront-administration v5.0.0 (follow-up release, ETA end of November)
+   - security-module 5.0 (blocked, not release-ready)
 
-   Kompatible OXID Erweiterungen
-   -----------------------------
-
-   Die kompatiblen Erweiterungen werden nachgelagert zur Compilation veröffentlicht; die
-   folgenden Versionen sind voraussichtlich (final mit dem jeweiligen Modul-Release):
-
-   * OXAPI GraphQL Base Modul **v14.0.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/graphql-base-module/blob/v14.0.0/CHANGELOG-v14.md>`_
-   * OXAPI GraphQL Configuration Access Modul **v4.1.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/graphql-configuration-access/blob/v4.1.0/CHANGELOG.md>`_
-   * OXAPI GraphQL Storefront Modul **v5.1.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/graphql-storefront-module/blob/v5.1.0/CHANGELOG.md>`_
-   * OXAPI GraphQL Storefront Administration Modul **v5.0.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/graphql-storefront-administration/blob/v5.0.0/CHANGELOG.md>`_
-   * OXAPI GraphQL Orders Information Modul **v2.3.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/graphql-orders-information-module/blob/v2.3.0/CHANGELOG.md>`_
-   * OXID Security Modul **v4.1.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/security-module/blob/v4.1.0/CHANGELOG.md>`_
-   * OXID eShop Admin Tools **v2.1.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/admin-tools-module/blob/v2.1.0/CHANGELOG.md>`_
-   * OXID eShop Country VAT Administration **v2.6.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/country-vat-module/blob/v2.6.0/CHANGELOG.md>`_
-   * OXID eShop Geo-Blocking Modul **v2.6.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/geo-blocking-module/blob/v2.6.0/CHANGELOG.md>`_
-   * OXID eShop Shipping Cost Compensation Modul **v1.4.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/freeshipping-coupons-module/blob/v1.4.0/CHANGELOG.md>`_
-   * OXID eShop eVAT Modul **v4.5.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/vat_tbe_services/blob/v4.5.0/CHANGELOG.md>`_
-   * OXID eShop Consistency Check Component **v3.1.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/consistency-check-tool/blob/v3.1.0/CHANGELOG.md>`_
-   * OXID Modul Template **v5.3.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/module-template/blob/v5.3.0/CHANGELOG.md>`_
-   * OXID Examples Modul **v2.2.0** (voraussichtlich): `Changelog <https://github.com/OXID-eSales/examples-module/blob/v2.2.0/CHANGELOG.md>`_
-   * OXID ERP Schnittstelle (extern; Version folgt mit dem Release)
+   * OXAPI GraphQL Storefront Administration Modul 5.0: `Dokumentation [en] <https://docs.oxid-esales.com/interfaces/graphql/en/14.0/>`_
+   * OXID eShop Security-Modul 5.0: `Dokumentation <https://docs.oxid-esales.com/modules/security/de/5.0/>`_
 
 Update
 ------
